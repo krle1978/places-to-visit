@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destinations — Places To Visit</title>
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="../assets/css/main.css">
+
+    <!-- Component loader -->
+    <script src="../assets/js/includes.js" defer></script>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<div data-include="/components/header.html"></div>
+
+
+<!-- HERO -->
+<section class="hero" style="padding-top: 5rem;">
+    <div class="hero-text">
+        <h1>Explore Destinations</h1>
+        <p>
+            Browse countries and cities I've visited.  
+            Each place contains a story, pictures, seasonal recommendations,  
+            and insights from the trip.
+        </p>
+    </div>
+
+    <div class="hero-image">
+        <img src="../assets/images/backgrounds/destinations-hero.jpg" alt="Destinations Map">
+    </div>
+</section>
+
+
+<!-- COUNTRY LIST -->
+<section class="featured">
+    <h2 class="section-title">Countries</h2>
+
+    <div class="cards">
+        <!-- ROMANIA -->
+        <div
+            data-include="/components/card.html"
+            data-title="Romania"
+            data-image="/assets/images/destinations/romania-cover.png"
+            data-desc="Transylvania, medieval castles and vibrant cities."
+            data-link="#romania">
+        </div>
+    </div>
+</section>
+
+
+<!-- ROMANIA DESTINATIONS -->
+<section class="featured" id="romania">
+    <h2 class="section-title">Romania — Cities & Places</h2>
+
+    <p style="max-width: 650px; font-size: 1.05rem; color: #4b5563; margin-bottom: 2rem;">
+        All destinations visited in Romania — organized chronologically and geographically.
+        Every page includes photos, a story, key highlights, and seasonal suggestions.
+    </p>
+
+    <div class="cards">
+
+        <!-- TIMISOARA -->
+        <div
+            data-include="/components/card.html"
+            data-title="Timisoara"
+            data-image="/assets/images/destinations/timisoara.jpg"
+            data-desc="October 2025 — Architecture, parks & autumn colors"
+            data-link="/destinations/country/Romania/Timisoara/2025/October/index.html">
+        </div>
+
+        <!-- CASTELUL CORVINILOR -->
+        <div
+            data-include="/components/card.html"
+            data-title="Castelul Corvinilor"
+            data-image="/assets/images/destinations/corvinilor.jpg"
+            data-desc="October 2025 — One of Europe’s greatest Gothic castles"
+            data-link="/destinations/country/Romania/Castelul-Corvinilor/2025/October/index.html">
+        </div>
+
+        <!-- ALBA IULIA -->
+        <div
+            data-include="/components/card.html"
+            data-title="Alba Iulia"
+            data-image="/assets/images/destinations/alba-iulia.jpg"
+            data-desc="October 2025 — A fortress city with rich heritage"
+            data-link="/destinations/country/Romania/Alba-Iulia/2025/October/index.html">
+        </div>
+
+        <!-- SALINA TURDA -->
+        <div
+            data-include="/components/card.html"
+            data-title="Salina Turda"
+            data-image="/assets/images/destinations/salina-turda.jpg"
+            data-desc="October 2025 — Incredible underground salt mine"
+            data-link="/destinations/country/Romania/Salina-Turda/2025/October/index.html">
+        </div>
+
+        <!-- CLUJ NAPOCA -->
+        <div
+            data-include="/components/card.html"
+            data-title="Cluj Napoca"
+            data-image="/assets/images/destinations/cluj.jpg"
+            data-desc="October 2025 — Youthful, modern, cultural hub"
+            data-link="/destinations/country/Romania/Cluj-Napoca/2025/October/index.html">
+        </div>
+
+    </div>
+</section>
+
+
+<!-- FOOTER -->
+<div data-include="/components/footer.html"></div>
+
+</body>
+</html>

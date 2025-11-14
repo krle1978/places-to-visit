@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Places To Visit</title>
+
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <!-- Component loader -->
+    <script src="assets/js/includes.js" defer></script>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<div data-include="/components/header.html"></div>
+
+<!-- HERO SECTION -->
+<section class="hero">
+    <div class="hero-text">
+        <h1>Discover Places Through Stories</h1>
+        <p>
+            I travel, observe, photograph and write — capturing human moments, local culture, 
+            architecture and history, so you can explore cities not only by location, but also by season.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="destinations/index.html" class="btn primary">Explore Destinations</a>
+            <a href="seasons.html" class="btn ghost">Browse by Seasons</a>
+        </div>
+    </div>
+
+    <div class="hero-image">
+        <img src="assets/images/backgrounds/hero-main.jpg" alt="Travel scenery">
+    </div>
+</section>
+
+<!-- FEATURED DESTINATIONS -->
+<section class="featured">
+    <h2 class="section-title">Featured Destinations</h2>
+
+    <div class="cards">
+        <a href="destinations/country/Romania/Timisoara/2025/October/index.html" class="card">
+            <img src="assets/images/destinations/timisoara.jpg" alt="Timisoara">
+            <div class="card-text">
+                <h3>Timisoara, Romania</h3>
+                <p>October 2025 — Autumn colors & old-town charm</p>
+            </div>
+        </a>
+
+        <a href="destinations/country/Romania/Castelul-Corvinilor/2025/October/index.html" class="card">
+            <img src="assets/images/destinations/corvinilor.jpg" alt="Corvin Castle">
+            <div class="card-text">
+                <h3>Castelul Corvinilor</h3>
+                <p>October 2025 — Stunning Gothic architecture</p>
+            </div>
+        </a>
+
+        <a href="destinations/country/Romania/Cluj-Napoca/2025/October/index.html" class="card">
+            <img src="assets/images/destinations/cluj.jpg" alt="Cluj">
+            <div class="card-text">
+                <h3>Cluj Napoca</h3>
+                <p>October 2025 — Youth, culture and Transylvanian identity</p>
+            </div>
+        </a>
+    </div>
+</section>
+
+<!-- SEASONS SECTION -->
+<section class="seasons">
+    <h2 class="section-title">Browse by Seasons</h2>
+
+    <div class="season-grid">
+        <a href="seasons.html#spring" class="season-card spring"><span>Spring</span></a>
+        <a href="seasons.html#summer" class="season-card summer"><span>Summer</span></a>
+        <a href="seasons.html#autumn" class="season-card autumn"><span>Autumn</span></a>
+        <a href="seasons.html#winter" class="season-card winter"><span>Winter</span></a>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<div data-include="/components/footer.html"></div>
+
+</body>
+</html>

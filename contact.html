@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact — Places To Visit</title>
+
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script src="assets/js/includes.js" defer></script>
+
+    <style>
+        .contact-container {
+            padding: 4rem 6vw;
+            max-width: 900px;
+            margin: auto;
+        }
+        .contact-box {
+            background: #ffffff;
+            padding: 2rem 2.5rem;
+            border-radius: 20px;
+            border: 1px solid #e5e7eb;
+            box-shadow: 0 6px 24px rgba(0,0,0,0.08);
+            margin-top: 2rem;
+        }
+        .contact-box label {
+            display: block;
+            margin-bottom: 0.4rem;
+            font-size: 0.95rem;
+            font-weight: 600;
+        }
+        .contact-box input,
+        .contact-box textarea {
+            width: 100%;
+            padding: 0.9rem 1rem;
+            border-radius: 12px;
+            border: 1px solid #d1d5db;
+            font-size: 1rem;
+            margin-bottom: 1.4rem;
+            transition: 0.2s;
+        }
+        .contact-box input:focus,
+        .contact-box textarea:focus {
+            outline: none;
+            border-color: #111827;
+        }
+        .contact-box textarea {
+            height: 160px;
+            resize: vertical;
+        }
+        .contact-send {
+            background: #111827;
+            color: #ffffff;
+            font-size: 1rem;
+            border: none;
+            padding: 0.9rem 2rem;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+        .contact-send:hover {
+            background: #374151;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<div data-include="/components/header.html"></div>
+
+<!-- HERO SECTION -->
+<section class="hero" style="padding-top: 5rem;">
+    <div class="hero-text">
+        <h1>Contact</h1>
+        <p>
+            If you have ideas, suggestions, collaboration proposals, or simply want to talk 
+            about travel and photography — feel free to send a message.  
+            I’ll read every email personally.
+        </p>
+    </div>
+
+    <div class="hero-image">
+        <img src="assets/images/backgrounds/contact-hero.jpg" alt="Contact image">
+    </div>
+</section>
+
+<!-- CONTACT FORM -->
+<div class="contact-container">
+    <h2 class="section-title">Send a Message</h2>
+
+    <form class="contact-box" action="#" method="POST">
+        <label for="name">Your Name</label>
+        <input id="name" name="name" type="text" placeholder="Type your name..." required>
+
+        <label for="email">Email Address</label>
+        <input id="email" name="email" type="email" placeholder="your@email.com" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Write your message..." required></textarea>
+
+        <button class="contact-send" type="submit">Send Message</button>
+    </form>
+</div>
+
+<!-- FOOTER -->
+<div data-include="/components/footer.html"></div>
+
+</body>
+</html>

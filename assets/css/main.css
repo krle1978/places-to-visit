@@ -1,0 +1,261 @@
+/* ------------------------------
+   RESET (osnovni)
+--------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, Arial, sans-serif;
+    background: #ffffff;
+    color: #111827;
+    line-height: 1.6;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+/* ------------------------------
+   NAVBAR
+--------------------------------*/
+.navbar {
+    width: 100%;
+    padding: 1.2rem 6vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background: #ffffffee;
+    backdrop-filter: blur(6px);
+    border-bottom: 1px solid #e5e7eb;
+    z-index: 50;
+}
+
+.nav-logo {
+    font-size: 1.4rem;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links a {
+    font-size: 0.95rem;
+    padding-bottom: 3px;
+    border-bottom: 2px solid transparent;
+    transition: 0.2s ease;
+}
+
+.nav-links a:hover {
+    border-bottom: 2px solid #111827;
+}
+
+
+/* ------------------------------
+   HERO SECTION
+--------------------------------*/
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5rem 6vw;
+    gap: 4rem;
+}
+
+.hero-text {
+    max-width: 550px;
+}
+
+.hero-text h1 {
+    font-size: clamp(2.3rem, 4vw, 3.2rem);
+    font-weight: 700;
+    line-height: 1.15;
+    margin-bottom: 1.1rem;
+}
+
+.hero-text p {
+    font-size: 1.05rem;
+    color: #4b5563;
+    margin-bottom: 1.8rem;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.btn {
+    padding: 0.75rem 1.6rem;
+    font-size: 0.95rem;
+    border-radius: 50px;
+    border: 1px solid #d1d5db;
+    transition: all 0.25s;
+}
+
+.btn.primary {
+    background: #111827;
+    color: #ffffff;
+    border-color: #111827;
+}
+
+.btn.primary:hover {
+    background: #374151;
+}
+
+.btn.ghost {
+    background: transparent;
+}
+
+.btn.ghost:hover {
+    background: #f3f4f6;
+}
+
+.hero-image img {
+    max-width: 480px;
+    border-radius: 24px;
+    box-shadow: 0 12px 32px rgba(0,0,0,0.12);
+}
+
+
+/* ------------------------------
+   FEATURED DESTINATIONS
+--------------------------------*/
+.featured {
+    padding: 4rem 6vw;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.cards {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1 1 300px;
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 16px 30px rgba(0,0,0,0.15);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-text {
+    padding: 1.2rem 1.4rem;
+}
+
+.card-text h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.4rem;
+    font-weight: 600;
+}
+
+.card-text p {
+    color: #6b7280;
+    font-size: 0.9rem;
+}
+
+
+/* ------------------------------
+   SEASONS SECTION
+--------------------------------*/
+.seasons {
+    padding: 4rem 6vw;
+    background: #f9fafb;
+}
+
+.season-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    margin-top: 2rem;
+    gap: 1.5rem;
+}
+
+.season-card {
+    border-radius: 18px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.season-card span {
+    position: relative;
+    z-index: 2;
+}
+
+/* Background colors */
+.spring  { background: #86efac; }
+.summer  { background: #facc15; }
+.autumn  { background: #fb923c; }
+.winter  { background: #60a5fa; }
+
+.season-card:hover {
+    filter: brightness(0.9);
+    cursor: pointer;
+}
+
+
+/* ------------------------------
+   FOOTER
+--------------------------------*/
+.footer {
+    text-align: center;
+    padding: 2rem;
+    font-size: 0.9rem;
+    color: #6b7280;
+    border-top: 1px solid #e5e7eb;
+}
+
+
+/* ------------------------------
+   RESPONSIVE
+--------------------------------*/
+@media (max-width: 900px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+    .hero-text {
+        max-width: 100%;
+    }
+    .hero-buttons {
+        justify-content: center;
+    }
+}
