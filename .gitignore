@@ -1,0 +1,42 @@
+# --- OPERATING SYSTEM JUNK ---
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# --- VSCODE ---
+.vscode/
+.history/
+.idea/
+
+# --- TEMP / BACKUP FILES ---
+*.tmp
+*.log
+*~
+*.bak
+*.swp
+*.swo
+
+# --- IMAGE EDITING SOURCE FILES (ako ih koristiš) ---
+*.psd
+*.xcf
+*.ai
+*.kra
+*.blend
+
+# --- ZIP / ARCHIVES ---
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+# --- NODE (ako ikad probaš npm skripte) ---
+node_modules/
+dist/
+build/

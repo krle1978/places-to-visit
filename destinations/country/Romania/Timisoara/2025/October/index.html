@@ -7,183 +7,14 @@
 
     <!-- putanja do main.css iz ovog nivoa -->
     <link rel="stylesheet" href="../../../../../../assets/css/main.css">
+    <link rel="stylesheet" href="../../../../../../assets/css/city.css">
+    <script src="../../../../../../assets/js/includes.js" defer></script>
 
-    <style>
-        /* Lokalne stilizacije specifične za destinaciju */
-
-        .city-hero {
-            padding: 5rem 6vw 3rem;
-            display: flex;
-            gap: 3rem;
-            align-items: center;
-            flex-wrap: wrap;
-        }
-
-        .city-meta {
-            max-width: 520px;
-        }
-
-        .city-meta-top {
-            font-size: 0.9rem;
-            text-transform: uppercase;
-            letter-spacing: 0.12em;
-            color: #6b7280;
-            margin-bottom: 0.8rem;
-        }
-
-        .city-meta h1 {
-            font-size: clamp(2.1rem, 3.2vw, 2.8rem);
-            margin-bottom: 0.8rem;
-        }
-
-        .city-meta-date {
-            font-size: 0.95rem;
-            color: #4b5563;
-            margin-bottom: 1.4rem;
-        }
-
-        .city-meta-intro {
-            font-size: 1.02rem;
-            color: #4b5563;
-        }
-
-        .city-hero-image img {
-            max-width: 460px;
-            border-radius: 24px;
-            box-shadow: 0 14px 34px rgba(0,0,0,0.16);
-        }
-
-        .city-section {
-            padding: 2.5rem 6vw;
-            max-width: 900px;
-            margin: 0 auto;
-        }
-
-        .city-section h2 {
-            font-size: 1.6rem;
-            margin-bottom: 1rem;
-        }
-
-        .city-section p {
-            color: #4b5563;
-            font-size: 1.02rem;
-            margin-bottom: 1rem;
-        }
-
-        .city-section ul {
-            list-style: none;
-            padding-left: 0;
-        }
-
-        .city-section li {
-            margin-bottom: 1rem;
-        }
-
-        .city-section li strong {
-            display: inline-block;
-            margin-bottom: 0.2rem;
-        }
-
-        .info-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-            gap: 1.5rem;
-            margin-top: 1.5rem;
-        }
-
-        .info-card {
-            background: #f9fafb;
-            border-radius: 18px;
-            padding: 1.4rem 1.5rem;
-            border: 1px solid #e5e7eb;
-        }
-
-        .info-card h3 {
-            font-size: 1.05rem;
-            margin-bottom: 0.5rem;
-        }
-
-        .info-card p {
-            font-size: 0.95rem;
-            color: #4b5563;
-        }
-
-        .seasons-grid-city {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-            gap: 1.4rem;
-            margin-top: 1.5rem;
-        }
-
-        .season-box {
-            background: #ffffff;
-            border-radius: 18px;
-            border: 1px solid #e5e7eb;
-            padding: 1.3rem 1.4rem;
-        }
-
-        .season-box h3 {
-            font-size: 1.02rem;
-            margin-bottom: 0.4rem;
-        }
-
-        .season-box p {
-            font-size: 0.95rem;
-            color: #4b5563;
-        }
-
-        .gallery {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-            gap: 1.2rem;
-            margin-top: 1.8rem;
-        }
-
-        .gallery figure {
-            margin: 0;
-            border-radius: 18px;
-            overflow: hidden;
-            border: 1px solid #e5e7eb;
-            background: #ffffff;
-        }
-
-        .gallery img {
-            width: 100%;
-            height: 180px;
-            object-fit: cover;
-            display: block;
-        }
-
-        .gallery figcaption {
-            padding: 0.7rem 0.9rem 0.9rem;
-            font-size: 0.9rem;
-            color: #4b5563;
-        }
-
-        @media (max-width: 900px) {
-            .city-hero {
-                padding-top: 5rem;
-                text-align: left;
-            }
-        }
-    </style>
 </head>
 
 <body>
-
-<!-- NAVBAR -->
-<header class="navbar">
-    <div class="nav-logo">Places To Visit</div>
-
-    <nav class="nav-links">
-        <a href="../../../../../../index.html">Home</a>
-        <a href="../../../../../../about.html">About</a>
-        <a href="../../../../../../destinations/index.html">Destinations</a>
-        <a href="../../../../../../seasons.html">Seasons</a>
-        <a href="../../../../../../contact.html">Contact</a>
-    </nav>
-</header>
-
+<!-- HEADER -->
+<div data-include="../../../../../../components/header.html"></div>
 
 <!-- CITY HERO -->
 <section class="city-hero">
@@ -208,15 +39,15 @@
 <section class="city-section">
     <h2>What I Experienced</h2>
     <p>
-        U Timisoaru sam stigao kasno popodne, taman kad je svetlo počelo da prelazi iz 
-        dnevnog u “zlatni sat”. Glavni trg, Victory Square, bio je pun ljudi, ali ne prenatrpan – 
-        parovi koji šetaju, stariji bračni parovi na klupama, klinci sa trotinetima, 
-        turisti koji pokušavaju da uhvate savršenu fotku katedrale.
+        I arrived in Timisoara early in the morning, just as the city was starting to wake
+         up. The main square, Victory Square, was empty of people, so I was free to walk around the 
+         square and admire the baroque and art nouveau facades of the buildings on the square, 
+         and the fairytale-like cathedral at the very end of the square.
     </p>
     <p>
-        Grad deluje poznato ako si navikao na srednjoevropske gradove: secesijske fasade, široke ulice, 
-        trgovi koji se otvaraju jedan u drugi. Ali ima i svoju boju – nešto u tempu ljudi i 
-        tome koliko opušteno sede u kafićima dok se dan spušta.
+        The city seems familiar if you're used to Central European cities: Art Nouveau facades, wide streets, 
+        squares that open into each other. But it also has its own color – something in the pace of the people and 
+        how relaxed they sit in cafes as the day fades.
     </p>
 </section>
 
@@ -229,27 +60,27 @@
         <div class="info-card">
             <h3>Austro-Hungarian Architecture</h3>
             <p>
-                Fasade oko glavnih trgova nose pečat habsburške arhitekture – šarene, ukrašene, 
-                sa detaljima koje vredi usporiti da bi primetio. Ne izgleda kao klasična “istočna Evropa”, 
-                već više kao miks Beča i manjeg grada u Mađarskoj.
+                The facades around the main squares bear the hallmarks of Habsburg architecture – colorful, ornate, 
+                with details worth slowing down to notice. It doesn't look like classic "Eastern Europe," 
+                but more like a mix of Vienna and a small town in Hungary.
             </p>
         </div>
 
         <div class="info-card">
             <h3>Squares that Feel Like Living Rooms</h3>
             <p>
-                Trgovi ovde funkcionišu kao dnevne sobe grada. Ljudi jednostavno sede, 
-                gledaju prolaznike, hrane golubove, razgovaraju. Nije “turistički performans” – 
-                to je njihov normalan život.
+               The squares here function as the living rooms of the city. People simply sit, 
+                watch passersby, feed pigeons, talk. It's not a "tourist performance" – 
+                it's their normal life.
             </p>
         </div>
 
         <div class="info-card">
-            <h3>Parkovi i Zelenilo</h3>
+            <h3>Parks and Greenery</h3>
             <p>
-                Uz Bega kanal i kroz grad provlači se dosta zelenila. U oktobru, drveće nosi 
-                sve nijanse žute i narandžaste, što daje dodatni sloj atmosferi – posebno popodne 
-                kad svetlo “udara” pod uglom.
+                There is a lot of greenery along the Bega Canal and through the city. In October, the trees take on 
+                all shades of yellow and orange, which adds an extra layer to the atmosphere – especially in the afternoon 
+                when the light hits them at an angle.
             </p>
         </div>
     </div>
@@ -258,41 +89,62 @@
 
 <!-- WHAT TO SEE & DO -->
 <section class="city-section">
-    <h2>What to See & Do</h2>
+    <h2>What to See & Do in Timisoara</h2>
 
-    <ul>
-        <li>
-            <strong>Victory Square (Piața Victoriei)</strong><br>
-            Glavni trg, okružen pozorištem, katedralom i nizom zgrada sa prepoznatljivim fasadama. 
-            Idealno mesto za prvu šetnju – jednostavno prođi ceo trg, sedi u neku kafanu ili kafić i 
-            gledaj kako se grad odvija ispred tebe.
-        </li>
+    <div class="sights-grid">
 
-        <li>
-            <strong>Orthodox Metropolitan Cathedral</strong><br>
-            Ikonična tačka Timisoare. Iznutra prigušeno svetlo, mir, ikone – kontrast u odnosu na 
-            šum trga napolju. Ako voliš da osmotriš detalje, unutra ima dosta zanimljivih fresaka i ornamenata.
-        </li>
+        <!-- Victory Square -->
+        <div class="sight-item">
+            <img src="../../../../../../assets/images/destinations/timisoara-square-dusk.jpg" alt="Victory Square">
+            <div class="sight-item-content">
+                <h3>Victory Square (Piața Victoriei)</h3>
+                <p>
+                   The main city square – wide, lively, but not chaotic. Ideal for a first walk through the city,
+                    sitting in a cafe and people watching. In the evening, the bright facades and cathedrals create
+                    a warm atmosphere.
+                </p>
+            </div>
+        </div>
 
-        <li>
-            <strong>Union Square (Piața Unirii)</strong><br>
-            Možda najfotogeničnije mesto u gradu – pastelne zgrade, katolička crkva, stubovi, kafići. 
-            U oktobru, terasa možda nije puna kao leti, ali i dalje ima dovoljno života, 
-            plus više mira za fotkanje i posmatranje.
-        </li>
+        <!-- Serbian Orthodox Church -->
+        <div class="sight-item">
+            <img src="../../../../../../assets/images/destinations/serbian-orthodox-church.jpg" alt="Serbian Orthodox Church">
+            <div class="sight-item-content">
+                <h3>Serbian Orthodox Church</h3>
+                <p>
+                    Visible from Freedom Square, but the entrance is on the opposite side due to the Orthodox custom
+                    that the altar faces east. The interior is quiet, warm and full of details — a perfect contrast
+                    to the city noise.
+                </p>
+            </div>
+        </div>
 
-        <li>
-            <strong>Walk Along the Bega River</strong><br>
-            Šetnja uz reku daje potpuno drugi osjećaj grada – mirnije, opuštenije, više lokalno. 
-            Sjajno za kasno popodne pre nego što se vratiš u centar.
-        </li>
+        <!-- Union Square -->
+        <div class="sight-item">
+            <img src="../../../../../../assets/images/destinations/timisoara-union-square.jpg" alt="Union Square">
+            <div class="sight-item-content">
+                <h3>Union Square (Piața Unirii)</h3>
+                <p>
+                    The most photogenic square in the city: pastel facades, baroque and art nouveau elements,
+                    large open spaces. In October, the atmosphere is quieter and ideal for photography.
+                </p>
+            </div>
+        </div>
 
-        <li>
-            <strong>Cafés & Night Lights</strong><br>
-            Kad padne mrak, trgovi dobiju toplu, žutu rasvetu. Kafići imaju kombinaciju modernog i starog, 
-            a najbolje što možeš da uradiš je – da sedneš, naručiš kafu ili vino i samo posmatraš.
-        </li>
-    </ul>
+        <!-- Freedom Square -->
+        <div class="sight-item">
+            <img src="../../../../../../assets/images/destinations/timisoara-freedom-square.jpg" alt="Freedom Square">
+            <div class="sight-item-content">
+                <h3>Freedom Square (Piața Libertății)</h3>
+                <p>
+                    Less a tourist square, more a local one. Baroque-Gothic column in the center, facade lights
+                    and during the year numerous events with food and drink stands.
+                </p>
+            </div>
+        </div>
+
+
+    </div>
 </section>
 
 
@@ -300,40 +152,40 @@
 <section class="city-section">
     <h2>Best Time to Visit Timisoara</h2>
     <p>
-        Možeš da posetiš Timisoaru tokom cele godine, ali svako godišnje doba ima svoj karakter. 
-        Ovako bih ja to sumirao:
+        You can visit Timisoara all year round, but each season has its own character. 
+        Here's how I would sum it up:
     </p>
 
     <div class="seasons-grid-city">
         <div class="season-box">
             <h3>Spring (March–May)</h3>
             <p>
-                Proleće donosi prijatne temperature, cvetanje parkova i idealne uslove za šetnju. 
-                Ako voliš da grad vidiš “budan, ali ne prepun”, proleće je odličan izbor.
+                Spring brings pleasant temperatures, blooming parks, and ideal walking conditions. 
+                If you like to see the city “awake but not crowded,” spring is a great choice.
             </p>
         </div>
 
         <div class="season-box">
             <h3>Summer (June–August)</h3>
             <p>
-                Toplije, više događaja, duži dani. Više ljudi na ulicama, bašte kafića su pune. 
-                Ako ti ne smeta vrućina, leto daje najviše urbanog pulsa.
+                Warmer, more events, longer days. More people on the streets, cafe gardens are full. 
+                If you don't mind the heat, summer gives the most urban pulse.
             </p>
         </div>
 
         <div class="season-box">
             <h3>Autumn (September–November)</h3>
             <p>
-                Moja preporuka. Zlatni tonovi u parkovima, blaga temperatura, manja gužva u centru. 
-                Trgovi i fasade izgledaju još bolje u mekom jesenjem svetlu.
+                My recommendation. Golden tones in the parks, mild temperatures, less crowds in the center. 
+                The squares and facades look even better in the soft autumn light.
             </p>
         </div>
 
         <div class="season-box">
             <h3>Winter (December–February)</h3>
             <p>
-                Hladnije, ali uz potencijal za novogodišnje i božićne dekoracije. Ako voliš zimske gradove, 
-                može biti vrlo prijatno – samo računaj na kraći dan i nešto zatvoreniji vibe.
+                Colder, but with the potential for New Year's and Christmas decorations. If you like winter cities, 
+                it can be very pleasant - just expect shorter days and a slightly more closed-off vibe.
             </p>
         </div>
     </div>
@@ -351,22 +203,22 @@
     <div class="gallery">
         <figure>
             <img src="../../../../../../assets/images/destinations/timisoara-square-dusk.jpg" alt="Victory Square at dusk">
-            <figcaption>Victory Square predveče — ljudi, svetla i katedrala u pozadini.</figcaption>
+            <figcaption>Victory Square early in the morning — A beautifully landscaped park with the cathedral in the background.</figcaption>
         </figure>
 
         <figure>
-            <img src="../../../../../../assets/images/destinations/timisoara-cathedral.jpg" alt="Timisoara Cathedral">
-            <figcaption>Metropolitan Cathedral posmatrana iz centra trga.</figcaption>
+            <img src="../../../../../../assets/images/destinations/serbian-orthodox-church.jpg" alt="Serbian Orthodox Church">
+            <figcaption>Serbian Orthodox Church. Interior. It can be seen from Freedom Square, but the entrance is on the other side, due to the geographical orientation. According to Orthodox customs, the ortal always faces east.</figcaption>
         </figure>
 
         <figure>
             <img src="../../../../../../assets/images/destinations/timisoara-union-square.jpg" alt="Union Square">
-            <figcaption>Union Square sa pastelno obojenim fasadama i tihom, jesenjom atmosferom.</figcaption>
+            <figcaption>Union Square with its pastel-colored facades and quiet, autumnal atmosphere. The architecture is a blend of Baroque and Art Nouveau.</figcaption>
         </figure>
 
         <figure>
-            <img src="../../../../../../assets/images/destinations/timisoara-bega-river.jpg" alt="Bega River">
-            <figcaption>Šetnja uz Bega kanal — druga, mirnija strana grada.</figcaption>
+            <img src="../../../../../../assets/images/destinations/timisoara-freedom-square.jpg" alt="Freedom Square">
+            <figcaption>Freedom Square - with a Baroque-Gothic column in the middle. Throughout the year, it hosts various events with food and drink stands.</figcaption>
         </figure>
     </div>
 </section>

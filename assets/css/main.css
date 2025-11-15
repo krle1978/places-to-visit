@@ -64,6 +64,11 @@ a {
     border-bottom: 2px solid #111827;
 }
 
+.nav-logo img {
+    height: 48px;       /* ili 40px, 50px... kako želiš */
+    width: auto;
+    display: block;
+}
 
 /* ------------------------------
    HERO SECTION
