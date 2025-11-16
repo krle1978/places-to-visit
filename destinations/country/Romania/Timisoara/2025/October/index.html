@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Timisoara, Romania — October 2025 | Places To Visit</title>
 
-    <!-- putanja do main.css iz ovog nivoa -->
     <link rel="stylesheet" href="../../../../../../assets/css/main.css">
     <link rel="stylesheet" href="../../../../../../assets/css/city.css">
     <script src="../../../../../../assets/js/includes.js" defer></script>
-
+    <script src="../../../../../../assets/js/timisoara-routes.js" defer></script>
 </head>
+
 
 <body>
 <!-- HEADER -->
@@ -51,6 +51,82 @@
     </p>
 </section>
 
+<!-- ROUTE PLANNER WRAPPER (COLLAPSIBLE) -->
+<section class="city-section route-planner-wrapper">
+
+    <div class="route-planner-header" id="route-planner-toggle">
+        <h2>Plan Your Perfect Day in Timisoara</h2>
+    </div>
+
+    <div id="route-planner-panel" class="route-planner-panel collapsed">
+
+        <!-- ORIGINALNA ROUTE PLANNER SEKCIJA OVDE -->
+        <div class="route-planner">
+            <div class="route-planner-grid">
+
+                <!-- Kontrole -->
+                <div class="route-controls">
+
+                    <!-- Trip Type -->
+                    <div class="route-field">
+                        <label for="route-trip-type">Trip type</label>
+                        <select id="route-trip-type">
+                            <option value="">-- Select trip type --</option>                            
+                        </select>
+                    </div>
+
+                    <!-- Interests -->
+                    <div class="route-field">
+                        <label for="route-interest">Interests</label>
+                        <select id="route-interest">
+                            <option value="">-- Select interest --</option>
+                        </select>
+                    </div>
+
+                    <!-- Food -->
+                    <div class="route-field">
+                        <label for="route-food">Food type</label>
+                        <select id="route-food">
+                            <option value="">-- Select food type --</option>
+                            <option value="Street food">Street food</option>
+                            <option value="Local food">Local food</option>
+                        </select>
+                    </div>
+
+                    <!-- Budget -->
+                    <div class="route-field">
+                        <label for="route-budget">Budget</label>
+                        <select id="route-budget">
+                            <option value="">-- Select budget --</option>
+                            <option value="Low">Low</option>
+                            <option value="High">High</option>
+                        </select>
+                    </div>
+
+                    <button id="route-submit" class="btn route-submit-btn">
+                        Get route recommendation
+                    </button>
+
+                    <p id="route-error" class="route-error-message"></p>
+                </div>
+
+                <!-- Rezultat -->
+                <div class="route-result-wrapper">
+                    <h3 class="route-result-title">Your route</h3>
+
+                    <div id="route-result" class="route-result">
+                        <p class="route-placeholder">
+                            Select the desired parameters and wait for the recommendation.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</section>
 
 <!-- WHY THIS PLACE IS SPECIAL -->
 <section class="city-section">
@@ -147,6 +223,7 @@
     </div>
 </section>
 
+<button id="route-open-btn" class="btn make-route-btn">Make my route</button>
 
 <!-- BEST TIME TO VISIT -->
 <section class="city-section">

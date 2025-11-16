@@ -1,54 +1,44 @@
-// Load HTML components (header, footer, card wrappers, etc.)
-function loadIncludes() {
-    return new Promise(resolve => {
-        const includeElements = document.querySelectorAll("[data-include]");
-        let loaded = 0;
+console.log("Includes JS loaded!");
 
-        if (includeElements.length === 0) {
-            resolve();
+document.addEventListener("DOMContentLoaded", () => {
+    const includes = document.querySelectorAll("[data-include]");
+
+    includes.forEach(async (el) => {
+        let file = el.getAttribute("data-include");
+
+        // ukloni leading slash lokalno
+        if (file.startsWith("/") && !window.location.hostname.includes("vercel.app")) {
+            file = file.slice(1);
+        }
+
+        // fetch HTML komponente
+        const response = await fetch(file);
+        if (!response.ok) {
+            console.error("Include failed:", file);
             return;
         }
 
-        includeElements.forEach(el => {
-            const file = el.getAttribute("data-include");
+        const html = await response.text();
+        el.innerHTML = html;
 
-            fetch(file)
-                .then(resp => resp.text())
-                .then(html => {
-                    el.innerHTML = html;
-                    loaded++;
+        // --- DYNAMIC CARD DATA ---
+        if (file.includes("card.html")) {
+            const card = el.querySelector(".card");
+            if (!card) return;
 
-                    if (loaded === includeElements.length) {
-                        resolve();
-                    }
-                })
-                .catch(err => console.error("Include failed:", file, err));
-        });
-    });
-}
+            const title = el.dataset.title;
+            const image = el.dataset.image;
+            const desc = el.dataset.desc;
+            const link = el.dataset.link;
 
-// Populate card components AFTER includes are done
-function populateCards() {
-    document.querySelectorAll("[data-title]").forEach(container => {
-        const card = container.querySelector(".card");
+            const imgEl = card.querySelector("img");
+            const h3El = card.querySelector("h3");
+            const pEl = card.querySelector("p");
 
-        if (!card) return;
-
-        const title = container.dataset.title || "";
-        const image = container.dataset.image || "";
-        const desc  = container.dataset.desc  || "";
-        const link  = container.dataset.link  || "#";
-
-        card.querySelector("h3").textContent = title;
-        card.querySelector("p").textContent = desc;
-        card.querySelector("img").src = image;
-        card.href = link;
-    });
-}
-
-// MAIN SEQUENCE
-document.addEventListener("DOMContentLoaded", () => {
-    loadIncludes().then(() => {
-        populateCards();
+            if (imgEl && image) imgEl.src = image;
+            if (h3El && title) h3El.innerText = title;
+            if (pEl && desc) pEl.innerText = desc;
+            if (link) card.href = link;
+        }
     });
 });
