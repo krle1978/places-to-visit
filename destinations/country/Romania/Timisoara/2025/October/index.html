@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Timisoara, Romania — October 2025 | Places To Visit</title>
 
-    <link rel="stylesheet" href="../../../../../../assets/css/main.css">
-    <link rel="stylesheet" href="../../../../../../assets/css/city.css">
-    <script src="../../../../../../assets/js/includes.js" defer></script>
-    <script src="../../../../../../assets/js/timisoara-routes.js" defer></script>
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/city.css">
+    <script src="/assets/js/includes.js" defer></script>
+    <script src="/assets/js/timisoara-routes.js" defer></script>
+    <script src="/assets/js/gallery.js" defer></script>
 </head>
 
 
@@ -30,7 +31,7 @@
     </div>
 
     <div class="city-hero-image">
-        <img src="../../../../../../assets/images/destinations/timisoara.jpg" alt="Timisoara main square at dusk">
+        <img src="/assets/images/destinations/timisoara.jpg" alt="Timisoara main square at dusk">
     </div>
 </section>
 
@@ -171,7 +172,7 @@
 
         <!-- Victory Square -->
         <div class="sight-item">
-            <img src="../../../../../../assets/images/destinations/timisoara-square-dusk.jpg" alt="Victory Square">
+            <img src="/assets/images/destinations/timisoara-square-dusk.jpg" alt="Victory Square">
             <div class="sight-item-content">
                 <h3>Victory Square (Piața Victoriei)</h3>
                 <p>
@@ -184,7 +185,7 @@
 
         <!-- Serbian Orthodox Church -->
         <div class="sight-item">
-            <img src="../../../../../../assets/images/destinations/serbian-orthodox-church.jpg" alt="Serbian Orthodox Church">
+            <img src="/assets/images/destinations/serbian-orthodox-church.jpg" alt="Serbian Orthodox Church">
             <div class="sight-item-content">
                 <h3>Serbian Orthodox Church</h3>
                 <p>
@@ -197,7 +198,7 @@
 
         <!-- Union Square -->
         <div class="sight-item">
-            <img src="../../../../../../assets/images/destinations/timisoara-union-square.jpg" alt="Union Square">
+            <img src="/assets/images/destinations/timisoara-union-square.jpg" alt="Union Square">
             <div class="sight-item-content">
                 <h3>Union Square (Piața Unirii)</h3>
                 <p>
@@ -209,7 +210,7 @@
 
         <!-- Freedom Square -->
         <div class="sight-item">
-            <img src="../../../../../../assets/images/destinations/timisoara-freedom-square.jpg" alt="Freedom Square">
+            <img src="/assets/images/destinations/timisoara-freedom-square.jpg" alt="Freedom Square">
             <div class="sight-item-content">
                 <h3>Freedom Square (Piața Libertății)</h3>
                 <p>
@@ -279,22 +280,22 @@
 
     <div class="gallery">
         <figure>
-            <img src="../../../../../../assets/images/destinations/timisoara-square-dusk.jpg" alt="Victory Square at dusk">
+            <img class="gallery-img" src="/assets/images/destinations/timisoara-square-dusk.jpg" alt="Victory Square at dusk">
             <figcaption>Victory Square early in the morning — A beautifully landscaped park with the cathedral in the background.</figcaption>
         </figure>
 
         <figure>
-            <img src="../../../../../../assets/images/destinations/serbian-orthodox-church.jpg" alt="Serbian Orthodox Church">
+            <img class="gallery-img" src="/assets/images/destinations/serbian-orthodox-church.jpg" alt="Serbian Orthodox Church">
             <figcaption>Serbian Orthodox Church. Interior. It can be seen from Freedom Square, but the entrance is on the other side, due to the geographical orientation. According to Orthodox customs, the ortal always faces east.</figcaption>
         </figure>
 
         <figure>
-            <img src="../../../../../../assets/images/destinations/timisoara-union-square.jpg" alt="Union Square">
+            <img class="gallery-img" src="/assets/images/destinations/timisoara-union-square.jpg" alt="Union Square">
             <figcaption>Union Square with its pastel-colored facades and quiet, autumnal atmosphere. The architecture is a blend of Baroque and Art Nouveau.</figcaption>
         </figure>
 
         <figure>
-            <img src="../../../../../../assets/images/destinations/timisoara-freedom-square.jpg" alt="Freedom Square">
+            <img class="gallery-img" src="/assets/images/destinations/timisoara-freedom-square.jpg" alt="Freedom Square">
             <figcaption>Freedom Square - with a Baroque-Gothic column in the middle. Throughout the year, it hosts various events with food and drink stands.</figcaption>
         </figure>
     </div>
@@ -305,6 +306,12 @@
 <footer class="footer">
     <p>© 2025 Places To Visit — All rights reserved.</p>
 </footer>
-
+<div id="gallery-modal">
+    <span id="gallery-close">&times;</span>
+    <span class="arrow" id="gallery-prev">&#10094;</span>
+    <img id="gallery-modal-img" src="">
+    <span class="arrow" id="gallery-next">&#10095;</span>
+</div>
+<button id="scrollToTopBtn" class="scroll-top-btn">↑</button>
 </body>
 </html>

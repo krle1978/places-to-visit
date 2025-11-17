@@ -11,13 +11,14 @@
 
     <!-- JS -->
     <script src="/assets/js/includes.js" defer></script>
-    <script src="/assets/js/cluj-routes.js" defer></script>
+    <script src="/assets/js/cluj-napoca-routes.js" defer></script>
+    <script src="/assets/js/gallery.js" defer></script>
 </head>
 
 <body>
 
 <!-- HEADER -->
-<div data-include="/components/header.html"></div>
+<div data-include="../../../../../../components/header.html"></div>
 
 <!-- CITY HERO -->
 <section class="city-hero">
@@ -26,8 +27,8 @@
         <h1>Cluj-Napoca in October: Youthful Energy & Autumn Colors</h1>
         <p class="city-meta-date">Visited in October 2025 • Best season: Autumn</p>
         <p class="city-meta-intro">
-            Cluj-Napoca is Romania’s cultural and academic heart — a lively, youthful city 
-            full of cafes, parks, art, and a vibrant atmosphere. October adds golden colors 
+            Cluj-Napoca is Romania’s cultural and academic heart — a lively, youthful city
+            full of cafes, parks, art, and a vibrant atmosphere. October adds golden colors
             to the historic center, making it perfect for exploring on foot.
         </p>
     </div>
@@ -43,22 +44,23 @@
     <h2>What I Experienced</h2>
 
     <p>
-        Cluj-Napoca feels alive from the moment you arrive. Students everywhere, 
-        art on every corner, historic squares filled with outdoor terraces, and 
+        Cluj-Napoca feels alive from the moment you arrive. Students everywhere,
+        art on every corner, historic squares filled with outdoor terraces, and
         the calm, wide parks that cut through the city.
     </p>
 
     <p>
-        Unirii Square is the heart of everything — with its huge cathedral, cafés, 
-        and the Matthias Corvinus statue standing proudly in the center. 
+        Unirii Square is the heart of everything — with its huge cathedral, cafés,
+        and the Matthias Corvinus statue standing proudly in the center.
         In October, the light is warm, the air is crisp, and the whole city feels photogenic.
     </p>
 
     <p>
-        Even though Cluj is modern and energetic, it’s also incredibly walkable, safe, 
+        Even though Cluj is modern and energetic, it’s also incredibly walkable, safe,
         and charming — a perfect blend of youth and history.
     </p>
 </section>
+
 
 
 <!-- ROUTE PLANNER WRAPPER -->
@@ -73,44 +75,34 @@
         <div class="route-planner">
             <div class="route-planner-grid">
 
-                <div class="route-controls">
-
-                    <div class="route-field">
-                        <label for="route-category">Visitor type</label>
-                        <select id="route-category">
-                            <option value="">-- Select visitor type --</option>
-                        </select>
-                    </div>
-
-                    <div class="route-field">
-                        <label for="route-daytime">Time of day</label>
-                        <select id="route-daytime">
-                            <option value="">-- Select time of day --</option>
-                        </select>
-                    </div>
-
-                    <button id="route-submit" class="btn route-submit-btn">
-                        Get route recommendation
-                    </button>
-
-                    <p id="route-error" class="route-error-message"></p>
+                <div class="route-controls" id="route-controls">
+                    <!-- Dynamic form injected -->
                 </div>
 
-                <div class="route-result-wrapper">
-                    <h3 class="route-result-title">Your route</h3>
-                    <div id="route-result" class="route-result">
-                        <p class="route-placeholder">
-                            Select your preferences and wait for a tailored suggestion.
-                        </p>
-                    </div>
+                <button id="route-submit" class="btn route-submit-btn">
+                    Get route recommendation
+                </button>
+                <p id="route-error" class="route-error-message"></p>
+
+                <button id="save-pdf-btn" class="btn route-submit-btn" style="display:none;">
+                    Save route as PDF
+                </button>
+
+
+                <div id="route-result" class="route-result">
+                    <p class="route-placeholder">
+                        Select your preferences and wait for a tailored suggestion.
+                    </p>
                 </div>
 
             </div>
+
         </div>
 
     </div>
 
 </section>
+
 
 
 <!-- WHY THIS PLACE IS SPECIAL -->
@@ -122,7 +114,7 @@
         <div class="info-card">
             <h3>Young, Creative Atmosphere</h3>
             <p>
-                A major university city with endless cafés, events, art spaces 
+                A major university city with endless cafés, events, art spaces
                 and a unique cultural vibe.
             </p>
         </div>
@@ -137,13 +129,14 @@
         <div class="info-card">
             <h3>Perfect October Light</h3>
             <p>
-                The golden-hour light across Unirii Square and Central Park 
+                The golden-hour light across Unirii Square and Central Park
                 creates incredible photography moments.
             </p>
         </div>
 
     </div>
 </section>
+
 
 
 <!-- WHAT TO SEE -->
@@ -156,35 +149,61 @@
             <img src="/assets/images/destinations/Cluj-Napoca/unirii-square.png" alt="Unirii Square">
             <div class="sight-item-content">
                 <h3>Unirii Square</h3>
-                <p>The central square, full of life, terraces, and iconic landmarks.</p>
-            </div>
-        </div>
-
-        <div class="sight-item">
-            <img src="/assets/images/destinations/Cluj-Napoca/st-michael.png" alt="St. Michael's Church">
-            <div class="sight-item-content">
-                <h3>St. Michael’s Church</h3>
-                <p>One of the most impressive Gothic churches in Romania.</p>
-            </div>
-        </div>
-
-        <div class="sight-item">
-            <img src="/assets/images/destinations/Cluj-Napoca/matthias-statue.png" alt="Matthias Corvinus Statue">
-            <div class="sight-item-content">
-                <h3>Matthias Corvinus Statue</h3>
                 <p>
-                    The famous equestrian statue dominating Unirii Square — 
-                    a symbol of the city.
+                    Union Square (Piața Unirii) is the largest and most important square in Cluj-Napoca, 
+                    serving as the central point from which the historic district extends. <br>
+                    It features major landmarks such as St. Michael’s Church—the tallest church tower 
+                    in Romania—along with the Matthias Corvinus statue, the old town hall, the National 
+                    Museum of Art, and several historic palaces. Historically known as “Big Market Square,” <br>
+                    it was distinguished from the smaller “Little Market Square,” now called Museum Square.
                 </p>
             </div>
         </div>
 
         <div class="sight-item">
-            <img src="/assets/images/destinations/Cluj-Napoca/central-park.png" alt="Central Park">
+            <img src="/assets/images/destinations/Cluj-Napoca/national_theatre.png" alt="St. Michael's Church">
             <div class="sight-item-content">
-                <h3>Central Park (Parcul Central)</h3>
+                <h3>Lucian Blaga National Theatre</h3>
+                <p>The theatre building, located in Cluj-Napoca in Romania, was constructed between 1904 and 1906 in a neo-Baroque 
+                    style and designed by Austrian architects Ferdinand Fellner and Hermann Helmer.
+                    It opened on 8 September 1906, and has a seating capacity of 928.<br>
+                    Initially serving the Hungarian National Theatre until 1919, after which it became home to 
+                    the Romanian National Theatre and Romanian Opera under Romanian administration.<br>
+                    The building is listed in Romania’s National Register of Historic Monuments and continues 
+                    to host both classical and modern dramatic productions.</p>
+            </div>
+        </div>
+
+        <div class="sight-item">
+            <img src="/assets/images/destinations/Cluj-Napoca/orthodox_catedrala_mitropolitana.png" alt="Matthias Corvinus Statue">
+            <div class="sight-item-content">
+                <h3>Catedrala Mitropolitană „Adormirea Maicii Domnului”</h3>
                 <p>
-                    Beautiful in October — tree tunnels, bridges, lakes and quiet paths.
+                    The Orthodox Cathedral in Cluj-Napoca, built between 1920 and 1930 
+                    after the union of Transylvania with Romania, is one of the city’s 
+                    most important religious landmarks and is dedicated to the Dormition 
+                    of the Mother of God. It became an archiepiscopal cathedral in 1973
+                    and, since 2006, has served as the cathedral of the Archdiocese of 
+                    Vad, Feleac, and Cluj, as well as the seat of the Cluj, Maramureș, 
+                    and Sălaj Metropolis. Today, it is Romania’s third-tallest cathedral 
+                    and is officially listed as a historic monument.
+                </p>
+            </div>
+        </div>
+
+        <div class="sight-item">
+            <img src="/assets/images/destinations/Cluj-Napoca/Cluj_old_town_01.png" alt="Central Park">
+            <div class="sight-item-content">
+                <h3>Old town</h3>
+                <p>
+                    n the heart of Cluj-Napoca’s Old Town, you’ll find the captivating Art Museum of Cluj‑Napoca, 
+                    housed in the historic Bánffy Palace and filled with Romanian and European art dating from 
+                    the 15th to 20th centuries.<br> 
+                    After your museum visit, step into one of the excellent local eateries like Roata, which 
+                    specialises in traditional Romanian cuisine—think sarmale (stuffed cabbage rolls) and papanăşi 
+                    (Romanian doughnuts) in a cosy, atmospheric setting. <br>
+                    Whether you’re lingering over a good meal or wandering cobbled streets, 
+                    the Old Town makes it easy to combine culture and cuisine in one wander-worthy spot.
                 </p>
             </div>
         </div>
@@ -193,8 +212,10 @@
 </section>
 
 
+
 <!-- MAKE ROUTE BUTTON -->
 <button id="route-open-btn" class="btn make-route-btn">Make my route</button>
+
 
 
 <!-- BEST TIME TO VISIT -->
@@ -228,6 +249,7 @@
 </section>
 
 
+
 <!-- PHOTO GALLERY -->
 <section class="city-section">
     <h2>Photo Moments from Cluj-Napoca</h2>
@@ -235,26 +257,45 @@
     <div class="gallery">
 
         <figure>
-            <img src="/assets/images/destinations/Cluj-Napoca/unirii-square.png" alt="Unirii Square">
+            <img class="gallery-img" src="/assets/images/destinations/Cluj-Napoca/unirii-square.png" alt="Unirii Square">
             <figcaption>Unirii Square — the beating heart of Cluj.</figcaption>
         </figure>
 
         <figure>
-            <img src="/assets/images/destinations/Cluj-Napoca/central-park.png" alt="Central Park">
-            <figcaption>Central Park in warm October colors.</figcaption>
+            <img class="gallery-img" src="/assets/images/destinations/Cluj-Napoca/cluj_roma_madre.png" alt="Central Park">
+            <figcaption>Monument to the she-wolf who raised Romulus and Remus.</figcaption>
         </figure>
 
         <figure>
-            <img src="/assets/images/destinations/Cluj-Napoca/st-michael.png" alt="St. Michael's Church">
-            <figcaption>St. Michael’s Church at sunset.</figcaption>
+            <img class="gallery-img" src="/assets/images/destinations/Cluj-Napoca/cluj_berliner_kebab.jpg" alt="St. Michael's Church">
+            <figcaption>Berliner Kebab, modeled after the Berliner Döner in Vienna.</figcaption>
+        </figure>
+
+        <figure>
+            <img class="gallery-img" src="/assets/images/destinations/Cluj-Napoca/Cluj_with_friend.jpg" alt="St. Michael's Church">
+            <figcaption>With a companion on a Kebab break.</figcaption>
+        </figure>
+
+        <figure>
+            <img class="gallery-img" src="/assets/images/destinations/Cluj-Napoca/Cluj_old_town_02.jpg" alt="St. Michael's Church">
+            <figcaption>Architecture in the old part of the city.</figcaption>
         </figure>
 
     </div>
 </section>
 
 
-<!-- FOOTER -->
-<div data-include="/components/footer.html"></div>
 
+<!-- FOOTER -->
+<div data-include="../../../../../../components/footer.html"></div>
+
+<!-- GALLERY MODAL -->
+<div id="gallery-modal">
+    <span id="gallery-close">&times;</span>
+    <span class="arrow" id="gallery-prev">&#10094;</span>
+    <img id="gallery-modal-img" src="">
+    <span class="arrow" id="gallery-next">&#10095;</span>
+</div>
+<button id="scrollToTopBtn" class="scroll-top-btn">↑</button>
 </body>
 </html>

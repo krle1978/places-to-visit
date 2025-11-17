@@ -70,6 +70,41 @@ a {
     display: block;
 }
 
+/* Scroll to Top Button */
+.scroll-top-btn {
+    position: fixed;
+    bottom: 32px;
+    right: 32px;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background: #4a63e7;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: 0 6px 16px rgba(0,0,0,0.18);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    z-index: 2000;
+}
+
+.scroll-top-btn.show {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
+}
+
+.scroll-top-btn:hover {
+    background: #394fd1;
+}
+
 /* ------------------------------
    HERO SECTION
 --------------------------------*/

@@ -6,16 +6,17 @@
     <title>Castelul Corvinilor, Romania — October 2025 | Places To Visit</title>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="../../../../../../assets/css/main.css">
-    <link rel="stylesheet" href="../../../../../../assets/css/city.css">
-    <script src="../../../../../../assets/js/includes.js" defer></script>
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/city.css">
+    <script src="/assets/js/includes.js" defer></script>
+    <script src="/assets/js/gallery.js" defer></script>
 
 </head>
 
 <body>
 
 <!-- HEADER -->
-<div data-include="/components/header.html"></div>
+<div data-include="../../../../../../components/header.html"></div>
 
 <!-- CITY HERO -->
 <section class="city-hero">
@@ -110,7 +111,7 @@
 
         <!-- Main Courtyard -->
         <div class="sight-item">
-            <img src="../../../../../../assets/images/destinations/Castelul Corvinilor/corvin-courtyard.png" alt="Corvin Courtyard">
+            <img src="/assets/images/destinations/Castelul Corvinilor/corvin-courtyard.png" alt="Corvin Courtyard">
             <div class="sight-item-content">
                 <h3>Main Courtyard</h3>
                 <p>
@@ -122,7 +123,7 @@
 
         <!-- Knights Hall -->
         <div class="sight-item">
-            <img src="../../../../../../assets/images/destinations/Castelul Corvinilor/corvin-knights-halll.png" alt="Knights Hall Romania">
+            <img src="/assets/images/destinations/Castelul Corvinilor/corvin-knights-halll.png" alt="Knights Hall Romania">
             <div class="sight-item-content">
                 <h3>The Knights' Hall</h3>
                 <p>
@@ -134,7 +135,7 @@
 
         <!-- Torture Room -->
         <div class="sight-item">
-            <img src="../../../../../../assets/images/destinations/Castelul Corvinilor/corvin-torture.png" alt="Torture Room">
+            <img src="/assets/images/destinations/Castelul Corvinilor/corvin-torture.png" alt="Torture Room">
             <div class="sight-item-content">
                 <h3>Medieval Prison & Torture Room</h3>
                 <p>
@@ -199,18 +200,23 @@
     <div class="gallery">
 
         <figure>
-            <img src="../../../../../../assets/images/destinations/corvinilor.jpg" alt="Corvin Castle Overview">
+            <img class="gallery-img" src="/assets/images/destinations/corvinilor.jpg" alt="Corvin Castle Overview">
             <figcaption>General view of the castle — the iconic combination of towers and bridge.</figcaption>
         </figure>
 
         <figure>
-            <img src="../../../../../../assets/images/destinations/Castelul Corvinilor/corvin-windows.png" alt="Courtyard">
-            <figcaption>Main courtyard with medieval stone architecture and balconies.</figcaption>
+            <img class="gallery-img" src="/assets/images/destinations/Castelul Corvinilor/corvin-windows.png" alt="Courtyard">
+            <figcaption>A corridor with stained glass windows overlooking the courtyard.</figcaption>
         </figure>
 
         <figure>
-            <img src="../../../../../../assets/images/destinations/Castelul Corvinilor/corvin-drakula-collage.png" alt="Knights Hall">
-            <figcaption>Inside the Knights’ Hall — pillars, arches and soft yellow light.</figcaption>
+            <img class="gallery-img" src="/assets/images/destinations/Castelul Corvinilor/Corvin-Hunyadi.png" alt="Courtyard">
+            <figcaption>Jan Hunyadi (1407 - 1456) Serbian: Sibinjanin Janko.</figcaption>
+        </figure>
+
+        <figure>
+            <img class="gallery-img" src="/assets/images/destinations/Castelul Corvinilor/corvin-drakula-collage.png" alt="Knights Hall">
+            <figcaption>The count himself led me through the castle and escorted me out.</figcaption>
         </figure>
 
     </div>
@@ -220,5 +226,12 @@
 <!-- FOOTER -->
 <div data-include="../../../../../../components/footer.html"></div>
 
+<div id="gallery-modal">
+    <span id="gallery-close">&times;</span>
+    <span class="arrow" id="gallery-prev">&#10094;</span>
+    <img id="gallery-modal-img" src="">
+    <span class="arrow" id="gallery-next">&#10095;</span>
+</div>
+<button id="scrollToTopBtn" class="scroll-top-btn">↑</button>
 </body>
 </html>

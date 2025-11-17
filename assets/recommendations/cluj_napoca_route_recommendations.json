@@ -1,0 +1,229 @@
+{
+  "schemaVersion": 1,
+  "city": "Cluj-Napoca",
+  "language": "en",
+  "questions": [
+    {
+      "id": "interest",
+      "label": "What are you interested in?",
+      "options": [
+        { "id": "history", "label": "History" },
+        { "id": "art", "label": "Art" },
+        { "id": "nature", "label": "Nature" },
+        { "id": "cafes", "label": "Cafés" },
+        { "id": "nightlife", "label": "Nightlife" },
+        { "id": "mixed", "label": "A bit of everything" }
+      ]
+    },
+    {
+      "id": "food",
+      "label": "Food preference?",
+      "options": [
+        { "id": "local_romanian", "label": "Local Romanian dishes" },
+        { "id": "fast_food", "label": "Fast food" },
+        { "id": "fancy", "label": "Something fancy" },
+        { "id": "vegetarian", "label": "Vegetarian options" },
+        { "id": "anything_good", "label": "Anything that smells good" }
+      ]
+    },
+    {
+      "id": "budget",
+      "label": "Budget?",
+      "options": [
+        { "id": "low", "label": "Budget-friendly" },
+        { "id": "medium", "label": "Moderate" },
+        { "id": "high", "label": "Treat-yourself mode" }
+      ]
+    },
+    {
+      "id": "tempo",
+      "label": "Pace?",
+      "options": [
+        { "id": "relaxed", "label": "Relaxed stroll" },
+        { "id": "active", "label": "Active adventure" },
+        { "id": "balanced", "label": "Half-and-half" }
+      ]
+    },
+    {
+      "id": "duration",
+      "label": "How much time do you have?",
+      "options": [
+        { "id": "full_day", "label": "Full-day" },
+        { "id": "half_day", "label": "Half-day" },
+        { "id": "evening", "label": "Evening" }
+      ]
+    }
+  ],
+  "advice": {
+    "interest": {
+      "history": {
+        "title": "History & Old Town",
+        "tips": [
+          "Start at Piața Unirii and St. Michael’s Church, the historical heart of the city.",
+          "Walk through the old town and check out Austro-Hungarian architecture.",
+          "Visit the local History Museum if you're into deeper context."
+        ]
+      },
+      "art": {
+        "title": "Art & Creative Vibes",
+        "tips": [
+          "Visit the Art Museum (Banffy Palace).",
+          "Explore Cluj’s murals and street art around the central area.",
+          "Drop by local galleries and artsy cafés."
+        ]
+      },
+      "nature": {
+        "title": "Nature & Scenic Views",
+        "tips": [
+          "Climb Cetățuia Hill for panoramic city views.",
+          "Stroll through Central Park and along the Someșul Mic river.",
+          "If you have extra time, explore trails outside the city."
+        ]
+      },
+      "cafes": {
+        "title": "Café Culture",
+        "tips": [
+          "Try some of Cluj’s specialty coffee spots near the center.",
+          "Do a mini 'coffee hop' while sightseeing.",
+          "Pick cafés with terraces or street views for the full vibe."
+        ]
+      },
+      "nightlife": {
+        "title": "Nightlife Fun",
+        "tips": [
+          "Start at a chill bar or pub for craft beer or cocktails.",
+          "Then continue to clubs or live-music venues—Cluj is a student city, always lively.",
+          "Check for DJ sets or concerts if you're visiting on a weekend."
+        ]
+      },
+      "mixed": {
+        "title": "A Mix of Everything",
+        "tips": [
+          "Kick off with a historical spot or museum.",
+          "Add a viewpoint, a café break, and a bit of art.",
+          "End the day with local food and bar hopping."
+        ]
+      }
+    },
+    "food": {
+      "local_romanian": {
+        "title": "Local Romanian Dishes",
+        "tips": [
+          "Choose traditional restaurants serving sarmale, mici, and ciorba.",
+          "Try local pastries and regional comfort foods.",
+          "If offered pálinka—just know it’s strong, but authentic."
+        ]
+      },
+      "fast_food": {
+        "title": "Fast Food",
+        "tips": [
+          "Explore local bakeries, sandwich shops, and street food stands.",
+          "Perfect if you want to maximize sightseeing time.",
+          "Pair it with a quick coffee or beer instead of a full sit-down meal."
+        ]
+      },
+      "fancy": {
+        "title": "Fancy & Modern Cuisine",
+        "tips": [
+          "Reserve a dinner at a modern fusion restaurant.",
+          "Look for places with good wine lists and ambiance.",
+          "Ideal for your evening after an active day."
+        ]
+      },
+      "vegetarian": {
+        "title": "Vegetarian Options",
+        "tips": [
+          "Choose restaurants with dedicated veggie dishes—Cluj has plenty.",
+          "Combine hearty salads, pasta, and local cheeses.",
+          "Cafés and bistros often have plant-based options even if not advertised."
+        ]
+      },
+      "anything_good": {
+        "title": "Anything Delicious",
+        "tips": [
+          "Mix it up: traditional lunch + more international or modern dinner.",
+          "Try at least one local classic and one dessert.",
+          "Don't skip bakeries—they're often hidden gems."
+        ]
+      }
+    },
+    "budget": {
+      "low": {
+        "title": "Budget-Friendly",
+        "tips": [
+          "Focus on free attractions: parks, viewpoints, old town.",
+          "Eat at bakeries, street food vendors, or daily menus.",
+          "Choose pubs instead of premium cocktail bars."
+        ]
+      },
+      "medium": {
+        "title": "Moderate Budget",
+        "tips": [
+          "Mix free activities with select paid museums or attractions.",
+          "Traditional restaurant for lunch, simpler dinner in the evening.",
+          "For nightlife: one good bar + one more relaxed stop."
+        ]
+      },
+      "high": {
+        "title": "Treat Yourself",
+        "tips": [
+          "Include premium spots: rooftop bar, fine dining, tasting menus.",
+          "Say yes to dessert, wine, or cocktails—it's part of the experience.",
+          "Plan fewer stops but higher quality."
+        ]
+      }
+    },
+    "tempo": {
+      "relaxed": {
+        "title": "Relaxed Pace",
+        "tips": [
+          "Plan fewer locations and stay longer at each spot.",
+          "Add more breaks for coffee, desserts, and people-watching.",
+          "2–3 highlights are enough for the day."
+        ]
+      },
+      "active": {
+        "title": "Active Adventure",
+        "tips": [
+          "Combine climbs, long walks, and several attractions.",
+          "Short food stops—keep the momentum going.",
+          "Perfect for full-day itineraries with variety."
+        ]
+      },
+      "balanced": {
+        "title": "Balanced – Half/Half",
+        "tips": [
+          "Do an active morning, then relax in the afternoon.",
+          "Mix 1–2 high-energy activities with chill café time.",
+          "Evening can lean either way—bar or peaceful city stroll."
+        ]
+      }
+    },
+    "duration": {
+      "full_day": {
+        "title": "Full-Day Itinerary",
+        "tips": [
+          "Morning: main square, church, first museum.",
+          "Afternoon: parks, viewpoints, and an extra attraction.",
+          "Evening: local dinner + bar/club or illuminated city walk."
+        ]
+      },
+      "half_day": {
+        "title": "Half-Day Itinerary",
+        "tips": [
+          "Focus on one main zone—center + viewpoint.",
+          "Choose one solid meal instead of multiple food stops.",
+          "Stay within walking distance to save time."
+        ]
+      },
+      "evening": {
+        "title": "Evening Plan",
+        "tips": [
+          "Start with a short walk through the center at sunset.",
+          "Have dinner at a cozy spot with local dishes.",
+          "Move on to a bar, pub, or club depending on your vibe."
+        ]
+      }
+    }
+  }
+}

@@ -42,3 +42,24 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 });
+document.addEventListener("DOMContentLoaded", () => {
+    const scrollBtn = document.getElementById("scrollToTopBtn");
+    if (!scrollBtn) return;
+
+    // Show/hide on scroll
+    window.addEventListener("scroll", () => {
+        if (window.scrollY > 400) {
+            scrollBtn.classList.add("show");
+        } else {
+            scrollBtn.classList.remove("show");
+        }
+    });
+
+    // Scroll to top
+    scrollBtn.addEventListener("click", () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    });
+});

@@ -12,6 +12,7 @@
     <!-- JS -->
     <script src="/assets/js/includes.js" defer></script>
     <script src="/assets/js/salina-turda-routes.js" defer></script>
+    <script src="/assets/js/gallery.js" defer></script>
 </head>
 
 <body>
@@ -227,17 +228,17 @@
     <div class="gallery">
 
         <figure>
-            <img src="/assets/images/destinations/salina-turda.jpg" alt="Main Chamber">
+            <img class="gallery-img" src="/assets/images/destinations/salina-turda.jpg" alt="Main Chamber">
             <figcaption>Main chamber illuminated with modern lights.</figcaption>
         </figure>
 
         <figure>
-            <img src="/assets/images/destinations/Salina-Turda/rudolf-chamber.png" alt="Rudolf">
+            <img class="gallery-img"src="/assets/images/destinations/Salina-Turda/rudolf-chamber.png" alt="Rudolf">
             <figcaption>Rudolf Mine — huge underground dome.</figcaption>
         </figure>
 
         <figure>
-            <img src="/assets/images/destinations/Salina-Turda/lake-boats.png" alt="Lake">
+            <img class="gallery-img" src="/assets/images/destinations/Salina-Turda/lake-boats.png" alt="Lake">
             <figcaption>Boat rides in an underground lake — surreal.</figcaption>
         </figure>
 
@@ -248,5 +249,12 @@
 <!-- FOOTER -->
 <div data-include="../../../../../../components/footer.html"></div>
 
+<div id="gallery-modal">
+    <span id="gallery-close">&times;</span>
+    <span class="arrow" id="gallery-prev">&#10094;</span>
+    <img id="gallery-modal-img" src="">
+    <span class="arrow" id="gallery-next">&#10095;</span>
+</div>
+<button id="scrollToTopBtn" class="scroll-top-btn">↑</button>
 </body>
 </html>
