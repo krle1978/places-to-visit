@@ -183,7 +183,56 @@
     color: #4b5563;
 }
 
+/* ============================================================
+   ROUTE FORM — CLEAN GRID LAYOUT + FIXED INPUTS
+   ============================================================ */
 
+.route-form-wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.route-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.route-form label {
+    font-weight: 500;
+    font-size: 0.95rem;
+    color: #374151;
+}
+
+.route-form select,
+.route-form button {
+    padding: 10px 12px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.route-form button {
+    background-color: #4a63e7;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s;
+    margin-top: 0.8rem;
+}
+
+.route-form button:hover {
+    background-color: #394fd1;
+}
+
+.route-error-message {
+    color: #dc2626;
+    font-size: 0.95rem;
+    padding-top: 0.5rem;
+}
 
 /* ============================================
    ROUTE LAYOUT FIX — Two Columns, Clean Layout
@@ -197,18 +246,19 @@
 }
 
 #route-result {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap: 1.4rem;
-    width: 100%;
-    margin-top: 1rem;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
 }
 
 /* Desktop layout: two columns */
 @media (min-width: 900px) {
     .route-planner-grid {
-        grid-template-columns: 1fr 1fr;
-        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
     }
 }
 
@@ -246,12 +296,14 @@
 /* Card styling */
 .route-card {
     display: flex;
-    gap: 1rem;
-    padding: 1.2rem;
+    gap: 1.2rem;
+    padding: 1.5rem;
     background: #ffffff;
-    border-radius: 14px;
+    border-radius: 16px;
     border: 1px solid #e5e7eb;
-    box-shadow: 0 4px 14px rgba(0,0,0,0.06);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.06);
+    align-items: flex-start;
+    overflow: hidden;
 }
 
 .route-card:hover {
@@ -260,25 +312,35 @@
 }
 
 .route-card-icon {
-    width: 42px;
-    height: 42px;
-    border-radius: 10px;
+    font-size: 1.8rem;
+    width: 48px;
+    height: 48px;
     background: #f3f4f6;
+    border-radius: 12px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 22px;
     flex-shrink: 0;
 }
 
 .route-card h3 {
-    margin: 0 0 0.4rem 0;
-    font-size: 1.1rem;
+    margin: 0 0 0.5rem;
+    font-size: 1.15rem;
+    font-weight: 600;
 }
-.route-card ul {
+
+.route-card p {
     margin: 0;
+    font-size: 0.96rem;
+    color: #374151;
+    line-height: 1.55;
+}
+
+.route-card ul {
+    margin-top: 0.6rem;
     padding-left: 1.1rem;
 }
+
 .route-card li {
     margin-bottom: 6px;
 }

@@ -63,67 +63,34 @@
 
         <!-- ORIGINALNA ROUTE PLANNER SEKCIJA OVDE -->
         <div class="route-planner">
-            <div class="route-planner-grid">
+    <div class="route-form-wrapper">
 
-                <!-- Kontrole -->
-                <div class="route-controls">
+        <form class="route-form">
+            <label for="route-trip-type">Trip type</label>
+            <select id="route-trip-type"></select>
 
-                    <!-- Trip Type -->
-                    <div class="route-field">
-                        <label for="route-trip-type">Trip type</label>
-                        <select id="route-trip-type">
-                            <option value="">-- Select trip type --</option>                            
-                        </select>
-                    </div>
+            <label for="route-interest">Interests</label>
+            <select id="route-interest"></select>
 
-                    <!-- Interests -->
-                    <div class="route-field">
-                        <label for="route-interest">Interests</label>
-                        <select id="route-interest">
-                            <option value="">-- Select interest --</option>
-                        </select>
-                    </div>
+            <label for="route-food">Food type</label>
+            <select id="route-food"></select>
 
-                    <!-- Food -->
-                    <div class="route-field">
-                        <label for="route-food">Food type</label>
-                        <select id="route-food">
-                            <option value="">-- Select food type --</option>
-                            <option value="Street food">Street food</option>
-                            <option value="Local food">Local food</option>
-                        </select>
-                    </div>
+            <label for="route-budget">Budget</label>
+            <select id="route-budget"></select>
 
-                    <!-- Budget -->
-                    <div class="route-field">
-                        <label for="route-budget">Budget</label>
-                        <select id="route-budget">
-                            <option value="">-- Select budget --</option>
-                            <option value="Low">Low</option>
-                            <option value="High">High</option>
-                        </select>
-                    </div>
+            <button type="button" id="route-submit">Get route recommendation</button>
+            <p id="route-error" class="route-error-message"></p>
+        </form>
 
-                    <button id="route-submit" class="btn route-submit-btn">
-                        Get route recommendation
-                    </button>
-
-                    <p id="route-error" class="route-error-message"></p>
-                </div>
-
-                <!-- Rezultat -->
-                <div class="route-result-wrapper">
-                    <h3 class="route-result-title">Your route</h3>
-
-                    <div id="route-result" class="route-result">
-                        <p class="route-placeholder">
-                            Select the desired parameters and wait for the recommendation.
-                        </p>
-                    </div>
-                </div>
-
-            </div>
+        <!-- Rezultati -->
+        <div class="route-result-wrapper">
+            <h3 class="route-result-title">Your route</h3>
+            <div id="route-result" class="route-result"></div>
+            <button id="save-pdf-btn" style="display:none;">Save as PDF</button>
         </div>
+
+    </div>
+</div>
 
     </div>
 

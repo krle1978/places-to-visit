@@ -12,6 +12,8 @@
     <!-- JS -->
     <script src="/assets/js/includes.js" defer></script>
     <script src="/assets/js/alba-lulia-routes.js" defer></script>
+    <script src="/assets/js/gallery.js" defer></script>
+
 </head>
 
 <body>
@@ -166,34 +168,34 @@
     <div class="sights-grid">
 
         <div class="sight-item">
-            <img src="/assets/images/destinations/Alba-Iulia/citadel-gates.png" alt="Alba Carolina Gates">
+            <img src="/assets/images/destinations/Alba-Iulia/cathedral-orthodox.png" alt="Orthodox Cathedral">
             <div class="sight-item-content">
-                <h3>Baroque Citadel Gates</h3>
-                <p>The iconic entrances to the fortress — each one unique.</p>
+                <h3>Coronation Orthodox Cathedral</h3>
+                <p>The place where Romania’s kings were crowned — stunning inside and out.</p>
             </div>
         </div>
 
         <div class="sight-item">
-            <img src="/assets/images/destinations/Alba-Iulia/cathedrals.png" alt="Cathedrals">
+            <img src="/assets/images/destinations/Alba-Iulia/cathedral-catholic.png" alt="Catholic Cathedral">
             <div class="sight-item-content">
-                <h3>Reunification Cathedral</h3>
-                <p>Beautiful neo-Byzantine architecture with rich history.</p>
+                <h3>Roman Catholic Cathedral</h3>
+                <p>One of the oldest cathedrals in Transylvania, peaceful and timeless.</p>
             </div>
         </div>
 
         <div class="sight-item">
-            <img src="/assets/images/destinations/Alba-Iulia/roman-ruins.png" alt="Roman Castrum">
+            <img src="/assets/images/destinations/Alba-Iulia/union-hall.png" alt="Union Hall">
             <div class="sight-item-content">
-                <h3>Roman Castrum</h3>
-                <p>Walk inside ancient Roman military ruins.</p>
+                <h3>Union Hall</h3>
+                <p>The symbol of the 1918 union — a must-see for anyone interested in Romanian history.</p>
             </div>
         </div>
 
         <div class="sight-item">
-            <img src="/assets/images/destinations/Alba-Iulia/museum.png" alt="Union Museum">
+            <img src="/assets/images/destinations/Alba-Iulia/fortress-gates.png" alt="Fortress Gates">
             <div class="sight-item-content">
-                <h3>National Museum of the Union</h3>
-                <p>One of the most important museums in Romania.</p>
+                <h3>The Gates of the Fortress</h3>
+                <p>Seven monumental gates, each with unique sculptures and military style.</p>
             </div>
         </div>
 
@@ -243,29 +245,46 @@
 <section class="city-section">
     <h2>Photo Moments from Alba Iulia</h2>
 
-    <div class="gallery">
+<div class="gallery">
 
-        <figure>
-            <img src="/assets/images/destinations/alba-iulia.jpg" alt="Citadel Panorama">
-            <figcaption>Panoramic views over the citadel walls.</figcaption>
-        </figure>
+    <figure>
+        <img class="gallery-img" src="/assets/images/destinations/alba-iulia.jpg" alt="Citadel Panorama">
+        <figcaption>Taking a photo with the city sign.</figcaption>
+    </figure>
 
-        <figure>
-            <img src="/assets/images/destinations/Alba-Iulia/citadel-gates.png" alt="Gate">
-            <figcaption>Beautifully restored Baroque gates.</figcaption>
-        </figure>
+    <figure>
+        <img class="gallery-img" src="/assets/images/destinations/Alba-Iulia/statue_park_01.jpg" alt="Gate">
+        <figcaption>Socializing with figures from the time when the citadel was built.</figcaption>
+    </figure>
 
-        <figure>
-            <img src="/assets/images/destinations/Alba-Iulia/roman-ruins.png" alt="Roman Ruins">
-            <figcaption>Walk past ancient Roman remains.</figcaption>
-        </figure>
+    <figure>
+        <img class="gallery-img" src="/assets/images/destinations/Alba-Iulia/pub_13_ambient.jpg" alt="Roman Ruins">
+        <figcaption>Dinner under the walls of the citadel, with knightly furniture.</figcaption>
+    </figure>
 
-    </div>
+    <figure>
+        <img class="gallery-img" src="/assets/images/destinations/Alba-Iulia/citadel_fortress.png" alt="Roman Ruins">
+        <figcaption>Dinner under the walls of the citadel, with knightly furniture.</figcaption>
+    </figure>
+
+    <figure>
+        <img class="gallery-img" src="/assets/images/destinations/Alba-Iulia/citadel_legend.png" alt="Roman Ruins">
+        <figcaption>Dinner under the walls of the citadel, with knightly furniture.</figcaption>
+    </figure>
+
+</div>
+
 </section>
 
 
 <!-- FOOTER -->
 <div data-include="../../../../../../components/footer.html"></div>
-
+<div id="gallery-modal">
+    <span id="gallery-close">&times;</span>
+    <span class="arrow" id="gallery-prev">&#10094;</span>
+    <img id="gallery-modal-img" src="">
+    <span class="arrow" id="gallery-next">&#10095;</span>
+</div>
+<button id="scrollToTopBtn" class="scroll-top-btn">↑</button>
 </body>
 </html>
