@@ -375,6 +375,7 @@
 .route-planner-panel {
     overflow: hidden;
     transition: max-height 0.35s ease;
+    max-height: 0;
 }
 
 .route-planner-panel.collapsed {
@@ -384,12 +385,11 @@
 }
 
 .route-planner-panel.open {
-    max-height: 2000px;
+    max-height: 3000px;
     margin-top: 1rem;
     border: 1px solid #e5e7eb;
     border-radius: 16px;
     padding: 1.5rem 1.2rem;
-    background: #ffffff;
 }
 
 #route-open-btn {
@@ -499,4 +499,72 @@
         padding-top: 5rem;
         text-align: left;
     }
+}
+
+/* ============================================
+   COLLAPSIBLE GALLERY SECTION
+   ============================================ */
+.gallery-wrapper {
+    margin-top: 2.5rem;
+}
+
+.gallery-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f3f4f6;
+    padding: 1.2rem 1.5rem;
+    border-radius: 16px;
+    border: 1px solid #e5e7eb;
+    cursor: pointer;
+}
+
+.gallery-header h2 {
+    margin: 0;
+}
+
+.gallery-panel {
+    overflow: hidden;
+    transition: max-height 0.35s ease;
+}
+
+.gallery-panel.collapsed {
+    max-height: 0;
+    padding: 0;
+    border: none;
+}
+
+.gallery-panel.open {
+    max-height: 3000px; /* dovoljno da stane ceo tekst + galerija */
+    margin-top: 1rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 16px;
+    padding: 1.5rem 1.2rem;
+    background: #ffffff;
+}
+
+
+
+/* ============================================
+   TEXT BLOCK WITH BACKGROUND IMAGE
+   ============================================ */
+.gallery-text-block {
+    background-image: url('/assets/images/backgrounds/bkgnd_paper_03.webp');
+    background-size: cover;
+    background-position: center;
+    padding: 2.4rem 2.6rem;
+    border-radius: 16px;
+    margin-bottom: 2rem;
+
+    /* IMPROVED READABILITY */
+    font-size: 1.15rem;
+    line-height: 1.75;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+
+    /* PERFECT COLOR FOR THIS PAPER STYLE */
+    color: #4B2E05;
+
+    /* inner shadow keeps it “printed” on paper */
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.18);
 }

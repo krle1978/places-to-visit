@@ -63,3 +63,19 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+    const galleryToggle = document.getElementById("gallery-toggle");
+    const galleryPanel = document.getElementById("gallery-panel");
+    const galleryArrow = document.getElementById("gallery-arrow");
+
+    galleryToggle.addEventListener("click", () => {
+        const isCollapsed = galleryPanel.classList.contains("collapsed");
+
+        galleryPanel.classList.toggle("collapsed", !isCollapsed);
+        galleryPanel.classList.toggle("open", isCollapsed);
+
+        // Menjanje strelice
+        galleryArrow.textContent = isCollapsed ? "▲" : "▼";
+    });
+});
