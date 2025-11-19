@@ -1,5 +1,3 @@
-// assets/js/alba-lulia-routes.js
-
 // =======================
 // CONFIG
 // =======================
@@ -79,7 +77,6 @@ function buildRecommendationCard() {
     const styleData = albaData["Style"][style];
     const foodData = albaData["Food Preferences"][food];
 
-    // Build list items from all sources
     const combined = [
         ...interestData.alba_iulia_recommendations,
         ...durationData.alba_iulia_recommendations,
@@ -87,9 +84,7 @@ function buildRecommendationCard() {
         ...foodData.alba_iulia_recommendations
     ];
 
-    // Deduplicate
     const uniqueItems = [...new Set(combined)];
-
     const listHTML = uniqueItems.map(item => `<li>${item}</li>`).join("");
 
     const card = document.createElement("div");
@@ -110,39 +105,68 @@ function buildRecommendationCard() {
 }
 
 // =======================
-// UI LOGIC
+// INIT UI
 // =======================
 
 document.addEventListener("DOMContentLoaded", async () => {
     const submitBtn = document.getElementById("route-submit");
+    const errorBox = document.getElementById("route-error");
+    const resultBox = document.getElementById("route-result");
+    const pdfBtn = document.getElementById("save-pdf-btn");
 
     const panel = document.getElementById("route-planner-panel");
     const header = document.getElementById("route-planner-toggle");
+    const arrow = document.getElementById("route-arrow");
     const openBtn = document.getElementById("route-open-btn");
 
     await loadAlbaRecommendations();
-
     if (dataLoaded && !dataLoadError) {
         populateDropdowns();
     }
 
     submitBtn.addEventListener("click", () => {
+        errorBox.textContent = "";
+        resultBox.innerHTML = "";
+        if (pdfBtn) pdfBtn.style.display = "none";
+
         if (dataLoadError) {
-            document.getElementById("route-error").textContent = "Error loading route data.";
+            errorBox.textContent = "Error loading route data.";
             return;
         }
         if (!dataLoaded) {
-            document.getElementById("route-error").textContent = "Loading...";
+            errorBox.textContent = "Loading...";
             return;
         }
+
         buildRecommendationCard();
+
+        if (document.querySelector(".route-card")) {
+            pdfBtn.style.display = "inline-block";
+        }
     });
 
-    // Collapsible toggle
+    // PDF EXPORT
+    pdfBtn?.addEventListener("click", () => {
+        const element = document.getElementById("route-result");
+
+        const opt = {
+            filename: "alba-iulia-route.pdf",
+            margin: 10,
+            jsPDF: { unit: "mm", format: "a4" }
+        };
+
+        html2pdf().set(opt).from(element).save();
+    });
+
+    // COLLAPSIBLE PANEL TOGGLE + STRELICA ROTACIJA
     if (panel && header) {
         const toggle = () => {
             panel.classList.toggle("collapsed");
             panel.classList.toggle("open");
+
+            if (arrow) {
+                arrow.textContent = panel.classList.contains("open") ? "▲" : "▼";
+            }
         };
 
         header.addEventListener("click", toggle);
@@ -153,6 +177,7 @@ document.addEventListener("DOMContentLoaded", async () => {
                 panel.classList.remove("collapsed");
                 panel.classList.add("open");
                 header.scrollIntoView({ behavior: "smooth" });
+                if (arrow) arrow.textContent = "▲";
             });
         }
     }

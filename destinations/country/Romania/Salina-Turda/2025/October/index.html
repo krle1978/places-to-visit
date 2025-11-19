@@ -61,38 +61,34 @@
 
     <div class="route-planner-header" id="route-planner-toggle">
         <h2>Plan Your Perfect Visit to Salina Turda</h2>
+        <span class="route-arrow" id="route-arrow">▼</span>
     </div>
 
     <div id="route-planner-panel" class="route-planner-panel collapsed">
 
         <div class="route-planner">
-            <div class="route-planner-grid">
+            <div class="route-form-wrapper">
 
-                <!-- Kontrole -->
-            <div class="route-controls">
+                <form class="route-form">
 
-                <!-- Visitor Category -->
-                <div class="route-field">
+                    <!-- Visitor Category -->
                     <label for="route-category">Visitor type</label>
                     <select id="route-category">
                         <option value="">-- Select visitor type --</option>
                     </select>
-                </div>
 
-                <!-- Time of Day -->
-                <div class="route-field">
+                    <!-- Time of Day -->
                     <label for="route-daytime">Time of day</label>
                     <select id="route-daytime">
                         <option value="">-- Select time of day --</option>
                     </select>
-                </div>
 
-                <button id="route-submit" class="btn route-submit-btn">
-                    Get route recommendation
-                </button>
+                    <button type="button" id="route-submit" class="btn route-submit-btn">
+                        Get route recommendation
+                    </button>
 
-                <p id="route-error" class="route-error-message"></p>
-            </div>
+                    <p id="route-error" class="route-error-message"></p>
+                </form>
 
                 <!-- Rezultat -->
                 <div class="route-result-wrapper">
@@ -103,6 +99,12 @@
                             Select the desired parameters and wait for the recommendation.
                         </p>
                     </div>
+
+                    <!-- PDF dugme dodato radi konzistentnosti -->
+                    <button id="save-pdf-btn" class="btn route-submit-btn" style="display:none;">
+                        Save as PDF
+                    </button>
+
                 </div>
 
             </div>
@@ -111,7 +113,6 @@
     </div>
 
 </section>
-
 
 <!-- WHY THIS PLACE IS SPECIAL -->
 <section class="city-section">
@@ -222,26 +223,51 @@
 
 
 <!-- PHOTO GALLERY -->
-<section class="city-section">
-    <h2>Photo Moments from Salina Turda</h2>
+<section class="city-section gallery-wrapper">
 
-    <div class="gallery">
+    <div class="gallery-header" id="gallery-toggle">
+        <h2>My little adventure in Salina-Turga (open ->)</h2>
+        <span class="gallery-arrow" id="gallery-arrow">▼</span>
+    </div>
 
-        <figure>
-            <img class="gallery-img" src="/assets/images/destinations/salina-turda.jpg" alt="Main Chamber">
-            <figcaption>Main chamber illuminated with modern lights.</figcaption>
-        </figure>
+    <div id="gallery-panel" class="gallery-panel collapsed">
+        <!-- Tekst na background-image -->
+        <div class="gallery-text-block">
+            <br><br>
+            We arrived at Salina Turda around 2pm. We had two hours to look around and have fun. 
+            Right at the beginning we enter the elevator and ride 120 meters deep.<br> 
+            It has everything you would find in a youth entertainment center. And there is also 
+            a lake with rowing boats. Of course, we immediately thought of taking half an hour 
+            of rowing. That is, I rowed, while my companion encouraged me and sometimes took 
+            pictures and videos with his phone.<br> 
+            It is very beautiful. You don't have to row. You can just walk along the bridges 
+            that connect various wooden islands that are in the form of small booths. It is also 
+            nice to walk and take selfies with the ambiance and the salt-strewn walls. 
+            It is possible to play sports, such as table tennis, mini-football,...<br> 
+            It is healthy to breathe the air in the mine, so it is used as an air spa. 
+            The miners who have worked there since 1075 have not had any lung diseases at all.
+            <br><br>
+        </div>
 
-        <figure>
-            <img class="gallery-img"src="/assets/images/destinations/Salina-Turda/rudolf-chamber.png" alt="Rudolf">
-            <figcaption>Rudolf Mine — huge underground dome.</figcaption>
-        </figure>
+        <!-- Galerija ide kad se panel otvori, ali VAN text-bloka -->
+        <div class="gallery">
 
-        <figure>
-            <img class="gallery-img" src="/assets/images/destinations/Salina-Turda/lake-boats.png" alt="Lake">
-            <figcaption>Boat rides in an underground lake — surreal.</figcaption>
-        </figure>
+            <figure>
+                <img class="gallery-img" src="/assets/images/destinations/salina-turda.jpg" alt="Main Chamber">
+                <figcaption>Main chamber illuminated with modern lights.</figcaption>
+            </figure>
 
+            <figure>
+                <img class="gallery-img"src="/assets/images/destinations/Salina-Turda/rudolf-chamber.png" alt="Rudolf">
+                <figcaption>Rudolf Mine — huge underground dome.</figcaption>
+            </figure>
+
+            <figure>
+                <img class="gallery-img" src="/assets/images/destinations/Salina-Turda/lake-boats.png" alt="Lake">
+                <figcaption>Boat rides in an underground lake — surreal.</figcaption>
+            </figure>
+
+        </div>
     </div>
 </section>
 

@@ -63,46 +63,59 @@
 
 
 
-<!-- ROUTE PLANNER WRAPPER -->
+<!-- ROUTE PLANNER WRAPPER (COLLAPSIBLE) -->
 <section class="city-section route-planner-wrapper">
 
     <div class="route-planner-header" id="route-planner-toggle">
-        <h2>Plan Your Perfect Day in Cluj-Napoca</h2>
+        <h2>Plan Your Perfect Day in Timisoara</h2>
+        <span class="route-arrow" id="route-arrow">▼</span>
     </div>
 
     <div id="route-planner-panel" class="route-planner-panel collapsed">
 
         <div class="route-planner">
-            <div class="route-planner-grid">
+            <div class="route-form-wrapper">
 
-                <div class="route-controls" id="route-controls">
-                    <!-- Dynamic form injected -->
-                </div>
+                <form class="route-form">
+                    <label for="route-trip-type">Trip type</label>
+                    <select id="route-trip-type">
+                        <option value="">-- Select trip type --</option>
+                    </select>
 
-                <button id="route-submit" class="btn route-submit-btn">
-                    Get route recommendation
-                </button>
-                <p id="route-error" class="route-error-message"></p>
+                    <label for="route-interest">Interests</label>
+                    <select id="route-interest">
+                        <option value="">-- Select interest --</option>
+                    </select>
 
-                <button id="save-pdf-btn" class="btn route-submit-btn" style="display:none;">
-                    Save route as PDF
-                </button>
+                    <label for="route-food">Food type</label>
+                    <select id="route-food">
+                        <option value="">-- Select food type --</option>
+                    </select>
 
+                    <label for="route-budget">Budget</label>
+                    <select id="route-budget">
+                        <option value="">-- Select budget --</option>
+                    </select>
 
-                <div id="route-result" class="route-result">
-                    <p class="route-placeholder">
-                        Select your preferences and wait for a tailored suggestion.
-                    </p>
+                    <button type="button" id="route-submit" class="btn route-submit-btn">Get route recommendation</button>
+                    <p id="route-error" class="route-error-message"></p>
+                </form>
+
+                <!-- Rezultati -->
+                <div class="route-result-wrapper">
+                    <h3 class="route-result-title">Your route</h3>
+                    <div id="route-result" class="route-result">
+                        <p class="route-placeholder">Select your preferences and wait for a tailored suggestion.</p>
+                    </div>
+                    <button id="save-pdf-btn" class="btn route-submit-btn" style="display:none;">Save as PDF</button>
                 </div>
 
             </div>
-
         </div>
 
     </div>
 
 </section>
-
 
 
 <!-- WHY THIS PLACE IS SPECIAL -->
@@ -252,35 +265,111 @@
 
 <!-- PHOTO GALLERY -->
 <section class="city-section">
-    <h2>Photo Moments from Cluj-Napoca</h2>
+    <div class="gallery-header" id="gallery-toggle">
+        <h2>Photo Moments from Cluj-Napoca</h2>
+        <span class="gallery-arrow" id="gallery-arrow">▼</span>
+    </div>
 
-    <div class="gallery">
+    <div id="gallery-panel" class="gallery-panel collapsed">
+        <!-- Tekst na background-image -->
+        <div class="gallery-text-block">
+            <br><br>
+            Cluj is a beautiful city that resembles the cities of Central Europe. 
+            Some streets and facades in the old part of the city resemble those of Vienna. 
+            I enjoyed walking through the city and the park that is on a hill and from where 
+            you can see the whole city. And it is not far from the center<br> 
+            My companion and I arrived around 4 pm. We passed by the National Theater and 
+            headed towards the city center. Along the way, we came across the monument to 
+            the mother wolf who raised Romulus and Remus. In the center is the monument to 
+            Meteia and the Roman Catholic church. We walked through the streets of the old 
+            part of the city. We enjoyed the architecture and the beautifully decorated 
+            gardens of restaurants with lamps.<br> 
+            We looked for a place to sit down and eat something nice. And then 'Berliner 
+            Kebab' caught my eye. I remembered that I had the most beautiful wrap in Vienna, 
+            right at the 'Berliner Döner' stand in Vienna. We entered that restaurant, 
+            and we didn't regret it.<br> 
+            On the way to the viewpoint, I came across the cafe 'Nish', which was closed 
+            because it was Sunday. And we came to the hill where 'Cetățuia Park' is located. 
+            From there, the view extends over the entire city of Cluj-Napoca.<br> 
+            On the way back, we stopped by the Orthodox Church, which is across from the 
+            National Theater. They are separated by a park with stands selling handicrafts 
+            and jewelry.
+            <br><br>
+        </div>
 
-        <figure>
-            <img class="gallery-img" src="/assets/images/destinations/Cluj-Napoca/unirii-square.png" alt="Unirii Square">
-            <figcaption>Unirii Square — the beating heart of Cluj.</figcaption>
-        </figure>
+        <!-- Galerija ide kad se panel otvori, ali VAN text-bloka -->
+        <div class="gallery">
+            <figure>
+                <img class="gallery-img" src="/assets/images/destinations/Cluj-Napoca/national_theatre.png" alt="national_theatre">
+                <figcaption>National Theatre in Cluj.</figcaption>
+            </figure>
 
-        <figure>
-            <img class="gallery-img" src="/assets/images/destinations/Cluj-Napoca/cluj_roma_madre.png" alt="Central Park">
-            <figcaption>Monument to the she-wolf who raised Romulus and Remus.</figcaption>
-        </figure>
+            <figure>
+                <img class="gallery-img" src="/assets/images/destinations/Cluj-Napoca/orthodox_catedrala_mitropolitana.png" alt="catedrala_mitropolitana">
+                <figcaption>Catedrala Mitropolitană „Adormirea Maicii Domnului”.</figcaption>
+            </figure>
 
-        <figure>
-            <img class="gallery-img" src="/assets/images/destinations/Cluj-Napoca/cluj_berliner_kebab.jpg" alt="St. Michael's Church">
-            <figcaption>Berliner Kebab, modeled after the Berliner Döner in Vienna.</figcaption>
-        </figure>
+            <figure>
+                <img class="gallery-img" src="/assets/images/destinations/Cluj-Napoca/cluj_roma_madre.png" alt="roma_madre">
+                <figcaption>Monument to the she-wolf who raised Romulus and Remus.</figcaption>
+            </figure>
+            
+            <figure>
+                <img class="gallery-img" src="/assets/images/destinations/Cluj-Napoca/unirii-square.png" alt="Unirii Square">
+                <figcaption>Unirii Square - the beating heart of Cluj.</figcaption>
+            </figure>
 
-        <figure>
-            <img class="gallery-img" src="/assets/images/destinations/Cluj-Napoca/Cluj_with_friend.jpg" alt="St. Michael's Church">
-            <figcaption>With a companion on a Kebab break.</figcaption>
-        </figure>
+            <figure>
+                <img class="gallery-img" src="/assets/images/destinations/Cluj-Napoca/unirii-square_02.jpg" alt="Unirii Square 02">
+                <figcaption>Unirii Square - Monument to Matthias Corvinus.</figcaption>
+            </figure>
 
-        <figure>
-            <img class="gallery-img" src="/assets/images/destinations/Cluj-Napoca/Cluj_old_town_02.jpg" alt="St. Michael's Church">
-            <figcaption>Architecture in the old part of the city.</figcaption>
-        </figure>
+            <figure>
+                <img class="gallery-img" src="/assets/images/destinations/Cluj-Napoca/Cluj_old_town_01.png" alt="old_town_intersection">
+                <figcaption>View of the intersection in the old town.</figcaption>
+            </figure>
+            
+            <figure>
+                <img class="gallery-img" src="/assets/images/destinations/Cluj-Napoca/cluj_restaurant.jpg" alt="restaurant garden">
+                <figcaption>One of the garden restaurants in Cluj.</figcaption>
+            </figure>
 
+            <figure>
+                <img class="gallery-img" src="/assets/images/destinations/Cluj-Napoca/Cluj_old_town_02.jpg" alt="old_town_intersection_street">
+                <figcaption>One of the streets in the old part of the city.</figcaption>
+            </figure>
+
+            <figure>
+                <img class="gallery-img" src="/assets/images/destinations/Cluj-Napoca/cluj_berliner_kebab.jpg" alt="berliner_kebab">
+                <figcaption>Berliner Kebab, modeled after the Berliner Döner in Vienna.</figcaption>
+            </figure>
+
+            <figure>
+                <img class="gallery-img" src="/assets/images/destinations/Cluj-Napoca/Cluj_with_friend.jpg" alt="with_friend">
+                <figcaption>With a companion on a Kebab break.</figcaption>
+            </figure>
+
+            <figure>
+                <img class="gallery-img" src="/assets/images/destinations/Cluj-Napoca/cluj_berliner_kebab_ambient.jpg" alt="cluj_berliner_kebab_ambient">
+                <figcaption>The ambiance of the "Berliner Kebab" restaurant.</figcaption>
+            </figure>
+
+            <figure>
+                <img class="gallery-img" src="/assets/images/destinations/Cluj-Napoca/Cluj_NishCaffe.jpg" alt="NishCaffe">
+                <figcaption>Cafe Nish, which was closed because it was Sunday.</figcaption>
+            </figure>
+
+            <figure>
+                <img class="gallery-img" src="/assets/images/destinations/Cluj-Napoca/cluj_orthodox_church_exterier.png" alt="orthodox_church_exterier">
+                <figcaption>Monuments to priests in front of the Orthodox church.</figcaption>
+            </figure>
+
+            <figure>
+                <img class="gallery-img" src="/assets/images/destinations/Cluj-Napoca/cluj_orthodox_church_enterier.jpg" alt="orthodox_church_enterier">
+                <figcaption>Interior of an Orthodox church.</figcaption>
+            </figure>
+
+        </div>    
     </div>
 </section>
 

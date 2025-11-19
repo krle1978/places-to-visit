@@ -254,6 +254,10 @@
     gap: 1.5rem;
 }
 
+.route-result-title {
+    margin-bottom: 0.75rem;
+}
+
 /* Desktop layout: two columns */
 @media (min-width: 900px) {
     .route-planner-grid {
@@ -366,6 +370,11 @@
 
 .route-planner-header h2 {
     margin: 0;
+}
+
+.route-arrow {
+    font-size: 1.2em;
+    transition: transform 0.3s;
 }
 
 .make-route-btn {

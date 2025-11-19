@@ -80,15 +80,13 @@ function loadRouteRecommendations() {
         .then(text => {
             const rows = parseCsv(text);
 
-            routeRecommendations = rows.map(row => ({
-                category: row.category,
-                daytime: row.daytime,
-                recommendation: row.recommendation
-            })).filter(r =>
-                r.category &&
-                r.daytime &&
-                r.recommendation
-            );
+            routeRecommendations = rows
+                .map(row => ({
+                    category: row.category,
+                    daytime: row.daytime,
+                    recommendation: row.recommendation
+                }))
+                .filter(r => r.category && r.daytime && r.recommendation);
 
             routesLoaded = true;
             console.info("[Salina Turda routes] Loaded", routeRecommendations.length, "routes.");
@@ -111,19 +109,13 @@ function populateDropdowns() {
 
     const unique = arr => [...new Set(arr)].sort();
 
-    // Categories
     const categories = unique(routeRecommendations.map(r => r.category));
     categorySelect.innerHTML = `<option value="">-- Select visitor type --</option>`;
-    categories.forEach(v =>
-        categorySelect.innerHTML += `<option value="${v}">${v}</option>`
-    );
+    categories.forEach(v => categorySelect.innerHTML += `<option value="${v}">${v}</option>`);
 
-    // Daytime
     const times = unique(routeRecommendations.map(r => r.daytime));
     daytimeSelect.innerHTML = `<option value="">-- Select time of day --</option>`;
-    times.forEach(v =>
-        daytimeSelect.innerHTML += `<option value="${v}">${v}</option>`
-    );
+    times.forEach(v => daytimeSelect.innerHTML += `<option value="${v}">${v}</option>`);
 }
 
 // =======================
@@ -132,29 +124,31 @@ function populateDropdowns() {
 
 document.addEventListener("DOMContentLoaded", function () {
 
-    // DEFINIŠEMO PRAVILNE ELEMENTE
     const categorySelect = document.getElementById("route-category");
     const daytimeSelect = document.getElementById("route-daytime");
 
     const submitBtn = document.getElementById("route-submit");
     const errorMessage = document.getElementById("route-error");
     const resultContainer = document.getElementById("route-result");
+    const pdfBtn = document.getElementById("save-pdf-btn");
 
     const panel = document.getElementById("route-planner-panel");
     const header = document.getElementById("route-planner-toggle");
+    const arrow = document.getElementById("route-arrow");
     const openBtn = document.getElementById("route-open-btn");
 
-    // Load CSV THEN populate dropdowns
+    // Load CSV + populate
     loadRouteRecommendations().then(() => {
         if (!routesLoadError && routeRecommendations.length > 0) {
             populateDropdowns();
         }
     });
 
-    // submit handler
+    // Submit handler
     submitBtn.addEventListener("click", () => {
         errorMessage.textContent = "";
         resultContainer.innerHTML = "";
+        pdfBtn.style.display = "none";
 
         if (routesLoadError)
             return errorMessage.textContent = "Error loading CSV.";
@@ -196,13 +190,31 @@ document.addEventListener("DOMContentLoaded", function () {
         `;
 
         resultContainer.appendChild(card);
+        pdfBtn.style.display = "inline-block";
     });
 
-    // collapsible toggle
+    // PDF EXPORT
+    pdfBtn?.addEventListener("click", () => {
+        const element = document.getElementById("route-result");
+
+        const opt = {
+            filename: "salina-turda-route.pdf",
+            margin: 10,
+            jsPDF: { unit: "mm", format: "a4" }
+        };
+
+        html2pdf().set(opt).from(element).save();
+    });
+
+    // COLLAPSIBLE PANEL + STRELICA ROTACIJA
     if (panel && header) {
         const toggle = () => {
             panel.classList.toggle("collapsed");
             panel.classList.toggle("open");
+
+            if (arrow) {
+                arrow.textContent = panel.classList.contains("open") ? "▲" : "▼";
+            }
         };
 
         header.addEventListener("click", toggle);
@@ -212,6 +224,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 e.stopPropagation();
                 panel.classList.remove("collapsed");
                 panel.classList.add("open");
+                if (arrow) arrow.textContent = "▲";
                 header.scrollIntoView({ behavior: "smooth" });
             });
         }
