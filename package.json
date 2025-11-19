@@ -1,0 +1,17 @@
+{
+  "name": "places-to-visit",
+  "version": "1.0.0",
+  "description": "Static website for Places To Visit",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.8"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
