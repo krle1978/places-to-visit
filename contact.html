@@ -6,61 +6,10 @@
     <title>Contact — Places To Visit</title>
 
     <link rel="stylesheet" href="assets/css/main.css">
-    <script src="assets/js/includes.js" defer></script>
+    <link rel="stylesheet" href="assets/css/contact.css">
 
-    <style>
-        .contact-container {
-            padding: 4rem 6vw;
-            max-width: 900px;
-            margin: auto;
-        }
-        .contact-box {
-            background: #ffffff;
-            padding: 2rem 2.5rem;
-            border-radius: 20px;
-            border: 1px solid #e5e7eb;
-            box-shadow: 0 6px 24px rgba(0,0,0,0.08);
-            margin-top: 2rem;
-        }
-        .contact-box label {
-            display: block;
-            margin-bottom: 0.4rem;
-            font-size: 0.95rem;
-            font-weight: 600;
-        }
-        .contact-box input,
-        .contact-box textarea {
-            width: 100%;
-            padding: 0.9rem 1rem;
-            border-radius: 12px;
-            border: 1px solid #d1d5db;
-            font-size: 1rem;
-            margin-bottom: 1.4rem;
-            transition: 0.2s;
-        }
-        .contact-box input:focus,
-        .contact-box textarea:focus {
-            outline: none;
-            border-color: #111827;
-        }
-        .contact-box textarea {
-            height: 160px;
-            resize: vertical;
-        }
-        .contact-send {
-            background: #111827;
-            color: #ffffff;
-            font-size: 1rem;
-            border: none;
-            padding: 0.9rem 2rem;
-            border-radius: 50px;
-            cursor: pointer;
-            transition: 0.2s;
-        }
-        .contact-send:hover {
-            background: #374151;
-        }
-    </style>
+    <script src="assets/js/includes.js" defer></script>
+    <script src="assets/js/contact.js" defer></script>
 </head>
 
 <body>
@@ -80,7 +29,7 @@
     </div>
 
     <div class="hero-image">
-        <img src="assets/images/backgrounds/contact-hero.jpg" alt="Contact image">
+        <img src="assets/images/backgrounds/contact-hero.webp" alt="Contact image">
     </div>
 </section>
 
@@ -88,7 +37,7 @@
 <div class="contact-container">
     <h2 class="section-title">Send a Message</h2>
 
-    <form class="contact-box" action="#" method="POST">
+    <form class="contact-box" id="contactForm">
         <label for="name">Your Name</label>
         <input id="name" name="name" type="text" placeholder="Type your name..." required>
 

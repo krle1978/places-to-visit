@@ -69,6 +69,9 @@ document.addEventListener("DOMContentLoaded", () => {
     const galleryPanel = document.getElementById("gallery-panel");
     const galleryArrow = document.getElementById("gallery-arrow");
 
+    // Ako ova stranica nema galeriju — prekidamo
+    if (!galleryToggle || !galleryPanel || !galleryArrow) return;
+
     galleryToggle.addEventListener("click", () => {
         const isCollapsed = galleryPanel.classList.contains("collapsed");
 
