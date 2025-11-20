@@ -1,6 +1,6 @@
-/* ------------------------------
-   RESET (osnovni)
---------------------------------*/
+/* ============================================================
+   RESET
+============================================================ */
 * {
     margin: 0;
     padding: 0;
@@ -24,15 +24,14 @@ a {
     text-decoration: none;
 }
 
-
-/* ------------------------------
-   NAVBAR
---------------------------------*/
+/* ============================================================
+   NAVBAR — DESKTOP
+============================================================ */
 .navbar {
     width: 100%;
     padding: 1.2rem 6vw;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     position: sticky;
     top: 0;
@@ -42,35 +41,128 @@ a {
     z-index: 50;
 }
 
-.nav-logo {
-    font-size: 1.4rem;
-    font-weight: 700;
-    letter-spacing: -0.5px;
+/* LOGO */
+.nav-logo img,
+.desktop-logo img {
+    height: 48px;
+    width: auto;
 }
 
-.nav-links {
+.desktop-logo {
+    display: block;
+}
+
+.mobile-logo {
+    display: none;
+}
+
+/* NAV LINKS */
+.nav-links ul {
+    list-style: none;
     display: flex;
     gap: 2rem;
+    align-items: center;
 }
 
-.nav-links a {
+.nav-links li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links a,
+.dropdown-btn {
     font-size: 0.95rem;
     padding-bottom: 3px;
     border-bottom: 2px solid transparent;
     transition: 0.2s ease;
+    color: #111827;
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    line-height: 1.6;
 }
 
-.nav-links a:hover {
-    border-bottom: 2px solid #111827;
+.nav-links a:hover,
+.dropdown-btn:hover {
+    border-bottom-color: #111827;
+    color: #f97316;
 }
 
-.nav-logo img {
-    height: 48px;       /* ili 40px, 50px... kako želiš */
-    width: auto;
+/* DROPDOWN ARROW */
+.dropdown-btn::after {
+    content: " ▾";
+    font-size: 0.8rem;
+    margin-left: 4px;
+    transition: transform 0.2s ease;
+}
+
+.dropdown:hover .dropdown-btn::after {
+    transform: rotate(180deg);
+}
+
+/* ============================================================
+   DROPDOWNS — DESKTOP
+============================================================ */
+.dropdown,
+.dropdown-country {
+    position: relative;
+}
+
+/* MAIN DROPDOWN */
+.dropdown-menu,
+.dropdown-submenu {
+    display: none;
+    position: absolute;
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 0.6rem 0;
+    white-space: nowrap;
+    min-width: 220px;
+    box-shadow: 0 12px 24px rgba(0,0,0,0.12);
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+    z-index: 1000;
+}
+
+.dropdown-menu {
+    top: 100%;
+    left: 0;
+}
+
+.dropdown-submenu {
+    top: 0;
+    left: 100%;
+    min-width: 200px;
+}
+
+/* HOVER ACTIVATION */
+.dropdown:hover > .dropdown-menu,
+.dropdown-country:hover > .dropdown-submenu {
     display: block;
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
 }
 
-/* Scroll to Top Button */
+/* ITEM */
+.dropdown-country {
+    padding: 0.65rem 1rem;
+    cursor: pointer;
+}
+
+.dropdown-country:hover {
+    background: #f3f4f6;
+}
+
+/* ============================================================
+   SCROLL TO TOP BUTTON
+============================================================ */
 .scroll-top-btn {
     position: fixed;
     bottom: 32px;
@@ -79,35 +171,28 @@ a {
     height: 52px;
     border-radius: 50%;
     background: #4a63e7;
-    color: white;
+    color: #ffffff;
     border: none;
     cursor: pointer;
-
     font-size: 26px;
     display: flex;
     align-items: center;
     justify-content: center;
-
-    box-shadow: 0 6px 16px rgba(0,0,0,0.18);
     opacity: 0;
     pointer-events: none;
-    transition: opacity 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.18);
+    transition: opacity 0.3s ease;
     z-index: 2000;
 }
 
 .scroll-top-btn.show {
     opacity: 1;
     pointer-events: auto;
-    transform: translateY(0);
 }
 
-.scroll-top-btn:hover {
-    background: #394fd1;
-}
-
-/* ------------------------------
+/* ============================================================
    HERO SECTION
---------------------------------*/
+============================================================ */
 .hero {
     display: flex;
     align-items: center;
@@ -138,6 +223,7 @@ a {
     gap: 1rem;
 }
 
+/* BUTTONS */
 .btn {
     padding: 0.75rem 1.6rem;
     font-size: 0.95rem;
@@ -149,15 +235,10 @@ a {
 .btn.primary {
     background: #111827;
     color: #ffffff;
-    border-color: #111827;
 }
 
 .btn.primary:hover {
     background: #374151;
-}
-
-.btn.ghost {
-    background: transparent;
 }
 
 .btn.ghost:hover {
@@ -170,10 +251,9 @@ a {
     box-shadow: 0 12px 32px rgba(0,0,0,0.12);
 }
 
-
-/* ------------------------------
+/* ============================================================
    FEATURED DESTINATIONS
---------------------------------*/
+============================================================ */
 .featured {
     padding: 4rem 6vw;
 }
@@ -196,7 +276,7 @@ a {
     border: 1px solid #e5e7eb;
     border-radius: 20px;
     overflow: hidden;
-    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    transition: transform 0.25s, box-shadow 0.25s;
 }
 
 .card:hover {
@@ -205,7 +285,6 @@ a {
 }
 
 .card img {
-    width: 100%;
     height: 200px;
     object-fit: cover;
 }
@@ -217,7 +296,6 @@ a {
 .card-text h3 {
     font-size: 1.2rem;
     margin-bottom: 0.4rem;
-    font-weight: 600;
 }
 
 .card-text p {
@@ -225,10 +303,9 @@ a {
     font-size: 0.9rem;
 }
 
-
-/* ------------------------------
+/* ============================================================
    SEASONS SECTION
---------------------------------*/
+============================================================ */
 .seasons {
     padding: 4rem 6vw;
     background: #f9fafb;
@@ -237,44 +314,27 @@ a {
 .season-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    margin-top: 2rem;
     gap: 1.5rem;
+    margin-top: 2rem;
 }
 
 .season-card {
-    border-radius: 18px;
     height: 160px;
+    border-radius: 18px;
+    color: #ffffff;
+    font-weight: 600;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.2rem;
-    font-weight: 600;
-    color: #ffffff;
-    letter-spacing: 0.5px;
-    position: relative;
-    overflow: hidden;
 }
-
-.season-card span {
-    position: relative;
-    z-index: 2;
-}
-
-/* Background colors */
-.spring  { background: #86efac; }
-.summer  { background: #facc15; }
-.autumn  { background: #fb923c; }
-.winter  { background: #60a5fa; }
 
 .season-card:hover {
     filter: brightness(0.9);
-    cursor: pointer;
 }
 
-
-/* ------------------------------
+/* ============================================================
    FOOTER
---------------------------------*/
+============================================================ */
 .footer {
     text-align: center;
     padding: 2rem;
@@ -283,19 +343,194 @@ a {
     border-top: 1px solid #e5e7eb;
 }
 
+/* ============================================================
+   MOBILE — FULL TRANSFORMATION
+============================================================ */
+@media (max-width: 600px) {
 
-/* ------------------------------
-   RESPONSIVE
---------------------------------*/
-@media (max-width: 900px) {
+    /* Ugasiti sav hover efekat */
+    .dropdown:hover > .dropdown-menu,
+    .dropdown-country:hover > .dropdown-submenu {
+        display: none !important;
+        visibility: hidden !important;
+        opacity: 0 !important;
+        pointer-events: none !important;
+    }
+
+    /* Pravilno pozicioniranje dropdowna posle klika */
+    .dropdown-menu,
+    .dropdown-submenu {
+        position: static !important;
+        display: none;
+        width: 100%;
+        box-shadow: none;
+        border: none;
+        border-radius: 0;
+        margin: 0;
+        padding: 0.6rem 0;
+        background: #ffffff;
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+    }
+
+    /* Kada JS doda .open → prikaži meni */
+    .dropdown-menu.open,
+    .dropdown-submenu.open {
+        display: block !important;
+    }
+
+    /* Dropdown-country da izgleda kao običan red */
+    .dropdown-country {
+        padding: 0.8rem 1rem;
+        background: #fff;
+        border-bottom: 1px solid #e5e7eb;
+    }
+
+    .dropdown-country span {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    /* ============================================================
+   GLOBAL HOVER DISABLER WHEN .open IS ACTIVE (for mobile behavior)
+============================================================ */
+
+/* Kada je dropdown-menu otvoren klikom, hover se potpuno gasi */
+.dropdown-menu.open,
+.dropdown-menu.open * {
+    pointer-events: auto !important;
+}
+
+.dropdown-submenu.open,
+.dropdown-submenu.open * {
+    pointer-events: auto !important;
+}
+
+/* Najvažnije: ugasiti hover trigger kada postoji .open */
+.dropdown.open:hover > .dropdown-menu,
+.dropdown-country.open:hover > .dropdown-submenu {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    pointer-events: auto !important;
+}
+
+/* A ukinuti hover koji bi pokušao da sakrije meni */
+.dropdown:hover > .dropdown-menu:not(.open),
+.dropdown-country:hover > .dropdown-submenu:not(.open) {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+}
+
+    /* NAVBAR */
+    .navbar {
+        position: fixed;
+        bottom: 0;
+        top: auto;
+        width: 100%;
+        padding: 0.4rem 3vw;
+        border-top: 1px solid #e5e7eb;
+        justify-content: space-around;
+    }
+
+    .desktop-logo {
+        display: none !important;
+    }
+
+    .mobile-logo {
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mobile-logo img {
+        height: 40px;
+    }
+
+    .nav-links ul {
+        display: none; /* desktop list hidden */
+    }
+
+    /* MOBILE MENU */
+    #mobile-menu {
+        position: fixed;
+        bottom: 60px;
+        left: 0;
+        right: 0;
+        background: #ffffff;
+        padding: 1rem 0;
+        display: flex;
+        flex-direction: column;
+        border-top: 1px solid #e5e7eb;
+        box-shadow: 0 -4px 20px rgba(0,0,0,0.08);
+        z-index: 1000;
+        transform: translateY(100%);
+        opacity: 0;
+        pointer-events: none;
+        transition: 0.3s ease;
+    }
+
+    #mobile-menu.open {
+        transform: translateY(0);
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+    #mobile-menu li {
+        padding: 0.6rem 0;
+    }
+
+    #mobile-menu a,
+    #mobile-menu button {
+        font-size: 1.1rem;
+        color: #111827;
+    }
+
+    /* HOVER MENI UTILITY (mobile fix) */
+    .dropdown-menu,
+    .dropdown-submenu {
+        bottom: 60px;
+        top: auto;
+        left: 0;
+        right: 0;
+        position: fixed;
+        min-width: 100%;
+    }
+
+    /* HERO */
     .hero {
         flex-direction: column;
         text-align: center;
+        padding: 2rem 4vw;
     }
-    .hero-text {
-        max-width: 100%;
+
+    .hero-image img {
+        max-width: 300px;
     }
-    .hero-buttons {
-        justify-content: center;
+
+    /* CARDS */
+    .cards {
+        flex-direction: column;
+    }
+
+    .card img {
+        height: 160px;
+    }
+
+    /* SCROLL BUTTON */
+    .scroll-top-btn {
+        width: 42px;
+        height: 42px;
+        font-size: 20px;
+    }
+}
+
+/* Hide mobile logo on large screens */
+@media (min-width: 601px) {
+    .mobile-logo {
+        display: none !important;
     }
 }

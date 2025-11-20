@@ -1,13 +1,36 @@
 <header class="navbar">
-    <a href="/index.html" class="nav-logo">
+
+    <!-- LOGO za desktop -->
+    <a href="/index.html" class="nav-logo desktop-logo">
         <img src="/assets/images/logo/Places To Visit Logo_02.jpg" alt="Places To Visit Logo">
     </a>
 
-    <nav class="nav-links">
-        <a href="/index.html">Home</a>
-        <a href="/about.html">About</a>
-        <a href="/destinations/index.html">Destinations</a>
-        <a href="/seasons.html">Seasons</a>
-        <a href="/contact.html">Contact</a>
-    </nav>
+    <!-- LOGO za mobile kao dugme -->
+<a href="#" id="mobile-toggle" class="nav-logo mobile-logo">
+    <img src="/assets/images/logo/Places To Visit Logo_02.jpg" alt="Places To Visit Logo">
+</a>
+
+<!-- NAVIGATION -->
+<nav class="nav-links">
+    <ul id="mobile-menu">
+        <li><a href="/index.html">Home</a></li>
+        <li class="dropdown">
+            <button class="dropdown-btn">Destinations</button>
+            <ul class="dropdown-menu">
+                <li class="dropdown-country">
+                    <span>Romania ▸</span>
+                    <ul class="dropdown-submenu">
+                        <li><a href="/destinations/country/Romania/Timisoara/2025/October/index.html">Timisoara</a></li>
+                        <li><a href="/destinations/country/Romania/Cluj-Napoca/2025/October/index.html">Cluj-Napoca</a></li>
+                        <li><a href="/destinations/country/Romania/Salina-Turda/2025/October/index.html">Salina Turda</a></li>
+                        <li><a href="/destinations/country/Romania/Castelul-Corvinilor/2025/October/index.html">Castelul Corvinilor</a></li>
+                        <li><a href="/destinations/country/Romania/Alba-Iulia/2025/October/index.html">Alba Iulia</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+    </ul>
+</nav>
 </header>

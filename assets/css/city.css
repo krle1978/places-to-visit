@@ -1,7 +1,6 @@
 /* ============================================================
    CITY HERO
-   ============================================================ */
-
+============================================================ */
 .city-hero {
     padding: 5rem 6vw 3rem;
     display: flex;
@@ -44,16 +43,13 @@
     box-shadow: 0 14px 34px rgba(0,0,0,0.16);
 }
 
-
-
 /* ============================================================
-   CITY SECTION
-   ============================================================ */
-
+   CITY SECTION (MAIN CONTENT BLOCKS)
+============================================================ */
 .city-section {
-    padding: 2.5rem 6vw;
-    max-width: 900px;
+    max-width: 750px;
     margin: 0 auto;
+    padding: 2.5rem 6vw;
 }
 
 .city-section h2 {
@@ -62,8 +58,8 @@
 }
 
 .city-section p {
-    color: #4b5563;
     font-size: 1.02rem;
+    color: #4b5563;
     margin-bottom: 1rem;
 }
 
@@ -81,12 +77,9 @@
     margin-bottom: 0.2rem;
 }
 
-
-
 /* ============================================================
-   INFO GRID — Why This Place Is Special
-   ============================================================ */
-
+   INFO GRID (Why This Place Is Special)
+============================================================ */
 .info-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -111,12 +104,9 @@
     color: #4b5563;
 }
 
-
-
 /* ============================================================
-   SEASONS GRID — Best Time To Visit
-   ============================================================ */
-
+   SEASONS GRID (Best Time To Visit)
+============================================================ */
 .seasons-grid-city {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -141,12 +131,9 @@
     color: #4b5563;
 }
 
-
-
 /* ============================================================
-   SIGHTS GRID — What To See & Do + Photo Gallery
-   ============================================================ */
-
+   SIGHTS GRID (What To See & Do)
+============================================================ */
 .sights-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -166,7 +153,6 @@
     width: 100%;
     height: 220px;
     object-fit: cover;
-    display: block;
 }
 
 .sight-item-content {
@@ -184,9 +170,8 @@
 }
 
 /* ============================================================
-   ROUTE FORM — CLEAN GRID LAYOUT + FIXED INPUTS
-   ============================================================ */
-
+   ROUTE PLANNER (Form + Results)
+============================================================ */
 .route-form-wrapper {
     max-width: 600px;
     margin: 0 auto;
@@ -217,11 +202,10 @@
 
 .route-form button {
     background-color: #4a63e7;
-    color: white;
+    color: #ffffff;
     border: none;
     cursor: pointer;
     transition: background 0.2s;
-    margin-top: 0.8rem;
 }
 
 .route-form button:hover {
@@ -234,70 +218,24 @@
     padding-top: 0.5rem;
 }
 
-/* ============================================
-   ROUTE LAYOUT FIX — Two Columns, Clean Layout
-   ============================================ */
-
-.route-planner-grid {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-    width: 100%;
-}
-
-#route-result {
-    margin-top: 2rem;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-}
-
-.route-result-title {
-    margin-bottom: 0.75rem;
-}
-
-/* Desktop layout: two columns */
-@media (min-width: 900px) {
-    .route-planner-grid {
-        display: flex;
-        flex-direction: column;
-    }
-}
-
-.route-left-column {
-    display: flex;
-    flex-direction: column;
-    gap: 1.2rem;
-}
-
-.route-right-column {
-    width: 100%;
-}
-
-/* ============================
-   RESULT CARDS — 2 per row
-   ============================ */
-
+/* RESULT GRID */
 .route-result-wrapper {
-    margin-top: 0.5rem;
+    margin-top: 1.5rem;
 }
 
 .route-result {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 1.4rem;
 }
 
-/* Desktop: 2 cards per row */
-@media (min-width: 900px) {
+@media (max-width: 700px) {
     .route-result {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
     }
 }
 
-/* Card styling */
+/* RESULT CARD */
 .route-card {
     display: flex;
     gap: 1.2rem;
@@ -305,9 +243,8 @@
     background: #ffffff;
     border-radius: 16px;
     border: 1px solid #e5e7eb;
-    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 6px 14px rgba(0,0,0,0.06);
     align-items: flex-start;
-    overflow: hidden;
 }
 
 .route-card:hover {
@@ -324,35 +261,22 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-shrink: 0;
 }
 
 .route-card h3 {
-    margin: 0 0 0.5rem;
     font-size: 1.15rem;
-    font-weight: 600;
+    margin-bottom: 0.5rem;
 }
 
 .route-card p {
-    margin: 0;
     font-size: 0.96rem;
-    color: #374151;
     line-height: 1.55;
-}
-
-.route-card ul {
-    margin-top: 0.6rem;
-    padding-left: 1.1rem;
-}
-
-.route-card li {
-    margin-bottom: 6px;
+    color: #374151;
 }
 
 /* ============================================================
    COLLAPSIBLE WRAPPER
-   ============================================================ */
-
+============================================================ */
 .route-planner-wrapper {
     margin-top: 2.5rem;
 }
@@ -368,50 +292,35 @@
     cursor: pointer;
 }
 
-.route-planner-header h2 {
-    margin: 0;
-}
-
 .route-arrow {
-    font-size: 1.2em;
+    font-size: 1.2rem;
     transition: transform 0.3s;
-}
-
-.make-route-btn {
-    cursor: pointer;
 }
 
 .route-planner-panel {
     overflow: hidden;
     transition: max-height 0.35s ease;
     max-height: 0;
-}
-
-.route-planner-panel.collapsed {
-    max-height: 0;
     padding: 0;
-    border: none;
 }
 
 .route-planner-panel.open {
     max-height: 3000px;
+    padding: 1.5rem 1.2rem;
     margin-top: 1rem;
     border: 1px solid #e5e7eb;
     border-radius: 16px;
-    padding: 1.5rem 1.2rem;
 }
 
+/* “Make route” button below planner */
 #route-open-btn {
     display: block;
     margin: 2.5rem auto;
 }
 
-
-
 /* ============================================================
    GALLERY GRID
-   ============================================================ */
-
+============================================================ */
 .gallery {
     display: grid;
     gap: 1.2rem;
@@ -419,24 +328,20 @@
 }
 
 .gallery img {
-    width: 100%;
     height: 220px;
     object-fit: cover;
     border-radius: 12px;
     cursor: pointer;
-    transition: transform 0.2s ease;
+    transition: transform 0.2s;
 }
 
 .gallery img:hover {
     transform: scale(1.03);
 }
 
-
-
 /* ============================================================
-   FULLSCREEN MODAL FOR GALLERY
-   ============================================================ */
-
+   FULLSCREEN GALLERY MODAL
+============================================================ */
 #gallery-modal {
     display: none;
     position: fixed;
@@ -461,7 +366,6 @@
     font-size: 3rem;
     color: white;
     cursor: pointer;
-    user-select: none;
 }
 
 #gallery-prev { left: 30px; }
@@ -476,43 +380,26 @@
     color: white;
 }
 
-
-
 /* ============================================================
-   PDF SAVE BUTTON
-   ============================================================ */
-
+   PDF BUTTON
+============================================================ */
 #save-pdf-btn {
     padding: 12px 18px;
     font-size: 1rem;
     background: #4a63e7;
-    color: white;
+    color: #ffffff;
     border-radius: 10px;
     border: none;
     cursor: pointer;
-    transition: background .2s;
 }
 
 #save-pdf-btn:hover {
     background: #394fd1;
 }
 
-
-
 /* ============================================================
-   RESPONSIVE FIXES
-   ============================================================ */
-
-@media (max-width: 900px) {
-    .city-hero {
-        padding-top: 5rem;
-        text-align: left;
-    }
-}
-
-/* ============================================
    COLLAPSIBLE GALLERY SECTION
-   ============================================ */
+============================================================ */
 .gallery-wrapper {
     margin-top: 2.5rem;
 }
@@ -528,10 +415,6 @@
     cursor: pointer;
 }
 
-.gallery-header h2 {
-    margin: 0;
-}
-
 .gallery-panel {
     overflow: hidden;
     transition: max-height 0.35s ease;
@@ -540,40 +423,100 @@
 .gallery-panel.collapsed {
     max-height: 0;
     padding: 0;
-    border: none;
 }
 
 .gallery-panel.open {
-    max-height: 3000px; /* dovoljno da stane ceo tekst + galerija */
+    max-height: 3000px;
     margin-top: 1rem;
     border: 1px solid #e5e7eb;
     border-radius: 16px;
     padding: 1.5rem 1.2rem;
-    background: #ffffff;
+    background: #fff;
 }
 
-
-
-/* ============================================
-   TEXT BLOCK WITH BACKGROUND IMAGE
-   ============================================ */
+/* ============================================================
+   GALLERY TEXT BLOCK (PAPER BACKGROUND)
+============================================================ */
 .gallery-text-block {
     background-image: url('/assets/images/backgrounds/bkgnd_paper_03.webp');
     background-size: cover;
     background-position: center;
-    padding: 2.4rem 2.6rem;
-    border-radius: 16px;
-    margin-bottom: 2rem;
 
-    /* IMPROVED READABILITY */
+    padding: 2.4rem 2.6rem;
+    margin-bottom: 2rem;
+    border-radius: 16px;
+    box-shadow: inset 0 0 20px rgba(0,0,0,0.18);
+
     font-size: 1.15rem;
     line-height: 1.75;
     font-weight: 600;
-    letter-spacing: 0.3px;
-
-    /* PERFECT COLOR FOR THIS PAPER STYLE */
     color: #4B2E05;
+    letter-spacing: 0.3px;
+}
 
-    /* inner shadow keeps it “printed” on paper */
-    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.18);
+/* ============================================================
+   MOBILE FIXES
+============================================================ */
+@media (max-width: 600px) {
+    .city-hero {
+        padding-top: 5rem;
+        text-align: left;
+    }
+
+    .gallery-text-block {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+
+    #gallery-prev { left: 10px; }
+    #gallery-next { right: 10px; }
+
+    #gallery-modal img {
+        max-width: 95%;
+    }
+}
+
+/* ============================================================
+   RESPONSIVE FIX FOR GALLERY (2 cols desktop, 1 col mobile)
+============================================================ */
+
+/* DESKTOP – two columns */
+@media (min-width: 700px) {
+    .gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+        gap: 1.8rem;
+        justify-items: stretch;
+        align-items: start;
+    }
+
+    .gallery figure {
+        width: 100%;
+    }
+
+    .gallery figure img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* MOBILE – single column centered */
+@media (max-width: 700px) {
+    .gallery {
+        display: flex;
+        flex-direction: column;
+        gap: 1.6rem;
+        align-items: center;   /* centers images */
+    }
+
+    .gallery figure {
+        max-width: 88%;        /* or 90%, looks cleaner */
+        text-align: center;    /* centers caption */
+    }
+
+    .gallery figure img {
+        width: 100%;
+        height: auto;
+        border-radius: 12px;
+    }
 }
