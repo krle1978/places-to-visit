@@ -1,34 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="icon" type="image/png" href="../../../../../../assets/images/favicon-PTV-32x32.png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alba Iulia, Romania — October 2025 | Places To Visit</title>
+    
+    <title>Places To Visit</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/assets/images/favicon-PTV-32x32.png">
+
+    <!-- META DESCRIPTION -->
+    <meta name="description" content="Authentic travel stories across Romania — from gothic castles and vibrant cities to quiet autumn streets. Explore destinations through photos, history, culture, and personal adventures.">
 
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="stylesheet" href="/assets/css/city.css">
+    <link rel="stylesheet" href="/assets/css/header.css">
+    <link rel="stylesheet" href="/assets/css/city.css"> <!-- OVO JE ONAJ LINK ŠTO SI REKAO DA NEDOSTAJE -->
 
     <!-- JS -->
     <script src="/assets/js/includes.js" defer></script>
-    <script src="/assets/js/alba-lulia-routes.js" defer></script>
-    <script src="/assets/js/gallery.js" defer></script>
+    <script src="/assets/js/header.js" defer></script>
 
-    <!-- Google tag (gtag.js) -->
+    <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-GHW24CT6N2"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-GHW24CT6N2');
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-GHW24CT6N2');
     </script>
 </head>
 
 <body>
 
 <!-- HEADER -->
-<div data-include="../../../../../../components/header.html"></div>
+<div data-include="/components/header.html"></div>
+
 
 <!-- CITY HERO -->
 <section class="city-hero">
@@ -359,7 +366,7 @@
 
 
 <!-- FOOTER -->
-<div data-include="../../../../../../components/footer.html"></div>
+<div data-include="/components/footer.html"></div>
 <div id="gallery-modal">
     <span id="gallery-close">&times;</span>
     <span class="arrow" id="gallery-prev">&#10094;</span>

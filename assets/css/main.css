@@ -25,142 +25,6 @@ a {
 }
 
 /* ============================================================
-   NAVBAR — DESKTOP
-============================================================ */
-.navbar {
-    width: 100%;
-    padding: 1.2rem 6vw;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    position: sticky;
-    top: 0;
-    background: #ffffffee;
-    backdrop-filter: blur(6px);
-    border-bottom: 1px solid #e5e7eb;
-    z-index: 50;
-}
-
-/* LOGO */
-.nav-logo img,
-.desktop-logo img {
-    height: 48px;
-    width: auto;
-}
-
-.desktop-logo {
-    display: block;
-}
-
-.mobile-logo {
-    display: none;
-}
-
-/* NAV LINKS */
-.nav-links ul {
-    list-style: none;
-    display: flex;
-    gap: 2rem;
-    align-items: center;
-}
-
-.nav-links li {
-    list-style: none;
-    display: flex;
-    align-items: center;
-}
-
-.nav-links a,
-.dropdown-btn {
-    font-size: 0.95rem;
-    padding-bottom: 3px;
-    border-bottom: 2px solid transparent;
-    transition: 0.2s ease;
-    color: #111827;
-    background: none;
-    border: none;
-    cursor: pointer;
-    display: inline-flex;
-    align-items: center;
-    line-height: 1.6;
-}
-
-.nav-links a:hover,
-.dropdown-btn:hover {
-    border-bottom-color: #111827;
-    color: #f97316;
-}
-
-/* DROPDOWN ARROW */
-.dropdown-btn::after {
-    content: " ▾";
-    font-size: 0.8rem;
-    margin-left: 4px;
-    transition: transform 0.2s ease;
-}
-
-.dropdown:hover .dropdown-btn::after {
-    transform: rotate(180deg);
-}
-
-/* ============================================================
-   DROPDOWNS — DESKTOP
-============================================================ */
-.dropdown,
-.dropdown-country {
-    position: relative;
-}
-
-/* MAIN DROPDOWN */
-.dropdown-menu,
-.dropdown-submenu {
-    display: none;
-    position: absolute;
-    background: #fff;
-    border: 1px solid #e5e7eb;
-    border-radius: 12px;
-    padding: 0.6rem 0;
-    white-space: nowrap;
-    min-width: 220px;
-    box-shadow: 0 12px 24px rgba(0,0,0,0.12);
-    visibility: hidden;
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity 0.2s ease;
-    z-index: 1000;
-}
-
-.dropdown-menu {
-    top: 100%;
-    left: 0;
-}
-
-.dropdown-submenu {
-    top: 0;
-    left: 100%;
-    min-width: 200px;
-}
-
-/* HOVER ACTIVATION */
-.dropdown:hover > .dropdown-menu,
-.dropdown-country:hover > .dropdown-submenu {
-    display: block;
-    visibility: visible;
-    opacity: 1;
-    pointer-events: auto;
-}
-
-/* ITEM */
-.dropdown-country {
-    padding: 0.65rem 1rem;
-    cursor: pointer;
-}
-
-.dropdown-country:hover {
-    background: #f3f4f6;
-}
-
-/* ============================================================
    SCROLL TO TOP BUTTON
 ============================================================ */
 .scroll-top-btn {
@@ -271,22 +135,21 @@ a {
 }
 
 .card {
-    flex: 1 1 300px;
-    background: #ffffff;
-    border: 1px solid #e5e7eb;
-    border-radius: 20px;
+    display: block;
     overflow: hidden;
-    transition: transform 0.25s, box-shadow 0.25s;
+    border-radius: 18px;
+}
+
+.card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    display: block;
 }
 
 .card:hover {
     transform: translateY(-6px);
     box-shadow: 0 16px 30px rgba(0,0,0,0.15);
-}
-
-.card img {
-    height: 200px;
-    object-fit: cover;
 }
 
 .card-text {
@@ -344,163 +207,10 @@ a {
 }
 
 /* ============================================================
-   MOBILE — FULL TRANSFORMATION
+   MOBILE SECTIONS
 ============================================================ */
 @media (max-width: 600px) {
 
-    /* Ugasiti sav hover efekat */
-    .dropdown:hover > .dropdown-menu,
-    .dropdown-country:hover > .dropdown-submenu {
-        display: none !important;
-        visibility: hidden !important;
-        opacity: 0 !important;
-        pointer-events: none !important;
-    }
-
-    /* Pravilno pozicioniranje dropdowna posle klika */
-    .dropdown-menu,
-    .dropdown-submenu {
-        position: static !important;
-        display: none;
-        width: 100%;
-        box-shadow: none;
-        border: none;
-        border-radius: 0;
-        margin: 0;
-        padding: 0.6rem 0;
-        background: #ffffff;
-        opacity: 1;
-        visibility: visible;
-        pointer-events: auto;
-    }
-
-    /* Kada JS doda .open → prikaži meni */
-    .dropdown-menu.open,
-    .dropdown-submenu.open {
-        display: block !important;
-    }
-
-    /* Dropdown-country da izgleda kao običan red */
-    .dropdown-country {
-        padding: 0.8rem 1rem;
-        background: #fff;
-        border-bottom: 1px solid #e5e7eb;
-    }
-
-    .dropdown-country span {
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-    }
-
-    /* ============================================================
-   GLOBAL HOVER DISABLER WHEN .open IS ACTIVE (for mobile behavior)
-============================================================ */
-
-/* Kada je dropdown-menu otvoren klikom, hover se potpuno gasi */
-.dropdown-menu.open,
-.dropdown-menu.open * {
-    pointer-events: auto !important;
-}
-
-.dropdown-submenu.open,
-.dropdown-submenu.open * {
-    pointer-events: auto !important;
-}
-
-/* Najvažnije: ugasiti hover trigger kada postoji .open */
-.dropdown.open:hover > .dropdown-menu,
-.dropdown-country.open:hover > .dropdown-submenu {
-    display: block !important;
-    visibility: visible !important;
-    opacity: 1 !important;
-    pointer-events: auto !important;
-}
-
-/* A ukinuti hover koji bi pokušao da sakrije meni */
-.dropdown:hover > .dropdown-menu:not(.open),
-.dropdown-country:hover > .dropdown-submenu:not(.open) {
-    display: none !important;
-    visibility: hidden !important;
-    opacity: 0 !important;
-}
-
-    /* NAVBAR */
-    .navbar {
-        position: fixed;
-        bottom: 0;
-        top: auto;
-        width: 100%;
-        padding: 0.4rem 3vw;
-        border-top: 1px solid #e5e7eb;
-        justify-content: space-around;
-    }
-
-    .desktop-logo {
-        display: none !important;
-    }
-
-    .mobile-logo {
-        display: flex !important;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .mobile-logo img {
-        height: 40px;
-    }
-
-    .nav-links ul {
-        display: none; /* desktop list hidden */
-    }
-
-    /* MOBILE MENU */
-    #mobile-menu {
-        position: fixed;
-        bottom: 60px;
-        left: 0;
-        right: 0;
-        background: #ffffff;
-        padding: 1rem 0;
-        display: flex;
-        flex-direction: column;
-        border-top: 1px solid #e5e7eb;
-        box-shadow: 0 -4px 20px rgba(0,0,0,0.08);
-        z-index: 1000;
-        transform: translateY(100%);
-        opacity: 0;
-        pointer-events: none;
-        transition: 0.3s ease;
-    }
-
-    #mobile-menu.open {
-        transform: translateY(0);
-        opacity: 1;
-        pointer-events: auto;
-    }
-
-    #mobile-menu li {
-        padding: 0.6rem 0;
-    }
-
-    #mobile-menu a,
-    #mobile-menu button {
-        font-size: 1.1rem;
-        color: #111827;
-    }
-
-    /* HOVER MENI UTILITY (mobile fix) */
-    .dropdown-menu,
-    .dropdown-submenu {
-        bottom: 60px;
-        top: auto;
-        left: 0;
-        right: 0;
-        position: fixed;
-        min-width: 100%;
-    }
-
-    /* HERO */
     .hero {
         flex-direction: column;
         text-align: center;
@@ -511,26 +221,11 @@ a {
         max-width: 300px;
     }
 
-    /* CARDS */
     .cards {
         flex-direction: column;
     }
 
     .card img {
         height: 160px;
-    }
-
-    /* SCROLL BUTTON */
-    .scroll-top-btn {
-        width: 42px;
-        height: 42px;
-        font-size: 20px;
-    }
-}
-
-/* Hide mobile logo on large screens */
-@media (min-width: 601px) {
-    .mobile-logo {
-        display: none !important;
     }
 }

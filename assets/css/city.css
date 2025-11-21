@@ -480,43 +480,75 @@
    RESPONSIVE FIX FOR GALLERY (2 cols desktop, 1 col mobile)
 ============================================================ */
 
-/* DESKTOP – two columns */
+/* DESKTOP – two columns with vertical scroll */
 @media (min-width: 700px) {
     .gallery {
         display: grid;
-        grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+        grid-template-columns: 1fr 1fr;
         gap: 1.8rem;
         justify-items: stretch;
         align-items: start;
+
+        /* SCROLL PANEL */
+        max-height: 600px;      /* po želji 500 / 700 */
+        overflow-y: auto;
+        padding-right: 12px;    /* da sadržaj ne udara u scrollbar */
     }
 
     .gallery figure {
         width: 100%;
-    }
-
-    .gallery figure img {
-        width: 100%;
-        height: auto;
-    }
-}
-
-/* MOBILE – single column centered */
-@media (max-width: 700px) {
-    .gallery {
-        display: flex;
-        flex-direction: column;
-        gap: 1.6rem;
-        align-items: center;   /* centers images */
-    }
-
-    .gallery figure {
-        max-width: 88%;        /* or 90%, looks cleaner */
-        text-align: center;    /* centers caption */
     }
 
     .gallery figure img {
         width: 100%;
         height: auto;
         border-radius: 12px;
+        display: block;
     }
+}
+
+/* MOBILE – single column centered, also scrollable */
+@media (max-width: 700px) {
+    .gallery {
+        display: flex;
+        flex-direction: column;
+        gap: 1.6rem;
+        align-items: center;
+
+        /* SCROLL PANEL */
+        max-height: 500px;      /* malo manje na mobilnom */
+        overflow-y: auto;
+        padding-right: 10px;
+    }
+
+    .gallery figure {
+        max-width: 88%;
+        text-align: center;
+    }
+
+    .gallery figure img {
+        width: 100%;
+        height: auto;
+        border-radius: 12px;
+        display: block;
+    }
+}
+
+/* OPTIONAL: custom scrollbar (Chrome/Edge) */
+.gallery::-webkit-scrollbar {
+    width: 8px;
+}
+
+.gallery::-webkit-scrollbar-track {
+    background: #f0f0f0;
+    border-radius: 8px;
+}
+
+.gallery::-webkit-scrollbar-thumb {
+    background: #b3b3b3;
+    border-radius: 8px;
+}
+
+.gallery::-webkit-scrollbar-thumb:hover {
+    background: #888;
 }

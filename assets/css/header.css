@@ -1,0 +1,227 @@
+/* ============================================
+   ROOT WRAPPER
+============================================ */
+.site-header {
+    width: 100%;
+    z-index: 2000;
+}
+
+/* ============================================
+   DESKTOP NAVIGATION
+============================================ */
+.desktop-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 6vw;
+    position: sticky;
+    top: 0;
+    background: #ffffffee;
+    backdrop-filter: blur(6px);
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.logo img {
+    height: 48px;
+}
+
+.desktop-menu {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+.desktop-menu a {
+    padding-bottom: 3px;
+    border-bottom: 2px solid transparent;
+    transition: 0.2s ease;
+}
+
+.desktop-menu a:hover {
+    border-bottom-color: #111827;
+    color: #f97316;
+}
+
+/* Dropdown – Desktop */
+.dropdown {
+    position: relative;
+}
+
+.dropdown-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 0.95rem;
+    padding-bottom: 3px;
+    border-bottom: 2px solid transparent;
+}
+
+.dropdown-btn:hover {
+    border-bottom-color: #111827;
+    color: #f97316;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding: 0.6rem 0;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: 0.2s ease;
+    box-shadow: 0 12px 24px rgba(0,0,0,0.12);
+}
+
+.dropdown:hover > .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+/* Submenu – Desktop */
+.dropdown-submenu {
+    position: absolute;
+    left: calc(100% - 2px);
+    top: 0;
+    background: #fff;
+    padding: 0.5rem 0;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: 0.2s ease;
+    white-space: nowrap;
+    min-width: 200px;
+}
+
+.dropdown-country:hover > .dropdown-submenu {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+/* ============================================
+   MOBILE NAVIGATION — BOTTOM SHEET MENU
+============================================ */
+.mobile-menu {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    background: #ffffff;
+    padding: 1rem 0;
+
+    transform: translateY(100%);
+    opacity: 0;
+    pointer-events: none;
+
+    transition: transform 0.35s ease, opacity 0.25s ease;
+    z-index: 2500;
+}
+
+.mobile-menu.open {
+    transform: translateY(0%);
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.mobile-menu > ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.mobile-logo img {
+    height: 40px;
+    margin-bottom: 1rem;
+}
+
+/* SUBMENU BUTTONS */
+.mobile-toggle-btn {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.mobile-toggle-btn.open .arrow {
+    transform: rotate(90deg);
+}
+
+.arrow {
+    transition: transform 0.25s ease;
+}
+
+/* SUBMENUS */
+.mobile-submenu {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+}
+
+.mobile-submenu.open {
+    display: flex;
+}
+
+.mobile-submenu a {
+    padding-left: 1rem;
+}
+
+/* ============================================
+   HAMBURGER BUTTON — FIXED
+============================================ */
+.mobile-toggle {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 52px;
+    height: 52px;
+    border-radius: 12px;
+
+    border: 1px solid #ccc;
+    background: #fff;
+    font-size: 24px;
+
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: 0 4px 12px rgba(0,0,0,0.18);
+    cursor: pointer;
+
+    z-index: 2000;
+}
+
+/* Show hamburger on mobile */
+@media (max-width: 600px) {
+    .desktop-nav {
+        display: none;
+    }
+    .mobile-toggle {
+        display: flex;
+    }
+}
+
+/* Hide mobile menu on desktop */
+@media (min-width: 601px) {
+    #mobile-menu,
+    .mobile-menu {
+        display: none !important;
+    }
+}

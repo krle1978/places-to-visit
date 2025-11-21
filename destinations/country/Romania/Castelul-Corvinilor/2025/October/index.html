@@ -1,33 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Corvin Castle — Gothic Wonder of Hunedoara | Places To Visit</title>
-    <meta name="description" content="Walk through the legendary Corvin Castle, its halls, towers and fairytale bridges.">
-
-    <link rel="icon" type="image/png" href="../../../../../../assets/images/favicon-PTV-32x32.png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- CSS -->
+
+    <!-- TITLE + DESCRIPTION -->
+    <title>PAGE TITLE HERE</title>
+    <meta name="description" content="PAGE DESCRIPTION HERE">
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" href="/assets/images/favicon-PTV-32x32.png">
+
+    <!-- ================
+         CSS (ABSOLUTE!)
+       ================ -->
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="stylesheet" href="/assets/css/city.css">
+    <link rel="stylesheet" href="/assets/css/header.css">
+    <link rel="stylesheet" href="/assets/css/city.css"> <!-- 🔥 OVO JE BILO ZABORAVLJENO -->
+
+    <!-- ================
+         JS (ABSOLUTE!)
+       ================ -->
     <script src="/assets/js/includes.js" defer></script>
+    <script src="/assets/js/header.js" defer></script>
+    <!-- PAGE SPECIFIC ROUTES (ako postoji) -->
+    <script src="/assets/js/THIS-PAGE-ROUTES.js" defer></script>
     <script src="/assets/js/gallery.js" defer></script>
 
-    <!-- Google tag (gtag.js) -->
+    <!-- ======================
+         GOOGLE ANALYTICS
+       ====================== -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-GHW24CT6N2"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-GHW24CT6N2');
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-GHW24CT6N2');
     </script>
 </head>
 
 <body>
 
 <!-- HEADER -->
-<div data-include="../../../../../../components/header.html"></div>
+<div data-include="/components/header.html"></div>
 
 <!-- CITY HERO -->
 <section class="city-hero">
@@ -299,7 +314,7 @@
 
 
 <!-- FOOTER -->
-<div data-include="../../../../../../components/footer.html"></div>
+<div data-include="/components/footer.html"></div>
 
 <div id="gallery-modal">
     <span id="gallery-close">&times;</span>
