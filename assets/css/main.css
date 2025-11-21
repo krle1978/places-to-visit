@@ -229,3 +229,119 @@ a {
         height: 160px;
     }
 }
+
+/* ============================================
+   CONTACT FORM — MOBILE FIRST
+============================================ */
+.contact-wrapper {
+    padding: 2rem 6vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-title {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.contact-box {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 0.4rem;
+    font-weight: 600;
+    color: #111827;
+}
+
+.contact-box input,
+.contact-box textarea {
+    width: 100%;
+    font-size: 1.1rem;
+    padding: 0.9rem 1rem;
+    border-radius: 12px;
+    border: 1px solid #d1d5db;
+    background: #fff;
+    transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.contact-box input:focus,
+.contact-box textarea:focus {
+    outline: none;
+    border-color: #4a63e7;
+    box-shadow: 0 0 0 3px rgba(74, 99, 231, 0.25);
+}
+
+textarea {
+    min-height: 140px;
+    resize: vertical;
+}
+
+.contact-send {
+    background: #111827;
+    color: #fff;
+    border: none;
+    font-size: 1.2rem;
+    padding: 1rem;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.contact-send:hover {
+    background: #374151;
+}
+
+/* Error + success messages */
+.error-message {
+    color: #dc2626;
+    font-size: 0.9rem;
+    margin-top: 0.3rem;
+    display: none;
+}
+
+.success-message {
+    color: #16a34a;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 1rem;
+    display: none;
+}
+
+/* DESKTOP */
+@media (min-width: 768px) {
+
+    .contact-wrapper {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .contact-title {
+        font-size: 2.2rem;
+        margin-bottom: 2rem;
+    }
+
+    .contact-box input,
+    .contact-box textarea {
+        font-size: 1.15rem;
+        padding: 1rem 1.2rem;
+    }
+
+    textarea {
+        min-height: 180px;
+    }
+
+    .contact-send {
+        font-size: 1.25rem;
+        padding: 1rem 1.4rem;
+    }
+}
