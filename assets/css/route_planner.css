@@ -1,0 +1,73 @@
+/* assets/css/route_planner.css */
+
+.route-planner {
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+
+.route-form-wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.route-form label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.route-form select,
+.route-form button {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.route-form button {
+  margin-top: 1.5rem;
+}
+
+.route-error-message {
+  color: red;
+  margin-top: 0.5rem;
+}
+
+/* ===============================
+   RESULT BOX — UJEDINJENO
+================================= */
+.route-result-wrapper {
+  margin-top: 2rem;
+  padding: 2rem;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.route-result-title {
+  margin-bottom: 1rem;
+}
+
+.route-result {
+  font-size: 1rem;
+  line-height: 1.4;
+  padding-left: 1rem;     /* 👈 dodat unutrašnji padding */
+  padding-right: 1rem;    /* 👈 dodat unutrašnji padding */
+}
+
+.route-result ul {
+  margin: 0.5rem 0 1rem 1.2rem;
+  padding: 0;
+}
+
+.route-result li {
+  margin-bottom: 0.4rem;
+  line-height: 1.5rem;
+}
+
+#save-pdf-btn {
+  margin-top: 1.5rem;
+}

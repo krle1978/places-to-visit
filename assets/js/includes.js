@@ -53,7 +53,9 @@ window.addEventListener("DOMContentLoaded", async () => {
 
     await Promise.all(Array.from(includes).map(loadInclude));
 
-
+    // Signal za druge skripte da su svi includes gotovi
+    document.dispatchEvent(new CustomEvent("includes:loaded"));
+    
     /* ============================================================
        3. SCROLL TO TOP BUTTON
     ============================================================ */
@@ -90,3 +92,4 @@ window.addEventListener("DOMContentLoaded", async () => {
     }
 
 });
+

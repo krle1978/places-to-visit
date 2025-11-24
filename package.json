@@ -1,17 +1,17 @@
 {
   "name": "places-to-visit",
   "version": "1.0.0",
-  "description": "Static website for Places To Visit",
-  "main": "index.js",
+  "private": true,
+  "description": "Static HTML/CSS/JS site for travel ideas",
   "scripts": {
-    "start": "lite-server"
-  },
-  "dependencies": {
-    "nodemailer": "^6.9.8"
+    "start": "live-server --open=./index.html",
+    "preview": "http-server . -o",
+    "build": "echo 'No build step needed for static site'",
+    "clean": "rimraf dist"
   },
   "devDependencies": {
-    "lite-server": "^2.6.1"
-  },
-  "author": "",
-  "license": "ISC"
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2",
+    "rimraf": "^5.0.10"
+  }
 }

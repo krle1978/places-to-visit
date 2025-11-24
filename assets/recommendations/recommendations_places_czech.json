@@ -1,0 +1,231 @@
+    {
+      "name": "Czech Republic",
+      "cities": [
+      {
+        "name": "Prague",
+        "interests": [
+          "History & Castles 🏰",
+          "Old Town Architecture 🏛️",
+          "Riverside Walks & Bridges 🌉",
+          "Art & Culture 🎨",
+          "Food Exploration 😋",
+          "Photography 📸"
+        ],
+        "food_preferences": [
+          "Local Specialties",
+          "Fast Food",
+          "Vegetarian",
+          "Mixed Options"
+        ],
+        "tour_type": {
+          "morning": "🏰 Prague Castle Complex: * Start your morning in the legendary castle district — courtyards, towers and incredible views over the city. → | ⛪ St. Vitus Cathedral: * Gothic masterpiece with stained glass, arches and a majestic interior. → | 🧱 Golden Lane Walk: * Tiny colorful medieval houses that look like a storybook village. → | ☕ Coffee in Lesser Town (Malá Strana): * Cozy streets and small cafés perfect for a peaceful morning break.",
+          "afternoon": "🌉 Charles Bridge Walk: * A must-see! Historic statues, views of the river and old town rooftops. → | 🕰️ Old Town Square: * Vibrant square packed with history and beautiful buildings. → | ✨ Astronomical Clock: * One of Prague’s most iconic landmarks — watch the hourly figure show. → | 🍽️ Lunch with Czech Specialties: * Try local dishes like soups, dumplings, sweet pastries or veggie options in the old town.",
+          "sunset": "🌅 Vltava Riverside or Letná Park Viewpoint: * Golden-hour reflections on the water or a higher viewpoint overlooking all of Prague’s rooftops.",
+          "night": "🌃 Chill Evening in Old Town or Riverside Promenade: * Safe, calm night walk with lights reflecting on the river, cute dessert spots and peaceful streets — perfect for relaxing.",
+          "full_day": "Morning: Prague Castle → St. Vitus Cathedral → Golden Lane → Coffee in Malá Strana; Afternoon: Charles Bridge → Old Town Square → Astronomical Clock → Lunch with Czech dishes; Sunset: Vltava riverside or Letná viewpoint; Night: Old-town chill walk or dessert spots"
+        },
+        "seasons": {
+          "spring": {
+            "event": "Spring in Prague",
+            "ideas": [
+              "🌸 Petřín Hill blossoms and nature paths",
+              "☕ Outdoor cafés in Old Town",
+              "🌉 Soft-light river walks under blooming trees"
+            ]
+          },
+          "summer": {
+            "event": "Hot Summer Days",
+            "ideas": [
+              "🌊 Vltava riverside promenades",
+              "🍦 Gelato near the Charles Bridge",
+              "🌳 Shade paths in Letná Park",
+              "🌅 Evening views from Prague Castle terraces"
+            ]
+          },
+          "autumn": {
+            "event": "Autumn in Prague",
+            "ideas": [
+              "🍁 Autumn colors on castle hill",
+              "🥐 Warm pastries in old-town cafés",
+              "🏛️ Museum visits (National Gallery, Jewish Museum)"
+            ]
+          },
+          "winter": {
+            "event": "Christmas Market",
+            "locations": [
+              "🎄 Old Town Square Christmas Market",
+              "✨ Wenceslas Square holiday booths",
+              "🏰 Prague Castle Christmas Stands"
+            ]
+          }
+        },
+        "tips": {
+          "history_fans": {
+            "places": [
+              "🏰 Prague Castle: | One of the oldest castle complexes in Europe with centuries of royal history.",
+              "⛪ St. Vitus Cathedral: | Gothic architecture, stained glass and historic chapels.",
+              "🧱 Old Town Square: | Medieval streets, baroque buildings and iconic landmarks."
+            ],
+            "what_to_get": [
+              "🏺 Historical Postcards: | Vintage Prague scenes, castle drawings and old-town sketches.",
+              "🏰 Castle-Themed Miniatures: | Small replicas of towers and landmarks."
+            ]
+          },
+          "art_lovers": {
+            "places": [
+              "🖼️ National Gallery Prague: | Beautiful collections of Czech and European art.",
+              "🎨 Kampa Museum: | Modern art on the riverbank with great views.",
+              "🗿 Public Sculptures by Černý: | Unique, creative installations around the city."
+            ],
+            "what_to_get": [
+              "🖨️ Art Prints: | Local artists, bridge scenes, castle viewpoints.",
+              "🎭 Handmade Craft Souvenirs: | Artistic ceramics, wooden designs, decorative items."
+            ]
+          },
+          "food_lovers": {
+            "places": [
+              "🍽️ Czech Taverns (non-alcoholic safe options): | Traditional soups, dumplings, sweet pastries and home-style meals.",
+              "🥨 Old Town Bakeries: | Fresh trdelník, koláče and other treats.",
+              "☕ Riverside Cafés: | Relaxed spots ideal for dessert and warm drinks."
+            ],
+            "what_to_get": [
+              "🍰 Czech Pastry Souvenirs: | Trdelník-style sweets (packaged) or local biscuits.",
+              "🍫 Handmade Chocolate: | Unique Prague-themed designs and flavors."
+            ]
+          },
+          "photography_fans": {
+            "places": [
+              "🌉 Charles Bridge at Sunrise: | Soft golden light and calm atmosphere.",
+              "🏰 Prague Castle Overlook: | Panoramic city view for iconic shots.",
+              "🌅 Letná Park: | Sunset reflections and stunning skyline angles."
+            ],
+            "what_to_get": [
+              "🖼️ Photography Prints: | Classic Prague rooftops, bridges and river scenes.",
+              "📬 Artistic Postcards: | Illustrated bridges, towers and old-town windows."
+            ]
+          }
+        },
+        "interest_map": {
+          "History & Castles 🏰": "history__castles",
+          "Old Town Architecture 🏛️": "old_town_architecture",
+          "Riverside Walks & Bridges 🌉": "riverside_walks__bridges",
+          "Art & Culture 🎨": "art__culture",
+          "Food Exploration 😋": "food_exploration",
+          "Photography 📸": "photography"
+        }
+        },
+        {
+          "name": "Brno",
+          "interests": [
+            "History & Castles 🏰",
+            "Architecture & Landmarks 🏛️",
+            "Art & Culture 🎨",
+            "Parks & Nature 🌳",
+            "Food Exploration 😋",
+            "Urban Student Vibes 🎭"
+          ],
+          "food_preferences": [
+            "Local Specialties",
+            "Fast Food",
+            "Vegetarian",
+            "Mixed Options"
+          ],
+          "tour_type": {
+            "morning": "🏰 Špilberk Castle: * Start your day with panoramic city views, castle walls and peaceful hill paths. → | 🌿 Špilberk Park: * A gentle walk among trees with great spots for photos. → | 🏛️ Cathedral of St. Peter and Paul: * Iconic towers rising above the old town, impressive inside and out. → | ☕ Coffee in Denis Gardens Café: * Scenic gardens + calm morning break.",
+            "afternoon": "🏙️ Old Town Streets: * Colorful façades, medieval corners and lively squares. → | 🧩 Brno Astronomical Clock (Náměstí Svobody): * Curious modern monument with fun design. → | 🛕 Capuchin Crypt (non-graphic): * A small historic site giving a quiet reflection moment, explained respectfully. → | 🍽️ Lunch with Moravian Specialties: * Dumplings, soups, pastries, veggie meals — comforting local flavors.",
+            "sunset": "🌅 Petrov Hill or Špilberk Terraces: * Warm golden light over rooftops and towers — gorgeous sunset views.",
+            "night": "🌃 Chill Evening Walk in Old Town or Moravian Square: * Quiet, relaxing routes with dessert cafés, student-friendly atmosphere and safe, calm streets perfect for unwinding.",
+            "full_day": "Morning: Špilberk Castle → Park → Cathedral of St. Peter and Paul → Coffee; Afternoon: Old Town → Astronomical Clock → Capuchin Crypt → Lunch; Sunset: Petrov Hill or Špilberk; Night: Old town chill route with dessert spots"
+          },
+          "seasons": {
+            "spring": {
+              "event": "Spring in Brno",
+              "ideas": [
+                "🌸 Denis Gardens blossoms",
+                "☀️ Outdoor cafés in the old town",
+                "🌿 Walks up to Špilberk in fresh spring air"
+              ]
+            },
+            "summer": {
+              "event": "Hot Summer Days",
+              "ideas": [
+                "🌳 Shaded paths around Špilberk Hill",
+                "🍦 Gelato in Náměstí Svobody",
+                "🌊 Evening strolls near Lužánky Park fountains",
+                "🌅 Sunset viewpoints around Petrov"
+              ]
+            },
+            "autumn": {
+              "event": "Autumn in Brno",
+              "ideas": [
+                "🍁 Colorful views from castle park",
+                "🥐 Warm pastries in cozy cafés",
+                "🏛️ Museum visits (Moravian Museum, Brno City Museum)"
+              ]
+            },
+            "winter": {
+              "event": "Christmas Market",
+              "locations": [
+                "🎄 Náměstí Svobody Christmas Market",
+                "✨ Dominikánské Náměstí holiday stalls",
+                "🏛️ Zelný Trh seasonal lights"
+              ]
+            }
+          },
+          "tips": {
+            "history_fans": {
+              "places": [
+                "🏰 Špilberk Castle: | Historic fortress with amazing city views and centuries of stories.",
+                "⛪ Cathedral of St. Peter and Paul: | Gothic interior, iconic towers and a key Brno landmark.",
+                "🏛️ Old Town Historic Streets: | Medieval lanes, old squares and charming architecture."
+              ],
+              "what_to_get": [
+                "📜 Historical Postcards: | Old Brno streets, castles and cathedral scenes.",
+                "🏺 Mini Castle Replicas: | Small souvenirs inspired by Špilberk’s iconic towers."
+              ]
+            },
+            "art_lovers": {
+              "places": [
+                "🖼️ Moravian Gallery: | One of the biggest art museums in the region.",
+                "🎨 Local Old-Town Galleries: | Independent art spaces with local creativity.",
+                "🗿 Public Art & Sculptures: | Modern pieces located across the center."
+              ],
+              "what_to_get": [
+                "🖨️ Art Prints: | Local illustrations, modern Czech design, city sketches.",
+                "🎭 Handmade Crafts: | Ceramics, woodwork and design items from local artists."
+              ]
+            },
+            "food_lovers": {
+              "places": [
+                "🍽️ Moravian Restaurants (non-alcoholic options): | Traditional dumplings, sauces, soups and sweet dishes.",
+                "🥨 Bakery Corners in Old Town: | Fresh pastries and warm snacks perfect for breaks.",
+                "☕ Student Cafés: | Chill spots with cakes, warm drinks and relaxed atmosphere."
+              ],
+              "what_to_get": [
+                "🍰 Moravian Sweets (packaged): | Traditional pastries safe to carry home.",
+                "🍫 Local Chocolate: | Brno-themed designs or regionally inspired flavors."
+              ]
+            },
+            "photography_fans": {
+              "places": [
+                "🌄 Špilberk Castle Viewpoints: | Overlook the whole city from above.",
+                "🏛️ Petrov Cathedral Terraces: | Rooftop-like views with towers and red roofs.",
+                "🌅 Denis Gardens: | Soft evening light and elegant park scenery."
+              ],
+              "what_to_get": [
+                "📷 City Photography Prints: | Bridges, towers and castle panoramas.",
+                "🎨 Illustrated Postcards: | Artistic takes on Brno’s skyline."
+              ]
+            }
+          },
+          "interest_map": {
+            "History & Castles 🏰": "history__castles",
+            "Architecture & Landmarks 🏛️": "architecture__landmarks",
+            "Art & Culture 🎨": "art__culture",
+            "Parks & Nature 🌳": "parks__nature",
+            "Food Exploration 😋": "food_exploration",
+            "Urban Student Vibes 🎭": "urban_student_vibes"
+          }
+        }
+      ]
+    }

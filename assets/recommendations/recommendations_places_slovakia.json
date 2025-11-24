@@ -1,0 +1,117 @@
+    {
+      "name": "Slovakia",
+      "cities": [
+        {
+          "name": "Bratislava",
+          "interests": [
+            "History & Castles 🏰",
+            "Old Town Architecture 🏛️",
+            "Riverside Walks 🌊",
+            "Art & Culture 🎨",
+            "Food Exploration 😋",
+            "Photography 📸"
+          ],
+          "food_preferences": [
+            "Local Specialties",
+            "Fast Food",
+            "Vegetarian",
+            "Mixed Options"
+          ],
+          "tour_type": {
+            "morning": "🏰 Bratislava Castle: * Begin with the city's best view — white castle walls, neat courtyards and a full panorama over the Danube. → | 🌳 Castle Hill Gardens: * Pleasant paths, quiet corners and great photo spots. → | 🏛️ St. Martin’s Cathedral: * Iconic Gothic church located right below the castle. → | ☕ Coffee in Old Town: * Cozy cafés with calm morning vibes.",
+            "afternoon": "🏙️ Old Town Walk: * Narrow medieval streets, pastel façades and charming squares. → | 🗿 Cumil ‘Man at Work’: * Fun city mascot statue — a must for a quick photo. → | 🧭 Michael’s Gate: * The last preserved medieval gate with a cool tower. → | 🍽️ Lunch with Slovak Specialties: * Try halušky-style dishes, soups, dumplings or veggie options.",
+            "sunset": "🌅 Danube Riverside Promenade or UFO Bridge Viewing Path: * Warm sky, river reflections and the perfect chill moment above the water.",
+            "night": "🌃 Old-Town Evening Walk or Riverbank Chill: * Gentle nighttime strolls, dessert cafés, calm squares and safe relaxed vibes.",
+            "full_day": "Morning: Bratislava Castle → Castle Hill Gardens → St. Martin’s Cathedral → Coffee; Afternoon: Old Town → Cumil statue → Michael’s Gate → Lunch; Sunset: Danube promenade or UFO viewpoint area; Night: Old-town dessert cafés or riverside walk"
+          },
+          "seasons": {
+            "spring": {
+              "event": "Spring in Bratislava",
+              "ideas": [
+                "🌸 Castle hill blossoms & garden paths",
+                "☕ Outdoor cafés around the old town",
+                "🌊 Fresh Danube riverside strolls"
+              ]
+            },
+            "summer": {
+              "event": "Hot Summer Days",
+              "ideas": [
+                "🌳 Shaded walks in Sad Janka Kráľa (one of Europe's oldest parks)",
+                "🍦 Gelato in Hviezdoslav Square",
+                "🌅 Evening castle viewpoints",
+                "🌊 Danube promenade breezes"
+              ]
+            },
+            "autumn": {
+              "event": "Autumn in Bratislava",
+              "ideas": [
+                "🍁 Colorful castle-hill scenery",
+                "🥐 Warm pastries in old-town cafés",
+                "🏛️ Museum days (City Museum, Danubiana Art Museum)"
+              ]
+            },
+            "winter": {
+              "event": "Christmas Market",
+              "locations": [
+                "🎄 Main Square (Hlavné námestie) Christmas Market",
+                "✨ Hviezdoslav Square seasonal stalls"
+              ]
+            }
+          },
+          "tips": {
+            "history_fans": {
+              "places": [
+                "🏰 Bratislava Castle: | Historic fortress with panoramic river and city views.",
+                "⛪ St. Martin’s Cathedral: | Gothic structure tied to centuries of coronation history.",
+                "🏛️ Michael’s Gate: | A medieval tower giving a look into the city’s old defenses."
+              ],
+              "what_to_get": [
+                "📜 Historical Postcards: | Old-town sketches, castle scenes, cathedral artwork.",
+                "🏰 Mini Castle Replicas: | Small keepsakes inspired by Bratislava Castle."
+              ]
+            },
+            "art_lovers": {
+              "places": [
+                "🖼️ Danubiana Meulensteen Art Museum: | Modern art on a peninsula surrounded by water.",
+                "🎨 Nedbalka Gallery: | Unique circular architecture with Slovak art collections.",
+                "🗿 Public Sculptures: | Famous city statues (Cumil, Paparazzi, Napoleonic soldier)."
+              ],
+              "what_to_get": [
+                "🖨️ Art Prints: | Modern Slovak designs or illustrations of bridges and rooftops.",
+                "🎭 Handmade Crafts: | Clay items, woodwork and artistic souvenirs."
+              ]
+            },
+            "food_lovers": {
+              "places": [
+                "🍽️ Slovak Restaurants (non-alcoholic friendly): | Soups, dumplings, potato dishes and sweet pastries.",
+                "🥨 Old-Town Bakeries: | Fresh rolls, cakes and warm treats.",
+                "☕ Riverside Cafés: | Chill spots ideal for dessert and scenic views."
+              ],
+              "what_to_get": [
+                "🍫 Local Chocolate: | Creative Slovakia-themed bars and flavors.",
+                "🍰 Packaged Pastries: | Soft Slovak baked souvenirs safe to bring home."
+              ]
+            },
+            "photography_fans": {
+              "places": [
+                "📸 Castle Terrace: | Rooftop-like panorama of the Danube and bridges.",
+                "🌉 Old Town Streets: | Pastel walls, lanterns, cobblestone patterns.",
+                "🌅 UFO Bridge Area: | Evening shots with reflections on the river."
+              ],
+              "what_to_get": [
+                "🖼️ Photography Prints: | Classic Bratislava skyline views.",
+                "📬 Illustrated Postcards: | Cute art versions of Cumil, castle and old-town corners."
+              ]
+            }
+          },
+          "interest_map": {
+            "History & Castles 🏰": "history__castles",
+            "Old Town Architecture 🏛️": "old_town_architecture",
+            "Riverside Walks 🌊": "riverside_walks",
+            "Art & Culture 🎨": "art__culture",
+            "Food Exploration 😋": "food_exploration",
+            "Photography 📸": "photography"
+          }
+        }
+      ]
+    }

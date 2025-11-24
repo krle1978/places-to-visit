@@ -24,7 +24,8 @@
          JS
     ================================= -->
     <script src="../assets/js/includes.js" defer></script>
-    <script src="../assets/js/header.js defer" defer></script>
+    <script src="../assets/js/header.js" defer></script>
+    <script src="../assets/js/destinations.js" defer></script>
 
     <!-- ================================
          Google Analytics
@@ -64,78 +65,92 @@
 
 <!-- COUNTRY LIST -->
 <section class="featured">
-    <h2 class="section-title">Countries</h2>
+  <h2 class="section-title">Countries</h2>
 
-    <div class="cards">
-        <!-- ROMANIA -->
-        <div
-            data-include="../components/card.html"
-            data-title="Romania"
-            data-image="../assets/images/destinations/romania-cover.png"
-            data-desc="Transylvania, medieval castles and vibrant cities."
-            data-link="#romania">
-        </div>
+  <div class="cards country-cards">
+    <div
+      class="card country-card"
+      data-country="romania">
+      <img src="../assets/images/destinations/romania-cover.png" alt="Romania">
+      <div class="card-text">
+        <h3>Romania</h3>
+        <p>Transylvania, medieval castles and vibrant cities.</p>
+      </div>
     </div>
+
+    <div
+      class="card country-card"
+      data-country="hungary">
+      <img src="../assets/images/destinations/hungary-cover.jpg" alt="Hungary">
+      <div class="card-text">
+        <h3>Hungary</h3>
+        <p>Budapest, art nouveau, Danube and culture.</p>
+      </div>
+    </div>
+  </div>
 </section>
 
-
 <!-- ROMANIA DESTINATIONS -->
-<section class="featured" id="romania">
-    <h2 class="section-title">Romania — Cities & Places</h2>
+<section class="featured country-section" id="romania" style="display: none;">
+  <h2 class="section-title">Romania — Cities & Places</h2>
 
-    <p style="max-width: 650px; font-size: 1.05rem; color: #4b5563; margin-bottom: 2rem;">
-        All destinations visited in Romania — organized chronologically and geographically.
-        Every page includes photos, a story, key highlights, and seasonal suggestions.
-    </p>
-
-    <div class="cards">
-
-        <!-- TIMISOARA -->
-        <div
-            data-include="../components/card.html"
-            data-title="Timisoara"
-            data-image="../assets/images/destinations/timisoara.jpg"
-            data-desc="October 2025 — Architecture, parks & autumn colors"
-            data-link="/destinations/country/Romania/Timisoara/2025/October/index.html">
-        </div>
-
-        <!-- CASTELUL CORVINILOR -->
-        <div
-            data-include="../components/card.html"
-            data-title="Castelul Corvinilor"
-            data-image="../assets/images/destinations/corvinilor.jpg"
-            data-desc="October 2025 — One of Europe’s greatest Gothic castles"
-            data-link="/destinations/country/Romania/Castelul-Corvinilor/2025/October/index.html">
-        </div>
-
-        <!-- ALBA IULIA -->
-        <div
-            data-include="../components/card.html"
-            data-title="Alba Iulia"
-            data-image="../assets/images/destinations/alba-iulia.jpg"
-            data-desc="October 2025 — A fortress city with rich heritage"
-            data-link="/destinations/country/Romania/Alba-Iulia/2025/October/index.html">
-        </div>
-
-        <!-- SALINA TURDA -->
-        <div
-            data-include="../components/card.html"
-            data-title="Salina Turda"
-            data-image="../assets/images/destinations/salina-turda.jpg"
-            data-desc="October 2025 — Incredible underground salt mine"
-            data-link="/destinations/country/Romania/Salina-Turda/2025/October/index.html">
-        </div>
-
-        <!-- CLUJ NAPOCA -->
-        <div
-            data-include="../components/card.html"
-            data-title="Cluj Napoca"
-            data-image="../assets/images/destinations/cluj.jpg"
-            data-desc="October 2025 — Youthful, modern, cultural hub"
-            data-link="/destinations/country/Romania/Cluj-Napoca/2025/October/index.html">
-        </div>
-
+  <div class="cards">
+    <div data-include="../components/card.html"
+         data-title="Timisoara"
+         data-image="../assets/images/destinations/timisoara.jpg"
+         data-desc="October 2025 — Architecture, parks & autumn colors"
+         data-link="/destinations/country/Romania/Timisoara/2025/October/index.html">
     </div>
+
+    <div data-include="../components/card.html"
+         data-title="Castelul Corvinilor"
+         data-image="../assets/images/destinations/corvinilor.jpg"
+         data-desc="October 2025 — One of Europe’s greatest Gothic castles"
+         data-link="/destinations/country/Romania/Castelul-Corvinilor/2025/October/index.html">
+    </div>
+
+    <div data-include="../components/card.html"
+         data-title="Alba Iulia"
+         data-image="../assets/images/destinations/alba-iulia.jpg"
+         data-desc="October 2025 — A fortress city with rich heritage"
+         data-link="/destinations/country/Romania/Alba-Iulia/2025/October/index.html">
+    </div>
+
+    <div data-include="../components/card.html"
+         data-title="Salina Turda"
+         data-image="../assets/images/destinations/salina-turda.jpg"
+         data-desc="October 2025 — Incredible underground salt mine"
+         data-link="/destinations/country/Romania/Salina-Turda/2025/October/index.html">
+    </div>
+
+    <div data-include="../components/card.html"
+         data-title="Cluj Napoca"
+         data-image="../assets/images/destinations/cluj.jpg"
+         data-desc="October 2025 — Youthful, modern, cultural hub"
+         data-link="/destinations/country/Romania/Cluj-Napoca/2025/October/index.html">
+    </div>
+  </div>
+</section>
+
+<!-- HUNGARY DESTINATIONS -->
+<section class="featured country-section" id="hungary" style="display: none;">
+  <h2 class="section-title">Hungary — Cities & Places</h2>
+
+  <div class="cards">
+    <div data-include="../components/card.html"
+         data-title="Budapest"
+         data-image="../assets/images/destinations/Hungary/Budapest/budapest.jpg"
+         data-desc="October 2025 — Bridges, spas and stunning architecture"
+         data-link="/destinations/country/Hungary/Budapest/2025/October/index.html">
+    </div>
+
+    <div data-include="../components/card.html"
+         data-title="Szentendre"
+         data-image="../assets/images/destinations/Hungary/Szentandre/szentendre.jpg"
+         data-desc="October 2025 — Colorful town by the Danube"
+         data-link="/destinations/country/Hungary/Szentendre/2025/October/index.html">
+    </div>
+  </div>
 </section>
 
 

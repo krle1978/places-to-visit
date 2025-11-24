@@ -1,0 +1,632 @@
+    {
+      "name": "Germany",
+      "cities": [
+        {
+          "name": "Berlin",
+          "interests": [
+            "History & Landmarks 🏰",
+            "Art & Museums 🎨",
+            "Street Art & Urban Culture 🎭",
+            "Parks & Nature 🌳",
+            "Food Exploration 😋",
+            "Music & Nightlife 🎶"
+          ],
+          "food_preferences": [
+            "Local Specialties",
+            "Fast Food",
+            "Vegetarian",
+            "Mixed Options"
+          ],
+          "tour_type": {
+            "morning": "🏛️ Brandenburg Gate: * Start the day at one of Europe's most iconic landmarks — huge, historic, photogenic. → | 🏢 Reichstag (Glass Dome): * A modern dome with a cool spiral walkway and panoramic city views. Advance time slots recommended, but super memorable. → | 🕊️ Holocaust Memorial: * A quiet, reflective maze of concrete blocks creating a moving, respectful atmosphere. → | ☕ Coffee at Potsdamer Platz: * Modern architecture + morning break = perfect combo.",
+            "afternoon": "🎨 East Side Gallery: * A long stretch of the Berlin Wall turned into a massive open-air art gallery full of color and meaning. → | 🧱 Berlin Wall Museum: * Clear exhibits explaining history in an accessible, teen-friendly way. → | 🍽️ Lunch with Berlin Specialties: * Currywurst (non-spicy options), pretzels, veggie döner, potato dishes — Berlin comfort food. → | 🏙️ Alexanderplatz: * Famous central square with shops, street performers and the TV Tower skyline.",
+            "sunset": "🌅 Museum Island Riverside Walk or Oberbaum Bridge View: * Soft golden light reflecting on the Spree River, perfect for photos and peaceful vibes.",
+            "night": "🌃 Kreuzberg Evening: * Chill cafés, youth-friendly live-music corners, street-food courts — tons of non-alcoholic drinks like homemade lemonades, iced teas and smoothies. Safe, creative and fun atmosphere.",
+            "full_day": "Morning: Brandenburg Gate → Reichstag Dome → Holocaust Memorial → Coffee in Potsdamer Platz; Afternoon: East Side Gallery → Berlin Wall Museum → Lunch → Alexanderplatz; Sunset: Museum Island riverside or Oberbaum Bridge; Night: Kreuzberg cafés or youth-friendly live music"
+          },
+          "seasons": {
+            "spring": {
+              "event": "Spring in Berlin",
+              "ideas": [
+                "🌸 Cherry Blossoms in Mauerpark & Gardens of the World: * Pink tunnels perfect for photography.",
+                "🌊 Spree River Walks: * Soft wind, calm paths and great bridges.",
+                "☕ Outdoor Cafés in Prenzlauer Berg: * Trendy and super cozy as the city wakes up from winter."
+              ]
+            },
+            "summer": {
+              "event": "Hot Summer Days",
+              "ideas": [
+                "🏖️ Lakeside Beaches (Wannsee, Müggelsee): * Clear water, forest shade, total summer chill.",
+                "🌮 Street-Food Festivals: * International snacks and local street eats with fun outdoor vibes.",
+                "🌳 Tiergarten Evening Walks: * Berlin’s giant green lung — perfect shade.",
+                "🎶 Open-Air Concerts (youth-friendly): * Parks, plazas and summer cultural events."
+              ]
+            },
+            "autumn": {
+              "event": "Autumn in Berlin",
+              "ideas": [
+                "🍁 Tiergarten Autumn Colors: * Orange-red leaves everywhere.",
+                "🏛️ Museum Island Visits: * Ideal for cooler days.",
+                "🥐 Warm Pastries in Cozy Cafés: * Cinnamon, chocolate and fall comfort."
+              ]
+            },
+            "winter": {
+              "event": "Christmas Markets",
+              "locations": [
+                "🎄 Alexanderplatz Christmas Market: * festive booths, lights, winter snacks.",
+                "✨ Charlottenburg Palace Market: * Magical castle backdrop.",
+                "🛍️ Gendarmenmarkt Holiday Stalls: * Artisanal crafts and classic holiday décor."
+              ]
+            }
+          },
+          "tips": {
+            "history_fans": {
+              "places": [
+                "🧱 Berlin Wall Memorial: | Preserved sections + clear storytelling about the city's past.",
+                "📍 Checkpoint Charlie Museum: | Exhibits about divided Berlin and major turning points in history.",
+                "🏛️ German Historical Museum: | From ancient eras to modern times — super informative."
+              ],
+              "what_to_get": [
+                "🧩 Berlin Wall Replicas: | Tiny symbolic souvenirs from Berlin’s most famous landmark.",
+                "📬 Historical Postcards: | Brandenburg Gate, Wall art, old-town photos."
+              ]
+            },
+            "art_lovers": {
+              "places": [
+                "🎨 East Side Gallery: | Giant outdoor canvas full of color and meaning.",
+                "🖼️ Museum Island: | Classical and fine arts in UNESCO surroundings.",
+                "🏛️ Hamburger Bahnhof Museum: | Modern and contemporary art in an epic building."
+              ],
+              "what_to_get": [
+                "🖨️ Street Art Prints: | Berlin’s edgy, bold artistic identity.",
+                "🎭 Modern Art Souvenirs: | Creative items inspired by gallery collections."
+              ]
+            },
+            "music_fans": {
+              "places": [
+                "💽 Record Shops in Kreuzberg & Friedrichshain: | Vinyl, indie bands and creative discoveries.",
+                "🎶 Youth-Friendly Live-Music Spots: | Safe, relaxed performance spaces with great atmosphere.",
+                "🎺 Alexanderplatz Street Performers: | Sax players, guitarists and fun small acts."
+              ],
+              "what_to_get": [
+                "🎧 German Indie Vinyls: | Unique sounds from Berlin’s creative scene.",
+                "👕 Band Merchandise: | Stickers, small prints, keychains and music-themed souvenirs."
+              ]
+            }
+          },
+          "interest_map": {
+            "History & Landmarks 🏰": "history__landmarks",
+            "Art & Museums 🎨": "art__museums",
+            "Street Art & Urban Culture 🎭": "street_art__urban_culture",
+            "Parks & Nature 🌳": "parks__nature",
+            "Food Exploration 😋": "food_exploration",
+            "Music & Nightlife 🎶": "music__nightlife"
+          }
+        },
+        {
+          "name": "Munich",
+          "interests": [
+            "History & Palaces 🏰",
+            "Art & Museums 🎨",
+            "Parks & Nature 🌳",
+            "Urban Culture 🎭",
+            "Food Exploration 😋",
+            "Photography 📸"
+          ],
+          "food_preferences": [
+            "Local Specialties",
+            "Fast Food",
+            "Vegetarian",
+            "Mixed Options"
+          ],
+          "tour_type": {
+            "morning": "🏙️ Marienplatz: * Begin in Munich’s beating heart — lively square, historic atmosphere and iconic architecture. → | 🏛️ New Town Hall & Glockenspiel: * Watch the charming mechanical show and enjoy panoramic views from the tower. → | 🛒 Viktualienmarkt Walk: * Colorful market with fresh snacks, fruits, pastries and local bites everywhere. → | ☕ Coffee at a Central Café: * Cozy Bavarian ambiance to recharge for the day.",
+            "afternoon": "🏰 Nymphenburg Palace Tour: * Grand halls, royal rooms and a quiet escape from the city buzz. → | 🌿 Palace Gardens Stroll: * Lakes, bridges and long leafy paths perfect for gentle walks and photos. → | 🍽️ Lunch with Bavarian Specialties: * Pretzels, käsespätzle, potato dishes, soups and plenty of vegetarian-friendly options.",
+            "sunset": "🌅 English Garden Sunset: * Relax by the lake or climb up to the Monopteros viewpoint for warm sky colors and beautiful nature scenes.",
+            "night": "🌃 Student District Evenings: * Chill cafés, dessert spots, relaxed streets and safe calm walks around the old town — ideal for winding down.",
+            "full_day": "Morning: Marienplatz → Glockenspiel → Viktualienmarkt → Coffee; Afternoon: Nymphenburg Palace & Gardens → Lunch; Sunset: English Garden or Monopteros; Night: Student district cafés or old-town dessert spots"
+          },
+          "seasons": {
+            "spring": {
+              "event": "Spring in Munich",
+              "ideas": [
+                "🌸 English Garden Blossom Walks: * Cherry blossoms + green lawns + soft sunlight.",
+                "🌊 Isar Riverbank Strolls: * Fresh breeze and nature waking up.",
+                "☕ Old-Town Terraces: * Warm drinks under early spring sunshine."
+              ]
+            },
+            "summer": {
+              "event": "Hot Summer Days",
+              "ideas": [
+                "🏊 Swimming Spots Along the Isar: * Cool sections of the river great for summer days.",
+                "🌳 Evening English Garden Walks: * Shady paths for escaping the heat.",
+                "🍦 Gelato Near Viktualienmarkt: * Iconic Munich ice cream stands.",
+                "🌿 Shaded Palace Gardens: * Big trees, lakes and quiet corners."
+              ]
+            },
+            "autumn": {
+              "event": "Autumn in Munich",
+              "ideas": [
+                "🍁 Golden Trees in Nymphenburg Park: * A real autumn postcard moment.",
+                "🥐 Warm Pastries & Tea in Cozy Cafés: * Perfect for chill afternoons.",
+                "🏛️ Museum Visits: * Alte Pinakothek, Neue Pinakothek or Deutsches Museum."
+              ]
+            },
+            "winter": {
+              "event": "Christmas Markets",
+              "locations": [
+                "🎄 Marienplatz Christmas Market: * Classic Bavarian holiday cheer.",
+                "⚔️ Medieval Market Near Odeonsplatz: * Thematic décor and creative stalls.",
+                "✨ English Garden Winter Stalls: * Small festive corners in nature."
+              ]
+            }
+          },
+          "tips": {
+            "history_fans": {
+              "places": [
+                "🏰 Nymphenburg Palace: | Royal halls, lakeside gardens and elegant courtyards.",
+                "🏯 Munich Residenz: | Huge palace complex full of history and decorative rooms.",
+                "🏙️ Old Town Historic Streets: | Medieval traces, towers and traditional Bavarian architecture."
+              ],
+              "what_to_get": [
+                "🏰 Palace Miniatures: | Elegant replicas of Munich’s royal landmarks.",
+                "📬 Historical Postcards: | Vintage photos of Residenz, palace gardens and old-town squares."
+              ]
+            },
+            "art_lovers": {
+              "places": [
+                "🖼️ Alte Pinakothek: | Renaissance and classical masterpieces.",
+                "🎨 Neue Pinakothek: | Art from 19th-century European masters.",
+                "🏛️ Pinakothek der Moderne: | Sleek architecture + modern art exhibits.",
+                "🖌️ Street Art in Glockenbachviertel: | Urban creative corners."
+              ],
+              "what_to_get": [
+                "🖨️ Art Prints: | Famous works or local artist pieces.",
+                "🎭 Modern Art Souvenirs: | Stylish design items from museum shops."
+              ]
+            },
+            "food_lovers": {
+              "places": [
+                "🍽️ Viktualienmarkt Food Stalls: | Endless snacks, pastries, fruit bowls and fresh bites.",
+                "🥨 Old-Town Bakeries: | Pretzels, sweet pastries and Bavarian treats.",
+                "🍲 Traditional Bavarian Restaurants: | Family-friendly dishes + veggie-friendly options."
+              ],
+              "what_to_get": [
+                "🥨 Pretzel-Themed Souvenirs: | Cute keychains, magnets or mini-models.",
+                "🍫 Local Chocolates: | Munich-themed flavors and sweet gifts."
+              ]
+            },
+            "photography_fans": {
+              "places": [
+                "📸 Marienplatz Early Morning: | Beautiful empty square and warm light.",
+                "🌅 Monopteros Sunset: | Golden-hour skyline from above the English Garden.",
+                "🏰 Nymphenburg Park: | Lakes, reflections and long tree alleys."
+              ],
+              "what_to_get": [
+                "🖼️ Photography Prints: | Palace reflections, sunset trees, old-town angles.",
+                "📬 Illustrated Postcards: | Artistic impressions of Munich landmarks."
+              ]
+            }
+          },
+          "interest_map": {
+            "History & Palaces 🏰": "history__palaces",
+            "Art & Museums 🎨": "art__museums",
+            "Parks & Nature 🌳": "parks__nature",
+            "Urban Culture 🎭": "urban_culture",
+            "Food Exploration 😋": "food_exploration",
+            "Photography 📸": "photography"
+          }
+        },
+        {
+          "name": "Bonn",
+          "interests": [
+            "History & Landmarks 🏰",
+            "Art & Museums 🎨",
+            "Nature & Riverside Walks 🌳",
+            "Urban Culture 🎭",
+            "Food Exploration 😋",
+            "Photography 📸"
+          ],
+          "food_preferences": [
+            "Local Specialties",
+            "Fast Food",
+            "Vegetarian",
+            "Mixed Options"
+          ],
+          "tour_type": {
+            "morning": "⛪ Bonn Minster: * Start your day in one of Germany’s oldest churches — quiet, historic, and beautifully detailed. → | 🏙️ Münsterplatz Walk: * Lively square with shops, open space, and classic Bonn architecture. → | 🎼 Beethoven House: * Birthplace of the legendary composer — full of interesting objects and history. → | ☕ Coffee in the Old Town: * Cozy cafés ideal for a soft morning break.",
+            "afternoon": "🎨 Museum Mile: * Visit the Art & Exhibition Hall and Bundeskunsthalle — big art, science and cultural exhibitions. → | 🌊 Rhine Riverside Walk: * Wide paths, breezy air, perfect for relaxing after museums. → | 🍽️ Lunch with Rhineland Specialties: * Potato dishes, soups, pastries, veggie options — comforting and flavorful.",
+            "sunset": "🌅 Rhine Promenade Sunset or Alter Zoll Viewpoint: * Golden light above the water + old fortifications = picture-perfect moment.",
+            "night": "🌃 Old-Town Cafés, Artistic Student District, or Riverside Chill Spots: * Safe, calm, creative evening atmosphere with dessert bars, warm drinks and relaxed walks.",
+            "full_day": "Morning: Bonn Minster → Münsterplatz → Beethoven House → Coffee; Afternoon: Museum Mile → Rhine riverside walk → Lunch with Rhineland dishes; Sunset: Rhine promenade or Alter Zoll viewpoint; Night: Old-town cafés or riverside chill"
+          },
+          "seasons": {
+            "spring": {
+              "event": "Spring in Bonn",
+              "ideas": [
+                "🌸 Famous Cherry Blossom Streets in Altstadt: * One of Europe’s most iconic spring scenes.",
+                "☕ Outdoor Cafés in the Old Town: * Warm drinks and sunny corners.",
+                "🌼 Rhinebank Walks in Bloom: * Flowers, green paths and river views."
+              ]
+            },
+            "summer": {
+              "event": "Hot Summer Days",
+              "ideas": [
+                "🏞️ Rheinauen Park Relaxing or Lakeside Spots: * Big green area perfect for chilling, walking or biking.",
+                "🌅 Evening Riverside Promenades: * Soft light + cool air from the river.",
+                "🍦 Gelato Shops in the City Center: * Summer must-have."
+              ]
+            },
+            "autumn": {
+              "event": "Autumn in Bonn",
+              "ideas": [
+                "🍁 Colorful Walks in Rheinaue Park: * Beautiful fall vibes everywhere.",
+                "🥐 Warm Pastries & Tea in Cozy Cafés: * Perfect autumn atmosphere.",
+                "🏛️ Museum Mile Indoor Visits: * Ideal for cooler, crisp days."
+              ]
+            },
+            "winter": {
+              "event": "Christmas Markets",
+              "locations": [
+                "🎄 Bonn City Center Christmas Market: * Warm lights, decorations and festive booths.",
+                "✨ Münsterplatz Seasonal Stalls: * Crafts, treats and holiday ambiance."
+              ]
+            }
+          },
+          "tips": {
+            "history_fans": {
+              "places": [
+                "🎼 Beethoven House: | Insight into the life and era of the world-famous composer.",
+                "⛪ Bonn Minster: | Romanesque architecture and centuries of history.",
+                "🛡️ Alter Zoll Fortifications: | Riverside viewpoint with historic remains."
+              ],
+              "what_to_get": [
+                "📬 Historical Postcards: | Bonn Minster, Rhine views and Beethoven-themed sets.",
+                "🎼 Beethoven-Themed Souvenirs: | Small busts, notebooks, pins or music-themed items."
+              ]
+            },
+            "art_lovers": {
+              "places": [
+                "🎨 Bundeskunsthalle: | Major exhibitions of art, science and culture.",
+                "🖼️ Art Museum Bonn: | Strong collections of modern and contemporary art.",
+                "🧑‍🎨 Street Art in the Student District: | Creative murals and fun corners."
+              ],
+              "what_to_get": [
+                "🖨️ Art Prints: | Modern Bonn artwork or illustrations.",
+                "🎭 Local Contemporary Art Crafts: | Handmade ceramics, mini sculptures, creative designs."
+              ]
+            },
+            "nature_lovers": {
+              "places": [
+                "🌿 Rheinaue Park: | Huge green oasis for long walks and quiet nature time.",
+                "🌊 Rhine Riverside Promenade: | Scenic paths with wide river views.",
+                "🌸 Botanical Garden Bonn: | Seasonal blooms and peaceful greenhouses."
+              ],
+              "what_to_get": [
+                "🌺 Flower-Themed Postcards: | Cherry blossoms, botanical garden scenes.",
+                "📸 Nature Photography Prints: | Local photographers’ river and park shots."
+              ]
+            }
+          },
+          "interest_map": {
+            "History & Landmarks 🏰": "history__landmarks",
+            "Art & Museums 🎨": "art__museums",
+            "Nature & Riverside Walks 🌳": "nature__riverside_walks",
+            "Urban Culture 🎭": "urban_culture",
+            "Food Exploration 😋": "food_exploration",
+            "Photography 📸": "photography"
+          }
+        },
+        {
+          "name": "Dresden",
+          "interests": [
+            "History & Baroque Architecture 🏰",
+            "Art & Museums 🎨",
+            "Nature & Riverside Walks 🌳",
+            "Urban Culture 🎭",
+            "Food Exploration 😋",
+            "Photography 📸"
+          ],
+          "food_preferences": [
+            "Local Specialties",
+            "Fast Food",
+            "Vegetarian",
+            "Mixed Options"
+          ],
+          "tour_type": {
+            "morning": "🏰 Zwinger Palace: * A masterpiece of Baroque architecture — grand courtyards, fountains, and beautiful galleries. → | 🎨 Old Masters Gallery: * Home to world-famous artworks including Raphael’s ‘Sistine Madonna’. → | 🎭 Theaterplatz Walk: * Classic Dresden scenery with the Semperoper and the Hofkirche nearby. → | ☕ Coffee near Semperoper: Relax with a morning drink in an elegant square.",
+            "afternoon": "⛪ Frauenkirche: * A stunning church rebuilt stone-by-stone — symbol of Dresden’s resilience. → | 🌉 Brühl's Terrace (‘Balcony of Europe’): * Scenic views over the Elbe, perfect for photos. → | 🍽️ Lunch with Saxon Specialties: Traditional dishes + the famous Dresdner Eierschecke dessert.",
+            "sunset": "🌅 Elbe River Sunset Walk or Augustus Bridge Viewpoint: * Warm colors reflecting on the river + skyline — postcard perfect.",
+            "night": "🌃 Neustadt Cafés & Creative District: * Artsy, youthful, colorful streets with relaxed cafés and dessert places (non-alcoholic options available). Or enjoy a quiet riverside night walk.",
+            "full_day": "Morning: Zwinger Palace → Old Masters Gallery → Theaterplatz → Coffee; Afternoon: Frauenkirche → Brühl's Terrace → Lunch with Saxon dishes; Sunset: Elbe River walk or Augustus Bridge viewpoint; Night: Neustadt cafés or riverside chill"
+          },
+          "seasons": {
+            "spring": {
+              "event": "Spring in Dresden",
+              "ideas": [
+                "🌸 Elbe Riverside Blossom Walks: Gentle paths along the river lined with early flowers.",
+                "🌺 Zwinger Gardens in Bloom: Fountains + spring colors everywhere.",
+                "☕ Old-Town Outdoor Cafés: Perfect weather + Baroque views."
+              ]
+            },
+            "summer": {
+              "event": "Hot Summer Days",
+              "ideas": [
+                "⛴️ Boat Rides Along the Elbe: Breezy, scenic and relaxing.",
+                "🌙 Evening Walks in Neustadt: Cool atmosphere, creative murals, lively streets.",
+                "🍦 Gelato in the Historic Center: Refreshing break under Baroque façades.",
+                "🌳 Shaded Palace Courtyards: A cozy escape during warm afternoons."
+              ]
+            },
+            "autumn": {
+              "event": "Autumn in Dresden",
+              "ideas": [
+                "🍁 Golden Views from Brühl's Terrace: One of the best seasonal panoramas.",
+                "🥐 Warm Pastries & Tea in the Old Town: Cozy cafés with autumn charm.",
+                "🏛️ Museum Visits on Cooler Days: Art, history and culture under one roof."
+              ]
+            },
+            "winter": {
+              "event": "Christmas Markets",
+              "locations": [
+                "🎄 Striezelmarkt — One of Germany’s oldest & most iconic Christmas markets.",
+                "✨ Neustadt Winter Fest: Colorful, alternative, creative.",
+                "⭐ Altmarkt Christmas Stalls: Classic wooden huts and festive lights."
+              ]
+            }
+          },
+          "tips": {
+            "history_fans": {
+              "places": [
+                "🏰 Zwinger Palace: | Baroque splendor with royal courtyards and galleries.",
+                "⛪ Frauenkirche: | A moving symbol of Dresden’s past and reconstruction.",
+                "🏛️ Royal Palace (Residenzschloss): | Collections of historical artifacts and royal treasures."
+              ],
+              "what_to_get": [
+                "🏺 Baroque Miniatures: | Elegant keepsakes inspired by Dresden’s architecture.",
+                "📬 Historical Postcards: | Frauenkirche, Zwinger, and the Elbe skyline."
+              ]
+            },
+            "art_lovers": {
+              "places": [
+                "🎨 Old Masters Gallery: | Renaissance and Baroque masterpieces.",
+                "🖼️ Albertinum: | Modern artworks and expressionist classics.",
+                "🎭 Neustadt Creative District: | Street art, small studios, and indie galleries."
+              ],
+              "what_to_get": [
+                "🖨️ Art Prints: | Reproductions from the Old Masters or modern pieces.",
+                "🎁 Modern Art Souvenirs: | Creative items inspired by local artists."
+              ]
+            },
+            "photography_fans": {
+              "places": [
+                "🌉 Brühl's Terrace: | Famous panorama of the river and skyline.",
+                "🛤️ Augustus Bridge: | Iconic views with old-town silhouettes.",
+                "🌊 Elbe Riverbank Skyline: | One of Europe’s most photogenic riversides."
+              ],
+              "what_to_get": [
+                "📸 Skyline Photography Prints: | Local artists’ takes on the Dresden panorama.",
+                "📬 Handmade Postcards: | Watercolors of bridges, palaces and riverside scenes."
+              ]
+            }
+          },
+          "interest_map": {
+            "History & Baroque Architecture 🏰": "history__baroque_architecture",
+            "Art & Museums 🎨": "art__museums",
+            "Nature & Riverside Walks 🌳": "nature__riverside_walks",
+            "Urban Culture 🎭": "urban_culture",
+            "Food Exploration 😋": "food_exploration",
+            "Photography 📸": "photography"
+          }
+        },
+        {
+          "name": "Stuttgart",
+          "interests": [
+            "History & Architecture 🏰",
+            "Art & Museums 🎨",
+            "Automotive Culture 🚗",
+            "Parks & Nature 🌳",
+            "Food Exploration 😋",
+            "Urban Culture 🎭",
+            "Photography 📸"
+          ],
+          "food_preferences": [
+            "Local Specialties",
+            "Fast Food",
+            "Vegetarian",
+            "Mixed Options"
+          ],
+          "tour_type": {
+            "morning": "🏰 Schlossplatz: * The heart of the city — elegant square, fountains, and classic Stuttgart vibes. → | 🏛️ New Palace (Neues Schloss): * Royal courtyard views + Baroque architecture. → | 🛍️ Königsbau Passage: * Historic arcade with shops and cafés. → | ☕ Coffee in the City Center: Ideal calm break before exploring further.",
+            "afternoon": "🚗 Mercedes-Benz Museum OR Porsche Museum: * Two world-famous car museums — futuristic architecture, legendary models, interactive exhibits. → | 🍽️ Lunch with Swabian Specialties: From käsespätzle to maultaschen (with vegetarian versions). Comfort food at its best.",
+            "sunset": "🌅 Killesberg Park Viewpoint OR Stuttgart TV Tower: * Choose between peaceful park horizons or a panoramic tower experience — both fantastic golden-hour spots.",
+            "night": "🌃 Theater District Cafés + Dessert Spots: * Cultural zone with relaxed cafés. Or enjoy a slow walk along Königstraße — lively, but safe and pleasant in the evenings.",
+            "full_day": "Morning: Schlossplatz → New Palace → Königsbau Passage → Coffee; Afternoon: Mercedes-Benz Museum or Porsche Museum → Lunch with Swabian dishes; Sunset: Killesberg Park or TV Tower; Night: Theater district cafés or Königstraße stroll"
+          },
+          "seasons": {
+            "spring": {
+              "event": "Spring in Stuttgart",
+              "ideas": [
+                "🌼 Killesberg Park Flower Fields: Fresh colors and peaceful lawns.",
+                "☕ Palace Square Cafés: Perfect mild-weather hangouts.",
+                "🌿 Early-Season Vineyard Walks: Green trails with city views."
+              ]
+            },
+            "summer": {
+              "event": "Hot Summer Days",
+              "ideas": [
+                "🌳 Wilhelma Zoo & Botanical Garden Shade Walks: Cool paths and tropical greenhouses.",
+                "🌙 Evening Chill at Schlossgarten: Open lawns, trees and soft summer breeze.",
+                "🍦 Gelato on Königstraße: Quick, fun treat while exploring."
+              ]
+            },
+            "autumn": {
+              "event": "Autumn in Stuttgart",
+              "ideas": [
+                "🍁 Colorful Vineyard Hikes (Stuttgarter Weinberge): Golden hills and scenic routes.",
+                "🥐 Warm Pastries & Drinks in the Old Town: Cozy, atmospheric cafés.",
+                "🏛️ Museum Mile Indoor Visits: Perfect for cooler days."
+              ]
+            },
+            "winter": {
+              "event": "Christmas Markets",
+              "locations": [
+                "🎄 Stuttgart Christmas Market — one of Germany’s oldest and most iconic.",
+                "✨ Schlossplatz Winter Stalls: Lights, treats, and festive vibe.",
+                "🏘️ Old Town Seasonal Chalets: Handmade crafts and winter snacks."
+              ]
+            }
+          },
+          "tips": {
+            "history_fans": {
+              "places": [
+                "🏰 Old Castle (Altes Schloss): | Medieval architecture + regional history.",
+                "🏛️ New Palace: | Baroque royal residence with elegant courtyards.",
+                "⛪ Stiftskirche: | Historic church dominating the old-town skyline."
+              ],
+              "what_to_get": [
+                "🏺 Castle Miniatures: | Cute replicas of Stuttgart landmarks.",
+                "📬 Historical Postcards: | Old-town streets and palace views."
+              ]
+            },
+            "art_lovers": {
+              "places": [
+                "🖼️ Staatsgalerie Stuttgart: | Classical + modern masterpieces.",
+                "🎨 Kunstmuseum Stuttgart: | Modern glass cube building with rich exhibits.",
+                "🧑‍🎨 Local Galleries on Eberhardstraße: | Indie art, small studios, creative corners."
+              ],
+              "what_to_get": [
+                "🖨️ Modern Art Prints: | Colorful, stylish, easy to frame.",
+                "🎁 Museum-Themed Souvenirs: | Creative items inspired by Stuttgart art institutions."
+              ]
+            },
+            "car_fans": {
+              "places": [
+                "🚗 Mercedes-Benz Museum: | History of mobility in a futuristic spiral building.",
+                "🏎️ Porsche Museum: | Sleek designs + iconic sports car heritage.",
+                "📸 Automotive Photo Spots: | Urban backdrops perfect for car-themed shots."
+              ],
+              "what_to_get": [
+                "🚙 Miniature Cars: | Collectible models of legendary vehicles.",
+                "📚 Car-History Books: | Great for fans of design and engineering.",
+                "🎖️ Branded Collectibles: | Keychains, pins, stickers, and merch."
+              ]
+            }
+          },
+          "interest_map": {
+            "History & Architecture 🏰": "history__architecture",
+            "Art & Museums 🎨": "art__museums",
+            "Automotive Culture 🚗": "automotive_culture",
+            "Parks & Nature 🌳": "parks__nature",
+            "Food Exploration 😋": "food_exploration",
+            "Urban Culture 🎭": "urban_culture",
+            "Photography 📸": "photography"
+          }
+        },
+        {
+          "name": "Nuremberg",
+          "interests": [
+            "Medieval History & Castles 🏰",
+            "Art & Museums 🎨",
+            "Old Town Architecture 🏛️",
+            "Food Exploration 😋",
+            "Photography 📸",
+            "Urban Culture 🎭",
+            "Riverside Walks 🌊"
+          ],
+          "food_preferences": [
+            "Local Specialties",
+            "Fast Food",
+            "Vegetarian",
+            "Mixed Options"
+          ],
+          "tour_type": {
+            "morning": "🏰 Nuremberg Castle (Kaiserburg): * A powerful medieval fortress with incredible city panoramas. → | 🌄 Castle Viewpoints: * Perfect for skyline photography and early light. → | 🎨 Albrecht Dürer House: * The home of Germany’s most famous Renaissance artist — full of history and creativity. → | ☕ Coffee at Tiergärtnertorplatz: A charming medieval square ideal for a relaxed morning break.",
+            "afternoon": "🏛️ Old Town Walk: * Timber-framed houses, stone bridges, and cobbled streets everywhere. → | 🏙️ Hauptmarkt: * The city’s lively central square. → | 🍽️ Lunch with Franconian Specialties: Traditional Nuremberg sausages, potato dishes, gingerbread — plus vegetarian options. → | 🌉 Pegnitz River Bridges: * Calm views and romantic riverside corners.",
+            "sunset": "🌅 Historic City Walls or Henkersteg (Hangman’s Bridge): * Golden-hour magic over medieval rooftops and old wooden bridges.",
+            "night": "🌃 Old-Town Cafés & Dessert Spots: * Warm pastries, relaxed lighting, and medieval architecture glowing at night. Or enjoy a chill stroll through illuminated streets.",
+            "full_day": "Morning: Nuremberg Castle → Castle viewpoints → Albrecht Dürer House → Coffee; Afternoon: Old Town → Hauptmarkt → Lunch with Franconian dishes → Pegnitz river bridges; Sunset: City walls or Henkersteg; Night: Old-town cafés or medieval-street stroll"
+          },
+          "seasons": {
+            "spring": {
+              "event": "Spring in Nuremberg",
+              "ideas": [
+                "🌸 Castle Gardens in Bloom: Fresh flowers around ancient stone walls.",
+                "🌿 Pegnitz Riverside Walks: Peaceful nature paths through the old town.",
+                "☕ Outdoor Cafés in Hauptmarkt: Perfect weather + historic views."
+              ]
+            },
+            "summer": {
+              "event": "Hot Summer Days",
+              "ideas": [
+                "🌳 Shaded Castle Courtyards: Cool medieval stone corners ideal for a break.",
+                "🌆 Evening Riverside Promenades: Soft breeze and pastel shades above the river.",
+                "🍦 Gelato in the Old Town: A must-have for warm days."
+              ]
+            },
+            "autumn": {
+              "event": "Autumn in Nuremberg",
+              "ideas": [
+                "🍁 Golden Castle Views: Trees + towers = perfect autumn palette.",
+                "🥐 Warm Pastries & Tea in Medieval Cafés: Cozy atmosphere in historic buildings.",
+                "🏛️ Museum Visits on Cooler Days: Art, history, and culture all around."
+              ]
+            },
+            "winter": {
+              "event": "Christmas Markets",
+              "locations": [
+                "🎄 Christkindlesmarkt — One of the world’s most famous Christmas markets.",
+                "✨ Hauptmarkt Christmas Village — Traditional booths with sweets and crafts.",
+                "🏘️ Handwerkerhof — Artisan Christmas stalls inside a medieval courtyard."
+              ]
+            }
+          },
+          "tips": {
+            "history_fans": {
+              "places": [
+                "🏰 Nuremberg Castle: | Medieval fortress with deep regional history.",
+                "🎨 Albrecht Dürer House: | Exploring the life of the Renaissance master.",
+                "🏛️ Germanisches Nationalmuseum: | A massive collection of cultural artifacts."
+              ],
+              "what_to_get": [
+                "⚔️ Medieval Replicas: | Mini shields, helmets, or knight-themed trinkets.",
+                "📬 Historical Postcards: | Castle towers, bridges, and old-town panoramas.",
+                "🖼️ Dürer-Themed Souvenirs: | Prints, bookmarks, notebooks, and art replicas."
+              ]
+            },
+            "art_lovers": {
+              "places": [
+                "🎨 Albrecht Dürer House: | Artistic heritage in a beautifully preserved home.",
+                "🖼️ Contemporary Art Galleries in the Old Town: | Modern creativity in medieval streets.",
+                "🏛️ Germanisches Nationalmuseum (Art Collection): | From medieval pieces to modern works."
+              ],
+              "what_to_get": [
+                "🖨️ Art Prints: | Dürer engravings or modern Nuremberg-inspired pieces.",
+                "🎁 Local Handmade Crafts: | Ceramics, carved wood, artisan souvenirs."
+              ]
+            },
+            "food_lovers": {
+              "places": [
+                "🍽️ Hauptmarkt Food Stalls: | Fresh snacks and regional bites.",
+                "🥨 Traditional Franconian Restaurants: | Comfort food with rich flavors.",
+                "🍞 Old-Town Bakeries: | Warm bread, pastries, gingerbread and cakes."
+              ],
+              "what_to_get": [
+                "🍪 Nuremberg Gingerbread (Lebkuchen): | The city’s most iconic sweet.",
+                "🍫 Local Chocolates: | Handmade and often medieval-themed.",
+                "🌭 Mini Sausage Souvenirs (Non-Food Versions): | Fun, quirky gifts."
+              ]
+            }
+          },
+          "interest_map": {
+            "Medieval History & Castles 🏰": "medieval_history__castles",
+            "Art & Museums 🎨": "art__museums",
+            "Old Town Architecture 🏛️": "old_town_architecture",
+            "Food Exploration 😋": "food_exploration",
+            "Photography 📸": "photography",
+            "Urban Culture 🎭": "urban_culture",
+            "Riverside Walks 🌊": "riverside_walks"
+          }
+        }
+      ]
+    }

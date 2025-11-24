@@ -1,0 +1,61 @@
+<!-- components/route_planner.html -->
+<section class="route-planner">
+  <div class="route-form-wrapper">
+
+    <form class="route-form" id="route-form">
+      <label for="route-country">Country</label>
+      <select id="route-country">
+        <option value="">Select a country</option>
+      </select>
+
+      <label for="route-city">City</label>
+      <select id="route-city" disabled>
+        <option value="">Select a city</option>
+      </select>
+
+      <label for="route-trip-type">Trip type</label>
+      <select id="route-trip-type" disabled>
+        <option value="">Select trip type</option>
+        <option value="full_day">Full Day</option>
+        <option value="morning">Morning</option>
+        <option value="afternoon">Afternoon</option>
+        <option value="night">Night</option>
+      </select>
+
+      <label for="route-interest">Interests</label>
+      <select id="route-interest" disabled>
+        <option value="">Select interest</option>
+      </select>
+
+      <label for="route-food">Food type</label>
+      <select id="route-food" disabled>
+        <option value="">Select food preference</option>
+      </select>
+
+      <label for="route-season">Season</label>
+      <select id="route-season" disabled>
+        <option value="">Select season</option>
+        <option value="spring">Spring</option>
+        <option value="summer">Summer</option>
+        <option value="autumn">Autumn</option>
+        <option value="winter">Winter</option>
+      </select>
+
+      <label for="route-tip-category">Tip category</label>
+      <select id="route-tip-category" disabled>
+        <option value="">Select tip category</option>
+      </select>
+
+      <button type="button" id="route-submit" disabled>Get route recommendation</button>
+      <p id="route-error" class="route-error-message"></p>
+    </form>
+
+    <!-- Results -->
+    <div class="route-result-wrapper" style="display:none;">
+      <h3 class="route-result-title">Your route</h3>
+      <div id="route-result" class="route-result"></div>
+      <button id="save-pdf-btn">Save as PDF</button>
+    </div>
+
+  </div>
+</section>
