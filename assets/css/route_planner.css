@@ -50,6 +50,25 @@
 .route-result-title {
   margin-bottom: 1rem;
 }
+.route-planner-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  padding: 2rem 0; /* prostor iznad i ispod */
+  text-align: center;
+}
+
+.route-planner-header h2 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.route-arrow {
+  font-size: 1.5rem;
+  transition: transform 0.3s ease;
+}
 
 .route-result {
   font-size: 1rem;
@@ -70,4 +89,25 @@
 
 #save-pdf-btn {
   margin-top: 1.5rem;
+}
+
+.route-planner-panel.collapsed {
+  display: none;
+}
+
+.route-planner-panel.open {
+  display: block;
+}
+.route-arrow {
+  transition: transform 0.3s ease;
+}
+
+.route-planner-panel.open + .route-arrow,
+.route-arrow.open {
+  transform: rotate(180deg);
+}
+.route-planner-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

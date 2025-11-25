@@ -21,6 +21,7 @@
     ================================= -->
     <script src="/assets/js/includes.js" defer></script>
     <script src="/assets/js/header.js" defer></script>
+    <script src="/assets/js/route_planer.js" defer></script>
 
     <!-- ================================
          Google Analytics
@@ -70,14 +71,21 @@
   </div>
 </section>
 
-<!-- ROUTE PLANNER COMPONENT – Collapsible -->
-<section class="route-planner-toggle">
-  <div class="toggle-header" id="planner-header">
-    <h2>City Visit Planner</h2>
+<!-- REFACTORED ROUTE PLANNER COMPONENT (COLLAPSIBLE) -->
+<section class="city-section route-planner-wrapper">
+
+  <!-- Header koji otvara/zatvara panel -->
+  <div class="route-planner-header" id="route-planner-toggle">
+    <h2>Choose Your Place To Visit</h2>
+    <span class="route-arrow" id="route-arrow">▼</span>
   </div>
-  <div class="toggle-content" id="planner-content" style="display: none;">
+
+  <!-- Collapsible Panel -->
+  <div id="route-planner-panel" class="route-planner-panel collapsed">
+    <!-- Učitavanje komponenti -->
     <div data-include="/components/route_planner.html"></div>
   </div>
+
 </section>
 
 <!-- FOOTER -->
