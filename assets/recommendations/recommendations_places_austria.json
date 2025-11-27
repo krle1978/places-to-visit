@@ -1,811 +1,922 @@
     {
       "name": "Austria",
       "cities": [
-        {
-          "name": "Vienna",
-          "interests": [
-            "History & Imperial Palaces 🏰",
-            "Classical Art & Museums 🎨",
-            "Nature & Elegant Gardens 🌳",
-            "Cafés & Pastries ☕",
-            "Food Exploration 😋",
-            "Music & Culture 🎼"
-          ],
-          "food_preferences": [
-            "Local Specialties",
-            "Fast Food",
-            "Vegetarian",
-            "Mixed Options"
-          ],
-          "tour_type": {
-            "morning": "🏰 Schönbrunn Palace: * Begin your day at Vienna’s most iconic imperial residence — enormous halls, golden details and royal history everywhere. → | 🌳 Gardens & Gloriette Viewpoint: * Walk through perfectly trimmed gardens and climb up to the Gloriette terrace for a spectacular panoramic view of Vienna. → | ☕ Coffee & Apple Strudel at the Schönbrunn Café: * A classic Viennese treat — flaky pastry, cinnamon aroma and a cozy café atmosphere.",
-            "afternoon": "🕍 Stephansplatz: * The lively heart of Vienna buzzing with street performers, shops and history. → | ⛪ St. Stephen’s Cathedral: * A masterpiece of Gothic architecture with colorful roof tiles and a breathtaking interior. → | 🛍️ Graben & Kohlmarkt Walk: * Elegant pedestrian streets full of historic façades, boutique shops and café terraces. → | 🍽️ Lunch with Viennese Specialties: * Enjoy dishes like schnitzel, soups, dumplings or pastries — all in a classic Austrian setting.",
-            "sunset": "🌅 Belvedere Palace Gardens (Upper Terrace): * One of the best sunset spots in Vienna — golden light over baroque fountains, sculptures and palace reflections.",
-            "night": "🌃 Museum Quarter Cafés or Youth-Friendly Classical Music Visits: * MQ’s relaxed cafés are perfect for evening hanging out. You can also visit classical venues that offer safe, youth-friendly shows without any age-restricted elements.",
-            "full_day": "Morning: 🏰 Schönbrunn Palace: * Begin your day at Vienna’s most iconic imperial residence — enormous halls, golden details and royal history everywhere. → | 🌳 Gardens & Gloriette Viewpoint: * Walk through perfectly trimmed gardens and climb up to the Gloriette terrace for a spectacular panoramic view of Vienna. → | ☕ Coffee & Apple Strudel at the Schönbrunn Café: * A classic Viennese treat — flaky pastry, cinnamon aroma and a cozy café atmosphere.; Afternoon: 🕍 Stephansplatz: * The lively heart of Vienna buzzing with street performers, shops and history. → | ⛪ St. Stephen’s Cathedral: * A masterpiece of Gothic architecture with colorful roof tiles and a breathtaking interior. → | 🛍️ Graben & Kohlmarkt Walk: * Elegant pedestrian streets full of historic façades, boutique shops and café terraces. → | 🍽️ Lunch with Viennese Specialties: * Enjoy dishes like schnitzel, soups, dumplings or pastries — all in a classic Austrian setting.; Sunset: 🌅 Belvedere Palace Gardens (Upper Terrace): * One of the best sunset spots in Vienna — golden light over baroque fountains, sculptures and palace reflections.; Night: 🌃 Museum Quarter Cafés or Youth-Friendly Classical Music Visits: * MQ’s relaxed cafés are perfect for evening hanging out. You can also visit classical venues that offer safe, youth-friendly shows without any age-restricted elements."
+      {
+        "name": "Vienna",
+        "interests": [
+          "History & Imperial Palaces 🏰",
+          "Classical Art & Museums 🎨",
+          "Nature & Elegant Gardens 🌳",
+          "Cafés & Pastries ☕",
+          "Food Exploration 😋",
+          "Music & Culture 🎼"
+        ],
+        "food_preferences": [
+          "Local Specialties",
+          "Fast Food",
+          "Vegetarian",
+          "Mixed Options"
+        ],
+        "tour_type": {
+          "morning": "🏰 Schönbrunn Palace: Begin your day at Vienna’s most iconic imperial residence — enormous halls, golden details and royal history everywhere. → | 🌳 Gardens & Gloriette Viewpoint: Walk through perfectly trimmed gardens and climb up to the Gloriette terrace for a spectacular panoramic view of Vienna. → | ☕ Coffee & Apple Strudel at the Schönbrunn Café: A classic Viennese treat with flaky pastry, cinnamon aroma and a cozy café atmosphere.",
+          "afternoon": "🕍 Stephansplatz: The lively heart of Vienna buzzing with street performers, shops and history. → | ⛪ St. Stephen’s Cathedral: A masterpiece of Gothic architecture with colorful roof tiles and a breathtaking interior. → | 🛍️ Graben & Kohlmarkt Walk: Elegant pedestrian streets full of historic façades, boutique shops and café terraces. → | 🍽️ Lunch with Viennese Specialties: Enjoy dishes like schnitzel, soups, dumplings or pastries in a classic Austrian setting.",
+          "sunset": "🌅 Belvedere Palace Gardens (Upper Terrace): One of the best sunset spots in Vienna — golden light over baroque fountains, sculptures and palace reflections.",
+          "night": "🌃 Museum Quarter Cafés or Youth-Friendly Classical Music Visits: MQ’s relaxed cafés are perfect for an evening hangout, and some classical venues offer youth-friendly performances with no age-restricted elements.",
+          "full_day": "Morning: 🏰 Schönbrunn Palace: Vienna’s most iconic imperial residence with grand halls and golden details. → | 🌳 Gardens & Gloriette Viewpoint: Perfectly landscaped paths and a panoramic terrace overlooking the city. → | ☕ Schönbrunn Café: Classic Viennese coffee and apple strudel.; Afternoon: 🕍 Stephansplatz: Lively central square with street performers and shops. → | ⛪ St. Stephen’s Cathedral: Gothic icon with stunning roof tiles and soaring interior. → | 🛍️ Graben & Kohlmarkt: Elegant pedestrian boulevards lined with boutiques and historic façades. → | 🍽️ Lunch: Viennese specialties including schnitzel, soups, dumplings and pastries.; Sunset: 🌅 Belvedere Gardens: Golden-hour views over fountains, sculptures and the baroque palace. ; Night: 🌃 Museum Quarter: Relaxed cafés, art courtyards and optional youth-friendly classical music venues."
+        },
+        "seasons": {
+          "spring": {
+            "event": "Spring in Vienna",
+            "ideas": [
+              "🌼 Walks Through Schönbrunn Gardens: * Cherry blossoms, tulips and long elegant paths.",
+              "🌸 Belvedere Flower Terraces: * Bright spring colors around fountains and ponds.",
+              "☕ Outdoor Cafés in the Old Town: * Sunlit terraces offering calm spring views."
+            ]
           },
-          "seasons": {
-            "spring": {
-              "event": "Spring in Vienna",
-              "ideas": [
-                "🌼 Walks Through Schönbrunn Gardens: * Cherry blossoms, tulips and long elegant paths.",
-                "🌸 Belvedere Flower Terraces: * Bright spring colors around fountains and ponds.",
-                "☕ Outdoor Cafés in the Old Town: * Sunlit terraces offering calm spring views."
-              ]
-            },
-            "summer": {
-              "event": "Hot Summer Days",
-              "ideas": [
-                "🌊 Danube Island (Donauinsel) Walks: * Breezy paths, wide riverside views and active zones.",
-                "🌅 Evening City-Center Strolls: * Vienna glows beautifully in summer twilight.",
-                "🍦 Gelato at Famous Viennese Ice-Cream Shops: * Refreshing treats from legendary gelaterias.",
-                "🌳 Shade Walks in Prater Park: * Iconic riverside park perfect for escaping the heat."
-              ]
-            },
-            "autumn": {
-              "event": "Autumn in Vienna",
-              "ideas": [
-                "🍂 Vienna Woods (Wienerwald) Photography: * Warm-toned forests and peaceful trails.",
-                "🥐 Warm Pastries in Traditional Cafés: * Cozy atmosphere and classic pastries like apfelstrudel or topfenstrudel.",
-                "🖼️ Albertina & Kunsthistorisches Museum Visits: * Perfect for cooler days — iconic art collections indoors."
-              ]
-            },
-            "winter": {
-              "event": "Christmas Markets",
-              "locations": [
-                "🎄 Rathausplatz Christmas Market: * Huge festive square with lights, crafts, snacks and a magical winter vibe.",
-                "✨ Belvedere Christmas Village: * Stunning palace backdrop with warm lights and artisan stalls.",
-                "🏰 Maria-Theresien Square Market: * Between two famous museums — elegant and beautifully decorated."
-              ]
-            }
+          "summer": {
+            "event": "Hot Summer Days",
+            "ideas": [
+              "🌊 Danube Island (Donauinsel) Walks: * Breezy paths, wide riverside views and active zones.",
+              "🌅 Evening City-Center Strolls: * Vienna glows beautifully in summer twilight.",
+              "🍦 Gelato at Famous Viennese Ice-Cream Shops: * Refreshing treats from legendary gelaterias.",
+              "🌳 Shade Walks in Prater Park: * Iconic riverside park perfect for escaping the heat."
+            ]
           },
-          "tips": {
-            "history_fans": {
-              "places": [
-                "🏰 Hofburg Palace: | Former imperial residence with museums, courtyards and centuries of history.",
-                "🌟 Schönbrunn Palace: | A UNESCO-listed royal complex full of stories from the Habsburg era.",
-                "👑 Imperial Treasury: | Home to crowns, jewels and some of the most valuable royal artifacts in Europe."
-              ],
-              "what_to_get": [
-                "🎖️ Imperial Souvenirs: | Postcards, themed items, mini portraits or royal-style décor.",
-                "🏰 Mini Palace Replicas: | Small models of Schönbrunn, Hofburg or other landmark buildings."
-              ]
-            },
-            "art_lovers": {
-              "places": [
-                "🖼️ Albertina Museum: | Famous for its drawings, prints and modern art exhibitions.",
-                "🏛️ Kunsthistorisches Museum: | Masterpieces from ancient Egypt to Renaissance giants.",
-                "🎨 Belvedere Gallery: | Home to Klimt’s ‘The Kiss’ and stunning baroque halls."
-              ],
-              "what_to_get": [
-                "🖨️ Art Prints: | Klimt, Schiele, Monet and many iconic pieces in print form.",
-                "🌟 Klimt Miniatures: | Small decorative items inspired by ‘The Kiss’ and other works."
-              ]
-            },
-            "music_fans": {
-              "places": [
-                "🎼 Vienna State Opera (Youth Tours): | Guided tours showing backstage areas, costumes and opera history.",
-                "🎵 Haus der Musik: | Interactive sound and music museum — fun, modern and educational.",
-                "🎻 Mozart-Themed Shops: | Lighthearted souvenirs celebrating Vienna’s most famous composer."
-              ],
-              "what_to_get": [
-                "🎶 Classical Music Souvenirs: | Sheet-music notebooks, themed stationery or illustrated composer cards.",
-                "🎻 Instrument Miniatures: | Tiny violins, pianos or classic opera-themed trinkets."
-              ]
-            }
+          "autumn": {
+            "event": "Autumn in Vienna",
+            "ideas": [
+              "🍂 Vienna Woods (Wienerwald) Photography: * Warm-toned forests and peaceful trails.",
+              "🥐 Warm Pastries in Traditional Cafés: * Cozy atmosphere and classic pastries like apfelstrudel or topfenstrudel.",
+              "🖼️ Albertina & Kunsthistorisches Museum Visits: * Perfect for cooler days — iconic art collections indoors."
+            ]
           },
-          "interest_map": {
-            "History & Imperial Palaces 🏰": "history__imperial_palaces",
-            "Classical Art & Museums 🎨": "classical_art__museums",
-            "Nature & Elegant Gardens 🌳": "nature__elegant_gardens",
-            "Cafés & Pastries ☕": "cafés__pastries",
-            "Food Exploration 😋": "food_exploration",
-            "Music & Culture 🎼": "music__culture"
+          "winter": {
+            "event": "Christmas Markets",
+            "locations": [
+              "🎄 Rathausplatz Christmas Market: * Huge festive square with lights, crafts, snacks and a magical winter vibe.",
+              "✨ Belvedere Christmas Village: * Stunning palace backdrop with warm lights and artisan stalls.",
+              "🏰 Maria-Theresien Square Market: * Between two famous museums — elegant and beautifully decorated."
+            ]
           }
         },
-        {
-          "name": "Hallstatt",
-          "interests": [
-            "Nature & Lakeside Views 🌊",
-            "History & Heritage 🏰",
-            "Alpine Walks 🌳",
-            "Photography 📸",
-            "Local Food Exploration 😋"
-          ],
-          "food_preferences": [
-            "Local Specialties",
-            "Fast Food",
-            "Vegetarian",
-            "Mixed Options"
-          ],
-          "tour_type": {
-            "morning": "🌊 Hallstatt Lake Promenade: * Start the day with calm water views, mountain reflections and swans drifting by — the pure Hallstatt mood. → | 🏘️ Marktplatz: * The cute central square with traditional wooden houses and cozy alpine charm. → | 🏠 Traditional Houses Walk: * Wander narrow village lanes lined with balconies full of flowers and old timber facades. → | ☕ Coffee by the Lakeside: * A warm drink with a postcard-perfect panorama right in front of you.",
-            "afternoon": "🗻 Hallstatt Skywalk: * Step onto the panoramic deck high above the lake — iconic views you’ve seen in every photo. → | ⛏️ Salt Mine Tour (Salzwelten): * One of the oldest salt mines in the world — underground slides, mining history and epic viewpoints. → | 🍽️ Lunch with Alpine/Austrian Dishes: * Enjoy mountain-style classics: soups, dumplings, fish dishes, cheese plates or warm pastries.",
-            "sunset": "🌅 Lakeside Bench or Boat Ride: * Golden reflections on the water with mountains silhouetted behind — Hallstatt at its most magical.",
-            "night": "🌃 Quiet Village Cafés or Relaxed Walk by the Water: * Calm paths, lantern-lit views and peaceful late-evening atmosphere.",
-            "full_day": "Morning: 🌊 Hallstatt Lake Promenade: * Start your day with calm water views, mountain reflections and swans drifting gently across the surface — the pure Hallstatt mood. → | 🏘️ Marktplatz: * The charming central square surrounded by wooden alpine houses and picture-perfect façades. → | 🏠 Traditional Houses Walk: * Explore narrow lanes lined with flower-filled balconies and centuries-old timber architecture. → | ☕ Lakeside Coffee Break: * Enjoy a warm drink with a postcard-worthy panorama right in front of you.; Afternoon: 🗻 Hallstatt Skywalk: * Step out onto the panoramic viewing platform hovering above the lake — iconic views that define Hallstatt. → | ⛏️ Salzwelten Salt Mine Tour: * Journey into one of the world’s oldest salt mines — underground slides, mining tunnels and stunning lookout points. → | 🍽️ Alpine Lunch: * Taste authentic local dishes such as soups, dumplings, lake fish specialties, cheese plates or warm pastries in a cozy mountain-style setting.; Sunset: 🌅 Lakeside Bench or Gentle Boat Ride: * Watch the mountains glow in sunset colors as the lake reflects golden light — Hallstatt at its most magical.; Night: 🌃 Quiet Village Cafés or Lantern-Lit Walk: * End your day with peaceful lakeside paths, soft lights and the calm evening atmosphere of this alpine village."
+        "tips": {
+          "history_fans": {
+            "places": [
+              "🏰 Hofburg Palace: | Former imperial residence with museums, courtyards and centuries of history.",
+              "🌟 Schönbrunn Palace: | A UNESCO-listed royal complex full of stories from the Habsburg era.",
+              "👑 Imperial Treasury: | Home to crowns, jewels and some of the most valuable royal artifacts in Europe."
+            ],
+            "what_to_get": [
+              "🎖️ Imperial Souvenirs: | Postcards, themed items, mini portraits or royal-style décor.",
+              "🏰 Mini Palace Replicas: | Small models of Schönbrunn, Hofburg or other landmark buildings."
+            ]
           },
-          "seasons": {
-            "spring": {
-              "event": "Spring in Hallstatt",
-              "ideas": [
-                "🌼 Flower-Lined Lake Walks: * Fresh blossoms decorating the village paths.",
-                "🏞️ Mountain Viewpoints: * Crisp, clear air and green slopes opening up.",
-                "📸 Village Photography: * Soft spring colors, wooden houses and light mist."
-              ]
-            },
-            "summer": {
-              "event": "Hot Summer Days",
-              "ideas": [
-                "⛵ Boat Rides on Hallstatt Lake: * Breezy, fun and super scenic.",
-                "🌳 Shaded Lakeside Paths: * Cool breaks under trees along the shore.",
-                "🍦 Gelato & Cold Drinks: * Perfect treats while exploring the old streets."
-              ]
-            },
-            "autumn": {
-              "event": "Autumn in Hallstatt",
-              "ideas": [
-                "🍁 Golden Lake Reflections: * Trees turn orange and reflect on the water beautifully.",
-                "🥾 Hilltop Walks: * Forest trails with crunchy leaves and warm colors.",
-                "🍰 Warm Pastries & Tea: * A cozy stop in small alpine cafés."
-              ]
-            },
-            "winter": {
-              "event": "Winter in Hallstatt",
-              "locations": [
-                "❄️ Snow-Covered Marktplatz: * The village square turns into a winter postcard.",
-                "🌨️ Winter Lakeside Scenery: * Calm, snowy, peaceful — a real fairytale."
-              ]
-            }
+          "art_lovers": {
+            "places": [
+              "🖼️ Albertina Museum: | Famous for its drawings, prints and modern art exhibitions.",
+              "🏛️ Kunsthistorisches Museum: | Masterpieces from ancient Egypt to Renaissance giants.",
+              "🎨 Belvedere Gallery: | Home to Klimt’s ‘The Kiss’ and stunning baroque halls."
+            ],
+            "what_to_get": [
+              "🖨️ Art Prints: | Klimt, Schiele, Monet and many iconic pieces in print form.",
+              "🌟 Klimt Miniatures: | Small decorative items inspired by ‘The Kiss’ and other works."
+            ]
           },
-          "tips": {
-            "photography_fans": {
-              "places": [
-                "📷 Postcard Viewpoint: | The classic angle of Hallstatt you’ve seen everywhere — a must for every photographer.",
-                "🗻 Skywalk Deck: | High vantage point with breathtaking lake and mountain views.",
-                "🛶 Wooden Docks: | Calm water, reflections and rustic alpine textures — perfect photo spots."
-              ],
-              "what_to_get": [
-                "🖨️ Photo Prints: | Beautiful shots of the lake, houses and mountains from local artists.",
-                "🏠 Mini Wooden Houses: | Cute handcrafted replicas inspired by the village architecture."
-              ]
-            },
-            "history_fans": {
-              "places": [
-                "⛏️ Salt Mine: | One of the world’s oldest salt mines — tunnels, slides and ancient mining history.",
-                "🏺 Hallstatt Museum: | Exhibits from prehistoric settlements and unique archaeological finds.",
-                "💀 Charnel House (Bone House): | A historical tradition with painted skulls and cultural symbolism."
-              ],
-              "what_to_get": [
-                "🧂 Salt-Themed Souvenirs: | Decorative salt bottles, natural salts, or themed items.",
-                "🏺 Historic Replicas: | Museum-inspired pieces or small archaeological reproductions."
-              ]
-            },
-            "nature_lovers": {
-              "places": [
-                "🌊 Lake Promenade: | Peaceful paths with panoramic lakeside beauty.",
-                "🗻 Skywalk: | Stunning views over the Alps and the entire village.",
-                "🥾 Alpine Hiking Paths: | Forested routes, waterfalls and scenic overlooks."
-              ],
-              "what_to_get": [
-                "🧵 Handmade Crafts: | Local wooden work, textiles and artisan pieces.",
-                "🏔️ Alpine Souvenirs: | Mountain-themed items, natural materials and outdoors-inspired designs."
-              ]
-            }
-          },
-          "interest_map": {
-            "Nature & Lakeside Views 🌊": "nature__lakeside_views",
-            "History & Heritage 🏰": "history__heritage",
-            "Alpine Walks 🌳": "alpine_walks",
-            "Photography 📸": "photography",
-            "Local Food Exploration 😋": "local_food_exploration"
+          "music_fans": {
+            "places": [
+              "🎼 Vienna State Opera (Youth Tours): | Guided tours showing backstage areas, costumes and opera history.",
+              "🎵 Haus der Musik: | Interactive sound and music museum — fun, modern and educational.",
+              "🎻 Mozart-Themed Shops: | Lighthearted souvenirs celebrating Vienna’s most famous composer."
+            ],
+            "what_to_get": [
+              "🎶 Classical Music Souvenirs: | Sheet-music notebooks, themed stationery or illustrated composer cards.",
+              "🎻 Instrument Miniatures: | Tiny violins, pianos or classic opera-themed trinkets."
+            ]
           }
         },
-        {
-          "name": "Graz",
-          "interests": [
-            "History & Castles 🏰",
-            "Art & Modern Culture 🎨",
-            "Old Town Architecture 🏛️",
-            "Parks & Nature 🌳",
-            "Food Exploration 😋",
-            "Urban Creativity 🎭"
-          ],
-          "food_preferences": [
-            "Local Specialties",
-            "Fast Food",
-            "Vegetarian",
-            "Mixed Options"
-          ],
-          "tour_type": {
-            "morning": "⛰️ Schlossberg Hill: * Start your day climbing (or taking the lift!) to Graz’s famous hilltop — full of greenery, winding paths and impressive views. → | 🕰️ Clock Tower Viewpoint: * The city’s symbol — a wooden medieval tower overlooking the entire old town. Perfect picture spot. → | 🌲 Forest Path Walk: * Peaceful trails around Schlossberg ideal for fresh morning air. → | ☕ Coffee in Hauptplatz: * Enjoy a relaxed drink in the main square surrounded by colorful Renaissance buildings.",
-            "afternoon": "🏛️ Graz Old Town (UNESCO): * Wander charming alleys filled with red roofs, arcades and centuries-old façades. → | 🤍 Landhaus Courtyard: * One of the most beautiful Renaissance courtyards in Austria — arches, columns and calm atmosphere. → | 🗡️ Styrian Armoury: * The largest historical armoury in the world — packed with medieval weapons and armor. A must for history lovers. → | 🍽️ Lunch with Styrian Specialties: * Enjoy pumpkin soup, schnitzel, Käferbohnen salad or pastries — pure local flavors.",
-            "sunset": "🌅 Murinsel Walk or Schlossberg Terrace: * Choose between the futuristic floating island on the river or the scenic terrace high above the city for golden-hour views.",
-            "night": "🌃 Kunsthaus Graz Cafés or Riverside Chill Spots: * The famous ‘friendly alien’ building glows at night, and the riverside paths become quiet, relaxed hangout areas.",
-            "full_day": "Morning: ⛰️ Schlossberg Hill: * Start your day climbing (or taking the lift!) to Graz’s iconic green hill — full of forest paths, viewpoints and relaxing morning air. → | 🕰️ Clock Tower Viewpoint: * The city’s beloved symbol — a medieval wooden tower with sweeping panoramas over red rooftops and the old town. → | 🌲 Forest Path Walk: * Wander calm shaded trails around the hilltop and enjoy quiet corners with nature all around you. → | ☕ Coffee in Hauptplatz: * Return to the main square for a cozy coffee surrounded by colorful Renaissance buildings and lively city vibes.; Afternoon: 🏛️ Graz Old Town (UNESCO): * Explore winding alleys, charming courtyards and beautifully preserved façades in one of Europe’s most stunning old towns. → | 🤍 Landhaus Courtyard: * Step into a Renaissance masterpiece with elegant arcades, stone columns and serene atmosphere — a perfect photo spot. → | 🗡️ Styrian Armoury (Landeszeughaus): * Visit the world’s largest historical armoury, packed with medieval swords, armor and weapons — a paradise for history fans. → | 🍽️ Lunch with Styrian Specialties: * Enjoy regional dishes like pumpkin cream soup, Styrian schnitzel, Käferbohnen salad, or warm pastries in a typical local restaurant.; Sunset: 🌅 Murinsel Walk or Schlossberg Terrace: * Watch the sky turn golden either from the futuristic ‘island’ on the Mur River or from the scenic terrace above the city — both offer fantastic views.; Night: 🌃 Kunsthaus Graz Cafés or Riverside Chill Spots: * End your day near the glowing blue ‘friendly alien’ museum or stroll along peaceful river paths perfect for a relaxed evening vibe."
-          },
-          "seasons": {
-            "spring": {
-              "event": "Spring in Graz",
-              "ideas": [
-                "🌿 Stadtpark Walks: * Fresh green lawns and peaceful paths ideal for warm spring days.",
-                "🌸 Flower Trails Around Schlossberg: * Blossoms along the slopes create dreamy viewpoints.",
-                "☕ Outdoor Cafés in Old Town: * Terraces open and fill with soft, sunny energy."
-              ]
-            },
-            "summer": {
-              "event": "Hot Summer Days",
-              "ideas": [
-                "🚶 Mur River Evening Walks: * Cool breezes and glowing city reflections.",
-                "🍦 Ice Cream in Herrengasse: * Grab gelato from local shops while exploring the elegant main street.",
-                "🌳 Shaded Schlossberg Paths: * Escape the heat on forested slopes with scenic rest spots."
-              ]
-            },
-            "autumn": {
-              "event": "Autumn in Graz",
-              "ideas": [
-                "🍁 Colorful Schlossberg Views: * Red and golden leaves turn the hill into a perfect fall panorama.",
-                "🥐 Warm Pastries in Cafés: * Cozy interiors and seasonal treats ideal for cooler days.",
-                "🖼️ Kunsthaus & Neue Galerie Visits: * Explore modern and classic art sheltered from autumn weather."
-              ]
-            },
-            "winter": {
-              "event": "Christmas Markets",
-              "locations": [
-                "🎄 Hauptplatz Market: * Classic holiday stalls, lights and festive decorations.",
-                "✨ Glockenspielplatz Market: * A charming small market with old-town atmosphere.",
-                "🕯️ Franciscan Quarter Market: * Warm lights, crafts and a quiet Christmas mood."
-              ]
-            }
-          },
-          "tips": {
-            "history_fans": {
-              "places": [
-                "🕰️ Schlossberg & Clock Tower: | Medieval defenses, tower bells and panoramic cityscapes.",
-                "🗡️ Styrian Armoury: | Thousands of pieces of historical armor and weapons — fascinating and unique.",
-                "🏛️ Medieval Old Town: | Hidden courtyards, narrow lanes and centuries of preserved architecture."
-              ],
-              "what_to_get": [
-                "🏰 Historical Miniatures: | Small fortified-tower models or old-town replicas.",
-                "🧵 Styrian Crafts: | Handmade wooden items, folk motifs or regional ornaments."
-              ]
-            },
-            "art_lovers": {
-              "places": [
-                "👾 Kunsthaus Graz: | The futuristic ‘friendly alien’ museum for modern and experimental art.",
-                "🌉 Murinsel: | A floating architectural piece mixing art, design and river views.",
-                "🖼️ Local Galleries: | Independent creative spaces with prints, photography and design pieces."
-              ],
-              "what_to_get": [
-                "🎨 Modern Art Prints: | Minimalist or abstract works inspired by Graz’s creative scene.",
-                "🧩 Designer Souvenirs: | Stylish objects reflecting the city’s modern-art identity."
-              ]
-            },
-            "food_lovers": {
-              "places": [
-                "🥗 Farmers' Markets (Kaiser-Josef-Platz): | Fresh local produce, baked goods and Styrian specialties.",
-                "🍽️ Styrian Taverns: | Traditional flavors — soups, schnitzel variations, pumpkin dishes.",
-                "🥨 Pastry Shops: | Sweet treats perfect for breaks during exploring."
-              ],
-              "what_to_get": [
-                "🧴 Pumpkin Seed Oil: | The most iconic Styrian product — dark, nutty and delicious.",
-                "🍫 Handmade Chocolates: | Artisan sweets made with regional ingredients."
-              ]
-            }
-          },
-          "interest_map": {
-            "History & Castles 🏰": "history__castles",
-            "Art & Modern Culture 🎨": "art__modern_culture",
-            "Old Town Architecture 🏛️": "old_town_architecture",
-            "Parks & Nature 🌳": "parks__nature",
-            "Food Exploration 😋": "food_exploration",
-            "Urban Creativity 🎭": "urban_creativity"
-          }
+        "interest_descriptions": {
+          "History & Imperial Palaces 🏰": "Explore Vienna’s grand palaces, royal halls, imperial museums and centuries of European history.",
+          "Classical Art & Museums 🎨": "Discover world-class art collections, Renaissance masterpieces and modern exhibitions across iconic Viennese museums.",
+          "Nature & Elegant Gardens 🌳": "Enjoy manicured palace gardens, peaceful parks, shady paths and elegant green spaces throughout the city.",
+          "Cafés & Pastries ☕": "Experience Vienna’s café tradition — cozy interiors, outdoor terraces and famous pastries like apple strudel.",
+          "Food Exploration 😋": "Try comforting Austrian dishes such as soups, dumplings, vegetable plates and classic local meals.",
+          "Music & Culture 🎼": "Feel the musical heritage of Vienna through interactive museums, safe youth-friendly tours and cultural experiences."
         },
-        {
-          "name": "Linz",
-          "interests": [
-            "History & Old Town Views 🏰",
-            "Art & Digital Culture 🎨",
-            "Riverside Walks 🌊",
-            "Nature & Parks 🌳",
-            "Food Exploration 😋",
-            "Modern Architecture 🏛️"
-          ],
-          "food_preferences": [
-            "Local Specialties",
-            "Fast Food",
-            "Vegetarian",
-            "Mixed Options"
-          ],
-          "tour_type": {
-            "morning": "🏙️ Hauptplatz: * Begin your day at one of Austria’s largest and prettiest main squares — full of pastel buildings, historical corners and tram lines passing through. → | 🏰 Old Town: * Walk narrow streets with medieval façades, charming courtyards and plenty of local character. → | 👾 Ars Electronica Center: * A futuristic museum focused on technology, creativity and interactive digital art — super fun and inspiring. → | ☕ Coffee by the Danube: * Relax at a riverside café with calm views and a peaceful morning atmosphere.",
-            "afternoon": "🖼️ Lentos Art Museum: * A sleek, modern glass building holding contemporary European art — colorful, bold and inspiring. → | 🌉 Nibelungen Bridge Walk: * Cross the Danube with views of both old and new Linz and enjoy the unique mix of architecture styles. → | 🍽️ Lunch with Austrian Dishes: * Try local classics like Knödel, soups, pastries or light Austrian meals — great for a midday break.",
-            "sunset": "🌅 Danube Riverside Walk or Schlossberg Viewpoint: * Choose between a calm river stroll during golden hour or a viewpoint overlooking the town and water.",
-            "night": "🌃 Modern Cafés Near the River or Art District: * Chill evening spots with a creative vibe — perfect for dessert, warm drinks or relaxing after a full day.",
-            "full_day": "Morning: 🏙️ Hauptplatz: * Begin your day at one of Austria’s largest and most picturesque main squares — full of pastel façades, historical corners and lively tram lines crossing through. → | 🏰 Old Town Walk: * Wander medieval alleyways, charming courtyards and old façades that reveal Linz’s blend of history and modern culture. → | 👾 Ars Electronica Center: * Dive into a world of futuristic tech, AI, interactive art and creative digital installations — one of Europe’s coolest modern museums. → | ☕ Coffee by the Danube: * Relax at a riverside café with calm water views, soft breeze and a laid-back morning energy.; Afternoon: 🖼️ Lentos Art Museum: * Explore a striking glass building filled with contemporary European art — bold colors, experimental exhibitions and inspiring modern pieces. → | 🌉 Nibelungen Bridge Walk: * Stroll across the Danube with sweeping views of both the historic old town and Linz’s modern riverside architecture. → | 🍽️ Lunch with Austrian Classics: * Enjoy dishes like Knödel, hearty soups, schnitzel variations, pastries or light regional meals — perfect for recharging.; Sunset: 🌅 Danube Riverside or Schlossberg Viewpoint: * Choose a golden-hour river walk with soft reflections on the water, or head up to a viewpoint for panoramic sunset scenes over the city.; Night: 🌃 Modern Cafés Near the River or Art District: * End your day in stylish evening spots — creative cafés, dessert places or relaxed riverside nooks ideal for unwinding after a full day."
-          },
-          "seasons": {
-            "spring": {
-              "event": "Spring in Linz",
-              "ideas": [
-                "🌼 Botanical Garden Walks: * Blooming paths, lush greenery and peaceful viewpoints.",
-                "🚴 Riverside Cycling: * Flat riverside lanes perfect for easy biking with great scenery.",
-                "☕ Outdoor Cafés in Hauptplatz: * Sunlit terraces and relaxed spring vibes."
-              ]
-            },
-            "summer": {
-              "event": "Hot Summer Days",
-              "ideas": [
-                "🏊 Danube Swimming Spots: * Refreshing areas along the river for cooling down.",
-                "🌅 Evening Promenades: * Calm breezes and pretty sunset colors along the Danube.",
-                "🍦 Gelato in Old Town: * Sweet, cool treats while wandering charming streets.",
-                "🌳 Shaded Parks: * Relax beneath big trees in peaceful green areas around Linz."
-              ]
-            },
-            "autumn": {
-              "event": "Autumn in Linz",
-              "ideas": [
-                "🍁 Danube Park Colors: * The riverside transforms into warm gold and orange tones.",
-                "🍰 Warm Pastries & Tea: * Cozy cafés ideal for autumn comfort breaks.",
-                "🏛️ Museum Visits: * Perfect for chilly days — art, history and interactive exhibits."
-              ]
-            },
-            "winter": {
-              "event": "Christmas Markets",
-              "locations": [
-                "🎄 Hauptplatz Market: * Festive stalls, lights and warm seasonal treats.",
-                "✨ Volksgarten Fair: * A cozy winter market surrounded by trees and decorations."
-              ]
-            }
-          },
-          "tips": {
-            "history_fans": {
-              "places": [
-                "🏰 Old Town: | Medieval streets, hidden courtyards and historical façades.",
-                "🏛️ Schlossmuseum Linz: | Exhibits about regional history with great city views.",
-                "🕍 Hauptplatz: | A cultural and historical hotspot perfect for exploring."
-              ],
-              "what_to_get": [
-                "🏺 Historical Miniatures: | Mini Linz landmarks or traditional figurines.",
-                "🎁 Local Souvenirs: | Handmade crafts, decorative items or classic Linz keepsakes."
-              ]
-            },
-            "art_lovers": {
-              "places": [
-                "👾 Ars Electronica Center: | The global home of digital art, technology and creative experiments.",
-                "🖼️ Lentos Museum: | Dynamic galleries with modern and contemporary art.",
-                "🎨 Street-Art Near the River: | Colorful murals and creative graffiti spots."
-              ],
-              "what_to_get": [
-                "🖨️ Digital Art Prints: | Futuristic designs and tech-inspired artwork.",
-                "🎭 Modern Art Items: | Minimalist souvenirs, design objects or creative stationery."
-              ]
-            },
-            "food_lovers": {
-              "places": [
-                "🥐 Bakeries: | Fresh pastries, pretzels and local sweets.",
-                "🍽️ Local Taverns: | Regional Austrian comfort dishes and hearty meals.",
-                "☕ Riverside Cafés: | Cozy spots along the Danube perfect for snacks or warm drinks."
-              ],
-              "what_to_get": [
-                "🍰 Linzer Torte: | The iconic local dessert — fruity, nutty and delicious.",
-                "🍫 Handmade Chocolate: | Artisan sweets made in small local shops."
-              ]
-            }
-          },
-          "interest_map": {
-            "History & Old Town Views 🏰": "history__old_town_views",
-            "Art & Digital Culture 🎨": "art__digital_culture",
-            "Riverside Walks 🌊": "riverside_walks",
-            "Nature & Parks 🌳": "nature__parks",
-            "Food Exploration 😋": "food_exploration",
-            "Modern Architecture 🏛️": "modern_architecture"
-          }
+        "food_descriptions": {
+          "Local Specialties": "Classic Austrian meals such as soups, dumplings, potato dishes and traditional pastries — warm, comforting and flavorful.",
+          "Fast Food": "Quick bites like sandwiches, bakery snacks, pretzels, wraps or simple meals around the city center.",
+          "Vegetarian": "Fresh salads, veggie soups, potato dishes, pasta plates and Austrian vegetarian-friendly classics.",
+          "Mixed Options": "A flexible mix of local and international meals that adapt to any taste or dietary preference."
         },
-        {
-          "name": "Salzburg",
-          "interests": [
-            "History & Castles 🏰",
-            "Classical Music & Mozart 🎼",
-            "Old Town Architecture 🏛️",
-            "Nature & River Walks 🌳",
-            "Food Exploration 😋",
-            "Photography 📸"
-          ],
-          "food_preferences": [
-            "Local Specialties",
-            "Fast Food",
-            "Vegetarian",
-            "Mixed Options"
-          ],
-          "tour_type": {
-            "morning": "🌺 Mirabell Palace & Gardens: * Start your day with elegant baroque gardens, fountains and flower designs — perfect for soft morning photos. → | 🌉 Walk Across the Makartsteg Bridge: * A fun pedestrian bridge covered with colorful love locks and river views. → | 🎼 Mozart’s Residence: * Explore the life of Salzburg’s most famous composer through exhibits, instruments and family details. → | ☕ Coffee in the Old Town: * Relax in one of the classic cafés surrounded by narrow streets and historical façades.",
-            "afternoon": "🏰 Hohensalzburg Fortress Tour: * Ride the funicular or walk up to one of Europe’s best-preserved medieval fortresses — incredible views and fascinating history. → | ⛪ St. Peter’s Abbey: * A peaceful monastery complex with courtyards, ancient tombs and beautiful architecture. → | 🍽️ Lunch with Austrian Specialties: * Enjoy warm dishes like soups, dumplings or schnitzel + the famous Mozartkugel dessert for a sweet finish.",
-            "sunset": "🌅 Riverside Walk Along the Salzach or Kapuzinerberg Viewpoint: * Choose between golden reflections along the river or a forested hilltop overlook with magical city views.",
-            "night": "🌃 Classical Music Cafés, Old-Town Chill Spots, or Gentle Evening Walks Through Getreidegasse: * Calm, atmospheric and full of pretty lights — ideal for a peaceful night experience.",
-            "full_day": "Morning: 🌺 Mirabell Palace & Gardens: * Start your day among elegant baroque landscaping, playful fountains and colorful flower arrangements — a gentle and photogenic morning atmosphere. → | 🌉 Makartsteg Bridge Walk: * Cross the famous pedestrian bridge decorated with hundreds of love locks while enjoying breezy views of the Salzach River and the old town. → | 🎼 Mozart’s Residence: * Step into the world of Salzburg’s greatest musical icon — explore family memorabilia, instruments and stories behind the composer’s early life. → | ☕ Coffee in the Old Town: * Relax in a traditional café on narrow streets lined with historic façades, charming signs and pastel buildings.; Afternoon: 🏰 Hohensalzburg Fortress: * Take the funicular or hike up to one of Europe’s largest and best-preserved medieval fortresses — panoramic views, courtyards and centuries of history await. → | ⛪ St. Peter’s Abbey: * Wander a peaceful monastery complex with old stone passages, quiet courtyards, ornate church interiors and one of the oldest cemeteries in Europe. → | 🍽️ Lunch with Austrian Specialties: * Enjoy hearty classics like dumplings, soups, schnitzel or roasted dishes — and don’t skip the famous Mozartkugel for a sweet local touch.; Sunset: 🌅 Salzach Riverside or Kapuzinerberg Viewpoint: * Choose between a calm golden-hour stroll along the river or a scenic hilltop viewpoint with magical evening light over the city’s rooftops and domes.; Night: 🌃 Classical Music Cafés, Old-Town Chill Spots or Getreidegasse Evening Walk: * Finish the day exploring softly lit streets, quiet cafés or atmospheric corners of Salzburg’s most iconic lane — perfect for a slow, relaxing night."
-          },
-          "seasons": {
-            "spring": {
-              "event": "Spring in Salzburg",
-              "ideas": [
-                "🌷 Mirabell Gardens in Bloom: * Colorful, fresh and full of spring energy.",
-                "☕ Old Town Outdoor Cafés: * Terraces open for sunny-weather relaxation.",
-                "🚶 Riverside Promenades: * Warm breezes and great views of the fortress."
-              ]
-            },
-            "summer": {
-              "event": "Hot Summer Days",
-              "ideas": [
-                "🌅 Evening Salzach Walks: * Cool riverside breezes after warm afternoons.",
-                "🌲 Cool Forest Trails on Kapuzinerberg: * Shaded paths with great viewpoints.",
-                "🍦 Gelato in Getreidegasse: * Sweet treats in Salzburg’s famous narrow street.",
-                "🌼 Sound of Music Outdoor Locations: * Iconic scenery perfect for summer exploring."
-              ]
-            },
-            "autumn": {
-              "event": "Autumn in Salzburg",
-              "ideas": [
-                "🍁 Golden Foliage Around the Fortress: * Stunning warm colors on castle hillsides.",
-                "🥐 Warm Pastries in Traditional Cafés: * Cozy atmosphere and seasonal flavors.",
-                "🏛️ Museum Visits: * Mozart’s Birthplace and Salzburg Museum for culture-rich afternoons."
-              ]
-            },
-            "winter": {
-              "event": "Christmas Market",
-              "locations": [
-                "🎄 Cathedral Square (Domplatz): * A magical market with lights, music and traditional stalls.",
-                "✨ Residence Square (Residenzplatz): * Festive atmosphere surrounded by palaces.",
-                "🏰 Hohensalzburg Fortress Christmas Market: * A unique mountaintop holiday market with breathtaking winter views."
-              ]
-            }
-          },
-          "tips": {
-            "history_fans": {
-              "places": [
-                "🏰 Hohensalzburg Fortress: | A towering medieval stronghold with sweeping city panoramas.",
-                "⛪ St. Peter’s Abbey: | One of the oldest monastic centers in the German-speaking world.",
-                "🕍 Salzburg Cathedral: | A grand baroque masterpiece at the heart of the old town."
-              ],
-              "what_to_get": [
-                "🏰 Fortress Miniatures: | Small models of Salzburg’s iconic castle.",
-                "📮 Historical Postcards: | Vintage-style cards of old-town squares and cathedrals."
-              ]
-            },
-            "art_lovers": {
-              "places": [
-                "🖼️ Modern Art Museum: | Bold modern works paired with a dramatic clifftop location.",
-                "🎨 Local Old-Town Galleries: | Small spaces showing regional artists and handcrafts.",
-                "🌺 Mirabell Garden Sculptures: | Beautiful artistic statues scattered throughout the gardens."
-              ],
-              "what_to_get": [
-                "🖨️ Art Prints: | Local illustrations, fortress scenes or Austrian landscapes.",
-                "🎭 Local Handcrafted Souvenirs: | Ceramics, traditional motifs or handmade ornaments."
-              ]
-            },
-            "music_fans": {
-              "places": [
-                "🏠 Mozart’s Birthplace: | The original home of Salzburg’s greatest musical figure.",
-                "🎼 Mozart’s Residence: | Museums full of original instruments and family items.",
-                "🎻 Classical Music Shops in Old Town: | Sheet music, souvenirs and music-themed gifts."
-              ],
-              "what_to_get": [
-                "🎹 Mozart-Themed Gifts: | Cute figurines, magnets and themed items.",
-                "💿 Classical Music CDs/Vinyls: | Recordings of Mozart and Austrian composers."
-              ]
-            }
-          },
-          "interest_map": {
-            "History & Castles 🏰": "history__castles",
-            "Classical Music & Mozart 🎼": "classical_music__mozart",
-            "Old Town Architecture 🏛️": "old_town_architecture",
-            "Nature & River Walks 🌳": "nature__river_walks",
-            "Food Exploration 😋": "food_exploration",
-            "Photography 📸": "photography"
-          }
-        },
-        {
-          "name": "Tyrol",
-          "interests": [
-            "Alpine Nature & Mountains ⛰️",
-            "Lakes & Scenic Views 🌊",
-            "History & Castles 🏰",
-            "Outdoor Activities 🌲",
-            "Food Exploration 😋",
-            "Photography 📸"
-          ],
-          "food_preferences": [
-            "Local Specialties",
-            "Fast Food",
-            "Vegetarian",
-            "Mixed Options"
-          ],
-          "tour_type": {
-            "morning": "🏰 Innsbruck Old Town: * Begin your day in a pastel-colored alpine old town full of medieval buildings and mountain backdrops. → | ✨ Golden Roof (Goldenes Dachl): * Innsbruck’s iconic golden-shingled balcony — perfect photo spot. → | 🗼 St. Anne’s Column: * A historic monument surrounded by mountain views in every direction. → | ☕ Coffee in Maria-Theresien-Straße: * A relaxed street lined with shops, cafés and postcard-like views.",
-            "afternoon": "🚠 Nordkette Cable Car to Seegrube: * Ride from the city straight up into the Alps — unbelievably scenic. → | 🥾 Alpine Walk: * Gentle alpine paths with huge panoramas, crisp air and incredible landscapes. → | 🍽️ Lunch with Tyrolean Specialties: * Kaspressknödel, Tiroler Gröstl, soups and warm mountain-style dishes — comforting and delicious.",
-            "sunset": "🌅 Hungerburg Plateau Sunset: * Golden mountain light over the valley — one of the best sunset spots in Tyrol.",
-            "night": "🌃 Old Town Cafés or Quiet Riverside Walk Along the Inn: * Peaceful vibe, gentle lights, and calm streets perfect for winding down.",
-            "full_day": "Morning: 🏰 Innsbruck Old Town: * Begin your day wandering pastel-colored medieval streets framed by dramatic alpine peaks — one of the most picturesque old towns in Austria. → | ✨ Golden Roof (Goldenes Dachl): * Visit Innsbruck’s shimmering icon — a balcony covered with over 2,600 gilded shingles, perfect for photos. → | 🗼 St. Anne’s Column: * A historic monument standing proudly in Maria-Theresien-Straße, surrounded by majestic mountain views in every direction. → | ☕ Coffee in Maria-Theresien-Straße: * Enjoy a relaxing drink on Innsbruck’s most famous boulevard, lined with cafés, boutiques and postcard-worthy scenery.; Afternoon: 🚠 Nordkette Cable Car → Seegrube: * Ride directly from the city center up into the high Alps — a breathtaking transition from urban streets to rugged mountain views in minutes. → | 🥾 Alpine Walk Around Seegrube: * Stroll along gentle alpine paths with crisp air, panoramic vistas and a feeling of being on top of the world. → | 🍽️ Lunch with Tyrolean Specialties: * Warm up with local comfort foods like Kaspressknödel, Tiroler Gröstl, hearty soups or other mountain-style dishes in a cozy alpine setting.; Sunset: 🌅 Hungerburg Plateau: * Watch the sun dip behind the mountains while the valley glows in golden tones — one of Tyrol’s most stunning sunset viewpoints.; Night: 🌃 Old Town Cafés or Riverside Walk Along the Inn: * End your day with quiet cafés, soft lights and a peaceful stroll along the river, perfect for unwinding in the alpine evening atmosphere."
-          },
-          "seasons": {
-            "spring": {
-              "event": "Spring in Tyrol",
-              "ideas": [
-                "🌼 Alpine Meadow Walks: * Fresh green hills, early flowers and quiet paths.",
-                "☀️ Innsbruck Old-Town Terraces: * Perfect weather for outdoor cafés with mountain views.",
-                "🥾 Early-Season Hiking Paths: * Lower trails open early and offer mild, pleasant conditions."
-              ]
-            },
-            "summer": {
-              "event": "Hot Summer Days",
-              "ideas": [
-                "🏞️ Lake Achensee Swimming or Boat Rides: * Clear turquoise water surrounded by steep cliffs.",
-                "🌲 Alpine Forest Shade Hikes: * Cool pine-scented routes in higher elevations.",
-                "🌅 Evening Views from Nordkette: * Soft evening light over the whole valley — stunning."
-              ]
-            },
-            "autumn": {
-              "event": "Autumn in Tyrol",
-              "ideas": [
-                "🍁 Golden Mountain Landscapes: * Bright orange slopes and crystal-clear skies.",
-                "🥐 Warm Pastries & Tea in Alpine Huts: * Cozy wooden interiors and homemade treats.",
-                "🏰 Museum and Castle Visits: * Great for chillier days — full of history and culture."
-              ]
-            },
-            "winter": {
-              "event": "Christmas & Winter Magic",
-              "locations": [
-                "🎄 Innsbruck Old Town Christmas Market: * Lights, décor, and festive alpine charm.",
-                "✨ Maria-Theresien-Straße Christmas Lights: * Sparkling decorations along the main avenue.",
-                "🏔️ Hungerburg Christmas Market: * A small mountaintop market with snowy alpine views."
-              ]
-            }
-          },
-          "tips": {
-            "nature_lovers": {
-              "places": [
-                "🚠 Nordkette Cable Car Viewpoints: | Incredible panoramas right above Innsbruck.",
-                "🌊 Lake Achensee: | Crystal-clear alpine water and dramatic mountain cliffs.",
-                "🏔️ Stubai Valley Trails: | Forest routes, waterfalls and peaceful alpine scenery."
-              ],
-              "what_to_get": [
-                "🏔️ Alpine-Themed Souvenirs: | Mountain motifs, natural materials and scenic designs.",
-                "🪵 Handmade Wooden Crafts: | Local woodcarvings, ornaments and natural décor."
-              ]
-            },
-            "history_fans": {
-              "places": [
-                "🏰 Ambras Castle: | Renaissance halls, armory collections and picturesque gardens.",
-                "🏛️ Innsbruck Old Town: | Medieval streets, towers and historical buildings.",
-                "📚 Tyrolean State Museum: | Art, culture and history from the entire region."
-              ],
-              "what_to_get": [
-                "🏰 Castle Miniatures: | Small replicas of Tyrolean castles and landmarks.",
-                "📜 Historical Booklets: | Local history, legends and illustrated guides."
-              ]
-            },
-            "photography_fans": {
-              "places": [
-                "📸 Seegrube Panorama: | The ultimate top-down view of Innsbruck and the Alps.",
-                "🌈 Innsbruck Pastel-Colored Old Town: | Bright façades with mountains in the background.",
-                "🏞️ Mountain Valley Viewpoints: | Clear horizons, dramatic peaks and quiet nature."
-              ],
-              "what_to_get": [
-                "🖨️ Local Landscape Prints: | Beautiful alpine photos by Tyrolean artists.",
-                "📬 Handmade Postcards: | Illustrated views of mountains, lakes and village scenes."
-              ]
-            }
-          },
-          "interest_map": {
-            "Alpine Nature & Mountains ⛰️": "alpine_nature__mountains",
-            "Lakes & Scenic Views 🌊": "lakes__scenic_views",
-            "History & Castles 🏰": "history__castles",
-            "Outdoor Activities 🌲": "outdoor_activities",
-            "Food Exploration 😋": "food_exploration",
-            "Photography 📸": "photography"
-          }
-        },
-        {
-          "name": "Eisenstadt",
-          "interests": [
-            "History & Castles 🏰",
-            "Classical Music & Haydn 🎼",
-            "Old Town Architecture 🏛️",
-            "Parks & Gardens 🌳",
-            "Food Exploration 😋",
-            "Cultural Walks 🎨"
-          ],
-          "food_preferences": [
-            "Local Specialties",
-            "Fast Food",
-            "Vegetarian",
-            "Mixed Options"
-          ],
-          "tour_type": {
-            "morning": "🏰 Esterházy Palace Tour: * Start the day in one of Austria’s most beautiful baroque palaces — elegant halls, historic rooms and rich cultural heritage. → | 🎼 Haydn Hall: * A stunning concert hall known for perfect acoustics and its deep connection to Joseph Haydn. → | 🌿 Palace Gardens Stroll: * Peaceful paths, ponds, statues and tree-lined avenues — ideal for morning relaxation. → | ☕ Coffee at a Local Old-Town Café: * Cozy atmosphere with charming historical streets all around.",
-            "afternoon": "⛪ Haydn Church (Bergkirche): * A unique historic church with Haydn’s own memorial chapel. → | 🏠 Joseph Haydn Museum: * A quiet, intimate museum located in the composer’s former home — perfect for music lovers. → | 🍽️ Lunch with Burgenland Specialties: * Try regional dishes rich in pumpkin seed oil, fresh vegetables and warm homemade flavors.",
-            "sunset": "🌅 Ruster Hügelland Viewpoint or Palace Garden Sunset Walk: * Gentle evening light over vineyards or soft shadows in the gardens — ideal for calm sunset moments.",
-            "night": "🌃 Calm Old-Town Cafés or Cultural Courtyard Evenings (Seasonal): * Peaceful vibes, soft lighting, and occasional cultural programs depending on the season.",
-            "full_day": "Morning: 🏰 Esterházy Palace: * Begin your day inside one of Austria’s most impressive baroque palaces — richly decorated halls, historic rooms and centuries of noble heritage. → | 🎼 Haydn Hall: * Step into one of Europe’s finest classical music halls — celebrated for its perfect acoustics and deep connection to Joseph Haydn. → | 🌿 Palace Gardens Stroll: * Wander calm, beautifully landscaped gardens with ponds, statues, flower terraces and tree-lined paths — the ideal way to ease into the morning. → | ☕ Old-Town Café Break: * Enjoy a warm drink in a cozy local café surrounded by charming, slow-paced historical streets.; Afternoon: ⛪ Haydn Church (Bergkirche): * Visit a uniquely designed church that houses Haydn’s own memorial chapel — peaceful, atmospheric and full of character. → | 🏠 Joseph Haydn Museum: * Explore the composer’s former home, now an intimate museum offering insight into his personal life, work and legacy. → | 🍽️ Lunch with Burgenland Specialties: * Taste regional dishes featuring pumpkin seed oil, fresh vegetables, hearty soups and warm homemade flavors typical for Burgenland.; Sunset: 🌅 Ruster Hügelland Viewpoint or Palace Garden Walk: * Enjoy golden light over rolling vineyards or take a serene sunset walk through the palace gardens — both offer calm, postcard-like scenery.; Night: 🌃 Old-Town Cafés or Seasonal Cultural Courtyard Events: * End your day with quiet town cafés, soft lighting and, depending on the season, charming cultural evenings held in historical courtyards."
-          },
-          "seasons": {
-            "spring": {
-              "event": "Spring in Eisenstadt",
-              "ideas": [
-                "🌸 Strolls Through Palace Gardens in Bloom: * Fresh flowers and relaxing spring air.",
-                "☕ Outdoor Cafés in the Old Town: * Sunlit terraces perfect for a break.",
-                "🥾 Easy Hikes in the Burgenland Hills: * Gentle trails with greenery and open views."
-              ]
-            },
-            "summer": {
-              "event": "Hot Summer Days",
-              "ideas": [
-                "🌳 Evening Walks Through Esterházy Gardens: * Cooling breezes among trees and fountains.",
-                "🍦 Ice Cream in the Old Town: * Sweet refreshment while exploring quiet streets.",
-                "🎨 Shaded Cultural Courtyards: * Small performances, music or exhibitions depending on the season."
-              ]
-            },
-            "autumn": {
-              "event": "Autumn in Eisenstadt",
-              "ideas": [
-                "🍁 Vineyard Walks Around Ruster Hügelland: * Golden leaves, calm paths and scenic views.",
-                "🥐 Warm Pastries & Coffee in the Center: * Cozy stops for cool fall days.",
-                "🏛️ Museum Visits During Cooler Days: * Ideal time for exploring palaces, churches and exhibits."
-              ]
-            },
-            "winter": {
-              "event": "Christmas Market",
-              "locations": [
-                "🎄 Esterházy Palace Christmas Market: * Charming stalls with lights, crafts and festive atmosphere.",
-                "✨ Old Town Seasonal Stalls: * Small, cozy holiday corners full of winter decorations."
-              ]
-            }
-          },
-          "tips": {
-            "music_fans": {
-              "places": [
-                "🎼 Haydn Hall (Esterházy Palace): | One of Europe’s premier classical music halls.",
-                "⛪ Haydn Church: | A historic church with a deep musical legacy.",
-                "🏠 Joseph Haydn Museum: | The composer’s former residence filled with artifacts and stories."
-              ],
-              "what_to_get": [
-                "🎵 Classical Music Souvenirs: | Illustrated music sheets, themed items and elegant keepsakes.",
-                "🎶 Mozart & Haydn-Themed Items: | Safe, fun and music-inspired souvenirs.",
-                "🎻 Miniature Instruments: | Tiny violins, pianos or decorative replicas."
-              ]
-            },
-            "history_fans": {
-              "places": [
-                "🏰 Esterházy Palace: | A baroque landmark with centuries of regional history.",
-                "🏛️ Old Town Historical Streets: | Arcades, pastel façades and quiet European charm.",
-                "🏺 Burgenland State Museum: | Exhibits on local culture, archaeology and heritage."
-              ],
-              "what_to_get": [
-                "📮 Historical Postcards: | Vintage palace views and old-town prints.",
-                "🎁 Esterházy-Themed Souvenirs: | Elegant palace-inspired items or miniature décor."
-              ]
-            },
-            "food_lovers": {
-              "places": [
-                "🍽️ Local Burgenland Taverns: | Regional dishes with fresh produce and classic flavors.",
-                "☕ Old-Town Cafés: | Warm pastries, cakes and relaxing corners.",
-                "🛍️ Farm-Product Shops: | Local goods including pumpkin products and regional treats."
-              ],
-              "what_to_get": [
-                "🧴 Pumpkin Seed Oil (Regional Specialty): | A signature product of Burgenland — nutty and delicious.",
-                "🍫 Local Chocolates & Pastries: | Handmade sweets and traditional desserts."
-              ]
-            }
-          },
-          "interest_map": {
-            "History & Castles 🏰": "history__castles",
-            "Classical Music & Haydn 🎼": "classical_music__haydn",
-            "Old Town Architecture 🏛️": "old_town_architecture",
-            "Parks & Gardens 🌳": "parks__gardens",
-            "Food Exploration 😋": "food_exploration",
-            "Cultural Walks 🎨": "cultural_walks"
-          }
-        },
-        {
-          "name": "Klagenfurt",
-          "interests": [
-            "Lakeside Nature & Wörthersee 🌊",
-            "History & Castles 🏰",
-            "Old Town Architecture 🏛️",
-            "Parks & Gardens 🌳",
-            "Food Exploration 😋",
-            "Photography 📸"
-          ],
-          "food_preferences": [
-            "Local Specialties",
-            "Fast Food",
-            "Vegetarian",
-            "Mixed Options"
-          ],
-          "tour_type": {
-            "morning": "🏛️ Klagenfurt Old Town: * Start with pastel streets, arcaded courtyards and cozy corners everywhere. → | 🐉 Neuer Platz (Lindwurm Fountain): * The legendary dragon fountain — the city’s symbol and a super fun photo stop. → | 🏰 Landhaus Courtyard: * One of Carinthia’s most impressive Renaissance buildings with calm stone arcades. → | ☕ Coffee in a Local Old-Town Café: * A peaceful morning break with café aromas and historic surroundings.",
-            "afternoon": "🌍 Minimundus Miniature World: * Explore iconic world landmarks in detailed small-scale versions — creative, fun and very scenic. → | 🌳 Europapark Walk: * Big green park next to the lake with flower paths, ponds and relaxing benches. → | 🍽️ Lunch with Carinthian Specialties: * Try Kärntner Kasnudeln (local filled pasta), soups or sweet alpine treats.",
-            "sunset": "🌅 Wörthersee Sunset Promenade or Lakeside Pier Viewpoint: * Calm water, warm sky colors and mountain silhouettes — the perfect chill moment.",
-            "night": "🌃 Lakeside Cafés, Quiet Old-Town Walk, or Chill Dessert Spots: * Peaceful, safe and relaxing evening options for unwinding.",
-            "full_day": "Morning: 🏛️ Klagenfurt Old Town: * Begin your day strolling pastel-colored streets, elegant arcaded courtyards and quiet historic corners that define Carinthia’s capital. → | 🐉 Neuer Platz (Lindwurm Fountain): * Visit the famous dragon statue — a fun and iconic symbol of Klagenfurt with a great backdrop for photos. → | 🏰 Landhaus Courtyard: * Step into one of the region’s most impressive Renaissance buildings — stone arcades, symmetry and calm atmosphere. → | ☕ Old-Town Café Break: * Enjoy a relaxing morning coffee wrapped in the charm of Klagenfurt’s historical center.; Afternoon: 🌍 Minimundus Miniature World: * Explore incredibly detailed small-scale versions of world landmarks — creative, photogenic and surprisingly fun. → | 🌳 Europapark Walk: * Wander through a spacious lakeside park filled with flower paths, ponds, sculptures and peaceful green corners. → | 🍽️ Lunch with Carinthian Specialties: * Try local favorites like Kärntner Kasnudeln, hearty soups, or sweet alpine-style pastries — comforting and authentic.; Sunset: 🌅 Wörthersee Promenade or Lakeside Pier Viewpoint: * Watch the sun melt into soft colors over calm water, with distant mountains creating a perfect sunset silhouette. → Ideal spot for photos and relaxation.; Night: 🌃 Lakeside Cafés, Old-Town Evening Walk or Dessert Spots: * End your day with cozy lakeside cafés, peaceful old-town streets or sweet dessert places — gentle and calm evening vibes all around."
-          },
-          "seasons": {
-            "spring": {
-              "event": "Spring in Klagenfurt",
-              "ideas": [
-                "🌸 Flower Walks in Europapark: * Colorful blooms and soft spring air.",
-                "☀️ Old-Town Terraces: * Sunlit cafés perfect for a warm drink outside.",
-                "🌊 Early-Season Visits to Wörthersee: * Quiet lakeside paths before summer crowds."
-              ]
-            },
-            "summer": {
-              "event": "Hot Summer Days",
-              "ideas": [
-                "🏊 Swimming or Boat Rides at Wörthersee: * Clear turquoise water and lively lakeside spots.",
-                "🌅 Evening Lakeside Promenades: * Cool breezes and beautiful sunset reflections.",
-                "🍦 Gelato Shops Near the Waterfront: * Sweet refreshment after a warm day."
-              ]
-            },
-            "autumn": {
-              "event": "Autumn in Klagenfurt",
-              "ideas": [
-                "🍁 Golden Lakeside Views: * Trees turn orange and reflect on the calm water.",
-                "🥐 Warm Pastries & Coffee in Old Town: * Cozy cafés ideal for chilly days.",
-                "🏛️ Museum Visits (Carinthian Museum of Modern Art): * Perfect for cultural autumn afternoons."
-              ]
-            },
-            "winter": {
-              "event": "Christmas Market",
-              "locations": [
-                "🎄 Neuer Platz Christmas Market: * Festive lights, cozy stalls and the Lindwurm in holiday mode.",
-                "✨ Old Town Seasonal Stalls: * Small charming spaces with décor and local crafts."
-              ]
-            }
-          },
-          "tips": {
-            "nature_lovers": {
-              "places": [
-                "🌊 Wörthersee Promenade: | Long lakeside paths perfect for relaxing nature walks.",
-                "🌳 Europapark: | Bright green spaces, ponds and peaceful shaded corners.",
-                "🌲 Nearby Forest Walking Trails: | Soft pine paths and scenic viewpoints."
-              ],
-              "what_to_get": [
-                "🖼️ Lakeside Photography Prints: | Beautiful shots of Wörthersee from local artists.",
-                "🪵 Wooden Alpine Crafts: | Handmade items with mountain and lake motifs."
-              ]
-            },
-            "history_fans": {
-              "places": [
-                "🏰 Landhaus & Coat-of-Arms Hall: | A legendary Renaissance interior full of regional history.",
-                "🐉 Lindwurm Fountain Legend Site: | A fun piece of local mythology right in the main square.",
-                "🏛️ Old Town Historic Streets: | Pastel façades, old arcades and medieval corners."
-              ],
-              "what_to_get": [
-                "📮 Historical Postcards: | Old-town views, Renaissance courtyards and lakeside scenes.",
-                "🐲 Lindwurm-Themed Souvenirs: | Cute dragon items inspired by the city’s iconic statue."
-              ]
-            },
-            "art_lovers": {
-              "places": [
-                "🖼️ Museum of Modern Art Carinthia: | Contemporary exhibitions with regional creativity.",
-                "🎨 Local Galleries: | Independent spaces with paintings, crafts and design.",
-                "🗿 Public Sculptures Across the City: | Open-air art scattered around Klagenfurt."
-              ],
-              "what_to_get": [
-                "🖨️ Art Prints: | Local illustrations, colorful lake scenes or modern designs.",
-                "🍶 Handmade Ceramics: | Small crafted pieces from Carinthian artisans."
-              ]
-            }
-          },
-          "interest_map": {
-            "Lakeside Nature & Wörthersee 🌊": "lakeside_nature__wörthersee",
-            "History & Castles 🏰": "history__castles",
-            "Old Town Architecture 🏛️": "old_town_architecture",
-            "Parks & Gardens 🌳": "parks__gardens",
-            "Food Exploration 😋": "food_exploration",
-            "Photography 📸": "photography"
-          }
+        "interest_map": {
+          "History & Imperial Palaces 🏰": "history__imperial_palaces",
+          "Classical Art & Museums 🎨": "classical_art__museums",
+          "Nature & Elegant Gardens 🌳": "nature__elegant_gardens",
+          "Cafés & Pastries ☕": "cafés__pastries",
+          "Food Exploration 😋": "food_exploration",
+          "Music & Culture 🎼": "music__culture"
         }
+      },
+      {
+        "name": "Hallstatt",
+        "interests": [
+          "Nature & Lakeside Views 🌊",
+          "History & Heritage 🏰",
+          "Alpine Walks 🌳",
+          "Photography 📸",
+          "Local Food Exploration 😋"
+        ],
+        "food_preferences": [
+          "Local Specialties",
+          "Fast Food",
+          "Vegetarian",
+          "Mixed Options"
+        ],
+        "tour_type": {
+          "morning": "🌊 Hallstatt Lake Promenade: Start the day with calm water views, mountain reflections and swans drifting by — the pure Hallstatt mood. → | 🏘️ Marktplatz: The cute central square with traditional wooden houses and cozy alpine charm. → | 🏠 Traditional Houses Walk: Wander narrow village lanes lined with balconies full of flowers and old timber façades. → | ☕ Coffee by the Lakeside: A warm drink with a postcard-perfect panorama right in front of you.",
+          "afternoon": "🗻 Hallstatt Skywalk: Step onto the panoramic deck high above the lake — iconic views you’ve seen in every photo. → | ⛏️ Salt Mine Tour (Salzwelten): One of the oldest salt mines in the world with underground slides, mining tunnels and great viewpoints. → | 🍽️ Lunch with Alpine/Austrian Dishes: Mountain-style classics including soups, dumplings, lake fish, cheese plates and warm pastries.",
+          "sunset": "🌅 Lakeside Bench or Boat Ride: Golden reflections on the water with mountains silhouetted behind — Hallstatt at its most magical.",
+          "night": "🌃 Quiet Village Cafés or Relaxed Walk by the Water: Calm paths, lantern-lit views and a peaceful late-evening atmosphere.",
+          "full_day": "Morning: 🌊 Hallstatt Lake Promenade: Calm water views, mountain reflections and swans drifting across the surface. → | 🏘️ Marktplatz: Charming central square surrounded by wooden alpine houses. → | 🏠 Traditional Houses Walk: Narrow lanes with flower-filled balconies and centuries-old timber buildings. → | ☕ Lakeside Coffee Break: Warm drink with a postcard-worthy panorama.; Afternoon: 🗻 Hallstatt Skywalk: Panoramic viewing platform hovering above the lake. → | ⛏️ Salzwelten Salt Mine Tour: Historic mining tunnels, underground slides and scenic viewpoints. → | 🍽️ Alpine Lunch: Soups, dumplings, fish dishes, cheese plates and pastries in a mountain-style setting.; Sunset: 🌅 Lakeside Bench or Gentle Boat Ride: Golden-hour glow over the lake and mountains.; Night: 🌃 Lantern-Lit Lakeside Walk: Peaceful cafés, soft lights and a calm alpine evening mood."
+        },
+        "seasons": {
+          "spring": {
+            "event": "Spring in Hallstatt",
+            "ideas": [
+              "🌼 Flower-Lined Lake Walks: | Fresh blossoms decorating the village paths.",
+              "🏞️ Mountain Viewpoints: | Crisp, clear air and green slopes opening up.",
+              "📸 Village Photography: | Soft spring colors, wooden houses and light mist."
+            ]
+          },
+          "summer": {
+            "event": "Hot Summer Days",
+            "ideas": [
+              "⛵ Boat Rides on Hallstatt Lake: | Breezy, fun and super scenic.",
+              "🌳 Shaded Lakeside Paths: | Cool breaks under trees along the shore.",
+              "🍦 Gelato & Cold Drinks: | Perfect treats while exploring the old streets."
+            ]
+          },
+          "autumn": {
+            "event": "Autumn in Hallstatt",
+            "ideas": [
+              "🍁 Golden Lake Reflections: | Trees turn orange and reflect beautifully on the water.",
+              "🥾 Hilltop Walks: | Forest trails with crunchy leaves and warm colors.",
+              "🍰 Warm Pastries & Tea: | A cozy stop in small alpine cafés."
+            ]
+          },
+          "winter": {
+            "event": "Winter in Hallstatt",
+            "locations": [
+              "❄️ Snow-Covered Marktplatz: | The village square turns into a winter postcard.",
+              "🌨️ Winter Lakeside Scenery: | Calm, snowy, peaceful — a real fairytale."
+            ]
+          }
+        },
+        "tips": {
+          "photography_fans": {
+            "places": [
+              "📷 Postcard Viewpoint: | The classic angle of Hallstatt you’ve seen everywhere — a must for every photographer.",
+              "🗻 Skywalk Deck: | High vantage point with breathtaking lake and mountain views.",
+              "🛶 Wooden Docks: | Calm water, reflections and rustic alpine textures — perfect photo spots."
+            ],
+            "what_to_get": [
+              "🖨️ Photo Prints: | Beautiful shots of the lake, houses and mountains from local artists.",
+              "🏠 Mini Wooden Houses: | Cute handcrafted replicas inspired by the village architecture."
+            ]
+          },
+          "history_fans": {
+            "places": [
+              "⛏️ Salt Mine: | One of the world’s oldest salt mines — tunnels, slides and ancient mining history.",
+              "🏺 Hallstatt Museum: | Exhibits from prehistoric settlements and unique archaeological finds.",
+              "💀 Charnel House (Bone House): | A historical tradition with painted skulls and cultural symbolism."
+            ],
+            "what_to_get": [
+              "🧂 Salt-Themed Souvenirs: | Decorative salt bottles, natural salts or themed items.",
+              "🏺 Historic Replicas: | Museum-inspired pieces or small archaeological reproductions."
+            ]
+          },
+          "nature_lovers": {
+            "places": [
+              "🌊 Lake Promenade: | Peaceful paths with panoramic lakeside beauty.",
+              "🗻 Skywalk: | Stunning views over the Alps and the entire village.",
+              "🥾 Alpine Hiking Paths: | Forested routes, waterfalls and scenic overlooks."
+            ],
+            "what_to_get": [
+              "🧵 Handmade Crafts: | Local wooden work, textiles and artisan pieces.",
+              "🏔️ Alpine Souvenirs: | Mountain-themed items, natural materials and outdoors-inspired designs."
+            ]
+          }
+        },
+        "interest_descriptions": {
+          "Nature & Lakeside Views 🌊": "Enjoy peaceful lakeside scenery, reflections of the Alps, gentle breezes and calm wooden docks perfect for relaxation.",
+          "History & Heritage 🏰": "Learn about Hallstatt’s long past through salt mines, ancient archaeological finds and traditional alpine culture.",
+          "Alpine Walks 🌳": "Explore forest trails, scenic lookouts, hilltop paths and nature routes around the village.",
+          "Photography 📸": "Capture iconic viewpoints, mountain reflections, charming wooden houses and dramatic sky changes over the lake.",
+          "Local Food Exploration 😋": "Try comforting Austrian and alpine-style dishes such as soups, dumplings, cheese plates and warm pastries."
+        },
+        "food_descriptions": {
+          "Local Specialties": "Mountain-style meals including soups, dumplings, lake fish dishes and warm rustic plates.",
+          "Fast Food": "Quick snacks like sandwiches, bakery pastries, simple warm bites and easy on-the-go meals.",
+          "Vegetarian": "Fresh salads, veggie soups, cheese-based alpine dishes and warm vegetable meals.",
+          "Mixed Options": "A flexible combination of local, vegetarian and simple international dishes."
+        },
+        "interest_map": {
+          "Nature & Lakeside Views 🌊": "nature__lakeside_views",
+          "History & Heritage 🏰": "history__heritage",
+          "Alpine Walks 🌳": "alpine_walks",
+          "Photography 📸": "photography",
+          "Local Food Exploration 😋": "local_food_exploration"
+        }
+      },
+      {
+        "name": "Graz",
+        "interests": [
+          "History & Castles 🏰",
+          "Art & Modern Culture 🎨",
+          "Old Town Architecture 🏛️",
+          "Parks & Nature 🌳",
+          "Food Exploration 😋",
+          "Urban Creativity 🎭"
+        ],
+        "food_preferences": [
+          "Local Specialties",
+          "Fast Food",
+          "Vegetarian",
+          "Mixed Options"
+        ],
+      "tour_type": {
+        "morning": "⛰️ Schlossberg Hill: Start your day climbing (or taking the lift!) to Graz’s famous hilltop — full of greenery, winding paths and impressive views. → | 🕰️ Clock Tower Viewpoint: The city’s symbol — a wooden medieval tower overlooking the entire old town, perfect for photos. → | 🌲 Forest Path Walk: Peaceful trails around Schlossberg ideal for fresh morning air. → | ☕ Coffee in Hauptplatz: Enjoy a relaxed drink in the main square surrounded by colorful Renaissance buildings.",
+        "afternoon": "🏛️ Graz Old Town (UNESCO): Wander charming alleys filled with red roofs, arcades and centuries-old façades. → | 🤍 Landhaus Courtyard: One of the most beautiful Renaissance courtyards in Austria with elegant arches and calm atmosphere. → | 🗡️ Styrian Armoury: The largest historical armoury in the world, filled with medieval weapons and armor. → | 🍽️ Lunch with Styrian Specialties: Pumpkin soup, schnitzel, Käferbohnen salad, pastries and other local favorites.",
+        "sunset": "🌅 Murinsel Walk or Schlossberg Terrace: Choose between the futuristic floating island on the river or the scenic terrace high above the city for golden-hour views.",
+        "night": "🌃 Kunsthaus Graz Cafés or Riverside Chill Spots: The famous ‘friendly alien’ museum glows blue at night, while riverside paths offer a peaceful place to unwind.",
+        "full_day": "Morning: ⛰️ Schlossberg Hill: Start your day on Graz’s iconic green hill with forest paths, viewpoints and fresh morning air. → | 🕰️ Clock Tower Viewpoint: Medieval wooden tower offering sweeping panoramas over rooftops and the old town. → | 🌲 Forest Path Walk: Shaded nature trails along the hilltop. → | ☕ Hauptplatz Café: Relaxing break surrounded by colorful Renaissance façades.; Afternoon: 🏛️ Graz Old Town (UNESCO): Winding alleys, historic courtyards and beautifully preserved façades. → | 🤍 Landhaus Courtyard: Renaissance arcades and elegant stone columns. → | 🗡️ Styrian Armoury: World’s largest historical armoury with swords, armor and medieval collections. → | 🍽️ Styrian Lunch: Regional dishes like pumpkin soup, schnitzel, Käferbohnen salad or pastries.; Sunset: 🌅 Murinsel or Schlossberg Terrace: Golden-hour light over the city and river. ; Night: 🌃 Kunsthaus Graz Area: Glowing museum exterior, calm riverside paths and relaxed evening spots."
+      },
+        "seasons": {
+          "spring": {
+            "event": "Spring in Graz",
+            "ideas": [
+              "🌿 Stadtpark Walks: * Fresh green lawns and peaceful paths ideal for warm spring days.",
+              "🌸 Flower Trails Around Schlossberg: * Blossoms along the slopes create dreamy viewpoints.",
+              "☕ Outdoor Cafés in Old Town: * Terraces open and fill with soft, sunny energy."
+            ]
+          },
+          "summer": {
+            "event": "Hot Summer Days",
+            "ideas": [
+              "🚶 Mur River Evening Walks: * Cool breezes and glowing city reflections.",
+              "🍦 Ice Cream in Herrengasse: * Grab gelato from local shops while exploring the elegant main street.",
+              "🌳 Shaded Schlossberg Paths: * Escape the heat on forested slopes with scenic rest spots."
+            ]
+          },
+          "autumn": {
+            "event": "Autumn in Graz",
+            "ideas": [
+              "🍁 Colorful Schlossberg Views: * Red and golden leaves turn the hill into a perfect fall panorama.",
+              "🥐 Warm Pastries in Cafés: * Cozy interiors and seasonal treats ideal for cooler days.",
+              "🖼️ Kunsthaus & Neue Galerie Visits: * Explore modern and classic art sheltered from autumn weather."
+            ]
+          },
+          "winter": {
+            "event": "Christmas Markets",
+            "locations": [
+              "🎄 Hauptplatz Market: * Classic holiday stalls, lights and festive decorations.",
+              "✨ Glockenspielplatz Market: * A charming small market with old-town atmosphere.",
+              "🕯️ Franciscan Quarter Market: * Warm lights, crafts and a quiet Christmas mood."
+            ]
+          }
+        },
+        "tips": {
+          "history_fans": {
+            "places": [
+              "🕰️ Schlossberg & Clock Tower: | Medieval defenses, tower bells and panoramic cityscapes.",
+              "🗡️ Styrian Armoury: | Thousands of pieces of historical armor and weapons — fascinating and unique.",
+              "🏛️ Medieval Old Town: | Hidden courtyards, narrow lanes and centuries of preserved architecture."
+            ],
+            "what_to_get": [
+              "🏰 Historical Miniatures: | Small fortified-tower models or old-town replicas.",
+              "🧵 Styrian Crafts: | Handmade wooden items, folk motifs or regional ornaments."
+            ]
+          },
+          "art_lovers": {
+            "places": [
+              "👾 Kunsthaus Graz: | The futuristic ‘friendly alien’ museum for modern and experimental art.",
+              "🌉 Murinsel: | A floating architectural piece mixing art, design and river views.",
+              "🖼️ Local Galleries: | Independent creative spaces with prints, photography and design pieces."
+            ],
+            "what_to_get": [
+              "🎨 Modern Art Prints: | Minimalist or abstract works inspired by Graz’s creative scene.",
+              "🧩 Designer Souvenirs: | Stylish objects reflecting the city’s modern-art identity."
+            ]
+          },
+          "food_lovers": {
+            "places": [
+              "🥗 Farmers' Markets (Kaiser-Josef-Platz): | Fresh local produce, baked goods and Styrian specialties.",
+              "🍽️ Styrian Taverns: | Traditional flavors — soups, schnitzel variations, pumpkin dishes.",
+              "🥨 Pastry Shops: | Sweet treats perfect for breaks during exploring."
+            ],
+            "what_to_get": [
+              "🧴 Pumpkin Seed Oil: | The most iconic Styrian product — dark, nutty and delicious.",
+              "🍫 Handmade Chocolates: | Artisan sweets made with regional ingredients."
+            ]
+          }
+        },
+        "interest_descriptions": {
+          "History & Castles 🏰": "Explore Graz’s medieval fortifications, historic towers, old-town alleys and centuries of preserved architecture.",
+          "Art & Modern Culture 🎨": "Experience futuristic museums, bold contemporary art and creative urban spots shaping Graz’s modern identity.",
+          "Old Town Architecture 🏛️": "Wander through Renaissance courtyards, traditional façades, arcades and UNESCO-protected streets.",
+          "Parks & Nature 🌳": "Relax in green city parks, forested hill paths and shaded riverside routes perfect for calm outdoor moments.",
+          "Food Exploration 😋": "Taste Styrian classics like pumpkin dishes, bakery treats, vegetable-based meals and satisfying local specialties.",
+          "Urban Creativity 🎭": "Discover experimental architecture, design-focused spaces and unique local artistic expressions across the city."
+        },
+        "food_descriptions": {
+          "Local Specialties": "Styrian soups, pumpkin dishes, schnitzel variations, baked goods and warm rustic meals.",
+          "Fast Food": "Easy bites such as sandwiches, wraps, pastries and simple street snacks.",
+          "Vegetarian": "Plenty of choices like salads, pumpkin dishes, veggie soups and bakery-based meals.",
+          "Mixed Options": "A combination of local Styrian dishes, vegetarian meals and simple snacks to fit any taste."
+        },
+        "interest_map": {
+          "History & Castles 🏰": "history__castles",
+          "Art & Modern Culture 🎨": "art__modern_culture",
+          "Old Town Architecture 🏛️": "old_town_architecture",
+          "Parks & Nature 🌳": "parks__nature",
+          "Food Exploration 😋": "food_exploration",
+          "Urban Creativity 🎭": "urban_creativity"
+        }
+      },
+      {
+        "name": "Linz",
+        "interests": [
+          "History & Old Town Views 🏰",
+          "Art & Digital Culture 🎨",
+          "Riverside Walks 🌊",
+          "Nature & Parks 🌳",
+          "Food Exploration 😋",
+          "Modern Architecture 🏛️"
+        ],
+        "food_preferences": [
+          "Local Specialties",
+          "Fast Food",
+          "Vegetarian",
+          "Mixed Options"
+        ],
+        "tour_type": {
+          "morning": "🏙️ Hauptplatz: Begin your day at one of Austria’s largest and prettiest main squares — full of pastel buildings, historical corners and tram lines passing through. → | 🏰 Old Town: Walk narrow streets with medieval façades, charming courtyards and plenty of local character. → | 👾 Ars Electronica Center: A futuristic museum focused on technology, creativity and interactive digital art — fun and inspiring. → | ☕ Coffee by the Danube: Relax at a riverside café with calm views and a peaceful morning atmosphere.",
+          "afternoon": "🖼️ Lentos Art Museum: A sleek, modern glass building holding contemporary European art — colorful and inspiring. → | 🌉 Nibelungen Bridge Walk: Cross the Danube with views of both old and new Linz and enjoy the unique mix of architectural styles. → | 🍽️ Lunch with Austrian Dishes: Try local classics like Knödel, soups, pastries or light Austrian meals — great for a midday break.",
+          "sunset": "🌅 Danube Riverside Walk or Schlossberg Viewpoint: Choose between a calm river stroll during golden hour or a viewpoint overlooking the town and water.",
+          "night": "🌃 Modern Cafés Near the River or Art District: Chill evening spots with a creative vibe — perfect for dessert, warm drinks or relaxing after a full day.",
+          "full_day": "Morning: 🏙️ Hauptplatz: Start at one of Austria’s largest and most picturesque main squares with pastel façades, historic corners and lively tram lines. → | 🏰 Old Town Walk: Wander medieval alleyways, charming courtyards and old façades showing Linz’s blend of history and modern culture. → | 👾 Ars Electronica Center: Explore futuristic tech, AI, interactive art and creative digital installations in one of Europe’s coolest modern museums. → | ☕ Coffee by the Danube: Relax at a riverside café with calm water views and laid-back morning energy.; Afternoon: 🖼️ Lentos Art Museum: Discover a striking glass building filled with contemporary European art, bold colors and experimental exhibitions. → | 🌉 Nibelungen Bridge Walk: Enjoy sweeping Danube views of both the old town and Linz’s modern riverside architecture. → | 🍽️ Lunch with Austrian Classics: Taste Knödel, soups, schnitzel variations, pastries or light regional meals.; Sunset: 🌅 Danube Riverside or Schlossberg Viewpoint: Choose a golden-hour walk by the water or a panoramic viewpoint over the sunset skyline.; Night: 🌃 Modern Cafés Near the River or Art District: Stylish cafés, dessert places and relaxed riverside corners perfect for unwinding."
+        },
+        "seasons": {
+          "spring": {
+            "event": "Spring in Linz",
+            "ideas": [
+              "🌼 Botanical Garden Walks: * Blooming paths, lush greenery and peaceful viewpoints.",
+              "🚴 Riverside Cycling: * Flat riverside lanes perfect for easy biking with great scenery.",
+              "☕ Outdoor Cafés in Hauptplatz: * Sunlit terraces and relaxed spring vibes."
+            ]
+          },
+          "summer": {
+            "event": "Hot Summer Days",
+            "ideas": [
+              "🏊 Danube Swimming Spots: * Refreshing areas along the river for cooling down.",
+              "🌅 Evening Promenades: * Calm breezes and pretty sunset colors along the Danube.",
+              "🍦 Gelato in Old Town: * Sweet, cool treats while wandering charming streets.",
+              "🌳 Shaded Parks: * Relax beneath big trees in peaceful green areas around Linz."
+            ]
+          },
+          "autumn": {
+            "event": "Autumn in Linz",
+            "ideas": [
+              "🍁 Danube Park Colors: * The riverside transforms into warm gold and orange tones.",
+              "🍰 Warm Pastries & Tea: * Cozy cafés ideal for autumn comfort breaks.",
+              "🏛️ Museum Visits: * Perfect for chilly days — art, history and interactive exhibits."
+            ]
+          },
+          "winter": {
+            "event": "Christmas Markets",
+            "locations": [
+              "🎄 Hauptplatz Market: * Festive stalls, lights and warm seasonal treats.",
+              "✨ Volksgarten Fair: * A cozy winter market surrounded by trees and decorations."
+            ]
+          }
+        },
+        "tips": {
+          "history_fans": {
+            "places": [
+              "🏰 Old Town: | Medieval streets, hidden courtyards and historical façades.",
+              "🏛️ Schlossmuseum Linz: | Exhibits about regional history with great city views.",
+              "🕍 Hauptplatz: | A cultural and historical hotspot perfect for exploring."
+            ],
+            "what_to_get": [
+              "🏺 Historical Miniatures: | Mini Linz landmarks or traditional figurines.",
+              "🎁 Local Souvenirs: | Handmade crafts, decorative items or classic Linz keepsakes."
+            ]
+          },
+          "art_lovers": {
+            "places": [
+              "👾 Ars Electronica Center: | The global home of digital art, technology and creative experiments.",
+              "🖼️ Lentos Museum: | Dynamic galleries with modern and contemporary art.",
+              "🎨 Street-Art Near the River: | Colorful murals and creative graffiti spots."
+            ],
+            "what_to_get": [
+              "🖨️ Digital Art Prints: | Futuristic designs and tech-inspired artwork.",
+              "🎭 Modern Art Items: | Minimalist souvenirs, design objects or creative stationery."
+            ]
+          },
+          "food_lovers": {
+            "places": [
+              "🥐 Bakeries: | Fresh pastries, pretzels and local sweets.",
+              "🍽️ Local Taverns: | Regional Austrian comfort dishes and hearty meals.",
+              "☕ Riverside Cafés: | Cozy spots along the Danube perfect for snacks or warm drinks."
+            ],
+            "what_to_get": [
+              "🍰 Linzer Torte: | The iconic local dessert — fruity, nutty and delicious.",
+              "🍫 Handmade Chocolate: | Artisan sweets made in small local shops."
+            ]
+          }
+        },
+        "interest_descriptions": {
+          "History & Old Town Views 🏰": "Explore medieval alleys, historic façades, charming courtyards and classic squares filled with old-town character.",
+          "Art & Digital Culture 🎨": "Discover world-leading digital art, futuristic installations and bold contemporary artworks across the city.",
+          "Riverside Walks 🌊": "Enjoy calm promenades along the Danube with wide water views and soft breezes.",
+          "Nature & Parks 🌳": "Relax in shaded green parks, botanical gardens and peaceful nature areas ideal for slow exploring.",
+          "Food Exploration 😋": "Taste Austrian comfort dishes, pastries, bakery treats and warm regional meals.",
+          "Modern Architecture 🏛️": "Experience sleek riverside buildings, glass museums and futuristic structures that shape Linz’s modern identity."
+        },
+        "food_descriptions": {
+          "Local Specialties": "Austrian classics such as Knödel, soups, pastries, schnitzel variations and hearty regional meals.",
+          "Fast Food": "Easy options like sandwiches, pretzels, bakery snacks and simple bites perfect on the go.",
+          "Vegetarian": "Fresh salads, vegetable soups, dumplings, baked dishes and warm veggie meals.",
+          "Mixed Options": "A flexible blend of local specialties, vegetarian plates and simple everyday meals."
+        },
+        "interest_map": {
+          "History & Old Town Views 🏰": "history__old_town_views",
+          "Art & Digital Culture 🎨": "art__digital_culture",
+          "Riverside Walks 🌊": "riverside_walks",
+          "Nature & Parks 🌳": "nature__parks",
+          "Food Exploration 😋": "food_exploration",
+          "Modern Architecture 🏛️": "modern_architecture"
+        }
+      },
+      {
+        "name": "Salzburg",
+        "interests": [
+          "History & Castles 🏰",
+          "Classical Music & Mozart 🎼",
+          "Old Town Architecture 🏛️",
+          "Nature & River Walks 🌳",
+          "Food Exploration 😋",
+          "Photography 📸"
+        ],
+        "food_preferences": [
+          "Local Specialties",
+          "Fast Food",
+          "Vegetarian",
+          "Mixed Options"
+        ],
+        "tour_type": {
+          "morning": "🌺 Mirabell Palace & Gardens: Start your day with elegant baroque gardens, fountains and flower designs — perfect for soft morning photos. → | 🌉 Walk Across the Makartsteg Bridge: A fun pedestrian bridge covered with colorful love locks and river views. → | 🎼 Mozart’s Residence: Explore the life of Salzburg’s most famous composer through exhibits, instruments and family details. → | ☕ Coffee in the Old Town: Relax in one of the classic cafés surrounded by narrow streets and historical façades.",
+          "afternoon": "🏰 Hohensalzburg Fortress Tour: Ride the funicular or walk up to one of Europe’s best-preserved medieval fortresses — incredible views and fascinating history. → | ⛪ St. Peter’s Abbey: A peaceful monastery complex with courtyards, ancient tombs and beautiful architecture. → | 🍽️ Lunch with Austrian Specialties: Enjoy warm dishes like soups, dumplings or schnitzel plus the famous Mozartkugel dessert for a sweet finish.",
+          "sunset": "🌅 Riverside Walk Along the Salzach or Kapuzinerberg Viewpoint: Choose between golden reflections along the river or a forested hilltop overlook with magical city views.",
+          "night": "🌃 Classical Music Cafés, Old-Town Chill Spots, or Gentle Evening Walks Through Getreidegasse: Calm, atmospheric and full of pretty lights — ideal for a peaceful night experience.",
+          "full_day": "Morning: 🌺 Mirabell Palace & Gardens: Start your day among elegant baroque landscaping, playful fountains and colorful flower arrangements — a gentle and photogenic morning atmosphere. → | 🌉 Makartsteg Bridge Walk: Cross the famous pedestrian bridge decorated with hundreds of love locks while enjoying breezy views of the Salzach River and the old town. → | 🎼 Mozart’s Residence: Step into the world of Salzburg’s greatest musical icon — explore family memorabilia, instruments and stories behind the composer’s early life. → | ☕ Coffee in the Old Town: Relax in a traditional café on narrow streets lined with historic façades, charming signs and pastel buildings.; Afternoon: 🏰 Hohensalzburg Fortress: Take the funicular or hike up to one of Europe’s largest and best-preserved medieval fortresses — panoramic views, courtyards and centuries of history await. → | ⛪ St. Peter’s Abbey: Wander a peaceful monastery complex with old stone passages, quiet courtyards, ornate church interiors and one of the oldest cemeteries in Europe. → | 🍽️ Lunch with Austrian Specialties: Enjoy hearty classics like dumplings, soups, schnitzel or roasted dishes — and don’t skip the famous Mozartkugel for a sweet local touch.; Sunset: 🌅 Salzach Riverside or Kapuzinerberg Viewpoint: Choose between a calm golden-hour stroll along the river or a scenic hilltop viewpoint with magical evening light over the city’s rooftops and domes.; Night: 🌃 Classical Music Cafés, Old-Town Chill Spots or Getreidegasse Evening Walk: Finish the day exploring softly lit streets, quiet cafés or atmospheric corners of Salzburg’s most iconic lane — perfect for a slow, relaxing night."
+        },
+        "seasons": {
+          "spring": {
+            "event": "Spring in Salzburg",
+            "ideas": [
+              "🌷 Mirabell Gardens in Bloom: * Colorful, fresh and full of spring energy.",
+              "☕ Old Town Outdoor Cafés: * Terraces open for sunny-weather relaxation.",
+              "🚶 Riverside Promenades: * Warm breezes and great views of the fortress."
+            ]
+          },
+          "summer": {
+            "event": "Hot Summer Days",
+            "ideas": [
+              "🌅 Evening Salzach Walks: * Cool riverside breezes after warm afternoons.",
+              "🌲 Cool Forest Trails on Kapuzinerberg: * Shaded paths with great viewpoints.",
+              "🍦 Gelato in Getreidegasse: * Sweet treats in Salzburg’s famous narrow street.",
+              "🌼 Sound of Music Outdoor Locations: * Iconic scenery perfect for summer exploring."
+            ]
+          },
+          "autumn": {
+            "event": "Autumn in Salzburg",
+            "ideas": [
+              "🍁 Golden Foliage Around the Fortress: * Stunning warm colors on castle hillsides.",
+              "🥐 Warm Pastries in Traditional Cafés: * Cozy atmosphere and seasonal flavors.",
+              "🏛️ Museum Visits: * Mozart’s Birthplace and Salzburg Museum for culture-rich afternoons."
+            ]
+          },
+          "winter": {
+            "event": "Christmas Market",
+            "locations": [
+              "🎄 Cathedral Square (Domplatz): * A magical market with lights, music and traditional stalls.",
+              "✨ Residence Square (Residenzplatz): * Festive atmosphere surrounded by palaces.",
+              "🏰 Hohensalzburg Fortress Christmas Market: * A unique mountaintop holiday market with breathtaking winter views."
+            ]
+          }
+        },
+        "tips": {
+          "history_fans": {
+            "places": [
+              "🏰 Hohensalzburg Fortress: | A towering medieval stronghold with sweeping city panoramas.",
+              "⛪ St. Peter’s Abbey: | One of the oldest monastic centers in the German-speaking world.",
+              "🕍 Salzburg Cathedral: | A grand baroque masterpiece at the heart of the old town."
+            ],
+            "what_to_get": [
+              "🏰 Fortress Miniatures: | Small models of Salzburg’s iconic castle.",
+              "📮 Historical Postcards: | Vintage-style cards of old-town squares and cathedrals."
+            ]
+          },
+          "art_lovers": {
+            "places": [
+              "🖼️ Modern Art Museum: | Bold modern works paired with a dramatic clifftop location.",
+              "🎨 Local Old-Town Galleries: | Small spaces showing regional artists and handcrafts.",
+              "🌺 Mirabell Garden Sculptures: | Beautiful artistic statues scattered throughout the gardens."
+            ],
+            "what_to_get": [
+              "🖨️ Art Prints: | Local illustrations, fortress scenes or Austrian landscapes.",
+              "🎭 Local Handcrafted Souvenirs: | Ceramics, traditional motifs or handmade ornaments."
+            ]
+          },
+          "music_fans": {
+            "places": [
+              "🏠 Mozart’s Birthplace: | The original home of Salzburg’s greatest musical figure.",
+              "🎼 Mozart’s Residence: | Museums full of original instruments and family items.",
+              "🎻 Classical Music Shops in Old Town: | Sheet music, souvenirs and music-themed gifts."
+            ],
+            "what_to_get": [
+              "🎹 Mozart-Themed Gifts: | Cute figurines, magnets and themed items.",
+              "💿 Classical Music CDs/Vinyls: | Recordings of Mozart and Austrian composers."
+            ]
+          }
+        },
+        "interest_descriptions": {
+          "History & Castles 🏰": "Explore Salzburg’s medieval fortress, ancient abbeys and beautifully preserved old-town streets full of history.",
+          "Classical Music & Mozart 🎼": "Experience the world of Mozart, classical concerts, historic music venues and museums celebrating Salzburg’s musical heritage.",
+          "Old Town Architecture 🏛️": "Wander narrow streets lined with baroque façades, pastel houses and ornate church domes.",
+          "Nature & River Walks 🌳": "Enjoy calm riverside strolls, forested trails on Kapuzinerberg and peaceful green spaces within the city.",
+          "Food Exploration 😋": "Taste Austrian classics like schnitzel, soups, pastries and the famous Mozartkugel.",
+          "Photography 📸": "Capture fortress panoramas, baroque gardens, riverside reflections and charming alpine-style streets."
+        },
+        "food_descriptions": {
+          "Local Specialties": "Try Austrian dishes such as dumplings, schnitzel, soups, roasted meals and traditional sweets like Mozartkugel.",
+          "Fast Food": "Quick bites including pretzels, sandwiches, bakery snacks and simple street food.",
+          "Vegetarian": "Vegetarian soups, dumplings, veggie plates, salads and hearty baked options.",
+          "Mixed Options": "A flexible mix of local Austrian foods, vegetarian options and easy everyday meals."
+        },
+        "interest_map": {
+          "History & Castles 🏰": "history__castles",
+          "Classical Music & Mozart 🎼": "classical_music__mozart",
+          "Old Town Architecture 🏛️": "old_town_architecture",
+          "Nature & River Walks 🌳": "nature__river_walks",
+          "Food Exploration 😋": "food_exploration",
+          "Photography 📸": "photography"
+        }
+      },
+      {
+        "name": "Tyrol",
+        "interests": [
+          "Alpine Nature & Mountains ⛰️",
+          "Lakes & Scenic Views 🌊",
+          "History & Castles 🏰",
+          "Outdoor Activities 🌲",
+          "Food Exploration 😋",
+          "Photography 📸"
+        ],
+        "food_preferences": [
+          "Local Specialties",
+          "Fast Food",
+          "Vegetarian",
+          "Mixed Options"
+        ],
+        "tour_type": {
+          "morning": "🏰 Innsbruck Old Town: Begin your day in a pastel-colored alpine old town full of medieval buildings and mountain backdrops. → | ✨ Golden Roof (Goldenes Dachl): Innsbruck’s iconic golden-shingled balcony — perfect photo spot. → | 🗼 St. Anne’s Column: A historic monument surrounded by mountain views in every direction. → | ☕ Coffee in Maria-Theresien-Straße: A relaxed street lined with shops, cafés and postcard-like views.",
+          "afternoon": "🚠 Nordkette Cable Car to Seegrube: Ride from the city straight up into the Alps — unbelievably scenic. → | 🥾 Alpine Walk: Gentle alpine paths with huge panoramas, crisp air and incredible landscapes. → | 🍽️ Lunch with Tyrolean Specialties: Kaspressknödel, Tiroler Gröstl, soups and warm mountain-style dishes — comforting and delicious.",
+          "sunset": "🌅 Hungerburg Plateau Sunset: Golden mountain light over the valley — one of the best sunset spots in Tyrol.",
+          "night": "🌃 Old Town Cafés or Quiet Riverside Walk Along the Inn: Peaceful vibe, gentle lights, and calm streets perfect for winding down.",
+          "full_day": "Morning: 🏰 Innsbruck Old Town: Begin your day wandering pastel-colored medieval streets framed by dramatic alpine peaks — one of the most picturesque old towns in Austria. → | ✨ Golden Roof (Goldenes Dachl): Visit Innsbruck’s shimmering icon — a balcony covered with over 2,600 gilded shingles, perfect for photos. → | 🗼 St. Anne’s Column: A historic monument standing proudly in Maria-Theresien-Straße, surrounded by majestic mountain views in every direction. → | ☕ Coffee in Maria-Theresien-Straße: Enjoy a relaxing drink on Innsbruck’s most famous boulevard, lined with cafés, boutiques and postcard-worthy scenery.; Afternoon: 🚠 Nordkette Cable Car → Seegrube: Ride directly from the city center up into the high Alps — a breathtaking transition from urban streets to rugged mountain views in minutes. → | 🥾 Alpine Walk Around Seegrube: Stroll along gentle alpine paths with crisp air, panoramic vistas and a feeling of being on top of the world. → | 🍽️ Lunch with Tyrolean Specialties: Warm up with local comfort foods like Kaspressknödel, Tiroler Gröstl, hearty soups or other mountain-style dishes in a cozy alpine setting.; Sunset: 🌅 Hungerburg Plateau: Watch the sun dip behind the mountains while the valley glows in golden tones — one of Tyrol’s most stunning sunset viewpoints.; Night: 🌃 Old Town Cafés or Riverside Walk Along the Inn: End your day with quiet cafés, soft lights and a peaceful stroll along the river, perfect for unwinding in the alpine evening atmosphere."
+        },
+        "seasons": {
+          "spring": {
+            "event": "Spring in Tyrol",
+            "ideas": [
+              "🌼 Alpine Meadow Walks: * Fresh green hills, early flowers and quiet paths.",
+              "☀️ Innsbruck Old-Town Terraces: * Perfect weather for outdoor cafés with mountain views.",
+              "🥾 Early-Season Hiking Paths: * Lower trails open early and offer mild, pleasant conditions."
+            ]
+          },
+          "summer": {
+            "event": "Hot Summer Days",
+            "ideas": [
+              "🏞️ Lake Achensee Swimming or Boat Rides: * Clear turquoise water surrounded by steep cliffs.",
+              "🌲 Alpine Forest Shade Hikes: * Cool pine-scented routes in higher elevations.",
+              "🌅 Evening Views from Nordkette: * Soft evening light over the whole valley — stunning."
+            ]
+          },
+          "autumn": {
+            "event": "Autumn in Tyrol",
+            "ideas": [
+              "🍁 Golden Mountain Landscapes: * Bright orange slopes and crystal-clear skies.",
+              "🥐 Warm Pastries & Tea in Alpine Huts: * Cozy wooden interiors and homemade treats.",
+              "🏰 Museum and Castle Visits: * Great for chillier days — full of history and culture."
+            ]
+          },
+          "winter": {
+            "event": "Christmas & Winter Magic",
+            "locations": [
+              "🎄 Innsbruck Old Town Christmas Market: * Lights, décor, and festive alpine charm.",
+              "✨ Maria-Theresien-Straße Christmas Lights: * Sparkling decorations along the main avenue.",
+              "🏔️ Hungerburg Christmas Market: * A small mountaintop market with snowy alpine views."
+            ]
+          }
+        },
+        "tips": {
+          "nature_lovers": {
+            "places": [
+              "🚠 Nordkette Cable Car Viewpoints: | Incredible panoramas right above Innsbruck.",
+              "🌊 Lake Achensee: | Crystal-clear alpine water and dramatic mountain cliffs.",
+              "🏔️ Stubai Valley Trails: | Forest routes, waterfalls and peaceful alpine scenery."
+            ],
+            "what_to_get": [
+              "🏔️ Alpine-Themed Souvenirs: | Mountain motifs, natural materials and scenic designs.",
+              "🪵 Handmade Wooden Crafts: | Local woodcarvings, ornaments and natural décor."
+            ]
+          },
+          "history_fans": {
+            "places": [
+              "🏰 Ambras Castle: | Renaissance halls, armory collections and picturesque gardens.",
+              "🏛️ Innsbruck Old Town: | Medieval streets, towers and historical buildings.",
+              "📚 Tyrolean State Museum: | Art, culture and history from the entire region."
+            ],
+            "what_to_get": [
+              "🏰 Castle Miniatures: | Small replicas of Tyrolean castles and landmarks.",
+              "📜 Historical Booklets: | Local history, legends and illustrated guides."
+            ]
+          },
+          "photography_fans": {
+            "places": [
+              "📸 Seegrube Panorama: | The ultimate top-down view of Innsbruck and the Alps.",
+              "🌈 Innsbruck Pastel-Colored Old Town: | Bright façades with mountains in the background.",
+              "🏞️ Mountain Valley Viewpoints: | Clear horizons, dramatic peaks and quiet nature."
+            ],
+            "what_to_get": [
+              "🖨️ Local Landscape Prints: | Beautiful alpine photos by Tyrolean artists.",
+              "📬 Handmade Postcards: | Illustrated views of mountains, lakes and village scenes."
+            ]
+          }
+        },
+        "interest_descriptions": {
+          "Alpine Nature & Mountains ⛰️": "Experience towering peaks, fresh alpine air, forest trails and dramatic panoramas throughout the Tyrol region.",
+          "Lakes & Scenic Views 🌊": "Enjoy crystal-clear alpine lakes, turquoise water, boat rides and breathtaking viewpoints across valleys.",
+          "History & Castles 🏰": "Discover medieval fortresses, Renaissance castles and historic old towns rich with Tyrolean heritage.",
+          "Outdoor Activities 🌲": "Hike forest paths, explore mountain plateaus, enjoy easy nature walks and breathe crisp mountain air.",
+          "Food Exploration 😋": "Taste Tyrolean classics like Kaspressknödel, soups, pastries, and hearty mountain-style dishes.",
+          "Photography 📸": "Capture sweeping mountain panoramas, colorful old-town streets and dramatic alpine lakeside views."
+        },
+        "food_descriptions": {
+          "Local Specialties": "Try Tyrolean comfort dishes such as Kaspressknödel, Tiroler Gröstl, hearty soups and mountain-style meals.",
+          "Fast Food": "Quick bites like pretzels, sandwiches, bakery snacks and simple grab-and-go options.",
+          "Vegetarian": "Vegetable soups, dumplings, salads, alpine herb dishes and warm veggie-friendly meals.",
+          "Mixed Options": "A flexible mix of local specialties, vegetarian dishes and simple everyday foods."
+        },
+        "interest_map": {
+          "Alpine Nature & Mountains ⛰️": "alpine_nature__mountains",
+          "Lakes & Scenic Views 🌊": "lakes__scenic_views",
+          "History & Castles 🏰": "history__castles",
+          "Outdoor Activities 🌲": "outdoor_activities",
+          "Food Exploration 😋": "food_exploration",
+          "Photography 📸": "photography"
+        }
+      },
+      {
+        "name": "Eisenstadt",
+        "interests": [
+          "History & Castles 🏰",
+          "Classical Music & Haydn 🎼",
+          "Old Town Architecture 🏛️",
+          "Parks & Gardens 🌳",
+          "Food Exploration 😋",
+          "Cultural Walks 🎨"
+        ],
+        "food_preferences": [
+          "Local Specialties",
+          "Fast Food",
+          "Vegetarian",
+          "Mixed Options"
+        ],
+        "tour_type": {
+          "morning": "🏰 Esterházy Palace Tour: Start the day in one of Austria’s most beautiful baroque palaces — elegant halls, historic rooms and rich cultural heritage. → | 🎼 Haydn Hall: A stunning concert hall known for perfect acoustics and its deep connection to Joseph Haydn. → | 🌿 Palace Gardens Stroll: Peaceful paths, ponds, statues and tree-lined avenues — ideal for morning relaxation. → | ☕ Coffee at a Local Old-Town Café: Cozy atmosphere with charming historical streets all around.",
+          "afternoon": "⛪ Haydn Church (Bergkirche): A unique historic church with Haydn’s own memorial chapel. → | 🏠 Joseph Haydn Museum: A quiet, intimate museum located in the composer’s former home — perfect for music lovers. → | 🍽️ Lunch with Burgenland Specialties: Try regional dishes rich in pumpkin seed oil, fresh vegetables and warm homemade flavors.",
+          "sunset": "🌅 Ruster Hügelland Viewpoint or Palace Garden Sunset Walk: Gentle evening light over vineyards or soft shadows in the gardens — ideal for calm sunset moments.",
+          "night": "🌃 Calm Old-Town Cafés or Cultural Courtyard Evenings (Seasonal): Peaceful vibes, soft lighting, and occasional cultural programs depending on the season.",
+          "full_day": "Morning: 🏰 Esterházy Palace: Begin your day inside one of Austria’s most impressive baroque palaces — richly decorated halls, historic rooms and centuries of noble heritage. → | 🎼 Haydn Hall: Step into one of Europe’s finest classical music halls — celebrated for its perfect acoustics and deep connection to Joseph Haydn. → | 🌿 Palace Gardens Stroll: Wander calm, beautifully landscaped gardens with ponds, statues, flower terraces and tree-lined paths — the ideal way to ease into the morning. → | ☕ Old-Town Café Break: Enjoy a warm drink in a cozy local café surrounded by charming, slow-paced historical streets.; Afternoon: ⛪ Haydn Church (Bergkirche): Visit a uniquely designed church that houses Haydn’s own memorial chapel — peaceful, atmospheric and full of character. → | 🏠 Joseph Haydn Museum: Explore the composer’s former home, now an intimate museum offering insight into his personal life, work and legacy. → | 🍽️ Lunch with Burgenland Specialties: Taste regional dishes featuring pumpkin seed oil, fresh vegetables, hearty soups and warm homemade flavors typical for Burgenland.; Sunset: 🌅 Ruster Hügelland Viewpoint or Palace Garden Walk: Enjoy golden light over rolling vineyards or take a serene sunset walk through the palace gardens — both offer calm, postcard-like scenery.; Night: 🌃 Old-Town Cafés or Seasonal Cultural Courtyard Events: End your day with quiet town cafés, soft lighting and, depending on the season, charming cultural evenings held in historical courtyards."
+        },
+        "seasons": {
+          "spring": {
+            "event": "Spring in Eisenstadt",
+            "ideas": [
+              "🌸 Strolls Through Palace Gardens in Bloom: * Fresh flowers and relaxing spring air.",
+              "☕ Outdoor Cafés in the Old Town: * Sunlit terraces perfect for a break.",
+              "🥾 Easy Hikes in the Burgenland Hills: * Gentle trails with greenery and open views."
+            ]
+          },
+          "summer": {
+            "event": "Hot Summer Days",
+            "ideas": [
+              "🌳 Evening Walks Through Esterházy Gardens: * Cooling breezes among trees and fountains.",
+              "🍦 Ice Cream in the Old Town: * Sweet refreshment while exploring quiet streets.",
+              "🎨 Shaded Cultural Courtyards: * Small performances, music or exhibitions depending on the season."
+            ]
+          },
+          "autumn": {
+            "event": "Autumn in Eisenstadt",
+            "ideas": [
+              "🍁 Vineyard Walks Around Ruster Hügelland: * Golden leaves, calm paths and scenic views.",
+              "🥐 Warm Pastries & Coffee in the Center: * Cozy stops for cool fall days.",
+              "🏛️ Museum Visits During Cooler Days: * Ideal time for exploring palaces, churches and exhibits."
+            ]
+          },
+          "winter": {
+            "event": "Christmas Market",
+            "locations": [
+              "🎄 Esterházy Palace Christmas Market: * Charming stalls with lights, crafts and festive atmosphere.",
+              "✨ Old Town Seasonal Stalls: * Small, cozy holiday corners full of winter decorations."
+            ]
+          }
+        },
+        "tips": {
+          "music_fans": {
+            "places": [
+              "🎼 Haydn Hall (Esterházy Palace): | One of Europe’s premier classical music halls.",
+              "⛪ Haydn Church: | A historic church with a deep musical legacy.",
+              "🏠 Joseph Haydn Museum: | The composer’s former residence filled with artifacts and stories."
+            ],
+            "what_to_get": [
+              "🎵 Classical Music Souvenirs: | Illustrated music sheets, themed items and elegant keepsakes.",
+              "🎶 Mozart & Haydn-Themed Items: | Safe, fun and music-inspired souvenirs.",
+              "🎻 Miniature Instruments: | Tiny violins, pianos or decorative replicas."
+            ]
+          },
+          "history_fans": {
+            "places": [
+              "🏰 Esterházy Palace: | A baroque landmark with centuries of regional history.",
+              "🏛️ Old Town Historical Streets: | Arcades, pastel façades and quiet European charm.",
+              "🏺 Burgenland State Museum: | Exhibits on local culture, archaeology and heritage."
+            ],
+            "what_to_get": [
+              "📮 Historical Postcards: | Vintage palace views and old-town prints.",
+              "🎁 Esterházy-Themed Souvenirs: | Elegant palace-inspired items or miniature décor."
+            ]
+          },
+          "food_lovers": {
+            "places": [
+              "🍽️ Local Burgenland Taverns: | Regional dishes with fresh produce and classic flavors.",
+              "☕ Old-Town Cafés: | Warm pastries, cakes and relaxing corners.",
+              "🛍️ Farm-Product Shops: | Local goods including pumpkin products and regional treats."
+            ],
+            "what_to_get": [
+              "🧴 Pumpkin Seed Oil (Regional Specialty): | A signature product of Burgenland — nutty and delicious.",
+              "🍫 Local Chocolates & Pastries: | Handmade sweets and traditional desserts."
+            ]
+          }
+        },
+        "interest_descriptions": {
+          "History & Castles 🏰": "Explore historic palaces, elegant baroque halls and charming old-town streets rich with Burgenland heritage.",
+          "Classical Music & Haydn 🎼": "Discover the legacy of Joseph Haydn through concert halls, museums and beautifully preserved musical history.",
+          "Old Town Architecture 🏛️": "Walk through pastel façades, arcaded courtyards and peaceful historical lanes.",
+          "Parks & Gardens 🌳": "Relax in the landscaped palace gardens, vineyard paths and quiet green corners of Eisenstadt.",
+          "Food Exploration 😋": "Taste regional Burgenland dishes with pumpkin seed oil, fresh produce, pastries and comforting flavors.",
+          "Cultural Walks 🎨": "Enjoy museums, seasonal courtyard events and public art that highlight the town’s calm cultural charm."
+        },
+        "food_descriptions": {
+          "Local Specialties": "Regional Burgenland dishes featuring pumpkin seed oil, vegetables, hearty soups and traditional flavors.",
+          "Fast Food": "Quick options like sandwiches, pastries, pretzels and simple street food.",
+          "Vegetarian": "Fresh salads, pumpkin dishes, vegetable soups, bakery pastries and light regional meals.",
+          "Mixed Options": "A flexible combination of local flavors, vegetarian dishes and easy everyday foods."
+        },
+        "interest_map": {
+          "History & Castles 🏰": "history__castles",
+          "Classical Music & Haydn 🎼": "classical_music__haydn",
+          "Old Town Architecture 🏛️": "old_town_architecture",
+          "Parks & Gardens 🌳": "parks__gardens",
+          "Food Exploration 😋": "food_exploration",
+          "Cultural Walks 🎨": "cultural_walks"
+        }
+      },
+      {
+        "name": "Klagenfurt",
+        "interests": [
+          "Lakeside Nature & Wörthersee 🌊",
+          "History & Castles 🏰",
+          "Old Town Architecture 🏛️",
+          "Parks & Gardens 🌳",
+          "Food Exploration 😋",
+          "Photography 📸"
+        ],
+        "food_preferences": [
+          "Local Specialties",
+          "Fast Food",
+          "Vegetarian",
+          "Mixed Options"
+        ],
+        "tour_type": {
+          "morning": "🏛️ Klagenfurt Old Town: Start with pastel streets, arcaded courtyards and cozy corners everywhere. → | 🐉 Neuer Platz (Lindwurm Fountain): The legendary dragon fountain — the city’s symbol and a super fun photo stop. → | 🏰 Landhaus Courtyard: One of Carinthia’s most impressive Renaissance buildings with calm stone arcades. → | ☕ Coffee in a Local Old-Town Café: A peaceful morning break with café aromas and historic surroundings.",
+          "afternoon": "🌍 Minimundus Miniature World: Explore iconic world landmarks in detailed small-scale versions — creative, fun and very scenic. → | 🌳 Europapark Walk: Big green park next to the lake with flower paths, ponds and relaxing benches. → | 🍽️ Lunch with Carinthian Specialties: Try Kärntner Kasnudeln (local filled pasta), soups or sweet alpine treats.",
+          "sunset": "🌅 Wörthersee Sunset Promenade or Lakeside Pier Viewpoint: Calm water, warm sky colors and mountain silhouettes — the perfect chill moment.",
+          "night": "🌃 Lakeside Cafés, Quiet Old-Town Walk, or Chill Dessert Spots: Peaceful, safe and relaxing evening options for unwinding.",
+          "full_day": "Morning: 🏛️ Klagenfurt Old Town: Begin your day strolling pastel-colored streets, elegant arcaded courtyards and quiet historic corners that define Carinthia’s capital. → | 🐉 Neuer Platz (Lindwurm Fountain): Visit the famous dragon statue — a fun and iconic symbol of Klagenfurt with a great backdrop for photos. → | 🏰 Landhaus Courtyard: Step into one of the region’s most impressive Renaissance buildings — stone arcades, symmetry and calm atmosphere. → | ☕ Old-Town Café Break: Enjoy a relaxing morning coffee wrapped in the charm of Klagenfurt’s historical center.; Afternoon: 🌍 Minimundus Miniature World: Explore incredibly detailed small-scale versions of world landmarks — creative, photogenic and surprisingly fun. → | 🌳 Europapark Walk: Wander through a spacious lakeside park filled with flower paths, ponds, sculptures and peaceful green corners. → | 🍽️ Lunch with Carinthian Specialties: Try local favorites like Kärntner Kasnudeln, hearty soups or sweet alpine-style pastries — comforting and authentic.; Sunset: 🌅 Wörthersee Promenade or Lakeside Pier Viewpoint: Watch the sun melt into soft colors over calm water, with distant mountains creating a perfect sunset silhouette. Ideal spot for photos and relaxation.; Night: 🌃 Lakeside Cafés, Old-Town Evening Walk or Dessert Spots: End your day with cozy lakeside cafés, peaceful old-town streets or sweet dessert places — gentle and calm evening vibes all around."
+        },
+        "seasons": {
+          "spring": {
+            "event": "Spring in Klagenfurt",
+            "ideas": [
+              "🌸 Flower Walks in Europapark: * Colorful blooms and soft spring air.",
+              "☀️ Old-Town Terraces: * Sunlit cafés perfect for a warm drink outside.",
+              "🌊 Early-Season Visits to Wörthersee: * Quiet lakeside paths before summer crowds."
+            ]
+          },
+          "summer": {
+            "event": "Hot Summer Days",
+            "ideas": [
+              "🏊 Swimming or Boat Rides at Wörthersee: * Clear turquoise water and lively lakeside spots.",
+              "🌅 Evening Lakeside Promenades: * Cool breezes and beautiful sunset reflections.",
+              "🍦 Gelato Shops Near the Waterfront: * Sweet refreshment after a warm day."
+            ]
+          },
+          "autumn": {
+            "event": "Autumn in Klagenfurt",
+            "ideas": [
+              "🍁 Golden Lakeside Views: * Trees turn orange and reflect on the calm water.",
+              "🥐 Warm Pastries & Coffee in Old Town: * Cozy cafés ideal for chilly days.",
+              "🏛️ Museum Visits (Carinthian Museum of Modern Art): * Perfect for cultural autumn afternoons."
+            ]
+          },
+          "winter": {
+            "event": "Christmas Market",
+            "locations": [
+              "🎄 Neuer Platz Christmas Market: * Festive lights, cozy stalls and the Lindwurm in holiday mode.",
+              "✨ Old Town Seasonal Stalls: * Small charming spaces with décor and local crafts."
+            ]
+          }
+        },
+        "tips": {
+          "nature_lovers": {
+            "places": [
+              "🌊 Wörthersee Promenade: | Long lakeside paths perfect for relaxing nature walks.",
+              "🌳 Europapark: | Bright green spaces, ponds and peaceful shaded corners.",
+              "🌲 Nearby Forest Walking Trails: | Soft pine paths and scenic viewpoints."
+            ],
+            "what_to_get": [
+              "🖼️ Lakeside Photography Prints: | Beautiful shots of Wörthersee from local artists.",
+              "🪵 Wooden Alpine Crafts: | Handmade items with mountain and lake motifs."
+            ]
+          },
+          "history_fans": {
+            "places": [
+              "🏰 Landhaus & Coat-of-Arms Hall: | A legendary Renaissance interior full of regional history.",
+              "🐉 Lindwurm Fountain Legend Site: | A fun piece of local mythology right in the main square.",
+              "🏛️ Old Town Historic Streets: | Pastel façades, old arcades and medieval corners."
+            ],
+            "what_to_get": [
+              "📮 Historical Postcards: | Old-town views, Renaissance courtyards and lakeside scenes.",
+              "🐲 Lindwurm-Themed Souvenirs: | Cute dragon items inspired by the city’s iconic statue."
+            ]
+          },
+          "art_lovers": {
+            "places": [
+              "🖼️ Museum of Modern Art Carinthia: | Contemporary exhibitions with regional creativity.",
+              "🎨 Local Galleries: | Independent spaces with paintings, crafts and design.",
+              "🗿 Public Sculptures Across the City: | Open-air art scattered around Klagenfurt."
+            ],
+            "what_to_get": [
+              "🖨️ Art Prints: | Local illustrations, colorful lake scenes or modern designs.",
+              "🍶 Handmade Ceramics: | Small crafted pieces from Carinthian artisans."
+            ]
+          }
+        },
+        "interest_descriptions": {
+          "Lakeside Nature & Wörthersee 🌊": "Enjoy calm turquoise water, breezy lakeside promenades and one of Austria’s prettiest lake regions.",
+          "History & Castles 🏰": "Discover Renaissance courtyards, old legends and beautifully preserved regional heritage sites.",
+          "Old Town Architecture 🏛️": "Walk pastel-colored façades, arcaded courtyards and charming medieval corners.",
+          "Parks & Gardens 🌳": "Relax in lakeside parks, flower paths and quiet green spaces around the city.",
+          "Food Exploration 😋": "Taste Carinthian favorites like Kasnudeln, soups, pastries and sweet alpine treats.",
+          "Photography 📸": "Capture lakeside reflections, pastel streets, mountain silhouettes and detailed miniature worlds."
+        },
+        "food_descriptions": {
+          "Local Specialties": "Carinthian dishes like Kasnudeln, Kärntner soups, pastries and hearty regional meals.",
+          "Fast Food": "Quick snacks including sandwiches, pastries, pretzels and simple street options.",
+          "Vegetarian": "Fresh veggie-filled pasta, salads, soups, pastries and light Austrian meals.",
+          "Mixed Options": "A flexible blend of local flavors, vegetarian dishes and easy everyday foods."
+        },
+        "interest_map": {
+          "Lakeside Nature & Wörthersee 🌊": "lakeside_nature__wörthersee",
+          "History & Castles 🏰": "history__castles",
+          "Old Town Architecture 🏛️": "old_town_architecture",
+          "Parks & Gardens 🌳": "parks__gardens",
+          "Food Exploration 😋": "food_exploration",
+          "Photography 📸": "photography"
+        }
+      }
       ]
     }

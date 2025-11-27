@@ -1,6 +1,5 @@
-window.addEventListener("load", () => {
-
-    /* MOBILE MENU TOGGLE */
+document.addEventListener("includes:loaded", () => {
+    // MOBILE MENU TOGGLE
     const toggle = document.getElementById("mobile-toggle");
     const menu = document.getElementById("mobile-menu");
 
@@ -12,7 +11,7 @@ window.addEventListener("load", () => {
         });
     }
 
-    /* SUBMENU BUTTONS */
+    // SUBMENU BUTTONS
     const buttons = document.querySelectorAll(".mobile-toggle-btn");
 
     buttons.forEach(btn => {
@@ -28,5 +27,4 @@ window.addEventListener("load", () => {
             btn.classList.toggle("open");
         });
     });
-
 });

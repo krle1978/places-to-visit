@@ -2,14 +2,26 @@
 // CONFIG
 // =======================
 
-const JSON_URL = "/assets/recommendations/timisoara_route_recommendations.json";
+const JSON_URLS = [
+  "/assets/recommendations/hungary/budapest/budapest_route_FD_art_recommendations.json",
+  "/assets/recommendations/hungary/budapest/budapest_route_FD_history_recommendations.json",
+  "/assets/recommendations/hungary/budapest/budapest_route_FD_mixed_recommendations.json",
+  "/assets/recommendations/hungary/budapest/budapest_route_FD_nature_recommendations.json",
+  "/assets/recommendations/hungary/budapest/budapest_route_FD_nightlife_recommendations.json",
+  "/assets/recommendations/hungary/budapest/budapest_route_HD_art_recommendations.json",
+  "/assets/recommendations/hungary/budapest/budapest_route_HD_history_recommendations.json",
+  "/assets/recommendations/hungary/budapest/budapest_route_HD_mixed_recommendations.json",
+  "/assets/recommendations/hungary/budapest/budapest_route_HD_nature_recommendations.json",
+  "/assets/recommendations/hungary/budapest/budapest_route_HD_nightlife_recommendations.json"
+];
 
 const icons = {
     interest: {
         history: "🏰",
         art: "🎨",
         nature: "🌿",
-        nightlife: "🍸"
+        nightlife: "🍸",
+        mixed: "🔀"
     },
     food: {
         local_specialties: "🍲",
@@ -24,7 +36,7 @@ const icons = {
     tripType: {
         full_day: "🕒",
         half_day: "⏱️",
-        evening: "🌙"
+        // optionally: evening: "🌙"
     }
 };
 
@@ -43,7 +55,7 @@ function formatOptionLabel(str) {
 function flattenRecommendations(data) {
     const result = [];
 
-    const tripDurations = Object.keys(data); // e.g. "full_day", "half_day", etc.
+    const tripDurations = Object.keys(data); // e.g. "full_day", "half_day", maybe "evening"
     tripDurations.forEach(duration => {
         const interests = data[duration];
         Object.keys(interests).forEach(interest => {
@@ -68,20 +80,27 @@ function flattenRecommendations(data) {
 }
 
 function loadRouteRecommendations() {
-    return fetch(JSON_URL)
-        .then(res => {
-            if (!res.ok) throw new Error("Failed to load JSON: " + res.status);
+    const fetches = JSON_URLS.map(url =>
+        fetch(url)
+          .then(res => {
+            if (!res.ok) throw new Error("Failed to load JSON: " + url + " status: " + res.status);
             return res.json();
-        })
-        .then(json => {
-            routeRecommendations = flattenRecommendations(json);
-            routesLoaded = true;
-            console.info("[Timisoara routes] Loaded", routeRecommendations.length, "routes.");
-        })
-        .catch(err => {
-            routesLoadError = err;
-            console.error(err);
+          })
+    );
+
+    return Promise.all(fetches)
+      .then(jsonArray => {
+        jsonArray.forEach(json => {
+          const flattened = flattenRecommendations(json);
+          routeRecommendations = routeRecommendations.concat(flattened);
         });
+        routesLoaded = true;
+        console.info("[Budapest routes] Loaded", routeRecommendations.length, "routes.");
+      })
+      .catch(err => {
+        routesLoadError = err;
+        console.error(err);
+      });
 }
 
 // =======================
@@ -161,11 +180,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const panel = document.getElementById("route-planner-panel");
     const header = document.getElementById("route-planner-toggle");
-    const openBtn = document.getElementById("route-open-btn");
 
     loadRouteRecommendations().then(() => {
         if (!routesLoadError && routeRecommendations.length > 0) {
             populateDropdowns();
+        } else if (routesLoadError) {
+            console.error("Error loading routes:", routesLoadError);
         }
     });
 
@@ -210,14 +230,12 @@ document.addEventListener("DOMContentLoaded", () => {
     // PDF EXPORT
     pdfBtn?.addEventListener("click", () => {
         const element = document.getElementById("route-result");
-
         const opt = {
-            filename: "timisoara-route.pdf",
+            filename: "budapest-route.pdf",
             margin: 10,
             jsPDF: { unit: "mm", format: "a4" }
         };
-
-        html2pdf().set(opt).from(element).save();
+        html2pdf().set(opt).from(element).save(); // koristi dokumentaciju :contentReference[oaicite:0]{index=0}
     });
 
     // COLLAPSIBLE PANEL
@@ -228,14 +246,5 @@ document.addEventListener("DOMContentLoaded", () => {
         };
 
         header.addEventListener("click", toggle);
-
-        if (openBtn) {
-            openBtn.addEventListener("click", e => {
-                e.stopPropagation();
-                panel.classList.remove("collapsed");
-                panel.classList.add("open");
-                header.scrollIntoView({ behavior: "smooth" });
-            });
-        }
     }
 });

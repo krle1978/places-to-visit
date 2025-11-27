@@ -21,6 +21,7 @@ document.addEventListener("includes:loaded", function () {
   // Mapiranje države na JSON fajl
   const countryMap = {
     Austria: "recommendations_places_austria.json",
+    Croatia: "recommendations_places_croatia.json",
     Czechia: "recommendations_places_czech.json",
     Germany: "recommendations_places_germany.json",
     Hungary: "recommendations_places_hungary.json",
@@ -42,31 +43,51 @@ document.addEventListener("includes:loaded", function () {
   /* -----------------------------------------------------------
      GENERIČNI PARSER ZA BLOKOVE ("* item", "|" novi red)
   ------------------------------------------------------------*/
-  function parseTextBlock(text) {
-    if (!text) return "";
+    function parseTextBlock(text) {
+      if (!text) return "";
 
-    let segments = text.split("|").map(s => s.trim()).filter(Boolean);
-    let output = "";
-    let listItems = "";
+      // 1. Zaštiti "TITLE: | description" da se ne razbije
+      text = text.replace(/:\s*\|/g, ":::SEP:::");
 
-    segments.forEach(seg => {
-      if (seg.includes("*")) {
-        // Pronađi deo pre i posle "*"
-        const [titlePart, ...rest] = seg.split("*");
-        const title = titlePart.trim();
-        const content = rest.join("*").trim();
-        listItems += `<li><strong>${title}</strong> ${content}</li>`;
-      } else {
-        output += `<strong>${seg}</strong><br>`;
+      // 2. Podeli na segmente
+      let segments = text.split("|").map(s => s.trim()).filter(Boolean);
+
+      let output = "";
+      let listItems = "";
+
+      segments.forEach(seg => {
+
+        // 3. Vrati zaštićeni separator
+        seg = seg.replace(/:::SEP:::/g, ": ");
+
+        // FORMAT 1: "Title: * description"
+        if (seg.includes("*")) {
+          const [titlePart, ...rest] = seg.split("*");
+          const title = titlePart.trim();
+          const content = rest.join("*").trim();
+          listItems += `<li><strong>${title}</strong> ${content}</li>`;
+        }
+
+        // FORMAT 2: "Title: description"
+        else if (seg.includes(":")) {
+          const idx = seg.indexOf(":");
+          const title = seg.slice(0, idx).trim();
+          const content = seg.slice(idx + 1).trim();
+          listItems += `<li><strong>${title}:</strong> ${content}</li>`;
+        }
+
+        // FORMAT 3: fallback
+        else {
+          listItems += `<li><strong>${seg}</strong></li>`;
+        }
+      });
+
+      if (listItems) {
+        output += `<ul>${listItems}</ul>`;
       }
-    });
 
-    if (listItems) {
-      output += `<ul>${listItems}</ul>`;
+      return output;
     }
-
-    return output;
-  }
 
   /* -----------------------------------------------------------
      POSEBNI PARSER ZA FULL DAY FORMAT
@@ -109,104 +130,104 @@ document.addEventListener("includes:loaded", function () {
   /* -----------------------------------------------------------
      KADA SE IZABERE DRŽAVA — UČITAJ FAJL
   ------------------------------------------------------------*/
-  countrySelect.addEventListener("change", function () {
-    const countryName = this.value;
-    resetAll();
-    if (!countryName) return;
+    countrySelect.addEventListener("change", function () {
+      const countryName = this.value;
+      resetAll();
+      if (!countryName) return;
 
-    const fileName = countryMap[countryName];
-    if (!fileName) {
-      errorMsg.textContent = "No data available for selected country.";
-      return;
+      const fileName = countryMap[countryName];
+      if (!fileName) {
+        errorMsg.textContent = "No data available for selected country.";
+        return;
+      }
+
+      fetch(`/assets/recommendations/${fileName}`)
+        .then(res => res.json())
+        .then(json => {
+          selectedCountry = json;
+          populateCities(json.cities);
+        })
+        .catch(err => {
+          console.error("Error loading country JSON:", err);
+          errorMsg.textContent = "Failed to load data for selected country.";
+        });
+    });
+
+    function populateCities(cities) {
+      cities.forEach(city => {
+        const opt = document.createElement("option");
+        opt.value = city.name;
+        opt.textContent = city.name;
+        citySelect.appendChild(opt);
+      });
+      enableSelect(citySelect);
     }
 
-    fetch(`/assets/recommendations/${fileName}`)
-      .then(res => res.json())
-      .then(json => {
-        selectedCountry = json;
-        populateCities(json.cities);
-      })
-      .catch(err => {
-        console.error("Error loading country JSON:", err);
-        errorMsg.textContent = "Failed to load data for selected country.";
+    /* -----------------------------------------------------------
+      KADA SE IZABERE GRAD
+    ------------------------------------------------------------*/
+    citySelect.addEventListener("change", function () {
+      resetCitySelections();
+
+      const cityName = this.value;
+      if (!cityName) return;
+
+      selectedCityObj = selectedCountry.cities.find(c => c.name === cityName);
+
+      enableSelect(tripTypeSelect);
+      enableSelect(interestSelect);
+      enableSelect(foodSelect);
+      enableSelect(seasonSelect);
+      enableSelect(tipCategorySelect);
+
+      // Seasons
+      Object.keys(selectedCityObj.seasons).forEach(season => {
+        const opt = document.createElement("option");
+        opt.value = season;
+        opt.textContent = season.charAt(0).toUpperCase() + season.slice(1);
+        seasonSelect.appendChild(opt);
       });
-  });
 
-  function populateCities(cities) {
-    cities.forEach(city => {
-      const opt = document.createElement("option");
-      opt.value = city.name;
-      opt.textContent = city.name;
-      citySelect.appendChild(opt);
-    });
-    enableSelect(citySelect);
-  }
+      // Trip types
+      ["full_day", "morning", "afternoon", "night"].forEach(type => {
+        const opt = document.createElement("option");
+        opt.value = type;
+        opt.textContent = tripTypeLabel(type);
+        tripTypeSelect.appendChild(opt);
+      });
 
-  /* -----------------------------------------------------------
-     KADA SE IZABERE GRAD
-  ------------------------------------------------------------*/
-  citySelect.addEventListener("change", function () {
-    resetCitySelections();
+      // Interests
+      selectedCityObj.interests.forEach(item => {
+        const opt = document.createElement("option");
+        opt.value = item;
+        opt.textContent = item;
+        interestSelect.appendChild(opt);
+      });
 
-    const cityName = this.value;
-    if (!cityName) return;
+      // Food preferences
+      selectedCityObj.food_preferences.forEach(item => {
+        const opt = document.createElement("option");
+        opt.value = item;
+        opt.textContent = item;
+        foodSelect.appendChild(opt);
+      });
 
-    selectedCityObj = selectedCountry.cities.find(c => c.name === cityName);
+      // Tip categories
+      const interestMap = selectedCityObj.interest_map || {};
+      const uniqueKeys = new Set(Object.values(interestMap));
+      uniqueKeys.forEach(key => {
+        const opt = document.createElement("option");
+        opt.value = key;
+        opt.textContent = key.replace(/_/g, " ");
+        tipCategorySelect.appendChild(opt);
+      });
 
-    enableSelect(tripTypeSelect);
-    enableSelect(interestSelect);
-    enableSelect(foodSelect);
-    enableSelect(seasonSelect);
-    enableSelect(tipCategorySelect);
-
-    // Seasons
-    Object.keys(selectedCityObj.seasons).forEach(season => {
-      const opt = document.createElement("option");
-      opt.value = season;
-      opt.textContent = season.charAt(0).toUpperCase() + season.slice(1);
-      seasonSelect.appendChild(opt);
-    });
-
-    // Trip types
-    ["full_day", "morning", "afternoon", "night"].forEach(type => {
-      const opt = document.createElement("option");
-      opt.value = type;
-      opt.textContent = tripTypeLabel(type);
-      tripTypeSelect.appendChild(opt);
+      submitBtn.disabled = false;
     });
 
-    // Interests
-    selectedCityObj.interests.forEach(item => {
-      const opt = document.createElement("option");
-      opt.value = item;
-      opt.textContent = item;
-      interestSelect.appendChild(opt);
-    });
-
-    // Food preferences
-    selectedCityObj.food_preferences.forEach(item => {
-      const opt = document.createElement("option");
-      opt.value = item;
-      opt.textContent = item;
-      foodSelect.appendChild(opt);
-    });
-
-    // Tip categories
-    const interestMap = selectedCityObj.interest_map || {};
-    const uniqueKeys = new Set(Object.values(interestMap));
-    uniqueKeys.forEach(key => {
-      const opt = document.createElement("option");
-      opt.value = key;
-      opt.textContent = key.replace(/_/g, " ");
-      tipCategorySelect.appendChild(opt);
-    });
-
-    submitBtn.disabled = false;
-  });
-
-  /* -----------------------------------------------------------
-     KADA SE KLIKNE "GET ROUTE RECOMMENDATION"
-  ------------------------------------------------------------*/
+    /* -----------------------------------------------------------
+      KADA SE KLIKNE "GET ROUTE RECOMMENDATION"
+    ------------------------------------------------------------*/
   submitBtn.addEventListener("click", function () {
     errorMsg.textContent = "";
 
@@ -231,8 +252,9 @@ document.addEventListener("includes:loaded", function () {
 
     let routeText = "";
     const tour = selectedCityObj.tour_type;
-
-    // Trip type formatting
+    /* -------------------------
+      TRIP TYPE
+    -------------------------- */
     if (tripType === "full_day") {
       routeText += parseFullDayText(tour.full_day);
     } else if (tripType === "morning") {
@@ -245,40 +267,88 @@ document.addEventListener("includes:loaded", function () {
       routeText += `<h4>Night:</h4>${parseTextBlock(tour.night)}<br>`;
     }
 
-    // Season
+    /* -------------------------
+      SEASON
+    -------------------------- */
     const seasonObj = selectedCityObj.seasons[season];
     routeText += `<strong>Season event:</strong> ${seasonObj.event}<br>`;
 
-    if (seasonObj.ideas)
+    if (seasonObj.ideas) {
       routeText += `<strong>Ideas:</strong><br>${parseTextBlock(seasonObj.ideas.join("|"))}<br>`;
+    }
 
-    if (seasonObj.locations)
+    if (seasonObj.locations) {
       routeText += `<strong>Locations:</strong><br>${parseTextBlock(seasonObj.locations.join("|"))}<br>`;
+    }
 
-    // Tips
+    /* -------------------------
+      TIPS
+    -------------------------- */
     const tipObj = selectedCityObj.tips?.[tipKey];
     if (tipObj) {
       routeText += `<strong>Suggested places:</strong><br>${parseTextBlock(tipObj.places.join("|"))}<br>`;
       routeText += `<strong>What to get:</strong><br>${parseTextBlock(tipObj.what_to_get.join("|"))}<br>`;
     }
 
-    routeText += `<strong>Interest:</strong> ${interest}<br>`;
-    routeText += `<strong>Food preference:</strong> ${food}<br>`;
+        /* -------------------------
+          INTEREST: naziv + opis
+        -------------------------- */
+        const interestDescription = selectedCityObj.interest_descriptions?.[interest];
+        if (interestDescription) {
+          routeText += `
+            <div class="route-interest-section">
+              <p><strong>Interest:</strong> ${interest}</p>
+              <p>${interestDescription}</p>
+            </div>
+            <br>
+          `;
+        } else {
+          routeText += `<strong>Interest:</strong> ${interest}<br>`;
+        }
 
+    /* -------------------------
+      FOOD
+    -------------------------- */
+    const foodDescription = selectedCityObj.food_descriptions?.[food];
+
+    if (foodDescription) {
+      routeText += `
+        <div class="route-food-section">
+          <p><strong>Food preference:</strong> ${food}</p>
+          <p>${foodDescription}</p>
+        </div>
+        <br>
+      `;
+    } else {
+      routeText += `<strong>Food preference:</strong> ${food}<br>`;
+    }
+
+    /* -------------------------
+      OUTPUT
+    -------------------------- */
     resultDiv.innerHTML = routeText;
     resultWrapper.style.display = "block";
 
+    /* -------------------------
+      PDF EXPORT
+    -------------------------- */
     savePdfBtn.onclick = function () {
+      const options = {
+        filename: `${selectedCityObj.name}-route.pdf`,
+        image: { type: 'jpeg', quality: 0.98 },
+        html2canvas: { scale: 2, useCORS: true },
+        jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
+      };
+
+      savePdfBtn.style.display = "none";
+
       html2pdf()
-        .set({
-          margin: 0.5,
-          filename: `${selectedCountry.name}-${selectedCityObj.name}-route.pdf`,
-          image: { type: "jpeg", quality: 0.98 },
-          html2canvas: { scale: 2 },
-          jsPDF: { unit: "in", format: "letter", orientation: "portrait" }
-        })
-        .from(resultDiv)
-        .save();
+        .from(resultWrapper)
+        .set(options)
+        .save()
+        .then(() => {
+          savePdfBtn.style.display = "inline-block";
+        });
     };
   });
 

@@ -224,9 +224,14 @@
 }
 
 .route-result {
-    display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1.4rem;
+}
+
+.route-result .route-card {
+    padding-top:80px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 @media (max-width: 700px) {
@@ -477,22 +482,21 @@
 }
 
 /* ============================================================
-   RESPONSIVE FIX FOR GALLERY (2 cols desktop, 1 col mobile)
+   RESPONSIVE FIX FOR GALLERY – One column layout (all screens)
 ============================================================ */
 
-/* DESKTOP – two columns with vertical scroll */
 @media (min-width: 700px) {
     .gallery {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr; /* SAMO JEDNA KOLONA */
         gap: 1.8rem;
         justify-items: stretch;
         align-items: start;
 
         /* SCROLL PANEL */
-        max-height: 600px;      /* po želji 500 / 700 */
+        max-height: 600px;
         overflow-y: auto;
-        padding-right: 12px;    /* da sadržaj ne udara u scrollbar */
+        padding-right: 12px;
     }
 
     .gallery figure {

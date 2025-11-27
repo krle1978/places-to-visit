@@ -6,8 +6,14 @@
 }
 
 .route-form-wrapper {
-  max-width: 600px;
+  width: 600px;
   margin: 0 auto;
+}
+
+@media (max-width: 640px) {
+  .route-form-wrapper {
+    width: 90%;
+  }
 }
 
 .route-form label {
@@ -110,4 +116,30 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+#pdf-clone-wrapper {
+  font-size: 1rem;
+  line-height: 1.5;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 12px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.route-interest-section p {
+  margin-top: 0.25rem;
+  margin-bottom: 1rem;
+  font-style: italic;
+  color: #444;
+}
+.route-interest-section {
+  display: block;
+}
+.route-interest-section p {
+  color: #222; /* ili bilo koja vidljiva boja */
+  margin-top: 4px;
+  margin-bottom: 16px;
+  font-style: italic;
+  font-size: 1rem;
+  line-height: 1.5;
 }
