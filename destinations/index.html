@@ -58,7 +58,7 @@
     </div>
 
     <div class="hero-image">
-        <img src="../assets/images/backgrounds/destinations-hero.jpg" alt="Destinations Map">
+        <img src="../assets/images/destinations/destinations-hero.webp" alt="Destinations Map">
     </div>
 </section>
 
@@ -68,10 +68,22 @@
   <h2 class="section-title">Countries</h2>
 
   <div class="cards country-cards">
+
+      <!-- CROATIA ENTRY -->
+    <div
+      class="card country-card"
+      data-country="croatia">
+      <img src="../assets/images/destinations/Croatia/croatia-cover.webp" alt="Croatia">
+      <div class="card-text">
+        <h3>Croatia</h3>
+        <p>Adriatic coast, historic towns and natural beauty.</p>
+      </div>
+    </div>
+
     <div
       class="card country-card"
       data-country="romania">
-      <img src="../assets/images/destinations/romania-cover.png" alt="Romania">
+      <img src="../assets/images/destinations/Romania/romania-cover.webp" alt="Romania">
       <div class="card-text">
         <h3>Romania</h3>
         <p>Transylvania, medieval castles and vibrant cities.</p>
@@ -81,7 +93,7 @@
     <div
       class="card country-card"
       data-country="hungary">
-      <img src="../assets/images/destinations/hungary-cover.jpg" alt="Hungary">
+      <img src="../assets/images/destinations/Hungary/hungary-cover.webp" alt="Hungary">
       <div class="card-text">
         <h3>Hungary</h3>
         <p>Budapest, art nouveau, Danube and culture.</p>
@@ -90,6 +102,19 @@
   </div>
 </section>
 
+<!-- CROATIA DESTINATIONS -->
+<section class="featured country-section" id="croatia" style="display: none;">
+  <h2 class="section-title">Croatia — Cities & Places</h2>
+
+  <div class="cards">
+    <div data-include="../components/card.html"
+         data-title="Vukovar"
+         data-image="../assets/images/destinations/Croatia/Vukovar/vukovar.webp"
+         data-desc="October 2025 — River town with rich history and resilience"
+         data-link="/destinations/country/Croatia/Vukovar/2025/November/index.html">
+    </div>
+  </div>
+</section>
 <!-- ROMANIA DESTINATIONS -->
 <section class="featured country-section" id="romania" style="display: none;">
   <h2 class="section-title">Romania — Cities & Places</h2>
@@ -148,7 +173,7 @@
          data-title="Szentendre"
          data-image="../assets/images/destinations/Hungary/Szentandre/szentendre.jpg"
          data-desc="October 2025 — Colorful town by the Danube"
-         data-link="/destinations/country/Hungary/Szentendre/2025/October/index.html">
+         data-link="/destinations/country/Hungary/Szentandre/2025/November/index.html">
     </div>
   </div>
 </section>

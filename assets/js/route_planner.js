@@ -26,8 +26,8 @@ document.addEventListener("includes:loaded", function () {
     Germany: "recommendations_places_germany.json",
     Hungary: "recommendations_places_hungary.json",
     Romania: "recommendations_places_romania.json",
-    Slovakia: "recommendations_places_slovakia.json",
-    Serbia: "recommendations_places_serbia.json"
+    Serbia: "recommendations_places_serbia.json",
+    Slovakia: "recommendations_places_slovakia.json"
   };
 
   function tripTypeLabel(type) {
@@ -405,14 +405,41 @@ document.addEventListener("includes:loaded", function () {
   // ----------------------------------------------
   // RASKLOPIVO PLANER VELO - ROUTE PLANNER TOGGLE
   // ----------------------------------------------
-  const toggleBtn = document.getElementById('toggle-planner-btn');
-  const plannerHeader = document.getElementById('planner-header');
-  const plannerContent = document.getElementById('planner-content');
+document.addEventListener("DOMContentLoaded", () => {
+  const header = document.getElementById("route-planner-toggle");
+  const panel = document.getElementById("route-planner-panel");
+  const arrow = document.getElementById("route-arrow");
+  const openBtn = document.getElementById("toggle-planner-btn");
 
-  function togglePlanner() {
-    if (!plannerContent) return;
-    plannerContent.style.display = plannerContent.style.display === 'none' ? 'block' : 'none';
+  if (panel && header) {
+    const toggle = () => {
+      panel.classList.toggle("collapsed");
+      panel.classList.toggle("open");
+      arrow.classList.toggle("open");
+    };
+
+    header.addEventListener("click", toggle);
+
+    if (openBtn) {
+      openBtn.addEventListener("click", e => {
+        e.stopPropagation();
+        panel.classList.remove("collapsed");
+        panel.classList.add("open");
+        arrow.classList.add("open");
+        header.scrollIntoView({ behavior: "smooth" });
+      });
+    }
+
+    document.addEventListener("click", (e) => {
+      if (
+        !panel.contains(e.target) &&
+        !header.contains(e.target) &&
+        !openBtn.contains(e.target)
+      ) {
+        panel.classList.add("collapsed");
+        panel.classList.remove("open");
+        arrow.classList.remove("open");
+      }
+    });
   }
-
-  if (toggleBtn) toggleBtn.addEventListener('click', togglePlanner);
-  if (plannerHeader) plannerHeader.addEventListener('click', togglePlanner);
+});

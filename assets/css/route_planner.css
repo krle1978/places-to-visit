@@ -135,8 +135,9 @@
 .route-interest-section {
   display: block;
 }
-.route-interest-section p {
-  color: #222; /* ili bilo koja vidljiva boja */
+.route-interest-section p,
+.route-food-section p {
+  color: #222;
   margin-top: 4px;
   margin-bottom: 16px;
   font-style: italic;

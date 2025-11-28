@@ -197,7 +197,7 @@
     padding: 10px 12px;
     font-size: 1rem;
     border-radius: 8px;
-    border: 1px solid #ccc;
+    border: 1px solid #d1d5db; /* Tailwind siva: #d1d5db */
 }
 
 .route-form button {
@@ -278,6 +278,14 @@
     line-height: 1.55;
     color: #374151;
 }
+.route-count-message {
+    margin-top: 1rem;
+    font-size: 0.95rem;
+    color: #374151;
+    text-align: center;
+    font-style: italic;
+}
+
 
 /* ============================================================
    COLLAPSIBLE WRAPPER
@@ -319,8 +327,18 @@
 
 /* “Make route” button below planner */
 #route-open-btn {
-    display: block;
-    margin: 2.5rem auto;
+    background-color: #4a63e7;
+    color: white;
+    padding: 12px 16px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+#route-open-btn:hover {
+    background-color: #394fd1;
 }
 
 /* ============================================================
@@ -478,6 +496,9 @@
 
     #gallery-modal img {
         max-width: 95%;
+    }
+    .route-form-wrapper {
+        padding: 0 1rem;
     }
 }
 
