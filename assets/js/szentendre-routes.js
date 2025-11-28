@@ -15,28 +15,16 @@ const JSON_URLS = [
   "/assets/recommendations/hungary/szentendre/szentendre_route_HD_nightlife_recommendations.json"
 ];
 
+const FOOD_JSON_URL = "/assets/recommendations/hungary/szentendre/szentendre_food_recommendations.json";
+
+let foodRecommendations = null;
+let foodLoaded = false;
+
 const icons = {
-  interest: {
-    history: "🏰",
-    art: "🎨",
-    nature: "🌿",
-    nightlife: "🍸",
-    mixed: "🔀"
-  },
-  food: {
-    local_specialties: "🍲",
-    light_veggie: "🥗",
-    try_everything: "🍽️"
-  },
-  budget: {
-    low: "💸",
-    medium: "💶",
-    high: "💎"
-  },
-  tripType: {
-    full_day: "🕒",
-    half_day: "⏱️"
-  }
+  interest: { history: "🏰", art: "🎨", nature: "🌿", nightlife: "🍸", mixed: "🔀" },
+  food: { local_specialties: "🍲", light_veggie: "🥗", try_everything: "🍽️" },
+  budget: { low: "💸", medium: "💶", high: "💎", comfortable: "💎" }, // add comfortable if used
+  tripType: { full_day: "🕒", half_day: "⏱️" }
 };
 
 let routeRecommendations = [];
@@ -54,8 +42,7 @@ function formatOptionLabel(str) {
 function flattenRecommendations(data) {
   const result = [];
 
-  const tripDurations = Object.keys(data);
-  tripDurations.forEach(duration => {
+  Object.keys(data).forEach(duration => {
     const interests = data[duration];
     Object.keys(interests).forEach(interest => {
       const foods = interests[interest];
@@ -76,6 +63,22 @@ function flattenRecommendations(data) {
   });
 
   return result;
+}
+
+function loadFoodRecommendations() {
+  return fetch(FOOD_JSON_URL)
+    .then(res => {
+      if (!res.ok) throw new Error("Food JSON not found: " + FOOD_JSON_URL);
+      return res.json();
+    })
+    .then(data => {
+      foodRecommendations = data;
+      foodLoaded = true;
+      console.info("[Szentendre food] Loaded");
+    })
+    .catch(err => {
+      console.error("Food load error:", err);
+    });
 }
 
 function loadRouteRecommendations() {
@@ -103,12 +106,12 @@ function loadRouteRecommendations() {
     })
     .catch(err => {
       routesLoadError = err;
-      console.error(err);
+      console.error("Route load error:", err);
     });
 }
 
 // =======================
-// UI UTILITIES
+// UI Utilities
 // =======================
 
 function buildResultCard(data) {
@@ -117,30 +120,34 @@ function buildResultCard(data) {
   const card = document.createElement("div");
   card.className = "card route-card";
 
-  const headerIcons = [
+  const iconsRow = [
     icons.tripType[tripType],
     icons.interest[interest],
     icons.food[food],
-    icons.budget[budget]
+    icons.budget[budget] || ""
   ].filter(Boolean).join(" ");
 
-  let bodyHTML = `<strong>${recommendation.title}</strong><br><em>${recommendation.summary}</em><br><br>`;
+  let html = `<strong>${recommendation.title}</strong><br><em>${recommendation.summary}</em><br><br>`;
   if (Array.isArray(recommendation.schedule)) {
     recommendation.schedule.forEach(item => {
-      bodyHTML += `<strong>${item.time} — ${item.title}</strong><br>${item.description}<br><br>`;
+      html += `<strong>${item.time} — ${item.title}</strong><br>${item.description}<br><br>`;
     });
   }
 
   card.innerHTML = `
-      <div class="route-card-icon">${headerIcons}</div>
-      <div class="card-text">
-          <h3>${formatOptionLabel(interest)} • ${formatOptionLabel(food)} • ${formatOptionLabel(budget)}</h3>
-          <p>${bodyHTML}</p>
-      </div>
+    <div class="route-card-icon">${iconsRow}</div>
+    <div class="card-text">
+      <h3>${formatOptionLabel(interest)} • ${formatOptionLabel(food)} • ${formatOptionLabel(budget)}</h3>
+      <p>${html}</p>
+    </div>
   `;
 
   return card;
 }
+
+// =======================
+// Populate dropdowns
+// =======================
 
 function populateDropdowns() {
   const tripSelect = document.getElementById("route-trip-type");
@@ -150,27 +157,27 @@ function populateDropdowns() {
 
   if (!tripSelect || !interestSelect || !foodSelect || !budgetSelect) return;
 
-  const unique = arr => [...new Set(arr)].sort();
+  const uniq = arr => [...new Set(arr)].sort();
 
-  const tripTypes = unique(routeRecommendations.map(r => r.tripType));
-  tripSelect.innerHTML = `<option value="">-- Select trip type --</option>`;
-  tripTypes.forEach(v => tripSelect.innerHTML += `<option value="${v}">${formatOptionLabel(v)}</option>`);
+  const tripTypes = uniq(routeRecommendations.map(r => r.tripType));
+  tripSelect.innerHTML = `<option value="">-- Select trip type --</option>` +
+    tripTypes.map(v => `<option value="${v}">${formatOptionLabel(v)}</option>`).join("");
 
-  const interests = unique(routeRecommendations.map(r => r.interest));
-  interestSelect.innerHTML = `<option value="">-- Select interest --</option>`;
-  interests.forEach(v => interestSelect.innerHTML += `<option value="${v}">${formatOptionLabel(v)}</option>`);
+  const interests = uniq(routeRecommendations.map(r => r.interest));
+  interestSelect.innerHTML = `<option value="">-- Select interest --</option>` +
+    interests.map(v => `<option value="${v}">${formatOptionLabel(v)}</option>`).join("");
 
-  const foods = unique(routeRecommendations.map(r => r.food));
-  foodSelect.innerHTML = `<option value="">-- Select food type --</option>`;
-  foods.forEach(v => foodSelect.innerHTML += `<option value="${v}">${formatOptionLabel(v)}</option>`);
+  const foods = uniq(routeRecommendations.map(r => r.food));
+  foodSelect.innerHTML = `<option value="">-- Select food type --</option>` +
+    foods.map(v => `<option value="${v}">${formatOptionLabel(v)}</option>`).join("");
 
-  const budgets = unique(routeRecommendations.map(r => r.budget));
-  budgetSelect.innerHTML = `<option value="">-- Select budget --</option>`;
-  budgets.forEach(v => budgetSelect.innerHTML += `<option value="${v}">${formatOptionLabel(v)}</option>`);
+  const budgets = uniq(routeRecommendations.map(r => r.budget));
+  budgetSelect.innerHTML = `<option value="">-- Select budget --</option>` +
+    budgets.map(v => `<option value="${v}">${formatOptionLabel(v)}</option>`).join("");
 }
 
 // =======================
-// INIT UI
+// INIT UI & Event Handlers
 // =======================
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -180,72 +187,87 @@ document.addEventListener("DOMContentLoaded", () => {
   const budgetSelect = document.getElementById("route-budget");
 
   const submitBtn = document.getElementById("route-submit");
-  const errorMessage = document.getElementById("route-error");
+  const errorEl = document.getElementById("route-error");
   const resultContainer = document.getElementById("route-result");
   const pdfBtn = document.getElementById("save-pdf-btn");
 
-  const panel = document.getElementById("route-planner-panel");
-  const header = document.getElementById("route-planner-toggle");
-
-  // Restore from localStorage
-  tripSelect.value = localStorage.getItem("tripType") || "";
-  interestSelect.value = localStorage.getItem("interest") || "";
-  foodSelect.value = localStorage.getItem("food") || "";
-  budgetSelect.value = localStorage.getItem("budget") || "";
-
   submitBtn.disabled = true;
 
-  loadRouteRecommendations().then(() => {
-    if (!routesLoadError && routeRecommendations.length > 0) {
-      populateDropdowns();
-      submitBtn.disabled = false;
-    }
-  });
+  loadRouteRecommendations()
+    .then(() => loadFoodRecommendations())
+    .then(() => {
+      if (!routesLoadError) {
+        populateDropdowns();
+        submitBtn.disabled = false;
+      }
+    });
 
   submitBtn.addEventListener("click", () => {
-    errorMessage.textContent = "";
+    errorEl.textContent = "";
     resultContainer.innerHTML = "";
     pdfBtn.style.display = "none";
 
-    const tripType = tripSelect.value;
-    const interest = interestSelect.value;
-    const food = foodSelect.value;
-    const budget = budgetSelect.value;
+    const t = tripSelect.value;
+    const i = interestSelect.value;
+    const f = foodSelect.value;
+    const b = budgetSelect.value;
 
-    // Save to localStorage
-    localStorage.setItem("tripType", tripType);
-    localStorage.setItem("interest", interest);
-    localStorage.setItem("food", food);
-    localStorage.setItem("budget", budget);
-
-    if (routesLoadError)
-      return errorMessage.textContent = "Greška pri učitavanju podataka.";
-    if (!routesLoaded)
-      return errorMessage.textContent = "Rute se još učitavaju...";
-
-    if (!tripType || !interest || !food || !budget) {
-      errorMessage.textContent = "Molim te izaberi sve opcije.";
+    if (!t || !i || !f || !b) {
+      errorEl.textContent = "Please select all options.";
       return;
     }
 
     const match = routeRecommendations.find(r =>
-      r.tripType === tripType &&
-      r.interest === interest &&
-      r.food === food &&
-      r.budget === budget
+      r.tripType === t &&
+      r.interest === i &&
+      r.food === f &&
+      r.budget === b
     );
 
-    if (!match || !match.recommendation || !Array.isArray(match.recommendation.schedule)) {
-      errorMessage.textContent = "Nema preporuke za izabranu kombinaciju.";
-      return;
+    if (match) {
+      resultContainer.appendChild(buildResultCard(match));
+    } else {
+      errorEl.textContent = "No route found — but see food suggestion below.";
     }
 
-    const card = buildResultCard(match);
-    resultContainer.appendChild(card);
+    if (foodLoaded) {
+      const normalizedBudget = b === "comfortable" ? "comfortable" : b;
+      const foodData = foodRecommendations?.[f]?.[normalizedBudget];
+      if (foodData) {
+        const card = document.createElement("div");
+        card.className = "card route-card";
+        let html = `<strong>${foodData.title}</strong><br><em>${foodData.summary}</em><br><br>`;
+        foodData.recommendations.forEach(x => {
+          html += `<strong>${x.time} — ${x.place}</strong><br>${x.description}<br><br>`;
+        });
+        card.innerHTML = `
+          <div class="route-card-icon">🍽️</div>
+          <div class="card-text">
+            <h3>${formatOptionLabel(f)} • ${formatOptionLabel(normalizedBudget)}</h3>
+            <p>${html}</p>
+          </div>`;
+        resultContainer.appendChild(card);
+      }
+    }
+
     pdfBtn.style.display = "inline-block";
   });
 
-  // PDF EXPORT
+  // COLLAPSIBLE PANEL LOGIC
+  const panel = document.getElementById("route-planner-panel");
+  const header = document.getElementById("route-planner-toggle");
+  if (panel && header) {
+    header.addEventListener("click", () => {
+      panel.classList.toggle("collapsed");
+      panel.classList.toggle("open");
+      const arrow = document.getElementById("route-arrow");
+      if (arrow) {
+        arrow.textContent = panel.classList.contains("open") ? "▲" : "▼";
+      }
+    });
+  }
+
+  // OPTIONAL: PDF EXPORT if html2pdf is loaded
   pdfBtn?.addEventListener("click", () => {
     const element = document.getElementById("route-result");
     const opt = {
@@ -255,12 +277,4 @@ document.addEventListener("DOMContentLoaded", () => {
     };
     html2pdf().set(opt).from(element).save();
   });
-
-  // COLLAPSIBLE PANEL
-  if (panel && header) {
-    header.addEventListener("click", () => {
-      panel.classList.toggle("collapsed");
-      panel.classList.toggle("open");
-    });
-  }
 });

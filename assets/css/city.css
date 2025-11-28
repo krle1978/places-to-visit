@@ -1,8 +1,13 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 /* ============================================================
    CITY HERO
 ============================================================ */
 .city-hero {
-    padding: 5rem 6vw 3rem;
+    padding: 3rem 4vw 2rem;
     display: flex;
     gap: 3rem;
     align-items: center;
@@ -135,8 +140,8 @@
    SIGHTS GRID (What To See & Do)
 ============================================================ */
 .sights-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+//    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
     gap: 2rem;
     margin-top: 1.5rem;
 }
@@ -484,6 +489,20 @@
     .city-hero {
         padding-top: 5rem;
         text-align: left;
+    }
+    .sights-grid,
+    .info-grid,
+    .seasons-grid-city {
+        grid-template-columns: 1fr;
+    }
+    .sight-item img,
+    .gallery img {
+        width: 100%;
+        height: auto;
+        }
+
+    html, body {
+    overflow-x: hidden;
     }
 
     .gallery-text-block {

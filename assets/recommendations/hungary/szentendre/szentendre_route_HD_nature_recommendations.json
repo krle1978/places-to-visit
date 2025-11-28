@@ -2,133 +2,345 @@
   "half_day": {
     "nature": {
       "local_specialties": {
-        "budget": {
-          "title": "Half-Day Szentendre Nature Budget Plan",
-          "summary": "A short, peaceful nature-focused route with affordable local food — perfect for a calm half-day escape.",
+        "low": {
+          "title": "Half-Day Szentendre Nature Route (Low Budget)",
+          "summary": "An affordable half-day surrounded by greenery, river views, and simple local bites.",
           "schedule": [
             {
-              "time": "10:00",
+              "time": "14:00",
               "title": "Danube Riverside Walk",
-              "description": "Start your morning with a relaxed walk along the riverbank — fresh air, quiet paths, and great views."
+              "description": "Begin with a calm walk along the riverbank surrounded by nature."
             },
             {
-              "time": "11:00",
-              "title": "Bükkös Creek Nature Path",
-              "description": "Continue your walk along the creek — a small green corridor with wooden bridges and calm scenery."
+              "time": "14:45",
+              "title": "Skanzen Hill Path (Free Area)",
+              "description": "Walk the public access paths near the Skanzen outdoor museum area."
             },
             {
-              "time": "12:30",
+              "time": "15:30",
               "title": "Budget Local Snack",
-              "description": "Grab something simple and tasty like lángos, a cheese pastry, or goulash soup from a local spot."
+              "description": "Try lángos or a warm Hungarian snack at a low-cost spot."
+            },
+            {
+              "time": "16:15",
+              "title": "Forest Edge Trail",
+              "description": "Short natural path with trees, birds, and calm scenery."
+            },
+            {
+              "time": "17:00",
+              "title": "Riverside Sunset Spot",
+              "description": "End by watching soft evening colors over the river."
             }
           ]
         },
-        "comfortable": {
-          "title": "Half-Day Szentendre Nature Comfort Tour",
-          "summary": "A relaxing nature route with a comfortable lunch and scenic walking paths.",
+
+        "medium": {
+          "title": "Balanced Nature Walk with Local Food",
+          "summary": "A comfortable mix of riverside paths, calm viewpoints, and traditional Hungarian meals.",
           "schedule": [
             {
-              "time": "10:00",
-              "title": "Morning Coffee & Danube Stroll",
-              "description": "Begin with a nice coffee at a riverside café and take a slow, scenic walk."
+              "time": "14:00",
+              "title": "Riverbank Nature Start",
+              "description": "Walk along the Danube enjoying wind, water, and greenery."
             },
             {
-              "time": "11:00",
-              "title": "Creekside Walk Through Green Areas",
-              "description": "Follow the quiet creek path — shady trees, soft sounds of water, and peaceful atmosphere."
+              "time": "14:45",
+              "title": "Panoramic Park Area",
+              "description": "Visit a small hilltop or park with excellent views of the river and town."
             },
             {
-              "time": "12:30",
-              "title": "Comfortable Local Lunch",
-              "description": "A traditional Hungarian lunch in a cozy restaurant — hearty but not too heavy."
+              "time": "16:00",
+              "title": "Hungarian Lunch",
+              "description": "A warm local dish in a comfortable restaurant."
+            },
+            {
+              "time": "17:00",
+              "title": "River Path Return",
+              "description": "Relax by the water to finish the half-day."
+            }
+          ]
+        },
+
+        "high": {
+          "title": "High-End Nature Experience",
+          "summary": "Premium natural viewpoints, curated landscape paths, and a refined local meal.",
+          "schedule": [
+            {
+              "time": "14:00",
+              "title": "Premium Riverside Trail",
+              "description": "Walk the most scenic riverside section with excellent photo spots."
+            },
+            {
+              "time": "15:00",
+              "title": "Curated Hill Viewpoint",
+              "description": "A naturally elevated viewpoint with peaceful scenery."
+            },
+            {
+              "time": "16:15",
+              "title": "High-End Local Lunch",
+              "description": "A refined Hungarian meal prepared with quality ingredients."
+            },
+            {
+              "time": "17:15",
+              "title": "Top Scenic Point",
+              "description": "End at the most beautiful natural viewpoint near Szentendre."
+            }
+          ]
+        },
+
+        "comfortable": {
+          "title": "Luxury Half-Day Nature Route",
+          "summary": "Exclusive nature routes, top-tier scenic spots, and fine dining.",
+          "schedule": [
+            {
+              "time": "14:00",
+              "title": "Exclusive Scenic Path",
+              "description": "Walk a curated natural trail with landscape views."
+            },
+            {
+              "time": "15:00",
+              "title": "VIP Nature Lookout",
+              "description": "Visit a high-level viewpoint with quiet, peaceful surroundings."
+            },
+            {
+              "time": "16:15",
+              "title": "Fine Dining Local Meal",
+              "description": "A luxury meal inspired by Hungarian nature and flavors."
+            },
+            {
+              "time": "17:15",
+              "title": "Elite Riverside Finish",
+              "description": "End the route at a serene, high-quality riverside spot."
             }
           ]
         }
       },
+
       "light_veggie": {
-        "budget": {
-          "title": "Half-Day Veggie-Friendly Nature Budget Route",
-          "summary": "A light and affordable vegetarian-friendly nature walk through Szentendre.",
+        "low": {
+          "title": "Budget Veggie Nature Walk",
+          "summary": "A simple half-day in nature paired with light vegetarian snacks.",
           "schedule": [
             {
-              "time": "10:00",
-              "title": "Light Breakfast + Riverside Walk",
-              "description": "Grab a pastry or fruit from a bakery and take a refreshing walk along the Danube."
+              "time": "14:00",
+              "title": "Riverside Nature Start",
+              "description": "Begin with a gentle walk along the Danube."
             },
             {
-              "time": "11:00",
-              "title": "Veggie-Friendly Creek Walk",
-              "description": "A peaceful trail along Bükkös Creek — ideal for a calm half-day trip."
+              "time": "14:45",
+              "title": "Quiet Park Area",
+              "description": "Relax under trees and enjoy the calm atmosphere."
             },
             {
-              "time": "12:00",
-              "title": "Budget Veggie Lunch",
-              "description": "Choose a small café offering salads, vegetable soups, or simple vegetarian dishes."
+              "time": "15:30",
+              "title": "Veggie Snack Stop",
+              "description": "Affordable salads, pastries, or light plant-based dishes."
+            },
+            {
+              "time": "16:15",
+              "title": "Shaded Forest Path",
+              "description": "Walk a short wooded path perfect for photos."
+            },
+            {
+              "time": "17:00",
+              "title": "Riverbank Relax",
+              "description": "Finish with a scenic view along the water."
             }
           ]
         },
-        "comfortable": {
-          "title": "Half-Day Veggie Nature Comfort Plan",
-          "summary": "A comfortable half-day nature route with healthy vegetarian dining.",
+
+        "medium": {
+          "title": "Balanced Veggie-Friendly Nature Route",
+          "summary": "A calm nature walk paired with healthy vegetarian dishes.",
           "schedule": [
             {
-              "time": "10:00",
-              "title": "Vegetarian Café Breakfast",
-              "description": "Granola, croissants, or a plant-based breakfast plate to start the day right."
+              "time": "14:00",
+              "title": "Nature Path Warm-Up",
+              "description": "Walk through a calm riverside route."
             },
             {
-              "time": "11:00",
-              "title": "Creekside Green Walk",
-              "description": "Follow the shady walking path along Bükkös Creek for a refreshing outdoor experience."
+              "time": "14:45",
+              "title": "Park or Hill Viewpoint",
+              "description": "Enjoy a peaceful lookout over Szentendre."
             },
             {
-              "time": "12:30",
-              "title": "Comfortable Veggie Lunch",
-              "description": "A refined vegetarian lunch at a bistro serving bowls, salads, or pasta."
+              "time": "16:00",
+              "title": "Vegetarian Lunch",
+              "description": "A healthy mid-range plant-based meal."
+            },
+            {
+              "time": "17:00",
+              "title": "Riverside Finish",
+              "description": "A low-energy peaceful end near the water."
+            }
+          ]
+        },
+
+        "high": {
+          "title": "High-End Veggie Nature Experience",
+          "summary": "Top-tier nature spots paired with gourmet vegetarian meals.",
+          "schedule": [
+            {
+              "time": "14:00",
+              "title": "Premium Nature Trail",
+              "description": "Walk an especially scenic path with open river views."
+            },
+            {
+              "time": "15:00",
+              "title": "Curated Scenic Spot",
+              "description": "Visit a premium viewpoint perfect for photos."
+            },
+            {
+              "time": "16:15",
+              "title": "High-End Vegetarian Dining",
+              "description": "Vegetarian dishes prepared with refined techniques."
+            },
+            {
+              "time": "17:15",
+              "title": "Exclusive Riverside End",
+              "description": "End at a calm high-quality river viewpoint."
+            }
+          ]
+        },
+
+        "comfortable": {
+          "title": "Luxury Veggie Nature Route",
+          "summary": "Fine vegetarian dining combined with exclusive natural landscapes.",
+          "schedule": [
+            {
+              "time": "14:00",
+              "title": "Elite Scenic Path",
+              "description": "Walk along Szentendre’s most beautiful nature trail."
+            },
+            {
+              "time": "15:00",
+              "title": "VIP Scenic Overlook",
+              "description": "A quiet, elegant viewpoint with outstanding views."
+            },
+            {
+              "time": "16:15",
+              "title": "Fine Dining Veggie Meal",
+              "description": "Premium plant-based cuisine served in a refined atmosphere."
+            },
+            {
+              "time": "17:15",
+              "title": "Luxury Riverside Panorama",
+              "description": "End the half-day in the most scenic riverside zone."
             }
           ]
         }
       },
+
       "try_everything": {
-        "budget": {
-          "title": "Half-Day Nature Tasting Route (Budget)",
-          "summary": "A fun half-day exploring nature while trying small bites along the way.",
+        "low": {
+          "title": "Budget Tasting Nature Route",
+          "summary": "A playful half-day with small tasting bites and beautiful nature walks.",
           "schedule": [
             {
-              "time": "10:00",
-              "title": "Bakery Tasting Start",
-              "description": "Choose two or three pastries and enjoy them while walking by the Danube."
+              "time": "14:00",
+              "title": "Pastry Tasting + River Walk",
+              "description": "Try a pastry while walking along the water."
             },
             {
-              "time": "11:00",
-              "title": "Bükkös Creek Walk & Snacks",
-              "description": "Continue your tasting experience with light snacks as you explore the creek path."
+              "time": "14:45",
+              "title": "Green Park Area",
+              "description": "A calm place to rest and enjoy fresh air."
             },
             {
-              "time": "12:30",
-              "title": "Street Food Bite",
-              "description": "Try a quick snack like lángos or a simple sandwich before wrapping up the tour."
+              "time": "15:30",
+              "title": "Budget Tasting Snack",
+              "description": "Sample 2–3 cheap Hungarian bites."
+            },
+            {
+              "time": "16:15",
+              "title": "Nature Trail",
+              "description": "Walk a small forest or riverside path."
+            },
+            {
+              "time": "17:00",
+              "title": "Riverbank End",
+              "description": "Finish with soft evening light along the river."
             }
           ]
         },
-        "comfortable": {
-          "title": "Half-Day Nature Tasting Comfort Tour",
-          "summary": "A tasting-style mini route through Szentendre’s nature with comfortable food stops.",
+
+        "medium": {
+          "title": "Balanced Nature + Tasting Experience",
+          "summary": "A comfortable combination of tasting-style dishes and soothing nature paths.",
           "schedule": [
             {
-              "time": "10:00",
-              "title": "Cozy Café Breakfast Tasting",
-              "description": "Start with coffee and a couple of small pastries or breakfast items."
+              "time": "14:00",
+              "title": "Mini Tasting Start",
+              "description": "Try a couple of small bites before walking."
             },
             {
-              "time": "11:00",
-              "title": "Calm Creek Walk",
-              "description": "Walk through one of Szentendre’s quietest green areas — refreshing and scenic."
+              "time": "14:45",
+              "title": "Hilltop or Park Walk",
+              "description": "Walk up to a viewpoint with wide nature views."
             },
             {
-              "time": "12:30",
-              "title": "Shared Tasting Plates",
-              "description": "Enjoy a few small dishes at a comfortable restaurant — light, varied, and satisfying."
+              "time": "16:00",
+              "title": "Medium Tasting Lunch",
+              "description": "Shared plates with Hungarian-inspired flavors."
+            },
+            {
+              "time": "17:00",
+              "title": "Scenic River Finish",
+              "description": "End with a peaceful water-side moment."
+            }
+          ]
+        },
+
+        "high": {
+          "title": "High-End Tasting Nature Route",
+          "summary": "Premium tasting dishes and refined nature destinations.",
+          "schedule": [
+            {
+              "time": "14:00",
+              "title": "Premium Mini Tasting Start",
+              "description": "High-quality small bites inspired by local cuisine."
+            },
+            {
+              "time": "15:00",
+              "title": "Premium Nature Outlook",
+              "description": "Visit a curated scenic viewpoint."
+            },
+            {
+              "time": "16:15",
+              "title": "High-End Tasting Plates",
+              "description": "Multiple gourmet small dishes to try."
+            },
+            {
+              "time": "17:15",
+              "title": "Beautiful Riverside End",
+              "description": "Finish at a top scenic river point."
+            }
+          ]
+        },
+
+        "comfortable": {
+          "title": "Luxury Tasting Nature Experience",
+          "summary": "The highest-level combination of nature, tasting menus, and scenic viewpoints.",
+          "schedule": [
+            {
+              "time": "14:00",
+              "title": "Luxury Tasting Starter",
+              "description": "Premium tasting bites to start your walk."
+            },
+            {
+              "time": "15:00",
+              "title": "VIP Nature Outlook",
+              "description": "Visit the most exclusive nature viewpoint."
+            },
+            {
+              "time": "16:15",
+              "title": "Fine Dining Tasting Menu",
+              "description": "A multi-course tasting experience."
+            },
+            {
+              "time": "17:15",
+              "title": "Elite Riverside Panorama",
+              "description": "A luxurious finish with the best scenery in Szentendre."
             }
           ]
         }

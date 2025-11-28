@@ -2,133 +2,345 @@
   "half_day": {
     "nightlife": {
       "local_specialties": {
-        "budget": {
-          "title": "Half-Day Szentendre Nightlife Budget Tour",
-          "summary": "A short and affordable evening route — light exploring followed by relaxed budget-friendly bar hopping.",
+        "low": {
+          "title": "Half-Day Szentendre Evening Route (Low Budget)",
+          "summary": "A peaceful and affordable evening in Szentendre with traditional snacks, lights, and riverside atmosphere.",
           "schedule": [
             {
-              "time": "16:00",
-              "title": "Old Town Afternoon Walk",
-              "description": "Begin with a casual stroll through the historic center — narrow alleys, cozy courtyards, and colorful buildings."
-            },
-            {
-              "time": "17:00",
-              "title": "Local Budget Snack",
-              "description": "Warm up for the night with something simple like lángos, goulash soup, or a savory pastry."
-            },
-            {
               "time": "18:00",
-              "title": "Budget Bars on Dumtsa Street",
-              "description": "Hop between the small, affordable bars on Dumtsa utca — friendly staff, local crowd, and cheap drinks."
+              "title": "Old Town Evening Walk",
+              "description": "Start by exploring the softly lit streets of Szentendre’s center."
+            },
+            {
+              "time": "18:45",
+              "title": "Danube Riverside Lights",
+              "description": "Walk along the river promenade and enjoy the evening colors."
+            },
+            {
+              "time": "19:30",
+              "title": "Budget Local Snack",
+              "description": "Try a warm lángos, goulash soup, or a simple Hungarian pastry."
+            },
+            {
+              "time": "20:00",
+              "title": "Craft Street at Night",
+              "description": "Browse handmade items and take night photos of charming corners."
+            },
+            {
+              "time": "21:00",
+              "title": "Riverside Chill Spot",
+              "description": "End the evening by the water for a calm, teen-friendly finish."
             }
           ]
         },
-        "comfortable": {
-          "title": "Half-Day Szentendre Nightlife Comfort Route",
-          "summary": "A calm half-day route with a nice dinner and a comfortable, stylish nightlife finish.",
+
+        "medium": {
+          "title": "Balanced Evening with Local Food",
+          "summary": "A comfortable evening route with traditional food and scenic night views.",
           "schedule": [
             {
-              "time": "16:00",
-              "title": "Riverside Afternoon Walk",
-              "description": "Enjoy the soft evening light while walking along the Danube."
+              "time": "18:00",
+              "title": "Evening Old Town Walk",
+              "description": "Explore beautifully lit squares and streets."
             },
             {
-              "time": "17:00",
-              "title": "Comfortable Local Dinner",
-              "description": "Have a relaxing Hungarian meal — soups, stews, or handmade dishes in a cozy restaurant."
+              "time": "18:45",
+              "title": "Cultural Corner",
+              "description": "Pass by small galleries or outdoor exhibitions if available."
             },
             {
-              "time": "19:00",
-              "title": "Elegant Bars & Wine Spots",
-              "description": "Visit one or two stylish bars serving cocktails, wine, or spritz with a good atmosphere."
+              "time": "19:30",
+              "title": "Local Hungarian Dinner",
+              "description": "A warm mid-range meal with traditional flavors."
+            },
+            {
+              "time": "20:30",
+              "title": "Riverfront Lights",
+              "description": "Walk along the river and enjoy reflections on the water."
+            }
+          ]
+        },
+
+        "high": {
+          "title": "High-End Evening Scenic Route",
+          "summary": "A refined mix of nighttime scenery, elegant walking areas, and premium local dishes.",
+          "schedule": [
+            {
+              "time": "18:00",
+              "title": "Premium Evening Walk",
+              "description": "Walk through the most scenic historical streets under warm lights."
+            },
+            {
+              "time": "18:45",
+              "title": "Night Viewpoint",
+              "description": "Visit a beautiful elevated viewpoint overlooking the town."
+            },
+            {
+              "time": "19:30",
+              "title": "High-Quality Local Meal",
+              "description": "Taste refined Hungarian dishes in a comfortable setting."
+            },
+            {
+              "time": "20:45",
+              "title": "Danube Panorama",
+              "description": "End with peaceful night views of the river."
+            }
+          ]
+        },
+
+        "comfortable": {
+          "title": "Luxury Szentendre Evening Route",
+          "summary": "A polished and scenic evening with fine dining, curated walks, and elegant viewpoints — all teen-friendly.",
+          "schedule": [
+            {
+              "time": "18:00",
+              "title": "Exclusive Old Town Twilight Walk",
+              "description": "Walk through the most beautiful parts of Szentendre just as the lights come on."
+            },
+            {
+              "time": "18:45",
+              "title": "VIP Scenic Lookout",
+              "description": "Visit the most elegant evening viewpoint in town."
+            },
+            {
+              "time": "19:30",
+              "title": "Fine Dining Local Meal",
+              "description": "A luxury Hungarian-inspired meal (alcohol-free)."
+            },
+            {
+              "time": "20:45",
+              "title": "Elite Riverside Panorama",
+              "description": "Soft lights, calm water, and a peaceful evening ending."
             }
           ]
         }
       },
+
       "light_veggie": {
-        "budget": {
-          "title": "Half-Day Nightlife Veggie Budget Route",
-          "summary": "Vegetarian-friendly food and relaxed bars — an easy and affordable evening in Szentendre.",
+        "low": {
+          "title": "Budget Veggie-Friendly Evening Route",
+          "summary": "A simple, charming evening walk with affordable vegetarian snacks.",
           "schedule": [
             {
-              "time": "16:00",
-              "title": "Old Town Pre-Nightwalk",
-              "description": "Walk through Szentendre’s artistic streets as the town begins to quiet down."
-            },
-            {
-              "time": "17:00",
-              "title": "Veggie-Friendly Budget Snack",
-              "description": "Grab a light, inexpensive vegetarian bite — salad, soup, or pastry."
-            },
-            {
               "time": "18:00",
-              "title": "Casual Bars Around Dumtsa Street",
-              "description": "Visit relaxed bars with low drink prices and a mix of locals and travelers."
+              "title": "Twilight Old Town Walk",
+              "description": "Explore cozy lit streets and colorful houses."
+            },
+            {
+              "time": "18:45",
+              "title": "Riverside Calm Zone",
+              "description": "Relax along the Danube during sunset."
+            },
+            {
+              "time": "19:30",
+              "title": "Budget Veggie Snack",
+              "description": "Salads, veggie pastries, or simple pasta."
+            },
+            {
+              "time": "20:00",
+              "title": "Craft Shops",
+              "description": "Browse handmade goods in evening-lit streets."
+            },
+            {
+              "time": "21:00",
+              "title": "Night River Walk",
+              "description": "End with peaceful riverside views."
             }
           ]
         },
-        "comfortable": {
-          "title": "Half-Day Nightlife Veggie Comfort Plan",
-          "summary": "A comfortable evening plan with refined vegetarian dining and mellow night spots.",
+
+        "medium": {
+          "title": "Balanced Veggie Evening",
+          "summary": "A relaxed vegetarian-friendly evening route across scenic areas.",
           "schedule": [
             {
-              "time": "16:00",
-              "title": "Peaceful Riverside Walk",
-              "description": "Start with a gentle walk along the Danube as the sun begins to set."
+              "time": "18:00",
+              "title": "Evening Street Walk",
+              "description": "Walk through gently illuminated historical corners."
             },
             {
-              "time": "17:00",
-              "title": "Comfortable Vegetarian Dinner",
-              "description": "A sit-down restaurant with creative vegetarian meals — pastas, bowls, or fresh salads."
+              "time": "18:45",
+              "title": "Cultural Evening Spot",
+              "description": "Check small exhibitions or creative corners."
             },
             {
-              "time": "19:00",
-              "title": "Stylish Bars with Light Music",
-              "description": "Enjoy cocktails or wine at a chic bar with ambient lighting and soft music."
+              "time": "19:30",
+              "title": "Vegetarian Dinner",
+              "description": "Healthy veggie dishes in a cozy restaurant."
+            },
+            {
+              "time": "20:30",
+              "title": "Riverside Finish",
+              "description": "End with calm water reflections and soft lighting."
+            }
+          ]
+        },
+
+        "high": {
+          "title": "High-End Veggie Evening Route",
+          "summary": "Elegant vegetarian meals paired with scenic night walks and curated viewpoints.",
+          "schedule": [
+            {
+              "time": "18:00",
+              "title": "Premium Twilight Walk",
+              "description": "Walk through the best preserved evening-lit streets."
+            },
+            {
+              "time": "18:45",
+              "title": "Elegant Scenic Point",
+              "description": "Visit a beautiful high-level viewpoint."
+            },
+            {
+              "time": "19:30",
+              "title": "High-End Veggie Dinner",
+              "description": "Gourmet plant-based plates with refined presentation."
+            },
+            {
+              "time": "20:45",
+              "title": "Riverside Panorama",
+              "description": "A scenic and peaceful nighttime finish."
+            }
+          ]
+        },
+
+        "comfortable": {
+          "title": "Luxury Veggie Evening Experience",
+          "summary": "Fine vegetarian dining and elite nighttime scenery in Szentendre.",
+          "schedule": [
+            {
+              "time": "18:00",
+              "title": "Elite Evening Walk",
+              "description": "Start with the most beautiful evening-lit streets."
+            },
+            {
+              "time": "18:45",
+              "title": "VIP Twilight Lookout",
+              "description": "A high-level viewpoint overlooking the town at dusk."
+            },
+            {
+              "time": "19:30",
+              "title": "Fine Dining Veggie Dinner",
+              "description": "Premium vegetarian meals in a refined setting."
+            },
+            {
+              "time": "20:45",
+              "title": "Exclusive Riverside Finish",
+              "description": "A luxury-level viewpoint by the river."
             }
           ]
         }
       },
+
       "try_everything": {
-        "budget": {
-          "title": "Half-Day Nightlife Tasting Budget Plan",
-          "summary": "Try a mix of small snacks and enjoy affordable bars — a fun mini tasting night.",
+        "low": {
+          "title": "Budget Tasting Evening Route",
+          "summary": "A fun and affordable evening walk with small tasting snacks.",
           "schedule": [
             {
-              "time": "16:00",
-              "title": "Snack & Walk Combo",
-              "description": "Pick up a couple of small bites from a bakery and wander through scenic parts of town."
-            },
-            {
-              "time": "17:00",
-              "title": "Street Food Stop",
-              "description": "Grab something quick like lángos or a small sandwich — cheap and tasty."
-            },
-            {
               "time": "18:00",
-              "title": "Budget Bar Hopping",
-              "description": "Explore Szentendre’s cheapest bars — a perfect tasting-style night on a budget."
+              "title": "Pastry Tasting Start",
+              "description": "Try a sweet or savory pastry while exploring evening-lit streets."
+            },
+            {
+              "time": "18:45",
+              "title": "Riverside Walk",
+              "description": "Enjoy the peaceful colors of the Danube at dusk."
+            },
+            {
+              "time": "19:30",
+              "title": "Budget Tasting Snack",
+              "description": "2–3 small inexpensive bites to sample."
+            },
+            {
+              "time": "20:00",
+              "title": "Evening Craft Street",
+              "description": "Explore interesting handmade items."
+            },
+            {
+              "time": "21:00",
+              "title": "Calm River Ending",
+              "description": "End with scenic reflections on the water."
             }
           ]
         },
-        "comfortable": {
-          "title": "Half-Day Nightlife Tasting Comfort Route",
-          "summary": "A tasting-style half-day evening: shared dishes, cocktail sampling, and relaxed nighttime vibes.",
+
+        "medium": {
+          "title": "Balanced Evening Tasting Experience",
+          "summary": "A comfortable mix of tasting-style dishes and scenic nighttime views.",
           "schedule": [
             {
-              "time": "16:00",
-              "title": "Afternoon Café & Dessert",
-              "description": "Start with a coffee and a small dessert in a cozy café."
+              "time": "18:00",
+              "title": "Mini Tasting Starter",
+              "description": "Try two or three small snacks."
             },
             {
-              "time": "17:30",
-              "title": "Shared Small Plates Dinner",
-              "description": "Try two or three different dishes — a perfect warm-up for the evening."
+              "time": "18:45",
+              "title": "Evening Heritage Walk",
+              "description": "Explore historical corners under warm lights."
             },
             {
-              "time": "19:00",
-              "title": "Cocktail or Wine Bar Hopping",
-              "description": "Visit 1–2 bars offering creative cocktails or high-quality wines with chill vibes."
+              "time": "19:30",
+              "title": "Medium Tasting Dinner",
+              "description": "Shared dishes with local inspiration."
+            },
+            {
+              "time": "20:30",
+              "title": "Riverside Finish",
+              "description": "End with a peaceful nighttime view."
+            }
+          ]
+        },
+
+        "high": {
+          "title": "High-End Evening Tasting Route",
+          "summary": "Premium tasting dishes paired with elevated scenic viewpoints.",
+          "schedule": [
+            {
+              "time": "18:00",
+              "title": "Premium Tasting Start",
+              "description": "A few refined small bites to begin the evening."
+            },
+            {
+              "time": "18:45",
+              "title": "Curated Night Walk",
+              "description": "Walk through the most scenic night-lit streets."
+            },
+            {
+              "time": "19:30",
+              "title": "High-End Tasting Dinner",
+              "description": "Gourmet small-plate dinner with local influences."
+            },
+            {
+              "time": "20:45",
+              "title": "Elite Night Viewpoint",
+              "description": "End with a scenic elevated view of Szentendre at night."
+            }
+          ]
+        },
+
+        "comfortable": {
+          "title": "Luxury Nighttime Tasting Experience",
+          "summary": "The highest-level tasting evening paired with elegant, scenic nighttime areas.",
+          "schedule": [
+            {
+              "time": "18:00",
+              "title": "Luxury Mini Tasting",
+              "description": "Fine gourmet mini dishes to start your evening."
+            },
+            {
+              "time": "18:45",
+              "title": "VIP Twilight Route",
+              "description": "Walk through the most exclusive and beautiful evening-lit areas."
+            },
+            {
+              "time": "19:30",
+              "title": "Fine Dining Tasting Dinner",
+              "description": "A refined multi-plate menu, completely alcohol-free."
+            },
+            {
+              "time": "20:45",
+              "title": "Premium Riverside Panorama",
+              "description": "End with Szentendre’s most beautiful night view."
             }
           ]
         }

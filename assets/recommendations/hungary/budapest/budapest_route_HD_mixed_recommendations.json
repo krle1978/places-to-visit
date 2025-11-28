@@ -1,134 +1,335 @@
 {
   "half_day": {
     "mixed": {
+
       "local_specialties": {
-        "budget": {
-          "title": "Half-Day Mixed with Budget Local Food (Teen-Friendly)",
-          "summary": "A little history, a little green time, and cheap but yummy Hungarian bites.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "Main Square Starter",
-              "description": "Cruise through Deák Ferenc Square and Vörösmarty Square — lively, colorful, super photogenic."
-            },
-            {
-              "time": "10:30",
-              "title": "Short Park or Riverside Break",
-              "description": "Walk to the Danube riverbank or a small park nearby for some fresh air and easy vibes."
-            },
-            {
-              "time": "12:00",
-              "title": "Budget Hungarian Lunch",
-              "description": "Wrap up with an inexpensive local meal — lángos, goulash soup, or a classic paprika dish."
-            }
-          ]
-        },
-        "comfortable": {
-          "title": "Half-Day Mixed with Comfortable Local Meal (Teen-Friendly)",
-          "summary": "Balanced sightseeing with a smooth walk, chill green time, and a nice Hungarian lunch.",
+
+        "low": {
+          "title": "Half-Day Budapest Mixed Route (Low Budget)",
+          "summary": "A varied, affordable short tour mixing history, art, nature and cheap Hungarian food.",
           "schedule": [
             {
               "time": "10:00",
-              "title": "City Center Highlights",
-              "description": "Walk the central streets, check out the Basilica from the outside, and feel the morning buzz."
+              "title": "Heroes’ Square Start",
+              "description": "History + massive sculptures + great photo spots."
             },
             {
-              "time": "11:30",
-              "title": "Quick Green Escape",
-              "description": "Stroll along the river or sit in a cozy city park to recharge."
+              "time": "11:00",
+              "title": "City Park Walk",
+              "description": "Relaxing nature, small bridges, castle-like Vajdahunyad exterior."
+            },
+            {
+              "time": "12:00",
+              "title": "Budget Local Lunch",
+              "description": "Classic cheap dishes — goulash soup, lángos, or daily menu."
             },
             {
               "time": "13:00",
-              "title": "Comfort Local Lunch",
-              "description": "Enjoy a laid-back lunch with warm Hungarian classics in a comfy restaurant."
+              "title": "Jewish Quarter Street Art",
+              "description": "Murals, colorful alleys and lively urban atmosphere."
+            }
+          ]
+        },
+
+        "medium": {
+          "title": "Balanced Half-Day Budapest Mix",
+          "summary": "A comfortable, well-rounded tour with culture, nature and a mid-range local lunch.",
+          "schedule": [
+            {
+              "time": "10:00",
+              "title": "City Park Nature Start",
+              "description": "Green paths, lakeside views and castle silhouettes."
+            },
+            {
+              "time": "10:45",
+              "title": "Heroes’ Square",
+              "description": "Learn the basics of Hungary’s big historical figures."
+            },
+            {
+              "time": "12:00",
+              "title": "Local Mid-Range Lunch",
+              "description": "Hearty Hungarian dishes served comfortably."
+            },
+            {
+              "time": "13:15",
+              "title": "Opera House Walk",
+              "description": "Elegant architecture and artistic street details."
+            }
+          ]
+        },
+
+        "high": {
+          "title": "High-End Half-Day Mixed Experience",
+          "summary": "Premium cultural stops, refined architecture and high-quality meals.",
+          "schedule": [
+            {
+              "time": "10:00",
+              "title": "Museum of Fine Arts (Short Visit)",
+              "description": "A curated look at art and classical masterpieces."
+            },
+            {
+              "time": "11:30",
+              "title": "Andrássy Avenue Walk",
+              "description": "Historic mansions, boutiques and iconic facades."
+            },
+            {
+              "time": "12:45",
+              "title": "High-End Local Lunch",
+              "description": "Refined Hungarian dishes with great ingredients."
+            },
+            {
+              "time": "14:00",
+              "title": "Danube Panorama Finish",
+              "description": "River views with famous buildings around you."
+            }
+          ]
+        },
+
+        "comfortable": {
+          "title": "Luxury Budapest Mixed Half-Day",
+          "summary": "Fine dining + curated museum time + elegant architecture + scenic riverside finish.",
+          "schedule": [
+            {
+              "time": "10:00",
+              "title": "Exclusive Heroes’ Square Experience",
+              "description": "Iconic monument zone with a calm, early-day atmosphere."
+            },
+            {
+              "time": "11:00",
+              "title": "VIP Museum Visit",
+              "description": "Choose a top-level gallery for a focused artistic experience."
+            },
+            {
+              "time": "12:45",
+              "title": "Fine Dining Hungarian Lunch",
+              "description": "Beautiful plates with traditional inspiration."
+            },
+            {
+              "time": "14:00",
+              "title": "Opera District Walk",
+              "description": "High-class buildings and luxury urban scenes."
             }
           ]
         }
       },
+
       "light_veggie": {
-        "budget": {
-          "title": "Half-Day Mixed with Light Budget Food (Teen-Friendly)",
-          "summary": "A simple combo of center sights, greenery, and a light, affordable meal.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "Center Walk Warmup",
-              "description": "Start with a walk along Fashion Street or a nearby square — lots of color and cool architecture."
-            },
-            {
-              "time": "10:30",
-              "title": "Green Stop",
-              "description": "Head to the river path or a small park for a chill break and photos."
-            },
-            {
-              "time": "12:00",
-              "title": "Light Veggie Lunch",
-              "description": "Grab a salad, soup, veggie wrap, or a light bowl at a budget-friendly spot."
-            }
-          ]
-        },
-        "comfortable": {
-          "title": "Half-Day Mixed with Comfortable Light Dining (Teen-Friendly)",
-          "summary": "Gentle sightseeing blended with a refreshing walk and a nicer light meal.",
+
+        "low": {
+          "title": "Half-Day Mixed + Veggie (Low Budget)",
+          "summary": "A blend of nature, culture and art with cheap vegetarian-friendly options.",
           "schedule": [
             {
               "time": "10:00",
-              "title": "Quick City Overview",
-              "description": "Walk through key central areas like the Basilica or Erzsébet Square."
+              "title": "City Park Walk",
+              "description": "Green scenery, castle views and calm paths."
             },
             {
-              "time": "11:30",
-              "title": "Short Park Walk",
-              "description": "Visit a nearby green space for shade and a calm moment."
+              "time": "10:45",
+              "title": "Heroes’ Square",
+              "description": "Perfect for learning quick Hungarian history facts."
+            },
+            {
+              "time": "12:00",
+              "title": "Budget Veggie Lunch",
+              "description": "Soups, salads or simple pasta dishes that fit any wallet."
             },
             {
               "time": "13:00",
-              "title": "Light But Quality Lunch",
-              "description": "Eat in a comfortable place offering bowls, fresh salads, or veggie-friendly dishes."
+              "title": "Jewish Quarter Art Corners",
+              "description": "Murals and creative street details everywhere."
+            }
+          ]
+        },
+
+        "medium": {
+          "title": "Balanced Veggie Mixed Route",
+          "summary": "Healthy vegetarian eating combined with historic and artistic Budapest spots.",
+          "schedule": [
+            {
+              "time": "10:00",
+              "title": "Heroes’ Square",
+              "description": "Impressive sculptures and a huge open-air museum feel."
+            },
+            {
+              "time": "11:00",
+              "title": "Opera House District",
+              "description": "Aesthetic streets with decorative facades."
+            },
+            {
+              "time": "12:00",
+              "title": "Vegetarian Mid-Range Lunch",
+              "description": "Tasty, balanced plant-based dishes."
+            },
+            {
+              "time": "13:15",
+              "title": "Danube Riverside",
+              "description": "Fresh air and iconic views."
+            }
+          ]
+        },
+
+        "high": {
+          "title": "High-End Veggie Mixed Tour",
+          "summary": "Premium vegetarian dining with refined culture and nature stops.",
+          "schedule": [
+            {
+              "time": "10:00",
+              "title": "Museum of Fine Arts",
+              "description": "A high-quality glimpse into top exhibits."
+            },
+            {
+              "time": "11:30",
+              "title": "Andrássy Avenue",
+              "description": "Historic mansions and premium shops."
+            },
+            {
+              "time": "12:45",
+              "title": "Premium Veggie Lunch",
+              "description": "Beautiful plant-based dishes with great flavors."
+            },
+            {
+              "time": "14:00",
+              "title": "Danube Parliament View",
+              "description": "A stunning closing scene."
+            }
+          ]
+        },
+
+        "comfortable": {
+          "title": "Luxury Veggie Mixed Half-Day",
+          "summary": "Fine vegetarian dining, curated museum content and elite architecture.",
+          "schedule": [
+            {
+              "time": "10:00",
+              "title": "Exclusive Heroes’ Square",
+              "description": "Monumental sculptures in a peaceful setting."
+            },
+            {
+              "time": "11:00",
+              "title": "VIP Gallery Visit",
+              "description": "Choose a refined exhibition for a premium cultural hit."
+            },
+            {
+              "time": "12:45",
+              "title": "Fine Dining Veggie Lunch",
+              "description": "Elegant plant-based cuisine."
+            },
+            {
+              "time": "14:00",
+              "title": "Opera District Walk",
+              "description": "Classic architecture on luxury-level streets."
             }
           ]
         }
       },
+
       "try_everything": {
-        "budget": {
-          "title": "Half-Day Mixed for Curious Eaters on a Budget (Teen-Friendly)",
-          "summary": "A mix of sights, green areas, and fun cheap food tasting.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "Center Starter",
-              "description": "Walk a key square or street in the morning — perfect for quick exploring."
-            },
-            {
-              "time": "10:30",
-              "title": "Park or Riverside Walk",
-              "description": "Spend a bit of time along the Danube or in a small park nearby."
-            },
-            {
-              "time": "12:00",
-              "title": "Mixed Cheap Lunch",
-              "description": "Try 2–3 small dishes to share — a little goulash, a little pasta, maybe a sweet treat."
-            }
-          ]
-        },
-        "comfortable": {
-          "title": "Half-Day Mixed with Rich Food Experience (Teen-Friendly)",
-          "summary": "A nice slice of the city plus a tasting-style lunch for curious food explorers.",
+
+        "low": {
+          "title": "Half-Day Mixed + Tasting (Low Budget)",
+          "summary": "A cheap yet exciting mix of culture, nature and fun small snacks.",
           "schedule": [
             {
               "time": "10:00",
-              "title": "Center Walk",
-              "description": "Explore a central area with landmarks like the Basilica or Vörösmarty Square."
+              "title": "City Park",
+              "description": "Nature + castle vibes + relaxed atmosphere."
             },
             {
-              "time": "11:30",
-              "title": "Short Green Escape",
-              "description": "Cool down in a small park or along the river with great views."
+              "time": "10:45",
+              "title": "Heroes’ Square",
+              "description": "Quick historical overview through statues."
+            },
+            {
+              "time": "12:00",
+              "title": "Budget Snack Tasting",
+              "description": "Pick a couple cheap Hungarian pastries or street snacks."
             },
             {
               "time": "13:00",
-              "title": "Tasting Lunch",
-              "description": "Enjoy a lunch made of multiple small dishes — perfect for sharing and exploring flavors."
+              "title": "Jewish Quarter Art",
+              "description": "Murals and lively streets."
+            }
+          ]
+        },
+
+        "medium": {
+          "title": "Balanced Tasting Mixed Route",
+          "summary": "A light tasting-style route combining architecture, nature and culture.",
+          "schedule": [
+            {
+              "time": "10:00",
+              "title": "Heroes’ Square",
+              "description": "A historic open-air museum of Hungary’s past."
+            },
+            {
+              "time": "11:00",
+              "title": "Opera House District",
+              "description": "Iconic 19th-century mansions."
+            },
+            {
+              "time": "12:00",
+              "title": "Medium Tasting Lunch",
+              "description": "Try 2–3 small Hungarian dishes."
+            },
+            {
+              "time": "13:30",
+              "title": "Danube Riverside",
+              "description": "Pretty and relaxing scenery."
+            }
+          ]
+        },
+
+        "high": {
+          "title": "High-End Tasting Mixed Experience",
+          "summary": "Premium mini-plates with elegant historical and artistic stops.",
+          "schedule": [
+            {
+              "time": "10:00",
+              "title": "Museum of Fine Arts",
+              "description": "Pick one or two standout exhibits to explore."
+            },
+            {
+              "time": "11:30",
+              "title": "Andrássy Avenue",
+              "description": "One of Budapest’s most elite and historic streets."
+            },
+            {
+              "time": "12:45",
+              "title": "High-End Tasting Lunch",
+              "description": "A few gourmet-style Hungarian small plates."
+            },
+            {
+              "time": "14:00",
+              "title": "Parliament View Walk",
+              "description": "Iconic architecture to finish the tour."
+            }
+          ]
+        },
+
+        "comfortable": {
+          "title": "Luxury Mixed + Tasting Half-Day",
+          "summary": "A top-tier tasting experience with curated culture, nature and architecture.",
+          "schedule": [
+            {
+              "time": "10:00",
+              "title": "Exclusive Heroes’ Square",
+              "description": "A majestic start surrounded by sculptures."
+            },
+            {
+              "time": "11:00",
+              "title": "VIP Museum Visit",
+              "description": "Choose a top gallery or curated exhibit."
+            },
+            {
+              "time": "12:45",
+              "title": "Fine Dining Tasting Menu",
+              "description": "Premium small-plate Hungarian cuisine."
+            },
+            {
+              "time": "14:00",
+              "title": "Opera District Architectural Walk",
+              "description": "Luxury atmosphere and elegant facades."
             }
           ]
         }

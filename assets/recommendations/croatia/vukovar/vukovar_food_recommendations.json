@@ -1,0 +1,262 @@
+{
+  "local_specialties": {
+    "low": {
+      "title": "Local Food on a Low Budget",
+      "summary": "Affordable, homemade-style Slavonian classics that keep you full without draining your wallet.",
+      "recommendations": [
+        {
+          "time": "12:00",
+          "place": "Kod Bare",
+          "description": "Čobanac, grilled meat, hearty soups — real local flavors at low prices."
+        },
+        {
+          "time": "14:00",
+          "place": "Vukovarska Kuća",
+          "description": "Daily menus with stews, simple grilled dishes, and homemade sides."
+        },
+        {
+          "time": "16:00",
+          "place": "Dunavski Raj",
+          "description": "Cheap river-fish dishes and rustic traditional flavors."
+        }
+      ]
+    },
+    "medium": {
+      "title": "Authentic Food with Balanced Prices",
+      "summary": "A solid mix of quality and price — traditional dishes with generous portions.",
+      "recommendations": [
+        {
+          "time": "12:30",
+          "place": "Restoran Lav",
+          "description": "Slavonian classics with good portions and warm interior."
+        },
+        {
+          "time": "15:00",
+          "place": "Restoran Vrške",
+          "description": "Local fish dishes, čobanac, and grilled specialties at mid-range pricing."
+        },
+        {
+          "time": "18:00",
+          "place": "Dunavska Ruža",
+          "description": "Traditional meals with a great Danube view — ideal for dinner."
+        }
+      ]
+    },
+    "high": {
+      "title": "Traditional Food with a Premium Touch",
+      "summary": "Higher-quality versions of classic dishes, refined plating, and stronger flavors.",
+      "recommendations": [
+        {
+          "time": "12:30",
+          "place": "Restoran Panorama (Premium Edition)",
+          "description": "Elevated traditional meals with premium ingredients and stylish presentation."
+        },
+        {
+          "time": "15:00",
+          "place": "Restoran Lav (Signature Menu)",
+          "description": "Gourmet regional specialties with rich sauces and top local meats."
+        },
+        {
+          "time": "18:00",
+          "place": "Restoran Mornar (Premium Fish Menu)",
+          "description": "Premium river-fish and seafood prepared with refined techniques."
+        }
+      ]
+    },
+    "comfortable": {
+      "title": "Luxury Traditional Dining",
+      "summary": "Fine-dining takes on Slavonian heritage — top-tier ingredients, beautiful plating, elegant ambience.",
+      "recommendations": [
+        {
+          "time": "12:30",
+          "place": "Restoran Panorama Fine Dining",
+          "description": "Artistic reinterpretations of local classics with premium sides."
+        },
+        {
+          "time": "15:00",
+          "place": "Restoran Lav Deluxe",
+          "description": "High-end regional cuisine in a refined setting with exceptional service."
+        },
+        {
+          "time": "18:00",
+          "place": "Restoran Mornar Elite",
+          "description": "Luxury seafood and river-fish dishes with gourmet garnishes."
+        }
+      ]
+    }
+  },
+
+  "light_veggie": {
+    "low": {
+      "title": "Light Veggie Meals on a Low Budget",
+      "summary": "Simple, healthy, and affordable vegetarian options around town.",
+      "recommendations": [
+        {
+          "time": "12:00",
+          "place": "Bistro Dominato",
+          "description": "Budget-friendly salads, pasta, and veggie sandwiches."
+        },
+        {
+          "time": "14:00",
+          "place": "Bakery Mlinar",
+          "description": "Inexpensive veggie pastries and light snacks."
+        },
+        {
+          "time": "16:00",
+          "place": "Café Bonk",
+          "description": "Tea, juice, and small vegetarian bites."
+        }
+      ]
+    },
+    "medium": {
+      "title": "Balanced Veggie Dining",
+      "summary": "Good vegetarian choices with nice ambiance and healthy ingredients.",
+      "recommendations": [
+        {
+          "time": "12:30",
+          "place": "Bistro Most",
+          "description": "Veggie risotto, pasta, grilled vegetables, and fresh salads."
+        },
+        {
+          "time": "15:00",
+          "place": "Café Navis",
+          "description": "Smoothies, veggie bowls, and light meals with a river view."
+        },
+        {
+          "time": "18:00",
+          "place": "Kavana Vukovar",
+          "description": "Vegetarian-friendly sandwiches and light dinner plates."
+        }
+      ]
+    },
+    "high": {
+      "title": "High-End Vegetarian Meals",
+      "summary": "Premium vegetarian dishes prepared with creativity and top-quality ingredients.",
+      "recommendations": [
+        {
+          "time": "12:30",
+          "place": "Restoran Panorama Veg Selection",
+          "description": "Carefully plated vegetarian dishes inspired by Mediterranean flavors."
+        },
+        {
+          "time": "15:00",
+          "place": "Restoran Lav Green Menu",
+          "description": "Vegetarian pastas, risottos, and creative vegetable plates."
+        },
+        {
+          "time": "18:00",
+          "place": "Dunavska Ruža",
+          "description": "High-quality veggie dinners with elegant presentation."
+        }
+      ]
+    },
+    "comfortable": {
+      "title": "Luxury Vegetarian Experience",
+      "summary": "Fine-dining vegetarian meals created with artistic detail and premium ingredients.",
+      "recommendations": [
+        {
+          "time": "12:30",
+          "place": "Panorama Fine Vegan/Vegetarian",
+          "description": "Elegant plant-based plates with modern preparation."
+        },
+        {
+          "time": "15:00",
+          "place": "Lav Deluxe Veg Menu",
+          "description": "Haute cuisine vegetarian dishes with creative touches."
+        },
+        {
+          "time": "18:00",
+          "place": "Mornar Green Gourmet",
+          "description": "Refined vegetable-based dinner options in a luxury riverside setting."
+        }
+      ]
+    }
+  },
+
+  "try_everything": {
+    "low": {
+      "title": "Low-Budget Tasting Adventure",
+      "summary": "Try multiple small, affordable dishes — perfect for curious eaters.",
+      "recommendations": [
+        {
+          "time": "12:00",
+          "place": "Local Bakery Tour",
+          "description": "Taste several pastries — sweet, salty, cheesy — cheap and fun."
+        },
+        {
+          "time": "14:00",
+          "place": "Kod Bare Mini Plates",
+          "description": "Order 2–3 small traditional dishes to share."
+        },
+        {
+          "time": "16:00",
+          "place": "Ice Cream Stop",
+          "description": "Finish with a couple of flavors from a local ice-cream shop."
+        }
+      ]
+    },
+    "medium": {
+      "title": "Balanced Tasting Experience",
+      "summary": "A mix of small plates, snacks, and diverse flavors at mid-range prices.",
+      "recommendations": [
+        {
+          "time": "12:30",
+          "place": "Restoran Lav Tasting Menu",
+          "description": "A selection of smaller traditional dishes to sample."
+        },
+        {
+          "time": "15:00",
+          "place": "Bistro Most Combo Plates",
+          "description": "Try a variety of local and fusion options in smaller portions."
+        },
+        {
+          "time": "18:00",
+          "place": "Dunavska Ruža Sweet & Savory",
+          "description": "Combine dessert and small salty bites — perfect finish."
+        }
+      ]
+    },
+    "high": {
+      "title": "Premium Tasting Tour",
+      "summary": "A refined mix of small plates inspired by traditional flavors but served with premium quality.",
+      "recommendations": [
+        {
+          "time": "12:30",
+          "place": "Panorama Mini Courses",
+          "description": "Small premium dishes fused with local influences."
+        },
+        {
+          "time": "15:00",
+          "place": "Lav Signature Sampler",
+          "description": "High-end tasting plates with modern techniques."
+        },
+        {
+          "time": "18:00",
+          "place": "Mornar Fish & Flavor Set",
+          "description": "Refined mini river-fish dishes and gourmet sides."
+        }
+      ]
+    },
+    "comfortable": {
+      "title": "Luxury Tasting Journey",
+      "summary": "Fine dining tasting menus across several courses — artistic, creative, and premium.",
+      "recommendations": [
+        {
+          "time": "12:30",
+          "place": "Panorama Fine Tasting Menu",
+          "description": "Multi-course gourmet experience inspired by Slavonian tradition."
+        },
+        {
+          "time": "15:00",
+          "place": "Lav Deluxe Tasting Sequence",
+          "description": "A creative progression of beautifully plated small dishes."
+        },
+        {
+          "time": "18:00",
+          "place": "Mornar Elite Tasting",
+          "description": "Premium seafood-inspired tasting journey with elegant presentation."
+        }
+      ]
+    }
+  }
+}

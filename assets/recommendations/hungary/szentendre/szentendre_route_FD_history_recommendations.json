@@ -2,253 +2,460 @@
   "full_day": {
     "history": {
       "local_specialties": {
-        "budget": {
-          "title": "Full-Day Szentendre History Tour + Local Budget Food",
-          "summary": "A full historical journey through Szentendre’s churches, museums, and heritage streets — paired with affordable traditional meals.",
+        "low": {
+          "title": "Full-Day Szentendre History Route on a Low Budget",
+          "summary": "A full day discovering Szentendre’s cultural and historical heritage while enjoying simple and affordable local food.",
           "schedule": [
             {
               "time": "09:00",
-              "title": "Fő Tér Historical Warm-Up",
-              "description": "Start at the main square surrounded by old merchant houses and centuries-old architecture."
+              "title": "Old Town Historical Warm-Up",
+              "description": "Start by walking through the narrow cobblestone streets filled with centuries-old houses."
             },
             {
               "time": "10:00",
-              "title": "Serbian Orthodox Cathedral Area",
-              "description": "Walk up to the Serbian Orthodox church, symbol of the Serbian settlers who shaped Szentendre’s culture."
+              "title": "Szentendre Main Square",
+              "description": "Learn about the Serbian, Hungarian, and Dalmatian influences reflected in the architecture."
             },
             {
               "time": "11:00",
-              "title": "Szentendre Church Trail",
-              "description": "Check out several churches — Baroque, Orthodox, and Catholic — each reflecting a different cultural layer."
+              "title": "Blagovestenska Church (Exterior Visit)",
+              "description": "Admire the Serbian Orthodox church and its historical surroundings."
             },
             {
               "time": "12:30",
               "title": "Budget Local Lunch",
-              "description": "Enjoy an affordable traditional Hungarian or Serbian-influenced meal — soups, stews, or daily menus."
+              "description": "Affordable Hungarian classics like goulash soup, lángos, or simple grilled dishes."
             },
             {
               "time": "14:00",
-              "title": "Szentendre Historical Museum",
-              "description": "Artifacts, stories, and exhibits showing Szentendre’s multicultural, multi-ethnic past."
-            },
-            {
-              "time": "15:30",
-              "title": "Blagovestenska Church & Baroque Streets",
-              "description": "Walk through merchant streets and explore one of the town’s most iconic Orthodox courtyards."
-            },
-            {
-              "time": "17:00",
-              "title": "Danube Promenade & Simple Drink",
-              "description": "Relax by the river with a budget-friendly drink and enjoy the end of your historical day."
-            }
-          ]
-        },
-        "comfortable": {
-          "title": "Full-Day Szentendre History Journey with Comfortable Dining",
-          "summary": "A relaxed full-day historical tour: churches, heritage buildings, museums, and a comfortable traditional lunch.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "Coffee & Fő Tér Introduction",
-              "description": "Start with coffee while admiring the historic architecture around the main square."
-            },
-            {
-              "time": "10:00",
-              "title": "Historic Churches of Szentendre",
-              "description": "Visit Serbian, Greek, and Catholic churches to explore the town’s multicultural heritage."
-            },
-            {
-              "time": "11:30",
-              "title": "Old Town Heritage Walk",
-              "description": "Stroll through preserved merchant lanes and Baroque streets."
-            },
-            {
-              "time": "13:00",
-              "title": "Traditional Comfortable Lunch",
-              "description": "A sit-down Hungarian meal in a cozy restaurant — soups, stews, and slow-cooked dishes."
-            },
-            {
-              "time": "14:30",
-              "title": "Szentendre Historical Museum",
-              "description": "Explore exhibits about local traditions, customs, and ethnic history."
+              "title": "Open-Air Ethnographic Corners",
+              "description": "Walk through public areas showing traditional village-style architecture."
             },
             {
               "time": "16:00",
-              "title": "Skansen Preview Walk",
-              "description": "A short walk near the Open-Air Museum grounds (optional but recommended)."
+              "title": "Danube Riverside History Walk",
+              "description": "Learn how the river shaped the town’s culture through the centuries."
             },
             {
               "time": "18:00",
-              "title": "Riverside Evening Finish",
-              "description": "Relax with wine or a soft drink by the river to close out your day."
+              "title": "Evening Through Heritage Streets",
+              "description": "End with a calm stroll in the most charming historical alleys."
+            }
+          ]
+        },
+
+        "medium": {
+          "title": "Balanced Szentendre Heritage Day",
+          "summary": "A comfortable full-day route exploring the rich multicultural history of Szentendre with mid-range traditional food.",
+          "schedule": [
+            {
+              "time": "09:00",
+              "title": "Historic Old Town Start",
+              "description": "Begin in the picturesque center filled with old merchant houses."
+            },
+            {
+              "time": "10:00",
+              "title": "Serbian Orthodox Museum",
+              "description": "View traditional artifacts showcasing the town’s Balkan heritage."
+            },
+            {
+              "time": "12:00",
+              "title": "Medium Local Lunch",
+              "description": "Traditional meals served in a comfortable restaurant."
+            },
+            {
+              "time": "13:30",
+              "title": "Kovács Margit Museum",
+              "description": "Explore unique ceramic artworks influenced by local culture and history."
+            },
+            {
+              "time": "15:30",
+              "title": "Danube Promenade Walk",
+              "description": "Learn about how the riverside area developed through historical periods."
+            },
+            {
+              "time": "17:00",
+              "title": "Historical Streets Wrap-Up",
+              "description": "End the day walking through preserved baroque-style streets."
+            }
+          ]
+        },
+
+        "high": {
+          "title": "High-End Szentendre Heritage Tour",
+          "summary": "A refined full-day dive into Szentendre’s multicultural history with premium traditional meals.",
+          "schedule": [
+            {
+              "time": "09:00",
+              "title": "Premium Historical Old Town Walk",
+              "description": "Visit the finest preserved buildings and top historical viewpoints."
+            },
+            {
+              "time": "10:30",
+              "title": "Serbian Orthodox Church & Museum",
+              "description": "Explore the rich collection of religious art and historical artifacts."
+            },
+            {
+              "time": "12:30",
+              "title": "High-End Traditional Lunch",
+              "description": "Refined Hungarian dishes with high-quality ingredients."
+            },
+            {
+              "time": "14:00",
+              "title": "Szentendre Historical Collection",
+              "description": "Browse curated exhibitions showcasing different eras of the town."
+            },
+            {
+              "time": "16:00",
+              "title": "Scenic Riverside Heritage Track",
+              "description": "Walk through well-maintained river paths rich in historical context."
+            },
+            {
+              "time": "18:00",
+              "title": "Elegant Heritage Street Finish",
+              "description": "Conclude in perfectly preserved baroque and rococo streets."
+            }
+          ]
+        },
+
+        "comfortable": {
+          "title": "Luxury Full-Day Heritage Experience",
+          "summary": "A polished and elegant historical route through the finest cultural spaces with luxury dining.",
+          "schedule": [
+            {
+              "time": "09:00",
+              "title": "Luxury Historical District Start",
+              "description": "Walk through the most refined, beautifully restored heritage streets."
+            },
+            {
+              "time": "10:30",
+              "title": "VIP Serbian Orthodox Heritage Tour",
+              "description": "A deep dive into Szentendre’s Balkan cultural influences."
+            },
+            {
+              "time": "12:30",
+              "title": "Fine Dining Traditional Lunch",
+              "description": "Premium reinterpretations of classic heritage dishes."
+            },
+            {
+              "time": "14:00",
+              "title": "Top Heritage Museums Circuit",
+              "description": "Visit curated exhibitions in Szentendre’s most exclusive cultural venues."
+            },
+            {
+              "time": "16:00",
+              "title": "Elite Historical Riverside Walk",
+              "description": "Enjoy a polished promenade filled with cultural references."
+            },
+            {
+              "time": "18:00",
+              "title": "Golden-Hour Heritage Lane",
+              "description": "End the day in the most photogenic old streets."
             }
           ]
         }
       },
+
       "light_veggie": {
-        "budget": {
-          "title": "Full-Day Szentendre History + Light Veggie Budget Plan",
-          "summary": "A historical full-day route with vegetarian-friendly affordable meals.",
+        "low": {
+          "title": "Full-Day Veggie-Friendly History Route (Low Budget)",
+          "summary": "A simple, gentle historical route designed for travelers who want healthy vegetarian options.",
           "schedule": [
             {
               "time": "09:00",
-              "title": "Light Breakfast & Historical Square Walk",
-              "description": "Start the day gently with a light snack and explore the historical heart of the town."
+              "title": "Veggie Pastry + Old Town History",
+              "description": "Start with a snack while exploring old merchant houses and narrow alleys."
             },
             {
               "time": "10:00",
-              "title": "Church Tour",
-              "description": "Visit the Serbian Orthodox church and one more historic religious site."
+              "title": "Main Square Heritage Look",
+              "description": "Learn about the cultural mix that shaped Szentendre."
             },
             {
               "time": "11:30",
-              "title": "Town History Museum",
-              "description": "Learn about Szentendre’s mixed ethnic background and heritage."
+              "title": "Historic Church Exteriors",
+              "description": "Stop by several religious heritage buildings for photo spots."
             },
             {
               "time": "12:30",
-              "title": "Veggie Budget Lunch",
-              "description": "Affordable vegetarian options like soups, pasta, or salads."
+              "title": "Budget Veggie Lunch",
+              "description": "Affordable salads, veggie pastas, or grilled vegetable plates."
             },
             {
               "time": "14:00",
-              "title": "Baroque Street Walk",
-              "description": "Explore the most charming historical streets."
+              "title": "Heritage Lane Walk",
+              "description": "Walk through old cobblestone paths filled with local history."
             },
             {
-              "time": "15:30",
-              "title": "Café Break",
-              "description": "Relax with tea or lemonade in a cozy café."
+              "time": "16:00",
+              "title": "Danube Riverside Rest",
+              "description": "A peaceful nature break with river views."
             },
             {
-              "time": "17:00",
-              "title": "Danube Walk",
-              "description": "A calm walk along the riverside promenade."
+              "time": "18:00",
+              "title": "Evening Heritage Corners",
+              "description": "End your day in the atmospheric old town."
             }
           ]
         },
-        "comfortable": {
-          "title": "Full-Day Szentendre History Immersion with Comfortable Veggie Dining",
-          "summary": "A full-day historical tour paired with healthy vegetarian dining in pleasant restaurants.",
+
+        "medium": {
+          "title": "Balanced Veggie Heritage Day",
+          "summary": "A comfortable vegetarian-friendly historical route around Szentendre.",
           "schedule": [
             {
               "time": "09:00",
-              "title": "Café Breakfast",
-              "description": "Start the day comfortably with light vegetarian options."
+              "title": "Healthy Veggie Breakfast",
+              "description": "Begin with a smoothie bowl, fruit, or light snack."
+            },
+            {
+              "time": "10:00",
+              "title": "Heritage Museum Visit",
+              "description": "Explore collections showcasing the town’s ethnic groups and past."
+            },
+            {
+              "time": "12:00",
+              "title": "Vegetarian Lunch",
+              "description": "Balanced veggie meals in a mid-range restaurant."
+            },
+            {
+              "time": "13:30",
+              "title": "Historic Streets Walk",
+              "description": "Wander through Szentendre’s classic architecture zones."
+            },
+            {
+              "time": "15:30",
+              "title": "Riverside Break",
+              "description": "Relax by the Danube while absorbing the town’s history."
+            },
+            {
+              "time": "17:00",
+              "title": "Old Town Finish",
+              "description": "Return to the main square for a final heritage look."
+            }
+          ]
+        },
+
+        "high": {
+          "title": "High-End Veggie Heritage Tour",
+          "summary": "A refined vegetarian-friendly journey through Szentendre’s cultural monuments.",
+          "schedule": [
+            {
+              "time": "09:00",
+              "title": "Premium Veggie Breakfast",
+              "description": "Start with an elegant plant-based morning meal."
+            },
+            {
+              "time": "10:00",
+              "title": "Curated Heritage Museum Stop",
+              "description": "Discover high-quality exhibitions revealing the town’s history."
+            },
+            {
+              "time": "12:30",
+              "title": "High-End Veggie Lunch",
+              "description": "Refined vegetarian plates prepared with excellent ingredients."
+            },
+            {
+              "time": "14:00",
+              "title": "Historical Architecture Trail",
+              "description": "Visit the finest heritage buildings and quiet historical corners."
+            },
+            {
+              "time": "16:00",
+              "title": "Elegant Riverside Walk",
+              "description": "Stroll through the cleanest, most scenic riverside sections."
+            },
+            {
+              "time": "18:00",
+              "title": "Heritage Lane Sunset",
+              "description": "A perfect way to close the day."
+            }
+          ]
+        },
+
+        "comfortable": {
+          "title": "Luxury Veggie Heritage Experience",
+          "summary": "A sophisticated historical route with fine vegetarian meals and exclusive cultural stops.",
+          "schedule": [
+            {
+              "time": "09:00",
+              "title": "Luxury Veggie Breakfast",
+              "description": "Premium plant-based dishes served in an upscale café."
+            },
+            {
+              "time": "10:00",
+              "title": "VIP Historical Museum Circuit",
+              "description": "Visit the most prestigious cultural collections in town."
+            },
+            {
+              "time": "12:30",
+              "title": "Fine Vegetarian Lunch",
+              "description": "Top-tier plant-based meals with artistic plating."
+            },
+            {
+              "time": "14:00",
+              "title": "Exclusive Heritage Walk",
+              "description": "Explore the most elegant and historically significant streets."
+            },
+            {
+              "time": "16:00",
+              "title": "Riverside Elite Path",
+              "description": "Walk through refined riverside viewpoints and resting areas."
+            },
+            {
+              "time": "18:00",
+              "title": "Golden-Hour Heritage Finish",
+              "description": "End the day in a beautifully preserved historical setting."
+            }
+          ]
+        }
+      },
+
+      "try_everything": {
+        "low": {
+          "title": "Full-Day Tasting + History on a Budget",
+          "summary": "A day combining Szentendre’s history with fun, low-cost snacks.",
+          "schedule": [
+            {
+              "time": "09:00",
+              "title": "Pastry Taste + Old Town History",
+              "description": "Start with local pastries while exploring historic streets."
             },
             {
               "time": "10:00",
               "title": "Historic Churches Circuit",
-              "description": "Explore multiple churches representing different cultural influences."
+              "description": "See several churches from different cultural groups."
             },
             {
-              "time": "11:30",
-              "title": "Old Town Architecture Walk",
-              "description": "Walk through charming historical lanes with preserved merchant houses."
+              "time": "12:00",
+              "title": "Budget Tasting Lunch",
+              "description": "Try a few small cheap plates inspired by local cuisine."
             },
             {
-              "time": "13:00",
-              "title": "Vegetarian-Friendly Restaurant Lunch",
-              "description": "A comfortable sit-down lunch with refined veggie dishes."
-            },
-            {
-              "time": "14:30",
-              "title": "History Museum & Surroundings",
-              "description": "A museum visit followed by a walk through surrounding historic areas."
-            },
-            {
-              "time": "16:30",
-              "title": "Café or Dessert Break",
-              "description": "Treat yourself to tea, coffee, or a dessert."
-            },
-            {
-              "time": "18:00",
-              "title": "Evening Danube Walk",
-              "description": "The perfect relaxing end to a history-filled day."
-            }
-          ]
-        }
-      },
-      "try_everything": {
-        "budget": {
-          "title": "Full-Day Szentendre History Tour for Curious Tasters (Budget)",
-          "summary": "History mixed with multiple small tasting stops — perfect for explorers who love trying everything.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "Bakery Start",
-              "description": "Pick a couple of pastries and explore Fő Tér."
-            },
-            {
-              "time": "10:00",
-              "title": "Church Tour",
-              "description": "Visit a Serbian and a Catholic church to see different styles and influences."
-            },
-            {
-              "time": "11:30",
-              "title": "History Museum Visit",
-              "description": "Get a quick but engaging look into Szentendre’s heritage."
-            },
-            {
-              "time": "13:00",
-              "title": "Mixed Budget Lunch",
-              "description": "Try two or three small Hungarian dishes."
-            },
-            {
-              "time": "14:30",
-              "title": "Baroque Streets Walk",
-              "description": "Stroll through the preserved historical streets."
+              "time": "14:00",
+              "title": "Heritage Corners Walk",
+              "description": "Explore hidden historical alleys."
             },
             {
               "time": "16:00",
-              "title": "Coffee & Small Sweet",
-              "description": "Recharge with a dessert or sweet snack."
+              "title": "Ice Cream History Break",
+              "description": "Try 1–2 flavors at riverside spots while learning about the area."
             },
             {
-              "time": "17:30",
-              "title": "Riverside Relax",
-              "description": "A quiet riverside walk to end the day."
+              "time": "18:00",
+              "title": "Evening Heritage Lane",
+              "description": "Finish with soft evening light in historic streets."
             }
           ]
         },
-        "comfortable": {
-          "title": "Full-Day Szentendre History & Tasting Experience",
-          "summary": "A rich cultural day paired with tasting-style meals and a gentle scenic finish.",
+
+        "medium": {
+          "title": "Balanced Tasting + Heritage Day",
+          "summary": "A full-day of small dishes and historical attractions at comfortable pricing.",
           "schedule": [
             {
               "time": "09:00",
-              "title": "Café Breakfast Tasting",
-              "description": "Start with a small sweet and savory tasting combo."
+              "title": "Mini Tasting Breakfast",
+              "description": "Try 2–3 small pastries to start your day."
             },
             {
               "time": "10:00",
-              "title": "Church Heritage Circuit",
-              "description": "Tour several historic churches representing Szentendre’s diverse past."
+              "title": "Museum of Ethnic Heritage",
+              "description": "Explore multicultural influences across centuries."
             },
             {
-              "time": "11:30",
-              "title": "Old Town Architecture Trail",
-              "description": "Explore beautifully preserved lanes and houses."
+              "time": "12:30",
+              "title": "Medium Tasting Lunch",
+              "description": "Shared small plates inspired by Hungarian flavors."
             },
             {
-              "time": "13:00",
-              "title": "Tasting Lunch",
-              "description": "Share multiple small plates inspired by Hungarian and Serbian flavors."
-            },
-            {
-              "time": "14:30",
-              "title": "Historical Museum Walkthrough",
-              "description": "Immerse yourself in local history, customs, and artifacts."
+              "time": "14:00",
+              "title": "Historic Old Town Walk",
+              "description": "Walk through the best-preserved quarters."
             },
             {
               "time": "16:00",
-              "title": "Coffee & Dessert",
-              "description": "A sweet afternoon moment to relax."
+              "title": "Dessert Stop",
+              "description": "Sample cakes or fruit-based treats."
             },
             {
               "time": "18:00",
-              "title": "Riverside Golden Hour Walk",
-              "description": "End the day at the Danube during golden hour — peaceful and scenic."
+              "title": "Riverside Heritage Stroll",
+              "description": "Wrap up your day with a relaxing historical riverside walk."
+            }
+          ]
+        },
+
+        "high": {
+          "title": "High-End Tasting + Heritage Day",
+          "summary": "Premium tasting plates and refined historical attractions.",
+          "schedule": [
+            {
+              "time": "09:00",
+              "title": "Premium Morning Tasting",
+              "description": "Elegant mini breakfast dishes."
+            },
+            {
+              "time": "10:00",
+              "title": "Exclusive Heritage Museum",
+              "description": "Visit curated exhibits and premium cultural rooms."
+            },
+            {
+              "time": "12:30",
+              "title": "High-End Tasting Lunch",
+              "description": "Several refined small dishes inspired by tradition."
+            },
+            {
+              "time": "14:00",
+              "title": "Top Historical Architecture Trail",
+              "description": "See the most decorative and preserved buildings."
+            },
+            {
+              "time": "16:00",
+              "title": "Premium Dessert Spot",
+              "description": "Try high-quality sweets in a stylish café."
+            },
+            {
+              "time": "18:00",
+              "title": "Elegant Riverside Finish",
+              "description": "A calm luxurious walk at sunset."
+            }
+          ]
+        },
+
+        "comfortable": {
+          "title": "Luxury Heritage + Tasting Experience",
+          "summary": "Fine dining tasting menus combined with exclusive historical exploration.",
+          "schedule": [
+            {
+              "time": "09:00",
+              "title": "Luxury Tasting Breakfast",
+              "description": "Start with premium, artfully prepared small dishes."
+            },
+            {
+              "time": "10:00",
+              "title": "VIP Heritage Museum Tour",
+              "description": "Visit elite cultural rooms and high-value exhibits."
+            },
+            {
+              "time": "12:30",
+              "title": "Fine Dining Tasting Lunch",
+              "description": "Multi-course tasting inspired by Hungarian tradition."
+            },
+            {
+              "time": "14:00",
+              "title": "Exclusive Historical Walk",
+              "description": "Premium tour of Szentendre’s most valuable architecture."
+            },
+            {
+              "time": "16:00",
+              "title": "Luxury Dessert & Tea",
+              "description": "Enjoy refined sweets with elegant service."
+            },
+            {
+              "time": "18:00",
+              "title": "Golden-Hour Heritage Finale",
+              "description": "End the day surrounded by the best views of old Szentendre."
             }
           ]
         }

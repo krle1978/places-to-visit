@@ -2,240 +2,302 @@
 // CONFIG
 // =======================
 
-const JSON_URL = "/assets/recommendations/timisoara_route_recommendations.json";
+const JSON_URLS = [
+  "/assets/recommendations/romania/timisoara/timisoara_route_FD_art_recommendations.json",
+  "/assets/recommendations/romania/timisoara/timisoara_route_FD_history_recommendations.json",
+  "/assets/recommendations/romania/timisoara/timisoara_route_FD_mixed_recommendations.json",
+  "/assets/recommendations/romania/timisoara/timisoara_route_FD_nature_recommendations.json",
+  "/assets/recommendations/romania/timisoara/timisoara_route_FD_nightlife_recommendations.json",
+  "/assets/recommendations/romania/timisoara/timisoara_route_HD_art_recommendations.json",
+  "/assets/recommendations/romania/timisoara/timisoara_route_HD_history_recommendations.json",
+  "/assets/recommendations/romania/timisoara/timisoara_route_HD_mixed_recommendations.json",
+  "/assets/recommendations/romania/timisoara/timisoara_route_HD_nature_recommendations.json",
+  "/assets/recommendations/romania/timisoara/timisoara_route_HD_nightlife_recommendations.json"
+];
+
+const FOOD_JSON_URL = "/assets/recommendations/romania/timisoara/timisoara_food_recommendations.json";
+
+// =======================
+// ICONS
+// =======================
 
 const icons = {
-    interest: {
-        history: "🏰",
-        art: "🎨",
-        nature: "🌿",
-        nightlife: "🍸"
-    },
-    food: {
-        local_specialties: "🍲",
-        light_veggie: "🥗",
-        try_everything: "🍽️"
-    },
-    budget: {
-        low: "💸",
-        medium: "💶",
-        high: "💎"
-    },
-    tripType: {
-        full_day: "🕒",
-        half_day: "⏱️",
-        evening: "🌙"
-    }
+  interest: { history: "🏰", art: "🎨", nature: "🌿", nightlife: "🍸", mixed: "🔀" },
+  food: { local_specialties: "🍲", light_veggie: "🥗", try_everything: "🍽️" },
+  budget: { low: "💸", medium: "💶", high: "💎" },
+  tripType: { full_day: "🕒", half_day: "⏱️" }
 };
 
+// =======================
+// DATA
+// =======================
+
 let routeRecommendations = [];
+let foodRecommendations = null;
+
 let routesLoaded = false;
+let foodLoaded = false;
 let routesLoadError = null;
 
+// =======================
+// UTIL
+// =======================
+
 function formatOptionLabel(str) {
-    return str.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+  return str.replace(/_/g, " ").replace(/\b\w/g, c => c.toUpperCase());
 }
 
 // =======================
-// LOAD JSON
+// LOAD ROUTES
 // =======================
 
 function flattenRecommendations(data) {
-    const result = [];
+  const result = [];
 
-    const tripDurations = Object.keys(data); // e.g. "full_day", "half_day", etc.
-    tripDurations.forEach(duration => {
-        const interests = data[duration];
-        Object.keys(interests).forEach(interest => {
-            const foods = interests[interest];
-            Object.keys(foods).forEach(food => {
-                const budgets = foods[food];
-                Object.keys(budgets).forEach(budget => {
-                    const entry = budgets[budget];
-                    result.push({
-                        tripType: duration,
-                        interest,
-                        food,
-                        budget,
-                        recommendation: entry
-                    });
-                });
-            });
+  Object.keys(data).forEach(duration => {
+    Object.keys(data[duration]).forEach(interest => {
+      Object.keys(data[duration][interest]).forEach(food => {
+        Object.keys(data[duration][interest][food]).forEach(budget => {
+          result.push({
+            tripType: duration,
+            interest,
+            food,
+            budget,
+            recommendation: data[duration][interest][food][budget]
+          });
         });
+      });
     });
+  });
 
-    return result;
+  return result;
 }
 
 function loadRouteRecommendations() {
-    return fetch(JSON_URL)
-        .then(res => {
-            if (!res.ok) throw new Error("Failed to load JSON: " + res.status);
-            return res.json();
-        })
-        .then(json => {
-            routeRecommendations = flattenRecommendations(json);
-            routesLoaded = true;
-            console.info("[Timisoara routes] Loaded", routeRecommendations.length, "routes.");
-        })
-        .catch(err => {
-            routesLoadError = err;
-            console.error(err);
-        });
-}
-
-// =======================
-// UI UTILITIES
-// =======================
-
-function buildResultCard(data) {
-    const { tripType, interest, food, budget, recommendation } = data;
-
-    const card = document.createElement("div");
-    card.className = "card route-card";
-
-    const headerIcons = [
-        icons.tripType[tripType],
-        icons.interest[interest],
-        icons.food[food],
-        icons.budget[budget]
-    ].filter(Boolean).join(" ");
-
-    let bodyHTML = `<strong>${recommendation.title}</strong><br><em>${recommendation.summary}</em><br><br>`;
-    recommendation.schedule.forEach(item => {
-        bodyHTML += `<strong>${item.time} — ${item.title}</strong><br>${item.description}<br><br>`;
+  return Promise.all(
+    JSON_URLS.map(url =>
+      fetch(url).then(res => {
+        if (!res.ok) throw new Error("Failed: " + url);
+        return res.json();
+      })
+    )
+  )
+  .then(jsons => {
+    jsons.forEach(json => {
+      routeRecommendations = routeRecommendations.concat(flattenRecommendations(json));
     });
-
-    card.innerHTML = `
-        <div class="route-card-icon">${headerIcons}</div>
-        <div class="card-text">
-            <h3>${formatOptionLabel(interest)} • ${formatOptionLabel(food)} • ${formatOptionLabel(budget)}</h3>
-            <p>${bodyHTML}</p>
-        </div>
-    `;
-
-    return card;
+    routesLoaded = true;
+    console.info("[Timisoara routes] Loaded:", routeRecommendations.length);
+  })
+  .catch(err => {
+    routesLoadError = err;
+    console.error("Route load error:", err);
+  });
 }
+
+// =======================
+// LOAD FOOD
+// =======================
+
+function loadFoodRecommendations() {
+  return fetch(FOOD_JSON_URL)
+    .then(res => {
+      if (!res.ok) throw new Error("Food JSON not found");
+      return res.json();
+    })
+    .then(json => {
+      foodRecommendations = json;
+      foodLoaded = true;
+      console.info("[Timisoara food] Loaded");
+    })
+    .catch(err => {
+      console.error("Food load error:", err);
+    });
+}
+
+// =======================
+// UI BUILDERS
+// =======================
+
+function buildRouteCard(data) {
+  const { tripType, interest, food, budget, recommendation } = data;
+
+  const card = document.createElement("div");
+  card.className = "card route-card";
+
+  const headerIcons = [
+    icons.tripType[tripType],
+    icons.interest[interest],
+    icons.food[food],
+    icons.budget[budget]
+  ].join(" ");
+
+  let body = `<strong>${recommendation.title}</strong><br><em>${recommendation.summary}</em><br><br>`;
+  recommendation.schedule.forEach(item => {
+    body += `<strong>${item.time} — ${item.title}</strong><br>${item.description}<br><br>`;
+  });
+
+  card.innerHTML = `
+    <div class="route-card-icon">${headerIcons}</div>
+    <div class="card-text">
+      <h3>${formatOptionLabel(interest)} • ${formatOptionLabel(food)} • ${formatOptionLabel(budget)}</h3>
+      <p>${body}</p>
+    </div>
+  `;
+
+  return card;
+}
+
+function buildFoodCard(foodData, foodKey, budgetKey) {
+  const card = document.createElement("div");
+  card.className = "card route-card";
+
+  let body = `<strong>${foodData.title}</strong><br><em>${foodData.summary}</em><br><br>`;
+  foodData.recommendations.forEach(item => {
+    body += `<strong>${item.time} — ${item.place}</strong><br>${item.description}<br><br>`;
+  });
+
+  card.innerHTML = `
+    <div class="route-card-icon">🍽️</div>
+    <div class="card-text">
+      <h3>${formatOptionLabel(foodKey)} • ${formatOptionLabel(budgetKey)}</h3>
+      <p>${body}</p>
+    </div>
+  `;
+
+  return card;
+}
+
+// =======================
+// DROPDOWNS
+// =======================
 
 function populateDropdowns() {
-    const tripSelect = document.getElementById("route-trip-type");
-    const interestSelect = document.getElementById("route-interest");
-    const foodSelect = document.getElementById("route-food");
-    const budgetSelect = document.getElementById("route-budget");
+  const trip = document.getElementById("route-trip-type");
+  const interest = document.getElementById("route-interest");
+  const food = document.getElementById("route-food");
+  const budget = document.getElementById("route-budget");
 
-    if (!tripSelect || !interestSelect || !foodSelect || !budgetSelect) return;
+  const uniq = arr => [...new Set(arr)].sort();
 
-    const unique = arr => [...new Set(arr)].sort();
+  trip.innerHTML = `<option value="">-- Select trip type --</option>` +
+    uniq(routeRecommendations.map(r => r.tripType)).map(v =>
+      `<option value="${v}">${formatOptionLabel(v)}</option>`).join("");
 
-    const tripTypes = unique(routeRecommendations.map(r => r.tripType));
-    tripSelect.innerHTML = `<option value="">-- Select trip type --</option>`;
-    tripTypes.forEach(v => tripSelect.innerHTML += `<option value="${v}">${formatOptionLabel(v)}</option>`);
+  interest.innerHTML = `<option value="">-- Select interest --</option>` +
+    uniq(routeRecommendations.map(r => r.interest)).map(v =>
+      `<option value="${v}">${formatOptionLabel(v)}</option>`).join("");
 
-    const interests = unique(routeRecommendations.map(r => r.interest));
-    interestSelect.innerHTML = `<option value="">-- Select interest --</option>`;
-    interests.forEach(v => interestSelect.innerHTML += `<option value="${v}">${formatOptionLabel(v)}</option>`);
+  food.innerHTML = `<option value="">-- Select food type --</option>` +
+    uniq(routeRecommendations.map(r => r.food)).map(v =>
+      `<option value="${v}">${formatOptionLabel(v)}</option>`).join("");
 
-    const foods = unique(routeRecommendations.map(r => r.food));
-    foodSelect.innerHTML = `<option value="">-- Select food type --</option>`;
-    foods.forEach(v => foodSelect.innerHTML += `<option value="${v}">${formatOptionLabel(v)}</option>`);
-
-    const budgets = unique(routeRecommendations.map(r => r.budget));
-    budgetSelect.innerHTML = `<option value="">-- Select budget --</option>`;
-    budgets.forEach(v => budgetSelect.innerHTML += `<option value="${v}">${formatOptionLabel(v)}</option>`);
+  budget.innerHTML = `<option value="">-- Select budget --</option>` +
+    uniq(routeRecommendations.map(r => r.budget)).map(v =>
+      `<option value="${v}">${formatOptionLabel(v)}</option>`).join("");
 }
 
 // =======================
-// INIT UI
+// INIT
 // =======================
 
 document.addEventListener("DOMContentLoaded", () => {
-    const tripSelect = document.getElementById("route-trip-type");
-    const interestSelect = document.getElementById("route-interest");
-    const foodSelect = document.getElementById("route-food");
-    const budgetSelect = document.getElementById("route-budget");
 
-    const submitBtn = document.getElementById("route-submit");
-    const errorMessage = document.getElementById("route-error");
-    const resultContainer = document.getElementById("route-result");
-    const pdfBtn = document.getElementById("save-pdf-btn");
+  const trip = document.getElementById("route-trip-type");
+  const interest = document.getElementById("route-interest");
+  const food = document.getElementById("route-food");
+  const budget = document.getElementById("route-budget");
 
-    const panel = document.getElementById("route-planner-panel");
-    const header = document.getElementById("route-planner-toggle");
-    const openBtn = document.getElementById("route-open-btn");
+  const btn = document.getElementById("route-submit");
+  const error = document.getElementById("route-error");
+  const result = document.getElementById("route-result");
+  const pdfBtn = document.getElementById("save-pdf-btn");
 
-    loadRouteRecommendations().then(() => {
-        if (!routesLoadError && routeRecommendations.length > 0) {
-            populateDropdowns();
-        }
+  const panel = document.getElementById("route-planner-panel");
+  const header = document.getElementById("route-planner-toggle");
+  const openBtn = document.getElementById("route-open-btn");
+
+  btn.disabled = true;
+
+  Promise.all([loadRouteRecommendations(), loadFoodRecommendations()])
+    .then(() => {
+      if (!routesLoadError && routesLoaded) {
+        populateDropdowns();
+        btn.disabled = false;
+      }
     });
 
-    submitBtn.addEventListener("click", () => {
-        errorMessage.textContent = "";
-        resultContainer.innerHTML = "";
-        pdfBtn.style.display = "none";
+  btn.addEventListener("click", () => {
 
-        if (routesLoadError)
-            return errorMessage.textContent = "Greška pri učitavanju podataka.";
-        if (!routesLoaded)
-            return errorMessage.textContent = "Rute se još učitavaju...";
+    error.textContent = "";
+    result.innerHTML = "";
+    pdfBtn.style.display = "none";
 
-        const tripType = tripSelect.value;
-        const interest = interestSelect.value;
-        const food = foodSelect.value;
-        const budget = budgetSelect.value;
+    const t = trip.value;
+    const i = interest.value;
+    const f = food.value;
+    const b = budget.value;
 
-        if (!tripType || !interest || !food || !budget) {
-            errorMessage.textContent = "Molim te izaberi sve opcije.";
-            return;
-        }
-
-        const match = routeRecommendations.find(r =>
-            r.tripType === tripType &&
-            r.interest === interest &&
-            r.food === food &&
-            r.budget === budget
-        );
-
-        if (!match) {
-            errorMessage.textContent = "Nema preporuke za izabranu kombinaciju.";
-            return;
-        }
-
-        const card = buildResultCard(match);
-        resultContainer.appendChild(card);
-
-        pdfBtn.style.display = "inline-block";
-    });
-
-    // PDF EXPORT
-    pdfBtn?.addEventListener("click", () => {
-        const element = document.getElementById("route-result");
-
-        const opt = {
-            filename: "timisoara-route.pdf",
-            margin: 10,
-            jsPDF: { unit: "mm", format: "a4" }
-        };
-
-        html2pdf().set(opt).from(element).save();
-    });
-
-    // COLLAPSIBLE PANEL
-    if (panel && header) {
-        const toggle = () => {
-            panel.classList.toggle("collapsed");
-            panel.classList.toggle("open");
-        };
-
-        header.addEventListener("click", toggle);
-
-        if (openBtn) {
-            openBtn.addEventListener("click", e => {
-                e.stopPropagation();
-                panel.classList.remove("collapsed");
-                panel.classList.add("open");
-                header.scrollIntoView({ behavior: "smooth" });
-            });
-        }
+    if (!t || !i || !f || !b) {
+      error.textContent = "Molim izaberi sve opcije.";
+      return;
     }
+
+    const normalizedBudget = (b === "comfortable") ? "medium" : b;
+
+    const match = routeRecommendations.find(r =>
+      r.tripType === t &&
+      r.interest === i &&
+      r.food === f &&
+      r.budget === b
+    );
+
+    if (match) {
+      result.appendChild(buildRouteCard(match));
+    } else {
+      error.textContent = "Nema tačne rute, ali pogledaj gastro preporuku 👇";
+    }
+
+    const foodData = foodRecommendations?.[f]?.[normalizedBudget];
+    if (foodData) {
+      result.appendChild(buildFoodCard(foodData, f, normalizedBudget));
+    }
+
+    pdfBtn.style.display = "inline-block";
+  });
+
+  // =======================
+  // COLLAPSIBLE
+  // =======================
+
+  if (panel && header) {
+    const toggle = () => {
+      panel.classList.toggle("collapsed");
+      panel.classList.toggle("open");
+    };
+
+    header.addEventListener("click", toggle);
+
+    openBtn?.addEventListener("click", e => {
+      e.stopPropagation();
+      panel.classList.remove("collapsed");
+      panel.classList.add("open");
+      header.scrollIntoView({ behavior: "smooth" });
+    });
+  }
+
+  // =======================
+  // PDF EXPORT
+  // =======================
+
+  pdfBtn?.addEventListener("click", () => {
+    const element = document.getElementById("route-result");
+    const opt = {
+      filename: "timisoara-route.pdf",
+      margin: 10,
+      jsPDF: { unit: "mm", format: "a4" }
+    };
+    html2pdf().set(opt).from(element).save();
+  });
+
 });

@@ -1,134 +1,335 @@
 {
   "half_day": {
     "history": {
+
       "local_specialties": {
-        "budget": {
-          "title": "Half-Day Budapest History with Budget Local Food",
-          "summary": "Quick but awesome dive into Budapest’s core history, followed by a cheap and tasty Hungarian meal.",
+
+        "low": {
+          "title": "Half-Day Budapest History Route (Low Budget)",
+          "summary": "A short and affordable dive into Budapest’s most important historical areas — mixed with cheap local food.",
           "schedule": [
             {
-              "time": "09:00",
-              "title": "St. Stephen’s Basilica",
-              "description": "Start at one of Budapest’s most iconic buildings. Walk around the square and check out the massive facade."
+              "time": "10:00",
+              "title": "Heroes’ Square",
+              "description": "Learn the basics of Hungarian history through statues of national leaders."
             },
             {
-              "time": "10:30",
-              "title": "Walk to the Parliament",
-              "description": "Head toward the river and explore the Parliament area — one of the most photogenic buildings in Europe."
+              "time": "11:00",
+              "title": "Andrássy Avenue Historical Walk",
+              "description": "A UNESCO World Heritage street with 19th-century buildings."
             },
             {
               "time": "12:00",
               "title": "Budget Local Lunch",
-              "description": "End with something affordable and Hungarian: goulash soup, töltött paprika, or a budget-friendly lángos."
-            }
-          ]
-        },
-        "comfortable": {
-          "title": "Half-Day Budapest History with Comfortable Local Lunch",
-          "summary": "A short but rich historical walk with a proper sit-down Hungarian meal to wrap it up.",
-          "schedule": [
-            {
-              "time": "10:00",
-              "title": "Buda Castle District",
-              "description": "Wander around cobblestone streets, colorful houses, and historical viewpoints. Very fairytale energy."
-            },
-            {
-              "time": "11:30",
-              "title": "Fisherman's Bastion",
-              "description": "One of Budapest’s most famous viewpoints — feels like a real castle. Perfect for photos!"
+              "description": "Affordable Hungarian dishes like goulash soup or a cheap daily menu."
             },
             {
               "time": "13:00",
-              "title": "Comfort Local Lunch",
-              "description": "Sit down at a comfortable Hungarian restaurant and enjoy warm, classic dishes in a cozy setting."
+              "title": "Danube Promenade Memorial Zone",
+              "description": "Walk past key historical memorials and riverfront monuments."
             }
           ]
-        }
-      },
-      "light_veggie": {
-        "budget": {
-          "title": "Half-Day History with Light Budget Meals",
-          "summary": "A short history route and a simple, lighter veggie-friendly lunch — perfect for an easy morning.",
+        },
+
+        "medium": {
+          "title": "Balanced Budapest History Walk",
+          "summary": "A comfortable half-day route through streets full of heritage and Hungarian traditions.",
           "schedule": [
             {
-              "time": "09:00",
+              "time": "10:00",
               "title": "Heroes’ Square",
-              "description": "Kick off at Budapest’s grandest square, with giant statues and open space everywhere."
+              "description": "One of the most iconic historical landmarks in Hungary."
             },
             {
-              "time": "10:30",
-              "title": "City Park Walk",
-              "description": "Walk through Városliget toward the lake and castle-like buildings. Very chill and green."
+              "time": "11:00",
+              "title": "Opera House Area",
+              "description": "Elegant streets filled with Austro-Hungarian era architecture."
             },
             {
               "time": "12:00",
-              "title": "Light Veggie Lunch",
-              "description": "Pick a budget-friendly café or bistro with salads, soups, or vegetarian bowls."
+              "title": "Local Lunch",
+              "description": "Mid-range Hungarian meal with traditional flavors."
+            },
+            {
+              "time": "13:15",
+              "title": "Danube Riverside",
+              "description": "Historical buildings and scenic river views."
             }
           ]
         },
-        "comfortable": {
-          "title": "Half-Day History with Comfortable Light Dining",
-          "summary": "Classic Budapest history spots with a nicer, lighter, modern-style meal.",
+
+        "high": {
+          "title": "High-End Historical Budapest Experience",
+          "summary": "Premium quality sightseeing with elegant historic buildings and refined local food.",
           "schedule": [
             {
               "time": "10:00",
-              "title": "Várkert Bazár Walk",
-              "description": "A beautiful riverside walkway under Buda Castle — chill, scenic, and full of history."
+              "title": "Hungarian National Museum",
+              "description": "A curated visit to explore important historical periods."
             },
             {
               "time": "11:30",
-              "title": "Castle Garden & Old Walls",
-              "description": "Walk around restored historical walls and gardens overlooking the river."
+              "title": "Andrássy Avenue",
+              "description": "Walk one of Europe’s most historic boulevards."
             },
             {
-              "time": "13:00",
-              "title": "Light but Quality Lunch",
-              "description": "Enjoy a comfortable restaurant with creative light dishes — soups, salads, veggie plates."
+              "time": "12:45",
+              "title": "High-End Local Lunch",
+              "description": "Elevated versions of traditional Hungarian dishes."
+            },
+            {
+              "time": "14:00",
+              "title": "Danube Parliament View",
+              "description": "Iconic architecture with a deep historical background."
+            }
+          ]
+        },
+
+        "comfortable": {
+          "title": "Luxury Budapest Historical Walk",
+          "summary": "Exclusive-feeling heritage stops, curated museum time and fine dining.",
+          "schedule": [
+            {
+              "time": "10:00",
+              "title": "VIP Heroes’ Square Start",
+              "description": "See monumental sculptures in a calm, elegant morning setting."
+            },
+            {
+              "time": "11:00",
+              "title": "Curated Museum Visit",
+              "description": "Pick a top museum to explore selected historical exhibits."
+            },
+            {
+              "time": "12:45",
+              "title": "Fine Dining Hungarian Lunch",
+              "description": "Luxurious local dishes inspired by Hungarian tradition."
+            },
+            {
+              "time": "14:00",
+              "title": "Royal Danube Walk",
+              "description": "Prestigious architecture along Budapest’s most scenic river path."
             }
           ]
         }
       },
-      "try_everything": {
-        "budget": {
-          "title": "Half-Day History for Curious Eaters on a Budget",
-          "summary": "See Budapest’s must-see history spots and try a couple of cheap local dishes afterward.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "Shoes on the Danube Bank",
-              "description": "Start with a powerful historical memorial right by the river."
-            },
-            {
-              "time": "10:30",
-              "title": "Hungarian Parliament Exterior Walk",
-              "description": "Circle around the Parliament area and explore the monuments and river views."
-            },
-            {
-              "time": "12:00",
-              "title": "Mixed Budget Lunch",
-              "description": "Order 2–3 small Hungarian dishes to sample different flavors without spending much."
-            }
-          ]
-        },
-        "comfortable": {
-          "title": "Half-Day History with Rich Food Taste",
-          "summary": "A deep but short historical walk followed by a tasting-style Hungarian lunch.",
+
+      "light_veggie": {
+
+        "low": {
+          "title": "Half-Day History + Veggie (Low Budget)",
+          "summary": "A simple historical walk with vegetarian-friendly food.",
           "schedule": [
             {
               "time": "10:00",
-              "title": "Matthias Church & Castle Quarter",
-              "description": "Explore one of the most beautiful areas of Budapest — colorful roofs, old buildings, epic views."
+              "title": "Heroes’ Square",
+              "description": "Learn about Hungarian history through statues and memorial elements."
             },
             {
-              "time": "11:30",
-              "title": "Fisherman's Bastion Photos",
-              "description": "Take your time with the viewpoints and explore the small passageways."
+              "time": "11:00",
+              "title": "Historic Andrássy Walk",
+              "description": "A beautiful UNESCO boulevard."
+            },
+            {
+              "time": "12:00",
+              "title": "Veggie Budget Lunch",
+              "description": "Simple soups, salads, pasta or veggie bowls."
             },
             {
               "time": "13:00",
-              "title": "Tasting Lunch",
-              "description": "Enjoy several smaller plates of Hungarian classics in a comfortable restaurant."
+              "title": "Danube Riverside",
+              "description": "Historical monuments and scenic river atmosphere."
+            }
+          ]
+        },
+
+        "medium": {
+          "title": "Balanced Veggie History Route",
+          "summary": "A comfortable sightseeing plan with healthy vegetarian dishes.",
+          "schedule": [
+            {
+              "time": "10:00",
+              "title": "City Park & Heroes’ Square",
+              "description": "A mix of nature and historical monuments."
+            },
+            {
+              "time": "11:00",
+              "title": "Opera House & Surroundings",
+              "description": "Iconic buildings with strong historical identity."
+            },
+            {
+              "time": "12:00",
+              "title": "Vegetarian Lunch",
+              "description": "Balanced and tasty plant-based dishes."
+            },
+            {
+              "time": "13:15",
+              "title": "Danube Promenade",
+              "description": "A relaxing riverside historical walk."
+            }
+          ]
+        },
+
+        "high": {
+          "title": "High-End Veggie Historical Experience",
+          "summary": "Premium vegetarian meals with refined historical spots.",
+          "schedule": [
+            {
+              "time": "10:00",
+              "title": "National Museum",
+              "description": "See one or two curated historical exhibits."
+            },
+            {
+              "time": "11:30",
+              "title": "Elegance of Andrássy",
+              "description": "Prestigious historical buildings."
+            },
+            {
+              "time": "12:45",
+              "title": "High-End Veggie Lunch",
+              "description": "Beautifully prepared vegetarian dishes."
+            },
+            {
+              "time": "14:00",
+              "title": "Parliament Panorama",
+              "description": "A historical symbol on the Danube."
+            }
+          ]
+        },
+
+        "comfortable": {
+          "title": "Luxury Veggie Historical Walk",
+          "summary": "An elegant sightseeing route with luxurious plant-based dining.",
+          "schedule": [
+            {
+              "time": "10:00",
+              "title": "VIP Heroes’ Square",
+              "description": "Explore monumental sculptures calmly."
+            },
+            {
+              "time": "11:00",
+              "title": "Curated Museum Experience",
+              "description": "Choose a top-level historical exhibit."
+            },
+            {
+              "time": "12:45",
+              "title": "Fine Dining Veggie Lunch",
+              "description": "High-quality vegetarian cuisine."
+            },
+            {
+              "time": "14:00",
+              "title": "Royal Danube Historical Walk",
+              "description": "Elegant surroundings and beautiful riverfront monuments."
+            }
+          ]
+        }
+      },
+
+      "try_everything": {
+
+        "low": {
+          "title": "Half-Day History + Tasting Route (Low Budget)",
+          "summary": "Small affordable snacks + Budapest’s most iconic historical stops.",
+          "schedule": [
+            {
+              "time": "10:00",
+              "title": "Heroes’ Square",
+              "description": "A great introduction to Hungarian heritage."
+            },
+            {
+              "time": "11:00",
+              "title": "Jewish Quarter (Historic Area)",
+              "description": "Walk past synagogues and heritage streets."
+            },
+            {
+              "time": "12:00",
+              "title": "Budget Snack Tasting",
+              "description": "Try small Hungarian pastries or street food bites."
+            },
+            {
+              "time": "13:00",
+              "title": "Danube Promenade",
+              "description": "Historic riverside monuments."
+            }
+          ]
+        },
+
+        "medium": {
+          "title": "Balanced Tasting + Historical Route",
+          "summary": "A smooth mix of history and small Hungarian dishes.",
+          "schedule": [
+            {
+              "time": "10:00",
+              "title": "City Park → Heroes’ Square",
+              "description": "Nature and monumental history blend together."
+            },
+            {
+              "time": "11:15",
+              "title": "Andrássy Avenue",
+              "description": "A UNESCO World Heritage boulevard."
+            },
+            {
+              "time": "12:00",
+              "title": "Medium Tasting Lunch",
+              "description": "Try several small traditional dishes."
+            },
+            {
+              "time": "13:30",
+              "title": "Parliament Walk",
+              "description": "One of Budapest’s most iconic historical sights."
+            }
+          ]
+        },
+
+        "high": {
+          "title": "High-End Historical + Tasting Half-Day",
+          "summary": "Premium historical attractions paired with elegant tasting-style dishes.",
+          "schedule": [
+            {
+              "time": "10:00",
+              "title": "National Museum",
+              "description": "A curated visit to one or two impressive exhibits."
+            },
+            {
+              "time": "11:30",
+              "title": "Premium Andrássy Walk",
+              "description": "Stylish historic mansions."
+            },
+            {
+              "time": "12:45",
+              "title": "High-End Tasting Menu",
+              "description": "Multiple refined Hungarian-inspired plates."
+            },
+            {
+              "time": "14:00",
+              "title": "Parliament Riverfront",
+              "description": "Scenic historical closing moment."
+            }
+          ]
+        },
+
+        "comfortable": {
+          "title": "Luxury Tasting + History Journey",
+          "summary": "A luxurious, curated half-day mix of history and fine tasting plates.",
+          "schedule": [
+            {
+              "time": "10:00",
+              "title": "Exclusive Heroes’ Square Start",
+              "description": "An elegant and monumental start to your day."
+            },
+            {
+              "time": "11:00",
+              "title": "VIP Museum Walk",
+              "description": "Choose a top historical exhibit for a high-quality experience."
+            },
+            {
+              "time": "12:45",
+              "title": "Fine Dining Tasting Experience",
+              "description": "Several beautifully prepared small plates."
+            },
+            {
+              "time": "14:00",
+              "title": "Royal Parliament Walk",
+              "description": "Prestigious riverfront architecture."
             }
           ]
         }
