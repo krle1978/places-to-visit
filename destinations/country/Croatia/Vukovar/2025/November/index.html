@@ -13,11 +13,34 @@
     <link rel="stylesheet" href="/assets/css/header.css">
 
     <!-- JS -->
-    <script src="/assets/js/includes.js" defer></script>
-    <script src="/assets/js/header.js" defer></script>
-    <!-- New route planner config for Vukovar -->
-    <script src="/assets/js/vukovar-routes.js" defer></script>
-    <script src="/assets/js/gallery.js" defer></script>
+<!-- JS -->
+<script src="/assets/js/includes.js" defer></script>
+<script src="/assets/js/header.js" defer></script>
+
+<!-- ROUTE CONFIG MORA IĆI PRE city-routes.js -->
+<script>
+  window.ROUTE_CONFIG = {
+    JSON_URLS: [
+        "/assets/recommendations/croatia/vukovar/vukovar_route_FD_art_recommendations.json",
+        "/assets/recommendations/croatia/vukovar/vukovar_route_FD_history_recommendations.json",
+        "/assets/recommendations/croatia/vukovar/vukovar_route_FD_mixed_recommendations.json",
+        "/assets/recommendations/croatia/vukovar/vukovar_route_FD_nature_recommendations.json",
+        "/assets/recommendations/croatia/vukovar/vukovar_route_FD_nightlife_recommendations.json",
+        "/assets/recommendations/croatia/vukovar/vukovar_route_HD_art_recommendations.json",
+        "/assets/recommendations/croatia/vukovar/vukovar_route_HD_history_recommendations.json",
+        "/assets/recommendations/croatia/vukovar/vukovar_route_HD_mixed_recommendations.json",
+        "/assets/recommendations/croatia/vukovar/vukovar_route_HD_nature_recommendations.json",
+        "/assets/recommendations/croatia/vukovar/vukovar_route_HD_nightlife_recommendations.json"
+    ],
+    FOOD_JSON_URL: "/assets/recommendations/croatia/vukovar/vukovar_food_recommendations.json",
+    PDF_NAME: "vukovar-route.pdf"
+  };
+</script>
+
+<!-- SADA TEK UČITAVAŠ city-routes.js -->
+<script src="/assets/js/city-routes.js" defer></script>
+
+<script src="/assets/js/gallery.js" defer></script>
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-GHW24CT6N2"></script>

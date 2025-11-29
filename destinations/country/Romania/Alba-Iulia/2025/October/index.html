@@ -1,34 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Places To Visit</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alba Iulia, Romania — October 2025 | Places To Visit</title>
 
-    <!-- Favicon -->
-        <link rel="icon" type="image/png" href="/assets/images/logo/places_visited_by_rk.webp">
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/assets/images/logo/places_visited_by_rk.webp" />
 
-    <!-- META DESCRIPTION -->
-    <meta name="description" content="Authentic travel stories across Romania — from gothic castles and vibrant cities to quiet autumn streets. Explore destinations through photos, history, culture, and personal adventures.">
+  <!-- META DESCRIPTION -->
+  <meta name="description" content="Authentic travel stories across Romania — from gothic castles and vibrant cities to quiet autumn streets. Explore destinations through photos, history, culture, and personal adventures.">
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="stylesheet" href="/assets/css/header.css">
-    <link rel="stylesheet" href="/assets/css/city.css"> <!-- OVO JE ONAJ LINK ŠTO SI REKAO DA NEDOSTAJE -->
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/css/main.css" />
+  <link rel="stylesheet" href="/assets/css/header.css" />
+  <link rel="stylesheet" href="/assets/css/city.css" />
 
-    <!-- JS -->
-    <script src="/assets/js/includes.js" defer></script>
-    <script src="/assets/js/header.js" defer></script>
+  <!-- JS -->
+  <script src="/assets/js/includes.js" defer></script>
+  <script src="/assets/js/header.js" defer></script>
 
-    <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GHW24CT6N2"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-GHW24CT6N2');
-    </script>
+  <!-- Route Config -->
+  <script>
+    window.ROUTE_CONFIG = {
+      JSON_URLS: [
+        "/assets/recommendations/romania/alba-lulia/alba_lulia_route_FD_art_recommendations.json",
+        "/assets/recommendations/romania/alba-lulia/alba_lulia_route_FD_history_recommendations.json",
+        "/assets/recommendations/romania/alba-lulia/alba_lulia_route_FD_mixed_recommendations.json",
+        "/assets/recommendations/romania/alba-lulia/alba_lulia_route_FD_nature_recommendations.json",
+        "/assets/recommendations/romania/alba-lulia/alba_lulia_route_FD_nightlife_recommendations.json",
+        "/assets/recommendations/romania/alba-lulia/alba_lulia_route_HD_art_recommendations.json",
+        "/assets/recommendations/romania/alba-lulia/alba_lulia_route_HD_history_recommendations.json",
+        "/assets/recommendations/romania/alba-lulia/alba_lulia_route_HD_mixed_recommendations.json",
+        "/assets/recommendations/romania/alba-lulia/alba_lulia_route_HD_nature_recommendations.json",
+        "/assets/recommendations/romania/alba-lulia/alba_lulia_route_HD_nightlife_recommendations.json"
+      ],
+      FOOD_JSON_URL: "/assets/recommendations/romania/alba-lulia/alba_lulia_food_recommendations.json",
+      PDF_NAME: "alba-lulia-route.pdf"
+    };
+  </script>
+
+  <!-- Route JS -->
+  <script src="/assets/js/city-routes.js" defer></script>
+  <script src="/assets/js/gallery.js" defer></script>
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-GHW24CT6N2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-GHW24CT6N2');
+  </script>
 </head>
 
 <body>
@@ -88,29 +111,28 @@
 
                 <!-- FORM -->
                 <form class="route-form">
+                    <!-- Trip type -->
+                    <label for="route-trip-type">Trip type</label>
+                    <select id="route-trip-type">
+                        <option value="">-- Select trip type --</option>
+                    </select>
 
-                    <!-- Interests -->
+                    <!-- Interest -->
                     <label for="route-interest">Interest</label>
                     <select id="route-interest">
                         <option value="">-- Select interest --</option>
-                    </select>
-
-                    <!-- Duration -->
-                    <label for="route-duration">Tour duration</label>
-                    <select id="route-duration">
-                        <option value="">-- Select duration --</option>
-                    </select>
-
-                    <!-- Style -->
-                    <label for="route-style">Style</label>
-                    <select id="route-style">
-                        <option value="">-- Select style --</option>
                     </select>
 
                     <!-- Food -->
                     <label for="route-food">Food preference</label>
                     <select id="route-food">
                         <option value="">-- Select food --</option>
+                    </select>
+
+                    <!-- Budget -->
+                    <label for="route-budget">Budget</label>
+                    <select id="route-budget">
+                        <option value="">-- Select budget --</option>
                     </select>
 
                     <button type="button" id="route-submit" class="btn route-submit-btn">
@@ -129,6 +151,13 @@
                             Select the desired parameters and wait for the recommendation.
                         </p>
                     </div>
+                </div>
+
+                <!-- Rezultati -->
+                <div class="route-result-wrapper">
+                    <h3 class="route-result-title">Your route</h3>
+                    <div id="route-result" class="route-result"></div>
+                    <button id="save-pdf-btn" style="display:none;">Save as PDF</button> <!-- OVO JE NEDOSTAJALO -->
                 </div>
 
             </div>

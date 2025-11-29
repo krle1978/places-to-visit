@@ -17,12 +17,33 @@
     <link rel="stylesheet" href="/assets/css/header.css">
     <link rel="stylesheet" href="/assets/css/city.css">
 
-    <!-- ================================
-         JS
-    ================================= -->
+    <!-- JS -->
     <script src="/assets/js/includes.js" defer></script>
     <script src="/assets/js/header.js" defer></script>
-    <script src="/assets/js/cluj-napoca-routes.js" defer></script>
+
+    <!-- ROUTE CONFIG MORA IĆI PRE city-routes.js -->
+    <script>
+    window.ROUTE_CONFIG = {
+        JSON_URLS: [
+        "/assets/recommendations/romania/cluj-napoca/cluj-napoca_route_FD_art_recommendations.json",
+        "/assets/recommendations/romania/cluj-napoca/cluj-napoca_route_FD_history_recommendations.json",
+        "/assets/recommendations/romania/cluj-napoca/cluj-napoca_route_FD_mixed_recommendations.json",
+        "/assets/recommendations/romania/cluj-napoca/cluj-napoca_route_FD_nature_recommendations.json",
+        "/assets/recommendations/romania/cluj-napoca/cluj-napoca_route_FD_nightlife_recommendations.json",
+        "/assets/recommendations/romania/cluj-napoca/cluj-napoca_route_HD_art_recommendations.json",
+        "/assets/recommendations/romania/cluj-napoca/cluj-napoca_route_HD_history_recommendations.json",
+        "/assets/recommendations/romania/cluj-napoca/cluj-napoca_route_HD_mixed_recommendations.json",
+        "/assets/recommendations/romania/cluj-napoca/cluj-napoca_route_HD_nature_recommendations.json",
+        "/assets/recommendations/romania/cluj-napoca/cluj-napoca_route_HD_nightlife_recommendations.json"
+        ],
+        FOOD_JSON_URL: "/assets/recommendations/romania/cluj-napoca/cluj-napoca_food_recommendations.json",
+        PDF_NAME: "cluj-napoca-route.pdf"
+    };
+    </script>
+
+    <!-- SADA TEK UČITAVAŠ city-routes.js -->
+    <script src="/assets/js/city-routes.js" defer></script>
+
     <script src="/assets/js/gallery.js" defer></script>
 
     <!-- ================================
@@ -90,7 +111,7 @@
 <section class="city-section route-planner-wrapper">
 
     <div class="route-planner-header" id="route-planner-toggle">
-        <h2>Plan Your Perfect Day in Timisoara</h2>
+        <h2>Plan Your Perfect Day in cluj-napoca</h2>
         <span class="route-arrow" id="route-arrow">▼</span>
     </div>
 
@@ -99,38 +120,55 @@
         <div class="route-planner">
             <div class="route-form-wrapper">
 
+                <!-- FORM -->
                 <form class="route-form">
+                    <!-- Trip type -->
                     <label for="route-trip-type">Trip type</label>
                     <select id="route-trip-type">
                         <option value="">-- Select trip type --</option>
                     </select>
 
-                    <label for="route-interest">Interests</label>
+                    <!-- Interest -->
+                    <label for="route-interest">Interest</label>
                     <select id="route-interest">
                         <option value="">-- Select interest --</option>
                     </select>
 
-                    <label for="route-food">Food type</label>
+                    <!-- Food -->
+                    <label for="route-food">Food preference</label>
                     <select id="route-food">
-                        <option value="">-- Select food type --</option>
+                        <option value="">-- Select food --</option>
                     </select>
 
+                    <!-- Budget -->
                     <label for="route-budget">Budget</label>
                     <select id="route-budget">
                         <option value="">-- Select budget --</option>
                     </select>
 
-                    <button type="button" id="route-submit" class="btn route-submit-btn">Get route recommendation</button>
+                    <button type="button" id="route-submit" class="btn route-submit-btn">
+                        Get route recommendation
+                    </button>
+
                     <p id="route-error" class="route-error-message"></p>
                 </form>
+
+                <!-- RESULT AREA -->
+                <div class="route-result-wrapper">
+                    <h3 class="route-result-title">Your route</h3>
+
+                    <div id="route-result" class="route-result">
+                        <p class="route-placeholder">
+                            Select the desired parameters and wait for the recommendation.
+                        </p>
+                    </div>
+                </div>
 
                 <!-- Rezultati -->
                 <div class="route-result-wrapper">
                     <h3 class="route-result-title">Your route</h3>
-                    <div id="route-result" class="route-result">
-                        <p class="route-placeholder">Select your preferences and wait for a tailored suggestion.</p>
-                    </div>
-                    <button id="save-pdf-btn" class="btn route-submit-btn" style="display:none;">Save as PDF</button>
+                    <div id="route-result" class="route-result"></div>
+                    <button id="save-pdf-btn" style="display:none;">Save as PDF</button> <!-- OVO JE NEDOSTAJALO -->
                 </div>
 
             </div>

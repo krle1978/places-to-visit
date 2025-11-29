@@ -15,7 +15,30 @@
     <!-- JS -->
     <script src="/assets/js/includes.js" defer></script>
     <script src="/assets/js/header.js" defer></script>
-    <script src="/assets/js/szentendre-routes.js" defer></script>
+
+    <!-- ROUTE CONFIG MORA IĆI PRE city-routes.js -->
+    <script>
+    window.ROUTE_CONFIG = {
+        JSON_URLS: [
+            "/assets/recommendations/hungary/szentendre/szentendre_route_FD_art_recommendations.json",
+            "/assets/recommendations/hungary/szentendre/szentendre_route_FD_history_recommendations.json",
+            "/assets/recommendations/hungary/szentendre/szentendre_route_FD_mixed_recommendations.json",
+            "/assets/recommendations/hungary/szentendre/szentendre_route_FD_nature_recommendations.json",
+            "/assets/recommendations/hungary/szentendre/szentendre_route_FD_nightlife_recommendations.json",
+            "/assets/recommendations/hungary/szentendre/szentendre_route_HD_art_recommendations.json",
+            "/assets/recommendations/hungary/szentendre/szentendre_route_HD_history_recommendations.json",
+            "/assets/recommendations/hungary/szentendre/szentendre_route_HD_mixed_recommendations.json",
+            "/assets/recommendations/hungary/szentendre/szentendre_route_HD_nature_recommendations.json",
+            "/assets/recommendations/hungary/szentendre/szentendre_route_HD_nightlife_recommendations.json"
+        ],
+        FOOD_JSON_URL: "/assets/recommendations/hungary/szentendre/szentendre_food_recommendations.json",
+        PDF_NAME: "szentendre-route.pdf"
+    };
+    </script>
+
+    <!-- SADA TEK UČITAVAŠ city-routes.js -->
+    <script src="/assets/js/city-routes.js" defer></script>
+
     <script src="/assets/js/gallery.js" defer></script>
 
     <!-- Google Analytics -->

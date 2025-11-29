@@ -1,21 +1,15 @@
 // =======================
-// CONFIG
+// GLOBAL CONFIG LOADER
 // =======================
 
-const JSON_URLS = [
-  "/assets/recommendations/romania/alba-lulia/alba_lulia_route_FD_art_recommendations.json",
-  "/assets/recommendations/romania/alba-lulia/alba_lulia_route_FD_history_recommendations.json",
-  "/assets/recommendations/romania/alba-lulia/alba_lulia_route_FD_mixed_recommendations.json",
-  "/assets/recommendations/romania/alba-lulia/alba_lulia_route_FD_nature_recommendations.json",
-  "/assets/recommendations/romania/alba-lulia/alba_lulia_route_FD_nightlife_recommendations.json",
-  "/assets/recommendations/romania/alba-lulia/alba_lulia_route_HD_art_recommendations.json",
-  "/assets/recommendations/romania/alba-lulia/alba_lulia_route_HD_history_recommendations.json",
-  "/assets/recommendations/romania/alba-lulia/alba_lulia_route_HD_mixed_recommendations.json",
-  "/assets/recommendations/romania/alba-lulia/alba_lulia_route_HD_nature_recommendations.json",
-  "/assets/recommendations/romania/alba-lulia/alba_lulia_route_HD_nightlife_recommendations.json"
-];
+if (!window.ROUTE_CONFIG) {
+  console.error("ROUTE_CONFIG nije definisan. Dodaj ga u HTML pre city-routes.js");
+  throw new Error("Missing ROUTE_CONFIG");
+}
 
-const FOOD_JSON_URL = "/assets/recommendations/romania/alba-lulia/alba_lulia_food_recommendations.json";
+const JSON_URLS = window.ROUTE_CONFIG.JSON_URLS || [];
+const FOOD_JSON_URL = window.ROUTE_CONFIG.FOOD_JSON_URL;
+const PDF_NAME = window.ROUTE_CONFIG.PDF_NAME || "route.pdf";
 
 // =======================
 // ICONS
@@ -48,7 +42,7 @@ function formatOptionLabel(str) {
 }
 
 // =======================
-// LOAD ROUTES
+// FLATTEN ROUTES
 // =======================
 
 function flattenRecommendations(data) {
@@ -73,6 +67,10 @@ function flattenRecommendations(data) {
   return result;
 }
 
+// =======================
+// LOAD ROUTES
+// =======================
+
 function loadRouteRecommendations() {
   return Promise.all(
     JSON_URLS.map(url =>
@@ -87,7 +85,7 @@ function loadRouteRecommendations() {
       routeRecommendations = routeRecommendations.concat(flattenRecommendations(json));
     });
     routesLoaded = true;
-    console.info("[Alba Iulia routes] Loaded:", routeRecommendations.length);
+    console.info("[Routes] Loaded:", routeRecommendations.length);
   })
   .catch(err => {
     routesLoadError = err;
@@ -108,7 +106,7 @@ function loadFoodRecommendations() {
     .then(json => {
       foodRecommendations = json;
       foodLoaded = true;
-      console.info("[Alba Iulia food] Loaded");
+      console.info("[Food] Loaded");
     })
     .catch(err => {
       console.error("Food load error:", err);
@@ -267,7 +265,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   // =======================
-  // COLLAPSIBLE
+  // COLLAPSIBLE PANEL
   // =======================
 
   if (panel && header) {
@@ -293,7 +291,7 @@ document.addEventListener("DOMContentLoaded", () => {
   pdfBtn?.addEventListener("click", () => {
     const element = document.getElementById("route-result");
     const opt = {
-      filename: "alba-iulia-route.pdf",
+      filename: PDF_NAME,
       margin: 10,
       jsPDF: { unit: "mm", format: "a4" }
     };
