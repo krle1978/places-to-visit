@@ -48,6 +48,7 @@ document.addEventListener("includes:loaded", () => {
     // DYNAMIC LOGO BASED ON PAGE
     // ============================
     const logoLink = document.querySelector(".logo img");
+    const mobileLogo = document.querySelector(".mobile-logo img");
 
     const specialPaths = [
         "/destinations/index.html",
@@ -65,4 +66,10 @@ document.addEventListener("includes:loaded", () => {
         logoLink.src = "/assets/images/logo/places_visited_by_rk.webp";
         logoLink.alt = "Visited by Rade Krstić";
     }
+
+    if (mobileLogo && specialPaths.some(path => window.location.pathname.endsWith(path))) {
+        mobileLogo.src = "/assets/images/logo/places_visited_by_rk.webp";
+        mobileLogo.alt = "Visited by Rade Krstić";
+    }
+
 });
