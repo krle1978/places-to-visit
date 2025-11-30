@@ -25,9 +25,11 @@ document.addEventListener("includes:loaded", function () {
     Czechia: "recommendations_places_czech.json",
     Germany: "recommendations_places_germany.json",
     Hungary: "recommendations_places_hungary.json",
+    Portugal: "recommendations_places_portugal.json",
     Romania: "recommendations_places_romania.json",
     Serbia: "recommendations_places_serbia.json",
-    Slovakia: "recommendations_places_slovakia.json"
+    Slovakia: "recommendations_places_slovakia.json",
+    Spain: "recommendations_places_portugal.json"
   };
 
   function tripTypeLabel(type) {
