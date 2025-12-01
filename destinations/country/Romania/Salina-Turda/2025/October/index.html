@@ -21,7 +21,7 @@
          JS
     ============================ -->
     <script src="/assets/js/header.js" defer></script>
-    <script src="/assets/js/salina-turda-routes.js" defer></script>
+    <script src="/assets/js/unified-routes-loader.js"></script>
     <script src="/assets/js/gallery.js" defer></script>
 
     <!-- Component loader (uvek poslednji) -->
@@ -65,79 +65,79 @@
 </section>
 
 
-<!-- WHAT I EXPERIENCED -->
+<!-- WHAT DID I FIND -->
 <section class="city-section">
-    <h2>What I Experienced</h2>
-    <p>
-        The descent into Salina Turda feels like entering a sci-fi movie.
-        As the elevator opens, you see enormous salt chambers illuminated by futuristic lights.
-        The air is cool, incredibly clean and slightly salty — people come here even for therapy sessions.
-    </p>
+  <h2>What Did I Find?</h2>
 
-    <p>
-        The underground lake with wooden boats looks almost unreal.
-        It’s a place that stays in your memory long after you leave.
-    </p>
-</section>
+  <div class="slider-wrapper">
+    <button class="slider-btn prev">‹</button>
 
-
-<!-- ROUTE PLANNER WRAPPER (COLLAPSIBLE) -->
-<section class="city-section route-planner-wrapper">
-
-    <div class="route-planner-header" id="route-planner-toggle">
-        <h2>Plan Your Perfect Visit to Salina Turda</h2>
-        <span class="route-arrow" id="route-arrow">▼</span>
-    </div>
-
-    <div id="route-planner-panel" class="route-planner-panel collapsed">
-
-        <div class="route-planner">
-            <div class="route-form-wrapper">
-
-                <form class="route-form">
-
-                    <!-- Visitor Category -->
-                    <label for="route-category">Visitor type</label>
-                    <select id="route-category">
-                        <option value="">-- Select visitor type --</option>
-                    </select>
-
-                    <!-- Time of Day -->
-                    <label for="route-daytime">Time of day</label>
-                    <select id="route-daytime">
-                        <option value="">-- Select time of day --</option>
-                    </select>
-
-                    <button type="button" id="route-submit" class="btn route-submit-btn">
-                        Get route recommendation
-                    </button>
-
-                    <p id="route-error" class="route-error-message"></p>
-                </form>
-
-                <!-- Rezultat -->
-                <div class="route-result-wrapper">
-                    <h3 class="route-result-title">Your route</h3>
-
-                    <div id="route-result" class="route-result">
-                        <p class="route-placeholder">
-                            Select the desired parameters and wait for the recommendation.
-                        </p>
-                    </div>
-
-                    <!-- PDF dugme dodato radi konzistentnosti -->
-                    <button id="save-pdf-btn" class="btn route-submit-btn" style="display:none;">
-                        Save as PDF
-                    </button>
-
-                </div>
-
-            </div>
+    <div class="slider-container">
+      <!-- Tekst na background-image -->
+        <div class="gallery-text-block">
+            We arrived at Salina Turda around 2 pm and had two hours to explore and enjoy the place. 
+            The visit begins with an elevator ride that takes you 120 meters underground into the salt mine.
+            <div style="text-align: right; font-weight: 700; margin-top: 1rem;">1/4</div>
         </div>
 
+        <div class="gallery-text-block">
+            Inside, it feels like a youth entertainment center carved into the earth — complete with a 
+            lake and wooden boats. Naturally, we decided to take a 30-minute rowing session: I rowed, 
+            while my companion mostly cheered, took photos, and recorded videos.
+            <div style="text-align: right; font-weight: 700; margin-top: 1rem;">2/4</div>
+        </div>
+
+        <div class="gallery-text-block">
+            You don’t have to row, of course. You can simply walk across bridges that connect various 
+            wooden platforms shaped like small pavilions. It’s also great for taking selfies with the 
+            dramatic salt-covered walls. There are even sports areas, including table tennis and mini-football.
+            <div style="text-align: right; font-weight: 700; margin-top: 1rem;">3/4</div>
+        </div>
+
+        <div class="gallery-text-block">
+            The air inside the mine is incredibly healthy — Salina Turda is used as a natural “air spa.” 
+            Historically, miners working there since 1075 reportedly had no lung diseases at all due 
+            to the therapeutic salt-rich atmosphere.
+            <div style="text-align: right; font-weight: 700; margin-top: 1rem;">4/4</div>
+        </div>
+    </div>
+    <button class="slider-btn next">›</button>
+  </div>
+</section>
+<!-- PHOTO GALLERY -->
+<section class="city-section gallery-wrapper">
+
+    <div class="gallery-header" id="gallery-toggle">
+        <h2>My little adventure in Salina-Turga</h2>
+        <span class="gallery-arrow" id="gallery-arrow">▼</span>
     </div>
 
+    <div id="gallery-panel" class="gallery-panel collapsed">
+        
+        <!-- Galerija ide kad se panel otvori, ali VAN text-bloka -->
+        <div class="gallery">
+
+            <figure>
+                <img class="gallery-img" src="/assets/images/destinations/salina-turda.jpg" alt="Main Chamber">
+                <figcaption>Main chamber illuminated with modern lights.</figcaption>
+            </figure>
+
+            <figure>
+                <img class="gallery-img"src="/assets/images/destinations/Salina-Turda/rudolf-chamber.png" alt="Rudolf">
+                <figcaption>Rudolf Mine — huge underground dome.</figcaption>
+            </figure>
+
+            <figure>
+                <img class="gallery-img" src="/assets/images/destinations/Salina-Turda/lake-boats.png" alt="Lake">
+                <figcaption>Boat rides in an underground lake — surreal.</figcaption>
+            </figure>
+
+        </div>
+    </div>
 </section>
+
+<!-- MAKE ROUTE BUTTON -->
+<button id="route-open-btn" class="btn make-route-btn">Make my route</button>
 
 <!-- WHY THIS PLACE IS SPECIAL -->
 <section class="city-section">
@@ -212,10 +212,6 @@
     </div>
 </section>
 
-<!-- MAKE ROUTE BUTTON -->
-<button id="route-open-btn" class="btn make-route-btn">Make my route</button>
-
-
 <!-- BEST TIME TO VISIT -->
 <section class="city-section">
     <h2>Best Time to Visit Salina Turda</h2>
@@ -245,68 +241,63 @@
         </div>
     </div>
 </section>
+<!-- ROUTE PLANNER WRAPPER (COLLAPSIBLE) -->
+<section class="city-section route-planner-wrapper">
 
-
-<!-- PHOTO GALLERY -->
-<section class="city-section gallery-wrapper">
-
-    <div class="gallery-header" id="gallery-toggle">
-        <h2>My little adventure in Salina-Turga</h2>
-        <span class="gallery-arrow" id="gallery-arrow">▼</span>
+    <div class="route-planner-header" id="route-planner-toggle">
+        <h2>Plan Your Perfect Visit to Salina Turda</h2>
+        <span class="route-arrow" id="route-arrow">▼</span>
     </div>
 
-    <div id="gallery-panel" class="gallery-panel collapsed">
-        <!-- Tekst na background-image -->
-        <div class="gallery-text-block">
-            We arrived at Salina Turda around 2 pm and had two hours to explore and enjoy the place. 
-            The visit begins with an elevator ride that takes you 120 meters underground into the salt mine.
-            <div style="text-align: right; font-weight: 700; margin-top: 1rem;">1/4</div>
+    <div id="route-planner-panel" class="route-planner-panel collapsed">
+
+        <div class="route-planner">
+            <div class="route-form-wrapper">
+
+                <form class="route-form">
+
+                    <!-- Visitor Category -->
+                    <label for="route-category">Visitor type</label>
+                    <select id="route-category">
+                        <option value="">-- Select visitor type --</option>
+                    </select>
+
+                    <!-- Time of Day -->
+                    <label for="route-daytime">Time of day</label>
+                    <select id="route-daytime">
+                        <option value="">-- Select time of day --</option>
+                    </select>
+
+                    <button type="button" id="route-submit" class="btn route-submit-btn">
+                        Get route recommendation
+                    </button>
+
+                    <p id="route-error" class="route-error-message"></p>
+                </form>
+
+                <!-- Rezultat -->
+                <div class="route-result-wrapper">
+                    <h3 class="route-result-title">Your route</h3>
+
+                    <div id="route-result" class="route-result">
+                        <p class="route-placeholder">
+                            Select the desired parameters and wait for the recommendation.
+                        </p>
+                    </div>
+
+                    <!-- PDF dugme dodato radi konzistentnosti -->
+                    <button id="save-pdf-btn" class="btn route-submit-btn" style="display:none;">
+                        Save as PDF
+                    </button>
+
+                </div>
+
+            </div>
         </div>
 
-        <div class="gallery-text-block">
-            Inside, it feels like a youth entertainment center carved into the earth — complete with a 
-            lake and wooden boats. Naturally, we decided to take a 30-minute rowing session: I rowed, 
-            while my companion mostly cheered, took photos, and recorded videos.
-            <div style="text-align: right; font-weight: 700; margin-top: 1rem;">2/4</div>
-        </div>
-
-        <div class="gallery-text-block">
-            You don’t have to row, of course. You can simply walk across bridges that connect various 
-            wooden platforms shaped like small pavilions. It’s also great for taking selfies with the 
-            dramatic salt-covered walls. There are even sports areas, including table tennis and mini-football.
-            <div style="text-align: right; font-weight: 700; margin-top: 1rem;">3/4</div>
-        </div>
-
-        <div class="gallery-text-block">
-            The air inside the mine is incredibly healthy — Salina Turda is used as a natural “air spa.” 
-            Historically, miners working there since 1075 reportedly had no lung diseases at all due 
-            to the therapeutic salt-rich atmosphere.
-            <div style="text-align: right; font-weight: 700; margin-top: 1rem;">4/4</div>
-        </div>
-
-        <!-- Galerija ide kad se panel otvori, ali VAN text-bloka -->
-        <div class="gallery">
-
-            <figure>
-                <img class="gallery-img" src="/assets/images/destinations/salina-turda.jpg" alt="Main Chamber">
-                <figcaption>Main chamber illuminated with modern lights.</figcaption>
-            </figure>
-
-            <figure>
-                <img class="gallery-img"src="/assets/images/destinations/Salina-Turda/rudolf-chamber.png" alt="Rudolf">
-                <figcaption>Rudolf Mine — huge underground dome.</figcaption>
-            </figure>
-
-            <figure>
-                <img class="gallery-img" src="/assets/images/destinations/Salina-Turda/lake-boats.png" alt="Lake">
-                <figcaption>Boat rides in an underground lake — surreal.</figcaption>
-            </figure>
-
-        </div>
     </div>
+
 </section>
-
-
 <!-- FOOTER -->
 <div data-include="/components/footer.html"></div>
 

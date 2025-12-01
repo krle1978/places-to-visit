@@ -24,7 +24,7 @@
     <script src="/assets/js/includes.js" defer></script>
     <script src="/assets/js/header.js" defer></script>
     <!-- PAGE SPECIFIC ROUTES (ako postoji) -->
-    <script src="/assets/js/THIS-PAGE-ROUTES.js" defer></script>
+    <script src="/assets/js/unified-routes-loader.js"></script>
     <script src="/assets/js/gallery.js" defer></script>
 
     <!-- ======================
@@ -61,24 +61,120 @@
     </div>
 </section>
 
-
-<!-- WHAT I EXPERIENCED -->
+<!-- WHAT DID I FIND -->
 <section class="city-section">
-    <h2>What I Experienced</h2>
-    <p>
-        When you first see Castelul Corvinilor, from a distance it looks like a set piece —
-        too perfect, too big, too “movie-like” to be real.
-        The tall towers, the bridge over the ravine, the dark stone and copper roofs that shimmer
-        in the sunlight — everything seems as if time has stood still.
-    </p>
+  <h2>What Did I Find?</h2>
 
-    <p>
-        In October, with the cooler air and autumn light, the whole atmosphere becomes 
-        even more dramatic. There are tourists, but not too many, so you can enjoy the 
-        silence of the walls and the details of the 15th-century architecture.
-    </p>
+  <div class="slider-wrapper">
+    <button class="slider-btn prev">‹</button>
+
+    <div class="slider-container">
+      <!-- Tekst na background-image -->
+        <div class="gallery-text-block">
+            When you reach the visitor parking lot, only the upper tip of Corvin Castle’s 
+            main tower peeks above the hill, hinting at the direction of your medieval adventure. 
+            Once you pass through the outer gate, the entire fortress suddenly opens before you 
+            in full Transylvanian grandeur, instantly capturing your attention. Crossing the 
+            long wooden bridge leads you into the courtyard — a space enclosed by diverse towers 
+            and buildings that feel like a self-contained medieval town.
+            <div style="text-align: right; font-weight: 700; margin-top: 1rem;">1/3</div>
+        </div>
+
+        <div class="gallery-text-block">
+            Inside the castle, narrow passageways alternate with spacious halls, each revealing 
+            a different chapter of its history. Steep, winding staircases lead up into the towers, 
+            revealing sweeping views of the surrounding hills and villages. One tower holds the 
+            bust of John Hunyadi and the chamber where he was once imprisoned. As you explore 
+            further, eerie 3D “ghost” displays appear — seemingly ready to step out of their frames.
+            <div style="text-align: right; font-weight: 700; margin-top: 1rem;">2/3</div>
+        </div>
+
+        <div class="gallery-text-block">
+            Eventually, you enter the King’s Hall, marked by tall columns, elegant arches, 
+            and knight armor adorning the walls, strengthening the castle’s medieval atmosphere. 
+            And just when you think the experience is complete, the exit route leads you straight 
+            into a torture museum — a chilling finale that adds one last layer of dark mystique 
+            to Corvin Castle.
+            <div style="text-align: right; font-weight: 700; margin-top: 1rem;">3/3</div>
+        </div>
+
+
+    </div>
+
+    <button class="slider-btn next">›</button>
+  </div>
 </section>
 
+    
+<!-- PHOTO GALLERY -->
+<section class="city-section">
+    <div class="gallery-header" id="gallery-toggle">
+        <h2>My little adventure in Castelul Corvinilor</h2>
+        <span class="gallery-arrow" id="gallery-arrow">▼</span>
+    </div>
+
+    <div id="gallery-panel" class="gallery-panel collapsed">
+
+        <!-- Galerija ide kad se panel otvori, ali VAN text-bloka -->
+        <div class="gallery">
+
+            <figure>
+                <img class="gallery-img" src="/assets/images/destinations/Castelul-Corvinilor/corvin-entry.jpg" alt="Corvin Castle Overview">
+                <figcaption>General view of the castle — the iconic combination of towers and bridge.</figcaption>
+            </figure>
+            
+            <figure>
+                <img class="gallery-img" src="/assets/images/destinations/Castelul-Corvinilor/corvin-bridge.jpg" alt="Courtyard">
+                <figcaption>The entrance leads over an old wooden bridge.</figcaption>
+            </figure>
+
+            <figure>
+                <img class="gallery-img" src="/assets/images/destinations/Castelul-Corvinilor/corvin-entry-01.jpg" alt="Courtyard">
+                <figcaption>The entrance is under the biggest tower of the castle..</figcaption>
+            </figure>
+
+            <figure>
+                <img class="gallery-img" src="/assets/images/destinations/Castelul-Corvinilor/corvin-cuort-colage.png" alt="Corvin Castle Overview">
+                <figcaption>The courtyard is a place, because the castle is built on a rock.</figcaption>
+            </figure>
+
+            <figure>
+                <img class="gallery-img" src="/assets/images/destinations/Castelul-Corvinilor/corvin-tower.png" alt="Courtyard">
+                <figcaption>Each corner of the castle has its own tower. Each has its own content and a view of the nearby village.</figcaption>
+            </figure>
+
+            <figure>
+                <img class="gallery-img" src="/assets/images/destinations/Castelul-Corvinilor/Corvin-Hunyadi.png" alt="Courtyard">
+                <figcaption>Jan Hunyadi (1407 - 1456) Serbian: Sibinjanin Janko.</figcaption>
+            </figure>
+
+            <figure>
+                <img class="gallery-img" src="/assets/images/destinations/Castelul-Corvinilor/corvin-corridor_colague.png" alt="Courtyard">
+                <figcaption>Narrow corridors with high arches lead through the castle.</figcaption>
+            </figure>
+
+            <figure>
+                <img class="gallery-img" src="/assets/images/destinations/Castelul-Corvinilor/corvin-knights-hall_colague.png" alt="Courtyard">
+                <figcaption>The King's Hall is now the Knight's Armor Hall. It is still solemn and powerful with massive columns that meet high below the ceiling.</figcaption>
+            </figure>
+
+            <figure>
+                <img class="gallery-img" src="/assets/images/destinations/Castelul-Corvinilor/corvin-pictures-colague.png" alt="Courtyard">
+                <figcaption>In some parts of the castle, there is a display of paintings, some of which have a horror look, like some apparitions that come out of the frames.</figcaption>
+            </figure>
+
+            <figure>
+                <img class="gallery-img" src="/assets/images/destinations/Castelul-Corvinilor/corvin-pictures-02.jpg" alt="Courtyard">
+                <figcaption>A setting of artworks of ghosts emerging from the frame of the frames..</figcaption>
+            </figure>
+
+            <figure>
+                <img class="gallery-img" src="/assets/images/destinations/Castelul-Corvinilor/corvin-drakula-collage.png" alt="Knights Hall">
+                <figcaption>And then Dracula found me. He invited me to the table and then escorted me out..</figcaption>
+            </figure>
+        </div>
+    </div>
+</section>
 
 <!-- WHY THIS PLACE IS SPECIAL -->
 <section class="city-section">
@@ -213,107 +309,63 @@
         </div>
     </div>
 </section>
+<!-- ROUTE PLANNER WRAPPER (COLLAPSIBLE) -->
+<section class="city-section route-planner-wrapper">
 
-
-<!-- OPTIONAL PHOTO GALLERY (ako želiš zadržati) -->
-<section class="city-section">
-    <div class="gallery-header" id="gallery-toggle">
-        <h2>My little adventure in Castelul Corvinilor</h2>
-        <span class="gallery-arrow" id="gallery-arrow">▼</span>
+    <div class="route-planner-header" id="route-planner-toggle">
+        <h2>Plan Your Perfect Visit to Castelul Corvinilor</h2>
+        <span class="route-arrow" id="route-arrow">▼</span>
     </div>
 
-    <div id="gallery-panel" class="gallery-panel collapsed">
+    <div id="route-planner-panel" class="route-planner-panel collapsed">
 
-        <!-- Tekst na background-image -->
-        <div class="gallery-text-block">
-            When you reach the visitor parking lot, only the upper tip of Corvin Castle’s 
-            main tower peeks above the hill, hinting at the direction of your medieval adventure. 
-            Once you pass through the outer gate, the entire fortress suddenly opens before you 
-            in full Transylvanian grandeur, instantly capturing your attention. Crossing the 
-            long wooden bridge leads you into the courtyard — a space enclosed by diverse towers 
-            and buildings that feel like a self-contained medieval town.
-            <div style="text-align: right; font-weight: 700; margin-top: 1rem;">1/3</div>
+        <div class="route-planner">
+            <div class="route-form-wrapper">
+
+                <form class="route-form">
+
+                    <!-- Visitor Category -->
+                    <label for="route-category">Visitor type</label>
+                    <select id="route-category">
+                        <option value="">-- Select visitor type --</option>
+                    </select>
+
+                    <!-- Time of Day -->
+                    <label for="route-daytime">Time of day</label>
+                    <select id="route-daytime">
+                        <option value="">-- Select time of day --</option>
+                    </select>
+
+                    <button type="button" id="route-submit" class="btn route-submit-btn">
+                        Get route recommendation
+                    </button>
+
+                    <p id="route-error" class="route-error-message"></p>
+                </form>
+
+                <!-- Rezultat -->
+                <div class="route-result-wrapper">
+                    <h3 class="route-result-title">Your route</h3>
+
+                    <div id="route-result" class="route-result">
+                        <p class="route-placeholder">
+                            Select the desired parameters and wait for the recommendation.
+                        </p>
+                    </div>
+
+                    <!-- PDF dugme dodato radi konzistentnosti -->
+                    <button id="save-pdf-btn" class="btn route-submit-btn" style="display:none;">
+                        Save as PDF
+                    </button>
+
+                </div>
+
+            </div>
         </div>
 
-        <div class="gallery-text-block">
-            Inside the castle, narrow passageways alternate with spacious halls, each revealing 
-            a different chapter of its history. Steep, winding staircases lead up into the towers, 
-            revealing sweeping views of the surrounding hills and villages. One tower holds the 
-            bust of John Hunyadi and the chamber where he was once imprisoned. As you explore 
-            further, eerie 3D “ghost” displays appear — seemingly ready to step out of their frames.
-            <div style="text-align: right; font-weight: 700; margin-top: 1rem;">2/3</div>
-        </div>
-
-        <div class="gallery-text-block">
-            Eventually, you enter the King’s Hall, marked by tall columns, elegant arches, 
-            and knight armor adorning the walls, strengthening the castle’s medieval atmosphere. 
-            And just when you think the experience is complete, the exit route leads you straight 
-            into a torture museum — a chilling finale that adds one last layer of dark mystique 
-            to Corvin Castle.
-            <div style="text-align: right; font-weight: 700; margin-top: 1rem;">3/3</div>
-        </div>
-
-        <!-- Galerija ide kad se panel otvori, ali VAN text-bloka -->
-        <div class="gallery">
-
-            <figure>
-                <img class="gallery-img" src="/assets/images/destinations/Castelul-Corvinilor/corvin-entry.jpg" alt="Corvin Castle Overview">
-                <figcaption>General view of the castle — the iconic combination of towers and bridge.</figcaption>
-            </figure>
-            
-            <figure>
-                <img class="gallery-img" src="/assets/images/destinations/Castelul-Corvinilor/corvin-bridge.jpg" alt="Courtyard">
-                <figcaption>The entrance leads over an old wooden bridge.</figcaption>
-            </figure>
-
-            <figure>
-                <img class="gallery-img" src="/assets/images/destinations/Castelul-Corvinilor/corvin-entry-01.jpg" alt="Courtyard">
-                <figcaption>The entrance is under the biggest tower of the castle..</figcaption>
-            </figure>
-
-            <figure>
-                <img class="gallery-img" src="/assets/images/destinations/Castelul-Corvinilor/corvin-cuort-colage.png" alt="Corvin Castle Overview">
-                <figcaption>The courtyard is a place, because the castle is built on a rock.</figcaption>
-            </figure>
-
-            <figure>
-                <img class="gallery-img" src="/assets/images/destinations/Castelul-Corvinilor/corvin-tower.png" alt="Courtyard">
-                <figcaption>Each corner of the castle has its own tower. Each has its own content and a view of the nearby village.</figcaption>
-            </figure>
-
-            <figure>
-                <img class="gallery-img" src="/assets/images/destinations/Castelul-Corvinilor/Corvin-Hunyadi.png" alt="Courtyard">
-                <figcaption>Jan Hunyadi (1407 - 1456) Serbian: Sibinjanin Janko.</figcaption>
-            </figure>
-
-            <figure>
-                <img class="gallery-img" src="/assets/images/destinations/Castelul-Corvinilor/corvin-corridor_colague.png" alt="Courtyard">
-                <figcaption>Narrow corridors with high arches lead through the castle.</figcaption>
-            </figure>
-
-            <figure>
-                <img class="gallery-img" src="/assets/images/destinations/Castelul-Corvinilor/corvin-knights-hall_colague.png" alt="Courtyard">
-                <figcaption>The King's Hall is now the Knight's Armor Hall. It is still solemn and powerful with massive columns that meet high below the ceiling.</figcaption>
-            </figure>
-
-            <figure>
-                <img class="gallery-img" src="/assets/images/destinations/Castelul-Corvinilor/corvin-pictures-colague.png" alt="Courtyard">
-                <figcaption>In some parts of the castle, there is a display of paintings, some of which have a horror look, like some apparitions that come out of the frames.</figcaption>
-            </figure>
-
-            <figure>
-                <img class="gallery-img" src="/assets/images/destinations/Castelul-Corvinilor/corvin-pictures-02.jpg" alt="Courtyard">
-                <figcaption>A setting of artworks of ghosts emerging from the frame of the frames..</figcaption>
-            </figure>
-
-            <figure>
-                <img class="gallery-img" src="/assets/images/destinations/Castelul-Corvinilor/corvin-drakula-collage.png" alt="Knights Hall">
-                <figcaption>And then Dracula found me. He invited me to the table and then escorted me out..</figcaption>
-            </figure>
-        </div>
     </div>
+
 </section>
-
 
 <!-- FOOTER -->
 <div data-include="/components/footer.html"></div>

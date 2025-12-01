@@ -4,92 +4,55 @@
 // CONFIG
 // =======================
 
-const CSV_URL = "/assets/recommendations/salina_turda_route_recommendations.csv";
+let JSON_URL = null;
+
+const path = window.location.pathname.toLowerCase();
+
+if (path.includes("salina-turda")) {
+    JSON_URL = "/assets/recommendations/romania/salina-turda/salina_turda_route_recommendations.json";
+} else if (path.includes("castelul-corvinilor")) {
+    JSON_URL = "/assets/recommendations/romania/castelul-corvinilor/castelul_corvinilor_route_recommendations.json";
+} else {
+    console.error("Nepoznata stranica za učitavanje rute:", path);
+}
 
 let routeRecommendations = [];
 let routesLoaded = false;
 let routesLoadError = null;
 
 // =======================
-// CSV PARSER
-// =======================
-
-function parseCsv(text) {
-    const rows = [];
-    let currentRow = [];
-    let currentCell = "";
-    let inQuotes = false;
-
-    text = text.replace(/\r\n/g, "\n");
-
-    for (let i = 0; i < text.length; i++) {
-        const char = text[i];
-
-        if (char === '"') {
-            const nextChar = text[i + 1];
-            if (inQuotes && nextChar === '"') {
-                currentCell += '"';
-                i++;
-            } else {
-                inQuotes = !inQuotes;
-            }
-        } else if (char === ',' && !inQuotes) {
-            currentRow.push(currentCell);
-            currentCell = "";
-        } else if (char === '\n' && !inQuotes) {
-            currentRow.push(currentCell);
-            rows.push(currentRow);
-            currentRow = [];
-            currentCell = "";
-        } else {
-            currentCell += char;
-        }
-    }
-
-    if (currentCell.length > 0 || currentRow.length > 0) {
-        currentRow.push(currentCell);
-        rows.push(currentRow);
-    }
-
-    if (rows.length === 0) return [];
-
-    const header = rows[0].map(h => h.trim());
-    const dataRows = rows.slice(1);
-
-    return dataRows
-        .filter(r => r.some(cell => cell && cell.trim() !== ""))
-        .map(r => {
-            const obj = {};
-            header.forEach((key, idx) => {
-                obj[key] = (r[idx] || "").trim();
-            });
-            return obj;
-        });
-}
-
-// =======================
-// LOAD CSV
+// LOAD JSON
 // =======================
 
 function loadRouteRecommendations() {
-    return fetch(CSV_URL)
-        .then(res => {
-            if (!res.ok) throw new Error("Failed to load CSV: " + res.status);
-            return res.text();
-        })
-        .then(text => {
-            const rows = parseCsv(text);
+    if (!JSON_URL) {
+        routesLoadError = new Error("JSON URL nije definisan za ovu stranicu.");
+        return Promise.reject(routesLoadError);
+    }
 
-            routeRecommendations = rows
-                .map(row => ({
-                    category: row.category,
-                    daytime: row.daytime,
-                    recommendation: row.recommendation
-                }))
-                .filter(r => r.category && r.daytime && r.recommendation);
+    return fetch(JSON_URL)
+        .then(res => {
+            if (!res.ok) throw new Error("Failed to load JSON: " + res.status);
+            return res.json();
+        })
+        .then(data => {
+            routeRecommendations = [];
+
+            for (const category in data) {
+                for (const daytime in data[category]) {
+                    const steps = data[category][daytime];
+                    if (Array.isArray(steps)) {
+                        routeRecommendations.push({
+                            category,
+                            daytime,
+                            recommendation: steps.join('|')
+                        });
+                    }
+                }
+            }
 
             routesLoaded = true;
-            console.info("[Salina Turda routes] Loaded", routeRecommendations.length, "routes.");
+            console.info("[Route Recommendations] Loaded", routeRecommendations.length, "entries.");
         })
         .catch(err => {
             routesLoadError = err;
@@ -111,11 +74,17 @@ function populateDropdowns() {
 
     const categories = unique(routeRecommendations.map(r => r.category));
     categorySelect.innerHTML = `<option value="">-- Select visitor type --</option>`;
-    categories.forEach(v => categorySelect.innerHTML += `<option value="${v}">${v}</option>`);
+    categories.forEach(v => {
+        const label = v.replace(/_/g, " ");
+        categorySelect.innerHTML += `<option value="${v}">${label}</option>`;
+    });
 
     const times = unique(routeRecommendations.map(r => r.daytime));
     daytimeSelect.innerHTML = `<option value="">-- Select time of day --</option>`;
-    times.forEach(v => daytimeSelect.innerHTML += `<option value="${v}">${v}</option>`);
+    times.forEach(v => {
+        const label = v.replace(/_/g, " ");
+        daytimeSelect.innerHTML += `<option value="${v}">${label}</option>`;
+    });
 }
 
 // =======================
@@ -137,7 +106,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const arrow = document.getElementById("route-arrow");
     const openBtn = document.getElementById("route-open-btn");
 
-    // Load CSV + populate
+    // Load JSON + populate
     loadRouteRecommendations().then(() => {
         if (!routesLoadError && routeRecommendations.length > 0) {
             populateDropdowns();
@@ -151,10 +120,10 @@ document.addEventListener("DOMContentLoaded", function () {
         pdfBtn.style.display = "none";
 
         if (routesLoadError)
-            return errorMessage.textContent = "Error loading CSV.";
+            return errorMessage.textContent = "Error loading recommendations.";
 
         if (!routesLoaded)
-            return errorMessage.textContent = "Routes are still loading...";
+            return errorMessage.textContent = "Recommendations are still loading...";
 
         const category = categorySelect.value;
         const daytime = daytimeSelect.value;
@@ -184,7 +153,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         card.innerHTML = `
             <div class="card-text">
-                <h3>${category} • ${daytime}</h3>
+                <h3>${category.replace(/_/g, " ")} • ${daytime.replace(/_/g, " ")}</h3>
                 <ul>${formatted}</ul>
             </div>
         `;
@@ -198,13 +167,41 @@ document.addEventListener("DOMContentLoaded", function () {
         const element = document.getElementById("route-result");
 
         const opt = {
-            filename: "salina-turda-route.pdf",
+            filename: "route-recommendation.pdf",
             margin: 10,
             jsPDF: { unit: "mm", format: "a4" }
         };
 
         html2pdf().set(opt).from(element).save();
     });
+
+    // =======================
+    // SLIDER (ISPRAVLJENO NA PRAVILAN NAČIN)
+    // =======================
+    const sliderContainer = document.querySelector(".slider-container");
+    const slides = document.querySelectorAll(".gallery-text-block");
+    const prevBtn = document.querySelector(".slider-btn.prev");
+    const nextBtn = document.querySelector(".slider-btn.next");
+
+    let currentSlide = 0;
+    const totalSlides = slides.length;
+
+    function updateSlider() {
+        sliderContainer.style.transform = `translateX(-${currentSlide * 100}%)`;
+    }
+
+    prevBtn?.addEventListener("click", () => {
+        currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+        updateSlider();
+    });
+
+    nextBtn?.addEventListener("click", () => {
+        currentSlide = (currentSlide + 1) % totalSlides;
+        updateSlider();
+    });
+
+    // inicijalno
+    updateSlider();
 
     // COLLAPSIBLE PANEL + STRELICA ROTACIJA
     if (panel && header) {

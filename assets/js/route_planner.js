@@ -292,21 +292,21 @@ document.addEventListener("includes:loaded", function () {
       routeText += `<strong>What to get:</strong><br>${parseTextBlock(tipObj.what_to_get.join("|"))}<br>`;
     }
 
-        /* -------------------------
-          INTEREST: naziv + opis
-        -------------------------- */
-        const interestDescription = selectedCityObj.interest_descriptions?.[interest];
-        if (interestDescription) {
-          routeText += `
-            <div class="route-interest-section">
-              <p><strong>Interest:</strong> ${interest}</p>
-              <p>${interestDescription}</p>
-            </div>
-            <br>
-          `;
-        } else {
-          routeText += `<strong>Interest:</strong> ${interest}<br>`;
-        }
+    /* -------------------------
+      INTEREST: naziv + opis
+    -------------------------- */
+    const interestDescription = selectedCityObj.interest_descriptions?.[interest];
+    if (interestDescription) {
+      routeText += `
+        <div class="route-interest-section">
+          <p><strong>Interest:</strong> ${interest}</p>
+          <p>${interestDescription}</p>
+        </div>
+        <br>
+      `;
+    } else {
+      routeText += `<strong>Interest:</strong> ${interest}<br>`;
+    }
 
     /* -------------------------
       FOOD
@@ -428,8 +428,13 @@ document.addEventListener("DOMContentLoaded", () => {
         panel.classList.remove("collapsed");
         panel.classList.add("open");
         arrow.classList.add("open");
-        header.scrollIntoView({ behavior: "smooth" });
+
+        // čekaj 300ms dok se panel otvori, pa skroluj
+        setTimeout(() => {
+          panel.scrollIntoView({ behavior: "smooth", block: "start" });
+        }, 300);
       });
+
     }
 
     document.addEventListener("click", (e) => {

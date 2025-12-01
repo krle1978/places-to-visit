@@ -280,7 +280,9 @@ document.addEventListener("DOMContentLoaded", () => {
       e.stopPropagation();
       panel.classList.remove("collapsed");
       panel.classList.add("open");
-      header.scrollIntoView({ behavior: "smooth" });
+      setTimeout(() => {
+        panel.scrollIntoView({ behavior: "smooth", block: "start" });
+      }, 300);
     });
   }
 
@@ -297,5 +299,34 @@ document.addEventListener("DOMContentLoaded", () => {
     };
     html2pdf().set(opt).from(element).save();
   });
+
+// =======================
+// SLIDER (ISPRAVLJENO NA PRAVILAN NAČIN)
+// =======================
+const sliderContainer = document.querySelector(".slider-container");
+const slides = document.querySelectorAll(".gallery-text-block");
+const prevBtn = document.querySelector(".slider-btn.prev");
+const nextBtn = document.querySelector(".slider-btn.next");
+
+let currentSlide = 0;
+const totalSlides = slides.length;
+
+function updateSlider() {
+  sliderContainer.style.transform = `translateX(-${currentSlide * 100}%)`;
+}
+
+prevBtn?.addEventListener("click", () => {
+  currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+  updateSlider();
+});
+
+nextBtn?.addEventListener("click", () => {
+  currentSlide = (currentSlide + 1) % totalSlides;
+  updateSlider();
+});
+
+// inicijalno
+updateSlider();
+
 
 });

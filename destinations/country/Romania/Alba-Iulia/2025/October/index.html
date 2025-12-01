@@ -79,93 +79,144 @@
 </section>
 
 
-<!-- WHAT I EXPERIENCED -->
+<!-- WHAT DID I FIND -->
 <section class="city-section">
-    <h2>What I Experienced</h2>
-    <p>
-        Alba Iulia instantly feels grand. The fortress gates are impressive, 
-        the interior is clean and beautifully restored, and the atmosphere is slow,
-        calm and monumental. Walking its huge star-shaped citadel feels like stepping 
-        through centuries of layered history.
-    </p>
+  <h2>What Did I Find?</h2>
 
-    <p>
-        Baroque gates, Roman ruins, museums and a long pedestrian spine make this 
-        one of the best-designed historical cities in Eastern Europe.
-    </p>
-</section>
+  <div class="slider-wrapper">
+    <button class="slider-btn prev">‹</button>
 
-
-<!-- ROUTE PLANNER WRAPPER (COLLAPSIBLE) -->
-<section class="city-section route-planner-wrapper">
-
-    <div class="route-planner-header" id="route-planner-toggle">
-        <h2>Plan Your Perfect Visit to Alba Lulia</h2>
-        <span class="route-arrow" id="route-arrow">▼</span>
-    </div>
-
-    <div id="route-planner-panel" class="route-planner-panel collapsed">
-
-        <div class="route-planner">
-            <div class="route-form-wrapper">
-
-                <!-- FORM -->
-                <form class="route-form">
-                    <!-- Trip type -->
-                    <label for="route-trip-type">Trip type</label>
-                    <select id="route-trip-type">
-                        <option value="">-- Select trip type --</option>
-                    </select>
-
-                    <!-- Interest -->
-                    <label for="route-interest">Interest</label>
-                    <select id="route-interest">
-                        <option value="">-- Select interest --</option>
-                    </select>
-
-                    <!-- Food -->
-                    <label for="route-food">Food preference</label>
-                    <select id="route-food">
-                        <option value="">-- Select food --</option>
-                    </select>
-
-                    <!-- Budget -->
-                    <label for="route-budget">Budget</label>
-                    <select id="route-budget">
-                        <option value="">-- Select budget --</option>
-                    </select>
-
-                    <button type="button" id="route-submit" class="btn route-submit-btn">
-                        Get route recommendation
-                    </button>
-
-                    <p id="route-error" class="route-error-message"></p>
-                </form>
-
-                <!-- RESULT AREA -->
-                <div class="route-result-wrapper">
-                    <h3 class="route-result-title">Your route</h3>
-
-                    <div id="route-result" class="route-result">
-                        <p class="route-placeholder">
-                            Select the desired parameters and wait for the recommendation.
-                        </p>
-                    </div>
-                </div>
-
-                <!-- Rezultati -->
-                <div class="route-result-wrapper">
-                    <h3 class="route-result-title">Your route</h3>
-                    <div id="route-result" class="route-result"></div>
-                    <button id="save-pdf-btn" style="display:none;">Save as PDF</button> <!-- OVO JE NEDOSTAJALO -->
-                </div>
-
-            </div>
+    <div class="slider-container">
+      <!-- Tekst na background-image -->
+        <div class="gallery-text-block">
+            I arrived at a hotel near the Citadel in the evening. I shared a room with a guy 
+            I didn't know at the time, who turned out to be very funny. We went on an evening 
+            walk to the citadel together, passing the Orthodox Church, the Cathedral, and finally 
+            reaching the citadel gate.
+            <div style="text-align: right; font-weight: 700; margin-top: 1rem;">1/3</div>
         </div>
 
+        <div class="gallery-text-block">
+            Outside the gate, right by the bridge, there’s a pub built into the very wall of the 
+            citadel. We sat there, tried local specialties, drank local beer, and the whole evening 
+            felt light, fun, and perfectly relaxed.
+            <div style="text-align: right; font-weight: 700; margin-top: 1rem;">1/3</div>
+        </div>
+
+        <div class="gallery-text-block">
+            The next morning, after breakfast, we joined a guided tour. While the guide explained 
+            the history of the Citadel, someone remarked that the same architect built both the 
+            Citadel and Belgrade’s Kalemegdan — to which my roommate jokingly replied, 
+            “Who did that to you?”. From that moment on, that became our motto for everything 
+            that happened around us. We explored the Citadel once again, taking photos with 
+            the life-size statues placed throughout the complex, representing figures from the 
+            era when it was built.
+            <div style="text-align: right; font-weight: 700; margin-top: 1rem;">1/3</div>
+        </div>
+    </div>
+
+    <button class="slider-btn next">›</button>
+  </div>
+</section>
+
+<!-- PHOTO GALLERY -->
+<section class="city-section gallery-wrapper">
+
+    <div class="gallery-header" id="gallery-toggle">
+        <h2>My little adventure in Alba Lulia</h2>
+        <span class="gallery-arrow" id="gallery-arrow">▼</span>
+    </div>
+
+    <div id="gallery-panel" class="gallery-panel collapsed">
+        
+        <!-- Galerija ide kad se panel otvori, ali VAN text-bloka -->
+        <div class="gallery">
+
+            <figure>
+                <img class="gallery-img" src="/assets/images/destinations/alba-iulia.jpg" alt="Citadel Panorama">
+                <figcaption>Taking a photo with the city sign.</figcaption>
+            </figure>         
+
+            <figure>
+                <img class="gallery-img" src="/assets/images/destinations/Alba-Iulia/alba-lulia-entrance-01.jpg" alt="entrance-01">
+                <figcaption>Entrance to the Citadel.</figcaption>
+            </figure>
+
+            <figure>
+                <img class="gallery-img" src="/assets/images/destinations/Alba-Iulia/alba-lulia-entrance-02.jpg" alt="entrance-02">
+                <figcaption>The bridge in front of the Citadel.</figcaption>
+            </figure>
+
+            <figure>
+                <img class="gallery-img" src="/assets/images/destinations/Alba-Iulia/alba-lulia-orthodox-chirch.jpg" alt="orthodox-chirch">
+                <figcaption>Romanian Orthodox Church in the Citadel.</figcaption>
+            </figure>
+
+            <figure>
+                <img class="gallery-img" src="/assets/images/destinations/Alba-Iulia/statue_park_01.jpg" alt="statue_park_01">
+                <figcaption>Socializing with figures from the time when the citadel was built.</figcaption>
+            </figure>
+
+            <figure>
+                <img class="gallery-img" src="/assets/images/destinations/Alba-Iulia/alba-lulia-street-to-gate.jpg" alt="street-to-gate">
+                <figcaption>The street leading to the third gate.</figcaption>
+            </figure>
+
+            <figure>
+                <img class="gallery-img" src="/assets/images/destinations/Alba-Iulia/alba-lulia-gate-01.jpg" alt="gate-01">
+                <figcaption>Third gate..</figcaption>
+            </figure>
+
+            <figure>
+                <img class="gallery-img" src="/assets/images/destinations/Alba-Iulia/alba-lulia-tunel.jpg" alt="gate tunel">
+                <figcaption>Passage through the third gate and obelisk.</figcaption>
+            </figure>
+
+            <figure>
+                <img class="gallery-img" src="/assets/images/destinations/Alba-Iulia/alba-lulia-pub13-entrance.jpg" alt="gate tunel">
+                <figcaption>Entrance to Pub.</figcaption>
+            </figure>
+
+            <figure>
+                <img class="gallery-img" src="/assets/images/destinations/Alba-Iulia/pub_13_ambient.jpg" alt="pub_13_ambient">
+                <figcaption>Dinner under the walls of the citadel, with knightly furniture.</figcaption>
+            </figure>
+
+            <figure>
+                <img class="gallery-img" src="/assets/images/destinations/Alba-Iulia/alba-lulia-pub13-knight.jpg" alt="pub13-knight">
+                <figcaption>Knight's armor as decoration.</figcaption>
+            </figure>
+
+            <figure>
+                <img class="gallery-img" src="/assets/images/destinations/Alba-Iulia/alba-lulia-gulash.jpg" alt="gulash">
+                <figcaption>Romanian Goulash - a specialty of this region.</figcaption>
+            </figure>
+
+            <figure>
+                <img class="gallery-img" src="/assets/images/destinations/Alba-Iulia/citadel_fortress.png" alt="citadel_fortress">
+                <figcaption>Dinner under the walls of the citadel, with knightly furniture.</figcaption>
+            </figure>
+
+            <figure>
+                <img class="gallery-img" src="/assets/images/destinations/Alba-Iulia/citadel_legend.png" alt="citadel_legend">
+                <figcaption>Map from the Citadele.</figcaption>
+            </figure>
+
+            <figure>
+                <img class="gallery-img" src="/assets/images/destinations/Alba-Iulia/alba-lulia-sculptors-01.jpg" alt="sculptors">
+                <figcaption>Socializing with sculptures again.</figcaption>
+            </figure>
+
+            <figure>
+                <img class="gallery-img" src="/assets/images/destinations/Alba-Iulia/alba-lulia-catedrala-romano-catolica.jpg" alt="catedrala-romano-catolica">
+                <figcaption>Roman Catholic Cathedral.</figcaption>
+            </figure>
+
+        </div>
     </div>
 
 </section>
+
 
 <!-- WHY THIS PLACE IS SPECIAL -->
 <section class="city-section">
@@ -277,131 +328,76 @@
     </div>
 </section>
 
+<!-- ROUTE PLANNER WRAPPER (COLLAPSIBLE) -->
+<section class="city-section route-planner-wrapper">
 
-<!-- PHOTO GALLERY -->
-<section class="city-section gallery-wrapper">
-
-    <div class="gallery-header" id="gallery-toggle">
-        <h2>My little adventure in Alba Lulia</h2>
-        <span class="gallery-arrow" id="gallery-arrow">▼</span>
+    <div class="route-planner-header" id="route-planner-toggle">
+        <h2>Plan Your Perfect Visit to Alba Lulia</h2>
+        <span class="route-arrow" id="route-arrow">▼</span>
     </div>
 
-    <div id="gallery-panel" class="gallery-panel collapsed">
-        <!-- Tekst na background-image -->
-        <div class="gallery-text-block">
-            I arrived at a hotel near the Citadel in the evening. I shared a room with a guy 
-            I didn't know at the time, who turned out to be very funny. We went on an evening 
-            walk to the citadel together, passing the Orthodox Church, the Cathedral, and finally 
-            reaching the citadel gate.
-            <div style="text-align: right; font-weight: 700; margin-top: 1rem;">1/3</div>
+    <div id="route-planner-panel" class="route-planner-panel collapsed">
+
+        <div class="route-planner">
+            <div class="route-form-wrapper">
+
+                <!-- FORM -->
+                <form class="route-form">
+                    <!-- Trip type -->
+                    <label for="route-trip-type">Trip type</label>
+                    <select id="route-trip-type">
+                        <option value="">-- Select trip type --</option>
+                    </select>
+
+                    <!-- Interest -->
+                    <label for="route-interest">Interest</label>
+                    <select id="route-interest">
+                        <option value="">-- Select interest --</option>
+                    </select>
+
+                    <!-- Food -->
+                    <label for="route-food">Food preference</label>
+                    <select id="route-food">
+                        <option value="">-- Select food --</option>
+                    </select>
+
+                    <!-- Budget -->
+                    <label for="route-budget">Budget</label>
+                    <select id="route-budget">
+                        <option value="">-- Select budget --</option>
+                    </select>
+
+                    <button type="button" id="route-submit" class="btn route-submit-btn">
+                        Get route recommendation
+                    </button>
+
+                    <p id="route-error" class="route-error-message"></p>
+                </form>
+
+                <!-- RESULT AREA -->
+                <div class="route-result-wrapper">
+                    <h3 class="route-result-title">Your route</h3>
+
+                    <div id="route-result" class="route-result">
+                        <p class="route-placeholder">
+                            Select the desired parameters and wait for the recommendation.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Rezultati -->
+                <div class="route-result-wrapper">
+                    <h3 class="route-result-title">Your route</h3>
+                    <div id="route-result" class="route-result"></div>
+                    <button id="save-pdf-btn" style="display:none;">Save as PDF</button> <!-- OVO JE NEDOSTAJALO -->
+                </div>
+
+            </div>
         </div>
 
-        <div class="gallery-text-block">
-            Outside the gate, right by the bridge, there’s a pub built into the very wall of the 
-            citadel. We sat there, tried local specialties, drank local beer, and the whole evening 
-            felt light, fun, and perfectly relaxed.
-            <div style="text-align: right; font-weight: 700; margin-top: 1rem;">1/3</div>
-        </div>
-
-        <div class="gallery-text-block">
-            The next morning, after breakfast, we joined a guided tour. While the guide explained 
-            the history of the Citadel, someone remarked that the same architect built both the 
-            Citadel and Belgrade’s Kalemegdan — to which my roommate jokingly replied, 
-            “Who did that to you?”. From that moment on, that became our motto for everything 
-            that happened around us. We explored the Citadel once again, taking photos with 
-            the life-size statues placed throughout the complex, representing figures from the 
-            era when it was built.
-            <div style="text-align: right; font-weight: 700; margin-top: 1rem;">1/3</div>
-        </div>
-
-        <!-- Galerija ide kad se panel otvori, ali VAN text-bloka -->
-        <div class="gallery">
-
-            <figure>
-                <img class="gallery-img" src="/assets/images/destinations/alba-iulia.jpg" alt="Citadel Panorama">
-                <figcaption>Taking a photo with the city sign.</figcaption>
-            </figure>         
-
-            <figure>
-                <img class="gallery-img" src="/assets/images/destinations/Alba-Iulia/alba-lulia-entrance-01.jpg" alt="entrance-01">
-                <figcaption>Entrance to the Citadel.</figcaption>
-            </figure>
-
-            <figure>
-                <img class="gallery-img" src="/assets/images/destinations/Alba-Iulia/alba-lulia-entrance-02.jpg" alt="entrance-02">
-                <figcaption>The bridge in front of the Citadel.</figcaption>
-            </figure>
-
-            <figure>
-                <img class="gallery-img" src="/assets/images/destinations/Alba-Iulia/alba-lulia-orthodox-chirch.jpg" alt="orthodox-chirch">
-                <figcaption>Romanian Orthodox Church in the Citadel.</figcaption>
-            </figure>
-
-            <figure>
-                <img class="gallery-img" src="/assets/images/destinations/Alba-Iulia/statue_park_01.jpg" alt="statue_park_01">
-                <figcaption>Socializing with figures from the time when the citadel was built.</figcaption>
-            </figure>
-
-            <figure>
-                <img class="gallery-img" src="/assets/images/destinations/Alba-Iulia/alba-lulia-street-to-gate.jpg" alt="street-to-gate">
-                <figcaption>The street leading to the third gate.</figcaption>
-            </figure>
-
-            <figure>
-                <img class="gallery-img" src="/assets/images/destinations/Alba-Iulia/alba-lulia-gate-01.jpg" alt="gate-01">
-                <figcaption>Third gate..</figcaption>
-            </figure>
-
-            <figure>
-                <img class="gallery-img" src="/assets/images/destinations/Alba-Iulia/alba-lulia-tunel.jpg" alt="gate tunel">
-                <figcaption>Passage through the third gate and obelisk.</figcaption>
-            </figure>
-
-            <figure>
-                <img class="gallery-img" src="/assets/images/destinations/Alba-Iulia/alba-lulia-pub13-entrance.jpg" alt="gate tunel">
-                <figcaption>Entrance to Pub.</figcaption>
-            </figure>
-
-            <figure>
-                <img class="gallery-img" src="/assets/images/destinations/Alba-Iulia/pub_13_ambient.jpg" alt="pub_13_ambient">
-                <figcaption>Dinner under the walls of the citadel, with knightly furniture.</figcaption>
-            </figure>
-
-            <figure>
-                <img class="gallery-img" src="/assets/images/destinations/Alba-Iulia/alba-lulia-pub13-knight.jpg" alt="pub13-knight">
-                <figcaption>Knight's armor as decoration.</figcaption>
-            </figure>
-
-            <figure>
-                <img class="gallery-img" src="/assets/images/destinations/Alba-Iulia/alba-lulia-gulash.jpg" alt="gulash">
-                <figcaption>Romanian Goulash - a specialty of this region.</figcaption>
-            </figure>
-
-            <figure>
-                <img class="gallery-img" src="/assets/images/destinations/Alba-Iulia/citadel_fortress.png" alt="citadel_fortress">
-                <figcaption>Dinner under the walls of the citadel, with knightly furniture.</figcaption>
-            </figure>
-
-            <figure>
-                <img class="gallery-img" src="/assets/images/destinations/Alba-Iulia/citadel_legend.png" alt="citadel_legend">
-                <figcaption>Map from the Citadele.</figcaption>
-            </figure>
-
-            <figure>
-                <img class="gallery-img" src="/assets/images/destinations/Alba-Iulia/alba-lulia-sculptors-01.jpg" alt="sculptors">
-                <figcaption>Socializing with sculptures again.</figcaption>
-            </figure>
-
-            <figure>
-                <img class="gallery-img" src="/assets/images/destinations/Alba-Iulia/alba-lulia-catedrala-romano-catolica.jpg" alt="catedrala-romano-catolica">
-                <figcaption>Roman Catholic Cathedral.</figcaption>
-            </figure>
-
-        </div>
     </div>
 
 </section>
-
 
 <!-- FOOTER -->
 <div data-include="/components/footer.html"></div>
