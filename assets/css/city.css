@@ -43,6 +43,20 @@ html, body {
 }
 
 /* ============================================================
+   CITY VISIT BUTTON
+============================================================ */
+#toggle-planner-btn {
+  display: block;
+  margin: 0 auto;
+}
+
+#toggle-planner-btn img {
+    max-width: 180px;   /* prilagodi po želji */
+    height: auto;
+    display: block;
+}
+
+/* ============================================================
    CITY SECTION (MAIN CONTENT BLOCKS)
 ============================================================ */
 .city-section {
@@ -525,6 +539,53 @@ html, body {
     border-radius: 16px;
     padding: 1.5rem 1.2rem;
     background: #fff;
+}
+
+/*===========================================================
+    Why Budapest is Special Wrapper
+============================================================ */
+.special-wrapper {
+  margin-top: 3rem;
+}
+
+.special-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f3f4f6;
+  padding: 1.2rem 1.5rem;
+  border-radius: 16px;
+  border: 1px solid #e5e7eb;
+  cursor: pointer;
+}
+
+.special-arrow {
+  font-size: 1.2rem;
+  transition: transform 0.3s ease;
+  display: inline-block;
+}
+
+.special-arrow.rotated {
+  transform: rotate(180deg); /* ▼ → ▲ */
+}
+
+.special-panel {
+  overflow: hidden;
+  transition: max-height 0.35s ease;
+}
+
+.special-panel.collapsed {
+  max-height: 0;
+  padding: 0;
+}
+
+.special-panel.open {
+  max-height: 3000px;
+  margin-top: 1rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 1.5rem 1.2rem;
+  background: #fff;
 }
 
 /* ============================================================

@@ -73,63 +73,107 @@
     </div>
 </section>
 
-<!-- EXPERIENCES -->
+<!-- WHAT DID I FIND -->
 <section class="city-section">
-    <h2>What I Experienced</h2>
-    <p>
-        We arrived by train from Budapest, stepping off into a sleepy, foggy town. The streets were wet from 
-        the morning mist, and the smell of roasted chestnuts greeted us near the main square. No rush, no noise — 
-        just cobblestone alleys and hills calling for a slow walk.
-    </p>
-    <p>
-        Art galleries, handmade souvenirs, and little cafes gave us places to pause. One Orthodox church towered 
-        above the rooftops, its gold cross catching the faint sunlight. By the time we reached the Danube, the 
-        fog had lifted just enough to reveal a quiet riverbank — peaceful, still, and full of charm.
-    </p>
-</section>
+  <h2>What Did I Find?</h2>
 
-<!-- ROUTE PLANNER -->
-<section class="city-section route-planner-wrapper">
-    <div class="route-planner-header" id="route-planner-toggle">
-        <h2>Plan Your Day in Szentendre</h2>
-        <span class="route-arrow" id="route-arrow">▼</span>
+  <div class="slider-wrapper">
+    <button class="slider-btn prev">‹</button>
+
+    <div class="slider-container">
+      <!-- Tekst na background-image -->
+        <div class="gallery-text-block">
+            <br>
+            Since I was already in Budapest, I couldn’t resist taking a side trip to Szentendre — a 
+            town often called the “Serbian soul” of Hungary. It’s about a 45-minute ride, and although 
+            people love to brag about getting there by car, I proudly joined Team Bus like a true 
+            explorer on a realistic budget. The moment you arrive, the town feels neat, colorful, and 
+            surprisingly calm — like someone pressed the “slow life” button directly after Budapest’s hustle.<br>
+            What makes Szentendre special is its Serbian heritage. You’ll spot things like the 
+            Serbian Orthodox Church, Vuk Karadzic Square, and the main square — formally known as Fő tér — 
+            where a large cross stands proudly in honor of the Serbian merchants who helped build the town 
+            centuries ago.
+            <div style="text-align: right; font-weight: 700; margin-top: 1rem;">1/3</div>
+        </div>
+
+        <div class="gallery-text-block">
+            <br>
+             There are cafés and restaurants everywhere, and one pastry shop is literally a 
+            museum shape-shifted into a dessert place: the Marzipan Museum. Yes, you can look at marzipan 
+            art and then eat some — a dream combination. Down by the river you’ll find the legendary Serbian 
+            Tavern serving proper Balkan food… although plot twist: nobody actually speaks Serbian. 
+            Not in the tavern, not in the streets. Serbian atmosphere, zero Serbian language — travel irony at its finest.<br>
+            Of course, I had to try real Hungarian food, so I picked a riverside restaurant and ordered goulash like a responsible tourist.
+            <div style="text-align: right; font-weight: 700; margin-top: 1rem;">2/3</div>
+        </div>
+
+        <div class="gallery-text-block">
+            <br>
+            And it did not disappoint — rich, spicy, and strong enough to fuel a small army. One bowl could easily count as a full-day meal. 
+            Just don’t fall for the “would you like coffee?” question after you’ve paid — that’s not grandma hospitality, that’s a 
+            financial sequel. Lesson learned. <br><br>
+            On my way back, I stopped at a tiny shop between Fő tér and Vuk Karadžić Square and grabbed a fridge magnet as a 
+            souvenir — proof that I was here and survived the goulash. All in all: a beautiful little town with narrow streets, 
+            colorful houses, and a laid-back vibe. Best visited in spring or late summer, when the colors are bright and the weather plays fair.
+            <div style="text-align: right; font-weight: 700; margin-top: 1rem;">3/3</div>
+        </div>
     </div>
 
-    <div id="route-planner-panel" class="route-planner-panel collapsed">
-        <div class="route-planner">
-            <div class="route-form-wrapper">
-                <form class="route-form">
-                    <label for="route-trip-type">Trip type</label>
-                    <select id="route-trip-type"></select>
+    <button class="slider-btn next">›</button>
+  </div>
+</section>
 
-                    <label for="route-interest">Interests</label>
-                    <select id="route-interest"></select>
+<!-- MAKE ROUTE BUTTON -->
+<button class="btn ghost image-btn" id="toggle-planner-btn">
+  <img src="/assets/images/buttons/btn_own_city_visit.png" alt="Make Your Own City Visit">
+</button>
 
-                    <label for="route-food">Food type</label>
-                    <select id="route-food"></select>
+<!-- GALLERY -->
+<section class="city-section gallery-wrapper">
+    <div class="gallery-header" id="gallery-toggle">
+        <h2>A Stroll Through Szentendre</h2>
+        <span class="gallery-arrow" id="gallery-arrow">▼</span>
+    </div>
 
-                    <label for="route-budget">Budget</label>
-                    <select id="route-budget"></select>
+    <div id="gallery-panel" class="gallery-panel collapsed">
 
-                    <button type="button" id="route-submit">Get route recommendation</button>
-                    <p id="route-error" class="route-error-message"></p>
-                </form>
-
-                <p id="routes-loaded-count" class="route-count-message"></p>
-
-                <div class="route-result-wrapper">
-                    <h3 class="route-result-title">Your route</h3>
-                    <div id="route-result" class="route-result"></div>
-                    <button id="save-pdf-btn" style="display:none;">Save as PDF</button>
-                </div>
-            </div>
+        <!-- Gallery images go here -->
+        <div class="gallery">
+            <figure>
+                <img class="gallery-img" src="/assets/images/destinations/Hungary/Szentandre/szentandre_main_street.png" alt="Main Street">
+                <figcaption>Main street with colorful houses.</figcaption>
+            </figure>
+            <figure>
+                <img class="gallery-img" src="/assets/images/destinations/Hungary/Szentandre/sentandera_main_square_03.jpg" alt="Szentendre Square in Autumn">
+                <figcaption>Main sqzare with colorful houses.</figcaption>
+            </figure>
+            <figure>
+                <img class="gallery-img" src="/assets/images/destinations/Hungary/Szentandre/sentandera_main_street_04.jpg" alt="Szentendre Square in Autumn">
+                <figcaption>Main sqzare with colorful houses.</figcaption>
+            </figure>
+            <figure>
+                <img class="gallery-img" src="/assets/images/destinations/Hungary/Szentandre/sentandera_main_square_01.jpg" alt="Monument to Serbian merchants">
+                <figcaption>Monument to Serbian merchants.</figcaption>
+            </figure>
+            <figure>
+                <img class="gallery-img" src="/assets/images/destinations/Hungary/Szentandre/szentandre_vuk_karadyic_square.png" alt="Art street in Szentendre">
+                <figcaption>Quiet alley filled with art shops.</figcaption>
+            </figure>
+            <figure>
+                <img class="gallery-img" src="/assets/images/destinations/Hungary/Szentandre/sentandera_restaurant_01.jpg" alt="Art street in Szentendre">
+                <figcaption>Quiet alley filled with art shops.</figcaption>
+            </figure>
         </div>
     </div>
 </section>
 
 <!-- WHY IT’S SPECIAL -->
-<section class="city-section">
-    <h2>Why Szentendre is Special</h2>
+<section class="city-section special-wrapper">
+    <div class="special-header" id="special-toggle">
+        <h2>Why Szentendre is Special</h2>
+        <span class="special-arrow" id="special-arrow">▼</span>
+     </div>
+     <div class="special-panel collapsed" id="special-panel">
     <div class="info-grid">
         <div class="info-card">
             <h3>Artistic Soul</h3>
@@ -153,6 +197,7 @@
                 A walk along the riverbank is like therapy. You’ll see fishing boats, birds and sometimes 
                 mist hanging low above the water — all within walking distance from the town center.
             </p>
+            </div>
         </div>
     </div>
 </section>
@@ -199,8 +244,6 @@
     </div>
 </section>
 
-<button id="route-open-btn" class="btn make-route-btn">Make my route</button>
-
 <!-- BEST TIME TO VISIT -->
 <section class="city-section">
     <h2>Best Time to Visit Szentendre</h2>
@@ -236,77 +279,41 @@
     </div>
 </section>
 
-<!-- GALLERY -->
-<section class="city-section gallery-wrapper">
-    <div class="gallery-header" id="gallery-toggle">
-        <h2>A Stroll Through Szentendre</h2>
-        <span class="gallery-arrow" id="gallery-arrow">▼</span>
+<!-- ROUTE PLANNER -->
+<section class="city-section route-planner-wrapper">
+    <div class="route-planner-header" id="route-planner-toggle">
+        <h2>Plan Your Day in Szentendre</h2>
+        <span class="route-arrow" id="route-arrow">▼</span>
     </div>
 
-    <div id="gallery-panel" class="gallery-panel collapsed">
-         <!-- Tekst na background-image -->
-        <div class="gallery-text-block">
-            Since I was already in Budapest, I couldn’t resist taking a side trip to Szentendre — a 
-            town often called the “Serbian soul” of Hungary. It’s about a 45-minute ride, and although 
-            people love to brag about getting there by car, I proudly joined Team Bus like a true 
-            explorer on a realistic budget. The moment you arrive, the town feels neat, colorful, and 
-            surprisingly calm — like someone pressed the “slow life” button directly after Budapest’s hustle.
-            <div style="text-align: right; font-weight: 700; margin-top: 1rem;">1/4</div>
-        </div>
+    <div id="route-planner-panel" class="route-planner-panel collapsed">
+        <div class="route-planner">
+            <div class="route-form-wrapper">
+                <form class="route-form">
+                    <label for="route-trip-type">Trip type</label>
+                    <select id="route-trip-type"></select>
 
-        <div class="gallery-text-block">
-            What makes Szentendre special is its Serbian heritage. You’ll spot things like the 
-            Serbian Orthodox Church, Vuk Karadzic Square, and the main square — formally known as Fő tér — 
-            where a large cross stands proudly in honor of the Serbian merchants who helped build the town 
-            centuries ago. There are cafés and restaurants everywhere, and one pastry shop is literally a 
-            museum shape-shifted into a dessert place: the Marzipan Museum. Yes, you can look at marzipan 
-            art and then eat some — a dream combination. Down by the river you’ll find the legendary Serbian 
-            Tavern serving proper Balkan food… although plot twist: nobody actually speaks Serbian. 
-            Not in the tavern, not in the streets. Serbian atmosphere, zero Serbian language — travel irony at its finest.
-            <div style="text-align: right; font-weight: 700; margin-top: 1rem;">2/4</div>
-        </div>
+                    <label for="route-interest">Interests</label>
+                    <select id="route-interest"></select>
 
-        <div class="gallery-text-block">
-            Of course, I had to try real Hungarian food, so I picked a riverside restaurant and ordered goulash like a responsible tourist.
-            And it did not disappoint — rich, spicy, and strong enough to fuel a small army. One bowl could easily count as a full-day meal. 
-            Just don’t fall for the “would you like coffee?” question after you’ve paid — that’s not grandma hospitality, that’s a 
-            financial sequel. Lesson learned. 
-            <div style="text-align: right; font-weight: 700; margin-top: 1rem;">3/4</div>
-        </div>
+                    <label for="route-food">Food type</label>
+                    <select id="route-food"></select>
 
-        <div class="gallery-text-block">
-            On my way back, I stopped at a tiny shop between Fő tér and Vuk Karadžić Square and grabbed a fridge magnet as a 
-            souvenir — proof that I was here and survived the goulash. All in all: a beautiful little town with narrow streets, 
-            colorful houses, and a laid-back vibe. Best visited in spring or late summer, when the colors are bright and the weather plays fair.
-            <div style="text-align: right; font-weight: 700; margin-top: 1rem;">4/4</div>
-        </div>
+                    <label for="route-budget">Budget</label>
+                    <select id="route-budget"></select>
 
-        <!-- Gallery images go here -->
-        <div class="gallery">
-            <figure>
-                <img class="gallery-img" src="/assets/images/destinations/Hungary/Szentandre/szentandre_main_street.png" alt="Main Street">
-                <figcaption>Main street with colorful houses.</figcaption>
-            </figure>
-            <figure>
-                <img class="gallery-img" src="/assets/images/destinations/Hungary/Szentandre/sentandera_main_square_03.jpg" alt="Szentendre Square in Autumn">
-                <figcaption>Main sqzare with colorful houses.</figcaption>
-            </figure>
-            <figure>
-                <img class="gallery-img" src="/assets/images/destinations/Hungary/Szentandre/sentandera_main_street_04.jpg" alt="Szentendre Square in Autumn">
-                <figcaption>Main sqzare with colorful houses.</figcaption>
-            </figure>
-            <figure>
-                <img class="gallery-img" src="/assets/images/destinations/Hungary/Szentandre/sentandera_main_square_01.jpg" alt="Monument to Serbian merchants">
-                <figcaption>Monument to Serbian merchants.</figcaption>
-            </figure>
-            <figure>
-                <img class="gallery-img" src="/assets/images/destinations/Hungary/Szentandre/szentandre_vuk_karadyic_square.png" alt="Art street in Szentendre">
-                <figcaption>Quiet alley filled with art shops.</figcaption>
-            </figure>
-            <figure>
-                <img class="gallery-img" src="/assets/images/destinations/Hungary/Szentandre/sentandera_restaurant_01.jpg" alt="Art street in Szentendre">
-                <figcaption>Quiet alley filled with art shops.</figcaption>
-            </figure>
+                    <button type="button" id="route-submit">Get route recommendation</button>
+                    <p id="route-error" class="route-error-message"></p>
+                </form>
+
+                <p id="routes-loaded-count" class="route-count-message"></p>
+
+                <div class="route-result-wrapper">
+                    <h3 class="route-result-title">Your route</h3>
+                    <div id="route-result" class="route-result"></div>
+                    <button id="save-pdf-btn" style="display:none;">Save as PDF</button>
+                </div>
+            </div>
         </div>
     </div>
 </section>

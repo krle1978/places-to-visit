@@ -200,7 +200,6 @@ function populateDropdowns() {
 // =======================
 
 document.addEventListener("DOMContentLoaded", () => {
-
   const trip = document.getElementById("route-trip-type");
   const interest = document.getElementById("route-interest");
   const food = document.getElementById("route-food");
@@ -213,7 +212,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const panel = document.getElementById("route-planner-panel");
   const header = document.getElementById("route-planner-toggle");
-  const openBtn = document.getElementById("route-open-btn");
+  const openBtn = document.getElementById("toggle-planner-btn");
 
   btn.disabled = true;
 
@@ -226,7 +225,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
   btn.addEventListener("click", () => {
-
     error.textContent = "";
     result.innerHTML = "";
     pdfBtn.style.display = "none";
@@ -265,9 +263,8 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   // =======================
-  // COLLAPSIBLE PANEL
+  // COLLAPSIBLE PANEL: Route Planner
   // =======================
-
   if (panel && header) {
     const toggle = () => {
       panel.classList.toggle("collapsed");
@@ -287,9 +284,25 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // =======================
+  // COLLAPSIBLE PANEL: Why Budapest is Special
+  // =======================
+  const specialPanel = document.getElementById("special-panel");
+  const specialToggle = document.getElementById("special-toggle");
+  const specialArrow = document.getElementById("special-arrow");
+
+  if (specialPanel && specialToggle) {
+    specialToggle.addEventListener("click", () => {
+      specialPanel.classList.toggle("collapsed");
+      specialPanel.classList.toggle("open");
+      if (specialArrow) {
+        specialArrow.classList.toggle("rotated");
+      }
+    });
+  }
+
+  // =======================
   // PDF EXPORT
   // =======================
-
   pdfBtn?.addEventListener("click", () => {
     const element = document.getElementById("route-result");
     const opt = {
@@ -300,33 +313,30 @@ document.addEventListener("DOMContentLoaded", () => {
     html2pdf().set(opt).from(element).save();
   });
 
-// =======================
-// SLIDER (ISPRAVLJENO NA PRAVILAN NAČIN)
-// =======================
-const sliderContainer = document.querySelector(".slider-container");
-const slides = document.querySelectorAll(".gallery-text-block");
-const prevBtn = document.querySelector(".slider-btn.prev");
-const nextBtn = document.querySelector(".slider-btn.next");
+  // =======================
+  // SLIDER: What Did I Find
+  // =======================
+  const sliderContainer = document.querySelector(".slider-container");
+  const slides = document.querySelectorAll(".gallery-text-block");
+  const prevBtn = document.querySelector(".slider-btn.prev");
+  const nextBtn = document.querySelector(".slider-btn.next");
 
-let currentSlide = 0;
-const totalSlides = slides.length;
+  let currentSlide = 0;
+  const totalSlides = slides.length;
 
-function updateSlider() {
-  sliderContainer.style.transform = `translateX(-${currentSlide * 100}%)`;
-}
+  function updateSlider() {
+    sliderContainer.style.transform = `translateX(-${currentSlide * 100}%)`;
+  }
 
-prevBtn?.addEventListener("click", () => {
-  currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
-  updateSlider();
-});
+  prevBtn?.addEventListener("click", () => {
+    currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+    updateSlider();
+  });
 
-nextBtn?.addEventListener("click", () => {
-  currentSlide = (currentSlide + 1) % totalSlides;
-  updateSlider();
-});
+  nextBtn?.addEventListener("click", () => {
+    currentSlide = (currentSlide + 1) % totalSlides;
+    updateSlider();
+  });
 
-// inicijalno
-updateSlider();
-
-
+  updateSlider(); // inicijalno
 });

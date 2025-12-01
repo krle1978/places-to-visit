@@ -1,5 +1,3 @@
-// assets/js/salina-turda-routes.js
-
 // =======================
 // CONFIG
 // =======================
@@ -105,6 +103,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const header = document.getElementById("route-planner-toggle");
     const arrow = document.getElementById("route-arrow");
     const openBtn = document.getElementById("route-open-btn");
+    const newBtn = document.getElementById("toggle-planner-btn"); // NOVO dugme
 
     // Load JSON + populate
     loadRouteRecommendations().then(() => {
@@ -176,7 +175,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     // =======================
-    // SLIDER (ISPRAVLJENO NA PRAVILAN NAČIN)
+    // SLIDER
     // =======================
     const sliderContainer = document.querySelector(".slider-container");
     const slides = document.querySelectorAll(".gallery-text-block");
@@ -200,10 +199,11 @@ document.addEventListener("DOMContentLoaded", function () {
         updateSlider();
     });
 
-    // inicijalno
-    updateSlider();
+    updateSlider(); // inicijalno
 
-    // COLLAPSIBLE PANEL + STRELICA ROTACIJA
+    // =======================
+    // COLLAPSIBLE PANEL + STRELICA
+    // =======================
     if (panel && header) {
         const toggle = () => {
             panel.classList.toggle("collapsed");
@@ -216,14 +216,40 @@ document.addEventListener("DOMContentLoaded", function () {
 
         header.addEventListener("click", toggle);
 
-        if (openBtn) {
-            openBtn.addEventListener("click", e => {
-                e.stopPropagation();
-                panel.classList.remove("collapsed");
-                panel.classList.add("open");
-                if (arrow) arrow.textContent = "▲";
-                header.scrollIntoView({ behavior: "smooth" });
-            });
-        }
+        const openPanel = () => {
+            panel.classList.remove("collapsed");
+            panel.classList.add("open");
+            if (arrow) arrow.textContent = "▲";
+            header.scrollIntoView({ behavior: "smooth" });
+        };
+
+        openBtn?.addEventListener("click", e => {
+            e.stopPropagation();
+            openPanel();
+        });
+
+        newBtn?.addEventListener("click", e => {
+            e.stopPropagation();
+            openPanel();
+        });
     }
+    // =======================
+    // COLLAPSIBLE: WHY THIS PLACE IS SPECIAL
+    // =======================
+
+    const specialToggle = document.getElementById("special-toggle");
+    const specialPanel = document.getElementById("special-panel");
+    const specialArrow = document.getElementById("special-arrow");
+
+    if (specialToggle && specialPanel) {
+    specialToggle.addEventListener("click", () => {
+        specialPanel.classList.toggle("collapsed");
+        specialPanel.classList.toggle("open");
+
+        if (specialArrow) {
+        specialArrow.textContent = specialPanel.classList.contains("open") ? "▲" : "▼";
+        }
+    });
+    }
+
 });

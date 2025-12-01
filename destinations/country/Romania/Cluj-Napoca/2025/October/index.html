@@ -93,41 +93,36 @@
     <div class="slider-container">
       <!-- Tekst na background-image -->
         <div class="gallery-text-block">
+            <br>
             Cluj is a beautiful city that resembles those of Central Europe. Some streets and 
             facades in the old part of town look strikingly similar to Vienna. I enjoyed wandering 
             through the city and the hilltop park from which you can see the entire skyline — and 
-            it’s only a short walk from the center.
-            <div style="text-align: right; font-weight: 700; margin-top: 1rem;">1/5</div>
-        </div>
-
-        <div class="gallery-text-block">
+            it’s only a short walk from the center.<br><br>
             My companion and I arrived around 4 pm. We passed by the National Theater and continued 
             toward the city center. Along the way, we came across the statue of the she-wolf nursing 
-            Romulus and Remus. In the main square stands the monument of Matthias Corvinus and the 
-            Roman Catholic church. We walked through the streets of the old town, enjoying the 
-            architecture and the beautifully decorated restaurant gardens with warm lamps.
-            <div style="text-align: right; font-weight: 700; margin-top: 1rem;">2/5</div>
+            Romulus and Remus. <br><br>
+            <div style="text-align: right; font-weight: 700; margin-top: 1rem;">1/3</div>
         </div>
 
         <div class="gallery-text-block">
+            <br>
+            In the main square stands the monument of Matthias Corvinus and the 
+            Roman Catholic church. We walked through the streets of the old town, enjoying the 
+            architecture and the beautifully decorated restaurant gardens with warm lamps.<br><br>
             We started looking for a place to sit and eat something good — and then I spotted 
             “Berliner Kebab.” It instantly reminded me of the best wrap I ever had in Vienna, 
             right at the “Berliner Döner” stand. We walked in without hesitation, and we didn’t regret it.
-            <div style="text-align: right; font-weight: 700; margin-top: 1rem;">3/5</div>
+            <div style="text-align: right; font-weight: 700; margin-top: 1rem;">2/3</div>
         </div>
 
         <div class="gallery-text-block">
             On the way to the viewpoint, I stumbled upon a café called “Nish,” which was closed 
             because it was Sunday. We continued uphill until we reached Cetățuia Park. From there, 
-            the view opens over the entire city of Cluj-Napoca — a perfect reward after the climb.
-            <div style="text-align: right; font-weight: 700; margin-top: 1rem;">4/5</div>
-        </div>
-
-        <div class="gallery-text-block">
+            the view opens over the entire city of Cluj-Napoca — a perfect reward after the climb.<br><br>
             On the way back, we stopped by the Orthodox Church located across from the National 
             Theater. The two are separated by a small park filled with stands selling handicrafts 
             and jewelry, adding a warm, local charm to the walk.
-            <div style="text-align: right; font-weight: 700; margin-top: 1rem;">5/5</div>
+            <div style="text-align: right; font-weight: 700; margin-top: 1rem;">3/3</div>
         </div>
 
     </div>
@@ -135,6 +130,11 @@
     <button class="slider-btn next">›</button>
   </div>
 </section>
+
+<!-- MAKE ROUTE BUTTON -->
+<button class="btn ghost image-btn" id="toggle-planner-btn">
+  <img src="/assets/images/buttons/btn_own_city_visit.png" alt="Make Your Own City Visit">
+</button>
 
 <!-- PHOTO GALLERY -->
 <section class="city-section">
@@ -222,9 +222,12 @@
 </section>
 
 <!-- WHY THIS PLACE IS SPECIAL -->
-<section class="city-section">
+<section class="city-section special-wrapper">
+    <div class="special-header" id="special-toggle">
     <h2>Why Cluj-Napoca is Special</h2>
-
+    <span class="special-arrow" id="special-arrow">▼</span>
+     </div>
+     <div class="special-panel collapsed" id="special-panel">
     <div class="info-grid">
 
         <div class="info-card">
@@ -249,7 +252,7 @@
                 creates incredible photography moments.
             </p>
         </div>
-
+        </div>
     </div>
 </section>
 
