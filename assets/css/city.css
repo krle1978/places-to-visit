@@ -621,9 +621,14 @@ html, body {
         }
 
     .gallery-text-block {
-        font-size: 1rem;
-        line-height: 1.6;
+        font-size: 0.85rem;
+        line-height: 1.4; 
+        padding: 2.8rem; 
+        box-sizing: border-box; 
+        width: 100%; 
+        word-wrap: break-word; 
     }
+
 
     #gallery-prev { left: 10px; }
     #gallery-next { right: 10px; }
@@ -638,7 +643,7 @@ html, body {
 
 /* ============================================================
    RESPONSIVE FIX FOR GALLERY – One column layout (all screens)
-============================================================ */
+    ============================================================ */
 
 @media (min-width: 700px) {
     .gallery {
