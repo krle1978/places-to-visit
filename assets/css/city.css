@@ -284,6 +284,7 @@ html, body {
 /* RESULT GRID */
 .route-result-wrapper {
     margin-top: 1.5rem;
+    text-align: center;
 }
 
 .route-result {
@@ -483,6 +484,8 @@ html, body {
    PDF BUTTON
 ============================================================ */
 #save-pdf-btn {
+    display: block; /* ← PREVENTS inline weirdness */
+    margin: 1rem auto 0; /* ← AUTO centriranje */
     padding: 12px 18px;
     font-size: 1rem;
     background: #4a63e7;
@@ -490,6 +493,10 @@ html, body {
     border-radius: 10px;
     border: none;
     cursor: pointer;
+}
+
+.route-result .card.route-card {
+    margin-bottom: 1.5rem;
 }
 
 #save-pdf-btn:hover {
