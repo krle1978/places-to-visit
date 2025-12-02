@@ -214,13 +214,30 @@ document.addEventListener("DOMContentLoaded", () => {
   const header = document.getElementById("route-planner-toggle");
   const openBtn = document.getElementById("toggle-planner-btn");
 
+  // Disable dugme dok forma nije validna
   btn.disabled = true;
+  btn.classList.add("disabled");
+
+  // Funkcija za proveru validnosti forme
+  function updateSubmitState() {
+    const isValid = trip.value && interest.value && food.value && budget.value;
+    btn.disabled = !isValid;
+    btn.classList.toggle("disabled", !isValid);
+    btn.title = isValid
+      ? "Generate your route"
+      : "Please select all fields to enable";
+  }
+
+  // Reaguj na promene
+  [trip, interest, food, budget].forEach(select => {
+    select.addEventListener("change", updateSubmitState);
+  });
 
   Promise.all([loadRouteRecommendations(), loadFoodRecommendations()])
     .then(() => {
       if (!routesLoadError && routesLoaded) {
         populateDropdowns();
-        btn.disabled = false;
+        updateSubmitState(); // Revalidiraj nakon punjenja
       }
     });
 
@@ -234,11 +251,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const f = food.value;
     const b = budget.value;
 
-    if (!t || !i || !f || !b) {
-      error.textContent = "Molim izaberi sve opcije.";
-      return;
-    }
-
     const normalizedBudget = (b === "comfortable") ? "medium" : b;
 
     const match = routeRecommendations.find(r =>
@@ -251,7 +263,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (match) {
       result.appendChild(buildRouteCard(match));
     } else {
-      error.textContent = "Nema tačne rute, ali pogledaj gastro preporuku 👇";
+      error.textContent = "No perfect match, but here’s a food tip 👇";
     }
 
     const foodData = foodRecommendations?.[f]?.[normalizedBudget];
@@ -262,9 +274,7 @@ document.addEventListener("DOMContentLoaded", () => {
     pdfBtn.style.display = "inline-block";
   });
 
-  // =======================
   // COLLAPSIBLE PANEL: Route Planner
-  // =======================
   if (panel && header) {
     const toggle = () => {
       panel.classList.toggle("collapsed");
@@ -283,9 +293,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // =======================
   // COLLAPSIBLE PANEL: Why Budapest is Special
-  // =======================
   const specialPanel = document.getElementById("special-panel");
   const specialToggle = document.getElementById("special-toggle");
   const specialArrow = document.getElementById("special-arrow");
@@ -300,9 +308,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // =======================
   // PDF EXPORT
-  // =======================
   pdfBtn?.addEventListener("click", () => {
     const element = document.getElementById("route-result");
     const opt = {
@@ -313,9 +319,7 @@ document.addEventListener("DOMContentLoaded", () => {
     html2pdf().set(opt).from(element).save();
   });
 
-  // =======================
   // SLIDER: What Did I Find
-  // =======================
   const sliderContainer = document.querySelector(".slider-container");
   const slides = document.querySelectorAll(".gallery-text-block");
   const prevBtn = document.querySelector(".slider-btn.prev");
@@ -338,5 +342,6 @@ document.addEventListener("DOMContentLoaded", () => {
     updateSlider();
   });
 
-  updateSlider(); // inicijalno
+  updateSlider();
 });
+

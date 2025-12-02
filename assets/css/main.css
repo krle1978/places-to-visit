@@ -202,9 +202,16 @@ a {
 }
 
 .card {
-    display: block;
+    background: #ffffff;
+    border-radius: 20px;
     overflow: hidden;
-    border-radius: 18px;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06); /* Dodato! */
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-4px);
 }
 
 .card img {

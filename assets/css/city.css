@@ -197,9 +197,9 @@ html, body {
    SIGHTS GRID (What To See & Do)
 ============================================================ */
 .sights-grid {
-//    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+    display: grid; /* ← OVO je falilo! */
     gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* bolji minmax za mobile */
     margin-top: 1.5rem;
 }
 
@@ -208,7 +208,7 @@ html, body {
     border-radius: 20px;
     overflow: hidden;
     border: 1px solid #e5e7eb;
-    box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
 }
 
 .sight-item img {
@@ -230,6 +230,7 @@ html, body {
     font-size: 0.97rem;
     color: #4b5563;
 }
+
 
 /* ============================================================
    ROUTE PLANNER (Form + Results)
@@ -294,6 +295,17 @@ html, body {
     padding-top:80px;
     width: 100%;
     box-sizing: border-box;
+}
+
+#route-submit.disabled,
+#route-submit:disabled {
+  background: #c7d2fe;
+  cursor: not-allowed;
+  opacity: 0.65;
+}
+
+#route-submit:not(:disabled):hover {
+  background: #4f46e5;
 }
 
 @media (max-width: 700px) {
