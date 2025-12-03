@@ -69,7 +69,7 @@ a {
     max-width: 700px;
     
     background-image: url('/assets/images/backgrounds/bkgnd_paper_stamp.png');
-    background-size: cover;
+    background-size: 100% 100%; /* stretch to keep full paper visible */
     background-repeat: no-repeat;
     background-position: center;
 
@@ -83,12 +83,16 @@ a {
     font-weight: 700;
     line-height: 1.15;
     margin-bottom: 1.1rem;
+    overflow-wrap: anywhere; /* avoid overflow on very long words */
+    word-break: break-word;
 }
 
 .hero-text p {
     font-size: 1.05rem;
     color: #1a1a1a;
     margin-bottom: 1.8rem;
+    overflow-wrap: anywhere;
+    word-break: break-word;
 }
 
 .hero-text .tagline {
@@ -133,6 +137,10 @@ a {
     max-width: 480px;
     border-radius: 24px;
     box-shadow: 0 12px 32px rgba(0,0,0,0.12);
+}
+.hero-image {
+    display: flex;
+    justify-content: center;
 }
 
 /* IMAGE LINK BUTTON */
@@ -296,8 +304,13 @@ a {
 
     .hero-text {
         width: 100%;
-        max-width: 700px;
-        background-size: contain; /* prikaži celu pozadinu na užim ekranima */
+        max-width: 500px;
+        background-image: url('/assets/images/backgrounds/bkgnd_paper_stamp__mobil_01.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%; /* prikaži celu pozadinu na užim ekranima */
+        padding: 3rem 2rem;
+        margin: 0 auto;
     }
     .hero-text h1 {
         font-size: clamp(1.296rem, 4.32vw, 1.656rem);
@@ -323,7 +336,7 @@ a {
     }
     .city-hero-image img,
     .hero-image img {
-        max-width: 100%;
+        max-width: 80%;
         height: auto;
         display: block;
         border-radius: 24px;

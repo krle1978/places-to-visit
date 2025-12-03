@@ -627,6 +627,12 @@ html, body {
     .city-hero {
         padding-top: 5rem;
         text-align: left;
+        justify-content: center;
+    }
+    .city-hero-image {
+        display: flex;
+        justify-content: center;
+        width: 100%;
     }
     .sights-grid,
     .info-grid,
