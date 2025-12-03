@@ -13,16 +13,32 @@ document.addEventListener("includes:loaded", function () {
   let selectedCityObj = null;
 
   const countryMap = {
+    Albania: "recommendations_Albania_easy.json",
+    Andorra: "recommendations_Andorra_easy.json",
+    Armenia: "recommendations_Armenia_easy.json",
     Austria: "recommendations_austria_easy.json",
+    Azerbaijan: "recommendations_Azerbaijan_easy.json",
+    Belarus: "recommendations_Belarus_easy.json",
+    Belgium: "recommendations_Belgium_easy.json",
+    "Bosnia and Herzegowina": "recommendations_Bosnia_and_Herzegowina_easy.json",
+    Bulgaria: "recommendations_bulgaria_easy.json",
     Croatia: "recommendations_croatia_easy.json",
     Czechia: "recommendations_czech_easy.json",
+    France: "recommendations_France_easy.json",
     Germany: "recommendations_germany_easy.json",
+    Greece: "recommendations_greece_easy.json",
     Hungary: "recommendations_hungary_easy.json",
+    Italy: "recommendations_Italy_easy.json",
+    Montenegro: "recommendations_montenegro_easy.json",
+    Norway: "recommendations_Norway_easy.json",
+    Poland: "recommendations_poland_easy.json",
     Portugal: "recommendations_portugal_easy.json",
     Romania: "recommendations_romania_easy.json",
     Serbia: "recommendations_serbia_easy.json",
     Slovakia: "recommendations_slovakia_easy.json",
-    Spain: "recommendations_spain_easy.json"
+    Spain: "recommendations_spain_easy.json",
+    Sweden: "recommendations_Sweden_easy.json",
+    Swizerland: "recommendations_Swizerland_easy.json"
   };
 
   // -----------------------------
