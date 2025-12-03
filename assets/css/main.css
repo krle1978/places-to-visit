@@ -66,7 +66,7 @@ a {
 }
 
 .hero-text {
-    max-width: 550px;
+    max-width: 700px;
     
     background-image: url('/assets/images/backgrounds/bkgnd_paper_stamp.png');
     background-size: cover;
@@ -101,6 +101,7 @@ a {
 .hero-buttons {
     display: flex;
     gap: 1rem;
+    flex-wrap: wrap;
 }
 
 /* BUTTONS */
@@ -174,6 +175,8 @@ a {
     border: none;
     box-shadow: none;
     border-radius: 999px;
+    width: clamp(160px, 18vw, 240px);
+    height: auto;
 }
 .image-btn:hover img {
     transform: translateY(-2px);
@@ -291,8 +294,24 @@ a {
         padding: 2rem 4vw;
     }
 
+    .hero-text {
+        width: 100%;
+        max-width: 700px;
+        background-size: contain; /* prikaži celu pozadinu na užim ekranima */
+    }
+    .hero-text h1 {
+        font-size: clamp(1.296rem, 4.32vw, 1.656rem);
+    }
+    .hero-text .tagline {
+        font-size: 0.9rem;
+        line-height: 1.4;
+    }
+    .hero-text p {
+        font-size: 0.86rem;
+        line-height: 1.5;
+    }
     .hero-image img {
-        max-width: 300px;
+        max-width: 192px; /* 20% manje */
     }
 
     .cards {
