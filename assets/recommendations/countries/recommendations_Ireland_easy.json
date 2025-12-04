@@ -1,0 +1,135 @@
+{
+  "name": "Ireland",
+  "cities": [
+
+    {
+      "name": "Dublin",
+      "interests": [
+        "Riverside Walks 🌊",
+        "Historic Streets 🎭",
+        "Parks & Nature 🌿",
+        "Local Food Exploration 😋",
+        "Art & Culture 🎨"
+      ],
+      "local_food_tip": "Irish veggie soups, potato dishes, soda bread, pastries, salads — jednostavno, ukusno i toplo.",
+      "full_day": "Morning: 🌊 River Liffey walk. → 🏛️ Dublin Castle (Exterior). → ☕ Temple Bar cafés.\n\nAfternoon: 🎨 Trinity College (Exterior courtyard). → 🍽️ Lunch: Veg soups, potato meals, salads. → 🌿 St. Stephen's Green.\n\nSunset: 🌅 Samuel Beckett Bridge.\n\nNight: 🌃 Riverside lights + dessert spots.",
+      "seasons": {
+        "spring": {
+          "event": "Spring in Dublin",
+          "ideas": ["🌸 Park blossoms", "🚶 Riverside strolls", "☕ Outdoor terraces"]
+        },
+        "summer": {
+          "event": "Light Summer",
+          "ideas": ["🌞 Long evenings", "🍦 Ice cream by the river", "🌿 Park picnics"]
+        },
+        "autumn": {
+          "event": "Autumn Colors",
+          "ideas": ["🍁 St. Stephen’s Green", "🥧 Pastry shops", "🎨 Gallery visits"]
+        },
+        "winter": {
+          "event": "Winter Glow",
+          "ideas": ["🎄 Christmas lights", "🍫 Hot chocolate cafés"]
+        }
+      },
+      "public_transport_tips": [
+        "🚊 Luas trams cover the center.",
+        "🚌 Buses go everywhere.",
+        "🚶 Central Dublin is walkable.",
+        "📱 Use 'TFI Live' app for routes."
+      ],
+      "city_events": [
+        {
+          "name": "Dublin Fringe Festival",
+          "season": "autumn",
+          "description": "🎭 Creative performances across the city."
+        }
+      ]
+    },
+
+    {
+      "name": "Cork",
+      "interests": ["Riverside 🌊", "Old Town 🎭", "Food Culture 😋"],
+      "local_food_tip": "Veggie stews, breads, soups, potato dishes and pastries.",
+      "full_day": "Morning: 🌊 River Lee walk. → 🏛️ St. Patrick's Street (Exterior). → ☕ Local café.\n\nAfternoon: 🍽️ Lunch: Soups, breads, veggie meals. → 🎨 Crawford Art Gallery (Exterior). → 🌿 Fitzgerald Park.\n\nSunset: 🌅 Shandon tower views.\n\nNight: 🌃 Riverside reflections.",
+      "seasons": {
+        "spring": { "event": "Spring Breeze", "ideas": ["🌸 Park flowers", "🚶 River walks", "☕ Terraces"] },
+        "summer": { "event": "Summer Vibes", "ideas": ["🌊 Riverside paths", "🍦 Ice cream", "🌇 Soft sunsets"] },
+        "autumn": { "event": "Golden Cork", "ideas": ["🍁 Orange tones", "🥧 Bakery stops", "🎨 Art spots"] },
+        "winter": { "event": "Winter Calm", "ideas": ["❄️ Light snow", "🍫 Hot cocoa"] }
+      },
+      "public_transport_tips": ["🚌 City buses", "🚶 Walkable center"],
+      "city_events": [
+        { "name": "Cork Jazz Festival", "season": "autumn", "description": "🎷 Famous international jazz event." }
+      ]
+    },
+
+    {
+      "name": "Galway",
+      "interests": ["Coastal Walks 🌊", "Old Town 🎭", "Art & Culture 🎨"],
+      "local_food_tip": "Irish veggie soups, breads, pastries and simple ocean-side meals.",
+      "full_day": "Morning: 🌊 Salthill Promenade. → ☕ Seaside café.\n\nAfternoon: 🏘️ Latin Quarter. → 🍽️ Veggie lunch: soups & breads. → 🎨 Street art corners.\n\nSunset: 🌅 Galway Bay.\n\nNight: 🌃 Colorful old-town lights.",
+      "seasons": {
+        "spring": { "event": "Spring Seaside", "ideas": ["🌸 Coastal paths", "🚶 Old Town", "☕ Terraces"] },
+        "summer": { "event": "Festive Summer", "ideas": ["🌞 Long light", "🍦 Promenade treats", "🌇 Bay sunsets"] },
+        "autumn": { "event": "Autumn Coast", "ideas": ["🍁 Harbor colors", "🥧 Cozy cafés", "🎨 Art walks"] },
+        "winter": { "event": "Winter Winds", "ideas": ["❄️ Crisp beach air", "🍫 Hot chocolate"] }
+      },
+      "public_transport_tips": ["🚌 Well-connected buses", "🚶 Coastal paths are walkable"],
+      "city_events": [
+        { "name": "Galway Arts Festival", "season": "summer", "description": "🎭 Art, music and street shows." }
+      ]
+    },
+
+    {
+      "name": "Limerick",
+      "interests": ["Riverside 🌊", "Historic Streets 🎭", "Culture & Parks 🌿"],
+      "local_food_tip": "Soups, breads, veggie dishes and pastries.",
+      "full_day": "Morning: 🌊 River Shannon walk. → 🏰 King John's Castle (Exterior). → ☕ Local café.\n\nAfternoon: 🏙️ City center stroll. → 🍽️ Lunch: Potato dishes, soups. → 🎨 Art Museum (Exterior).\n\nSunset: 🌅 Shannon views.\n\nNight: 🌃 Calm riverside lights.",
+      "seasons": {
+        "spring": { "event": "Spring Riverside", "ideas": ["🌸 Blossoms", "🚶 River walks", "☕ Terraces"] },
+        "summer": { "event": "Bright Days", "ideas": ["🌊 Waterfront strolls", "🍦 Ice cream", "🌇 Golden light"] },
+        "autumn": { "event": "Autumn Mood", "ideas": ["🍁 Warm tones", "🥧 Cafés", "🎨 Local art"] },
+        "winter": { "event": "Winter Glow", "ideas": ["🎄 Lights", "🍫 Hot drinks"] }
+      },
+      "public_transport_tips": ["🚌 Local buses", "🚶 Walkable center"],
+      "city_events": [
+        { "name": "Limerick Riverfest", "season": "spring", "description": "🎉 Food, music & riverside activities." }
+      ]
+    },
+
+    {
+      "name": "Sligo",
+      "interests": ["Nature 🌿", "Coastal Walks 🌊", "Calm Town Streets 🎭"],
+      "local_food_tip": "Light soups, breads, veggie meals and berry pastries.",
+      "full_day": "Morning: 🌊 Coastal viewpoint. → 🌿 Park walks. → ☕ Town café.\n\nAfternoon: 🏘️ Old Town. → 🍽️ Veggie lunch. → 🏞️ Riverside paths.\n\nSunset: 🌅 Atlantic horizon.\n\nNight: 🌃 Quiet lights.",
+      "seasons": {
+        "spring": { "event": "Spring Nature", "ideas": ["🌸 Fields", "🚶 Coast walks", "☕ Terraces"] },
+        "summer": { "event": "Summer Coast", "ideas": ["🌊 Beach breeze", "🍦 Snacks", "🌇 Long sunsets"] },
+        "autumn": { "event": "Golden Sligo", "ideas": ["🍁 Hillside colors", "🥧 Cafés", "🎨 Small art spots"] },
+        "winter": { "event": "Winter Calm", "ideas": ["❄️ Fresh air", "🍫 Hot cocoa"] }
+      },
+      "public_transport_tips": ["🚌 Regional buses", "🚶 Easy to walk"],
+      "city_events": [
+        { "name": "Sligo Live Festival", "season": "autumn", "description": "🎶 Music & arts celebration." }
+      ]
+    },
+
+    {
+      "name": "Waterford",
+      "interests": ["Historic Streets 🎭", "Coastal Walks 🌊", "Urban Culture 🎨"],
+      "local_food_tip": "Veggie soups, Irish breads, salads and pastries.",
+      "full_day": "Morning: 🏰 Viking Triangle (Exterior). → 🌊 Waterfront walk. → ☕ Café stop.\n\nAfternoon: 🎨 Waterford Walls (Exterior mural route). → 🍽️ Lunch: Soups & breads. → 🏞️ City parks.\n\nSunset: 🌅 Harbor views.\n\nNight: 🌃 Old town lights.",
+      "seasons": {
+        "spring": { "event": "Spring Streets", "ideas": ["🌸 Colorful alleys", "🚶 Waterfront", "☕ Terraces"] },
+        "summer": { "event": "Summer Harbor", "ideas": ["🌊 Promenade", "🍦 Ice cream", "🌇 Long evenings"] },
+        "autumn": { "event": "Autumn Colors", "ideas": ["🍁 Parks", "🥧 Café visits", "🎨 Street art"] },
+        "winter": { "event": "Winter Glow", "ideas": ["🎄 Holiday lights", "🍫 Hot chocolate"] }
+      },
+      "public_transport_tips": ["🚌 Local buses", "🚶 Walkable old town"],
+      "city_events": [
+        { "name": "Waterford Winterval", "season": "winter", "description": "🎄 Christmas festival with lights & shows." }
+      ]
+    }
+
+  ]
+}

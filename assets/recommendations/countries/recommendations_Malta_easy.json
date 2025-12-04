@@ -1,0 +1,135 @@
+{
+  "name": "Malta",
+  "cities": [
+
+    {
+      "name": "Valletta",
+      "interests": [
+        "Historic Streets 🎭",
+        "Fortress Views 🏰",
+        "Harbor Walks 🌊",
+        "Art & Culture 🎨",
+        "Local Food Exploration 😋"
+      ],
+      "local_food_tip": "Maltese pies, vegetable soups, ftira bread, pastries and Mediterranean salads — jednostavno i preukusno.",
+      "full_day": "Morning: 🏰 Upper Barrakka Gardens (Exterior views). → 🌊 Grand Harbour viewpoints. → ☕ Republic Street café.\n\nAfternoon: 🏛️ St. John’s Co-Cathedral (Exterior). → 🍽️ Lunch: Mediterranean salads, soups, ftira. → 🎨 MUŻA museum exterior. → 🚶 Waterfront walk.\n\nSunset: 🌅 Siege Bell Memorial cliffside.\n\nNight: 🌃 Waterfront lights + dessert stops.",
+      "seasons": {
+        "spring": {
+          "event": "Spring in Valletta",
+          "ideas": ["🌸 Barrakka blossoms", "🚶 Sunny old-town walks", "☕ Terraces with sea views"]
+        },
+        "summer": {
+          "event": "Mediterranean Summer",
+          "ideas": ["🌊 Harbor breeze spots", "🍦 Gelato stands", "🌇 Golden sunsets over the fortifications"]
+        },
+        "autumn": {
+          "event": "Autumn Calm",
+          "ideas": ["🍁 Soft coastal light", "🥧 Warm pastries", "🎨 Museum visits"]
+        },
+        "winter": {
+          "event": "Winter Glow",
+          "ideas": ["🎄 Festive lights in Republic Street", "🍫 Hot cocoa by the harbor"]
+        }
+      },
+      "public_transport_tips": [
+        "🚌 Malta buses connect all major towns.",
+        "⛴️ Ferries link Valletta with Sliema & Three Cities.",
+        "🚶 Compact and walkable.",
+        "📱 Use 'Tallinja' app for routes & tickets."
+      ],
+      "city_events": [
+        {
+          "name": "Valletta Baroque Festival",
+          "season": "winter",
+          "description": "🎻 Classical performances in historic venues."
+        }
+      ]
+    },
+
+    {
+      "name": "Birgu (Vittoriosa)",
+      "interests": ["Harbor Walks 🌊", "Fortress History 🏰", "Old Streets 🎭"],
+      "local_food_tip": "Mediterranean soups, salads, ftira and pastries.",
+      "full_day": "Morning: 🌊 Marina promenade. → 🏰 Fort St. Angelo (Exterior). → ☕ Waterfront café.\n\nAfternoon: 🏘️ Narrow alley walks. → 🍽️ Light veggie lunch. → 🚶 Historic docks.\n\nSunset: 🌅 Harbour glow.\n\nNight: 🌃 Quiet waterfront lights.",
+      "seasons": {
+        "spring": { "event": "Harbor Spring", "ideas": ["🌸 Waterfront flowers", "🚶 Alley walks", "☕ Terraces"] },
+        "summer": { "event": "Summer Breeze", "ideas": ["🌊 Harbor shade", "🍦 Ice cream", "🌇 Sunset views"] },
+        "autumn": { "event": "Autumn Light", "ideas": ["🍁 Warm tones", "🥧 Cafés", "🎨 Small galleries"] },
+        "winter": { "event": "Winter Calm", "ideas": ["❄️ Mild temps", "🍫 Hot cocoa"] }
+      },
+      "public_transport_tips": ["🚌 Buses from Valletta", "⛴️ Ferry from Valletta"],
+      "city_events": [
+        { "name": "BirguFest", "season": "autumn", "description": "✨ Candle-lit alleys & night openings." }
+      ]
+    },
+
+    {
+      "name": "Mdina",
+      "interests": ["Historic Streets 🎭", "Old Walls 🏰", "Hilltop Views 🌅"],
+      "local_food_tip": "Pastries, soups, salads and light Mediterranean meals.",
+      "full_day": "Morning: 🏰 Mdina Gate (Exterior). → 🏘️ Narrow streets. → ☕ Mdina viewpoint café.\n\nAfternoon: 🎨 Old palaces exteriors. → 🍽️ Veg lunch. → 🌅 Walls & viewpoints.\n\nNight: 🌃 Silent City glow.",
+      "seasons": {
+        "spring": { "event": "Spring Quiet", "ideas": ["🌸 Bloomy corners", "🚶 Cool walks", "☕ Terraces"] },
+        "summer": { "event": "Golden Mdina", "ideas": ["🌞 Light stone alleys", "🍧 Refreshments", "🌇 Sunset views"] },
+        "autumn": { "event": "Autumn Mood", "ideas": ["🍁 Warm tones", "🥧 Cafés", "🎨 Photos"] },
+        "winter": { "event": "Winter Silence", "ideas": ["🌫️ Misty mornings", "🍫 Hot chocolate"] }
+      },
+      "public_transport_tips": ["🚌 Bus from Valletta", "🚶 Entire center is walkable"],
+      "city_events": [
+        { "name": "Medieval Mdina Festival", "season": "spring", "description": "🏰 Costumes, crafts & reenactments." }
+      ]
+    },
+
+    {
+      "name": "Mellieħa",
+      "interests": ["Beaches 🌊", "Nature Walks 🌿", "Scenic Views 🌅"],
+      "local_food_tip": "Salads, soups, ftira, Mediterranean bowls and pastries.",
+      "full_day": "Morning: 🏖️ Mellieħa Bay. → ☕ Beach café.\n\nAfternoon: 🌿 Nature trails. → 🍽️ Light lunch. → 🏘️ Town center walk.\n\nSunset: 🌅 Bay viewpoints.\n\nNight: 🌃 Seaside lights.",
+      "seasons": {
+        "spring": { "event": "Spring Coast", "ideas": ["🌸 Coastal flowers","🚶 Beachside walks","☕ Terraces"] },
+        "summer": { "event": "Beach Summer", "ideas": ["🏖️ Swimming","🍉 Fruit stalls","🌇 Sunset"] },
+        "autumn": { "event": "Soft Autumn", "ideas": ["🍁 Warm tones","🥧 Cafés","🎨 Photos"] },
+        "winter": { "event": "Winter Shore", "ideas": ["🌞 Mild weather","🍫 Hot cocoa"] }
+      },
+      "public_transport_tips": ["🚌 Bus hub for northern Malta", "🚶 Walkable coastline"],
+      "city_events": [
+        { "name": "Mellieħa Nights", "season": "summer", "description": "🎉 Outdoor performances & street art." }
+      ]
+    },
+
+    {
+      "name": "Rabat",
+      "interests": ["Historic Streets 🎭", "Parks 🌿", "Calm Culture 🚶"],
+      "local_food_tip": "Soups, breads, salads and pastries.",
+      "full_day": "Morning: 🏘️ Old streets. → ☕ Local café.\n\nAfternoon: 🌿 Saqqajja area. → 🍽️ Veg lunch. → 🎨 Cultural corners.\n\nSunset: 🌅 Hill views.\n\nNight: 🌃 Quiet town lights.",
+      "seasons": {
+        "spring": { "event": "Spring Calm", "ideas": ["🌸 Flowers","🚶 Walks","☕ Terraces"] },
+        "summer": { "event": "Sunny Rabat", "ideas": ["🌿 Shade walks","🍦 Ice cream","🌇 Warm light"] },
+        "autumn": { "event": "Autumn Streets", "ideas": ["🍁 Colors","🥧 Cafés","🎨 Galleries"] },
+        "winter": { "event": "Winter Quiet", "ideas": ["❄️ Mild winter","🍫 Hot drinks"] }
+      },
+      "public_transport_tips": ["🚌 Bus routes to Mdina & Valletta"],
+      "city_events": [
+        { "name": "Rabat Feast", "season": "summer", "description": "✨ Decorations & outdoor events." }
+      ]
+    },
+
+    {
+      "name": "Sliema",
+      "interests": ["Seaside Walks 🌊", "Urban Culture 🎭", "Views of Valletta 🌅"],
+      "local_food_tip": "Mediterranean bowls, salads, soups and light pastries.",
+      "full_day": "Morning: 🌊 Sliema promenade. → ☕ Seaside café.\n\nAfternoon: 🛍️ Urban shopping streets. → 🍽️ Veg lunch. → 🌅 Valletta-viewpoints.\n\nNight: 🌃 Marina lights + dessert shops.",
+      "seasons": {
+        "spring": { "event": "Spring Seaside", "ideas": ["🌸 Promenade flowers","🚶 Walks","☕ Terraces"] },
+        "summer": { "event": "Summer Coast", "ideas": ["🌊 Breeze","🍦 Ice cream","🌇 Valletta sunsets"] },
+        "autumn": { "event": "Autumn Light", "ideas": ["🍁 Warm tones","🥧 Cafés","🎨 Urban photos"] },
+        "winter": { "event": "Winter Sea", "ideas": ["🌞 Mild days","🍫 Hot drinks"] }
+      },
+      "public_transport_tips": ["⛴️ Ferry to Valletta", "🚌 Bus connections across the island"],
+      "city_events": [
+        { "name": "Sliema Arts Festival", "season": "summer", "description": "🎨 Street art, live painting & music." }
+      ]
+    }
+
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "name": "San Marino",
+  "cities": [
+    {
+      "name": "San Marino City",
+      "interests": [
+        "Medieval Old Town 🎭",
+        "Castle Views 🏰",
+        "Hilltop Lookouts 🌅",
+        "Museums & Culture 🎨",
+        "Local Food Exploration 😋"
+      ],
+      "local_food_tip": "Sanmarinske i italijanske lagane kombinacije: tjestenine, supe, bruschette, peciva i salate.",
+      "full_day": "Morning: 🏰 Guaita Tower (Exterior). → 🏛️ Basilica di San Marino (Exterior). → ☕ Café in medieval streets.\n\nAfternoon: 🎭 Old Town alley walk. → 🍽️ Lunch: pasta, salads, pastries. → 🌄 Cesta & Montale towers (Exterior viewpoints).\n\nSunset: 🌅 Monte Titano ridge views.\n\nNight: 🌃 Quiet medieval streets + dessert cafés.",
+      "seasons": {
+        "spring": {
+          "event": "Spring on the Mountain",
+          "ideas": ["🌸 Flowers around the walls", "🚶 Hill walks", "☕ Outdoor cafés"]
+        },
+        "summer": {
+          "event": "Summer Breeze",
+          "ideas": ["🌅 Long sunsets", "🍦 Gelato in old town", "🌿 Cool mountain air"]
+        },
+        "autumn": {
+          "event": "Golden Autumn",
+          "ideas": ["🍁 Hills glowing gold", "🥧 Cozy cafés", "🎨 Small museums"]
+        },
+        "winter": {
+          "event": "Winter Charm",
+          "ideas": ["❄️ Light snow on towers", "🎄 Holiday décor", "🍫 Hot chocolate"]
+        }
+      },
+      "public_transport_tips": [
+        "🚡 Cable car connects San Marino City and Borgo Maggiore.",
+        "🚶 Old Town is fully walkable.",
+        "🚌 Local buses connect to Rimini in Italy."
+      ],
+      "city_events": [
+        {
+          "name": "Medieval Days Festival",
+          "season": "summer",
+          "description": "🏰 Knights, costumes, music & historic shows."
+        }
+      ]
+    },
+
+    {
+      "name": "Borgo Maggiore",
+      "interests": [
+        "Local Market Streets 🎭",
+        "Mountain Views 🌄",
+        "Calm Old Quarters 🌿"
+      ],
+      "local_food_tip": "Topli hleb, peciva, paste, lagane italijanske i mediteranske kombinacije.",
+      "full_day": "Morning: 🎭 Market Square walk. → ☕ Local café.\n\nAfternoon: 🌄 Lower Monte Titano viewpoints. → 🍽️ Light lunch: pasta, salads.\n\nSunset: 🌅 Hillside viewpoints.\n\nNight: 🌃 Quiet village streets.",
+      "seasons": {
+        "spring": { "event": "Spring Calm", "ideas": ["🌸 Market blossoms", "🚶 Village walks", "☕ Terraces"] },
+        "summer": { "event": "Summer Breeze", "ideas": ["🌿 Hill shade", "🍦 Gelato stop", "🌇 Soft evening light"] },
+        "autumn": { "event": "Autumn Colors", "ideas": ["🍁 Village tones", "🥧 Pastries", "🎨 Small art corners"] },
+        "winter": { "event": "Winter Peace", "ideas": ["❄️ Light snow", "🍫 Hot drinks"] }
+      },
+      "public_transport_tips": [
+        "🚡 Cable car to San Marino City.",
+        "🚶 Highly walkable.",
+        "🚌 Buses toward Rimini."
+      ],
+      "city_events": [
+        {
+          "name": "Thursday Market",
+          "season": "summer",
+          "description": "🧺 Outdoor market with local goods."
+        }
+      ]
+    },
+
+    {
+      "name": "Serravalle",
+      "interests": [
+        "Parks & Nature 🌿",
+        "Modern Streets 🎭",
+        "Leisure & Shopping 🛍️"
+      ],
+      "local_food_tip": "Pite, paste, lagane salate i mediteranska jela — jednostavno i ukusno.",
+      "full_day": "Morning: 🌿 Parco Ausa walk. → ☕ Café on the main square.\n\nAfternoon: 🛍️ Modern center streets. → 🍽️ Lunch: pasta, pizza, salads.\n\nSunset: 🌅 Hillside edges.\n\nNight: 🌃 Calm modern neighborhood.",
+      "seasons": {
+        "spring": { "event": "Spring Green", "ideas": ["🌼 Park flowers", "🚶 Light walks", "☕ Terraces"] },
+        "summer": { "event": "Warm Summer", "ideas": ["🌿 Park shade", "🍦 Ice cream", "🌇 Soft sunsets"] },
+        "autumn": { "event": "Autumn Leaves", "ideas": ["🍁 Park colors", "🥧 Bakery visits"] },
+        "winter": { "event": "Winter Quiet", "ideas": ["🌞 Mild winter walks", "🍫 Hot chocolate"] }
+      },
+      "public_transport_tips": [
+        "🚌 Local buses connect to all towns.",
+        "🚶 Very walkable."
+      ],
+      "city_events": [
+        {
+          "name": "Serravalle Festival",
+          "season": "summer",
+          "description": "🎉 Music, crafts and outdoor fun."
+        }
+      ]
+    }
+  ]
+}
