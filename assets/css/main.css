@@ -108,6 +108,26 @@ a {
     flex-wrap: wrap;
 }
 
+.hero-buttons .image-btn-link img {
+    width: clamp(220px, 40vw, 360px);
+    aspect-ratio: 933 / 444;
+    object-fit: contain;
+    border-radius: 18px;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.hero-buttons .image-btn-link:hover img {
+    transform: translateY(-1px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+}
+
+@media (max-width: 700px) {
+    .hero-buttons {
+        justify-content: center;
+    }
+}
+
 /* BUTTONS */
 .btn {
     padding: 0.75rem 1.6rem;

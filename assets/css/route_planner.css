@@ -93,6 +93,39 @@
   line-height: 1.5rem;
 }
 
+#toggle-planner-btn {
+  display: block;
+  margin: 0 auto;
+  width: clamp(220px, 40vw, 360px);
+  aspect-ratio: 933 / 444;
+  background-image: url('/assets/images/buttons/make_YOCV/btn_myocv_original.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  border: none;
+  border-radius: 18px;
+  padding: 0;
+  cursor: pointer;
+  transition: transform 0.15s ease, filter 0.15s ease;
+}
+
+#toggle-planner-btn:hover {
+  background-image: url('/assets/images/buttons/make_YOCV/btn_myocv_hover.png');
+  transform: translateY(-1px);
+}
+
+#toggle-planner-btn:active {
+  background-image: url('/assets/images/buttons/make_YOCV/btn_myocv_clicked.png');
+  transform: translateY(0);
+  filter: brightness(0.98);
+}
+
+#toggle-planner-btn:focus-visible {
+  outline: 2px solid #4f46e5;
+  outline-offset: 4px;
+}
+
 #save-pdf-btn {
   margin-top: 1.5rem;
 }
