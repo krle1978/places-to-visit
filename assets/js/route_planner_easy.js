@@ -206,6 +206,9 @@ document.addEventListener("includes:loaded", function () {
 
     resultDiv.innerHTML = html;
     resultWrapper.style.display = "block";
+    setTimeout(() => {
+      resultWrapper.scrollIntoView({ behavior: "smooth", block: "start" });
+    }, 50);
 
     // PDF
     savePdfBtn.onclick = function () {

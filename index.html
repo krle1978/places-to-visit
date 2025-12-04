@@ -63,13 +63,27 @@
 
     </div>
   </div>
-      <div class="hero-buttons">
+            <div class="hero-buttons">
       <button class="btn ghost image-btn" id="toggle-planner-btn">
-        <img src="/assets/images/buttons/btn_own_city_visit.png" alt="Make Your Own City Visit">
+        <img
+          class="stateful-btn-image"
+          src="/assets/images/buttons/make_YOCV/btn_myocv_original.png"
+          alt="Make Your Own City Visit"
+          data-default="/assets/images/buttons/make_YOCV/btn_myocv_original.png"
+          data-hover="/assets/images/buttons/make_YOCV/btn_myocv_hover.png"
+          data-active="/assets/images/buttons/make_YOCV/btn_myocv_clicked.png"
+        >
       </button>
 
       <a href="destinations/index.html" class="image-btn-link">
-        <img src="/assets/images/buttons/btn_places_visited_by_rk.png" alt="Places Visited by Rade KrstiŽÎ">
+        <img
+          class="stateful-btn-image"
+          src="/assets/images/buttons/PVB_RK/btn_pvbrk_original.png"
+          alt="Places Visited by Rade Krstić"
+          data-default="/assets/images/buttons/PVB_RK/btn_pvbrk_original.png"
+          data-hover="/assets/images/buttons/PVB_RK/btn_pvbrk_hower.png"
+          data-active="/assets/images/buttons/PVB_RK/btn_pvbrk_click.png"
+        >
       </a>
 </section>
 
@@ -94,5 +108,26 @@
 <!-- FOOTER -->
 <div data-include="/components/footer.html"></div>
 <button id="scrollToTopBtn" class="scroll-top-btn">↑</button>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const statefulImages = document.querySelectorAll('img.stateful-btn-image');
+    statefulImages.forEach((img) => {
+      const defaultSrc = img.dataset.default;
+      const hoverSrc = img.dataset.hover;
+      const activeSrc = img.dataset.active;
+      const setSrc = (src) => { if (src) img.src = src; };
+
+      img.addEventListener('mouseenter', () => setSrc(hoverSrc));
+      img.addEventListener('mouseleave', () => setSrc(defaultSrc));
+      img.addEventListener('mousedown', () => setSrc(activeSrc));
+      img.addEventListener('mouseup', () => setSrc(hoverSrc));
+      img.addEventListener('touchstart', () => setSrc(activeSrc));
+      img.addEventListener('touchend', () => setSrc(defaultSrc));
+      img.addEventListener('touchcancel', () => setSrc(defaultSrc));
+    });
+  });
+</script>
+
 </body>
 </html>
