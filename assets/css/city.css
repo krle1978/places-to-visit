@@ -56,6 +56,7 @@ html, body {
   background-position: center;
   background-color: transparent;
   border: none;
+  border-radius: 18px;
   padding: 0;
   cursor: pointer;
   transition: transform 0.15s ease, filter 0.15s ease;
@@ -117,7 +118,6 @@ html, body {
 .slider-wrapper {
   position: relative;
   overflow: hidden;
-  
 }
 
 .slider-container {

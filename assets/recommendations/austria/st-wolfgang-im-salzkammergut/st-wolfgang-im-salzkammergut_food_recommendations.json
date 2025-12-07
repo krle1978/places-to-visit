@@ -1,0 +1,272 @@
+{
+  "local_specialties": {
+    "low": {
+      "title": "Local Lake & Alpine Food on a Low Budget",
+      "summary": "Affordable Austrian classics, lakeside snacks, and simple homemade-style dishes to keep you full without overspending.",
+      "recommendations": [
+        {
+          "time": "12:00",
+          "place": "Bäckerei Necker",
+          "description": "Fresh rolls, cheese sandwiches, and sweet pastries — perfect for a quick and budget-friendly bite."
+        },
+        {
+          "time": "14:00",
+          "place": "Lakeside Snack Stands",
+          "description": "Simple fried fish snacks, potato wedges, and local street-food classics by the water."
+        },
+        {
+          "time": "16:00",
+          "place": "Café Wallner (Budget Pastry Stop)",
+          "description": "Affordable slices of strudel, basic cakes, and warm drinks."
+        }
+      ]
+    },
+
+    "medium": {
+      "title": "Authentic Austrian Meals with Balanced Prices",
+      "summary": "Comforting dishes, solid portions, and a great mix of alpine flavors and lakeside influences.",
+      "recommendations": [
+        {
+          "time": "12:30",
+          "place": "Gasthof Franz Josef",
+          "description": "Classic schnitzel, goulash, käsespätzle, and hearty Austrian staples."
+        },
+        {
+          "time": "15:00",
+          "place": "Dorf Alm St. Wolfgang",
+          "description": "Warm alpine dishes, dumplings, and traditional meat plates in a cozy wooden interior."
+        },
+        {
+          "time": "18:00",
+          "place": "Wirt am Gries",
+          "description": "Local fish dishes, Austrian soups, and a friendly mid-range dinner spot."
+        }
+      ]
+    },
+
+    "high": {
+      "title": "Austrian Classics with a Premium Touch",
+      "summary": "Refined takes on regional cuisine, beautiful lakeside plating, and higher-quality ingredients.",
+      "recommendations": [
+        {
+          "time": "12:30",
+          "place": "Hotel Weißes Rössl – Lakeside Restaurant",
+          "description": "Premium lake-fish dishes, elevated schnitzel, and traditional Austrian flavors with elegant presentation."
+        },
+        {
+          "time": "15:00",
+          "place": "Hubertuskeller",
+          "description": "Austrian specialties developed with richer sauces, fine sides, and thoughtful preparation."
+        },
+        {
+          "time": "18:00",
+          "place": "Dorf Alm Premium Selection",
+          "description": "High-quality alpine meals with upgraded ingredients and rustic-elegant ambience."
+        }
+      ]
+    },
+
+    "comfortable": {
+      "title": "Luxury Lakeside & Alpine Dining",
+      "summary": "Fine-dining interpretations of Austrian tradition — premium lake fish, artisan pastries, and beautifully plated gourmet meals.",
+      "recommendations": [
+        {
+          "time": "12:30",
+          "title": "Weißes Rössl Fine Dining Terrace",
+          "place": "Weißes Rössl Fine Dining Terrace",
+          "description": "A gourmet lakeside experience with artistic fish dishes and refined regional cuisine."
+        },
+        {
+          "time": "15:00",
+          "place": "Hubertuskeller Signature Menu",
+          "description": "Creative multi-course Austrian plates featuring premium ingredients."
+        },
+        {
+          "time": "18:00",
+          "place": "Hotel Cortisen am See – Gourmet Restaurant",
+          "description": "Luxury reinterpretations of alpine classics with elegant lakeside ambience."
+        }
+      ]
+    }
+  },
+
+  "light_veggie": {
+    "low": {
+      "title": "Light Veggie Meals on a Low Budget",
+      "summary": "Simple vegetarian-friendly bites around town — bakery options, small meals, and lakeside snacks.",
+      "recommendations": [
+        {
+          "time": "12:00",
+          "place": "Bäckerei Necker",
+          "description": "Vegetarian pastries, cheese rolls, small sandwiches."
+        },
+        {
+          "time": "14:00",
+          "place": "Lakeside Snack Corners",
+          "description": "Basic veggie snacks like fries, pretzels, or simple salads."
+        },
+        {
+          "time": "16:00",
+          "place": "Café Wallner",
+          "description": "Low-cost sweet pastries or light cakes."
+        }
+      ]
+    },
+
+    "medium": {
+      "title": "Balanced Veggie Dining",
+      "summary": "Healthy vegetarian-friendly dishes with nice atmosphere and wholesome ingredients.",
+      "recommendations": [
+        {
+          "time": "12:30",
+          "place": "Dorf Alm Veg Options",
+          "description": "Veggie käsespätzle, salads, grilled vegetables, and warm alpine bowls."
+        },
+        {
+          "time": "15:00",
+          "place": "Wirt am Gries",
+          "description": "Vegetarian soup, pasta, or salads in a calm setting."
+        },
+        {
+          "time": "18:00",
+          "place": "Café-Pension Mozart",
+          "description": "Vegetarian-friendly plates and light dinner options."
+        }
+      ]
+    },
+
+    "high": {
+      "title": "High-End Vegetarian Meals",
+      "summary": "Creative, beautifully prepared vegetarian dishes with premium local ingredients.",
+      "recommendations": [
+        {
+          "time": "12:30",
+          "place": "Weißes Rössl Veg Selection",
+          "description": "Premium vegetarian dishes inspired by alpine flavors and seasonal produce."
+        },
+        {
+          "time": "15:00",
+          "place": "Hubertuskeller Green Menu",
+          "description": "Refined veggie pastas, risottos, and vegetable-forward creations."
+        },
+        {
+          "time": "18:00",
+          "place": "Cortisen am See Veg Gourmet",
+          "description": "Luxury plant-based plates with artistic presentation."
+        }
+      ]
+    },
+
+    "comfortable": {
+      "title": "Luxury Vegetarian Experience",
+      "summary": "Fine-dining vegetarian cuisine with delicate flavors, premium ingredients, and lakeside ambience.",
+      "recommendations": [
+        {
+          "time": "12:30",
+          "place": "Weißes Rössl Fine Veg Dining",
+          "description": "Elegant plant-based courses influenced by Austrian tradition."
+        },
+        {
+          "time": "15:00",
+          "place": "Hubertuskeller Veg Deluxe",
+          "description": "High-class vegetarian dishes crafted with modern techniques."
+        },
+        {
+          "time": "18:00",
+          "place": "Cortisen am See Elite Veg Menu",
+          "description": "A refined dinner with beautiful plating and peaceful lake views."
+        }
+      ]
+    }
+  },
+
+  "try_everything": {
+    "low": {
+      "title": "Low-Budget Tasting Adventure",
+      "summary": "Try several small, inexpensive bites around St. Wolfgang — great for curious eaters.",
+      "recommendations": [
+        {
+          "time": "12:00",
+          "place": "Bakery Hop",
+          "description": "Taste sweet and savory pastries, pretzels, and small treats."
+        },
+        {
+          "time": "14:00",
+          "place": "Lakeside Mini Plates",
+          "description": "Sample 2–3 small fried or baked bites near the water."
+        },
+        {
+          "time": "16:00",
+          "place": "Ice Cream Stop",
+          "description": "End with affordable local ice cream."
+        }
+      ]
+    },
+
+    "medium": {
+      "title": "Balanced Tasting Experience",
+      "summary": "A mix of local flavors, Austrian classics, and small plates in mid-range restaurants.",
+      "recommendations": [
+        {
+          "time": "12:30",
+          "place": "Dorf Alm Tasting Menu",
+          "description": "Multiple small alpine dishes — cheeses, dumplings, or classic starters."
+        },
+        {
+          "time": "14:00",
+          "place": "Wirt am Gries Combo Plates",
+          "description": "A variety of Austrian and regional flavors in smaller portions."
+        },
+        {
+          "time": "18:00",
+          "place": "Weißes Rössl Sweet & Savory",
+          "description": "A combination of dessert bites and small savory tasters."
+        }
+      ]
+    },
+
+    "high": {
+      "title": "Premium Tasting Tour",
+      "summary": "High-quality mini dishes inspired by Austrian alpine tradition, refined sauces, and seasonal produce.",
+      "recommendations": [
+        {
+          "time": "12:30",
+          "place": "Weißes Rössl Mini Courses",
+          "description": "Premium tasting plates — fish, small alpine specialties, and elegant sides."
+        },
+        {
+          "time": "15:00",
+          "place": "Hubertuskeller Signature Sampler",
+          "description": "A refined selection of small dishes prepared with gourmet techniques."
+        },
+        {
+          "time": "18:00",
+          "place": "Cortisen am See Tasting Set",
+          "description": "Artistic small plates with regional inspiration."
+        }
+      ]
+    },
+
+    "comfortable": {
+      "title": "Luxury Tasting Journey",
+      "summary": "Fine-dining tasting menus with multiple courses — beautifully plated, creative, and premium.",
+      "recommendations": [
+        {
+          "time": "12:30",
+          "place": "Weißes Rössl Fine Tasting Menu",
+          "description": "A multi-course lakeside tasting experience with artistic presentation."
+        },
+        {
+          "time": "15:00",
+          "place": "Hubertuskeller Deluxe Tasting",
+          "description": "A curated sequence of high-end small plates inspired by Austrian tradition."
+        },
+        {
+          "time": "18:00",
+          "place": "Cortisen am See Elite Courses",
+          "description": "A luxurious tasting journey featuring the region’s finest ingredients."
+        }
+      ]
+    }
+  }
+}
