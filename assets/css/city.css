@@ -73,6 +73,20 @@ html, body {
   filter: brightness(0.98);
 }
 
+#toggle-planner-btn:disabled,
+#toggle-planner-btn[disabled] {
+  background-image: url('/assets/images/buttons/make_YOCV/btn_myocv_clicked.png');
+  cursor: not-allowed;
+  transform: none;
+  filter: brightness(0.96);
+}
+
+#toggle-planner-btn:disabled:hover,
+#toggle-planner-btn[disabled]:hover {
+  background-image: url('/assets/images/buttons/make_YOCV/btn_myocv_clicked.png');
+  transform: none;
+}
+
 #toggle-planner-btn:focus-visible {
   outline: 2px solid #4f46e5;
   outline-offset: 4px;
@@ -478,6 +492,12 @@ html, body {
     max-width: 90%;
     max-height: 85%;
     border-radius: 12px;
+}
+
+.image-btn-link.is-disabled {
+    pointer-events: none;
+    cursor: not-allowed;
+    opacity: 0.85;
 }
 
 #gallery-modal .arrow {

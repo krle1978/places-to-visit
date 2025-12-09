@@ -1,5 +1,10 @@
 const CITY_DATA_URL = "/destinations/cities_geolocation.json";
 
+const BUTTON_IDS = {
+  gps: "gpsBtn",
+  planner: "toggle-planner-btn"
+};
+
 function distance(lat1, lon1, lat2, lon2) {
   const R = 6371;
   const dLat = (lat2 - lat1) * Math.PI / 180;
@@ -18,6 +23,51 @@ function distance(lat1, lon1, lat2, lon2) {
 
 let cachedCities = null;
 let pendingPlannerSelection = null;
+function setButtonState(activeKey) {
+  const gpsLink = document.getElementById(BUTTON_IDS.gps);
+  const gpsImg = gpsLink?.querySelector(".stateful-btn-image");
+  const plannerBtn = document.getElementById(BUTTON_IDS.planner);
+
+  const gpsActive = activeKey === "gps";
+  const plannerActive = activeKey === "planner";
+
+  if (gpsImg) {
+    gpsImg.dataset.locked = gpsActive ? "true" : "false";
+    const nextSrc = gpsActive ? gpsImg.dataset.active : gpsImg.dataset.default;
+    if (nextSrc) gpsImg.src = nextSrc;
+  }
+  if (gpsLink) {
+    gpsLink.classList.toggle("is-disabled", gpsActive);
+    gpsLink.setAttribute("aria-disabled", gpsActive ? "true" : "false");
+  }
+  if (plannerBtn) {
+    plannerBtn.disabled = plannerActive;
+    plannerBtn.classList.toggle("is-active", plannerActive);
+  }
+}
+
+function openRoutePlannerSection() {
+  const wrapper = document.querySelector(".route-planner-wrapper");
+
+  if (window.routePlannerEasy?.openPanel) {
+    window.routePlannerEasy.openPanel();
+  } else {
+    const panel = document.getElementById("route-planner-panel");
+    const arrow = document.getElementById("route-arrow");
+
+    if (panel) {
+      panel.classList.add("open");
+      panel.classList.remove("collapsed");
+    }
+    if (arrow) arrow.classList.add("open");
+  }
+
+  if (wrapper) {
+    setTimeout(() => {
+      wrapper.scrollIntoView({ behavior: "smooth", block: "start" });
+    }, 50);
+  }
+}
 async function loadCities() {
   if (cachedCities) return cachedCities;
   try {
@@ -76,6 +126,9 @@ function sendToRoutePlanner(city) {
 function startTracking(e) {
   if (e?.preventDefault) e.preventDefault();
 
+  setButtonState("gps");
+  openRoutePlannerSection();
+
   if (!navigator.geolocation) {
     alert("Your browser does not support geolocation.");
     return;
@@ -99,13 +152,21 @@ function startTracking(e) {
 
 function bindLocationButtons() {
   const triggers = [
-    document.getElementById("gpsBtn"),
+    document.getElementById(BUTTON_IDS.gps),
     ...document.querySelectorAll('.image-btn-link[aria-label="I\'m Here"]')
   ].filter(Boolean);
 
   triggers.forEach(btn => {
     btn.addEventListener("click", startTracking);
   });
+
+  const plannerBtn = document.getElementById(BUTTON_IDS.planner);
+  if (plannerBtn) {
+    plannerBtn.addEventListener("click", () => setButtonState("planner"));
+  }
+
+  // ensure default state on load
+  setButtonState(null);
 }
 
 document.addEventListener("DOMContentLoaded", bindLocationButtons);

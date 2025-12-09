@@ -65,8 +65,7 @@
     </div>
   </div>
       <div class="hero-buttons">
-        <button class="btn ghost image-btn" id="toggle-planner-btn" type="button" aria-label="Make Your Own City Visit"></button>
-
+        
         <a href="locaton.html" class="image-btn-link" aria-label="I'm Here" id="gpsBtn">
           <img
             class="stateful-btn-image"
@@ -76,9 +75,10 @@
             data-hover="/assets/images/buttons/IM_Here/btn_imhere_hover.png"
             data-active="/assets/images/buttons/IM_Here/btn_imhere_click.png"
           >
-          <span class="image-btn-label">I'm Here</span>
         </a>
 
+        <button class="btn ghost image-btn" id="toggle-planner-btn" type="button" aria-label="Make Your Own City Visit"></button>
+        
         <a href="destinations/index.html" class="image-btn-link">
           <img
             class="stateful-btn-image"
@@ -121,15 +121,16 @@
       const defaultSrc = img.dataset.default;
       const hoverSrc = img.dataset.hover;
       const activeSrc = img.dataset.active;
+      const isLocked = () => img.dataset.locked === "true";
       const setSrc = (src) => { if (src) img.src = src; };
 
-      img.addEventListener('mouseenter', () => setSrc(hoverSrc));
-      img.addEventListener('mouseleave', () => setSrc(defaultSrc));
-      img.addEventListener('mousedown', () => setSrc(activeSrc));
-      img.addEventListener('mouseup', () => setSrc(hoverSrc));
-      img.addEventListener('touchstart', () => setSrc(activeSrc));
-      img.addEventListener('touchend', () => setSrc(defaultSrc));
-      img.addEventListener('touchcancel', () => setSrc(defaultSrc));
+      img.addEventListener('mouseenter', () => { if (!isLocked()) setSrc(hoverSrc); });
+      img.addEventListener('mouseleave', () => { if (!isLocked()) setSrc(defaultSrc); });
+      img.addEventListener('mousedown', () => { if (!isLocked()) setSrc(activeSrc); });
+      img.addEventListener('mouseup', () => { if (!isLocked()) setSrc(hoverSrc); });
+      img.addEventListener('touchstart', () => { if (!isLocked()) setSrc(activeSrc); });
+      img.addEventListener('touchend', () => { if (!isLocked()) setSrc(defaultSrc); });
+      img.addEventListener('touchcancel', () => { if (!isLocked()) setSrc(defaultSrc); });
     });
   });
 </script>
