@@ -104,8 +104,9 @@ a {
 
 .hero-buttons {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     gap: 1rem;
-    flex-wrap: wrap;
 }
 
 .hero-buttons .image-btn-link img {
@@ -172,6 +173,31 @@ a {
     cursor: pointer;
     border-radius: 0;
     transition: transform 0.2s ease;
+}
+
+.image-btn-link {
+    position: relative;
+}
+
+.image-btn-label {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: clamp(1rem, 2vw, 1.3rem);
+    font-weight: 700;
+    color: #ffffff;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+    pointer-events: none;
+    width: 80%;
+    margin: 0 auto;
+    transition: transform 0.2s ease, width 0.2s ease;
+}
+
+.image-btn-link:hover .image-btn-label {
+    transform: scale(0.96);
+    width: 72%;
 }
 
 .image-btn-link img {
