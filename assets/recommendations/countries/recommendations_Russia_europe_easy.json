@@ -59,7 +59,6 @@
         }
       ]
     },
-
     {
       "name": "Kaliningrad",
       "interests": [
@@ -70,17 +69,50 @@
       "local_food_tip": "Fresh coastal-style dishes, soups, salads, pastries and potato meals.",
       "full_day": "Morning: 🏛️ Kant Island (Exterior). → 🎨 Cathedral surroundings. → ☕ Riverside café.\n\nAfternoon: 🎭 Fishing Village (Exterior). → 🍽️ Lunch: soups, veg dishes, salads. → 🌊 Upper Lake walk.\n\nSunset: 🌅 Seaside viewpoints.\n\nNight: 🌃 Fishing Village lights.",
       "seasons": {
-        "spring": { "event": "Spring Coast", "ideas": ["🌸 Riverside blossoms", "🚶 Light walks", "☕ Terraces"] },
-        "summer": { "event": "Seaside Warmth", "ideas": ["🏖️ Beach breeze", "🍦 Ice cream", "🌇 Sunset colors"] },
-        "autumn": { "event": "Autumn Tones", "ideas": ["🍁 Park colors", "🥧 Pastry cafés", "🎨 Old town art spots"] },
-        "winter": { "event": "Winter Calm", "ideas": ["🌬️ Crisp winter air", "🍫 Hot chocolate"] }
+        "spring": {
+          "event": "Spring Coast",
+          "ideas": [
+            "🌸 Riverside blossoms",
+            "🚶 Light walks",
+            "☕ Terraces"
+          ]
+        },
+        "summer": {
+          "event": "Seaside Warmth",
+          "ideas": [
+            "🏖️ Beach breeze",
+            "🍦 Ice cream",
+            "🌇 Sunset colors"
+          ]
+        },
+        "autumn": {
+          "event": "Autumn Tones",
+          "ideas": [
+            "🍁 Park colors",
+            "🥧 Pastry cafés",
+            "🎨 Old town art spots"
+          ]
+        },
+        "winter": {
+          "event": "Winter Calm",
+          "ideas": [
+            "🌬️ Crisp winter air",
+            "🍫 Hot chocolate"
+          ]
+        }
       },
-      "public_transport_tips": ["🚌 Local buses", "🚶 Walkable center"],
+      "public_transport_tips": [
+        "🚌 Local buses",
+        "🚶 Walkable center"
+      ],
       "city_events": [
-        { "name": "City Day", "season": "summer", "description": "🎉 Cultural events and concerts." }
+        {
+          "name": "City Day",
+          "season": "summer",
+          "description": "🎉 Cultural events and concerts."
+        }
       ]
     },
-
     {
       "name": "Kazan",
       "interests": [
@@ -91,17 +123,51 @@
       "local_food_tip": "Tatar & Russian light meals: veggie soups, salads, flatbreads and pastries.",
       "full_day": "Morning: 🏛️ Kazan Kremlin (Exterior). → 🎭 Bauman Street walk. → ☕ Local café.\n\nAfternoon: 🌊 Kazanka River promenade. → 🍽️ Lunch: soups, salads, pastries. → 🕌 Kul Sharif Mosque (Exterior).\n\nSunset: 🌅 Kremlin viewpoints.\n\nNight: 🌃 Bauman Street lights.",
       "seasons": {
-        "spring": { "event": "Spring Freshness", "ideas": ["🌸 Park blossoms", "🚶 Old-town walks", "☕ Terraces"] },
-        "summer": { "event": "Summer Breeze", "ideas": ["🌊 River walks", "🍦 Ice cream", "🌇 Warm sunsets"] },
-        "autumn": { "event": "Golden Kazan", "ideas": ["🍁 Kremlin hills", "🥧 Cafés", "🎨 Local art"] },
-        "winter": { "event": "Winter Magic", "ideas": ["❄️ Snowy old town", "🍫 Hot drinks"] }
+        "spring": {
+          "event": "Spring Freshness",
+          "ideas": [
+            "🌸 Park blossoms",
+            "🚶 Old-town walks",
+            "☕ Terraces"
+          ]
+        },
+        "summer": {
+          "event": "Summer Breeze",
+          "ideas": [
+            "🌊 River walks",
+            "🍦 Ice cream",
+            "🌇 Warm sunsets"
+          ]
+        },
+        "autumn": {
+          "event": "Golden Kazan",
+          "ideas": [
+            "🍁 Kremlin hills",
+            "🥧 Cafés",
+            "🎨 Local art"
+          ]
+        },
+        "winter": {
+          "event": "Winter Magic",
+          "ideas": [
+            "❄️ Snowy old town",
+            "🍫 Hot drinks"
+          ]
+        }
       },
-      "public_transport_tips": ["🚇 Kazan Metro", "🚌 Local buses", "🚶 City center walkable"],
+      "public_transport_tips": [
+        "🚇 Kazan Metro",
+        "🚌 Local buses",
+        "🚶 City center walkable"
+      ],
       "city_events": [
-        { "name": "Kazan City Day", "season": "summer", "description": "🎆 Concerts & performances." }
+        {
+          "name": "Kazan City Day",
+          "season": "summer",
+          "description": "🎆 Concerts & performances."
+        }
       ]
     },
-
     {
       "name": "Nizhny Novgorod",
       "interests": [
@@ -112,17 +178,50 @@
       "local_food_tip": "Simple and warm meals: soups, potato dishes, salads and pastries.",
       "full_day": "Morning: 🏛️ Kremlin Hill (Exterior). → 🌅 Chkalov Staircase (exterior views). → ☕ Café.\n\nAfternoon: 🌊 Volga River walk. → 🍽️ Light lunch: soups, salads. → 🎭 Old Town streets.\n\nSunset: 🌅 Hill viewpoints.\n\nNight: 🌃 Riverfront lights.",
       "seasons": {
-        "spring": { "event": "Spring Views", "ideas": ["🌼 Hill flowers", "🚶 River walks", "☕ Terraces"] },
-        "summer": { "event": "Summer River Life", "ideas": ["🌊 Breeze", "🍦 Ice cream", "🌇 Sunset colors"] },
-        "autumn": { "event": "Autumn Hills", "ideas": ["🍁 Landscapes", "🥧 Cafés", "🎨 Markets"] },
-        "winter": { "event": "Winter Panorama", "ideas": ["❄️ Snowy views", "🍫 Hot chocolate"] }
+        "spring": {
+          "event": "Spring Views",
+          "ideas": [
+            "🌼 Hill flowers",
+            "🚶 River walks",
+            "☕ Terraces"
+          ]
+        },
+        "summer": {
+          "event": "Summer River Life",
+          "ideas": [
+            "🌊 Breeze",
+            "🍦 Ice cream",
+            "🌇 Sunset colors"
+          ]
+        },
+        "autumn": {
+          "event": "Autumn Hills",
+          "ideas": [
+            "🍁 Landscapes",
+            "🥧 Cafés",
+            "🎨 Markets"
+          ]
+        },
+        "winter": {
+          "event": "Winter Panorama",
+          "ideas": [
+            "❄️ Snowy views",
+            "🍫 Hot chocolate"
+          ]
+        }
       },
-      "public_transport_tips": ["🚌 Buses & trams", "🚶 Scenic walking routes"],
+      "public_transport_tips": [
+        "🚌 Buses & trams",
+        "🚶 Scenic walking routes"
+      ],
       "city_events": [
-        { "name": "City Day", "season": "summer", "description": "🎉 Music & cultural celebrations." }
+        {
+          "name": "City Day",
+          "season": "summer",
+          "description": "🎉 Music & cultural celebrations."
+        }
       ]
     },
-
     {
       "name": "Rostov-on-Don",
       "interests": [
@@ -133,17 +232,50 @@
       "local_food_tip": "Lagane južne obroke: salate, supe, povrće i hleb — jednostavno i ukusno.",
       "full_day": "Morning: 🌊 Don River promenade. → ☕ Riverside café.\n\nAfternoon: 🎭 Center streets. → 🍽️ Lunch: soups, salads, pastries. → 🌿 Central Park.\n\nSunset: 🌅 River viewpoints.\n\nNight: 🌃 Promenade lights.",
       "seasons": {
-        "spring": { "event": "Spring Breeze", "ideas": ["🌸 River flowers", "🚶 Walks", "☕ Terraces"] },
-        "summer": { "event": "Southern Summer", "ideas": ["🌊 Early river strolls", "🍉 Fruit stalls", "🌇 Golden-hour views"] },
-        "autumn": { "event": "Autumn River Mood", "ideas": ["🍁 Warm tones", "🥧 Cafés", "🎨 Local art"] },
-        "winter": { "event": "Mild Winter", "ideas": ["🌞 Sunny days", "🍫 Hot cocoa"] }
+        "spring": {
+          "event": "Spring Breeze",
+          "ideas": [
+            "🌸 River flowers",
+            "🚶 Walks",
+            "☕ Terraces"
+          ]
+        },
+        "summer": {
+          "event": "Southern Summer",
+          "ideas": [
+            "🌊 Early river strolls",
+            "🍉 Fruit stalls",
+            "🌇 Golden-hour views"
+          ]
+        },
+        "autumn": {
+          "event": "Autumn River Mood",
+          "ideas": [
+            "🍁 Warm tones",
+            "🥧 Cafés",
+            "🎨 Local art"
+          ]
+        },
+        "winter": {
+          "event": "Mild Winter",
+          "ideas": [
+            "🌞 Sunny days",
+            "🍫 Hot cocoa"
+          ]
+        }
       },
-      "public_transport_tips": ["🚌 Buses everywhere", "🚶 Walkable riverside"],
+      "public_transport_tips": [
+        "🚌 Buses everywhere",
+        "🚶 Walkable riverside"
+      ],
       "city_events": [
-        { "name": "Rostov City Day", "season": "autumn", "description": "🎉 Concerts & shows." }
+        {
+          "name": "Rostov City Day",
+          "season": "autumn",
+          "description": "🎉 Concerts & shows."
+        }
       ]
     },
-
     {
       "name": "Saint Petersburg",
       "interests": [
@@ -155,10 +287,38 @@
       "local_food_tip": "Warm pastries, soups, salads, potato dishes and light Russian classics.",
       "full_day": "Morning: 🏛️ Winter Palace (Exterior). → 🎨 Palace Square. → ☕ Nevsky Prospekt café.\n\nAfternoon: 🌊 Neva River walk. → 🍽️ Lunch: soups, salads, pastries. → 🌿 Summer Garden (Exterior).\n\nSunset: 🌅 Palace Embankment.\n\nNight: 🌃 Canal bridges & soft lights.",
       "seasons": {
-        "spring": { "event": "Spring Light", "ideas": ["🌸 Summer Garden blooms", "🚶 Canal walks", "☕ Terraces"] },
-        "summer": { "event": "White Nights", "ideas": ["🌃 Midnight glow", "🍦 Ice cream", "🌇 Neva sunsets"] },
-        "autumn": { "event": "Golden Petersburg", "ideas": ["🍁 Palace parks", "🥧 Warm cafés", "🎨 Art streets"] },
-        "winter": { "event": "Snowy Fairytale", "ideas": ["❄️ Frozen canals", "🎄 Holiday lights", "🍫 Hot drinks"] }
+        "spring": {
+          "event": "Spring Light",
+          "ideas": [
+            "🌸 Summer Garden blooms",
+            "🚶 Canal walks",
+            "☕ Terraces"
+          ]
+        },
+        "summer": {
+          "event": "White Nights",
+          "ideas": [
+            "🌃 Midnight glow",
+            "🍦 Ice cream",
+            "🌇 Neva sunsets"
+          ]
+        },
+        "autumn": {
+          "event": "Golden Petersburg",
+          "ideas": [
+            "🍁 Palace parks",
+            "🥧 Warm cafés",
+            "🎨 Art streets"
+          ]
+        },
+        "winter": {
+          "event": "Snowy Fairytale",
+          "ideas": [
+            "❄️ Frozen canals",
+            "🎄 Holiday lights",
+            "🍫 Hot drinks"
+          ]
+        }
       },
       "public_transport_tips": [
         "🚇 Metro is very efficient.",
@@ -166,7 +326,11 @@
         "⛴️ Canal boat tours (seasonal)."
       ],
       "city_events": [
-        { "name": "Scarlet Sails", "season": "summer", "description": "🎆 Massive White Nights celebration with fireworks." }
+        {
+          "name": "Scarlet Sails",
+          "season": "summer",
+          "description": "🎆 Massive White Nights celebration with fireworks."
+        }
       ]
     }
   ]

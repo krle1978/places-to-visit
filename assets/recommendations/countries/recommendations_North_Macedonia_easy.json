@@ -58,7 +58,6 @@
         }
       ]
     },
-
     {
       "name": "Bitola",
       "interests": [
@@ -69,17 +68,50 @@
       "local_food_tip": "Lagana tradicionalna jela: pasulj, pite, povrtne čorbe, salate i hleb sa susamom.",
       "full_day": "Morning: 🎭 Širok Sokak: long pedestrian street full of cafés and old architecture. → ☕ Café break.\n\nAfternoon: 🏛️ Heraclea Lyncestis (Exterior). → 🍽️ Lunch: soups, salads, pastries. → 🌿 City park.\n\nSunset: 🌅 Pedestrian boulevard.\n\nNight: 🌃 Soft city lights & dessert spots.",
       "seasons": {
-        "spring": { "event": "Spring Bloom", "ideas": ["🌼 Park flowers", "🚶 Main street walks", "☕ Terraces"] },
-        "summer": { "event": "Summer Days", "ideas": ["🌳 Shade walks", "🍦 Ice cream", "🌇 Long evenings"] },
-        "autumn": { "event": "Autumn Calm", "ideas": ["🍁 Warm colors", "🥧 Cafés", "🎨 Galleries"] },
-        "winter": { "event": "Winter Mood", "ideas": ["❄️ Light snow", "🍫 Hot cocoa"] }
+        "spring": {
+          "event": "Spring Bloom",
+          "ideas": [
+            "🌼 Park flowers",
+            "🚶 Main street walks",
+            "☕ Terraces"
+          ]
+        },
+        "summer": {
+          "event": "Summer Days",
+          "ideas": [
+            "🌳 Shade walks",
+            "🍦 Ice cream",
+            "🌇 Long evenings"
+          ]
+        },
+        "autumn": {
+          "event": "Autumn Calm",
+          "ideas": [
+            "🍁 Warm colors",
+            "🥧 Cafés",
+            "🎨 Galleries"
+          ]
+        },
+        "winter": {
+          "event": "Winter Mood",
+          "ideas": [
+            "❄️ Light snow",
+            "🍫 Hot cocoa"
+          ]
+        }
       },
-      "public_transport_tips": ["🚌 Local buses", "🚶 Walkable center"],
+      "public_transport_tips": [
+        "🚌 Local buses",
+        "🚶 Walkable center"
+      ],
       "city_events": [
-        { "name": "Manaki Brothers Film Festival", "season": "autumn", "description": "🎬 Oldest Balkan film festival." }
+        {
+          "name": "Manaki Brothers Film Festival",
+          "season": "autumn",
+          "description": "🎬 Oldest Balkan film festival."
+        }
       ]
     },
-
     {
       "name": "Kumanovo",
       "interests": [
@@ -90,17 +122,50 @@
       "local_food_tip": "Topli domaći obroci: povrtne supe, pite, salate i jednostavni mediteranski ukusi.",
       "full_day": "Morning: 🏛️ Main square walk. → ☕ Local café.\n\nAfternoon: 🎭 Murals & urban art streets. → 🍽️ Lunch: soups, pitas, salads. → 🌿 City park.\n\nSunset: 🌅 Center viewpoints.\n\nNight: 🌃 Evening lights & dessert shops.",
       "seasons": {
-        "spring": { "event": "Spring Colors", "ideas": ["🌺 Flowers in parks", "🚶 Light city walks", "☕ Terraces"] },
-        "summer": { "event": "Summer Warmth", "ideas": ["🌳 Shade areas", "🍉 Fruit stalls", "🌇 Golden-hour streets"] },
-        "autumn": { "event": "Autumn Feeling", "ideas": ["🍁 Trees in color", "🥧 Warm cafés", "🎨 Small galleries"] },
-        "winter": { "event": "Winter Calm", "ideas": ["❄️ Cold but bright days", "🍫 Hot cocoa"] }
+        "spring": {
+          "event": "Spring Colors",
+          "ideas": [
+            "🌺 Flowers in parks",
+            "🚶 Light city walks",
+            "☕ Terraces"
+          ]
+        },
+        "summer": {
+          "event": "Summer Warmth",
+          "ideas": [
+            "🌳 Shade areas",
+            "🍉 Fruit stalls",
+            "🌇 Golden-hour streets"
+          ]
+        },
+        "autumn": {
+          "event": "Autumn Feeling",
+          "ideas": [
+            "🍁 Trees in color",
+            "🥧 Warm cafés",
+            "🎨 Small galleries"
+          ]
+        },
+        "winter": {
+          "event": "Winter Calm",
+          "ideas": [
+            "❄️ Cold but bright days",
+            "🍫 Hot cocoa"
+          ]
+        }
       },
-      "public_transport_tips": ["🚌 Buses around town", "🚶 Walkable center"],
+      "public_transport_tips": [
+        "🚌 Buses around town",
+        "🚶 Walkable center"
+      ],
       "city_events": [
-        { "name": "Kumanovo Cultural Days", "season": "summer", "description": "🎭 Art, music & local traditions." }
+        {
+          "name": "Kumanovo Cultural Days",
+          "season": "summer",
+          "description": "🎭 Art, music & local traditions."
+        }
       ]
     },
-
     {
       "name": "Ohrid",
       "interests": [
@@ -112,10 +177,37 @@
       "local_food_tip": "Lagana jela: salate, čorbe, pite, hleb, povrće i mediteranski ukusi — sve uz jezersku atmosferu.",
       "full_day": "Morning: 🌊 Lake Ohrid promenade. → 🏛️ Church of St. John at Kaneo (Exterior viewpoint). → ☕ Lakeside café.\n\nAfternoon: 🎭 Old Town walk. → 🍽️ Lunch: salads, soups, bread dishes. → 🌿 Park by the lake.\n\nSunset: 🌅 Kaneo cliffs.\n\nNight: 🌃 Promenade lights + dessert bars.",
       "seasons": {
-        "spring": { "event": "Spring by the Lake", "ideas": ["🌸 Blossoms on the shore", "🚶 Lake walks", "☕ Sunny terraces"] },
-        "summer": { "event": "Summer Lake Life", "ideas": ["🌊 Cool breeze", "🍦 Ice cream", "🌇 Stunning sunsets"] },
-        "autumn": { "event": "Golden Ohrid", "ideas": ["🍁 Warm lake colors", "🥧 Lakeside cafés", "🎨 Art corners"] },
-        "winter": { "event": "Winter Serenity", "ideas": ["❄️ Calm lake views", "🍫 Hot drinks"] }
+        "spring": {
+          "event": "Spring by the Lake",
+          "ideas": [
+            "🌸 Blossoms on the shore",
+            "🚶 Lake walks",
+            "☕ Sunny terraces"
+          ]
+        },
+        "summer": {
+          "event": "Summer Lake Life",
+          "ideas": [
+            "🌊 Cool breeze",
+            "🍦 Ice cream",
+            "🌇 Stunning sunsets"
+          ]
+        },
+        "autumn": {
+          "event": "Golden Ohrid",
+          "ideas": [
+            "🍁 Warm lake colors",
+            "🥧 Lakeside cafés",
+            "🎨 Art corners"
+          ]
+        },
+        "winter": {
+          "event": "Winter Serenity",
+          "ideas": [
+            "❄️ Calm lake views",
+            "🍫 Hot drinks"
+          ]
+        }
       },
       "public_transport_tips": [
         "🚌 Local buses to viewpoints",
@@ -123,10 +215,13 @@
         "🚖 Taxis are affordable for short trips"
       ],
       "city_events": [
-        { "name": "Ohrid Summer Festival", "season": "summer", "description": "🎶 Major cultural festival with concerts & performances." }
+        {
+          "name": "Ohrid Summer Festival",
+          "season": "summer",
+          "description": "🎶 Major cultural festival with concerts & performances."
+        }
       ]
     },
-
     {
       "name": "Prilep",
       "interests": [
@@ -137,14 +232,48 @@
       "local_food_tip": "Domaća jela: povrtne čorbe, pite, salate, pita s krompirom i lagane kombinacije.",
       "full_day": "Morning: 🏛️ Marko’s Towers (Exterior viewpoint). → ☕ City café.\n\nAfternoon: 🎭 Center walk. → 🍽️ Lunch: soups, pita, salads. → 🌿 City park.\n\nSunset: 🌅 Hill views.\n\nNight: 🌃 Old-town lights.",
       "seasons": {
-        "spring": { "event": "Spring Days", "ideas": ["🌸 Flowers", "🚶 Hill walks", "☕ Terraces"] },
-        "summer": { "event": "Summer Heat", "ideas": ["🌿 Park shade", "🍦 Ice cream", "🌇 Golden evenings"] },
-        "autumn": { "event": "Autumn Colors", "ideas": ["🍁 Warm tones", "🥧 Cafés", "🎨 Art spots"] },
-        "winter": { "event": "Winter Quiet", "ideas": ["❄️ Snowy hills", "🍫 Hot cocoa"] }
+        "spring": {
+          "event": "Spring Days",
+          "ideas": [
+            "🌸 Flowers",
+            "🚶 Hill walks",
+            "☕ Terraces"
+          ]
+        },
+        "summer": {
+          "event": "Summer Heat",
+          "ideas": [
+            "🌿 Park shade",
+            "🍦 Ice cream",
+            "🌇 Golden evenings"
+          ]
+        },
+        "autumn": {
+          "event": "Autumn Colors",
+          "ideas": [
+            "🍁 Warm tones",
+            "🥧 Cafés",
+            "🎨 Art spots"
+          ]
+        },
+        "winter": {
+          "event": "Winter Quiet",
+          "ideas": [
+            "❄️ Snowy hills",
+            "🍫 Hot cocoa"
+          ]
+        }
       },
-      "public_transport_tips": ["🚌 Local buses", "🚶 Walkable central area"],
+      "public_transport_tips": [
+        "🚌 Local buses",
+        "🚶 Walkable central area"
+      ],
       "city_events": [
-        { "name": "Pivofest Prilep", "season": "summer", "description": "🎵 Large music festival." }
+        {
+          "name": "Pivofest Prilep",
+          "season": "summer",
+          "description": "🎵 Large music festival."
+        }
       ]
     }
   ]

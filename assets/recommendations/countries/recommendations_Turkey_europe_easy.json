@@ -13,10 +13,37 @@
       "local_food_tip": "Turske supe, povrtna jela, pide, simit, baklava, tost sa sirom, lagane salate i mediteranske opcije.",
       "full_day": "Morning: 🕌 Sultanahmet Square (Exterior). → 🏛️ Hagia Sophia (Exterior). → ☕ Old Town tea garden.\n\nAfternoon: 🌊 Eminönü–Galata Bridge walk. → 🏰 Galata Tower (Exterior). → 🍽️ Lunch: soups, salads, pide, börek. → 🎭 Istiklal Street walk (Exterior).\n\nSunset: 🌅 Bosphorus shoreline (Ortaköy or Karaköy).\n\nNight: 🌃 Galata waterfront + dessert stops.",
       "seasons": {
-        "spring": { "event": "Spring Istanbul", "ideas": ["🌸 Gülhane Park blossoms", "🚶 Bosphorus walks", "☕ Outdoor tea gardens"] },
-        "summer": { "event": "Summer Breeze", "ideas": ["🌊 Bosphorus wind", "🍦 Ice cream", "🌇 Sunset ferries"] },
-        "autumn": { "event": "Golden Autumn", "ideas": ["🍁 Park colors", "🥧 Warm pastries", "🎨 Street art corners"] },
-        "winter": { "event": "Winter Istanbul", "ideas": ["❄️ Snowy rooftops (sometimes)", "🍫 Salep & hot drinks"] }
+        "spring": {
+          "event": "Spring Istanbul",
+          "ideas": [
+            "🌸 Gülhane Park blossoms",
+            "🚶 Bosphorus walks",
+            "☕ Outdoor tea gardens"
+          ]
+        },
+        "summer": {
+          "event": "Summer Breeze",
+          "ideas": [
+            "🌊 Bosphorus wind",
+            "🍦 Ice cream",
+            "🌇 Sunset ferries"
+          ]
+        },
+        "autumn": {
+          "event": "Golden Autumn",
+          "ideas": [
+            "🍁 Park colors",
+            "🥧 Warm pastries",
+            "🎨 Street art corners"
+          ]
+        },
+        "winter": {
+          "event": "Winter Istanbul",
+          "ideas": [
+            "❄️ Snowy rooftops (sometimes)",
+            "🍫 Salep & hot drinks"
+          ]
+        }
       },
       "public_transport_tips": [
         "🚇 Metro (M2) covers Taksim, Şişhane & main districts.",
@@ -25,11 +52,18 @@
         "📱 Use 'Istanbul Map' app for navigation."
       ],
       "city_events": [
-        { "name": "Istanbul Tulip Festival", "season": "spring", "description": "🌷 Millions of tulips across parks." },
-        { "name": "Istanbul Music Festival", "season": "summer", "description": "🎶 Classical and world music performances." }
+        {
+          "name": "Istanbul Tulip Festival",
+          "season": "spring",
+          "description": "🌷 Millions of tulips across parks."
+        },
+        {
+          "name": "Istanbul Music Festival",
+          "season": "summer",
+          "description": "🎶 Classical and world music performances."
+        }
       ]
     },
-
     {
       "name": "Edirne",
       "interests": [
@@ -40,20 +74,47 @@
       "local_food_tip": "Turske vegetarijanske opcije: supe, pilav, povrće, peciva, salate, palačinke i lagane poslastice.",
       "full_day": "Morning: 🕌 Selimiye Mosque (Exterior). → 🎭 Old Town bazaar walk. → ☕ Traditional café.\n\nAfternoon: 🌊 Meriç Bridge viewpoint (Exterior). → 🍽️ Lunch: soups, salads, pastries. → 🏛️ Museum quarter (Exterior).\n\nSunset: 🌅 Riverside.\n\nNight: 🌃 Calm old town streets.",
       "seasons": {
-        "spring": { "event": "Spring Edirne", "ideas": ["🌼 Mosque gardens", "🚶 Light walks"] },
-        "summer": { "event": "Warm Summer", "ideas": ["🌊 Riverside breeze", "🍦 Ice cream"] },
-        "autumn": { "event": "Autumn Colors", "ideas": ["🍁 Park tones", "🥧 Warm pastries"] },
-        "winter": { "event": "Winter Calm", "ideas": ["🌞 Mild sunshine", "🍫 Hot drinks"] }
+        "spring": {
+          "event": "Spring Edirne",
+          "ideas": [
+            "🌼 Mosque gardens",
+            "🚶 Light walks"
+          ]
+        },
+        "summer": {
+          "event": "Warm Summer",
+          "ideas": [
+            "🌊 Riverside breeze",
+            "🍦 Ice cream"
+          ]
+        },
+        "autumn": {
+          "event": "Autumn Colors",
+          "ideas": [
+            "🍁 Park tones",
+            "🥧 Warm pastries"
+          ]
+        },
+        "winter": {
+          "event": "Winter Calm",
+          "ideas": [
+            "🌞 Mild sunshine",
+            "🍫 Hot drinks"
+          ]
+        }
       },
       "public_transport_tips": [
         "🚌 Local buses connect neighborhoods.",
         "🚶 Old Town is walkable."
       ],
       "city_events": [
-        { "name": "Kırkpınar Festival", "season": "summer", "description": "🎭 Cultural shows, markets & traditions." }
+        {
+          "name": "Kırkpınar Festival",
+          "season": "summer",
+          "description": "🎭 Cultural shows, markets & traditions."
+        }
       ]
     },
-
     {
       "name": "Tekirdağ",
       "interests": [
@@ -64,17 +125,46 @@
       "local_food_tip": "Mediteranski ukusi: povrtne čorbe, testenine, salate, peciva, lagane slane i slatke opcije.",
       "full_day": "Morning: 🌊 Tekirdağ promenade. → ☕ Seaside café.\n\nAfternoon: 🎭 Center streets. → 🍽️ Lunch: salads, pide, supe. → 🌿 Hill viewpoints.\n\nSunset: 🌅 Sea horizon.\n\nNight: 🌃 Promenade lights.",
       "seasons": {
-        "spring": { "event": "Spring Coast", "ideas": ["🌸 Flowers along the promenade", "🚶 Calm walks"] },
-        "summer": { "event": "Aegean-like Summer", "ideas": ["🌊 Evening breeze", "🍦 Ice cream", "🌇 Long sunsets"] },
-        "autumn": { "event": "Autumn by the Sea", "ideas": ["🍁 Soft colors", "🥧 Cafés"] },
-        "winter": { "event": "Winter Coastline", "ideas": ["🌬️ Fresh air", "🍫 Hot drinks"] }
+        "spring": {
+          "event": "Spring Coast",
+          "ideas": [
+            "🌸 Flowers along the promenade",
+            "🚶 Calm walks"
+          ]
+        },
+        "summer": {
+          "event": "Aegean-like Summer",
+          "ideas": [
+            "🌊 Evening breeze",
+            "🍦 Ice cream",
+            "🌇 Long sunsets"
+          ]
+        },
+        "autumn": {
+          "event": "Autumn by the Sea",
+          "ideas": [
+            "🍁 Soft colors",
+            "🥧 Cafés"
+          ]
+        },
+        "winter": {
+          "event": "Winter Coastline",
+          "ideas": [
+            "🌬️ Fresh air",
+            "🍫 Hot drinks"
+          ]
+        }
       },
       "public_transport_tips": [
         "🚌 Local buses run frequently.",
         "🚶 Seaside area is walkable."
       ],
       "city_events": [
-        { "name": "Tekirdağ Cherry Festival", "season": "summer", "description": "🍒 Local crafts, music & food stalls." }
+        {
+          "name": "Tekirdağ Cherry Festival",
+          "season": "summer",
+          "description": "🍒 Local crafts, music & food stalls."
+        }
       ]
     }
   ]

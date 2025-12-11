@@ -13,10 +13,37 @@
       "local_food_tip": "Vegetarian pies, soups, roasted veggies, pastries, light British classics i modern international options.",
       "full_day": "Morning: 🏛️ Big Ben & Westminster (Exterior). → 🌊 Thames Riverside Walk. → ☕ Café near Westminster.\n\nAfternoon: 🎨 Trafalgar Square & National Gallery (Exterior optional). → 🍽️ Lunch: veggie pies, soups, salads. → 🌿 St. James's Park walk.\n\nSunset: 🌅 London Eye riverside views.\n\nNight: 🌃 Covent Garden evening lights + dessert spots.",
       "seasons": {
-        "spring": { "event": "Spring in London", "ideas": ["🌸 Parks blooming", "🚶 Riverside walks", "☕ Outdoor cafés"] },
-        "summer": { "event": "Summer Light", "ideas": ["🌿 Hyde Park afternoons", "🍦 Ice cream stalls", "🌇 Long evenings"] },
-        "autumn": { "event": "Autumn Colors", "ideas": ["🍁 Park foliage", "🥧 Warm pastries", "🎨 Museum visits"] },
-        "winter": { "event": "Winter Magic", "ideas": ["🎄 Christmas lights", "🍫 Hot chocolate cafés"] }
+        "spring": {
+          "event": "Spring in London",
+          "ideas": [
+            "🌸 Parks blooming",
+            "🚶 Riverside walks",
+            "☕ Outdoor cafés"
+          ]
+        },
+        "summer": {
+          "event": "Summer Light",
+          "ideas": [
+            "🌿 Hyde Park afternoons",
+            "🍦 Ice cream stalls",
+            "🌇 Long evenings"
+          ]
+        },
+        "autumn": {
+          "event": "Autumn Colors",
+          "ideas": [
+            "🍁 Park foliage",
+            "🥧 Warm pastries",
+            "🎨 Museum visits"
+          ]
+        },
+        "winter": {
+          "event": "Winter Magic",
+          "ideas": [
+            "🎄 Christmas lights",
+            "🍫 Hot chocolate cafés"
+          ]
+        }
       },
       "public_transport_tips": [
         "🚇 The Tube is the fastest way around.",
@@ -25,92 +52,267 @@
         "📱 Use 'Citymapper' or 'TfL Go' apps."
       ],
       "city_events": [
-        { "name": "Notting Hill Carnival", "season": "summer", "description": "🎉 Huge cultural festival of music, art & parades." }
+        {
+          "name": "Notting Hill Carnival",
+          "season": "summer",
+          "description": "🎉 Huge cultural festival of music, art & parades."
+        }
       ]
     },
-
     {
       "name": "Belfast",
-      "interests": ["Historic Streets 🎭","Riverside 🌊","Museums 🎨"],
+      "interests": [
+        "Historic Streets 🎭",
+        "Riverside 🌊",
+        "Museums 🎨"
+      ],
       "local_food_tip": "Veggie stews, potato dishes, pastries i lagani lokalni specijaliteti.",
       "full_day": "Morning: 🚢 Titanic Quarter (Exterior). → ☕ Riverside café.\n\nAfternoon: 🎭 Cathedral Quarter streets. → 🍽️ Lunch: veggie stews, soups, salads. → 🎨 Street art corners.\n\nSunset: 🌅 River Lagan views.\n\nNight: 🌃 Old streets with calm lights.",
       "seasons": {
-        "spring": { "event": "Spring Light", "ideas": ["🌼 Waterfront flowers", "🚶 Old streets"] },
-        "summer": { "event": "Summer Days", "ideas": ["🌊 Breezy riverside", "🍦 Ice cream"] },
-        "autumn": { "event": "Autumn Tones", "ideas": ["🍁 Warm colors", "🥧 Pastries"] },
-        "winter": { "event": "Winter Charm", "ideas": ["❄️ Crisp air", "🍫 Hot cocoa"] }
+        "spring": {
+          "event": "Spring Light",
+          "ideas": [
+            "🌼 Waterfront flowers",
+            "🚶 Old streets"
+          ]
+        },
+        "summer": {
+          "event": "Summer Days",
+          "ideas": [
+            "🌊 Breezy riverside",
+            "🍦 Ice cream"
+          ]
+        },
+        "autumn": {
+          "event": "Autumn Tones",
+          "ideas": [
+            "🍁 Warm colors",
+            "🥧 Pastries"
+          ]
+        },
+        "winter": {
+          "event": "Winter Charm",
+          "ideas": [
+            "❄️ Crisp air",
+            "🍫 Hot cocoa"
+          ]
+        }
       },
-      "public_transport_tips": ["🚌 Buses cover all areas","🚶 City center is walkable"],
+      "public_transport_tips": [
+        "🚌 Buses cover all areas",
+        "🚶 City center is walkable"
+      ],
       "city_events": [
-        { "name": "Belfast Maritime Festival", "season": "summer", "description": "⚓ Maritime culture & performances." }
+        {
+          "name": "Belfast Maritime Festival",
+          "season": "summer",
+          "description": "⚓ Maritime culture & performances."
+        }
       ]
     },
-
     {
       "name": "Birmingham",
-      "interests": ["Urban Culture 🎭","Canal Walks 🌊","Museums 🎨"],
+      "interests": [
+        "Urban Culture 🎭",
+        "Canal Walks 🌊",
+        "Museums 🎨"
+      ],
       "local_food_tip": "Veggie curries, soups, roasted vegetables, bakery treats i modern fusion dishes.",
       "full_day": "Morning: 🌊 Canal Quarter Walk. → ☕ Local café.\n\nAfternoon: 🎨 Birmingham Museum (Exterior). → 🍽️ Lunch: veggie curry, salads, soups. → 🏙️ Central squares.\n\nSunset: 🌅 Canalside views.\n\nNight: 🌃 Modern city lights.",
       "seasons": {
-        "spring": { "event": "Spring Urban", "ideas": ["🌸 Canal flowers", "🚶 Easy walks"] },
-        "summer": { "event": "Summer Evenings", "ideas": ["🌇 Long golden-hour walks", "🍦 Ice cream"] },
-        "autumn": { "event": "Autumn Feels", "ideas": ["🍁 Warm colors", "🥧 Bakeries"] },
-        "winter": { "event": "Winter Calm", "ideas": ["🎄 Christmas market", "🍫 Hot drinks"] }
+        "spring": {
+          "event": "Spring Urban",
+          "ideas": [
+            "🌸 Canal flowers",
+            "🚶 Easy walks"
+          ]
+        },
+        "summer": {
+          "event": "Summer Evenings",
+          "ideas": [
+            "🌇 Long golden-hour walks",
+            "🍦 Ice cream"
+          ]
+        },
+        "autumn": {
+          "event": "Autumn Feels",
+          "ideas": [
+            "🍁 Warm colors",
+            "🥧 Bakeries"
+          ]
+        },
+        "winter": {
+          "event": "Winter Calm",
+          "ideas": [
+            "🎄 Christmas market",
+            "🍫 Hot drinks"
+          ]
+        }
       },
-      "public_transport_tips": ["🚆 Great train connections","🚌 Local buses everywhere"],
+      "public_transport_tips": [
+        "🚆 Great train connections",
+        "🚌 Local buses everywhere"
+      ],
       "city_events": [
-        { "name": "Birmingham Festival", "season": "summer", "description": "🎶 Music, art & outdoor activities." }
+        {
+          "name": "Birmingham Festival",
+          "season": "summer",
+          "description": "🎶 Music, art & outdoor activities."
+        }
       ]
     },
-
     {
       "name": "Edinburgh",
-      "interests": ["Historic Landmarks 🏛️","Old Town Culture 🎭","Hill Views 🌅"],
+      "interests": [
+        "Historic Landmarks 🏛️",
+        "Old Town Culture 🎭",
+        "Hill Views 🌅"
+      ],
       "local_food_tip": "Soups, potato dishes, fresh breads, pastries i light Scottish comfort food.",
       "full_day": "Morning: 🏛️ Royal Mile walk. → ⛪ St. Giles' Cathedral (Exterior). → ☕ Old Town café.\n\nAfternoon: 🏰 Edinburgh Castle (Exterior). → 🍽️ Lunch: soups, salads, pastries. → 🌿 Princes Street Gardens.\n\nSunset: 🌅 Calton Hill.\n\nNight: 🌃 Old Town lantern-lit streets.",
       "seasons": {
-        "spring": { "event": "Spring Breeze", "ideas": ["🌸 Gardens bloom", "🚶 Historic streets"] },
-        "summer": { "event": "Summer Views", "ideas": ["🌅 Hill viewpoints", "🍦 Ice cream"] },
-        "autumn": { "event": "Autumn Gold", "ideas": ["🍁 Castle surroundings", "🥧 Warm cafés"] },
-        "winter": { "event": "Winter Festival", "ideas": ["🎄 Christmas Market", "🍫 Hot cocoa"] }
+        "spring": {
+          "event": "Spring Breeze",
+          "ideas": [
+            "🌸 Gardens bloom",
+            "🚶 Historic streets"
+          ]
+        },
+        "summer": {
+          "event": "Summer Views",
+          "ideas": [
+            "🌅 Hill viewpoints",
+            "🍦 Ice cream"
+          ]
+        },
+        "autumn": {
+          "event": "Autumn Gold",
+          "ideas": [
+            "🍁 Castle surroundings",
+            "🥧 Warm cafés"
+          ]
+        },
+        "winter": {
+          "event": "Winter Festival",
+          "ideas": [
+            "🎄 Christmas Market",
+            "🍫 Hot cocoa"
+          ]
+        }
       },
-      "public_transport_tips": ["🚌 Excellent buses", "🚆 Trams to/from airport", "🚶 Old Town is walkable"],
+      "public_transport_tips": [
+        "🚌 Excellent buses",
+        "🚆 Trams to/from airport",
+        "🚶 Old Town is walkable"
+      ],
       "city_events": [
-        { "name": "Edinburgh Fringe Festival", "season": "summer", "description": "🎭 World's biggest performing arts festival." }
+        {
+          "name": "Edinburgh Fringe Festival",
+          "season": "summer",
+          "description": "🎭 World's biggest performing arts festival."
+        }
       ]
     },
-
     {
       "name": "Glasgow",
-      "interests": ["Museums & Art 🎨","Parks & Nature 🌿","Urban Culture 🎭"],
+      "interests": [
+        "Museums & Art 🎨",
+        "Parks & Nature 🌿",
+        "Urban Culture 🎭"
+      ],
       "local_food_tip": "Soups, sandwiches, veggie bowls, pastries i modern local dishes.",
       "full_day": "Morning: 🎨 Kelvingrove (Exterior). → ☕ West End café.\n\nAfternoon: 🌿 Kelvingrove Park. → 🍽️ Lunch: veggie bowls, soups, pastries. → 🏙️ City Centre walk.\n\nSunset: 🌅 Riverside.\n\nNight: 🌃 Bright urban streets.",
       "seasons": {
-        "spring": { "event": "Spring Greens", "ideas": ["🌼 Parks bloom", "🚶 Riverside"] },
-        "summer": { "event": "Summer Colors", "ideas": ["🌇 Long evenings", "🍦 Ice cream"] },
-        "autumn": { "event": "Autumn Warmth", "ideas": ["🍁 Park colors", "🥧 Cozy cafés"] },
-        "winter": { "event": "Winter Glow", "ideas": ["🎄 City lights", "🍫 Hot chocolate"] }
+        "spring": {
+          "event": "Spring Greens",
+          "ideas": [
+            "🌼 Parks bloom",
+            "🚶 Riverside"
+          ]
+        },
+        "summer": {
+          "event": "Summer Colors",
+          "ideas": [
+            "🌇 Long evenings",
+            "🍦 Ice cream"
+          ]
+        },
+        "autumn": {
+          "event": "Autumn Warmth",
+          "ideas": [
+            "🍁 Park colors",
+            "🥧 Cozy cafés"
+          ]
+        },
+        "winter": {
+          "event": "Winter Glow",
+          "ideas": [
+            "🎄 City lights",
+            "🍫 Hot chocolate"
+          ]
+        }
       },
-      "public_transport_tips": ["🚇 Subway for quick travel","🚌 Extensive bus network"],
+      "public_transport_tips": [
+        "🚇 Subway for quick travel",
+        "🚌 Extensive bus network"
+      ],
       "city_events": [
-        { "name": "Glasgow International Festival", "season": "spring", "description": "🎨 Contemporary art & culture." }
+        {
+          "name": "Glasgow International Festival",
+          "season": "spring",
+          "description": "🎨 Contemporary art & culture."
+        }
       ]
     },
-
     {
       "name": "Manchester",
-      "interests": ["Urban Culture 🎭","Industrial Heritage 🏛️","Art & Creativity 🎨"],
+      "interests": [
+        "Urban Culture 🎭",
+        "Industrial Heritage 🏛️",
+        "Art & Creativity 🎨"
+      ],
       "local_food_tip": "Veggie pies, soups, curries, pastries, salads i modern British meals.",
       "full_day": "Morning: 🏛️ Castlefield area walk. → ☕ Canal café.\n\nAfternoon: 🎨 Northern Quarter art streets. → 🍽️ Lunch: veggie pies, soups, salads. → 🏙️ Central squares.\n\nSunset: 🌅 Riverside.",
       "seasons": {
-        "spring": { "event": "Spring City", "ideas": ["🌸 Canal paths", "🚶 Creative districts"] },
-        "summer": { "event": "Summer Buzz", "ideas": ["🌇 Warm evenings", "🍦 Ice cream stalls"] },
-        "autumn": { "event": "Autumn Streets", "ideas": ["🍁 Warm colors", "🥧 Bakeries"] },
-        "winter": { "event": "Winter Lights", "ideas": ["🎄 Christmas markets", "🍫 Hot drinks"] }
+        "spring": {
+          "event": "Spring City",
+          "ideas": [
+            "🌸 Canal paths",
+            "🚶 Creative districts"
+          ]
+        },
+        "summer": {
+          "event": "Summer Buzz",
+          "ideas": [
+            "🌇 Warm evenings",
+            "🍦 Ice cream stalls"
+          ]
+        },
+        "autumn": {
+          "event": "Autumn Streets",
+          "ideas": [
+            "🍁 Warm colors",
+            "🥧 Bakeries"
+          ]
+        },
+        "winter": {
+          "event": "Winter Lights",
+          "ideas": [
+            "🎄 Christmas markets",
+            "🍫 Hot drinks"
+          ]
+        }
       },
-      "public_transport_tips": ["🚆 Great train connections","🚋 Trams across the city"],
+      "public_transport_tips": [
+        "🚆 Great train connections",
+        "🚋 Trams across the city"
+      ],
       "city_events": [
-        { "name": "Manchester International Festival", "season": "summer", "description": "🎭 Art, music & innovation." }
+        {
+          "name": "Manchester International Festival",
+          "season": "summer",
+          "description": "🎭 Art, music & innovation."
+        }
       ]
     }
   ]
