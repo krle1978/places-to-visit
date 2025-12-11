@@ -83,6 +83,17 @@
   padding-right: 1rem;    /* 👈 dodat unutrašnji padding */
 }
 
+.route-result a,
+#pdf-clone-wrapper a {
+  color: #11854d;
+  text-decoration: none;
+}
+
+.route-result a:hover,
+#pdf-clone-wrapper a:hover {
+  text-decoration: underline;
+}
+
 .route-result ul {
   margin: 0.5rem 0 1rem 1.2rem;
   padding: 0;

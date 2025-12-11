@@ -4,130 +4,680 @@
 
     {
       "name": "Valletta",
+
       "interests": [
-        "Historic Streets 🎭",
-        "Fortress Views 🏰",
-        "Harbor Walks 🌊",
-        "Art & Culture 🎨",
-        "Local Food Exploration 😋"
-      ],
-      "local_food_tip": "Maltese pies, vegetable soups, ftira bread, pastries and Mediterranean salads — jednostavno i preukusno.",
-      "full_day": "Morning: 🏰 Upper Barrakka Gardens (Exterior views). → 🌊 Grand Harbour viewpoints. → ☕ Republic Street café.\n\nAfternoon: 🏛️ St. John’s Co-Cathedral (Exterior). → 🍽️ Lunch: Mediterranean salads, soups, ftira. → 🎨 MUŻA museum exterior. → 🚶 Waterfront walk.\n\nSunset: 🌅 Siege Bell Memorial cliffside.\n\nNight: 🌃 Waterfront lights + dessert stops.",
-      "seasons": {
-        "spring": {
-          "event": "Spring in Valletta",
-          "ideas": ["🌸 Barrakka blossoms", "🚶 Sunny old-town walks", "☕ Terraces with sea views"]
-        },
-        "summer": {
-          "event": "Mediterranean Summer",
-          "ideas": ["🌊 Harbor breeze spots", "🍦 Gelato stands", "🌇 Golden sunsets over the fortifications"]
-        },
-        "autumn": {
-          "event": "Autumn Calm",
-          "ideas": ["🍁 Soft coastal light", "🥧 Warm pastries", "🎨 Museum visits"]
-        },
-        "winter": {
-          "event": "Winter Glow",
-          "ideas": ["🎄 Festive lights in Republic Street", "🍫 Hot cocoa by the harbor"]
-        }
-      },
-      "public_transport_tips": [
-        "🚌 Malta buses connect all major towns.",
-        "⛴️ Ferries link Valletta with Sliema & Three Cities.",
-        "🚶 Compact and walkable.",
-        "📱 Use 'Tallinja' app for routes & tickets."
-      ],
-      "city_events": [
         {
-          "name": "Valletta Baroque Festival",
-          "season": "winter",
-          "description": "🎻 Classical performances in historic venues."
+          "name": "Historic Streets 🎭",
+          "map_link": "https://www.google.com/maps/place/Republic+Street,+Valletta/",
+          "description": "Valletta’s narrow limestone streets, balconies, and charming alleys create a living open-air museum. Perfect for slow strolls, photographs, and café stops."
+        },
+        {
+          "name": "Fortress Views 🏰",
+          "map_link": "https://www.google.com/maps/place/Upper+Barrakka+Gardens/",
+          "description": "The fortified walls and viewpoints like Upper Barrakka offer sweeping panoramas of the Grand Harbour and historic battlements."
+        },
+        {
+          "name": "Harbor Walks 🌊",
+          "map_link": "https://www.google.com/maps/place/Valletta+Waterfront/",
+          "description": "The waterfront area is lined with colorful historic warehouses, cafés, restaurants, and stunning harbor views."
+        },
+        {
+          "name": "Art & Culture 🎨",
+          "map_link": "https://www.google.com/maps/place/MUŻA+-+The+National+Museum+of+Art/",
+          "description": "Valletta is rich in museums, churches, and cultural institutions. MUŻA and St. John’s Co-Cathedral highlight Malta’s artistic heritage."
+        },
+        {
+          "name": "Local Food Exploration 😋",
+          "map_link": "https://www.google.com/maps/search/?q=Valletta+Restaurants",
+          "description": "Mediterranean dishes, ftira bread, pastries, soups, and seafood reflect the island’s warm coastal cuisine."
         }
-      ]
+      ],
+
+      "local_food_tip": "Maltese pies, vegetable soups, ftira bread, pastries and Mediterranean salads — jednostavno i preukusno.",
+
+      "full_day": "Morning: Start at <a href=\"https://www.google.com/maps/place/Upper+Barrakka+Gardens/@35.894372,14.5124111,17z/\" target=\"_blank\" rel=\"noopener\">Upper Barrakka Gardens</a> for Grand Harbour views → walk historic streets → coffee along <a href=\"https://www.google.com/maps/place/Republic+St,+Valletta,+Malta/@35.89817,14.5145894,16z/\" target=\"_blank\" rel=\"noopener\">Republic Street</a>.\n\nAfternoon: See the exterior of <a href=\"https://www.google.com/maps/place/St.+John's+Co-Cathedral/@35.8973968,14.5127712,17z/\" target=\"_blank\" rel=\"noopener\">St. John’s Co-Cathedral</a> → lunch with ftira, salads, soups → explore <a href=\"https://www.google.com/maps/place/MUŻA/@35.8972605,14.5122963,18z/\" target=\"_blank\" rel=\"noopener\">MUŻA museum</a> → stroll the <a href=\"https://www.google.com/maps/place/Valletta+Waterfront/@35.8899578,14.5074296,17z/\" target=\"_blank\" rel=\"noopener\">Valletta Waterfront</a>.\n\nSunset: Enjoy golden harbor light at the <a href=\"https://www.google.com/maps/place/Siege+Bell+War+Memorial/@35.8934541,14.5160827,17z/\" target=\"_blank\" rel=\"noopener\">Siege Bell Memorial</a>.\n\nNight: Dinner and dessert along the <a href=\"https://www.google.com/maps/place/Valletta+Waterfront/@35.8899578,14.5074296,17z/\" target=\"_blank\" rel=\"noopener\">waterfront</a>.",
+  "places": [
+    {
+      "name": "Upper Barrakka Gardens",
+      "link": "https://www.google.com/maps/place/Upper+Barrakka+Gardens/@35.894372,14.5124111,17z/",
+      "description": "One of Valletta’s most iconic viewpoints, overlooking the Grand Harbour and the Three Cities."
+    },
+    {
+      "name": "St. John’s Co-Cathedral",
+      "link": "https://www.google.com/maps/place/St.+John's+Co-Cathedral/@35.8973968,14.5127712,17z/",
+      "description": "A masterpiece of baroque art with an ornate interior and deep cultural history."
+    },
+    {
+      "name": "Republic Street",
+      "link": "https://www.google.com/maps/place/Republic+St,+Valletta,+Malta/@35.89817,14.5145894,16z/",
+      "description": "Valletta’s main pedestrian street, lined with shops, cafés, and historic buildings."
+    },
+    {
+      "name": "Valletta Waterfront",
+      "link": "https://www.google.com/maps/place/Valletta+Waterfront/@35.8899578,14.5074296,17z/",
+      "description": "A picturesque promenade with bars, restaurants, and colorful historic architecture."
+    },
+    {
+      "name": "MUŻA – National Museum of Art",
+      "link": "https://www.google.com/maps/place/MUŻA/@35.8972605,14.5122963,18z/",
+      "description": "Malta’s national art museum featuring classical and modern Maltese artworks."
+    },
+    {
+      "name": "Siege Bell War Memorial",
+      "link": "https://www.google.com/maps/place/Siege+Bell+War+Memorial/@35.8934541,14.5160827,17z/",
+      "description": "Overlooks the Grand Harbour with stunning sunset views."
+    }
+  ],
+  "hidden_gems": [
+    {
+      "name": "Lower Barrakka Gardens",
+      "link": "https://www.google.com/maps/place/Lower+Barrakka+Gardens/@35.8941167,14.5154385,17z/",
+      "description": "A quieter garden space with excellent views of the harbor and historic monuments."
+    },
+    {
+      "name": "St. Barbara Bastion",
+      "link": "https://www.google.com/maps/place/St+Barbara+Bastion/@35.8960614,14.5140277,17z/",
+      "description": "One of Valletta’s most beautiful residential bastions with peaceful sea views."
+    },
+    {
+      "name": "Chapel of St. Roque Corner Viewpoint",
+      "link": "https://www.google.com/maps/place/St+Roque+Chapel/@35.8978715,14.5163971,18z/",
+      "description": "A tiny corner of Valletta offering hidden panoramic spots over the harbor."
+    }
+  ],
+  "public_transport_tips": [
+    {
+      "tip": "🚌 Malta buses connect all major towns.",
+      "link": "https://www.publictransport.com.mt/"
+    },
+    {
+      "tip": "⛴️ Ferries link Valletta with Sliema & Three Cities.",
+      "link": "https://www.vallettaferryservices.com/"
+    },
+    {
+      "tip": "🚶 Compact and walkable city center.",
+      "link": "https://www.google.com/maps/place/Valletta/"
+    },
+    {
+      "tip": "📱 Use the Tallinja app for routes & tickets.",
+      "link": "https://play.google.com/store/apps/details?id=com.maltatransport.tallinja"
+    }
+  ],
+  "city_events": [
+    {
+      "name": "Valletta Baroque Festival",
+      "season": "winter",
+      "description": "🎻 Classical performances in historic venues."
+    }
+  ]
     },
 
     {
       "name": "Birgu (Vittoriosa)",
-      "interests": ["Harbor Walks 🌊", "Fortress History 🏰", "Old Streets 🎭"],
+      "interests": [
+        {
+          "name": "Harbor Walks 🌊",
+          "map_link": "https://www.google.com/maps/place/Vittoriosa+Waterfront/@35.8893311,14.5197303,17z/",
+          "description": "The peaceful Vittoriosa Waterfront offers marina views, boats, cafés and a calm atmosphere along the Grand Harbour."
+        },
+        {
+          "name": "Fortress History 🏰",
+          "map_link": "https://www.google.com/maps/place/Fort+St+Angelo/@35.8922577,14.5186534,17z/",
+          "description": "Fort St. Angelo is one of Malta’s most important historical fortresses, standing proudly over the harbour."
+        },
+        {
+          "name": "Old Streets 🎭",
+          "map_link": "https://www.google.com/maps/place/Vittoriosa,+Birgu/@35.8877397,14.5210222,16z/",
+          "description": "Birgu has some of the oldest and most atmospheric streets in Malta — narrow alleys, stone houses, and quiet corners."
+        }
+      ],
       "local_food_tip": "Mediterranean soups, salads, ftira and pastries.",
-      "full_day": "Morning: 🌊 Marina promenade. → 🏰 Fort St. Angelo (Exterior). → ☕ Waterfront café.\n\nAfternoon: 🏘️ Narrow alley walks. → 🍽️ Light veggie lunch. → 🚶 Historic docks.\n\nSunset: 🌅 Harbour glow.\n\nNight: 🌃 Quiet waterfront lights.",
+      "full_day": "Morning: Walk the <a href=\"https://www.google.com/maps/place/Vittoriosa+Waterfront/@35.8893311,14.5197303,17z/\" target=\"_blank\" rel=\"noopener\">marina promenade</a> → see <a href=\"https://www.google.com/maps/place/Fort+St+Angelo/@35.8922577,14.5186534,17z/\" target=\"_blank\" rel=\"noopener\">Fort St. Angelo</a> (Exterior) → coffee by the waterfront.\n\nAfternoon: Explore <a href=\"https://www.google.com/maps/place/Vittoriosa,+Birgu/@35.8877397,14.5210222,16z/\" target=\"_blank\" rel=\"noopener\">narrow old streets</a> → light veggie lunch → stroll historic docks.\n\nSunset: Harbour glowing at golden hour.\n\nNight: Quiet waterfront lights and relaxed evening walk.",
       "seasons": {
-        "spring": { "event": "Harbor Spring", "ideas": ["🌸 Waterfront flowers", "🚶 Alley walks", "☕ Terraces"] },
-        "summer": { "event": "Summer Breeze", "ideas": ["🌊 Harbor shade", "🍦 Ice cream", "🌇 Sunset views"] },
-        "autumn": { "event": "Autumn Light", "ideas": ["🍁 Warm tones", "🥧 Cafés", "🎨 Small galleries"] },
-        "winter": { "event": "Winter Calm", "ideas": ["❄️ Mild temps", "🍫 Hot cocoa"] }
+        "spring": {
+          "event": "Harbor Spring",
+          "ideas": [
+            "🌸 Flowers along the waterfront",
+            "🚶 Old street walks",
+            "☕ Terraces with harbour breezes"
+          ]
+        },
+        "summer": {
+          "event": "Summer Breeze",
+          "ideas": [
+            "🌊 Marina shade walks",
+            "🍦 Ice cream stops",
+            "🌇 Harbour sunsets"
+          ]
+        },
+        "autumn": {
+          "event": "Autumn Light",
+          "ideas": [
+            "🍁 Warm tones in old streets",
+            "🥧 Local cafés",
+            "🎨 Small galleries"
+          ]
+        },
+        "winter": {
+          "event": "Winter Calm",
+          "ideas": [
+            "❄️ Mild temperatures",
+            "🍫 Hot cocoa by the waterfront"
+          ]
+        }
       },
-      "public_transport_tips": ["🚌 Buses from Valletta", "⛴️ Ferry from Valletta"],
+      "public_transport_tips": [
+        {
+          "tip": "🚌 Bus lines from Valletta go directly to Birgu.",
+          "link": "https://www.publictransport.com.mt/"
+        },
+        {
+          "tip": "⛴️ Ferry connects Valletta ↔ Birgu in minutes.",
+          "link": "https://www.vallettaferryservices.com/"
+        },
+        {
+          "tip": "🚶 Birgu is compact and walkable.",
+          "link": "https://www.google.com/maps/place/Vittoriosa,+Birgu/"
+        }
+      ],
       "city_events": [
-        { "name": "BirguFest", "season": "autumn", "description": "✨ Candle-lit alleys & night openings." }
+        {
+          "name": "BirguFest",
+          "season": "autumn",
+          "description": "✨ Candle-lit alleys & night openings."
+        }
       ]
     },
 
     {
       "name": "Mdina",
-      "interests": ["Historic Streets 🎭", "Old Walls 🏰", "Hilltop Views 🌅"],
+      "interests": [
+        {
+          "name": "Historic Streets 🎭",
+          "map_link": "https://www.google.com/maps/place/Mdina+Old+City/@35.8852314,14.4036403,17z/",
+          "description": "Mdina’s narrow alleys, limestone walls and quiet corners create a unique ‘Silent City’ atmosphere unlike anywhere else in Malta."
+        },
+        {
+          "name": "Old Walls 🏰",
+          "map_link": "https://www.google.com/maps/place/Mdina+Gate/@35.8858253,14.4038017,18z/",
+          "description": "The fortified walls and Mdina Gate offer postcard-perfect medieval views and access to the historic core of the city."
+        },
+        {
+          "name": "Hilltop Views 🌅",
+          "map_link": "https://www.google.com/maps/place/Bastion+Square,+Mdina/@35.8851574,14.4030136,18z/",
+          "description": "From Bastion Square, visitors get sweeping panoramas over central Malta — especially stunning during sunset."
+        }
+      ],
+
       "local_food_tip": "Pastries, soups, salads and light Mediterranean meals.",
-      "full_day": "Morning: 🏰 Mdina Gate (Exterior). → 🏘️ Narrow streets. → ☕ Mdina viewpoint café.\n\nAfternoon: 🎨 Old palaces exteriors. → 🍽️ Veg lunch. → 🌅 Walls & viewpoints.\n\nNight: 🌃 Silent City glow.",
+
+      "full_day": "Morning: Enter through <a href=\"https://www.google.com/maps/place/Mdina+Gate/@35.8858253,14.4038017,18z/\" target=\"_blank\" rel=\"noopener\">Mdina Gate</a> → wander the historic <a href=\"https://www.google.com/maps/place/Mdina+Old+City/@35.8852314,14.4036403,17z/\" target=\"_blank\" rel=\"noopener\">Silent City streets</a> → coffee with views at <a href=\"https://www.google.com/maps/place/Bastion+Square,+Mdina/@35.8851574,14.4030136,18z/\" target=\"_blank\" rel=\"noopener\">Bastion Square</a>.\n\nAfternoon: Explore exterior palaces such as <a href=\"https://www.google.com/maps/place/Palazzo+Falson/@35.8853752,14.4046936,19z/\" target=\"_blank\" rel=\"noopener\">Palazzo Falson</a> → lunch with Mediterranean dishes → stroll viewpoints along the city walls.\n\nSunset: Golden light sweeping across Malta from <a href=\"https://www.google.com/maps/place/Bastion+Square,+Mdina/@35.8851574,14.4030136,18z/\" target=\"_blank\" rel=\"noopener\">Bastion Square</a>.\n\nNight: Walk through Mdina’s lantern-lit alleys — the true ‘Silent City’ glow.",
+
+      "places": [
+        {
+          "name": "Mdina Gate",
+          "link": "https://www.google.com/maps/place/Mdina+Gate/@35.8858253,14.4038017,18z/",
+          "description": "The iconic entrance to Mdina, featured in countless films and one of Malta’s most famous landmarks."
+        },
+        {
+          "name": "Mdina Old City",
+          "link": "https://www.google.com/maps/place/Mdina+Old+City/@35.8852314,14.4036403,17z/",
+          "description": "A fully preserved medieval town of narrow alleys, palaces and silent walkways — the ‘Silent City’."
+        },
+        {
+          "name": "Bastion Square Viewpoint",
+          "link": "https://www.google.com/maps/place/Bastion+Square,+Mdina/@35.8851574,14.4030136,18z/",
+          "description": "One of the best viewpoints in Malta with sweeping views over the island."
+        },
+        {
+          "name": "Palazzo Falson",
+          "link": "https://www.google.com/maps/place/Palazzo+Falson/@35.8853752,14.4046936,19z/",
+          "description": "A beautiful medieval palace offering a glimpse into Malta’s noble history (exterior for this itinerary)."
+        }
+      ],
+
+      "hidden_gems": [
+        {
+          "name": "Mdina Ditch Gardens",
+          "link": "https://www.google.com/maps/place/Mdina+Ditch+Garden/@35.8859282,14.4049578,18z/",
+          "description": "Beautiful landscaped gardens outside the city walls — peaceful and great for photos."
+        },
+        {
+          "name": "St. Agatha’s Chapel Courtyard",
+          "link": "https://www.google.com/maps/place/St+Agatha's+Chapel/@35.8862807,14.4041125,19z/",
+          "description": "A quiet little courtyard tucked away near the city entrance — serene and less visited."
+        },
+        {
+          "name": "Silent City Alley Corners",
+          "link": "https://www.google.com/maps/search/?q=Mdina+Silent+City+Alley/",
+          "description": "Unmarked but atmospheric alleyways perfect for photography and calm wandering."
+        }
+      ],
+
       "seasons": {
-        "spring": { "event": "Spring Quiet", "ideas": ["🌸 Bloomy corners", "🚶 Cool walks", "☕ Terraces"] },
-        "summer": { "event": "Golden Mdina", "ideas": ["🌞 Light stone alleys", "🍧 Refreshments", "🌇 Sunset views"] },
-        "autumn": { "event": "Autumn Mood", "ideas": ["🍁 Warm tones", "🥧 Cafés", "🎨 Photos"] },
-        "winter": { "event": "Winter Silence", "ideas": ["🌫️ Misty mornings", "🍫 Hot chocolate"] }
+        "spring": {
+          "event": "Spring Quiet",
+          "ideas": [
+            "🌸 Bloomy corners around <a href=\"https://www.google.com/maps/place/Mdina+Ditch+Garden/\" target=\"_blank\">Mdina Ditch Gardens</a>",
+            "🚶 Cool walks through <a href=\"https://www.google.com/maps/place/Mdina+Old+City/\" target=\"_blank\">Silent City alleys</a>",
+            "☕ Terraces with panoramic views"
+          ]
+        },
+        "summer": {
+          "event": "Golden Mdina",
+          "ideas": [
+            "🌞 Light stone alleys glowing in sunlight",
+            "🍧 Refreshments on <a href=\"https://www.google.com/maps/place/Bastion+Square,+Mdina/\" target=\"_blank\">Bastion Square</a>",
+            "🌇 Sunset views from the city walls"
+          ]
+        },
+        "autumn": {
+          "event": "Autumn Mood",
+          "ideas": [
+            "🍁 Warm sandstone tones in <a href=\"https://www.google.com/maps/place/Mdina+Old+City/\" target=\"_blank\">Old City streets</a>",
+            "🥧 Cozy cafés in the historic center",
+            "🎨 Photography moments around palaces"
+          ]
+        },
+        "winter": {
+          "event": "Winter Silence",
+          "ideas": [
+            "🌫️ Misty mornings in <a href=\"https://www.google.com/maps/place/Mdina+Gate/\" target=\"_blank\">Mdina Gate</a>",
+            "🍫 Hot chocolate in quiet cafés",
+            "🚶 Peaceful evening walks under lanterns"
+          ]
+        }
       },
-      "public_transport_tips": ["🚌 Bus from Valletta", "🚶 Entire center is walkable"],
+
+      "public_transport_tips": [
+        {
+          "tip": "🚌 Direct buses run between Valletta and Mdina.",
+          "link": "https://www.publictransport.com.mt/"
+        },
+        {
+          "tip": "🚶 The entire walled city is fully walkable.",
+          "link": "https://www.google.com/maps/place/Mdina+Old+City/"
+        },
+        {
+          "tip": "📱 Use the Tallinja app for bus routes and tickets.",
+          "link": "https://www.tallinja.com/"
+        }
+      ],
+
       "city_events": [
-        { "name": "Medieval Mdina Festival", "season": "spring", "description": "🏰 Costumes, crafts & reenactments." }
+        {
+          "name": "Medieval Mdina Festival",
+          "season": "spring",
+          "description": "🏰 Costumes, crafts and reenactments throughout the Silent City."
+        }
       ]
     },
 
     {
       "name": "Mellieħa",
-      "interests": ["Beaches 🌊", "Nature Walks 🌿", "Scenic Views 🌅"],
+      "interests": [
+        {
+          "name": "Beaches 🌊",
+          "map_link": "https://www.google.com/maps/place/Mellieha+Bay/@35.9595234,14.3506762,15z/",
+          "description": "Mellieħa Bay (Għadira Bay) is Malta’s largest sandy beach — long, shallow, perfect for walks, swimming, and relaxing coastal mornings."
+        },
+        {
+          "name": "Nature Walks 🌿",
+          "map_link": "https://www.google.com/maps/place/Ghadira+Nature+Reserve/@35.9620443,14.3487734,17z/",
+          "description": "Għadira Nature Reserve and the nearby countryside paths offer peaceful walks with dunes, protected wildlife, and wide open views."
+        },
+        {
+          "name": "Scenic Views 🌅",
+          "map_link": "https://www.google.com/maps/place/Mellieha+Panorama/@35.9569254,14.3621473,17z/",
+          "description": "High viewpoints above Mellieħa provide sunsets over the bay and sweeping views toward Gozo and Comino."
+        }
+      ],
+
       "local_food_tip": "Salads, soups, ftira, Mediterranean bowls and pastries.",
-      "full_day": "Morning: 🏖️ Mellieħa Bay. → ☕ Beach café.\n\nAfternoon: 🌿 Nature trails. → 🍽️ Light lunch. → 🏘️ Town center walk.\n\nSunset: 🌅 Bay viewpoints.\n\nNight: 🌃 Seaside lights.",
+
+      "full_day": "Morning: Enjoy soft sand and blue water at <a href=\"https://www.google.com/maps/place/Mellieha+Bay/@35.9595234,14.3506762,15z/\" target=\"_blank\" rel=\"noopener\">Mellieħa Bay</a> → relax at a <a href=\"https://www.google.com/maps/search/?q=Mellieha+Beach+Cafe\" target=\"_blank\" rel=\"noopener\">beach café</a>.\n\nAfternoon: Walk the trails around <a href=\"https://www.google.com/maps/place/Ghadira+Nature+Reserve/@35.9620443,14.3487734,17z/\" target=\"_blank\" rel=\"noopener\">Għadira Nature Reserve</a> → lunch with Mediterranean dishes → explore the historic <a href=\"https://www.google.com/maps/place/Mellieha+Parish+Church/@35.9560373,14.3628045,18z/\" target=\"_blank\" rel=\"noopener\">Mellieħa town center</a>.\n\nSunset: Watch golden colors from <a href=\"https://www.google.com/maps/place/Mellieha+Panorama/@35.9569254,14.3621473,17z/\" target=\"_blank\" rel=\"noopener\">Mellieħa Panorama Viewpoint</a>.\n\nNight: Seaside lights along the bay promenade.",
+
+      "places": [
+        {
+          "name": "Mellieħa Bay (Għadira Bay)",
+          "link": "https://www.google.com/maps/place/Mellieha+Bay/@35.9595234,14.3506762,15z/",
+          "description": "Malta’s most famous sandy beach — wide, calm waters and great for long walks and swimming."
+        },
+        {
+          "name": "Għadira Nature Reserve",
+          "link": "https://www.google.com/maps/place/Ghadira+Nature+Reserve/@35.9620443,14.3487734,17z/",
+          "description": "A peaceful protected area with unique wildlife, shallow lagoons, and quiet pathways."
+        },
+        {
+          "name": "Mellieħa Parish Church Viewpoint",
+          "link": "https://www.google.com/maps/place/Mellieha+Parish+Church/@35.9560373,14.3628045,18z/",
+          "description": "A beautiful hilltop church overlooking the entire bay — a great photography and viewing spot."
+        },
+        {
+          "name": "Mellieħa Panorama Viewpoint",
+          "link": "https://www.google.com/maps/place/Mellieha+Panorama/@35.9569254,14.3621473,17z/",
+          "description": "One of the best sunset viewpoints in the area, with sweeping coastal scenery."
+        }
+      ],
+
+      "hidden_gems": [
+        {
+          "name": "Popeye Village Viewpoint",
+          "link": "https://www.google.com/maps/place/Popeye+Village/@35.9601584,14.3409344,17z/",
+          "description": "A quirky film-set village with a spectacular cliffside viewpoint — great for photos even without entering."
+        },
+        {
+          "name": "Għadira Dunes Walk",
+          "link": "https://www.google.com/maps/place/Ghadira+Bay+Dunes/@35.9607905,14.3511909,18z/",
+          "description": "Small but beautiful natural dunes just behind the bay — peaceful and often overlooked."
+        },
+        {
+          "name": "Mellieħa Quiet Lanes",
+          "link": "https://www.google.com/maps/search/?q=Mellieha+Old+Streets/",
+          "description": "Calm backstreets with traditional Maltese balconies and quiet hilltop corners."
+        }
+      ],
+
       "seasons": {
-        "spring": { "event": "Spring Coast", "ideas": ["🌸 Coastal flowers","🚶 Beachside walks","☕ Terraces"] },
-        "summer": { "event": "Beach Summer", "ideas": ["🏖️ Swimming","🍉 Fruit stalls","🌇 Sunset"] },
-        "autumn": { "event": "Soft Autumn", "ideas": ["🍁 Warm tones","🥧 Cafés","🎨 Photos"] },
-        "winter": { "event": "Winter Shore", "ideas": ["🌞 Mild weather","🍫 Hot cocoa"] }
+        "spring": {
+          "event": "Spring Coast",
+          "ideas": [
+            "🌸 Coastal flowers around <a href=\"https://www.google.com/maps/place/Ghadira+Bay+Dunes/\" target=\"_blank\">Għadira dunes</a>",
+            "🚶 Beachside walks at <a href=\"https://www.google.com/maps/place/Mellieha+Bay/\" target=\"_blank\">Mellieħa Bay</a>",
+            "☕ Terraces in the sunny town center"
+          ]
+        },
+        "summer": {
+          "event": "Beach Summer",
+          "ideas": [
+            "🏖️ Swimming at <a href=\"https://www.google.com/maps/place/Mellieha+Bay/\" target=\"_blank\">Għadira Bay</a>",
+            "🍉 Fruit stalls along the coast",
+            "🌇 Sunset from <a href=\"https://www.google.com/maps/place/Mellieha+Panorama/\" target=\"_blank\">Panorama Viewpoint</a>"
+          ]
+        },
+        "autumn": {
+          "event": "Soft Autumn",
+          "ideas": [
+            "🍁 Warm tones in <a href=\"https://www.google.com/maps/place/Ghadira+Nature+Reserve/\" target=\"_blank\">Għadira Reserve</a>",
+            "🥧 Cozy cafés in Mellieħa center",
+            "🎨 Photo walks along the cliffs"
+          ]
+        },
+        "winter": {
+          "event": "Winter Shore",
+          "ideas": [
+            "🌞 Mild coastal weather perfect for walks",
+            "🍫 Hot cocoa near <a href=\"https://www.google.com/maps/place/Mellieha+Bay/\" target=\"_blank\">the bay</a>"
+          ]
+        }
       },
-      "public_transport_tips": ["🚌 Bus hub for northern Malta", "🚶 Walkable coastline"],
+
+      "public_transport_tips": [
+        {
+          "tip": "🚌 Mellieħa is a major bus hub for northern Malta.",
+          "link": "https://www.publictransport.com.mt/"
+        },
+        {
+          "tip": "🚶 The coastline and town center are walkable.",
+          "link": "https://www.google.com/maps/place/Mellieha+Bay/"
+        },
+        {
+          "tip": "📱 Use the Tallinja app for bus timetables and tickets.",
+          "link": "https://www.tallinja.com/"
+        }
+      ],
+
       "city_events": [
-        { "name": "Mellieħa Nights", "season": "summer", "description": "🎉 Outdoor performances & street art." }
+        {
+          "name": "Mellieħa Nights",
+          "season": "summer",
+          "description": "🎉 Outdoor performances & street art."
+        }
       ]
     },
 
     {
       "name": "Rabat",
-      "interests": ["Historic Streets 🎭", "Parks 🌿", "Calm Culture 🚶"],
+      "interests": [
+        {
+          "name": "Historic Streets 🎭",
+          "map_link": "https://www.google.com/maps/place/Rabat,+Malta/@35.883006,14.3918971,16z/",
+          "description": "Traditional Maltese limestone streets, balconies, quiet alleys and historic atmosphere surrounding the city near Mdina."
+        },
+        {
+          "name": "Parks 🌿",
+          "map_link": "https://www.google.com/maps/place/Howard+Gardens/@35.8838573,14.3995047,17z/",
+          "description": "Howard Gardens, at the edge of Rabat, offer peaceful greenery, shade, flowers and relaxing walking paths."
+        },
+        {
+          "name": "Calm Culture 🚶",
+          "map_link": "https://www.google.com/maps/place/St.+Paul's+Catacombs/@35.8821687,14.3856401,17z/",
+          "description": "Rabat is known for its quiet cultural spots, churches and catacombs that reflect centuries of local history."
+        }
+      ],
+
       "local_food_tip": "Soups, breads, salads and pastries.",
-      "full_day": "Morning: 🏘️ Old streets. → ☕ Local café.\n\nAfternoon: 🌿 Saqqajja area. → 🍽️ Veg lunch. → 🎨 Cultural corners.\n\nSunset: 🌅 Hill views.\n\nNight: 🌃 Quiet town lights.",
+
+      "full_day": "Morning: Explore the historic alleys of <a href=\"https://www.google.com/maps/place/Rabat,+Malta/@35.883006,14.3918971,16z/\" target=\"_blank\" rel=\"noopener\">Rabat</a> → enjoy a warm drink at a <a href=\"https://www.google.com/maps/search/?q=Rabat+Malta+Cafe\" target=\"_blank\" rel=\"noopener\">local café</a>.\n\nAfternoon: Walk through <a href=\"https://www.google.com/maps/place/Howard+Gardens/@35.8838573,14.3995047,17z/\" target=\"_blank\" rel=\"noopener\">Howard Gardens</a> and the Saqqajja surroundings → light Mediterranean lunch → visit exterior cultural spots like <a href=\"https://www.google.com/maps/place/St.+Paul's+Catacombs/@35.8821687,14.3856401,17z/\" target=\"_blank\" rel=\"noopener\">St. Paul's Catacombs</a>.\n\nSunset: Enjoy soft golden light from the hill near <a href=\"https://www.google.com/maps/place/Mdina+Gate/@35.8852563,14.3985455,18z/\" target=\"_blank\" rel=\"noopener\">Mdina Gate</a>.\n\nNight: Quiet old-town streets with warm evening lights.",
+
+      "places": [
+        {
+          "name": "Rabat Old Streets",
+          "link": "https://www.google.com/maps/place/Rabat,+Malta/@35.883006,14.3918971,16z/",
+          "description": "Beautiful limestone alleys, balconies and traditional Maltese architecture."
+        },
+        {
+          "name": "Howard Gardens",
+          "link": "https://www.google.com/maps/place/Howard+Gardens/@35.8838573,14.3995047,17z/",
+          "description": "A peaceful green area between Rabat and Mdina — perfect for relaxing walks."
+        },
+        {
+          "name": "St. Paul's Catacombs (Exterior)",
+          "link": "https://www.google.com/maps/place/St.+Paul's+Catacombs/@35.8821687,14.3856401,17z/",
+          "description": "Historical underground cemetery complex; viewing the grounds and exteriors gives cultural insight."
+        },
+        {
+          "name": "Saqqajja Hill Area",
+          "link": "https://www.google.com/maps/place/Saqqajja+Hill/@35.8838872,14.3964235,17z/",
+          "description": "A lively part of Rabat with cafés, views and local atmosphere."
+        }
+      ],
+
+      "hidden_gems": [
+        {
+          "name": "Domus Romana (Exterior Garden)",
+          "link": "https://www.google.com/maps/place/Domus+Romana/@35.8847429,14.3956327,18z/",
+          "description": "A Roman-era site with quiet exterior gardens and peaceful surroundings."
+        },
+        {
+          "name": "Nigret Countryside Paths",
+          "link": "https://www.google.com/maps/place/Nigret,+Rabat/@35.8789345,14.3836713,16z/",
+          "description": "Quiet rural walking trails just outside Rabat."
+        },
+        {
+          "name": "St. Mary of Jesus Church Terrace",
+          "link": "https://www.google.com/maps/place/St+Mary+of+Jesus+Church/@35.8813837,14.3907444,18z/",
+          "description": "A peaceful corner with views of Rabat’s rooftops."
+        }
+      ],
+
       "seasons": {
-        "spring": { "event": "Spring Calm", "ideas": ["🌸 Flowers","🚶 Walks","☕ Terraces"] },
-        "summer": { "event": "Sunny Rabat", "ideas": ["🌿 Shade walks","🍦 Ice cream","🌇 Warm light"] },
-        "autumn": { "event": "Autumn Streets", "ideas": ["🍁 Colors","🥧 Cafés","🎨 Galleries"] },
-        "winter": { "event": "Winter Quiet", "ideas": ["❄️ Mild winter","🍫 Hot drinks"] }
+        "spring": {
+          "event": "Spring Calm",
+          "ideas": [
+            "🌸 Flowers in <a href=\"https://www.google.com/maps/place/Howard+Gardens/\" target=\"_blank\">Howard Gardens</a>",
+            "🚶 Cool old-town walks",
+            "☕ Terrace cafés"
+          ]
+        },
+        "summer": {
+          "event": "Sunny Rabat",
+          "ideas": [
+            "🌿 Shade strolls around Saqqajja",
+            "🍦 Ice cream stops",
+            "🌇 Warm light near <a href=\"https://www.google.com/maps/place/Mdina+Gate/\" target=\"_blank\">Mdina Gate</a>"
+          ]
+        },
+        "autumn": {
+          "event": "Autumn Streets",
+          "ideas": [
+            "🍁 Historic alleys in soft tones",
+            "🥧 Cozy cafés",
+            "🎨 Galleries and quiet cultural spots"
+          ]
+        },
+        "winter": {
+          "event": "Winter Quiet",
+          "ideas": [
+            "❄️ Mild Maltese winter walks",
+            "🍫 Hot drinks in old cafés"
+          ]
+        }
       },
-      "public_transport_tips": ["🚌 Bus routes to Mdina & Valletta"],
+
+      "public_transport_tips": [
+        {
+          "tip": "🚌 Direct buses connect Rabat with Valletta and Mdina.",
+          "link": "https://www.publictransport.com.mt/"
+        },
+        {
+          "tip": "🚶 Almost the entire center is easy to explore on foot.",
+          "link": "https://www.google.com/maps/place/Rabat,+Malta/"
+        },
+        {
+          "tip": "📱 Use the Tallinja app for real-time bus schedules.",
+          "link": "https://www.tallinja.com/"
+        }
+      ],
+
       "city_events": [
-        { "name": "Rabat Feast", "season": "summer", "description": "✨ Decorations & outdoor events." }
+        {
+          "name": "Rabat Feast",
+          "season": "summer",
+          "description": "✨ Decorations & outdoor events."
+        }
       ]
     },
 
     {
       "name": "Sliema",
-      "interests": ["Seaside Walks 🌊", "Urban Culture 🎭", "Views of Valletta 🌅"],
+      "interests": [
+        {
+          "name": "Seaside Walks 🌊",
+          "map_link": "https://www.google.com/maps/place/Sliema+Promenade/@35.9126746,14.4962584,16z/",
+          "description": "Sliema’s long promenade offers coastal paths, clear sea views, and a relaxing Mediterranean atmosphere."
+        },
+        {
+          "name": "Urban Culture 🎭",
+          "map_link": "https://www.google.com/maps/place/The+Plaza+Shopping+Centre/@35.9098588,14.5032968,18z/",
+          "description": "A mix of modern cafés, shopping streets, seaside terraces and lively urban corners."
+        },
+        {
+          "name": "Views of Valletta 🌅",
+          "map_link": "https://www.google.com/maps/place/Sliema+Ferry/@35.9085376,14.5083349,18z/",
+          "description": "Sliema offers some of the best waterfront viewpoints of Valletta’s skyline, especially at sunset."
+        }
+      ],
+
       "local_food_tip": "Mediterranean bowls, salads, soups and light pastries.",
-      "full_day": "Morning: 🌊 Sliema promenade. → ☕ Seaside café.\n\nAfternoon: 🛍️ Urban shopping streets. → 🍽️ Veg lunch. → 🌅 Valletta-viewpoints.\n\nNight: 🌃 Marina lights + dessert shops.",
+
+      "full_day": "Morning: Walk the <a href=\"https://www.google.com/maps/place/Sliema+Promenade/@35.9126746,14.4962584,16z/\" target=\"_blank\" rel=\"noopener\">Sliema Promenade</a> → enjoy a seaside coffee at a <a href=\"https://www.google.com/maps/search/?q=Sliema+cafe\" target=\"_blank\" rel=\"noopener\">local café</a>.\n\nAfternoon: Explore <a href=\"https://www.google.com/maps/place/The+Plaza+Shopping+Centre/@35.9098588,14.5032968,18z/\" target=\"_blank\" rel=\"noopener\">urban shopping streets</a> → vegetarian lunch → walk towards Valletta-view spots near the <a href=\"https://www.google.com/maps/place/Sliema+Ferry/@35.9085376,14.5083349,18z/\" target=\"_blank\" rel=\"noopener\">Sliema Ferry</a>.\n\nNight: Waterfront promenade with marina reflections + dessert shops.",
+
+      "places": [
+        {
+          "name": "Sliema Promenade",
+          "link": "https://www.google.com/maps/place/Sliema+Promenade/@35.9126746,14.4962584,16z/",
+          "description": "Long coastal walkway perfect for morning or sunset strolls."
+        },
+        {
+          "name": "The Plaza Shopping Centre",
+          "link": "https://www.google.com/maps/place/The+Plaza+Shopping+Centre/@35.9098588,14.5032968,18z/",
+          "description": "Shops, cafés and urban spots in the heart of Sliema."
+        },
+        {
+          "name": "Sliema Ferry Terminal",
+          "link": "https://www.google.com/maps/place/Sliema+Ferry/@35.9085376,14.5083349,18z/",
+          "description": "The best location for Valletta views and quick ferry transport."
+        }
+      ],
+
+      "hidden_gems": [
+        {
+          "name": "Fond Għadir Beach Pools",
+          "link": "https://www.google.com/maps/place/Fond+Għadir+Beach/@35.9144673,14.4979937,17z/",
+          "description": "Rock-cut seaside pools loved by locals — great quiet swimming spots."
+        },
+        {
+          "name": "Independence Garden",
+          "link": "https://www.google.com/maps/place/Independence+Garden/@35.9144141,14.4989641,17z/",
+          "description": "A peaceful park along the promenade with sea views and seating areas."
+        },
+        {
+          "name": "Sliema Waterfront Steps",
+          "link": "https://www.google.com/maps/place/Triq+Ix-Xatt/@35.9080453,14.5075989,18z/",
+          "description": "Hidden steps and viewpoints overlooking Valletta — great for photography."
+        }
+      ],
+
       "seasons": {
-        "spring": { "event": "Spring Seaside", "ideas": ["🌸 Promenade flowers","🚶 Walks","☕ Terraces"] },
-        "summer": { "event": "Summer Coast", "ideas": ["🌊 Breeze","🍦 Ice cream","🌇 Valletta sunsets"] },
-        "autumn": { "event": "Autumn Light", "ideas": ["🍁 Warm tones","🥧 Cafés","🎨 Urban photos"] },
-        "winter": { "event": "Winter Sea", "ideas": ["🌞 Mild days","🍫 Hot drinks"] }
+        "spring": {
+          "event": "Spring Seaside",
+          "ideas": [
+            "🌸 Promenade flowers",
+            "🚶 Long coastal paths",
+            "☕ Outdoor terrace cafés"
+          ]
+        },
+        "summer": {
+          "event": "Summer Coast",
+          "ideas": [
+            "🌊 Cooling breeze on the promenade",
+            "🍦 Ice cream at the waterfront",
+            "🌇 Sunset views toward Valletta"
+          ]
+        },
+        "autumn": {
+          "event": "Autumn Light",
+          "ideas": [
+            "🍁 Warm golden seaside tones",
+            "🥧 Cozy cafés",
+            "🎨 Urban photography corners"
+          ]
+        },
+        "winter": {
+          "event": "Winter Sea",
+          "ideas": [
+            "🌞 Mild winter weather",
+            "🍫 Hot drinks by the water"
+          ]
+        }
       },
-      "public_transport_tips": ["⛴️ Ferry to Valletta", "🚌 Bus connections across the island"],
+
+      "public_transport_tips": [
+        {
+          "tip": "⛴️ Take the fast ferry between Sliema and Valletta — runs all day.",
+          "link": "https://vallettaferryservices.com/"
+        },
+        {
+          "tip": "🚌 Sliema has excellent Malta bus connections to most towns.",
+          "link": "https://www.publictransport.com.mt/"
+        },
+        {
+          "tip": "🚶 The coastline is fully walkable and perfect for exploring on foot.",
+          "link": "https://www.google.com/maps/place/Sliema+Promenade/"
+        },
+        {
+          "tip": "📱 Use the Tallinja app for live bus times and top-ups.",
+          "link": "https://www.tallinja.com/"
+        }
+      ],
+
       "city_events": [
-        { "name": "Sliema Arts Festival", "season": "summer", "description": "🎨 Street art, live painting & music." }
+        {
+          "name": "Sliema Arts Festival",
+          "season": "summer",
+          "description": "🎨 Street art, live painting & music."
+        }
       ]
     }
 

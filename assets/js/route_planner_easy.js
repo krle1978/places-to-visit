@@ -68,10 +68,22 @@ document.addEventListener("includes:loaded", function () {
 
     const segments = text.split("|").map(s => s.trim()).filter(Boolean);
 
+    const splitOutsideTags = (seg) => {
+      let inTag = false;
+      for (let i = 0; i < seg.length; i++) {
+        const ch = seg[i];
+        if (ch === "<") inTag = true;
+        else if (ch === ">") inTag = false;
+        else if (ch === ":" && !inTag) return [seg.slice(0, i).trim(), seg.slice(i + 1).trim()];
+      }
+      return null;
+    };
+
     return "<ul>" + segments.map(seg => {
-      if (seg.includes(":")) {
-        const idx = seg.indexOf(":");
-        return `<li><strong>${seg.slice(0, idx)}:</strong> ${seg.slice(idx + 1).trim()}</li>`;
+      const split = splitOutsideTags(seg);
+      if (split) {
+        const [label, rest] = split;
+        return `<li><strong>${label}:</strong> ${rest}</li>`;
       }
       return `<li>${seg}</li>`;
     }).join("") + "</ul>";
@@ -94,7 +106,12 @@ document.addEventListener("includes:loaded", function () {
       const content = section.slice(idx + 1).trim();
 
       output += `<h4>${title}</h4>`;
-      output += parseTextBlock(content.replace(/→/g, "|"));
+      // Normalize separators so each stop becomes its own list item (supports arrow and legacy marker).
+      output += parseTextBlock(
+        content
+          .replace(/ƒÅ'/g, "|")
+          .replace(/→/g, "|")
+      );
     });
 
     return output;
@@ -185,11 +202,15 @@ document.addEventListener("includes:loaded", function () {
 
     // INTERESTS
     html += `<h3>🎯 Interests</h3>`;
-    if (Array.isArray(selectedCityObj.interests)) {
-      html += "<ul>" + selectedCityObj.interests.map(i => `<li>${i}</li>`).join("") + "</ul>";
-    } else {
-      html += `<p>No interests listed.</p>`;
-    }
+    html += renderInterests(selectedCityObj.interests);
+
+    // PLACES
+    html += `<h3>Places</h3>`;
+    html += renderLinkList(selectedCityObj.places, "No places listed.");
+
+    // HIDDEN GEMS
+    html += `<h3>Hidden Gems</h3>`;
+    html += renderLinkList(selectedCityObj.hidden_gems, "No hidden gems listed.");
 
     // FOOD
     html += `<h3>🍽 Local Food</h3>`;
@@ -210,18 +231,19 @@ document.addEventListener("includes:loaded", function () {
 
     // TRANSPORT
     html += `<h3>🚆 Public Transport</h3>`;
-    if (Array.isArray(selectedCityObj.public_transport_tips)) {
-      html += parseTextBlock(selectedCityObj.public_transport_tips.join("|"));
-    } else {
-      html += `<p>No transport data.</p>`;
-    }
+    html += renderPublicTransport(selectedCityObj.public_transport_tips);
 
     // EVENTS
     html += `<h3>🎉 City Events</h3>`;
     if (Array.isArray(selectedCityObj.city_events)) {
-      html += "<ul>" + selectedCityObj.city_events.map(ev =>
-        `<li><strong>${ev.name} (${capitalize(ev.season)}):</strong> ${ev.description}</li>`
-      ).join("") + "</ul>";
+      html += "<ul>" + selectedCityObj.city_events.map(ev => {
+        const title = ev?.website
+          ? `<a href=\"${ev.website}\" target=\"_blank\" rel=\"noopener noreferrer\">${ev.name || "Event"}</a>`
+          : (ev?.name || "Event");
+        const season = capitalize(ev?.season);
+        const desc = ev?.description || "";
+        return `<li><strong>${title}${season ? ` (${season})` : ""}:</strong> ${desc}</li>`;
+      }).join("") + "</ul>";
     } else {
       html += `<p>No city events.</p>`;
     }
@@ -272,6 +294,65 @@ document.addEventListener("includes:loaded", function () {
 
   function capitalize(text) {
     return text ? text.charAt(0).toUpperCase() + text.slice(1) : "";
+  }
+
+  function renderPublicTransport(list) {
+    if (!Array.isArray(list)) return "<p>No transport data.</p>";
+
+    const items = list.map(item => {
+      if (typeof item === "string") return `<li>${item}</li>`;
+      if (item && typeof item === "object") {
+        const text = item.tip || "";
+        if (!text) return "";
+        if (item.link) {
+          return `<li><a href="${item.link}" target="_blank" rel="noopener noreferrer">${text}</a></li>`;
+        }
+        return `<li>${text}</li>`;
+      }
+      return "";
+    }).filter(Boolean);
+
+    return items.length ? `<ul>${items.join("")}</ul>` : "<p>No transport data.</p>";
+  }
+
+  function renderInterests(list) {
+    if (!Array.isArray(list)) return "<p>No interests listed.</p>";
+
+    const items = list.map(item => {
+      if (typeof item === "string") return `<li>${item}</li>`;
+      if (item && typeof item === "object") {
+        const text = item.name || "";
+        if (!text) return "";
+        const desc = item.description ? `<div>${item.description}</div>` : "";
+        if (item.map_link) {
+          return `<li><a href="${item.map_link}" target="_blank" rel="noopener noreferrer">${text}</a>${desc}</li>`;
+        }
+        return `<li>${text}${desc}</li>`;
+      }
+      return "";
+    }).filter(Boolean);
+
+    return items.length ? `<ul>${items.join("")}</ul>` : "<p>No interests listed.</p>";
+  }
+
+  function renderLinkList(list, emptyMessage) {
+    if (!Array.isArray(list)) return `<p>${emptyMessage}</p>`;
+
+    const items = list.map(item => {
+      if (typeof item === "string") return `<li>${item}</li>`;
+      if (item && typeof item === "object") {
+        const text = item.name || item.title || "";
+        if (!text) return "";
+        const desc = item.description ? `<div>${item.description}</div>` : "";
+        if (item.link) {
+          return `<li><a href="${item.link}" target="_blank" rel="noopener noreferrer">${text}</a>${desc}</li>`;
+        }
+        return `<li>${text}${desc}</li>`;
+      }
+      return "";
+    }).filter(Boolean);
+
+    return items.length ? `<ul>${items.join("")}</ul>` : `<p>${emptyMessage}</p>`;
   }
 
   function applyPendingCitySelection() {

@@ -4,333 +4,762 @@
     {
       "name": "Vilnius",
       "interests": [
-        "Old Town Culture 🎭",
-        "Baroque Architecture 🏛️",
-        "Hilltop Views 🌅",
-        "Riverside Walks 🌊",
-        "Local Food Exploration 😋"
+        {
+          "name": "Old Town Culture 🎭",
+          "map_link": "https://www.google.com/maps/place/Vilnius+Old+Town/@54.683142,25.287864,15z",
+          "description": "Vilnius Old Town is one of the best-preserved medieval centers in Europe — cobbled streets, pastel buildings, cozy cafés and centuries of culture."
+        },
+        {
+          "name": "Baroque Architecture 🏛️",
+          "map_link": "https://www.google.com/maps/place/Cathedral+Square/@54.685009,25.287359,17z",
+          "description": "Cathedral Square and the surrounding churches represent Vilnius’s iconic baroque heritage. Grand facades and historic courtyards define the city’s style."
+        },
+        {
+          "name": "Hilltop Views 🌅",
+          "map_link": "https://www.google.com/maps/place/Gediminas+Castle+Tower/@54.6861302,25.2877231,17z",
+          "description": "Gediminas Hill offers panoramic viewpoints over rooftops, forests and the river — breathtaking at sunset and a must-visit for photographers."
+        },
+        {
+          "name": "Riverside Walks 🌊",
+          "map_link": "https://www.google.com/maps/place/Neris+River/@54.6981769,25.2623662,12z",
+          "description": "The Neris River Promenade creates calm routes ideal for slow walks, biking and enjoying peaceful urban nature."
+        },
+        {
+          "name": "Local Food Exploration 😋",
+          "map_link": "https://www.google.com/maps/search/?q=Vilnius+Restaurants",
+          "description": "Vilnius cuisine centers around potatoes, beet dishes, soups and pastries — simple, warm and deeply comforting."
+        }
       ],
       "local_food_tip": "Lithuanian comfort dishes like potato meals, veggie soups, beet salads and pastries — jednostavno i jako ukusno.",
-      "full_day": "Morning: 🏰 Vilnius Old Town: Narrow alleys, baroque churches and pastel façades. → 🏛️ Cathedral Square (Exterior). → ☕ Cozy Old Town café.\n\nAfternoon: 🌅 Gediminas Hill (Exterior viewpoint). → 🌊 River Neris Walk. → 🍽️ Lunch: Potato dishes, salads, veggie soups. → 🎨 Uzupis (Exterior creative quarter).\n\nSunset: 🌅 Subačiaus Viewpoint.\n\nNight: 🌃 Old Town streets + dessert cafés.",
+      "full_day": "Morning: Explore <a href=\"https://www.google.com/maps/place/Vilnius+Old+Town/@54.683142,25.287864,15z\" target=\"_blank\" rel=\"noopener\">Vilnius Old Town</a> → walk to <a href=\"https://www.google.com/maps/place/Cathedral+Square/@54.685009,25.287359,17z\" target=\"_blank\" rel=\"noopener\">Cathedral Square</a> (exterior) → cozy café break.\n\nAfternoon: Head up <a href=\"https://www.google.com/maps/place/Gediminas+Castle+Tower/@54.6861302,25.2877231,17z\" target=\"_blank\" rel=\"noopener\">Gediminas Hill</a> for views → walk along <a href=\"https://www.google.com/maps/place/Neris+River/@54.6981769,25.2623662,12z\" target=\"_blank\" rel=\"noopener\">Neris Riverside</a> → lunch: potato dishes, salads, veggie soups → visit creative <a href=\"https://www.google.com/maps/place/Užupis/@54.6824644,25.3000543,16z\" target=\"_blank\" rel=\"noopener\">Užupis</a> district (exterior).\n\nSunset: Enjoy golden light at <a href=\"https://www.google.com/maps/place/Subačiaus+apžvalgos+aikštelė/@54.6755809,25.3018331,17z\" target=\"_blank\" rel=\"noopener\">Subačiaus Viewpoint</a>.\n\nNight: Lantern-lit Old Town walk + dessert cafés.",
+      "places": [
+        {
+          "name": "Vilnius Old Town",
+          "link": "https://www.google.com/maps/place/Vilnius+Old+Town/@54.683142,25.287864,15z",
+          "description": "One of Eastern Europe’s most charming medieval districts — cobblestones, churches, markets and vibrant cultural life."
+        },
+        {
+          "name": "Cathedral Square",
+          "link": "https://www.google.com/maps/place/Cathedral+Square/@54.685009,25.287359,17z",
+          "description": "The heart of Vilnius — framed by the Cathedral, the Bell Tower and monumental architecture."
+        },
+        {
+          "name": "Gediminas Castle Tower",
+          "link": "https://www.google.com/maps/place/Gediminas+Castle+Tower/@54.6861302,25.2877231,17z",
+          "description": "Historic tower with panoramic views — ideal for sunrise and sunset."
+        },
+        {
+          "name": "Užupis District",
+          "link": "https://www.google.com/maps/place/Užupis/@54.6824644,25.3000543,16z",
+          "description": "Vilnius’s bohemian artistic quarter, known for street art, cafés and its playful 'constitution'."
+        },
+        {
+          "name": "Subačiaus Viewpoint",
+          "link": "https://www.google.com/maps/place/Subačiaus+apžvalgos+aikštelė/@54.6755809,25.3018331,17z",
+          "description": "A stunning viewpoint overlooking rooftops, forests and winding streets."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "Bernardine Garden",
+          "link": "https://www.google.com/maps/place/Bernardine+Garden/@54.6839332,25.2977919,17z",
+          "description": "A peaceful riverside park with fountains, bridges and forest paths — perfect quiet escape."
+        },
+        {
+          "name": "Literatų Street",
+          "link": "https://www.google.com/maps/place/Literatų+g./@54.6820764,25.2944295,17z",
+          "description": "A tiny decorative alley covered with artistic plaques dedicated to writers."
+        },
+        {
+          "name": "Hill of Three Crosses",
+          "link": "https://www.google.com/maps/place/Three+Crosses/@54.6847266,25.3004717,17z",
+          "description": "Another superb panorama point with forested surroundings."
+        }
+      ],
       "seasons": {
         "spring": {
           "event": "Spring in Vilnius",
           "ideas": [
-            "🌸 Blossoms around Cathedral Square",
-            "🚶 Uzupis walk",
-            "☕ Sunny terraces"
+            "🌸 Blossoms around <a href=\"https://www.google.com/maps/place/Cathedral+Square/@54.685009,25.287359,17z\" target=\"_blank\">Cathedral Square</a>.",
+            "🚶 Gentle walks through <a href=\"https://www.google.com/maps/place/Užupis/@54.6824644,25.3000543,16z\" target=\"_blank\">Užupis</a>.",
+            "☕ Sunny terraces around Old Town cafés."
           ]
         },
         "summer": {
           "event": "Light Summer",
           "ideas": [
-            "🌊 Riverside promenades",
-            "🍦 Ice cream streets",
-            "🌇 Warm sunsets on Gediminas Hill"
+            "🌊 Riverside promenades along <a href=\"https://www.google.com/maps/place/Neris+River/@54.6981769,25.2623662,12z\" target=\"_blank\">Neris River</a>.",
+            "🍦 Ice cream walks through Old Town.",
+            "🌇 Warm sunsets from <a href=\"https://www.google.com/maps/place/Gediminas+Castle+Tower/@54.6861302,25.2877231,17z\" target=\"_blank\">Gediminas Hill</a>."
           ]
         },
         "autumn": {
           "event": "Autumn Gold",
           "ideas": [
-            "🍁 Old Town colors",
-            "🥧 Warm pastries",
-            "🎨 Art districts"
+            "🍁 Old Town colors in narrow alleys.",
+            "🥧 Warm pastries in cozy cafés.",
+            "🎨 Art walks around <a href=\"https://www.google.com/maps/place/Užupis/@54.6824644,25.3000543,16z\" target=\"_blank\">Užupis</a>."
           ]
         },
         "winter": {
           "event": "Winter Fairytale",
           "ideas": [
-            "🎄 Christmas Market",
-            "🍫 Hot cocoa in baroque cafés"
+            "🎄 Christmas Market in the Old Town.",
+            "🍫 Hot cocoa in baroque cafés.",
+            "🚶 Quiet winter strolls with soft lights."
           ]
         }
       },
       "public_transport_tips": [
-        "🚋 Trolleybuses cover the center.",
-        "🚌 Buses go everywhere.",
-        "🚶 Old Town is walkable.",
-        "📱 Use 'Trafi' app for routes."
+        {
+          "tip": "🚋 Trolleybuses cover most central and suburban districts.",
+          "link": "https://judu.lt/en/"
+        },
+        {
+          "tip": "🚌 City buses connect all areas including Old Town and Užupis.",
+          "link": "https://judu.lt/en/routes/"
+        },
+        {
+          "tip": "🚶 Old Town is fully walkable and compact.",
+          "link": "https://www.google.com/maps/place/Vilnius+Old+Town/"
+        },
+        {
+          "tip": "📱 Use TRAFI or JUDU apps for real-time schedules and ticket options.",
+          "link": "https://play.google.com/store/apps/details?id=com.trafi.android.tr"
+        }
       ],
       "city_events": [
         {
           "name": "Vilnius Festival",
           "season": "summer",
-          "description": "🎶 Classical and modern performances."
+          "description": "🎶 Classical and modern performances in major venues across the city."
         }
       ]
     },
     {
       "name": "Kaunas",
       "interests": [
-        "Old Town 🎭",
-        "Riverside 🌊",
-        "Art & Culture 🎨"
+        {
+          "name": "Old Town 🎭",
+          "map_link": "https://www.google.com/maps/place/Kaunas+Old+Town/@54.8978667,23.8862649,15z",
+          "description": "Kaunas Old Town is filled with charming streets, historic buildings, cozy cafés and vibrant cultural life."
+        },
+        {
+          "name": "Riverside 🌊",
+          "map_link": "https://www.google.com/maps/place/Nemunas+River/@54.885,23.925,12z",
+          "description": "The Nemunas riverbank offers peaceful walks, open views and a refreshing connection to nature in the city."
+        },
+        {
+          "name": "Art & Culture 🎨",
+          "map_link": "https://www.google.com/maps/place/Kaunas+Street+Art+Yard/@54.8975021,23.9100451,17z",
+          "description": "Kaunas embraces creativity with murals, street art yards, galleries and cultural districts."
+        }
       ],
+
       "local_food_tip": "Potato dishes, veggie soups, salads and pastries.",
-      "full_day": "Morning: 🏛️ Old Town walk. → 🌊 Nemunas Riverside. → ☕ Local café.\n\nAfternoon: 🎨 Kaunas Art District (Exterior). → 🍽️ Lunch: Veg soups, potato dishes. → 🏞️ Santaka Park.\n\nSunset: 🌅 River views.\n\nNight: 🌃 Calm old-town lights.",
+
+      "full_day": "Morning: Explore <a href=\"https://www.google.com/maps/place/Kaunas+Old+Town/@54.8978667,23.8862649,15z\" target=\"_blank\" rel=\"noopener\">Kaunas Old Town</a> → walk along <a href=\"https://www.google.com/maps/place/Nemunas+River/@54.885,23.925,12z\" target=\"_blank\" rel=\"noopener\">Nemunas Riverside</a> → enjoy a cozy local café.\n\nAfternoon: Discover <a href=\"https://www.google.com/maps/place/Kaunas+Street+Art+Yard/@54.8975021,23.9100451,17z\" target=\"_blank\" rel=\"noopener\">Kaunas Art District</a> → lunch with potato dishes or veggie soups → relax in <a href=\"https://www.google.com/maps/place/Santaka+Park/@54.9022585,23.8858283,16z\" target=\"_blank\" rel=\"noopener\">Santaka Park</a>.\n\nSunset: Enjoy golden-hour views over the rivers.\n\nNight: Walk through lantern-lit Old Town streets.",
+
+      "places": [
+        {
+          "name": "Kaunas Old Town",
+          "link": "https://www.google.com/maps/place/Kaunas+Old+Town/@54.8978667,23.8862649,15z",
+          "description": "Historic heart of the city with narrow streets, cafés, small shops and medieval atmosphere."
+        },
+        {
+          "name": "Nemunas Riverside",
+          "link": "https://www.google.com/maps/place/Nemunas+River/@54.885,23.925,12z",
+          "description": "A beautiful riverside walk offering calm nature, open views and perfect photo spots."
+        },
+        {
+          "name": "Kaunas Street Art Yard",
+          "link": "https://www.google.com/maps/place/Kaunas+Street+Art+Yard/@54.8975021,23.9100451,17z",
+          "description": "Colorful artistic courtyard filled with murals and creative installations."
+        },
+        {
+          "name": "Santaka Park",
+          "link": "https://www.google.com/maps/place/Santaka+Park/@54.9022585,23.8858283,16z",
+          "description": "A peaceful green area at the meeting point of two rivers — perfect for long walks."
+        }
+      ],
+
+      "hidden_gems": [
+        {
+          "name": "Kaunas Castle",
+          "link": "https://www.google.com/maps/place/Kaunas+Castle/@54.9028892,23.8869844,17z",
+          "description": "A medieval red-brick fortress near the riverside — ideal for quiet exploration."
+        },
+        {
+          "name": "Pažaislis Monastery",
+          "link": "https://www.google.com/maps/place/Pažaislis+Monastery/@54.8736308,24.0001701,16z",
+          "description": "A stunning baroque monastery surrounded by forest and lake landscapes."
+        },
+        {
+          "name": "Aleksotas Viewpoint",
+          "link": "https://www.google.com/maps/place/Aleksotas+Observation+Deck/@54.8930237,23.8980888,17z",
+          "description": "One of the best viewpoints in Kaunas with panoramic city and river views."
+        }
+      ],
+
       "seasons": {
         "spring": {
           "event": "Spring Colors",
           "ideas": [
-            "🌼 Riverside flowers",
-            "🚶 Old Town",
-            "☕ Terraces"
+            "🌼 Flowers along <a href=\"https://www.google.com/maps/place/Nemunas+River/@54.885,23.925,12z\" target=\"_blank\">Nemunas riverside</a>.",
+            "🚶 Easy strolls in <a href=\"https://www.google.com/maps/place/Kaunas+Old+Town/@54.8978667,23.8862649,15z\" target=\"_blank\">Old Town</a>.",
+            "☕ Terrace cafés in warm weather."
           ]
         },
         "summer": {
           "event": "Summer Warmth",
           "ideas": [
-            "🌊 River strolls",
-            "🍦 Ice cream",
-            "🌇 Soft sunsets"
+            "🌊 Riverside walks during long days.",
+            "🍦 Ice cream stops in Old Town.",
+            "🌇 Soft sunset light over <a href=\"https://www.google.com/maps/place/Santaka+Park/@54.9022585,23.8858283,16z\" target=\"_blank\">Santaka Park</a>."
           ]
         },
         "autumn": {
           "event": "Autumn Mood",
           "ideas": [
-            "🍁 Old Town tones",
-            "🥧 Cafés",
-            "🎨 Galleries"
+            "🍁 Warm colors in Old Town streets.",
+            "🥧 Cozy cafés and pastries.",
+            "🎨 Small galleries and art corners."
           ]
         },
         "winter": {
           "event": "Winter Calm",
           "ideas": [
-            "🌞 Light snow",
-            "🍫 Hot cocoa"
+            "🌞 Light snow along river paths.",
+            "🍫 Hot cocoa in warm cafés."
           ]
         }
       },
+
       "public_transport_tips": [
-        "🚌 City buses",
-        "🚶 Walkable center",
-        "📱 Use 'Trafi'"
+        {
+          "tip": "🚌 City buses cover all districts and tourist spots.",
+          "link": "https://vt.kaunas.lt/en/"
+        },
+        {
+          "tip": "🚶 The city center and Old Town are easy to explore on foot.",
+          "link": "https://www.google.com/maps/place/Kaunas+Old+Town/"
+        },
+        {
+          "tip": "📱 Use the Trafi app for tickets and routes.",
+          "link": "https://play.google.com/store/apps/details?id=com.trafi.android.tr"
+        }
       ],
+
       "city_events": [
         {
           "name": "Kaunas Jazz Festival",
           "season": "spring",
-          "description": "🎷 Major Baltic jazz event."
+          "description": "🎷 One of the most important jazz festivals in the Baltic region."
         }
       ]
     },
     {
       "name": "Klaipėda",
       "interests": [
-        "Seaside 🌊",
-        "Old Town 🎭",
-        "Harbor Walks 🚢"
+        {
+          "name": "Seaside 🌊",
+          "map_link": "https://www.google.com/maps/place/Smiltynė+Beach/@55.6989069,21.1192825,15z",
+          "description": "Klaipėda offers easy access to Baltic beaches, fresh sea air and relaxing coastal scenery. Smiltynė Beach is known for its soft sand and peaceful atmosphere. Perfect for morning walks, sunbathing or quiet sunset views."
+        },
+        {
+          "name": "Old Town 🎭",
+          "map_link": "https://www.google.com/maps/place/Klaipėda+Old+Town/@55.7088227,21.1309194,16z",
+          "description": "Klaipėda’s Old Town features timber-framed houses, narrow streets and cozy cafés. Its German-influenced architecture creates a unique Baltic charm. Ideal for slow strolls, photographs and cultural exploration."
+        },
+        {
+          "name": "Harbor Walks 🚢",
+          "map_link": "https://www.google.com/maps/place/Klaipėda+Cruise+Terminal/@55.7082112,21.1233748,17z",
+          "description": "The harbor promenade is perfect for maritime views, sea breeze and peaceful walks. Boats, docks and open waterfront make it one of the city’s signature areas. Great for morning or evening strolls."
+        }
       ],
+
       "local_food_tip": "Fresh coastal meals: veggie soups, salads, potatoes and Baltic pastries.",
-      "full_day": "Morning: 🚢 Harbor Promenade. → 🏘️ Old Town timber-framed houses. → ☕ Seaside café.\n\nAfternoon: 🏖️ Smiltynė Beach (ferry). → 🍽️ Light lunch. → 🌿 Seaside paths.\n\nSunset: 🌅 Sand dunes.\n\nNight: 🌃 Harbor lights.",
+
+      "full_day": "Morning: Walk the <a href=\"https://www.google.com/maps/place/Klaipėda+Cruise+Terminal/@55.7082112,21.1233748,17z\" target=\"_blank\" rel=\"noopener\">Harbor Promenade</a> → explore <a href=\"https://www.google.com/maps/place/Klaipėda+Old+Town/@55.7088227,21.1309194,16z\" target=\"_blank\" rel=\"noopener\">Old Town</a> timber-framed streets → enjoy a cozy seaside café.\n\nAfternoon: Take the ferry to <a href=\"https://www.google.com/maps/place/Smiltynė+Beach/@55.6989069,21.1192825,15z\" target=\"_blank\" rel=\"noopener\">Smiltynė Beach</a> → light lunch → relax on coastal forest paths.\n\nSunset: Watch golden colors over the <a href=\"https://www.google.com/maps/place/Smiltynė+Beach/@55.6989069,21.1192825,15z\" target=\"_blank\" rel=\"noopener\">sand dunes</a>.\n\nNight: Enjoy harbor lights and peaceful evening streets.",
+
+      "places": [
+        {
+          "name": "Klaipėda Old Town",
+          "link": "https://www.google.com/maps/place/Klaipėda+Old+Town/@55.7088227,21.1309194,16z",
+          "description": "Timber-framed houses, narrow lanes and cozy cafés give the Old Town its charming atmosphere."
+        },
+        {
+          "name": "Harbor Promenade",
+          "link": "https://www.google.com/maps/place/Klaipėda+Cruise+Terminal/@55.7082112,21.1233748,17z",
+          "description": "A scenic waterfront walk with ships, open views and refreshing sea breeze."
+        },
+        {
+          "name": "Smiltynė Beach",
+          "link": "https://www.google.com/maps/place/Smiltynė+Beach/@55.6989069,21.1192825,15z",
+          "description": "Soft sand, forest surroundings and calm coastline — one of the most relaxing Baltic beaches."
+        },
+        {
+          "name": "Dolphinarium & Sea Museum Ferry Area",
+          "link": "https://www.google.com/maps/place/Lithuanian+Sea+Museum/@55.7001078,21.1313535,16z",
+          "description": "A popular cultural area near the ferry with maritime exhibits and sea life attractions."
+        }
+      ],
+
+      "hidden_gems": [
+        {
+          "name": "Baltic Dune Trails (Smiltynė Forest Area)",
+          "link": "https://www.google.com/maps/place/Smiltynė/@55.699937,21.124616,14z",
+          "description": "Quiet forest paths behind the dunes — peaceful, beautiful and ideal for nature lovers."
+        },
+        {
+          "name": "Meridianas Ship",
+          "link": "https://www.google.com/maps/place/Meridianas/@55.7092717,21.1297429,18z",
+          "description": "A historic sailing ship docked in the city center — a unique symbol of Klaipėda."
+        },
+        {
+          "name": "Castle Site & Surrounding Moats",
+          "link": "https://www.google.com/maps/place/Klaipėda+Castle/@55.7087152,21.1272894,17z",
+          "description": "Quiet remains of Klaipėda Castle surrounded by calm water channels."
+        }
+      ],
+
       "seasons": {
         "spring": {
           "event": "Spring Coast",
           "ideas": [
-            "🌸 Beach flowers",
-            "🚶 Harbor walks",
-            "☕ Terraces"
+            "🌸 Beach flowers near <a href=\"https://www.google.com/maps/place/Smiltynė+Beach/@55.6989069,21.1192825,15z\" target=\"_blank\">Smiltynė Beach</a>.",
+            "🚶 Harbor walks along <a href=\"https://www.google.com/maps/place/Klaipėda+Cruise+Terminal/@55.7082112,21.1233748,17z\" target=\"_blank\">the waterfront</a>.",
+            "☕ Terraces in <a href=\"https://www.google.com/maps/place/Klaipėda+Old+Town/@55.7088227,21.1309194,16z\" target=\"_blank\">Old Town</a>."
           ]
         },
         "summer": {
           "event": "Seaside Summer",
           "ideas": [
-            "🏖️ Beach days",
-            "🍉 Fruit stalls",
-            "🌇 Long sunsets"
+            "🏖️ Beach days at <a href=\"https://www.google.com/maps/place/Smiltynė+Beach/@55.6989069,21.1192825,15z\" target=\"_blank\">Smiltynė</a>.",
+            "🍉 Fruit stalls and seaside snacks.",
+            "🌇 Long sunsets over the dunes."
           ]
         },
         "autumn": {
           "event": "Windy Autumn",
           "ideas": [
-            "🍁 Coastal colors",
-            "🥧 Café stops",
-            "🎨 Local art"
+            "🍁 Coastal colors along dune paths.",
+            "🥧 Warm cafés in Old Town.",
+            "🎨 Local art corners and cultural stops."
           ]
         },
         "winter": {
           "event": "Winter Sea",
           "ideas": [
-            "🌞 Crisp air",
-            "🍫 Hot drinks"
+            "🌞 Crisp winter air on the shoreline.",
+            "🍫 Hot drinks in harbor cafés."
           ]
         }
       },
+
       "public_transport_tips": [
-        "⛴️ Quick ferry to beaches",
-        "🚌 Local buses",
-        "🚶 Walkable center"
+        {
+          "tip": "⛴️ Ferries provide fast access to Smiltynė Beach and Curonian Spit.",
+          "link": "https://www.keltas.lt/en/"
+        },
+        {
+          "tip": "🚌 Local buses connect districts across the city.",
+          "link": "https://www.klaipedatransport.lt/en"
+        },
+        {
+          "tip": "🚶 Old Town and harbor areas are very walkable.",
+          "link": "https://www.google.com/maps/place/Klaipėda+Old+Town/"
+        }
       ],
+
       "city_events": [
         {
           "name": "Sea Festival",
           "season": "summer",
-          "description": "⚓ Big maritime celebration."
+          "description": "⚓ A major maritime celebration with concerts, parades and seaside events."
         }
       ]
     },
     {
       "name": "Palanga",
       "interests": [
-        "Beaches 🌊",
-        "Pine Forests 🌿",
-        "Relaxed Coastal Streets 🎭"
+        {
+          "name": "Beaches 🌊",
+          "map_link": "https://www.google.com/maps/place/Palanga+Beach/@55.9168412,21.0526298,15z",
+          "description": "Palanga Beach is one of Lithuania’s most iconic seaside locations. Soft sand, long coastline, and refreshing Baltic waves make it perfect for walks and swimming. A must-visit spot for both sunrise and sunset views."
+        },
+        {
+          "name": "Pine Forests 🌿",
+          "map_link": "https://www.google.com/maps/place/Birutė+Park/@55.9074815,21.0563536,16z",
+          "description": "Birutė Park surrounds visitors with peaceful pine forests, quiet paths, and small ponds. Designed as a historical landscape park, it offers calm nature moments close to the sea. Ideal for relaxation and scenic walks."
+        },
+        {
+          "name": "Relaxed Coastal Streets 🎭",
+          "map_link": "https://www.google.com/maps/place/Basanavičiaus+Street/@55.9137749,21.0638027,17z",
+          "description": "The famous Basanavičiaus Street is filled with cafés, shops, music and seaside energy. It’s the social heart of Palanga and leads directly to the pier. A lively area perfect for evening strolls."
+        }
       ],
+
       "local_food_tip": "Fresh salads, soups, veggie meals and Baltic pastries.",
-      "full_day": "Morning: 🏖️ Palanga Beach. → 🌿 Birute Park. → ☕ Seaside café.\n\nAfternoon: 🏛️ Amber Museum (Exterior). → 🍽️ Light lunch. → 🏞️ Forest paths.\n\nSunset: 🌅 Palanga Pier.\n\nNight: 🌃 Seaside promenade lights.",
+
+      "full_day": "Morning: Start at <a href=\"https://www.google.com/maps/place/Palanga+Beach/@55.9168412,21.0526298,15z\" target=\"_blank\" rel=\"noopener\">Palanga Beach</a> → walk into <a href=\"https://www.google.com/maps/place/Birutė+Park/@55.9074815,21.0563536,16z\" target=\"_blank\" rel=\"noopener\">Birutė Park</a> → relax in a cozy seaside café.\n\nAfternoon: Visit the exterior of the <a href=\"https://www.google.com/maps/place/Palanga+Amber+Museum/@55.9078595,21.0500313,17z\" target=\"_blank\" rel=\"noopener\">Palanga Amber Museum</a> → enjoy a light lunch → stroll forest and dune paths.\n\nSunset: Enjoy golden-hour views from the <a href=\"https://www.google.com/maps/place/Palanga+Pier/@55.9186973,21.0603438,17z\" target=\"_blank\" rel=\"noopener\">Palanga Pier</a>.\n\nNight: Walk along the seaside promenade and Basanavičiaus Street under warm lights.",
+
+      "places": [
+        {
+          "name": "Palanga Beach",
+          "link": "https://www.google.com/maps/place/Palanga+Beach/@55.9168412,21.0526298,15z",
+          "description": "A long sandy beach with gentle dunes and refreshing Baltic Sea views."
+        },
+        {
+          "name": "Birutė Park",
+          "link": "https://www.google.com/maps/place/Birutė+Park/@55.9074815,21.0563536,16z",
+          "description": "A serene pine forest park perfect for peaceful walks and nature relaxation."
+        },
+        {
+          "name": "Palanga Amber Museum",
+          "link": "https://www.google.com/maps/place/Palanga+Amber+Museum/@55.9078595,21.0500313,17z",
+          "description": "Located inside a historic manor, surrounded by beautiful botanical gardens."
+        },
+        {
+          "name": "Palanga Pier",
+          "link": "https://www.google.com/maps/place/Palanga+Pier/@55.9186973,21.0603438,17z",
+          "description": "One of Palanga’s most iconic sunset and seaside viewpoints."
+        },
+        {
+          "name": "Basanavičiaus Street",
+          "link": "https://www.google.com/maps/place/Basanavičiaus+Street/@55.9137749,21.0638027,17z",
+          "description": "A lively promenade full of cafés, shops and coastal atmosphere."
+        }
+      ],
+
+      "hidden_gems": [
+        {
+          "name": "Birutė Hill",
+          "link": "https://www.google.com/maps/place/Birutė+Hill/@55.908771,21.0549437,17z",
+          "description": "A quiet forest hill with mythological significance and peaceful sea views."
+        },
+        {
+          "name": "Dune Viewpoints South of the Pier",
+          "link": "https://www.google.com/maps/place/Palanga+Beach/@55.9142654,21.0548459,16z",
+          "description": "Less crowded dunes offering calm scenery and perfect nature photography spots."
+        },
+        {
+          "name": "Botanical Garden Trails",
+          "link": "https://www.google.com/maps/place/Palanga+Botanical+Park/@55.907221,21.0524913,17z",
+          "description": "Wooded, quiet trails around ponds and gardens near the Amber Museum."
+        }
+      ],
+
       "seasons": {
         "spring": {
           "event": "Spring Breeze",
           "ideas": [
-            "🌸 Park flowers",
-            "🚶 Beach strolls",
-            "☕ Terraces"
+            "🌸 Blossoms in <a href=\"https://www.google.com/maps/place/Palanga+Botanical+Park/@55.907221,21.0524913,17z\" target=\"_blank\">Botanical Park</a>.",
+            "🚶 Beach strolls near <a href=\"https://www.google.com/maps/place/Palanga+Beach/@55.9168412,21.0526298,15z\" target=\"_blank\">the shoreline</a>.",
+            "☕ Terraces along <a href=\"https://www.google.com/maps/place/Basanavičiaus+Street/@55.9137749,21.0638027,17z\" target=\"_blank\">Basanavičiaus Street</a>."
           ]
         },
         "summer": {
           "event": "Beach Life",
           "ideas": [
-            "🏖️ Swimming",
-            "🍦 Ice cream",
-            "🌇 Sunset pier"
+            "🏖️ Swimming at <a href=\"https://www.google.com/maps/place/Palanga+Beach/@55.9168412,21.0526298,15z\" target=\"_blank\">Palanga Beach</a>.",
+            "🍦 Ice cream strolls on <a href=\"https://www.google.com/maps/place/Basanavičiaus+Street/@55.9137749,21.0638027,17z\" target=\"_blank\">Basanavičiaus Street</a>.",
+            "🌇 Sunset views from <a href=\"https://www.google.com/maps/place/Palanga+Pier/@55.9186973,21.0603438,17z\" target=\"_blank\">the Pier</a>."
           ]
         },
         "autumn": {
           "event": "Golden Coast",
           "ideas": [
-            "🍁 Forest colors",
-            "🥧 Cafés",
-            "🎨 Art corners"
+            "🍁 Forest colors in <a href=\"https://www.google.com/maps/place/Birutė+Park/@55.9074815,21.0563536,16z\" target=\"_blank\">Birutė Park</a>.",
+            "🥧 Cozy cafés near the seaside.",
+            "🎨 Art corners around town."
           ]
         },
         "winter": {
           "event": "Winter Coastline",
           "ideas": [
-            "🌞 Calm walks",
-            "🍫 Hot cocoa"
+            "🌞 Calm beach walks on <a href=\"https://www.google.com/maps/place/Palanga+Beach/@55.9168412,21.0526298,15z\" target=\"_blank\">quiet sands</a>.",
+            "🍫 Hot cocoa in warm cafés."
           ]
         }
       },
+
       "public_transport_tips": [
-        "🚌 Buses from Klaipėda",
-        "🚶 Walkable",
-        "🚲 Bike-friendly"
+        {
+          "tip": "🚌 Buses from Klaipėda run frequently to Palanga.",
+          "link": "https://www.klaipedatransport.lt/en"
+        },
+        {
+          "tip": "🚆 Intercity buses connect Palanga with Vilnius, Kaunas and Šiauliai.",
+          "link": "https://autobusubilietai.lt/en"
+        },
+        {
+          "tip": "🚶 The seaside and Old Town areas are walkable.",
+          "link": "https://www.google.com/maps/place/Palanga+Old+Town/"
+        },
+        {
+          "tip": "🚲 Many forest and dune paths are bike-friendly.",
+          "link": "https://www.google.com/maps/search/?q=Palanga+bike+paths"
+        }
       ],
+
       "city_events": [
         {
           "name": "Palanga Smelt Festival",
           "season": "winter",
-          "description": "🎣 Coastal traditions & food."
+          "description": "🎣 Coastal traditions, food tastings and seaside celebrations."
         }
       ]
     },
     {
       "name": "Šiauliai",
       "interests": [
-        "Landmarks 🌄",
-        "Urban Culture 🎭",
-        "Parks 🌿"
+        {
+          "name": "Landmarks 🌄",
+          "map_link": "https://www.google.com/maps/place/Hill+of+Crosses/@56.0154271,23.4162869,15z",
+          "description": "The Hill of Crosses is Šiauliai’s most iconic landmark, known for its thousands of crosses placed by visitors over generations. A peaceful, spiritual, and unique cultural site."
+        },
+        {
+          "name": "Urban Culture 🎭",
+          "map_link": "https://www.google.com/maps/place/%C5%A0iauliai+City+Center/@55.934944,23.313159,15z",
+          "description": "Šiauliai’s compact center is filled with street art, cafés, local shops, and cultural corners. A calm but creative Baltic small-city atmosphere."
+        },
+        {
+          "name": "Parks 🌿",
+          "map_link": "https://www.google.com/maps/place/Talka+Lake/@55.9310468,23.2964574,15z",
+          "description": "Green lakeside areas, walking paths, and peaceful parks make Šiauliai relaxing for slow strolls, picnics, and sunset watching."
+        }
       ],
+
       "local_food_tip": "Simple Baltic soups, salads and pastries.",
-      "full_day": "Morning: 🌄 Hill of Crosses (Exterior). → ☕ Local café.\n\nAfternoon: 🏙️ City center walk. → 🍽️ Light lunch. → 🎨 Art corners.\n\nSunset: 🌅 Park lakes.\n\nNight: 🌃 Small-town lights.",
+
+      "full_day": "Morning: Visit the iconic <a href=\"https://www.google.com/maps/place/Hill+of+Crosses/@56.0154271,23.4162869,15z\" target=\"_blank\" rel=\"noopener\">Hill of Crosses</a> → return to town for coffee.\n\nAfternoon: Walk through <a href=\"https://www.google.com/maps/place/%C5%A0iauliai+City+Center/@55.934944,23.313159,15z\" target=\"_blank\" rel=\"noopener\">Šiauliai City Center</a> → lunch with light Baltic dishes → explore local art corners.\n\nSunset: Enjoy golden reflections at <a href=\"https://www.google.com/maps/place/Talka+Lake/@55.9310468,23.2964574,15z\" target=\"_blank\" rel=\"noopener\">Talka Lake</a>.\n\nNight: Peaceful evening walk through the small, cozy streets.",
+
+      "places": [
+        {
+          "name": "Hill of Crosses",
+          "link": "https://www.google.com/maps/place/Hill+of+Crosses/@56.0154271,23.4162869,15z",
+          "description": "A symbolic and spiritual hill covered with thousands of crosses — unique in the world."
+        },
+        {
+          "name": "Šiauliai City Center",
+          "link": "https://www.google.com/maps/place/%C5%A0iauliai+City+Center/@55.934944,23.313159,15z",
+          "description": "The cultural heart of the city with shops, cafés, murals, and relaxed Baltic atmosphere."
+        },
+        {
+          "name": "Talka Lake",
+          "link": "https://www.google.com/maps/place/Talka+Lake/@55.9310468,23.2964574,15z",
+          "description": "A peaceful lakeside park perfect for sunset views and calm afternoon walks."
+        },
+        {
+          "name": "Chaim Frenkel Villa (Exterior)",
+          "link": "https://www.google.com/maps/place/Chaim+Frenkel+Villa/@55.9327292,23.3071629,17z",
+          "description": "Historic villa with beautiful gardens, great for quiet outdoor strolling."
+        }
+      ],
+
+      "hidden_gems": [
+        {
+          "name": "Fox Path (Lapės takas) — Forest Trail",
+          "link": "https://www.google.com/maps/place/Lap%C4%97s+takas/@55.9335469,23.2751451,16z",
+          "description": "A peaceful nature trail on the edge of Šiauliai — great for quiet forest walks."
+        },
+        {
+          "name": "Sundial Square",
+          "link": "https://www.google.com/maps/place/Sundial+Square/@55.9314216,23.3166653,17z",
+          "description": "A symbolic square featuring the famous ‘Šiauliai Sun’ sculpture — a local pride point."
+        },
+        {
+          "name": "Salduvė Park",
+          "link": "https://www.google.com/maps/place/Salduv%C4%97+Park/@55.9140398,23.3328043,15z",
+          "description": "A quiet, green park with small hills, forest areas and peaceful walking paths."
+        }
+      ],
+
       "seasons": {
         "spring": {
           "event": "Spring Light",
           "ideas": [
-            "🌼 Fields in bloom",
-            "🚶 Hill walks",
-            "☕ Cafés"
+            "🌼 Fields in bloom near <a href=\"https://www.google.com/maps/place/Hill+of+Crosses/@56.0154271,23.4162869,15z\" target=\"_blank\">Hill of Crosses</a>.",
+            "🚶 Calm nature walks in <a href=\"https://www.google.com/maps/place/Salduv%C4%97+Park/@55.9140398,23.3328043,15z\" target=\"_blank\">Salduvė Park</a>.",
+            "☕ Cafés around <a href=\"https://www.google.com/maps/place/%C5%A0iauliai+City+Center/@55.934944,23.313159,15z\" target=\"_blank\">City Center</a>."
           ]
         },
         "summer": {
           "event": "Summer Days",
           "ideas": [
-            "🌳 Park walks",
-            "🍉 Fruit stalls",
-            "🌇 Sunset views"
+            "🌳 Green strolls near <a href=\"https://www.google.com/maps/place/Talka+Lake/@55.9310468,23.2964574,15z\" target=\"_blank\">Talka Lake</a>.",
+            "🍉 Seasonal fruit stalls in town.",
+            "🌇 Long sunsets across the lakes and fields."
           ]
         },
         "autumn": {
           "event": "Autumn Mood",
           "ideas": [
-            "🍁 Orange tones",
-            "🥧 Bakery visits",
-            "🎨 Galleries"
+            "🍁 Warm colors in <a href=\"https://www.google.com/maps/place/Salduv%C4%97+Park/@55.9140398,23.3328043,15z\" target=\"_blank\">forest parks</a>.",
+            "🥧 Cozy bakery visits in the center.",
+            "🎨 Galleries and cultural corners."
           ]
         },
         "winter": {
           "event": "Winter Calm",
           "ideas": [
-            "🌞 Snowy fields",
-            "🍫 Hot cocoa"
+            "🌞 Snowy open fields near <a href=\"https://www.google.com/maps/place/Hill+of+Crosses/@56.0154271,23.4162869,15z\" target=\"_blank\">Hill of Crosses</a>.",
+            "🍫 Hot cocoa in quiet cafés."
           ]
         }
       },
+
       "public_transport_tips": [
-        "🚌 Regional buses",
-        "🚶 Walkable",
-        "📱 Use routes online"
+        {
+          "tip": "🚌 Regional buses connect Šiauliai with Vilnius, Kaunas and nearby towns.",
+          "link": "https://autobusubilietai.lt/en"
+        },
+        {
+          "tip": "🚆 Trains run between Šiauliai, Vilnius, Klaipėda and other cities.",
+          "link": "https://ltglink.lt/en"
+        },
+        {
+          "tip": "🚶 The city center is compact and easily walkable.",
+          "link": "https://www.google.com/maps/place/%C5%A0iauliai+City+Center/"
+        },
+        {
+          "tip": "📱 Use the Trafi app for local routes and schedules.",
+          "link": "https://play.google.com/store/apps/details?id=com.trafi.android.trafi"
+        }
       ],
+
       "city_events": [
         {
           "name": "Šiauliai Jazz Nights",
           "season": "summer",
-          "description": "🎷 Evening jazz concerts outdoors."
+          "description": "🎷 Outdoor evening jazz concerts across the city."
         }
       ]
     },
     {
       "name": "Trakai",
       "interests": [
-        "Lakes 🌊",
-        "Castles 🏰",
-        "Nature Walks 🌿"
+        {
+          "name": "Lakes 🌊",
+          "map_link": "https://www.google.com/maps/place/Lake+Galvė/@54.6447273,24.930778,12z",
+          "description": "Trakai is surrounded by beautiful lakes, the most famous being Lake Galvė. Perfect for peaceful walks, boat rides, photography and lakeside relaxation."
+        },
+        {
+          "name": "Castles 🏰",
+          "map_link": "https://www.google.com/maps/place/Trakai+Island+Castle/@54.6521632,24.0935932,17z",
+          "description": "The iconic red-brick Trakai Island Castle sits in the middle of Lake Galvė — one of Lithuania’s most photographed historic sites and a symbol of the region."
+        },
+        {
+          "name": "Nature Walks 🌿",
+          "map_link": "https://www.google.com/maps/place/Trakai+Historical+National+Park/@54.6323522,24.8967439,12z",
+          "description": "Forests, lakeside paths, wooden bridges and calm scenery make Trakai ideal for outdoor walks and slow exploration."
+        }
       ],
+
       "local_food_tip": "Light Baltic dishes: veggie soups, salads and pastries.",
-      "full_day": "Morning: 🏰 Trakai Island Castle (Exterior). → 🌊 Lakeside walk. → ☕ Lake café.\n\nAfternoon: 🌿 Trails around the lakes. → 🍽️ Light lunch. → 🏘️ Karaim heritage streets.\n\nSunset: 🌅 Lake reflections.\n\nNight: 🌃 Quiet lakeside lights.",
+
+      "full_day": "Morning: Visit <a href=\"https://www.google.com/maps/place/Trakai+Island+Castle/@54.6521632,24.0935932,17z\" target=\"_blank\" rel=\"noopener\">Trakai Island Castle</a> (exterior) → walk along Lake Galvė → coffee at a lakeside café.\n\nAfternoon: Explore the nature trails in <a href=\"https://www.google.com/maps/place/Trakai+Historical+National+Park/@54.6323522,24.8967439,12z\" target=\"_blank\" rel=\"noopener\">Trakai National Park</a> → lunch with light Baltic dishes → stroll through <a href=\"https://www.google.com/maps/place/Karaimų+gatvė/@54.6516927,24.0936972,18z\" target=\"_blank\" rel=\"noopener\">Karaim heritage street</a>.\n\nSunset: Enjoy reflections over <a href=\"https://www.google.com/maps/place/Lake+Galvė/@54.6447273,24.930778,12z\" target=\"_blank\" rel=\"noopener\">Lake Galvė</a>.\n\nNight: Quiet lakeside walk under soft lights.",
+
+      "places": [
+        {
+          "name": "Trakai Island Castle",
+          "link": "https://www.google.com/maps/place/Trakai+Island+Castle/@54.6521632,24.0935932,17z",
+          "description": "The iconic island castle accessible by a wooden bridge — one of Lithuania’s most famous landmarks."
+        },
+        {
+          "name": "Lake Galvė",
+          "link": "https://www.google.com/maps/place/Lake+Galvė/@54.6447273,24.930778,12z",
+          "description": "A scenic lake surrounding the castle — perfect for photos, boating, and peaceful walks."
+        },
+        {
+          "name": "Karaim Street (Karaimų gatvė)",
+          "link": "https://www.google.com/maps/place/Karaimų+gatvė/@54.6516927,24.0936972,18z",
+          "description": "Historic wooden houses and the cultural center of the Karaim community, unique to Trakai."
+        },
+        {
+          "name": "Trakai Historical National Park",
+          "link": "https://www.google.com/maps/place/Trakai+Historical+National+Park/@54.6323522,24.8967439,12z",
+          "description": "Forests, hills and lakes — ideal for easy nature exploring."
+        }
+      ],
+
+      "hidden_gems": [
+        {
+          "name": "Užutrakis Manor",
+          "link": "https://www.google.com/maps/place/Užutrakis+Manor+Estate/@54.6508185,24.0991315,17z",
+          "description": "A lakeside manor with beautiful gardens and castle views across the water."
+        },
+        {
+          "name": "Varnikai Forest Trail",
+          "link": "https://www.google.com/maps/place/Varnikai+Educational+Trail/@54.6274762,24.0882107,15z",
+          "description": "A wooden boardwalk trail through forest and marshes — quiet, relaxing and scenic."
+        },
+        {
+          "name": "Trakai Peninsula Castle Ruins",
+          "link": "https://www.google.com/maps/place/Trakai+Peninsula+Castle/@54.6478317,24.0995948,17z",
+          "description": "Lesser-known ruins near the lake with peaceful surroundings and historical atmosphere."
+        }
+      ],
+
       "seasons": {
         "spring": {
           "event": "Spring Lakes",
           "ideas": [
-            "🌸 Lakeside flowers",
-            "🚶 Castle walks",
-            "☕ Terraces"
+            "🌸 Flowers blooming around <a href=\"https://www.google.com/maps/place/Lake+Galvė/@54.6447273,24.930778,12z\" target=\"_blank\">Lake Galvė</a>.",
+            "🚶 Castle walks toward <a href=\"https://www.google.com/maps/place/Trakai+Island+Castle/@54.6521632,24.0935932,17z\">Trakai Castle</a>.",
+            "☕ Lakeside terraces near Karaim Street."
           ]
         },
         "summer": {
           "event": "Summer Lakeside",
           "ideas": [
-            "🌊 Cool breeze",
-            "🍉 Fruit stands",
-            "🌇 Sunset views"
+            "🌊 Breezy paths along <a href=\"https://www.google.com/maps/place/Lake+Galvė/@54.6447273,24.930778,12z\">Galvė Lake</a>.",
+            "🍉 Summer fruit stands in town.",
+            "🌇 Sunset viewpoints near <a href=\"https://www.google.com/maps/place/Užutrakis+Manor+Estate/@54.6508185,24.0991315,17z\">Užutrakis Manor</a>."
           ]
         },
         "autumn": {
           "event": "Golden Lakes",
           "ideas": [
-            "🍁 Reflections",
-            "🥧 Cafés",
-            "🎨 Photography spots"
+            "🍁 Autumn reflections on <a href=\"https://www.google.com/maps/place/Lake+Galvė/@54.6447273,24.930778,12z\">Lake Galvė</a>.",
+            "🥧 Warm cafés on <a href=\"https://www.google.com/maps/place/Karaimų+gatvė/@54.6516927,24.0936972,18z\">Karaim Street</a>.",
+            "🎨 Photography spots across nature trails."
           ]
         },
         "winter": {
           "event": "Winter Castle",
           "ideas": [
-            "❄️ Snowy views",
-            "🍫 Hot cocoa"
+            "❄️ Snowy views of <a href=\"https://www.google.com/maps/place/Trakai+Island+Castle/@54.6521632,24.0935932,17z\">Trakai Castle</a>.",
+            "🍫 Hot cocoa in lakeside cafés."
           ]
         }
       },
+
       "public_transport_tips": [
-        "🚌 Buses from Vilnius",
-        "🚶 Walkable once you arrive",
-        "🚲 Lakeside cycling is great"
+        {
+          "tip": "🚌 Direct buses run from Vilnius to Trakai.",
+          "link": "https://autobusubilietai.lt/en"
+        },
+        {
+          "tip": "🚆 Train connection Vilnius ↔ Trakai is fast and easy.",
+          "link": "https://ltglink.lt/en"
+        },
+        {
+          "tip": "🚶 The town and lake area are fully walkable.",
+          "link": "https://www.google.com/maps/place/Trakai/"
+        },
+        {
+          "tip": "🚲 Lakeside cycling routes are very popular in summer.",
+          "link": "https://www.google.com/maps/place/Lake+Galvė/"
+        }
       ],
+
       "city_events": [
         {
           "name": "Trakai Medieval Festival",
           "season": "summer",
-          "description": "🏰 Historical shows on the lake."
+          "description": "🏰 Historical shows on the lake with costumes, music and reenactments."
         }
       ]
     }

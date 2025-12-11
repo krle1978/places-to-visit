@@ -5,129 +5,518 @@
     {
       "name": "Dublin",
       "interests": [
-        "Riverside Walks 🌊",
-        "Historic Streets 🎭",
-        "Parks & Nature 🌿",
-        "Local Food Exploration 😋",
-        "Art & Culture 🎨"
+        {
+          "name": "Riverside Walks 🌊",
+          "map_link": "https://www.google.com/maps/search/?q=River+Liffey+Dublin",
+          "description": "The River Liffey splits Dublin in two and creates some of the city’s best walking paths. Bridges, quays, and waterfront cafés bring a calm urban rhythm to the area. The scenery shifts from historic to modern architecture as you walk along the river. It’s one of the easiest ways to feel Dublin’s atmosphere."
+        },
+        {
+          "name": "Historic Streets 🎭",
+          "map_link": "https://www.google.com/maps/search/?q=Temple+Bar+Dublin",
+          "description": "Dublin’s historic streets are full of character, music, and centuries-old architecture. Temple Bar is famous for its lively vibe, colorful buildings, and artistic corners. Nearby lanes reveal bookshops, pubs, murals, and cultural institutions. It’s a playful, energetic part of the city that blends old and new."
+        },
+        {
+          "name": "Parks & Nature 🌿",
+          "map_link": "https://www.google.com/maps/search/?q=St+Stephen's+Green+Dublin",
+          "description": "Dublin offers beautiful green escapes right in the heart of the city. St. Stephen’s Green is full of ponds, flowers, and peaceful walking paths. Locals come here to relax, eat lunch, or escape from busy streets. It's an essential part of Dublin’s everyday life."
+        },
+        {
+          "name": "Local Food Exploration 😋",
+          "map_link": "https://www.google.com/maps/search/?q=Dublin+Restaurants+City+Center",
+          "description": "Dublin’s comfort food culture revolves around warm soups, potatoes, breads, and pastries. Veggie-friendly options are easy to find across the city. Small cafés and bistros serve homemade-style meals that feel hearty and cozy. This is simple, delicious Irish food that warms you up instantly."
+        },
+        {
+          "name": "Art & Culture 🎨",
+          "map_link": "https://www.google.com/maps/search/?q=National+Gallery+of+Ireland",
+          "description": "Dublin is rich in museums, galleries, theaters, and literary landmarks. The National Gallery and surrounding cultural district offer both classic and contemporary art. Music, street performances, and creative events happen throughout the year. It’s a great city for travelers who enjoy artsy, culturally vibrant places."
+        }
       ],
-      "local_food_tip": "Irish veggie soups, potato dishes, soda bread, pastries, salads — jednostavno, ukusno i toplo.",
-      "full_day": "Morning: 🌊 River Liffey walk. → 🏛️ Dublin Castle (Exterior). → ☕ Temple Bar cafés.\n\nAfternoon: 🎨 Trinity College (Exterior courtyard). → 🍽️ Lunch: Veg soups, potato meals, salads. → 🌿 St. Stephen's Green.\n\nSunset: 🌅 Samuel Beckett Bridge.\n\nNight: 🌃 Riverside lights + dessert spots.",
+
+      "local_food_tip": "Irish veggie soups, potato dishes, soda bread, pastries, salads — simple, tasty, warm, and comforting.",
+      
+      "full_day": "Morning: Walk along the River Liffey starting near <a href=\"https://www.google.com/maps/place/River+Liffey\" target=\"_blank\" rel=\"noopener\">the riverside paths</a>. → Visit <a href=\"https://www.google.com/maps/place/Dublin+Castle\" target=\"_blank\" rel=\"noopener\">Dublin Castle</a> (exterior). → Coffee in <a href=\"https://www.google.com/maps/place/Temple+Bar\" target=\"_blank\" rel=\"noopener\">Temple Bar</a>.\n\nAfternoon: See the courtyard of <a href=\"https://www.google.com/maps/place/Trinity+College+Dublin\" target=\"_blank\" rel=\"noopener\">Trinity College</a> (exterior). → Lunch: Irish veggie soups, potato dishes, salads. → Relax in <a href=\"https://www.google.com/maps/place/St+Stephen's+Green\" target=\"_blank\" rel=\"noopener\">St. Stephen's Green</a>.\n\nSunset: Enjoy golden-hour views at <a href=\"https://www.google.com/maps/place/Samuel+Beckett+Bridge\" target=\"_blank\" rel=\"noopener\">Samuel Beckett Bridge</a>.\n\nNight: Riverside lights and dessert spots around the quays.",
+
+      "places": [
+        {
+          "name": "River Liffey Walk",
+          "link": "https://www.google.com/maps/place/River+Liffey",
+          "description": "The River Liffey walkway is a calm urban route lined with landmarks and bridges. It’s perfect for easy morning or sunset strolls. Visitors get a great sense of Dublin’s mix of modern and historic architecture."
+        },
+        {
+          "name": "Dublin Castle",
+          "link": "https://www.google.com/maps/place/Dublin+Castle",
+          "description": "Dublin Castle is a historic complex at the heart of the city. While the interiors require tickets, the exterior courtyards are open and atmospheric. The site blends medieval remnants with elegant Georgian buildings."
+        },
+        {
+          "name": "Temple Bar District",
+          "link": "https://www.google.com/maps/place/Temple+Bar",
+          "description": "Temple Bar is Dublin’s colorful, lively cultural quarter. Famous for pubs, music, galleries, and narrow cobbled streets, it's a place full of energy. Perfect for café breaks, photos, and artistic vibes."
+        },
+        {
+          "name": "Trinity College",
+          "link": "https://www.google.com/maps/place/Trinity+College+Dublin",
+          "description": "Ireland’s oldest university offers grand courtyards, old libraries, and a calm academic atmosphere. Even if you don’t enter the Book of Kells exhibit, the exterior alone feels historic and impressive."
+        },
+        {
+          "name": "St. Stephen’s Green",
+          "link": "https://www.google.com/maps/place/St+Stephen's+Green",
+          "description": "A beautiful Victorian park in central Dublin, full of ponds, bridges, statues, and quiet paths. Locals come here to relax, have lunch, or enjoy nature in the middle of the city."
+        },
+        {
+          "name": "Samuel Beckett Bridge",
+          "link": "https://www.google.com/maps/place/Samuel+Beckett+Bridge",
+          "description": "A modern harp-shaped bridge that has become one of Dublin’s iconic symbols. It’s especially stunning at sunset when the river reflects soft colors and lights."
+        }
+      ],
+
+      "hidden_gems": [
+        {
+          "name": "Iveagh Gardens",
+          "link": "https://www.google.com/maps/search/?q=Iveagh+Gardens+Dublin",
+          "description": "A peaceful, lesser-known park hidden behind buildings near St. Stephen's Green. It features waterfalls, lawns, and quiet corners perfect for escaping crowds."
+        },
+        {
+          "name": "Meeting House Square",
+          "link": "https://www.google.com/maps/search/?q=Meeting+House+Square+Dublin",
+          "description": "A cultural courtyard in Temple Bar known for outdoor screenings, art events, and its retractable canopy. It’s lively in the evenings yet still feels local."
+        }
+      ],
+
       "seasons": {
         "spring": {
           "event": "Spring in Dublin",
-          "ideas": ["🌸 Park blossoms", "🚶 Riverside strolls", "☕ Outdoor terraces"]
+          "ideas": [
+            "Park blossoms throughout St. Stephen’s Green.",
+            "Riverside strolls under mild weather.",
+            "Outdoor coffee terraces in Temple Bar."
+          ]
         },
         "summer": {
           "event": "Light Summer",
-          "ideas": ["🌞 Long evenings", "🍦 Ice cream by the river", "🌿 Park picnics"]
+          "ideas": [
+            "Long bright evenings across the riverfront.",
+            "Ice cream near Samuel Beckett Bridge.",
+            "Picnics in the city’s largest parks."
+          ]
         },
         "autumn": {
           "event": "Autumn Colors",
-          "ideas": ["🍁 St. Stephen’s Green", "🥧 Pastry shops", "🎨 Gallery visits"]
+          "ideas": [
+            "Orange and yellow tones in St. Stephen’s Green.",
+            "Warm pastries in cozy cafés.",
+            "Gallery visits on windy days."
+          ]
         },
         "winter": {
           "event": "Winter Glow",
-          "ideas": ["🎄 Christmas lights", "🍫 Hot chocolate cafés"]
+          "ideas": [
+            "Christmas lights across the city center.",
+            "Hot chocolate cafés near Temple Bar."
+          ]
         }
       },
+
       "public_transport_tips": [
-        "🚊 Luas trams cover the center.",
-        "🚌 Buses go everywhere.",
-        "🚶 Central Dublin is walkable.",
-        "📱 Use 'TFI Live' app for routes."
+        {
+          "tip": "🚊 Luas trams run through major parts of the center.",
+          "link": "https://luas.ie/"
+        },
+        {
+          "tip": "🚌 Dublin Bus covers the entire city.",
+          "link": "https://www.dublinbus.ie/"
+        },
+        {
+          "tip": "🚶 Central Dublin is compact and easy to explore on foot.",
+          "link": "https://www.google.com/maps/search/?q=Dublin+City+Center"
+        },
+        {
+          "tip": "📱 Use the TFI Live app for route planning.",
+          "link": "https://www.transportforireland.ie/tfi-live-app/"
+        }
       ],
+
       "city_events": [
         {
           "name": "Dublin Fringe Festival",
           "season": "autumn",
-          "description": "🎭 Creative performances across the city."
+          "description": "Creative performances, theater acts, and artistic experiments across venues and outdoor spaces."
         }
       ]
     },
 
     {
       "name": "Cork",
-      "interests": ["Riverside 🌊", "Old Town 🎭", "Food Culture 😋"],
-      "local_food_tip": "Veggie stews, breads, soups, potato dishes and pastries.",
-      "full_day": "Morning: 🌊 River Lee walk. → 🏛️ St. Patrick's Street (Exterior). → ☕ Local café.\n\nAfternoon: 🍽️ Lunch: Soups, breads, veggie meals. → 🎨 Crawford Art Gallery (Exterior). → 🌿 Fitzgerald Park.\n\nSunset: 🌅 Shandon tower views.\n\nNight: 🌃 Riverside reflections.",
-      "seasons": {
-        "spring": { "event": "Spring Breeze", "ideas": ["🌸 Park flowers", "🚶 River walks", "☕ Terraces"] },
-        "summer": { "event": "Summer Vibes", "ideas": ["🌊 Riverside paths", "🍦 Ice cream", "🌇 Soft sunsets"] },
-        "autumn": { "event": "Golden Cork", "ideas": ["🍁 Orange tones", "🥧 Bakery stops", "🎨 Art spots"] },
-        "winter": { "event": "Winter Calm", "ideas": ["❄️ Light snow", "🍫 Hot cocoa"] }
-      },
-      "public_transport_tips": ["🚌 City buses", "🚶 Walkable center"],
-      "city_events": [
-        { "name": "Cork Jazz Festival", "season": "autumn", "description": "🎷 Famous international jazz event." }
-      ]
-    },
+      "interests": [
+        {
+          "name": "Riverside 🌊",
+          "map_link": "https://www.google.com/maps/search/?q=River+Lee+Cork",
+          "description": "The River Lee flows through the heart of Cork, creating scenic walking paths and peaceful spots along both channels. Riverside cafés and bridges make it perfect for slow morning strolls. The reflections of colorful houses and historic warehouses add to the charm."
+        },
+        {
+          "name": "Old Town 🎭",
+          "map_link": "https://www.google.com/maps/search/?q=Cork+Old+Town",
+          "description": "Cork’s Old Town is full of lively streets, historical lanes, and traditional Irish atmosphere. Markets, shops, and old pubs define the character of this compact district. It’s the best place to feel Cork’s cultural rhythm."
+        },
+        {
+          "name": "Food Culture 😋",
+          "map_link": "https://www.google.com/maps/search/?q=English+Market+Cork",
+          "description": "Cork is considered Ireland’s food capital, offering fresh local produce, bakeries, soups, and traditional Irish meals. The English Market is the center of the city’s culinary scene. Travelers can enjoy everything from warm vegetable stews to authentic pastries."
+        }
+      ],
 
-    {
-      "name": "Galway",
-      "interests": ["Coastal Walks 🌊", "Old Town 🎭", "Art & Culture 🎨"],
-      "local_food_tip": "Irish veggie soups, breads, pastries and simple ocean-side meals.",
-      "full_day": "Morning: 🌊 Salthill Promenade. → ☕ Seaside café.\n\nAfternoon: 🏘️ Latin Quarter. → 🍽️ Veggie lunch: soups & breads. → 🎨 Street art corners.\n\nSunset: 🌅 Galway Bay.\n\nNight: 🌃 Colorful old-town lights.",
+      "local_food_tip": "Veggie stews, breads, soups, potato dishes and pastries — simple, hearty, and comforting Irish flavors.",
+
+      "full_day": "Morning: Walk along the <a href=\"https://www.google.com/maps/search/?q=River+Lee+Cork\" target=\"_blank\" rel=\"noopener\">River Lee</a> → explore <a href=\"https://www.google.com/maps/search/?q=St+Patrick's+Street+Cork\" target=\"_blank\" rel=\"noopener\">St. Patrick's Street</a> (exterior) → coffee in a local café.\n\nAfternoon: Enjoy a warm lunch (soups, breads, veggie meals) → visit the exterior of <a href=\"https://www.google.com/maps/search/?q=Crawford+Art+Gallery+Cork\" target=\"_blank\" rel=\"noopener\">Crawford Art Gallery</a> → relax in <a href=\"https://www.google.com/maps/search/?q=Fitzgerald+Park+Cork\" target=\"_blank\" rel=\"noopener\">Fitzgerald Park</a>.\n\nSunset: Climb or view the <a href=\"https://www.google.com/maps/search/?q=Shandon+Bells+%26+Tower+Cork\" target=\"_blank\" rel=\"noopener\">Shandon Tower</a> for city panoramas.\n\nNight: Riverside reflections and a calm evening walk.",
+
+      "places": [
+        {
+          "name": "River Lee Walks",
+          "link": "https://www.google.com/maps/search/?q=River+Lee+Cork",
+          "description": "The River Lee surrounds Cork’s center with scenic promenades, bridges, and peaceful waterside paths. Ideal for morning walks and photography."
+        },
+        {
+          "name": "St. Patrick's Street",
+          "link": "https://www.google.com/maps/search/?q=St+Patrick's+Street+Cork",
+          "description": "Cork's main street, lined with shops, cafés, and historic buildings. It’s one of the liveliest areas in the city."
+        },
+        {
+          "name": "Crawford Art Gallery",
+          "link": "https://www.google.com/maps/search/?q=Crawford+Art+Gallery+Cork",
+          "description": "A central cultural landmark with Irish art collections. Even viewing the exterior gives a sense of Cork’s artistic identity."
+        },
+        {
+          "name": "Fitzgerald Park",
+          "link": "https://www.google.com/maps/search/?q=Fitzgerald+Park+Cork",
+          "description": "A lush riverside park featuring sculptures, a museum, and relaxing gardens. Perfect for breaks and slow afternoon walks."
+        },
+        {
+          "name": "Shandon Bells & Tower",
+          "link": "https://www.google.com/maps/search/?q=Shandon+Bells+%26+Tower+Cork",
+          "description": "One of Cork’s iconic landmarks. Climbing the tower reveals sweeping views across colorful neighborhoods and the River Lee."
+        },
+        {
+          "name": "English Market",
+          "link": "https://www.google.com/maps/search/?q=English+Market+Cork",
+          "description": "A historic food market filled with local vendors, fresh produce, baked goods, and Irish specialties. A core of Cork’s food culture."
+        },
+        {
+          "name": "Elizabeth Fort",
+          "link": "https://www.google.com/maps/search/?q=Elizabeth+Fort+Cork",
+          "description": "A 17th-century fort offering elevated views of Cork’s southern districts. Quiet, atmospheric, and full of history."
+        },
+        {
+          "name": "University College Cork (UCC)",
+          "link": "https://www.google.com/maps/search/?q=University+College+Cork",
+          "description": "Beautiful stone buildings, gardens, and river paths make UCC one of Ireland’s most picturesque campuses."
+        }
+      ],
+
+      "hidden_gems": [
+        {
+          "name": "Nano Nagle Place Gardens",
+          "link": "https://www.google.com/maps/search/?q=Nano+Nagle+Place+Cork",
+          "description": "A peaceful heritage center with gardens, courtyards, and quiet spaces. It feels hidden despite being close to the city center."
+        },
+        {
+          "name": "Cork Butter Museum Area",
+          "link": "https://www.google.com/maps/search/?q=Cork+Butter+Museum",
+          "description": "A quirky historic corner in Shandon, with charming lanes and local character. Perfect for travelers who enjoy offbeat spots."
+        }
+      ],
+
       "seasons": {
-        "spring": { "event": "Spring Seaside", "ideas": ["🌸 Coastal paths", "🚶 Old Town", "☕ Terraces"] },
-        "summer": { "event": "Festive Summer", "ideas": ["🌞 Long light", "🍦 Promenade treats", "🌇 Bay sunsets"] },
-        "autumn": { "event": "Autumn Coast", "ideas": ["🍁 Harbor colors", "🥧 Cozy cafés", "🎨 Art walks"] },
-        "winter": { "event": "Winter Winds", "ideas": ["❄️ Crisp beach air", "🍫 Hot chocolate"] }
+        "spring": {
+          "event": "Spring Breeze",
+          "ideas": ["Park flowers blooming", "Calm riverside walks", "Coffee on outdoor terraces"]
+        },
+        "summer": {
+          "event": "Summer Vibes",
+          "ideas": ["Riverside paths in warm light", "Ice cream downtown", "Soft pastel sunsets"]
+        },
+        "autumn": {
+          "event": "Golden Cork",
+          "ideas": ["Orange tones along the river", "Warm bakery visits", "Small art galleries"]
+        },
+        "winter": {
+          "event": "Winter Calm",
+          "ideas": ["Light snowfall in parks", "Hot cocoa stops"]
+        }
       },
-      "public_transport_tips": ["🚌 Well-connected buses", "🚶 Coastal paths are walkable"],
+
+      "public_transport_tips": [
+        {
+          "tip": "🚌 City buses cover the entire center and suburbs.",
+          "link": "https://www.buseireann.ie/"
+        },
+        {
+          "tip": "🚶 Cork’s old town is compact and easy to explore on foot.",
+          "link": "https://www.google.com/maps/search/?q=Cork+City+Center"
+        }
+      ],
+
       "city_events": [
-        { "name": "Galway Arts Festival", "season": "summer", "description": "🎭 Art, music and street shows." }
+        {
+          "name": "Cork Jazz Festival",
+          "season": "autumn",
+          "description": "🎷 One of Europe’s top jazz festivals, filling Cork with music and nightlife."
+        }
       ]
     },
 
     {
       "name": "Limerick",
-      "interests": ["Riverside 🌊", "Historic Streets 🎭", "Culture & Parks 🌿"],
-      "local_food_tip": "Soups, breads, veggie dishes and pastries.",
-      "full_day": "Morning: 🌊 River Shannon walk. → 🏰 King John's Castle (Exterior). → ☕ Local café.\n\nAfternoon: 🏙️ City center stroll. → 🍽️ Lunch: Potato dishes, soups. → 🎨 Art Museum (Exterior).\n\nSunset: 🌅 Shannon views.\n\nNight: 🌃 Calm riverside lights.",
-      "seasons": {
-        "spring": { "event": "Spring Riverside", "ideas": ["🌸 Blossoms", "🚶 River walks", "☕ Terraces"] },
-        "summer": { "event": "Bright Days", "ideas": ["🌊 Waterfront strolls", "🍦 Ice cream", "🌇 Golden light"] },
-        "autumn": { "event": "Autumn Mood", "ideas": ["🍁 Warm tones", "🥧 Cafés", "🎨 Local art"] },
-        "winter": { "event": "Winter Glow", "ideas": ["🎄 Lights", "🍫 Hot drinks"] }
-      },
-      "public_transport_tips": ["🚌 Local buses", "🚶 Walkable center"],
-      "city_events": [
-        { "name": "Limerick Riverfest", "season": "spring", "description": "🎉 Food, music & riverside activities." }
-      ]
-    },
+      "interests": [
+        {
+          "name": "Riverside 🌊",
+          "map_link": "https://www.google.com/maps/search/?q=River+Shannon+Limerick",
+          "description": "The River Shannon flows directly through Limerick, forming wide scenic views and peaceful embankments. It's ideal for morning strolls and calm photography spots. The riverside captures the city’s quiet charm, especially at sunrise and sunset."
+        },
+        {
+          "name": "Historic Streets 🎭",
+          "map_link": "https://www.google.com/maps/search/?q=Limerick+Old+Town",
+          "description": "Limerick’s Old Town features medieval lanes, traditional Irish facades, and colorful shopfronts. Walking here feels like stepping through centuries of history. It’s a lively area with cafés, markets, and character everywhere you look."
+        },
+        {
+          "name": "Culture & Parks 🌿",
+          "map_link": "https://www.google.com/maps/search/?q=People's+Park+Limerick",
+          "description": "Limerick blends cultural spots and green escapes, offering art museums, historic squares, and peaceful parks. It’s a balanced city where you can switch from galleries to nature within minutes. Perfect for travelers who like variety."
+        }
+      ],
 
-    {
-      "name": "Sligo",
-      "interests": ["Nature 🌿", "Coastal Walks 🌊", "Calm Town Streets 🎭"],
-      "local_food_tip": "Light soups, breads, veggie meals and berry pastries.",
-      "full_day": "Morning: 🌊 Coastal viewpoint. → 🌿 Park walks. → ☕ Town café.\n\nAfternoon: 🏘️ Old Town. → 🍽️ Veggie lunch. → 🏞️ Riverside paths.\n\nSunset: 🌅 Atlantic horizon.\n\nNight: 🌃 Quiet lights.",
+      "local_food_tip": "Soups, breads, veggie dishes and pastries — warm, simple, traditional Irish comfort food.",
+
+      "full_day": "Morning: Walk along the <a href=\"https://www.google.com/maps/search/?q=River+Shannon+Limerick\" target=\"_blank\" rel=\"noopener\">River Shannon</a> → admire <a href=\"https://www.google.com/maps/search/?q=King+John's+Castle+Limerick\" target=\"_blank\" rel=\"noopener\">King John's Castle</a> (exterior) → coffee in a local café.\n\nAfternoon: Explore the <a href=\"https://www.google.com/maps/search/?q=Limerick+City+Center\" target=\"_blank\" rel=\"noopener\">city center</a> → warm lunch (potato dishes & soups) → stroll past the <a href=\"https://www.google.com/maps/search/?q=Limerick+City+Gallery+of+Art\" target=\"_blank\" rel=\"noopener\">Art Museum</a> (exterior).\n\nSunset: Watch the sky over the <a href=\"https://www.google.com/maps/search/?q=River+Shannon+Limerick+Viewpoint\" target=\"_blank\" rel=\"noopener\">Shannon waterfront</a>.\n\nNight: Quiet riverside walk with soft city lights.",
+
+      "places": [
+        {
+          "name": "King John’s Castle",
+          "link": "https://www.google.com/maps/search/?q=King+John's+Castle+Limerick",
+          "description": "A massive medieval fortress on the River Shannon. Its towers and walls dominate the skyline and offer rich history."
+        },
+        {
+          "name": "The Milk Market",
+          "link": "https://www.google.com/maps/search/?q=Milk+Market+Limerick",
+          "description": "A lively local market with food stalls, crafts, pastries, and Irish delicacies."
+        },
+        {
+          "name": "People’s Park",
+          "link": "https://www.google.com/maps/search/?q=People's+Park+Limerick",
+          "description": "A green, elegant park with trees, flowers, and the iconic bandstand — perfect for relaxation."
+        },
+        {
+          "name": "St. Mary’s Cathedral",
+          "link": "https://www.google.com/maps/search/?q=St+Mary's+Cathedral+Limerick",
+          "description": "An impressive medieval cathedral with atmospheric stone interiors."
+        },
+        {
+          "name": "Arthurs Quay Park",
+          "link": "https://www.google.com/maps/search/?q=Arthurs+Quay+Park+Limerick",
+          "description": "A small city-center park with river views and peaceful seating."
+        },
+        {
+          "name": "Hunt Museum",
+          "link": "https://www.google.com/maps/search/?q=Hunt+Museum+Limerick",
+          "description": "A major cultural museum featuring medieval, Celtic, and European artworks."
+        },
+        {
+          "name": "Shannon Bridge",
+          "link": "https://www.google.com/maps/search/?q=Shannon+Bridge+Limerick",
+          "description": "A perfect spot for photography with dramatic river views."
+        },
+        {
+          "name": "King’s Island District",
+          "link": "https://www.google.com/maps/search/?q=King's+Island+Limerick",
+          "description": "Historic center of medieval Limerick, full of character and old architecture."
+        }
+      ],
+
+      "hidden_gems": [
+        {
+          "name": "Bishop’s Palace Garden",
+          "link": "https://www.google.com/maps/search/?q=Bishop's+Palace+Limerick",
+          "description": "A quiet historical garden tucked between old stone buildings — peaceful and atmospheric."
+        },
+        {
+          "name": "Sarsfield Bridge Viewpoint",
+          "link": "https://www.google.com/maps/search/?q=Sarsfield+Bridge+Limerick",
+          "description": "A low-traffic viewpoint perfect for evening river reflections."
+        }
+      ],
+
       "seasons": {
-        "spring": { "event": "Spring Nature", "ideas": ["🌸 Fields", "🚶 Coast walks", "☕ Terraces"] },
-        "summer": { "event": "Summer Coast", "ideas": ["🌊 Beach breeze", "🍦 Snacks", "🌇 Long sunsets"] },
-        "autumn": { "event": "Golden Sligo", "ideas": ["🍁 Hillside colors", "🥧 Cafés", "🎨 Small art spots"] },
-        "winter": { "event": "Winter Calm", "ideas": ["❄️ Fresh air", "🍫 Hot cocoa"] }
+        "spring": {
+          "event": "Spring Riverside",
+          "ideas": ["Blossoms along the river", "Gentle walks", "Terrace cafés"]
+        },
+        "summer": {
+          "event": "Bright Days",
+          "ideas": ["Waterfront strolls", "Ice cream stops", "Golden light evenings"]
+        },
+        "autumn": {
+          "event": "Autumn Mood",
+          "ideas": ["Warm tones near the river", "Cozy café visits", "Local art spots"]
+        },
+        "winter": {
+          "event": "Winter Glow",
+          "ideas": ["Holiday lights", "Hot drinks in warm cafés"]
+        }
       },
-      "public_transport_tips": ["🚌 Regional buses", "🚶 Easy to walk"],
+
+      "public_transport_tips": [
+        {
+          "tip": "🚌 Local buses connect all main districts of Limerick.",
+          "link": "https://www.buseireann.ie/"
+        },
+        {
+          "tip": "🚶 The city center and riverside are best explored on foot.",
+          "link": "https://www.google.com/maps/search/?q=Limerick+City+Center"
+        }
+      ],
+
       "city_events": [
-        { "name": "Sligo Live Festival", "season": "autumn", "description": "🎶 Music & arts celebration." }
+        {
+          "name": "Limerick Riverfest",
+          "season": "spring",
+          "description": "🎉 Food, music & riverside activities."
+        }
       ]
     },
 
     {
       "name": "Waterford",
-      "interests": ["Historic Streets 🎭", "Coastal Walks 🌊", "Urban Culture 🎨"],
-      "local_food_tip": "Veggie soups, Irish breads, salads and pastries.",
-      "full_day": "Morning: 🏰 Viking Triangle (Exterior). → 🌊 Waterfront walk. → ☕ Café stop.\n\nAfternoon: 🎨 Waterford Walls (Exterior mural route). → 🍽️ Lunch: Soups & breads. → 🏞️ City parks.\n\nSunset: 🌅 Harbor views.\n\nNight: 🌃 Old town lights.",
+      "interests": [
+        {
+          "name": "Historic Streets 🎭",
+          "map_link": "https://www.google.com/maps/search/?q=Viking+Triangle+Waterford",
+          "description": "Waterford’s historic streets reflect more than 1,000 years of Irish and Viking heritage. The Viking Triangle is filled with medieval lanes, towers, and old stone buildings that give the city a unique old-world charm. Museums and cultural spaces bring history to life in a compact, walkable area. It’s ideal for travelers who love exploring authentic, atmospheric districts."
+        },
+        {
+          "name": "Coastal Walks 🌊",
+          "map_link": "https://www.google.com/maps/search/?q=Waterford+Harbor",
+          "description": "Waterford’s waterfront provides calming coastal paths with views of the harbor and the estuary. Gentle sea breezes and open spaces make it perfect for morning or sunset walks. The area blends maritime heritage with modern promenade vibes. Many cafés and restaurants line the waterfront, creating beautiful seaside moments."
+        },
+        {
+          "name": "Urban Culture 🎨",
+          "map_link": "https://www.google.com/maps/search/?q=Waterford+Walls",
+          "description": "Waterford is famous for its large outdoor murals created during the Waterford Walls festival. Street art brightens the city with colorful characters, geometric shapes, and cultural themes. The murals are scattered across neighborhoods, turning ordinary walls into open-air galleries. Exploring them feels like a creative treasure hunt."
+        }
+      ],
+
+      "local_food_tip": "Veggie soups, Irish breads, salads and pastries — warm, simple, and perfect for seaside weather.",
+
+      "full_day": "Morning: Explore the historic <a href=\"https://www.google.com/maps/search/?q=Viking+Triangle+Waterford\" target=\"_blank\" rel=\"noopener\">Viking Triangle</a> with its medieval streets and towers → enjoy a peaceful <a href=\"https://www.google.com/maps/search/?q=Waterford+Waterfront\" target=\"_blank\" rel=\"noopener\">Waterfront walk</a> → coffee in a local café.\n\nAfternoon: Follow the open-air mural trail of <a href=\"https://www.google.com/maps/search/?q=Waterford+Walls\" target=\"_blank\" rel=\"noopener\">Waterford Walls</a> → lunch with soups, breads, and warm Irish dishes → relax in <a href=\"https://www.google.com/maps/search/?q=Waterford+City+Park\" target=\"_blank\" rel=\"noopener\">city parks</a>.\n\nSunset: Harbor golden-hour views along <a href=\"https://www.google.com/maps/search/?q=Waterford+Harbor\" target=\"_blank\" rel=\"noopener\">the waterfront</a>.\n\nNight: Old-town stroll with lights, cafés, and riverside reflections.",
+
+      "places": [
+        {
+          "name": "Viking Triangle",
+          "link": "https://www.google.com/maps/search/?q=Viking+Triangle+Waterford",
+          "description": "The cultural and historical core of Waterford, filled with narrow medieval streets and Viking fortifications. Visitors can explore towers, museums, and charming squares. It’s one of the most atmospheric areas in Ireland for history lovers."
+        },
+        {
+          "name": "Reginald's Tower",
+          "link": "https://www.google.com/maps/search/?q=Reginald's+Tower+Waterford",
+          "description": "Ireland’s oldest civic building and a symbol of Waterford’s Viking heritage. Its round stone structure offers a striking visual along the waterfront. Inside, exhibitions highlight the city’s ancient past."
+        },
+        {
+          "name": "Waterford Crystal Visitor Centre",
+          "link": "https://www.google.com/maps/search/?q=House+of+Waterford+Crystal",
+          "description": "A world-famous crystal studio where artisans craft intricate glass pieces. Visitors can observe the production process and browse unique creations. It’s one of Waterford’s artistic highlights."
+        },
+        {
+          "name": "Waterfront Promenade",
+          "link": "https://www.google.com/maps/search/?q=Waterford+Waterfront",
+          "description": "A modern riverside walkway with open views, cafés, and benches. Ideal for morning walks or sunset photography. The calm water and harbor atmosphere create a peaceful city experience."
+        },
+        {
+          "name": "Bishop’s Palace",
+          "link": "https://www.google.com/maps/search/?q=Bishop's+Palace+Waterford",
+          "description": "A Georgian palace featuring local history from the 1700s onward. Its rooms display art, maps, and decorative treasures. The architecture alone makes it worth a visit."
+        },
+        {
+          "name": "Waterford Walls Murals",
+          "link": "https://www.google.com/maps/search/?q=Waterford+Walls+Murals",
+          "description": "The city-wide mural project that transformed Waterford into an open-air gallery. Each piece is unique, colorful, and highly photogenic. Exploring them offers a modern, vibrant contrast to the historic streets."
+        },
+        {
+          "name": "People’s Park",
+          "link": "https://www.google.com/maps/search/?q=People's+Park+Waterford",
+          "description": "A peaceful urban park with Victorian-era landscaping. Locals enjoy picnics, strolls, and quiet reading under large trees. It brings a relaxed escape into the heart of the city."
+        },
+        {
+          "name": "Quayside Harbor",
+          "link": "https://www.google.com/maps/search/?q=Waterford+Quay",
+          "description": "A scenic harbor area perfect for leisurely walks and sunset moments. Boats, waterfront views, and the soft river light create a tranquil atmosphere."
+        }
+      ],
+
+      "hidden_gems": [
+        {
+          "name": "Viking Longboat Replica",
+          "link": "https://www.google.com/maps/search/?q=Viking+Longboat+Waterford",
+          "description": "A reconstructed Viking longboat displayed near the waterfront. It’s a striking reminder of Waterford’s origins and a great photo stop away from the main crowds."
+        },
+        {
+          "name": "Cathedral of the Most Holy Trinity Garden",
+          "link": "https://www.google.com/maps/search/?q=Cathedral+of+the+Most+Holy+Trinity+Waterford",
+          "description": "A quiet hidden garden entrance beside the cathedral, offering shade, benches, and a peaceful atmosphere. Perfect for an afternoon break during city exploration."
+        }
+      ],
+
       "seasons": {
-        "spring": { "event": "Spring Streets", "ideas": ["🌸 Colorful alleys", "🚶 Waterfront", "☕ Terraces"] },
-        "summer": { "event": "Summer Harbor", "ideas": ["🌊 Promenade", "🍦 Ice cream", "🌇 Long evenings"] },
-        "autumn": { "event": "Autumn Colors", "ideas": ["🍁 Parks", "🥧 Café visits", "🎨 Street art"] },
-        "winter": { "event": "Winter Glow", "ideas": ["🎄 Holiday lights", "🍫 Hot chocolate"] }
+        "spring": {
+          "event": "Spring Streets",
+          "ideas": [
+            "🌸 Colorful alleys and blooming squares.",
+            "🚶 Relaxed walks along the waterfront.",
+            "☕ Outdoor café terraces."
+          ]
+        },
+        "summer": {
+          "event": "Summer Harbor",
+          "ideas": [
+            "🌊 Promenade walks and sea breeze.",
+            "🍦 Ice cream stops near the quays.",
+            "🌇 Long golden-evening light by the harbor."
+          ]
+        },
+        "autumn": {
+          "event": "Autumn Colors",
+          "ideas": [
+            "🍁 Warm shades in parks and quiet streets.",
+            "🥧 Cozy bakery and café visits.",
+            "🎨 Exploring Waterford’s street art murals."
+          ]
+        },
+        "winter": {
+          "event": "Winter Glow",
+          "ideas": [
+            "🎄 Holiday lights throughout the old town.",
+            "🍫 Hot chocolate in warm cafés."
+          ]
+        }
       },
-      "public_transport_tips": ["🚌 Local buses", "🚶 Walkable old town"],
+
+      "public_transport_tips": [
+        {
+          "tip": "🚌 Waterford city buses connect the center with suburbs and the quays.",
+          "link": "https://www.transportforireland.ie/"
+        },
+        {
+          "tip": "🚆 Train connections to Dublin, Limerick, and other cities are available from Plunkett Station.",
+          "link": "https://www.irishrail.ie/"
+        },
+        {
+          "tip": "🚶 The Viking Triangle and waterfront areas are compact and ideal for walking.",
+          "link": "https://www.google.com/maps/search/?q=Waterford+City+Centre"
+        }
+      ],
+
       "city_events": [
-        { "name": "Waterford Winterval", "season": "winter", "description": "🎄 Christmas festival with lights & shows." }
+        {
+          "name": "Waterford Winterval",
+          "season": "winter",
+          "description": "🎄 Christmas festival with lights, markets, shows, and family events."
+        }
       ]
     }
 

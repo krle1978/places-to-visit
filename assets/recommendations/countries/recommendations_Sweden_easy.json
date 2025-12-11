@@ -4,114 +4,483 @@
     {
       "name": "Stockholm",
       "interests": [
-        "Historic Old Town & Scandinavian Culture 🏰",
-        "Water & Baltic Sea Coastline 🌊",
-        "Modern City Life & Museums 🎨"
+        {
+          "name": "Historic Old Town & Scandinavian Culture 🏰",
+          "map_link": "https://www.google.com/maps/place/Gamla+stan/@59.3258333,18.0675000,16z/",
+          "description": "Medieval alleys, colorful houses, royal squares and the heart of historic Stockholm."
+        },
+        {
+          "name": "Water & Baltic Sea Coastline 🌊",
+          "map_link": "https://www.google.com/maps/place/Skeppsholmen/@59.3240990,18.0880718,16z/",
+          "description": "Islands, harbors, boat piers and stunning sea-view promenades."
+        },
+        {
+          "name": "Modern City Life & Museums 🎨",
+          "map_link": "https://www.google.com/maps/place/Norrmalm,+Stockholm/@59.3342585,18.0621608,16z/",
+          "description": "Museums, modern districts, cafés and vibrant Scandinavian city culture."
+        }
       ],
-      "local_food_tip": "Try Swedish classics — fish dishes, pastries, light café meals and local breads — great for exploring city by foot and sea air.",
-      "full_day": "Morning: 🌅 Walk through the historic old town, visit old streets, enjoy sea‑view promenades. → 🖼️ Visit museums or galleries showcasing local art and history. → ☕ Coffee and pastry stop in a cozy city café.\n\nAfternoon: 🚤 Boat trip to nearby islands or coastal archipelago for sea breeze and water views. → 🍽️ Lunch: local dishes with Scandinavian flavours. → 🚶 Stroll along waterfront or urban districts.\n\nSunset: 🌇 Sea‑view or rooftop panorama for sunset over water and city. \n\nNight: 🌃 Dining in local restaurants, relaxed strolls — mix of history, water and modern vibe.",
+      "local_food_tip": "Try Swedish classics — salmon dishes, shrimp salads, pastries, cinnamon buns and soft breads — perfect for walking-heavy days.",
+      "full_day": "Morning: 🏰 Explore <a href=\"https://www.google.com/maps/place/Gamla+stan/@59.3258333,18.0675000,16z/\" target=\"_blank\">Gamla Stan</a>: narrow streets, pastel buildings and old squares. → 🖼️ Visit <a href=\"https://www.google.com/maps/place/Vasa+Museum/@59.3275036,18.0914824,16z/\" target=\"_blank\">Vasa Museum</a> or <a href=\"https://www.google.com/maps/place/Skansen/@59.3253944,18.1032948,16z/\" target=\"_blank\">Skansen</a>. → ☕ Cinnamon bun break in <a href=\"https://www.google.com/maps/place/Norrmalm,+Stockholm/@59.3342585,18.0621608,16z/\" target=\"_blank\">Norrmalm</a>.\n\nAfternoon: 🚤 Boat trip from <a href=\"https://www.google.com/maps/place/Strömkajen/@59.3291877,18.0769613,16z/\" target=\"_blank\">Strömkajen Pier</a>. → 🍽️ Lunch with Scandinavian flavors.\n\nSunset: 🌅 <a href=\"https://www.google.com/maps/place/Monteliusvägen/@59.3203285,18.0562971,16z/\" target=\"_blank\">Monteliusvägen</a> viewpoint.\n\nNight: 🌃 Waterfront stroll along <a href=\"https://www.google.com/maps/place/Skeppsholmen/@59.3240990,18.0880718,16z/\" target=\"_blank\">Skeppsholmen</a> or dinner in Gamla Stan.",
       "seasons": {
         "spring": {
           "event": "Spring Colours & Archipelago Air",
           "ideas": [
-            "🌸 Waterfront and parks bloom — perfect for walks and nature+city mix.",
-            "🚤 Early boat rides to islands before summer crowds.",
-            "🎨 Cultural events, open‑air markets and light dinners in spring sun."
+            "🌸 Blossoms along promenades.",
+            "🚤 Early archipelago rides.",
+            "🎨 Open-air markets."
           ]
         },
         "summer": {
           "event": "Summer Water & City Blend",
           "ideas": [
-            "🏖️ Sea‑side walks, archipelago trips and daylight‑long exploring.",
-            "🍨 Light meals, outdoor cafés, ice cream and relaxed summer nights.",
-            "🎶 Street‑music or cultural events by waterfront under long days."
+            "🏖️ Coastal walks & swimming spots.",
+            "🍨 Ice cream by the harbor.",
+            "🎶 Summer festivals."
           ]
         },
         "autumn": {
           "event": "Golden Leaves & Cozy Museums",
           "ideas": [
-            "🍂 Autumn light over water and old town — beautiful for photos.",
-            "🧣 Warm local dishes, cosy cafés after walks as weather cools.",
-            "🏛️ Museum visits and indoor culture on rainy or crisp days."
+            "🍂 Reflections across islands.",
+            "🧣 Warm fika breaks.",
+            "🏛️ Indoor museum visits."
           ]
         },
         "winter": {
           "event": "Winter Calm & City Lights",
           "ideas": [
-            "❄️ Snow or frost over historic streets and waterfront — magical mood.",
-            "🔥 Hot drinks, warm food, cozy indoor spots after chilly outdoor time.",
-            "🌌 Evening strolls under winter lights — peaceful city atmosphere."
+            "❄️ Snowy old town.",
+            "🔥 Hot drinks indoors.",
+            "🌌 Soft-lit waterfront."
           ]
         }
       },
       "public_transport_tips": [
-        "🚋 Use metro, trams, buses or boats — great network for islands/coast + city.",
-        "🚶 Historic centre and waterfront are walkable — ideal for exploring on foot.",
-        "🎟️ Consider passes if using many transports/boats in a day.",
-        "🛶 For water‑trips — boat tickets or tours recommended especially in high season."
+        {
+          "tip": "🚇 Use Stockholm Tunnelbana (metro) — fastest way to reach all districts.",
+          "link": "https://sl.se/en/"
+        },
+        {
+          "tip": "🛥️ Use SL ferries to travel between islands (Djurgården, Skeppsholmen).",
+          "link": "https://sl.se/en/in-english/ferry-traffic/"
+        },
+        {
+          "tip": "🚋 Trams are ideal for sightseeing routes around Djurgården & central areas.",
+          "link": "https://sl.se/en/"
+        },
+        {
+          "tip": "🎟️ Get a 24h/72h SL Travelcard if you plan to ride metro + ferries.",
+          "link": "https://sl.se/en/fares--tickets/"
+        },
+        {
+          "tip": "📱 Use SL App for real-time departures & journey planning.",
+          "link": "https://sl.se/en/"
+        }
       ],
       "city_events": [
         {
           "name": "Stockholm Summer Archipelago Days",
           "season": "summer",
-          "description": "🚤 Boat trips, island visits, sea‑side walks and city‑water celebrations."
+          "description": "🚤 Island trips, waterfront activities and summer celebrations.",
+          "website": "https://www.visitstockholm.com"
+        }
+      ],
+      "recommended_places": [
+        {
+          "name": "Gamla Stan",
+          "maps_link": "https://www.google.com/maps/place/Gamla+stan/@59.3258333,18.0675000,16z/",
+          "why_visit": "One of Europe’s most beautiful old towns."
+        },
+        {
+          "name": "Vasa Museum",
+          "maps_link": "https://www.google.com/maps/place/Vasa+Museum/@59.3275036,18.0914824,16z/",
+          "why_visit": "Perfectly preserved 17th-century warship."
+        },
+        {
+          "name": "Monteliusvägen",
+          "maps_link": "https://www.google.com/maps/place/Monteliusvägen/@59.3203285,18.0562971,16z/",
+          "why_visit": "Best sunset viewpoint in Stockholm."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "Riddarholmen Viewpoint",
+          "maps_link": "https://www.google.com/maps/place/Riddarholmen/@59.3250000,18.0600000,16z/",
+          "description": "Quiet waterfront island with great views."
+        },
+        {
+          "name": "Rosendals Trädgård",
+          "maps_link": "https://www.google.com/maps/place/Rosendals+Trädgård/@59.3231703,18.1169163,16z/",
+          "description": "Greenhouse cafés and gardens."
+        },
+        {
+          "name": "Södermalm Cliffs (Fjällgatan)",
+          "maps_link": "https://www.google.com/maps/place/Fjällgatan/@59.3186928,18.0894459,16z/",
+          "description": "Cliffside Baltic Sea viewpoints."
         }
       ]
     },
+
     {
-      "name": "Uppsala (Inland & History)",
+      "name": "Gothenburg",
       "interests": [
-        "Historic Town & University Heritage 📚🏰",
-        "Nature & River Views 🌿",
-        "Cultural History & Cozy Small‑City Feel 🎭"
+        {
+          "name": "Harbor & Waterfront 🌊",
+          "map_link": "https://www.google.com/maps/place/Göteborgs+Hamnområde/@57.7040000,11.9570000,16z/",
+          "description": "Harbor atmosphere, ferries and coastal walks."
+        },
+        {
+          "name": "Parks & Scandinavian Nature 🌳",
+          "map_link": "https://www.google.com/maps/place/Slottsskogen/@57.6836000,11.9400000,16z/",
+          "description": "Huge urban park with nature paths."
+        },
+        {
+          "name": "Art, Culture & Scandinavian Design 🎨",
+          "map_link": "https://www.google.com/maps/place/Göteborgs+konstmuseum/@57.6964700,11.9763100,16z/",
+          "description": "Nordic art and modern culture."
+        }
       ],
-      "local_food_tip": "Local bakery goods, traditional Swedish meals, local breads and comfort dishes — ideal after walking old streets or riverside paths.",
-      "full_day": "Morning: 🏛️ Walk through old town centre and visit historic buildings (cathedral, old university area). → ☕ Breakfast or pastry in a local café.\n\nAfternoon: 🌳 Stroll along the river or explore botanical gardens/natural zones nearby → 🍽️ Lunch: simple Swedish meal with local produce.\n\nSunset: 🌇 Riverside or city‑edge walk — peaceful views and calm atmosphere. \n\nNight: 🌙 Quiet dinner, cozy cafés or relaxed evening strolls — small‑town charm meets history.",
+      "local_food_tip": "Pastries, soups, buns, seafood & mild Scandinavian flavors.",
+      "full_day": "Morning at <a href=\"https://www.google.com/maps/place/Packhusplatsen/@57.7071400,11.9656600,16z/\" target=\"_blank\">Packhusplatsen</a> → <a href=\"https://www.google.com/maps/place/Maritiman/@57.7089600,11.9619000,16z/\" target=\"_blank\">Maritiman</a> → ☕ Haga.\n\nAfternoon: 🌳 <a href=\"https://www.google.com/maps/place/Slottsskogen/@57.6836000,11.9400000,16z/\" target=\"_blank\">Slottsskogen</a> → 🎨 <a href=\"https://www.google.com/maps/place/Göteborgs+konstmuseum/@57.6964700,11.9763100,16z/\" target=\"_blank\">Art Museum</a> → lunch.\n\nSunset: <a href=\"https://www.google.com/maps/place/Röda+Sten+Konsthall/@57.6902100,11.9149400,16z/\" target=\"_blank\">Röda Sten</a>.\n\nNight: Haga or Linnéstan walk.",
+      "seasons": {
+        "spring": {
+          "event": "Spring in Gothenburg",
+          "ideas": [
+            "🌸 Blossoms in Slottsskogen.",
+            "🌿 Coastal walks.",
+            "☕ Outdoor fika."
+          ]
+        },
+        "summer": {
+          "event": "Summer in Gothenburg",
+          "ideas": [
+            "🚤 Ferries from Saltholmen.",
+            "🏖️ Island beaches.",
+            "🍨 Ice cream in Haga."
+          ]
+        },
+        "autumn": {
+          "event": "Autumn in Gothenburg",
+          "ideas": [
+            "🍁 Warm forest colors.",
+            "🥐 Cozy cafés.",
+            "🎨 Museum days."
+          ]
+        },
+        "winter": {
+          "event": "Winter in Gothenburg",
+          "ideas": [
+            "🎄 Liseberg Christmas lights.",
+            "✨ Avenyn illumination.",
+            "❄️ Warm indoor culture."
+          ]
+        }
+      },
+      "public_transport_tips": [
+        {
+          "tip": "🚋 Use Gothenburg trams — main and easiest way to get around the city.",
+          "link": "https://www.vasttrafik.se/en/"
+        },
+        {
+          "tip": "🚌 Buses connect outer districts and parks such as Slottsskogen & Botaniska.",
+          "link": "https://www.vasttrafik.se/en/"
+        },
+        {
+          "tip": "🚢 Archipelago ferries leave from Saltholmen — reachable by tram.",
+          "link": "https://www.vasttrafik.se/en/timetables/boat-traffic/"
+        },
+        {
+          "tip": "🎟️ Buy a 1–3 day Västtrafik pass for unlimited tram/bus/ferry travel.",
+          "link": "https://www.vasttrafik.se/en/tickets/"
+        },
+        {
+          "tip": "📱 Use Västtrafik To Go app for live departures & trip planning.",
+          "link": "https://www.vasttrafik.se/en/"
+        }
+      ],
+      "city_events": [
+        {
+          "name": "Göteborg Culture Festival",
+          "season": "summer",
+          "description": "Art, music and outdoor culture.",
+          "website": "https://www.goteborg.com/en/events"
+        }
+      ],
+      "recommended_places": [
+        {
+          "name": "Haga",
+          "maps_link": "https://www.google.com/maps/place/Haga,+Gothenburg/@57.6985000,11.9532000,16z/",
+          "why_visit": "Historic wooden district."
+        },
+        {
+          "name": "Slottsskogen",
+          "maps_link": "https://www.google.com/maps/place/Slottsskogen/@57.6836000,11.9400000,16z/",
+          "why_visit": "Huge green park."
+        },
+        {
+          "name": "Röda Sten Art Hall",
+          "maps_link": "https://www.google.com/maps/place/Röda+Sten+Konsthall/@57.6902100,11.9149400,16z/",
+          "why_visit": "Sunset waterfront art spot."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "Älvsborg Fortress Viewpoint",
+          "maps_link": "https://www.google.com/maps/place/Älvsborgs+Fästning/@57.6825000,11.7920000,16z/",
+          "description": "Coastal fortress with ocean views."
+        },
+        {
+          "name": "Botaniska Trädgården",
+          "maps_link": "https://www.google.com/maps/place/Gothenburg+Botanical+Garden/@57.6886500,11.9502100,16z/",
+          "description": "Huge botanical garden."
+        },
+        {
+          "name": "Keillers Park (Ramberget)",
+          "maps_link": "https://www.google.com/maps/place/Keillers+Park/@57.7208800,11.9360000,16z/",
+          "description": "Citywide viewpoint."
+        }
+      ]
+    },
+
+    {
+      "name": "Malmö",
+      "interests": [
+        {
+          "name": "Modern Architecture & Waterfront 🏛️🌊",
+          "map_link": "https://www.google.com/maps/place/Turning+Torso/@55.6133330,12.9761110,16z/",
+          "description": "Iconic skyscraper and waterfront."
+        },
+        {
+          "name": "Parks & Scandinavian Nature 🌳",
+          "map_link": "https://www.google.com/maps/place/Kungsparken/@55.6052000,12.9933000,16z/",
+          "description": "Green parks & canals."
+        },
+        {
+          "name": "Historic Old Town & Squares 🏰",
+          "map_link": "https://www.google.com/maps/place/Stortorget,+Malmö/@55.6067660,13.0009960,16z/",
+          "description": "Historic center & cafés."
+        }
+      ],
+      "local_food_tip": "Pastries, soups, vegetarian bowls, mild fish dishes & modern Scandinavian food.",
+      "full_day": "Morning in <a href=\"https://www.google.com/maps/place/Stortorget,+Malmö/@55.6067660,13.0009960,16z/\" target=\"_blank\">Stortorget</a> → <a href=\"https://www.google.com/maps/place/Kungsparken/@55.6052000,12.9933000,16z/\" target=\"_blank\">Kungsparken</a>. → ☕ Lilla Torg.\n\nAfternoon: <a href=\"https://www.google.com/maps/place/Västra+Hamnen/@55.6122000,12.9728000,16z/\" target=\"_blank\">Västra Hamnen</a> → <a href=\"https://www.google.com/maps/place/Turning+Torso/@55.6133330,12.9761110,16z/\" target=\"_blank\">Turning Torso</a>.\n\nSunset: <a href=\"https://www.google.com/maps/place/Ribersborgsstranden/@55.6078000,12.9639000,16z/\" target=\"_blank\">Ribersborg Beach</a>.\n\nNight: Waterfront or Old Town.",
+      "seasons": {
+        "spring": {
+          "event": "Spring in Malmö",
+          "ideas": [
+            "🌼 Flowers in parks.",
+            "🌿 Canal walks.",
+            "☕ Outdoor cafés."
+          ]
+        },
+        "summer": {
+          "event": "Summer in Malmö",
+          "ideas": [
+            "🏖️ Ribersborg Beach.",
+            "🌇 Västra Hamnen sunsets.",
+            "🍦 Ice cream along promenades."
+          ]
+        },
+        "autumn": {
+          "event": "Autumn in Malmö",
+          "ideas": [
+            "🍁 Autumn parks.",
+            "🥐 Cozy bakeries.",
+            "🎨 Indoor museums."
+          ]
+        },
+        "winter": {
+          "event": "Winter in Malmö",
+          "ideas": [
+            "✨ Christmas lights.",
+            "❄️ Coastal walks.",
+            "🔥 Warm cafés."
+          ]
+        }
+      },
+      "public_transport_tips": [
+        {
+          "tip": "🚋 Use Gothenburg trams — main and easiest way to get around the city.",
+          "link": "https://www.vasttrafik.se/en/"
+        },
+        {
+          "tip": "🚌 Buses connect outer districts and parks such as Slottsskogen & Botaniska.",
+          "link": "https://www.vasttrafik.se/en/"
+        },
+        {
+          "tip": "🚢 Archipelago ferries leave from Saltholmen — reachable by tram.",
+          "link": "https://www.vasttrafik.se/en/timetables/boat-traffic/"
+        },
+        {
+          "tip": "🎟️ Buy a 1–3 day Västtrafik pass for unlimited tram/bus/ferry travel.",
+          "link": "https://www.vasttrafik.se/en/tickets/"
+        },
+        {
+          "tip": "📱 Use Västtrafik To Go app for live departures & trip planning.",
+          "link": "https://www.vasttrafik.se/en/"
+        }
+      ],
+      "city_events": [
+        {
+          "name": "Malmö Festival",
+          "season": "summer",
+          "description": "Music, food & street culture.",
+          "website": "https://www.malmofestivalen.se"
+        }
+      ],
+      "recommended_places": [
+        {
+          "name": "Turning Torso",
+          "maps_link": "https://www.google.com/maps/place/Turning+Torso/@55.6133330,12.9761110,16z/",
+          "why_visit": "Tallest building in Scandinavia."
+        },
+        {
+          "name": "Lilla Torg",
+          "maps_link": "https://www.google.com/maps/place/Lilla+Torg,+Malmö/@55.6045000,13.0010000,16z/",
+          "why_visit": "Cozy cafés & atmosphere."
+        },
+        {
+          "name": "Ribersborg Beach",
+          "maps_link": "https://www.google.com/maps/place/Ribersborgsstranden/@55.6078000,12.9639000,16z/",
+          "why_visit": "Beautiful long beach."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "Fiskehoddorna Fish Market",
+          "maps_link": "https://www.google.com/maps/place/Fiskehoddorna/@55.6009000,12.9902000,16z/",
+          "description": "Colorful fisherman huts."
+        },
+        {
+          "name": "Slottsträdgården",
+          "maps_link": "https://www.google.com/maps/place/Slottsträdgården,+Malmö/@55.6053000,12.9875000,16z/",
+          "description": "Gardens near castle."
+        },
+        {
+          "name": "Daniaparken",
+          "maps_link": "https://www.google.com/maps/place/Daniaparken/@55.6176000,12.9728000,16z/",
+          "description": "Modern coastal park."
+        }
+      ]
+    },
+
+    {
+      "name": "Uppsala",
+      "interests": [
+        {
+          "name": "Historic Town & University Heritage 📚🏰",
+          "map_link": "https://www.google.com/maps/place/Uppsala+Cathedral/@59.8586111,17.6388889,16z/",
+          "description": "Ancient cathedral and university history."
+        },
+        {
+          "name": "Nature & River Views 🌿",
+          "map_link": "https://www.google.com/maps/place/Fyrisån/@59.8582582,17.6397270,16z/",
+          "description": "Peaceful river & parks."
+        },
+        {
+          "name": "Cultural History & Cozy Feel 🎭",
+          "map_link": "https://www.google.com/maps/place/Uppsala+Old+Town/@59.8589000,17.6382000,16z/",
+          "description": "Charming academic town center."
+        }
+      ],
+      "local_food_tip": "Pastries, soups, breads & mild Scandinavian comfort food.",
+      "full_day": "Morning: <a href=\"https://www.google.com/maps/place/Uppsala+Cathedral/@59.8586111,17.6388889,16z/\" target=\"_blank\">Cathedral</a> → <a href=\"https://www.google.com/maps/place/Gustavianum/@59.8582599,17.6389670,16z/\" target=\"_blank\">Gustavianum</a> → fika.\n\nAfternoon: <a href=\"https://www.google.com/maps/place/Fyrisån/@59.8582582,17.6397270,16z/\" target=\"_blank\">River walk</a> → <a href=\"https://www.google.com/maps/place/Uppsala+Botanical+Garden/@59.8504777,17.6318227,16z/\" target=\"_blank\">Botanical Garden</a> → lunch.\n\nSunset: River or castle hill.\n\nNight: Quiet cafés in Old Town.",
       "seasons": {
         "spring": {
           "event": "Spring History & Green Scenery",
           "ideas": [
-            "🌼 Blossoms, gentle riverside walks and soft weather for sightseeing.",
-            "📚 Cultural walks through historic sites and old town alleys.",
-            "☀️ Outdoor cafés and relaxed city atmosphere."
+            "🌼 Blossoms near Cathedral.",
+            "📚 Heritage walks.",
+            "☀️ Outdoor cafés."
           ]
         },
         "summer": {
-          "event": "Mild Summer & Calm River Vibes",
+          "event": "Mild Summer & River Vibes",
           "ideas": [
-            "🚶 Early morning or late evening riverside walks to avoid summer crowds.",
-            "🍽️ Outdoor lunches or picnics with local food and calm atmosphere.",
-            "🌳 Quiet small‑city vibes with mild weather and relaxed pace."
+            "🚶 Morning river strolls.",
+            "🍽️ Outdoor lunches.",
+            "🌳 Botanical garden shade."
           ]
         },
         "autumn": {
           "event": "Autumn Light & Heritage Walks",
           "ideas": [
-            "🍂 Fall colours along streets and riverbanks — great for photos and relaxing walks.",
-            "🔥 Warm meals and cozy cafés after crisp autumn days.",
-            "🏛️ Museums or indoor heritage visits if weather changes."
+            "🍂 Fall colors.",
+            "🔥 Warm meals.",
+            "🏛️ Museums & libraries."
           ]
         },
         "winter": {
           "event": "Winter Quiet & Historic Charm",
           "ideas": [
-            "❄️ Snow‑covered streets and soft winter ambiance in small city setting.",
-            "🔥 Hot drinks, warm food, cozy dinners and calm indoor culture spots.",
-            "🌙 Evening walks under soft winter lights — peaceful and atmospheric."
+            "❄️ Snowy old town.",
+            "🔥 Hot chocolate.",
+            "🌙 Calm river lights."
           ]
         }
       },
       "public_transport_tips": [
-        "🚶 Town centre is compact — explore mostly on foot.",
-        "🚆 Regional trains/buses connect with larger cities if planning day‑trips.",
-        "🚲 Bike or walk for nearby nature/riverside paths — convenient and scenic.",
-        "📝 Check schedules for public transport if exploring outskirts or countryside."
+        {
+          "tip": "🚆 SL + UL regional trains: fastest way to reach Uppsala from Stockholm.",
+          "link": "https://www.ul.se/en/"
+        },
+        {
+          "tip": "🚌 UL buses connect all districts, parks & riverbank areas.",
+          "link": "https://www.ul.se/en/"
+        },
+        {
+          "tip": "🚲 Bike-friendly city — many paths along river & university quarters.",
+          "link": "https://uppsalabike.com/"
+        },
+        {
+          "tip": "🎟️ UL 24h tickets save money for multiple trips.",
+          "link": "https://www.ul.se/en/tickets/"
+        },
+        {
+          "tip": "📱 Use UL app for routes & departures.",
+          "link": "https://www.ul.se/en/"
+        }
       ],
       "city_events": [
         {
           "name": "Uppsala Historical & Nature Days",
           "season": "spring",
-          "description": "🏛️ Heritage tours, riverside walks and community events in historic town setting."
+          "description": "Walks, culture & river events.",
+          "website": "https://www.destinationuppsala.se"
+        }
+      ],
+      "recommended_places": [
+        {
+          "name": "Uppsala Cathedral",
+          "maps_link": "https://www.google.com/maps/place/Uppsala+Cathedral/@59.8586111,17.6388889,16z/",
+          "why_visit": "Scandinavia’s largest cathedral."
+        },
+        {
+          "name": "Uppsala Botanical Garden",
+          "maps_link": "https://www.google.com/maps/place/Uppsala+Botanical+Garden/@59.8504777,17.6318227,16z/",
+          "why_visit": "Beautiful & calm."
+        },
+        {
+          "name": "Fyrisån Riverside",
+          "maps_link": "https://www.google.com/maps/place/Fyrisån/@59.8582582,17.6397270,16z/",
+          "why_visit": "Relaxing riverside walks."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "Uppsala Castle Hill",
+          "maps_link": "https://www.google.com/maps/place/Uppsala+Castle/@59.8571667,17.6380556,16z/",
+          "description": "Peaceful viewpoint."
+        },
+        {
+          "name": "Carolina Rediviva Library",
+          "maps_link": "https://www.google.com/maps/place/Carolina+Rediviva/@59.8580036,17.6298644,16z/",
+          "description": "Historic university library."
+        },
+        {
+          "name": "Fyrishov Nature Trail",
+          "maps_link": "https://www.google.com/maps/place/Fyrishov/@59.8748561,17.6394885,16z/",
+          "description": "Nature paths north of center."
         }
       ]
     }

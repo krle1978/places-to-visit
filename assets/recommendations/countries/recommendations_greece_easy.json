@@ -4,387 +4,812 @@
     {
       "name": "Athens",
       "interests": [
-        "Ancient History & Ruins 🏛️",
-        "Mediterranean Culture & Street Life 🍷",
-        "City Hills & Panoramic Views 🌄"
+        {
+          "name": "Ancient History 🏛️",
+          "map_link": "https://www.google.com/maps/search/?q=Acropolis+Athens",
+          "description": "Athens is the birthplace of Western civilization, packed with ancient temples, theatres, and archaeological wonders. The Acropolis stands as the city’s crown jewel, offering a glimpse into classical Greece. Everywhere you walk, history surrounds you — from hidden ruins to world-famous landmarks."
+        },
+        {
+          "name": "Sea Views 🌊",
+          "map_link": "https://www.google.com/maps/search/?q=Piraeus+Athens+Seaside",
+          "description": "Athens may be a historic capital, but it's also deeply connected to the sea. The coastline around Piraeus and the Athens Riviera offers stunning blue-water views and breezy promenades. Perfect for relaxing walks, seaside dining, or escaping the busy city center."
+        },
+        {
+          "name": "Local Food 😋",
+          "map_link": "https://www.google.com/maps/search/?q=Plaka+Athens+Tavernas",
+          "description": "Greek cuisine in Athens is fresh, flavorful, and deeply rooted in Mediterranean tradition. From warm pies and roasted vegetables to sweet pastries and fragrant herbs, every dish feels homemade. Local tavernas in Plaka and beyond deliver authentic flavors you'll remember."
+        },
+        {
+          "name": "Street Art 🎨",
+          "map_link": "https://www.google.com/maps/search/?q=Exarchia+Athens+Street+Art",
+          "description": "Athens has one of Europe’s most vibrant street art scenes, especially in neighborhoods like Exarchia and Psiri. Murals cover entire buildings, turning the city into an open-air gallery. It’s a creative mix of political expression, urban storytelling, and local identity."
+        },
+        {
+          "name": "Nightlife 🍸",
+          "map_link": "https://www.google.com/maps/search/?q=Psiri+Athens+Bars",
+          "description": "The city comes alive at night with rooftop terraces, cozy wine bars, and energetic music spots. Psiri and Gazi are nightlife hubs offering everything from quiet cocktails to late-night dancing. Whether you want elegance or chaos, Athens has a place for every mood."
+        }
       ],
-      "local_food_tip": "Gyros, souvlaki, fresh seafood, salads, olives — classic Greek flavors with Mediterranean freshness. 🥗🍢🐟",
-      "full_day": "Morning: 🏛️ Visit Acropolis & Parthenon, explore ancient ruins and historic landmarks. → ☕ Coffee and traditional breakfast in old town.\n\nAfternoon: 🚶 Stroll through narrow alleys of Plaka, visit museums or local markets → 🍽️ Lunch: Greek mezze or seafood by a terrace. → 🌇 Walk up to a hilltop viewpoint for city panorama.\n\nSunset: 🌅 Sunset view over Athens roofs and hills — golden hour over history and modern city. \n\nNight: 🌙 Dinner in traditional taverna, maybe live music, evening strolls through lively streets — blend of ancient and contemporary Greece.",
+      "local_food_tip": "Try spanakopita, gemista (stuffed vegetables), briam (baked vegetables), koulouri and loukoumades. Mediterranean flavors done right.",
+      "full_day": "Morning: 🏛️ Start at the legendary <a href=\"https://www.google.com/maps/search/?q=Acropolis+Athens\" target=\"_blank\" rel=\"noopener\">Acropolis</a> — Parthenon, Erekhtheion and panoramic views of Athens. → Continue to the modern <a href=\"https://www.google.com/maps/search/?q=Acropolis+Museum+Athens\" target=\"_blank\" rel=\"noopener\">Acropolis Museum</a>. → ☕ Coffee break in <a href=\"https://www.google.com/maps/search/?q=Plaka+Athens\" target=\"_blank\" rel=\"noopener\">Plaka</a>.\n\nAfternoon: 🏺 Explore <a href=\"https://www.google.com/maps/search/?q=Ancient+Agora+Athens\" target=\"_blank\" rel=\"noopener\">Ancient Agora</a> and the Temple of Hephaestus. → 🍽️ Lunch in a seaside taverna in Piraeus: <a href=\"https://www.google.com/maps/search/?q=Piraeus+Seaside+Tavernas\" target=\"_blank\" rel=\"noopener\">Piraeus Beachfront Tavernas</a>. → 🛍️ Wander the historic <a href=\"https://www.google.com/maps/search/?q=Monastiraki+Flea+Market\" target=\"_blank\" rel=\"noopener\">Monastiraki Market</a>.\n\nLate Afternoon: 🌆 Head up <a href=\"https://www.google.com/maps/search/?q=Lycabettus+Hill+Athens\" target=\"_blank\" rel=\"noopener\">Lycabettus Hill</a> by foot or funicular for golden-hour views. → Explore stylish <a href=\"https://www.google.com/maps/search/?q=Kolonaki+Athens\" target=\"_blank\" rel=\"noopener\">Kolonaki</a>.\n\nSunset: 🌇 Watch the sky turn gold in <a href=\"https://www.google.com/maps/search/?q=Anafiotika+Athens\" target=\"_blank\" rel=\"noopener\">Anafiotika</a>, the Cycladic-style village under the Acropolis.\n\nNight: 🍸 Evening in <a href=\"https://www.google.com/maps/search/?q=Psiri+Athens+Bars\" target=\"_blank\" rel=\"noopener\">Psiri</a>: bars, music and vibrant nightlife. → Optional: Rooftop cocktails with Acropolis views.",
       "seasons": {
         "spring": {
-          "event": "Spring History & Mild Sunshine",
+          "event": "Spring Blooms",
           "ideas": [
-            "🌼 Pleasant weather for sightseeing and walking ancient sites without summer crowd.",
-            "🎨 Outdoor cafés, markets and cultural events as city awakens.",
-            "🚶 Exploring old town streets under gentle sun — relaxed pace."
+            "🌸 Walk through the <a href=\"https://www.google.com/maps/search/?q=National+Garden+Athens\" target=\"_blank\" rel=\"noopener\">National Garden</a>.",
+            "🚶 Explore the Acropolis in pleasant weather.",
+            "☕ Outdoor cafés in Plaka.",
+            "🌿 Filopappou Hill walks.",
+            "📸 Street art photography in Exarchia."
           ]
         },
         "summer": {
-          "event": "Hot Days & Evening Breeze",
+          "event": "Summer Nights",
           "ideas": [
-            "🌞 Early sightseeing, midday rest, then evening strolls or rooftop dinners under warm sky.",
-            "🍹 Cold drinks, seafood, ice‑cream and relaxed nights after hot days.",
-            "🌇 Sunset walks and late‑night culture under warm summer nights."
+            "🌅 Rooftop sunset views of the Acropolis.",
+            "🍉 Fresh fruit & frappes in Monastiraki.",
+            "🎬 Outdoor film night at <a href=\"https://www.google.com/maps/search/?q=Thision+Outdoor+Cinema\" target=\"_blank\" rel=\"noopener\">Thision Cinema</a>.",
+            "🌊 Dinner in <a href=\"https://www.google.com/maps/search/?q=Piraeus+Port\" target=\"_blank\" rel=\"noopener\">Piraeus</a> by the sea.",
+            "🎉 Nightlife in Gazi."
           ]
         },
         "autumn": {
-          "event": "Golden Light & Historic Calm",
+          "event": "Golden Athens",
           "ideas": [
-            "🍂 Soft light and pleasant temperature — ideal for photos around ancient sites.",
-            "🥘 Hearty meals with Greek flavors and warm hospitality as days cool.",
-            "🏺 Indoor museums or cultural visits if weather changes."
+            "🍁 Calm walks in Plaka.",
+            "🎭 Museum afternoons.",
+            "🍲 Warm Greek comfort food.",
+            "📷 Soft autumn light for photos.",
+            "🚶 Long routes without heat."
           ]
         },
         "winter": {
-          "event": "Mild Winters & Historic Charm",
+          "event": "Mild Mediterranean Winter",
           "ideas": [
-            "🌤️ Mild winter weather — still good for city walks and sightseeing.",
-            "🔥 Warm meals, local dishes and cozy taverna dinners after chilly evenings.",
-            "🎭 Less crowd — peaceful exploration of historic sites and city corners."
+            "☕ Cozy cafés in Kolonaki.",
+            "🎄 Christmas markets.",
+            "🏛️ Acropolis Museum & Benaki Museum.",
+            "🍫 Hot chocolate & loukoumades.",
+            "🌌 Peaceful Lycabettus night views."
           ]
         }
       },
       "public_transport_tips": [
-        "🚇 Use metro and buses to navigate city and reach outskirts easily.",
-        "🚶 Old town and central areas walkable — good for sightseeing on foot.",
-        "🚲 Bikes or scooters may help for short hops or beachfront promenades.",
-        "🎟️ Day‑pass for public transport useful if exploring multiple areas."
+        {
+          "tip": "🚇 Metro is the fastest way to get around Athens.",
+          "link": "https://www.thisisathens.org/getting-around/public-transportation-metro-bus-tram"
+        },
+        {
+          "tip": "🚌 Buses & trolleybuses cover all major districts.",
+          "link": "https://www.oasa.gr/en/"
+        },
+        {
+          "tip": "🚊 Tram connects the city center with the coast.",
+          "link": "https://www.stasy.gr/en/tram/"
+        },
+        {
+          "tip": "📱 Use the official transport app 'OASA Telematics' for live arrivals.",
+          "link": "https://telematics.oasa.gr/en/"
+        },
+        {
+          "tip": "🚕 Taxis are widely available; apps like Beat work well.",
+          "link": "https://www.thebeat.co/en/"
+        }
       ],
       "city_events": [
         {
-          "name": "Athens Summer Street Nights",
+          "name": "Athens Epidaurus Festival",
           "season": "summer",
-          "description": "🎶 Open‑air concerts, nightlife and cultural events across the city."
+          "description": "🎭 Performances and concerts across Athens and Epidaurus."
         }
       ]
     },
+
     {
-      "name": "Santorini & Aegean Islands (Summer / Sea Escape)",
+      "name": "Corfu",
       "interests": [
-        "Mediterranean Sea & Crystal Waters 🌊",
-        "Caldera Views & Island Scenery 🌄",
-        "Beach, Sunsets & Island Lifestyle 🏖️"
+        {
+          "name": "Green Island Landscapes 🌿",
+          "map_link": "https://www.google.com/maps/search/?q=Corfu+Nature+Trails",
+          "description": "Corfu is one of Greece’s greenest islands, full of cypress trees, olive groves, and rolling hills. Its landscapes feel refreshing compared to the drier Cyclades. Perfect for scenic hikes, nature photography, and peaceful coastal walks."
+        },
+        {
+          "name": "Old Town Streets 🏛️",
+          "map_link": "https://www.google.com/maps/search/?q=Corfu+Old+Town",
+          "description": "Corfu Old Town is a UNESCO World Heritage site filled with Venetian charm. Narrow alleys, tall pastel buildings, and hidden squares make it feel magical. It’s the ideal place to get lost, explore, shop, or enjoy a relaxed coffee."
+        },
+        {
+          "name": "Beaches 🌊",
+          "map_link": "https://www.google.com/maps/search/?q=Corfu+Beaches",
+          "description": "Corfu offers some of the most beautiful beaches in the Ionian Sea, with crystal-clear waters and dramatic cliffs. From sandy family-friendly spots to secluded coves, the island has something for every traveler. Perfect for swimming, snorkeling, or relaxing by the sea."
+        },
+        {
+          "name": "Local Food 😋",
+          "map_link": "https://www.google.com/maps/search/?q=Corfu+Tavernas",
+          "description": "Corfiot cuisine blends Greek tradition with Venetian influences. Expect hearty pastas, local herbs, and kumquat-based desserts. Island tavernas serve warm, comforting meals with fresh ingredients and authentic flavors."
+        },
+        {
+          "name": "Coastal Views 🌅",
+          "map_link": "https://www.google.com/maps/search/?q=Corfu+Viewpoints",
+          "description": "Corfu’s coastline is full of breathtaking viewpoints and dramatic cliffsides overlooking turquoise waters. Sunset spots like Paleokastritsa offer unforgettable panoramas. A must-see for photographers and travelers who love scenic landscapes."
+        }
       ],
-      "local_food_tip": "Fresh seafood, greek salad, local wine, light meals and Mediterranean cuisine — perfect after beach or sea activities. 🍷🐙🥗",
-      "full_day": "Morning: 🌅 Sunrise or early‑morning walk along cliffs, enjoy sea view and calm sea atmosphere. → 🏖️ Beach or boat trip — swim, sun or relax by the sea.\n\nAfternoon: 🐠 Lunch by the coast — seafood or fresh Mediterranean dishes. → 🚶 Explore island streets, white houses, narrow alleys and sea‑view terraces.\n\nSunset: 🌇 Iconic island sunset over caldera or sea — unforgettable panorama and relaxed vibe. \n\nNight: 🌙 Dinner with sea breeze, local wine or cocktails, slow island pace and starry skies over Aegean.",
+      "local_food_tip": "Try Corfiot-style vegetarian pastitsada, kumquat sweets, olive-based dishes, feta and freshly baked village bread.",
+      "full_day": "Morning: 🏛️ Start exploring <a href=\"https://www.google.com/maps/search/?q=Corfu+Old+Town\" target=\"_blank\" rel=\"noopener\">Corfu Old Town</a>, a UNESCO site filled with Venetian architecture, narrow alleys and impressive fortresses. → ☕ Enjoy a relaxed morning coffee at <a href=\"https://www.google.com/maps/search/?q=Liston+Square+Corfu\" target=\"_blank\" rel=\"noopener\">Liston Square</a>.\n\nAfternoon: 🌊 Head to one of Corfu’s stunning beaches: <a href=\"https://www.google.com/maps/search/?q=Glyfada+Beach+Corfu\" target=\"_blank\" rel=\"noopener\">Glyfada Beach</a> or <a href=\"https://www.google.com/maps/search/?q=Paleokastritsa+Beach+Corfu\" target=\"_blank\" rel=\"noopener\">Paleokastritsa Beach</a>. → 🍽️ Lunch in a beachfront taverna: <a href=\"https://www.google.com/maps/search/?q=Paleokastritsa+Tavernas\" target=\"_blank\" rel=\"noopener\">Paleokastritsa Seaside Tavernas</a>.\n\nSunset: 🌇 Enjoy incredible views from the <a href=\"https://www.google.com/maps/search/?q=Paleokastritsa+Viewpoint\" target=\"_blank\" rel=\"noopener\">Paleokastritsa Viewpoint</a>.\n\nNight: 🌃 Return to the Old Town for an atmospheric evening walk through lantern-lit alleys and waterfront cafés.",
       "seasons": {
         "spring": {
-          "event": "Early Island Calm & Sea Breezes",
+          "event": "Emerald Spring",
           "ideas": [
-            "🌼 Mild weather before summer rush — nice for peaceful walks and island discovery.",
-            "🚤 Boat rides or coastal walks while temperatures are moderate.",
-            "🍃 Fresh sea air, fewer tourists — perfect for relaxed island vibe."
+            "🌿 Explore lush hill paths around Paleokastritsa.",
+            "🚶 Relaxed Old Town strolls in mild weather.",
+            "☕ Terrace cafés at Liston Square."
           ]
         },
         "summer": {
-          "event": "Beach Days & Island Nights",
+          "event": "Island Summer",
           "ideas": [
-            "🏖️ Full beach mode — swimming, sun, sea and water fun all day.",
-            "🌙 Evening dinners by sea, sunset views and lively nightlife in island bars.",
-            "🍨 Fresh meals, local drinks and relaxed coastal lifestyle under warm nights."
+            "🏖️ Crystal-clear swimming at Glyfada or Paleokastritsa.",
+            "🍉 Fresh fruit snacks by the beach.",
+            "🎉 Evening promenade walks with music."
           ]
         },
         "autumn": {
-          "event": "Golden Sea & Quiet Villages",
+          "event": "Warm Autumn",
           "ideas": [
-            "🍂 Milder temperature, calm sea — pleasant for sightseeing without summer heat.",
-            "🥘 Hearty Mediterranean meals after day trips or hikes.",
-            "🌅 Stunning sunsets and soft light over seas and islands — perfect for photos."
+            "🌅 Soft golden sunsets from viewpoints.",
+            "🍽️ Cozy dinners in Old Town taverns.",
+            "📷 Scenic cliff-and-sea photography."
           ]
         },
         "winter": {
-          "event": "Off‑season Calm & Island Quiet",
+          "event": "Quiet Corfu",
           "ideas": [
-            "🌊 Sea breeze, empty beaches and peaceful coastal walks — serene and reflective.",
-            "🔥 Warm seafood or local dishes, cozy indoor meals and calm village nights.",
-            "🎑 Starry skies, calm seas and tranquil island atmosphere out of tourist season."
+            "🏛️ Explore Old Town museums and fortresses.",
+            "☕ Warm cafés along the waterfront.",
+            "🌧️ Moody, atmospheric seaside walks."
           ]
         }
       },
       "public_transport_tips": [
-        "⛵ Ferry or boat transport between islands or coastal spots — main travel mode in summer.",
-        "🚶 On island — walking is best to explore narrow alleys, old villages and scenic spots.",
-        "🚐 For remote corners — local buses or scooter/car rental may help.",
-        "🎫 Check ferry schedules and local transport passes in high season."
-      ],
-      "city_events": [
         {
-          "name": "Aegean Summer Island Fest",
-          "season": "summer",
-          "description": "🌅 Beach parties, music the sea, local food, island nightlife and Mediterranean summer vibe."
-        }
-      ]
-    },
-    {
-      "name": "Stavros (Halkidiki)",
-      "interests": [
-        "Beach & Aegean Sea 🌊",
-        "Relaxed Coastal Village Vibes 🏖️",
-        "Nature & Pine‑Lined Coasts 🌲"
-      ],
-      "local_food_tip": "Seafood, fresh fish, Greek salads, olive oil, mezze and local wines — ideal light meals after beach or sea activities. 🐟🥗🍷",
-      "full_day": "Morning: 🌅 Early stroll or swim on the beach — calm waters and soft morning light. → ☕ Breakfast in seaside taverna with seaside view.\n\nAfternoon: 🏖️ Beach time — swim, sunbathe or relax under pine trees by sea → 🍽️ Lunch: grill fish or light seafood with fresh vegetables.\n\nSunset: 🌇 Coastal walk or small cliff/beach viewpoint for sunset over Aegean — beautiful panorama and laid‑back vibe.\n\nNight: 🌙 Dinner with coastal breeze, local wine or ouzo; relaxed seaside ambience, casual tavernas and calm village nightlife.",
-      "seasons": {
-        "spring": {
-          "event": "Early‑season Coastal Calm",
-          "ideas": [
-            "🌼 Mild sea and weather — nice for quiet beach walks before summer crowds.",
-            "🚶 Coastal pine‑lined paths for light hiking or strolling.",
-            "☀️ Outdoor meals with sea breeze and early sunshine."
-          ]
+          "tip": "🚌 Use the official Green Buses (KTEL Corfu) for routes across the island.",
+          "link": "https://greenbuses.gr/"
         },
-        "summer": {
-          "event": "Beach Days & Island‑Like Village Life",
-          "ideas": [
-            "🏖️ Swimming, sun, sea — full summer mode in a relaxed village setting.",
-            "🍹 Fresh seafood dinners, chilled drinks and laid‑back nights by the sea.",
-            "🎶 Small local music, seaside tavernas or casual summer events under stars."
-          ]
-        },
-        "autumn": {
-          "event": "Calm Sea & Soft Light Evenings",
-          "ideas": [
-            "🍂 Gentle autumn light — perfect for beach walks and seaside photos.",
-            "🔥 Warm seafood or Greek comfort meals after cooler evenings.",
-            "🌊 Quiet sea, fewer tourists — peaceful coastal escape."
-          ]
-        },
-        "winter": {
-          "event": "Sea‑Side Serenity & Winter Calm",
-          "ideas": [
-            "🌬️ Fresh sea air and calm coasts — peaceful for reflection or walks.",
-            "🛏️ Cozy tavernas, warm meals and local hospitality in quiet village atmosphere.",
-            "🌧️ Occasional rainy sea weather — good for indoor rest or nearby excursions."
-          ]
-        }
-      },
-      "public_transport_tips": [
-        "🚍 Local buses connect to main towns or coastal hubs — check seasonal schedule.",
-        "🚶 Village and beach area walkable — best explored on foot or by bicycle.",
-        "🚗 Renting a car or scooter gives fleksibility da istražiš obližnje plaže i okolinu.",
-        "🎒 Ponesi dobru obuću i opremu za more i sunce — prirodna sredina + plaža."
-      ],
-      "city_events": [
         {
-          "name": "Stavros Summer Beach Days",
-          "season": "summer",
-          "description": "🌅 Beach life, seaside dinners, local food & relaxed coastal vibe under summer sky."
-        }
-      ]
-    },
-    {
-      "name": "Halkidiki (Kassandra peninsula)",
-      "interests": [
-        "Golden Beaches & Sea 🌊",
-        "Nightlife & Summer Tourism 🏖️🌙",
-        "Coastal Nature & Forested Aroundings 🌲"
-      ],
-      "local_food_tip": "Tzatziki, fresh seafood, grilled meats, local salads — Mediterranean diet with chill summer mood. 🍢🐙🥗",
-      "full_day": "Morning: 🏝️ Start at one of the sandy beaches — swim, sunbathing or water sports. → ☕ Breakfast or light brunch at beachfront café.\n\nAfternoon: 🚤 Boat trip along coast or visit nearby secluded coves → 🍽️ Lunch: mezze or seafood by the sea.\n\nSunset: 🌇 Promenade or beach‑side bar for sunset cocktails and sea view. \n\nNight: 🌃 Summer nightlife — tavernas, bars, beach‑parties, live music or just relaxed coastal ambience under warm sky.",
-      "seasons": {
-        "spring": {
-          "event": "Pre‑season Calm & Coastal Walks",
-          "ideas": [
-            "🌼 Mild spring weather — good for beach walks and early visits before crowds.",
-            "🌿 Coastal pine forests + sea breeze — nice for nature lovers and light hikes.",
-            "🚶 Calm villages and seaside towns before busy season start."
-          ]
+          "tip": "🚍 Local blue buses operate within Corfu Town and nearby districts.",
+          "link": "https://astikoktelkerkyras.gr/en/"
         },
-        "summer": {
-          "event": "Beach & Nightlife Summer Fest",
-          "ideas": [
-            "🏖️ Days at sea, parties at night — full summer tourist experience.",
-            "🍧 Ice‑cream, chilled drinks, seafood dinners by sea after hot day.",
-            "🎶 Beach bars and live‑music nightlife along coast under stars."
-          ]
-        },
-        "autumn": {
-          "event": "Golden Coast & Relaxed Evenings",
-          "ideas": [
-            "🍁 Sea calm, softer sun — ideal for tranquil beach walks and coastal relaxation.",
-            "🥘 Local meals, sea‑food and warm evenings with Mediterranean taste.",
-            "📸 Beautiful light for photography — sea + coast + calm mood."
-          ]
-        },
-        "winter": {
-          "event": "Off‑season Peace & Sea Breeze Escape",
-          "ideas": [
-            "🌬️ Fresh sea air, quiet coastlines — good for offseason escapes and reflection.",
-            "🔥 Warm meals, local hospitality — calm village or small town experience.",
-            "🚶 Nature coastal walks — peaceful, calm and uncrowded."
-          ]
-        }
-      },
-      "public_transport_tips": [
-        "🚆 Nearest big city + bus/ shuttle do poluostrva — plan prevoz unapred ako letiš van sezone.",
-        "🚶 Mnogi delovi poluostrva su pogodna za pešačenje — potrudi se da biraš blizu plaže/centra.",
-        "🚗 Auto ili motor‑scooter može da olakša istraživanje različitih plaža i manjih mesta.",
-        "🎫 Tokom sezone — raspitaj se za lokalne karte / kombi‑prevoz, može da bude gužve."
-      ],
-      "city_events": [
         {
-          "name": "Halkidiki Summer Beach Parties",
-          "season": "summer",
-          "description": "🎉 Beach parties, boat trips, seaside dining and lively summer vibe on the peninsula."
-        }
-      ]
-    },
-    {
-      "name": "Mykonos (Cyclades Islands)",
-      "interests": [
-        "Island Life & Aegean Sea 🌅",
-        "Nightlife & Party Vibe 🎶",
-        "White Villages, Windmills & Scenic Views 🏛️"
-      ],
-      "local_food_tip": "Seafood, fresh fish, mezze, Mediterranean salads, local cheeses and island wines — perfect after boat rides or sea swims. 🐠🥗🍷",
-      "full_day": "Morning: 🌊 Swim or relax by the sea, enjoy calm waters and island air → 🍴 Brunch on beachfront tavernas.\n\nAfternoon: 🚶 Explore whitewashed villages, windmills, narrow alleys and local shops → 🍽️ Lunch: seafood or light Mediterranean dish.\n\nSunset: 🌇 Famous Mykonos sunset — stroll along coast or find a rooftop with sea view for golden hour.\n\nNight: 🌙 Party mood — beach bars, clubs, nightlife, music & drinks under island sky; or relaxed dinner by the sea, depending on vibe.",
-      "seasons": {
-        "spring": {
-          "event": "Early Island Calm & Culture Discovery",
-          "ideas": [
-            "🌼 Mild weather — nice for exploring villages and coastal paths before summer crowds.",
-            "🚶 Quiet streets, local island culture and relaxed pace.",
-            "🍷 Try local wine and seafood in calm tavernas."
-          ]
+          "tip": "🚕 Taxis are available throughout the island; call or use local taxi apps.",
+          "link": "http://www.corfutaxi.gr/"
         },
-        "summer": {
-          "event": "Island Summer & Nightlife Energy",
-          "ideas": [
-            "🏖️ Beach, sea, sun — full island holiday (sun & swim & relax).",
-            "🎉 Nightlife, beach parties, social vibe and Mediterranean fun under stars.",
-            "🍨 Chill days & lively nights — classic island mix."
-          ]
-        },
-        "autumn": {
-          "event": "Quiet Island Autumn & Relaxed Pace",
-          "ideas": [
-            "🍂 Fewer turisti — mirnije plaže, niža cena i spokojna atmosfera.",
-            "🍲 Regional jela, sveža riba i domaće vino u mirnim restoranima.",
-            "📷 Lepi kadrovi belih sela, plavetnilo mora i jesenja svetlost."
-          ]
-        },
-        "winter": {
-          "event": "Off‑season Island Silence & Reflection",
-          "ideas": [
-            "🌤️ Mirlje, tiha mesta — lepa opcija za miran beg od gužve.",
-            "🔥 Topla jela, domaće taverne, tišina ostrva i priroda.",
-            "🚶 Šetnje uz obalu, istraživanje sela i romantika ostrvske zime."
-          ]
-        }
-      },
-      "public_transport_tips": [
-        "⛴️ Trajekti i brodovi — glavni način pristupa ostrvu i prelaza između ostrva.",
-        "🚶 Unutar ostrva — pešaka ili lokalnim prevozom, jer su mesta blizu i šeta se lako.",
-        "🏍️ Skuter ili motor‑bicikl može da bude zgodna opcija za istraživanje ostrva.",
-        "🎫 Tokom sezone — pogledaj pakete trajekta + smeštaja + prevoza da uštediš."
-      ],
-      "city_events": [
         {
-          "name": "Mykonos Summer Island Festival",
-        "season": "summer",
-        "description": "🌅 Beach parties, island nightlife, music events and classic Mediterranean island vibe."
+          "tip": "🚗 Renting a car is recommended for beach hopping and exploring remote spots.",
+          "link": "https://www.google.com/maps/search/?q=Corfu+Car+Rental"
+        },
+        {
+          "tip": "🚶 Corfu Old Town is fully walkable and perfect for strolling.",
+          "link": "https://www.google.com/maps/search/?q=Corfu+Old+Town+Walking"
         }
-      ]
+      ],
+      "city_events": []
     },
     {
       "name": "Crete",
       "interests": [
-        "Island Life & Mediterranean Sea 🌊",
-        "Mountains, Bustling Cities & Ancient Sites 🏛️",
-        "Seafood, Local Cuisine & Rustic Villages 🍽️"
+        {
+          "name": "Mountains & Sea 🌄🌊",
+          "map_link": "https://www.google.com/maps/search/?q=Crete+Mountains+and+Sea+Viewpoints",
+          "description": "Crete blends rugged mountains with crystal-blue seas, creating dramatic landscapes found nowhere else in Greece. The island is full of scenic drives, coastal hikes, and panoramic viewpoints. Nature lovers will find endless opportunities for exploration and photography."
+        },
+        {
+          "name": "Beaches 🏖️",
+          "map_link": "https://www.google.com/maps/search/?q=Crete+Beaches",
+          "description": "Crete is home to some of Europe’s most famous beaches, including the pink sands of Elafonissi and the turquoise waters of Balos. Many beaches are surrounded by untouched nature and shallow, warm waters. Ideal for relaxing, swimming, or taking stunning holiday photos."
+        },
+        {
+          "name": "Historic Sites 🏺",
+          "map_link": "https://www.google.com/maps/search/?q=Knossos+Palace+Crete",
+          "description": "As the center of the ancient Minoan civilization, Crete is filled with archaeological wonders. The Palace of Knossos stands as the island’s most iconic historic site, rich in myth and legend. Museums and ruins across the island reveal thousands of years of cultural heritage."
+        },
+        {
+          "name": "Villages 🌿",
+          "map_link": "https://www.google.com/maps/search/?q=Crete+Traditional+Villages",
+          "description": "Traditional Cretan villages offer a slower, more authentic side of island life. Stone houses, narrow lanes, and warm hospitality define these local communities. They’re perfect for trying homemade food, exploring local shops, and enjoying mountain or seaside views."
+        },
+        {
+          "name": "Local Food 😋",
+          "map_link": "https://www.google.com/maps/search/?q=Crete+Tavernas",
+          "description": "Cretan cuisine is simple, fresh, and incredibly flavorful. Expect dishes made with local olive oil, wild herbs, honey, cheeses, and garden-grown vegetables. Village tavernas offer meals that feel homemade, often paired with raki or local wine."
+        }
       ],
-      "local_food_tip": "Try fresh seafood, Cretan cheeses, olive oil, dakos salad, lamb with herbs and local wines — hearty Mediterranean flavours. 🐟🧀🍷",
-      "full_day": "Morning: 🌅 Start early on a coastal beach (e.g. Elafonisi or Balos) — swim, relax by turquoise waters. → ☕ Breakfast at a seaside taverna with sea breeze.\n\nAfternoon: 🚗 Drive or travel to a historic town (e.g. Chania or Rethymno) → Walk narrow old streets, visit Venetian harbour, local markets. → 🍽️ Lunch: seafood or traditional Cretan dish with vegetables and olive oil.\n\nSunset: 🌇 Head to a highland village or mountain road for panoramic sunset over sea & hills — nice for photos and calm.\n\nNight: 🌙 Dinner in village tavern, enjoy local wine and live folk music or stroll through illuminated old‑town streets.",
+      "local_food_tip": "Try dakos, Cretan salads, honey with yogurt, roasted vegetables, local cheeses, olives and freshly baked bread.",
+      "full_day": "Morning: 🏺 Explore the legendary <a href=\"https://www.google.com/maps/search/?q=Knossos+Palace+Crete\" target=\"_blank\" rel=\"noopener\">Knossos Palace</a> — home of Minoan myths and ancient history. → ☕ Enjoy coffee in central <a href=\"https://www.google.com/maps/search/?q=Heraklion+City+Center\" target=\"_blank\" rel=\"noopener\">Heraklion</a>.\n\nAfternoon: 🌊 Visit one of Crete’s world-famous beaches: <a href=\"https://www.google.com/maps/search/?q=Elafonissi+Beach+Crete\" target=\"_blank\" rel=\"noopener\">Elafonissi</a> or <a href=\"https://www.google.com/maps/search/?q=Balos+Lagoon+Crete\" target=\"_blank\" rel=\"noopener\">Balos Lagoon</a>. → 🍽️ Lunch in a beachfront taverna: <a href=\"https://www.google.com/maps/search/?q=Chania+Seaside+Tavernas\" target=\"_blank\" rel=\"noopener\">Chania Seaside Tavernas</a>.\n\nSunset: 🌇 Experience a breathtaking sunset at the <a href=\"https://www.google.com/maps/search/?q=Chania+Old+Port\" target=\"_blank\" rel=\"noopener\">Old Venetian Port of Chania</a>.\n\nNight: 🌃 Evening stroll along the waterfront with cafés, lights, and peaceful sea views.",
       "seasons": {
-        "spring": { "event": "Spring Revival & Mild Sea", "ideas": ["🌼 Green hills and blooming herbs — perfect for coastal hikes.", "🚶 Quiet beaches and coastal paths without summer crowds.", "☀️ Pleasant weather for sightseeing and village exploring."] },
-        "summer": { "event": "Summer Beaches & Island Nights", "ideas": ["🏖️ Long beach days, boat trips and swimming under Mediterranean sun.", "🍷 Fresh seafood dinners and coastal nightlife in towns.", "🎶 Summer festivals or tavern nights by sea or village centre."] },
-        "autumn": { "event": "Harvest Time & Sea Calm", "ideas": ["🍇 Olive harvest in hills + vineyards — good for wine & food lovers.", "🍲 Warm meals, soups and local dishes after succulent days.", "📷 Clear seas and mellow light for photos of sea & mountains."] },
-        "winter": { "event": "Off‑Season Calm & Island Silence", "ideas": ["🌧️ Light rains, soft sea breezes — peaceful coastal walks.", "🔥 Cozy tavernas, hearty food, local hospitality in villages.", "🚶 Exploring historic towns with fewer tourists — calm and real island feel."] }
+        "spring": {
+          "event": "Cretan Bloom",
+          "ideas": [
+            "🌸 Mountain hikes with colorful spring flowers.",
+            "🌊 Quiet beaches before summer crowds.",
+            "🍽️ Seasonal dishes in village tavernas."
+          ]
+        },
+        "summer": {
+          "event": "Hot Crete",
+          "ideas": [
+            "🏖️ Elafonissi & Balos beach highlights.",
+            "🍉 Refreshing local fruits.",
+            "🎉 Nightlife and music in Heraklion."
+          ]
+        },
+        "autumn": {
+          "event": "Warm Autumn",
+          "ideas": [
+            "🌅 Long swimming season with warm seas.",
+            "🥗 Cozy village tavern evenings.",
+            "🚶 Scenic nature walks with soft light."
+          ]
+        },
+        "winter": {
+          "event": "Mild Winter",
+          "ideas": [
+            "☕ Portside cafés in Chania.",
+            "🏺 Museums and historical sites.",
+            "🥣 Comfort food in local restaurants."
+          ]
+        }
       },
       "public_transport_tips": [
-        "🚍 Use intercity buses or local routes between coastal towns and mountains.",
-        "🚶 Many old‑town centres and villages are walkable — ideal for relaxed exploring.",
-        "🚗 Renting a car helps to reach remote beaches, mountains and villages off main roads.",
-        "⛵ For some remote coves or smaller islands — check boat/ferry schedules in advance."
+        {
+          "tip": "🚌 KTEL buses connect all major towns such as Heraklion, Chania, Rethymno, and Agios Nikolaos.",
+          "link": "https://www.e-ktel.com/en/"
+        },
+        {
+          "tip": "🚍 Local buses operate within larger cities like Heraklion and Chania.",
+          "link": "https://www.astiko-irakleiou.gr/en/"
+        },
+        {
+          "tip": "🚗 Renting a car is recommended for beaches and villages in remote areas.",
+          "link": "https://www.google.com/maps/search/?q=Crete+Car+Rental"
+        },
+        {
+          "tip": "🚕 Taxis are widely available in major towns.",
+          "link": "https://www.google.com/maps/search/?q=Crete+Taxi"
+        }
       ],
-      "city_events": [
-        { "name": "Crete Summer Coastal & Village Festival", "season": "summer", "description": "🎉 Beach parties, village fairs, seafood nights and island lifestyle under the Mediterranean stars." }
-      ]
+      "city_events": []
     },
+
+    {
+      "name": "Halkidiki (Kassandra Peninsula)",
+      "interests": [
+        {
+          "name": "Turquoise Beaches 🏖️",
+          "map_link": "https://www.google.com/maps/search/?q=Kallithea+Beach+Halkidiki",
+          "description": "Kassandra is known for some of the clearest, turquoise waters in northern Greece. Beaches are long, sandy, and perfect for swimming and sunbathing. Many have beach bars, calm coves, and shallow water ideal for families."
+        },
+        {
+          "name": "Resort Vibes 😎",
+          "map_link": "https://www.google.com/maps/search/?q=Halkidiki+Resorts",
+          "description": "The peninsula is full of modern resorts, lively beach clubs, and stylish seaside cafés. Travelers looking for relaxation will love the comfortable atmosphere and excellent service. It's an ideal area for a laid-back, sunny holiday."
+        },
+        {
+          "name": "Nature 🌿",
+          "map_link": "https://www.google.com/maps/search/?q=Afitos+Halkidiki+Nature",
+          "description": "Despite its popularity, Kassandra still offers beautiful stretches of nature. Pine forests meet the sea, creating scenic walking paths and coastline viewpoints. Afitos village, set on a cliff, offers some of the best natural views in the region."
+        },
+        {
+          "name": "Local Tavernas 🍽️",
+          "map_link": "https://www.google.com/maps/search/?q=Afitos+Halkidiki+Tavernas",
+          "description": "Halkidiki’s tavernas serve fresh Greek dishes with local ingredients, especially vegetables, cheese and Mediterranean herbs. Seaside restaurants offer relaxing dining with beautiful sunset views. It’s the perfect place to slow down and enjoy authentic food."
+        },
+        {
+          "name": "Small Villages 🏡",
+          "map_link": "https://www.google.com/maps/search/?q=Halkidiki+Villages+Kassandra",
+          "description": "Kassandra’s villages each have their own charm, blending traditional Greek culture with modern coastal life. Stone-built Afitos stands out as one of the prettiest settlements. Wandering through these villages offers a great mix of culture, cafés, and scenic corners."
+        }
+      ],
+      "local_food_tip": "Enjoy moussaka, grilled vegetables, baked feta, fresh salads and warm bread with olive oil.",
+      "full_day": "Morning: 🏖️ Begin at <a href=\"https://www.google.com/maps/search/?q=Kallithea+Beach+Halkidiki\" target=\"_blank\" rel=\"noopener\">Kallithea Beach</a>, famous for its turquoise waters and smooth sandy shoreline. → ☕ Enjoy coffee in a beachfront bar.\n\nAfternoon: 🌊 Visit <a href=\"https://www.google.com/maps/search/?q=Hanioti+Beach\" target=\"_blank\" rel=\"noopener\">Hanioti Beach</a> or <a href=\"https://www.google.com/maps/search/?q=Pefkohori+Beach\" target=\"_blank\" rel=\"noopener\">Pefkohori Beach</a>. → 🍽️ Lunch in a beachfront taverna: <a href=\"https://www.google.com/maps/search/?q=Afitos+Tavernas\" target=\"_blank\" rel=\"noopener\">Afitos Seaside Tavernas</a>.\n\nLate Afternoon: 🚤 Optional boat ride along the coastline. → Explore the charming <a href=\"https://www.google.com/maps/search/?q=Afitos+Village+Halkidiki\" target=\"_blank\" rel=\"noopener\">Afitos Village</a>.\n\nSunset: 🌇 Watch the golden sunset from Afitos cliffside.\n\nNight: 🎉 Evening drinks or light nightlife in <a href=\"https://www.google.com/maps/search/?q=Kallithea+Bars+Halkidiki\" target=\"_blank\" rel=\"noopener\">Kallithea</a>.",
+      "seasons": {
+        "spring": {
+          "event": "Spring Blue",
+          "ideas": [
+            "🌸 Quiet walks along turquoise beaches.",
+            "🚶 Afitos cliffside strolls.",
+            "☕ Seafront coffee spots."
+          ]
+        },
+        "summer": {
+          "event": "Peak Beach Life",
+          "ideas": [
+            "🏖️ Full-day swimming and sunbathing.",
+            "🍸 Beach bars with music and cocktails.",
+            "🌅 Sunset views from Afitos village."
+          ]
+        },
+        "autumn": {
+          "event": "Warm Autumn",
+          "ideas": [
+            "🍁 Warm seas and fewer crowds.",
+            "🍽️ Relaxed taverna meals.",
+            "🚶 Coastal walking paths."
+          ]
+        },
+        "winter": {
+          "event": "Quiet Peninsula",
+          "ideas": [
+            "🌊 Dramatic coastline views with winter waves.",
+            "☕ Cozy cafés in Afitos.",
+            "📸 Beautiful winter landscapes."
+          ]
+        }
+      },
+      "public_transport_tips": [
+        {
+          "tip": "🚌 KTEL buses run from Thessaloniki to major villages in Kassandra.",
+          "link": "https://ktel-chalkidikis.gr/en/"
+        },
+        {
+          "tip": "🚗 Renting a car is the best way to explore beaches and coastal routes.",
+          "link": "https://www.google.com/maps/search/?q=Halkidiki+Car+Rental"
+        },
+        {
+          "tip": "🚕 Taxis are available in main tourist villages.",
+          "link": "https://www.google.com/maps/search/?q=Halkidiki+Taxi"
+        },
+        {
+          "tip": "🚶 Village centers and beaches are walkable once you arrive.",
+          "link": "https://www.google.com/maps/search/?q=Afitos+Walking+Routes"
+        }
+      ],
+      "city_events": []
+    },
+    {
+      "name": "Mykonos",
+      "interests": [
+        {
+          "name": "Beaches 🌊",
+          "map_link": "https://www.google.com/maps/search/?q=Mykonos+Beaches",
+          "description": "Mykonos is home to some of the most iconic beaches in Greece, known for crystal-clear water and golden sand. Many beaches offer great facilities, from quiet family areas to lively party zones. Whether you're relaxing or dancing by the sea, there's a beach for every mood."
+        },
+        {
+          "name": "Nightlife 🎉",
+          "map_link": "https://www.google.com/maps/search/?q=Mykonos+Nightlife+Bars+Clubs",
+          "description": "The island is famous for its world-class nightlife, attracting DJs, artists, and travelers from all over the world. Clubs begin filling up at sunset and stay open until dawn. From beach parties to elegant cocktail lounges, Mykonos guarantees unforgettable nights."
+        },
+        {
+          "name": "Windmills 🌬️",
+          "map_link": "https://www.google.com/maps/search/?q=Mykonos+Windmills",
+          "description": "The famous windmills are one of Mykonos’ most iconic landmarks. Overlooking the Aegean Sea, they offer perfect photo spots, especially during sunset. Their history dates back centuries, making them a fascinating blend of heritage and scenery."
+        },
+        {
+          "name": "Chic Streets 🏛️",
+          "map_link": "https://www.google.com/maps/search/?q=Mykonos+Town+Chora",
+          "description": "Mykonos Town (Chora) is a maze of whitewashed alleyways, stylish boutiques, and charming cafés. The architecture is traditionally Cycladic, giving the town a bright, picturesque feel. It’s the perfect place for wandering, shopping, and discovering hidden corners."
+        },
+        {
+          "name": "Local Food 🍽️",
+          "map_link": "https://www.google.com/maps/search/?q=Mykonos+Tavernas",
+          "description": "Mykonos offers delicious Cycladic specialties made with fresh vegetables, cheeses, and herbs. From onion pies to honey desserts, the island’s flavors reflect its rich culinary culture. Local tavernas provide authentic meals with stunning sea views."
+        }
+      ],
+      "local_food_tip": "Try Mykonian onion pie, local cheeses, fresh salads, honey pastries and Cycladic desserts.",
+      "full_day": "Morning: 🏙️ Begin in <a href=\"https://www.google.com/maps/search/?q=Mykonos+Town+Chora\" target=\"_blank\" rel=\"noopener\">Mykonos Town (Chora)</a> and wander through the photogenic white alleys. → 🌬️ Visit the famous <a href=\"https://www.google.com/maps/search/?q=Mykonos+Windmills\" target=\"_blank\" rel=\"noopener\">Windmills</a> overlooking the sea. → ☕ Coffee in <a href=\"https://www.google.com/maps/search/?q=Little+Venice+Mykonos\" target=\"_blank\" rel=\"noopener\">Little Venice</a>.\n\nAfternoon: 🏖️ Head to the island’s beaches: <a href=\"https://www.google.com/maps/search/?q=Ornos+Beach+Mykonos\" target=\"_blank\" rel=\"noopener\">Ornos</a>, <a href=\"https://www.google.com/maps/search/?q=Platis+Gialos+Beach+Mykonos\" target=\"_blank\" rel=\"noopener\">Platis Gialos</a> or <a href=\"https://www.google.com/maps/search/?q=Paradise+Beach+Mykonos\" target=\"_blank\" rel=\"noopener\">Paradise Beach</a>. → 🍽️ Lunch by the sea in <a href=\"https://www.google.com/maps/search/?q=Platis+Gialos+Tavernas\" target=\"_blank\" rel=\"noopener\">Platis Gialos Tavernas</a>.\n\nSunset: 🌇 Return to Little Venice for colorful sunset views.\n\nNight: 🎉 Enjoy Mykonos’ famous nightlife: beach clubs, dance floors and stylish cocktail bars.",
+      "seasons": {
+        "spring": {
+          "event": "Calm Mykonos",
+          "ideas": [
+            "🚶 Quiet walks in Chora with fewer crowds.",
+            "🌸 Peaceful beaches and soft breezes.",
+            "☕ Coffee breaks near the windmills."
+          ]
+        },
+        "summer": {
+          "event": "Party Season",
+          "ideas": [
+            "🏖️ All-day beach club fun.",
+            "🍹 Cocktails in Little Venice.",
+            "🎉 Famous sunset-to-sunrise parties."
+          ]
+        },
+        "autumn": {
+          "event": "Warm Winds",
+          "ideas": [
+            "🌅 Incredible sunsets with warm colors.",
+            "🍽️ Taverna dinners by the sea.",
+            "🏖️ Swimming in warm early-autumn waters."
+          ]
+        },
+        "winter": {
+          "event": "Quiet Island",
+          "ideas": [
+            "🌊 Empty beaches and peaceful scenery.",
+            "☕ Cozy cafés in Chora.",
+            "📸 Unique winter photography opportunities."
+          ]
+        }
+      },
+      "public_transport_tips": [
+        {
+          "tip": "🚌 Mykonos buses connect major beaches with Chora.",
+          "link": "https://mykonsbus.com/"
+        },
+        {
+          "tip": "🚕 Taxis are limited — expect waiting times during high season.",
+          "link": "https://www.google.com/maps/search/?q=Mykonos+Taxi"
+        },
+        {
+          "tip": "🚤 Water taxis connect beaches along the southern coast.",
+          "link": "https://www.google.com/maps/search/?q=Mykonos+Water+Taxi"
+        },
+        {
+          "tip": "🚗 Renting a car or ATV is common for exploring the island.",
+          "link": "https://www.google.com/maps/search/?q=Mykonos+Car+Rental"
+        }
+      ],
+      "city_events": []
+    },
+
     {
       "name": "Rhodes",
       "interests": [
-        "Medieval Old Town & Historic Fortifications 🏰",
-        "Beaches & Aegean Sea 🌊",
-        "Island Nightlife & Coastal Town Life 🌙"
+        {
+          "name": "Medieval Old Town 🏰",
+          "map_link": "https://www.google.com/maps/search/?q=Rhodes+Old+Town",
+          "description": "Rhodes Old Town is one of the best-preserved medieval cities in Europe. Its walls, gates and cobblestone lanes feel like stepping back in time. Visitors can explore fortresses, museums and atmospheric old streets full of history."
+        },
+        {
+          "name": "Beaches 🌊",
+          "map_link": "https://www.google.com/maps/search/?q=Rhodes+Beaches",
+          "description": "Rhodes offers a mix of sandy beaches, calm bays, and crystal-clear water. Popular spots like Elli Beach provide excellent swimming conditions. Many beaches have cafés, sunbeds and beautiful views of the Aegean Sea."
+        },
+        {
+          "name": "Sunshine 🌞",
+          "map_link": "https://www.google.com/maps/search/?q=Rhodes+Viewpoints",
+          "description": "Rhodes is known for having some of the sunniest weather in all of Greece. Long, warm days make it ideal for outdoor activities and beach time. The island’s clear skies create perfect conditions for sunsets and golden-hour photography."
+        },
+        {
+          "name": "Local Food 🍽️",
+          "map_link": "https://www.google.com/maps/search/?q=Rhodes+Tavernas",
+          "description": "Rhodes offers delicious Greek cuisine, from roasted vegetables to cheese pies and freshly baked breads. Tavernas across the island serve authentic dishes made with local ingredients. Visitors can enjoy seaside meals, cozy village dinners, or street snacks in Old Town."
+        },
+        {
+          "name": "Ancient & Medieval Sites 🏺",
+          "map_link": "https://www.google.com/maps/search/?q=Rhodes+Acropolis",
+          "description": "Beyond its medieval walls, Rhodes also features ancient Greek ruins. The Rhodes Acropolis offers panoramic views and fascinating archaeological remains. It’s a must-see spot for travelers who enjoy blending history with scenic landscapes."
+        }
       ],
-      "local_food_tip": "Fresh fish, seafood meze, local cheeses, olives — Mediterranean island flavours after exploring old town or beach. 🐠🍋🧀",
-      "full_day": "Morning: 🏖️ Swim or walk on a nearby beach → ☀️ Enjoy Mediterranean breeze and sea air. → ☕ Breakfast at beach‑side café.\n\nAfternoon: 🏛️ Explore Rhodes Old Town — medieval walls, cobbled lanes, historic buildings → 🍽️ Lunch: seafood or meze + local wine.\n\nSunset: 🌇 Walk along waterfront or castle walls — sea view + historic skyline at golden hour.\n\nNight: 🌃 Dinner by harbour, stroll through illuminated old town alleys, maybe live music or a calm seaside bar night.",
+      "local_food_tip": "Try gyros, roasted vegetables, oven-baked feta, local pies and honey-based desserts.",
+      "full_day": "Morning: 🏰 Explore the iconic <a href=\"https://www.google.com/maps/search/?q=Rhodes+Old+Town\" target=\"_blank\" rel=\"noopener\">Rhodes Old Town</a>, including medieval walls and the Palace of the Grand Master. → ☕ Coffee in the old stone-paved lanes.\n\nAfternoon: 🌊 Swim and relax at <a href=\"https://www.google.com/maps/search/?q=Elli+Beach+Rhodes\" target=\"_blank\" rel=\"noopener\">Elli Beach</a>. → 🍽️ Lunch by the seaside: <a href=\"https://www.google.com/maps/search/?q=Elli+Beach+Tavernas\" target=\"_blank\" rel=\"noopener\">Elli Beach Tavernas</a>.\n\nSunset: 🌇 Head to the <a href=\"https://www.google.com/maps/search/?q=Rhodes+Acropolis\" target=\"_blank\" rel=\"noopener\">Rhodes Acropolis</a> for an unforgettable sunset.\n\nNight: 🌃 Enjoy a relaxing walk or light nightlife in Old Town’s cozy bars and lantern-lit squares.",
       "seasons": {
-        "spring": { "event": "Island Spring Calm & History Walks", "ideas": ["🌼 Pleasant weather — ideal for sightseeing and old town walks.", "🚶 Coastal walks and early‑season beach strolls.", "🍷 Local seafood lunches with Mediterranean light atmosphere."] },
-        "summer": { "event": "Beach & Nightlife Summer Mode", "ideas": ["🏖️ Full days at beaches, swimming, sunbathing and island touring.", "🌙 Nightlife by harbour — seaside restaurants, bars, music.", "🛥️ Boat trips or coastal exploration under long summer days."] },
-        "autumn": { "event": "Quiet Coast & Autumn Light Evenings", "ideas": ["🍂 Softer sun, calm sea — good for peaceful beach walks.", "🔥 Warm meals, seafood or meze after active day.", "📷 Old town + sea under golden light — beautiful for photos and calm tourism."] },
-        "winter": { "event": "Off‑season Island Peace & Sea Breeze", "ideas": ["🌬️ Cool sea breeze, quiet streets — calm winter escape.", "🔥 Cozy meals, local hospitality, village charm away from crowds.", "🚶 Walking tours and cultural visits in peaceful island mood."] }
+        "spring": {
+          "event": "Spring Sun",
+          "ideas": [
+            "🌸 Walk quiet medieval lanes.",
+            "🌊 Enjoy peaceful pre-season beaches.",
+            "☕ Sit at traditional cafés."
+          ]
+        },
+        "summer": {
+          "event": "High Summer",
+          "ideas": [
+            "🏖️ Full-day beach time at Elli Beach.",
+            "🍦 Ice cream strolls in Old Town.",
+            "🎉 Lively nightlife and music bars."
+          ]
+        },
+        "autumn": {
+          "event": "Autumn Glow",
+          "ideas": [
+            "🌅 Warm evening sunsets.",
+            "🍽️ Relaxed dinners in village taverns.",
+            "📸 Great photography weather."
+          ]
+        },
+        "winter": {
+          "event": "Quiet Medieval Season",
+          "ideas": [
+            "🏰 empty old town streets.",
+            "☕ Cozy cafés for warm drinks.",
+            "🌫️ Moody coastal walks."
+          ]
+        }
       },
       "public_transport_tips": [
-        "🚍 Local buses cover main towns and popular beaches — good for budget travel.",
-        "🚶 Old town and harbour are walkable — ideal on foot or by bike.",
-        "🚗 Rent a car or scooter to explore remote beaches and inland villages.",
-        "⛴️ Ferries connect to nearby islands or coastal spots — convenient for island‑hopping."
+        {
+          "tip": "🚌 The island’s KTEL buses connect Rhodes Town with major beaches and villages.",
+          "link": "https://www.ktelrodou.gr/en/"
+        },
+        {
+          "tip": "🚍 Local buses operate frequently around Rhodes Town.",
+          "link": "https://www.google.com/maps/search/?q=Rhodes+Local+Bus+Stops"
+        },
+        {
+          "tip": "🚕 Taxis are common and can be found near major tourist zones.",
+          "link": "https://www.google.com/maps/search/?q=Rhodes+Taxi"
+        },
+        {
+          "tip": "🚗 Renting a car is recommended for exploring the island comfortably.",
+          "link": "https://www.google.com/maps/search/?q=Rhodes+Car+Rental"
+        }
       ],
-      "city_events": [
-        { "name": "Rhodes Summer Harbour Nights", "season": "summer", "description": "🎶 Coastal dining, music, seaside festivals and relaxed island‑town vibes under summer stars." }
-      ]
+      "city_events": []
     },
     {
-      "name": "Corfu",
+      "name": "Santorini",
       "interests": [
-        "Ionian Sea & Lush Island Nature 🌿🌊",
-        "Venetian Architecture & Historic Town Charm 🏛️",
-        "Beaches, Olive Groves & Relaxed Island Life 🌴"
+        {
+          "name": "Caldera Views 🌋",
+          "map_link": "https://www.google.com/maps/search/?q=Santorini+Caldera+Viewpoints",
+          "description": "Santorini’s caldera is one of the most dramatic landscapes in the world. Towering cliffs drop into deep-blue volcanic waters, creating unforgettable panoramas. The views change throughout the day, offering new colors and moods from sunrise to sunset."
+        },
+        {
+          "name": "Sunsets 🌇",
+          "map_link": "https://www.google.com/maps/search/?q=Oia+Sunset+Santorini",
+          "description": "The island is globally famous for its sunsets, especially from Oia and Imerovigli. As the sun dips into the Aegean, the sky turns golden, pink and purple. Travelers gather early to secure the best viewpoint — it’s truly a magical moment."
+        },
+        {
+          "name": "Beaches 🌊",
+          "map_link": "https://www.google.com/maps/search/?q=Santorini+Beaches",
+          "description": "Santorini features unique volcanic beaches with red, black and golden sand. Places like Red Beach and Kamari offer striking scenery and refreshing swimming spots. These beaches are perfect for relaxing, sunbathing, and exploring unusual coastlines."
+        },
+        {
+          "name": "Cycladic Atmosphere 🏛️",
+          "map_link": "https://www.google.com/maps/search/?q=Fira+Santorini",
+          "description": "Whitewashed houses, blue domes and narrow alleys define Santorini’s traditional Cycladic charm. Villages like Fira and Oia feel like open-air postcards. It’s a dreamy environment that blends history, art and island lifestyle."
+        },
+        {
+          "name": "Food & Wine 🍷",
+          "map_link": "https://www.google.com/maps/search/?q=Santorini+Wineries",
+          "description": "Santorini’s cuisine is fresh and filled with Mediterranean flavors. Local dishes like tomato fritters and fava pair perfectly with the island’s famous Assyrtiko wine. Wineries across the island offer tastings with breathtaking volcanic views."
+        }
       ],
-      "local_food_tip": "Seafood, olive‑oil dishes, local herbs, fresh produce — simple Mediterranean cuisine with island freshness. 🐟🍅🌿",
-      "full_day": "Morning: 🌊 Swim or boat trip to coastal cove → enjoy calm water and island breeze. → ☕ Breakfast with seaside view.\n\nAfternoon: 🏙️ Explore Corfu Town — narrow streets, Venetian buildings, old fortresses, local markets → 🍽️ Lunch: local meal with olives, fish or meze.\n\nSunset: 🌇 Walk through old town alleys or beach promenade for sunset views over Ionian Sea.\n\nNight: 🌙 Dinner in tavern, live folk music or quiet night stroll — laid‑back island ambiance and calm coastal energy.",
+      "local_food_tip": "Try fava, tomato fritters, saganaki, Greek salads, and the island-famous Assyrtiko wines.",
+      "full_day": "Morning: 🌅 Begin in <a href=\"https://www.google.com/maps/search/?q=Fira+Santorini\" target=\"_blank\" rel=\"noopener\">Fira</a> for breathtaking caldera views and Cycladic alleys. → Walk through <a href=\"https://www.google.com/maps/search/?q=Firostefani+Santorini\" target=\"_blank\" rel=\"noopener\">Firostefani</a> toward <a href=\"https://www.google.com/maps/search/?q=Imerovigli+Santorini\" target=\"_blank\" rel=\"noopener\">Imerovigli</a>. → ☕ Coffee overlooking the volcano.\n\nAfternoon: 🌋 Explore <a href=\"https://www.google.com/maps/search/?q=Oia+Santorini\" target=\"_blank\" rel=\"noopener\">Oia</a>, home to boutiques, galleries and stunning viewpoints. → 🍽️ Lunch on the cliff: <a href=\"https://www.google.com/maps/search/?q=Oia+Tavernas\" target=\"_blank\" rel=\"noopener\">Oia Cliffside Tavernas</a>. → 🌊 Relax at <a href=\"https://www.google.com/maps/search/?q=Red+Beach+Santorini\" target=\"_blank\" rel=\"noopener\">Red Beach</a> or <a href=\"https://www.google.com/maps/search/?q=Kamari+Beach+Santorini\" target=\"_blank\" rel=\"noopener\">Kamari Beach</a>.\n\nLate Afternoon: 🚤 Optional caldera cruise — perfect for photography and relaxing.\n\nSunset: 🌇 Watch Santorini’s legendary sunset from the <a href=\"https://www.google.com/maps/search/?q=Oia+Castle+Viewpoint\" target=\"_blank\" rel=\"noopener\">Oia Castle Viewpoint</a>.\n\nNight: 🌃 Return to Fira for dessert and rooftop wine bars with night views.",
       "seasons": {
-        "spring": { "event": "Green Spring & Cultural Walks", "ideas": ["🌸 Olive‑groves bloom, hills green — hiking and nature strolls.", "🚶 Walk old town before tourist rush, enjoy calm island charm.", "🍷 Fresh local meals under mild weather and sea breeze."] },
-        "summer": { "event": "Beach, Sea & Island Nights", "ideas": ["🏖️ Beach days, water sports and coastal adventures.", "🍹 Sea‑side dinners, cocktails and laid‑back nightlife.", "🛶 Boat rides, coastal exploration and island vibes all day."] },
-        "autumn": { "event": "Harvest Time & Autumn Calm", "ideas": ["🍂 Olive harvest and mild weather — good for nature trips & food lovers.", "🔥 Warm meals with local produce, calm beaches and slower pace.", "📸 Soft fall light + sea + islands — beautiful scenery away from summer crowds."] },
-        "winter": { "event": "Off‑Season Island Peace & Mild Climate", "ideas": ["🌬️ Quiet coastlines, fewer people — perfect za odmor od gužve.", "🥘 Cozy tavernas, local dishes, home‑style food and calm nights.", "🚶 Exploring old town and countryside under peaceful island atmosphere."] }
+        "spring": {
+          "event": "Blooming Cliffs",
+          "ideas": [
+            "🌸 Scenic walks from Imerovigli to Oia.",
+            "🍋 Lemonades and breezy cafés.",
+            "🚶 Perfect hiking weather.",
+            "📸 Crystal-clear photo conditions.",
+            "🍽️ Seasonal dishes in cliffside restaurants."
+          ]
+        },
+        "summer": {
+          "event": "Island Heat",
+          "ideas": [
+            "🌊 Early morning hikes to avoid crowds.",
+            "🌅 Oia sunset sessions.",
+            "🍦 Ice cream breaks along the caldera.",
+            "🚤 Caldera cruises.",
+            "🎉 Lively nightlife in Fira."
+          ]
+        },
+        "autumn": {
+          "event": "Wine Season",
+          "ideas": [
+            "🍇 Assyrtiko wine tasting.",
+            "🍁 Quiet Oia afternoons.",
+            "🌊 Warm November sea swims.",
+            "📷 Soft golden tones for photography.",
+            "🎨 Art galleries in Fira."
+          ]
+        },
+        "winter": {
+          "event": "Quiet Island",
+          "ideas": [
+            "☕ Peaceful cliffside cafés.",
+            "🚶 Empty village alleys.",
+            "🌫️ Misty volcanic viewpoints.",
+            "🍲 Cozy Greek comfort food.",
+            "📸 Atmospheric winter shots."
+          ]
+        }
       },
       "public_transport_tips": [
-        "🚌 Local buses connect main towns, beaches and inland — check off‑season schedules carefully.",
-        "🚶 Old town and harbour area ideal za pešake i biciklističke rute.",
-        "🚤 Ferries for coastal trips or island‑hopping to smaller islets.",
-        "🚗 Rent a scooter or car if želiš da istražiš selo, planine ili izolovane plaže." 
+        {
+          "tip": "🚌 Island buses connect all major towns including Fira, Oia, Kamari and Perissa.",
+          "link": "https://ktel-santorini.gr/"
+        },
+        {
+          "tip": "🚕 Taxis are available but limited — expect waiting times in peak season.",
+          "link": "https://www.google.com/maps/search/?q=Santorini+Taxi"
+        },
+        {
+          "tip": "🚗 Renting a car or ATV is the easiest way to explore the island.",
+          "link": "https://www.google.com/maps/search/?q=Santorini+Car+Rental"
+        },
+        {
+          "tip": "🚶 Cliff paths between Fira and Oia are walkable and incredibly scenic.",
+          "link": "https://www.google.com/maps/search/?q=Fira+to+Oia+Hiking+Trail"
+        }
       ],
       "city_events": [
-        { "name": "Corfu Summer Coastal Life", "season": "summer", "description": "🌅 Boats, beach dinners, island music and laid‑back Mediterranean nights." }
+        {
+          "name": "Santorini Volcano Celebration",
+          "season": "summer",
+          "description": "🌋 Fireworks and cultural events honoring the island’s volcanic heritage."
+        }
       ]
     },
+
+    {
+      "name": "Stavros (Halkidiki)",
+      "interests": [
+        {
+          "name": "Sandy Beaches 🏖️",
+          "map_link": "https://www.google.com/maps/search/?q=Stavros+Beach+Halkidiki",
+          "description": "Stavros offers long sandy beaches with clear and calm waters, perfect for swimming or relaxing. The coastline is peaceful compared to larger resorts. It’s an ideal destination for travelers seeking a quiet and comforting seaside experience."
+        },
+        {
+          "name": "Relaxed Town Atmosphere 😎",
+          "map_link": "https://www.google.com/maps/search/?q=Stavros+Town+Center",
+          "description": "The town has a laid-back charm with local cafés, bakeries and friendly residents. Streets are walkable and easy to explore. It’s the kind of place where you slow down, enjoy the moment, and feel the calm of a small Greek seaside town."
+        },
+        {
+          "name": "Nature Trails 🌿",
+          "map_link": "https://www.google.com/maps/search/?q=Stavros+Hiking+Trails",
+          "description": "Stavros is surrounded by forested hills and scenic walking paths. The trails offer a refreshing mix of sea views and shaded greenery. Great for short hikes, photography, or simply escaping into nature."
+        },
+        {
+          "name": "Local Tavernas 🍽️",
+          "map_link": "https://www.google.com/maps/search/?q=Stavros+Tavernas",
+          "description": "Tavernas in Stavros serve delicious Greek dishes made with fresh vegetables, olive oil, herbs and simple Mediterranean flavors. Most are family-run, offering a warm and authentic dining experience. Many spots have outdoor seating near the water."
+        },
+        {
+          "name": "Seaside Walks 🌊",
+          "map_link": "https://www.google.com/maps/search/?q=Stavros+Promenade",
+          "description": "The town’s quiet seafront walkway is perfect for morning coffee or evening strolls. Soft waves, open skies and coastal breezes create a peaceful atmosphere. It’s one of the best places in Stavros to unwind and enjoy the scenery."
+        }
+      ],
+      "local_food_tip": "Enjoy souvlaki, roasted vegetables, fresh bread, Greek salads and yogurt-based desserts.",
+      "full_day": "Morning: 🏖️ Start your day at <a href=\"https://www.google.com/maps/search/?q=Stavros+Beach+Halkidiki\" target=\"_blank\" rel=\"noopener\">Stavros Beach</a>, a calm sandy shoreline perfect for swimming and relaxation. → ☕ Seafront coffee on the promenade.\n\nAfternoon: 🌿 Explore scenic forest trails above the town with sea views: <a href=\"https://www.google.com/maps/search/?q=Stavros+Hiking+Trails\" target=\"_blank\" rel=\"noopener\">Stavros Nature Trails</a>. → 🍽️ Lunch in a beachfront taverna: <a href=\"https://www.google.com/maps/search/?q=Stavros+Tavernas\" target=\"_blank\" rel=\"noopener\">Stavros Seaside Tavernas</a>.\n\nSunset: 🌇 Enjoy a quiet sunset directly from the beach.\n\nNight: 🌃 Evening walk along the peaceful seaside promenade with cafés and soft lights.",
+      "seasons": {
+        "spring": {
+          "event": "Fresh Sea Breeze",
+          "ideas": [
+            "🌸 Morning beach walks.",
+            "🚶 Forest-view hiking routes.",
+            "☕ Outdoor coffee spots."
+          ]
+        },
+        "summer": {
+          "event": "Beach Season",
+          "ideas": [
+            "🏖️ All-day swimming and sunbathing.",
+            "🍦 Ice cream on the promenade.",
+            "🌅 Sunset on the sand."
+          ]
+        },
+        "autumn": {
+          "event": "Quiet Coast",
+          "ideas": [
+            "🍁 Peaceful beaches with fewer visitors.",
+            "🥗 Warm taverna meals.",
+            "🚶 Scenic forest walks."
+          ]
+        },
+        "winter": {
+          "event": "Off-Season Calm",
+          "ideas": [
+            "🌊 Cozy seaside walks.",
+            "☕ Warm drinks in local cafés.",
+            "📚 Quiet, relaxing evenings."
+          ]
+        }
+      },
+      "public_transport_tips": [
+        {
+          "tip": "🚌 Regional buses connect Stavros with Thessaloniki and nearby towns.",
+          "link": "https://www.ktel-chalkidikis.gr/en/"
+        },
+        {
+          "tip": "🚗 Renting a car offers flexibility for exploring beaches and villages.",
+          "link": "https://www.google.com/maps/search/?q=Stavros+Car+Rental"
+        },
+        {
+          "tip": "🚕 Local taxis operate within the town and nearby areas.",
+          "link": "https://www.google.com/maps/search/?q=Stavros+Taxi"
+        },
+        {
+          "tip": "🚶 The town itself is fully walkable.",
+          "link": "https://www.google.com/maps/search/?q=Stavros+Promenade"
+        }
+      ],
+      "city_events": []
+    },
+    {
+  "cities": [
     {
       "name": "Zakynthos",
       "interests": [
-        "Ionian Beaches & Turquoise Sea 🌊",
-        "Sea Caves & Coastal Adventure 🛶",
-        "Relaxed Island Lifestyle & Nightlife 🌙"
+        {
+          "name": "Blue Caves 🌊",
+          "map_link": "https://www.google.com/maps/search/?q=Blue+Caves+Zakynthos",
+          "description": "The Blue Caves are one of Zakynthos’ most famous natural wonders, filled with glowing turquoise water. Sunlight reflects off the limestone walls, creating a magical blue illumination. Boat trips allow visitors to explore the caves up close and capture unforgettable photos."
+        },
+        {
+          "name": "Navagio (Shipwreck) Bay 🏖️",
+          "map_link": "https://www.google.com/maps/search/?q=Navagio+Beach+Zakynthos",
+          "description": "Navagio Bay is one of the most photographed beaches in the world. Its white sand, towering cliffs and shipwreck create a dramatic, iconic landscape. The viewpoint offers breathtaking panoramas that look straight out of a postcard."
+        },
+        {
+          "name": "Sea Views 🌅",
+          "map_link": "https://www.google.com/maps/search/?q=Zakynthos+Viewpoints",
+          "description": "Zakynthos is filled with spectacular sea viewpoints, from high cliffs to gentle coastal hills. Sunset spots like Keri Lighthouse are especially stunning. The island’s dramatic coastline makes it perfect for photography lovers."
+        },
+        {
+          "name": "Island Food 🍽️",
+          "map_link": "https://www.google.com/maps/search/?q=Zakynthos+Tavernas",
+          "description": "Zakynthos offers fresh, flavorful dishes inspired by Greek and local Ionian culinary traditions. Expect rich pastas, local cheeses, potato pies and honey-based desserts. Tavernas across the island provide authentic home-style meals with warm Greek hospitality."
+        },
+        {
+          "name": "Coastal Villages 🏡",
+          "map_link": "https://www.google.com/maps/search/?q=Zakynthos+Coastal+Villages",
+          "description": "Small coastal villages on Zakynthos offer peaceful scenery and traditional Greek charm. Many feature friendly tavernas, calm beaches and relaxing promenades. They’re ideal for unwinding, exploring local culture and enjoying seaside views."
+        }
       ],
-      "local_food_tip": "Try fresh seafood, local cheeses, Mediterranean salads, olive oil — light and tasty island cuisine after sea or boat day. 🐟🥗🧀",
-      "full_day": "Morning: 🐢 Boat trip or swim to famous Navagio (Shipwreck) Beach or nearby caves → relax, swim and explore coastline. → 🍉 Light seaside breakfast.\n\nAfternoon: 🏖️ Beach, water sports or coastal walks → 🍽️ Lunch: seafood or grilled fish with fresh vegetables and local wine.\n\nSunset: 🌇 Coastal cliff or beachbar for golden hour over sea and horizon — perfect for photos and calm.\n\nNight: 🌙 Dinner by water, cocktails or local drinks, beachfront strolls — laid‑back island nightlife under stars.",
+      "local_food_tip": "Try vegetarian pastitsada, potato pies, fresh salads, local cheeses, and honey-based island desserts.",
+      "full_day": "Morning: 🏖️ Begin with a visit to the world-famous <a href=\"https://www.google.com/maps/search/?q=Navagio+Beach+Zakynthos\" target=\"_blank\" rel=\"noopener\">Navagio (Shipwreck) Bay Viewpoint</a> — one of Greece’s most iconic sights. → ☕ Enjoy a scenic coffee overlooking the cliffs.\n\nAfternoon: 🌊 Take a boat trip to the stunning <a href=\"https://www.google.com/maps/search/?q=Blue+Caves+Zakynthos\" target=\"_blank\" rel=\"noopener\">Blue Caves</a> (no swimming required). → 🍽️ Lunch at a beachfront taverna: <a href=\"https://www.google.com/maps/search/?q=Alykes+Beach+Tavernas+Zakynthos\" target=\"_blank\" rel=\"noopener\">Alykes Beach Tavernas</a>.\n\nSunset: 🌇 Head to the dramatic <a href=\"https://www.google.com/maps/search/?q=Keri+Lighthouse+Zakynthos\" target=\"_blank\" rel=\"noopener\">Keri Lighthouse Viewpoint</a> for panoramic sunset views.\n\nNight: 🌃 Take a relaxed evening walk around <a href=\"https://www.google.com/maps/search/?q=Zakynthos+Town\" target=\"_blank\" rel=\"noopener\">Zakynthos Town</a> with seaside cafés and peaceful streets.",
       "seasons": {
-        "spring": { "event": "Coastal Spring & Calm Waters", "ideas": ["🌼 Mild weather — nice for early beach visits and boat rides.", "🚶 Coastal walks and relaxed island vibe before peak season.", "🍷 Local dishes and seafood at calm seaside tavernas."] },
-        "summer": { "event": "Full Island Holiday & Beach Season", "ideas": ["🏖️ Swimming, sun, boat trips and beach lounging all day.", "🎶 Beach bars, sunset parties, island nightlife and Mediterranean fun under stars.", "🚤 Island cruises or diving & snorkeling trips — seaside adventure."] },
-        "autumn": { "event": "Soft Light & Quiet Coast", "ideas": ["🍂 Fewer visitors — calm beaches, mellow sea and peaceful stays.", "🥘 Hearty meals in tavernas and relaxed dinners by sea.", "📸 Scenic views, sea reflections and golden light — perfect for photos."] },
-        "winter": { "event": "Island Winter Silence & Reflection", "ideas": ["🌬️ Sea breeze, quiet towns — peaceful off‑season island escape.", "🔥 Warm meals, local hospitality, slow pace and calm nights.", "🚶 Exploring inland villages, coastal paths or island nature with solitude."] }
+        "spring": {
+          "event": "Blue Spring",
+          "ideas": [
+            "🌊 Quiet early-season Blue Caves boat tours.",
+            "🌸 Mild island weather perfect for exploring.",
+            "☕ Seaside cafés with peaceful views."
+          ]
+        },
+        "summer": {
+          "event": "Turquoise Summer",
+          "ideas": [
+            "🏖️ Navagio Bay viewpoints at their brightest.",
+            "🚤 Boat trips to Blue Caves and coastal coves.",
+            "🥗 Light seaside lunches with fresh ingredients."
+          ]
+        },
+        "autumn": {
+          "event": "Golden Coast",
+          "ideas": [
+            "🍁 Fewer crowds at beaches and viewpoints.",
+            "🌅 Warm, colorful evening sunsets.",
+            "🍽️ Cozy tavern dinners in coastal villages."
+          ]
+        },
+        "winter": {
+          "event": "Quiet Island",
+          "ideas": [
+            "🌊 Peaceful, dramatic coastlines.",
+            "☕ Warm drinks in local cafés.",
+            "📸 Atmospheric winter photography."
+          ]
+        }
       },
       "public_transport_tips": [
-        "⛴️ Ferries connect island with mainland and neighboring islands — plan in advance outside summer season.",
-        "🚶 Town centre and many beaches accessible on foot or by local bus.",
-        "🚗 Renting scooter or small car useful for exploring remote beaches and cliffs.",
-        "🎫 In high season — consider boat + accommodation + transport combo to avoid waiting lines."
+        {
+          "tip": "🚌 Local KTEL buses connect Zakynthos Town with major beaches and villages.",
+          "link": "https://www.ktel-zakynthos.gr/"
+        },
+        {
+          "tip": "🚗 Renting a car is highly recommended for reaching viewpoints and remote beaches.",
+          "link": "https://www.google.com/maps/search/?q=Zakynthos+Car+Rental"
+        },
+        {
+          "tip": "🚕 Taxis operate throughout the island and can be booked via phone or local taxi stations.",
+          "link": "https://www.google.com/maps/search/?q=Zakynthos+Taxi"
+        },
+        {
+          "tip": "🚤 Many boat tours depart from northern harbors like Agios Nikolaos.",
+          "link": "https://www.google.com/maps/search/?q=Agios+Nikolaos+Zakynthos+Port"
+        }
       ],
-      "city_events": [
-        { "name": "Zakynthos Beach & Sea Festival", "season": "summer", "description": "🌅 Coastal parties, boat tours, seaside dinners and island holiday mood under Mediterranean stars." }
-      ]
+      "city_events": []
     }
+  ]
+}
+
   ]
 }

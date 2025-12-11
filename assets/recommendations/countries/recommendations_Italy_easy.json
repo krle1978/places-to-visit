@@ -4,287 +4,1204 @@
     {
       "name": "Rome",
       "interests": [
-        "Ancient History & Roman Ruins 🏛️",
-        "Art & Vatican Museums 🎨",
-        "Historic City Walks & Piazza Life 🌇"
+        {
+          "name": "Ancient History & Roman Ruins 🏛️",
+          "map_link": "https://www.google.com/maps/search/?q=Colosseum+Rome",
+          "description": "Rome is one of the greatest open-air museums in the world, where ancient history sits beside modern life. The Colosseum, Roman Forum, and Palatine Hill illustrate the grandeur of the Roman Empire. Walking through these ruins feels like traveling back in time. Every stone, column, and arch tells a story of emperors, gladiators, and civilization itself."
+        },
+        {
+          "name": "Art & Vatican Museums 🎨",
+          "map_link": "https://www.google.com/maps/search/?q=Vatican+Museums+Rome",
+          "description": "The Vatican Museums house some of humanity’s most important artistic treasures, including the Sistine Chapel. St. Peter’s Basilica stands as a masterpiece of Renaissance architecture. Art lovers can spend hours exploring sculptures, paintings, and sacred spaces. It is one of the most spiritually and artistically rich destinations in the world."
+        },
+        {
+          "name": "Historic City Walks & Piazza Life 🌇",
+          "map_link": "https://www.google.com/maps/search/?q=Piazza+Navona+Rome",
+          "description": "Rome’s historic piazzas, narrow alleys, fountains, and cobblestone streets create endless paths for exploration. From Piazza Navona to the Spanish Steps, each square has a unique personality. Street performers, cafés, and architectural details fill the city with vibrancy. Wandering without a plan is often the best way to experience Rome."
+        }
       ],
+
       "local_food_tip": "Try classic Roman dishes — pasta carbonara, cacio e pepe, thin crust pizza, gelato and espresso in local trattorias. 🍝🍕🍨",
-      "full_day": "Morning: 🏛️ Visit Colosseum & Roman Forum → Walk through historic alleys → ☕ Coffee and pastry in a traditional café.\n\nAfternoon: ⛪ Explore Vatican City (St. Peter’s Basilica, Vatican Museums) → 🍽️ Lunch: pasta or local Roman dish.\n\nSunset: 🌇 Stroll through Trastevere or Piazza Navona for evening vibes and sunset light over historic façades.\n\nNight: 🌙 Dinner in a trattoria or osteria, gelato by the street, relaxed walk under city lights — mix of ancient city charm & modern life.",
+
+      "full_day": "Morning: Visit <a href=\"https://www.google.com/maps/search/?q=Colosseum+Rome\" target=\"_blank\" rel=\"noopener\">Colosseum</a> and explore the surroundings → walk toward the ancient heart around <a href=\"https://www.google.com/maps/search/?q=Roman+Forum+Rome\" target=\"_blank\" rel=\"noopener\">Roman Forum</a> → enjoy a traditional Italian coffee in a nearby café.\n\nAfternoon: Explore the Vatican area — see <a href=\"https://www.google.com/maps/search/?q=St+Peter's+Basilica+Rome\" target=\"_blank\" rel=\"noopener\">St. Peter’s Basilica</a> (exterior) and the museums around <a href=\"https://www.google.com/maps/search/?q=Vatican+Museums+Rome\" target=\"_blank\" rel=\"noopener\">Vatican Museums</a> → lunch with classic Roman pasta dishes.\n\nSunset: Enjoy warm light across <a href=\"https://www.google.com/maps/search/?q=Trastevere+Rome\" target=\"_blank\" rel=\"noopener\">Trastevere</a> or relax at <a href=\"https://www.google.com/maps/search/?q=Piazza+Navona+Rome\" target=\"_blank\" rel=\"noopener\">Piazza Navona</a> during golden hour.\n\nNight: Dinner in a cozy trattoria → gelato walk under evening lights → relaxed stroll through historic streets and piazzas.",
+
+      "places": [
+        {
+          "name": "Colosseum",
+          "link": "https://www.google.com/maps/search/?q=Colosseum+Rome",
+          "description": "Rome’s most iconic ancient structure, offering a powerful visual connection to gladiator history. The exterior is impressive at any hour, especially early morning or at sunset."
+        },
+        {
+          "name": "Roman Forum",
+          "link": "https://www.google.com/maps/search/?q=Roman+Forum+Rome",
+          "description": "The historic centre of ancient Rome filled with ruins, columns, arches and panoramic viewpoints. A must-see area for understanding Rome’s imperial past."
+        },
+        {
+          "name": "St. Peter’s Basilica",
+          "link": "https://www.google.com/maps/search/?q=St+Peter's+Basilica+Rome",
+          "description": "One of the largest and most magnificent churches in the world. The grand façade, dome views, and the surrounding Vatican area create unforgettable scenery."
+        },
+        {
+          "name": "Vatican Museums",
+          "link": "https://www.google.com/maps/search/?q=Vatican+Museums+Rome",
+          "description": "A vast collection of art, including the famous Sistine Chapel. Even from the outside, the Vatican district feels historic, artistic, and full of cultural depth."
+        },
+        {
+          "name": "Piazza Navona",
+          "link": "https://www.google.com/maps/search/?q=Piazza+Navona+Rome",
+          "description": "One of Rome’s most beautiful squares, known for fountains, artists, cafés and evening atmosphere. A perfect place to people-watch or enjoy dessert."
+        },
+        {
+          "name": "Trastevere",
+          "link": "https://www.google.com/maps/search/?q=Trastevere+Rome",
+          "description": "A charming historic district full of narrow alleys, local restaurants, street life and romantic evenings. Ideal for sunset walks and dinner."
+        },
+        {
+          "name": "Pantheon",
+          "link": "https://www.google.com/maps/search/?q=Pantheon+Rome",
+          "description": "A perfectly preserved Roman temple with an iconic open oculus. The square around it is vibrant and beautiful, especially at night."
+        },
+        {
+          "name": "Spanish Steps",
+          "link": "https://www.google.com/maps/search/?q=Spanish+Steps+Rome",
+          "description": "A famous staircase connecting Piazza di Spagna with church views above. Great for photos, sunset light and relaxing in a lively area."
+        }
+      ],
+
+      "hidden_gems": [
+        {
+          "name": "Giardino degli Aranci (Orange Garden)",
+          "link": "https://www.google.com/maps/search/?q=Giardino+degli+Aranci+Rome",
+          "description": "A peaceful hilltop garden offering one of Rome’s most magical skyline views. Quiet, romantic, and perfect for sunset moments."
+        },
+        {
+          "name": "Basilica di San Clemente",
+          "link": "https://www.google.com/maps/search/?q=Basilica+di+San+Clemente",
+          "description": "A multi-layered archaeological gem: a 12th-century basilica built over a 4th-century church, built over a 1st-century Roman house. A hidden treasure beneath the city."
+        }
+      ],
+
       "seasons": {
         "spring": {
           "event": "Spring Walks & Historic Light",
           "ideas": [
-            "🌸 Cherry‑blossom and spring blooms near ancient ruins — perfect for sightseeing.",
-            "☀️ Mild weather for walking long routes across the city without summer heat.",
-            "🎭 Outdoor small concerts or cultural events in piazzas."
+            "🌸 Cherry blossoms near ancient ruins around <a href=\"https://www.google.com/maps/search/?q=Roman+Forum+Rome\" target=\"_blank\" rel=\"noopener\">Roman Forum</a>.",
+            "🚶 Mild weather for long city walks through <a href=\"https://www.google.com/maps/search/?q=Monti+Rome\" target=\"_blank\" rel=\"noopener\">Monti district</a>.",
+            "🎭 Outdoor concerts and cultural events in <a href=\"https://www.google.com/maps/search/?q=Piazza+Navona+Rome\" target=\"_blank\" rel=\"noopener\">Piazza Navona</a>."
           ]
         },
         "summer": {
           "event": "Long Days & Evening Gelato Strolls",
           "ideas": [
-            "🌞 Early sightseeing, afternoon rest then evening walks with gelato under warm nights.",
-            "🍷 Light dinners late, night city life and relaxed summer vibes.",
-            "🌇 Sunset from viewpoints — historic skyline bathed in golden light."
+            "🌞 Early sightseeing around <a href=\"https://www.google.com/maps/search/?q=Colosseum+Rome\" target=\"_blank\" rel=\"noopener\">Colosseum</a>, then late dinners.",
+            "🍨 Night walks with gelato through <a href=\"https://www.google.com/maps/search/?q=Trastevere+Rome\" target=\"_blank\" rel=\"noopener\">Trastevere</a>.",
+            "🌇 Golden-hour viewpoints from <a href=\"https://www.google.com/maps/search/?q=Giardino+degli+Aranci+Rome\" target=\"_blank\" rel=\"noopener\">Giardino degli Aranci</a>."
           ]
         },
         "autumn": {
           "event": "Golden Light & Cozy Meals",
           "ideas": [
-            "🍂 Historic streets with autumn colours — nice for atmospheric photo walks.",
-            "🍲 Hearty Italian meals, pasta and wines as temperature cools.",
-            "🏛️ Museums and indoor visits in case of rainy days."
+            "🍂 Atmospheric walks through old streets near <a href=\"https://www.google.com/maps/search/?q=Spanish+Steps+Rome\" target=\"_blank\" rel=\"noopener\">Spanish Steps</a>.",
+            "🍷 Hearty pasta and wine around <a href=\"https://www.google.com/maps/search/?q=Trastevere+Restaurants+Rome\" target=\"_blank\" rel=\"noopener\">Trastevere restaurant area</a>.",
+            "🏛️ Great time for museums such as <a href=\"https://www.google.com/maps/search/?q=Capitoline+Museums+Rome\" target=\"_blank\" rel=\"noopener\">Capitoline Museums</a> on cooler days."
           ]
         },
         "winter": {
           "event": "Mild Winters & Historic Calm",
           "ideas": [
-            "☕ Warm drinks, cozy cafés — ideal after cold walks near ruins.",
-            "🏠 Quiet city atmosphere, fewer tourists — peaceful sightseeing.",
-            "🎄 Festive decorations and Christmas markets around major piazzas."
+            "☕ Warm drinks in cozy cafés near <a href=\"https://www.google.com/maps/search/?q=Piazza+Navona+Rome+Cafes\" target=\"_blank\" rel=\"noopener\">Piazza Navona</a>.",
+            "🏛️ Fewer tourists for peaceful visits around <a href=\"https://www.google.com/maps/search/?q=Pantheon+Rome\" target=\"_blank\" rel=\"noopener\">Pantheon</a>.",
+            "🎄 Christmas lights and markets at <a href=\"https://www.google.com/maps/search/?q=Piazza+di+Spagna+Rome\" target=\"_blank\" rel=\"noopener\">Piazza di Spagna</a>."
           ]
         }
       },
+
       "public_transport_tips": [
-        "🚇 Use metro, trams or buses to navigate across city quickly.",
-        "🚶 Historic centre walkable — ideal for exploring on foot.",
-        "🎟️ Consider multi‑day transport pass if visiting many sites in few days.",
-        "🚲 Bicycles or scooter‑rental can help za kratke distance i istraživanje užih ulica."
+        {
+          "tip": "The metro is the fastest way to reach major sights.",
+          "link": "https://www.rome.net/metro"
+        },
+        {
+          "tip": "Buses and trams cover the entire historical center.",
+          "link": "https://www.atac.roma.it/"
+        },
+        {
+          "tip": "The old town is best explored on foot.",
+          "link": "https://www.google.com/maps/search/?q=Rome+City+Center"
+        }
       ],
+
       "city_events": [
         {
           "name": "Rome Summer Night Walks",
           "season": "summer",
-          "description": "🎶 Evening cultural events, music in piazzas, open air terraces and vibrant summer atmosphere."
+          "description": "Evening cultural events, music in piazzas, and lively open-air atmosphere."
         }
       ]
     },
     {
-      "name": "Florence",
+      "name": "Bologna",
       "interests": [
-        "Renaissance Art & Architecture 🖼️🏛️",
-        "Historic Old Town & Duomo Views 🌆",
-        "Tuscan Culture & Cafés 🍷"
+        {
+          "name": "Historic Porticoes & Medieval Towers 🏛️",
+          "map_link": "https://www.google.com/maps/search/?q=Two+Towers+Bologna",
+          "description": "Bologna is famous for its endless porticoes and iconic medieval towers. Walking beneath the arches creates a unique, atmospheric experience that defines the city's character."
+        },
+        {
+          "name": "Food Culture & Traditional Markets 🍝",
+          "map_link": "https://www.google.com/maps/search/?q=Quadrilatero+Market+Bologna",
+          "description": "The Quadrilatero area is filled with fresh pasta shops, bakeries, delis, and cafes. Bologna is often called the food capital of Italy — home to tortellini, tagliatelle, and rich sauces."
+        },
+        {
+          "name": "University District & Cultural Life 🎓",
+          "map_link": "https://www.google.com/maps/search/?q=University+of+Bologna",
+          "description": "One of the oldest universities in the world brings vibrant student life, street art, bookstores, and cafés. A lively area full of history and culture."
+        },
+        {
+          "name": "Panoramic Walks & Hills 🌄",
+          "map_link": "https://www.google.com/maps/search/?q=Sanctuary+of+Madonna+di+San+Luca+Bologna",
+          "description": "A long porticoed walk leads up to San Luca, providing breathtaking hilltop views over Bologna and the countryside."
+        },
+        {
+          "name": "Art, Museums & Architecture 🎨",
+          "map_link": "https://www.google.com/maps/search/?q=Pinacoteca+Nazionale+Bologna",
+          "description": "Bologna offers impressive galleries, historical basilicas, and Renaissance architecture perfect for slow cultural exploration."
+        }
       ],
-      "local_food_tip": "Try Tuscan specialties — ribollita soup, bistecca alla fiorentina, local wines and olive oil based dishes. 🍲🥩🍷",
-      "full_day": "Morning: 🏛️ Visit Uffizi Museum or Accademia (David) → Walk along historic streets toward Duomo → ☕ Coffee in central square.\n\nAfternoon: 🌉 Stroll over Ponte Vecchio, explore artisan shops → 🍽️ Lunch: Tuscan dish with local wine.\n\nSunset: 🌇 Walk to Piazzale Michelangelo for panoramic city view at golden hour.\n\nNight: 🌙 Dinner in trattoria, local wine, gelato and night stroll through lit‑up historic centre.",
+
+      "local_food_tip": "Try tagliatelle al ragù, tortellini in brodo, lasagna verde, tigelle with cheese, and classic Bolognese pastries. 🍝🧀",
+
+      "full_day": "Morning: Start at <a href=\"https://www.google.com/maps/search/?q=Piazza+Maggiore+Bologna\" target=\"_blank\" rel=\"noopener\">Piazza Maggiore</a> → walk to the <a href=\"https://www.google.com/maps/search/?q=Two+Towers+Bologna\" target=\"_blank\" rel=\"noopener\">Two Towers (Asinelli & Garisenda)</a> → coffee under the historic porticoes.\n\nAfternoon: Explore the <a href=\"https://www.google.com/maps/search/?q=Quadrilatero+Market+Bologna\" target=\"_blank\" rel=\"noopener\">Quadrilatero Market</a> → enjoy handmade pasta for lunch → visit the <a href=\"https://www.google.com/maps/search/?q=Archiginnasio+Bologna\" target=\"_blank\" rel=\"noopener\">Archiginnasio</a> courtyard.\n\nSunset: Walk or take transport to the <a href=\"https://www.google.com/maps/search/?q=Sanctuary+of+Madonna+di+San+Luca+Bologna\" target=\"_blank\" rel=\"noopener\">Sanctuary of Madonna di San Luca</a> for panoramic views.\n\nNight: Dinner and aperitivo in the <a href=\"https://www.google.com/maps/search/?q=Via+dell'Indipendenza+Bologna\" target=\"_blank\" rel=\"noopener\">Via dell’Indipendenza</a> area, followed by a peaceful city-center stroll.",
+
+      "places": [
+        {
+          "name": "Piazza Maggiore",
+          "link": "https://www.google.com/maps/search/?q=Piazza+Maggiore+Bologna",
+          "description": "The central square of Bologna, surrounded by medieval and Renaissance buildings. A perfect starting point for exploring the city."
+        },
+        {
+          "name": "Two Towers (Asinelli & Garisenda)",
+          "link": "https://www.google.com/maps/search/?q=Two+Towers+Bologna",
+          "description": "Symbols of the city, these leaning medieval towers dominate Bologna’s skyline. Great photo spot from outside."
+        },
+        {
+          "name": "Quadrilatero Market",
+          "link": "https://www.google.com/maps/search/?q=Quadrilatero+Market+Bologna",
+          "description": "A lively traditional market area full of food stalls, delis, and pasta shops — the heart of Bologna’s food culture."
+        },
+        {
+          "name": "Archiginnasio of Bologna",
+          "link": "https://www.google.com/maps/search/?q=Archiginnasio+Bologna",
+          "description": "Historic university building with ornate courtyards. One of the most meaningful places representing Bologna’s academic heritage."
+        },
+        {
+          "name": "Basilica of San Petronio",
+          "link": "https://www.google.com/maps/search/?q=Basilica+di+San+Petronio+Bologna",
+          "description": "A huge Gothic basilica dominating Piazza Maggiore with an unfinished yet iconic façade."
+        },
+        {
+          "name": "Santo Stefano Complex",
+          "link": "https://www.google.com/maps/search/?q=Seven+Churches+Bologna",
+          "description": "A cluster of ancient religious buildings known as the 'Seven Churches'. Peaceful courtyards and historic architecture."
+        },
+        {
+          "name": "Sanctuary of Madonna di San Luca",
+          "link": "https://www.google.com/maps/search/?q=Sanctuary+of+Madonna+di+San+Luca+Bologna",
+          "description": "Reached through a 3.5 km portico walkway or by bus. Incredible views over Bologna’s hills."
+        },
+        {
+          "name": "Via dell’Indipendenza",
+          "link": "https://www.google.com/maps/search/?q=Via+dell'Indipendenza+Bologna",
+          "description": "A long porticoed shopping street filled with cafés, boutiques, and lively evening atmosphere."
+        }
+      ],
+
+      "hidden_gems": [
+        {
+          "name": "Little Venice (Finestrella di Via Piella)",
+          "link": "https://www.google.com/maps/search/?q=Finestrella+di+Via+Piella+Bologna",
+          "description": "A tiny window overlooking Bologna's hidden canal — a charming surprise in the historic center."
+        },
+        {
+          "name": "Botanical Garden of Bologna",
+          "link": "https://www.google.com/maps/search/?q=Orto+Botanico+di+Bologna",
+          "description": "A quiet, beautiful urban garden — perfect for relaxed nature breaks."
+        },
+        {
+          "name": "Portico di San Luca (Walking Path)",
+          "link": "https://www.google.com/maps/search/?q=Portico+di+San+Luca+Bologna",
+          "description": "The world’s longest covered portico, leading uphill to the famous sanctuary."
+        }
+      ],
+
       "seasons": {
         "spring": {
-          "event": "Spring Renaissance Walks & Light",
+          "event": "Spring Walks & Food Markets",
           "ideas": [
-            "🌿 Mild weather — perfect for long walks between historic sites and river Arno.",
-            "🎨 Outdoor art markets, street musicians and cultural events.",
-            "🌸 Blooming gardens and soft light — great for photos."
+            "🌸 Portico walks toward <a href=\"https://www.google.com/maps/search/?q=Sanctuary+of+Madonna+di+San+Luca+Bologna\" target=\"_blank\" rel=\"noopener\">San Luca</a>.",
+            "🌿 Strolling historic streets near <a href=\"https://www.google.com/maps/search/?q=Piazza+Maggiore+Bologna\" target=\"_blank\" rel=\"noopener\">Piazza Maggiore</a>.",
+            "🍝 Fresh spring produce in <a href=\"https://www.google.com/maps/search/?q=Quadrilatero+Market+Bologna\" target=\"_blank\" rel=\"noopener\">Quadrilatero Market</a>."
           ]
         },
         "summer": {
-          "event": "Tourist Buzz & Summer Evenings",
+          "event": "Warm Nights & Open-Air Vibes",
           "ideas": [
-            "🌞 Crowded museums in mornings, then evening strolls by Arno with gelato.",
-            "🎶 Street music, open‑air dining and lively summer nights.",
-            "🌇 Sunset viewpoints and relaxed walks under warm sky."
+            "🌇 Sunset views from <a href=\"https://www.google.com/maps/search/?q=Sanctuary+of+Madonna+di+San+Luca+Bologna\" target=\"_blank\" rel=\"noopener\">San Luca</a>.",
+            "🍹 Evening aperitivo along <a href=\"https://www.google.com/maps/search/?q=Via+dell'Indipendenza+Bologna\" target=\"_blank\" rel=\"noopener\">Via dell’Indipendenza</a>.",
+            "🎭 Outdoor cultural events near <a href=\"https://www.google.com/maps/search/?q=Piazza+Maggiore+Bologna\" target=\"_blank\" rel=\"noopener\">Piazza Maggiore</a>."
           ]
         },
         "autumn": {
-          "event": "Harvest Season & Wine Tasting",
+          "event": "Golden Food Season & Warm Colors",
           "ideas": [
-            "🍁 Vineyards near city show autumn colours, ideal for countryside trips nearby.",
-            "🥘 Hearty Tuscan meals, wine tasting weekends and calm city walks.",
-            "🏛️ Museums and indoor visits for cooler/rainy days."
+            "🍁 Soft autumn light around <a href=\"https://www.google.com/maps/search/?q=Two+Towers+Bologna\" target=\"_blank\" rel=\"noopener\">the Two Towers</a>.",
+            "🍲 Comfort meals in <a href=\"https://www.google.com/maps/search/?q=Brera+Bologna\" target=\"_blank\" rel=\"noopener\">traditional trattorias</a>.",
+            "🏛️ Museum afternoons at <a href=\"https://www.google.com/maps/search/?q=Pinacoteca+Nazionale+Bologna\" target=\"_blank\" rel=\"noopener\">Pinacoteca Nazionale</a>."
           ]
         },
         "winter": {
-          "event": "Winter Calm & Historic Magic",
+          "event": "Cozy Cafés & Quiet Streets",
           "ideas": [
-            "🔥 Warm dishes, cozy cafés — perfect after chilly walks.",
-            "🏙️ Historic centre under soft winter light — nice for quiet sightseeing.",
-            "🛍️ Shopping artisan goods and souvenirs in less crowded shops."
+            "🎄 Winter lights around <a href=\"https://www.google.com/maps/search/?q=Piazza+Maggiore+Bologna\" target=\"_blank\" rel=\"noopener\">Piazza Maggiore</a>.",
+            "☕ Warm cafés under historic porticoes near <a href=\"https://www.google.com/maps/search/?q=Via+Zamboni+Bologna\" target=\"_blank\" rel=\"noopener\">Via Zamboni</a>.",
+            "🚶 Peaceful old-town walks around <a href=\"https://www.google.com/maps/search/?q=Santo+Stefano+Bologna\" target=\"_blank\" rel=\"noopener\">Santo Stefano</a>."
           ]
         }
       },
+
       "public_transport_tips": [
-        "🚶 City centre compact — najviše na noge ili bicikle.",
-        "🎟️ Tram/tren/bus za okolinu ili jednodnevne izlete izvan centra.",
-        "🚲 Bicikli su super za reku Arno i okolinu — istražuj opušteno.",
-        "🚗 Za vinske ture ili sela oko Toskane — auto je zgodan."
+        {
+          "tip": "🚌 Local buses cover all major routes around the city.",
+          "link": "https://www.google.com/maps/search/?q=Bologna+Bus+Routes"
+        },
+        {
+          "tip": "🚶 Historic center is walkable, especially under porticoes.",
+          "link": "https://www.google.com/maps/search/?q=Bologna+City+Center"
+        },
+        {
+          "tip": "🚆 Bologna Centrale is a major train hub, useful for day trips.",
+          "link": "https://www.google.com/maps/search/?q=Bologna+Centrale+Station"
+        }
       ],
+
       "city_events": [
         {
-          "name": "Florence Wine & Art Autumn",
-          "season": "autumn",
-          "description": "🍷 Wine tastings, art events, city culture and Tuscan heritage celebration."
+          "name": "Cinema Ritrovato",
+          "season": "summer",
+          "description": "🎬 Outdoor classic-film festival in Piazza Maggiore — magical summer nights."
+        }
+      ]
+    },
+
+    {
+      "name": "Milan",
+      "interests": [
+        {
+          "name": "Cathedrals & Historic Squares 🏛️",
+          "map_link": "https://www.google.com/maps/search/?q=Duomo+di+Milano",
+          "description": "Milan’s Duomo is one of the largest and most impressive Gothic cathedrals in the world. The surrounding piazza is full of life, architecture, and culture. Perfect for photos, casual walks, and absorbing the historic atmosphere."
+        },
+        {
+          "name": "Fashion & Design Districts 👗✨",
+          "map_link": "https://www.google.com/maps/search/?q=Quadrilatero+della+Moda+Milan",
+          "description": "Milan is the global capital of fashion, with luxury boutiques, design studios, and elegant streets. The Quadrilatero della Moda blends architecture, style, and creativity. Ideal for strolling, window-shopping, and feeling Milan’s chic vibe."
+        },
+        {
+          "name": "Castles, Parks & Renaissance Heritage 🏰🌿",
+          "map_link": "https://www.google.com/maps/search/?q=Sforza+Castle+Milan",
+          "description": "From the Sforza Castle to the vast Sempione Park, Milan blends history and greenery. The Renaissance courtyards and walking paths create a calm oasis in the city. Great for relaxed mornings or quiet afternoon breaks."
+        },
+        {
+          "name": "Modern Architecture & Skyline 🌆",
+          "map_link": "https://www.google.com/maps/search/?q=Piazza+Gae+Aulenti+Milan",
+          "description": "Skyscrapers, futuristic buildings, and innovative design give Milan a striking modern edge. Gae Aulenti Square and the Bosco Verticale towers highlight the city’s creativity. A mix of urban energy and contemporary beauty."
+        },
+        {
+          "name": "Food Culture, Aperitivo & Cafés 🍝🍷",
+          "map_link": "https://www.google.com/maps/search/?q=Navigli+Milan+Restaurants",
+          "description": "Milanese cuisine includes risotto, focaccia, pastries, and world-famous aperitivo. The Navigli canals are lined with cafés and restaurants offering lively evenings. Perfect for warm dinners, snacks, and social atmosphere."
+        }
+      ],
+
+      "local_food_tip": "Try risotto alla Milanese, focaccia, fresh pasta, pastries, aperitivo plates, and local wines. 🍝🍷",
+
+      "full_day": "Morning: Start at <a href=\"https://www.google.com/maps/search/?q=Duomo+di+Milano\" target=\"_blank\" rel=\"noopener\">Duomo di Milano</a> → walk through <a href=\"https://www.google.com/maps/search/?q=Galleria+Vittorio+Emanuele+II+Milan\" target=\"_blank\" rel=\"noopener\">Galleria Vittorio Emanuele II</a> → coffee in the historic center.\n\nAfternoon: Explore <a href=\"https://www.google.com/maps/search/?q=Sforza+Castle+Milan\" target=\"_blank\" rel=\"noopener\">Sforza Castle</a> → stroll in <a href=\"https://www.google.com/maps/search/?q=Sempione+Park+Milan\" target=\"_blank\" rel=\"noopener\">Sempione Park</a> → lunch in Brera district.\n\nSunset: Head to <a href=\"https://www.google.com/maps/search/?q=Piazza+Gae+Aulenti+Milan\" target=\"_blank\" rel=\"noopener\">Piazza Gae Aulenti</a> for skyline views.\n\nNight: Dinner or aperitivo along <a href=\"https://www.google.com/maps/search/?q=Navigli+Milan\" target=\"_blank\" rel=\"noopener\">Navigli</a>, with scenic canal reflections.",
+
+      "places": [
+        {
+          "name": "Duomo di Milano",
+          "link": "https://www.google.com/maps/search/?q=Duomo+di+Milano",
+          "description": "A masterpiece of Gothic architecture and Milan’s most iconic landmark. Its exterior alone is stunning, especially with sunlight hitting the façade."
+        },
+        {
+          "name": "Galleria Vittorio Emanuele II",
+          "link": "https://www.google.com/maps/search/?q=Galleria+Vittorio+Emanuele+II+Milan",
+          "description": "One of the world’s oldest shopping galleries, filled with art, glass ceilings, and elegant cafés. A must-see at any time of day."
+        },
+        {
+          "name": "Sforza Castle",
+          "link": "https://www.google.com/maps/search/?q=Sforza+Castle+Milan",
+          "description": "A monumental fortress with courtyards, towers, and museums. Great for relaxed wandering and historic atmosphere."
+        },
+        {
+          "name": "Sempione Park",
+          "link": "https://www.google.com/maps/search/?q=Sempione+Park+Milan",
+          "description": "Milan’s green heart — lakes, lawns, trees and shaded paths behind the castle. Ideal for peaceful urban breaks."
+        },
+        {
+          "name": "Brera District",
+          "link": "https://www.google.com/maps/search/?q=Brera+Milan",
+          "description": "Artistic and charming district with small streets, cafés, and boutiques. A picturesque place for lunch or slow walks."
+        },
+        {
+          "name": "Piazza Gae Aulenti",
+          "link": "https://www.google.com/maps/search/?q=Piazza+Gae+Aulenti+Milan",
+          "description": "The modern skyline center of Milan. Skyscrapers, fountains, and futuristic design create a vibrant urban setting."
+        },
+        {
+          "name": "Bosco Verticale",
+          "link": "https://www.google.com/maps/search/?q=Bosco+Verticale+Milan",
+          "description": "Two eco-friendly residential towers covered in greenery. Unique architectural icons of modern Milan."
+        },
+        {
+          "name": "Navigli Canals",
+          "link": "https://www.google.com/maps/search/?q=Navigli+Milan",
+          "description": "Historic canals surrounded by bars, restaurants, and night-time reflections. The city’s top spot for aperitivo."
+        }
+      ],
+
+      "hidden_gems": [
+        {
+          "name": "Colonne di San Lorenzo",
+          "link": "https://www.google.com/maps/search/?q=Colonne+di+San+Lorenzo+Milan",
+          "description": "Ancient Roman columns located in a lively square. A favorite hangout for locals, especially at sunset."
+        },
+        {
+          "name": "Guastalla Gardens",
+          "link": "https://www.google.com/maps/search/?q=Giardini+della+Guastalla+Milan",
+          "description": "A peaceful, historic garden with shaded paths and quiet spots. A small but charming escape from the city noise."
+        },
+        {
+          "name": "Brera Botanical Garden",
+          "link": "https://www.google.com/maps/search/?q=Brera+Botanical+Garden+Milan",
+          "description": "Hidden inside the Brera district, this small botanical garden offers serene green corners and old-world charm."
+        }
+      ],
+
+      "seasons": {
+        "spring": {
+          "event": "Spring Bloom & City Walks",
+          "ideas": [
+            "🌸 Blossoms around <a href=\"https://www.google.com/maps/search/?q=Sempione+Park+Milan\" target=\"_blank\" rel=\"noopener\">Sempione Park</a>.",
+            "🚶 Perfect weather for walking through <a href=\"https://www.google.com/maps/search/?q=Brera+Milan\" target=\"_blank\" rel=\"noopener\">Brera</a>.",
+            "☕ Outdoor cafés around <a href=\"https://www.google.com/maps/search/?q=Duomo+di+Milano\" target=\"_blank\" rel=\"noopener\">Duomo area</a>."
+          ]
+        },
+        "summer": {
+          "event": "Warm Nights & Canal Life",
+          "ideas": [
+            "🌞 Early sightseeing at <a href=\"https://www.google.com/maps/search/?q=Duomo+di+Milano\" target=\"_blank\" rel=\"noopener\">Duomo</a> before the heat.",
+            "🍹 Aperitivo evenings along <a href=\"https://www.google.com/maps/search/?q=Navigli+Milan\" target=\"_blank\" rel=\"noopener\">Navigli</a>.",
+            "🌇 Golden sunsets at <a href=\"https://www.google.com/maps/search/?q=Piazza+Gae+Aulenti+Milan\" target=\"_blank\" rel=\"noopener\">Gae Aulenti</a>."
+          ]
+        },
+        "autumn": {
+          "event": "Cozy Season & Soft Light",
+          "ideas": [
+            "🍁 Warm tones around <a href=\"https://www.google.com/maps/search/?q=Sforza+Castle+Milan\" target=\"_blank\" rel=\"noopener\">Sforza Castle</a>.",
+            "🍝 Hearty meals in <a href=\"https://www.google.com/maps/search/?q=Brera+Restaurants+Milan\" target=\"_blank\" rel=\"noopener\">Brera restaurants</a>.",
+            "🎨 Museum afternoons near <a href=\"https://www.google.com/maps/search/?q=Pinacoteca+di+Brera\" target=\"_blank\" rel=\"noopener\">Pinacoteca di Brera</a>."
+          ]
+        },
+        "winter": {
+          "event": "Festive Lights & Quiet Mornings",
+          "ideas": [
+            "🎄 Christmas markets near <a href=\"https://www.google.com/maps/search/?q=Piazza+Duomo+Milan\" target=\"_blank\" rel=\"noopener\">Piazza Duomo</a>.",
+            "☕ Cozy cafés around <a href=\"https://www.google.com/maps/search/?q=Galleria+Vittorio+Emanuele+II+Milan\" target=\"_blank\" rel=\"noopener\">Galleria Vittorio Emanuele II</a>.",
+            "🚶 Calm morning strolls through <a href=\"https://www.google.com/maps/search/?q=Brera+Milan\" target=\"_blank\" rel=\"noopener\">Brera district</a>."
+          ]
+        }
+      },
+
+      "public_transport_tips": [
+        {
+          "tip": "🚇 Milan Metro (M1, M2, M3, M5) connects all major attractions quickly.",
+          "link": "https://www.google.com/maps/search/?q=Milan+Metro+Stations"
+        },
+        {
+          "tip": "🚋 Trams are iconic and great for slow sightseeing.",
+          "link": "https://www.google.com/maps/search/?q=Milan+Tram+Stops"
+        },
+        {
+          "tip": "🚌 Buses fill in gaps where metro doesn’t reach.",
+          "link": "https://www.google.com/maps/search/?q=Milan+Bus+Routes"
+        },
+        {
+          "tip": "🚶 City center is walkable, especially Brera and Duomo surroundings.",
+          "link": "https://www.google.com/maps/search/?q=Milan+City+Center"
+        }
+      ],
+
+      "city_events": [
+        {
+          "name": "Milan Fashion Week",
+          "season": "spring",
+          "description": "👗 Global fashion celebration with shows, exhibitions, and design culture."
         }
       ]
     },
     {
-      "name": "Tuscany / Chianti Region",
+      "name": "Naples",
       "interests": [
-        "Vineyards & Wine Culture 🍇",
-        "Rural Countryside & Hilltop Villages 🌄",
-        "Food, Wine & Relaxed Pace 🍷🥖"
+        {
+          "name": "Historic Streets & Old Town Life 🎭",
+          "map_link": "https://www.google.com/maps/search/?q=Spaccanapoli+Naples",
+          "description": "Naples has one of the most vibrant and historic old towns in Europe. Spaccanapoli cuts through the center like a river of ancient life, filled with shops, locals, scooters, and baroque churches. Every corner reveals deep layers of history and raw Neapolitan energy."
+        },
+        {
+          "name": "Seaside Views & Coastal Walks 🌊",
+          "map_link": "https://www.google.com/maps/search/?q=Lungomare+Caracciolo+Naples",
+          "description": "The Naples waterfront offers wide promenades with sweeping sea views and dramatic vistas of Mount Vesuvius. Perfect for long walks, sunset photos, and relaxing by the water. The mix of sea breeze and city life creates a unique Mediterranean vibe."
+        },
+        {
+          "name": "Castles & Archaeology 🏰",
+          "map_link": "https://www.google.com/maps/search/?q=Castel+Nuovo+Naples",
+          "description": "Naples is full of powerful historic fortresses such as Castel Nuovo and Castel dell’Ovo. These sites show the city’s medieval and Renaissance strength. Nearby archaeological wonders like Pompeii and Herculaneum add even greater depth to the region’s heritage."
+        },
+        {
+          "name": "Food Culture & Street Food 🍕",
+          "map_link": "https://www.google.com/maps/search/?q=Naples+street+food",
+          "description": "Naples is the birthplace of pizza and one of the greatest food capitals in Italy. Street food here is legendary — from fried treats to pastries and iconic local cafés. Markets, bakeries and street stands fill the city with irresistible aromas."
+        },
+        {
+          "name": "Art, Museums & Underground Naples 🎨",
+          "map_link": "https://www.google.com/maps/search/?q=Museo+Archeologico+Nazionale+di+Napoli",
+          "description": "Naples blends ancient and modern culture through museums, underground tunnels, catacombs and urban street art. The Archaeological Museum houses some of the most important classical artifacts in the world. Exploring beneath the city reveals a whole hidden Naples."
+        }
       ],
-      "local_food_tip": "Chianti wines, rustic bread, olive oil, local cheeses, cold cuts and hearty countryside meals — ideal after vineyard visits or countryside walks. 🍷🧀🍞",
-      "full_day": "Morning: 🚗 Drive to vineyards, take wine‑tour and tastings among rolling hills and vines → 🍇 Sample local Chianti wine and regional snacks.\n\nAfternoon: 🏘️ Visit small hilltop villages — enjoy panoramic views, historic churches and countryside atmosphere → 🍽️ Lunch: rustic Tuscan meal with local wine.\n\nSunset: 🌇 Watch sunset over vineyards and hills — serene atmosphere of countryside.\n\nNight: 🌙 Stay in agriturismo or rural guesthouse — dinner with local dishes, wine, olive oil specialties and peaceful rural night.",
+
+      "local_food_tip": "Try authentic Neapolitan pizza, frittatina, sfogliatella, fried snacks, seafood pasta and strong local espresso. 🍕☕",
+
+      "full_day": "Morning: Walk through <a href=\"https://www.google.com/maps/search/?q=Spaccanapoli+Naples\" target=\"_blank\" rel=\"noopener\">Spaccanapoli</a> → explore <a href=\"https://www.google.com/maps/search/?q=Naples+Cathedral\" target=\"_blank\" rel=\"noopener\">Naples Cathedral</a> → coffee + pastry.\n\nAfternoon: Head to <a href=\"https://maps.app.goo.gl/DPSACvsLeSDCYrnj8\" target=\"_blank\" rel=\"noopener\">Castel Nuovo</a> (exterior) → stroll <a href=\"https://www.google.com/maps/place/Lungomare+Caracciolo/@40.8303295,14.2273573,15z\" target=\"_blank\" rel=\"noopener\">Lungomare Caracciolo</a> waterfront → lunch with pizza or seafood.\n\nSunset: Enjoy golden light around <a href=\"https://www.google.com/maps/search/?q=Castel+dell'Ovo+Naples\" target=\"_blank\" rel=\"noopener\">Castel dell’Ovo</a>.\n\nNight: Dinner in the old town → gelato on a warm city walk.",
+
+      "places": [
+        {
+          "name": "Spaccanapoli",
+          "link": "https://www.google.com/maps/search/?q=Spaccanapoli+Naples",
+          "description": "The historic narrow street slicing through the old town — the heart of Naples’ urban energy."
+        },
+        {
+          "name": "Naples Cathedral (Duomo di Napoli)",
+          "link": "https://www.google.com/maps/search/?q=Naples+Cathedral",
+          "description": "A monumental cathedral famous for its stunning architecture and local traditions."
+        },
+        {
+          "name": "Castel Nuovo (Maschio Angioino)",
+          "link": "https://www.google.com/maps/search/?q=Castel+Nuovo+Naples",
+          "description": "A massive medieval fortress dominating the waterfront — iconic Naples landmark."
+        },
+        {
+          "name": "Castel dell’Ovo",
+          "link": "https://www.google.com/maps/search/?q=Castel+dell'Ovo+Naples",
+          "description": "The oldest castle in Naples, sitting on a small island with panoramic sea views."
+        },
+        {
+          "name": "Lungomare Caracciolo",
+          "link": "https://www.google.com/maps/search/?q=Lungomare+Caracciolo+Naples",
+          "description": "One of Italy’s most scenic seaside promenades — perfect for sunset walks."
+        },
+        {
+          "name": "Piazza del Plebiscito",
+          "link": "https://www.google.com/maps/search/?q=Piazza+del+Plebiscito+Naples",
+          "description": "A grand, open square surrounded by palaces — a major cultural hub."
+        },
+        {
+          "name": "Galleria Umberto I",
+          "link": "https://www.google.com/maps/search/?q=Galleria+Umberto+I+Naples",
+          "description": "A stunning 19th-century shopping gallery with glass ceilings and elegant architecture."
+        },
+        {
+          "name": "Naples National Archaeological Museum",
+          "link": "https://www.google.com/maps/search/?q=Museo+Archeologico+Nazionale+di+Napoli",
+          "description": "Home to one of the world’s best collections of Roman and Greek artifacts."
+        }
+      ],
+
+      "hidden_gems": [
+        {
+          "name": "Via San Gregorio Armeno (Nativity Street)",
+          "link": "https://www.google.com/maps/search/?q=Via+San+Gregorio+Armeno+Naples",
+          "description": "A unique artisans’ street famous for handcrafted figurines and quirky miniature shops."
+        },
+        {
+          "name": "Napoli Sotterranea (Underground Naples)",
+          "link": "https://www.google.com/maps/search/?q=Napoli+Sotterranea",
+          "description": "Ancient tunnels, chambers, and aqueducts hidden below the city — atmospheric and fascinating."
+        },
+        {
+          "name": "Borgo Marinari",
+          "link": "https://www.google.com/maps/search/?q=Borgo+Marinari+Naples",
+          "description": "A small island-like harbor near Castel dell’Ovo, known for seaside cafés and peaceful views."
+        }
+      ],
+
       "seasons": {
         "spring": {
-          "event": "Spring Blossom & Vineyard Renewal",
+          "event": "Spring Sea Breeze & City Walks",
           "ideas": [
-            "🌿 Vines wake up, countryside green — perfect za šetnje po prirodi i opuštanje.",
-            "🚶 Biciklom ili pešice kroz sela i brežuljke, svež vazduh i mir.",
-            "🍷 Ranovremensko vino, lokalne delicije i tišina daleko od gradova."
+            "🌸 Historic strolls around <a href=\"https://www.google.com/maps/place/Spaccanapoli/@40.8483933,14.2499106,17z\" target=\"_blank\" rel=\"noopener\">Spaccanapoli</a>.",
+            "🌿 Mild seaside walks along <a href=\"https://www.google.com/maps/place/Lungomare+Caracciolo/@40.8303295,14.2273573,15z\" target=\"_blank\" rel=\"noopener\">Lungomare Caracciolo</a>.",
+            "🛶 Boat views near <a href=\"https://www.google.com/maps/place/Castel+dell'Ovo/@40.8263681,14.2473104,17z\" target=\"_blank\" rel=\"noopener\">Castel dell’Ovo</a>."
           ]
         },
         "summer": {
-          "event": "Summer Wine & Countryside Escape",
+          "event": "Warm Nights & Coastal Energy",
           "ideas": [
-            "🌞 Rano jutro za vinograde, plodne livade i topli dani uz vino i prirodu.",
-            "🏖️ Moguć odlazak i na more — bliži primorju, pa kombinacija vinograda + more.",
-            "🔥 Večernji obroci u ruralnim tavernama, domaće vino i mir."
+            "🌞 Early visits around <a href=\"https://www.google.com/maps/place/Piazza+del+Plebiscito/@40.8358849,14.2487679,17z\" target=\"_blank\" rel=\"noopener\">Piazza del Plebiscito</a>.",
+            "🍨 Gelato strolls in <a href=\"https://www.google.com/maps/place/Quartieri+Spagnoli/@40.8426756,14.2476742,17z\" target=\"_blank\" rel=\"noopener\">Quartieri Spagnoli</a>.",
+            "🌇 Sunset near <a href=\"https://www.google.com/maps/place/Castel+Nuovo/@40.8392586,14.2541141,17z\" target=\"_blank\" rel=\"noopener\">Castel Nuovo</a>."
           ]
         },
         "autumn": {
-          "event": "Harvest Time & Wine Festivals",
+          "event": "Golden Light & Food Season",
           "ideas": [
-            "🍇 Berba grožđa, festival vina, lokalne manifestacije posvećene vinu i hrani.",
-            "🍁 Jesenja svetlost i boje brežuljaka — savršeno za fotografije i opuštanje.",
-            "🥘 Domaća hrana, topla jela, vino i mirna atmosfera sela."
+            "🍁 Warm colors around <a href=\"https://www.google.com/maps/place/Galleria+Umberto+I/@40.8387086,14.2483404,17z\" target=\"_blank\" rel=\"noopener\">Galleria Umberto I</a>.",
+            "🍕 Autumn food comfort in <a href=\"https://www.google.com/maps/place/Spaccanapoli/@40.8483933,14.2499106,17z\" target=\"_blank\" rel=\"noopener\">Spaccanapoli</a> pizzerias.",
+            "🎭 Cultural afternoons in <a href=\"https://www.google.com/maps/place/Museo+Archeologico+Nazionale+di+Napoli/@40.853044,14.2509859,17z\" target=\"_blank\" rel=\"noopener\">Archaeological Museum</a>."
           ]
         },
         "winter": {
-          "event": "Winter Calm & Rural Retreat",
+          "event": "Cozy Cafés & Festive Streets",
           "ideas": [
-            "🔥 Kamin, domaća hrana i vino — idealno za beg iz gradske gužve.",
-            "🌧️ Šetnje mirnim selima, tišina i priroda, zimska rustična atmosfera.",
-            "🏡 Opuštanje u agriturismu, lokalna hrana i tišina noći."
+            "🎄 Holiday lights around <a href=\"https://www.google.com/maps/place/Piazza+del+Plebiscito/@40.8358849,14.2487679,17z\" target=\"_blank\" rel=\"noopener\">Piazza del Plebiscito</a>.",
+            "☕ Warm cafés near <a href=\"https://www.google.com/maps/place/Via+Toledo/@40.8463275,14.2494841,17z\" target=\"_blank\" rel=\"noopener\">Via Toledo</a>.",
+            "🚶 Quiet old-town walks past <a href=\"https://www.google.com/maps/place/Cattedrale+di+San+Gennaro/@40.8522635,14.2624246,17z\" target=\"_blank\" rel=\"noopener\">Naples Cathedral</a>."
           ]
         }
       },
+
       "public_transport_tips": [
-        "🚗 Auto je najpraktčniji za istraživanje sela i vinograda — fleksibilnost putovanja.",
-        "🎫 Neki vinogradi nude ture + prevoz — dobra opcija ako ne želiš da voziš.",
-        "🚶 Pešačenje ili bicikl za lokalne izlete — klima i pejzaž su idealni za to.",
-        "📝 Planiraj unapred — ruralne ceste su uske, a signal i prevoz nisu uvek česti."
+        {
+          "tip": "🚇 Naples Metro Lines 1 & 2 connect major areas efficiently.",
+          "link": "https://www.google.com/maps/search/?q=Naples+Metro+Line+1"
+        },
+        {
+          "tip": "🚌 Buses and funiculars help reach hilly neighborhoods.",
+          "link": "https://www.google.com/maps/search/?q=Naples+Funicular"
+        },
+        {
+          "tip": "🚶 Old town is best explored on foot.",
+          "link": "https://www.google.com/maps/search/?q=Naples+Historic+Center"
+        }
       ],
+
       "city_events": [
         {
-          "name": "Chianti Harvest & Wine Festival",
-          "season": "autumn",
-          "description": "🍇 Festival berbe grožđa i vina, degustacije, lokalna hrana i selo‑kultura."
-        }
-      ]
-    },
-    {
-      "name": "Venice & Veneto Region",
-      "interests": [
-        "Canals, Historic Canals & Romantic Gondola Rides 🚤",
-        "Venetian Architecture & Lagoon Heritage 🏰",
-        "Sea‑food, Wine & Lagoon Cuisine 🦐🍷"
-      ],
-      "local_food_tip": "Try seafood, risotto al nero di seppia (squid ink risotto), cicchetti (small snacks), local white wines — perfect after canal‑walks or boat rides. 🍝🐟🍷",
-      "full_day": "Morning: 🌉 Gondola ride through canals → Explore historic center and bridges → ☕ Coffee near canal side.\n\nAfternoon: 🏛️ Visit St. Mark’s Basilica, Doge’s Palace, walk narrow alleys → 🍽️ Lunch: lagoon seafood or Venetian dish with wine.\n\nSunset: 🌇 Boat ride to nearby islands (Murano, Burano) for sunset over lagoon and unique island architecture.\n\nNight: 🌙 Dinner in small bacari (Venetian taverns), wine, cicchetti and night stroll through illuminated canals — dreamy Venetian night scenery.",
-      "seasons": {
-        "spring": {
-          "event": "Spring Canal Walks & Light Reflections",
-          "ideas": [
-            "🌸 Mild weather, calm canals — perfect za istraživanje bez gužve.",
-            "🚤 Isolated gondola vožnje i mirne šetnje uz kanale.",
-            "🍷 Lagano vino i snack‑ovi pokraj vode u opuštenoj atmosferi."
-          ]
-        },
-        "summer": {
-          "event": "Tourist Season & Lagoon Lights",
-          "ideas": [
-            "☀️ Ranom zorom gondola, popodnevno odmori, večernje šetnje pod mesečinom uz kanale.",
-            "🍧 Lagan ručak, sladoled i lagane večere uz vodu sa pogledom.",
-            "🎭 Moguće letnje kulturne ture, koncerti ili manifestacije na trgovima i lukama."
-          ]
-        },
-        "autumn": {
-          "event": "Autumn Water & Historic Calm",
-          "ideas": [
-            "🍂 Kanali u zlatnim tonovima — savršeno za fotkanje i mirne šetnje.",
-            "🔥 Topla hrana, vino i lagane taverne nakon dana istraživanja.",
-            "🏛️ Manje gužve u muzejima i istorijskim objektima — više mira."
-          ]
-        },
-        "winter": {
-          "event": "Off‑Season Venice Charm & Lagoon Mist",
-          "ideas": [
-            "🌫️ Magla nad kanalima, tišina i gotovo puste ulice — mistična atmosfera.",
-            "🔥 Domaće vino, topla jela i komfor u malim restoranima ili bacarima.",
-            "🎨 Unutrašnje posete — muzeji, istorija, galerije — idealno za hladnije dane."
-          ]
-        }
-      },
-      "public_transport_tips": [
-        "🛶 Vaporetti (vodeni autobusi) su glavni prevoz u gradu i okolnim ostrvima — planiraj karte unapred.",
-        "🚶 Mnoge delove istorijskog centra je najbolje pešice — uske uličice i mostovi.",
-        "🎟️ Turističke vodene karte mogu da uštede ako planiraš više vožnji brodovima.",
-        "🚤 Za obližnja ostrva — brod ili trajekat, proveri sezonske rasporede."
-      ],
-      "city_events": [
-        {
-        "name": "Venice Carnival & Lagoon Events",
-        "season": "spring",
-        "description": "🎭 Historic carnival, masquerade, Venetian traditions — unique cultural experience by the lagoon."
+          "name": "Naples Pizza Village Festival",
+          "season": "summer",
+          "description": "🍕 Massive seaside festival celebrating Naples’ authentic pizza culture."
         }
       ]
     },
     {
       "name": "Sicily (Sicilian Islands & Coastal Towns)",
       "interests": [
-        "Mediterranean Sea & Island Life 🏝️",
-        "Ancient Ruins & Greek / Roman Legacy 🏛️",
-        "Sea‑food, Citrus Fruits & Island Cuisine 🍋🐟"
+        {
+          "name": "Mediterranean Sea & Island Life 🏝️",
+          "map_link": "https://www.google.com/maps/search/?q=Sicily+Beaches",
+          "description": "Sicily offers turquoise waters, sandy beaches, volcanic shores, and a relaxed island rhythm. Coastal towns blend fishing heritage with modern seaside cafés. Islands like Favignana and Lipari provide peaceful escapes. Perfect for swimming, sunbathing, and scenic walks."
+        },
+        {
+          "name": "Ancient Ruins & Greek/Roman Legacy 🏛️",
+          "map_link": "https://www.google.com/maps/search/?q=Valle+dei+Templi+Agrigento",
+          "description": "Sicily holds some of the world’s best-preserved Greek temples and Roman ruins. Agrigento, Syracuse, and Taormina showcase ancient theaters, temples, and archeological parks. Walking through these sites feels like traveling through ancient civilizations. History blends beautifully with sea views."
+        },
+        {
+          "name": "Seafood, Citrus Fruits & Island Cuisine 🍋🐟",
+          "map_link": "https://www.google.com/maps/search/?q=Sicily+Seafood+Restaurants",
+          "description": "Mediterranean flavors define Sicilian cuisine — fresh seafood, citrus fruits, olive oil, and regional wines. Markets are full of oranges, lemons, herbs, and pastries. Local dishes are hearty yet refreshing. Perfect for warm coastal days and slow island evenings."
+        }
       ],
-      "local_food_tip": "Fresh fish, seafood pasta, citrus fruits (lemons, oranges), local wines and olive oil — flavors of the Mediterranean sun and sea. 🍋🐠🍷",
-      "full_day": "Morning: 🏖️ Swim or relax on beach or coastal cliffs → Breakfast by sea with coffee and pastry.\n\nAfternoon: 🏛️ Visit ancient ruins, historic towns or small villages — explore Sicilian culture and history → 🍽️ Lunch: seafood or regional dish with local wine.\n\nSunset: 🌇 Coastal walk, cliff‑view or harbor promenade for sea sunset and soft Mediterranean light.\n\nNight: 🌙 Dinner with local seafood, wine, seaside breeze; possibility of night strolls by water or small local festivals — island charm under stars.",
+
+      "local_food_tip": "Fresh fish, seafood pasta, citrus fruits, olive oil, local wines — flavors of the Mediterranean sun and sea. 🍋🐠🍷",
+
+      "full_day": "Morning: Swim or walk along <a href=\"https://www.google.com/maps/search/?q=Isola+Bella+Taormina\" target=\"_blank\" rel=\"noopener\">Isola Bella</a> or nearby beaches → seaside breakfast.\n\nAfternoon: Explore ancient sites like <a href=\"https://www.google.com/maps/place/Teatro+Antico+di+Taormina\" target=\"_blank\" rel=\"noopener\">Teatro Antico di Taormina</a> or <a href=\"https://www.google.com/maps/place/Parco+Archeologico+di+Siracusa\" target=\"_blank\" rel=\"noopener\">Syracuse Archaeological Park</a> → seafood lunch in a coastal town.\n\nSunset: Enjoy golden views from <a href=\"https://www.google.com/maps/search/?q=Taormina+Viewpoints\" target=\"_blank\" rel=\"noopener\">Taormina viewpoints</a> or <a href=\"https://www.google.com/maps/search/?q=Cefalù+Promenade\" target=\"_blank\" rel=\"noopener\">Cefalù promenade</a>.\n\nNight: Dinner with local wine → walk through old coastal streets or small village festivals.",
+
+      "places": [
+        {
+          "name": "Isola Bella (Taormina)",
+          "link": "https://www.google.com/maps/place/Isola+Bella/",
+          "description": "A stunning bay with turquoise water and a small island connected by a sandbar. Perfect for swimming and photography."
+        },
+        {
+          "name": "Teatro Antico di Taormina",
+          "link": "https://www.google.com/maps/place/Teatro+Antico+di+Taormina/",
+          "description": "An ancient Greek theater overlooking the sea and Mount Etna. One of the most iconic viewpoints in Sicily."
+        },
+        {
+          "name": "Cefalù Beach & Promenade",
+          "link": "https://www.google.com/maps/place/Cefalù+Beach/",
+          "description": "Golden sand, scenic water, and a beautiful old town rising above the shoreline."
+        },
+        {
+          "name": "Valle dei Templi (Agrigento)",
+          "link": "https://www.google.com/maps/place/Valle+dei+Templi/",
+          "description": "One of the world’s best-preserved Greek temple complexes. A must-see for history lovers."
+        },
+        {
+          "name": "Ortigia Island (Syracuse)",
+          "link": "https://www.google.com/maps/place/Ortigia/",
+          "description": "A charming historic island with narrow lanes, markets, sea walls, and ancient architecture."
+        },
+        {
+          "name": "Favignana Island",
+          "link": "https://www.google.com/maps/place/Favignana/",
+          "description": "Famous for crystal-clear waters, hidden coves, and a laid-back Mediterranean atmosphere."
+        },
+        {
+          "name": "Mount Etna",
+          "link": "https://www.google.com/maps/place/Mount+Etna/",
+          "description": "Europe’s largest active volcano with lunar landscapes, hiking paths, and panoramic views."
+        },
+        {
+          "name": "Mondello Beach (Palermo)",
+          "link": "https://www.google.com/maps/place/Mondello+Beach/",
+          "description": "A white-sand beach near Palermo with clear water and relaxed seaside restaurants."
+        }
+      ],
+
+      "hidden_gems": [
+        {
+          "name": "Scala dei Turchi",
+          "link": "https://www.google.com/maps/place/Scala+dei+Turchi/",
+          "description": "White limestone cliffs shaped like stairs descending into turquoise water. A quiet and surreal natural landmark."
+        },
+        {
+          "name": "Savoca (The Godfather Village)",
+          "link": "https://www.google.com/maps/place/Savoca/",
+          "description": "A tiny hilltop village used in film locations — peaceful, historic, and atmospheric."
+        },
+        {
+          "name": "Riserva dello Zingaro",
+          "link": "https://www.google.com/maps/place/Riserva+dello+Zingaro/",
+          "description": "A nature reserve with hiking trails, small coves, and untouched Mediterranean beauty."
+        }
+      ],
+
       "seasons": {
         "spring": {
           "event": "Spring Sea & Historic Walks",
           "ideas": [
-            "🌿 Pleasant weather — good for exploring ruins, towns and coast without summer heat.",
-            "🚶 Coastal and countryside walks, sea breeze and calm atmosphere.",
-            "🍊 Fresh citrus harvest, local markets — tasty seasonal produce."
+            "🌿 Walk among ancient sites around <a href=\"https://www.google.com/maps/place/Parco+Archeologico+di+Selinunte\" target=\"_blank\" rel=\"noopener\">Selinunte</a>.",
+            "🚶 Coastal paths near <a href=\"https://www.google.com/maps/place/Riserva+dello+Zingaro\" target=\"_blank\" rel=\"noopener\">Zingaro Reserve</a>.",
+            "🍊 Citrus markets in <a href=\"https://www.google.com/maps/search/?q=Catania+Fish+Market\" target=\"_blank\" rel=\"noopener\">Catania market</a>."
           ]
         },
         "summer": {
           "event": "Island Summer & Mediterranean Vibes",
           "ideas": [
-            "🏝️ Beach, sea, sun — classic island holiday under warm Mediterranean sky.",
-            "🍧 Fresh seafood dinners, local wine, seaside relaxation and nightlife in coastal towns.",
-            "🚤 Boat rides, exploration of small coves and island‑hopping possibilities."
+            "🏝️ Beach time at <a href=\"https://www.google.com/maps/place/San+Vito+Lo+Capo\" target=\"_blank\" rel=\"noopener\">San Vito Lo Capo</a>.",
+            "🍧 Seafood dinners along <a href=\"https://www.google.com/maps/place/Cefalù\" target=\"_blank\" rel=\"noopener\">Cefalù old town</a>.",
+            "🚤 Boat tours around <a href=\"https://www.google.com/maps/place/Favignana\" target=\"_blank\" rel=\"noopener\">Favignana</a>."
           ]
         },
         "autumn": {
           "event": "Autumn Calm & Harvest Flavours",
           "ideas": [
-            "🍂 Mlađa sezona, manje gužve — mirnije plaže i čistija atmosfera.",
-            "🥘 Rich seafood & citrus dishes, warm wine, relaxed pace away from masovne sezone.",
-            "📷 Scenic light for photos — more mekana svetlost, opušteni dani i priroda."
+            "🍇 Vineyard colors near <a href=\"https://www.google.com/maps/search/?q=Etna+Wineries\" target=\"_blank\" rel=\"noopener\">Etna wineries</a>.",
+            "🥘 Warm seafood meals in <a href=\"https://www.google.com/maps/place/Syracuse\" target=\"_blank\" rel=\"noopener\">Syracuse</a>.",
+            "📷 Soft light for photos around <a href=\"https://www.google.com/maps/place/Taormina\" target=\"_blank\" rel=\"noopener\">Taormina</a>."
           ]
         },
         "winter": {
-          "event": "Off‑Season Peace & Island Serenity",
+          "event": "Off-Season Peace & Island Serenity",
           "ideas": [
-            "🌬️ Blaga klima, mir, odlična prilika za istraživanje istorije i kulture ostrva bez gužve.",
-            "🔥 Lokalna jela, domaće vino, topla atmosfera u pitoresknim mestima pored mora.",
-            "🚶 Šetnje uz more, čist vazduh, priroda i zimski mir u mediteranskom ambijentu."
+            "🌬️ Quiet coastal walks in <a href=\"https://www.google.com/maps/place/Mondello+Beach\" target=\"_blank\" rel=\"noopener\">Mondello</a>.",
+            "🔥 Cozy meals in <a href=\"https://www.google.com/maps/place/Ortigia\" target=\"_blank\" rel=\"noopener\">Ortigia</a> taverns.",
+            "🏛️ Peaceful visits to <a href=\"https://www.google.com/maps/place/Valle+dei+Templi\" target=\"_blank\" rel=\"noopener\">Valle dei Templi</a>."
           ]
         }
       },
+
       "public_transport_tips": [
-        "⛴️ Trajekti i lokalni brodovi povezuju ostrva i ostrvska mesta — planiraj rutu unapred.",
-        "🚶 Centar gradića i plaže su često blizu — pešice je najjednostavnije za istraživanje.",
-        "🏍️ Skuter ili auto iznajmljivanje može da pomogne za istraživanje ostrva i ruralnih delova.",
-        "🎫 Kombinovane karte za brod + prevoz + turističke ture često štede — proveri opcije."
+        {
+          "tip": "⛴️ Ferries connect major islands — Favignana, Lipari, Vulcano, Stromboli.",
+          "link": "https://www.google.com/maps/search/?q=Sicily+Ferry+Ports"
+        },
+        {
+          "tip": "🚌 Local buses connect major towns like Palermo, Catania, Taormina, Syracuse.",
+          "link": "https://www.google.com/maps/search/?q=Sicily+Bus+Station"
+        },
+        {
+          "tip": "🚗 Renting a car is the most flexible way to explore rural and coastal areas.",
+          "link": "https://www.google.com/maps/search/?q=Sicily+Car+Rental"
+        },
+        {
+          "tip": "🚶 Many historic centers and beaches are walkable.",
+          "link": "https://www.google.com/maps/search/?q=Sicily+Old+Town"
+        }
       ],
+
       "city_events": [
         {
           "name": "Sicily Summer Island Festival",
           "season": "summer",
-          "description": "🌊 Sea‑side concerts, boat parties, local food & cultural events under Mediterranean sky."
+          "description": "🌊 Sea-side concerts, boat parties, local food & cultural events under Mediterranean sky."
+        }
+      ]
+    },
+    {
+      "name": "Tuscany / Chianti Region",
+      "interests": [
+        {
+          "name": "Vineyards & Wine Culture 🍇",
+          "map_link": "https://www.google.com/maps/search/?q=Chianti+Vineyards",
+          "description": "The Chianti region is world-famous for its vineyards, rolling landscapes, and deep wine tradition. Visitors explore endless hills covered in vines and rustic wine estates. Wine tastings are a highlight of any trip, offering authentic Chianti Classico flavors. The region perfectly blends nature, culture, and rural heritage."
+        },
+        {
+          "name": "Rural Countryside & Hilltop Villages 🌄",
+          "map_link": "https://www.google.com/maps/search/?q=Castellina+in+Chianti",
+          "description": "Tuscany's countryside is filled with medieval hilltop villages overlooking fields and winding valleys. Towns like Castellina, Radda, and Greve offer stone streets, scenic vistas, and peaceful squares. Every corner provides postcard-like landscapes. It’s an ideal place for slow travel, photography, and nature walks."
+        },
+        {
+          "name": "Food, Wine & Relaxed Pace 🍷🥖",
+          "map_link": "https://www.google.com/maps/search/?q=Chianti+Restaurants",
+          "description": "Tuscan cuisine emphasizes simplicity and quality ingredients — bread, olive oil, local cheese, cured meats, and regional wines. Countryside trattorias offer cozy meals with panoramic views. Dining here feels slow, warm, and authentic. Food culture is deeply tied to the land and its traditions."
+        }
+      ],
+
+      "local_food_tip": "Chianti wines, rustic bread, olive oil, local cheeses, cold cuts and hearty countryside meals — ideal after vineyard visits or countryside walks. 🍷🧀🍞",
+
+      "full_day": "Morning: Explore vineyards around <a href=\"https://www.google.com/maps/search/?q=Greve+in+Chianti\" target=\"_blank\" rel=\"noopener\">Greve in Chianti</a> and enjoy tastings at local estates → sample Chianti Classico wines.\n\nAfternoon: Visit hilltop villages such as <a href=\"https://www.google.com/maps/search/?q=Castellina+in+Chianti\" target=\"_blank\" rel=\"noopener\">Castellina in Chianti</a> or <a href=\"https://www.google.com/maps/search/?q=Radda+in+Chianti\" target=\"_blank\" rel=\"noopener\">Radda in Chianti</a> → lunch in a rustic trattoria with local dishes.\n\nSunset: Watch warm golden light over vineyards from <a href=\"https://www.google.com/maps/search/?q=Chianti+Sunset+Viewpoint\" target=\"_blank\" rel=\"noopener\">panoramic viewpoints</a>.\n\nNight: Enjoy a peaceful dinner at an agriturismo with regional wine, olive oil specialties, and a quiet countryside atmosphere.",
+
+      "places": [
+        {
+          "name": "Greve in Chianti",
+          "link": "https://www.google.com/maps/search/?q=Greve+in+Chianti",
+          "description": "A charming town considered the gateway to Chianti. Its central square, markets, and wine shops make it perfect for first-time visitors exploring the region."
+        },
+        {
+          "name": "Castellina in Chianti",
+          "link": "https://www.google.com/maps/search/?q=Castellina+in+Chianti",
+          "description": "A historic medieval village with stone streets, panoramic views, and traditional architecture. It offers some of the best countryside vistas in Tuscany."
+        },
+        {
+          "name": "Radda in Chianti",
+          "link": "https://www.google.com/maps/search/?q=Radda+in+Chianti",
+          "description": "A picturesque hilltop town known for local wineries, peaceful alleys, and sweeping valley views. A perfect spot for slow walks and photography."
+        },
+        {
+          "name": "Panzano in Chianti",
+          "link": "https://www.google.com/maps/search/?q=Panzano+in+Chianti",
+          "description": "Located between Florence and Siena, Panzano is famous for its panoramas and artisan food traditions. A relaxing stop for lunch or wine tasting."
+        },
+        {
+          "name": "Chianti Classico Wine Route",
+          "link": "https://www.google.com/maps/search/?q=Chianti+Classico+Wine+Route",
+          "description": "A historic wine road connecting the region’s most famous vineyards. Ideal for scenic drives, photography, and exploring multiple wineries in one day."
+        },
+        {
+          "name": "Badia a Passignano",
+          "link": "https://www.google.com/maps/search/?q=Badia+a+Passignano",
+          "description": "A beautiful ancient abbey surrounded by cypress trees and vineyards. The area is known for wine estates, walking paths, and peaceful scenery."
+        },
+        {
+          "name": "Volpaia Village",
+          "link": "https://www.google.com/maps/search/?q=Volpaia+Village",
+          "description": "A tiny medieval village famous for its vineyards and handcrafted wines. Its tranquil atmosphere makes it a hidden gem among Chianti hilltowns."
+        },
+        {
+          "name": "Montepulciano Viewpoint",
+          "link": "https://www.google.com/maps/search/?q=Montepulciano+Viewpoint",
+          "description": "Although slightly outside Chianti, Montepulciano offers spectacular panoramic views over southern Tuscany. Wine lovers often combine both regions."
+        }
+      ],
+
+      "hidden_gems": [
+        {
+          "name": "Chianti Panoramic Terrace (near Radda)",
+          "link": "https://www.google.com/maps/search/?q=Radda+in+Chianti+Panoramic+Terrace",
+          "description": "A quiet viewpoint overlooking endless waves of vineyards. Perfect for sunset photos and peaceful moments away from tourist routes."
+        },
+        {
+          "name": "Volpaia Vineyard Trails",
+          "link": "https://www.google.com/maps/search/?q=Volpaia+Trails",
+          "description": "Walking paths connecting vineyards and forests around the medieval hamlet of Volpaia. Ideal for slow countryside hikes."
+        },
+        {
+          "name": "Badia a Passignano Forest Walk",
+          "link": "https://www.google.com/maps/search/?q=Badia+a+Passignano+Forest",
+          "description": "Shaded trails around the ancient abbey where you can enjoy silence, nature, and views over some of Tuscany’s most iconic landscapes."
+        }
+      ],
+
+      "seasons": {
+        "spring": {
+          "event": "Spring Blossom & Vineyard Renewal",
+          "ideas": [
+            "🌿 Countryside turning green around <a href=\"https://www.google.com/maps/search/?q=Greve+in+Chianti\" target=\"_blank\" rel=\"noopener\">Greve in Chianti</a>.",
+            "🚶 Scenic walking paths between <a href=\"https://www.google.com/maps/search/?q=Castellina+in+Chianti+Trails\" target=\"_blank\" rel=\"noopener\">Castellina vineyards</a>.",
+            "🍷 Early-season tastings at <a href=\"https://www.google.com/maps/search/?q=Radda+in+Chianti+Wineries\" target=\"_blank\" rel=\"noopener\">Radda wineries</a>."
+          ]
+        },
+        "summer": {
+          "event": "Summer Wine & Countryside Escape",
+          "ideas": [
+            "🌞 Early vineyard visits near <a href=\"https://www.google.com/maps/search/?q=Panzano+in+Chianti\" target=\"_blank\" rel=\"noopener\">Panzano</a>.",
+            "🏖️ Day trip options toward the coast from <a href=\"https://www.google.com/maps/search/?q=Tuscany+Coast\" target=\"_blank\" rel=\"noopener\">Tuscany seaside</a>.",
+            "🔥 Outdoor dinners in <a href=\"https://www.google.com/maps/search/?q=Chianti+Restaurants\" target=\"_blank\" rel=\"noopener\">countryside trattorias</a>."
+          ]
+        },
+        "autumn": {
+          "event": "Harvest Time & Wine Festivals",
+          "ideas": [
+            "🍇 Grape harvest events around <a href=\"https://www.google.com/maps/search/?q=Greve+in+Chianti+Harvest\" target=\"_blank\" rel=\"noopener\">Greve</a>.",
+            "🍁 Autumn colors around <a href=\"https://www.google.com/maps/search/?q=Radda+in+Chianti+Viewpoints\" target=\"_blank\" rel=\"noopener\">Radda viewpoints</a>.",
+            "🥘 Seasonal dishes in <a href=\"https://www.google.com/maps/search/?q=Tuscany+Countryside+Restaurants\" target=\"_blank\" rel=\"noopener\">rural restaurants</a>."
+          ]
+        },
+        "winter": {
+          "event": "Winter Calm & Rural Retreat",
+          "ideas": [
+            "🔥 Cozy fireplaces in <a href=\"https://www.google.com/maps/search/?q=Chianti+Agriturismo\" target=\"_blank\" rel=\"noopener\">agriturismos</a>.",
+            "🌧️ Quiet winter strolls through <a href=\"https://www.google.com/maps/search/?q=Castellina+in+Chianti\" target=\"_blank\" rel=\"noopener\">Castellina</a>.",
+            "🏡 Slow evenings with wine in <a href=\"https://www.google.com/maps/search/?q=Radda+in+Chianti\" target=\"_blank\" rel=\"noopener\">Radda</a>."
+          ]
+        }
+      },
+
+      "public_transport_tips": [
+        {
+          "tip": "🚗 A car is the most practical way to explore rural villages and vineyards.",
+          "link": "https://www.google.com/maps/search/?q=Chianti+Car+Rental"
+        },
+        {
+          "tip": "🎫 Some wineries offer guided tours with transportation included.",
+          "link": "https://www.google.com/maps/search/?q=Chianti+Wine+Tour"
+        },
+        {
+          "tip": "🚶 Walking and cycling routes are ideal for exploring short distances.",
+          "link": "https://www.google.com/maps/search/?q=Chianti+Cycling+Routes"
+        },
+        {
+          "tip": "📝 Plan ahead — rural roads are narrow and public transport is limited.",
+          "link": "https://www.google.com/maps/search/?q=Chianti+Route+Map"
+        }
+      ],
+
+      "city_events": [
+        {
+          "name": "Chianti Harvest & Wine Festival",
+          "season": "autumn",
+          "description": "🍇 A grape harvest celebration with tastings, food stalls, wine workshops, and a festive countryside atmosphere."
+        }
+      ]
+    },
+    {
+      "name": "Venice & Veneto Region",
+      "interests": [
+        {
+          "name": "Canals & Romantic Gondola Rides 🚤",
+          "map_link": "https://www.google.com/maps/search/?q=Grand+Canal+Venice",
+          "description": "Venice is known worldwide for its dreamy canals and gondola rides. The Grand Canal winds through the city with stunning palaces on both sides. Smaller canals offer quiet romantic corners and peaceful reflections. Every ride reveals Venice’s charm from a storybook perspective."
+        },
+        {
+          "name": "Venetian Architecture & Lagoon Heritage 🏰",
+          "map_link": "https://www.google.com/maps/search/?q=Piazza+San+Marco+Venice",
+          "description": "The Venice lagoon is home to unique architecture shaped by centuries of maritime history. Landmarks like St. Mark’s Basilica and Doge’s Palace show the power and elegance of the Venetian Republic. Bridges, alleys, and waterfront palazzi create a one-of-a-kind cityscape. Walking here feels like entering a living museum."
+        },
+        {
+          "name": "Seafood, Wine & Lagoon Cuisine 🦐🍷",
+          "map_link": "https://www.google.com/maps/search/?q=Venice+Seafood+Restaurants",
+          "description": "Venetian cuisine is rich in seafood specialties, risottos, and cicchetti — small, flavorful snacks. Local wines perfectly complement lagoon dishes. Street-side taverns and canal-view trattorias create cozy dining moments. It’s a paradise for lovers of authentic, fresh Mediterranean flavors."
+        }
+      ],
+
+      "local_food_tip": "Try seafood, risotto al nero di seppia (squid ink risotto), cicchetti (small snacks), local white wines — perfect after canal-walks or boat rides. 🍝🐟🍷",
+
+      "full_day": "Morning: Start with a gondola ride along the <a href=\"https://www.google.com/maps/search/?q=Grand+Canal+Venice\" target=\"_blank\" rel=\"noopener\">Grand Canal</a> → explore bridges around <a href=\"https://www.google.com/maps/search/?q=Rialto+Bridge\" target=\"_blank\" rel=\"noopener\">Rialto Bridge</a> → enjoy coffee in canal-side cafés.\n\nAfternoon: Visit <a href=\"https://www.google.com/maps/place/St.+Mark's+Basilica\" target=\"_blank\" rel=\"noopener\">St. Mark’s Basilica</a> and <a href=\"https://www.google.com/maps/place/Doge's+Palace\" target=\"_blank\" rel=\"noopener\">Doge’s Palace</a> → wander through narrow alleys → enjoy seafood lunch at a local bacaro.\n\nSunset: Take a boat to <a href=\"https://www.google.com/maps/search/?q=Murano+Island+Venice\" target=\"_blank\" rel=\"noopener\">Murano Island</a> or <a href=\"https://www.google.com/maps/search/?q=Burano+Island+Venice\" target=\"_blank\" rel=\"noopener\">Burano Island</a> for lagoon sunset views.\n\nNight: Dinner in a small Venetian tavern → wine, cicchetti, and a peaceful walk through illuminated canals.",
+
+      "places": [
+        {
+          "name": "Grand Canal",
+          "link": "https://www.google.com/maps/search/?q=Grand+Canal+Venice",
+          "description": "The main waterway of Venice lined with palaces and bridges. One of the most iconic views in the world."
+        },
+        {
+          "name": "St. Mark’s Basilica",
+          "link": "https://www.google.com/maps/place/St.+Mark's+Basilica",
+          "description": "A masterpiece of Byzantine architecture with golden mosaics and detailed interiors. Venice’s most famous cathedral."
+        },
+        {
+          "name": "Doge’s Palace",
+          "link": "https://www.google.com/maps/place/Doge's+Palace",
+          "description": "Historic seat of Venetian rulers featuring grand halls, frescoes, and the famous Bridge of Sighs."
+        },
+        {
+          "name": "Rialto Bridge",
+          "link": "https://www.google.com/maps/search/?q=Rialto+Bridge",
+          "description": "One of the oldest and most beautiful bridges crossing the Grand Canal. A great spot for photos."
+        },
+        {
+          "name": "Murano Island",
+          "link": "https://www.google.com/maps/search/?q=Murano+Island+Venice",
+          "description": "Famous for its glass-making tradition. Visitors can watch artisans create colorful glass artworks."
+        },
+        {
+          "name": "Burano Island",
+          "link": "https://www.google.com/maps/search/?q=Burano+Island+Venice",
+          "description": "Known for its brightly painted houses and lace-making heritage. A photographer's dream."
+        },
+        {
+          "name": "Teatro La Fenice",
+          "link": "https://www.google.com/maps/search/?q=Teatro+La+Fenice+Venice",
+          "description": "One of Italy’s most historic opera houses, beautifully restored and still active today."
+        },
+        {
+          "name": "Accademia Bridge",
+          "link": "https://www.google.com/maps/search/?q=Ponte+dell'Accademia+Venice",
+          "description": "Offers one of the best panoramic views of the Grand Canal, especially at sunset."
+        }
+      ],
+
+      "hidden_gems": [
+        {
+          "name": "Libreria Acqua Alta",
+          "link": "https://www.google.com/maps/search/?q=Libreria+Acqua+Alta+Venice",
+          "description": "A quirky bookstore where books are stored in bathtubs and gondolas to protect them from floods."
+        },
+        {
+          "name": "Scala Contarini del Bovolo",
+          "link": "https://www.google.com/maps/search/?q=Scala+Contarini+del+Bovolo",
+          "description": "A hidden spiral tower offering surprisingly beautiful rooftop views over central Venice."
+        },
+        {
+          "name": "San Giorgio Maggiore Viewpoint",
+          "link": "https://www.google.com/maps/search/?q=San+Giorgio+Maggiore+Campanile",
+          "description": "Take the lift to the top of this church tower for one of the most spectacular lagoon panoramas."
+        }
+      ],
+
+      "seasons": {
+        "spring": {
+          "event": "Spring Canal Walks & Light Reflections",
+          "ideas": [
+            "🌸 Mild canal walks near <a href=\"https://www.google.com/maps/search/?q=Dorsoduro+Venice\" target=\"_blank\" rel=\"noopener\">Dorsoduro district</a>.",
+            "🚤 Quiet gondola routes around <a href=\"https://www.google.com/maps/search/?q=Canaregio+Venice\" target=\"_blank\" rel=\"noopener\">Cannaregio</a>.",
+            "🍷 Light wine and snacks by the water in <a href=\"https://www.google.com/maps/search/?q=Zattere+Venice\" target=\"_blank\" rel=\"noopener\">Zattere promenade</a>."
+          ]
+        },
+        "summer": {
+          "event": "Tourist Season & Lagoon Lights",
+          "ideas": [
+            "☀️ Early-morning gondola rides near <a href=\"https://www.google.com/maps/search/?q=Rialto+Bridge\" target=\"_blank\" rel=\"noopener\">Rialto</a>.",
+            "🍧 Gelato stops along <a href=\"https://www.google.com/maps/search/?q=Piazza+San+Marco\" target=\"_blank\" rel=\"noopener\">St. Mark’s Square</a>.",
+            "🎭 Summer concerts at <a href=\"https://www.google.com/maps/search/?q=Piazza+San+Marco\" target=\"_blank\" rel=\"noopener\">San Marco</a> or lagoon-side venues."
+          ]
+        },
+        "autumn": {
+          "event": "Autumn Water & Historic Calm",
+          "ideas": [
+            "🍂 Peaceful canal reflections near <a href=\"https://www.google.com/maps/search/?q=Castello+Venice\" target=\"_blank\" rel=\"noopener\">Castello district</a>.",
+            "🔥 Cozy dinners in <a href=\"https://www.google.com/maps/search/?q=Bacaro+Venice\" target=\"_blank\" rel=\"noopener\">traditional bacari</a>.",
+            "🏛️ Museum visits like <a href=\"https://www.google.com/maps/search/?q=Gallerie+dell'Accademia+Venice\" target=\"_blank\" rel=\"noopener\">Gallerie dell’Accademia</a> with fewer crowds."
+          ]
+        },
+        "winter": {
+          "event": "Off-Season Venice Charm & Lagoon Mist",
+          "ideas": [
+            "🌫️ Misty canals near <a href=\"https://www.google.com/maps/search/?q=Arsenale+Venice\" target=\"_blank\" rel=\"noopener\">Arsenale</a>.",
+            "🔥 Warm meals inside <a href=\"https://www.google.com/maps/search/?q=Venice+Taverns\" target=\"_blank\" rel=\"noopener\">small taverns</a>.",
+            "🎨 Indoor visits to <a href=\"https://www.google.com/maps/search/?q=Peggy+Guggenheim+Collection\" target=\"_blank\" rel=\"noopener\">Peggy Guggenheim Collection</a>."
+          ]
+        }
+      },
+
+      "public_transport_tips": [
+        {
+          "tip": "🛶 Vaporetti (water buses) operate across Venice and the islands — most useful for Murano and Burano.",
+          "link": "https://www.google.com/maps/search/?q=Vaporetto+Venice+Stops"
+        },
+        {
+          "tip": "🚶 Many parts of historic Venice are best explored on foot.",
+          "link": "https://www.google.com/maps/search/?q=Venice+Walking+Routes"
+        },
+        {
+          "tip": "🎟️ Tourist transport passes help save money on multiple waterbus rides.",
+          "link": "https://www.google.com/maps/search/?q=Venezia+Unica+Pass"
+        },
+        {
+          "tip": "🚤 Boat connections to islands depend on season — check schedules in advance.",
+          "link": "https://www.google.com/maps/search/?q=Venice+Ferry+Schedule"
+        }
+      ],
+
+      "city_events": [
+        {
+          "name": "Venice Carnival & Lagoon Events",
+          "season": "spring",
+          "description": "🎭 Historic carnival, masquerade, Venetian traditions — unique cultural experience by the lagoon."
+        }
+      ]
+    },
+    {
+      "name": "Verona",
+      "interests": [
+        {
+          "name": "Historic Streets & Medieval Verona 🎭",
+          "map_link": "https://www.google.com/maps/search/?q=Piazza+delle+Erbe+Verona",
+          "description": "The historic center of Verona is known for its medieval streets, colorful buildings, and lively piazzas. Piazza delle Erbe is one of the oldest squares in Italy, full of history and daily life. Walking through these streets reveals centuries of architecture, culture, and charm."
+        },
+        {
+          "name": "Roman Heritage & Ancient Monuments 🏛️",
+          "map_link": "https://www.google.com/maps/search/?q=Verona+Arena",
+          "description": "Verona is home to one of the best-preserved Roman amphitheaters in the world — the Arena. The city’s Roman past is visible everywhere through archaeological sites, bridges, and stone walls. It’s a perfect destination for lovers of ancient history."
+        },
+        {
+          "name": "River Views & Scenic Walks 🌊",
+          "map_link": "https://www.google.com/maps/search/?q=Adige+River+Verona",
+          "description": "The Adige River curves through Verona creating peaceful promenades and scenic viewpoints. Bridges and riverbanks offer beautiful light at sunset and calm atmospheres for slow walks."
+        },
+        {
+          "name": "Food, Wine & Local Cuisine 🍷",
+          "map_link": "https://www.google.com/maps/search/?q=Verona+Restaurants",
+          "description": "Verona mixes Venetian, Alpine, and countryside culinary traditions. Polenta, risotto, tortellini, pastries, and local red wines like Valpolicella create a unique flavor profile. Great restaurants and cafés fill the historic streets."
+        },
+        {
+          "name": "Art, Architecture & City Museums 🎨",
+          "map_link": "https://www.google.com/maps/search/?q=Castelvecchio+Museum+Verona",
+          "description": "Verona combines Roman architecture, medieval fortresses, Renaissance palaces, and rich museums. Castelvecchio shows centuries of art and history inside a fortress above the river."
+        }
+      ],
+
+      "local_food_tip": "Taste risotto all’Amarone, polenta dishes, tortellini, pastries, and wines from the Valpolicella region. 🍷🥘",
+
+      "full_day": "Morning: Explore <a href=\"https://www.google.com/maps/search/?q=Piazza+delle+Erbe+Verona\" target=\"_blank\" rel=\"noopener\">Piazza delle Erbe</a> → walk to <a href=\"https://www.google.com/maps/search/?q=Juliet's+House+Verona\" target=\"_blank\" rel=\"noopener\">Juliet’s House</a> (exterior) → coffee in historic alleys.\n\nAfternoon: Visit <a href=\"https://www.google.com/maps/search/?q=Verona+Arena\" target=\"_blank\" rel=\"noopener\">Verona Arena</a> (exterior) → lunch in local trattoria → stroll across <a href=\"https://www.google.com/maps/search/?q=Ponte+Pietra+Verona\" target=\"_blank\" rel=\"noopener\">Ponte Pietra</a> toward hill viewpoints.\n\nSunset: Scenic views from <a href=\"https://www.google.com/maps/search/?q=Castel+San+Pietro+Verona\" target=\"_blank\" rel=\"noopener\">Castel San Pietro</a>.\n\nNight: Dinner, gelato & quiet evening lights around the river.",
+
+      "places": [
+        {
+          "name": "Piazza delle Erbe",
+          "link": "https://www.google.com/maps/search/?q=Piazza+delle+Erbe+Verona",
+          "description": "The lively central square with markets, cafés, frescoed buildings, and centuries of history."
+        },
+        {
+          "name": "Juliet’s House (Casa di Giulietta)",
+          "link": "https://www.google.com/maps/search/?q=Casa+di+Giulietta+Verona",
+          "description": "One of Verona’s most iconic spots — a charming courtyard and the famous balcony."
+        },
+        {
+          "name": "Verona Arena",
+          "link": "https://www.google.com/maps/search/?q=Verona+Arena",
+          "description": "An ancient Roman amphitheater still used for concerts and opera — monumental and historic."
+        },
+        {
+          "name": "Ponte Pietra",
+          "link": "https://www.google.com/maps/search/?q=Ponte+Pietra+Verona",
+          "description": "A Roman stone bridge offering stunning views of the river and old town."
+        },
+        {
+          "name": "Castel San Pietro Viewpoint",
+          "link": "https://www.google.com/maps/search/?q=Castel+San+Pietro+Verona",
+          "description": "The best panoramic viewpoint over Verona — magical during sunset."
+        },
+        {
+          "name": "Castelvecchio",
+          "link": "https://www.google.com/maps/search/?q=Castelvecchio+Verona",
+          "description": "A medieval fortress with towers, bridges, and an important art museum."
+        },
+        {
+          "name": "Piazza Bra",
+          "link": "https://www.google.com/maps/search/?q=Piazza+Bra+Verona",
+          "description": "The large square in front of the Roman Arena — lively and full of cafés."
+        },
+        {
+          "name": "Basilica di San Zeno",
+          "link": "https://www.google.com/maps/search/?q=Basilica+di+San+Zeno+Verona",
+          "description": "A stunning Romanesque basilica known for its art, peace, and historic beauty."
+        }
+      ],
+
+      "hidden_gems": [
+        {
+          "name": "Giardino Giusti",
+          "link": "https://www.google.com/maps/search/?q=Giardino+Giusti+Verona",
+          "description": "A beautifully designed Renaissance garden with cypress paths, terraces, statues, and one of the best calm viewpoints in the city."
+        },
+        {
+          "name": "Piazzetta Bra Molinari",
+          "link": "https://www.google.com/maps/search/?q=Piazzetta+Bra+Molinari+Verona",
+          "description": "Tiny hidden square near the river — quiet, charming, and perfect for a peaceful break away from tourist zones."
+        },
+        {
+          "name": "Corte Sgarzerie (Roman Ruins Under Glass Floor)",
+          "link": "https://www.google.com/maps/search/?q=Corte+Sgarzerie+Verona",
+          "description": "A secret archaeological corner with Roman remains beneath a glass floor — often missed by most visitors."
+        },
+        {
+          "name": "San Giorgio in Braida Riverside Spot",
+          "link": "https://www.google.com/maps/search/?q=San+Giorgio+in+Braida+Verona",
+          "description": "A quiet riverside area with an amazing view toward Ponte Pietra and the old town — fantastic for photos."
+        }
+      ],
+
+      "seasons": {
+        "spring": {
+          "event": "Spring Blossoms & City Walks",
+          "ideas": [
+            "🌸 Blooming courtyards near <a href=\"https://www.google.com/maps/place/Piazza+delle+Erbe,+Verona\" target=\"_blank\">Piazza delle Erbe</a>.",
+            "🚶 Mild walks across <a href=\"https://www.google.com/maps/place/Ponte+Pietra,+Verona\" target=\"_blank\">Ponte Pietra</a> with fresh river air.",
+            "🌿 Soft light in <a href=\"https://www.google.com/maps/place/Giardino+Giusti,+Verona\" target=\"_blank\">Giardino Giusti</a> gardens."
+          ]
+        },
+        "summer": {
+          "event": "Summer Nights & Outdoor Performances",
+          "ideas": [
+            "🌞 Early visits around <a href=\"https://www.google.com/maps/place/Verona+Arena\" target=\"_blank\">Verona Arena</a>.",
+            "🍨 Gelato walks in <a href=\"https://www.google.com/maps/place/Piazza+Bra,+Verona\" target=\"_blank\">Piazza Bra</a>.",
+            "🌇 Sunset viewpoints at <a href=\"https://www.google.com/maps/place/Castel+San+Pietro,+Verona\" target=\"_blank\">Castel San Pietro</a>."
+          ]
+        },
+        "autumn": {
+          "event": "Golden Verona & Wine Season",
+          "ideas": [
+            "🍁 Autumn tones along <a href=\"https://www.google.com/maps/search/?q=Adige+River+Verona\" target=\"_blank\">Adige River</a>.",
+            "🍷 Wine tastings in <a href=\"https://www.google.com/maps/search/?q=Valpolicella+Wineries\" target=\"_blank\">Valpolicella</a> region.",
+            "🎭 Quiet museum afternoons in <a href=\"https://www.google.com/maps/place/Castelvecchio,+Verona\" target=\"_blank\">Castelvecchio Museum</a>."
+          ]
+        },
+        "winter": {
+          "event": "Winter Calm & Holiday Lights",
+          "ideas": [
+            "🎄 Seasonal markets around <a href=\"https://www.google.com/maps/place/Piazza+Bra,+Verona\" target=\"_blank\">Piazza Bra</a>.",
+            "☕ Warm cafés near <a href=\"https://www.google.com/maps/place/Juliet's+House+Verona\" target=\"_blank\">Juliet’s House</a>.",
+            "🚶 Quiet evening walks by <a href=\"https://www.google.com/maps/search/?q=Adige+River+Verona\" target=\"_blank\">Adige River</a>."
+          ]
+        }
+      },
+
+      "public_transport_tips": [
+        {
+          "tip": "🚌 Buses are the main way to move around Verona.",
+          "link": "https://www.google.com/maps/search/?q=Verona+ATV+Bus"
+        },
+        {
+          "tip": "🚆 Verona Porta Nuova station links the city with Venice, Milan & Bologna.",
+          "link": "https://www.google.com/maps/search/?q=Verona+Porta+Nuova+Station"
+        },
+        {
+          "tip": "🚶 Historic center is compact and best explored on foot.",
+          "link": "https://www.google.com/maps/search/?q=Verona+Historic+Center"
+        }
+      ],
+
+      "city_events": [
+        {
+          "name": "Verona Opera Festival",
+          "season": "summer",
+          "description": "🎶 World-famous outdoor opera performances inside the ancient Verona Arena."
         }
       ]
     }
+
   ]
 }
