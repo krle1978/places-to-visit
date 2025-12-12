@@ -130,31 +130,36 @@
         }
       ],
       "city_events": [
-        {
-          "name": "Vienna Festival",
-          "season": "spring",
-          "description": "🎭 International festival featuring theater, opera, and dance.",
-          "website": "https://www.festwochen.at/en"
-        },
-        {
-          "name": "Donauinselfest",
-          "season": "summer",
-          "description": "🎶 Europe's largest free outdoor music festival on Danube Island.",
-          "website": "https://donauinselfest.at/"
-        },
-        {
-          "name": "Vienna Design Week",
-          "season": "autumn",
-          "description": "🎨 Austria’s biggest design festival with exhibitions and workshops.",
-          "website": "https://www.viennadesignweek.at/en/"
-        },
-        {
-          "name": "New Year’s Concert",
-          "season": "winter",
-          "description": "🎼 The world-famous Vienna Philharmonic New Year’s performance.",
-          "website": "https://www.wienerphilharmoniker.at/en/concerts/new-years-concert"
-        }
-      ]
+      {
+        "name": "Vienna Festival (Wiener Festwochen)",
+        "season": "spring",
+        "description": "🎭 Major international arts festival featuring theatre, opera, contemporary music, dance and experimental performances across Vienna.",
+        "website": "https://www.festwochen.at/en",
+        "dates": "Mid May – mid June (varies annually)"
+      },
+      {
+        "name": "Donauinselfest",
+        "season": "summer",
+        "description": "🎶 Europe’s largest free open-air music festival held on Vienna’s Danube Island, with international and local artists performing across multiple stages.",
+        "website": "https://donauinselfest.at/",
+        "dates": "Late June (usually 3 days, annual)"
+      },
+      {
+        "name": "Vienna Design Week",
+        "season": "autumn",
+        "description": "🎨 Austria’s biggest design festival featuring exhibitions, talks, workshops and city-wide installations focused on contemporary design.",
+        "website": "https://www.viennadesignweek.at/en/",
+        "dates": "Late September – early October (annual)"
+      },
+      {
+        "name": "Vienna Philharmonic New Year’s Concert",
+        "season": "winter",
+        "description": "🎼 World-famous New Year’s Day concert performed by the Vienna Philharmonic Orchestra and broadcast worldwide.",
+        "website": "https://www.wienerphilharmoniker.at/en/concerts/new-years-concert",
+        "dates": "1 January (annual)"
+      }
+    ]
+
     },
     {
       "name": "Bregenz",
@@ -233,26 +238,30 @@
         {
           "name": "Bregenz Spring Art",
           "season": "spring",
-          "description": "🎨 Seasonal exhibitions and cultural programs.",
-          "website": "https://www.bregenz.travel/en/"
+          "description": "\n🎨 Springtime exhibitions, gallery programs and cultural events across Bregenz, focusing on contemporary and regional art.",
+          "website": "https://www.bregenz.travel/en/",
+          "dates": "\nMarch – May (varies annually)"
         },
         {
-          "name": "Bregenz Festival",
+          "name": "Bregenz Festival (Bregenzer Festspiele)",
           "season": "summer",
-          "description": "🎭 World-famous lake-stage opera and artistic performances.",
-          "website": "https://www.bregenzerfestspiele.com/en"
+          "description": "\n🎭 World-famous opera and music performances staged on the floating lake stage (Seebühne) on Lake Constance.",
+          "website": "https://www.bregenzerfestspiele.com/en",
+          "dates": "\nMid July – mid August (annual)"
         },
         {
           "name": "Autumn Culture Season",
           "season": "autumn",
-          "description": "🎻 Concerts, theater and art across the city.",
-          "website": "https://www.bregenz.travel/en/"
+          "description": "\n🎻 Concerts, theatre performances and cultural programmes in concert halls, museums and historic venues across the city.",
+          "website": "https://www.bregenz.travel/en/",
+          "dates": "\nSeptember – October (varies annually)"
         },
         {
           "name": "Bregenz Advent",
           "season": "winter",
-          "description": "🎄 Festive markets and winter lights near the lake.",
-          "website": "https://www.bregenz.travel/en/christmas/"
+          "description": "\n🎄 Atmospheric Christmas markets, festive lights and winter events near Lake Constance and the historic center.",
+          "website": "https://www.bregenz.travel/en/christmas/",
+          "dates": "\nLate November – December (annual)"
         }
       ],
       "places": [
@@ -371,26 +380,30 @@
         {
           "name": "Haydn Spring Festival",
           "season": "spring",
-          "description": "🎼 Concerts dedicated to Haydn’s music, held in Haydn Hall and historic venues.",
-          "website": "https://www.haydnfestival.at/"
+          "description": "🎼 Classical concerts dedicated to Joseph Haydn, performed in Haydn Hall at Esterházy Palace and other historic venues in Eisenstadt.",
+          "website": "https://www.haydnfestival.at/",
+          "dates": "April – May (varies annually)"
         },
         {
           "name": "Summer Courtyard Nights",
           "season": "summer",
-          "description": "🎭 Open-air performances, music and theatre in palace and city courtyards.",
-          "website": "https://www.eisenstadt-lebt.at/"
+          "description": "🎭 Open-air theatre, music and cultural performances held in palace courtyards and historic city spaces during warm summer evenings.",
+          "website": "https://www.eisenstadt-lebt.at/",
+          "dates": "June – August (varies annually)"
         },
         {
           "name": "Wine Harvest Weeks",
           "season": "autumn",
-          "description": "🍇 Tastings, vineyard walks and harvest celebrations across <a href=\"https://www.google.com/maps/search/?api=1&query=47.7943565%2C16.7015523\">Ruster Hügelland</a>.",
-          "website": "https://www.rust.at/en/wine"
+          "description": "🍇 Wine tastings, vineyard walks and harvest celebrations throughout the Eisenstadt area and the Ruster Hügelland wine region.",
+          "website": "https://www.rust.at/en/wine",
+          "dates": "September – October (annual)"
         },
         {
           "name": "Palace Advent Season",
           "season": "winter",
-          "description": "🎄 Christmas programs, markets and lights at Esterházy Palace.",
-          "website": "https://esterhazy.at/advent"
+          "description": "🎄 Christmas markets, concerts and festive light installations at Esterházy Palace creating a historic winter atmosphere.",
+          "website": "https://esterhazy.at/advent",
+          "dates": "Late November – December (annual)"
         }
       ],
       "places": [
@@ -639,28 +652,32 @@
       ],
       "city_events": [
         {
-          "name": "Hallstatt Lake Spring Opening",
+          "name": "Spring Art Walk",
           "season": "spring",
-          "description": "🌼 Seasonal hikes and photography tours celebrating nature’s awakening.",
-          "link": "https://www.hallstatt.net/events/01/spring/"
+          "description": "🎨 Open-air galleries, creative pop-ups and artistic workshops spread across Graz’s old town streets and courtyards.",
+          "website": "https://www.graztourismus.at/en/see-and-do/events",
+          "dates": "April – May (varies annually)"
         },
         {
-          "name": "Summer Lakeside Evenings",
+          "name": "Aufsteirern Festival",
           "season": "summer",
-          "description": "🌅 Small open-air performances and cozy lakeside gatherings.",
-          "link": "https://www.hallstatt.net/events/02/summer/"
+          "description": "🎶 One of Austria’s largest folk festivals, featuring traditional Styrian music, costumes, dancing and regional food throughout the city center.",
+          "website": "https://www.aufsteirern.at/",
+          "dates": "Mid-September (annual)"
         },
         {
-          "name": "Autumn Harvest Weeks",
+          "name": "Styrian Autumn (Steirischer Herbst)",
           "season": "autumn",
-          "description": "🍂 Local celebrations featuring warm, rustic Alpine dishes.",
-          "link": "https://www.hallstatt.net/events/03/autumn/"
+          "description": "🖼️ International contemporary art festival with exhibitions, performances, talks and experimental cultural programs across Graz.",
+          "website": "https://www.steirischerherbst.at/",
+          "dates": "September – October (annual)"
         },
         {
-          "name": "Winter Village Magic",
+          "name": "Advent in Graz",
           "season": "winter",
-          "description": "❄️ A peaceful winter atmosphere with snow, lights and lakeside calm.",
-          "link": "https://www.hallstatt.net/events/04/winter/"
+          "description": "🎄 Festive Christmas markets, lights and cultural events creating one of Austria’s most charming winter city atmospheres.",
+          "website": "https://www.graztourismus.at/en/christmas",
+          "dates": "Late November – December (annual)"
         }
       ]
     },
@@ -751,26 +768,30 @@
         {
           "name": "Innsbruck Spring Classics",
           "season": "spring",
-          "description": "🎼 Classical and chamber music concerts in historic halls across Innsbruck.",
-          "website": "https://www.innsbruck.info/en/events.html"
+          "description": "🎼 Classical and chamber music concerts held in historic halls, churches and cultural venues across Innsbruck.",
+          "website": "https://www.innsbruck.info/en/events.html",
+          "dates": "March – May (varies annually)"
         },
         {
           "name": "Nordkette Summer Events",
           "season": "summer",
-          "description": "✨ Open-air music, mountain yoga, terrace sessions and sunset gatherings high above the city.",
-          "website": "https://nordkette.com/en/events"
+          "description": "✨ Open-air concerts, mountain yoga sessions, terrace gatherings and sunset events high above the city on the Nordkette range.",
+          "website": "https://nordkette.com/en/events",
+          "dates": "June – August (varies by event)"
         },
         {
           "name": "Tyrolean Autumn Culture Weeks",
           "season": "autumn",
-          "description": "🎨 Exhibitions, folk events and local seasonal celebrations throughout the city.",
-          "website": "https://www.tirol.at/en/things-to-do/events"
+          "description": "🎨 A collection of exhibitions, folk traditions, harvest-themed events and regional cultural celebrations throughout Innsbruck and Tyrol.",
+          "website": "https://www.tirol.at/en/things-to-do/events",
+          "dates": "September – October (varies annually)"
         },
         {
           "name": "Innsbruck Advent & Winter Lights",
           "season": "winter",
-          "description": "🎄 Magical Christmas markets, glowing streets and snowy views in the Old Town.",
-          "website": "https://www.innsbruck.info/en/events/advent-christmas.html"
+          "description": "🎄 Traditional Christmas markets, illuminated old-town streets and festive alpine winter atmosphere set against snowy mountain backdrops.",
+          "website": "https://www.innsbruck.info/en/events/advent-christmas.html",
+          "dates": "Late November – early January (annual)"
         }
       ],
       "places": [
@@ -894,26 +915,30 @@
         {
           "name": "Lake Opening Festival",
           "season": "spring",
-          "description": "🌊 Outdoor activities, performances and lakeside celebrations marking the start of the Wörthersee season.",
-          "website": "https://www.visitklagenfurt.at/en/"
+          "description": "🌊 Outdoor activities, cultural performances and lakeside celebrations marking the official opening of the Wörthersee season.",
+          "website": "https://www.visitklagenfurt.at/en/",
+          "dates": "Late April – May (varies annually)"
         },
         {
           "name": "Wörthersee Summer Nights",
           "season": "summer",
-          "description": "🎶 Music evenings, lakeside concerts and vibrant waterfront energy.",
-          "website": "https://www.woerthersee.com/en/"
+          "description": "🎶 Evening concerts, music events and lively waterfront gatherings along Lake Wörthersee.",
+          "website": "https://www.woerthersee.com/en/",
+          "dates": "June – August (varies by event)"
         },
         {
           "name": "Autumn Culture Week",
           "season": "autumn",
-          "description": "🎨 Exhibitions, performances and creative events all across the city.",
-          "website": "https://www.klagenfurt.at/kultur"
+          "description": "🎨 A series of exhibitions, theatre performances and creative cultural programs held across Klagenfurt.",
+          "website": "https://www.klagenfurt.at/kultur",
+          "dates": "September – October (varies annually)"
         },
         {
           "name": "Klagenfurt Advent",
           "season": "winter",
-          "description": "🎄 Traditional markets, festive décor and warm winter vibes throughout the Old Town.",
-          "website": "https://www.visitklagenfurt.at/en/events/advent/"
+          "description": "🎄 Traditional Christmas markets, festive decorations and cozy winter atmosphere throughout the Old Town.",
+          "website": "https://www.visitklagenfurt.at/en/events/advent/",
+          "dates": "Late November – December (annual)"
         }
       ],
       "places": [
@@ -1053,26 +1078,30 @@
         {
           "name": "Linz Spring Art Week",
           "season": "spring",
-          "description": "🎨 Outdoor installations, street art and digital creativity all around the city.",
-          "website": "https://www.linztourismus.at/en/leisure/events/"
+          "description": "🎨 Outdoor installations, digital art projects, street exhibitions and creative pop-ups spread across the city.",
+          "website": "https://www.linztourismus.at/en/leisure/events/",
+          "dates": "April – May (varies annually)"
         },
         {
           "name": "Pflasterspektakel",
           "season": "summer",
-          "description": "🤹 A huge street-art festival with performers from all over Europe.",
-          "website": "https://www.pflasterspektakel.at/"
+          "description": "🤹 One of Europe’s largest street-art festivals featuring acrobatics, theatre, music and performance art in Linz’s streets and squares.",
+          "website": "https://www.pflasterspektakel.at/",
+          "dates": "Mid–July (annual, usually 3 days)"
         },
         {
           "name": "Linz Art Fall",
           "season": "autumn",
-          "description": "🖼️ Contemporary exhibitions at Lentos, AEC and city galleries.",
-          "website": "https://www.linztourismus.at/en/leisure/events/"
+          "description": "🖼️ Contemporary art exhibitions and cultural programs at Lentos Art Museum, Ars Electronica Center and city galleries.",
+          "website": "https://www.linztourismus.at/en/leisure/events/",
+          "dates": "September – October (varies annually)"
         },
         {
           "name": "Christmas in Linz",
           "season": "winter",
-          "description": "🎄 Festive vibes, markets and cozy seasonal entertainment.",
-          "website": "https://www.linztourismus.at/en/experience/events/advent/"
+          "description": "🎄 Atmospheric Christmas markets, festive lights and seasonal concerts along the Danube and in the historic center.",
+          "website": "https://www.linztourismus.at/en/experience/events/advent/",
+          "dates": "Late November – December (annual)"
         }
       ],
       "interests_detailed": [
@@ -1247,26 +1276,30 @@
         {
           "name": "Mozart Spring Week",
           "season": "spring",
-          "description": "🎼 Concerts dedicated to Mozart in historic halls across Salzburg.",
-          "website": "https://mozarteum.at/en/mozart-week/"
+          "description": "🎼 Concerts and chamber music performances dedicated to Wolfgang Amadeus Mozart, held in historic halls and venues across Salzburg.",
+          "website": "https://mozarteum.at/en/mozart-week/",
+          "dates": "Late March – early April (varies annually)"
         },
         {
           "name": "Salzburg Festival",
           "season": "summer",
-          "description": "🎭 World-famous opera, theater and classical music festival.",
-          "website": "https://www.salzburgerfestspiele.at/en/"
+          "description": "🎭 One of the world’s most prestigious festivals featuring opera, theatre and classical music in iconic Salzburg venues.",
+          "website": "https://www.salzburgerfestspiele.at/en/",
+          "dates": "Mid July – late August (annual)"
         },
         {
           "name": "Autumn Classical Nights",
           "season": "autumn",
-          "description": "🎻 Smaller classical performances and recitals throughout Salzburg’s autumn season.",
-          "website": "https://www.salzburg.info/en/events/classical-music"
+          "description": "🎻 A series of smaller-scale classical concerts, recitals and chamber performances throughout Salzburg’s autumn season.",
+          "website": "https://www.salzburg.info/en/events/classical-music",
+          "dates": "September – October (varies annually)"
         },
         {
           "name": "Advent in Salzburg",
           "season": "winter",
-          "description": "🎄 Traditional Christmas markets, festive stalls and glowing streets in historic Salzburg.",
-          "website": "https://www.christkindlmarkt.co.at/"
+          "description": "🎄 Traditional Christmas markets, festive stalls and candlelit streets set against Salzburg’s baroque old town.",
+          "website": "https://www.christkindlmarkt.co.at/",
+          "dates": "Late November – December (annual)"
         }
       ]
     },
@@ -1347,26 +1380,30 @@
         {
           "name": "Frühling in St. Pölten",
           "season": "spring",
-          "description": "🌼 Local open-air events and cultural activities.",
-          "website": "https://www.st-poelten.at/"
+          "description": "🌼 A series of open-air cultural events, concerts and community activities celebrating the arrival of spring across city squares and parks.",
+          "website": "https://www.st-poelten.at/",
+          "dates": "April – May (varies annually)"
         },
         {
           "name": "Beatpatrol Festival",
           "season": "summer",
-          "description": "🎶 Major electronic music festival near St. Pölten.",
-          "website": "https://www.beatpatrol.at/"
+          "description": "🎶 One of Austria’s major electronic music festivals, attracting international DJs and electronic music fans near St. Pölten.",
+          "website": "https://www.beatpatrol.at/",
+          "dates": "July (annual)"
         },
         {
           "name": "St. Pölten Culture Autumn",
           "season": "autumn",
-          "description": "🎭 Theatre, exhibitions and concerts.",
-          "website": "https://www.st-poelten.at/"
+          "description": "🎭 A cultural season featuring theatre performances, art exhibitions and concerts in museums, halls and public venues.",
+          "website": "https://www.st-poelten.at/",
+          "dates": "September – October (varies annually)"
         },
         {
           "name": "Advent in St. Pölten",
           "season": "winter",
-          "description": "🎄 Festive markets around Rathausplatz.",
-          "website": "https://www.st-poelten.at/"
+          "description": "🎄 Traditional Christmas markets, festive lights and seasonal events centered around Rathausplatz and the historic old town.",
+          "website": "https://www.st-poelten.at/",
+          "dates": "Late November – December (annual)"
         }
       ],
       "places": [
@@ -1491,26 +1528,30 @@
         {
           "name": "Alpine Spring Opening",
           "season": "spring",
-          "description": "🌱 Valley festivals and first hiking events as the trails become snow-free.",
-          "website": "https://www.tyrol.com/things-to-do/nature-and-outdoors/hiking/spring-hiking"
+          "description": "🌱 Valley festivals, guided nature walks and the official opening of hiking season as alpine trails become snow-free across Tyrol.",
+          "website": "https://www.tyrol.com/things-to-do/nature-and-outdoors/hiking/spring-hiking",
+          "dates": "April – May (varies annually)"
         },
         {
           "name": "Mountain Summer Nights",
           "season": "summer",
-          "description": "✨ Open-air performances and concerts on high plateaus and mountain stations.",
-          "website": "https://nordkette.com/en/events"
+          "description": "✨ Open-air concerts, cultural performances and sunset gatherings held on mountain plateaus, cable-car stations and alpine terraces.",
+          "website": "https://nordkette.com/en/events",
+          "dates": "June – August (varies by location)"
         },
         {
-          "name": "Tyrol Harvest Season",
+          "name": "Tyrol Harvest Season (Almabtrieb)",
           "season": "autumn",
-          "description": "🍂 Local food markets, village celebrations and traditional costumes celebrating the end of the harvest.",
-          "website": "https://www.tyrol.com/things-to-do/events/almabtrieb"
+          "description": "🍂 Traditional cattle drives, local food markets, village festivals and folk costumes celebrating the end of the alpine summer.",
+          "website": "https://www.tyrol.com/things-to-do/events/almabtrieb",
+          "dates": "September – October (varies by region)"
         },
         {
-          "name": "Innsbruck Winter Lights",
+          "name": "Innsbruck Winter Lights & Advent",
           "season": "winter",
-          "description": "🎄 Christmas markets, festive decorations and illuminated facades in Innsbruck’s Old Town.",
-          "website": "https://www.innsbruck.info/en/events/advent-christmas.html"
+          "description": "🎄 Christmas markets, illuminated streets, festive decorations and winter cultural events throughout Innsbruck’s Old Town.",
+          "website": "https://www.innsbruck.info/en/events/advent-christmas.html",
+          "dates": "Late November – early January (annual)"
         }
       ],
       "places": [
@@ -1635,26 +1676,30 @@
         {
           "name": "Villach Spring Festival",
           "season": "spring",
-          "description": "🌼 Outdoor music, food and activities celebrating spring in the old town.",
-          "website": "https://www.visitvillach.at/"
+          "description": "🌼 Outdoor concerts, food stands and family-friendly activities celebrating the arrival of spring in Villach’s historic old town.",
+          "website": "https://www.visitvillach.at/",
+          "dates": "April – May (varies annually)"
         },
         {
           "name": "Villacher Kirchtag",
           "season": "summer",
-          "description": "🎉 Austria’s largest traditional festival with parades, food, music and dancing.",
-          "website": "https://www.kirchtag.at/"
+          "description": "🎉 Austria’s largest traditional folk festival featuring parades, traditional costumes, music, dancing and regional food specialties.",
+          "website": "https://www.kirchtag.at/",
+          "dates": "Late July – early August (annual, 1 week)"
         },
         {
           "name": "Autumn Culture Days",
           "season": "autumn",
-          "description": "🎨 Exhibitions, theater and cultural programs across Villach.",
-          "website": "https://www.villach.at/"
+          "description": "🎨 A series of exhibitions, theatre performances, concerts and cultural programs hosted across Villach during the autumn season.",
+          "website": "https://www.villach.at/",
+          "dates": "September – October (varies annually)"
         },
         {
           "name": "Villach Advent",
           "season": "winter",
-          "description": "🎄 Christmas markets, glowing river lights and festive old-town atmosphere.",
-          "website": "https://www.visitvillach.at/"
+          "description": "🎄 Atmospheric Christmas markets, illuminated riverbanks and festive events creating a cozy alpine winter mood in the old town.",
+          "website": "https://www.visitvillach.at/",
+          "dates": "Late November – December (annual)"
         }
       ],
       "places": [

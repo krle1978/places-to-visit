@@ -238,11 +238,18 @@ document.addEventListener("includes:loaded", function () {
     if (Array.isArray(selectedCityObj.city_events)) {
       html += "<ul>" + selectedCityObj.city_events.map(ev => {
         const title = ev?.website
-          ? `<a href=\"${ev.website}\" target=\"_blank\" rel=\"noopener noreferrer\">${ev.name || "Event"}</a>`
+          ? `<a href="${ev.website}" target="_blank" rel="noopener noreferrer">${ev.name || "Event"}</a>`
           : (ev?.name || "Event");
         const season = capitalize(ev?.season);
-        const desc = ev?.description || "";
-        return `<li><strong>${title}${season ? ` (${season})` : ""}:</strong> ${desc}</li>`;
+        const desc = ev?.description?.trim() || "";
+        const rawDates = ev?.dates || "";
+        const cleanedDates = rawDates.replace(/^\s*\n?/, "");
+        const datesLine = cleanedDates
+          ? (/^<b>\s*Duration:/i.test(cleanedDates) ? cleanedDates : `<b>Duration:</b> ${cleanedDates}`)
+          : "";
+        const descHtml = desc ? `<div style="white-space: pre-line;">${desc}</div>` : "";
+        const datesHtml = datesLine ? `<div style="white-space: pre-line;">${datesLine}</div>` : "";
+        return `<li><strong>${title}${season ? ` (${season})` : ""}:</strong>${descHtml}${datesHtml}</li>`;
       }).join("") + "</ul>";
     } else {
       html += `<p>No city events.</p>`;

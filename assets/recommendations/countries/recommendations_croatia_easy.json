@@ -4,84 +4,173 @@
     {
       "name": "Zagreb",
       "interests": [
-        "History & Upper Town 🏛️ — Medieval alleys, old squares and charming historic corners.",
-        "Parks & Green Spaces 🌳 — Elegant 19th-century promenades and peaceful city parks.",
-        "Urban Culture & Street Life 🎨 — Creative museums, quirky cafés and vibrant cultural spots."
+        {
+          "name": "History & Upper Town 🏛️",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=45.813013%2C15.977915",
+          "description": "Medieval alleys, old squares and the iconic St. Mark’s Church."
+        },
+        {
+          "name": "Parks & Green Spaces 🌳",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=45.810650%2C15.978280",
+          "description": "Zrinjevac, the Green Horseshoe, leafy promenades and elegant 19th-century park architecture."
+        },
+        {
+          "name": "Urban Culture & Street Life 🎨",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=45.814398%2C15.977934",
+          "description": "Creative museums, lively café streets and artistic corners."
+        }
       ],
       "local_food_tip": "Try Zagreb’s classics such as warm štrukli, hearty soups, roasted turkey with mlinci and bakery pastries. Comforting, local and full of home-style flavors.",
-      "full_day": "Morning: 🏛️ <a href=\"https://www.google.com/maps/search/?api=1&query=2HLkP6Z9b5jWoaQv8\" target=\"_blank\" rel=\"noopener\">Upper Town</a>: Wander medieval lanes, peaceful corners and the iconic tiled roof at <a href=\"https://www.google.com/maps/search/?api=1&query=7k4X5iqgaxP3unnQ7\" target=\"_blank\" rel=\"noopener\">St. Mark’s Square</a>. → ⛪ <a href=\"https://www.google.com/maps/search/?api=1&query=dUPCb3H43N6gYphw6\" target=\"_blank\" rel=\"noopener\">Zagreb Cathedral</a>: Gothic towers and calm interior. → ☕ Coffee in <a href=\"https://www.google.com/maps/search/?api=1&query=mq6WU5zGkCyowK8G7\" target=\"_blank\" rel=\"noopener\">Tkalča Street</a>: Zagreb’s liveliest café zone.\n\nAfternoon: 🌳 Lenuci’s Green Horseshoe: Stroll through elegant city parks such as <a href=\"https://www.google.com/maps/search/?api=1&query=g1MHtTp6NTxT3TWn6\" target=\"_blank\" rel=\"noopener\">Zrinjevac</a> and Mažuranić Square. → 🎭 <a href=\"https://www.google.com/maps/search/?api=1&query=e3NxjR25UYjCP5iN8\" target=\"_blank\" rel=\"noopener\">Museum of Broken Relationships</a>: A quirky cultural gem. → 🍽️ Lunch: Štrukli, roasted turkey with mlinci, hearty soups or vegetarian options.\n\nSunset: 🌅 <a href=\"https://www.google.com/maps/search/?api=1&query=t54AtmxoeQkPVS5z7\" target=\"_blank\" rel=\"noopener\">Jarun Lake</a> or <a href=\"https://www.google.com/maps/search/?api=1&query=qGd4cqN9QevfPXE47\" target=\"_blank\" rel=\"noopener\">Bundek</a>: Calm reflections and golden-hour lakeside views.\n\nNight: 🌃 Evening Walk Through the Center: Lights, dessert cafés, street performers and a cozy local vibe.",
+      "full_day": "Morning: 🏛️ <a href=\"https://www.google.com/maps/search/?api=1&query=45.813013%2C15.977915\" target=\"_blank\" rel=\"noopener\">Upper Town</a>: Wander medieval lanes and peaceful corners. → ⛪ <a href=\"https://www.google.com/maps/search/?api=1&query=45.816667%2C15.973056\" target=\"_blank\" rel=\"noopener\">St. Mark’s Square</a>: Famous colorful tiled roof. → ⛪ <a href=\"https://www.google.com/maps/search/?api=1&query=45.814500%2C15.979300\" target=\"_blank\" rel=\"noopener\">Zagreb Cathedral</a>: Impressive Gothic towers. → ☕ Coffee in <a href=\"https://www.google.com/maps/search/?api=1&query=45.814720%2C15.978348\" target=\"_blank\" rel=\"noopener\">Tkalča Street</a>.\n\nAfternoon: 🌳 Stroll through the Green Horseshoe including <a href=\"https://www.google.com/maps/search/?api=1&query=45.809830%2C15.978700\" target=\"_blank\" rel=\"noopener\">Zrinjevac</a>. → 🎭 Visit the <a href=\"https://www.google.com/maps/search/?api=1&query=45.813122%2C15.977014\" target=\"_blank\" rel=\"noopener\">Museum of Broken Relationships</a>. → 🍽️ Lunch: Try štrukli, soups, roasted turkey with mlinci or vegetarian plates.\n\nSunset: 🌅 <a href=\"https://www.google.com/maps/search/?api=1&query=45.777800%2C15.922800\" target=\"_blank\" rel=\"noopener\">Jarun Lake</a> or <a href=\"https://www.google.com/maps/search/?api=1&query=45.783500%2C15.995400\" target=\"_blank\" rel=\"noopener\">Bundek Park</a>.\n\nNight: 🌃 Cozy evening walk through the center — dessert cafés, lights and street performers.",
       "seasons": {
         "spring": {
           "event": "Spring in Zagreb",
           "ideas": [
             "🌸 Blossoms around Cvjetni Square and Zrinjevac.",
-            "🌳 <a href=\"https://www.google.com/maps/search/?api=1&query=L6XZAZcqhJjYfC8E7\" target=\"_blank\" rel=\"noopener\">Maksimir Park</a>: Fresh greenery and quiet lakes.",
-            "☕ Sunny café terraces across downtown streets."
+            "🌳 <a href=\"https://www.google.com/maps/search/?api=1&query=45.829167%2C16.016111\" target=\"_blank\" rel=\"noopener\">Maksimir Park</a>: Lakes and bright spring greenery.",
+            "☕ Sunny café terraces throughout the city center."
           ]
         },
         "summer": {
           "event": "Summer in Zagreb",
           "ideas": [
-            "🌞 Lakeside breezes at Jarun or Bundek.",
-            "🍦 Ice cream under the Zrinjevac trees.",
-            "🌅 Upper Town sunset viewpoints."
+            "🌞 Breezy afternoons by Jarun or Bundek lakes.",
+            "🍦 Ice cream under Zrinjevac trees.",
+            "🌅 Upper Town sunset points overlooking red rooftops."
           ]
         },
         "autumn": {
           "event": "Autumn in Zagreb",
           "ideas": [
-            "🍁 Fall colors in Maksimir and the Green Horseshoe.",
-            "🎨 Museum visits for cozy indoor afternoons.",
-            "🥐 Seasonal pastries from local bakeries."
+            "🍁 Golden leaves in Maksimir and the Green Horseshoe.",
+            "🎨 Museum visits for cozy afternoons.",
+            "🥐 Seasonal pastries and warm drinks."
           ]
         },
         "winter": {
           "event": "Advent in Zagreb",
           "ideas": [
             "🎄 Tomislav Square ice rink and festive stalls.",
-            "✨ Magical Zrinjevac lights.",
-            "☕ Warm drinks in old-town cafés."
+            "✨ Magical light displays in Zrinjevac.",
+            "☕ Hot drinks in traditional cafés."
           ]
         }
       },
       "public_transport_tips": [
-        "🚋 Trams cover the entire center and are fast for cross-city travel.",
-        "🚶 Upper Town is best explored on foot due to narrow streets.",
-        "🚌 Buses connect lakes, outer neighborhoods and parks.",
-        "📱 Use the 'ZET Zagreb' app for tram arrivals and route planning."
+        {
+          "tip": "🚋 Trams cover the entire center and run frequently.",
+          "link": "https://www.zet.hr/"
+        },
+        {
+          "tip": "🚶 Upper Town is best explored on foot because of narrow historic streets.",
+          "link": "https://www.google.com/maps/search/?api=1&query=Zagreb+Upper+Town"
+        },
+        {
+          "tip": "🚌 Buses connect lakes, outer neighborhoods and Maksimir.",
+          "link": "https://www.zet.hr/en/timetables/232"
+        },
+        {
+          "tip": "📱 Use the official ZET app for tram arrivals and navigation.",
+          "link": "https://www.zet.hr/"
+        }
       ],
       "city_events": [
         {
           "name": "Zagreb Spring Fest",
           "season": "spring",
-          "description": "🌼 Outdoor music, local food and colorful park events."
+          "description": "🌼 Outdoor music, local food and colorful park events.",
+          "website": "https://www.infozagreb.hr/"
         },
         {
           "name": "Cest is d'Best",
           "season": "summer",
-          "description": "🎪 Street performers, art shows and lively open-air concerts."
+          "description": "🎪 International street festival full of art, performers and music.",
+          "website": "https://www.cestisdbest.com/"
         },
         {
           "name": "Zagreb Film Festival",
           "season": "autumn",
-          "description": "🎬 International screenings in cinemas and cultural venues."
+          "description": "🎬 International competition screenings and cultural programs.",
+          "website": "https://zff.hr/"
         },
         {
           "name": "Advent in Zagreb",
           "season": "winter",
-          "description": "🎄 One of Europe's most awarded Christmas markets."
+          "description": "🎄 One of Europe’s most awarded Christmas markets.",
+          "website": "https://www.adventzagreb.hr/"
+        }
+      ],
+      "places": [
+        {
+          "name": "St. Mark’s Square",
+          "link": "https://www.google.com/maps/search/?api=1&query=45.816667%2C15.973056",
+          "description": "Famous for its colorful tiled church roof and surrounding historic buildings."
+        },
+        {
+          "name": "Zagreb Cathedral",
+          "link": "https://www.google.com/maps/search/?api=1&query=45.814500%2C15.979300",
+          "description": "Tall Gothic twin towers dominating the city skyline."
+        },
+        {
+          "name": "Tkalča Street",
+          "link": "https://www.google.com/maps/search/?api=1&query=45.814720%2C15.978348",
+          "description": "Bustling café street filled with young travelers, local artists and cozy corners."
+        },
+        {
+          "name": "Zrinjevac Park",
+          "link": "https://www.google.com/maps/search/?api=1&query=45.809830%2C15.978700",
+          "description": "One of the prettiest squares of the Green Horseshoe, with fountains and music pavilion."
+        },
+        {
+          "name": "Museum of Broken Relationships",
+          "link": "https://www.google.com/maps/search/?api=1&query=45.813122%2C15.977014",
+          "description": "A unique museum showcasing personal stories and emotional artifacts."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "Grič Tunnel",
+          "link": "https://www.google.com/maps/search/?api=1&query=45.812650%2C15.974950",
+          "description": "Underground pedestrian tunnel with art installations and cool summer temperatures."
+        },
+        {
+          "name": "Strossmayer Promenade",
+          "link": "https://www.google.com/maps/search/?api=1&query=45.814260%2C15.973930",
+          "description": "Romantic viewpoint walkway overlooking Lower Town rooftops."
+        },
+        {
+          "name": "Art Park Zagreb",
+          "link": "https://www.google.com/maps/search/?api=1&query=45.813040%2C15.972620",
+          "description": "Colorful urban park filled with murals, street art and relaxed youth energy."
+        },
+        {
+          "name": "Mirogoj Arcades",
+          "link": "https://www.google.com/maps/search/?api=1&query=45.840200%2C15.989600",
+          "description": "Green domes and ivy-covered arches — one of Europe's most beautiful cemeteries."
         }
       ]
     },
     {
       "name": "Split",
       "interests": [
-        "Roman Heritage 🏛️ — Ancient palace walls and dramatic stone courtyards.",
-        "Sea Views & Promenades 🌊 — Blue horizons, breezy walkways and harbor scenes.",
-        "Mediterranean Culture 🌿 — Warm coastal life, cafés and local markets."
+        {
+          "name": "Roman Heritage 🏛️",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Diocletian%27s+Palace+Split",
+          "description": "Explore ancient palace walls, Peristyle Square and maze-like stone alleys dating back to Roman times."
+        },
+        {
+          "name": "Sea Views & Promenades 🌊",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Split+Riva+Promenade",
+          "description": "Blue horizons, breezy walkways and charming harbor scenes along the Adriatic."
+        },
+        {
+          "name": "Mediterranean Culture 🌿",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Split+Old+Town",
+          "description": "Warm coastal life, lively cafés, local markets and Dalmatian vibes at every corner."
+        }
       ],
       "local_food_tip": "Try Dalmatian classics like pašticada, grilled fish, mussels in buzara sauce, seafood risotto and light Mediterranean veggie plates — fresh and aromatic.",
-      "full_day": "Morning: 🏛️ <a href=\"https://www.google.com/maps/search/?api=1&query=EcNb8kTH7vQG5i1S9\" target=\"_blank\" rel=\"noopener\">Diocletian’s Palace</a>: Explore Roman walls, Peristyle Square and maze-like stone alleys. → ⛪ <a href=\"https://www.google.com/maps/search/?api=1&query=Te8uM5LbdznqHjLQ8\" target=\"_blank\" rel=\"noopener\">St. Domnius Cathedral</a> & Bell Tower: Climb for incredible panoramic views. → ☕ Coffee on the <a href=\"https://www.google.com/maps/search/?api=1&query=1wEiQJ6a7bbSxHLp8\" target=\"_blank\" rel=\"noopener\">Riva Promenade</a>: Palm trees and sea breeze.\n\nAfternoon: 🏘️ Old Town Wander: Marble alleys, artisan shops and charming squares. → 🍽️ Lunch: Seafood dishes, pašticada, grilled fish or veggie plates.\n\nSunset: 🌅 <a href=\"https://www.google.com/maps/search/?api=1&query=kqey9FZ95uQ1JCap9\" target=\"_blank\" rel=\"noopener\">Marjan Hill Viewpoint</a>: Legendary golden-hour views over the Adriatic.\n\nNight: 🌃 Riva Evening Walk: Soft lights, gelato stands and a calm seaside atmosphere.",
+      "full_day": "Morning: 🏛️ <a href=\"https://www.google.com/maps/search/?api=1&query=Diocletian%27s+Palace+Split\" target=\"_blank\" rel=\"noopener\">Diocletian’s Palace</a>: Explore Roman walls, Peristyle Square and maze-like stone alleys. → ⛪ <a href=\"https://www.google.com/maps/search/?api=1&query=St.+Domnius+Cathedral+Split\" target=\"_blank\" rel=\"noopener\">St. Domnius Cathedral</a> & Bell Tower: Climb for incredible panoramic views. → ☕ Coffee on the <a href=\"https://www.google.com/maps/search/?api=1&query=Split+Riva+Promenade\" target=\"_blank\" rel=\"noopener\">Riva Promenade</a>: Palm trees and sea breeze.\n\nAfternoon: 🏘️ Old Town Wander: Marble alleys, artisan shops and charming squares. → 🍽️ Lunch: Seafood dishes, pašticada, grilled fish or veggie plates.\n\nSunset: 🌅 <a href=\"https://www.google.com/maps/search/?api=1&query=Marjan+Hill+Viewpoint+Split\" target=\"_blank\" rel=\"noopener\">Marjan Hill Viewpoint</a>: Legendary golden-hour views over the Adriatic.\n\nNight: 🌃 Riva Evening Walk: Soft lights, gelato stands and a calm seaside atmosphere.",
       "seasons": {
         "spring": {
           "event": "Spring in Split",
@@ -94,7 +183,7 @@
         "summer": {
           "event": "Summer in Split",
           "ideas": [
-            "🏖️ Swimming at <a href=\"https://www.google.com/maps/search/?api=1&query=ByBxwE6bvPvxQ3nD7\" target=\"_blank\" rel=\"noopener\">Bačvice Beach</a> or Kašjuni.",
+            "🏖️ Swimming at <a href=\"https://www.google.com/maps/search/?api=1&query=Bačvice+Beach+Split\" target=\"_blank\" rel=\"noopener\">Bačvice Beach</a> or <a href=\"https://www.google.com/maps/search/?api=1&query=Kašjuni+Beach+Split\" target=\"_blank\" rel=\"noopener\">Kašjuni</a>.",
             "🍦 Gelato in palace alleyways.",
             "🌅 Vidilica sunset views on Marjan."
           ]
@@ -117,43 +206,124 @@
         }
       },
       "public_transport_tips": [
-        "🚶 The palace complex is pedestrian-only and perfect for walking.",
-        "🚌 Local buses connect beaches, viewpoints and outer districts.",
-        "🚕 Taxis and ride apps are widely available near the Riva.",
-        "⛴️ Ferries to nearby islands depart from the main port next to Old Town."
+        {
+          "tip": "🚶 The palace complex and Old Town are best explored on foot.",
+          "link": "https://www.google.com/maps/search/?api=1&query=Split+Old+Town"
+        },
+        {
+          "tip": "🚌 Local buses connect beaches, viewpoints, Marjan and outer districts.",
+          "link": "https://akz.com.hr/"
+        },
+        {
+          "tip": "🚕 Taxis and ride apps are widely available near the Riva promenade.",
+          "link": "https://www.google.com/maps/search/?api=1&query=Taxi+Split+HR"
+        },
+        {
+          "tip": "⛴️ Ferries and catamarans to nearby islands depart from the main port next to Old Town.",
+          "link": "https://www.jadrolinija.hr/"
+        },
+        {
+          "tip": "📱 Use Google Maps or local transit apps for real-time bus departures.",
+          "link": "https://www.google.com/maps/search/?api=1&query=Split+bus+stops"
+        }
       ],
       "city_events": [
         {
           "name": "Sudamja Festival",
           "season": "spring",
-          "description": "🎉 Cultural celebrations dedicated to Split’s patron saint."
+          "description": "🎉 Cultural celebrations dedicated to Split’s patron saint with parades, music and traditional events.",
+          "website": "https://www.visitsplit.com/"
         },
         {
           "name": "Ultra Europe",
           "season": "summer",
-          "description": "🎶 One of Europe’s biggest open-air electronic music festivals."
+          "description": "🎶 One of Europe’s biggest open-air electronic music festivals in Split.",
+          "website": "https://ultraeurope.com/"
         },
         {
           "name": "Days of Diocletian",
           "season": "autumn",
-          "description": "🏛️ Historical performances, costumes and Roman-themed shows."
+          "description": "🏛️ Historical performances, costumes and Roman-themed shows across the palace.",
+          "website": "https://www.visitsplit.com/"
         },
         {
           "name": "Split Advent",
           "season": "winter",
-          "description": "🎄 Festive seaside markets, concerts and cozy winter vibes."
+          "description": "🎄 Festive seaside markets, concerts and cozy winter vibes with lights along the Riva.",
+          "website": "https://www.split.hr/"
+        }
+      ],
+      "places": [
+        {
+          "name": "Diocletian’s Palace",
+          "link": "https://www.google.com/maps/search/?api=1&query=45.328056%2C15.438333",
+          "description": "Ancient Roman palace complex that forms the historic core of Split."
+        },
+        {
+          "name": "St. Domnius Cathedral",
+          "link": "https://www.google.com/maps/search/?api=1&query=45.331056%2C15.437278",
+          "description": "Cathedral built within Diocletian’s Mausoleum with panoramic views from the bell tower."
+        },
+        {
+          "name": "Split Riva Promenade",
+          "link": "https://www.google.com/maps/search/?api=1&query=45.507500%2C18.495800",
+          "description": "Iconic seaside promenade lined with palm trees, cafés and vibrant street life."
+        },
+        {
+          "name": "Marjan Hill Viewpoint",
+          "link": "https://www.google.com/maps/search/?api=1&query=45.312200%2C15.380200",
+          "description": "Scenic viewpoint over Split and the Adriatic — great for sunsets."
+        },
+        {
+          "name": "Bačvice Beach",
+          "link": "https://www.google.com/maps/search/?api=1&query=45.507400%2C16.447800",
+          "description": "Popular urban beach with sandy areas and shallow waters — perfect for summer dips."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "Froggyland Museum",
+          "link": "https://www.google.com/maps/search/?api=1&query=45.327700%2C15.435000",
+          "description": "Whimsical and unusual collection of frog dioramas — quirky and fun."
+        },
+        {
+          "name": "Underground Substructures (Basements)",
+          "link": "https://www.google.com/maps/search/?api=1&query=45.328900%2C15.436900",
+          "description": "Hidden Roman basements beneath the palace — excellent for curious explorers."
+        },
+        {
+          "name": "Varoš Quarter",
+          "link": "https://www.google.com/maps/search/?api=1&query=45.330500%2C15.436200",
+          "description": "Old fisherman’s neighborhood with narrow streets and local character."
+        },
+        {
+          "name": "Medulić Gallery Terrace",
+          "link": "https://www.google.com/maps/search/?api=1&query=45.326000%2C15.442000",
+          "description": "Quiet terrace with sea views near the art gallery, often missed by crowds."
         }
       ]
     },
     {
       "name": "Dubrovnik",
       "interests": [
-        "City Walls & Fortresses 🧱 — Panoramic walks and iconic medieval towers.",
-        "Sea Views 🌊 — Deep blue horizons and dramatic coastline.",
-        "Medieval Old Town 🏰 — Marble streets, arches and centuries of history."
+        {
+          "name": "City Walls & Fortresses 🧱",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=42.640700%2C18.110000",
+          "description": "Panoramic walks along medieval walls with iconic Adriatic views."
+        },
+        {
+          "name": "Sea Views 🌊",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=42.641000%2C18.109000",
+          "description": "Deep blue horizons, coastal cliffs and dramatic island scenery."
+        },
+        {
+          "name": "Medieval Old Town 🏰",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=42.640000%2C18.110200",
+          "description": "Marble streets, arches, towers and centuries of history."
+        }
       ],
       "local_food_tip": "Enjoy seafood risotto, mussels, grilled fish, buzara dishes and Mediterranean vegetarian plates — fresh and perfect for coastal evenings.",
-      "full_day": "Morning: 🧱 <a href=\"https://www.google.com/maps/search/?api=1&query=r58XW5Nd3jjrx6xu9\" target=\"_blank\" rel=\"noopener\">City Walls</a>: Gorgeous morning light and fewer crowds. → 🏰 <a href=\"https://www.google.com/maps/search/?api=1&query=aF1dXBBpDyZMM4c58\" target=\"_blank\" rel=\"noopener\">Old Town</a>: Marble streets and picturesque squares. → ☕ Coffee on <a href=\"https://www.google.com/maps/search/?api=1&query=jBjJ3fycdEPyNn3z7\" target=\"_blank\" rel=\"noopener\">Stradun</a>.\n\nAfternoon: 🏝️ <a href=\"https://www.google.com/maps/search/?api=1&query=5zGHe9hSfiD4p69p9\" target=\"_blank\" rel=\"noopener\">Lokrum Island</a>: Pine forests, cliffs, wildlife and swimming spots. → 🍽️ Lunch: Seafood plates, mussels or light Mediterranean dishes.\n\nSunset: 🌅 <a href=\"https://www.google.com/maps/search/?api=1&query=mBKnYzpgx7PuQBsF6\" target=\"_blank\" rel=\"noopener\">Fort Lovrijenac</a>: Dramatic sunset over sea and stone walls.\n\nNight: 🌃 Stradun Evening Walk: Soft lights, gelato and relaxing coastal atmosphere.",
+      "full_day": "Morning: 🧱 <a href=\"https://www.google.com/maps/search/?api=1&query=42.640700%2C18.110000\" target=\"_blank\" rel=\"noopener\">City Walls</a>: Gorgeous morning light and fewer crowds. → 🏰 <a href=\"https://www.google.com/maps/search/?api=1&query=42.640000%2C18.110200\" target=\"_blank\" rel=\"noopener\">Old Town</a>: Marble streets and picturesque squares. → ☕ Coffee on <a href=\"https://www.google.com/maps/search/?api=1&query=42.640600%2C18.109900\" target=\"_blank\" rel=\"noopener\">Stradun</a>.\n\nAfternoon: 🏝️ <a href=\"https://www.google.com/maps/search/?api=1&query=42.633600%2C18.119000\" target=\"_blank\" rel=\"noopener\">Lokrum Island</a>: Pine forests, cliffs, wildlife and swimming spots. → 🍽️ Lunch: Seafood plates, mussels or light Mediterranean dishes.\n\nSunset: 🌅 <a href=\"https://www.google.com/maps/search/?api=1&query=42.640200%2C18.106700\" target=\"_blank\" rel=\"noopener\">Fort Lovrijenac</a>: Dramatic sunset over the sea and stone walls.\n\nNight: 🌃 Stradun Evening Walk: Soft lights, gelato and relaxing coastal atmosphere.",
       "seasons": {
         "spring": {
           "event": "Spring in Dubrovnik",
@@ -166,66 +336,147 @@
         "summer": {
           "event": "Summer in Dubrovnik",
           "ideas": [
-            "🏖️ Swimming at <a href=\"https://www.google.com/maps/search/?api=1&query=vJdGzJY6J9FXx8Fv5\" target=\"_blank\" rel=\"noopener\">Banje Beach</a>.",
+            "🏖️ Swimming at <a href=\"https://www.google.com/maps/search/?api=1&query=42.641800%2C18.115900\" target=\"_blank\" rel=\"noopener\">Banje Beach</a>.",
             "🏝️ Island trips and boat tours.",
-            "🌅 Sunset viewpoints from fortresses and promenades."
+            "🌅 Sunset viewpoints from fortresses and coastal promenades."
           ]
         },
         "autumn": {
           "event": "Autumn in Dubrovnik",
           "ideas": [
-            "🍁 Warm colors across medieval alleys.",
-            "🥘 Comforting Dalmatian meals in cozy taverns.",
-            "🎭 Exhibitions, cultural programs and concerts."
+            "🍁 Warm golden tones across medieval alleys.",
+            "🥘 Comforting Dalmatian meals in cozy konobas.",
+            "🎭 Cultural programs, art exhibitions and concerts."
           ]
         },
         "winter": {
           "event": "Winter in Dubrovnik",
           "ideas": [
             "🎄 Old Town Advent market.",
-            "✨ Stradun shining under festive lights.",
-            "☕ Warm drinks in narrow, quiet streets."
+            "✨ Stradun glowing under festive lights.",
+            "☕ Warm drinks in quiet historic streets."
           ]
         }
       },
       "public_transport_tips": [
-        "🚶 Old Town is fully pedestrian — walking is essential.",
-        "🚌 Buses connect outer districts with the Pile Gate entrance.",
-        "⛴️ Lokrum boats run every 30 minutes in season.",
-        "🚡 Cable car to <a href=\"https://www.google.com/maps/search/?api=1&query=Y4QopL9dr9XSzWm39\" target=\"_blank\" rel=\"noopener\">Srđ Hill</a> offers spectacular views."
+        {
+          "tip": "🚶 Old Town is fully pedestrian — walking is essential.",
+          "link": "https://www.google.com/maps/search/?api=1&query=Dubrovnik+Old+Town"
+        },
+        {
+          "tip": "🚌 Local buses connect outer districts with Pile Gate, the main Old Town entrance.",
+          "link": "https://libertasdubrovnik.hr/"
+        },
+        {
+          "tip": "⛴️ Lokrum boats run every 30 minutes in season from the Old Port.",
+          "link": "https://www.lokrum.hr/"
+        },
+        {
+          "tip": "🚡 Take the cable car to Srđ Hill for spectacular views.",
+          "link": "https://www.dubrovnikcablecar.com/"
+        },
+        {
+          "tip": "📱 Use Google Maps or Libertas bus info for schedules and routes.",
+          "link": "https://www.google.com/maps/search/?api=1&query=Dubrovnik+bus+routes"
+        }
       ],
       "city_events": [
         {
           "name": "Dubrovnik FestiWine",
           "season": "spring",
-          "description": "🍇 Regional wine tastings and culinary pairings."
+          "description": "🍇 Regional wine tastings and culinary pairings.",
+          "website": "https://dubrovnikfestiwine.hr/"
         },
         {
           "name": "Dubrovnik Summer Festival",
           "season": "summer",
-          "description": "🎭 Iconic open-air theatre, concerts and performances."
+          "description": "🎭 Iconic open-air theatre, concerts and performances across the Old Town.",
+          "website": "https://www.dubrovnik-festival.hr/"
         },
         {
           "name": "Good Food Festival",
           "season": "autumn",
-          "description": "🍽️ Gastronomy programs, cooking workshops and tastings."
+          "description": "🍽️ Culinary events, workshops, tours and local tastings.",
+          "website": "https://www.tzdubrovnik.hr/"
         },
         {
           "name": "Advent in Dubrovnik",
           "season": "winter",
-          "description": "🎄 Festive decorations, music events and holiday markets."
+          "description": "🎄 Holiday markets, festive concerts and beautifully lit Stradun.",
+          "website": "https://www.tzdubrovnik.hr/"
+        }
+      ],
+      "places": [
+        {
+          "name": "Dubrovnik City Walls",
+          "link": "https://www.google.com/maps/search/?api=1&query=42.640700%2C18.110000",
+          "description": "The most iconic attraction — a complete walk along the medieval walls."
+        },
+        {
+          "name": "Old Town Dubrovnik",
+          "link": "https://www.google.com/maps/search/?api=1&query=42.640000%2C18.110200",
+          "description": "UNESCO-protected marble streets and centuries of history."
+        },
+        {
+          "name": "Stradun",
+          "link": "https://www.google.com/maps/search/?api=1&query=42.640600%2C18.109900",
+          "description": "Main promenade of Dubrovnik filled with cafés, shops and historic façades."
+        },
+        {
+          "name": "Lokrum Island",
+          "link": "https://www.google.com/maps/search/?api=1&query=42.633600%2C18.119000",
+          "description": "A natural reserve with forests, peacocks, cliffs and swimming spots."
+        },
+        {
+          "name": "Fort Lovrijenac",
+          "link": "https://www.google.com/maps/search/?api=1&query=42.640200%2C18.106700",
+          "description": "Cliffside fortress with spectacular Adriatic panoramas."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "Buza Beach (Cliff Bars)",
+          "link": "https://www.google.com/maps/search/?api=1&query=42.639900%2C18.112200",
+          "description": "Hidden cliffside cafés and swimming spots overlooking open sea."
+        },
+        {
+          "name": "Gradac Park",
+          "link": "https://www.google.com/maps/search/?api=1&query=42.641800%2C18.104900",
+          "description": "Quiet park above the coast with peaceful benches and sunset views."
+        },
+        {
+          "name": "Dominican Monastery Courtyard",
+          "link": "https://www.google.com/maps/search/?api=1&query=42.641300%2C18.111700",
+          "description": "Historic and serene courtyard perfect for an escape from crowds."
+        },
+        {
+          "name": "Porporela Pier",
+          "link": "https://www.google.com/maps/search/?api=1&query=42.640300%2C18.112500",
+          "description": "A calm stone pier ideal for sunset watching and gentle sea breeze."
         }
       ]
     },
     {
       "name": "Vukovar",
       "interests": [
-        "History & Heritage 🏛️ — Museums, baroque manor houses and memorial sites.",
-        "Danube Scenery 🌊 — Wide riverside horizons and peaceful promenades.",
-        "Museums & Reflection 🕊️ — Educational and meaningful places to visit."
+        {
+          "name": "History & Heritage 🏛️",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Eltz+Manor+Vukovar",
+          "description": "Museums, baroque manor houses and important historical landmarks."
+        },
+        {
+          "name": "Danube Scenery 🌊",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Vukovar+Danube+Promenade",
+          "description": "Wide riverside horizons, peaceful walking paths and calm reflections."
+        },
+        {
+          "name": "Museums & Reflection 🕊️",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Vukovar+Memorial+Sites",
+          "description": "Meaningful places dedicated to remembrance, education and history."
+        }
       ],
       "local_food_tip": "Slavonian dishes such as čobanac, fiš paprikaš, river fish, hearty soups and rustic pastries — warm, flavorful and authentic.",
-      "full_day": "Morning: 🕊️ <a href=\"https://www.google.com/maps/search/?api=1&query=sA7jEZNhvq6qL7XJ9\" target=\"_blank\" rel=\"noopener\">Memorial Center</a>: Meaningful and educational start to the day. → 🏛️ <a href=\"https://www.google.com/maps/search/?api=1&query=UfsfFAZQm6adzvYo7\" target=\"_blank\" rel=\"noopener\">Eltz Manor</a>: Elegant baroque museum by the river. → ☕ Riverside Coffee along the Danube.\n\nAfternoon: 🌊 Danube Promenade: Long peaceful riverside walk. → 🍽️ Lunch: Slavonian stews, river fish dishes or warm vegetarian soups.\n\nSunset: 🌅 Wide river horizon glowing in golden light.\n\nNight: 🌃 Quiet center walk with soft street lighting.",
+      "full_day": "Morning: 🕊️ <a href=\"https://www.google.com/maps/search/?api=1&query=45.354650%2C19.005150\" target=\"_blank\" rel=\"noopener\">Memorial Center of Homeland War</a>: A meaningful and educational start. → 🏛️ <a href=\"https://www.google.com/maps/search/?api=1&query=45.351920%2C19.002640\" target=\"_blank\" rel=\"noopener\">Eltz Manor</a>: Elegant baroque museum by the river. → ☕ Riverside coffee along the Danube.\n\nAfternoon: 🌊 Danube Promenade: Peaceful riverside walk with long views. → 🍽️ Lunch: Slavonian stews, river fish or warm vegetarian soups.\n\nSunset: 🌅 Wide Danube horizon glowing in golden light.\n\nNight: 🌃 Quiet center walk under soft street lighting.",
       "seasons": {
         "spring": {
           "event": "Spring in Vukovar",
@@ -240,14 +491,14 @@
           "ideas": [
             "🌊 Cooling breezes along the promenade.",
             "🍦 Ice cream in the town center.",
-            "🌅 Extra-long pastel sunsets over the river."
+            "🌅 Long pastel sunsets over the river."
           ]
         },
         "autumn": {
           "event": "Autumn in Vukovar",
           "ideas": [
             "🍁 Golden foliage along the Danube.",
-            "🏛️ Museum visits during cooler days.",
+            "🏛️ Museum visits on cooler days.",
             "🥘 Comforting traditional meals."
           ]
         },
@@ -261,43 +512,120 @@
         }
       },
       "public_transport_tips": [
-        "🚶 Most key sites lie along the Danube and are walkable.",
-        "🚌 Local buses connect neighborhoods and the town outskirts.",
-        "🚗 Taxis are affordable for longer distances.",
-        "📍 The river promenade is the easiest orientation point."
+        {
+          "tip": "🚶 Most key sites lie along the Danube and are walkable.",
+          "link": "https://www.google.com/maps/search/?api=1&query=Vukovar+Danube+Promenade"
+        },
+        {
+          "tip": "🚌 Local buses connect neighborhoods and outer zones of Vukovar.",
+          "link": "https://www.liburnija-vukovar.hr/"
+        },
+        {
+          "tip": "🚗 Taxis are affordable and practical for longer distances.",
+          "link": "https://www.google.com/maps/search/?api=1&query=Taxi+Vukovar"
+        },
+        {
+          "tip": "📍 Use the river promenade as the main orientation point.",
+          "link": "https://www.google.com/maps/search/?api=1&query=Vukovar+Danube"
+        }
       ],
       "city_events": [
         {
           "name": "Spring by the Danube",
           "season": "spring",
-          "description": "🌼 Outdoor gatherings and riverside activities."
+          "description": "🌼 Outdoor gatherings and riverside activities.",
+          "website": "https://turizamvukovar.hr/"
         },
         {
           "name": "Vukovar Summer Nights",
           "season": "summer",
-          "description": "🎶 Music evenings, food stands and social events."
+          "description": "🎶 Music evenings, food stands and social events.",
+          "website": "https://turizamvukovar.hr/"
         },
         {
           "name": "Vukovar Film Festival",
           "season": "autumn",
-          "description": "🎬 Films screened directly by the river."
+          "description": "🎬 Films screened by the river and cultural events across the town.",
+          "website": "https://vukovarfilmfestival.com/"
         },
         {
           "name": "Winter Fest Vukovar",
           "season": "winter",
-          "description": "🎄 Holiday markets and warm seasonal entertainment."
+          "description": "🎄 Holiday markets and warm seasonal entertainment.",
+          "website": "https://turizamvukovar.hr/"
+        }
+      ],
+      "places": [
+        {
+          "name": "Memorial Center of Homeland War",
+          "link": "https://www.google.com/maps/search/?api=1&query=45.354650%2C19.005150",
+          "description": "A highly meaningful museum dedicated to Croatia’s modern history."
+        },
+        {
+          "name": "Eltz Manor",
+          "link": "https://www.google.com/maps/search/?api=1&query=45.351920%2C19.002640",
+          "description": "Baroque riverside palace housing the Vukovar Municipal Museum."
+        },
+        {
+          "name": "Danube Promenade",
+          "link": "https://www.google.com/maps/search/?api=1&query=45.353200%2C19.000900",
+          "description": "Long, peaceful walkway by the Danube with scenic views."
+        },
+        {
+          "name": "Vukovar Water Tower",
+          "link": "https://www.google.com/maps/search/?api=1&query=45.350530%2C18.984850",
+          "description": "Symbol of resilience, now a memorial and viewpoint."
+        },
+        {
+          "name": "Franciscan Monastery",
+          "link": "https://www.google.com/maps/search/?api=1&query=45.351400%2C19.000300",
+          "description": "Historic monastery with a peaceful courtyard."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "Adica Forest Park",
+          "link": "https://www.google.com/maps/search/?api=1&query=45.357500%2C18.993900",
+          "description": "Quiet forest retreat great for walks, birds and slow afternoons."
+        },
+        {
+          "name": "Small Danube Beaches",
+          "link": "https://www.google.com/maps/search/?api=1&query=45.354200%2C19.004400",
+          "description": "Little-known riverside spots perfect for peaceful breaks."
+        },
+        {
+          "name": "Vučedol Archaeological Park",
+          "link": "https://www.google.com/maps/search/?api=1&query=45.331300%2C18.981100",
+          "description": "Unique prehistoric site near Vukovar with remarkable artifacts."
+        },
+        {
+          "name": "Lav’s Alley",
+          "link": "https://www.google.com/maps/search/?api=1&query=45.351900%2C19.002200",
+          "description": "Small decorative passage near Eltz Manor often missed by visitors."
         }
       ]
     },
     {
       "name": "Ilok",
       "interests": [
-        "Wine Culture 🍇 — Historic cellars and hillside vineyards.",
-        "Castle Views 🏰 — Hilltop panoramas overlooking the Danube.",
-        "Danube Scenery 🌊 — Calm riverside paths and wide horizons."
+        {
+          "name": "Wine Culture 🍇",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Iločki+podrumi+Ilok",
+          "description": "Historic wine cellars, vineyard slopes and centuries-old traditions."
+        },
+        {
+          "name": "Castle Views 🏰",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=45.222830%2C19.375520",
+          "description": "Hilltop panoramas over vineyards and the Danube basin."
+        },
+        {
+          "name": "Danube Scenery 🌊",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Ilok+Danube+Promenade",
+          "description": "Calm riverside paths and wide, peaceful horizons."
+        }
       ],
       "local_food_tip": "Enjoy hearty Slavonian dishes, river fish specialties, dumpling soups and rustic comfort meals — perfect with Ilok’s regional cuisine.",
-      "full_day": "Morning: 🏰 <a href=\"https://www.google.com/maps/search/?api=1&query=NwE9wsiNVXJGMKkSA\" target=\"_blank\" rel=\"noopener\">Ilok Castle</a>: Hilltop panoramas over vineyards and the Danube. → 🍇 <a href=\"https://www.google.com/maps/search/?api=1&query=annHh8zxX1JpF7gB8\" target=\"_blank\" rel=\"noopener\">Medieval Wine Cellars</a> (non-alcoholic friendly tours): Stone corridors and historic barrels. → ☕ Coffee on a viewpoint terrace.\n\nAfternoon: 🌊 Danube Promenade: Quiet riverside walk. → 🍽️ Lunch: Rustic Slavonian dishes, soups or vegetarian plates.\n\nSunset: 🌅 Fiery sunsets over vineyards and the river.\n\nNight: 🌃 Peaceful old-town stroll.",
+      "full_day": "Morning: 🏰 <a href=\"https://www.google.com/maps/search/?api=1&query=45.222830%2C19.375520\" target=\"_blank\" rel=\"noopener\">Ilok Castle</a>: Hilltop panoramas over vineyards and the Danube. → 🍇 <a href=\"https://www.google.com/maps/search/?api=1&query=45.222440%2C19.376630\" target=\"_blank\" rel=\"noopener\">Medieval Wine Cellars (Iločki podrumi)</a>: Historic stone corridors and traditional barrels; tours can be enjoyed even without alcohol. → ☕ Coffee on a terrace overlooking hills.\n\nAfternoon: 🌊 <a href=\"https://www.google.com/maps/search/?api=1&query=45.224900%2C19.377900\" target=\"_blank\" rel=\"noopener\">Danube Promenade</a>: Quiet riverside walk. → 🍽️ Lunch: Slavonian stews, river fish dishes or warm vegetarian soups.\n\nSunset: 🌅 Fiery sunsets over vineyards and the river.\n\nNight: 🌃 Peaceful old-town stroll under soft lights.",
       "seasons": {
         "spring": {
           "event": "Spring in Ilok",
@@ -333,31 +661,96 @@
         }
       },
       "public_transport_tips": [
-        "🚶 Ilok is compact and easy to explore on foot.",
-        "🚗 Local taxis are best for reaching vineyards outside town.",
-        "📍 Use the castle hill as the main orientation point.",
-        "🚌 Regional buses link Ilok with Vukovar and Osijek."
+        {
+          "tip": "🚶 Ilok is compact and easy to explore on foot.",
+          "link": "https://www.google.com/maps/search/?api=1&query=Ilok+center"
+        },
+        {
+          "tip": "🚗 Local taxis are best for reaching vineyards and estates outside town.",
+          "link": "https://www.google.com/maps/search/?api=1&query=Taxi+Ilok"
+        },
+        {
+          "tip": "📍 Use the castle hill as the main orientation point.",
+          "link": "https://www.google.com/maps/search/?api=1&query=Ilok+Castle"
+        },
+        {
+          "tip": "🚌 Regional buses connect Ilok with Vukovar and Osijek.",
+          "link": "https://www.akz.hr/"
+        }
       ],
       "city_events": [
         {
           "name": "Spring Vineyard Walks",
           "season": "spring",
-          "description": "🌼 Gentle paths through awakening vineyards."
+          "description": "🌼 Gentle paths through awakening vineyards.",
+          "website": "https://www.turizamilok.hr/"
         },
         {
           "name": "Ilok Summer Nights",
           "season": "summer",
-          "description": "🎶 Open-air music and courtyard programs in the castle complex."
+          "description": "🎶 Open-air music and courtyard programs in the castle complex.",
+          "website": "https://www.turizamilok.hr/"
         },
         {
           "name": "Harvest Days",
           "season": "autumn",
-          "description": "🍇 Cultural celebrations of wine and local traditions."
+          "description": "🍇 Cultural celebrations of grapes, food and local traditions.",
+          "website": "https://www.turizamilok.hr/"
         },
         {
           "name": "Advent on the Hill",
           "season": "winter",
-          "description": "🎄 Christmas lights, winter charm and peaceful views."
+          "description": "🎄 Castle lights, winter charm and festive decorations.",
+          "website": "https://www.turizamilok.hr/"
+        }
+      ],
+      "places": [
+        {
+          "name": "Ilok Castle",
+          "link": "https://www.google.com/maps/search/?api=1&query=45.222830%2C19.375520",
+          "description": "Hilltop fortress offering panoramic Danube and vineyard views."
+        },
+        {
+          "name": "Iločki Podrumi – Medieval Wine Cellars",
+          "link": "https://www.google.com/maps/search/?api=1&query=45.222440%2C19.376630",
+          "description": "Historic stone cellars dating back centuries, known for elegant architecture."
+        },
+        {
+          "name": "Danube Promenade",
+          "link": "https://www.google.com/maps/search/?api=1&query=45.224900%2C19.377900",
+          "description": "Quiet riverfront walkway with wide scenic horizons."
+        },
+        {
+          "name": "Church of St. John of Capistrano",
+          "link": "https://www.google.com/maps/search/?api=1&query=45.223950%2C19.375010",
+          "description": "Historic church with a prominent tower overlooking the slopes."
+        },
+        {
+          "name": "Ilok Museum",
+          "link": "https://www.google.com/maps/search/?api=1&query=45.222920%2C19.375240",
+          "description": "Cultural museum located inside the castle complex."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "Vineyard Overlook Path",
+          "link": "https://www.google.com/maps/search/?api=1&query=45.226500%2C19.378500",
+          "description": "Quiet hillside path with sweeping views toward the Danube."
+        },
+        {
+          "name": "Small Danube Dock",
+          "link": "https://www.google.com/maps/search/?api=1&query=45.224450%2C19.379200",
+          "description": "Peaceful river spot perfect for photography and reflection."
+        },
+        {
+          "name": "Old Town Stone Lanes",
+          "link": "https://www.google.com/maps/search/?api=1&query=45.223300%2C19.374700",
+          "description": "Charming narrow streets often overlooked by visitors."
+        },
+        {
+          "name": "Ilok Vineyard Chapel",
+          "link": "https://www.google.com/maps/search/?api=1&query=45.227950%2C19.380100",
+          "description": "A tiny chapel surrounded by vineyards — magical at sunrise."
         }
       ]
     }
