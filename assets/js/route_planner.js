@@ -117,6 +117,58 @@ document.addEventListener("includes:loaded", function () {
   }
 
   /* -----------------------------------------------------------
+     SEASON HELPERS (handles old and new season shapes)
+  ------------------------------------------------------------*/
+  function normalizeSeasonEntry(entry) {
+    if (typeof entry === "string") return entry;
+
+    if (entry && typeof entry === "object") {
+      const title = entry.name || entry.title || entry.label || "";
+      const link = entry.map_link || entry.link;
+      const desc = entry.description || entry.detail || "";
+
+      let label = title;
+      if (link) {
+        const anchorText = title || "View on map";
+        label = `<a href="${link}" target="_blank" rel="noopener">${anchorText}</a>`;
+      } else if (!label && desc) {
+        label = desc;
+      }
+
+      if (!label) return "";
+      return desc && label !== desc ? `${label}: ${desc}` : label;
+    }
+
+    return "";
+  }
+
+  function renderSeasonList(label, list) {
+    if (!Array.isArray(list) || list.length === 0) return "";
+
+    const normalized = list.map(normalizeSeasonEntry).filter(Boolean);
+    if (!normalized.length) return "";
+
+    return `<strong>${label}:</strong><br>${parseTextBlock(normalized.join("|"))}<br>`;
+  }
+
+  function renderSeasonSection(seasonObj) {
+    if (!seasonObj) return "";
+
+    let html = "";
+    if (seasonObj.event) {
+      html += `<strong>Season event:</strong> ${seasonObj.event}<br>`;
+    }
+    if (seasonObj.description) {
+      html += `${seasonObj.description}<br>`;
+    }
+
+    html += renderSeasonList("Ideas", seasonObj.ideas);
+    html += renderSeasonList("Locations", seasonObj.locations);
+
+    return html;
+  }
+
+  /* -----------------------------------------------------------
      POPUNI LISTU DRŽAVA
   ------------------------------------------------------------*/
   function populateCountries() {
@@ -272,16 +324,7 @@ document.addEventListener("includes:loaded", function () {
     /* -------------------------
       SEASON
     -------------------------- */
-    const seasonObj = selectedCityObj.seasons[season];
-    routeText += `<strong>Season event:</strong> ${seasonObj.event}<br>`;
-
-    if (seasonObj.ideas) {
-      routeText += `<strong>Ideas:</strong><br>${parseTextBlock(seasonObj.ideas.join("|"))}<br>`;
-    }
-
-    if (seasonObj.locations) {
-      routeText += `<strong>Locations:</strong><br>${parseTextBlock(seasonObj.locations.join("|"))}<br>`;
-    }
+    routeText += renderSeasonSection(selectedCityObj.seasons[season]);
 
     /* -------------------------
       TIPS

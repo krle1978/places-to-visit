@@ -2,606 +2,514 @@
   "name": "Czech Republic",
   "cities": [
     {
-      "name": "Prague",
-      "interests": [
-        {
-          "name": "History & Castles 🏰",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=50.090903%2C14.400512",
-          "description": "Medieval fortifications, Gothic towers and panoramic European viewpoints around the castle district."
-        },
-        {
-          "name": "Old Town Culture 🏛️",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=50.087465%2C14.421254",
-          "description": "Atmospheric squares, Renaissance façades, narrow alleys and legendary architectural icons."
-        },
-        {
-          "name": "Riverside Views 🌉",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=50.086505%2C14.411440",
-          "description": "Vltava bridges, shimmering reflections and postcard-perfect sunset scenery."
-        }
-      ],
-      "local_food_tip": "Try Czech classics like dumplings, potato soups, trdelník pastries and comforting sweet-baked dishes — warm, hearty and perfect for a full sightseeing day.",
-      "full_day": "Morning: 🏰 <a href=\"https://www.google.com/maps/search/?api=1&query=50.090903%2C14.400512\" target=\"_blank\" rel=\"noopener\">Prague Castle District</a>: Walk through courtyards, castle walls and panoramic viewpoints above the Vltava. → ⛪ <a href=\"https://www.google.com/maps/search/?api=1&query=50.090284%2C14.400876\" target=\"_blank\" rel=\"noopener\">St. Vitus Cathedral</a>: Gothic masterpiece glowing with stained glass. → 🧱 <a href=\"https://www.google.com/maps/search/?api=1&query=50.091640%2C14.405746\" target=\"_blank\" rel=\"noopener\">Golden Lane</a>: Tiny medieval houses with a fairytale atmosphere. → ☕ Coffee in <a href=\"https://www.google.com/maps/search/?api=1&query=50.086389%2C14.404916\" target=\"_blank\" rel=\"noopener\">Malá Strana</a>.\n\nAfternoon: 🌉 <a href=\"https://www.google.com/maps/search/?api=1&query=50.086505%2C14.411440\" target=\"_blank\" rel=\"noopener\">Charles Bridge</a>: Classic Prague views and statues. → 🕰️ <a href=\"https://www.google.com/maps/search/?api=1&query=50.087465%2C14.421254\" target=\"_blank\" rel=\"noopener\">Old Town Square</a>: Lively historic heart. → ✨ <a href=\"https://www.google.com/maps/search/?api=1&query=50.087079%2C14.420424\" target=\"_blank\" rel=\"noopener\">Astronomical Clock</a>: Famous hourly show. → 🍽️ Lunch: Dumplings, soups, pastries or veggie-friendly Czech comfort food.\n\nSunset: 🌅 <a href=\"https://www.google.com/maps/search/?api=1&query=50.096755%2C14.424431\" target=\"_blank\" rel=\"noopener\">Letná Park</a> or <a href=\"https://www.google.com/maps/search/?api=1&query=50.083378%2C14.414539\" target=\"_blank\" rel=\"noopener\">Vltava Promenade</a>.\n\nNight: 🌃 Old Town evening walk: Soft lights, calm streets and dessert spots near the river.",
-      "seasons": {
-        "spring": {
-          "event": "Spring in Prague",
-          "ideas": [
-            "🌸 Blossoms on <a href=\"https://www.google.com/maps/search/?api=1&query=50.083600%2C14.395800\" target=\"_blank\" rel=\"noopener\">Petřín Hill</a>.",
-            "☕ Outdoor cafés in Old Town squares.",
-            "🌉 Riverside paths glowing in soft spring light."
-          ]
-        },
-        "summer": {
-          "event": "Hot Summer Days",
-          "ideas": [
-            "🌊 Breezy riverside promenades along the Vltava.",
-            "🍦 Ice cream around Charles Bridge and Old Town.",
-            "🌳 Shady terraces at <a href=\"https://www.google.com/maps/search/?api=1&query=50.096755%2C14.424431\" target=\"_blank\" rel=\"noopener\">Letná Park</a>."
-          ]
-        },
-        "autumn": {
-          "event": "Autumn in Prague",
-          "ideas": [
-            "🍁 Warm-toned foliage on Castle Hill.",
-            "🥐 Cozy pastries in famous Prague cafés.",
-            "🏛️ Museum afternoons at the <a href=\"https://www.google.com/maps/search/?api=1&query=50.088018%2C14.411199\" target=\"_blank\" rel=\"noopener\">National Gallery</a> or <a href=\"https://www.google.com/maps/search/?api=1&query=50.090058%2C14.418985\" target=\"_blank\" rel=\"noopener\">Jewish Museum</a>."
-          ]
-        },
-        "winter": {
-          "event": "Christmas Market",
-          "ideas": [
-            "🎄 <a href=\"https://www.google.com/maps/search/?api=1&query=50.087465%2C14.421254\" target=\"_blank\" rel=\"noopener\">Old Town Square Market</a>.",
-            "✨ <a href=\"https://www.google.com/maps/search/?api=1&query=50.081073%2C14.425392\" target=\"_blank\" rel=\"noopener\">Wenceslas Square</a> holiday lights.",
-            "🏰 <a href=\"https://www.google.com/maps/search/?api=1&query=50.090903%2C14.400512\" target=\"_blank\" rel=\"noopener\">Prague Castle</a> winter scenery."
-          ]
-        }
-      },
-      "public_transport_tips": [
-        {
-          "tip": "🚇 Metro is the fastest way between major sites.",
-          "link": "https://pid.cz/en/"
-        },
-        {
-          "tip": "🚋 Trams offer scenic routes across the city."
-        },
-        {
-          "tip": "🚶 Old Town and Castle District are best explored on foot."
-        },
-        {
-          "tip": "📱 Use ‘PID Lítačka’ app for tickets and real-time schedules.",
-          "link": "https://pidlitacka.cz/"
-        }
-      ],
-     "city_events": [
-          {
-            "name": "Prague Spring Festival",
-            "season": "spring",
-            "description": "🎼 Classical concerts across historic venues. The 81st Prague Spring International Music Festival runs from 12 May to 4 June 2026 with dozens of concerts, workshops and world-class ensembles. :contentReference[oaicite:0]{index=0}",
-            "website": "https://festival.cz/en/",
-            "dates": "12 May – 4 June 2026"
-          },
-          {
-            "name": "United Islands Festival",
-            "season": "summer",
-            "description": "🎶 Free open-air music festival on Vltava islands featuring emerging Czech and European artists over several days around late April/early May. :contentReference[oaicite:1]{index=1}",
-            "website": "https://www.unitedislands.cz/en",
-            "dates": "30 April – 2 May 2026"
-          },
-          {
-            "name": "Signal Light Festival",
-            "season": "autumn",
-            "description": "✨ Nighttime light installations across the city, transforming public spaces with projections and digital art, typically held over several nights in October. :contentReference[oaicite:2]{index=2}",
-            "website": "https://www.signalfestival.com/en/",
-            "dates": "15 – 18 October 2026 (estimated)"
-          },
-          {
-            "name": "Old Town Christmas Market",
-            "season": "winter",
-            "description": "🎄 One of Europe’s most atmospheric winter markets, centered around Old Town Square and Wenceslas Square with festive stalls, lights and seasonal treats. :contentReference[oaicite:3]{index=3}",
-            "website": "https://prague.eu/en/akce/old-town-square-christmas-market/",
-            "dates": "29 November 2025 – 6 January 2026 (market season)"
-          }
-        ],
-      "places": [
-        {
-          "name": "Prague Castle",
-          "link": "https://www.google.com/maps/search/?api=1&query=50.090903%2C14.400512",
-          "description": "The largest ancient castle complex in the world with panoramic views over Prague."
-        },
-        {
-          "name": "St. Vitus Cathedral",
-          "link": "https://www.google.com/maps/search/?api=1&query=50.090284%2C14.400876",
-          "description": "Gothic cathedral famous for its stained-glass windows and towering spires."
-        },
-        {
-          "name": "Charles Bridge",
-          "link": "https://www.google.com/maps/search/?api=1&query=50.086505%2C14.411440",
-          "description": "Historic 14th-century stone bridge lined with statues."
-        },
-        {
-          "name": "Old Town Square",
-          "link": "https://www.google.com/maps/search/?api=1&query=50.087465%2C14.421254",
-          "description": "Iconic heart of Prague filled with towers, cafés and lively atmosphere."
-        },
-        {
-          "name": "Letná Park",
-          "link": "https://www.google.com/maps/search/?api=1&query=50.096755%2C14.424431",
-          "description": "One of the best sunset viewpoints over the Vltava river and bridges."
-        }
-      ],
-      "hidden_gems": [
-        {
-          "name": "Wallace's Vineyard (Viniční altán)",
-          "link": "https://www.google.com/maps/search/?api=1&query=50.067960%2C14.434638",
-          "description": "A peaceful hillside garden pavilion overlooking vineyards in the city."
-        },
-        {
-          "name": "Kampa Island",
-          "link": "https://www.google.com/maps/search/?api=1&query=50.085414%2C14.408615",
-          "description": "Quiet riverside island with art installations and charming cafés."
-        },
-        {
-          "name": "Nový Svět Lane",
-          "link": "https://www.google.com/maps/search/?api=1&query=50.093020%2C14.395960",
-          "description": "A secluded medieval street near Prague Castle with a peaceful, village-like feel."
-        },
-        {
-          "name": "Vyšehrad",
-          "link": "https://www.google.com/maps/search/?api=1&query=50.064676%2C14.418927",
-          "description": "Historic fortress above the Vltava offering panoramic views and quiet paths."
-        }
-      ]
-    },
-    {
       "name": "Brno",
       "interests": [
         {
-          "name": "Castles & Landmarks 🏰",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=49.194345%2C16.607741",
-          "description": "Historic hilltop Špilberk Castle, Gothic towers at Petrov Hill and memorable city skyline views."
+          "name": "Špilberk Castle",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=49.1952%2C16.5993",
+          "description": "Historic hilltop castle overlooking Brno, once a royal fortress and later a notorious prison, now housing museums and viewpoints."
         },
         {
-          "name": "Urban Culture 🎭",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=49.195061%2C16.608126",
-          "description": "Lively squares, student cafés, creative corners and cultural venues across the city center."
+          "name": "Cathedral of St. Peter and Paul",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=49.1917%2C16.6081",
+          "description": "Neo-Gothic cathedral on Petrov Hill, one of Brno’s main symbols with panoramic views over the city."
         },
         {
-          "name": "Parks & Views 🌳",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=49.213680%2C16.604284",
-          "description": "Relaxed green spaces like Lužánky Park, Denis Gardens and terrace viewpoints for scenic moments."
+          "name": "Freedom Square (Náměstí Svobody)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=49.1951%2C16.6085",
+          "description": "Central square and social hub surrounded by shops, cafés, and modern art installations."
+        },
+        {
+          "name": "Villa Tugendhat",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=49.2100%2C16.6161",
+          "description": "UNESCO World Heritage modernist villa designed by Mies van der Rohe, a masterpiece of functionalist architecture."
+        },
+        {
+          "name": "Moravian Karst",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=49.3610%2C16.7220",
+          "description": "Protected natural area north of Brno with caves, gorges, and the famous Macocha Abyss."
         }
       ],
-      "local_food_tip": "Taste Moravian comfort meals like soups, dumplings, pastries and hearty baked dishes — simple, satisfying and perfect for strolling.",
-      "full_day": "Morning: 🏰 <a href=\"https://www.google.com/maps/search/?api=1&query=49.194345%2C16.607741\" target=\"_blank\" rel=\"noopener\">Špilberk Castle</a>: Hilltop fortress with panoramic paths and historic courtyards. → 🌿 <a href=\"https://www.google.com/maps/search/?api=1&query=49.213680%2C16.604284\" target=\"_blank\" rel=\"noopener\">Lužánky Park</a>: Large shaded park for slow morning walks. → ⛪ <a href=\"https://www.google.com/maps/search/?api=1&query=49.194085%2C16.609377\" target=\"_blank\" rel=\"noopener\">Cathedral of St. Peter and Paul</a>: Gothic towers above Old Town. → ☕ Coffee in <a href=\"https://www.google.com/maps/search/?api=1&query=49.196538%2C16.607812\" target=\"_blank\" rel=\"noopener\">Denis Gardens</a>.\n\nAfternoon: 🏙️ Old Town Streets: Explore lively squares and façades. → 🕰️ <a href=\"https://www.google.com/maps/search/?api=1&query=49.195634%2C16.607117\" target=\"_blank\" rel=\"noopener\">Brno Astronomical Clock</a> on Náměstí Svobody. → 🍽️ Lunch: Moravian soups, dumplings, pastries or vegetarian options.\n\nSunset: 🌅 Terrace viewpoints near Špilberk or park benches around Lužánky.\n\nNight: 🌃 Old Town & Center: Student bars, craft pubs and relaxed evening vibes.",
+      "local_food_tip": "Try Czech classics such as svíčková, goulash, roast pork with dumplings, and Moravian wines. Brno is also known for its vibrant café and craft beer scene.",
+      "full_day": {
+        "Morning": "Start at <a href=\"https://www.google.com/maps/search/?api=1&query=49.1951%2C16.6085\" target=\"_blank\" rel=\"noopener\">Freedom Square</a> ☀️, then walk up to <a href=\"https://www.google.com/maps/search/?api=1&query=49.1917%2C16.6081\" target=\"_blank\" rel=\"noopener\">St. Peter and Paul Cathedral</a> ⛪.",
+        "Afternoon": "Explore <a href=\"https://www.google.com/maps/search/?api=1&query=49.1952%2C16.5993\" target=\"_blank\" rel=\"noopener\">Špilberk Castle</a> 🏰 and have lunch in the old town 🍽️.",
+        "Sunset": "Enjoy sunset views from Špilberk Hill 🌅 overlooking Brno.",
+        "Night": "Dinner and evening stroll through the city center ✨ or enjoy local cafés and bars."
+      },
       "seasons": {
         "spring": {
           "event": "Spring in Brno",
+          "description": "Mild weather and blooming parks make the city ideal for walking.",
           "ideas": [
-            "🌼 Blossoms in parks like <a href=\"https://www.google.com/maps/search/?api=1&query=49.196538%2C16.607812\" target=\"_blank\" rel=\"noopener\">Denis Gardens</a>.",
-            "☀️ Outdoor cafés in Old Town central squares.",
-            "🌿 Hiking up <a href=\"https://www.google.com/maps/search/?api=1&query=49.194345%2C16.607741\" target=\"_blank\" rel=\"noopener\">Špilberk Hill</a> for soft-season views."
+            {
+              "name": "Old town walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.1951%2C16.6085",
+              "description": "Comfortable sightseeing conditions."
+            },
+            {
+              "name": "Villa Tugendhat visit",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.2100%2C16.6161",
+              "description": "Architectural exploration."
+            },
+            {
+              "name": "City parks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.1980%2C16.6030",
+              "description": "Green spaces in bloom."
+            }
           ]
         },
         "summer": {
-          "event": "Summer in Brno",
+          "event": "Brno Cultural Summer",
+          "description": "Outdoor festivals, concerts, and lively terraces.",
           "ideas": [
-            "🌳 Lužánky Park fountains and cool lawns.",
-            "🍦 Ice cream around <a href=\"https://www.google.com/maps/search/?api=1&query=49.195634%2C16.607117\" target=\"_blank\" rel=\"noopener\">Náměstí Svobody</a>.",
-            "🎶 Outdoor concerts and street life across the center."
+            {
+              "name": "Open-air events",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.1951%2C16.6085",
+              "description": "Cultural life in public spaces."
+            },
+            {
+              "name": "Moravian Karst trip",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.3610%2C16.7220",
+              "description": "Nature escape from the city."
+            },
+            {
+              "name": "Evening cafés",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.1955%2C16.6095",
+              "description": "Warm summer nights."
+            }
           ]
         },
         "autumn": {
-          "event": "Autumn in Brno",
+          "event": "Wine Harvest Season",
+          "description": "Moravia celebrates wine harvests with tastings and festivals.",
           "ideas": [
-            "🍁 Golden colors on castle hills and parks.",
-            "🥐 Warm cafés for pastries and tea.",
-            "🏛️ Museum afternoons at <a href=\"https://www.moravska-galerie.cz/?lang=en\" target=\"_blank\" rel=\"noopener\">Moravian Gallery</a>."
+            {
+              "name": "Wine bars",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.1951%2C16.6085",
+              "description": "Local Moravian wines."
+            },
+            {
+              "name": "Photography walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.1952%2C16.5993",
+              "description": "Autumn colors on castle hills."
+            },
+            {
+              "name": "Historic sightseeing",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.1917%2C16.6081",
+              "description": "Pleasant temperatures."
+            }
           ]
         },
         "winter": {
-          "event": "Christmas in Brno",
+          "event": "Brno Christmas Markets",
+          "description": "Festive markets on main squares with lights and local treats.",
           "ideas": [
-            "🎄 Festive markets and stalls across central squares.",
-            "✨ Holiday lights in the Old Town.",
-            "☕ Hot drinks in cozy cafés after evening walks."
+            {
+              "name": "Christmas markets",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.1951%2C16.6085",
+              "description": "Seasonal food and crafts."
+            },
+            {
+              "name": "Museum visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.1952%2C16.5993",
+              "description": "Warm indoor culture."
+            },
+            {
+              "name": "Café culture",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.1955%2C16.6095",
+              "description": "Cozy winter atmosphere."
+            }
           ]
         }
       },
       "public_transport_tips": [
         {
-          "tip": "🚋 Trams connect the entire city quickly.",
-          "link": "https://www.dpmb.cz/en/"
+          "tip": "Trams are the fastest way to get around Brno.",
+          "link": "https://www.dpmb.cz/"
         },
         {
-          "tip": "🚶 Castle areas and Old Town are best explored on foot."
+          "tip": "The city center is compact and walkable.",
+          "link": "https://www.gotobrno.cz/"
         },
         {
-          "tip": "🚌 Buses reach parks, viewpoints and outer neighborhoods."
-        },
-        {
-          "tip": "📱 Use the ‘IDOS’ app for timetable info."
+          "tip": "Brno has direct train connections to Prague, Vienna, and Bratislava.",
+          "link": "https://www.cd.cz/"
         }
       ],
       "city_events": [
         {
-          "name": "Ignis Brunensis",
-          "season": "spring",
-          "description": "🎆 International fireworks competition and drone show with spectacular displays over Brno Lake, combining pyrotechnics and music over several days (13–25 June 2025). :cite:turn1search0",
-          "website": "https://www.ignisbrunensis.cz/en",
-          "dates": "13 June – 25 June 2025"
-        },
-        {
-          "name": "Brno Music Marathon",
+          "name": "Ignis Brunensis Fireworks Festival",
           "season": "summer",
-          "description": "🎶 A four-day multi-genre music festival across Brno’s historic centre with concerts and performances blending jazz, rock, world and experimental music. :cite:turn1search1",
-          "website": "https://www.maratonhudby.cz/",
-          "dates": "7 August – 10 August 2025"
-        },
-        {
-          "name": "Brno Autumn Cultural Events",
-          "season": "autumn",
-          "description": "🎭 A range of cultural programmes and concerts in early autumn highlighting the city’s creative scene across historic venues.",
-          "website": "https://www.gotobrno.cz/en/events-in-brno/",
-          "dates": "September – October 2025"
-        },
-        {
-          "name": "Brno Christmas Markets",
-          "season": "winter",
-          "description": "🎄 Festive markets with stalls, music, lights and seasonal treats across Moravian Square, Freedom Square and historic courtyards (Nov–Dec). :cite:turn0search11",
-          "website": "https://brnenskevanoce.cz/en/",
-          "dates": "14 November – 31 December 2025"
+          "description": "International fireworks competition over the Brno Reservoir.",
+          "website": "https://www.ignisbrunensis.cz/",
+          "dates": "June"
         }
       ],
       "places": [
         {
-          "name": "Špilberk Castle",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.194345%2C16.607741",
-          "description": "Historic hilltop fortress overlooking Brno with panoramic views and museum exhibitions."
+          "name": "Brno Ossuary at St. James",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=49.1958%2C16.6089",
+          "description": "One of the largest ossuaries in Europe, located beneath St. James Church."
         },
         {
-          "name": "Cathedral of St. Peter and Paul",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.194085%2C16.609377",
-          "description": "Iconic Gothic cathedral rising above Petrov Hill, symbol of the city."
-        },
-        {
-          "name": "Brno Astronomical Clock",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.195634%2C16.607117",
-          "description": "Unique black stone clock on Náměstí Svobody known for its daily marble release tradition."
-        },
-        {
-          "name": "Lužánky Park",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.213680%2C16.604284",
-          "description": "One of the oldest and largest city parks in the Czech Republic."
-        },
-        {
-          "name": "Denis Gardens",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.196538%2C16.607812",
-          "description": "Terrace gardens offering scenic views and relaxing corners near Brno Castle."
+          "name": "Brno Zoo",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=49.2276%2C16.5387",
+          "description": "Family-friendly zoo set in a forested area outside the city center."
         }
       ],
       "hidden_gems": [
         {
-          "name": "Anthropos Pavilion",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.210205%2C16.582407",
-          "description": "Museum showcasing prehistoric and human evolution exhibitions. :cite:turn0search23"
+          "name": "Capuchin Crypt",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=49.1911%2C16.6056",
+          "description": "Historic crypt with naturally mummified monks, offering a unique insight into Brno’s past."
         },
         {
-          "name": "Mahen Theatre",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.193395%2C16.607136",
-          "description": "Historic theatre building illuminated by electric light, part of Brno’s vibrant theatre scene. :cite:turn0search22"
-        },
-        {
-          "name": "Reduta Theatre",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.195482%2C16.608654",
-          "description": "One of the oldest theatres in Central Europe with Renaissance roots. :cite:turn0search21"
-        },
-        {
-          "name": "Villa Tugendhat (exterior)",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.207592%2C16.597755",
-          "description": "UNESCO-listed functionalist villa with architectural significance (visit exterior or book tour)."
+          "name": "Quiet streets of Veveří",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=49.2070%2C16.5900",
+          "description": "Local neighborhood atmosphere away from tourist routes."
         }
       ]
     },
+
     {
       "name": "Český Krumlov",
       "interests": [
         {
-          "name": "Medieval Castles 🏰",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=48.811667%2C14.315833",
-          "description": "A fairytale hilltop fortress above a river bend with courtyards, gardens and historic halls."
-        },
-        {
-          "name": "Riverside Charm 🌊",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=48.810800%2C14.316800",
-          "description": "Stone bridges, peaceful flowing Vltava scenery and scenic river bends."
-        },
-        {
-          "name": "Art & Photography 🎨",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=48.811100%2C14.315200",
-          "description": "Colorful façades, galleries, historic lanes and iconic viewpoints ideal for photos."
-        }
-      ],
-      "local_food_tip": "Try Bohemian dumplings, sweet pastries, warm soups and simple vegetarian-friendly plates — gentle flavors perfect for exploring a fairytale town.",
-      "full_day": "Morning: 🏰 <a href=\"https://www.google.com/maps/search/?api=1&query=48.811667%2C14.315833\" target=\"_blank\">Krumlov Castle</a>: Explore courtyards, historic halls and gardens above the river. → 🌉 <a href=\"https://www.google.com/maps/search/?api=1&query=48.812300%2C14.315500\" target=\"_blank\">Castle Tower</a>: Iconic panoramic views over red rooftops. → 🏛️ Old Town Walk: Narrow lanes, arched bridges and artisan shops. → ☕ Coffee by the <a href=\"https://www.google.com/maps/search/?api=1&query=48.810800%2C14.316800\" target=\"_blank\">Vltava River</a>.\n\nAfternoon: 🎨 <a href=\"https://www.google.com/maps/search/?api=1&query=48.811300%2C14.314700\" target=\"_blank\">Egon Schiele Art Center</a>: Atmospheric exhibitions in a historic building. → 🌊 Riverside photo paths along the town curve. → 🍽️ Lunch: Bohemian dumplings, soups or sweet pastries.\n\nSunset: 🌅 <a href=\"https://www.google.com/maps/search/?api=1&query=48.811667%2C14.315833\" target=\"_blank\">Castle Gardens</a>: Magical golden-hour views over the rooftops.\n\nNight: 🌃 Lantern-lit Old Town: Peaceful cobblestone streets and glowing river reflections.",
-      "seasons": {
-        "spring": {
-          "event": "Spring in Český Krumlov",
-          "ideas": [
-            "🌸 Blossoms in <a href=\"https://www.google.com/maps/search/?api=1&query=48.811667%2C14.315833\" target=\"_blank\">Castle Gardens</a>.",
-            "☀️ Riverside cafés opening for the season.",
-            "📸 Old Town colors in soft spring sunshine."
-          ]
-        },
-        "summer": {
-          "event": "Hot Summer Days",
-          "ideas": [
-            "🌊 Shady riverside promenade along the Vltava.",
-            "🍦 Ice cream stands across Old Town.",
-            "🌿 Cool castle courtyards and stone passages."
-          ]
-        },
-        "autumn": {
-          "event": "Autumn in Český Krumlov",
-          "ideas": [
-            "🍁 Golden castle foliage.",
-            "🥐 Cozy cafés for crisp autumn mornings.",
-            "🏛️ Art & museum visits during chilly hours."
-          ]
-        },
-        "winter": {
-          "event": "Christmas Market",
-          "ideas": [
-            "🎄 Festive stalls in Old Town Square and near the castle.",
-            "✨ Winter-lit castle bridges and balconies.",
-            "🍫 Hot drinks in quiet cafés after evening strolls."
-          ]
-        }
-      },
-      "public_transport_tips": [
-        {
-          "tip": "🚶 The town center and historic quarter are fully walkable.",
-          "link": "https://www.google.com/maps/search/?api=1&query=Český+Krumlov"
-        },
-        {
-          "tip": "🚌 Regional buses connect Krumlov with Český Budějovice and other cities.",
-          "link": "https://www.idos.cz/en/"
-        },
-        {
-          "tip": "🚗 Car or taxi is easiest for reaching castle entrances from the station."
-        },
-        {
-          "tip": "📱 Use 'IDOS' for updated bus schedules and connections.",
-          "link": "https://www.idos.cz/en/"
-        }
-      ],
-      "city_events": [
-        {
-          "name": "Krumlov Art Spring",
-          "season": "spring",
-          "description": "🎨 Local exhibitions, studio openings and creative workshops celebrating the season and arts in historic venues.",
-          "website": "https://www.ckrumlov.info/en/events",
-          "dates": "April – May (annual programmes published on info site)"
-        },
-        {
-          "name": "Five-Petalled Rose Festival",
-          "season": "summer",
-          "description": "🏰 Medieval festival with historical reenactments, markets, music and craft demonstrations around the castle grounds — usually held in late June.",
-          "website": "https://www.slavnostiroze.cz/en/",
-          "dates": "Late June (annual dates vary)"
-        },
-        {
-          "name": "Autumn Festival of Arts",
-          "season": "autumn",
-          "description": "🎭 Concerts, theatre and cultural evenings across galleries and historic squares celebrating creative autumn programming.",
-          "website": "https://www.ckrumlov.info/en/events",
-          "dates": "September – October (various years)"
-        },
-        {
-          "name": "Christmas in Krumlov",
-          "season": "winter",
-          "description": "🎄 Charming Christmas markets and festive atmosphere in Old Town Square, decorated bridges and traditional stalls.",
-          "website": "https://www.ckrumlov.info/en/events/christmas/",
-          "dates": "Late November – December (market season)"
-        }
-      ],
-      "places": [
-        {
-          "name": "Krumlov Castle",
-          "link": "https://www.google.com/maps/search/?api=1&query=48.811667%2C14.315833",
-          "description": "Fairytale hilltop castle with panoramic views, courtyards, state rooms and rich history."
-        },
-        {
-          "name": "Castle Tower",
-          "link": "https://www.google.com/maps/search/?api=1&query=48.812300%2C14.315500",
-          "description": "Iconic tower with lookout platforms over red rooftops and surrounding countryside."
+          "name": "Český Krumlov Castle",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=48.8110%2C14.3150",
+          "description": "UNESCO World Heritage castle complex dominating the town, featuring courtyards, gardens, and panoramic views."
         },
         {
           "name": "Old Town Square",
-          "link": "https://www.google.com/maps/search/?api=1&query=48.811100%2C14.314800",
-          "description": "Historic square lined with cafés, galleries and artisan shops."
+          "map_link": "https://www.google.com/maps/search/?api=1&query=48.8106%2C14.3159",
+          "description": "Charming medieval square surrounded by colorful Renaissance and Baroque houses."
         },
         {
-          "name": "Egon Schiele Art Center",
-          "link": "https://www.google.com/maps/search/?api=1&query=48.811300%2C14.314700",
-          "description": "Art museum dedicated to the work and influence of Egon Schiele and contemporaries."
+          "name": "Castle Tower",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=48.8114%2C14.3144",
+          "description": "Iconic painted tower offering the best views over the town and Vltava River."
         },
         {
-          "name": "Vltava Riverside Walks",
-          "link": "https://www.google.com/maps/search/?api=1&query=48.810800%2C14.316800",
-          "description": "Picturesque riverside lanes perfect for slow walks, photos and views."
+          "name": "Vltava River",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=48.8095%2C14.3155",
+          "description": "River looping around the old town, popular for rafting, kayaking, and scenic walks."
+        },
+        {
+          "name": "Egon Schiele Art Centrum",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=48.8100%2C14.3170",
+          "description": "Modern art center dedicated to Egon Schiele, who lived and worked in the town."
         }
       ],
-      "hidden_gems": [
-        {
-          "name": "Minorite Monastery Garden",
-          "link": "https://www.google.com/maps/search/?api=1&query=48.811500%2C14.316900",
-          "description": "Quiet garden oasis behind the monastery, perfect for a peaceful break."
-        },
-        {
-          "name": "Revolving Auditorium (Theatre)",
-          "link": "https://www.google.com/maps/search/?api=1&query=48.812000%2C14.317500",
-          "description": "An atmospheric open-air theatre space known for performances in atmospheric settings."
-        },
-        {
-          "name": "Čertova Stěna Viewpoint",
-          "link": "https://www.google.com/maps/search/?api=1&query=48.814400%2C14.319600",
-          "description": "Cliff lookout point with sweeping views over the Vltava meander and castle rooftops."
-        },
-        {
-          "name": "Museum Fotoatelier Seidel",
-          "link": "https://www.google.com/maps/search/?api=1&query=48.812100%2C14.316300",
-          "description": "Historic photography studio museum preserving 19th-century photographic techniques."
-        }
-      ]
-    },
-    {
-      "name": "Ostrava",
-      "interests": [
-        {
-          "name": "Industrial Heritage 🏭",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=49.820800%2C18.283600",
-          "description": "Steel towers, blast furnaces and futuristic reconstructions in the Dolní Vítkovice industrial area."
-        },
-        {
-          "name": "Modern Art 🎨",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=49.832800%2C18.256100",
-          "description": "Creative spaces, galleries and dynamic cultural zones across the city."
-        },
-        {
-          "name": "Urban Parks 🌳",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=49.826900%2C18.263900",
-          "description": "Riverside lawns, shady lanes and wide green areas — perfect for relaxed walks."
-        }
-      ],
-      "local_food_tip": "Try Silesian & Moravian comfort meals like potato dishes, dumplings, warm soups and pastries — cozy and filling, perfect for long walks.",
-      "full_day": "Morning: 🏭 <a href=\"https://www.google.com/maps/search/?api=1&query=49.820800%2C18.283600\" target=\"_blank\" rel=\"noopener\">Dolní Vítkovice</a>: Explore massive steel structures, blast furnaces and industrial walkways. → 👀 <a href=\"https://www.google.com/maps/search/?api=1&query=49.819900%2C18.284700\" target=\"_blank\" rel=\"noopener\">Bolt Tower</a>: Glass viewing deck with 360° city views. → ☕ Coffee in an industrial-style café nearby.\n\nAfternoon: 🏙️ <a href=\"https://www.google.com/maps/search/?api=1&query=49.836000%2C18.291500\" target=\"_blank\" rel=\"noopener\">Masaryk Square</a>: Colorful façades, fountains and a lively urban center. → 🌳 <a href=\"https://www.google.com/maps/search/?api=1&query=49.824500%2C18.258200\" target=\"_blank\" rel=\"noopener\">Komenského Sady</a>: Large riverside park perfect for cooling off and relaxing. → 🍽️ Lunch: Moravian soups, dumplings, pastries or vegetarian bowls.\n\nSunset: 🌅 <a href=\"https://www.google.com/maps/search/?api=1&query=49.819900%2C18.284700\" target=\"_blank\" rel=\"noopener\">Bolt Tower</a> or <a href=\"https://www.google.com/maps/search/?api=1&query=49.825800%2C18.282400\" target=\"_blank\" rel=\"noopener\">Slezskoostravský hrad</a>: Golden light over dramatic industrial silhouettes.\n\nNight: 🌃 <a href=\"https://www.google.com/maps/search/?api=1&query=49.833700%2C18.283600\" target=\"_blank\" rel=\"noopener\">Stodolní Street</a> (chill zones): Dessert cafés, easygoing bars and creative night corners.",
+      "local_food_tip": "Try South Bohemian dishes such as roast duck with dumplings, freshwater fish, Czech soups, and local beer from regional breweries.",
+      "full_day": {
+        "Morning": "Begin your day exploring the <a href=\"https://www.google.com/maps/search/?api=1&query=48.8106%2C14.3159\" target=\"_blank\" rel=\"noopener\">Old Town</a> ☀️, wandering through cobblestone streets and small squares.",
+        "Afternoon": "Visit <a href=\"https://www.google.com/maps/search/?api=1&query=48.8110%2C14.3150\" target=\"_blank\" rel=\"noopener\">Český Krumlov Castle</a> 🏰 and climb the <a href=\"https://www.google.com/maps/search/?api=1&query=48.8114%2C14.3144\" target=\"_blank\" rel=\"noopener\">Castle Tower</a> for views.",
+        "Sunset": "Walk along the <a href=\"https://www.google.com/maps/search/?api=1&query=48.8095%2C14.3155\" target=\"_blank\" rel=\"noopener\">Vltava River</a> 🌅 and enjoy reflections of the old town.",
+        "Night": "Dinner in a traditional tavern ✨ followed by a quiet evening stroll."
+      },
       "seasons": {
         "spring": {
-          "event": "Spring in Ostrava",
+          "event": "Spring in Český Krumlov",
+          "description": "Blooming gardens and comfortable temperatures bring the town to life.",
           "ideas": [
-            "🌿 Blossoms and picnics in <a href=\"https://www.google.com/maps/search/?api=1&query=49.824500%2C18.258200\" target=\"_blank\" rel=\"noopener\">Komenského Sady</a>.",
-            "☀️ Outdoor terraces in <a href=\"https://www.google.com/maps/search/?api=1&query=49.836000%2C18.291500\" target=\"_blank\" rel=\"noopener\">Masaryk Square</a>.",
-            "🏭 Soft spring light for atmospheric industrial photography in Dolní Vítkovice."
+            {
+              "name": "Castle gardens",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=48.8118%2C14.3135",
+              "description": "Fresh greenery and views."
+            },
+            {
+              "name": "River walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=48.8095%2C14.3155",
+              "description": "Mild spring atmosphere."
+            },
+            {
+              "name": "Old town photography",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=48.8106%2C14.3159",
+              "description": "Soft spring light."
+            }
           ]
         },
         "summer": {
-          "event": "Hot Summer Days",
+          "event": "Five-Petalled Rose Festival",
+          "description": "Historic festival celebrating Renaissance traditions with costumes and parades.",
           "ideas": [
-            "❄️ Cooler air in the massive industrial halls of <a href=\"https://www.google.com/maps/search/?api=1&query=49.820800%2C18.283600\" target=\"_blank\" rel=\"noopener\">Dolní Vítkovice</a>.",
-            "🌳 Riverside shade in parks along the Ostravice river.",
-            "🍦 Ice cream spots around the city center."
+            {
+              "name": "River rafting",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=48.8095%2C14.3155",
+              "description": "Popular summer activity."
+            },
+            {
+              "name": "Open-air events",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=48.8110%2C14.3150",
+              "description": "Festival atmosphere."
+            },
+            {
+              "name": "Evening walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=48.8106%2C14.3159",
+              "description": "Lively summer nights."
+            }
           ]
         },
         "autumn": {
-          "event": "Autumn in Ostrava",
+          "event": "Golden Bohemian Autumn",
+          "description": "Colorful forests and fewer visitors create a romantic mood.",
           "ideas": [
-            "🍁 Colorful leaves in <a href=\"https://www.google.com/maps/search/?api=1&query=49.824500%2C18.258200\" target=\"_blank\" rel=\"noopener\">Komenského Sady</a>.",
-            "🥐 Warm pastries and tea in cozy cafés.",
-            "📸 Dramatic steel silhouettes against warm autumn skies."
+            {
+              "name": "Scenic viewpoints",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=48.8114%2C14.3144",
+              "description": "Autumn colors over rooftops."
+            },
+            {
+              "name": "Museum visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=48.8100%2C14.3170",
+              "description": "Indoor cultural exploration."
+            },
+            {
+              "name": "Quiet river walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=48.8095%2C14.3155",
+              "description": "Peaceful atmosphere."
+            }
           ]
         },
         "winter": {
-          "event": "Christmas Market",
+          "event": "Advent in Český Krumlov",
+          "description": "Small Christmas markets and a fairy-tale winter setting.",
           "ideas": [
-            "🎄 <a href=\"https://www.google.com/maps/search/?api=1&query=49.836000%2C18.291500\" target=\"_blank\" rel=\"noopener\">Masaryk Square</a> Christmas Market: Festive stalls and warm drinks.",
-            "✨ Light displays around the industrial area after dark.",
-            "☕ Hot beverages in historic cafés near Stodolní Street."
+            {
+              "name": "Christmas market visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=48.8106%2C14.3159",
+              "description": "Festive decorations."
+            },
+            {
+              "name": "Snowy old town walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=48.8106%2C14.3159",
+              "description": "Storybook scenery."
+            },
+            {
+              "name": "Café stops",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=48.8108%2C14.3163",
+              "description": "Warm drinks in cozy settings."
+            }
           ]
         }
       },
       "public_transport_tips": [
         {
-          "tip": "🚋 Trams directly connect Dolní Vítkovice with the city center.",
-          "link": "https://www.dpo.cz/en/"
+          "tip": "The historic center is small and best explored on foot.",
+          "link": "https://www.ckrumlov.info/"
         },
         {
-          "tip": "🚶 Many creative districts are easily walkable."
+          "tip": "Buses and trains connect Český Krumlov with České Budějovice and Prague.",
+          "link": "https://www.idos.cz/"
         },
         {
-          "tip": "🚌 Buses reach more distant parks and viewpoints."
-        },
-        {
-          "tip": "📱 Use ‘IDOS’ or ‘DPO App’ for real-time departures.",
-          "link": "https://www.idos.cz/en/"
+          "tip": "Parking is limited inside the old town; use designated parking areas.",
+          "link": "https://www.ckrumlov.info/en/parking/"
         }
       ],
       "city_events": [
         {
-          "name": "Colours of Ostrava",
+          "name": "Five-Petalled Rose Festival",
           "season": "summer",
-          "description": "🎶 One of Europe’s most unique music festivals set in an industrial complex, featuring international acts across multiple stages. Held annually at Dolní Vítkovice with diverse genres and immersive production.",
-          "website": "https://www.colours.cz/en/",
-          "dates": "8–11 July 2026"
-        },
-        {
-          "name": "Ostrava Jazz Days",
-          "season": "spring",
-          "description": "🎷 International jazz festival bringing world-class performers to city stages, venues and clubs across Ostrava.",
-          "website": "https://www.colours.cz/en/jazz-days/",
-          "dates": "Late May – Early June 2026"
-        },
-        {
-          "name": "Industrial Autumn",
-          "season": "autumn",
-          "description": "🏭 A mix of industrial tours, photo walks, exhibitions and cultural programmes celebrating Ostrava’s industrial heart and heritage.",
-          "website": "https://www.gotobrno.cz/en/events-in-brno/",  
-          "dates": "September – October 2026"
-        },
-        {
-          "name": "Ostrava Christmas Markets",
-          "season": "winter",
-          "description": "🎄 Festive markets and seasonal decorations across Masaryk Square, historic streets and creative quarters — local crafts, food stalls and music.",
-          "website": "https://www.ostrava.cz/en/christmas",
-          "dates": "Late November – December 2026"
+          "description": "Major historical festival celebrating the town’s Renaissance heritage.",
+          "website": "https://www.slavnostipateroze.cz/",
+          "dates": "June"
         }
       ],
       "places": [
         {
-          "name": "Dolní Vítkovice",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.820800%2C18.283600",
-          "description": "Iconic industrial heritage site of blast furnaces, steelworks and cultural spaces."
+          "name": "St. Vitus Church",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=48.8101%2C14.3164",
+          "description": "Gothic church with notable interior and tower views."
         },
         {
-          "name": "Bolt Tower",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.819900%2C18.284700",
-          "description": "Glass viewing deck with panoramic city and landscape views above the industrial park."
-        },
-        {
-          "name": "Masaryk Square",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.836000%2C18.291500",
-          "description": "Central square with colorful façades, fountains and lively city life."
-        },
-        {
-          "name": "Komenského Sady",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.824500%2C18.258200",
-          "description": "Large riverside park ideal for relaxation and picnics."
-        },
-        {
-          "name": "Slezskoostravský hrad",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.825800%2C18.282400",
-          "description": "Historic castle above Ostrava with panoramic views and cultural exhibitions."
+          "name": "Regional Museum in Český Krumlov",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=48.8120%2C14.3142",
+          "description": "Museum presenting local history and the famous ceramic model of the town."
         }
       ],
       "hidden_gems": [
         {
-          "name": "Stodolní Street Nightcorners",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.833700%2C18.283600",
-          "description": "Vibrant nightlife zone with creative bars, cafés and dessert spots — perfect for a relaxed evening."
+          "name": "Viewpoint from Seminary Garden",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=48.8125%2C14.3178",
+          "description": "Quiet garden with beautiful views over the old town."
         },
         {
-          "name": "New City Hall Viewing Tower",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.835300%2C18.281700",
-          "description": "City Hall observation deck with elevated views over Ostrava."
+          "name": "Early-morning Old Town streets",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=48.8106%2C14.3159",
+          "description": "Peaceful atmosphere before tour groups arrive."
+        }
+      ]
+    },
+
+    {
+      "name": "Karlovy Vary",
+      "interests": [
+        {
+          "name": "Mill Colonnade",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=50.2223%2C12.8834",
+          "description": "Elegant Neo-Renaissance colonnade housing several hot mineral springs used for traditional spa drinking cures."
         },
         {
-          "name": "Lower Vítkovice Workshop Routes",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.821700%2C18.282300",
-          "description": "Hidden walking paths through the industrial landscape often missed by tourists."
+          "name": "Vřídelní Colonnade (Hot Spring)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=50.2219%2C12.8830",
+          "description": "Modern colonnade sheltering the main hot spring that shoots water up to 12 meters high."
         },
         {
-          "name": "Ostrava Botanical Gardens",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.817500%2C18.309000",
-          "description": "Quiet green space with flora exhibits, ideal for peaceful strolls."
+          "name": "Market Colonnade",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=50.2231%2C12.8819",
+          "description": "Ornate wooden colonnade near the river, home to several smaller thermal springs."
+        },
+        {
+          "name": "Diana Observation Tower",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=50.2164%2C12.8728",
+          "description": "Observation tower reached by funicular or forest trails, offering panoramic views over Karlovy Vary."
+        },
+        {
+          "name": "Teplá River Promenade",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=50.2228%2C12.8842",
+          "description": "Scenic riverside walkway lined with colorful spa houses and cafés."
+        }
+      ],
+      "local_food_tip": "Try traditional Czech dishes alongside Karlovy Vary specialties such as spa wafers (oplatky), herbal Becherovka liqueur, and light spa cuisine.",
+      "full_day": {
+        "Morning": "Begin your day walking along the <a href=\"https://www.google.com/maps/search/?api=1&query=50.2228%2C12.8842\" target=\"_blank\" rel=\"noopener\">Teplá River Promenade</a> ☀️, stopping to sample mineral water at the <a href=\"https://www.google.com/maps/search/?api=1&query=50.2223%2C12.8834\" target=\"_blank\" rel=\"noopener\">Mill Colonnade</a>.",
+        "Afternoon": "Visit the <a href=\"https://www.google.com/maps/search/?api=1&query=50.2219%2C12.8830\" target=\"_blank\" rel=\"noopener\">Vřídelní Colonnade</a> 🏛️ and enjoy lunch at a spa restaurant.",
+        "Sunset": "Take the funicular or walk to the <a href=\"https://www.google.com/maps/search/?api=1&query=50.2164%2C12.8728\" target=\"_blank\" rel=\"noopener\">Diana Observation Tower</a> 🌅 for views over the town.",
+        "Night": "Evening stroll through illuminated colonnades ✨ and enjoy a quiet spa-town atmosphere."
+      },
+      "seasons": {
+        "spring": {
+          "event": "Spring Spa Season Opening",
+          "description": "The spa season officially opens with ceremonies and cultural events.",
+          "ideas": [
+            {
+              "name": "Colonnade walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=50.2223%2C12.8834",
+              "description": "Mild weather for spa traditions."
+            },
+            {
+              "name": "Forest trails",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=50.2164%2C12.8728",
+              "description": "Fresh spring greenery."
+            },
+            {
+              "name": "River promenade strolls",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=50.2228%2C12.8842",
+              "description": "Comfortable sightseeing."
+            }
+          ]
+        },
+        "summer": {
+          "event": "Karlovy Vary International Film Festival",
+          "description": "World-famous film festival attracting international celebrities and visitors.",
+          "ideas": [
+            {
+              "name": "Festival screenings",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=50.2215%2C12.8820",
+              "description": "Cinema and cultural events."
+            },
+            {
+              "name": "Evening promenade life",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=50.2228%2C12.8842",
+              "description": "Lively spa-town evenings."
+            },
+            {
+              "name": "Nature walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=50.2164%2C12.8728",
+              "description": "Cooler forest paths."
+            }
+          ]
+        },
+        "autumn": {
+          "event": "Golden Spa Autumn",
+          "description": "Colorful forests and quieter streets create a relaxed spa atmosphere.",
+          "ideas": [
+            {
+              "name": "Photography walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=50.2228%2C12.8842",
+              "description": "Autumn reflections."
+            },
+            {
+              "name": "Observation tower visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=50.2164%2C12.8728",
+              "description": "Clear views over autumn colors."
+            },
+            {
+              "name": "Spa relaxation",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=50.2219%2C12.8830",
+              "description": "Calm wellness experience."
+            }
+          ]
+        },
+        "winter": {
+          "event": "Christmas Markets & Spa Winter",
+          "description": "Snowy scenery and festive markets combined with spa treatments.",
+          "ideas": [
+            {
+              "name": "Christmas market visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=50.2220%2C12.8835",
+              "description": "Seasonal lights and stalls."
+            },
+            {
+              "name": "Colonnade walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=50.2231%2C12.8819",
+              "description": "Romantic winter atmosphere."
+            },
+            {
+              "name": "Café stops",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=50.2226%2C12.8838",
+              "description": "Warm drinks and spa wafers."
+            }
+          ]
+        }
+      },
+      "public_transport_tips": [
+        {
+          "tip": "The spa center is compact and best explored on foot.",
+          "link": "https://www.karlovyvary.cz/"
+        },
+        {
+          "tip": "Funiculars help access hillside viewpoints like Diana Tower.",
+          "link": "https://www.dpkv.cz/"
+        },
+        {
+          "tip": "Buses and trains connect Karlovy Vary with Prague and Germany.",
+          "link": "https://www.cd.cz/"
+        }
+      ],
+      "city_events": [
+        {
+          "name": "Karlovy Vary International Film Festival",
+          "season": "summer",
+          "description": "One of Europe’s most prestigious film festivals.",
+          "website": "https://www.kviff.com/",
+          "dates": "Late June–early July"
+        }
+      ],
+      "places": [
+        {
+          "name": "St. Mary Magdalene Church",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=50.2216%2C12.8826",
+          "description": "Baroque church near the hot spring, featuring underground crypts."
+        },
+        {
+          "name": "Becherovka Museum",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=50.2260%2C12.8755",
+          "description": "Museum dedicated to the famous Czech herbal liqueur."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "Quiet forest paths above the spa center",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=50.2170%2C12.8750",
+          "description": "Peaceful walks with fresh air and views."
+        },
+        {
+          "name": "Early-morning colonnades",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=50.2223%2C12.8834",
+          "description": "Calm atmosphere before visitors arrive."
         }
       ]
     },
@@ -609,153 +517,344 @@
       "name": "Olomouc",
       "interests": [
         {
-          "name": "Historic Squares 🏛️",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=49.594580%2C17.250000",
-          "description": "Baroque fountains, pastel façades and airy open plazas with historic charm."
+          "name": "Holy Trinity Column",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=49.5933%2C17.2509",
+          "description": "UNESCO World Heritage Baroque monument located on the main square, symbol of Olomouc."
         },
         {
-          "name": "Cathedrals & Landmarks 🏰",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=49.595580%2C17.249500",
-          "description": "Dramatic towers, UNESCO-listed Holy Trinity Column and Gothic cathedral views."
+          "name": "Upper Square (Horní náměstí)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=49.5930%2C17.2505",
+          "description": "Historic main square surrounded by town hall, fountains, and cafés."
         },
         {
-          "name": "Parks & Gardens 🌳",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=49.597700%2C17.243200",
-          "description": "Shaded riverside paths and peaceful green corners perfect for relaxed walks."
+          "name": "Olomouc Town Hall & Astronomical Clock",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=49.5931%2C17.2506",
+          "description": "Gothic town hall featuring a unique socialist-realist astronomical clock."
+        },
+        {
+          "name": "St. Wenceslas Cathedral",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=49.5968%2C17.2580",
+          "description": "Neo-Gothic cathedral with the tallest church tower in Moravia."
+        },
+        {
+          "name": "Svatý Kopeček (Holy Hill)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=49.6406%2C17.3186",
+          "description": "Pilgrimage site overlooking Olomouc with basilica and panoramic views."
         }
       ],
-      "local_food_tip": "Try Moravian soups, dumplings, pastries and warm vegetarian dishes — soft flavors great for a calm historical walk.",
-      "full_day": "Morning: 🏛️ <a href=\"https://www.google.com/maps/search/?api=1&query=49.594580%2C17.250000\" target=\"_blank\" rel=\"noopener\">Upper Square</a>: Elegant façades, fountains and wide open space. → 🗿 <a href=\"https://www.google.com/maps/search/?api=1&query=49.595580%2C17.249500\" target=\"_blank\" rel=\"noopener\">Holy Trinity Column</a>: Massive baroque UNESCO monument. → ⛪ <a href=\"https://www.google.com/maps/search/?api=1&query=49.596000%2C17.246000\" target=\"_blank\" rel=\"noopener\">St. Wenceslas Cathedral</a>: Gothic towers and peaceful interior. → ☕ Coffee in the nearby university district.\n\nAfternoon: 🌿 <a href=\"https://www.google.com/maps/search/?api=1&query=49.597700%2C17.243200\" target=\"_blank\" rel=\"noopener\">Smetana Park</a> or <a href=\"https://www.google.com/maps/search/?api=1&query=49.600000%2C17.247000\" target=\"_blank\" rel=\"noopener\">Bezruč Gardens</a>: Shady river paths and garden walks. → 🎨 <a href=\"https://www.google.com/maps/search/?api=1&query=49.597100%2C17.242900\" target=\"_blank\" rel=\"noopener\">Olomouc Museum of Art</a>: Classic to modern exhibitions. → 🍽️ Lunch: Moravian soups, dumplings, pastries or vegetarian meals.\n\nSunset: 🌅 Cathedral Hill viewpoints around <a href=\"https://www.google.com/maps/search/?api=1&query=49.596000%2C17.246000\" target=\"_blank\" rel=\"noopener\">St. Wenceslas Cathedral</a>.\n\nNight: 🌃 Old Town Lights: Calm evening stroll among fountains and pastel façades.",
+      "local_food_tip": "Try Olomouc specialties such as Olomoucké tvarůžky (strong local cheese), Czech soups, roast meats, and Moravian wines or craft beer.",
+      "full_day": {
+        "Morning": "Start at <a href=\"https://www.google.com/maps/search/?api=1&query=49.5930%2C17.2505\" target=\"_blank\" rel=\"noopener\">Upper Square</a> ☀️ and admire the <a href=\"https://www.google.com/maps/search/?api=1&query=49.5933%2C17.2509\" target=\"_blank\" rel=\"noopener\">Holy Trinity Column</a>.",
+        "Afternoon": "Visit the <a href=\"https://www.google.com/maps/search/?api=1&query=49.5931%2C17.2506\" target=\"_blank\" rel=\"noopener\">Town Hall & Astronomical Clock</a> 🏛️, then walk toward <a href=\"https://www.google.com/maps/search/?api=1&query=49.5968%2C17.2580\" target=\"_blank\" rel=\"noopener\">St. Wenceslas Cathedral</a> ⛪.",
+        "Sunset": "Head up to <a href=\"https://www.google.com/maps/search/?api=1&query=49.6406%2C17.3186\" target=\"_blank\" rel=\"noopener\">Svatý Kopeček</a> 🌅 for views over the city.",
+        "Night": "Dinner in the historic center ✨ and enjoy the relaxed university-town atmosphere."
+      },
       "seasons": {
         "spring": {
           "event": "Spring in Olomouc",
+          "description": "Blooming parks and fountains bring the historic center to life.",
           "ideas": [
-            "🌸 Flower displays across <a href=\"https://www.google.com/maps/search/?api=1&query=49.594580%2C17.250000\" target=\"_blank\" rel=\"noopener\">Upper Square</a>.",
-            "🌿 Riverside garden paths in bloom around <a href=\"https://www.google.com/maps/search/?api=1&query=49.600000%2C17.247000\" target=\"_blank\" rel=\"noopener\">Bezruč Gardens</a>.",
-            "☕ Early-season café terraces opening across Old Town."
+            {
+              "name": "City fountain tour",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.5930%2C17.2505",
+              "description": "Baroque fountains around the old town."
+            },
+            {
+              "name": "Park walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.5905%2C17.2590",
+              "description": "Green spaces near the center."
+            },
+            {
+              "name": "Café terraces",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.5932%2C17.2512",
+              "description": "Outdoor seating season."
+            }
           ]
         },
         "summer": {
-          "event": "Hot Summer Days",
+          "event": "Olomouc Cultural Summer",
+          "description": "Open-air concerts and festivals in historic squares.",
           "ideas": [
-            "🌳 Shaded parks like <a href=\"https://www.google.com/maps/search/?api=1&query=49.597700%2C17.243200\" target=\"_blank\" rel=\"noopener\">Smetana Park</a>.",
-            "🍦 Gelato stands around the Old Town.",
-            "🎨 Cooling off inside museums like <a href=\"https://www.google.com/maps/search/?api=1&query=49.597100%2C17.242900\" target=\"_blank\" rel=\"noopener\">Olomouc Museum of Art</a>."
+            {
+              "name": "Open-air events",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.5930%2C17.2505",
+              "description": "Music and performances."
+            },
+            {
+              "name": "Evening walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.5933%2C17.2509",
+              "description": "Warm summer nights."
+            },
+            {
+              "name": "Zoo visit",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.6428%2C17.3209",
+              "description": "Family-friendly outing."
+            }
           ]
         },
         "autumn": {
-          "event": "Autumn in Olomouc",
+          "event": "Golden Moravian Autumn",
+          "description": "Pleasant weather and fewer visitors.",
           "ideas": [
-            "🍁 Warm colors around <a href=\"https://www.google.com/maps/search/?api=1&query=49.596000%2C17.246000\" target=\"_blank\" rel=\"noopener\">St. Wenceslas Cathedral</a>.",
-            "🥐 Cozy cafés and bakeries throughout the Old Town.",
-            "🏛️ Perfect museum-season weather."
+            {
+              "name": "Photography walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.5933%2C17.2509",
+              "description": "Autumn light on historic monuments."
+            },
+            {
+              "name": "Local cuisine tastings",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.5932%2C17.2512",
+              "description": "Seasonal dishes."
+            },
+            {
+              "name": "Museum visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.5948%2C17.2528",
+              "description": "Indoor cultural exploration."
+            }
           ]
         },
         "winter": {
-          "event": "Christmas Markets",
+          "event": "Olomouc Christmas Markets",
+          "description": "Festive markets with lights, food, and crafts on Upper Square.",
           "ideas": [
-            "🎄 <a href=\"https://www.google.com/maps/search/?api=1&query=49.594580%2C17.250000\" target=\"_blank\" rel=\"noopener\">Upper Square</a> Christmas Market with festive lights.",
-            "✨ Town Hall & lower square winter stalls and decorations.",
-            "☕ Hot drinks in historic cafés after evening strolls."
+            {
+              "name": "Christmas market visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.5930%2C17.2505",
+              "description": "Seasonal atmosphere."
+            },
+            {
+              "name": "Museum hopping",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.5948%2C17.2528",
+              "description": "Warm indoor culture."
+            },
+            {
+              "name": "Café culture",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.5932%2C17.2512",
+              "description": "Cozy winter cafés."
+            }
           ]
         }
       },
       "public_transport_tips": [
         {
-          "tip": "🚋 Trams are the easiest way to move through the historical center.",
-          "link": "https://www.dpmol.cz/en/"
+          "tip": "Trams and buses make it easy to get around Olomouc.",
+          "link": "https://www.dpmo.cz/"
         },
         {
-          "tip": "🚶 Most attractions are within walking distance."
+          "tip": "The historic center is compact and walkable.",
+          "link": "https://www.olomouc.eu/"
         },
         {
-          "tip": "🚌 Buses reach outer parks and districts.",
-          "link": "https://www.idos.cz/en/"
-        },
-        {
-          "tip": "📱 Use 'IDOS' for city transport schedules.",
-          "link": "https://www.idos.cz/en/"
+          "tip": "Direct train connections link Olomouc with Prague and Brno.",
+          "link": "https://www.cd.cz/"
         }
       ],
       "city_events": [
         {
-          "name": "Olomouc Spring Festival",
-          "season": "spring",
-          "description": "🎼 Classical concerts and cultural programmes in historic venues across the city.",
-          "website": "https://www.gotolomouc.com/en/events/",
-          "dates": "March – April (varies annually)"
-        },
-        {
           "name": "Flora Olomouc",
-          "season": "summer",
-          "description": "🌺 One of Central Europe’s largest flower and garden festivals with exhibitions, competitions and workshops.",
-          "website": "https://www.flora-olomouc.cz/en/",
-          "dates": "16 April – 19 April 2026"
-        },
-        {
-          "name": "Autumn Culture Gala",
-          "season": "autumn",
-          "description": "🎭 A series of concerts, theatre performances and art exhibitions celebrating the start of autumn.",
-          "website": "https://www.gotolomouc.com/en/events/",
-          "dates": "September – October (varies annually)"
-        },
-        {
-          "name": "Olomouc Christmas Markets",
-          "season": "winter",
-          "description": "🎄 Festive Christmas markets with crafts, food stalls and lights in the Old Town squares.",
-          "website": "https://www.gotolomouc.com/en/events/christmas/",
-          "dates": "Late November – December (annual)"
+          "season": "spring",
+          "description": "International flower and garden exhibition held in city parks.",
+          "website": "https://www.flora-ol.cz/",
+          "dates": "April–May"
         }
       ],
       "places": [
         {
-          "name": "Upper Square",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.594580%2C17.250000",
-          "description": "Main historic square with elegant façades and Baroque fountains."
+          "name": "Archdiocesan Museum",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=49.5965%2C17.2573",
+          "description": "Museum presenting church art and history connected to Moravia."
         },
         {
-          "name": "Holy Trinity Column",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.595580%2C17.249500",
-          "description": "UNESCO-listed colossal baroque column and city landmark."
-        },
-        {
-          "name": "St. Wenceslas Cathedral",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.596000%2C17.246000",
-          "description": "Gothic cathedral with twin towers overlooking the city."
-        },
-        {
-          "name": "Smetana Park",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.597700%2C17.243200",
-          "description": "Relaxing green park with riverside paths and shaded benches."
-        },
-        {
-          "name": "Olomouc Museum of Art",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.597100%2C17.242900",
-          "description": "Museum with classic and modern Czech art exhibitions."
+          "name": "Olomouc Zoo",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=49.6428%2C17.3209",
+          "description": "Large zoo located near Svatý Kopeček."
         }
       ],
       "hidden_gems": [
         {
-          "name": "Botanical Garden Olomouc",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.602951%2C17.246769",
-          "description": "Peaceful garden perfect for plant lovers and quiet walks."
+          "name": "Baroque fountains trail",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=49.5930%2C17.2505",
+          "description": "Series of historic fountains scattered across the old town."
         },
         {
-          "name": "Pešina Gardens",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.595200%2C17.249000",
-          "description": "Hidden green space with quiet benches and seasonal blooms."
+          "name": "Quiet streets near St. Maurice Church",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=49.5924%2C17.2526",
+          "description": "Less-visited corners of the historic center."
+        }
+      ]
+    },
+
+    {
+      "name": "Prague",
+      "interests": [
+        {
+          "name": "Charles Bridge",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=50.0865%2C14.4114",
+          "description": "Iconic 14th-century stone bridge lined with Baroque statues, connecting Old Town with Lesser Town."
         },
         {
-          "name": "Archbishop’s Palace Courtyard",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.595400%2C17.248800",
-          "description": "Quiet historic courtyard near the cathedral."
+          "name": "Prague Castle",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=50.0909%2C14.4005",
+          "description": "One of the largest castle complexes in the world, home to Czech presidents and centuries of history."
         },
         {
-          "name": "Fortress Park Walks",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.599700%2C17.225900",
-          "description": "Unusual park walk along old fortification remnants."
+          "name": "Old Town Square",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=50.0870%2C14.4208",
+          "description": "Historic square surrounded by Gothic, Baroque, and Renaissance buildings."
+        },
+        {
+          "name": "Astronomical Clock",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=50.0870%2C14.4213",
+          "description": "Famous medieval clock that performs a short animated show every hour."
+        },
+        {
+          "name": "Lennon Wall",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=50.0863%2C14.4068",
+          "description": "Colorful wall covered in graffiti inspired by John Lennon and messages of peace."
+        }
+      ],
+      "local_food_tip": "Try Czech classics such as svíčková, goulash, roast pork with dumplings, trdelník (as a street sweet), and local lagers from traditional pubs.",
+      "full_day": {
+        "Morning": "Start at <a href=\"https://www.google.com/maps/search/?api=1&query=50.0870%2C14.4208\" target=\"_blank\" rel=\"noopener\">Old Town Square</a> ☀️ and watch the <a href=\"https://www.google.com/maps/search/?api=1&query=50.0870%2C14.4213\" target=\"_blank\" rel=\"noopener\">Astronomical Clock</a> strike the hour.",
+        "Afternoon": "Cross <a href=\"https://www.google.com/maps/search/?api=1&query=50.0865%2C14.4114\" target=\"_blank\" rel=\"noopener\">Charles Bridge</a> 🌉 and explore <a href=\"https://www.google.com/maps/search/?api=1&query=50.0909%2C14.4005\" target=\"_blank\" rel=\"noopener\">Prague Castle</a> 🏰.",
+        "Sunset": "Enjoy sunset views from Castle viewpoints 🌅 overlooking the Vltava River.",
+        "Night": "Dinner in Malá Strana ✨ followed by an evening walk through illuminated streets."
+      },
+      "seasons": {
+        "spring": {
+          "event": "Prague Spring International Music Festival",
+          "description": "Classical music performances in historic venues across the city.",
+          "ideas": [
+            {
+              "name": "City park walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=50.0910%2C14.4170",
+              "description": "Blooming gardens and mild weather."
+            },
+            {
+              "name": "River cruises",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=50.0875%2C14.4145",
+              "description": "Relaxed sightseeing from the water."
+            },
+            {
+              "name": "Historic exploration",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=50.0909%2C14.4005",
+              "description": "Comfortable temperatures for walking."
+            }
+          ]
+        },
+        "summer": {
+          "event": "Bohemia JazzFest",
+          "description": "Free open-air jazz concerts in Prague’s main squares.",
+          "ideas": [
+            {
+              "name": "Evening concerts",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=50.0870%2C14.4208",
+              "description": "Music in historic settings."
+            },
+            {
+              "name": "Beer gardens",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=50.0940%2C14.4230",
+              "description": "Classic summer social spots."
+            },
+            {
+              "name": "Night walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=50.0865%2C14.4114",
+              "description": "Warm, lively evenings."
+            }
+          ]
+        },
+        "autumn": {
+          "event": "Signal Festival",
+          "description": "Digital art and light installations across Prague.",
+          "ideas": [
+            {
+              "name": "Photography walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=50.0865%2C14.4114",
+              "description": "Golden autumn light."
+            },
+            {
+              "name": "Café culture",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=50.0872%2C14.4202",
+              "description": "Cozy historic cafés."
+            },
+            {
+              "name": "Museum visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=50.0895%2C14.4300",
+              "description": "Indoor cultural exploration."
+            }
+          ]
+        },
+        "winter": {
+          "event": "Prague Christmas Markets",
+          "description": "Famous festive markets with lights, crafts, and seasonal food.",
+          "ideas": [
+            {
+              "name": "Christmas market visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=50.0870%2C14.4208",
+              "description": "Traditional winter atmosphere."
+            },
+            {
+              "name": "Museum hopping",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=50.0895%2C14.4300",
+              "description": "Warm indoor activities."
+            },
+            {
+              "name": "Historic walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=50.0865%2C14.4114",
+              "description": "Snowy, romantic scenery."
+            }
+          ]
+        }
+      },
+      "public_transport_tips": [
+        {
+          "tip": "Metro, trams, and buses are efficient and cover the entire city.",
+          "link": "https://www.dpp.cz/"
+        },
+        {
+          "tip": "Short-term transport passes are ideal for visitors.",
+          "link": "https://pid.cz/"
+        },
+        {
+          "tip": "The historic center is best explored on foot.",
+          "link": "https://www.prague.eu/"
+        }
+      ],
+      "city_events": [
+        {
+          "name": "Prague Spring International Music Festival",
+          "season": "spring",
+          "description": "Prestigious classical music festival held since 1946.",
+          "website": "https://festival.cz/",
+          "dates": "May–June"
+        }
+      ],
+      "places": [
+        {
+          "name": "Vyšehrad",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=50.0646%2C14.4170",
+          "description": "Historic fort with river views and a peaceful atmosphere."
+        },
+        {
+          "name": "National Museum",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=50.0796%2C14.4300",
+          "description": "Major museum located on Wenceslas Square."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "Early-morning Charles Bridge",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=50.0865%2C14.4114",
+          "description": "Quiet and atmospheric before crowds arrive."
+        },
+        {
+          "name": "Vrtba Garden",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=50.0879%2C14.4046",
+          "description": "Baroque garden with terraces and city views."
         }
       ]
     }
+
+
   ]
 }

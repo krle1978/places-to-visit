@@ -4,469 +4,1217 @@
     {
       "name": "Tirana",
       "interests": [
-        "Urban Culture & Street Life 🏙️ — Lively squares, buzzing cafés, and colorful neighborhoods.",
-        "History & Ottoman Influence 🕌 — Mosques, clock towers, and layers of communist-era heritage.",
-        "Art & Murals 🎨 — Street art walls, bunkers turned into museums, and creative districts."
+        {
+          "name": "Skanderbeg Square (Sheshi Skënderbej)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=41.3275%2C19.8189",
+          "description": "The city’s main plaza and the easiest place to get your bearings—surrounded by major museums, ministries, and landmark buildings, and buzzing in the evenings with locals strolling."
+        },
+        {
+          "name": "Et'hem Bey Mosque (Xhamia e Et’hem Beut)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=41.32781%2C19.81936",
+          "description": "A historic Ottoman-era mosque near the center, known for its rare landscape frescoes—remember to dress respectfully and be quiet during prayer times."
+        },
+        {
+          "name": "Bunk'Art 2",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=41.327037%2C19.81956",
+          "description": "A powerful, immersive museum inside a former bunker near the center, focused on Albania’s communist-era history and the security state."
+        },
+        {
+          "name": "Pyramid of Tirana (Piramida)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=41.3207%2C19.8194",
+          "description": "A striking late-socialist landmark reinvented as a youth-focused creative/tech hub—an iconic spot to see how the city is changing."
+        },
+        {
+          "name": "Dajti Ekspres Cable Car (Lower Station)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=41.3506%2C19.8612",
+          "description": "The quickest city-to-mountain escape: ride up toward Mount Dajti for cooler air, big views, short walks, and a totally different vibe from downtown."
+        }
       ],
-      "local_food_tip": "Tavë kosi, byrek, qofte, fërgesë — Balkan flavors with Albanian spices and local ingredients. In Tirana, also try petulla (fried dough), grill specialties, and modern pastries or gelato in dessert shops around the Blloku district.",
-      "full_day": "Morning: 🌞 Start at <a href=\"https://www.google.com/maps/search/?api=1&query=Skanderbeg%20Square%20Tirana\" target=\"_blank\" rel=\"noopener\">Skanderbeg Square</a>: the wide central plaza surrounded by important buildings and the Skanderbeg statue. → 🏛️ Enter the <a href=\"https://www.google.com/maps/search/?api=1&query=National%20History%20Museum%20Tirana\" target=\"_blank\" rel=\"noopener\">National History Museum</a> featuring a large exterior mosaic and exhibits from ancient times to modern Albania. → 🧿 Walk through the colorful <a href=\"https://www.google.com/maps/search/?api=1&query=Pazari%20i%20Ri%20Tirana\" target=\"_blank\" rel=\"noopener\">Pazari i Ri (New Bazaar)</a>: local produce, souvenirs, cafés. → ☕ Coffee and byrek break in <a href=\"https://www.google.com/maps/search/?api=1&query=Blloku%20Tirana\" target=\"_blank\" rel=\"noopener\">Blloku</a> — once reserved for political elites, now the trendiest district full of bars and cafés.\n\nAfternoon: 🕌 Visit the elegant <a href=\"https://www.google.com/maps/search/?api=1&query=Et%27hem%20Bey%20Mosque%20Tirana\" target=\"_blank\" rel=\"noopener\">Et'hem Bey Mosque</a>, known for rare frescoes depicting trees and waterfalls. → 🕰️ Climb the <a href=\"https://www.google.com/maps/search/?api=1&query=Clock%20Tower%20of%20Tirana\" target=\"_blank\" rel=\"noopener\">Clock Tower of Tirana</a> for a view over the square (when open). → 🕵️‍♂️ Stop by the <a href=\"https://www.google.com/maps/search/?api=1&query=House%20of%20Leaves%20Museum%20Tirana\" target=\"_blank\" rel=\"noopener\">House of Leaves Museum</a> or <a href=\"https://www.google.com/maps/search/?api=1&query=Bunk%27Art%202%20Tirana\" target=\"_blank\" rel=\"noopener\">Bunk'Art 2</a>: museums inside former secret police buildings and bunkers. → 🍽️ Lunch in a modern Blloku tavern: tavë kosi, qofte, fërgesë and fresh salad.\n\nLate Afternoon: 🌳 Relax in the <a href=\"https://www.google.com/maps/search/?api=1&query=Grand%20Park%20of%20Tirana\" target=\"_blank\" rel=\"noopener\">Grand Park of Tirana (Parku i Madh)</a> and around the <a href=\"https://www.google.com/maps/search/?api=1&query=Artificial%20Lake%20of%20Tirana\" target=\"_blank\" rel=\"noopener\">Artificial Lake</a>: walking paths, forest trails, benches, and lakeside cafés.\n\nSunset: 🌇 Head to the <a href=\"https://www.google.com/maps/search/?api=1&query=xU3ZiYYkqnRuXyjCA\" target=\"_blank\" rel=\"noopener\">Dajti Ekspres</a> cable car and ride up <a href=\"https://www.google.com/maps/search/?api=1&query=Mount%20Dajti%20National%20Park\" target=\"_blank\" rel=\"noopener\">Mount Dajti</a>: panoramic golden-hour views over Tirana, optional mini-hike, or simply relax with a drink at the viewpoint café.\n\nNight: 🌃 Return to <a href=\"https://www.google.com/maps/search/?api=1&query=Blloku%20Tirana\" target=\"_blank\" rel=\"noopener\">Blloku</a>: dinner at a modern restaurant, street food, gelato, and bars with music — from laid-back cafés to energetic nightlife spots.",
+      "local_food_tip": "Go for a classic Tirana food day: grab a flaky byrek for breakfast, try tavë kosi or grilled qofte for lunch, and end with trileçe (milk cake) or akullore (gelato). If you see fresh seasonal fruit at Pazari i Ri, snack like a local.",
+      "full_day": {
+        "Morning": "Start in <a href=\"https://www.google.com/maps/search/?api=1&query=41.3275%2C19.8189\" target=\"_blank\" rel=\"noopener\">Skanderbeg Square</a> ☀️ for the classic Tirana “first look” (wide plaza, big buildings, people-watching). Step into <a href=\"https://www.google.com/maps/search/?api=1&query=41.32781%2C19.81936\" target=\"_blank\" rel=\"noopener\">Et'hem Bey Mosque</a> 🕌 if it’s open (quiet voice, covered shoulders/knees). Then walk a few minutes to <a href=\"https://www.google.com/maps/search/?api=1&query=41.33009%2C19.82470\" target=\"_blank\" rel=\"noopener\">Pazari i Ri</a> 🥕 for colors, local produce, and easy snacks.",
+        "Afternoon": "Dive into history at <a href=\"https://www.google.com/maps/search/?api=1&query=41.327037%2C19.81956\" target=\"_blank\" rel=\"noopener\">Bunk'Art 2</a> 🧠 (give yourself time—some exhibits are heavy but important). Afterward, decompress with a walk to the <a href=\"https://www.google.com/maps/search/?api=1&query=41.3207%2C19.8194\" target=\"_blank\" rel=\"noopener\">Pyramid of Tirana</a> 🔺 to see the city’s modern, youth-driven side.",
+        "Sunset": "Take the ride from <a href=\"https://www.google.com/maps/search/?api=1&query=41.3506%2C19.8612\" target=\"_blank\" rel=\"noopener\">Dajti Ekspres (Lower Station)</a> 🚡 and aim to be up in the mountains for golden-hour views 🌄—it’s one of the best ways to ‘feel’ Tirana’s geography in a single afternoon.",
+        "Night": "Come back into town for a relaxed evening in <a href=\"https://www.google.com/maps/search/?api=1&query=41.32111%2C19.81694\" target=\"_blank\" rel=\"noopener\">Blloku</a> ✨—lots of casual dinner options, dessert spots, and friendly café energy. If you want something calmer, finish with a night walk around the lake at the <a href=\"https://www.google.com/maps/search/?api=1&query=41.311855%2C19.820967\" target=\"_blank\" rel=\"noopener\">Grand Park</a> 🌙."
+      },
       "seasons": {
         "spring": {
-          "event": "Spring Colors in Tirana",
+          "event": "Dita e Verës (Summer Day) – March 14",
+          "description": "Tirana turns festive and outdoorsy—parks and public spaces fill up with families, music, and that ‘winter is over’ mood. Expect crowds, street snacks, and a celebratory feel across the city.",
           "ideas": [
-            "🌸 Spring walks through the <a href=\"https://www.google.com/maps/search/?api=1&query=Grand%20Park%20of%20Tirana\" target=\"_blank\" rel=\"noopener\">Grand Park</a> and lakeside area — greenery, joggers, picnic groups.",
-            "🎨 Street-art tours around the center and Blloku — murals, painted façades, creative walls.",
-            "☕ Sunny terrace cafés in quiet neighborhoods around <a href=\"https://www.google.com/maps/search/?api=1&query=Pazari%20i%20Ri%20Tirana\" target=\"_blank\" rel=\"noopener\">Pazari i Ri</a> and Blloku.",
-            "📸 Views from the <a href=\"https://www.google.com/maps/search/?api=1&query=Clock%20Tower%20of%20Tirana\" target=\"_blank\" rel=\"noopener\">Clock Tower</a> or rooftop terraces near Skanderbeg Square in spring light."
+            {
+              "name": "Skanderbeg Square celebration stroll",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=41.3275%2C19.8189",
+              "description": "Start central and follow the flow of people—this is where the city energy is easiest to catch."
+            },
+            {
+              "name": "Grand Park picnic vibe",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=41.311855%2C19.820967",
+              "description": "Join locals for a relaxed walk by the lake; it’s a top spot when the weather finally softens."
+            },
+            {
+              "name": "Pazari i Ri seasonal snacks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=41.33009%2C19.82470",
+              "description": "Try fresh fruit, nuts, and quick bites—perfect if you’re exploring on foot."
+            },
+            {
+              "name": "House of Leaves (Museum of Secret Surveillance)",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=41.32667%2C19.81647",
+              "description": "A meaningful museum for a deeper look at modern history—great for a spring afternoon if rain hits."
+            }
           ]
         },
         "summer": {
-          "event": "Vibrant Summer Nights",
+          "event": "Long evenings in Tirana + mountain escapes",
+          "description": "Hot city days, lively nights, and the best time to pair Tirana with cooler air up on Dajti. Expect late dinners, lots of cafés, and a more ‘Mediterranean’ rhythm after sunset.",
           "ideas": [
-            "🌆 Evening strolls through illuminated streets between <a href=\"https://www.google.com/maps/search/?api=1&query=Skanderbeg%20Square%20Tirana\" target=\"_blank\" rel=\"noopener\">Skanderbeg Square</a>, Blloku, and the lake park.",
-            "🍦 Ice cream and cold drinks in <a href=\"https://www.google.com/maps/search/?api=1&query=Blloku%20Tirana\" target=\"_blank\" rel=\"noopener\">Blloku</a> — Tirana’s modern social hub.",
-            "🎶 Summer concerts, film nights, and outdoor events around the square or the park (depending on the program).",
-            "🌄 Late-afternoon ride on the <a href=\"https://www.google.com/maps/search/?api=1&query=xU3ZiYYkqnRuXyjCA\" target=\"_blank\" rel=\"noopener\">Dajti Ekspres</a> cable car when the heat eases — cooler mountain air above the city."
+            {
+              "name": "Dajti Ekspres sunset ride",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=41.3506%2C19.8612",
+              "description": "Plan for golden hour—views over the city and a refreshing break from the heat."
+            },
+            {
+              "name": "Evening loop at Grand Park",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=41.311855%2C19.820967",
+              "description": "A local summer ritual: walking, chatting, and chilling by the lake as the day cools down."
+            },
+            {
+              "name": "Blloku café-hopping",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=41.32111%2C19.81694",
+              "description": "Try a couple of cafés for drinks/dessert—perfect for a teen-friendly night out with family."
+            }
           ]
         },
         "autumn": {
-          "event": "Autumn Chill & Culture",
+          "event": "Tirana Marathon (annual, typically October)",
+          "description": "Crisp weather and a sporty, community feel—parts of the city become a race route, and it’s fun even if you’re just watching and cheering.",
           "ideas": [
-            "🍂 Autumn colors across the <a href=\"https://www.google.com/maps/search/?api=1&query=Grand%20Park%20of%20Tirana\" target=\"_blank\" rel=\"noopener\">Grand Park</a> and lakeside — perfect for calm walks and photos.",
-            "🍲 Traditional meals (tavë kosi, hearty casseroles, soups) in cozy taverns around the center and Blloku.",
-            "🏛️ Museum visits: <a href=\"https://www.google.com/maps/search/?api=1&query=National%20History%20Museum%20Tirana\" target=\"_blank\" rel=\"noopener\">National History Museum</a>, <a href=\"https://www.google.com/maps/search/?api=1&query=Bunk%27Art%202%20Tirana\" target=\"_blank\" rel=\"noopener\">Bunk'Art 2</a>, <a href=\"https://www.google.com/maps/search/?api=1&query=House%20of%20Leaves%20Museum%20Tirana\" target=\"_blank\" rel=\"noopener\">House of Leaves</a> — ideal during rainy weather.",
-            "☔ Gentle strolls through the center with umbrella breaks in warm cafés serving hot chocolate or tea."
+            {
+              "name": "Watch runners near Skanderbeg Square",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=41.3275%2C19.8189",
+              "description": "Central viewing with lots of atmosphere and easy access to cafés afterward."
+            },
+            {
+              "name": "Photo walk: Reja (The Cloud) + boulevard",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=41.325523%2C19.819764",
+              "description": "Autumn light looks great on modern installations and the wide city boulevard nearby."
+            },
+            {
+              "name": "Tirana Castle (Kalaja e Tiranës) evening browse",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=41.32639%2C19.82222",
+              "description": "A compact area to wander for small shops and a cozy dinner when evenings start getting cooler."
+            }
           ]
         },
         "winter": {
-          "event": "Winter Calm in the City",
+          "event": "Holiday lights & winter markets (city center)",
+          "description": "Cooler days with a cozy café culture—expect festive lights around central squares, warm desserts, and a calmer pace in museums and galleries.",
           "ideas": [
-            "☕ Warm drinks and homemade pastries in cafés around <a href=\"https://www.google.com/maps/search/?api=1&query=Skanderbeg%20Square%20Tirana\" target=\"_blank\" rel=\"noopener\">Skanderbeg Square</a> and Blloku.",
-            "🛍️ Winter and holiday stalls on central squares — local crafts, snacks and hot treats.",
-            "🌙 Evening walks through softly lit streets with decorated façades.",
-            "🏛️ More time in museums and bunker museums during colder days."
+            {
+              "name": "City-center lights around Skanderbeg Square",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=41.3275%2C19.8189",
+              "description": "Even if you don’t shop, it’s a fun winter walk with photo spots and hot drinks nearby."
+            },
+            {
+              "name": "Bunk'Art 2 on a rainy day",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=41.327037%2C19.81956",
+              "description": "A strong indoor plan when the weather is grey—pair it with a warm café stop after."
+            },
+            {
+              "name": "House of Leaves museum afternoon",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=41.32667%2C19.81647",
+              "description": "One of the most memorable museums in the center—great for learning and reflection."
+            }
           ]
         }
       },
       "public_transport_tips": [
-        "🚌 City buses connect most neighborhoods, including stops near <a href=\"https://www.google.com/maps/search/?api=1&query=Skanderbeg%20Square%20Tirana\" target=\"_blank\" rel=\"noopener\">Skanderbeg Square</a>.",
-        "🚶 The city center and Blloku are compact and ideal for exploring on foot.",
-        "🚡 The <a href=\"https://www.google.com/maps/search/?api=1&query=xU3ZiYYkqnRuXyjCA\" target=\"_blank\" rel=\"noopener\">Dajti Ekspres</a> cable car is the best quick escape to nature above the city.",
-        "📱 Use Google Maps or ask local staff for the quickest bus routes."
+        {
+          "tip": "Use city buses for cheap, practical rides—especially to connect neighborhoods like the center, Pazari i Ri, and other urban lines (carry small cash and expect busy peak hours).",
+          "link": "https://www.visit-tirana.com/explore-tirana/tirana-transport/tirana-city-transport/"
+        },
+        {
+          "tip": "For the airport, the official Rinas–Tirana bus is a straightforward option and runs 24/7 with published frequency and price details.",
+          "link": "https://www.tirana-airport.com/en/transport-and-directions/15/By-Bus"
+        },
+        {
+          "tip": "To reach Mount Dajti by cable car, check the official Dajti Ekspres directions and plan timing (especially if you want to catch sunset up top).",
+          "link": "https://dajtiekspres.com/getting-here/"
+        }
       ],
       "city_events": [
         {
-          "name": "Tirana Summer Street Festival",
-          "season": "summer",
-          "description": "🎉 Street performances, DJs, food stalls and lively atmosphere in the center and around <a href=\"https://www.google.com/maps/search/?api=1&query=Blloku%20Tirana\" target=\"_blank\" rel=\"noopener\">Blloku</a>."
-        },
-        {
-          "name": "Spring Art Walk",
+          "name": "Dita e Verës (Summer Day)",
           "season": "spring",
-          "description": "🎨 Guided walks exploring murals, galleries and creative spaces — focused on street art and contemporary culture."
+          "description": "National spring celebration (public holiday) with outdoor activities and a festive city vibe—Tirana gets especially lively in parks and central areas.",
+          "website": "https://www.visit-tirana.com/news/summer-day-a-unique-festive-day-of-albania/",
+          "dates": "March 14 (annual)"
         },
         {
-          "name": "Winter Holiday Market",
-          "season": "winter",
-          "description": "🎄 Christmas and New Year stalls, festive lights, and local treats around the central square."
+          "name": "Tirana International Film Festival (TIFF)",
+          "season": "autumn",
+          "description": "A major film event in the capital with screenings and industry attention; dates vary by year.",
+          "website": "https://tiranafilmfest.org/welcome-to-the-23rd-edition/",
+          "dates": "September 21–27, 2025"
+        },
+        {
+          "name": "Tirana Marathon",
+          "season": "autumn",
+          "description": "The capital’s biggest running event with multiple race distances and a great spectator atmosphere.",
+          "website": "https://tiranamarathon.com/en/",
+          "dates": "October 19, 2025"
+        }
+      ],
+      "places": [
+        {
+          "name": "Pazari i Ri (New Bazaar)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=41.33009%2C19.82470",
+          "description": "A lively market district for local produce, snacks, and casual restaurants—best early in the day for the freshest feel."
+        },
+        {
+          "name": "House of Leaves (Museum of Secret Surveillance)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=41.32667%2C19.81647",
+          "description": "A museum focused on surveillance and daily life under the communist-era security system—intense but very informative."
+        },
+        {
+          "name": "Grand Park of Tirana (Artificial Lake)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=41.311855%2C19.820967",
+          "description": "The city’s go-to green escape with lake paths, cafés, and space to breathe—ideal for late afternoons."
+        },
+        {
+          "name": "Tirana Castle (Kalaja e Tiranës / Fortress of Justinian walls)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=41.32639%2C19.82222",
+          "description": "A historic fortress area integrated into today’s pedestrian life, with spots to wander, eat, and browse."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "Tanners’ Bridge (Ura e Tabakëve)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=41.3247%2C19.8187",
+          "description": "An Ottoman-era stone footbridge that quietly survives among modern streets—great for a quick ‘old Tirana’ photo stop."
+        },
+        {
+          "name": "Reja (The Cloud) installation",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=41.325523%2C19.819764",
+          "description": "A modern public art piece that’s fun to walk through and photograph—easy to combine with a boulevard stroll."
+        },
+        {
+          "name": "Postbllok Memorial",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=41.320926%2C19.820104",
+          "description": "A small but meaningful memorial that helps you understand the city’s recent past—best visited with a thoughtful mindset."
+        },
+        {
+          "name": "Blloku backstreets",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=41.32111%2C19.81694",
+          "description": "Beyond the main strip, the quieter side streets hide murals, tiny bakeries, and calmer cafés—nice for a slower evening walk."
         }
       ]
     },
-    {
+        {
       "name": "Durrës",
       "interests": [
-        "Beach & Adriatic Sea 🌊 — Long sandy coastline and peaceful seaside walks.",
-        "Roman History & Ancient Sites 🏛️ — Amphitheatre, museums, and traces of the ancient city.",
-        "Seaside Promenade & Nightlife 🌇 — Cafés, bars, coastal restaurants and evening vibes."
+        {
+          "name": "Durrës Amphitheatre",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=41.3166%2C19.4456",
+          "description": "The largest Roman amphitheatre in the Balkans, built in the 2nd century and partly hidden among modern buildings—one of Albania’s most important archaeological sites."
+        },
+        {
+          "name": "Durrës Archaeological Museum",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=41.3098%2C19.4444",
+          "description": "Seafront museum with artifacts from ancient Epidamnos/Dyrrachium, including mosaics, statues, and everyday Roman objects."
+        },
+        {
+          "name": "Durrës Beach & Promenade",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=41.2995%2C19.4407",
+          "description": "Long sandy coastline with cafés, beach clubs, and a relaxed summer vibe—very popular with locals and visitors from Tirana."
+        },
+        {
+          "name": "Venetian Tower (Torre Veneziane)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=41.3154%2C19.4477",
+          "description": "Remnant of the old city walls offering a small viewpoint and insight into Durrës’ medieval defenses."
+        },
+        {
+          "name": "Port of Durrës",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=41.3169%2C19.4471",
+          "description": "Albania’s main harbor—interesting to see ferries and cargo ships, especially at sunset."
+        }
       ],
-      "local_food_tip": "Fresh fish, seafood, Mediterranean salads and grilled dishes — classic seaside cuisine. Try grilled squid, octopus, whole fish and simple seafood pastas.",
-      "full_day": "Morning: 🌅 Morning walk along <a href=\"https://www.google.com/maps/search/?api=1&query=Durres%20Beach\" target=\"_blank\" rel=\"noopener\">Durrës Beach</a> or a quieter part of the coastline — fewer people and soft morning light. → ☕ Coffee by the sea on a terrace. → 🏛️ Visit the impressive <a href=\"https://www.google.com/maps/search/?api=1&query=Durres%20Amphitheatre%20Durres\" target=\"_blank\" rel=\"noopener\">Roman Amphitheatre</a> in the city center — remains of an ancient amphitheatre surrounded by modern houses. → 🏺 Explore the <a href=\"https://www.google.com/maps/search/?api=1&query=Durres%20Archaeological%20Museum\" target=\"_blank\" rel=\"noopener\">Durrës Archaeological Museum</a> (check availability; sometimes under renovation) with mosaics, statues and ancient artifacts.\n\nAfternoon: 🚶 Walk to the <a href=\"https://www.google.com/maps/search/?api=1&query=Venetian%20Tower%20Durres\" target=\"_blank\" rel=\"noopener\">Venetian Tower</a> and continue along the <a href=\"https://www.google.com/maps/search/?api=1&query=Vollga%20Promenade%20Durres\" target=\"_blank\" rel=\"noopener\">Vollga Promenade</a>: cafés, restaurants, sculptures and sea views. → 🍽️ Lunch at a seaside restaurant — fresh fish, shellfish or grilled squid.\n\nLate Afternoon: 🏖️ More beach time — swimming, relaxing, or enjoying a cold drink. Move farther from the center for quieter zones. → 📸 Optional trip to hilltop viewpoints by taxi or car.\n\nSunset: 🌇 The <a href=\"https://www.google.com/maps/search/?api=1&query=Vollga%20Promenade%20Durres\" target=\"_blank\" rel=\"noopener\">Vollga Promenade</a> is perfect for sunset: the sun melts into the Adriatic as city lights slowly turn on.\n\nNight: 🎶 Seaside nightlife — music bars, evening walks or a calm dinner on a terrace overlooking the waves.",
+      "local_food_tip": "Focus on seafood: grilled sea bream, calamari, mussels, and shrimp pasta. Pair meals with local white wine or a simple salad with olive oil and lemon.",
+      "full_day": {
+        "Morning": "Start early at the <a href=\"https://www.google.com/maps/search/?api=1&query=41.3166%2C19.4456\" target=\"_blank\" rel=\"noopener\">Durrës Amphitheatre</a> 🏟️ before the heat and crowds. Continue with a visit to the <a href=\"https://www.google.com/maps/search/?api=1&query=41.3098%2C19.4444\" target=\"_blank\" rel=\"noopener\">Archaeological Museum</a> 🏺 along the seafront.",
+        "Afternoon": "Head to <a href=\"https://www.google.com/maps/search/?api=1&query=41.2995%2C19.4407\" target=\"_blank\" rel=\"noopener\">Durrës Beach</a> 🏖️ for swimming and lunch at a beachside restaurant. Take it slow—this is classic coastal time.",
+        "Sunset": "Walk the promenade toward the <a href=\"https://www.google.com/maps/search/?api=1&query=41.3154%2C19.4477\" target=\"_blank\" rel=\"noopener\">Venetian Tower</a> 🌅 and enjoy views of the Adriatic as the light softens.",
+        "Night": "Dinner near the port 🍽️ with fresh fish, then an easy evening stroll along the waterfront where locals gather."
+      },
       "seasons": {
         "spring": {
-          "event": "Spring Sea Breeze",
+          "event": "Mild coastal spring",
+          "description": "Pleasant temperatures, fewer crowds, and ideal conditions for sightseeing and long seaside walks.",
           "ideas": [
-            "🌸 Early coastal walks with mild weather and nearly empty beaches.",
-            "🐚 Exploring shells and small coastal spots before the tourist season.",
-            "☕ Morning coffee along the <a href=\"https://www.google.com/maps/search/?api=1&query=Vollga%20Promenade%20Durres\" target=\"_blank\" rel=\"noopener\">Vollga Promenade</a> with sea views.",
-            "🏛️ Visiting the <a href=\"https://www.google.com/maps/search/?api=1&query=Durres%20Amphitheatre%20Durres\" target=\"_blank\" rel=\"noopener\">Roman Amphitheatre</a> in comfortable spring temperatures."
+            {
+              "name": "Amphitheatre exploration",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=41.3166%2C19.4456",
+              "description": "Comfortable weather makes history walks enjoyable."
+            },
+            {
+              "name": "Seafront café stops",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=41.3098%2C19.4444",
+              "description": "Relax with coffee overlooking the Adriatic."
+            },
+            {
+              "name": "Promenade walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=41.3150%2C19.4440",
+              "description": "Quiet and scenic before peak season."
+            }
           ]
         },
         "summer": {
-          "event": "Beach & Summer Vibes",
+          "event": "Beach season peak",
+          "description": "Hot days, lively beaches, and busy weekends with visitors from across Albania.",
           "ideas": [
-            "🏖️ Full beach days at the <a href=\"https://www.google.com/maps/search/?api=1&query=Durres%20Beach\" target=\"_blank\" rel=\"noopener\">main beach</a> or quieter nearby coves — swimming and sunbathing.",
-            "🍦 Gelato, fresh fruit and cold drinks along the coastline.",
-            "🌙 Night parties, music and social life along the <a href=\"https://www.google.com/maps/search/?api=1&query=Vollga%20Promenade%20Durres\" target=\"_blank\" rel=\"noopener\">Vollga Promenade</a>.",
-            "🚤 Optional small-boat trips along the coast (in high season)."
+            {
+              "name": "Swimming & sunbathing",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=41.2995%2C19.4407",
+              "description": "Best enjoyed early morning or late afternoon."
+            },
+            {
+              "name": "Seafood dinners",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=41.3150%2C19.4440",
+              "description": "Fresh catch served daily along the coast."
+            },
+            {
+              "name": "Evening promenade life",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=41.3154%2C19.4477",
+              "description": "Cooler nights and lively atmosphere."
+            }
           ]
         },
         "autumn": {
-          "event": "Autumn by the Adriatic",
+          "event": "Late summer calm",
+          "description": "Warm sea, fewer tourists, and a relaxed local pace—great balance of beach and culture.",
           "ideas": [
-            "🍂 Peaceful seaside walks with soft weather and fewer people.",
-            "🥘 Warm seafood dinners at sunset-perfect restaurants.",
-            "📸 Photography of calm waters, reflections and autumn colors.",
-            "🏛️ Combining historical sightseeing with quiet coastal strolling."
+            {
+              "name": "Quiet beach days",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=41.2995%2C19.4407",
+              "description": "Still warm but less crowded."
+            },
+            {
+              "name": "Historic city walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=41.3166%2C19.4456",
+              "description": "Comfortable temperatures for sightseeing."
+            },
+            {
+              "name": "Sunset photography",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=41.3154%2C19.4477",
+              "description": "Soft light over the Adriatic."
+            }
           ]
         },
         "winter": {
-          "event": "Winter Calm & Sea Views",
+          "event": "Off-season coastal life",
+          "description": "Quiet streets, cool breezes, and a local feel—more about walking and cafés than swimming.",
           "ideas": [
-            "🌬️ Windy seaside walks with dramatic waves and empty beaches.",
-            "🔥 Warm soup, fish dishes and tea in indoor seaside restaurants.",
-            "🕯️ Evening strolls along the promenade with only the sound of waves.",
-            "📚 Ideal time to explore museums and cozy cafés in the center."
+            {
+              "name": "Museum visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=41.3098%2C19.4444",
+              "description": "Perfect for cooler days."
+            },
+            {
+              "name": "Port-area walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=41.3169%2C19.4471",
+              "description": "Watch ships and enjoy sea air."
+            },
+            {
+              "name": "Cozy seafood lunches",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=41.3150%2C19.4440",
+              "description": "Less busy restaurants, more local atmosphere."
+            }
           ]
         }
       },
       "public_transport_tips": [
-        "🚍 Frequent buses and minibuses connect Durrës with Tirana and other regions.",
-        "🚶 The center, amphitheatre, museums and <a href=\"https://www.google.com/maps/search/?api=1&query=Vollga%20Promenade%20Durres\" target=\"_blank\" rel=\"noopener\">Vollga Promenade</a> are easily walkable.",
-        "🚗 A car is useful for visiting quieter beaches north or south of the city.",
-        "🎟️ In high season, arrive early to secure beach spots and parking."
+        {
+          "tip": "Durrës is easily reached from Tirana by frequent buses and trains, making it a popular day trip.",
+          "link": "https://www.e-albania.al/"
+        },
+        {
+          "tip": "The city center and main sights are walkable, especially around the amphitheatre and seafront.",
+          "link": "https://www.visitdurres.com/"
+        },
+        {
+          "tip": "Local taxis are affordable for reaching beach areas farther from the center.",
+          "link": "https://www.visitdurres.com/"
+        }
       ],
       "city_events": [
         {
-          "name": "Durrës Summer Beach Festival",
+          "name": "Summer Beach Events",
           "season": "summer",
-          "description": "🎉 Beach parties, music events and daytime/nighttime programs along the coast."
-        },
-        {
-          "name": "Autumn Sea & History Days",
-          "season": "autumn",
-          "description": "🏛️ Combine historical sightseeing with calm autumn coastal walks."
+          "description": "Informal concerts and cultural activities along the promenade.",
+          "website": "https://www.visitdurres.com/",
+          "dates": "June–August"
         }
-      ]
-    },
-    {
-      "name": "Gjirokastër",
-      "interests": [
-        "Ottoman-Era Architecture & Stone Houses 🏠 — Narrow cobblestone alleys and iconic stone-roofed homes.",
-        "Cultural Heritage & UNESCO Historic Site 🕰️ — Museums, old markets and fortress history.",
-        "Hilltop Views & Photography 📸 — Panoramic mountain and valley scenery."
       ],
-      "local_food_tip": "Try qifqi (herb rice balls), village-style pies, local honey, homemade raki and Gjirokastër cheeses — rustic, homemade flavors unique to the region.",
-      "full_day": "Morning: 🌄 Wander through the historic bazaar streets — stone houses, artisan shops and dramatic hillside views. → Continue up to the magnificent <a href=\"https://www.google.com/maps/search/?api=1&query=Gjirokaster%20Castle\" target=\"_blank\">Gjirokastër Castle</a>, overlooking Drino Valley. Explore fortress corridors, artillery displays and viewpoints. → ☕ Coffee break inside the old town at a traditional stone-house café.\n\nAfternoon: 🖼️ Visit the <a href=\"https://www.google.com/maps/search/?api=1&query=Gjirokaster%20Ethnographic%20Museum\" target=\"_blank\">Ethnographic Museum</a> — a beautifully preserved Ottoman home with authentic interiors. → 🍽️ Lunch: qifqi, village pies, local cheese, roasted vegetables and fresh salads, often served with homemade wine. → Optionally hike to the surrounding hills for even wider valley panoramas.\n\nSunset: 🌇 Watch golden light fall over the stone rooftops from the castle walls or a hilltop viewpoint.\n\nNight: 🌙 Peaceful stroll through lantern-lit alleys, with optional live folk music in a local tavern — very atmospheric and intimate old-town vibes.",
-      "seasons": {
-        "spring": {
-          "event": "Spring Heritage Walk",
-          "ideas": [
-            "🌼 Fresh blossoms along stone alleys and hillside walks.",
-            "📸 Crisp photos of stone houses framed by green spring landscapes.",
-            "☕ Sunny terrace cafés with mountain views and mild weather.",
-            "🚶 Light hikes to hill viewpoints before summer heat."
-          ]
+      "places": [
+        {
+          "name": "Great Mosque of Durrës",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=41.3159%2C19.4470",
+          "description": "Modern mosque located near the historic center, reflecting the city’s contemporary life."
         },
-        "summer": {
-          "event": "Cultural Summer Evenings",
-          "ideas": [
-            "🎶 Folk concerts and storytelling in the castle courtyard.",
-            "🌅 Dramatic sunsets over the valley from hilltop viewpoints.",
-            "🍨 Light meals and cool evenings in open-air terraces.",
-            "🌙 Lantern-lit bazaar streets with a relaxed summer atmosphere."
-          ]
-        },
-        "autumn": {
-          "event": "Autumn Tranquility",
-          "ideas": [
-            "🍂 Quiet stone streets framed by warm autumn tones.",
-            "🍷 Wine tasting and hearty meals in cozy taverns.",
-            "📚 Museum visits during crisp autumn weather.",
-            "📸 Atmospheric photography with soft golden light over rooftops."
-          ]
-        },
-        "winter": {
-          "event": "Winter Peace & History",
-          "ideas": [
-            "🌫️ Fog settling among stone roofs — a mystical winter vibe.",
-            "🔥 Warm village-style dishes and local wine after cold walks.",
-            "🕯️ Evening strolls under lanterns in near-silent streets.",
-            "🏠 Perfect time for exploring indoor cultural sites."
-          ]
+        {
+          "name": "King Zog Villa (Zog’s Villa)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=41.3056%2C19.4370",
+          "description": "Former royal residence overlooking the city and sea (viewable from outside)."
         }
-      },
-      "public_transport_tips": [
-        "🚍 Regional buses connect Gjirokastër with Tirana and southern coastal towns.",
-        "🚶 The old town is fully walkable — narrow cobblestone streets are pedestrian-friendly.",
-        "🚗 A car is helpful for visiting nearby villages, valleys or hiking areas.",
-        "🎒 Wear sturdy shoes — slopes and cobblestones are part of the charm."
       ],
-      "city_events": [
+      "hidden_gems": [
         {
-          "name": "Gjirokastër Folk Night",
-          "season": "summer",
-          "description": "🎶 Traditional folk music, dancing and performances in the castle courtyard."
-        },
-        {
-          "name": "Winter Heritage Week",
-          "season": "winter",
-          "description": "🏛️ Cultural storytelling, local food and music events around the old town."
-        }
-      ]
-    },
-    {
-      "name": "Ksamil",
-      "interests": [
-        "Beach & Islands 🌴 — Soft white sand and shallow turquoise waters.",
-        "Crystal Clear Water & Snorkeling 🐠 — Some of the clearest in the Ionian.",
-        "Island-Hopping & Nature Views 🏝️ — Tiny islands just minutes away by kayak or boat."
-      ],
-      "local_food_tip": "Try fresh mussels, grilled fish, shrimp pasta, seafood risotto and chilled summer salads — simple, ultra-fresh coastal dishes prepared daily.",
-      "full_day": "Morning: 🌅 Start at <a href=\"https://www.google.com/maps/search/?api=1&query=Ksamil%20Beach\" target=\"_blank\">Ksamil Beach</a> — early hours are calm, with crystal-clear water and quiet sand. → Rent a kayak or take a short boat ride to the <a href=\"https://www.google.com/maps/search/?api=1&query=Ksamil%20Islands\" target=\"_blank\">Ksamil Islands</a>.\n\nAfternoon: 🏝️ Explore the islands: swimming, sunbathing, snorkeling, photos and small rocky coves. → 🍽️ Lunch at a beachfront restaurant — grilled fish, mussels, prawns or seafood risotto.\n\nLate Afternoon: 🏖️ Relax on quieter beaches or take another short island swim. → Optional trip to the UNESCO site <a href=\"https://www.google.com/maps/search/?api=1&query=Butrint%20National%20Park\" target=\"_blank\">Butrint National Park</a> only 15 minutes away.\n\nSunset: 🌇 Watch the sun set into the Ionian Sea from a beach bar, island viewpoint or calm seaside terrace.\n\nNight: 🌃 Enjoy the relaxed coastal nightlife — soft music, seaside cocktails, gelato or peaceful evening walks along the water.",
-      "seasons": {
-        "spring": {
-          "event": "Spring Tranquility by the Sea",
-          "ideas": [
-            "🌸 Almost empty beaches and incredibly clear water.",
-            "☕ Coffee with sea views at newly reopened seaside cafés.",
-            "🚣 Quiet early-season boat rides to the Ksamil Islands.",
-            "📸 Soft spring colors perfect for photography."
-          ]
-        },
-        "summer": {
-          "event": "Tropical Summer Escape",
-          "ideas": [
-            "🏖️ Snorkeling and swimming between Ksamil’s tiny islands.",
-            "🍹 Sunset cocktails at lively beach bars.",
-            "🌙 Evening promenade walks, gelato and seafood dinners.",
-            "⛵ Full-day trips around the Ionian coastline."
-          ]
-        },
-        "autumn": {
-          "event": "Post-Summer Calm",
-          "ideas": [
-            "🍂 Peaceful beaches with warm sea temperatures.",
-            "🥘 Cozy seafood dishes in quieter restaurants.",
-            "📸 Best time for photography — fewer crowds and soft golden light.",
-            "🚣 Island-hopping without summer rush."
-          ]
-        },
-        "winter": {
-          "event": "Winter Stillness",
-          "ideas": [
-            "🌊 Peaceful empty coastline with dramatic winter colors.",
-            "🔥 Warm seafood dishes in quiet taverns with sea views.",
-            "🕯️ Calm nights under starlit skies by the waves.",
-            "📚 Relaxing nature walks along the shore."
-          ]
-        }
-      },
-      "public_transport_tips": [
-        "🚐 Minibuses run frequently between Ksamil and Sarandë (about 30 minutes).",
-        "🛥️ Boat rentals and kayaks are available directly on the main beach.",
-        "🚶 Ksamil is compact — beaches, hotels and restaurants are mostly walkable.",
-        "📱 Use Sarandë’s regional bus apps or taxi services for transfers."
-      ],
-      "city_events": [
-        {
-          "name": "Ksamil Summer Nights",
-          "season": "summer",
-          "description": "🎶 Beach music, island parties and open-air seaside dining."
+          "name": "Currila Beach",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=41.3223%2C19.4556",
+          "description": "Smaller, rockier beach north of the center with clearer water and a local feel."
         },
         {
-          "name": "Autumn Coastal Escape",
-          "season": "autumn",
-          "description": "🍲 Seafood tasting weekends and peaceful beach walks."
-        }
-      ]
-    },
-    {
-      "name": "Sarandë",
-      "interests": [
-        "Beach & Ionian Sea 🌊 — Clear turquoise coastline everywhere you look.",
-        "Island Views & Coastal Nature 🏝️ — Perfect base for exploring beaches and islands.",
-        "Nightlife & Seaside Promenade 🌙 — Bars, cafés and sunset walks along the water."
-      ],
-      "local_food_tip": "Classic Mediterranean: fresh fish, octopus, squid, seafood pasta, local wine and fresh vegetables — all best enjoyed seaside at sunset.",
-      "full_day": "Morning: 🌅 Walk the <a href=\"https://www.google.com/maps/search/?api=1&query=Sarande%20Promenade\" target=\"_blank\">Sarandë Promenade</a>, grab breakfast with a sea view. → Take a short boat trip to nearby hidden beaches or islands. → Enjoy swimming and snorkeling.\n\nAfternoon: 🐠 More beach time or a coastal walk along the promenade. → 🍽️ Lunch with seafood and local white wine. → Visit <a href=\"https://www.google.com/maps/search/?api=1&query=Lekuresi%20Castle%20Sarande\" target=\"_blank\">Lëkurësi Castle</a> for views over the entire bay.\n\nSunset: 🌇 Watch one of the most beautiful sunsets in Albania from the promenade, castle or a seaside restaurant.\n\nNight: 🎶 Beach bars, cocktail lounges, live music or a peaceful dinner under the stars with warm night air and sound of waves.",
-      "seasons": {
-        "spring": {
-          "event": "Spring Coast & Harbor Calm",
-          "ideas": [
-            "🌼 Relaxed harbor walks before summer crowds arrive.",
-            "🚶 Ideal time to explore nearby beaches and islands in peace.",
-            "☕ Morning coffee by the sea with mild weather.",
-            "📸 Clear spring light for perfect coastline photography."
-          ]
-        },
-        "summer": {
-          "event": "Ionian Sea Summer Escape",
-          "ideas": [
-            "🏖️ Full beach days, boat tours and water sports.",
-            "🍧 Gelato, seafood dishes and lively evening atmosphere.",
-            "🌙 Nightlife along the promenade with bars and music.",
-            "⛵ Excursions to Ksamil, Mirror Beach or secluded coves."
-          ]
-        },
-        "autumn": {
-          "event": "Autumn Coast & Sea Reflections",
-          "ideas": [
-            "🍂 Calm beaches and warm water — perfect for relaxing swims.",
-            "🥘 Warm seafood dinners with sunset views.",
-            "📸 Stunning autumn sunsets with fewer people around.",
-            "🚶 Slow coastal walks with cooler temperatures."
-          ]
-        },
-        "winter": {
-          "event": "Winter Serenity by the Sea",
-          "ideas": [
-            "🌊 Windy, dramatic winter waves and empty beaches.",
-            "🔥 Cozy taverns serving warm seafood dishes.",
-            "🕯️ Quiet evenings along the promenade.",
-            "📚 Ideal time for slow travel, reading and seaside relaxation."
-          ]
-        }
-      },
-      "public_transport_tips": [
-        "🚍 Buses and minibuses connect Sarandë to Ksamil, Gjirokastër and Tirana.",
-        "⛵ Ferries offer coastal trips and connections to islands across the Ionian.",
-        "🚶 The promenade and city center are fully walkable.",
-        "🚗 Renting a car helps reach hidden beaches far from town."
-      ],
-      "city_events": [
-        {
-          "name": "Sarandë Summer Sea Fest",
-          "season": "summer",
-          "description": "🎶 Concerts, nightlife events and open-air seaside festivals."
-        },
-        {
-          "name": "Autumn Coast & Seafood Days",
-          "season": "autumn",
-          "description": "🍽️ Seafood-focused events, sunset dinners and calm coastal walks."
-        }
-      ]
-    },
-    {
-      "name": "Shkodër",
-      "interests": [
-        "Lakeside Nature & Lake Views 🌊 — Peaceful waters, reflections and birdlife.",
-        "Cultural Heritage & Old Town History 🏛️ — Ancient fortresses and traditional neighborhoods.",
-        "Outdoor Activities & Nearby Mountains 🏞️ — Gateway to the Albanian Alps."
-      ],
-      "local_food_tip": "Try lake fish (Krap Shkodre), byrek with spinach or cheese, local goat cheese, homemade bread and Northern Albanian slow-cooked specialties.",
-      "full_day": "Morning: 🌄 Begin your day with a peaceful walk along <a href=\"https://www.google.com/maps/search/?api=1&query=Shkoder%20Lake\" target=\"_blank\">Shkodër Lake</a> — wide views, calm water and mountain silhouettes. → Continue to the dramatic hilltop <a href=\"https://www.google.com/maps/search/?api=1&query=Rozafa%20Castle\" target=\"_blank\">Rozafa Castle</a> for a panoramic overview of rivers, lake and city. → ☕ Enjoy coffee at a lakeside café.\n\nAfternoon: 🚣 Take a short boat ride on the lake, or hike small trails near the fortress. → 🍽️ Lunch: grilled lake fish with fresh vegetables and local wine. → Explore the elegant Ottoman-era <a href=\"https://www.google.com/maps/search/?api=1&query=Mesi%20Bridge\" target=\"_blank\">Mesi Bridge</a> or wander through the colorful Old Bazaar streets.\n\nSunset: 🌅 Stroll along the lakeside embankment — golden reflections and cool breeze.\n\nNight: 🌙 Relax at a waterfront tavern, listen to local music or enjoy an easy walk under warm lantern lights in the historic quarter.",
-      "seasons": {
-        "spring": {
-          "event": "Spring Awakening by the Lake",
-          "ideas": [
-            "🌼 Bird watching and lakeside nature walks with fresh greenery.",
-            "🚶 Gentle hikes around hill viewpoints and riverside paths.",
-            "📸 Great photography: snow-tipped peaks and bright water reflections.",
-            "☕ Outdoor cafés with calm lake views."
-          ]
-        },
-        "summer": {
-          "event": "Summer Lake Days",
-          "ideas": [
-            "🏊 Swimming or quiet boat rides on Shkodër Lake (weather permitting).",
-            "🌇 Evening strolls with warm breeze and scenic lake colors.",
-            "🍨 Ice cream and light snacks by the waterfront.",
-            "🚣 Kayaking near river inlets surrounded by mountains."
-          ]
-        },
-        "autumn": {
-          "event": "Autumn Calm & Culture",
-          "ideas": [
-            "🍁 Golden leaf colors around the lake and castle hillside.",
-            "🥘 Hearty Northern Albanian meals in traditional taverns.",
-            "📜 Visiting museums and cultural centers in cooler weather.",
-            "🌙 Peaceful evening walks in the historic district."
-          ]
-        },
-        "winter": {
-          "event": "Winter Peace by the Lake",
-          "ideas": [
-            "🌫️ Misty lake mornings — dramatic and atmospheric for photos.",
-            "☕ Warm drinks in lakeside cafés with panoramic windows.",
-            "🔥 Fireplace dinners with homemade food in local restaurants.",
-            "📚 Quiet strolls and cozy small-town winter ambiance."
-          ]
-        }
-      },
-      "public_transport_tips": [
-        "🚍 Regional buses link Shkodër with Tirana, Lezhë and coastal towns.",
-        "🚶 The old town and central areas are fully walkable and compact.",
-        "🚗 A car is useful for exploring nearby mountains or remote lakeshore areas.",
-        "🎒 For hikes or lake outings, bring good shoes, water and sun protection."
-      ],
-      "city_events": [
-        {
-          "name": "Lake Shkodër Summer Nights",
-          "season": "summer",
-          "description": "🌊 Open-air concerts and evening gatherings by the lakeshore."
-        },
-        {
-          "name": "Autumn Folk Gatherings",
-          "season": "autumn",
-          "description": "🎶 Traditional Northern Albanian music, dance and food."
-        }
-      ]
-    },
-    {
-      "name": "Vlorë",
-      "interests": [
-        "Beach & Adriatic / Ionian Seas 🌊 — Unique city where two seas meet.",
-        "Historic Port & Old Town 🏘️ — Traditional streets and national monuments.",
-        "Seaside Walks & Nightlife 🍹 — Long promenades, cafés and sunset spots."
-      ],
-      "local_food_tip": "Seafood, olives, fresh salads, citrus, grilled dishes and local cheeses — Mediterranean flavors shaped by sea breeze and coastal lifestyle.",
-      "full_day": "Morning: 🌅 Start with coffee along the <a href=\"https://www.google.com/maps/search/?api=1&query=Lungomare%20Vlore\" target=\"_blank\">Lungomare Promenade</a> — peaceful seaside walkways with palm trees. → Explore the <a href=\"https://www.google.com/maps/search/?api=1&query=Vlore%20Old%20Town\" target=\"_blank\">Old Town</a> and historic harbor area. → Take a boat trip or visit nearby hidden beaches.\n\nAfternoon: 🏖️ Enjoy beach time — swimming, sunbathing or relaxing at a seaside club. → 🍽️ Lunch with freshly grilled fish, seafood pasta or a traditional Mediterranean platter. → Walk the long promenade or visit <a href=\"https://www.google.com/maps/search/?api=1&query=Independence%20Monument%20Vlore\" target=\"_blank\">Independence Monument</a> for local history.\n\nSunset: 🌇 Watch where the Adriatic meets the Ionian Sea — dramatic colors and unforgettable glow.\n\nNight: 🌙 Dinner at a waterfront restaurant → Enjoy cocktails, music lounges or a peaceful coastal walk under warm evening air.",
-      "seasons": {
-        "spring": {
-          "event": "Spring by the Sea & Harbor",
-          "ideas": [
-            "🌸 Gentle seaside walks with mild temperatures.",
-            "☕ Outdoor cafés with breezy sea views.",
-            "🚶 Discovering Old Town streets before summer crowds.",
-            "📸 Perfect season for calm coastal photos."
-          ]
-        },
-        "summer": {
-          "event": "Coastal Summer Paradise",
-          "ideas": [
-            "🏖️ Full beach days, swimming and boat excursions.",
-            "🍹 Sunset cocktails on the promenade.",
-            "🎶 Nightlife along the Lungomare — music, lights and sea breeze.",
-            "🍽️ Fresh seafood dinners with Ionian flavors."
-          ]
-        },
-        "autumn": {
-          "event": "Autumn Sea & Sunset Walks",
-          "ideas": [
-            "🍁 Quieter beaches and soft golden-hour light.",
-            "🥘 Warm seafood meals in cozy restaurants.",
-            "📸 Stunning sea reflections and autumn colors.",
-            "🚶 Calm evening walks along uncrowded promenade."
-          ]
-        },
-        "winter": {
-          "event": "Winter Sea Reflections",
-          "ideas": [
-            "🌬️ Windy coastal views and peaceful promenades.",
-            "🔥 Warm drinks and seafood in indoor seaside taverns.",
-            "🕯️ Quiet nights with relaxing waves and soft city lights.",
-            "📚 Ideal season for slow travel and relaxation."
-          ]
-        }
-      },
-      "public_transport_tips": [
-        "🚍 Buses connect Vlorë with Tirana, Fier and southern coastal towns.",
-        "🚶 Old Town and the main coastline are walkable — great for exploring without a car.",
-        "🚗 Having a car opens access to remote coves and smaller hidden beaches.",
-        "⛵ Boat trips are highly recommended for exploring the Ionian coast."
-      ],
-      "city_events": [
-        {
-          "name": "Vlora Coastal Nights",
-          "season": "summer",
-          "description": "🌃 Concerts, evening shows and nightlife along the illuminated seaside."
-        },
-        {
-          "name": "Autumn Seafood & Wine Fest",
-          "season": "autumn",
-          "description": "🍷 Local wine tasting, seafood dishes and sunset gatherings."
+          "name": "Backstreets near the Amphitheatre",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=41.3166%2C19.4465",
+          "description": "Quiet residential streets where ancient ruins and everyday life mix naturally."
         }
       ]
     }
+    ,
+      {
+      "name": "Gjirokastër",
+      "interests": [
+        {
+          "name": "Gjirokastër Castle",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=40.0758%2C20.1383",
+          "description": "Massive hilltop fortress dominating the city, offering panoramic views and housing museums, old cannons, and historic buildings."
+        },
+        {
+          "name": "Gjirokastër Old Bazaar",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=40.0749%2C20.1388",
+          "description": "Stone-paved streets lined with traditional houses, artisan shops, and cafés—heart of the UNESCO-listed old town."
+        },
+        {
+          "name": "Zekate House",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=40.0740%2C20.1399",
+          "description": "Well-preserved Ottoman-era tower house showcasing traditional architecture and family life."
+        },
+        {
+          "name": "Skenduli House",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=40.0746%2C20.1394",
+          "description": "Historic house museum with original interiors, offering insight into 18th-century Albanian urban living."
+        },
+        {
+          "name": "Ethnographic Museum (Enver Hoxha’s Birthplace)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=40.0752%2C20.1389",
+          "description": "Museum presenting traditional lifestyle and crafts of the region, located in the reconstructed birthplace of Enver Hoxha."
+        }
+      ],
+      "local_food_tip": "Don’t miss qifqi (herbed rice balls), homemade pies, stuffed vegetables, and slow-cooked dishes served in family-run guesthouses.",
+      "full_day": {
+        "Morning": "Start by climbing up to <a href=\"https://www.google.com/maps/search/?api=1&query=40.0758%2C20.1383\" target=\"_blank\" rel=\"noopener\">Gjirokastër Castle</a> 🏰 while it’s still cool. Take time for the views and museum exhibits.",
+        "Afternoon": "Walk down into the <a href=\"https://www.google.com/maps/search/?api=1&query=40.0749%2C20.1388\" target=\"_blank\" rel=\"noopener\">Old Bazaar</a> 🏘️ for lunch and browsing, then visit <a href=\"https://www.google.com/maps/search/?api=1&query=40.0740%2C20.1399\" target=\"_blank\" rel=\"noopener\">Zekate House</a> or <a href=\"https://www.google.com/maps/search/?api=1&query=40.0746%2C20.1394\" target=\"_blank\" rel=\"noopener\">Skenduli House</a> to understand local architecture.",
+        "Sunset": "Find a café terrace above the old town 🌄 and watch the stone rooftops glow as the sun sets.",
+        "Night": "Dinner in a traditional guesthouse 🍽️ with local recipes and a calm evening stroll through the quiet streets."
+      },
+      "seasons": {
+        "spring": {
+          "event": "Spring Cultural Evenings",
+          "description": "Mild weather and blooming hills make walking the old town especially pleasant.",
+          "ideas": [
+            {
+              "name": "Old Town walking routes",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=40.0749%2C20.1388",
+              "description": "Comfortable temperatures for exploring on foot."
+            },
+            {
+              "name": "Castle viewpoints",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=40.0758%2C20.1383",
+              "description": "Clear spring light for photography."
+            },
+            {
+              "name": "Local cafés",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=40.0745%2C20.1385",
+              "description": "Enjoy slower-paced mornings."
+            }
+          ]
+        },
+        "summer": {
+          "event": "Gjirokastër National Folklore Festival (periodic)",
+          "description": "Traditional music, costumes, and dance performances held inside the castle.",
+          "ideas": [
+            {
+              "name": "Evening castle events",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=40.0758%2C20.1383",
+              "description": "Cultural performances in a historic setting."
+            },
+            {
+              "name": "Shaded bazaar walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=40.0749%2C20.1388",
+              "description": "Stone streets stay cooler during the day."
+            },
+            {
+              "name": "Guesthouse terraces",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=40.0740%2C20.1399",
+              "description": "Relax in the evenings with mountain air."
+            }
+          ]
+        },
+        "autumn": {
+          "event": "Harvest Season",
+          "description": "Golden hills, local produce, and a quieter atmosphere after summer crowds.",
+          "ideas": [
+            {
+              "name": "Autumn photography walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=40.0749%2C20.1388",
+              "description": "Warm tones across the stone city."
+            },
+            {
+              "name": "Traditional meals",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=40.0745%2C20.1385",
+              "description": "Seasonal dishes made from fresh harvests."
+            },
+            {
+              "name": "Castle strolls",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=40.0758%2C20.1383",
+              "description": "Crisp air and fewer visitors."
+            }
+          ]
+        },
+        "winter": {
+          "event": "Quiet Winter Old Town",
+          "description": "Peaceful streets, occasional snow on rooftops, and a local, intimate feel.",
+          "ideas": [
+            {
+              "name": "Ethnographic Museum visit",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=40.0752%2C20.1389",
+              "description": "Ideal indoor cultural activity."
+            },
+            {
+              "name": "Warm guesthouse dining",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=40.0740%2C20.1399",
+              "description": "Home-cooked meals by the fireplace."
+            },
+            {
+              "name": "Winter city walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=40.0749%2C20.1388",
+              "description": "Calm and atmospheric old town."
+            }
+          ]
+        }
+      },
+      "public_transport_tips": [
+        {
+          "tip": "Gjirokastër is well connected by buses from Tirana and Sarandë.",
+          "link": "https://www.e-albania.al/"
+        },
+        {
+          "tip": "The old town is steep; wear good walking shoes.",
+          "link": "https://www.visit-gjirokastra.com/"
+        },
+        {
+          "tip": "Local taxis are useful for reaching upper areas if needed.",
+          "link": "https://www.visit-gjirokastra.com/"
+        }
+      ],
+      "city_events": [
+        {
+          "name": "National Folklore Festival",
+          "season": "summer",
+          "description": "Major cultural event celebrating Albanian folklore, held at the castle.",
+          "website": "https://www.visit-gjirokastra.com/",
+          "dates": "Periodic (typically summer)"
+        }
+      ],
+      "places": [
+        {
+          "name": "Ismail Kadare House",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=40.0755%2C20.1386",
+          "description": "Birthplace of Albania’s most famous writer, now a small museum."
+        },
+        {
+          "name": "Ali Pasha Bridge",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=40.0406%2C20.1347",
+          "description": "Ottoman-era stone bridge located outside the city, reachable by hike."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "Castle Tunnel Paths",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=40.0760%2C20.1380",
+          "description": "Less-visited underground and side areas of the fortress."
+        },
+        {
+          "name": "Upper Old Town Viewpoints",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=40.0742%2C20.1408",
+          "description": "Quiet spots above the bazaar with wide valley views."
+        }
+      ]
+    }
+    ,
+        {
+      "name": "Ksamil",
+      "interests": [
+        {
+          "name": "Ksamil Beach",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=39.7686%2C20.0009",
+          "description": "Series of small white-pebble beaches with shallow, turquoise water—among the clearest on Albania’s Ionian coast."
+        },
+        {
+          "name": "Ksamil Islands",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=39.7683%2C20.0013",
+          "description": "Four tiny islands just offshore, reachable by kayak, paddle boat, or a short swim in calm conditions."
+        },
+        {
+          "name": "Butrint National Park",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=39.7461%2C20.0219",
+          "description": "UNESCO World Heritage site with ancient Greek, Roman, Byzantine, and Venetian ruins set in lush wetlands."
+        },
+        {
+          "name": "Mirror Beach (Plazhi i Pasqyrave)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=39.7819%2C19.9992",
+          "description": "Scenic cove north of Ksamil known for clear water and reflective rock formations."
+        },
+        {
+          "name": "Lake Butrint Channel",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=39.7488%2C20.0236",
+          "description": "Narrow channel connecting Lake Butrint to the sea—quiet views and birdlife."
+        }
+      ],
+      "local_food_tip": "Order grilled sea bream or seabass, mussels from nearby Lake Butrint, fresh salads, and simple pasta. Portions are generous—sharing works well.",
+      "full_day": {
+        "Morning": "Arrive early to <a href=\"https://www.google.com/maps/search/?api=1&query=39.7686%2C20.0009\" target=\"_blank\" rel=\"noopener\">Ksamil Beach</a> 🏖️ for calm water and the best light. Swim while it’s quiet.",
+        "Afternoon": "Rent a kayak or paddle boat to reach the <a href=\"https://www.google.com/maps/search/?api=1&query=39.7683%2C20.0013\" target=\"_blank\" rel=\"noopener\">Ksamil Islands</a> 🚣, then lunch at a seaside taverna. Later, visit <a href=\"https://www.google.com/maps/search/?api=1&query=39.7461%2C20.0219\" target=\"_blank\" rel=\"noopener\">Butrint National Park</a> 🏛️ for history and shade.",
+        "Sunset": "Head to <a href=\"https://www.google.com/maps/search/?api=1&query=39.7819%2C19.9992\" target=\"_blank\" rel=\"noopener\">Mirror Beach</a> 🌅 for golden reflections and clear water views.",
+        "Night": "Casual dinner by the water 🍽️—Ksamil evenings are relaxed rather than loud."
+      },
+      "seasons": {
+        "spring": {
+          "event": "Quiet beach season",
+          "description": "Warm sun, cool water, and fewer visitors—ideal for combining beaches with Butrint.",
+          "ideas": [
+            {
+              "name": "Early swims",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=39.7686%2C20.0009",
+              "description": "Clear water and peaceful mornings."
+            },
+            {
+              "name": "Butrint exploration",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=39.7461%2C20.0219",
+              "description": "Comfortable temperatures for walking ruins."
+            },
+            {
+              "name": "Kayaking to islands",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=39.7683%2C20.0013",
+              "description": "Calm seas before summer crowds."
+            }
+          ]
+        },
+        "summer": {
+          "event": "Peak beach season",
+          "description": "Hot days, lively beaches, and busy afternoons—best enjoyed early and late.",
+          "ideas": [
+            {
+              "name": "Morning beach sessions",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=39.7686%2C20.0009",
+              "description": "Beat crowds and heat."
+            },
+            {
+              "name": "Island paddling",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=39.7683%2C20.0013",
+              "description": "Fun and refreshing on hot days."
+            },
+            {
+              "name": "Seafood dinners",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=39.7695%2C20.0010",
+              "description": "Evenings cool down by the sea."
+            }
+          ]
+        },
+        "autumn": {
+          "event": "Late-summer calm",
+          "description": "Warm sea, softer light, and fewer visitors—arguably the best time for Ksamil.",
+          "ideas": [
+            {
+              "name": "Long swims",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=39.7686%2C20.0009",
+              "description": "Sea stays warm into October."
+            },
+            {
+              "name": "Mirror Beach photography",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=39.7819%2C19.9992",
+              "description": "Clear light and reflections."
+            },
+            {
+              "name": "Relaxed island visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=39.7683%2C20.0013",
+              "description": "Less traffic on the water."
+            }
+          ]
+        },
+        "winter": {
+          "event": "Off-season coast",
+          "description": "Very quiet; swimming is rare, but walks and views are peaceful.",
+          "ideas": [
+            {
+              "name": "Coastal walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=39.7686%2C20.0009",
+              "description": "Empty beaches and fresh air."
+            },
+            {
+              "name": "Butrint winter visit",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=39.7461%2C20.0219",
+              "description": "Quiet ruins with a local feel."
+            },
+            {
+              "name": "Nearby Sarandë cafés",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=39.8756%2C20.0053",
+              "description": "More year-round options close by."
+            }
+          ]
+        }
+      },
+      "public_transport_tips": [
+        {
+          "tip": "Ksamil is connected to Sarandë by frequent local buses and minibuses.",
+          "link": "https://www.visit-saranda.com/"
+        },
+        {
+          "tip": "Walking is enough for most beaches; taxis help for Mirror Beach and Butrint.",
+          "link": "https://www.visit-saranda.com/"
+        },
+        {
+          "tip": "Arrive early in summer to secure parking and beach space.",
+          "link": "https://www.visit-saranda.com/"
+        }
+      ],
+      "city_events": [
+        {
+          "name": "Summer Beach Activities",
+          "season": "summer",
+          "description": "Informal music, beach clubs, and evening gatherings.",
+          "website": "https://www.visit-saranda.com/",
+          "dates": "June–August"
+        }
+      ],
+      "places": [
+        {
+          "name": "Butrint Ancient Theatre",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=39.7456%2C20.0213",
+          "description": "Well-preserved ancient theatre within Butrint National Park."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "Quiet coves south of Ksamil",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=39.7648%2C20.0040",
+          "description": "Small unofficial swim spots away from main beaches."
+        },
+        {
+          "name": "Early-morning island swim",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=39.7683%2C20.0013",
+          "description": "Glass-like water before the crowds arrive."
+        }
+      ]
+    }
+    ,
+        {
+      "name": "Sarandë",
+      "interests": [
+        {
+          "name": "Sarandë Promenade",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=39.8756%2C20.0053",
+          "description": "Central seaside walkway lined with cafés, palm trees, and restaurants—social heart of the city, especially lively in the evenings."
+        },
+        {
+          "name": "Lekursi Castle",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=39.8622%2C20.0127",
+          "description": "16th-century hilltop fortress with sweeping views over Sarandë, the Ionian Sea, and Corfu—one of the best sunset spots in southern Albania."
+        },
+        {
+          "name": "Blue Eye (Syri i Kaltër)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=39.9156%2C20.1936",
+          "description": "Powerful natural spring with deep blue water surrounded by greenery; a popular half-day trip from Sarandë."
+        },
+        {
+          "name": "Monastery of the 40 Saints",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=39.8742%2C20.0107",
+          "description": "Ruins of a Byzantine monastery overlooking the city, giving Sarandë its name (Agioi Saranda)."
+        },
+        {
+          "name": "Santa Quaranta Beach",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=39.8838%2C20.0020",
+          "description": "Pebble beach north of the center with clear water and beach bars."
+        }
+      ],
+      "local_food_tip": "Focus on seafood: grilled octopus, calamari, shrimp pasta, and mussels. Southern Albanian cuisine also features Greek influences—fresh salads, olive oil, and simple grilled dishes.",
+      "full_day": {
+        "Morning": "Start with a walk along the <a href=\"https://www.google.com/maps/search/?api=1&query=39.8756%2C20.0053\" target=\"_blank\" rel=\"noopener\">Sarandë Promenade</a> ☀️ and breakfast by the sea. Then head out early to visit the <a href=\"https://www.google.com/maps/search/?api=1&query=39.9156%2C20.1936\" target=\"_blank\" rel=\"noopener\">Blue Eye</a> 💧 before crowds arrive.",
+        "Afternoon": "Return to town for lunch 🍽️ and relax at <a href=\"https://www.google.com/maps/search/?api=1&query=39.8838%2C20.0020\" target=\"_blank\" rel=\"noopener\">Santa Quaranta Beach</a> 🏖️ or another nearby beach.",
+        "Sunset": "Go up to <a href=\"https://www.google.com/maps/search/?api=1&query=39.8622%2C20.0127\" target=\"_blank\" rel=\"noopener\">Lekursi Castle</a> 🌅 for panoramic sunset views.",
+        "Night": "Dinner along the promenade ✨ followed by a relaxed seaside walk or ice cream by the marina."
+      },
+      "seasons": {
+        "spring": {
+          "event": "Spring seaside calm",
+          "description": "Mild temperatures and fewer visitors—ideal for sightseeing and day trips.",
+          "ideas": [
+            {
+              "name": "Blue Eye visit",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=39.9156%2C20.1936",
+              "description": "Comfortable weather for walking and photography."
+            },
+            {
+              "name": "Promenade walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=39.8756%2C20.0053",
+              "description": "Quiet cafés and sea views."
+            },
+            {
+              "name": "Monastery ruins visit",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=39.8742%2C20.0107",
+              "description": "Clear views over the bay."
+            }
+          ]
+        },
+        "summer": {
+          "event": "Peak coastal season",
+          "description": "Hot days, busy beaches, and lively nightlife—Sarandë is at its most energetic.",
+          "ideas": [
+            {
+              "name": "Beach hopping",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=39.8838%2C20.0020",
+              "description": "Choose different beaches along the coast."
+            },
+            {
+              "name": "Boat trips",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=39.8750%2C20.0045",
+              "description": "Short cruises and swimming stops."
+            },
+            {
+              "name": "Evening promenade life",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=39.8756%2C20.0053",
+              "description": "Restaurants, music, and warm nights."
+            }
+          ]
+        },
+        "autumn": {
+          "event": "Late-summer tranquility",
+          "description": "Warm sea, softer light, and fewer tourists—excellent for relaxed travel.",
+          "ideas": [
+            {
+              "name": "Swimming in October",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=39.8838%2C20.0020",
+              "description": "Sea remains warm well into autumn."
+            },
+            {
+              "name": "Sunset photography",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=39.8622%2C20.0127",
+              "description": "Golden-hour views from Lekursi."
+            },
+            {
+              "name": "Day trips to Ksamil or Butrint",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=39.7461%2C20.0219",
+              "description": "Short, easy excursions."
+            }
+          ]
+        },
+        "winter": {
+          "event": "Off-season seaside life",
+          "description": "Quiet streets and local rhythm; swimming stops, but cafés stay open.",
+          "ideas": [
+            {
+              "name": "Coastal walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=39.8756%2C20.0053",
+              "description": "Fresh air and empty promenades."
+            },
+            {
+              "name": "Café afternoons",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=39.8750%2C20.0045",
+              "description": "Relaxed local atmosphere."
+            },
+            {
+              "name": "Historic site visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=39.8742%2C20.0107",
+              "description": "Uncrowded sightseeing."
+            }
+          ]
+        }
+      },
+      "public_transport_tips": [
+        {
+          "tip": "Sarandë is connected by buses with Tirana, Gjirokastër, and Vlorë.",
+          "link": "https://www.e-albania.al/"
+        },
+        {
+          "tip": "Local buses and taxis easily reach Ksamil and nearby beaches.",
+          "link": "https://www.visit-saranda.com/"
+        },
+        {
+          "tip": "Ferries connect Sarandë with Corfu, Greece.",
+          "link": "https://www.portofsaranda.com/"
+        }
+      ],
+      "city_events": [
+        {
+          "name": "Summer Seaside Events",
+          "season": "summer",
+          "description": "Live music, open-air events, and nightlife along the promenade.",
+          "website": "https://www.visit-saranda.com/",
+          "dates": "June–August"
+        }
+      ],
+      "places": [
+        {
+          "name": "Sarandë Synagogue Ruins",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=39.8764%2C20.0061",
+          "description": "Remains of a 5th-century synagogue revealing the city’s ancient multicultural past."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "Hillside viewpoints above the city",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=39.8720%2C20.0140",
+          "description": "Quiet spots with views over Sarandë and the Ionian Sea."
+        },
+        {
+          "name": "Early-morning promenade walks",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=39.8756%2C20.0053",
+          "description": "Peaceful atmosphere before the city wakes up."
+        }
+      ]
+    }
+    ,
+        {
+      "name": "Shkodër",
+      "interests": [
+        {
+          "name": "Rozafa Castle",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=42.0477%2C19.4926",
+          "description": "Iconic hilltop fortress with panoramic views over Lake Shkodër and the Buna, Drin, and Kir rivers—deeply tied to local legend."
+        },
+        {
+          "name": "Shkodër Old Town (Pedonalja Kolë Idromeno)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=42.0687%2C19.5126",
+          "description": "Pedestrian street with Italian-influenced architecture, cafés, shops, and a relaxed city rhythm."
+        },
+        {
+          "name": "Marubi National Museum of Photography",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=42.0689%2C19.5122",
+          "description": "Renowned museum preserving Albania’s photographic heritage, documenting life from the 19th century onward."
+        },
+        {
+          "name": "Lake Shkodër",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=42.0890%2C19.4916",
+          "description": "The largest lake in the Balkans, perfect for cycling, birdwatching, and sunset views."
+        },
+        {
+          "name": "Lead Mosque (Xhamia e Plumbit)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=42.0489%2C19.4899",
+          "description": "Elegant Ottoman-era mosque near the castle, known for its harmonious proportions and setting."
+        }
+      ],
+      "local_food_tip": "Try northern Albanian dishes like carp or bleak from Lake Shkodër, tave with local vegetables, and homemade bread. Cafés serve strong espresso and simple pastries.",
+      "full_day": {
+        "Morning": "Begin with a climb to <a href=\"https://www.google.com/maps/search/?api=1&query=42.0477%2C19.4926\" target=\"_blank\" rel=\"noopener\">Rozafa Castle</a> 🏰 for sweeping views and local legends. Visit the nearby <a href=\"https://www.google.com/maps/search/?api=1&query=42.0489%2C19.4899\" target=\"_blank\" rel=\"noopener\">Lead Mosque</a> 🕌 afterward.",
+        "Afternoon": "Head into town for lunch, then explore <a href=\"https://www.google.com/maps/search/?api=1&query=42.0689%2C19.5122\" target=\"_blank\" rel=\"noopener\">Marubi Museum</a> 📷 and stroll along <a href=\"https://www.google.com/maps/search/?api=1&query=42.0687%2C19.5126\" target=\"_blank\" rel=\"noopener\">Kolë Idromeno Street</a> ☕.",
+        "Sunset": "Cycle or walk toward <a href=\"https://www.google.com/maps/search/?api=1&query=42.0890%2C19.4916\" target=\"_blank\" rel=\"noopener\">Lake Shkodër</a> 🌅 to catch reflections and birdlife.",
+        "Night": "Dinner in the pedestrian zone 🍽️ and a calm evening café stop—Shkodër nights are laid-back."
+      },
+      "seasons": {
+        "spring": {
+          "event": "Lake & cycling season begins",
+          "description": "Mild temperatures and green landscapes make outdoor activities ideal.",
+          "ideas": [
+            {
+              "name": "Lake cycling routes",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=42.0890%2C19.4916",
+              "description": "Flat, scenic rides along the shoreline."
+            },
+            {
+              "name": "Old town walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=42.0687%2C19.5126",
+              "description": "Comfortable weather for strolling."
+            },
+            {
+              "name": "Castle viewpoints",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=42.0477%2C19.4926",
+              "description": "Clear spring light over rivers and lake."
+            }
+          ]
+        },
+        "summer": {
+          "event": "Shkodër Lake Summer",
+          "description": "Warm days with evening breezes; city life shifts outdoors.",
+          "ideas": [
+            {
+              "name": "Evening lake walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=42.0890%2C19.4916",
+              "description": "Cooling off near the water."
+            },
+            {
+              "name": "Café culture",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=42.0687%2C19.5126",
+              "description": "Social evenings on pedestrian streets."
+            },
+            {
+              "name": "Day trips to Theth (gateway city)",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=42.3958%2C19.7746",
+              "description": "Shkodër is the base for Albanian Alps trips."
+            }
+          ]
+        },
+        "autumn": {
+          "event": "Harvest & calm season",
+          "description": "Cooler air, golden light, and fewer visitors.",
+          "ideas": [
+            {
+              "name": "Photography walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=42.0689%2C19.5122",
+              "description": "Soft autumn tones in the city."
+            },
+            {
+              "name": "Lake birdwatching",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=42.0890%2C19.4916",
+              "description": "Migratory birds arrive."
+            },
+            {
+              "name": "Museum afternoons",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=42.0689%2C19.5122",
+              "description": "Quiet cultural visits."
+            }
+          ]
+        },
+        "winter": {
+          "event": "Quiet winter city",
+          "description": "Cool, sometimes rainy, with a strong local café culture.",
+          "ideas": [
+            {
+              "name": "Marubi Museum visit",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=42.0689%2C19.5122",
+              "description": "Perfect indoor stop."
+            },
+            {
+              "name": "Old town cafés",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=42.0687%2C19.5126",
+              "description": "Warm drinks and conversations."
+            },
+            {
+              "name": "Castle on clear days",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=42.0477%2C19.4926",
+              "description": "Dramatic winter views after rain."
+            }
+          ]
+        }
+      },
+      "public_transport_tips": [
+        {
+          "tip": "Shkodër is well connected by buses with Tirana and northern Albania.",
+          "link": "https://www.e-albania.al/"
+        },
+        {
+          "tip": "Bicycles are a popular and practical way to move around the city.",
+          "link": "https://www.visitshkodra.com/"
+        },
+        {
+          "tip": "Shared vans (furgons) run to Theth and other alpine villages in season.",
+          "link": "https://www.visitshkodra.com/"
+        }
+      ],
+      "city_events": [
+        {
+          "name": "Shkodra Jazz Festival",
+          "season": "summer",
+          "description": "International jazz performances in historic settings.",
+          "website": "https://www.visitshkodra.com/",
+          "dates": "July"
+        }
+      ],
+      "places": [
+        {
+          "name": "Catholic Cathedral of St. Stephen",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=42.0702%2C19.5135",
+          "description": "One of the largest Catholic churches in the Balkans, reflecting Shkodër’s religious diversity."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "Buna River walks",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=42.0615%2C19.4910",
+          "description": "Quiet riverbanks away from the main center."
+        },
+        {
+          "name": "Early-morning lake shore",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=42.0890%2C19.4916",
+          "description": "Peaceful light and reflections before the city wakes."
+        }
+      ]
+    }
+    ,
+        {
+      "name": "Vlorë",
+      "interests": [
+        {
+          "name": "Vlorë Lungomare",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=40.4666%2C19.4897",
+          "description": "Modern seaside promenade with palm trees, cafés, beaches, and sunset views—main social zone of the city."
+        },
+        {
+          "name": "Independence Square (Sheshi i Pavarësisë)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=40.4661%2C19.4906",
+          "description": "Historic square where Albanian independence was declared in 1912, surrounded by museums and monuments."
+        },
+        {
+          "name": "Muradie Mosque",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=40.4690%2C19.4890",
+          "description": "Elegant Ottoman-era mosque designed by architect Sinan, located near the city center."
+        },
+        {
+          "name": "Zvernec Monastery",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=40.5506%2C19.4186",
+          "description": "13th-century monastery set on a small island in Narta Lagoon, connected by a wooden walkway."
+        },
+        {
+          "name": "Karaburun–Sazan Marine Park",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=40.4010%2C19.3710",
+          "description": "Protected marine area with wild beaches, caves, and crystal-clear water—accessible by boat."
+        }
+      ],
+      "local_food_tip": "Vlorë cuisine blends coastal and southern flavors: try grilled seafood, shrimp pasta, olive-oil–based dishes, and fresh salads. Local desserts are simple but generous.",
+      "full_day": {
+        "Morning": "Start with a walk along the <a href=\"https://www.google.com/maps/search/?api=1&query=40.4666%2C19.4897\" target=\"_blank\" rel=\"noopener\">Lungomare</a> ☀️, then visit <a href=\"https://www.google.com/maps/search/?api=1&query=40.4661%2C19.4906\" target=\"_blank\" rel=\"noopener\">Independence Square</a> 🇦🇱 and nearby museums.",
+        "Afternoon": "Take a boat trip to the <a href=\"https://www.google.com/maps/search/?api=1&query=40.4010%2C19.3710\" target=\"_blank\" rel=\"noopener\">Karaburun–Sazan Marine Park</a> 🚤 for swimming and exploration, or relax on a city beach if you prefer.",
+        "Sunset": "Return to the Lungomare 🌅 and enjoy sunset views over the Adriatic–Ionian meeting point.",
+        "Night": "Dinner by the sea 🍽️ followed by an evening stroll—Vlorë nights are lively but relaxed."
+      },
+      "seasons": {
+        "spring": {
+          "event": "Mild coastal spring",
+          "description": "Warm days, fresh air, and ideal conditions for sightseeing and lagoon visits.",
+          "ideas": [
+            {
+              "name": "Zvernec Monastery walk",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=40.5506%2C19.4186",
+              "description": "Peaceful nature and history combined."
+            },
+            {
+              "name": "City sightseeing",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=40.4661%2C19.4906",
+              "description": "Comfortable weather for walking."
+            },
+            {
+              "name": "Seaside cafés",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=40.4666%2C19.4897",
+              "description": "Sunny terraces without summer crowds."
+            }
+          ]
+        },
+        "summer": {
+          "event": "Peak beach & boat season",
+          "description": "Hot days, clear sea, and full beach life—Vlorë is a gateway to the Albanian Riviera.",
+          "ideas": [
+            {
+              "name": "Boat trips to Karaburun",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=40.4010%2C19.3710",
+              "description": "Best way to experience wild coastline."
+            },
+            {
+              "name": "City beaches",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=40.4680%2C19.4865",
+              "description": "Easy-access swimming spots."
+            },
+            {
+              "name": "Evening Lungomare life",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=40.4666%2C19.4897",
+              "description": "Music, ice cream, and long walks."
+            }
+          ]
+        },
+        "autumn": {
+          "event": "Late-summer calm",
+          "description": "Warm sea, fewer visitors, and excellent light—ideal for relaxed travel.",
+          "ideas": [
+            {
+              "name": "Swimming in September–October",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=40.4680%2C19.4865",
+              "description": "Sea remains warm."
+            },
+            {
+              "name": "Lagoon & nature visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=40.5506%2C19.4186",
+              "description": "Quiet, scenic surroundings."
+            },
+            {
+              "name": "Sunset photography",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=40.4666%2C19.4897",
+              "description": "Golden-hour coastal views."
+            }
+          ]
+        },
+        "winter": {
+          "event": "Quiet coastal city",
+          "description": "Calm streets, cooler air, and strong local café culture.",
+          "ideas": [
+            {
+              "name": "Historic center walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=40.4661%2C19.4906",
+              "description": "Uncrowded sightseeing."
+            },
+            {
+              "name": "Seaside cafés",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=40.4666%2C19.4897",
+              "description": "Relaxed local atmosphere."
+            },
+            {
+              "name": "Mosque & museum visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=40.4690%2C19.4890",
+              "description": "Cultural focus in cooler weather."
+            }
+          ]
+        }
+      },
+      "public_transport_tips": [
+        {
+          "tip": "Vlorë is well connected by buses with Tirana and southern Albania.",
+          "link": "https://www.e-albania.al/"
+        },
+        {
+          "tip": "Local buses and taxis reach beaches and the Lungomare easily.",
+          "link": "https://www.visitvlora.com/"
+        },
+        {
+          "tip": "Boat tours depart from the port during summer months.",
+          "link": "https://www.visitvlora.com/"
+        }
+      ],
+      "city_events": [
+        {
+          "name": "Independence Day Celebrations",
+          "season": "autumn",
+          "description": "National celebrations marking Albania’s independence, centered in Vlorë.",
+          "website": "https://www.visitvlora.com/",
+          "dates": "November 28"
+        }
+      ],
+      "places": [
+        {
+          "name": "Independence Museum",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=40.4649%2C19.4894",
+          "description": "Historic house where Albania’s declaration of independence was signed."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "Narta Lagoon viewpoints",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=40.5580%2C19.4200",
+          "description": "Quiet nature area with birds and wide skies."
+        },
+        {
+          "name": "Early-morning Lungomare",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=40.4666%2C19.4897",
+          "description": "Peaceful walks before the city wakes up."
+        }
+      ]
+    }
+
   ]
 }

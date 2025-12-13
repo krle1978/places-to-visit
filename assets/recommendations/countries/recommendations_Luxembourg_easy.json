@@ -2,685 +2,844 @@
   "name": "Luxembourg",
   "cities": [
     {
-      "name": "Luxembourg City",
+      "name": "Clervaux",
       "interests": [
         {
-          "name": "Old Town Culture 🎭",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=49.610012%2C6.131519",
-          "description": "Luxembourg’s Old Town is a UNESCO-listed blend of medieval streets, grand palaces, and elegant squares. Great for slow walks, cafés, and architecture lovers."
+          "name": "Clervaux Castle",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=50.0542%2C6.0303",
+          "description": "A hilltop castle overlooking the town, home to museums including the famous photography exhibition The Family of Man (UNESCO Memory of the World)."
         },
         {
-          "name": "Fortress Views 🏰",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=49.6118425%2C6.1355867",
-          "description": "The Corniche and fortress walls offer some of Europe’s most dramatic viewpoints — cliffs, walls, valleys and historic fortifications."
+          "name": "Clervaux Old Town",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=50.0546%2C6.0315",
+          "description": "A small, picturesque center with traditional houses, cafés, and views of the Clerve River."
         },
         {
-          "name": "Parks & Nature 🌿",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=49.6101725%2C6.1269171",
-          "description": "The lush Pétrusse Valley cuts through the city, offering peaceful escapes, walking paths, and beautiful greenery."
-        },
-        {
-          "name": "Riverside Walks 🌊",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=49.6091593%2C6.1383307",
-          "description": "The Grund district along the Alzette River is one of the most picturesque neighborhoods — perfect for sunsets, cafés and quiet walks."
-        },
-        {
-          "name": "Local Food Exploration 😋",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=49.6110787%2C6.1316863",
-          "description": "Luxembourgish cuisine blends French and German influences — expect potato dishes, soups, pastries and cozy cafés across the central squares."
+          "name": "Ardennes Nature & Hiking Trails",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=50.0600%2C6.0200",
+          "description": "Forested hills and valleys surrounding Clervaux, ideal for hiking and nature exploration in northern Luxembourg."
         }
       ],
-      "local_food_tip": "Luxembourgish potato dishes, soups, fresh breads, salads and pastries — jednostavno i preukusno.",
-      "full_day": "Morning: Explore <a href=\"https://www.google.com/maps/search/?api=1&query=49.6108447%2C6.1318024\" target=\"_blank\" rel=\"noopener\">Grand Ducal Palace</a> (exterior) → walk along <a href=\"https://www.google.com/maps/search/?api=1&query=49.6118425%2C6.1355867\" target=\"_blank\" rel=\"noopener\">The Corniche</a> for incredible views → coffee in <a href=\"https://www.google.com/maps/search/?api=1&query=49.6091593%2C6.1383307\" target=\"_blank\" rel=\"noopener\">the Grund</a>.\n\nAfternoon: Walk through <a href=\"https://www.google.com/maps/search/?api=1&query=49.6101725%2C6.1269171\" target=\"_blank\" rel=\"noopener\">Pétrusse Valley</a> → lunch near the city center → view the exterior of <a href=\"https://www.google.com/maps/search/?api=1&query=49.6201259%2C6.1397971\" target=\"_blank\" rel=\"noopener\">MUDAM Art Museum</a> → walk by the <a href=\"https://www.google.com/maps/search/?api=1&query=49.610694%2C6.1358336\" target=\"_blank\" rel=\"noopener\">Alzette riverside</a>.\n\nSunset: Fortress-wall viewpoints near <a href=\"https://www.google.com/maps/search/?api=1&query=49.6122888%2C6.1378396\" target=\"_blank\" rel=\"noopener\">Bock Casemates</a>.\n\nNight: Dessert cafés + night reflections in the Grund.",
+      "local_food_tip": "Try Luxembourgish classics like judd mat gaardebounen (smoked pork with beans) or enjoy regional cheeses at local restaurants.",
+      "full_day": {
+        "morning": "Begin at <a href=\"https://www.google.com/maps/search/?api=1&query=50.0542%2C6.0303\" target=\"_blank\" rel=\"noopener\">Clervaux Castle</a> 🏰, visiting the museums and enjoying panoramic views over the valley.",
+        "afternoon": "Walk down into <a href=\"https://www.google.com/maps/search/?api=1&query=50.0546%2C6.0315\" target=\"_blank\" rel=\"noopener\">Clervaux Old Town</a> ☕ for lunch and a relaxed stroll along the river.",
+        "sunset": "Take a short hike on nearby <a href=\"https://www.google.com/maps/search/?api=1&query=50.0600%2C6.0200\" target=\"_blank\" rel=\"noopener\">Ardennes trails</a> 🌄 as the light softens over the hills.",
+        "night": "Enjoy a quiet dinner in town 🍽️, where evenings are calm and cozy."
+      },
+      "seasons": {
+        "spring": {
+          "event": "Spring Hiking Season",
+          "description": "Spring brings fresh greenery and comfortable temperatures for outdoor walks.",
+          "ideas": [
+            {
+              "name": "Valley Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=50.0555%2C6.0280",
+              "description": "Gentle paths along the Clerve River."
+            },
+            {
+              "name": "Castle Views",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=50.0542%2C6.0303",
+              "description": "Clear spring light for photography."
+            },
+            {
+              "name": "Outdoor Cafés",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=50.0546%2C6.0315",
+              "description": "Terraces reopen in the old town."
+            }
+          ]
+        },
+        "summer": {
+          "event": "Local Summer Events",
+          "description": "Warm days and green forests make summer ideal for hiking and relaxation.",
+          "ideas": [
+            {
+              "name": "Forest Hikes",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=50.0620%2C6.0180",
+              "description": "Shaded trails in the Ardennes."
+            },
+            {
+              "name": "River Picnics",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=50.0555%2C6.0280",
+              "description": "Peaceful spots by the water."
+            },
+            {
+              "name": "Town Events",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=50.0546%2C6.0315",
+              "description": "Small-scale cultural gatherings."
+            }
+          ]
+        },
+        "autumn": {
+          "event": "Autumn Colors in the Ardennes",
+          "description": "Forests turn golden and red, creating the most scenic season.",
+          "ideas": [
+            {
+              "name": "Autumn Hikes",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=50.0600%2C6.0200",
+              "description": "Colorful trails around Clervaux."
+            },
+            {
+              "name": "Photography Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=50.0542%2C6.0303",
+              "description": "Striking views of the castle and valley."
+            },
+            {
+              "name": "Cozy Restaurants",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=50.0546%2C6.0315",
+              "description": "Hearty meals as temperatures cool."
+            }
+          ]
+        },
+        "winter": {
+          "event": "Christmas Atmosphere in Clervaux",
+          "description": "Winter is quiet and charming, sometimes snowy, with a festive feel.",
+          "ideas": [
+            {
+              "name": "Winter Castle Views",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=50.0542%2C6.0303",
+              "description": "Snow-dusted scenery around the castle."
+            },
+            {
+              "name": "Old Town Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=50.0546%2C6.0315",
+              "description": "Peaceful streets and decorations."
+            },
+            {
+              "name": "Indoor Museums",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=50.0542%2C6.0303",
+              "description": "Perfect for colder days."
+            }
+          ]
+        }
+      },
+      "public_transport_tips": [
+        {
+          "tip": "Trains connect Clervaux with Luxembourg City and northern towns.",
+          "link": "https://www.cfl.lu"
+        },
+        {
+          "tip": "Public transport in Luxembourg is free nationwide.",
+          "link": "https://www.mobiliteit.lu"
+        },
+        {
+          "tip": "The town center is compact and easy to explore on foot.",
+          "link": "https://www.clervaux.lu"
+        }
+      ],
+      "city_events": [
+        {
+          "name": "Local Summer Cultural Events",
+          "season": "Summer",
+          "description": "Small concerts and cultural gatherings held in and around the town.",
+          "website": "https://www.clervaux.lu",
+          "dates": "June–August (annual, variable)"
+        },
+        {
+          "name": "Christmas Events in Clervaux",
+          "season": "Winter",
+          "description": "Festive decorations and small seasonal markets.",
+          "website": "https://www.clervaux.lu",
+          "dates": "December (annual)"
+        }
+      ],
       "places": [
         {
-          "name": "Grand Ducal Palace",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.6108447%2C6.1318024",
-          "description": "The official residence of Luxembourg’s Grand Duke — elegant Renaissance façade and a central Old Town landmark."
+          "name": "Abbey of Saint-Maurice and Saint-Maur",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=50.0552%2C6.0330",
+          "description": "A Benedictine abbey overlooking the town, adding to Clervaux’s peaceful atmosphere."
         },
         {
-          "name": "The Corniche",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.6118425%2C6.1355867",
-          "description": "Called 'the most beautiful balcony of Europe' — dramatic views over the valley and fortifications."
-        },
-        {
-          "name": "Bock Casemates",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.6122888%2C6.1378396",
-          "description": "Historic underground tunnels carved into the rock — part of the old fortress system."
-        },
-        {
-          "name": "Pétrusse Valley",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.6101725%2C6.1269171",
-          "description": "A beautiful green valley with walking paths, bridges and city views from below."
-        },
-        {
-          "name": "MUDAM Luxembourg",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.6201259%2C6.1397971",
-          "description": "Modern art museum with sleek architecture and exhibitions."
-        },
-        {
-          "name": "Grund District",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.6091593%2C6.1383307",
-          "description": "A charming riverside village-feel neighborhood in the lower part of the city."
+          "name": "The Family of Man Exhibition",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=50.0542%2C6.0303",
+          "description": "A renowned photography exhibition housed inside Clervaux Castle."
         }
       ],
       "hidden_gems": [
         {
-          "name": "Chemin de la Corniche Lower Path",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.6118425%2C6.1355867",
-          "description": "A quieter, lower-level path beneath the main Corniche walkway — peaceful and scenic."
+          "name": "Clerve River Path",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=50.0555%2C6.0280",
+          "description": "A quiet riverside walk offering reflections of the castle and hills."
         },
         {
-          "name": "Neumünster Abbey Courtyard",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.6089042%2C6.1377867",
-          "description": "A cultural center in a historic abbey by the river — calm courtyards and beautiful architecture."
-        },
-        {
-          "name": "Pfaffenthal Panoramic Elevator",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.6180834%2C6.1351056",
-          "description": "A free glass elevator offering panoramic city views — especially stunning at sunset."
-        }
-      ],
-      "seasons": {
-        "spring": {
-          "event": "Spring in Luxembourg City",
-          "ideas": [
-            "🌸 Blossoms in <a href=\"https://www.google.com/maps/search/?api=1&query=49.6101725%2C6.1269171\">Pétrusse Valley</a>.",
-            "🚶 Old Town strolls near <a href=\"https://www.google.com/maps/search/?api=1&query=49.6108447%2C6.1318024\">Grand Ducal Palace</a>.",
-            "☕ Outdoor terraces in the <a href=\"https://www.google.com/maps/search/?api=1&query=49.6091593%2C6.1383307\">Grund</a>."
-          ]
-        },
-        "summer": {
-          "event": "Bright Summer",
-          "ideas": [
-            "🌿 Shaded valley walks in <a href=\"https://www.google.com/maps/search/?api=1&query=49.6101725%2C6.1269171\">Pétrusse Valley</a>.",
-            "🍦 Ice cream by the river in the <a href=\"https://www.google.com/maps/search/?api=1&query=49.6091593%2C6.1383307\">Grund</a>.",
-            "🌇 Golden fortress views near <a href=\"https://www.google.com/maps/search/?api=1&query=49.6118425%2C6.1355867\">The Corniche</a>."
-          ]
-        },
-        "autumn": {
-          "event": "Autumn Colors",
-          "ideas": [
-            "🍁 Red and gold tones across <a href=\"https://www.google.com/maps/search/?api=1&query=49.6101725%2C6.1269171\">Pétrusse Valley</a>.",
-            "🥧 Warm pastries near <a href=\"https://www.google.com/maps/search/?api=1&query=49.6110787%2C6.1316863\">Place Guillaume II</a>.",
-            "🎨 Museum afternoons around <a href=\"https://www.google.com/maps/search/?api=1&query=49.6201259%2C6.1397971\">MUDAM</a>."
-          ]
-        },
-        "winter": {
-          "event": "Winter Glow",
-          "ideas": [
-            "🎄 Christmas Market at <a href=\"https://www.google.com/maps/search/?api=1&query=49.6110787%2C6.1316863\">Place Guillaume II</a>.",
-            "🍫 Hot chocolate in Old Town cafés.",
-            "🚶 Quiet fortress walks near <a href=\"https://www.google.com/maps/search/?api=1&query=49.6122888%2C6.1378396\">Bock Casemates</a>."
-          ]
-        }
-      },
-      "public_transport_tips": [
-        {
-          "tip": "🚋 All public transport in Luxembourg is free — buses, trams and trains.",
-          "link": "https://www.mobiliteit.lu/en/"
-        },
-        {
-          "tip": "🚆 CFL trains connect the whole country quickly and comfortably.",
-          "link": "https://www.cfl.lu/en"
-        },
-        {
-          "tip": "🚶 Old Town and the Grund are fully walkable.",
-          "link": "https://www.google.com/maps/search/?api=1&query=Luxembourg%2BOld%2BTown"
-        },
-        {
-          "tip": "📱 Use the Mobiliteit app for routes, real-time departures and planning.",
-          "link": "https://www.mobiliteit.lu/en/app/"
-        }
-      ],
-      "city_events": [
-        {
-          "name": "Luxembourg Light Festival",
-          "season": "winter",
-          "description": "✨ Illuminated streets and large artistic light installations across the Old Town."
+          "name": "Panoramic Viewpoints Above Clervaux",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=50.0615%2C6.0250",
+          "description": "Less-visited viewpoints with wide views over the valley."
         }
       ]
     },
-    {
-      "name": "Differdange",
-      "interests": [
-        "Urban Culture 🎭",
-        "Parks 🌿",
-        "Calm Town Walks 🚶"
-      ],
-      "local_food_tip": "Simple hearty meals: soups, potatoes, salads and pastries.",
-      "full_day": "Morning: 🚶 Town center walk. → ☕ Café stop.\n\nAfternoon: 🌿 Parc Gerlache. → 🍽️ Light veggie lunch. → 🏛️ Exterior art corners.\n\nSunset: 🌅 Town viewpoints.\n\nNight: 🌃 Quiet streets & dessert spots.",
-      "seasons": {
-        "spring": {
-          "event": "Spring Light",
-          "ideas": [
-            "🌸 Flowers in parks",
-            "🚶 Easy walks",
-            "☕ Terraces"
-          ]
-        },
-        "summer": {
-          "event": "Summer Calm",
-          "ideas": [
-            "🌿 Park shade",
-            "🍦 Ice cream",
-            "🌇 Soft sunsets"
-          ]
-        },
-        "autumn": {
-          "event": "Autumn Mood",
-          "ideas": [
-            "🍁 Orange tones",
-            "🥧 Cafés",
-            "🎨 Small art spots"
-          ]
-        },
-        "winter": {
-          "event": "Winter Quiet",
-          "ideas": [
-            "❄️ Crisp air",
-            "🍫 Hot cocoa"
-          ]
-        }
-      },
-      "public_transport_tips": [
-        "🚌 Free buses",
-        "🚆 Rail connection to Luxembourg City"
-      ],
-      "city_events": [
-        {
-          "name": "Differdange Arts Day",
-          "season": "spring",
-          "description": "🎨 Local art exhibitions & open workshops."
-        }
-      ]
-    },
-    {
-      "name": "Differdange",
-      "interests": [
-        {
-          "name": "Urban Culture 🎭",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=49.5245739%2C5.8914053",
-          "description": "Differdange has a compact urban center with calm pedestrian streets, local culture, and small artistic corners."
-        },
-        {
-          "name": "Parks & Green Spaces 🌿",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=49.522961%2C5.8898924",
-          "description": "Parc Gerlache is one of the town’s most relaxing green areas with shaded paths and quiet viewpoints."
-        },
-        {
-          "name": "Calm Small-Town Walks 🚶",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=49.5245%2C5.8858",
-          "description": "Differdange is known for peaceful walks through residential streets, local cafés, and gentle hills."
-        }
-      ],
-      "local_food_tip": "Simple hearty meals: soups, potatoes, salads and pastries.",
-      "full_day": "Morning: Walk around the <a href=\"https://www.google.com/maps/search/?api=1&query=49.5245739%2C5.8914053\" target=\"_blank\" rel=\"noopener\">town center</a> → stop for coffee in a local café.\n\nAfternoon: Relax in <a href=\"https://www.google.com/maps/search/?api=1&query=49.522961%2C5.8898924\" target=\"_blank\" rel=\"noopener\">Parc Gerlache</a> → enjoy a light veggie lunch → explore small exterior art corners near <a href=\"https://www.google.com/maps/search/?api=1&query=49.5238242%2C5.8874993\" target=\"_blank\" rel=\"noopener\">Parc des Sports</a>.\n\nSunset: Soft golden light from <a href=\"https://www.google.com/maps/search/?api=1&query=49.5206513%2C5.8805684\" target=\"_blank\" rel=\"noopener\">Fousbann viewpoint area</a>.\n\nNight: Quiet stroll through town streets + dessert.",
-      "places": [
-        {
-          "name": "Differdange Town Hall",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.5245739%2C5.8914053",
-          "description": "Central landmark of Differdange, surrounded by cafés and calm pedestrian streets."
-        },
-        {
-          "name": "Parc Gerlache",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.522961%2C5.8898924",
-          "description": "A quiet park with forested corners, benches, and pleasant walking routes."
-        },
-        {
-          "name": "Parc des Sports",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.5238242%2C5.8874993",
-          "description": "Large open area for walks, sports, and relaxing afternoons."
-        },
-        {
-          "name": "136°5 Creative Hub",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.5239056%2C5.8925224",
-          "description": "A modern cultural and design space representing Differdange's artistic community."
-        },
-        {
-          "name": "Fousbann Quarter",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.5206513%2C5.8805684",
-          "description": "Hilly neighborhood offering peaceful viewpoints and evening walks."
-        }
-      ],
-      "hidden_gems": [
-        {
-          "name": "Old Railway Path",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.5224664%2C5.8915629",
-          "description": "A quiet walking route starting near the station — great for slow peaceful strolls."
-        },
-        {
-          "name": "Gradin Park Steps",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.522961%2C5.8898924",
-          "description": "Small stairways tucked into the green areas of Parc Gerlache — perfect for photography."
-        },
-        {
-          "name": "Creative Street Pop-Ups",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.5239056%2C5.8925224",
-          "description": "Occasional mini-art installations around the creative district near the town center."
-        }
-      ],
-      "seasons": {
-        "spring": {
-          "event": "Spring Light",
-          "ideas": [
-            "🌸 Flowers around <a href=\"https://www.google.com/maps/search/?api=1&query=49.522961%2C5.8898924\">Parc Gerlache</a>.",
-            "🚶 Easy walks near <a href=\"https://www.google.com/maps/search/?api=1&query=49.5245739%2C5.8914053\">Town Hall</a>.",
-            "☕ Terraces in the <a href=\"https://www.google.com/maps/search/?api=1&query=49.5245%2C5.8858\">town center</a>."
-          ]
-        },
-        "summer": {
-          "event": "Summer Calm",
-          "ideas": [
-            "🌿 Park shade in <a href=\"https://www.google.com/maps/search/?api=1&query=49.522961%2C5.8898924\">Parc Gerlache</a>.",
-            "🍦 Ice cream near <a href=\"https://www.google.com/maps/search/?api=1&query=49.5245739%2C5.8914053\">the central square</a>.",
-            "🌇 Soft sunsets from <a href=\"https://www.google.com/maps/search/?api=1&query=49.5206513%2C5.8805684\">Fousbann viewpoint</a>."
-          ]
-        },
-        "autumn": {
-          "event": "Autumn Mood",
-          "ideas": [
-            "🍁 Orange tones around <a href=\"https://www.google.com/maps/search/?api=1&query=49.522961%2C5.8898924\">Parc Gerlache</a>.",
-            "🥧 Warm cafés around <a href=\"https://www.google.com/maps/search/?api=1&query=49.5245739%2C5.8914053\">Town Hall</a>.",
-            "🎨 Small art spots near <a href=\"https://www.google.com/maps/search/?api=1&query=49.5239056%2C5.8925224\">136°5 Creative Hub</a>."
-          ]
-        },
-        "winter": {
-          "event": "Winter Quiet",
-          "ideas": [
-            "❄️ Crisp air along <a href=\"https://www.google.com/maps/search/?api=1&query=49.5245%2C5.8858\">town routes</a>.",
-            "🍫 Hot cocoa at cafés near <a href=\"https://www.google.com/maps/search/?api=1&query=49.5245739%2C5.8914053\">the center</a>."
-          ]
-        }
-      },
-      "public_transport_tips": [
-        {
-          "tip": "🚌 All local buses are free across Luxembourg, including Differdange.",
-          "link": "https://www.mobiliteit.lu/en/"
-        },
-        {
-          "tip": "🚆 Direct rail connection to Luxembourg City in 25–30 minutes.",
-          "link": "https://www.cfl.lu/en"
-        },
-        {
-          "tip": "🚶 The town center is compact and walkable.",
-          "link": "https://www.google.com/maps/search/?api=1&query=Differdange%2C%2BLuxembourg"
-        },
-        {
-          "tip": "📱 Mobiliteit app gives real-time bus & train info.",
-          "link": "https://www.mobiliteit.lu/en/app/"
-        }
-      ],
-      "city_events": [
-        {
-          "name": "Differdange Arts Day",
-          "season": "spring",
-          "description": "🎨 Local art exhibitions & open workshops."
-        }
-      ]
-    },
+
     {
       "name": "Echternach",
       "interests": [
         {
-          "name": "Lakes 🌊",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=49.8138379%2C6.4237812",
-          "description": "Echternach Lake is a peaceful recreation area with long walking paths, open views and calm lakeside cafés."
-        },
-        {
-          "name": "Nature Trails 🌿",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=49.7879934%2C6.3538738",
-          "description": "The Mullerthal region, known as Luxembourg’s 'Little Switzerland', offers forest trails, viewpoints and rock formations."
-        },
-        {
-          "name": "Old Town 🎭",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=49.8122861%2C6.4175647",
-          "description": "Echternach’s Old Town features narrow streets, historic squares, cafés and a peaceful medieval atmosphere."
-        }
-      ],
-      "local_food_tip": "Soups, salads, breads and simple local veggie meals.",
-      "full_day": "Morning: Walk around <a href=\"https://www.google.com/maps/search/?api=1&query=49.8138379%2C6.4237812\" target=\"_blank\" rel=\"noopener\">Echternach Lake</a> → coffee at a lakeside café.\n\nAfternoon: Explore viewpoints of the <a href=\"https://www.google.com/maps/search/?api=1&query=49.7879934%2C6.3538738\" target=\"_blank\" rel=\"noopener\">Mullerthal region</a> (exterior) → enjoy a light lunch → walk into <a href=\"https://www.google.com/maps/search/?api=1&query=49.8122861%2C6.4175647\" target=\"_blank\" rel=\"noopener\">Echternach Old Town</a>.\n\nSunset: Watch the colors over <a href=\"https://www.google.com/maps/search/?api=1&query=49.8138379%2C6.4237812\" target=\"_blank\" rel=\"noopener\">the lake</a>.\n\nNight: Cozy stroll through the Old Town lights.",
-      "places": [
-        {
-          "name": "Echternach Lake",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.8138379%2C6.4237812",
-          "description": "A beautiful recreational lake perfect for walking, relaxing and photography."
-        },
-        {
-          "name": "Mullerthal Region",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.7879934%2C6.3538738",
-          "description": "Luxembourg’s famous natural area with forest trails and scenic viewpoints."
+          "name": "Abbey of Echternach",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=49.8119%2C6.4226",
+          "description": "A historic Benedictine abbey founded in the 7th century, central to Echternach’s history and cultural life."
         },
         {
           "name": "Echternach Old Town",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.8122861%2C6.4175647",
-          "description": "Medieval center with narrow streets, cafés, and historic architecture."
+          "map_link": "https://www.google.com/maps/search/?api=1&query=49.8126%2C6.4220",
+          "description": "A charming historic center with pastel houses, small squares, cafés, and a relaxed border-town atmosphere."
         },
         {
-          "name": "Echternach Abbey",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.8117139%2C6.4194957",
-          "description": "One of Luxembourg’s most important historical and religious landmarks."
-        },
-        {
-          "name": "Basilica of St. Willibrord",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.8112378%2C6.4186023",
-          "description": "A stunning basilica dedicated to the city’s patron, known for its unique procession tradition."
+          "name": "Mullerthal Trail",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=49.8200%2C6.4300",
+          "description": "Part of the famous Mullerthal Region, offering rocky landscapes, forests, and hiking paths known as ‘Little Switzerland’."
         }
       ],
-      "hidden_gems": [
-        {
-          "name": "Wolfsschlucht (Wolf's Gorge)",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.8155925%2C6.3634826",
-          "description": "A dramatic narrow gorge in the Mullerthal with moss-covered rocks and magical forest atmosphere."
-        },
-        {
-          "name": "Wollefsschlucht Viewpoint Trail",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.8155925%2C6.3634826",
-          "description": "A peaceful walking area above the gorge offering quiet scenic viewpoints."
-        },
-        {
-          "name": "Small Riverside Walk",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.8196942%2C6.4306689",
-          "description": "A serene short riverside trail along the Sûre River."
-        }
-      ],
+      "local_food_tip": "Try Luxembourgish dishes like bouchée à la reine or enjoy regional pastries at cafés around the market square.",
+      "full_day": {
+        "morning": "Begin at the <a href=\"https://www.google.com/maps/search/?api=1&query=49.8119%2C6.4226\" target=\"_blank\" rel=\"noopener\">Abbey of Echternach</a> ⛪, exploring the basilica and learning about the town’s origins.",
+        "afternoon": "Stroll through <a href=\"https://www.google.com/maps/search/?api=1&query=49.8126%2C6.4220\" target=\"_blank\" rel=\"noopener\">Echternach Old Town</a> ☕ for lunch, then walk by the nearby lake and park area.",
+        "sunset": "Head toward the edge of town and start a short walk on the <a href=\"https://www.google.com/maps/search/?api=1&query=49.8200%2C6.4300\" target=\"_blank\" rel=\"noopener\">Mullerthal Trail</a> 🌄 as the landscape glows in evening light.",
+        "night": "Enjoy a quiet dinner in the old town 🍽️, where evenings are calm and welcoming."
+      },
       "seasons": {
         "spring": {
-          "event": "Spring Nature",
+          "event": "Dancing Procession of Echternach",
+          "description": "Spring is festive and symbolic, featuring Echternach’s most famous tradition recognized by UNESCO.",
           "ideas": [
-            "🌸 Flowers around <a href=\"https://www.google.com/maps/search/?api=1&query=49.8138379%2C6.4237812\">Echternach Lake</a>.",
-            "🚶 Forest walks in <a href=\"https://www.google.com/maps/search/?api=1&query=49.7879934%2C6.3538738\">Mullerthal</a>.",
-            "☕ Terraces in <a href=\"https://www.google.com/maps/search/?api=1&query=49.8122861%2C6.4175647\">Old Town</a>."
+            {
+              "name": "Procession Route",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.8120%2C6.4225",
+              "description": "Experience the unique hopping procession through town streets."
+            },
+            {
+              "name": "Town Square Cafés",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.8126%2C6.4220",
+              "description": "Lively atmosphere during spring events."
+            },
+            {
+              "name": "Lakeside Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.8105%2C6.4200",
+              "description": "Fresh greenery and mild weather."
+            }
           ]
         },
         "summer": {
-          "event": "Summer Lakeside",
+          "event": "Echternach Lake & Open-Air Events",
+          "description": "Summer is warm and active, ideal for hiking, swimming, and outdoor concerts.",
           "ideas": [
-            "🌊 Breezy walks at <a href=\"https://www.google.com/maps/search/?api=1&query=49.8138379%2C6.4237812\">the lake</a>.",
-            "🍉 Fruit stands around <a href=\"https://www.google.com/maps/search/?api=1&query=49.8122861%2C6.4175647\">town</a>.",
-            "🌇 Scenic sunsets by <a href=\"https://www.google.com/maps/search/?api=1&query=49.8138379%2C6.4237812\">the waterfront</a>."
+            {
+              "name": "Echternach Lake",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.8105%2C6.4200",
+              "description": "Swimming and relaxation near the town center."
+            },
+            {
+              "name": "Mullerthal Hiking",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.8200%2C6.4300",
+              "description": "Long daylight hours for nature walks."
+            },
+            {
+              "name": "Outdoor Concerts",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.8126%2C6.4220",
+              "description": "Seasonal cultural events in town."
+            }
           ]
         },
         "autumn": {
-          "event": "Golden Forests",
+          "event": "Autumn Colors in the Mullerthal",
+          "description": "Forests turn golden and red, making this the most scenic hiking season.",
           "ideas": [
-            "🍁 Autumn trails in <a href=\"https://www.google.com/maps/search/?api=1&query=49.7879934%2C6.3538738\">Mullerthal</a>.",
-            "🥧 Cozy cafés in <a href=\"https://www.google.com/maps/search/?api=1&query=49.8122861%2C6.4175647\">Old Town</a>.",
-            "🎨 Scenic photography spots near <a href=\"https://www.google.com/maps/search/?api=1&query=49.8155925%2C6.3634826\">Wolfsschlucht gorge</a>."
+            {
+              "name": "Forest Trails",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.8230%2C6.4350",
+              "description": "Colorful rock formations and paths."
+            },
+            {
+              "name": "Photography Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.8119%2C6.4226",
+              "description": "Abbey and town views in autumn light."
+            },
+            {
+              "name": "Cozy Restaurants",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.8126%2C6.4220",
+              "description": "Hearty meals as temperatures cool."
+            }
           ]
         },
         "winter": {
-          "event": "Winter Quiet",
+          "event": "Christmas Atmosphere in Echternach",
+          "description": "Winter is quiet and festive, sometimes snowy, with a cozy small-town feel.",
           "ideas": [
-            "❄️ Calm snowy lake at <a href=\"https://www.google.com/maps/search/?api=1&query=49.8138379%2C6.4237812\">Echternach Lake</a>.",
-            "🍫 Hot cocoa inside cafés in <a href=\"https://www.google.com/maps/search/?api=1&query=49.8122861%2C6.4175647\">the Old Town</a>."
+            {
+              "name": "Christmas Market Area",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.8126%2C6.4220",
+              "description": "Seasonal lights and stalls."
+            },
+            {
+              "name": "Abbey Interior Visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.8119%2C6.4226",
+              "description": "Warm and peaceful during cold days."
+            },
+            {
+              "name": "Winter Walks by the Lake",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.8105%2C6.4200",
+              "description": "Calm scenery and fresh air."
+            }
           ]
         }
       },
       "public_transport_tips": [
         {
-          "tip": "🚌 Free regional buses connect Echternach with Luxembourg City and nearby towns.",
-          "link": "https://www.mobiliteit.lu/en/"
+          "tip": "Buses connect Echternach with Luxembourg City and nearby towns.",
+          "link": "https://www.mobiliteit.lu"
         },
         {
-          "tip": "🚶 The lake and Old Town are fully walkable.",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.8122861%2C6.4175647"
+          "tip": "Public transport in Luxembourg is free nationwide.",
+          "link": "https://www.mobiliteit.lu"
         },
         {
-          "tip": "📱 Mobiliteit app provides real-time routes & bus schedules.",
-          "link": "https://www.mobiliteit.lu/en/app/"
+          "tip": "The town center and lake area are easy to explore on foot.",
+          "link": "https://www.echternach.lu"
         }
       ],
       "city_events": [
         {
-          "name": "Echternach Spring Procession",
-          "season": "spring",
-          "description": "🎵 UNESCO-listed traditional procession unique to Echternach."
+          "name": "Dancing Procession of Echternach",
+          "season": "Spring",
+          "description": "A unique religious procession where participants move rhythmically through the town.",
+          "website": "https://www.echternach.lu",
+          "dates": "Whit Tuesday (May–June, annual)"
+        },
+        {
+          "name": "Summer Open-Air Concerts",
+          "season": "Summer",
+          "description": "Small concerts and cultural events near the lake and town center.",
+          "website": "https://www.echternach.lu",
+          "dates": "June–August (annual)"
+        }
+      ],
+      "places": [
+        {
+          "name": "Echternach Lake",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=49.8105%2C6.4200",
+          "description": "A recreational area with swimming, walking paths, and open views."
+        },
+        {
+          "name": "Market Square",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=49.8126%2C6.4220",
+          "description": "The social heart of the town with cafés and events."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "Wolfsschlucht (Wolf Gorge)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=49.8250%2C6.4355",
+          "description": "A dramatic sandstone gorge on the Mullerthal Trail, often missed by casual visitors."
+        },
+        {
+          "name": "Roman Villa Remains",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=49.8145%2C6.4255",
+          "description": "Subtle archaeological traces revealing Echternach’s Roman past."
         }
       ]
     },
+
     {
       "name": "Esch-sur-Alzette",
       "interests": [
         {
-          "name": "Urban Culture 🎭",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=49.4976091%2C5.9804455",
-          "description": "Esch-sur-Alzette is Luxembourg’s second largest city, known for its multicultural character, vibrant streets, cafés, and artistic identity."
+          "name": "Belval Blast Furnaces",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=49.5009%2C5.9463",
+          "description": "Iconic former steel blast furnaces transformed into a landmark of modern architecture and industrial heritage."
         },
         {
-          "name": "Art & Museums 🎨",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=49.4981892%2C5.9804366",
-          "description": "The city is home to modern art spaces, industrial heritage museums, and the impressive cultural transformation of the Belval district."
+          "name": "Rockhal",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=49.5020%2C5.9475",
+          "description": "Luxembourg’s largest concert venue, hosting international music acts and cultural events."
         },
-        {
-          "name": "Parks 🌿",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=49.5010655%2C5.9765586",
-          "description": "Green parks and hillside viewpoints give Esch a calm and surprisingly natural atmosphere, perfect for walks and relaxing afternoons."
-        }
-      ],
-      "local_food_tip": "Light veggie meals: soups, salads, breads and pastries.",
-      "full_day": "Morning: Explore the <a href=\"https://www.google.com/maps/search/?api=1&query=49.4976091%2C5.9804455\" target=\"_blank\" rel=\"noopener\">Esch-sur-Alzette city center</a> → enjoy a café in the pedestrian zone.\n\nAfternoon: Head to the ultra-modern <a href=\"https://www.google.com/maps/search/?api=1&query=49.5047961%2C5.9462608\" target=\"_blank\" rel=\"noopener\">Belval district</a> for architecture views → have a light veggie lunch → relax at <a href=\"https://www.google.com/maps/search/?api=1&query=49.5010655%2C5.9765586\" target=\"_blank\" rel=\"noopener\">Gaalgebierg Park</a>.\n\nSunset: Enjoy golden-hour views around <a href=\"https://www.google.com/maps/search/?api=1&query=49.5047961%2C5.9462608\" target=\"_blank\" rel=\"noopener\">Belval</a>.\n\nNight: Walk through the illuminated modern district and its cafés.",
-      "places": [
         {
           "name": "Esch City Center",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.4976091%2C5.9804455",
-          "description": "A lively center filled with shops, cafés, and multicultural atmosphere."
-        },
-        {
-          "name": "Belval District",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.5047961%2C5.9462608",
-          "description": "A major redevelopment zone with modern architecture, university buildings, and striking industrial towers."
-        },
-        {
-          "name": "Blast Furnaces Belval",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.5049811%2C5.9440403",
-          "description": "Two restored steel blast furnaces transformed into a museum and viewpoint — a spectacular look into Luxembourg’s industrial past."
-        },
-        {
-          "name": "National Museum of the Resistance",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.4981892%2C5.9804366",
-          "description": "An important museum dedicated to WWII history and Luxembourg’s resistance movement."
-        },
-        {
-          "name": "Parc du Gaalgebierg",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.5010655%2C5.9765586",
-          "description": "A hilltop park with gardens, trails, and peaceful city views."
+          "map_link": "https://www.google.com/maps/search/?api=1&query=49.4958%2C5.9806",
+          "description": "A lively urban center with shops, cafés, cultural institutions, and a strong student presence."
         }
       ],
-      "hidden_gems": [
-        {
-          "name": "Belval Panorama Walkway",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.5049811%2C5.9440403",
-          "description": "A lesser-known elevated walkway offering impressive views over the steel towers and modern district."
-        },
-        {
-          "name": "Cultural Square (Place des Hauts Fourneaux)",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.5046142%2C5.9444158",
-          "description": "A quiet cultural plaza between industrial monuments and futuristic architecture."
-        },
-        {
-          "name": "Gaalgebierg Rock Gardens",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.5010655%2C5.9765586",
-          "description": "Hidden among the park’s paths — peaceful rock gardens and forest corners ideal for calm moments."
-        }
-      ],
+      "local_food_tip": "Try Luxembourgish classics like gromperekichelcher (potato fritters) or enjoy multicultural cuisine reflecting Esch’s diverse community.",
+      "full_day": {
+        "morning": "Start at the <a href=\"https://www.google.com/maps/search/?api=1&query=49.5009%2C5.9463\" target=\"_blank\" rel=\"noopener\">Belval Blast Furnaces</a> 🏭, walking the elevated paths to understand the city’s industrial past.",
+        "afternoon": "Have lunch in <a href=\"https://www.google.com/maps/search/?api=1&query=49.5020%2C5.9475\" target=\"_blank\" rel=\"noopener\">Belval Plaza</a> 🍽️, then explore the modern university district.",
+        "sunset": "Return to <a href=\"https://www.google.com/maps/search/?api=1&query=49.4958%2C5.9806\" target=\"_blank\" rel=\"noopener\">Esch City Center</a> 🌇 for a relaxed walk as the streets become lively.",
+        "night": "Attend a concert or event at <a href=\"https://www.google.com/maps/search/?api=1&query=49.5020%2C5.9475\" target=\"_blank\" rel=\"noopener\">Rockhal</a> 🎶 or enjoy dinner in the center."
+      },
       "seasons": {
         "spring": {
-          "event": "Spring Start",
+          "event": "Urban Cultural Openings",
+          "description": "Spring brings outdoor events, markets, and renewed energy to public spaces.",
           "ideas": [
-            "🌸 Flowers in <a href=\"https://www.google.com/maps/search/?api=1&query=49.5010655%2C5.9765586\">Gaalgebierg Park</a>.",
-            "🚶 Easy walks around <a href=\"https://www.google.com/maps/search/?api=1&query=49.5047961%2C5.9462608\">Belval</a>.",
-            "☕ Terrace cafés in <a href=\"https://www.google.com/maps/search/?api=1&query=49.4976091%2C5.9804455\">city center</a>."
+            {
+              "name": "City Park Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.4945%2C5.9790",
+              "description": "Green areas around the city center."
+            },
+            {
+              "name": "Belval Outdoor Spaces",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.5015%2C5.9468",
+              "description": "Open plazas and modern architecture."
+            },
+            {
+              "name": "Café Terraces",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.4958%2C5.9806",
+              "description": "Outdoor seating returns across the city."
+            }
           ]
         },
         "summer": {
-          "event": "Urban Summer",
+          "event": "Open-Air Concert Season",
+          "description": "Summer is lively with music, festivals, and open-air events.",
           "ideas": [
-            "🌞 Long evenings in <a href=\"https://www.google.com/maps/search/?api=1&query=49.5047961%2C5.9462608\">Belval</a>.",
-            "🍦 Ice cream in <a href=\"https://www.google.com/maps/search/?api=1&query=49.4976091%2C5.9804455\">Esch center</a>.",
-            "🌇 Modern sunsets among the blast furnaces."
+            {
+              "name": "Rockhal Summer Events",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.5020%2C5.9475",
+              "description": "Concerts and festivals indoors and outdoors."
+            },
+            {
+              "name": "Belval Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.5009%2C5.9463",
+              "description": "Evening walks among illuminated furnaces."
+            },
+            {
+              "name": "Day Trips Nearby",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.4580%2C5.8610",
+              "description": "Easy access to nature and border regions."
+            }
           ]
         },
         "autumn": {
-          "event": "Autumn Colors",
+          "event": "Cultural Season Opening",
+          "description": "Cooler weather brings exhibitions, concerts, and cultural programs.",
           "ideas": [
-            "🍁 Falling leaves in <a href=\"https://www.google.com/maps/search/?api=1&query=49.5010655%2C5.9765586\">Gaalgebierg Park</a>.",
-            "🥧 Warm cafés around town.",
-            "🎨 Gallery visits in the cultural district."
+            {
+              "name": "Museum Visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.4970%2C5.9795",
+              "description": "Indoor culture across the city."
+            },
+            {
+              "name": "Urban Photography",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.5009%2C5.9463",
+              "description": "Strong contrasts between old and new architecture."
+            },
+            {
+              "name": "Local Restaurants",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.4958%2C5.9806",
+              "description": "Seasonal menus in the city center."
+            }
           ]
         },
         "winter": {
-          "event": "Winter Glow",
+          "event": "Winter Lights & Indoor Events",
+          "description": "Winter is calm, focused on concerts, exhibitions, and cozy cafés.",
           "ideas": [
-            "🎄 Festive lights in <a href=\"https://www.google.com/maps/search/?api=1&query=49.4976091%2C5.9804455\">the city center</a>.",
-            "🍫 Hot cocoa in Belval cafés."
+            {
+              "name": "Rockhal Indoor Concerts",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.5020%2C5.9475",
+              "description": "Major winter music events."
+            },
+            {
+              "name": "City Center Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.4958%2C5.9806",
+              "description": "Festive lights and quiet streets."
+            },
+            {
+              "name": "Indoor Cafés",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.4965%2C5.9810",
+              "description": "Warm spots during colder days."
+            }
           ]
         }
       },
       "public_transport_tips": [
         {
-          "tip": "🚆 Direct trains connect Esch-sur-Alzette to Luxembourg City frequently.",
-          "link": "https://www.mobiliteit.lu/en/"
+          "tip": "Trains connect Esch-sur-Alzette with Luxembourg City and the south.",
+          "link": "https://www.cfl.lu"
         },
         {
-          "tip": "🚌 Local and regional buses are free throughout Luxembourg.",
-          "link": "https://www.mobiliteit.lu/en/timetables/"
+          "tip": "Public transport in Luxembourg is free nationwide.",
+          "link": "https://www.mobiliteit.lu"
         },
         {
-          "tip": "🚶 Many parts of the city center and Belval are walkable.",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.4976091%2C5.9804455"
-        },
-        {
-          "tip": "📱 Mobiliteit app provides live schedules and route planning.",
-          "link": "https://www.mobiliteit.lu/en/app/"
+          "tip": "Buses connect Esch with Belval and neighboring towns.",
+          "link": "https://www.tice.lu"
         }
       ],
       "city_events": [
         {
-          "name": "Esch Music Festival",
-          "season": "summer",
-          "description": "🎶 Open-air concerts & youth-friendly shows."
+          "name": "Concerts at Rockhal",
+          "season": "All year",
+          "description": "International and local artists perform regularly.",
+          "website": "https://rockhal.lu",
+          "dates": "Year-round (variable)"
+        },
+        {
+          "name": "Local Cultural Festivals",
+          "season": "Summer",
+          "description": "Urban festivals celebrating music, art, and community life.",
+          "website": "https://www.esch.lu",
+          "dates": "June–September (annual, variable)"
+        }
+      ],
+      "places": [
+        {
+          "name": "Belval University Campus",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=49.5028%2C5.9460",
+          "description": "A modern campus blending education, culture, and industrial heritage."
+        },
+        {
+          "name": "Municipal Theatre of Esch",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=49.4963%2C5.9798",
+          "description": "A cultural venue hosting plays, concerts, and performances."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "Gaalgebierg Park",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=49.4880%2C5.9815",
+          "description": "A large park with forest paths and viewpoints above the city."
+        },
+        {
+          "name": "Minett Trail Access Points",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=49.4930%2C5.9600",
+          "description": "Hiking paths through the former mining landscapes of southern Luxembourg."
         }
       ]
     },
+
     {
-      "name": "Ettelbruck",
+      "name": "Luxembourg City",
       "interests": [
         {
-          "name": "Riverside 🌊",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=49.8489647%2C6.0956964",
-          "description": "Ettelbruck sits at the meeting of Sauer and Alzette rivers, offering peaceful riverside walks and calm natural corners."
+          "name": "Old Town & Fortifications",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=49.6116%2C6.1319",
+          "description": "A UNESCO World Heritage Site featuring medieval streets, historic squares, and remnants of powerful fortifications."
         },
         {
-          "name": "Nature 🌿",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=49.8448932%2C6.1016757",
-          "description": "The town is surrounded by gentle hills, parks, and quiet green areas ideal for walking, relaxing, and enjoying fresh air."
+          "name": "Casemates du Bock",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=49.6124%2C6.1326",
+          "description": "Underground tunnels carved into rock cliffs, offering insight into the city’s defensive history."
         },
         {
-          "name": "Calm Streets 🎭",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=49.8474787%2C6.1047433",
-          "description": "A small, peaceful center with local cafés, bakeries, and simple Luxembourgish town charm."
+          "name": "Grund District",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=49.6098%2C6.1310",
+          "description": "A picturesque riverside neighborhood below the Old Town with cobblestones, cafés, and calm atmosphere."
         }
       ],
-      "local_food_tip": "Warm soups, salads, breads and pastries — jednostavno i fino.",
-      "full_day": "Morning: Start with a walk along the <a href=\"https://www.google.com/maps/search/?api=1&query=49.8489647%2C6.0956964\" target=\"_blank\" rel=\"noopener\">Sauer Riverside</a> → enjoy coffee in the center.\n\nAfternoon: Relax in <a href=\"https://www.google.com/maps/search/?api=1&query=49.8448932%2C6.1016757\" target=\"_blank\" rel=\"noopener\">Parc Halen</a> → veggie lunch nearby → explore <a href=\"https://www.google.com/maps/search/?api=1&query=49.8474787%2C6.1047433\" target=\"_blank\" rel=\"noopener\">old streets of Ettelbruck</a>.\n\nSunset: Peaceful colors along the <a href=\"https://www.google.com/maps/search/?api=1&query=49.8489647%2C6.0956964\" target=\"_blank\" rel=\"noopener\">riverside</a>.\n\nNight: Quiet town lights and dessert cafés.",
-      "places": [
-        {
-          "name": "Sauer Riverside",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.8489647%2C6.0956964",
-          "description": "A peaceful walking path along the Sauer River, ideal for morning and sunset walks."
-        },
-        {
-          "name": "Parc Halen",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.8448932%2C6.1016757",
-          "description": "A calm central park with trees, grass areas, and relaxing walking routes."
-        },
-        {
-          "name": "Ettelbruck Town Center",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.8474787%2C6.1047433",
-          "description": "A compact historic center with cafés, bakeries, small shops, and quiet town life."
-        },
-        {
-          "name": "General Patton Memorial Museum",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.8456977%2C6.1009344",
-          "description": "A museum dedicated to WWII history and General Patton, located near the town center."
-        }
-      ],
-      "hidden_gems": [
-        {
-          "name": "Quiet Sauer Bend Viewpoint",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.8489647%2C6.0956964",
-          "description": "A serene riverside viewpoint perfect for photography and peaceful moments."
-        },
-        {
-          "name": "Halen Riverside Bridge Path",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.8448932%2C6.1016757",
-          "description": "A lesser-known small walking area with trees and river views."
-        },
-        {
-          "name": "Old Town Back Streets",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.8474787%2C6.1047433",
-          "description": "Small quiet back streets offering authentic small-town character."
-        }
-      ],
+      "local_food_tip": "Try gromperekichelcher (crispy potato fritters) or enjoy Luxembourgish dishes like judd mat gaardebounen in traditional restaurants.",
+      "full_day": {
+        "morning": "Begin in the <a href=\"https://www.google.com/maps/search/?api=1&query=49.6116%2C6.1319\" target=\"_blank\" rel=\"noopener\">Old Town</a> 🏰, exploring Place Guillaume II and Notre-Dame Cathedral.",
+        "afternoon": "Visit the <a href=\"https://www.google.com/maps/search/?api=1&query=49.6124%2C6.1326\" target=\"_blank\" rel=\"noopener\">Casemates du Bock</a> 🕳️, then enjoy lunch nearby overlooking the valleys.",
+        "sunset": "Walk down to the <a href=\"https://www.google.com/maps/search/?api=1&query=49.6098%2C6.1310\" target=\"_blank\" rel=\"noopener\">Grund District</a> 🌅 for river views and historic charm.",
+        "night": "Have dinner in Grund or the city center 🍽️, followed by a relaxed evening stroll across illuminated bridges."
+      },
       "seasons": {
         "spring": {
-          "event": "Spring Calm",
+          "event": "Spring Cultural Openings",
+          "description": "Spring brings blooming parks, outdoor events, and pleasant sightseeing weather.",
           "ideas": [
-            "🌸 Flowers along <a href=\"https://www.google.com/maps/search/?api=1&query=49.8489647%2C6.0956964\">the Sauer River</a>.",
-            "🚶 Easy walks in <a href=\"https://www.google.com/maps/search/?api=1&query=49.8448932%2C6.1016757\">Parc Halen</a>.",
-            "☕ Café terraces in the center."
+            {
+              "name": "Pétrusse Valley Park",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.6085%2C6.1285",
+              "description": "Green walking paths below the city walls."
+            },
+            {
+              "name": "Old Town Walking Tours",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.6116%2C6.1319",
+              "description": "Ideal temperatures for exploration."
+            },
+            {
+              "name": "Outdoor Cafés",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.6110%2C6.1298",
+              "description": "Terraces reopen across the city."
+            }
           ]
         },
         "summer": {
-          "event": "Summer Freshness",
+          "event": "Summer in the City",
+          "description": "Long daylight hours, festivals, and open-air events animate Luxembourg City.",
           "ideas": [
-            "🌊 Riverside breeze near <a href=\"https://www.google.com/maps/search/?api=1&query=49.8489647%2C6.0956964\">the river</a>.",
-            "🍦 Ice cream in <a href=\"https://www.google.com/maps/search/?api=1&query=49.8474787%2C6.1047433\">the town center</a>.",
-            "🌇 Warm sunset colors over the valley."
+            {
+              "name": "Grund Riverside Evenings",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.6098%2C6.1310",
+              "description": "Lively yet relaxed summer nights."
+            },
+            {
+              "name": "Open-Air Concerts",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.6150%2C6.1270",
+              "description": "Music events in parks and squares."
+            },
+            {
+              "name": "Day Trips Nearby",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.6850%2C6.4350",
+              "description": "Easy access to Mullerthal and Moselle regions."
+            }
           ]
         },
         "autumn": {
-          "event": "Golden Ettelbruck",
+          "event": "Autumn Cultural Season",
+          "description": "Cooler air and colorful valleys create a calm and cultural atmosphere.",
           "ideas": [
-            "🍁 Colorful leaves in <a href=\"https://www.google.com/maps/search/?api=1&query=49.8448932%2C6.1016757\">Parc Halen</a>.",
-            "🥧 Warm pastries in local cafés.",
-            "🎨 Small art corners around town."
+            {
+              "name": "Museum Visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.6190%2C6.1320",
+              "description": "Ideal season for indoor exhibitions."
+            },
+            {
+              "name": "Valley Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.6085%2C6.1285",
+              "description": "Autumn colors in the city’s green spaces."
+            },
+            {
+              "name": "Local Restaurants",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.6116%2C6.1319",
+              "description": "Seasonal Luxembourgish cuisine."
+            }
           ]
         },
         "winter": {
-          "event": "Winter Town",
+          "event": "Winterlights Festival",
+          "description": "Winter is festive with Christmas markets, lights, and a cozy Old Town feel.",
           "ideas": [
-            "❄️ Snowy paths along <a href=\"https://www.google.com/maps/search/?api=1&query=49.8489647%2C6.0956964\">the Sauer River</a>.",
-            "🍫 Hot drinks in cozy cafés."
+            {
+              "name": "Christmas Market Areas",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.6110%2C6.1298",
+              "description": "Seasonal stalls and decorations."
+            },
+            {
+              "name": "Historic Churches",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.6108%2C6.1329",
+              "description": "Quiet and atmospheric in winter."
+            },
+            {
+              "name": "Cozy Cafés",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.6120%2C6.1305",
+              "description": "Warm drinks during cold days."
+            }
           ]
         }
       },
       "public_transport_tips": [
         {
-          "tip": "🚆 Ettelbruck is a major rail hub for northern Luxembourg — trains are free nationwide.",
-          "link": "https://www.mobiliteit.lu/en/"
+          "tip": "Public transport in Luxembourg is free nationwide.",
+          "link": "https://www.mobiliteit.lu"
         },
         {
-          "tip": "🚌 Free local and regional buses connect the town with nearby villages.",
-          "link": "https://www.mobiliteit.lu/en/timetables/"
+          "tip": "Buses and trams cover the city efficiently.",
+          "link": "https://www.vdl.lu"
         },
         {
-          "tip": "🚶 The town center and riverside area are fully walkable.",
-          "link": "https://www.google.com/maps/search/?api=1&query=49.8474787%2C6.1047433"
-        },
-        {
-          "tip": "📱 Use the Mobiliteit app for real-time schedules.",
-          "link": "https://www.mobiliteit.lu/en/app/"
+          "tip": "The city center and Old Town are best explored on foot.",
+          "link": "https://www.luxembourg-city.com"
         }
       ],
       "city_events": [
         {
-          "name": "Ettelbruck Summer Festival",
-          "season": "summer",
-          "description": "🎉 Music, food & open-air activities."
+          "name": "Winterlights Festival",
+          "season": "Winter",
+          "description": "Christmas markets, lights, and festive events across the city.",
+          "website": "https://www.vdl.lu",
+          "dates": "November–January (annual)"
+        },
+        {
+          "name": "Summer in the City",
+          "season": "Summer",
+          "description": "Open-air concerts and cultural events throughout Luxembourg City.",
+          "website": "https://www.vdl.lu",
+          "dates": "June–September (annual)"
+        }
+      ],
+      "places": [
+        {
+          "name": "Notre-Dame Cathedral",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=49.6108%2C6.1329",
+          "description": "A Gothic-Renaissance cathedral and one of the city’s most important landmarks."
+        },
+        {
+          "name": "Grand Ducal Palace",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=49.6113%2C6.1302",
+          "description": "The official residence of the Grand Duke, located in the Old Town."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "Chemin de la Corniche",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=49.6126%2C6.1342",
+          "description": "Known as Europe’s most beautiful balcony, offering panoramic views over the Grund."
+        },
+        {
+          "name": "Pfaffenthal Panoramic Elevator",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=49.6202%2C6.1326",
+          "description": "A modern elevator connecting upper city areas with the Pfaffenthal district."
+        }
+      ]
+    },
+
+    {
+      "name": "Vianden",
+      "interests": [
+        {
+          "name": "Vianden Castle",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=49.9349%2C6.2056",
+          "description": "One of Europe’s most impressive medieval castles, dramatically perched above the town and the Our River."
+        },
+        {
+          "name": "Vianden Old Town",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=49.9340%2C6.2050",
+          "description": "A picturesque riverside town with narrow streets, pastel houses, cafés, and small museums."
+        },
+        {
+          "name": "Our River Walks",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=49.9330%2C6.2065",
+          "description": "Peaceful walking paths along the river offering classic views of the castle and town."
+        }
+      ],
+      "local_food_tip": "Try Luxembourgish dishes like gromperekichelcher or enjoy regional meat dishes at traditional restaurants near the river.",
+      "full_day": {
+        "morning": "Start with a visit to <a href=\"https://www.google.com/maps/search/?api=1&query=49.9349%2C6.2056\" target=\"_blank\" rel=\"noopener\">Vianden Castle</a> 🏰, exploring its halls and panoramic terraces.",
+        "afternoon": "Walk down into <a href=\"https://www.google.com/maps/search/?api=1&query=49.9340%2C6.2050\" target=\"_blank\" rel=\"noopener\">Vianden Old Town</a> ☕ for lunch and a relaxed stroll by the river.",
+        "sunset": "Take a gentle walk along the <a href=\"https://www.google.com/maps/search/?api=1&query=49.9330%2C6.2065\" target=\"_blank\" rel=\"noopener\">Our River</a> 🌅 as the castle lights begin to glow.",
+        "night": "Enjoy a quiet dinner in town 🍽️, where evenings are calm and atmospheric."
+      },
+      "seasons": {
+        "spring": {
+          "event": "Spring Castle Season Opening",
+          "description": "Spring brings fresh greenery and comfortable weather for exploring the hills.",
+          "ideas": [
+            {
+              "name": "Castle Hill Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.9355%2C6.2035",
+              "description": "Blooming landscapes around the fortress."
+            },
+            {
+              "name": "Old Town Cafés",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.9340%2C6.2050",
+              "description": "Outdoor seating returns."
+            },
+            {
+              "name": "Riverbank Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.9330%2C6.2065",
+              "description": "Fresh air and mild temperatures."
+            }
+          ]
+        },
+        "summer": {
+          "event": "Medieval Festival at Vianden Castle",
+          "description": "Summer is lively with festivals, long daylight hours, and outdoor activities.",
+          "ideas": [
+            {
+              "name": "Castle Festival Events",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.9349%2C6.2056",
+              "description": "Costumes, music, and medieval atmosphere."
+            },
+            {
+              "name": "Chairlift Ride",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.9359%2C6.2072",
+              "description": "Scenic views over Vianden and the valley."
+            },
+            {
+              "name": "Outdoor Terraces",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.9340%2C6.2050",
+              "description": "Enjoy meals outside in warm weather."
+            }
+          ]
+        },
+        "autumn": {
+          "event": "Autumn Colors in the Our Valley",
+          "description": "Forests turn golden and red, making this one of the most beautiful seasons.",
+          "ideas": [
+            {
+              "name": "Hiking Trails",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.9380%2C6.2000",
+              "description": "Colorful woodland paths."
+            },
+            {
+              "name": "Photography Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.9349%2C6.2056",
+              "description": "Castle views framed by autumn leaves."
+            },
+            {
+              "name": "Cozy Restaurants",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.9340%2C6.2050",
+              "description": "Hearty meals as temperatures cool."
+            }
+          ]
+        },
+        "winter": {
+          "event": "Winter Calm in Vianden",
+          "description": "Winter is quiet and atmospheric, sometimes snowy, with fewer visitors.",
+          "ideas": [
+            {
+              "name": "Snowy Castle Views",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.9349%2C6.2056",
+              "description": "A fairytale winter scene."
+            },
+            {
+              "name": "Old Town Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.9340%2C6.2050",
+              "description": "Peaceful streets and river views."
+            },
+            {
+              "name": "Indoor Museums",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=49.9338%2C6.2045",
+              "description": "Learn about local history on cold days."
+            }
+          ]
+        }
+      },
+      "public_transport_tips": [
+        {
+          "tip": "Buses connect Vianden with Ettelbruck and other northern towns.",
+          "link": "https://www.mobiliteit.lu"
+        },
+        {
+          "tip": "Public transport in Luxembourg is free nationwide.",
+          "link": "https://www.mobiliteit.lu"
+        },
+        {
+          "tip": "The town center is compact and best explored on foot.",
+          "link": "https://www.vianden.lu"
+        }
+      ],
+      "city_events": [
+        {
+          "name": "Medieval Festival at Vianden Castle",
+          "season": "Summer",
+          "description": "A popular festival recreating medieval life with performances and markets.",
+          "website": "https://www.castle-vianden.lu",
+          "dates": "July–August (annual, selected weekends)"
+        },
+        {
+          "name": "Vianden Nut Market",
+          "season": "Autumn",
+          "description": "A traditional market celebrating local products and autumn harvest.",
+          "website": "https://www.vianden.lu",
+          "dates": "October (annual)"
+        }
+      ],
+      "places": [
+        {
+          "name": "Victor Hugo Museum",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=49.9338%2C6.2045",
+          "description": "The former residence of Victor Hugo, now a museum dedicated to his life and work."
+        },
+        {
+          "name": "Vianden Chairlift",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=49.9359%2C6.2072",
+          "description": "A chairlift offering panoramic views over the town and valley."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "High Viewpoints Above Vianden",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=49.9390%2C6.2015",
+          "description": "Quiet lookout points with sweeping valley views."
+        },
+        {
+          "name": "Our Valley Hiking Paths",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=49.9385%2C6.1985",
+          "description": "Less-used trails for peaceful nature walks."
         }
       ]
     }
+
   ]
 }

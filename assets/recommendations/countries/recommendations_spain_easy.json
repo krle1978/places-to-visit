@@ -4,679 +4,1010 @@
     {
       "name": "Barcelona",
       "interests": [
-        "Architecture & Landmarks 🏛️",
-        "Seaside & Relaxing Walks 🌊",
-        "Art & Museums 🎨"
+        {
+          "name": "Sagrada Família",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=41.4036%2C2.1744",
+          "description": "Antoni Gaudí’s unfinished masterpiece and Barcelona’s most iconic landmark, blending Gothic and Art Nouveau styles."
+        },
+        {
+          "name": "La Rambla",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=41.3809%2C2.1737",
+          "description": "A lively pedestrian boulevard connecting Plaça de Catalunya with the waterfront, full of street life and cafés."
+        },
+        {
+          "name": "Park Güell",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=41.4145%2C2.1527",
+          "description": "A colorful hillside park designed by Gaudí, offering panoramic views over the city."
+        }
       ],
-      "local_food_tip": "Tapas, tortilla, veggie paella, patatas bravas, pastries and lots of Mediterranean vegetarian-friendly dishes.",
-      "full_day": "Morning: ⛪ Sagrada Família (Exterior): Gaudí’s dreamlike basilica with surreal towers. → 🌴 Passeig de Gràcia: Modernist buildings and elegant boulevard vibes. → 🏠 Casa Batlló (Exterior): Vibrant and wavy Gaudí façade. → ☕ Eixample Café. \n\nAfternoon: 🏰 Gothic Quarter: Medieval alleys and tiny plazas. → 🌿 Parc de la Ciutadella: Green paths, lake and palm trees. → 🍽️ Tapas Lunch: Veggie paella, tortilla, patatas bravas. → 🎨 El Born Galleries.\n\nSunset: 🌅 Barceloneta Beach: Soft golden-hour light.\n\nNight: 🌃 Port Vell Marina: Gelato stands, calm walkway, waterfront reflections.",
+      "local_food_tip": "Try tapas classics like patatas bravas, pan con tomate, fresh seafood, and paella, paired with local cava.",
+      "full_day": {
+        "morning": "Start with a visit to the breathtaking <a href=\"https://www.google.com/maps/search/?api=1&query=41.4036%2C2.1744\" target=\"_blank\" rel=\"noopener\">Sagrada Família</a> ☀️ to admire its unique architecture.",
+        "afternoon": "Walk along <a href=\"https://www.google.com/maps/search/?api=1&query=41.3809%2C2.1737\" target=\"_blank\" rel=\"noopener\">La Rambla</a> ☕ and explore the nearby Gothic Quarter for lunch.",
+        "sunset": "Head to <a href=\"https://www.google.com/maps/search/?api=1&query=41.4145%2C2.1527\" target=\"_blank\" rel=\"noopener\">Park Güell</a> 🌅 for city views as the sun goes down.",
+        "night": "Enjoy dinner 🍽️ in El Born or Barceloneta and experience Barcelona’s vibrant evening atmosphere."
+      },
       "seasons": {
         "spring": {
-          "event": "Spring in Barcelona",
+          "event": "Sant Jordi’s Day",
+          "description": "A romantic cultural celebration with books and roses filling the streets.",
           "ideas": [
-            "🌸 Parc de la Ciutadella blossoms",
-            "🚶‍♂️ Gothic Quarter morning walks",
-            "☕ Sunlit outdoor terraces"
+            {
+              "name": "Old Town Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=41.3835%2C2.1760",
+              "description": "Comfortable weather for exploring historic neighborhoods."
+            },
+            {
+              "name": "City Parks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=41.3865%2C2.1650",
+              "description": "Green spaces in bloom."
+            },
+            {
+              "name": "Outdoor Cafés",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=41.3815%2C2.1685",
+              "description": "Terraces reopen across the city."
+            }
           ]
         },
         "summer": {
-          "event": "Summer Atmosphere",
+          "event": "Festival Grec",
+          "description": "Open-air theatre, dance, and music performances throughout the city.",
           "ideas": [
-            "🌊 Barceloneta evenings",
-            "🍦 Gelato in El Born",
-            "🌴 Palm-tree boulevards"
+            {
+              "name": "Beach Time",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=41.3780%2C2.1895",
+              "description": "Relaxing at Barceloneta Beach."
+            },
+            {
+              "name": "Evening Promenades",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=41.3795%2C2.1925",
+              "description": "Cooler walks by the sea."
+            },
+            {
+              "name": "Outdoor Concerts",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=41.3725%2C2.1515",
+              "description": "Cultural events in parks and theatres."
+            }
           ]
         },
         "autumn": {
-          "event": "Autumn Colors",
+          "event": "La Mercè Festival",
+          "description": "Barcelona’s biggest annual festival with parades, fireworks, and traditional Catalan culture.",
           "ideas": [
-            "🍁 Parc Güell soft light",
-            "🥐 Cozy Eixample cafés",
-            "🏛️ Museum exploring"
+            {
+              "name": "Festival Events",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=41.3830%2C2.1770",
+              "description": "Castellers, music, and street performances."
+            },
+            {
+              "name": "Museum Visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=41.3685%2C2.1535",
+              "description": "Ideal weather for cultural sightseeing."
+            },
+            {
+              "name": "Food Exploration",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=41.3825%2C2.1815",
+              "description": "Seasonal Catalan cuisine."
+            }
           ]
         },
         "winter": {
-          "event": "Winter in the City",
+          "event": "Barcelona Christmas Markets",
+          "description": "Festive lights and traditional markets bring warmth to winter streets.",
           "ideas": [
-            "🎄 Ramblas festive lights",
-            "🍫 Hot chocolate & churros"
+            {
+              "name": "Fira de Santa Llúcia",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=41.3825%2C2.1760",
+              "description": "Traditional Christmas market near the cathedral."
+            },
+            {
+              "name": "Museum Exploration",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=41.3685%2C2.1535",
+              "description": "Indoor culture during cooler days."
+            },
+            {
+              "name": "Cozy Cafés",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=41.3815%2C2.1685",
+              "description": "Warm drinks and desserts."
+            }
           ]
         }
       },
       "public_transport_tips": [
-        "🚇 Metro is the fastest way to move across the city.",
-        "🚌 Buses are great for short central distances.",
-        "🎟️ Consider a 24h/48h Hola Barcelona pass.",
-        "📱 Use TMB App for live schedules."
+        {
+          "tip": "The metro is the fastest way to get around the city.",
+          "link": "https://www.tmb.cat"
+        },
+        {
+          "tip": "Walking is ideal in the Old Town and central districts.",
+          "link": "https://www.barcelonaturisme.com"
+        },
+        {
+          "tip": "Barcelona is well connected by train to other Spanish cities.",
+          "link": "https://www.renfe.com"
+        }
       ],
       "city_events": [
         {
           "name": "La Mercè Festival",
-          "season": "autumn",
-          "description": "🎭 Huge cultural festival with street shows, art and performances."
+          "season": "Autumn",
+          "description": "Barcelona’s main city festival celebrating local culture and traditions.",
+          "website": "https://www.barcelona.cat/lamerce",
+          "dates": "September (annual)"
         },
         {
-          "name": "Sant Jordi",
-          "season": "spring",
-          "description": "📚 Book & flower celebration across the entire city."
+          "name": "Festival Grec",
+          "season": "Summer",
+          "description": "A major performing arts festival with international productions.",
+          "website": "https://www.barcelona.cat/grec",
+          "dates": "July (annual)"
+        }
+      ],
+      "places": [
+        {
+          "name": "Gothic Quarter (Barri Gòtic)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=41.3835%2C2.1760",
+          "description": "A maze of medieval streets, plazas, and historic buildings."
+        },
+        {
+          "name": "Barceloneta Beach",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=41.3780%2C2.1895",
+          "description": "The city’s most famous beach, close to the center."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "Bunkers del Carmel",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=41.4175%2C2.1615",
+          "description": "A hilltop viewpoint offering one of the best panoramic views of Barcelona."
+        },
+        {
+          "name": "Sant Pau Art Nouveau Site",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=41.4110%2C2.1745",
+          "description": "A former hospital complex and UNESCO World Heritage Site with stunning architecture."
         }
       ]
     },
-    {
-      "name": "Bilbao",
-      "interests": [
-        "Modern Architecture 🏛️",
-        "Art & Museums 🎨",
-        "Riverside Walks 🌊"
-      ],
-      "local_food_tip": "Bilbao is famous for pintxos — including many vegetarian options like tortilla, peppers, salads and bread-based bites.",
-      "full_day": "Morning: 🎨 Guggenheim Museum (Exterior): Metallic curves + outdoor sculptures. → 🐶 Puppy Sculpture: Giant flower-covered dog. → 🌊 Nervión Riverside Walk. → ☕ Zubizuri Bridge Café. \n\nAfternoon: 🏙️ Casco Viejo (Old Town): Narrow colorful streets. → 🏛️ Plaza Nueva: Arcaded square. → 🍽️ Basque Lunch: Veggie pintxos, tortilla, salads. → 🌿 Doña Casilda Park.\n\nSunset: 🌅 Artxanda Hill Viewpoint.\n\nNight: 🌃 Riverside lights + ice cream walk.",
-      "seasons": {
-        "spring": {
-          "event": "Spring in Bilbao",
-          "ideas": [
-            "🌸 Doña Casilda blossoms",
-            "🚶‍♂️ Mild riverside walks",
-            "☕ Outdoor terraces"
-          ]
-        },
-        "summer": {
-          "event": "Green Summer",
-          "ideas": [
-            "🌊 Fresh river walks",
-            "🍦 Old Town ice cream",
-            "🌇 Artxanda sunset"
-          ]
-        },
-        "autumn": {
-          "event": "Autumn Colors",
-          "ideas": [
-            "🍁 Leafy parks",
-            "🎨 Museum afternoons",
-            "🥧 Warm pastries"
-          ]
-        },
-        "winter": {
-          "event": "Winter Charm",
-          "ideas": [
-            "🎄 Old Town lights",
-            "🍫 Hot chocolate & churros"
-          ]
-        }
-      },
-      "public_transport_tips": [
-        "🚇 Bilbao Metro is fast and very clean.",
-        "🚶 Many attractions are walkable along the river.",
-        "🚌 Buses cover hilly neighborhoods.",
-        "📱 Use Bilbobus app for easy navigation."
-      ],
-      "city_events": [
-        {
-          "name": "Aste Nagusia",
-          "season": "summer",
-          "description": "🎉 Week-long cultural celebration with parades, shows and concerts."
-        }
-      ]
-    },
-    {
-      "name": "Córdoba",
-      "interests": [
-        "Historic Landmarks 🏛️",
-        "Moorish Architecture 🕌",
-        "Old Town Culture 🎭"
-      ],
-      "local_food_tip": "Try salmorejo (veg-friendly), tortilla, grilled veggies and fresh Andalusian salads.",
-      "full_day": "Morning: 🕌 Mezquita Cathedral (Exterior): Famous arches + golden doors. → 🌉 Roman Bridge Walk: Calm riverside. → 🏛️ Calahorra Tower (Exterior). → ☕ Jewish Quarter Café. \n\nAfternoon: 🏘️ Judería: Flower-filled alleys. → 🌺 Calleja de las Flores: Iconic postcard spot. → 🍽️ Mediterranean Lunch: Salmorejo, tortilla, salads. → 🌿 Alcázar Gardens exterior paths.\n\nSunset: 🌅 Guadalquivir riverside.\n\nNight: 🌃 Dessert walk through softly lit alleys.",
-      "seasons": {
-        "spring": {
-          "event": "Spring Bloom",
-          "ideas": [
-            "🌸 Patios Festival (exterior zones)",
-            "🚶‍♂️ Judería morning strolls",
-            "☕ Outdoor terraces"
-          ]
-        },
-        "summer": {
-          "event": "Sunlit Andalusia",
-          "ideas": [
-            "🌇 Late-evening walks",
-            "🍧 Mezquita ice cream stops",
-            "🌊 Riverside breeze"
-          ]
-        },
-        "autumn": {
-          "event": "Autumn Calm",
-          "ideas": [
-            "🍁 Warm Alcázar tones",
-            "🎨 Artisan shops",
-            "🥧 Cozy cafés"
-          ]
-        },
-        "winter": {
-          "event": "Winter Glow",
-          "ideas": [
-            "🎄 Old Town festive lights",
-            "🍫 Hot chocolate tradition"
-          ]
-        }
-      },
-      "public_transport_tips": [
-        "🚶 Old town is best explored on foot.",
-        "🚌 Bus network covers all districts easily.",
-        "🚖 Taxis are cheap for short distances.",
-        "📱 Use 'Bus Córdoba' app for routes."
-      ],
-      "city_events": [
-        {
-          "name": "Fiesta de los Patios",
-          "season": "spring",
-          "description": "🌺 Famous festival celebrating Córdoba’s decorated courtyards."
-        }
-      ]
-    },
+
     {
       "name": "Granada",
       "interests": [
-        "Historic Landmarks 🏛️",
-        "Moorish Architecture 🕌",
-        "Old Town Culture 🎭"
+        {
+          "name": "Alhambra & Generalife",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=37.1761%2C-3.5881",
+          "description": "A UNESCO-listed Nasrid palace complex with exquisite Islamic architecture, gardens, and views over the city."
+        },
+        {
+          "name": "Albaicín",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=37.1809%2C-3.5933",
+          "description": "The old Moorish quarter with whitewashed houses, narrow lanes, and classic viewpoints facing the Alhambra."
+        },
+        {
+          "name": "Granada Cathedral & Royal Chapel",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=37.1766%2C-3.5975",
+          "description": "A Renaissance cathedral and adjoining chapel where the Catholic Monarchs Ferdinand and Isabella are buried."
+        }
       ],
-      "local_food_tip": "Couscous, veggie tajines, tortilla, patatas bravas and Moorish-Andalusian pastries.",
-      "full_day": "Morning: 🏰 Alhambra (Exterior areas): Towers, gardens and forest paths. → 🌿 Alhambra Forest Walk. → 🕍 Plaza Nueva. → ☕ Darro River Café. \n\nAfternoon: 🏘️ Albaicín: White alleys and viewpoints. → 🌄 Mirador de San Nicolás: Alhambra + mountains. → 🍽️ Moorish Lunch: Veg tajine, couscous, salads. → 🎨 Paseo de los Tristes.\n\nSunset: 🌅 San Miguel Alto viewpoint.\n\nNight: 🌃 Old Town dessert walk.",
+      "local_food_tip": "Enjoy Granada’s free tapas culture with drinks; try tortilla española, jamón, berenjenas con miel, and local wines.",
+      "full_day": {
+        "morning": "Start early at the majestic <a href=\"https://www.google.com/maps/search/?api=1&query=37.1761%2C-3.5881\" target=\"_blank\" rel=\"noopener\">Alhambra</a> ☀️ and stroll the Generalife gardens.",
+        "afternoon": "Explore the historic streets around the <a href=\"https://www.google.com/maps/search/?api=1&query=37.1766%2C-3.5975\" target=\"_blank\" rel=\"noopener\">Cathedral & Royal Chapel</a> ☕, stopping for tapas.",
+        "sunset": "Head to <a href=\"https://www.google.com/maps/search/?api=1&query=37.1809%2C-3.5933\" target=\"_blank\" rel=\"noopener\">Albaicín</a> 🌅 and watch the Alhambra glow from Mirador de San Nicolás.",
+        "night": "Enjoy tapas 🍽️ in Elvira or Realejo, then an evening walk through lit plazas."
+      },
       "seasons": {
         "spring": {
-          "event": "Spring in Granada",
+          "event": "Semana Santa (Holy Week)",
+          "description": "Processions, music, and a powerful atmosphere fill the historic streets.",
           "ideas": [
-            "🌸 Albaicín flowered balconies",
-            "🌿 Alhambra forest air",
-            "☕ Riverside terraces"
+            {
+              "name": "Procession Routes",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=37.1765%2C-3.5970",
+              "description": "Historic center routes near the cathedral."
+            },
+            {
+              "name": "Garden Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=37.1768%2C-3.5888",
+              "description": "Blooming Generalife gardens."
+            },
+            {
+              "name": "Café Terraces",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=37.1778%2C-3.5985",
+              "description": "Mild weather for outdoor seating."
+            }
           ]
         },
         "summer": {
-          "event": "Summer Evenings",
+          "event": "International Festival of Music & Dance",
+          "description": "Prestigious performances held in historic venues, including the Alhambra.",
           "ideas": [
-            "🌇 San Nicolás golden hour",
-            "🍦 Ice-cream stops",
-            "🌊 Darro breeze"
+            {
+              "name": "Evening Performances",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=37.1761%2C-3.5881",
+              "description": "Concerts in palace courtyards."
+            },
+            {
+              "name": "Night Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=37.1809%2C-3.5933",
+              "description": "Cooler evenings in Albaicín."
+            },
+            {
+              "name": "Sierra Nevada Day Trip",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=37.0950%2C-3.3990",
+              "description": "Escape the heat in the mountains."
+            }
           ]
         },
         "autumn": {
-          "event": "Autumn Calm",
+          "event": "Granada Cultural Autumn",
+          "description": "Pleasant temperatures and fewer crowds suit sightseeing.",
           "ideas": [
-            "🍁 Alhambra forest colors",
-            "🎨 Museum days",
-            "🥧 Moorish tea houses"
+            {
+              "name": "Historic Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=37.1766%2C-3.5975",
+              "description": "Comfortable Old Town exploration."
+            },
+            {
+              "name": "Food & Wine",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=37.1785%2C-3.5995",
+              "description": "Seasonal tapas and local wines."
+            },
+            {
+              "name": "Viewpoints",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=37.1825%2C-3.5920",
+              "description": "Clear skies for photography."
+            }
           ]
         },
         "winter": {
-          "event": "Winter Glow",
+          "event": "Sierra Nevada Ski Season",
+          "description": "Unique city-to-ski experience with mountains nearby.",
           "ideas": [
-            "🎄 Old town lights",
-            "🍫 Hot chocolate & churros"
+            {
+              "name": "Skiing Sierra Nevada",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=37.0950%2C-3.3990",
+              "description": "Winter sports less than an hour away."
+            },
+            {
+              "name": "Museum Visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=37.1766%2C-3.5975",
+              "description": "Warm indoor culture."
+            },
+            {
+              "name": "Traditional Bars",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=37.1788%2C-3.5998",
+              "description": "Hearty food and free tapas."
+            }
           ]
         }
       },
       "public_transport_tips": [
-        "🚌 Buses cover hills like Albaicín.",
-        "🚶 Old town is walkable but steep in parts.",
-        "🚖 Use taxis for viewpoints like San Miguel Alto.",
-        "📱 Use Granada Bus app."
+        {
+          "tip": "City buses connect the center with the Alhambra and Albaicín.",
+          "link": "https://www.transportesrober.com"
+        },
+        {
+          "tip": "The historic center is compact and ideal for walking.",
+          "link": "https://www.granadatur.com"
+        },
+        {
+          "tip": "Trains connect Granada with Madrid, Seville, and Córdoba.",
+          "link": "https://www.renfe.com"
+        }
       ],
       "city_events": [
         {
-          "name": "Fiestas del Corpus",
-          "season": "summer",
-          "description": "🎉 Traditional celebrations with parades and cultural events."
+          "name": "Semana Santa",
+          "season": "Spring",
+          "description": "Major religious celebrations with processions across the city.",
+          "website": "https://www.semanasantagranada.com",
+          "dates": "March–April (annual)"
+        },
+        {
+          "name": "Corpus Christi Fair",
+          "season": "Summer",
+          "description": "Granada’s main fair with rides, flamenco, and festivities.",
+          "website": "https://www.granada.org",
+          "dates": "June (annual)"
+        }
+      ],
+      "places": [
+        {
+          "name": "Sacromonte",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=37.1835%2C-3.5845",
+          "description": "Hillside neighborhood famous for cave houses and flamenco traditions."
+        },
+        {
+          "name": "Realejo",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=37.1745%2C-3.5960",
+          "description": "Former Jewish quarter with lively streets and tapas bars."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "Carmen de los Mártires",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=37.1735%2C-3.5875",
+          "description": "A quiet garden estate near the Alhambra with peacocks and city views."
+        },
+        {
+          "name": "Monastery of San Jerónimo",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=37.1795%2C-3.6005",
+          "description": "A beautiful Renaissance monastery often missed by visitors."
         }
       ]
     },
+
     {
-      "name": "Málaga",
+      "name": "Madrid",
       "interests": [
-        "Seaside & Beach Walks 🌊",
-        "Historic Landmarks 🏛️",
-        "Art & Museums 🎨"
+        {
+          "name": "Prado Museum",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=40.4138%2C-3.6921",
+          "description": "One of the world’s greatest art museums, home to masterpieces by Velázquez, Goya, Rubens, and Bosch."
+        },
+        {
+          "name": "Royal Palace of Madrid",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=40.4179%2C-3.7143",
+          "description": "Europe’s largest royal palace by floor area, showcasing lavish rooms and Spanish royal history."
+        },
+        {
+          "name": "Puerta del Sol",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=40.4169%2C-3.7035",
+          "description": "The symbolic center of Madrid and Spain, home to the famous Kilometre Zero marker."
+        }
       ],
-      "local_food_tip": "Veggie paella, tortilla española, patatas bravas, grilled veggies and Mediterranean salads — light, coastal and fresh.",
-      "full_day": "Morning: 🏰 Alcazaba (Exterior): Moorish fortress walls + palm terraces. → 🏛️ Roman Theatre: Ancient stone rows beneath the fortress. → 🎨 Picasso Museum (Exterior): Artistic quarter vibes. → ☕ Old Town Café.\n\nAfternoon: 🌿 Parque de Málaga: Tropical shades and fountains. → 🌊 Port of Málaga (Muelle Uno): Shops, sea breeze, modern waterfront. → 🍽️ Lunch: Veggie paella, tortilla, salads. → 🎨 Pompidou Málaga (Exterior).\n\nSunset: 🌅 La Malagueta Beach: Warm Mediterranean golden hour.\n\nNight: 🌃 Soho Street-Art District: Murals, dessert cafés, ice cream.",
+      "local_food_tip": "Try cocido madrileño, bocadillo de calamares, churros con chocolate, and classic tapas with vermouth.",
+      "full_day": {
+        "morning": "Begin at the world-class <a href=\"https://www.google.com/maps/search/?api=1&query=40.4138%2C-3.6921\" target=\"_blank\" rel=\"noopener\">Prado Museum</a> ☀️, immersing yourself in Spanish art.",
+        "afternoon": "Walk through <a href=\"https://www.google.com/maps/search/?api=1&query=40.4169%2C-3.7035\" target=\"_blank\" rel=\"noopener\">Puerta del Sol</a> ☕ and explore nearby Plaza Mayor for lunch.",
+        "sunset": "Visit the grand <a href=\"https://www.google.com/maps/search/?api=1&query=40.4179%2C-3.7143\" target=\"_blank\" rel=\"noopener\">Royal Palace</a> 🌅 and stroll around its gardens.",
+        "night": "Enjoy tapas 🍽️ in La Latina or Malasaña and experience Madrid’s lively evening culture."
+      },
       "seasons": {
         "spring": {
-          "event": "Spring in Málaga",
+          "event": "San Isidro Festival",
+          "description": "Madrid’s biggest local celebration with traditional music, costumes, and open-air events.",
           "ideas": [
-            "🌸 Blooming palm gardens",
-            "🚶‍♂️ Mild old-town walks",
-            "☕ Outdoor terraces by the marina"
+            {
+              "name": "Retiro Park Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=40.4153%2C-3.6844",
+              "description": "Blooming gardens and boating lake."
+            },
+            {
+              "name": "Outdoor Terraces",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=40.4145%2C-3.7030",
+              "description": "Mild weather for café culture."
+            },
+            {
+              "name": "Historic Center Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=40.4158%2C-3.7074",
+              "description": "Comfortable sightseeing temperatures."
+            }
           ]
         },
         "summer": {
-          "event": "Summer on the Coast",
+          "event": "Veranos de la Villa",
+          "description": "City-wide cultural festival with concerts, cinema, and performances.",
           "ideas": [
-            "🌊 Early beach walks",
-            "🍦 Fruit-cup and gelato stands",
-            "🌇 Golden marina sunsets"
+            {
+              "name": "Evening City Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=40.4165%2C-3.7025",
+              "description": "Exploring after sunset to avoid heat."
+            },
+            {
+              "name": "Rooftop Terraces",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=40.4200%2C-3.7050",
+              "description": "Night views and summer drinks."
+            },
+            {
+              "name": "Museum Visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=40.4138%2C-3.6921",
+              "description": "Air-conditioned cultural escapes."
+            }
           ]
         },
         "autumn": {
-          "event": "Autumn Calm",
+          "event": "Autumn Cultural Season",
+          "description": "Pleasant weather and fewer crowds make autumn ideal for exploration.",
           "ideas": [
-            "🍁 Warm tones in Málaga Park",
-            "🥧 Old-town pastry shops",
-            "🎨 Art museum days"
+            {
+              "name": "Art Walk (Golden Triangle)",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=40.4135%2C-3.6915",
+              "description": "Prado, Reina Sofía, and Thyssen museums."
+            },
+            {
+              "name": "Neighborhood Dining",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=40.4115%2C-3.7095",
+              "description": "Seasonal Spanish cuisine."
+            },
+            {
+              "name": "Photography Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=40.4175%2C-3.7140",
+              "description": "Golden light on historic buildings."
+            }
           ]
         },
         "winter": {
-          "event": "Winter by the Sea",
+          "event": "Madrid Christmas Markets",
+          "description": "Festive lights, markets, and holiday atmosphere across the city.",
           "ideas": [
-            "🎄 Old-town Christmas lights",
-            "🍫 Hot chocolate & churros"
+            {
+              "name": "Plaza Mayor Christmas Market",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=40.4154%2C-3.7074",
+              "description": "Traditional stalls and decorations."
+            },
+            {
+              "name": "Museum Exploration",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=40.4108%2C-3.6945",
+              "description": "Warm indoor cultural highlights."
+            },
+            {
+              "name": "Churros Stops",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=40.4167%2C-3.7040",
+              "description": "Classic winter treat with hot chocolate."
+            }
           ]
         }
       },
       "public_transport_tips": [
-        "🚶 Most central highlights are walkable.",
-        "🚌 City buses connect beaches + center.",
-        "🚇 Malaga Metro covers outer districts.",
-        "📱 Use EMT Málaga app."
+        {
+          "tip": "The metro is fast, extensive, and easy to use.",
+          "link": "https://www.metromadrid.es"
+        },
+        {
+          "tip": "Walking is ideal in the historic center.",
+          "link": "https://www.esmadrid.com"
+        },
+        {
+          "tip": "Trains connect Madrid with all major Spanish cities.",
+          "link": "https://www.renfe.com"
+        }
       ],
       "city_events": [
         {
-          "name": "Feria de Málaga",
-          "season": "summer",
-          "description": "🎉 Week-long summer celebration with music, colors and parades."
+          "name": "San Isidro Festival",
+          "season": "Spring",
+          "description": "Madrid’s main local festival celebrating the city’s patron saint.",
+          "website": "https://www.esmadrid.com",
+          "dates": "May (annual)"
+        },
+        {
+          "name": "Veranos de la Villa",
+          "season": "Summer",
+          "description": "Open-air cultural events throughout the city.",
+          "website": "https://www.madrid.es",
+          "dates": "July–August (annual)"
+        }
+      ],
+      "places": [
+        {
+          "name": "Plaza Mayor",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=40.4154%2C-3.7074",
+          "description": "A grand historic square surrounded by arcades and cafés."
+        },
+        {
+          "name": "Retiro Park",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=40.4153%2C-3.6844",
+          "description": "Madrid’s green heart with gardens, monuments, and a boating lake."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "El Capricho Park",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=40.4545%2C-3.6035",
+          "description": "A romantic landscaped park rarely visited by tourists."
+        },
+        {
+          "name": "Temple of Debod",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=40.4240%2C-3.7175",
+          "description": "An ancient Egyptian temple offering one of the best sunset views in Madrid."
         }
       ]
     },
+
     {
-      "name": "Palma de Mallorca",
+      "name": "Seville",
       "interests": [
-        "Beaches & Sea Views 🌊",
-        "Historic Landmarks 🏛️",
-        "Old Town Culture 🎭"
+        {
+          "name": "Seville Cathedral & La Giralda",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=37.3861%2C-5.9926",
+          "description": "The largest Gothic cathedral in the world, featuring La Giralda bell tower with sweeping views over the historic center."
+        },
+        {
+          "name": "Real Alcázar of Seville",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=37.3830%2C-5.9910",
+          "description": "A UNESCO-listed royal palace blending Moorish, Gothic, and Renaissance styles with lush gardens."
+        },
+        {
+          "name": "Plaza de España",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=37.3772%2C-5.9869",
+          "description": "A monumental semi-circular square with canals, bridges, and colorful ceramic tiles representing Spain’s provinces."
+        }
       ],
-      "local_food_tip": "Paella, tumbet (Mallorcan veggie dish), fresh bread with tomato, salads and ensaimada pastries.",
-      "full_day": "Morning: ⛪ Palma Cathedral (Exterior): Majestic sandstone walls above the sea. → 🌊 Parc de la Mar: Lakeside palm-lined promenade. → 🏛️ Almudaina Palace (Exterior). → ☕ Old Town Café.\n\nAfternoon: 🏘️ Palma Old Town: Narrow alleys, patios, artisan shops. → 🌿 Passeig del Born: Shaded boulevard with fountains. → 🍽️ Mallorcan Lunch: Veggie paella, tumbet, salads. → 🎨 Es Baluard (Exterior).\n\nSunset: 🌅 Portixol Promenade: Calm golden-hour seaside.\n\nNight: 🌃 Cathedral waterfront walk: Gelato stands + peaceful night views.",
+      "local_food_tip": "Try tapas like espinacas con garbanzos, jamón ibérico, salmorejo, and pescaíto frito with local sherry or manzanilla.",
+      "full_day": {
+        "morning": "Begin at the magnificent <a href=\"https://www.google.com/maps/search/?api=1&query=37.3861%2C-5.9926\" target=\"_blank\" rel=\"noopener\">Seville Cathedral</a> ☀️ and climb La Giralda.",
+        "afternoon": "Explore the lush courtyards of the <a href=\"https://www.google.com/maps/search/?api=1&query=37.3830%2C-5.9910\" target=\"_blank\" rel=\"noopener\">Real Alcázar</a> ☕, then enjoy lunch nearby.",
+        "sunset": "Stroll through <a href=\"https://www.google.com/maps/search/?api=1&query=37.3772%2C-5.9869\" target=\"_blank\" rel=\"noopener\">Plaza de España</a> 🌅 in Parque de María Luisa.",
+        "night": "Enjoy tapas 🍽️ in Triana or Santa Cruz, followed by a flamenco show."
+      },
       "seasons": {
         "spring": {
-          "event": "Spring in Palma",
+          "event": "Semana Santa",
+          "description": "Dramatic Holy Week processions fill the streets with music and tradition.",
           "ideas": [
-            "🌸 Cathedral gardens in bloom",
-            "🚶‍♂️ Old-town strolls",
-            "☕ Parc de la Mar terraces"
+            {
+              "name": "Procession Routes",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=37.3855%2C-5.9935",
+              "description": "Historic center streets near the cathedral."
+            },
+            {
+              "name": "Garden Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=37.3775%2C-5.9860",
+              "description": "Blooming Parque de María Luisa."
+            },
+            {
+              "name": "Café Terraces",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=37.3890%2C-5.9945",
+              "description": "Mild weather for outdoor seating."
+            }
           ]
         },
         "summer": {
-          "event": "Island Summer",
+          "event": "Velá de Santa Ana",
+          "description": "A lively neighborhood fair in Triana with music and festivities.",
           "ideas": [
-            "🏖️ Early beach mornings",
-            "🍉 Fruit bowls near the marina",
-            "🌇 Long golden promenades"
+            {
+              "name": "Evening Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=37.3825%2C-6.0030",
+              "description": "Cooler nights by the Guadalquivir."
+            },
+            {
+              "name": "Palace Nights",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=37.3830%2C-5.9910",
+              "description": "Evening visits and concerts at the Alcázar."
+            },
+            {
+              "name": "Indoor Museums",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=37.3760%2C-5.9885",
+              "description": "Air-conditioned cultural stops."
+            }
           ]
         },
         "autumn": {
-          "event": "Autumn Calm",
+          "event": "Bienal de Flamenco",
+          "description": "World-renowned flamenco festival held every two years.",
           "ideas": [
-            "🍁 Soft Passeig del Born tones",
-            "🎨 Local craft shops",
-            "🥧 Cozy cafés"
+            {
+              "name": "Flamenco Venues",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=37.3895%2C-6.0025",
+              "description": "Shows across theaters and tablaos."
+            },
+            {
+              "name": "Historic Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=37.3855%2C-5.9935",
+              "description": "Comfortable sightseeing temperatures."
+            },
+            {
+              "name": "Food Exploration",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=37.3890%2C-5.9945",
+              "description": "Seasonal Andalusian cuisine."
+            }
           ]
         },
         "winter": {
-          "event": "Winter Sunshine",
+          "event": "Seville Christmas Season",
+          "description": "Festive lights and mild winter weather make city walks enjoyable.",
           "ideas": [
-            "🎄 Festive old-town lights",
-            "🍫 Hot chocolate & ensaimadas"
+            {
+              "name": "Christmas Markets",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=37.3890%2C-5.9945",
+              "description": "Crafts and seasonal sweets."
+            },
+            {
+              "name": "Museum Visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=37.3760%2C-5.9885",
+              "description": "Warm indoor culture."
+            },
+            {
+              "name": "River Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=37.3825%2C-6.0030",
+              "description": "Sunny winter strolls."
+            }
           ]
         }
       },
       "public_transport_tips": [
-        "🚌 EMT buses cover all of Palma well.",
-        "🚶 Old Town is best explored on foot.",
-        "🚲 Rent a bike for the promenade.",
-        "📱 Use EMT Palma app for live info."
+        {
+          "tip": "Trams and buses efficiently connect the historic center.",
+          "link": "https://www.tussam.es"
+        },
+        {
+          "tip": "The Old Town is compact and ideal for walking.",
+          "link": "https://www.visitasevilla.es"
+        },
+        {
+          "tip": "High-speed trains connect Seville with Madrid and Córdoba.",
+          "link": "https://www.renfe.com"
+        }
       ],
       "city_events": [
         {
-          "name": "Sant Sebastià",
-          "season": "winter",
-          "description": "🎸 Live music festival and city-wide celebration."
-        }
-      ]
-    },
-    {
-      "name": "Sevilla",
-      "interests": [
-        "Historic Landmarks 🏛️",
-        "Art & Architecture 🎨",
-        "Riverside Walks 🌊"
-      ],
-      "local_food_tip": "Gazpacho, veggie tapas, tortilla, patatas bravas and light Andalusian Mediterranean dishes.",
-      "full_day": "Morning: ⛪ Seville Cathedral (Exterior): Enormous Gothic masterpiece. → 🗼 La Giralda (Exterior): Moorish–Renaissance tower views. → 🏛️ Archivo de Indias (Exterior). → ☕ Santa Cruz Café.\n\nAfternoon: 🌿 María Luisa Park: Palms, fountains, tiled benches. → 🏰 Plaza de España: Iconic semicircular palace + canal. → 🍽️ Andalusian Lunch: Veg tapas, gazpacho, tortilla. → 🌉 Guadalquivir Riverside Walk.\n\nSunset: 🌅 Triana Riverside.\n\nNight: 🌃 Old-town dessert walk: Ice cream, pastries, quieter alleys.",
-      "seasons": {
-        "spring": {
-          "event": "Spring in Sevilla",
-          "ideas": [
-            "🌸 Orange blossom streets",
-            "🚶‍♂️ Santa Cruz morning explorations",
-            "☕ Patio cafés"
-          ]
+          "name": "Semana Santa",
+          "season": "Spring",
+          "description": "Iconic Holy Week processions across the city.",
+          "website": "https://www.visitasevilla.es",
+          "dates": "March–April (annual)"
         },
-        "summer": {
-          "event": "Summer Sunshine",
-          "ideas": [
-            "🌳 Shaded María Luisa Park walks",
-            "🍦 Triana ice cream stops",
-            "🌇 Riverside golden hour"
-          ]
-        },
-        "autumn": {
-          "event": "Autumn Calm",
-          "ideas": [
-            "🍁 Soft park colors",
-            "🥧 Santa Cruz pastries",
-            "🎨 Triana artisan galleries"
-          ]
-        },
-        "winter": {
-          "event": "Winter Charm",
-          "ideas": [
-            "🎄 Festive old-town lights",
-            "🍫 Churros & chocolate"
-          ]
-        }
-      },
-      "public_transport_tips": [
-        "🚶 Most of Sevilla is walkable.",
-        "🚌 Buses cover parks + Triana well.",
-        "🚈 Tram runs through the central avenues.",
-        "📱 Use TUSSAM app."
-      ],
-      "city_events": [
         {
           "name": "Feria de Abril",
-          "season": "spring",
-          "description": "🎉 City-wide celebration with traditional music, dancing and lights."
+          "season": "Spring",
+          "description": "A colorful fair with flamenco, music, and traditional dress.",
+          "website": "https://www.visitasevilla.es",
+          "dates": "April (annual)"
+        }
+      ],
+      "places": [
+        {
+          "name": "Barrio Santa Cruz",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=37.3865%2C-5.9920",
+          "description": "The old Jewish quarter with narrow lanes, plazas, and patios."
+        },
+        {
+          "name": "Triana Bridge (Puente de Isabel II)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=37.3820%2C-6.0025",
+          "description": "An iconic bridge linking the center with the Triana neighborhood."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "Metropol Parasol (Las Setas)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=37.3929%2C-5.9957",
+          "description": "A modern wooden structure with a panoramic walkway above the city."
+        },
+        {
+          "name": "Hospital de los Venerables",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=37.3869%2C-5.9928",
+          "description": "A quiet Baroque complex with art exhibitions in Santa Cruz."
         }
       ]
     },
+
     {
       "name": "Valencia",
       "interests": [
-        "Futuristic Architecture 🏛️",
-        "Seaside & Beach Walks 🌊",
-        "Art & Museums 🎨"
+        {
+          "name": "City of Arts and Sciences",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=39.4545%2C-0.3500",
+          "description": "A futuristic architectural complex featuring museums, an aquarium, and cultural venues designed by Santiago Calatrava."
+        },
+        {
+          "name": "Valencia Cathedral & El Miguelete",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=39.4759%2C-0.3751",
+          "description": "A historic cathedral blending Romanesque, Gothic, and Baroque styles, famous for claiming the Holy Grail."
+        },
+        {
+          "name": "Turia Gardens",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=39.4699%2C-0.3645",
+          "description": "A lush green park created in a former riverbed, stretching through the city with paths, gardens, and playgrounds."
+        }
       ],
-      "local_food_tip": "Paella Valenciana (veg versions available), patatas bravas, tortilla, salads and horchata pastries.",
-      "full_day": "Morning: 🏛️ City of Arts & Sciences (Exterior): Sci-fi architecture + water reflections. → 🌿 Turia River Park: Green paths and bridges. → 🏰 Torres de Serranos (Exterior). → ☕ Old-town café.\n\nAfternoon: 🏘️ El Carmen: Colorful alleys, murals. → ⛪ Cathedral (Exterior). → 🍽️ Local Lunch: Veg paella, tortilla, salads. → 🌿 Plaza de la Virgen.\n\nSunset: 🌅 Malvarrosa Beach.\n\nNight: 🌃 Marina waterfront: Ice cream, smoothies, calm seaside walk.",
+      "local_food_tip": "Try authentic paella valenciana (with rabbit and chicken), horchata with fartons, fresh seafood, and local oranges.",
+      "full_day": {
+        "morning": "Start at the striking <a href=\"https://www.google.com/maps/search/?api=1&query=39.4545%2C-0.3500\" target=\"_blank\" rel=\"noopener\">City of Arts and Sciences</a> ☀️, exploring its museums and open spaces.",
+        "afternoon": "Head to the Old Town and visit the <a href=\"https://www.google.com/maps/search/?api=1&query=39.4759%2C-0.3751\" target=\"_blank\" rel=\"noopener\">Valencia Cathedral</a> ☕, then enjoy lunch nearby.",
+        "sunset": "Relax or cycle through the <a href=\"https://www.google.com/maps/search/?api=1&query=39.4699%2C-0.3645\" target=\"_blank\" rel=\"noopener\">Turia Gardens</a> 🌅.",
+        "night": "Enjoy dinner 🍽️ in Ruzafa or by the beach, followed by an evening walk."
+      },
       "seasons": {
         "spring": {
-          "event": "Spring in Valencia",
+          "event": "Las Fallas",
+          "description": "Valencia’s most famous festival with giant sculptures, fireworks, and parades.",
           "ideas": [
-            "🌸 Turia blossoms",
-            "🚶‍♂️ Sunny old-town mornings",
-            "☕ Outdoor cafés"
+            {
+              "name": "Fallas Monuments",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=39.4705%2C-0.3765",
+              "description": "Colorful sculptures across the city."
+            },
+            {
+              "name": "Firework Shows",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=39.4695%2C-0.3750",
+              "description": "Daily mascletà explosions in the main square."
+            },
+            {
+              "name": "Old Town Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=39.4755%2C-0.3755",
+              "description": "Festive atmosphere and street life."
+            }
           ]
         },
         "summer": {
-          "event": "Summer by the Sea",
+          "event": "Valencia Summer Nights",
+          "description": "Warm evenings filled with outdoor dining and seaside life.",
           "ideas": [
-            "🌊 Early beach strolls",
-            "🍦 Marina ice cream",
-            "🌇 Long golden evenings"
+            {
+              "name": "Malvarrosa Beach",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=39.4785%2C-0.3235",
+              "description": "Swimming and relaxing by the Mediterranean."
+            },
+            {
+              "name": "Night Cycling in Turia",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=39.4699%2C-0.3645",
+              "description": "Cooler rides after sunset."
+            },
+            {
+              "name": "Beachfront Dining",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=39.4780%2C-0.3205",
+              "description": "Seafood restaurants by the water."
+            }
           ]
         },
         "autumn": {
-          "event": "Autumn Calm",
+          "event": "Valencia 9 d’Octubre",
+          "description": "Regional holiday celebrating Valencian culture and history.",
           "ideas": [
-            "🍁 Turia’s soft colors",
-            "🥧 Cozy pastry shops",
-            "🎨 Museum visits"
+            {
+              "name": "Historic Center Exploration",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=39.4755%2C-0.3755",
+              "description": "Comfortable temperatures and fewer crowds."
+            },
+            {
+              "name": "Food Markets",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=39.4710%2C-0.3785",
+              "description": "Seasonal produce and local snacks."
+            },
+            {
+              "name": "Photography Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=39.4545%2C-0.3500",
+              "description": "Soft autumn light on modern architecture."
+            }
           ]
         },
         "winter": {
-          "event": "Winter in Valencia",
+          "event": "Valencia Christmas Season",
+          "description": "Mild winters with festive lights and relaxed sightseeing.",
           "ideas": [
-            "🎄 Historic center lights",
-            "🍫 Hot chocolate & churros"
+            {
+              "name": "Christmas Markets",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=39.4755%2C-0.3755",
+              "description": "Seasonal crafts and sweets."
+            },
+            {
+              "name": "Museum Visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=39.4545%2C-0.3500",
+              "description": "Indoor culture in the Arts & Sciences complex."
+            },
+            {
+              "name": "Sunny City Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=39.4699%2C-0.3645",
+              "description": "Pleasant winter temperatures."
+            }
           ]
         }
       },
       "public_transport_tips": [
-        "🚇 Valencia Metro connects beach + center.",
-        "🚌 Buses cover all neighborhoods.",
-        "🚲 Turia Park is perfect for biking.",
-        "📱 Use EMT Valencia app."
+        {
+          "tip": "Metro and tram lines efficiently connect the center, airport, and beaches.",
+          "link": "https://www.metrovalencia.es"
+        },
+        {
+          "tip": "The city is very bike-friendly with dedicated cycling lanes.",
+          "link": "https://www.visitvalencia.com"
+        },
+        {
+          "tip": "High-speed trains connect Valencia with Madrid and Barcelona.",
+          "link": "https://www.renfe.com"
+        }
       ],
       "city_events": [
         {
           "name": "Las Fallas",
-          "season": "spring",
-          "description": "🔥 Famous festival with sculptures, lights and street celebrations."
+          "season": "Spring",
+          "description": "Iconic festival with sculptures, fireworks, and celebrations.",
+          "website": "https://www.visitvalencia.com",
+          "dates": "March (annual)"
+        },
+        {
+          "name": "9 d’Octubre",
+          "season": "Autumn",
+          "description": "Valencian Community Day with parades and cultural events.",
+          "website": "https://www.visitvalencia.com",
+          "dates": "October 9 (annual)"
+        }
+      ],
+      "places": [
+        {
+          "name": "Central Market (Mercado Central)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=39.4725%2C-0.3795",
+          "description": "One of Europe’s largest fresh food markets in a beautiful Modernist building."
+        },
+        {
+          "name": "Malvarrosa Beach",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=39.4785%2C-0.3235",
+          "description": "Valencia’s main urban beach with a long promenade."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "Ruzafa District",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=39.4605%2C-0.3715",
+          "description": "A creative neighborhood known for cafés, art spaces, and nightlife."
+        },
+        {
+          "name": "Albufera Natural Park",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=39.3545%2C-0.3195",
+          "description": "A coastal lagoon south of the city, famous for rice fields, boat rides, and sunsets."
         }
       ]
     },
+
     {
-      "name": "Alicante",
+      "name": "Zaragoza",
       "interests": [
-        "Beaches & Sea Views 🌊",
-        "Castles & Historic Landmarks 🏰",
-        "Old Town Culture 🎭"
+        {
+          "name": "Basilica of Our Lady of the Pillar (Basílica del Pilar)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=41.6560%2C-0.8773",
+          "description": "A monumental Baroque basilica on the Ebro River, one of Spain’s most important pilgrimage sites."
+        },
+        {
+          "name": "Aljafería Palace",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=41.6565%2C-0.8945",
+          "description": "An 11th-century Islamic palace and UNESCO site showcasing Moorish, Gothic, and Mudéjar architecture."
+        },
+        {
+          "name": "Plaza del Pilar",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=41.6563%2C-0.8765",
+          "description": "Zaragoza’s grand central square, surrounded by historic buildings and lively public life."
+        }
       ],
-      "local_food_tip": "Alicante je poznat po arrozu (rižotima), ali postoji i mnogo veg opcija — veggie paella, tortilla, salate i mediteranski obroci.",
-      "full_day": "Morning: 🏰 Santa Bárbara Castle (Exterior Viewpoints): Fortress on a hill with amazing sea views. → 🌊 Postiguet Beach Walk: Soft sand + clear water. → ☕ Beachfront Café Break. \n\nAfternoon: 🏘️ Barrio de Santa Cruz: Colorful houses and narrow alleys. → 🏛️ Esplanada d’Espanya: Palm-lined walkway with marble mosaic. → 🍽️ Lunch: Veg paella, salads, tortilla. → 🌿 Mount Benacantil lower paths.\n\nSunset: 🌅 Serra Grossa Viewpoint.\n\nNight: 🌃 Esplanade night walk: Gelato, crepes, breezy seaside lights.",
+      "local_food_tip": "Try ternasco de Aragón (roast lamb), migas, bacalao al ajoarriero, local cheeses, and wines from nearby Cariñena.",
+      "full_day": {
+        "morning": "Begin at the iconic <a href=\"https://www.google.com/maps/search/?api=1&query=41.6560%2C-0.8773\" target=\"_blank\" rel=\"noopener\">Basilica del Pilar</a> ☀️ and walk along the Ebro River.",
+        "afternoon": "Visit the historic <a href=\"https://www.google.com/maps/search/?api=1&query=41.6565%2C-0.8945\" target=\"_blank\" rel=\"noopener\">Aljafería Palace</a> ☕, then enjoy lunch in El Tubo district.",
+        "sunset": "Relax in <a href=\"https://www.google.com/maps/search/?api=1&query=41.6563%2C-0.8765\" target=\"_blank\" rel=\"noopener\">Plaza del Pilar</a> 🌅 as the basilica lights up.",
+        "night": "Enjoy tapas 🍽️ in El Tubo and a calm evening stroll through the Old Town."
+      },
       "seasons": {
         "spring": {
-          "event": "Spring in Alicante",
+          "event": "Semana Santa (Holy Week)",
+          "description": "Impressive processions with drums and religious traditions fill the streets.",
           "ideas": [
-            "🌼 Castle viewpoints in mild weather",
-            "🚶‍♂️ Old-town strolling",
-            "☕ Esplanade terraces"
+            {
+              "name": "Procession Routes",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=41.6560%2C-0.8770",
+              "description": "Historic center routes near the basilica."
+            },
+            {
+              "name": "Riverside Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=41.6585%2C-0.8745",
+              "description": "Mild weather along the Ebro."
+            },
+            {
+              "name": "Old Town Cafés",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=41.6550%2C-0.8795",
+              "description": "Comfortable spring terraces."
+            }
           ]
         },
         "summer": {
-          "event": "Summer on the Coast",
+          "event": "Zaragoza Summer Cultural Program",
+          "description": "Concerts, cinema, and events during warm evenings.",
           "ideas": [
-            "🏖️ Early Postiguet walks",
-            "🍉 Cold fruit stalls",
-            "🌇 Golden seaside sunsets"
+            {
+              "name": "Evening River Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=41.6585%2C-0.8745",
+              "description": "Cooler air by the water."
+            },
+            {
+              "name": "Museum Visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=41.6565%2C-0.8945",
+              "description": "Indoor culture during hot days."
+            },
+            {
+              "name": "Night Tapas",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=41.6545%2C-0.8790",
+              "description": "Lively evenings in El Tubo."
+            }
           ]
         },
         "autumn": {
-          "event": "Autumn Calm",
+          "event": "Fiestas del Pilar",
+          "description": "Zaragoza’s biggest festival with parades, concerts, and traditions.",
           "ideas": [
-            "🍁 Warm tones in Santa Cruz alleys",
-            "🥧 Cozy cafés",
-            "🎨 Small galleries"
+            {
+              "name": "Festival Events",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=41.6563%2C-0.8765",
+              "description": "Concerts and celebrations across the city."
+            },
+            {
+              "name": "Historic Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=41.6550%2C-0.8795",
+              "description": "Pleasant sightseeing temperatures."
+            },
+            {
+              "name": "Local Dining",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=41.6545%2C-0.8790",
+              "description": "Seasonal Aragonese cuisine."
+            }
           ]
         },
         "winter": {
-          "event": "Winter Sun",
+          "event": "Zaragoza Christmas Season",
+          "description": "Festive lights, markets, and a quieter city atmosphere.",
           "ideas": [
-            "🌞 Mild coastal walks",
-            "🍫 Hot chocolate by the marina"
+            {
+              "name": "Christmas Markets",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=41.6563%2C-0.8765",
+              "description": "Seasonal stalls and sweets."
+            },
+            {
+              "name": "Museum Exploration",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=41.6575%2C-0.8805",
+              "description": "Warm indoor culture."
+            },
+            {
+              "name": "Cozy Cafés",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=41.6550%2C-0.8795",
+              "description": "Relaxed winter atmosphere."
+            }
           ]
         }
       },
       "public_transport_tips": [
-        "🚊 TRAM connects beaches + center.",
-        "🚶 Old town is very walkable.",
-        "🚌 Bus network covers the port area.",
-        "📱 Use Alicante TRAM app."
+        {
+          "tip": "Trams and buses efficiently cover the city.",
+          "link": "https://www.zaragoza.es"
+        },
+        {
+          "tip": "The historic center is compact and ideal for walking.",
+          "link": "https://www.turismodezaragoza.es"
+        },
+        {
+          "tip": "High-speed trains connect Zaragoza with Madrid and Barcelona.",
+          "link": "https://www.renfe.com"
+        }
       ],
       "city_events": [
         {
-          "name": "Hogueras de San Juan",
-          "season": "summer",
-          "description": "🔥 Sculptures, lights and summer celebrations by the sea."
-        }
-      ]
-    },
-    {
-      "name": "Gran Canaria",
-      "interests": [
-        "Beaches & Sea Views 🌊",
-        "Volcanic Landscapes 🌋",
-        "Old Town Culture 🎭"
-      ],
-      "local_food_tip": "Papas arrugadas, mojo sauces, veggie stews, salads and tropical fruits — tipično kanarsko i veoma lagano.",
-      "full_day": "Morning: 🏖️ Las Canteras Beach Walk: Golden sand + clear waves. → 🌊 Alfredo Kraus Auditorium (Exterior). → ☕ Beachfront café. \n\nAfternoon: 🏘️ Vegueta Old Town: Colonial streets. → 🏛️ Santa Ana Cathedral (Exterior). → 🍽️ Canarian Lunch: Papas arrugadas, salads, tortilla. → 🎨 Casa de Colón (Exterior).\n\nSunset: 🌅 Maspalomas Dunes (Viewpoint area).\n\nNight: 🌃 Meloneras Promenade: Ice cream, waffles, seaside breeze.",
-      "seasons": {
-        "spring": {
-          "event": "Spring Breeze",
-          "ideas": [
-            "🌸 Beach mornings",
-            "🚶‍♂️ Vegueta exploring",
-            "🍹 Smoothie terraces"
-          ]
+          "name": "Fiestas del Pilar",
+          "season": "Autumn",
+          "description": "The city’s main festival honoring the Virgin of the Pillar.",
+          "website": "https://www.zaragoza.es",
+          "dates": "October (annual)"
         },
-        "summer": {
-          "event": "Island Summer",
-          "ideas": [
-            "🌊 Early seaside walks",
-            "🍉 Fruit bars",
-            "🌇 Maspalomas sunset"
-          ]
-        },
-        "autumn": {
-          "event": "Autumn Calm",
-          "ideas": [
-            "🍁 Golden Vegueta light",
-            "🎨 Craft shops",
-            "🥧 Warm pastries"
-          ]
-        },
-        "winter": {
-          "event": "Warm Winter Days",
-          "ideas": [
-            "🌞 20°C seaside walks",
-            "🍫 Hot drinks with ocean views"
-          ]
-        }
-      },
-      "public_transport_tips": [
-        "🚌 Buses are reliable and connect the entire island.",
-        "🚶 Las Palmas center is walkable.",
-        "🚗 Renting a car helpful for viewpoints.",
-        "📱 Use 'Guaguas' app."
-      ],
-      "city_events": [
         {
-          "name": "Carnaval de Las Palmas",
-          "season": "winter",
-          "description": "🎭 Massive island carnival with costumes and music."
+          "name": "Semana Santa",
+          "season": "Spring",
+          "description": "Holy Week processions with powerful drum traditions.",
+          "website": "https://www.turismodezaragoza.es",
+          "dates": "March–April (annual)"
         }
-      ]
-    },
-    {
-      "name": "Ibiza",
-      "interests": [
-        "Beaches & Sea Views 🌊",
-        "Nature & Coastal Walks 🌿",
-        "Historic Old Town 🎭"
       ],
-      "local_food_tip": "Veggie paella, salads, tortilla, Mediterranean bowls — čisto, lagano i osvežavajuće.",
-      "full_day": "Morning: 🏖️ Talamanca Beach: Calm turquoise water. → 🌿 Sa Punta Coastal Walk. → 🏛️ Dalt Vila Lower Streets (Exterior). → ☕ Marina Café. \n\nAfternoon: 🏘️ Ibiza Old Town: Colorful doors, art shops. → 🌿 Parc de la Paz. → 🍽️ Light Mediterranean Lunch: Veg paella, salads, grilled veggies. → 🎨 Marina Art Stands.\n\nSunset: 🌅 Es Vedrà Viewpoint.\n\nNight: 🌃 Marina promenade: Gelato, crepes, soft lights.",
-      "seasons": {
-        "spring": {
-          "event": "Spring in Ibiza",
-          "ideas": [
-            "🌸 Coastal wildflowers",
-            "🚶‍♂️ Old-town exploration",
-            "☕ Sunny marina terraces"
-          ]
-        },
-        "summer": {
-          "event": "Sunny Island Days",
-          "ideas": [
-            "🌊 Morning swims",
-            "🍉 Smoothie stands",
-            "🌇 Es Vedrà sunset"
-          ]
-        },
-        "autumn": {
-          "event": "Autumn Calm",
-          "ideas": [
-            "🍁 Coastal soft light",
-            "🥧 Old-town cafés",
-            "🎨 Marina craft corners"
-          ]
-        },
-        "winter": {
-          "event": "Winter by the Sea",
-          "ideas": [
-            "🎄 Old-town lights",
-            "🍫 Hot drinks by the marina"
-          ]
-        }
-      },
-      "public_transport_tips": [
-        "🚌 Buses connect beaches + towns.",
-        "🚶 Old town is walkable but steep.",
-        "🚲 Great for coastal bike rides.",
-        "📱 Use Ibiza Bus app."
-      ],
-      "city_events": [
+      "places": [
         {
-          "name": "Medieval Fair Ibiza",
-          "season": "spring",
-          "description": "🏰 Old-town themed fair with crafts and shows."
-        }
-      ]
-    },
-    {
-      "name": "Tenerife",
-      "interests": [
-        "Beaches & Sea Views 🌊",
-        "Volcano & Mountains 🌋",
-        "Old Town Culture 🎭"
-      ],
-      "local_food_tip": "Papas arrugadas with mojo, veggie stews, salads and fresh tropical fruits — jednostavno i ukusno.",
-      "full_day": "Morning: 🌋 Teide National Park (Exterior viewpoints): Lava fields + craters. → 🏜️ Roques de García (photo). → 🌿 Teide Scenic Roads. → ☕ Vilaflor mountain café. \n\nAfternoon: 🏘️ La Orotava: Historic balconies, calm plazas. → 🌿 Jardines Victoria. → 🍽️ Canarian Lunch: Papas arrugadas, salads, veggie stews. → 🎨 Casa de los Balcones (Exterior).\n\nSunset: 🌅 Playa de Benijo Viewpoint.\n\nNight: 🌃 Puerto de la Cruz promenade: Ice cream, waffles, ocean breeze.",
-      "seasons": {
-        "spring": {
-          "event": "Spring Blooms",
-          "ideas": [
-            "🌸 Flowered valleys",
-            "🚶‍♂️ Mild hikes",
-            "☕ Seaside terraces"
-          ]
+          "name": "El Tubo District",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=41.6545%2C-0.8790",
+          "description": "A maze of narrow streets famous for tapas bars and nightlife."
         },
-        "summer": {
-          "event": "Island Summer",
-          "ideas": [
-            "🏖️ Early beach mornings",
-            "🍉 Fruit bowls",
-            "🌇 Benijo sunset"
-          ]
-        },
-        "autumn": {
-          "event": "Autumn Calm",
-          "ideas": [
-            "🍁 Warm Orotava tones",
-            "🎨 Art shops",
-            "🥧 Coastal pastries"
-          ]
-        },
-        "winter": {
-          "event": "Winter Sun",
-          "ideas": [
-            "🌞 20°C seaside walks",
-            "🍫 Hot chocolate with ocean views"
-          ]
-        }
-      },
-      "public_transport_tips": [
-        "🚌 TITSA buses cover the whole island.",
-        "🚡 Cable car to Teide (optional).",
-        "🚶 Old towns are walkable.",
-        "📱 Use TITSA app."
-      ],
-      "city_events": [
         {
-          "name": "Carnaval de Santa Cruz",
-          "season": "winter",
-          "description": "🎉 One of the biggest carnivals in the world."
+          "name": "Ebro River Promenade",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=41.6585%2C-0.8745",
+          "description": "Scenic walking paths with views of the basilica and bridges."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "Roman Theatre Museum",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=41.6538%2C-0.8785",
+          "description": "Well-preserved remains of ancient Caesaraugusta beneath the modern city."
+        },
+        {
+          "name": "Parque Grande José Antonio Labordeta",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=41.6355%2C-0.8895",
+          "description": "A spacious park with gardens, fountains, and viewpoints."
         }
       ]
     }
+
   ]
 }

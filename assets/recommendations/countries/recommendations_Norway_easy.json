@@ -2,548 +2,844 @@
   "name": "Norway",
   "cities": [
     {
-      "name": "Oslo",
-      "interests": [
-        {
-          "name": "Urban Culture & Modern Architecture 🏙️",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=59.907615%2C10.753183",
-          "description": "Striking modern buildings, clean Scandinavian design and cultural landmarks."
-        },
-        {
-          "name": "Museums & History 🖼️",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=59.907755%2C10.737335",
-          "description": "Fortresses, national museums and deep Norwegian history."
-        },
-        {
-          "name": "Parks & Waterfront Walks 🌿",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=59.927037%2C10.699470",
-          "description": "Massive sculpture park, quiet greenery and calm paths perfect for sunsets."
-        }
-      ],
-      "local_food_tip": "Try seafood, fresh salmon, open-faced sandwiches and local breads — simple but fresh Scandinavian flavours. 🐟🍞🥗",
-      "full_day": "Morning: ☀️ Walk the roof of <a href=\"https://www.google.com/maps/search/?api=1&query=59.907615%2C10.753183\" target=\"_blank\">Oslo Opera House</a> → Explore <a href=\"https://www.google.com/maps/search/?api=1&query=59.907755%2C10.737335\" target=\"_blank\">Akershus Fortress</a> with harbor views → ☕ Coffee & pastry near <a href=\"https://www.google.com/maps/search/?api=1&query=59.913199%2C10.740132\" target=\"_blank\">Karl Johans Gate</a>.\n\nAfternoon: 🖼️ Choose a museum: <a href=\"https://www.google.com/maps/search/?api=1&query=59.913989%2C10.727578\" target=\"_blank\">National Museum</a>, <a href=\"https://www.google.com/maps/search/?api=1&query=59.917236%2C10.700166\" target=\"_blank\">Vigeland Museum</a> or Maritime Museum → 🍽️ Seafood lunch at <a href=\"https://www.google.com/maps/search/?api=1&query=59.908774%2C10.720069\" target=\"_blank\">Aker Brygge</a>.\n\nSunset: 🌇 Stroll through <a href=\"https://www.google.com/maps/search/?api=1&query=59.927037%2C10.699470\" target=\"_blank\">Vigeland Park</a> or the harbor promenade.\n\nNight: 🌃 Relaxed dinner in Tjuvholmen district or a calm waterfront walk.",
-      "seasons": {
-        "spring": {
-          "event": "Spring Awakening & Waterfront Walks",
-          "ideas": [
-            "🌸 Parks and waterfront begin to bloom — perfect for mild strolls.",
-            "🎨 Museums reopen fully for spring cultural season.",
-            "☕ Outdoor cafés appear along the harbor and city center."
-          ]
-        },
-        "summer": {
-          "event": "Long Days & City Energy",
-          "ideas": [
-            "🌞 Long daylight hours — perfect for fjord walks and museums.",
-            "🍦 Ice cream and relaxed waterside evenings.",
-            "🌅 Beautiful late sunsets along Aker Brygge and Tjuvholmen."
-          ]
-        },
-        "autumn": {
-          "event": "Golden Leaves & Urban Calm",
-          "ideas": [
-            "🍁 Vigeland Park turns golden — great autumn photos.",
-            "🔥 Warm café breaks after walks.",
-            "🏛️ Indoor museums perfect for chilly days."
-          ]
-        },
-        "winter": {
-          "event": "Fjord Views & Cozy Urban Nights",
-          "ideas": [
-            "❄️ Snowy harbor and calm winter atmosphere.",
-            "☕ Hot drinks and warm meals in cozy Nordic restaurants.",
-            "✨ Festive lights and waterfront reflections."
-          ]
-        }
-      },
-      "public_transport_tips": [
-        {
-          "tip": "🚇 Use Ruter metro, trams and buses to reach all main neighborhoods and attractions.",
-          "link": "https://ruter.no"
-        },
-        {
-          "tip": "🕒 Plan your trip and check delays with Ruter’s online journey planner.",
-          "link": "https://ruter.no/en/plan-journey"
-        },
-        {
-          "tip": "📱 Download the Ruter app for live departures and mobile tickets.",
-          "link": "https://ruter.no"
-        },
-        {
-          "tip": "🚢 Ferries in the Oslofjord are part of the Ruter network — great mini-cruises using the same tickets.",
-          "link": "https://ruter.no"
-        }
-      ],
-      "city_events": [
-        {
-          "name": "Oslo Summer Waterfront Festival",
-          "season": "summer",
-          "description": "🎉 Music, street performances, open-air markets and waterfront vibes under long summer days."
-        }
-      ],
-      "recommended_places": [
-        {
-          "name": "Oslo Opera House",
-          "maps_link": "https://www.google.com/maps/search/?api=1&query=59.907615%2C10.753183",
-          "why_visit": "Walkable sloped roof with fjord views and iconic architecture."
-        },
-        {
-          "name": "Akershus Fortress",
-          "maps_link": "https://www.google.com/maps/search/?api=1&query=59.907755%2C10.737335",
-          "why_visit": "Historic fortress overlooking the harbor."
-        },
-        {
-          "name": "Vigeland Park",
-          "maps_link": "https://www.google.com/maps/search/?api=1&query=59.927037%2C10.699470",
-          "why_visit": "The world’s largest sculpture park by a single artist — peaceful and stunning."
-        }
-      ],
-      "hidden_gems": [
-        {
-          "name": "Damstredet & Telthusbakken",
-          "maps_link": "https://www.google.com/maps/search/?api=1&query=59.923340%2C10.753650",
-          "description": "Tiny colorful wooden streets that feel like stepping back in time."
-        },
-        {
-          "name": "Tjuvholmen Sculpture Park",
-          "maps_link": "https://www.google.com/maps/search/?api=1&query=59.907070%2C10.720870",
-          "description": "Waterfront sculpture park with sea views and modern architecture."
-        },
-        {
-          "name": "Ekebergparken",
-          "maps_link": "https://www.google.com/maps/search/?api=1&query=59.895380%2C10.779890",
-          "description": "Hilltop sculpture park with panoramic views over Oslo."
-        }
-      ]
-    },
-    {
       "name": "Bergen",
       "interests": [
         {
-          "name": "Fjords & Mountains 🌄",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=60.397076%2C5.324383",
-          "description": "Gateway to fjord adventures, mountain hikes and dramatic Norwegian scenery."
+          "name": "Bryggen Wharf",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=60.3971%2C5.3246",
+          "description": "A UNESCO World Heritage Site with colorful wooden buildings that reflect Bergen’s Hanseatic trading history."
         },
         {
-          "name": "Historic Harbor & UNESCO Bryggen 🏘️",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=60.397076%2C5.324383",
-          "description": "Old wooden merchant houses, narrow alleys and signature Bergen charm."
+          "name": "Mount Fløyen",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=60.3958%2C5.3453",
+          "description": "One of Bergen’s seven mountains, offering panoramic city and fjord views, accessible by funicular."
         },
         {
-          "name": "Seafood & Coastal Cuisine 🐟",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=60.395890%2C5.325540",
-          "description": "Fresh seafood markets, salmon dishes and traditional local flavors."
+          "name": "Fish Market (Fisketorget)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=60.3949%2C5.3249",
+          "description": "A lively open-air market selling fresh seafood, local specialties, and Norwegian snacks."
         }
       ],
-      "local_food_tip": "Try salmon, shrimp sandwiches, seafood soups, warm bread and Scandinavian pastries — perfect after fjord trips.",
-      "full_day": "Morning: 🚤 Take a fjord cruise from <a href=\"https://www.google.com/maps/search/?api=1&query=60.392990%2C5.322780\" target=\"_blank\">Bergen Harbor</a> → Explore <a href=\"https://www.google.com/maps/search/?api=1&query=60.397076%2C5.324383\" target=\"_blank\">Bryggen</a> → ☕ Coffee by the harbor.\n\nAfternoon: ⛰️ Ride the <a href=\"https://www.google.com/maps/search/?api=1&query=60.395310%2C5.328430\" target=\"_blank\">Fløibanen Funicular</a> to Mount Fløyen → 🍽️ Lunch at harbor cafés.\n\nSunset: 🌇 View from Fløyen or <a href=\"https://www.google.com/maps/search/?api=1&query=60.369110%2C5.363300\" target=\"_blank\">Mount Ulriken</a>.\n\nNight: 🌃 Evening walk around Bryggen.",
+      "local_food_tip": "Try fresh salmon, fish soup (fiskesuppe), shrimp sandwiches, and waffles with brown cheese.",
+      "full_day": {
+        "morning": "Start at <a href=\"https://www.google.com/maps/search/?api=1&query=60.3971%2C5.3246\" target=\"_blank\" rel=\"noopener\">Bryggen Wharf</a> 🏘️, exploring the historic alleys and museums.",
+        "afternoon": "Ride the Fløibanen funicular to <a href=\"https://www.google.com/maps/search/?api=1&query=60.3958%2C5.3453\" target=\"_blank\" rel=\"noopener\">Mount Fløyen</a> 🚡 for views and forest walks.",
+        "sunset": "Return to the harbor area and stroll by the <a href=\"https://www.google.com/maps/search/?api=1&query=60.3949%2C5.3249\" target=\"_blank\" rel=\"noopener\">Fish Market</a> 🌅 as the light fades.",
+        "night": "Enjoy dinner along the waterfront 🍽️ or explore cozy cafés and bars in the city center."
+      },
       "seasons": {
         "spring": {
-          "event": "Fjord & Coastal Renewal",
+          "event": "Spring Hiking Season",
+          "description": "Longer days, blooming nature, and ideal conditions for outdoor walks.",
           "ideas": [
-            "🌿 Fresh green slopes and early-season fjord trips.",
-            "🚤 Quiet boat rides before summer crowds.",
-            "☕ Waterfront cafés reopening."
+            {
+              "name": "Fløyen Forest Trails",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=60.3958%2C5.3453",
+              "description": "Easy hikes with city views."
+            },
+            {
+              "name": "City Center Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=60.3945%2C5.3255",
+              "description": "Comfortable temperatures for sightseeing."
+            },
+            {
+              "name": "Harbor Photography",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=60.3975%2C5.3235",
+              "description": "Clear spring light on Bryggen."
+            }
           ]
         },
         "summer": {
-          "event": "Fjord Summer & Coastal Adventures",
+          "event": "Bergen International Festival",
+          "description": "Summer brings festivals, long daylight hours, and lively cultural life.",
           "ideas": [
-            "🏞️ Fjord cruises and mountain hikes in ideal weather.",
-            "🍽️ Seafood meals outdoors by the harbor.",
-            "🛶 Long daylight perfect for exploring nature."
+            {
+              "name": "Fjord Cruises",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=60.3978%2C5.3215",
+              "description": "Boat trips into nearby fjords."
+            },
+            {
+              "name": "Outdoor Concerts",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=60.3938%2C5.3250",
+              "description": "Music events across the city."
+            },
+            {
+              "name": "Evening Harbor Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=60.3955%2C5.3240",
+              "description": "Late sunsets and lively atmosphere."
+            }
           ]
         },
         "autumn": {
-          "event": "Autumn Fjord Calm & Atmospheric Light",
+          "event": "Autumn Mountain Colors",
+          "description": "Cooler air and colorful hills surround the city.",
           "ideas": [
-            "🍂 Fjord landscapes in deep orange tones.",
-            "🔥 Warm soups and pastries after rainy walks.",
-            "📸 Fog + mountains = dramatic photos."
+            {
+              "name": "Mount Ulriken Viewpoints",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=60.3730%2C5.3870",
+              "description": "Dramatic autumn views."
+            },
+            {
+              "name": "Museum Visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=60.3988%2C5.3225",
+              "description": "Indoor culture on rainy days."
+            },
+            {
+              "name": "Cozy Cafés",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=60.3940%2C5.3270",
+              "description": "Warm drinks and local pastries."
+            }
           ]
         },
         "winter": {
-          "event": "Coastal Winter & Snowy Peaks",
+          "event": "Winter Lights in Bergen",
+          "description": "Winter is dark but atmospheric, with festive lights and snowy mountain tops.",
           "ideas": [
-            "❄️ Snow on surrounding mountains + calm fjord views.",
-            "🏔️ Winter rides on Fløibanen or Ulriken.",
-            "🔥 Cozy fish soups and warm cafés."
+            {
+              "name": "Snowy Mountain Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=60.3958%2C5.3453",
+              "description": "Peaceful winter scenery."
+            },
+            {
+              "name": "Historic Bryggen Visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=60.3971%2C5.3246",
+              "description": "Quiet streets and historic charm."
+            },
+            {
+              "name": "Indoor Museums",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=60.3988%2C5.3225",
+              "description": "Cultural exploration during cold days."
+            }
           ]
         }
       },
       "public_transport_tips": [
         {
-          "tip": "🚌 Use Skyss buses and light rail (Bybanen) to move between the city center, airport and suburbs.",
+          "tip": "Bergen’s buses and light rail cover most of the city.",
           "link": "https://www.skyss.no"
         },
         {
-          "tip": "🎟️ Check tickets and zone information on Skyss before you travel.",
-          "link": "https://www.skyss.no"
+          "tip": "The Fløibanen funicular is the easiest way up Mount Fløyen.",
+          "link": "https://www.floyen.no"
         },
         {
-          "tip": "📱 The Skyss Ticket app lets you buy tickets and see departures on your phone.",
-          "link": "https://www.skyss.no/en/tickets-and-prices/buying-tickets/skyss-ticket-app/"
-        },
-        {
-          "tip": "🚤 For some fjord routes, combine Skyss with organised boat tours from the harbor.",
-          "link": "https://www.skyss.no"
+          "tip": "The city center is compact and walkable.",
+          "link": "https://en.visitbergen.com"
         }
       ],
       "city_events": [
         {
           "name": "Bergen International Festival",
-          "season": "summer",
-          "description": "🎶 Music, culture and performances across the city.",
-          "website": "https://www.fib.no/en/"
+          "season": "Summer",
+          "description": "Norway’s largest arts and culture festival.",
+          "website": "https://www.fib.no",
+          "dates": "May–June (annual)"
+        },
+        {
+          "name": "Bergen Food Festival",
+          "season": "Autumn",
+          "description": "Celebration of local food and producers.",
+          "website": "https://www.matfestival.no",
+          "dates": "September (annual)"
         }
       ],
-      "recommended_places": [
+      "places": [
         {
-          "name": "Bryggen",
-          "maps_link": "https://www.google.com/maps/search/?api=1&query=60.397076%2C5.324383",
-          "why_visit": "UNESCO wooden wharf with colorful houses and historic alleyways."
+          "name": "Hanseatic Museum",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=60.3976%2C5.3238",
+          "description": "A museum showing life during the Hanseatic trading era."
         },
         {
-          "name": "Fløibanen Funicular",
-          "maps_link": "https://www.google.com/maps/search/?api=1&query=60.395310%2C5.328430",
-          "why_visit": "Fast ride to panoramic views and scenic walking trails."
-        },
-        {
-          "name": "Bergen Fish Market",
-          "maps_link": "https://www.google.com/maps/search/?api=1&query=60.395890%2C5.325540",
-          "why_visit": "Fresh seafood, pastries, warm dishes and lively atmosphere."
+          "name": "Mount Ulriken Cable Car",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=60.3730%2C5.3870",
+          "description": "Cable car to Bergen’s highest mountain with wide views."
         }
       ],
       "hidden_gems": [
         {
-          "name": "Skansen Fire Station Viewpoint",
-          "maps_link": "https://www.google.com/maps/search/?api=1&query=60.402780%2C5.324840",
-          "description": "Small hilltop viewpoint overlooking the harbor."
+          "name": "Nordnes Peninsula",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=60.3925%2C5.3115",
+          "description": "A quiet residential area with sea views and local swimming spots."
         },
         {
-          "name": "Old Bergen Museum (Gamle Bergen)",
-          "maps_link": "https://www.google.com/maps/search/?api=1&query=60.419300%2C5.304200",
-          "description": "Open-air museum with historic houses and peaceful surroundings."
-        },
-        {
-          "name": "Mount Sandviksfjellet",
-          "maps_link": "https://www.google.com/maps/search/?api=1&query=60.408900%2C5.344700",
-          "description": "Less touristy mountain with amazing fjord views."
+          "name": "Sandviken Historic Area",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=60.4030%2C5.3350",
+          "description": "Traditional wooden houses and peaceful streets north of Bryggen."
         }
       ]
     },
+
+    {
+      "name": "Oslo",
+      "interests": [
+        {
+          "name": "Oslo Opera House",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=59.9076%2C10.7532",
+          "description": "A modern architectural landmark by the waterfront where visitors can walk on the roof for city and fjord views."
+        },
+        {
+          "name": "Vigeland Sculpture Park",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=59.9270%2C10.7006",
+          "description": "The world’s largest sculpture park made by a single artist, featuring over 200 works by Gustav Vigeland."
+        },
+        {
+          "name": "Akershus Fortress",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=59.9070%2C10.7366",
+          "description": "A medieval fortress overlooking Oslo Fjord, combining history, museums, and scenic walking paths."
+        }
+      ],
+      "local_food_tip": "Try salmon dishes, fish soup, reindeer stew, or waffles with brown cheese at traditional Norwegian cafés.",
+      "full_day": {
+        "morning": "Begin at the <a href=\"https://www.google.com/maps/search/?api=1&query=59.9076%2C10.7532\" target=\"_blank\" rel=\"noopener\">Oslo Opera House</a> 🎭, walking along the roof and waterfront.",
+        "afternoon": "Head to <a href=\"https://www.google.com/maps/search/?api=1&query=59.9270%2C10.7006\" target=\"_blank\" rel=\"noopener\">Vigeland Sculpture Park</a> 🌳, then enjoy lunch nearby.",
+        "sunset": "Visit <a href=\"https://www.google.com/maps/search/?api=1&query=59.9070%2C10.7366\" target=\"_blank\" rel=\"noopener\">Akershus Fortress</a> 🌅 for views over the fjord.",
+        "night": "Dine in the Aker Brygge area 🍽️ or enjoy a calm evening walk by the harbor."
+      },
+      "seasons": {
+        "spring": {
+          "event": "Spring City Awakening",
+          "description": "Longer days, blooming parks, and pleasant weather for walking.",
+          "ideas": [
+            {
+              "name": "Waterfront Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=59.9065%2C10.7505",
+              "description": "Comfortable temperatures and fresh sea air."
+            },
+            {
+              "name": "Park Visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=59.9270%2C10.7006",
+              "description": "Green spaces come alive."
+            },
+            {
+              "name": "Museum Exploration",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=59.9055%2C10.7380",
+              "description": "Balanced indoor and outdoor sightseeing."
+            }
+          ]
+        },
+        "summer": {
+          "event": "Oslo Summer Festival Season",
+          "description": "Warm days, long daylight hours, and outdoor events.",
+          "ideas": [
+            {
+              "name": "Island Hopping in Oslo Fjord",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=59.9050%2C10.7420",
+              "description": "Ferries to nearby islands for swimming and picnics."
+            },
+            {
+              "name": "Outdoor Concerts",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=59.9140%2C10.7510",
+              "description": "Music events across the city."
+            },
+            {
+              "name": "Evening Harbor Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=59.9075%2C10.7460",
+              "description": "Late sunsets and lively atmosphere."
+            }
+          ]
+        },
+        "autumn": {
+          "event": "Autumn Cultural Season",
+          "description": "Cooler air and colorful parks create a relaxed city mood.",
+          "ideas": [
+            {
+              "name": "Forest Walks (Nordmarka)",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=59.9815%2C10.6825",
+              "description": "Autumn colors just outside the city."
+            },
+            {
+              "name": "Museum Visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=59.9055%2C10.7380",
+              "description": "Ideal season for cultural exploration."
+            },
+            {
+              "name": "Local Dining",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=59.9135%2C10.7525",
+              "description": "Seasonal Nordic cuisine."
+            }
+          ]
+        },
+        "winter": {
+          "event": "Winter Lights and Ski Season",
+          "description": "Snowy landscapes, festive lights, and winter sports close to the city.",
+          "ideas": [
+            {
+              "name": "Cross-Country Skiing (Nordmarka)",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=59.9815%2C10.6825",
+              "description": "Well-prepared ski trails."
+            },
+            {
+              "name": "Christmas Markets",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=59.9135%2C10.7525",
+              "description": "Seasonal stalls and festive food."
+            },
+            {
+              "name": "Cozy Cafés",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=59.9140%2C10.7485",
+              "description": "Warm drinks during cold days."
+            }
+          ]
+        }
+      },
+      "public_transport_tips": [
+        {
+          "tip": "Oslo’s public transport includes metro, trams, buses, and ferries.",
+          "link": "https://ruter.no"
+        },
+        {
+          "tip": "Day passes are convenient for unlimited travel.",
+          "link": "https://ruter.no"
+        },
+        {
+          "tip": "The city center and waterfront are very walkable.",
+          "link": "https://www.visitoslo.com"
+        }
+      ],
+      "city_events": [
+        {
+          "name": "Oslo Jazz Festival",
+          "season": "Summer",
+          "description": "Major international jazz festival held at venues across the city.",
+          "website": "https://www.oslojazz.no",
+          "dates": "August (annual)"
+        },
+        {
+          "name": "Norwegian Constitution Day",
+          "season": "Spring",
+          "description": "National celebrations with parades and traditional dress.",
+          "website": "https://www.visitoslo.com",
+          "dates": "May 17 (annual)"
+        }
+      ],
+      "places": [
+        {
+          "name": "Munch Museum",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=59.9078%2C10.7565",
+          "description": "A modern museum dedicated to the works of Edvard Munch."
+        },
+        {
+          "name": "Aker Brygge",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=59.9095%2C10.7245",
+          "description": "A lively waterfront area with restaurants, shops, and fjord views."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "Ekeberg Sculpture Park",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=59.8985%2C10.7895",
+          "description": "A hilltop park combining art installations with panoramic city views."
+        },
+        {
+          "name": "Hovedøya Island",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=59.9005%2C10.7340",
+          "description": "A quiet island with beaches, forest paths, and monastery ruins."
+        }
+      ]
+    },
+
     {
       "name": "Stavanger",
       "interests": [
         {
-          "name": "Coastal Town & Sea Life 🌊",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=58.970050%2C5.731180",
-          "description": "Colorful waterfront, harborside cafés and lively seaside atmosphere."
+          "name": "Gamle Stavanger (Old Stavanger)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=58.9738%2C5.7345",
+          "description": "A beautifully preserved area with white wooden houses, cobblestone streets, and a peaceful historic atmosphere."
         },
         {
-          "name": "Gateway to Fjords & Cliffs (Lysefjord / Preikestolen) 🏞️",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=59.055600%2C6.190300",
-          "description": "Access to Norway’s dramatic fjord landscapes and the iconic Preikestolen cliff."
+          "name": "Stavanger Cathedral",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=58.9709%2C5.7326",
+          "description": "Norway’s oldest cathedral, dating back to the 12th century, located in the heart of the city."
         },
         {
-          "name": "Historic Old Town & Street Art 🎨",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=58.974140%2C5.726510",
-          "description": "Charming white wooden houses and strong creative street-art scene."
+          "name": "Norwegian Petroleum Museum",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=58.9717%2C5.7316",
+          "description": "An interactive museum explaining how oil and gas shaped modern Norway."
         }
       ],
-      "local_food_tip": "Fresh seafood, salmon, coastal stews and Norwegian-style fish dishes — light, warm and ideal after fjord excursions.",
-      "full_day": "Morning: ⛵ Start at <a href=\"https://www.google.com/maps/search/?api=1&query=58.970050%2C5.731180\" target=\"_blank\">Stavanger Harbour</a> → Take a boat trip into <a href=\"https://www.google.com/maps/search/?api=1&query=59.055600%2C6.190300\" target=\"_blank\">Lysefjord</a> → ☕ Coffee in old-town cafés.\n\nAfternoon: 🥾 Visit or hike near <a href=\"https://www.google.com/maps/search/?api=1&query=58.986390%2C6.190210\" target=\"_blank\">Preikestolen</a> → 🍽️ Seafood lunch near the harbor.\n\nSunset: 🌇 Coastal walk at <a href=\"https://www.google.com/maps/search/?api=1&query=58.883330%2C5.598880\" target=\"_blank\">Solastranden Beach</a>.\n\nNight: 🌙 Dinner by the water and stroll through historic streets.",
+      "local_food_tip": "Try fresh seafood, fish soup, shrimp sandwiches, and local pastries at cafés near the harbor.",
+      "full_day": {
+        "morning": "Start in <a href=\"https://www.google.com/maps/search/?api=1&query=58.9738%2C5.7345\" target=\"_blank\" rel=\"noopener\">Gamle Stavanger</a> 🏘️, strolling through its quiet historic streets.",
+        "afternoon": "Visit <a href=\"https://www.google.com/maps/search/?api=1&query=58.9717%2C5.7316\" target=\"_blank\" rel=\"noopener\">the Norwegian Petroleum Museum</a> 🛢️, then have lunch by the harbor.",
+        "sunset": "Stop by <a href=\"https://www.google.com/maps/search/?api=1&query=58.9709%2C5.7326\" target=\"_blank\" rel=\"noopener\">Stavanger Cathedral</a> 🌅 and relax in the nearby square.",
+        "night": "Enjoy dinner along the waterfront 🍽️ or explore cafés and restaurants in the city center."
+      },
       "seasons": {
         "spring": {
-          "event": "Fjord Awakening & Coastal Walks",
+          "event": "Spring Coastal Season",
+          "description": "Longer days and mild weather make spring ideal for city walks.",
           "ideas": [
-            "🌤️ Calm fjord waters — perfect for early-season cruises.",
-            "🚶 Explore quiet wooden old town before summer crowds.",
-            "🌿 Ideal temperatures for coastal walks."
+            {
+              "name": "Old Town Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=58.9738%2C5.7345",
+              "description": "Comfortable temperatures and fewer crowds."
+            },
+            {
+              "name": "Harbor Strolls",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=58.9715%2C5.7320",
+              "description": "Fresh sea air and calm views."
+            },
+            {
+              "name": "City Squares",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=58.9709%2C5.7326",
+              "description": "Outdoor cafés reopen."
+            }
           ]
         },
         "summer": {
-          "event": "Summer Fjord Adventures & Coastal Escape",
+          "event": "Gladmat Food Festival",
+          "description": "Summer is lively with festivals, long daylight, and outdoor dining.",
           "ideas": [
-            "⛵ Fjord cruising, kayaking and beach visits.",
-            "🍽️ Waterfront dinners with sea breeze.",
-            "🎶 Summer events in the harbor."
+            {
+              "name": "Boat Trips Nearby",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=58.9712%2C5.7305",
+              "description": "Explore fjords and nearby islands."
+            },
+            {
+              "name": "Evening Waterfront Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=58.9717%2C5.7316",
+              "description": "Late sunsets and social atmosphere."
+            },
+            {
+              "name": "Outdoor Dining",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=58.9725%2C5.7330",
+              "description": "Seasonal seafood menus."
+            }
           ]
         },
         "autumn": {
-          "event": "Coastal Autumn & Quiet Exploration",
+          "event": "Autumn Cultural Season",
+          "description": "Cooler air and colorful surroundings bring a calmer pace.",
           "ideas": [
-            "🍂 Golden coastal scenery — great for photography.",
-            "🔥 Warm seafood stews after windy days.",
-            "📸 Dramatic fjord landscapes."
+            {
+              "name": "Museum Visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=58.9717%2C5.7316",
+              "description": "Ideal for indoor culture."
+            },
+            {
+              "name": "Photography Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=58.9738%2C5.7345",
+              "description": "Soft light on wooden houses."
+            },
+            {
+              "name": "Local Dining",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=58.9720%2C5.7335",
+              "description": "Warm seasonal dishes."
+            }
           ]
         },
         "winter": {
-          "event": "Off-Season Peace & Sea-Cliff Magic",
+          "event": "Winter Lights in Stavanger",
+          "description": "Winter is mild by Norwegian standards, with cozy indoor life.",
           "ideas": [
-            "🌧️ Stormy seas and fjord mist for dramatic nature.",
-            "🔥 Cozy cafés indoors.",
-            "🌙 Reflective harbor evenings."
+            {
+              "name": "Historic Center Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=58.9709%2C5.7326",
+              "description": "Quiet streets and festive lights."
+            },
+            {
+              "name": "Cafés and Bakeries",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=58.9725%2C5.7330",
+              "description": "Warm drinks and pastries."
+            },
+            {
+              "name": "Indoor Museums",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=58.9717%2C5.7316",
+              "description": "Comfortable winter activities."
+            }
           ]
         }
       },
       "public_transport_tips": [
         {
-          "tip": "🚌 Use Kolumbus buses and boats for travel in Stavanger and the Rogaland region.",
+          "tip": "Buses connect Stavanger with nearby towns and beaches.",
           "link": "https://www.kolumbus.no"
         },
         {
-          "tip": "🎟️ Check Kolumbus ticket options before heading to suburbs or beaches like Solastranden.",
-          "link": "https://www.kolumbus.no"
+          "tip": "The city center is compact and walkable.",
+          "link": "https://www.visitnorway.com"
         },
         {
-          "tip": "📱 The Kolumbus app lets you plan routes and buy mobile tickets.",
-          "link": "https://www.kolumbus.no"
-        },
-        {
-          "tip": "🚢 For Lysefjord and Preikestolen boat trips, look at Kolumbus and local fjord tour operators.",
+          "tip": "Ferries operate to nearby islands and fjord areas.",
           "link": "https://www.kolumbus.no"
         }
       ],
       "city_events": [
         {
-          "name": "Stavanger Coastal & Fjord Festival",
-          "season": "summer",
-          "description": "🌊 Boat tours, fjord hikes, seafood and coastal celebrations.",
-          "website": "https://www.regionstavanger.com/en/whats-on/"
+          "name": "Gladmat Food Festival",
+          "season": "Summer",
+          "description": "Norway’s largest food festival celebrating local and international cuisine.",
+          "website": "https://www.gladmat.no",
+          "dates": "July (annual)"
+        },
+        {
+          "name": "Stavanger Chamber Music Festival",
+          "season": "Summer",
+          "description": "International chamber music performances across the city.",
+          "website": "https://www.kammermusikkfestivalen.no",
+          "dates": "August (annual)"
         }
       ],
-      "recommended_places": [
+      "places": [
         {
-          "name": "Gamle Stavanger (Old Town)",
-          "maps_link": "https://www.google.com/maps/search/?api=1&query=58.974140%2C5.726510",
-          "why_visit": "Charming wooden houses and preserved historic district."
+          "name": "Øvre Holmegate (Color Street)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=58.9718%2C5.7348",
+          "description": "A vibrant street known for colorful buildings, shops, and cafés."
         },
         {
-          "name": "Preikestolen (Pulpit Rock)",
-          "maps_link": "https://www.google.com/maps/search/?api=1&query=58.986390%2C6.190210",
-          "why_visit": "One of Norway’s most iconic fjord views."
-        },
-        {
-          "name": "Solastranden Beach",
-          "maps_link": "https://www.google.com/maps/search/?api=1&query=58.883330%2C5.598880",
-          "why_visit": "Beautiful sandy beach with sunset views."
+          "name": "Stavanger Harbor",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=58.9715%2C5.7310",
+          "description": "The central waterfront area with boats, restaurants, and views."
         }
       ],
       "hidden_gems": [
         {
-          "name": "Øvre Holmegate (The Colour Street)",
-          "maps_link": "https://www.google.com/maps/search/?api=1&query=58.969750%2C5.733350",
-          "description": "Bright, colorful street full of cafés and art."
+          "name": "Valbergtårnet Viewpoint",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=58.9730%2C5.7335",
+          "description": "A small hilltop tower offering views over the old town and harbor."
         },
         {
-          "name": "Sverd i Fjell",
-          "maps_link": "https://www.google.com/maps/search/?api=1&query=58.952590%2C5.682630",
-          "description": "Monument of giant Viking swords by the fjord."
-        },
-        {
-          "name": "Flor & Fjære Garden Island",
-          "maps_link": "https://www.google.com/maps/search/?api=1&query=59.063820%2C5.617030",
-          "description": "Colorful botanical island reached by boat."
+          "name": "Mosvatnet Lake",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=58.9605%2C5.7085",
+          "description": "A peaceful lake and walking path popular with locals."
         }
       ]
     },
+
     {
       "name": "Tromsø",
       "interests": [
         {
-          "name": "Arctic Nature & Northern Lights 🌌",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=69.648198%2C18.987540",
-          "description": "Perfect place for aurora viewing and Arctic landscapes."
+          "name": "Arctic Cathedral (Ishavskatedralen)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=69.6489%2C18.9872",
+          "description": "A striking modern cathedral inspired by Arctic nature, one of Tromsø’s most recognizable landmarks."
         },
         {
-          "name": "Winter Adventures & Arctic Wildlife ❄️",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=69.664800%2C19.001400",
-          "description": "Dog sledding, fjord safaris and snow activities."
+          "name": "Fjellheisen Cable Car",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=69.6428%2C18.9926",
+          "description": "A cable car taking visitors up Mount Storsteinen for panoramic views over Tromsø and surrounding fjords."
         },
         {
-          "name": "Midnight Sun & Northern Scenery 🌞",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=69.649600%2C18.967100",
-          "description": "Long daylight and panoramic viewpoints."
+          "name": "Polaria",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=69.6483%2C18.9569",
+          "description": "An Arctic-themed aquarium and science center focused on polar nature and climate."
         }
       ],
-      "local_food_tip": "Fresh Arctic fish (cod, salmon), warm soups and Nordic dishes — perfect after cold-weather outings.",
-      "full_day": "Morning: Visit <a href=\"https://www.google.com/maps/search/?api=1&query=69.648198%2C18.987540\" target=\"_blank\">Arctic Cathedral</a> → Walk the harbor → ☕ Cozy café.\n\nAfternoon: Ride <a href=\"https://www.google.com/maps/search/?api=1&query=69.649600%2C18.967100\" target=\"_blank\">Fjellheisen Cable Car</a> → 🍽️ Seafood lunch.\n\nSunset: 🌇 Boat ride for Arctic golden hour.\n\nNight: 🌌 Winter: Northern Lights tours. Summer: Midnight Sun walks.",
+      "local_food_tip": "Try Arctic cod (skrei), fish soup, reindeer dishes, and waffles with brown cheese in local cafés.",
+      "full_day": {
+        "morning": "Start at <a href=\"https://www.google.com/maps/search/?api=1&query=69.6483%2C18.9569\" target=\"_blank\" rel=\"noopener\">Polaria</a> ❄️ to learn about Arctic wildlife and climate.",
+        "afternoon": "Cross the bridge to visit the <a href=\"https://www.google.com/maps/search/?api=1&query=69.6489%2C18.9872\" target=\"_blank\" rel=\"noopener\">Arctic Cathedral</a> ⛪, then have lunch in the city center.",
+        "sunset": "Ride the <a href=\"https://www.google.com/maps/search/?api=1&query=69.6428%2C18.9926\" target=\"_blank\" rel=\"noopener\">Fjellheisen Cable Car</a> 🌅 for sweeping views over Tromsø and the fjords.",
+        "night": "Enjoy dinner by the harbor 🍽️ or, in season, look for northern lights away from city lights."
+      },
       "seasons": {
         "spring": {
-          "event": "Spring Transition & Arctic Light",
+          "event": "Return of the Midnight Sun",
+          "description": "Spring brings longer days, melting snow, and the gradual return of daylight.",
           "ideas": [
-            "🌷 Melting snow & longer days.",
-            "🚣 Calm fjord boat tours.",
-            "🥘 Warm Arctic meals."
+            {
+              "name": "City Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=69.6490%2C18.9555",
+              "description": "Milder weather and increasing daylight."
+            },
+            {
+              "name": "Fjord Views",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=69.6465%2C18.9585",
+              "description": "Clear air and snow-capped mountains."
+            },
+            {
+              "name": "Museum Visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=69.6475%2C18.9560",
+              "description": "Indoor culture during cooler days."
+            }
           ]
         },
         "summer": {
-          "event": "Midnight Sun & Arctic Adventures",
+          "event": "Midnight Sun Season",
+          "description": "Continuous daylight creates a unique atmosphere for outdoor activities.",
           "ideas": [
-            "🌞 24-hour daylight for hiking.",
-            "🛶 Kayaking, island hopping.",
-            "🎶 Outdoor events."
+            {
+              "name": "Midnight Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=69.6495%2C18.9550",
+              "description": "Explore the city under the midnight sun."
+            },
+            {
+              "name": "Boat Trips",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=69.6490%2C18.9575",
+              "description": "Fjord cruises and wildlife spotting."
+            },
+            {
+              "name": "Mountain Hikes",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=69.6428%2C18.9926",
+              "description": "Clear trails and wide views."
+            }
           ]
         },
         "autumn": {
-          "event": "Autumn Colours & Aurora Season Start",
+          "event": "Northern Lights Season Begins",
+          "description": "Darker nights return, bringing early chances to see the aurora.",
           "ideas": [
-            "🍂 Dramatic tundra colors.",
-            "🌌 First aurora nights.",
-            "🔥 Cozy cafés after hikes."
+            {
+              "name": "Aurora Viewing Spots",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=69.6505%2C18.9300",
+              "description": "Less light pollution outside the center."
+            },
+            {
+              "name": "Autumn Photography",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=69.6465%2C18.9585",
+              "description": "Colorful landscapes and dramatic skies."
+            },
+            {
+              "name": "Cafés and Restaurants",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=69.6488%2C18.9568",
+              "description": "Warm meals as temperatures drop."
+            }
           ]
         },
         "winter": {
-          "event": "Polar Nights & Arctic Magic",
+          "event": "Polar Night",
+          "description": "The sun stays below the horizon, creating a blue twilight and prime aurora season.",
           "ideas": [
-            "🌌 Aurora hunting.",
-            "🐺 Dog sledding & wildlife tours.",
-            "🕯️ Warm Nordic evenings."
+            {
+              "name": "Northern Lights Watching",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=69.6505%2C18.9300",
+              "description": "One of the best places in the world to see the aurora."
+            },
+            {
+              "name": "Winter Fjellheisen Views",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=69.6428%2C18.9926",
+              "description": "Snowy city and fjord scenery."
+            },
+            {
+              "name": "Museums and Cafés",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=69.6475%2C18.9560",
+              "description": "Cozy indoor experiences."
+            }
           ]
         }
       },
       "public_transport_tips": [
         {
-          "tip": "🚍 Local buses connect Tromsø center with suburbs, the cable car and key viewpoints.",
-          "link": "https://entur.no"
+          "tip": "Local buses connect Tromsøya with the mainland and suburbs.",
+          "link": "https://www.tromskortet.no"
         },
         {
-          "tip": "📱 Use the Entur journey planner (web or app) for all Norwegian public transport, including Tromsø.",
-          "link": "https://entur.no"
+          "tip": "The city center is compact and easy to explore on foot.",
+          "link": "https://www.visittromso.no"
         },
         {
-          "tip": "🛳️ Ferries and boats are great for fjord and island trips around Tromsø.",
-          "link": "https://entur.no"
-        },
-        {
-          "tip": "🚐 For Northern Lights and wildlife excursions, organised tours usually include their own transport.",
-          "link": "https://entur.no"
+          "tip": "Airport buses provide quick access to the city.",
+          "link": "https://www.visittromso.no"
         }
       ],
       "city_events": [
         {
-          "name": "Tromsø Northern Lights Festival",
-          "season": "winter",
-          "description": "🎼 Classical & modern music under Arctic sky.",
-          "website": "https://nordlysfestivalen.no/en/"
-        }
-      ],
-      "recommended_places": [
-        {
-          "name": "Arctic Cathedral",
-          "maps_link": "https://www.google.com/maps/search/?api=1&query=69.648198%2C18.987540",
-          "why_visit": "Iconic Arctic architecture with fjord backdrop."
+          "name": "Tromsø International Film Festival",
+          "season": "Winter",
+          "description": "A major cultural event held during the polar night.",
+          "website": "https://www.tiff.no",
+          "dates": "January (annual)"
         },
         {
-          "name": "Fjellheisen Cable Car",
-          "maps_link": "https://www.google.com/maps/search/?api=1&query=69.649600%2C18.967100",
-          "why_visit": "Best viewpoint for fjords, sunset & aurora."
+          "name": "Northern Lights Festival",
+          "season": "Winter",
+          "description": "A music festival inspired by the Arctic and the aurora.",
+          "website": "https://www.nordlysfestivalen.no",
+          "dates": "January–February (annual)"
+        }
+      ],
+      "places": [
+        {
+          "name": "Polar Museum",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=69.6494%2C18.9595",
+          "description": "A museum focused on Arctic exploration, hunting, and polar history."
         },
         {
           "name": "Tromsø Bridge",
-          "maps_link": "https://www.google.com/maps/search/?api=1&query=69.649920%2C18.975260",
-          "why_visit": "Elevated views over harbor & city."
+          "map_link": "https://www.google.com/maps/search/?api=1&query=69.6498%2C18.9805",
+          "description": "A long bridge connecting the island with the mainland, offering scenic views."
         }
       ],
       "hidden_gems": [
         {
           "name": "Telegrafbukta Beach",
-          "maps_link": "https://www.google.com/maps/search/?api=1&query=69.629200%2C18.933600",
-          "description": "Peaceful beach with great views in all seasons."
+          "map_link": "https://www.google.com/maps/search/?api=1&query=69.6435%2C18.9415",
+          "description": "A small beach and park popular with locals, even in colder seasons."
         },
         {
           "name": "Prestvannet Lake",
-          "maps_link": "https://www.google.com/maps/search/?api=1&query=69.666300%2C18.942300",
-          "description": "Calm lake ideal for nature walks and aurora viewing."
-        },
-        {
-          "name": "Skansen Historic Area",
-          "maps_link": "https://www.google.com/maps/search/?api=1&query=69.650670%2C18.955120",
-          "description": "Atmospheric historic area near the old fortress."
+          "map_link": "https://www.google.com/maps/search/?api=1&query=69.6565%2C18.9455",
+          "description": "A peaceful lake and nature area within the city."
         }
       ]
     },
+
     {
       "name": "Trondheim",
       "interests": [
         {
-          "name": "Historic Architecture & Nordic Heritage 🏰",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=63.428020%2C10.396540",
-          "description": "Historic cathedral, old wooden districts and waterfront charm."
+          "name": "Nidaros Cathedral",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=63.4266%2C10.3969",
+          "description": "Norway’s national cathedral and a major pilgrimage site, known for its Gothic architecture and historic significance."
         },
         {
-          "name": "Coastal & Fjord Access 🌊",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=63.440090%2C10.402800",
-          "description": "Easy access to fjord views, waterfront walks and seaside parks."
+          "name": "Bakklandet",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=63.4278%2C10.4108",
+          "description": "A charming old town area with colorful wooden houses, cafés, and riverside walks."
         },
         {
-          "name": "Student & Youth Culture 🌿",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=63.422310%2C10.395830",
-          "description": "Lively neighborhoods, cafés and outdoor-friendly atmosphere."
+          "name": "Kristiansten Fortress",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=63.4328%2C10.4189",
+          "description": "A hilltop fortress offering panoramic views over Trondheim and the Trondheimsfjord."
         }
       ],
-      "local_food_tip": "Seafood, fish, local produce, breads and Norwegian comfort dishes — perfect after city or nature walks.",
-      "full_day": "Morning: Explore historic center & cathedral → ☕ Bakery break.\n\nAfternoon: Walk along the fjord coast or nature trails → 🍽️ Local seafood lunch.\n\nSunset: 🌇 Fjord viewpoint.\n\nNight: 🌃 Student cafés, concerts and relaxed atmosphere.",
+      "local_food_tip": "Try fresh seafood, fish soup, locally baked bread, and waffles with brown cheese at cozy cafés.",
+      "full_day": {
+        "morning": "Start your day at <a href=\"https://www.google.com/maps/search/?api=1&query=63.4266%2C10.3969\" target=\"_blank\" rel=\"noopener\">Nidaros Cathedral</a> ⛪, exploring the interior and surrounding square.",
+        "afternoon": "Walk across the river to <a href=\"https://www.google.com/maps/search/?api=1&query=63.4278%2C10.4108\" target=\"_blank\" rel=\"noopener\">Bakklandet</a> ☕ for lunch and a relaxed stroll.",
+        "sunset": "Climb to <a href=\"https://www.google.com/maps/search/?api=1&query=63.4328%2C10.4189\" target=\"_blank\" rel=\"noopener\">Kristiansten Fortress</a> 🌅 for city and fjord views.",
+        "night": "Enjoy dinner along the river 🍽️ or explore Trondheim’s student-friendly cafés and bars."
+      },
       "seasons": {
         "spring": {
-          "event": "Spring Rebirth & Historic Walks",
+          "event": "Spring City Season",
+          "description": "Longer days and blooming parks make spring ideal for walking and sightseeing.",
           "ideas": [
-            "🌿 Greener parks & mild weather.",
-            "🏙️ Perfect for wandering the old town.",
-            "🍽️ Fresh local food."
+            {
+              "name": "Riverside Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=63.4270%2C10.4025",
+              "description": "Fresh air and calm city views."
+            },
+            {
+              "name": "Old Town Exploration",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=63.4278%2C10.4108",
+              "description": "Comfortable temperatures and fewer crowds."
+            },
+            {
+              "name": "Cathedral Square Visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=63.4266%2C10.3969",
+              "description": "Outdoor seating returns."
+            }
           ]
         },
         "summer": {
-          "event": "Summer Coast & Youth Energy",
+          "event": "Trondheim Summer Festival Season",
+          "description": "Summer brings festivals, long daylight hours, and lively outdoor life.",
           "ideas": [
-            "🌞 Fjord swims, kayaking, coastal hikes.",
-            "🎶 Outdoor events & vibrant city life.",
-            "🍦 Ice-cream & waterfront evenings."
+            {
+              "name": "Cycling Around the City",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=63.4295%2C10.3995",
+              "description": "Flat routes and scenic views."
+            },
+            {
+              "name": "Fjord Boat Trips",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=63.4305%2C10.3925",
+              "description": "Explore Trondheimsfjord by boat."
+            },
+            {
+              "name": "Evening Bakklandet Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=63.4278%2C10.4108",
+              "description": "Late sunsets and social atmosphere."
+            }
           ]
         },
         "autumn": {
-          "event": "Autumn Colours & Quiet Exploration",
+          "event": "Autumn Cultural Season",
+          "description": "Cooler air and colorful trees create a calm and cozy atmosphere.",
           "ideas": [
-            "🍂 Warm golden tones around fjord.",
-            "🔥 Soups & cozy cafés.",
-            "🏛️ Indoor museums on cooler days."
+            {
+              "name": "Fortress Views",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=63.4328%2C10.4189",
+              "description": "Clear autumn skies over the city."
+            },
+            {
+              "name": "Museum Visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=63.4255%2C10.3960",
+              "description": "Comfortable indoor culture."
+            },
+            {
+              "name": "Local Dining",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=63.4268%2C10.4038",
+              "description": "Seasonal Norwegian dishes."
+            }
           ]
         },
         "winter": {
-          "event": "Winter Calm & Nordic Heritage",
+          "event": "Winter Lights and Student Life",
+          "description": "Winter is cold but lively, with cozy cafés and cultural events.",
           "ideas": [
-            "❄️ Snowy rooftops & quiet streets.",
-            "🔥 Comfort food & warm restaurants.",
-            "🎭 Fewer crowds — ideal for history lovers."
+            {
+              "name": "Snowy City Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=63.4266%2C10.3969",
+              "description": "Atmospheric streets and historic buildings."
+            },
+            {
+              "name": "Cross-Country Skiing Nearby",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=63.4540%2C10.3270",
+              "description": "Easy access to ski trails."
+            },
+            {
+              "name": "Cafés and Bakeries",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=63.4278%2C10.4108",
+              "description": "Warm drinks and pastries."
+            }
           ]
         }
       },
       "public_transport_tips": [
         {
-          "tip": "🚌 Use AtB buses for getting around Trondheim and nearby areas.",
+          "tip": "Buses cover the city and surrounding areas efficiently.",
           "link": "https://www.atb.no"
         },
         {
-          "tip": "🚆 Regional trains connect Trondheim with other Norwegian cities along the coast and inland.",
-          "link": "https://www.vy.no"
+          "tip": "The city center is compact and easy to explore on foot.",
+          "link": "https://www.visitnorway.com"
         },
         {
-          "tip": "📱 AtB’s journey planning tools and app show real-time departures.",
-          "link": "https://www.atb.no"
-        },
-        {
-          "tip": "🚤 For fjordside trips, check local boat and ferry routes that connect small communities.",
-          "link": "https://entur.no"
+          "tip": "Bike rentals are popular during warmer months.",
+          "link": "https://www.visitnorway.com"
         }
       ],
       "city_events": [
         {
-          "name": "Trondheim Summer Coast Festival",
-          "season": "summer",
-          "description": "🎉 Music, culture, coastal activities and community celebrations."
+          "name": "St. Olav Festival (Olsok)",
+          "season": "Summer",
+          "description": "A major religious and cultural festival centered on Nidaros Cathedral.",
+          "website": "https://olsok.no",
+          "dates": "Late July (annual)"
+        },
+        {
+          "name": "Trondheim Jazz Festival",
+          "season": "Autumn",
+          "description": "Jazz performances at venues across the city.",
+          "website": "https://trondheimjazz.no",
+          "dates": "October (annual)"
+        }
+      ],
+      "places": [
+        {
+          "name": "Old Town Bridge (Gamle Bybro)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=63.4282%2C10.4069",
+          "description": "A historic red wooden bridge leading into Bakklandet."
+        },
+        {
+          "name": "Rockheim Museum",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=63.4398%2C10.3995",
+          "description": "Norway’s national museum of popular music."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "Svartlamon Neighborhood",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=63.4375%2C10.4205",
+          "description": "An alternative area known for street art, music, and local culture."
+        },
+        {
+          "name": "Ladestien Coastal Path",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=63.4515%2C10.4305",
+          "description": "A scenic coastal walking path along the fjord."
         }
       ]
     }
+
   ]
 }

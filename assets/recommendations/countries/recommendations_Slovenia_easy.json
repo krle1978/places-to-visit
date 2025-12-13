@@ -2,321 +2,844 @@
   "name": "Slovenia",
   "cities": [
     {
-      "name": "Ljubljana",
-      "interests": [
-        "Old Town Culture 🎭",
-        "Riverside Walks 🌊",
-        "Castles & Views 🏰",
-        "Parks & Nature 🌿",
-        "Local Food Exploration 😋"
-      ],
-      "local_food_tip": "Slovenačke supe, krompir jela, salate, štrudle i lagani mediteransko-alpski ukusi.",
-      "full_day": "Morning: 🏰 Ljubljana Castle (Exterior viewpoints). → 🌊 Ljubljanica River walk. → ☕ Old Town café.\n\nAfternoon: 🎭 Triple Bridge & Prešeren Square. → 🍽️ Lunch: soups, salads, pastries. → 🌿 Tivoli Park walk.\n\nSunset: 🌅 Castle hill viewpoints.\n\nNight: 🌃 Riverbank lights + dessert stops.",
-      "seasons": {
-        "spring": {
-          "event": "Spring Ljubljana",
-          "ideas": [
-            "🌸 River blossoms",
-            "🚶 Light walks",
-            "☕ Terraces"
-          ]
-        },
-        "summer": {
-          "event": "Summer Vibes",
-          "ideas": [
-            "🌊 Waterfront breeze",
-            "🍦 Ice cream",
-            "🌇 Sunset hills"
-          ]
-        },
-        "autumn": {
-          "event": "Golden Autumn",
-          "ideas": [
-            "🍁 Tivoli Park colors",
-            "🥧 Warm cafés",
-            "🎨 Galleries"
-          ]
-        },
-        "winter": {
-          "event": "Winter Magic",
-          "ideas": [
-            "🎄 Holiday lights",
-            "🍫 Hot chocolate"
-          ]
-        }
-      },
-      "public_transport_tips": [
-        "🚌 City buses cover everything.",
-        "🚶 Old Town is fully walkable.",
-        "📱 Use 'Ljubljana Bus' app for routes."
-      ],
-      "city_events": [
-        {
-          "name": "Ljubljana Festival",
-          "season": "summer",
-          "description": "🎶 Music, theatre and cultural performances."
-        }
-      ]
-    },
-    {
       "name": "Bled",
       "interests": [
-        "Lakes & Views 🌊",
-        "Castles 🏰",
-        "Nature Walks 🌿"
+        {
+          "name": "Lake Bled",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=46.3625%2C14.0936",
+          "description": "A glacial alpine lake famous for its emerald water, scenic walking path, and iconic island."
+        },
+        {
+          "name": "Bled Castle",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=46.3690%2C14.1005",
+          "description": "A medieval castle perched on a cliff above the lake, offering panoramic views and a museum on Slovenian history."
+        },
+        {
+          "name": "Bled Island & Church of the Assumption",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=46.3619%2C14.0959",
+          "description": "The only natural island in Slovenia, home to a picturesque church reached by traditional pletna boats."
+        }
       ],
-      "local_food_tip": "Lagana planinska jela, supe, salate, krompir i čuveni Bled kremšnita.",
-      "full_day": "Morning: 🌊 Lake Bled walk. → 🛶 Island viewpoint (no services described). → ☕ Lakeside café.\n\nAfternoon: 🏰 Bled Castle (Exterior). → 🍽️ Light lunch: soups, salads.\n\nSunset: 🌅 Lake viewpoints.\n\nNight: 🌃 Quiet lakeside lights.",
+      "local_food_tip": "Don’t miss the famous kremšnita (Bled cream cake), trout from local waters, and hearty alpine dishes in traditional gostilnas.",
+      "full_day": {
+        "morning": "Start with a peaceful walk around <a href=\"https://www.google.com/maps/search/?api=1&query=46.3625%2C14.0936\" target=\"_blank\" rel=\"noopener\">Lake Bled</a> ☀️, enjoying reflections of the Alps.",
+        "afternoon": "Take a pletna boat to <a href=\"https://www.google.com/maps/search/?api=1&query=46.3619%2C14.0959\" target=\"_blank\" rel=\"noopener\">Bled Island</a> ⛪ and ring the wishing bell.",
+        "sunset": "Climb up to <a href=\"https://www.google.com/maps/search/?api=1&query=46.3690%2C14.1005\" target=\"_blank\" rel=\"noopener\">Bled Castle</a> 🌅 for unforgettable lake views.",
+        "night": "Enjoy dinner 🍽️ by the lakeshore and a quiet evening stroll."
+      },
       "seasons": {
         "spring": {
-          "event": "Spring Lake",
+          "event": "Spring in the Julian Alps",
+          "description": "Blooming flowers and mild temperatures make Bled especially scenic.",
           "ideas": [
-            "🌸 Lakeside blossoms",
-            "🚶 Nature walks",
-            "☕ Terraces"
+            {
+              "name": "Lakeside Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=46.3625%2C14.0936",
+              "description": "Fresh air and clear mountain views."
+            },
+            {
+              "name": "Castle Gardens",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=46.3690%2C14.1005",
+              "description": "Spring colors around historic walls."
+            },
+            {
+              "name": "Café Terraces",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=46.3620%2C14.0945",
+              "description": "Outdoor seating returns by the lake."
+            }
           ]
         },
         "summer": {
-          "event": "Summer Freshness",
+          "event": "Bled Summer Season",
+          "description": "Warm days perfect for swimming, boating, and alpine excursions.",
           "ideas": [
-            "🌊 Early lake walks",
-            "🍦 Ice cream",
-            "🌇 Long sunsets"
+            {
+              "name": "Swimming in Lake Bled",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=46.3625%2C14.0936",
+              "description": "Clear water and designated swimming areas."
+            },
+            {
+              "name": "Island Boat Trips",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=46.3619%2C14.0959",
+              "description": "Classic pletna boat experience."
+            },
+            {
+              "name": "Evening Lakeside Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=46.3630%2C14.0925",
+              "description": "Cool evenings and lively atmosphere."
+            }
           ]
         },
         "autumn": {
-          "event": "Golden Lake",
+          "event": "Autumn Colors of Bled",
+          "description": "Golden forests and crisp air create postcard-perfect scenery.",
           "ideas": [
-            "🍁 Reflections",
-            "🥧 Pastry stops"
+            {
+              "name": "Photography Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=46.3625%2C14.0936",
+              "description": "Reflections and autumn foliage."
+            },
+            {
+              "name": "Hiking Above the Lake",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=46.3675%2C14.0885",
+              "description": "Viewpoints like Ojstrica and Osojnica."
+            },
+            {
+              "name": "Local Dining",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=46.3620%2C14.0945",
+              "description": "Seasonal alpine cuisine."
+            }
           ]
         },
         "winter": {
-          "event": "Winter Bled",
+          "event": "Winter Fairy-Tale Bled",
+          "description": "Snowy landscapes and a calm, romantic atmosphere.",
           "ideas": [
-            "❄️ Snowy hills",
-            "🍫 Hot drinks"
+            {
+              "name": "Snowy Lake Views",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=46.3625%2C14.0936",
+              "description": "Peaceful winter scenery."
+            },
+            {
+              "name": "Castle Museum Visit",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=46.3690%2C14.1005",
+              "description": "Warm indoor history."
+            },
+            {
+              "name": "Nearby Ski Resorts",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=46.2955%2C14.2295",
+              "description": "Easy winter sports trips."
+            }
           ]
         }
       },
       "public_transport_tips": [
-        "🚌 Buses from Ljubljana.",
-        "🚶 Lake loop is walkable.",
-        "🚲 Bike-friendly paths."
+        {
+          "tip": "Buses connect Bled with Ljubljana and nearby towns.",
+          "link": "https://www.ap-ljubljana.si"
+        },
+        {
+          "tip": "The lake loop is flat and ideal for walking or cycling.",
+          "link": "https://www.bled.si"
+        },
+        {
+          "tip": "Lesce-Bled train station connects the area with Slovenia’s rail network.",
+          "link": "https://potniski.sz.si"
+        }
       ],
       "city_events": [
         {
-          "name": "Bled Days & Nights",
-          "season": "summer",
-          "description": "🎆 Lanterns, music & lake shows."
-        }
-      ]
-    },
-    {
-      "name": "Celje",
-      "interests": [
-        "Castles 🏰",
-        "Old Town 🎭",
-        "Nature Walks 🌿"
-      ],
-      "local_food_tip": "Slovenačke supe, salate, domaće testenine i slatka peciva.",
-      "full_day": "Morning: 🏰 Celje Castle (Exterior). → ☕ Old Town café.\n\nAfternoon: 🎭 Medieval streets. → 🍽️ Lunch: soups, salads. → 🌿 Savinja river paths.\n\nSunset: 🌅 Castle viewpoints.\n\nNight: 🌃 Calm old-town lights.",
-      "seasons": {
-        "spring": {
-          "event": "Spring Celje",
-          "ideas": [
-            "🌸 Castle hill blooms",
-            "🚶 River walks"
-          ]
+          "name": "Bled Days (Blejski dnevi)",
+          "season": "Summer",
+          "description": "A traditional festival with crafts, music, and evening candle-lit boats on the lake.",
+          "website": "https://www.bled.si",
+          "dates": "July (annual)"
         },
-        "summer": {
-          "event": "Summer Warmth",
-          "ideas": [
-            "🌿 Park shade",
-            "🍦 Ice cream"
-          ]
-        },
-        "autumn": {
-          "event": "Autumn Colors",
-          "ideas": [
-            "🍁 Castle views",
-            "🥧 Cafés"
-          ]
-        },
-        "winter": {
-          "event": "Winter Calm",
-          "ideas": [
-            "❄️ Light snow",
-            "🍫 Warm drinks"
-          ]
-        }
-      },
-      "public_transport_tips": [
-        "🚌 Local buses",
-        "🚶 Walkable center"
-      ],
-      "city_events": [
         {
-          "name": "Celje Summer in the Old Town",
-          "season": "summer",
-          "description": "🎶 Shows, concerts & markets."
+          "name": "Bled Christmas Fair",
+          "season": "Winter",
+          "description": "Festive market and events celebrating the holiday season.",
+          "website": "https://www.bled.si",
+          "dates": "December (annual)"
+        }
+      ],
+      "places": [
+        {
+          "name": "Ojstrica Viewpoint",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=46.3685%2C14.0875",
+          "description": "A short but steep hike leading to one of the best views over Lake Bled."
+        },
+        {
+          "name": "Vintgar Gorge",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=46.3945%2C14.0870",
+          "description": "A dramatic gorge with wooden walkways and waterfalls, just a short trip from Bled."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "Osojnica Viewpoint",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=46.3705%2C14.0835",
+          "description": "A quieter viewpoint above the lake, popular with photographers."
+        },
+        {
+          "name": "Zaka Lakeside Area",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=46.3655%2C14.0825",
+          "description": "A less crowded lakeside spot with swimming areas and cafés."
         }
       ]
     },
+
     {
       "name": "Koper",
       "interests": [
-        "Seaside Atmosphere 🌊",
-        "Old Town 🎭",
-        "Mediterranean Culture 🌿"
+        {
+          "name": "Tito Square (Titov trg)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=45.5485%2C13.7308",
+          "description": "The historic heart of Koper, surrounded by Venetian-style palaces, cafés, and cultural landmarks."
+        },
+        {
+          "name": "Praetorian Palace",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=45.5486%2C13.7310",
+          "description": "A Gothic–Renaissance palace symbolizing Koper’s Venetian past, located directly on Tito Square."
+        },
+        {
+          "name": "Koper City Beach (Žusterna)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=45.5435%2C13.7155",
+          "description": "A popular seaside area with swimming spots, promenades, and sunset views over the Adriatic."
+        }
       ],
-      "local_food_tip": "Mediteranska jela: salate, supe, testenine, maslinovo ulje, peciva i lagani obroci.",
-      "full_day": "Morning: 🌊 Koper Promenade. → 🏛️ Tito Square (Exterior). → ☕ Seaside café.\n\nAfternoon: 🎭 Old Town streets. → 🍽️ Lunch: pasta, salads. → 🌿 Coastal paths.\n\nSunset: 🌅 Marina viewpoints.\n\nNight: 🌃 Waterfront lights.",
+      "local_food_tip": "Try Istrian seafood, grilled calamari, black risotto, truffles, olive oil specialties, and local Malvasia wine.",
+      "full_day": {
+        "morning": "Begin at <a href=\"https://www.google.com/maps/search/?api=1&query=45.5485%2C13.7308\" target=\"_blank\" rel=\"noopener\">Tito Square</a> ☀️, exploring historic palaces and enjoying coffee.",
+        "afternoon": "Visit the <a href=\"https://www.google.com/maps/search/?api=1&query=45.5486%2C13.7310\" target=\"_blank\" rel=\"noopener\">Praetorian Palace</a> 🏛️, then have lunch in the Old Town.",
+        "sunset": "Head to <a href=\"https://www.google.com/maps/search/?api=1&query=45.5435%2C13.7155\" target=\"_blank\" rel=\"noopener\">Žusterna Beach</a> 🌅 for a swim or seaside walk.",
+        "night": "Enjoy dinner 🍽️ along the waterfront and a relaxed evening stroll through the marina."
+      },
       "seasons": {
         "spring": {
-          "event": "Spring Coast",
+          "event": "Spring in Istria",
+          "description": "Mild temperatures and blooming countryside make spring ideal for exploring the Old Town.",
           "ideas": [
-            "🌸 Promenade flowers",
-            "🚶 Sea walks"
+            {
+              "name": "Old Town Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=45.5485%2C13.7308",
+              "description": "Comfortable sightseeing through historic streets."
+            },
+            {
+              "name": "Seaside Promenade",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=45.5455%2C13.7235",
+              "description": "Fresh sea air and calm paths."
+            },
+            {
+              "name": "Day Trips to Istrian Villages",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=45.5400%2C13.7300",
+              "description": "Exploring wine and olive oil regions nearby."
+            }
           ]
         },
         "summer": {
-          "event": "Mediterranean Summer",
+          "event": "Koper Summer Season",
+          "description": "Hot days, beach life, and outdoor events dominate the city.",
           "ideas": [
-            "🏖️ Sun & breeze",
-            "🍦 Gelato",
-            "🌇 Pier sunsets"
+            {
+              "name": "Swimming at Žusterna",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=45.5435%2C13.7155",
+              "description": "Clear Adriatic water and beach facilities."
+            },
+            {
+              "name": "Evening Old Town Life",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=45.5485%2C13.7308",
+              "description": "Lively terraces and cultural events."
+            },
+            {
+              "name": "Boat Trips",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=45.5465%2C13.7275",
+              "description": "Short coastal cruises and swimming stops."
+            }
           ]
         },
         "autumn": {
-          "event": "Autumn Coast",
+          "event": "Istrian Harvest Season",
+          "description": "Wine, olives, and truffles define the region’s autumn atmosphere.",
           "ideas": [
-            "🍁 Warm tones",
-            "🥧 Pastry cafés"
+            {
+              "name": "Food & Wine Tastings",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=45.5485%2C13.7308",
+              "description": "Seasonal Istrian flavors."
+            },
+            {
+              "name": "Photography Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=45.5455%2C13.7235",
+              "description": "Warm light along the coast."
+            },
+            {
+              "name": "Historic Center Visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=45.5480%2C13.7320",
+              "description": "Pleasant temperatures and fewer crowds."
+            }
           ]
         },
         "winter": {
-          "event": "Mild Winter",
+          "event": "Quiet Adriatic Winter",
+          "description": "A calm seaside atmosphere with mild winters compared to inland Slovenia.",
           "ideas": [
-            "🌞 Soft sun",
-            "🍫 Hot chocolate"
+            {
+              "name": "Museum & Palace Visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=45.5486%2C13.7310",
+              "description": "Indoor cultural exploration."
+            },
+            {
+              "name": "Seaside Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=45.5455%2C13.7235",
+              "description": "Peaceful coastal scenery."
+            },
+            {
+              "name": "Local Cafés",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=45.5482%2C13.7315",
+              "description": "Warm drinks and relaxed local life."
+            }
           ]
         }
       },
       "public_transport_tips": [
-        "🚌 Regional buses along the coast.",
-        "🚶 Walkable seaside center."
+        {
+          "tip": "Buses connect Koper with Ljubljana and coastal towns.",
+          "link": "https://www.ap-ljubljana.si"
+        },
+        {
+          "tip": "The Old Town and waterfront are compact and walkable.",
+          "link": "https://www.koper.si"
+        },
+        {
+          "tip": "Regional buses link Koper with Piran, Izola, and Trieste.",
+          "link": "https://www.arriva.si"
+        }
       ],
       "city_events": [
         {
           "name": "Koper Summer Festival",
-          "season": "summer",
-          "description": "🎉 Concerts, markets and seaside fun."
+          "season": "Summer",
+          "description": "Concerts, performances, and cultural events in the Old Town.",
+          "website": "https://www.koper.si",
+          "dates": "July–August (annual)"
+        },
+        {
+          "name": "Istrian Food & Wine Events",
+          "season": "Autumn",
+          "description": "Seasonal celebrations of olive oil, wine, and local cuisine.",
+          "website": "https://www.slovenia.info",
+          "dates": "September–October (annual)"
+        }
+      ],
+      "places": [
+        {
+          "name": "Cathedral of the Assumption",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=45.5480%2C13.7325",
+          "description": "A historic cathedral with Venetian influences and a bell tower offering city views."
+        },
+        {
+          "name": "Koper Marina",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=45.5465%2C13.7275",
+          "description": "A pleasant waterfront area with boats, restaurants, and promenades."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "Semedela Beach",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=45.5355%2C13.7390",
+          "description": "A quieter beach area popular with locals."
+        },
+        {
+          "name": "Markovec Hill Viewpoints",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=45.5415%2C13.7260",
+          "description": "Hilltop spots offering wide views over Koper and the Adriatic."
         }
       ]
     },
+
     {
-      "name": "Maribor",
+      "name": "Ljubljana",
       "interests": [
-        "Old Town 🎭",
-        "Riverside Walks 🌊",
-        "Wine Hills 🌿"
+        {
+          "name": "Ljubljana Castle",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=46.0485%2C14.5085",
+          "description": "A medieval castle on a hill above the city, offering panoramic views, exhibitions, and cultural events."
+        },
+        {
+          "name": "Triple Bridge (Tromostovje)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=46.0512%2C14.5065",
+          "description": "An iconic architectural ensemble designed by Jože Plečnik, connecting the Old Town with the modern city."
+        },
+        {
+          "name": "Prešeren Square",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=46.0510%2C14.5068",
+          "description": "The lively central square of Ljubljana, surrounded by historic buildings and cafés."
+        }
       ],
-      "local_food_tip": "Slovenačke supe, povrće, peciva i lagana brdska jela.",
-      "full_day": "Morning: 🌊 Drava River walk. → ☕ Lent café.\n\nAfternoon: 🎭 Old Town squares. → 🍽️ Lunch: soups, salads. → 🌿 Maribor hill viewpoints.\n\nSunset: 🌅 Riverside.\n\nNight: 🌃 Lent lights.",
+      "local_food_tip": "Try Slovenian classics such as štruklji, jota, kranjska klobasa, local cheeses, and seasonal desserts.",
+      "full_day": {
+        "morning": "Begin with a visit to <a href=\"https://www.google.com/maps/search/?api=1&query=46.0485%2C14.5085\" target=\"_blank\" rel=\"noopener\">Ljubljana Castle</a> ☀️, either by foot or funicular.",
+        "afternoon": "Walk through <a href=\"https://www.google.com/maps/search/?api=1&query=46.0512%2C14.5065\" target=\"_blank\" rel=\"noopener\">Triple Bridge</a> ☕ and explore the Old Town streets for lunch.",
+        "sunset": "Relax at <a href=\"https://www.google.com/maps/search/?api=1&query=46.0510%2C14.5068\" target=\"_blank\" rel=\"noopener\">Prešeren Square</a> 🌅 and stroll along the Ljubljanica River.",
+        "night": "Enjoy dinner 🍽️ by the river and experience Ljubljana’s laid-back nightlife."
+      },
       "seasons": {
         "spring": {
-          "event": "Spring Maribor",
+          "event": "Spring Cultural Season",
+          "description": "Blooming parks and mild weather bring life to outdoor cafés and riverside walks.",
           "ideas": [
-            "🌸 River blossoms",
-            "🚶 Hill walks"
+            {
+              "name": "Old Town Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=46.0510%2C14.5068",
+              "description": "Comfortable sightseeing in historic streets."
+            },
+            {
+              "name": "Tivoli Park",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=46.0555%2C14.5005",
+              "description": "Green lawns and tree-lined paths in full bloom."
+            },
+            {
+              "name": "Riverbank Cafés",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=46.0505%2C14.5075",
+              "description": "Outdoor seating along the Ljubljanica."
+            }
           ]
         },
         "summer": {
-          "event": "Summer Sun",
+          "event": "Ljubljana Festival",
+          "description": "Open-air concerts, theatre, and cultural events throughout the city.",
           "ideas": [
-            "🌊 Riverside breeze",
-            "🍦 Ice cream"
+            {
+              "name": "Evening River Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=46.0505%2C14.5075",
+              "description": "Cool evenings by the water."
+            },
+            {
+              "name": "Outdoor Performances",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=46.0485%2C14.5085",
+              "description": "Concerts at castle courtyards and squares."
+            },
+            {
+              "name": "Ice Cream & Cafés",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=46.0510%2C14.5068",
+              "description": "Lively summer atmosphere."
+            }
           ]
         },
         "autumn": {
-          "event": "Wine Autumn",
+          "event": "Autumn in Ljubljana",
+          "description": "Golden leaves and crisp air make the city especially photogenic.",
           "ideas": [
-            "🍁 Vineyards",
-            "🥧 Cafés"
+            {
+              "name": "Castle Viewpoints",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=46.0485%2C14.5085",
+              "description": "Clear autumn views over rooftops."
+            },
+            {
+              "name": "Food Markets",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=46.0518%2C14.5088",
+              "description": "Seasonal produce and street food."
+            },
+            {
+              "name": "Museum Visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=46.0525%2C14.5005",
+              "description": "Comfortable indoor culture."
+            }
           ]
         },
         "winter": {
-          "event": "Winter Calm",
+          "event": "Ljubljana Festive December",
+          "description": "Holiday lights, markets, and a cozy winter atmosphere.",
           "ideas": [
-            "❄️ Old town snow",
-            "🍫 Hot cocoa"
+            {
+              "name": "Christmas Markets",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=46.0510%2C14.5068",
+              "description": "Festive stalls and warm drinks."
+            },
+            {
+              "name": "Museum Exploration",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=46.0525%2C14.5005",
+              "description": "Warm indoor sightseeing."
+            },
+            {
+              "name": "Cozy Cafés",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=46.0508%2C14.5070",
+              "description": "Hot chocolate and desserts."
+            }
           ]
         }
       },
       "public_transport_tips": [
-        "🚌 Local buses",
-        "🚶 Walkable center"
+        {
+          "tip": "City buses efficiently cover Ljubljana and suburbs.",
+          "link": "https://www.lpp.si"
+        },
+        {
+          "tip": "The city center is compact and ideal for walking or cycling.",
+          "link": "https://www.visitljubljana.com"
+        },
+        {
+          "tip": "Trains and buses connect Ljubljana with all major Slovenian cities.",
+          "link": "https://potniski.sz.si"
+        }
       ],
       "city_events": [
         {
-          "name": "Lent Festival",
-          "season": "summer",
-          "description": "🎶 One of Slovenia's biggest cultural festivals."
+          "name": "Ljubljana Festival",
+          "season": "Summer",
+          "description": "An international festival of music, opera, and theatre.",
+          "website": "https://www.ljubljanafestival.si",
+          "dates": "June–September (annual)"
+        },
+        {
+          "name": "Festive December",
+          "season": "Winter",
+          "description": "Christmas markets, lights, and cultural events across the city.",
+          "website": "https://www.visitljubljana.com",
+          "dates": "December (annual)"
+        }
+      ],
+      "places": [
+        {
+          "name": "Tivoli Park",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=46.0555%2C14.5005",
+          "description": "Ljubljana’s largest park, ideal for walking, cycling, and relaxation."
+        },
+        {
+          "name": "Central Market",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=46.0518%2C14.5088",
+          "description": "A vibrant market designed by Plečnik, offering local food and produce."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "Špica Riverside Area",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=46.0455%2C14.5095",
+          "description": "A relaxed riverside area popular with locals, especially at sunset."
+        },
+        {
+          "name": "Metelkova Art Center",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=46.0550%2C14.5160",
+          "description": "An alternative cultural center with street art, galleries, and music venues."
         }
       ]
     },
+
     {
-      "name": "Piran",
+      "name": "Maribor",
       "interests": [
-        "Seaside Views 🌊",
-        "Mediterranean Streets 🎭",
-        "Hilltop Lookouts 🌅"
+        {
+          "name": "Lent District",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=46.5565%2C15.6460",
+          "description": "The oldest part of Maribor along the Drava River, known for historic houses, wine culture, and lively riverside cafés."
+        },
+        {
+          "name": "Maribor Castle (Pokrajinski muzej)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=46.5590%2C15.6455",
+          "description": "A Baroque castle in the city center housing the Regional Museum with exhibitions on Styrian history."
+        },
+        {
+          "name": "Old Vine House (Hiša Stare Trte)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=46.5560%2C15.6450",
+          "description": "Home to the world’s oldest living grapevine, over 400 years old and listed in the Guinness World Records."
+        }
       ],
-      "local_food_tip": "Mediteranska kuhinja: lagane salate, paste, riba (veg opcije), peciva i maslinovo ulje.",
-      "full_day": "Morning: 🌊 Piran Promenade. → 🏛️ Tartini Square (Exterior). → ☕ Seaside café.\n\nAfternoon: 🎭 Old Town alleys. → 🍽️ Light lunch: salads, pasta. → 🌅 Church Hill viewpoints (Exterior).\n\nNight: 🌃 Seaside lights.",
+      "local_food_tip": "Try Styrian cuisine such as pumpkin seed oil dishes, štruklji, local sausages, and wines from the surrounding vineyards.",
+      "full_day": {
+        "morning": "Start in the charming <a href=\"https://www.google.com/maps/search/?api=1&query=46.5565%2C15.6460\" target=\"_blank\" rel=\"noopener\">Lent District</a> ☀️ with a riverside walk.",
+        "afternoon": "Visit <a href=\"https://www.google.com/maps/search/?api=1&query=46.5590%2C15.6455\" target=\"_blank\" rel=\"noopener\">Maribor Castle</a> 🏛️ and enjoy lunch in the Old Town.",
+        "sunset": "Stop by the <a href=\"https://www.google.com/maps/search/?api=1&query=46.5560%2C15.6450\" target=\"_blank\" rel=\"noopener\">Old Vine House</a> 🍇 for wine culture and sunset views.",
+        "night": "Have dinner 🍽️ in Lent or the city center and enjoy relaxed evening walks."
+      },
       "seasons": {
         "spring": {
-          "event": "Spring Seaside",
+          "event": "Spring Wine Season",
+          "description": "Vineyards awaken and the city becomes lively with outdoor cafés.",
           "ideas": [
-            "🌼 Coastal flowers",
-            "🚶 Old town walks"
+            {
+              "name": "Old Town Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=46.5585%2C15.6465",
+              "description": "Comfortable sightseeing weather."
+            },
+            {
+              "name": "Wine Hills Excursions",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=46.5405%2C15.6155",
+              "description": "Short trips to nearby vineyards."
+            },
+            {
+              "name": "Riverside Cafés",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=46.5565%2C15.6460",
+              "description": "Outdoor seating by the Drava."
+            }
           ]
         },
         "summer": {
-          "event": "Mediterranean Summer",
+          "event": "Festival Lent",
+          "description": "One of Slovenia’s largest summer festivals with music, theatre, and street performances.",
           "ideas": [
-            "🌊 Sea breeze",
-            "🍦 Gelato",
-            "🌇 Sunset rocks"
+            {
+              "name": "Festival Events",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=46.5565%2C15.6460",
+              "description": "Concerts and open-air shows."
+            },
+            {
+              "name": "Evening River Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=46.5570%2C15.6475",
+              "description": "Cool evenings by the water."
+            },
+            {
+              "name": "City Cycling",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=46.5595%2C15.6500",
+              "description": "Flat paths and urban cycling routes."
+            }
           ]
         },
         "autumn": {
-          "event": "Warm Autumn",
+          "event": "Grape Harvest (Martinovanje)",
+          "description": "Wine harvest season fills Maribor with celebrations and tastings.",
           "ideas": [
-            "🍁 Soft golden views",
-            "🥧 Cafés"
+            {
+              "name": "Wine Festivals",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=46.5560%2C15.6450",
+              "description": "Celebrations of the new wine."
+            },
+            {
+              "name": "Autumn Photography",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=46.5485%2C15.6205",
+              "description": "Golden vineyards and hills."
+            },
+            {
+              "name": "Local Dining",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=46.5585%2C15.6465",
+              "description": "Seasonal Styrian dishes."
+            }
           ]
         },
         "winter": {
-          "event": "Winter Coast",
+          "event": "Maribor Festive Season",
+          "description": "Christmas markets and winter sports nearby create a cozy atmosphere.",
           "ideas": [
-            "🌞 Mild weather",
-            "🍫 Hot drinks"
+            {
+              "name": "Christmas Markets",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=46.5585%2C15.6465",
+              "description": "Festive lights and food."
+            },
+            {
+              "name": "Pohorje Skiing",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=46.5175%2C15.5925",
+              "description": "Ski slopes just outside the city."
+            },
+            {
+              "name": "Museum Visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=46.5590%2C15.6455",
+              "description": "Indoor culture during cold days."
+            }
           ]
         }
       },
       "public_transport_tips": [
-        "🚌 Coastal buses link Piran & Koper.",
-        "🚶 Fully walkable town."
+        {
+          "tip": "City buses efficiently connect all neighborhoods.",
+          "link": "https://www.marprom.si"
+        },
+        {
+          "tip": "The Old Town and Lent are compact and walkable.",
+          "link": "https://www.visitmaribor.si"
+        },
+        {
+          "tip": "Trains connect Maribor with Ljubljana, Graz, and Austria.",
+          "link": "https://potniski.sz.si"
+        }
+      ],
+      "city_events": [
+        {
+          "name": "Festival Lent",
+          "season": "Summer",
+          "description": "Major international summer festival with concerts and performances.",
+          "website": "https://www.festival-lent.si",
+          "dates": "June–July (annual)"
+        },
+        {
+          "name": "Martinovanje",
+          "season": "Autumn",
+          "description": "Traditional wine harvest celebration marking the baptism of new wine.",
+          "website": "https://www.visitmaribor.si",
+          "dates": "November (annual)"
+        }
+      ],
+      "places": [
+        {
+          "name": "Drava River Promenade",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=46.5565%2C15.6460",
+          "description": "A scenic riverside area ideal for walking and events."
+        },
+        {
+          "name": "Pohorje Mountains",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=46.5175%2C15.5925",
+          "description": "A forested mountain range offering hiking, biking, and skiing."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "Wine Road Slovenske Gorice",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=46.5705%2C15.7005",
+          "description": "Rolling hills with family-run wineries just outside Maribor."
+        },
+        {
+          "name": "Piramida Hill Viewpoint",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=46.5715%2C15.6405",
+          "description": "A hilltop viewpoint with sweeping views over Maribor and vineyards."
+        }
+      ]
+    },
+
+    {
+      "name": "Piran",
+      "interests": [
+        {
+          "name": "Tartini Square (Tartinijev trg)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=45.5285%2C13.5680",
+          "description": "The heart of Piran, a beautiful Venetian-style square named after composer Giuseppe Tartini."
+        },
+        {
+          "name": "St. George’s Parish Church",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=45.5280%2C13.5705",
+          "description": "A hilltop church with a bell tower offering the best panoramic views of Piran and the Adriatic."
+        },
+        {
+          "name": "Piran Town Walls",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=45.5265%2C13.5700",
+          "description": "Medieval defensive walls that provide scenic viewpoints over the red rooftops and sea."
+        }
+      ],
+      "local_food_tip": "Enjoy fresh Adriatic seafood, grilled calamari, sea bass, risotto, and local Malvasia or Refošk wine.",
+      "full_day": {
+        "morning": "Start at <a href=\"https://www.google.com/maps/search/?api=1&query=45.5285%2C13.5680\" target=\"_blank\" rel=\"noopener\">Tartini Square</a> ☀️ with coffee and people-watching.",
+        "afternoon": "Climb to <a href=\"https://www.google.com/maps/search/?api=1&query=45.5280%2C13.5705\" target=\"_blank\" rel=\"noopener\">St. George’s Church</a> ⛪ and explore the narrow streets.",
+        "sunset": "Walk along the <a href=\"https://www.google.com/maps/search/?api=1&query=45.5265%2C13.5700\" target=\"_blank\" rel=\"noopener\">Town Walls</a> 🌅 for unforgettable views.",
+        "night": "Enjoy dinner 🍽️ by the sea and a romantic evening stroll along the promenade."
+      },
+      "seasons": {
+        "spring": {
+          "event": "Spring on the Adriatic",
+          "description": "Mild weather and fewer crowds make spring ideal for sightseeing.",
+          "ideas": [
+            {
+              "name": "Old Town Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=45.5285%2C13.5680",
+              "description": "Comfortable temperatures and blooming corners."
+            },
+            {
+              "name": "Seaside Promenade",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=45.5288%2C13.5655",
+              "description": "Fresh air and calm sea."
+            },
+            {
+              "name": "Photography Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=45.5265%2C13.5700",
+              "description": "Clear light and blue skies."
+            }
+          ]
+        },
+        "summer": {
+          "event": "Piran Summer Cultural Program",
+          "description": "Hot days, swimming, and evening cultural events fill the town.",
+          "ideas": [
+            {
+              "name": "Sea Swimming",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=45.5295%2C13.5665",
+              "description": "Clear water and easy access points."
+            },
+            {
+              "name": "Evening Square Life",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=45.5285%2C13.5680",
+              "description": "Lively cafés and music."
+            },
+            {
+              "name": "Boat Trips",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=45.5290%2C13.5675",
+              "description": "Short coastal cruises."
+            }
+          ]
+        },
+        "autumn": {
+          "event": "Istrian Harvest Season",
+          "description": "Wine, olives, and truffles shape the autumn atmosphere.",
+          "ideas": [
+            {
+              "name": "Food & Wine Tastings",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=45.5285%2C13.5680",
+              "description": "Seasonal Istrian flavors."
+            },
+            {
+              "name": "Quiet Town Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=45.5275%2C13.5690",
+              "description": "Fewer crowds and warm light."
+            },
+            {
+              "name": "Sunset Views",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=45.5265%2C13.5700",
+              "description": "Golden Adriatic sunsets."
+            }
+          ]
+        },
+        "winter": {
+          "event": "Peaceful Adriatic Winter",
+          "description": "A calm seaside atmosphere with mild temperatures.",
+          "ideas": [
+            {
+              "name": "Seaside Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=45.5288%2C13.5655",
+              "description": "Quiet coastal scenery."
+            },
+            {
+              "name": "Museum Visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=45.5282%2C13.5685",
+              "description": "Indoor culture and history."
+            },
+            {
+              "name": "Local Cafés",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=45.5285%2C13.5680",
+              "description": "Relaxed local life."
+            }
+          ]
+        }
+      },
+      "public_transport_tips": [
+        {
+          "tip": "Buses connect Piran with Koper, Izola, and Portorož.",
+          "link": "https://www.arriva.si"
+        },
+        {
+          "tip": "The Old Town is compact and best explored on foot.",
+          "link": "https://www.portoroz.si"
+        },
+        {
+          "tip": "Parking is limited—use garages outside the historic center.",
+          "link": "https://www.portoroz.si"
+        }
       ],
       "city_events": [
         {
           "name": "Tartini Festival",
-          "season": "summer",
-          "description": "🎻 Classical music in the medieval center."
+          "season": "Summer",
+          "description": "Classical music concerts honoring composer Giuseppe Tartini.",
+          "website": "https://www.tartinifestival.org",
+          "dates": "August–September (annual)"
+        },
+        {
+          "name": "Piran Days",
+          "season": "Autumn",
+          "description": "Town celebrations with cultural and gastronomic events.",
+          "website": "https://www.portoroz.si",
+          "dates": "October (annual)"
+        }
+      ],
+      "places": [
+        {
+          "name": "Piran Promenade",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=45.5290%2C13.5665",
+          "description": "A scenic coastal walkway around the peninsula."
+        },
+        {
+          "name": "Maritime Museum Sergej Mašera",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=45.5282%2C13.5685",
+          "description": "A museum exploring Slovenia’s maritime history."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "Cape Madona",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=45.5310%2C13.5655",
+          "description": "The very tip of the peninsula, perfect for swimming and sunsets."
+        },
+        {
+          "name": "Fiesa Beach",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=45.5345%2C13.5665",
+          "description": "A quieter beach just outside the old town, popular with locals."
         }
       ]
     }
+
   ]
 }

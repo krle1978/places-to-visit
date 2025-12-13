@@ -95,8 +95,44 @@ document.addEventListener("includes:loaded", function () {
   function parseFullDayText(text) {
     if (!text) return "<p>No itinerary available.</p>";
 
+    // Newer structure: object with section keys (Morning/Afternoon/Sunset/Night)
+    if (typeof text === "object") {
+      const preferredOrder = ["Morning", "Afternoon", "Sunset", "Night", "Evening"];
+      const seen = new Set();
+      let output = "";
+
+      const normalizeContent = (value) => {
+        if (Array.isArray(value)) return value.join("|");
+        if (typeof value === "string") return value;
+        if (value && typeof value === "object") return Object.values(value).join("|");
+        return "";
+      };
+
+      const renderSection = (title, value) => {
+        const content = normalizeContent(value);
+        if (!content) return;
+        output += `<h4>${title}</h4>`;
+        output += parseTextBlock(content);
+      };
+
+      preferredOrder.forEach(key => {
+        if (text[key] !== undefined) {
+          seen.add(key);
+          renderSection(key, text[key]);
+        }
+      });
+
+      Object.entries(text).forEach(([key, value]) => {
+        if (seen.has(key)) return;
+        renderSection(key, value);
+      });
+
+      return output || "<p>No itinerary available.</p>";
+    }
+
+    // Legacy string structure.
     let output = "";
-    const parts = text.split("\n\n").map(p => p.trim()).filter(Boolean);
+    const parts = String(text).split("\n\n").map(p => p.trim()).filter(Boolean);
 
     parts.forEach(section => {
       const idx = section.indexOf(":");
@@ -114,7 +150,40 @@ document.addEventListener("includes:loaded", function () {
       );
     });
 
-    return output;
+    return output || "<p>No itinerary available.</p>";
+  }
+
+  // -----------------------------
+  // SEASON HELPERS (old + new)
+  // -----------------------------
+  function normalizeSeasonEntry(entry) {
+    if (typeof entry === "string") return entry;
+
+    if (entry && typeof entry === "object") {
+      const title = entry.name || entry.title || entry.label || "";
+      const link = entry.map_link || entry.link;
+      const desc = entry.description || entry.detail || "";
+
+      let label = title;
+      if (link) {
+        const anchorText = title || "View on map";
+        label = `<a href="${link}" target="_blank" rel="noopener noreferrer">${anchorText}</a>`;
+      } else if (!label && desc) {
+        label = desc;
+      }
+
+      if (!label) return "";
+      return desc && label !== desc ? `${label}: ${desc}` : label;
+    }
+
+    return "";
+  }
+
+  function renderSeasonList(list) {
+    if (!list) return "";
+    const arr = Array.isArray(list) ? list : [list];
+    const normalized = arr.map(normalizeSeasonEntry).filter(Boolean);
+    return normalized.length ? parseTextBlock(normalized.join("|")) : "";
   }
 
   // -----------------------------
@@ -220,13 +289,24 @@ document.addEventListener("includes:loaded", function () {
     html += `<h3>🌦 Seasonal Tips</h3>`;
     if (selectedCityObj.seasons) {
       Object.entries(selectedCityObj.seasons).forEach(([key, season]) => {
-        html += `<h4>${capitalize(key)} – ${season.event || ""}</h4>`;
-        if (Array.isArray(season.ideas)) {
-          html += parseTextBlock(season.ideas.join("|"));
+        const eventText = season?.event ? ` – ${season.event}` : "";
+        html += `<h4>${capitalize(key)}${eventText}</h4>`;
+
+        if (season?.description) {
+          html += `<p>${season.description}</p>`;
+        }
+
+        const ideasHtml = renderSeasonList(season?.ideas);
+        const locationsHtml = renderSeasonList(season?.locations);
+
+        if (ideasHtml || locationsHtml) {
+          html += ideasHtml + locationsHtml;
         } else {
           html += `<p>No seasonal tips.</p>`;
         }
       });
+    } else {
+      html += `<p>No seasonal tips.</p>`;
     }
 
     // TRANSPORT
@@ -351,8 +431,9 @@ document.addEventListener("includes:loaded", function () {
         const text = item.name || item.title || "";
         if (!text) return "";
         const desc = item.description ? `<div>${item.description}</div>` : "";
-        if (item.link) {
-          return `<li><a href="${item.link}" target="_blank" rel="noopener noreferrer">${text}</a>${desc}</li>`;
+        const href = item.link || item.map_link;
+        if (href) {
+          return `<li><a href="${href}" target="_blank" rel="noopener noreferrer">${text}</a>${desc}</li>`;
         }
         return `<li>${text}${desc}</li>`;
       }

@@ -5,806 +5,1369 @@
       "name": "Athens",
       "interests": [
         {
-          "name": "Ancient History 🏛️",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=Acropolis%20Athens",
-          "description": "Athens is the birthplace of Western civilization, packed with ancient temples, theatres, and archaeological wonders. The Acropolis stands as the city’s crown jewel, offering a glimpse into classical Greece. Everywhere you walk, history surrounds you — from hidden ruins to world-famous landmarks."
+          "name": "Acropolis of Athens",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=37.9715%2C23.7257",
+          "description": "Iconic ancient citadel crowned by the Parthenon, symbol of classical Greece and Western civilization."
         },
         {
-          "name": "Sea Views 🌊",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=Piraeus%20Athens%20Seaside",
-          "description": "Athens may be a historic capital, but it's also deeply connected to the sea. The coastline around Piraeus and the Athens Riviera offers stunning blue-water views and breezy promenades. Perfect for relaxing walks, seaside dining, or escaping the busy city center."
+          "name": "Acropolis Museum",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=37.9681%2C23.7286",
+          "description": "Modern museum displaying sculptures and artifacts from the Acropolis with glass floors and views of the ruins."
         },
         {
-          "name": "Local Food 😋",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=Plaka%20Athens%20Tavernas",
-          "description": "Greek cuisine in Athens is fresh, flavorful, and deeply rooted in Mediterranean tradition. From warm pies and roasted vegetables to sweet pastries and fragrant herbs, every dish feels homemade. Local tavernas in Plaka and beyond deliver authentic flavors you'll remember."
+          "name": "Plaka",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=37.9736%2C23.7265",
+          "description": "Historic neighborhood with narrow streets, neoclassical houses, shops, and tavernas."
         },
         {
-          "name": "Street Art 🎨",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=Exarchia%20Athens%20Street%20Art",
-          "description": "Athens has one of Europe’s most vibrant street art scenes, especially in neighborhoods like Exarchia and Psiri. Murals cover entire buildings, turning the city into an open-air gallery. It’s a creative mix of political expression, urban storytelling, and local identity."
+          "name": "Ancient Agora",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=37.9756%2C23.7225",
+          "description": "Center of public life in ancient Athens, featuring the Temple of Hephaestus."
         },
         {
-          "name": "Nightlife 🍸",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=Psiri%20Athens%20Bars",
-          "description": "The city comes alive at night with rooftop terraces, cozy wine bars, and energetic music spots. Psiri and Gazi are nightlife hubs offering everything from quiet cocktails to late-night dancing. Whether you want elegance or chaos, Athens has a place for every mood."
+          "name": "Mount Lycabettus",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=37.9838%2C23.7430",
+          "description": "Highest point in Athens offering panoramic views over the city and the Aegean Sea."
         }
       ],
-      "local_food_tip": "Try spanakopita, gemista (stuffed vegetables), briam (baked vegetables), koulouri and loukoumades. Mediterranean flavors done right.",
-      "full_day": "Morning: 🏛️ Start at the legendary <a href=\"https://www.google.com/maps/search/?api=1&query=Acropolis%20Athens\" target=\"_blank\" rel=\"noopener\">Acropolis</a> — Parthenon, Erekhtheion and panoramic views of Athens. → Continue to the modern <a href=\"https://www.google.com/maps/search/?api=1&query=Acropolis%20Museum%20Athens\" target=\"_blank\" rel=\"noopener\">Acropolis Museum</a>. → ☕ Coffee break in <a href=\"https://www.google.com/maps/search/?api=1&query=Plaka%20Athens\" target=\"_blank\" rel=\"noopener\">Plaka</a>.\n\nAfternoon: 🏺 Explore <a href=\"https://www.google.com/maps/search/?api=1&query=Ancient%20Agora%20Athens\" target=\"_blank\" rel=\"noopener\">Ancient Agora</a> and the Temple of Hephaestus. → 🍽️ Lunch in a seaside taverna in Piraeus: <a href=\"https://www.google.com/maps/search/?api=1&query=Piraeus%20Seaside%20Tavernas\" target=\"_blank\" rel=\"noopener\">Piraeus Beachfront Tavernas</a>. → 🛍️ Wander the historic <a href=\"https://www.google.com/maps/search/?api=1&query=Monastiraki%20Flea%20Market\" target=\"_blank\" rel=\"noopener\">Monastiraki Market</a>.\n\nLate Afternoon: 🌆 Head up <a href=\"https://www.google.com/maps/search/?api=1&query=Lycabettus%20Hill%20Athens\" target=\"_blank\" rel=\"noopener\">Lycabettus Hill</a> by foot or funicular for golden-hour views. → Explore stylish <a href=\"https://www.google.com/maps/search/?api=1&query=Kolonaki%20Athens\" target=\"_blank\" rel=\"noopener\">Kolonaki</a>.\n\nSunset: 🌇 Watch the sky turn gold in <a href=\"https://www.google.com/maps/search/?api=1&query=Anafiotika%20Athens\" target=\"_blank\" rel=\"noopener\">Anafiotika</a>, the Cycladic-style village under the Acropolis.\n\nNight: 🍸 Evening in <a href=\"https://www.google.com/maps/search/?api=1&query=Psiri%20Athens%20Bars\" target=\"_blank\" rel=\"noopener\">Psiri</a>: bars, music and vibrant nightlife. → Optional: Rooftop cocktails with Acropolis views.",
+      "local_food_tip": "Try souvlaki, gyros, moussaka, fresh Greek salads, and local pastries. Traditional tavernas in Plaka and Monastiraki are great for authentic flavors.",
+      "full_day": {
+        "Morning": "Start early at the <a href=\"https://www.google.com/maps/search/?api=1&query=37.9715%2C23.7257\" target=\"_blank\" rel=\"noopener\">Acropolis</a> ☀️ to explore the Parthenon and ancient temples.",
+        "Afternoon": "Visit the <a href=\"https://www.google.com/maps/search/?api=1&query=37.9681%2C23.7286\" target=\"_blank\" rel=\"noopener\">Acropolis Museum</a> 🏛️, then enjoy lunch in <a href=\"https://www.google.com/maps/search/?api=1&query=37.9736%2C23.7265\" target=\"_blank\" rel=\"noopener\">Plaka</a> 🍽️.",
+        "Sunset": "Walk up <a href=\"https://www.google.com/maps/search/?api=1&query=37.9838%2C23.7430\" target=\"_blank\" rel=\"noopener\">Mount Lycabettus</a> 🌅 for sunset views.",
+        "Night": "Dinner near Monastiraki ✨ followed by an evening stroll with lit-up Acropolis views."
+      },
       "seasons": {
         "spring": {
-          "event": "Spring Blooms",
+          "event": "Spring in Athens",
+          "description": "Mild temperatures and blooming landscapes make sightseeing comfortable.",
           "ideas": [
-            "🌸 Walk through the <a href=\"https://www.google.com/maps/search/?api=1&query=National%20Garden%20Athens\" target=\"_blank\" rel=\"noopener\">National Garden</a>.",
-            "🚶 Explore the Acropolis in pleasant weather.",
-            "☕ Outdoor cafés in Plaka.",
-            "🌿 Filopappou Hill walks.",
-            "📸 Street art photography in Exarchia."
+            {
+              "name": "Archaeological walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=37.9756%2C23.7225",
+              "description": "Explore ruins without summer heat."
+            },
+            {
+              "name": "Plaka strolls",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=37.9736%2C23.7265",
+              "description": "Colorful streets and cafés."
+            },
+            {
+              "name": "National Garden",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=37.9721%2C23.7345",
+              "description": "Green oasis in the city center."
+            }
           ]
         },
         "summer": {
-          "event": "Summer Nights",
+          "event": "Athens & Epidaurus Festival",
+          "description": "Major cultural festival with theater and concerts at ancient venues.",
           "ideas": [
-            "🌅 Rooftop sunset views of the Acropolis.",
-            "🍉 Fresh fruit & frappes in Monastiraki.",
-            "🎬 Outdoor film night at <a href=\"https://www.google.com/maps/search/?api=1&query=Thision%20Outdoor%20Cinema\" target=\"_blank\" rel=\"noopener\">Thision Cinema</a>.",
-            "🌊 Dinner in <a href=\"https://www.google.com/maps/search/?api=1&query=Piraeus%20Port\" target=\"_blank\" rel=\"noopener\">Piraeus</a> by the sea.",
-            "🎉 Nightlife in Gazi."
+            {
+              "name": "Evening performances",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=37.9715%2C23.7257",
+              "description": "Classical culture under the stars."
+            },
+            {
+              "name": "Coastal escapes",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=37.8199%2C23.7890",
+              "description": "Day trips to nearby beaches."
+            },
+            {
+              "name": "Night walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=37.9750%2C23.7200",
+              "description": "Cooler evenings in historic areas."
+            }
           ]
         },
         "autumn": {
-          "event": "Golden Athens",
+          "event": "Autumn Cultural Season",
+          "description": "Warm days, fewer crowds, and a relaxed city atmosphere.",
           "ideas": [
-            "🍁 Calm walks in Plaka.",
-            "🎭 Museum afternoons.",
-            "🍲 Warm Greek comfort food.",
-            "📷 Soft autumn light for photos.",
-            "🚶 Long routes without heat."
+            {
+              "name": "Museum visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=37.9681%2C23.7286",
+              "description": "Comfortable indoor exploration."
+            },
+            {
+              "name": "Historic walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=37.9756%2C23.7225",
+              "description": "Pleasant weather for ruins."
+            },
+            {
+              "name": "Café culture",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=37.9745%2C23.7245",
+              "description": "Relaxed terraces."
+            }
           ]
         },
         "winter": {
-          "event": "Mild Mediterranean Winter",
+          "event": "Athens Winter Season",
+          "description": "Mild winters with festive lights and local life.",
           "ideas": [
-            "☕ Cozy cafés in Kolonaki.",
-            "🎄 Christmas markets.",
-            "🏛️ Acropolis Museum & Benaki Museum.",
-            "🍫 Hot chocolate & loukoumades.",
-            "🌌 Peaceful Lycabettus night views."
+            {
+              "name": "Museum hopping",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=37.9681%2C23.7286",
+              "description": "World-class collections indoors."
+            },
+            {
+              "name": "Old town walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=37.9736%2C23.7265",
+              "description": "Quiet historic streets."
+            },
+            {
+              "name": "Seasonal markets",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=37.9765%2C23.7250",
+              "description": "Local winter atmosphere."
+            }
           ]
         }
       },
       "public_transport_tips": [
         {
-          "tip": "🚇 Metro is the fastest way to get around Athens.",
-          "link": "https://www.thisisathens.org/getting-around/public-transportation-metro-bus-tram"
+          "tip": "Metro lines connect major sights and the airport efficiently.",
+          "link": "https://www.stasy.gr/"
         },
         {
-          "tip": "🚌 Buses & trolleybuses cover all major districts.",
-          "link": "https://www.oasa.gr/en/"
+          "tip": "The historic center is very walkable.",
+          "link": "https://www.thisisathens.org/"
         },
         {
-          "tip": "🚊 Tram connects the city center with the coast.",
-          "link": "https://www.stasy.gr/en/tram/"
-        },
-        {
-          "tip": "📱 Use the official transport app 'OASA Telematics' for live arrivals.",
-          "link": "https://telematics.oasa.gr/en/"
-        },
-        {
-          "tip": "🚕 Taxis are widely available; apps like Beat work well.",
-          "link": "https://www.thebeat.co/en/"
+          "tip": "Day passes are cost-effective for visitors.",
+          "link": "https://www.oasa.gr/"
         }
       ],
       "city_events": [
         {
-          "name": "Athens Epidaurus Festival",
+          "name": "Athens & Epidaurus Festival",
           "season": "summer",
-          "description": "🎭 Performances and concerts across Athens and Epidaurus."
+          "description": "International arts festival featuring drama and music in historic venues.",
+          "website": "https://aefestival.gr/",
+          "dates": "June–August"
+        }
+      ],
+      "places": [
+        {
+          "name": "Monastiraki Square",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=37.9763%2C23.7255",
+          "description": "Lively square with markets, shops, and views of the Acropolis."
+        },
+        {
+          "name": "Temple of Olympian Zeus",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=37.9699%2C23.7331",
+          "description": "Monumental ancient temple dedicated to Zeus."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "Anafiotika",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=37.9732%2C23.7280",
+          "description": "Small Cycladic-style neighborhood tucked beneath the Acropolis."
+        },
+        {
+          "name": "Early-morning Ancient Agora",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=37.9756%2C23.7225",
+          "description": "Peaceful ruins before crowds arrive."
         }
       ]
     },
+
     {
-      "name": "Corfu",
+      "name": "Chania",
       "interests": [
         {
-          "name": "Green Island Landscapes 🌿",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=Corfu%20Nature%20Trails",
-          "description": "Corfu is one of Greece’s greenest islands, full of cypress trees, olive groves, and rolling hills. Its landscapes feel refreshing compared to the drier Cyclades. Perfect for scenic hikes, nature photography, and peaceful coastal walks."
+          "name": "Old Venetian Harbor",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=35.5170%2C24.0150",
+          "description": "Historic harbor with a Venetian lighthouse, colorful buildings, cafés, and evening promenades."
         },
         {
-          "name": "Old Town Streets 🏛️",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=Corfu%20Old%20Town",
-          "description": "Corfu Old Town is a UNESCO World Heritage site filled with Venetian charm. Narrow alleys, tall pastel buildings, and hidden squares make it feel magical. It’s the ideal place to get lost, explore, shop, or enjoy a relaxed coffee."
+          "name": "Chania Old Town",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=35.5155%2C24.0170",
+          "description": "Atmospheric maze of narrow streets blending Venetian, Ottoman, and Greek architecture."
         },
         {
-          "name": "Beaches 🌊",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=Corfu%20Beaches",
-          "description": "Corfu offers some of the most beautiful beaches in the Ionian Sea, with crystal-clear waters and dramatic cliffs. From sandy family-friendly spots to secluded coves, the island has something for every traveler. Perfect for swimming, snorkeling, or relaxing by the sea."
+          "name": "Maritime Museum of Crete",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=35.5168%2C24.0143",
+          "description": "Museum near the harbor showcasing Crete’s naval and maritime history."
         },
         {
-          "name": "Local Food 😋",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=Corfu%20Tavernas",
-          "description": "Corfiot cuisine blends Greek tradition with Venetian influences. Expect hearty pastas, local herbs, and kumquat-based desserts. Island tavernas serve warm, comforting meals with fresh ingredients and authentic flavors."
+          "name": "Nea Chora Beach",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=35.5195%2C24.0065",
+          "description": "Popular sandy beach within walking distance of the city center."
         },
         {
-          "name": "Coastal Views 🌅",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=Corfu%20Viewpoints",
-          "description": "Corfu’s coastline is full of breathtaking viewpoints and dramatic cliffsides overlooking turquoise waters. Sunset spots like Paleokastritsa offer unforgettable panoramas. A must-see for photographers and travelers who love scenic landscapes."
+          "name": "Agora Market (Municipal Market of Chania)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=35.5152%2C24.0198",
+          "description": "Covered market offering local cheeses, herbs, olive oil, and Cretan products."
         }
       ],
-      "local_food_tip": "Try Corfiot-style vegetarian pastitsada, kumquat sweets, olive-based dishes, feta and freshly baked village bread.",
-      "full_day": "Morning: 🏛️ Start exploring <a href=\"https://www.google.com/maps/search/?api=1&query=Corfu%20Old%20Town\" target=\"_blank\" rel=\"noopener\">Corfu Old Town</a>, a UNESCO site filled with Venetian architecture, narrow alleys and impressive fortresses. → ☕ Enjoy a relaxed morning coffee at <a href=\"https://www.google.com/maps/search/?api=1&query=Liston%20Square%20Corfu\" target=\"_blank\" rel=\"noopener\">Liston Square</a>.\n\nAfternoon: 🌊 Head to one of Corfu’s stunning beaches: <a href=\"https://www.google.com/maps/search/?api=1&query=Glyfada%20Beach%20Corfu\" target=\"_blank\" rel=\"noopener\">Glyfada Beach</a> or <a href=\"https://www.google.com/maps/search/?api=1&query=Paleokastritsa%20Beach%20Corfu\" target=\"_blank\" rel=\"noopener\">Paleokastritsa Beach</a>. → 🍽️ Lunch in a beachfront taverna: <a href=\"https://www.google.com/maps/search/?api=1&query=Paleokastritsa%20Tavernas\" target=\"_blank\" rel=\"noopener\">Paleokastritsa Seaside Tavernas</a>.\n\nSunset: 🌇 Enjoy incredible views from the <a href=\"https://www.google.com/maps/search/?api=1&query=Paleokastritsa%20Viewpoint\" target=\"_blank\" rel=\"noopener\">Paleokastritsa Viewpoint</a>.\n\nNight: 🌃 Return to the Old Town for an atmospheric evening walk through lantern-lit alleys and waterfront cafés.",
+      "local_food_tip": "Try Cretan specialties such as dakos, kalitsounia (cheese pies), lamb with herbs, fresh seafood, and local olive oil. Tavernas in the Old Town and near the harbor are excellent choices.",
+      "full_day": {
+        "Morning": "Start with a walk through <a href=\"https://www.google.com/maps/search/?api=1&query=35.5155%2C24.0170\" target=\"_blank\" rel=\"noopener\">Chania Old Town</a> ☀️ and coffee by the harbor.",
+        "Afternoon": "Visit the <a href=\"https://www.google.com/maps/search/?api=1&query=35.5168%2C24.0143\" target=\"_blank\" rel=\"noopener\">Maritime Museum of Crete</a> 🏛️, then enjoy lunch near the <a href=\"https://www.google.com/maps/search/?api=1&query=35.5152%2C24.0198\" target=\"_blank\" rel=\"noopener\">Agora Market</a> 🍽️.",
+        "Sunset": "Stroll along the <a href=\"https://www.google.com/maps/search/?api=1&query=35.5170%2C24.0150\" target=\"_blank\" rel=\"noopener\">Old Venetian Harbor</a> 🌅.",
+        "Night": "Dinner by the sea ✨ followed by an evening walk along the illuminated harbor."
+      },
       "seasons": {
         "spring": {
-          "event": "Emerald Spring",
+          "event": "Spring in Crete",
+          "description": "Wildflowers bloom and temperatures are ideal for sightseeing and hiking.",
           "ideas": [
-            "🌿 Explore lush hill paths around Paleokastritsa.",
-            "🚶 Relaxed Old Town strolls in mild weather.",
-            "☕ Terrace cafés at Liston Square."
+            {
+              "name": "Old Town walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=35.5155%2C24.0170",
+              "description": "Comfortable weather and fewer crowds."
+            },
+            {
+              "name": "Botanical Garden of Crete",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=35.4510%2C23.9840",
+              "description": "Lush landscapes and local flora."
+            },
+            {
+              "name": "Coastal strolls",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=35.5195%2C24.0065",
+              "description": "Fresh sea air and clear views."
+            }
           ]
         },
         "summer": {
-          "event": "Island Summer",
+          "event": "Cretan Summer Season",
+          "description": "Hot sunny days, beach life, and lively evenings.",
           "ideas": [
-            "🏖️ Crystal-clear swimming at Glyfada or Paleokastritsa.",
-            "🍉 Fresh fruit snacks by the beach.",
-            "🎉 Evening promenade walks with music."
+            {
+              "name": "Beach time",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=35.5195%2C24.0065",
+              "description": "Swimming and sunbathing near the city."
+            },
+            {
+              "name": "Boat trips",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=35.5170%2C24.0150",
+              "description": "Day trips along the Cretan coast."
+            },
+            {
+              "name": "Evening harbor walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=35.5170%2C24.0150",
+              "description": "Vibrant nightlife by the sea."
+            }
           ]
         },
         "autumn": {
-          "event": "Warm Autumn",
+          "event": "Olive Harvest Season",
+          "description": "Warm seas, fewer tourists, and traditional olive harvests.",
           "ideas": [
-            "🌅 Soft golden sunsets from viewpoints.",
-            "🍽️ Cozy dinners in Old Town taverns.",
-            "📷 Scenic cliff-and-sea photography."
+            {
+              "name": "Swimming",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=35.5195%2C24.0065",
+              "description": "Sea remains warm into autumn."
+            },
+            {
+              "name": "Village visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=35.4100%2C24.0300",
+              "description": "Experience rural Crete."
+            },
+            {
+              "name": "Old town cafés",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=35.5155%2C24.0170",
+              "description": "Relaxed local atmosphere."
+            }
           ]
         },
         "winter": {
-          "event": "Quiet Corfu",
+          "event": "Quiet Cretan Winter",
+          "description": "Mild weather with local life and peaceful streets.",
           "ideas": [
-            "🏛️ Explore Old Town museums and fortresses.",
-            "☕ Warm cafés along the waterfront.",
-            "🌧️ Moody, atmospheric seaside walks."
+            {
+              "name": "Museum visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=35.5168%2C24.0143",
+              "description": "Cultural exploration indoors."
+            },
+            {
+              "name": "Harbor walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=35.5170%2C24.0150",
+              "description": "Calm winter seaside views."
+            },
+            {
+              "name": "Local markets",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=35.5152%2C24.0198",
+              "description": "Everyday Cretan life."
+            }
           ]
         }
       },
       "public_transport_tips": [
         {
-          "tip": "🚌 Use the official Green Buses (KTEL Corfu) for routes across the island.",
-          "link": "https://greenbuses.gr/"
-        },
-        {
-          "tip": "🚍 Local blue buses operate within Corfu Town and nearby districts.",
-          "link": "https://astikoktelkerkyras.gr/en/"
-        },
-        {
-          "tip": "🚕 Taxis are available throughout the island; call or use local taxi apps.",
-          "link": "http://www.corfutaxi.gr/"
-        },
-        {
-          "tip": "🚗 Renting a car is recommended for beach hopping and exploring remote spots.",
-          "link": "https://www.google.com/maps/search/?api=1&query=Corfu%20Car%20Rental"
-        },
-        {
-          "tip": "🚶 Corfu Old Town is fully walkable and perfect for strolling.",
-          "link": "https://www.google.com/maps/search/?api=1&query=Corfu%20Old%20Town%20Walking"
-        }
-      ],
-      "city_events": []
-    },
-    {
-      "name": "Crete",
-      "interests": [
-        {
-          "name": "Mountains & Sea 🌄🌊",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=Crete%20Mountains%20and%20Sea%20Viewpoints",
-          "description": "Crete blends rugged mountains with crystal-blue seas, creating dramatic landscapes found nowhere else in Greece. The island is full of scenic drives, coastal hikes, and panoramic viewpoints. Nature lovers will find endless opportunities for exploration and photography."
-        },
-        {
-          "name": "Beaches 🏖️",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=Crete%20Beaches",
-          "description": "Crete is home to some of Europe’s most famous beaches, including the pink sands of Elafonissi and the turquoise waters of Balos. Many beaches are surrounded by untouched nature and shallow, warm waters. Ideal for relaxing, swimming, or taking stunning holiday photos."
-        },
-        {
-          "name": "Historic Sites 🏺",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=Knossos%20Palace%20Crete",
-          "description": "As the center of the ancient Minoan civilization, Crete is filled with archaeological wonders. The Palace of Knossos stands as the island’s most iconic historic site, rich in myth and legend. Museums and ruins across the island reveal thousands of years of cultural heritage."
-        },
-        {
-          "name": "Villages 🌿",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=Crete%20Traditional%20Villages",
-          "description": "Traditional Cretan villages offer a slower, more authentic side of island life. Stone houses, narrow lanes, and warm hospitality define these local communities. They’re perfect for trying homemade food, exploring local shops, and enjoying mountain or seaside views."
-        },
-        {
-          "name": "Local Food 😋",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=Crete%20Tavernas",
-          "description": "Cretan cuisine is simple, fresh, and incredibly flavorful. Expect dishes made with local olive oil, wild herbs, honey, cheeses, and garden-grown vegetables. Village tavernas offer meals that feel homemade, often paired with raki or local wine."
-        }
-      ],
-      "local_food_tip": "Try dakos, Cretan salads, honey with yogurt, roasted vegetables, local cheeses, olives and freshly baked bread.",
-      "full_day": "Morning: 🏺 Explore the legendary <a href=\"https://www.google.com/maps/search/?api=1&query=Knossos%20Palace%20Crete\" target=\"_blank\" rel=\"noopener\">Knossos Palace</a> — home of Minoan myths and ancient history. → ☕ Enjoy coffee in central <a href=\"https://www.google.com/maps/search/?api=1&query=Heraklion%20City%20Center\" target=\"_blank\" rel=\"noopener\">Heraklion</a>.\n\nAfternoon: 🌊 Visit one of Crete’s world-famous beaches: <a href=\"https://www.google.com/maps/search/?api=1&query=Elafonissi%20Beach%20Crete\" target=\"_blank\" rel=\"noopener\">Elafonissi</a> or <a href=\"https://www.google.com/maps/search/?api=1&query=Balos%20Lagoon%20Crete\" target=\"_blank\" rel=\"noopener\">Balos Lagoon</a>. → 🍽️ Lunch in a beachfront taverna: <a href=\"https://www.google.com/maps/search/?api=1&query=Chania%20Seaside%20Tavernas\" target=\"_blank\" rel=\"noopener\">Chania Seaside Tavernas</a>.\n\nSunset: 🌇 Experience a breathtaking sunset at the <a href=\"https://www.google.com/maps/search/?api=1&query=Chania%20Old%20Port\" target=\"_blank\" rel=\"noopener\">Old Venetian Port of Chania</a>.\n\nNight: 🌃 Evening stroll along the waterfront with cafés, lights, and peaceful sea views.",
-      "seasons": {
-        "spring": {
-          "event": "Cretan Bloom",
-          "ideas": [
-            "🌸 Mountain hikes with colorful spring flowers.",
-            "🌊 Quiet beaches before summer crowds.",
-            "🍽️ Seasonal dishes in village tavernas."
-          ]
-        },
-        "summer": {
-          "event": "Hot Crete",
-          "ideas": [
-            "🏖️ Elafonissi & Balos beach highlights.",
-            "🍉 Refreshing local fruits.",
-            "🎉 Nightlife and music in Heraklion."
-          ]
-        },
-        "autumn": {
-          "event": "Warm Autumn",
-          "ideas": [
-            "🌅 Long swimming season with warm seas.",
-            "🥗 Cozy village tavern evenings.",
-            "🚶 Scenic nature walks with soft light."
-          ]
-        },
-        "winter": {
-          "event": "Mild Winter",
-          "ideas": [
-            "☕ Portside cafés in Chania.",
-            "🏺 Museums and historical sites.",
-            "🥣 Comfort food in local restaurants."
-          ]
-        }
-      },
-      "public_transport_tips": [
-        {
-          "tip": "🚌 KTEL buses connect all major towns such as Heraklion, Chania, Rethymno, and Agios Nikolaos.",
+          "tip": "Local buses connect Chania with beaches and nearby villages.",
           "link": "https://www.e-ktel.com/en/"
         },
         {
-          "tip": "🚍 Local buses operate within larger cities like Heraklion and Chania.",
-          "link": "https://www.astiko-irakleiou.gr/en/"
+          "tip": "The Old Town and harbor are best explored on foot.",
+          "link": "https://www.chaniatourism.com/"
         },
         {
-          "tip": "🚗 Renting a car is recommended for beaches and villages in remote areas.",
-          "link": "https://www.google.com/maps/search/?api=1&query=Crete%20Car%20Rental"
-        },
-        {
-          "tip": "🚕 Taxis are widely available in major towns.",
-          "link": "https://www.google.com/maps/search/?api=1&query=Crete%20Taxi"
+          "tip": "Chania Airport connects the city with Athens and European cities.",
+          "link": "https://www.chania-airport.gr/"
         }
       ],
-      "city_events": []
+      "city_events": [
+        {
+          "name": "Chania Summer Cultural Festival",
+          "season": "summer",
+          "description": "Concerts, dance, and cultural events held in historic venues.",
+          "website": "https://www.chania-culture.gr/",
+          "dates": "June–September"
+        }
+      ],
+      "places": [
+        {
+          "name": "Venetian Lighthouse",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=35.5175%2C24.0140",
+          "description": "Iconic lighthouse at the entrance of the Old Harbor."
+        },
+        {
+          "name": "Firkas Fortress",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=35.5172%2C24.0135",
+          "description": "Historic fortress marking the western entrance to the harbor."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "Koum Kapi promenade",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=35.5145%2C24.0245",
+          "description": "Local seaside area popular for relaxed dining and sunset views."
+        },
+        {
+          "name": "Early-morning Old Harbor",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=35.5170%2C24.0150",
+          "description": "Peaceful reflections and fishing boats before crowds arrive."
+        }
+      ]
     },
+
     {
-      "name": "Halkidiki (Kassandra Peninsula)",
+      "name": "Heraklion",
       "interests": [
         {
-          "name": "Turquoise Beaches 🏖️",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=Kallithea%20Beach%20Halkidiki",
-          "description": "Kassandra is known for some of the clearest, turquoise waters in northern Greece. Beaches are long, sandy, and perfect for swimming and sunbathing. Many have beach bars, calm coves, and shallow water ideal for families."
+          "name": "Knossos Palace",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=35.2989%2C25.1630",
+          "description": "The most important Minoan archaeological site in Crete, associated with the legend of the Minotaur."
         },
         {
-          "name": "Resort Vibes 😎",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=Halkidiki%20Resorts",
-          "description": "The peninsula is full of modern resorts, lively beach clubs, and stylish seaside cafés. Travelers looking for relaxation will love the comfortable atmosphere and excellent service. It's an ideal area for a laid-back, sunny holiday."
+          "name": "Heraklion Archaeological Museum",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=35.3387%2C25.1441",
+          "description": "One of Greece’s top museums, housing the world’s finest collection of Minoan art."
         },
         {
-          "name": "Nature 🌿",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=Afitos%20Halkidiki%20Nature",
-          "description": "Despite its popularity, Kassandra still offers beautiful stretches of nature. Pine forests meet the sea, creating scenic walking paths and coastline viewpoints. Afitos village, set on a cliff, offers some of the best natural views in the region."
+          "name": "Koules Fortress (Rocca al Mare)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=35.3442%2C25.1367",
+          "description": "Venetian fortress guarding the old harbor, symbol of Heraklion’s maritime history."
         },
         {
-          "name": "Local Tavernas 🍽️",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=Afitos%20Halkidiki%20Tavernas",
-          "description": "Halkidiki’s tavernas serve fresh Greek dishes with local ingredients, especially vegetables, cheese and Mediterranean herbs. Seaside restaurants offer relaxing dining with beautiful sunset views. It’s the perfect place to slow down and enjoy authentic food."
+          "name": "Heraklion Old Town & Lion Square",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=35.3389%2C25.1447",
+          "description": "Lively historic center with shops, cafés, and the Morosini Fountain."
         },
         {
-          "name": "Small Villages 🏡",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=Halkidiki%20Villages%20Kassandra",
-          "description": "Kassandra’s villages each have their own charm, blending traditional Greek culture with modern coastal life. Stone-built Afitos stands out as one of the prettiest settlements. Wandering through these villages offers a great mix of culture, cafés, and scenic corners."
+          "name": "Venetian City Walls",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=35.3360%2C25.1300",
+          "description": "Well-preserved fortifications offering walking paths and city views."
         }
       ],
-      "local_food_tip": "Enjoy moussaka, grilled vegetables, baked feta, fresh salads and warm bread with olive oil.",
-      "full_day": "Morning: 🏖️ Begin at <a href=\"https://www.google.com/maps/search/?api=1&query=Kallithea%20Beach%20Halkidiki\" target=\"_blank\" rel=\"noopener\">Kallithea Beach</a>, famous for its turquoise waters and smooth sandy shoreline. → ☕ Enjoy coffee in a beachfront bar.\n\nAfternoon: 🌊 Visit <a href=\"https://www.google.com/maps/search/?api=1&query=Hanioti%20Beach\" target=\"_blank\" rel=\"noopener\">Hanioti Beach</a> or <a href=\"https://www.google.com/maps/search/?api=1&query=Pefkohori%20Beach\" target=\"_blank\" rel=\"noopener\">Pefkohori Beach</a>. → 🍽️ Lunch in a beachfront taverna: <a href=\"https://www.google.com/maps/search/?api=1&query=Afitos%20Tavernas\" target=\"_blank\" rel=\"noopener\">Afitos Seaside Tavernas</a>.\n\nLate Afternoon: 🚤 Optional boat ride along the coastline. → Explore the charming <a href=\"https://www.google.com/maps/search/?api=1&query=Afitos%20Village%20Halkidiki\" target=\"_blank\" rel=\"noopener\">Afitos Village</a>.\n\nSunset: 🌇 Watch the golden sunset from Afitos cliffside.\n\nNight: 🎉 Evening drinks or light nightlife in <a href=\"https://www.google.com/maps/search/?api=1&query=Kallithea%20Bars%20Halkidiki\" target=\"_blank\" rel=\"noopener\">Kallithea</a>.",
+      "local_food_tip": "Try Cretan dishes such as dakos, gamopilafo, lamb with herbs, fresh seafood, and local cheeses. Pair meals with Cretan olive oil and raki.",
+      "full_day": {
+        "Morning": "Start at the <a href=\"https://www.google.com/maps/search/?api=1&query=35.2989%2C25.1630\" target=\"_blank\" rel=\"noopener\">Knossos Palace</a> ☀️ to explore Minoan history.",
+        "Afternoon": "Visit the <a href=\"https://www.google.com/maps/search/?api=1&query=35.3387%2C25.1441\" target=\"_blank\" rel=\"noopener\">Heraklion Archaeological Museum</a> 🏛️, then have lunch near <a href=\"https://www.google.com/maps/search/?api=1&query=35.3389%2C25.1447\" target=\"_blank\" rel=\"noopener\">Lion Square</a> 🍽️.",
+        "Sunset": "Walk along the harbor to the <a href=\"https://www.google.com/maps/search/?api=1&query=35.3442%2C25.1367\" target=\"_blank\" rel=\"noopener\">Koules Fortress</a> 🌅.",
+        "Night": "Dinner in the old town ✨ followed by an evening stroll on the Venetian walls."
+      },
       "seasons": {
         "spring": {
-          "event": "Spring Blue",
+          "event": "Spring in Crete",
+          "description": "Mild weather and green landscapes ideal for archaeology and walking.",
           "ideas": [
-            "🌸 Quiet walks along turquoise beaches.",
-            "🚶 Afitos cliffside strolls.",
-            "☕ Seafront coffee spots."
+            {
+              "name": "Knossos visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=35.2989%2C25.1630",
+              "description": "Comfortable temperatures for exploration."
+            },
+            {
+              "name": "City wall walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=35.3360%2C25.1300",
+              "description": "Clear views and fresh air."
+            },
+            {
+              "name": "Museum exploration",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=35.3387%2C25.1441",
+              "description": "World-class Minoan artifacts."
+            }
           ]
         },
         "summer": {
-          "event": "Peak Beach Life",
+          "event": "Cretan Summer Season",
+          "description": "Hot sunny days, beach escapes, and lively evenings.",
           "ideas": [
-            "🏖️ Full-day swimming and sunbathing.",
-            "🍸 Beach bars with music and cocktails.",
-            "🌅 Sunset views from Afitos village."
+            {
+              "name": "Beach trips",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=35.3375%2C25.2095",
+              "description": "Nearby beaches such as Ammoudara."
+            },
+            {
+              "name": "Evening harbor walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=35.3442%2C25.1367",
+              "description": "Cooler seaside evenings."
+            },
+            {
+              "name": "Night dining",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=35.3389%2C25.1447",
+              "description": "Vibrant old town atmosphere."
+            }
           ]
         },
         "autumn": {
-          "event": "Warm Autumn",
+          "event": "Olive Harvest Season",
+          "description": "Warm seas, fewer crowds, and traditional harvest activities.",
           "ideas": [
-            "🍁 Warm seas and fewer crowds.",
-            "🍽️ Relaxed taverna meals.",
-            "🚶 Coastal walking paths."
+            {
+              "name": "Swimming",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=35.3375%2C25.2095",
+              "description": "Sea remains warm into autumn."
+            },
+            {
+              "name": "Village visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=35.2300%2C25.1800",
+              "description": "Experience rural Crete."
+            },
+            {
+              "name": "Cultural walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=35.3389%2C25.1447",
+              "description": "Relaxed city pace."
+            }
           ]
         },
         "winter": {
-          "event": "Quiet Peninsula",
+          "event": "Quiet Cretan Winter",
+          "description": "Mild temperatures and strong local life.",
           "ideas": [
-            "🌊 Dramatic coastline views with winter waves.",
-            "☕ Cozy cafés in Afitos.",
-            "📸 Beautiful winter landscapes."
+            {
+              "name": "Museum visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=35.3387%2C25.1441",
+              "description": "Ideal time for cultural learning."
+            },
+            {
+              "name": "Old town cafés",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=35.3389%2C25.1447",
+              "description": "Local winter atmosphere."
+            },
+            {
+              "name": "Harbor walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=35.3442%2C25.1367",
+              "description": "Calm seaside views."
+            }
           ]
         }
       },
       "public_transport_tips": [
         {
-          "tip": "🚌 KTEL buses run from Thessaloniki to major villages in Kassandra.",
-          "link": "https://ktel-chalkidikis.gr/en/"
+          "tip": "Local buses connect Heraklion with Knossos and nearby beaches.",
+          "link": "https://www.ktelherlas.gr/"
         },
         {
-          "tip": "🚗 Renting a car is the best way to explore beaches and coastal routes.",
-          "link": "https://www.google.com/maps/search/?api=1&query=Halkidiki%20Car%20Rental"
+          "tip": "The city center is compact and walkable.",
+          "link": "https://www.heraklion.gr/"
         },
         {
-          "tip": "🚕 Taxis are available in main tourist villages.",
-          "link": "https://www.google.com/maps/search/?api=1&query=Halkidiki%20Taxi"
-        },
-        {
-          "tip": "🚶 Village centers and beaches are walkable once you arrive.",
-          "link": "https://www.google.com/maps/search/?api=1&query=Afitos%20Walking%20Routes"
+          "tip": "Heraklion Airport offers frequent domestic and international flights.",
+          "link": "https://www.heraklion-airport.info/"
         }
       ],
-      "city_events": []
+      "city_events": [
+        {
+          "name": "Heraklion Summer Festival",
+          "season": "summer",
+          "description": "Concerts, theater, and cultural events across historic venues.",
+          "website": "https://www.heraklionculture.gr/",
+          "dates": "June–September"
+        }
+      ],
+      "places": [
+        {
+          "name": "Morosini Fountain (Lion Square)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=35.3389%2C25.1447",
+          "description": "Central Venetian fountain and popular meeting point."
+        },
+        {
+          "name": "Historical Museum of Crete",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=35.3421%2C25.1348",
+          "description": "Museum covering Crete’s history from early Christian times to modern era."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "Venetian Walls sunset walk",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=35.3360%2C25.1300",
+          "description": "Peaceful panoramic views at sunset."
+        },
+        {
+          "name": "Early-morning Koules Fortress",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=35.3442%2C25.1367",
+          "description": "Quiet harbor atmosphere before crowds arrive."
+        }
+      ]
     },
+
     {
-      "name": "Mykonos",
+      "name": "Patras",
       "interests": [
         {
-          "name": "Beaches 🌊",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=Mykonos%20Beaches",
-          "description": "Mykonos is home to some of the most iconic beaches in Greece, known for crystal-clear water and golden sand. Many beaches offer great facilities, from quiet family areas to lively party zones. Whether you're relaxing or dancing by the sea, there's a beach for every mood."
+          "name": "Patras Castle",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=38.2486%2C21.7335",
+          "description": "Medieval castle overlooking the city, offering panoramic views of Patras and the Gulf of Corinth."
         },
         {
-          "name": "Nightlife 🎉",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=Mykonos%20Nightlife%20Bars%20Clubs",
-          "description": "The island is famous for its world-class nightlife, attracting DJs, artists, and travelers from all over the world. Clubs begin filling up at sunset and stay open until dawn. From beach parties to elegant cocktail lounges, Mykonos guarantees unforgettable nights."
+          "name": "Saint Andrew Church (Agios Andreas)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=38.2387%2C21.7348",
+          "description": "Largest church in Greece, dedicated to Saint Andrew, the city’s patron saint."
         },
         {
-          "name": "Windmills 🌬️",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=Mykonos%20Windmills",
-          "description": "The famous windmills are one of Mykonos’ most iconic landmarks. Overlooking the Aegean Sea, they offer perfect photo spots, especially during sunset. Their history dates back centuries, making them a fascinating blend of heritage and scenery."
+          "name": "Patras Roman Odeon",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=38.2467%2C21.7341",
+          "description": "Well-preserved Roman theater still used for cultural performances."
         },
         {
-          "name": "Chic Streets 🏛️",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=Mykonos%20Town%20Chora",
-          "description": "Mykonos Town (Chora) is a maze of whitewashed alleyways, stylish boutiques, and charming cafés. The architecture is traditionally Cycladic, giving the town a bright, picturesque feel. It’s the perfect place for wandering, shopping, and discovering hidden corners."
+          "name": "Achaia Clauss Winery",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=38.2646%2C21.7585",
+          "description": "Historic winery founded in 1861, famous for Mavrodaphne wine and scenic terraces."
         },
         {
-          "name": "Local Food 🍽️",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=Mykonos%20Tavernas",
-          "description": "Mykonos offers delicious Cycladic specialties made with fresh vegetables, cheeses, and herbs. From onion pies to honey desserts, the island’s flavors reflect its rich culinary culture. Local tavernas provide authentic meals with stunning sea views."
+          "name": "Patras Waterfront Promenade",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=38.2395%2C21.7340",
+          "description": "Modern seaside promenade ideal for walking, cycling, and sunsets."
         }
       ],
-      "local_food_tip": "Try Mykonian onion pie, local cheeses, fresh salads, honey pastries and Cycladic desserts.",
-      "full_day": "Morning: 🏙️ Begin in <a href=\"https://www.google.com/maps/search/?api=1&query=Mykonos%20Town%20Chora\" target=\"_blank\" rel=\"noopener\">Mykonos Town (Chora)</a> and wander through the photogenic white alleys. → 🌬️ Visit the famous <a href=\"https://www.google.com/maps/search/?api=1&query=Mykonos%20Windmills\" target=\"_blank\" rel=\"noopener\">Windmills</a> overlooking the sea. → ☕ Coffee in <a href=\"https://www.google.com/maps/search/?api=1&query=Little%20Venice%20Mykonos\" target=\"_blank\" rel=\"noopener\">Little Venice</a>.\n\nAfternoon: 🏖️ Head to the island’s beaches: <a href=\"https://www.google.com/maps/search/?api=1&query=Ornos%20Beach%20Mykonos\" target=\"_blank\" rel=\"noopener\">Ornos</a>, <a href=\"https://www.google.com/maps/search/?api=1&query=Platis%20Gialos%20Beach%20Mykonos\" target=\"_blank\" rel=\"noopener\">Platis Gialos</a> or <a href=\"https://www.google.com/maps/search/?api=1&query=Paradise%20Beach%20Mykonos\" target=\"_blank\" rel=\"noopener\">Paradise Beach</a>. → 🍽️ Lunch by the sea in <a href=\"https://www.google.com/maps/search/?api=1&query=Platis%20Gialos%20Tavernas\" target=\"_blank\" rel=\"noopener\">Platis Gialos Tavernas</a>.\n\nSunset: 🌇 Return to Little Venice for colorful sunset views.\n\nNight: 🎉 Enjoy Mykonos’ famous nightlife: beach clubs, dance floors and stylish cocktail bars.",
+      "local_food_tip": "Try Mavrodaphne wine, fresh seafood, grilled meats, cheese pies, and traditional Greek meze in seaside tavernas.",
+      "full_day": {
+        "Morning": "Start at the <a href=\"https://www.google.com/maps/search/?api=1&query=38.2486%2C21.7335\" target=\"_blank\" rel=\"noopener\">Patras Castle</a> ☀️ for city and sea views.",
+        "Afternoon": "Visit the <a href=\"https://www.google.com/maps/search/?api=1&query=38.2467%2C21.7341\" target=\"_blank\" rel=\"noopener\">Roman Odeon</a> 🏛️, then enjoy lunch near the city center 🍽️.",
+        "Sunset": "Walk along the <a href=\"https://www.google.com/maps/search/?api=1&query=38.2395%2C21.7340\" target=\"_blank\" rel=\"noopener\">Waterfront Promenade</a> 🌅.",
+        "Night": "Dinner by the sea ✨ or evening drinks near the marina."
+      },
       "seasons": {
         "spring": {
-          "event": "Calm Mykonos",
+          "event": "Spring in Patras",
+          "description": "Mild temperatures and blooming landscapes make sightseeing pleasant.",
           "ideas": [
-            "🚶 Quiet walks in Chora with fewer crowds.",
-            "🌸 Peaceful beaches and soft breezes.",
-            "☕ Coffee breaks near the windmills."
+            {
+              "name": "Castle walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=38.2486%2C21.7335",
+              "description": "Clear views and comfortable weather."
+            },
+            {
+              "name": "City center strolls",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=38.2460%2C21.7345",
+              "description": "Relaxed urban exploration."
+            },
+            {
+              "name": "Winery visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=38.2646%2C21.7585",
+              "description": "Taste local wines in spring sunshine."
+            }
           ]
         },
         "summer": {
-          "event": "Party Season",
+          "event": "Patras International Festival",
+          "description": "Cultural events, concerts, and theater performances across the city.",
           "ideas": [
-            "🏖️ All-day beach club fun.",
-            "🍹 Cocktails in Little Venice.",
-            "🎉 Famous sunset-to-sunrise parties."
+            {
+              "name": "Beach trips",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=38.2600%2C21.7400",
+              "description": "Nearby beaches along the Gulf of Patras."
+            },
+            {
+              "name": "Evening promenade walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=38.2395%2C21.7340",
+              "description": "Cooler seaside evenings."
+            },
+            {
+              "name": "Open-air concerts",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=38.2467%2C21.7341",
+              "description": "Performances at historic venues."
+            }
           ]
         },
         "autumn": {
-          "event": "Warm Winds",
+          "event": "Wine Harvest Season",
+          "description": "Grape harvests and wine-focused events in the surrounding region.",
           "ideas": [
-            "🌅 Incredible sunsets with warm colors.",
-            "🍽️ Taverna dinners by the sea.",
-            "🏖️ Swimming in warm early-autumn waters."
+            {
+              "name": "Winery tours",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=38.2646%2C21.7585",
+              "description": "Mavrodaphne harvest atmosphere."
+            },
+            {
+              "name": "Autumn city walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=38.2460%2C21.7345",
+              "description": "Pleasant temperatures and fewer crowds."
+            },
+            {
+              "name": "Café culture",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=38.2435%2C21.7348",
+              "description": "Relaxed local life."
+            }
           ]
         },
         "winter": {
-          "event": "Quiet Island",
+          "event": "Patras Carnival",
+          "description": "One of Europe’s largest carnivals with parades, costumes, and festivities.",
           "ideas": [
-            "🌊 Empty beaches and peaceful scenery.",
-            "☕ Cozy cafés in Chora.",
-            "📸 Unique winter photography opportunities."
+            {
+              "name": "Carnival events",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=38.2460%2C21.7345",
+              "description": "Street parades and celebrations."
+            },
+            {
+              "name": "Museum visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=38.2450%2C21.7355",
+              "description": "Indoor cultural activities."
+            },
+            {
+              "name": "Seaside walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=38.2395%2C21.7340",
+              "description": "Mild winter coastal atmosphere."
+            }
           ]
         }
       },
       "public_transport_tips": [
         {
-          "tip": "🚌 Mykonos buses connect major beaches with Chora.",
-          "link": "https://mykonsbus.com/"
+          "tip": "Local buses connect the city center with suburbs and beaches.",
+          "link": "https://www.astiko-patras.gr/"
         },
         {
-          "tip": "🚕 Taxis are limited — expect waiting times during high season.",
-          "link": "https://www.google.com/maps/search/?api=1&query=Mykonos%20Taxi"
+          "tip": "The central areas and waterfront are easily walkable.",
+          "link": "https://www.visitpatras.gr/"
         },
         {
-          "tip": "🚤 Water taxis connect beaches along the southern coast.",
-          "link": "https://www.google.com/maps/search/?api=1&query=Mykonos%20Water%20Taxi"
-        },
-        {
-          "tip": "🚗 Renting a car or ATV is common for exploring the island.",
-          "link": "https://www.google.com/maps/search/?api=1&query=Mykonos%20Car%20Rental"
+          "tip": "Patras Port connects Greece with Italy by ferry.",
+          "link": "https://www.patrasport.gr/"
         }
       ],
-      "city_events": []
+      "city_events": [
+        {
+          "name": "Patras Carnival",
+          "season": "winter",
+          "description": "Massive carnival with parades, music, and masquerades.",
+          "website": "https://www.carnivalpatras.gr/",
+          "dates": "January–March"
+        }
+      ],
+      "places": [
+        {
+          "name": "Georgiou I Square",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=38.2462%2C21.7352",
+          "description": "Central square with neoclassical buildings and cafés."
+        },
+        {
+          "name": "Rio–Antirrio Bridge",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=38.3344%2C21.7795",
+          "description": "Impressive cable-stayed bridge connecting the Peloponnese with mainland Greece."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "Upper Town (Ano Poli)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=38.2480%2C21.7310",
+          "description": "Quiet historic neighborhood near the castle with great views."
+        },
+        {
+          "name": "Early-morning Waterfront",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=38.2395%2C21.7340",
+          "description": "Peaceful seaside atmosphere before the city wakes up."
+        }
+      ]
     },
+
     {
       "name": "Rhodes",
       "interests": [
         {
-          "name": "Medieval Old Town 🏰",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=Rhodes%20Old%20Town",
-          "description": "Rhodes Old Town is one of the best-preserved medieval cities in Europe. Its walls, gates and cobblestone lanes feel like stepping back in time. Visitors can explore fortresses, museums and atmospheric old streets full of history."
+          "name": "Medieval City of Rhodes",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=36.4443%2C28.2249",
+          "description": "UNESCO-listed medieval old town surrounded by walls, built by the Knights of St. John."
         },
         {
-          "name": "Beaches 🌊",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=Rhodes%20Beaches",
-          "description": "Rhodes offers a mix of sandy beaches, calm bays, and crystal-clear water. Popular spots like Elli Beach provide excellent swimming conditions. Many beaches have cafés, sunbeds and beautiful views of the Aegean Sea."
+          "name": "Palace of the Grand Master",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=36.4446%2C28.2244",
+          "description": "Impressive medieval fortress and museum in the heart of the Old Town."
         },
         {
-          "name": "Sunshine 🌞",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=Rhodes%20Viewpoints",
-          "description": "Rhodes is known for having some of the sunniest weather in all of Greece. Long, warm days make it ideal for outdoor activities and beach time. The island’s clear skies create perfect conditions for sunsets and golden-hour photography."
+          "name": "Street of the Knights",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=36.4441%2C28.2240",
+          "description": "One of Europe’s best-preserved medieval streets, lined with historic inns."
         },
         {
-          "name": "Local Food 🍽️",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=Rhodes%20Tavernas",
-          "description": "Rhodes offers delicious Greek cuisine, from roasted vegetables to cheese pies and freshly baked breads. Tavernas across the island serve authentic dishes made with local ingredients. Visitors can enjoy seaside meals, cozy village dinners, or street snacks in Old Town."
+          "name": "Mandraki Harbor",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=36.4512%2C28.2228",
+          "description": "Historic harbor traditionally associated with the Colossus of Rhodes."
         },
         {
-          "name": "Ancient & Medieval Sites 🏺",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=Rhodes%20Acropolis",
-          "description": "Beyond its medieval walls, Rhodes also features ancient Greek ruins. The Rhodes Acropolis offers panoramic views and fascinating archaeological remains. It’s a must-see spot for travelers who enjoy blending history with scenic landscapes."
+          "name": "Elli Beach",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=36.4585%2C28.2215",
+          "description": "Popular city beach with clear waters and views toward Turkey."
         }
       ],
-      "local_food_tip": "Try gyros, roasted vegetables, oven-baked feta, local pies and honey-based desserts.",
-      "full_day": "Morning: 🏰 Explore the iconic <a href=\"https://www.google.com/maps/search/?api=1&query=Rhodes%20Old%20Town\" target=\"_blank\" rel=\"noopener\">Rhodes Old Town</a>, including medieval walls and the Palace of the Grand Master. → ☕ Coffee in the old stone-paved lanes.\n\nAfternoon: 🌊 Swim and relax at <a href=\"https://www.google.com/maps/search/?api=1&query=Elli%20Beach%20Rhodes\" target=\"_blank\" rel=\"noopener\">Elli Beach</a>. → 🍽️ Lunch by the seaside: <a href=\"https://www.google.com/maps/search/?api=1&query=Elli%20Beach%20Tavernas\" target=\"_blank\" rel=\"noopener\">Elli Beach Tavernas</a>.\n\nSunset: 🌇 Head to the <a href=\"https://www.google.com/maps/search/?api=1&query=Rhodes%20Acropolis\" target=\"_blank\" rel=\"noopener\">Rhodes Acropolis</a> for an unforgettable sunset.\n\nNight: 🌃 Enjoy a relaxing walk or light nightlife in Old Town’s cozy bars and lantern-lit squares.",
+      "local_food_tip": "Try local Dodecanese dishes such as pitaroudia (chickpea fritters), fresh seafood, lamb with herbs, meze, and local wines.",
+      "full_day": {
+        "Morning": "Start inside the <a href=\"https://www.google.com/maps/search/?api=1&query=36.4443%2C28.2249\" target=\"_blank\" rel=\"noopener\">Medieval City of Rhodes</a> ☀️, exploring its walls and gates.",
+        "Afternoon": "Visit the <a href=\"https://www.google.com/maps/search/?api=1&query=36.4446%2C28.2244\" target=\"_blank\" rel=\"noopener\">Palace of the Grand Master</a> 🏰, then have lunch near the Old Town 🍽️.",
+        "Sunset": "Walk around <a href=\"https://www.google.com/maps/search/?api=1&query=36.4512%2C28.2228\" target=\"_blank\" rel=\"noopener\">Mandraki Harbor</a> 🌅.",
+        "Night": "Dinner in the Old Town ✨ followed by an evening stroll through illuminated medieval streets."
+      },
       "seasons": {
         "spring": {
-          "event": "Spring Sun",
+          "event": "Spring in Rhodes",
+          "description": "Wildflowers bloom and temperatures are ideal for sightseeing.",
           "ideas": [
-            "🌸 Walk quiet medieval lanes.",
-            "🌊 Enjoy peaceful pre-season beaches.",
-            "☕ Sit at traditional cafés."
+            {
+              "name": "Old Town walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=36.4443%2C28.2249",
+              "description": "Comfortable exploration weather."
+            },
+            {
+              "name": "Archaeological visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=36.4446%2C28.2244",
+              "description": "Enjoy history without summer heat."
+            },
+            {
+              "name": "Coastal strolls",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=36.4512%2C28.2228",
+              "description": "Clear views and sea breezes."
+            }
           ]
         },
         "summer": {
-          "event": "High Summer",
+          "event": "Rhodes Summer Cultural Events",
+          "description": "Beach life by day and cultural events by night.",
           "ideas": [
-            "🏖️ Full-day beach time at Elli Beach.",
-            "🍦 Ice cream strolls in Old Town.",
-            "🎉 Lively nightlife and music bars."
+            {
+              "name": "Beach time",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=36.4585%2C28.2215",
+              "description": "Swimming and sunbathing."
+            },
+            {
+              "name": "Boat trips",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=36.4512%2C28.2228",
+              "description": "Day trips along the coast."
+            },
+            {
+              "name": "Evening harbor walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=36.4512%2C28.2228",
+              "description": "Lively summer atmosphere."
+            }
           ]
         },
         "autumn": {
-          "event": "Autumn Glow",
+          "event": "Warm Autumn Season",
+          "description": "Warm seas, fewer crowds, and relaxed island life.",
           "ideas": [
-            "🌅 Warm evening sunsets.",
-            "🍽️ Relaxed dinners in village taverns.",
-            "📸 Great photography weather."
+            {
+              "name": "Swimming",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=36.4585%2C28.2215",
+              "description": "Sea remains warm into autumn."
+            },
+            {
+              "name": "Historic exploration",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=36.4443%2C28.2249",
+              "description": "Calm sightseeing pace."
+            },
+            {
+              "name": "Café culture",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=36.4460%2C28.2255",
+              "description": "Relaxed evenings."
+            }
           ]
         },
         "winter": {
-          "event": "Quiet Medieval Season",
+          "event": "Quiet Island Winter",
+          "description": "Mild climate and peaceful streets.",
           "ideas": [
-            "🏰 empty old town streets.",
-            "☕ Cozy cafés for warm drinks.",
-            "🌫️ Moody coastal walks."
+            {
+              "name": "Old Town walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=36.4443%2C28.2249",
+              "description": "Local life without crowds."
+            },
+            {
+              "name": "Museum visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=36.4446%2C28.2244",
+              "description": "Cultural focus."
+            },
+            {
+              "name": "Harbor views",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=36.4512%2C28.2228",
+              "description": "Calm seaside scenery."
+            }
           ]
         }
       },
       "public_transport_tips": [
         {
-          "tip": "🚌 The island’s KTEL buses connect Rhodes Town with major beaches and villages.",
-          "link": "https://www.ktelrodou.gr/en/"
+          "tip": "Local buses connect Rhodes Town with beaches and villages.",
+          "link": "https://www.ktelrodou.gr/"
         },
         {
-          "tip": "🚍 Local buses operate frequently around Rhodes Town.",
-          "link": "https://www.google.com/maps/search/?api=1&query=Rhodes%20Local%20Bus%20Stops"
+          "tip": "The Old Town is best explored on foot.",
+          "link": "https://www.rhodes.gr/"
         },
         {
-          "tip": "🚕 Taxis are common and can be found near major tourist zones.",
-          "link": "https://www.google.com/maps/search/?api=1&query=Rhodes%20Taxi"
-        },
-        {
-          "tip": "🚗 Renting a car is recommended for exploring the island comfortably.",
-          "link": "https://www.google.com/maps/search/?api=1&query=Rhodes%20Car%20Rental"
-        }
-      ],
-      "city_events": []
-    },
-    {
-      "name": "Santorini",
-      "interests": [
-        {
-          "name": "Caldera Views 🌋",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=Santorini%20Caldera%20Viewpoints",
-          "description": "Santorini’s caldera is one of the most dramatic landscapes in the world. Towering cliffs drop into deep-blue volcanic waters, creating unforgettable panoramas. The views change throughout the day, offering new colors and moods from sunrise to sunset."
-        },
-        {
-          "name": "Sunsets 🌇",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=Oia%20Sunset%20Santorini",
-          "description": "The island is globally famous for its sunsets, especially from Oia and Imerovigli. As the sun dips into the Aegean, the sky turns golden, pink and purple. Travelers gather early to secure the best viewpoint — it’s truly a magical moment."
-        },
-        {
-          "name": "Beaches 🌊",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=Santorini%20Beaches",
-          "description": "Santorini features unique volcanic beaches with red, black and golden sand. Places like Red Beach and Kamari offer striking scenery and refreshing swimming spots. These beaches are perfect for relaxing, sunbathing, and exploring unusual coastlines."
-        },
-        {
-          "name": "Cycladic Atmosphere 🏛️",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=Fira%20Santorini",
-          "description": "Whitewashed houses, blue domes and narrow alleys define Santorini’s traditional Cycladic charm. Villages like Fira and Oia feel like open-air postcards. It’s a dreamy environment that blends history, art and island lifestyle."
-        },
-        {
-          "name": "Food & Wine 🍷",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=Santorini%20Wineries",
-          "description": "Santorini’s cuisine is fresh and filled with Mediterranean flavors. Local dishes like tomato fritters and fava pair perfectly with the island’s famous Assyrtiko wine. Wineries across the island offer tastings with breathtaking volcanic views."
-        }
-      ],
-      "local_food_tip": "Try fava, tomato fritters, saganaki, Greek salads, and the island-famous Assyrtiko wines.",
-      "full_day": "Morning: 🌅 Begin in <a href=\"https://www.google.com/maps/search/?api=1&query=Fira%20Santorini\" target=\"_blank\" rel=\"noopener\">Fira</a> for breathtaking caldera views and Cycladic alleys. → Walk through <a href=\"https://www.google.com/maps/search/?api=1&query=Firostefani%20Santorini\" target=\"_blank\" rel=\"noopener\">Firostefani</a> toward <a href=\"https://www.google.com/maps/search/?api=1&query=Imerovigli%20Santorini\" target=\"_blank\" rel=\"noopener\">Imerovigli</a>. → ☕ Coffee overlooking the volcano.\n\nAfternoon: 🌋 Explore <a href=\"https://www.google.com/maps/search/?api=1&query=Oia%20Santorini\" target=\"_blank\" rel=\"noopener\">Oia</a>, home to boutiques, galleries and stunning viewpoints. → 🍽️ Lunch on the cliff: <a href=\"https://www.google.com/maps/search/?api=1&query=Oia%20Tavernas\" target=\"_blank\" rel=\"noopener\">Oia Cliffside Tavernas</a>. → 🌊 Relax at <a href=\"https://www.google.com/maps/search/?api=1&query=Red%20Beach%20Santorini\" target=\"_blank\" rel=\"noopener\">Red Beach</a> or <a href=\"https://www.google.com/maps/search/?api=1&query=Kamari%20Beach%20Santorini\" target=\"_blank\" rel=\"noopener\">Kamari Beach</a>.\n\nLate Afternoon: 🚤 Optional caldera cruise — perfect for photography and relaxing.\n\nSunset: 🌇 Watch Santorini’s legendary sunset from the <a href=\"https://www.google.com/maps/search/?api=1&query=Oia%20Castle%20Viewpoint\" target=\"_blank\" rel=\"noopener\">Oia Castle Viewpoint</a>.\n\nNight: 🌃 Return to Fira for dessert and rooftop wine bars with night views.",
-      "seasons": {
-        "spring": {
-          "event": "Blooming Cliffs",
-          "ideas": [
-            "🌸 Scenic walks from Imerovigli to Oia.",
-            "🍋 Lemonades and breezy cafés.",
-            "🚶 Perfect hiking weather.",
-            "📸 Crystal-clear photo conditions.",
-            "🍽️ Seasonal dishes in cliffside restaurants."
-          ]
-        },
-        "summer": {
-          "event": "Island Heat",
-          "ideas": [
-            "🌊 Early morning hikes to avoid crowds.",
-            "🌅 Oia sunset sessions.",
-            "🍦 Ice cream breaks along the caldera.",
-            "🚤 Caldera cruises.",
-            "🎉 Lively nightlife in Fira."
-          ]
-        },
-        "autumn": {
-          "event": "Wine Season",
-          "ideas": [
-            "🍇 Assyrtiko wine tasting.",
-            "🍁 Quiet Oia afternoons.",
-            "🌊 Warm November sea swims.",
-            "📷 Soft golden tones for photography.",
-            "🎨 Art galleries in Fira."
-          ]
-        },
-        "winter": {
-          "event": "Quiet Island",
-          "ideas": [
-            "☕ Peaceful cliffside cafés.",
-            "🚶 Empty village alleys.",
-            "🌫️ Misty volcanic viewpoints.",
-            "🍲 Cozy Greek comfort food.",
-            "📸 Atmospheric winter shots."
-          ]
-        }
-      },
-      "public_transport_tips": [
-        {
-          "tip": "🚌 Island buses connect all major towns including Fira, Oia, Kamari and Perissa.",
-          "link": "https://ktel-santorini.gr/"
-        },
-        {
-          "tip": "🚕 Taxis are available but limited — expect waiting times in peak season.",
-          "link": "https://www.google.com/maps/search/?api=1&query=Santorini%20Taxi"
-        },
-        {
-          "tip": "🚗 Renting a car or ATV is the easiest way to explore the island.",
-          "link": "https://www.google.com/maps/search/?api=1&query=Santorini%20Car%20Rental"
-        },
-        {
-          "tip": "🚶 Cliff paths between Fira and Oia are walkable and incredibly scenic.",
-          "link": "https://www.google.com/maps/search/?api=1&query=Fira%20to%20Oia%20Hiking%20Trail"
+          "tip": "Rhodes International Airport offers many seasonal flights.",
+          "link": "https://www.rhodes-airport.gr/"
         }
       ],
       "city_events": [
         {
-          "name": "Santorini Volcano Celebration",
+          "name": "Rhodes Medieval Rose Festival",
           "season": "summer",
-          "description": "🌋 Fireworks and cultural events honoring the island’s volcanic heritage."
+          "description": "Medieval-themed performances and events in the Old Town.",
+          "website": "https://www.rhodesfestival.gr/",
+          "dates": "May–June"
+        }
+      ],
+      "places": [
+        {
+          "name": "Acropolis of Rhodes",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=36.4325%2C28.2150",
+          "description": "Ancient acropolis with ruins and city views."
+        },
+        {
+          "name": "Archaeological Museum of Rhodes",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=36.4440%2C28.2246",
+          "description": "Museum housed in the former Hospital of the Knights."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "Moat walk around the Old Town",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=36.4445%2C28.2265",
+          "description": "Scenic walking path around the medieval walls."
+        },
+        {
+          "name": "Early-morning Street of the Knights",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=36.4441%2C28.2240",
+          "description": "Quiet medieval atmosphere before visitors arrive."
         }
       ]
     },
+
     {
-      "name": "Stavros (Halkidiki)",
+      "name": "Delphi",
       "interests": [
         {
-          "name": "Sandy Beaches 🏖️",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=Stavros%20Beach%20Halkidiki",
-          "description": "Stavros offers long sandy beaches with clear and calm waters, perfect for swimming or relaxing. The coastline is peaceful compared to larger resorts. It’s an ideal destination for travelers seeking a quiet and comforting seaside experience."
+          "name": "Archaeological Site of Delphi",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=38.4829%2C22.5010",
+          "description": "UNESCO World Heritage Site and one of the most important sacred places of ancient Greece, once home to the Oracle of Apollo."
         },
         {
-          "name": "Relaxed Town Atmosphere 😎",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=Stavros%20Town%20Center",
-          "description": "The town has a laid-back charm with local cafés, bakeries and friendly residents. Streets are walkable and easy to explore. It’s the kind of place where you slow down, enjoy the moment, and feel the calm of a small Greek seaside town."
+          "name": "Temple of Apollo",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=38.4826%2C22.5009",
+          "description": "Central monument of ancient Delphi where the Oracle delivered prophecies."
         },
         {
-          "name": "Nature Trails 🌿",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=Stavros%20Hiking%20Trails",
-          "description": "Stavros is surrounded by forested hills and scenic walking paths. The trails offer a refreshing mix of sea views and shaded greenery. Great for short hikes, photography, or simply escaping into nature."
+          "name": "Ancient Theatre of Delphi",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=38.4837%2C22.5003",
+          "description": "Well-preserved theatre offering panoramic views of the sanctuary and valley."
         },
         {
-          "name": "Local Tavernas 🍽️",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=Stavros%20Tavernas",
-          "description": "Tavernas in Stavros serve delicious Greek dishes made with fresh vegetables, olive oil, herbs and simple Mediterranean flavors. Most are family-run, offering a warm and authentic dining experience. Many spots have outdoor seating near the water."
+          "name": "Delphi Archaeological Museum",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=38.4820%2C22.4995",
+          "description": "Museum housing masterpieces such as the Charioteer of Delphi."
         },
         {
-          "name": "Seaside Walks 🌊",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=Stavros%20Promenade",
-          "description": "The town’s quiet seafront walkway is perfect for morning coffee or evening strolls. Soft waves, open skies and coastal breezes create a peaceful atmosphere. It’s one of the best places in Stavros to unwind and enjoy the scenery."
+          "name": "Sanctuary of Athena Pronaia (Tholos)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=38.4806%2C22.4979",
+          "description": "Iconic circular structure located at the lower sanctuary entrance."
         }
       ],
-      "local_food_tip": "Enjoy souvlaki, roasted vegetables, fresh bread, Greek salads and yogurt-based desserts.",
-      "full_day": "Morning: 🏖️ Start your day at <a href=\"https://www.google.com/maps/search/?api=1&query=Stavros%20Beach%20Halkidiki\" target=\"_blank\" rel=\"noopener\">Stavros Beach</a>, a calm sandy shoreline perfect for swimming and relaxation. → ☕ Seafront coffee on the promenade.\n\nAfternoon: 🌿 Explore scenic forest trails above the town with sea views: <a href=\"https://www.google.com/maps/search/?api=1&query=Stavros%20Hiking%20Trails\" target=\"_blank\" rel=\"noopener\">Stavros Nature Trails</a>. → 🍽️ Lunch in a beachfront taverna: <a href=\"https://www.google.com/maps/search/?api=1&query=Stavros%20Tavernas\" target=\"_blank\" rel=\"noopener\">Stavros Seaside Tavernas</a>.\n\nSunset: 🌇 Enjoy a quiet sunset directly from the beach.\n\nNight: 🌃 Evening walk along the peaceful seaside promenade with cafés and soft lights.",
+      "local_food_tip": "Enjoy traditional Greek mountain cuisine such as lamb dishes, local cheeses, pies, olives, and honey. Taverns in modern Delphi village offer regional specialties.",
+      "full_day": {
+        "Morning": "Start early at the <a href=\"https://www.google.com/maps/search/?api=1&query=38.4829%2C22.5010\" target=\"_blank\" rel=\"noopener\">Archaeological Site of Delphi</a> ☀️ to explore the Sacred Way and temples.",
+        "Afternoon": "Visit the <a href=\"https://www.google.com/maps/search/?api=1&query=38.4820%2C22.4995\" target=\"_blank\" rel=\"noopener\">Delphi Archaeological Museum</a> 🏛️, then have lunch in the village with valley views 🍽️.",
+        "Sunset": "Walk to the <a href=\"https://www.google.com/maps/search/?api=1&query=38.4806%2C22.4979\" target=\"_blank\" rel=\"noopener\">Sanctuary of Athena Pronaia</a> 🌅.",
+        "Night": "Quiet evening in Delphi village ✨ enjoying local food and mountain air."
+      },
       "seasons": {
         "spring": {
-          "event": "Fresh Sea Breeze",
+          "event": "Spring in Delphi",
+          "description": "Wildflowers bloom on Mount Parnassus and temperatures are ideal for walking.",
           "ideas": [
-            "🌸 Morning beach walks.",
-            "🚶 Forest-view hiking routes.",
-            "☕ Outdoor coffee spots."
+            {
+              "name": "Archaeological walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=38.4829%2C22.5010",
+              "description": "Comfortable sightseeing weather."
+            },
+            {
+              "name": "Nature hikes",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=38.4935%2C22.5005",
+              "description": "Trails around Mount Parnassus."
+            },
+            {
+              "name": "Valley viewpoints",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=38.4815%2C22.5030",
+              "description": "Clear spring views over olive groves."
+            }
           ]
         },
         "summer": {
-          "event": "Beach Season",
+          "event": "Delphi Festival",
+          "description": "Cultural events inspired by ancient traditions.",
           "ideas": [
-            "🏖️ All-day swimming and sunbathing.",
-            "🍦 Ice cream on the promenade.",
-            "🌅 Sunset on the sand."
+            {
+              "name": "Early-morning site visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=38.4829%2C22.5010",
+              "description": "Avoid midday heat."
+            },
+            {
+              "name": "Museum breaks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=38.4820%2C22.4995",
+              "description": "Cool indoor culture."
+            },
+            {
+              "name": "Evening village dining",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=38.4810%2C22.5035",
+              "description": "Cool mountain evenings."
+            }
           ]
         },
         "autumn": {
-          "event": "Quiet Coast",
+          "event": "Autumn in Central Greece",
+          "description": "Golden landscapes and fewer visitors.",
           "ideas": [
-            "🍁 Peaceful beaches with fewer visitors.",
-            "🥗 Warm taverna meals.",
-            "🚶 Scenic forest walks."
+            {
+              "name": "Historic exploration",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=38.4829%2C22.5010",
+              "description": "Calm and pleasant conditions."
+            },
+            {
+              "name": "Mountain walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=38.4935%2C22.5005",
+              "description": "Crisp air and views."
+            },
+            {
+              "name": "Village cafés",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=38.4810%2C22.5035",
+              "description": "Relaxed local atmosphere."
+            }
           ]
         },
         "winter": {
-          "event": "Off-Season Calm",
+          "event": "Quiet Winter Season",
+          "description": "Snow on Mount Parnassus and peaceful archaeological visits.",
           "ideas": [
-            "🌊 Cozy seaside walks.",
-            "☕ Warm drinks in local cafés.",
-            "📚 Quiet, relaxing evenings."
+            {
+              "name": "Museum visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=38.4820%2C22.4995",
+              "description": "Focus on artifacts indoors."
+            },
+            {
+              "name": "Scenic viewpoints",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=38.4815%2C22.5030",
+              "description": "Dramatic winter landscapes."
+            },
+            {
+              "name": "Mountain village dining",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=38.4810%2C22.5035",
+              "description": "Warm local taverns."
+            }
           ]
         }
       },
       "public_transport_tips": [
         {
-          "tip": "🚌 Regional buses connect Stavros with Thessaloniki and nearby towns.",
-          "link": "https://www.ktel-chalkidikis.gr/en/"
+          "tip": "Buses connect Delphi with Athens via Livadia or Amfissa.",
+          "link": "https://www.ktel-fokidas.gr/"
         },
         {
-          "tip": "🚗 Renting a car offers flexibility for exploring beaches and villages.",
-          "link": "https://www.google.com/maps/search/?api=1&query=Stavros%20Car%20Rental"
+          "tip": "The archaeological site and village are walkable but hilly.",
+          "link": "https://www.visitgreece.gr/"
         },
         {
-          "tip": "🚕 Local taxis operate within the town and nearby areas.",
-          "link": "https://www.google.com/maps/search/?api=1&query=Stavros%20Taxi"
-        },
-        {
-          "tip": "🚶 The town itself is fully walkable.",
-          "link": "https://www.google.com/maps/search/?api=1&query=Stavros%20Promenade"
+          "tip": "Nearby Arachova offers winter sports and dining options.",
+          "link": "https://www.arachova.gr/"
         }
       ],
-      "city_events": []
-    },
-    {
-      "cities": [
+      "city_events": [
         {
-          "name": "Zakynthos",
-          "interests": [
+          "name": "Delphi Festival",
+          "season": "summer",
+          "description": "Cultural performances inspired by ancient Greek traditions.",
+          "website": "https://www.delphifestival.gr/",
+          "dates": "June–July"
+        }
+      ],
+      "places": [
+        {
+          "name": "Delphi Village",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=38.4810%2C22.5035",
+          "description": "Modern village with hotels, taverns, and views over the valley."
+        },
+        {
+          "name": "Castalian Spring",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=38.4818%2C22.4985",
+          "description": "Sacred spring where pilgrims purified themselves."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "Sunrise at the Sanctuary",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=38.4829%2C22.5010",
+          "description": "Soft morning light over ancient ruins and the valley."
+        },
+        {
+          "name": "Old footpaths on Mount Parnassus",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=38.4935%2C22.5005",
+          "description": "Quiet nature trails with historical atmosphere."
+        }
+      ]
+    },
+
+    {
+      "name": "Kalambaka",
+      "interests": [
+        {
+          "name": "Meteora Monasteries",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=39.7217%2C21.6306",
+          "description": "UNESCO World Heritage Site featuring monasteries perched on dramatic rock pillars, one of Greece’s most iconic landscapes."
+        },
+        {
+          "name": "Great Meteoron Monastery",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=39.7214%2C21.6300",
+          "description": "The largest and oldest Meteora monastery with a museum and panoramic viewpoints."
+        },
+        {
+          "name": "Varlaam Monastery",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=39.7209%2C21.6322",
+          "description": "Well-preserved monastery known for its frescoes and views over the valley."
+        },
+        {
+          "name": "Holy Trinity Monastery",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=39.7159%2C21.6365",
+          "description": "Dramatically located monastery accessed by stairs carved into the rock."
+        },
+        {
+          "name": "Natural History Museum of Meteora & Mushroom Museum",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=39.7056%2C21.6270",
+          "description": "Local museum showcasing regional wildlife and the area’s famous mushrooms."
+        }
+      ],
+      "local_food_tip": "Try local Thessalian dishes such as lamb stews, pies, grilled meats, wild mushrooms, and local cheeses. Taverns in Kalambaka and nearby Kastraki offer hearty mountain cuisine.",
+      "full_day": {
+        "Morning": "Start early with a visit to the <a href=\"https://www.google.com/maps/search/?api=1&query=39.7217%2C21.6306\" target=\"_blank\" rel=\"noopener\">Meteora Monasteries</a> ☀️, beginning with Great Meteoron.",
+        "Afternoon": "Continue to <a href=\"https://www.google.com/maps/search/?api=1&query=39.7209%2C21.6322\" target=\"_blank\" rel=\"noopener\">Varlaam Monastery</a> 🏛️, then enjoy lunch in Kastraki village 🍽️.",
+        "Sunset": "Stop at Meteora viewpoints 🌅 for unforgettable sunset views over the rock formations.",
+        "Night": "Dinner in Kalambaka ✨ with local wine and a relaxed mountain atmosphere."
+      },
+      "seasons": {
+        "spring": {
+          "event": "Spring in Meteora",
+          "description": "Green landscapes, wildflowers, and ideal hiking temperatures.",
+          "ideas": [
             {
-              "name": "Blue Caves 🌊",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=Blue%20Caves%20Zakynthos",
-              "description": "The Blue Caves are one of Zakynthos’ most famous natural wonders, filled with glowing turquoise water. Sunlight reflects off the limestone walls, creating a magical blue illumination. Boat trips allow visitors to explore the caves up close and capture unforgettable photos."
+              "name": "Monastery walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=39.7217%2C21.6306",
+              "description": "Comfortable sightseeing weather."
             },
             {
-              "name": "Navagio (Shipwreck) Bay 🏖️",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=Navagio%20Beach%20Zakynthos",
-              "description": "Navagio Bay is one of the most photographed beaches in the world. Its white sand, towering cliffs and shipwreck create a dramatic, iconic landscape. The viewpoint offers breathtaking panoramas that look straight out of a postcard."
+              "name": "Nature hikes",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=39.7170%2C21.6350",
+              "description": "Trails between rock formations."
             },
             {
-              "name": "Sea Views 🌅",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=Zakynthos%20Viewpoints",
-              "description": "Zakynthos is filled with spectacular sea viewpoints, from high cliffs to gentle coastal hills. Sunset spots like Keri Lighthouse are especially stunning. The island’s dramatic coastline makes it perfect for photography lovers."
-            },
-            {
-              "name": "Island Food 🍽️",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=Zakynthos%20Tavernas",
-              "description": "Zakynthos offers fresh, flavorful dishes inspired by Greek and local Ionian culinary traditions. Expect rich pastas, local cheeses, potato pies and honey-based desserts. Tavernas across the island provide authentic home-style meals with warm Greek hospitality."
-            },
-            {
-              "name": "Coastal Villages 🏡",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=Zakynthos%20Coastal%20Villages",
-              "description": "Small coastal villages on Zakynthos offer peaceful scenery and traditional Greek charm. Many feature friendly tavernas, calm beaches and relaxing promenades. They’re ideal for unwinding, exploring local culture and enjoying seaside views."
+              "name": "Village exploration",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=39.7050%2C21.6275",
+              "description": "Local life in Kalambaka and Kastraki."
             }
-          ],
-          "local_food_tip": "Try vegetarian pastitsada, potato pies, fresh salads, local cheeses, and honey-based island desserts.",
-          "full_day": "Morning: 🏖️ Begin with a visit to the world-famous <a href=\"https://www.google.com/maps/search/?api=1&query=Navagio%20Beach%20Zakynthos\" target=\"_blank\" rel=\"noopener\">Navagio (Shipwreck) Bay Viewpoint</a> — one of Greece’s most iconic sights. → ☕ Enjoy a scenic coffee overlooking the cliffs.\n\nAfternoon: 🌊 Take a boat trip to the stunning <a href=\"https://www.google.com/maps/search/?api=1&query=Blue%20Caves%20Zakynthos\" target=\"_blank\" rel=\"noopener\">Blue Caves</a> (no swimming required). → 🍽️ Lunch at a beachfront taverna: <a href=\"https://www.google.com/maps/search/?api=1&query=Alykes%20Beach%20Tavernas%20Zakynthos\" target=\"_blank\" rel=\"noopener\">Alykes Beach Tavernas</a>.\n\nSunset: 🌇 Head to the dramatic <a href=\"https://www.google.com/maps/search/?api=1&query=Keri%20Lighthouse%20Zakynthos\" target=\"_blank\" rel=\"noopener\">Keri Lighthouse Viewpoint</a> for panoramic sunset views.\n\nNight: 🌃 Take a relaxed evening walk around <a href=\"https://www.google.com/maps/search/?api=1&query=Zakynthos%20Town\" target=\"_blank\" rel=\"noopener\">Zakynthos Town</a> with seaside cafés and peaceful streets.",
-          "seasons": {
-            "spring": {
-              "event": "Blue Spring",
-              "ideas": [
-                "🌊 Quiet early-season Blue Caves boat tours.",
-                "🌸 Mild island weather perfect for exploring.",
-                "☕ Seaside cafés with peaceful views."
-              ]
+          ]
+        },
+        "summer": {
+          "event": "Meteora Summer Season",
+          "description": "Long days with clear skies and strong light for photography.",
+          "ideas": [
+            {
+              "name": "Early-morning monastery visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=39.7217%2C21.6306",
+              "description": "Avoid midday heat."
             },
-            "summer": {
-              "event": "Turquoise Summer",
-              "ideas": [
-                "🏖️ Navagio Bay viewpoints at their brightest.",
-                "🚤 Boat trips to Blue Caves and coastal coves.",
-                "🥗 Light seaside lunches with fresh ingredients."
-              ]
+            {
+              "name": "Rock climbing areas",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=39.7185%2C21.6330",
+              "description": "Popular international climbing destination."
             },
-            "autumn": {
-              "event": "Golden Coast",
-              "ideas": [
-                "🍁 Fewer crowds at beaches and viewpoints.",
-                "🌅 Warm, colorful evening sunsets.",
-                "🍽️ Cozy tavern dinners in coastal villages."
-              ]
-            },
-            "winter": {
-              "event": "Quiet Island",
-              "ideas": [
-                "🌊 Peaceful, dramatic coastlines.",
-                "☕ Warm drinks in local cafés.",
-                "📸 Atmospheric winter photography."
-              ]
+            {
+              "name": "Evening viewpoints",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=39.7200%2C21.6370",
+              "description": "Golden-hour photography."
             }
-          },
-          "public_transport_tips": [
+          ]
+        },
+        "autumn": {
+          "event": "Autumn in Thessaly",
+          "description": "Golden colors, cooler air, and fewer visitors.",
+          "ideas": [
             {
-              "tip": "🚌 Local KTEL buses connect Zakynthos Town with major beaches and villages.",
-              "link": "https://www.ktel-zakynthos.gr/"
+              "name": "Autumn hikes",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=39.7170%2C21.6350",
+              "description": "Colorful landscapes."
             },
             {
-              "tip": "🚗 Renting a car is highly recommended for reaching viewpoints and remote beaches.",
-              "link": "https://www.google.com/maps/search/?api=1&query=Zakynthos%20Car%20Rental"
+              "name": "Photography tours",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=39.7200%2C21.6370",
+              "description": "Soft light and dramatic skies."
             },
             {
-              "tip": "🚕 Taxis operate throughout the island and can be booked via phone or local taxi stations.",
-              "link": "https://www.google.com/maps/search/?api=1&query=Zakynthos%20Taxi"
-            },
-            {
-              "tip": "🚤 Many boat tours depart from northern harbors like Agios Nikolaos.",
-              "link": "https://www.google.com/maps/search/?api=1&query=Agios%20Nikolaos%20Zakynthos%20Port"
+              "name": "Traditional dining",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=39.7050%2C21.6275",
+              "description": "Seasonal local dishes."
             }
-          ],
-          "city_events": []
+          ]
+        },
+        "winter": {
+          "event": "Quiet Winter Meteora",
+          "description": "Occasional snow on the rocks and a peaceful atmosphere.",
+          "ideas": [
+            {
+              "name": "Snowy monastery views",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=39.7217%2C21.6306",
+              "description": "Rare and dramatic scenery."
+            },
+            {
+              "name": "Museum visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=39.7056%2C21.6270",
+              "description": "Indoor cultural activities."
+            },
+            {
+              "name": "Cozy taverns",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=39.7050%2C21.6275",
+              "description": "Warm mountain meals."
+            }
+          ]
+        }
+      },
+      "public_transport_tips": [
+        {
+          "tip": "Trains connect Kalambaka with Athens and Thessaloniki.",
+          "link": "https://www.hellenictrain.gr/"
+        },
+        {
+          "tip": "Local buses and taxis connect Kalambaka with Meteora monasteries.",
+          "link": "https://www.ktel-trikalon.gr/"
+        },
+        {
+          "tip": "Walking and cycling are popular between Kalambaka and Kastraki.",
+          "link": "https://www.visitmeteora.travel/"
+        }
+      ],
+      "city_events": [
+        {
+          "name": "Meteora Religious Celebrations",
+          "season": "summer",
+          "description": "Feast days and religious services held at active monasteries.",
+          "website": "https://www.meteora-monasteries.gr/",
+          "dates": "June–August"
+        }
+      ],
+      "places": [
+        {
+          "name": "Kastraki Village",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=39.7195%2C21.6300",
+          "description": "Traditional village at the base of Meteora rocks."
+        },
+        {
+          "name": "Meteora Viewpoints",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=39.7200%2C21.6370",
+          "description": "Scenic pull-offs offering panoramic views."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "Sunrise hiking paths",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=39.7170%2C21.6350",
+          "description": "Quiet trails with early-morning light on the rocks."
+        },
+        {
+          "name": "Backstreets of Kastraki",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=39.7195%2C21.6300",
+          "description": "Authentic village atmosphere away from crowds."
+        }
+      ]
+    },
+
+    {
+      "name": "Thessaloniki",
+      "interests": [
+        {
+          "name": "White Tower of Thessaloniki",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=40.6264%2C22.9484",
+          "description": "Iconic waterfront monument and symbol of the city, offering views over the Thermaic Gulf."
+        },
+        {
+          "name": "Aristotelous Square",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=40.6320%2C22.9407",
+          "description": "Main city square facing the sea, surrounded by cafés and historic buildings."
+        },
+        {
+          "name": "Ano Poli (Upper Town)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=40.6400%2C22.9515",
+          "description": "Historic old quarter with traditional houses, city walls, and panoramic viewpoints."
+        },
+        {
+          "name": "Rotunda of Galerius",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=40.6333%2C22.9522",
+          "description": "Roman-era monument later used as a church and mosque, part of the UNESCO-listed Galerian Complex."
+        },
+        {
+          "name": "Archaeological Museum of Thessaloniki",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=40.6257%2C22.9550",
+          "description": "Major museum showcasing ancient Macedonian history and artifacts."
+        }
+      ],
+      "local_food_tip": "Try bougatsa, gyros, soutzoukakia, fresh seafood, and meze paired with local wine or tsipouro. Thessaloniki is famous for its vibrant food scene and pastry shops.",
+      "full_day": {
+        "Morning": "Start at the <a href=\"https://www.google.com/maps/search/?api=1&query=40.6264%2C22.9484\" target=\"_blank\" rel=\"noopener\">White Tower</a> ☀️ and walk along the waterfront promenade.",
+        "Afternoon": "Explore the <a href=\"https://www.google.com/maps/search/?api=1&query=40.6257%2C22.9550\" target=\"_blank\" rel=\"noopener\">Archaeological Museum</a> 🏛️, then have lunch near <a href=\"https://www.google.com/maps/search/?api=1&query=40.6320%2C22.9407\" target=\"_blank\" rel=\"noopener\">Aristotelous Square</a> 🍽️.",
+        "Sunset": "Head up to <a href=\"https://www.google.com/maps/search/?api=1&query=40.6400%2C22.9515\" target=\"_blank\" rel=\"noopener\">Ano Poli</a> 🌅 for panoramic city views.",
+        "Night": "Dinner and drinks in Ladadika ✨ followed by an evening seaside walk."
+      },
+      "seasons": {
+        "spring": {
+          "event": "Spring in Thessaloniki",
+          "description": "Pleasant temperatures, blooming parks, and lively outdoor cafés.",
+          "ideas": [
+            {
+              "name": "Waterfront walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=40.6260%2C22.9480",
+              "description": "Fresh sea air and open views."
+            },
+            {
+              "name": "Ano Poli exploration",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=40.6400%2C22.9515",
+              "description": "Comfortable sightseeing weather."
+            },
+            {
+              "name": "City parks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=40.6250%2C22.9535",
+              "description": "Green spaces near museums."
+            }
+          ]
+        },
+        "summer": {
+          "event": "Thessaloniki Summer Festival",
+          "description": "Concerts, open-air cinema, and cultural events.",
+          "ideas": [
+            {
+              "name": "Evening waterfront strolls",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=40.6260%2C22.9480",
+              "description": "Cooler evenings by the sea."
+            },
+            {
+              "name": "Open-air performances",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=40.6333%2C22.9522",
+              "description": "Events at historic sites."
+            },
+            {
+              "name": "Beach escapes",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=40.5010%2C22.9330",
+              "description": "Nearby beaches in Halkidiki."
+            }
+          ]
+        },
+        "autumn": {
+          "event": "Thessaloniki International Film Festival",
+          "description": "Major cultural event attracting filmmakers and audiences worldwide.",
+          "ideas": [
+            {
+              "name": "Cinema visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=40.6330%2C22.9415",
+              "description": "Film screenings across the city."
+            },
+            {
+              "name": "Museum hopping",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=40.6257%2C22.9550",
+              "description": "Cultural focus indoors."
+            },
+            {
+              "name": "Café culture",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=40.6315%2C22.9435",
+              "description": "Relaxed autumn atmosphere."
+            }
+          ]
+        },
+        "winter": {
+          "event": "Winter Urban Life",
+          "description": "Mild winters with strong local food and café culture.",
+          "ideas": [
+            {
+              "name": "Historic churches",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=40.6345%2C22.9470",
+              "description": "Byzantine monuments and quiet streets."
+            },
+            {
+              "name": "Market visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=40.6360%2C22.9445",
+              "description": "Local winter shopping."
+            },
+            {
+              "name": "Museum exploration",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=40.6257%2C22.9550",
+              "description": "Warm indoor cultural time."
+            }
+          ]
+        }
+      },
+      "public_transport_tips": [
+        {
+          "tip": "Buses cover most areas of the city and suburbs.",
+          "link": "https://www.oasth.gr/"
+        },
+        {
+          "tip": "The city center and waterfront are highly walkable.",
+          "link": "https://www.thessaloniki.travel/"
+        },
+        {
+          "tip": "Thessaloniki Airport connects the city with Greece and Europe.",
+          "link": "https://www.skg-airport.gr/"
+        }
+      ],
+      "city_events": [
+        {
+          "name": "Thessaloniki International Film Festival",
+          "season": "autumn",
+          "description": "One of Southeast Europe’s most important film festivals.",
+          "website": "https://www.filmfestival.gr/",
+          "dates": "October–November"
+        }
+      ],
+      "places": [
+        {
+          "name": "Ladadika District",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=40.6350%2C22.9400",
+          "description": "Historic district known for nightlife, taverns, and music."
+        },
+        {
+          "name": "Byzantine City Walls",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=40.6425%2C22.9510",
+          "description": "Remains of the old fortifications with scenic viewpoints."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "Trigonion Tower viewpoint",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=40.6420%2C22.9530",
+          "description": "One of the best panoramic views over Thessaloniki."
+        },
+        {
+          "name": "Early-morning waterfront",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=40.6260%2C22.9480",
+          "description": "Peaceful seaside atmosphere before the city gets busy."
         }
       ]
     }
+
   ]
 }

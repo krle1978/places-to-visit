@@ -5,610 +5,1027 @@
       "name": "Budapest",
       "interests": [
         {
-          "name": "Historic Landmarks 🏛️",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=Buda%20Castle%20Budapest",
-          "description": "Budapest is rich with monumental historic landmarks that reflect Hungary’s royal and cultural past. Buda Castle, Fisherman's Bastion, and Matthias Church create one of the most iconic panoramas in Europe. These sites blend medieval, Gothic, and baroque architecture, offering endless places to explore. Walking through them feels like stepping into multiple time periods at once."
+          "name": "Buda Castle",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=47.4969%2C19.0399",
+          "description": "Historic castle complex overlooking the Danube, home to museums and panoramic viewpoints."
         },
         {
-          "name": "Thermal Baths 💦",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=Sz%C3%A9chenyi%20Thermal%20Bath",
-          "description": "Budapest is famous for its geothermal waters and impressive thermal bath complexes. Széchenyi and Gellért Baths offer steaming outdoor pools, saunas, and ornate interiors. It’s a deeply rooted local tradition to relax in these mineral waters. Visiting at night or during winter creates an unforgettable atmosphere."
+          "name": "Parliament Building",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=47.5076%2C19.0456",
+          "description": "Iconic Neo-Gothic parliament building and one of Europe’s most recognizable landmarks."
         },
         {
-          "name": "Danube River Views 🌊",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=Danube%20Promenade%20Budapest",
-          "description": "The Danube River divides Buda and Pest while creating some of the city’s most scenic viewpoints. Walking along the promenade reveals bridges, castles, and the Parliament glowing at sunset. Boat rides provide a magical perspective of the city’s architecture. It’s one of the most peaceful and romantic parts of Budapest."
+          "name": "Chain Bridge",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=47.4980%2C19.0405",
+          "description": "Historic suspension bridge connecting Buda and Pest across the Danube."
         },
         {
-          "name": "Local Food Exploration 😋",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=V%C3%A1ci%20Street%20Budapest%20Restaurants",
-          "description": "Budapest's cuisine is a flavorful mix of paprika-based dishes, comforting soups, and iconic pastries. Vegetarian goulash, lángos with cheese, and dobos cake represent the heart of its food culture. Local markets and bistros around Váci Street offer traditional tastes with a modern twist. Every meal feels warm, hearty, and unmistakably Hungarian."
+          "name": "St. Stephen’s Basilica",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=47.5009%2C19.0539",
+          "description": "Grand basilica with an observation deck offering views over the city."
         },
         {
-          "name": "Ruins Bars & Nightlife 🎉",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=Szimpla%20Kert%20Budapest",
-          "description": "Budapest’s ruin bars are legendary for their alternative, artsy, and chaotic charm. Szimpla Kert and similar bars offer mismatched furniture, neon lights, and creative spaces. They are hubs for nightlife, socializing, and music events. It’s an essential experience for anyone wanting to feel the city’s youthful energy."
-        },
-        {
-          "name": "Art & Architecture 🎨",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=Hungarian%20Parliament%20Building",
-          "description": "Budapest showcases architectural masterpieces ranging from neo-Gothic to art nouveau. Landmarks like the Parliament and St. Stephen’s Basilica illustrate the city’s artistic grandeur. Museums and galleries within the Castle District reveal centuries of culture. The city is a paradise for anyone who appreciates design and history."
+          "name": "Széchenyi Thermal Bath",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=47.5189%2C19.0815",
+          "description": "One of Europe’s largest thermal bath complexes, famous for outdoor pools."
         }
       ],
-      "local_food_tip": "Goulash (vegetarian option available), lángos with cheese, vegetable paprikash, potato dumplings, dobos cake, and paprika-based dishes — the heart of Hungarian cuisine.",
-      "full_day": "Morning: Start at the iconic <a href=\"https://www.google.com/maps/search/?api=1&query=Chain%2BBridge\" target=\"_blank\" rel=\"noopener\">Széchenyi Lánchíd (Chain Bridge)</a> — beautiful river views and gentle morning light. → Walk up to <a href=\"https://www.google.com/maps/search/?api=1&query=Buda%2BCastle\" target=\"_blank\" rel=\"noopener\">Budai Vár (Buda Castle)</a> courtyards (free exterior) → continue to <a href=\"https://www.google.com/maps/search/?api=1&query=Matthias%2BChurch\" target=\"_blank\" rel=\"noopener\">Mátyás-templom (Matthias Church)</a> (exterior) → panoramic lookout at <a href=\"https://www.google.com/maps/search/?api=1&query=Fisherman%27s%2BBastion\" target=\"_blank\" rel=\"noopener\">Halászbástya (Fisherman's Bastion)</a>.\n\nAfternoon: Cross the bridge to Pest → visit <a href=\"https://www.google.com/maps/search/?api=1&query=St.%2BStephen%27s%2BBasilica\" target=\"_blank\" rel=\"noopener\">Szent István-bazilika (St. Stephen’s Basilica)</a> (exterior) → relax with pastries in a calm local café → stroll <a href=\"https://www.google.com/maps/search/?api=1&query=Andr%C3%A1ssy%2B%C3%BAt\" target=\"_blank\" rel=\"noopener\">Andrássy út (Andrássy Avenue)</a> → explore <a href=\"https://www.google.com/maps/search/?api=1&query=City%2BPark\" target=\"_blank\" rel=\"noopener\">Városliget (City Park)</a> and <a href=\"https://www.google.com/maps/search/?api=1&query=Heroes%27%2BSquare\" target=\"_blank\" rel=\"noopener\">Hősök tere (Heroes' Square)</a> (exteriors).\n\nSunset: Walk along <a href=\"https://www.google.com/maps/search/?api=1&query=Danube%2BPromenade\" target=\"_blank\" rel=\"noopener\">Duna-korzó (Danube Promenade)</a> toward golden-hour views.\n\nNight: Quiet riverside stroll with Parliament views, or dessert in the old Jewish district.",
-      "places": [
-        {
-          "name": "Széchenyi Lánchíd (Chain Bridge)",
-          "link": "https://www.google.com/maps/search/?api=1&query=47.49801%2C19.04141",
-          "description": "Chain Bridge is one of Budapest’s most iconic symbols, connecting Buda and Pest over the Danube. Its stone lions, elegant design, and golden nighttime lighting make it unforgettable. From the bridge, visitors get panoramic river views, the Parliament glowing at sunset, and the dramatic Buda Castle skyline. It’s a perfect spot for photos and slow scenic walks."
-        },
-        {
-          "name": "Budai Vár (Buda Castle)",
-          "link": "https://www.google.com/maps/search/?api=1&query=47.49647%2C19.03996",
-          "description": "Buda Castle is the historical heart of Hungary, overlooking the city from a grand hilltop plateau. Its courtyards, museums, and medieval walls create a blend of royal elegance and ancient atmosphere. Visitors can explore panoramic terraces showing the entire Pest skyline. It’s one of Budapest’s most important cultural and architectural landmarks."
-        },
-        {
-          "name": "Mátyás-templom (Matthias Church)",
-          "link": "https://www.google.com/maps/search/?api=1&query=47.50207%2C19.03449",
-          "description": "Matthias Church stands out with its colorful tiled roof and ornate Gothic details. For centuries it hosted royal coronations, making it central to Hungarian history. Inside, the painted walls and vaulted ceilings create a sacred, museum-like atmosphere. It's a stunning landmark right beside Fisherman’s Bastion."
-        },
-        {
-          "name": "Halászbástya (Fisherman's Bastion)",
-          "link": "https://www.google.com/maps/search/?api=1&query=47.50239%2C19.03421",
-          "description": "Fisherman’s Bastion offers one of the most famous viewpoints in Europe. Its white towers, arches, and terraces create a fairytale-like panorama over the Parliament and the Danube. It’s beautiful at sunrise, magical during the day, and breathtaking at night. Photographers and travelers love its cinematic atmosphere."
-        },
-        {
-          "name": "Szent István-bazilika (St. Stephen’s Basilica)",
-          "link": "https://www.google.com/maps/search/?api=1&query=47.50087%2C19.05344",
-          "description": "St. Stephen’s Basilica is one of Budapest’s grandest architectural masterpieces. Its interior shines with marble, gold details, and soaring domes. Travelers can climb to the rooftop viewpoint for incredible 360° city views. It's a cultural, spiritual, and visual highlight of the city."
-        },
-        {
-          "name": "Andrássy út (Andrássy Avenue)",
-          "link": "https://www.google.com/maps/search/?api=1&query=47.50636%2C19.06513",
-          "description": "Andrássy Avenue is Budapest’s most elegant boulevard, lined with palaces, cafés, and boutiques. It connects the city center with Heroes' Square and City Park. Walking its length reveals neo-Renaissance architecture and iconic cultural institutions. It’s perfect for slow strolls, shopping, and people-watching."
-        },
-        {
-          "name": "Városliget (City Park)",
-          "link": "https://www.google.com/maps/search/?api=1&query=47.51405%2C19.07707",
-          "description": "City Park is Budapest’s green escape, home to lakes, museums, and the famous Vajdahunyad Castle. Locals come here to relax, picnic, jog, or wander through shaded paths. Seasonal festivals often take place around the park. It's a perfect break from the busy city center."
-        },
-        {
-          "name": "Duna-korzó (Danube Promenade)",
-          "link": "https://www.google.com/maps/search/?api=1&query=47.49776%2C19.04937",
-          "description": "The Danube Promenade is one of Budapest’s most scenic walking routes. From here, visitors see the Castle, Gellért Hill, and the glittering river bridges. Cafés, terraces, and boats line the waterfront, creating a cozy yet vibrant vibe. It’s especially beautiful at sunset."
-        }
-      ],
-      "hidden_gems": [
-        {
-          "name": "Fisherman's Bastion Lower Terrace",
-          "link": "https://www.google.com/maps/search/?api=1&query=47.50229%2C19.03405",
-          "description": "The lower terrace of Fisherman’s Bastion is quieter and less crowded, yet offers the same breathtaking Budapest views. Hidden stairways lead to peaceful spots perfect for photography. It’s ideal for travelers wanting the iconic panorama without the rush."
-        },
-        {
-          "name": "Károlyi Garden",
-          "link": "https://www.google.com/maps/search/?api=1&query=47.49189%2C19.06003",
-          "description": "Károlyi Garden is a peaceful, almost secret oasis in downtown Budapest. With flowers, benches, and historic surroundings, it feels like a small aristocratic park. Locals love it for reading, relaxing, and quiet moments away from crowds."
-        },
-        {
-          "name": "Batthyány Square Parliament Viewpoint",
-          "link": "https://www.google.com/maps/search/?api=1&query=47.50789%2C19.03903",
-          "description": "From Batthyány Square, visitors get one of the clearest, closest, and most stunning views of the Hungarian Parliament across the river. It’s a favorite spot for photographers—especially at night when the building glows gold. The area is peaceful, easily accessible, and perfect for riverside walks."
-        }
-      ],
+      "local_food_tip": "Try goulash, chicken paprikash, lángos, chimney cake (kürtőskalács), and Hungarian wines or pálinka in traditional restaurants.",
+      "full_day": {
+        "Morning": "Start at <a href=\"https://www.google.com/maps/search/?api=1&query=47.4969%2C19.0399\" target=\"_blank\" rel=\"noopener\">Buda Castle</a> ☀️ and explore the Castle District.",
+        "Afternoon": "Cross the <a href=\"https://www.google.com/maps/search/?api=1&query=47.4980%2C19.0405\" target=\"_blank\" rel=\"noopener\">Chain Bridge</a> 🌉 and visit the <a href=\"https://www.google.com/maps/search/?api=1&query=47.5076%2C19.0456\" target=\"_blank\" rel=\"noopener\">Parliament Building</a> 🏛️, then lunch nearby 🍽️.",
+        "Sunset": "Relax at <a href=\"https://www.google.com/maps/search/?api=1&query=47.5189%2C19.0815\" target=\"_blank\" rel=\"noopener\">Széchenyi Thermal Bath</a> 🌅.",
+        "Night": "Dinner in the Jewish Quarter ✨ followed by a Danube evening walk."
+      },
       "seasons": {
         "spring": {
-          "event": "Spring Walks",
+          "event": "Spring in Budapest",
+          "description": "Mild weather and blooming parks make the city ideal for walking.",
           "ideas": [
-            "Flowering **Margitsziget (Margaret Island)**.",
-            "Castle district gardens in bloom.",
-            "Relaxed Danube riverbank strolls."
+            {
+              "name": "Margaret Island walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=47.5260%2C19.0450",
+              "description": "Green oasis in the Danube."
+            },
+            {
+              "name": "Castle District exploration",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=47.4969%2C19.0399",
+              "description": "Comfortable sightseeing temperatures."
+            },
+            {
+              "name": "River promenades",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=47.5070%2C19.0465",
+              "description": "Fresh spring air along the Danube."
+            }
           ]
         },
         "summer": {
-          "event": "Summer in the City",
+          "event": "Budapest Summer Festival",
+          "description": "Open-air concerts, theater, and cultural events.",
           "ideas": [
-            "Shady park paths in Városliget.",
-            "Gelato around Basilica district.",
-            "Warm evening riverside walks."
+            {
+              "name": "Open-air performances",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=47.5260%2C19.0450",
+              "description": "Events on Margaret Island."
+            },
+            {
+              "name": "Danube cruises",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=47.5050%2C19.0430",
+              "description": "City views from the water."
+            },
+            {
+              "name": "Evening baths",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=47.5189%2C19.0815",
+              "description": "Warm nights in thermal pools."
+            }
           ]
         },
         "autumn": {
-          "event": "Autumn Gold",
+          "event": "Budapest Wine Festival",
+          "description": "Wine tastings held at Buda Castle celebrating Hungarian vineyards.",
           "ideas": [
-            "Golden tones near Castle Hill.",
-            "Warm cakes in old confectioneries.",
-            "Museum afternoons in cooler weather."
+            {
+              "name": "Wine festival visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=47.4969%2C19.0399",
+              "description": "Regional wines and food."
+            },
+            {
+              "name": "Autumn city walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=47.5009%2C19.0539",
+              "description": "Golden city colors."
+            },
+            {
+              "name": "Museum visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=47.4975%2C19.0408",
+              "description": "Cultural focus indoors."
+            }
           ]
         },
         "winter": {
-          "event": "Christmas Markets",
+          "event": "Budapest Christmas Markets",
+          "description": "Festive markets with lights, crafts, and seasonal food.",
           "ideas": [
-            "Vörösmarty tér market lights.",
-            "Basilica winter illuminations."
+            {
+              "name": "Christmas market at Vörösmarty Square",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=47.4979%2C19.0514",
+              "description": "Traditional stalls and mulled wine."
+            },
+            {
+              "name": "Thermal baths in winter",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=47.5189%2C19.0815",
+              "description": "Steam rising in cold air."
+            },
+            {
+              "name": "Historic cafés",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=47.4985%2C19.0635",
+              "description": "Classic Budapest coffeehouses."
+            }
           ]
         }
       },
       "public_transport_tips": [
         {
-          "tip": "🚋 Trams provide the easiest access between the city center, university areas, and Nagyerdő Park.",
-          "link": "https://www.dkv.hu/"
+          "tip": "Metro, trams, and buses cover the entire city efficiently.",
+          "link": "https://bkk.hu/"
         },
         {
-          "tip": "🚌 Buses connect all major neighborhoods and operate frequently.",
-          "link": "https://www.dkv.hu/menetrendek"
+          "tip": "Tram 2 offers scenic rides along the Danube.",
+          "link": "https://bkk.hu/"
         },
         {
-          "tip": "🚶 The city center is compact and best explored on foot.",
-          "link": "https://www.google.com/maps/search/?api=1&query=Debrecen%20City%20Center"
+          "tip": "Budapest Airport is connected by bus and rail links.",
+          "link": "https://www.bud.hu/"
         }
       ],
       "city_events": [
-        "Budapest Spring Festival",
-        "Summer open-air concerts",
-        "Autumn Museum Days",
-        "Winter Basilica Light Show"
+        {
+          "name": "Budapest Wine Festival",
+          "season": "autumn",
+          "description": "Celebration of Hungarian wines held at Buda Castle.",
+          "website": "https://www.budapestborfesztival.hu/",
+          "dates": "September"
+        }
+      ],
+      "places": [
+        {
+          "name": "Fisherman’s Bastion",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=47.5020%2C19.0344",
+          "description": "Neo-Romanesque terrace with panoramic city views."
+        },
+        {
+          "name": "Great Market Hall",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=47.4872%2C19.0584",
+          "description": "Largest indoor market offering Hungarian food and souvenirs."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "Gellért Hill viewpoints",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=47.4836%2C19.0469",
+          "description": "Scenic overlooks above the Danube."
+        },
+        {
+          "name": "Early-morning Danube promenade",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=47.5070%2C19.0465",
+          "description": "Quiet river views before the city gets busy."
+        }
       ]
     },
+
     {
       "name": "Debrecen",
       "interests": [
         {
-          "name": "Historic Squares 🏛️",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=Kossuth%20Square%20Debrecen",
-          "description": "Debrecen’s historic squares form the cultural heart of the city. Kossuth Square, framed by grand buildings and open spaces, hosts festivals and daily local activity. The Great Reformed Church dominates the skyline and symbolizes the city’s heritage. It’s an ideal place to start exploring Debrecen’s relaxed atmosphere."
+          "name": "Great Reformed Church of Debrecen",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=47.5316%2C21.6273",
+          "description": "Hungary’s largest Reformed church and a key symbol of Debrecen, known as the ‘Calvinist Rome’."
         },
         {
-          "name": "Spa Town Vibes 💦",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=Aquaticum%20Spa%20Debrecen",
-          "description": "Debrecen has a long tradition of spa culture centered around geothermal waters and relaxation. Aquaticum Spa blends indoor and outdoor pools with tropical themes and wellness facilities. Visitors come for warm mineral baths, saunas, and restorative treatments. It’s perfect for unwinding after a day of sightseeing."
+          "name": "Déri Museum",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=47.5310%2C21.6279",
+          "description": "Major cultural museum famous for Mihály Munkácsy’s Christ Trilogy and local history exhibits."
         },
         {
-          "name": "Nature & Parks 🌿",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=Nagyerd%C5%91%20Park%20Debrecen",
-          "description": "Nagyerdő Park is a huge natural retreat filled with lakes, walking paths, and quiet forest corners. Locals enjoy picnics, morning jogs, and peaceful afternoon strolls here. The park surrounds cultural attractions such as the spa, stadium, and botanical areas. It’s one of the most calming places in eastern Hungary."
+          "name": "Nagyerdő Park (Great Forest Park)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=47.5542%2C21.6278",
+          "description": "Large green park area with walking paths, cafés, zoo, and cultural venues."
         },
         {
-          "name": "Local Food 😋",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=Debrecen%20Local%20Restaurants",
-          "description": "Debrecen’s cuisine highlights paprika-rich stews, homemade bread, and hearty warming soups. Traditional pastries with nuts and honey reflect regional tastes. Local eateries offer comforting Hungarian dishes with simple, authentic flavors. It’s a great spot to sample down-to-earth countryside cooking."
+          "name": "Aquaticum Debrecen",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=47.5535%2C21.6289",
+          "description": "Popular thermal spa and water park complex located in the Great Forest."
+        },
+        {
+          "name": "Debrecen Zoo and Amusement Park",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=47.5550%2C21.6260",
+          "description": "Family-friendly attraction combining a zoo, botanical garden, and amusement rides."
         }
       ],
-      "local_food_tip": "Baked Debrecener potatoes, vegetable stews, paprika-based dishes, fresh bread, and walnut pastries.",
-      "full_day": "Morning: Explore the iconic <a href=\"https://www.google.com/maps/search/?api=1&query=Great%2BReformed%2BChurch%2Bof%2BDebrecen\" target=\"_blank\" rel=\"noopener\">Great Reformed Church</a> and the spacious <a href=\"https://www.google.com/maps/search/?api=1&query=Kossuth%2BSquare%2C%2BDebrecen\" target=\"_blank\" rel=\"noopener\">Kossuth Square</a>. → Coffee break in a central café.\n\nAfternoon: Head into <a href=\"https://www.google.com/maps/search/?api=1&query=Nagyerd%C5%91%2BPark\" target=\"_blank\" rel=\"noopener\">Nagyerdő Park</a> for lakes, forest paths, and peaceful greenery. → Relax at <a href=\"https://www.google.com/maps/search/?api=1&query=Aquaticum%2BDebrecen%2BSpa\" target=\"_blank\" rel=\"noopener\">Aquaticum Spa</a>. → Lunch in the park area: stews, soups, and local baked dishes.\n\nSunset: Walk around the lakeside.\n\nNight: Slow dinner and drinks in Debrecen’s compact city center.",
-      "places": [
-        {
-          "name": "Great Reformed Church",
-          "link": "https://www.google.com/maps/search/?api=1&query=Great%2BReformed%2BChurch%2BDebrecen",
-          "description": "The Great Reformed Church is the defining landmark of Debrecen, symbolizing its cultural and religious identity. Its bright yellow façade and massive structure dominate the main square. Visitors can climb the tower for a panoramic city view. It’s a must-see starting point for understanding Debrecen’s heritage."
-        },
-        {
-          "name": "Kossuth Square",
-          "link": "https://www.google.com/maps/search/?api=1&query=Kossuth%2BSquare%2BDebrecen",
-          "description": "Kossuth Square is the vibrant social and civic center of Debrecen. Cafés, shops, and historical buildings surround the open plaza, creating a lively atmosphere. Festivals and outdoor events frequently fill the space with music and movement. It’s perfect for people-watching and experiencing local daily life."
-        },
-        {
-          "name": "Nagyerdő Park",
-          "link": "https://www.google.com/maps/search/?api=1&query=Nagyerd%C5%91%2BPark%2BDebrecen",
-          "description": "Nagyerdő is a vast forest park known for calm walking routes, lakes, and peaceful nature. It hosts everything from family picnics to sports activities. Nearby attractions include the spa, stadium, and university district. It’s an oasis of greenery ideal for escaping the city noise."
-        },
-        {
-          "name": "Aquaticum Spa",
-          "link": "https://www.google.com/maps/search/?api=1&query=Aquaticum%2BDebrecen%2BSpa",
-          "description": "Aquaticum Spa is Debrecen’s main wellness destination, featuring mineral pools, saunas, and a tropical indoor complex. It’s family-friendly and offers both relaxation and fun water attractions. The warm waters make it especially inviting during cold seasons. A perfect recharge spot during a full-day visit."
-        }
-      ],
-      "hidden_gems": [
-        {
-          "name": "Debrecen Botanical Garden",
-          "link": "https://www.google.com/maps/search/?api=1&query=Debrecen%2BBotanical%2BGarden",
-          "description": "This lesser-known botanical garden offers serene pathways among exotic plants and old trees. It's a quiet escape perfect for photography or a gentle walk. Visitors appreciate the natural calm away from busy city streets."
-        },
-        {
-          "name": "Medgyessy Ferenc Memorial Museum",
-          "link": "https://www.google.com/maps/search/?api=1&query=Medgyessy%2BFerenc%2BMemorial%2BMuseum",
-          "description": "A small but culturally rich museum celebrating one of Hungary’s notable sculptors. It’s rarely crowded, making it ideal for slow art appreciation. The surrounding district also has charming historic architecture."
-        }
-      ],
+      "local_food_tip": "Try Debreceni kolbász (spicy sausage), goulash, stuffed cabbage, and Hungarian pastries. Traditional restaurants serve hearty regional dishes.",
+      "full_day": {
+        "Morning": "Start at the <a href=\"https://www.google.com/maps/search/?api=1&query=47.5316%2C21.6273\" target=\"_blank\" rel=\"noopener\">Great Reformed Church</a> ☀️ and explore the main square.",
+        "Afternoon": "Visit the <a href=\"https://www.google.com/maps/search/?api=1&query=47.5310%2C21.6279\" target=\"_blank\" rel=\"noopener\">Déri Museum</a> 🏛️, then have lunch nearby 🍽️.",
+        "Sunset": "Head to <a href=\"https://www.google.com/maps/search/?api=1&query=47.5542%2C21.6278\" target=\"_blank\" rel=\"noopener\">Nagyerdő Park</a> 🌅 for a relaxing walk.",
+        "Night": "Unwind at <a href=\"https://www.google.com/maps/search/?api=1&query=47.5535%2C21.6289\" target=\"_blank\" rel=\"noopener\">Aquaticum</a> ✨ or enjoy dinner in the city center."
+      },
       "seasons": {
         "spring": {
-          "event": "Flower Carnival Warm-up",
+          "event": "Spring in Debrecen",
+          "description": "Mild weather and blooming parks make the city pleasant for walking.",
           "ideas": [
-            "Flowering paths in Nagyerdő Park.",
-            "Sunny walks through the city center.",
-            "Terrace cafés around Kossuth Square."
+            {
+              "name": "Great Forest walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=47.5542%2C21.6278",
+              "description": "Fresh greenery and open spaces."
+            },
+            {
+              "name": "City center strolls",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=47.5316%2C21.6273",
+              "description": "Comfortable sightseeing weather."
+            },
+            {
+              "name": "Museum visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=47.5310%2C21.6279",
+              "description": "Cultural highlights indoors."
+            }
           ]
         },
         "summer": {
-          "event": "Flower Carnival",
+          "event": "Debrecen Flower Carnival",
+          "description": "Hungary’s largest summer festival with floral parades and concerts.",
           "ideas": [
-            "Colorful installations and parades.",
-            "A full day at Aquaticum Spa.",
-            "Lakeside sunsets in Nagyerdő."
+            {
+              "name": "Festival events",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=47.5316%2C21.6273",
+              "description": "Colorful parades and celebrations."
+            },
+            {
+              "name": "Outdoor pools",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=47.5535%2C21.6289",
+              "description": "Cooling off at Aquaticum."
+            },
+            {
+              "name": "Park cafés",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=47.5542%2C21.6278",
+              "description": "Relaxed summer evenings."
+            }
           ]
         },
         "autumn": {
-          "event": "Golden Leaves",
+          "event": "Autumn Cultural Season",
+          "description": "Cooler air and a strong program of exhibitions and events.",
           "ideas": [
-            "Warm-toned forest walks.",
-            "Pastry and tea cafés in the center.",
-            "Small gallery visits on cooler days."
+            {
+              "name": "Autumn park walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=47.5542%2C21.6278",
+              "description": "Golden leaves in the Great Forest."
+            },
+            {
+              "name": "Café culture",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=47.5325%2C21.6265",
+              "description": "Cozy city cafés."
+            },
+            {
+              "name": "Museum exploration",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=47.5310%2C21.6279",
+              "description": "Indoor cultural activities."
+            }
           ]
         },
         "winter": {
-          "event": "Spa Winter",
+          "event": "Debrecen Advent & Christmas Market",
+          "description": "Festive lights and markets around the main square.",
           "ideas": [
-            "Thermal relaxation in warm pools.",
-            "Hot drinks in downtown cafés.",
-            "Short historical walks around the square."
+            {
+              "name": "Christmas market visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=47.5316%2C21.6273",
+              "description": "Seasonal food and crafts."
+            },
+            {
+              "name": "Thermal baths",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=47.5535%2C21.6289",
+              "description": "Warm relaxation in winter."
+            },
+            {
+              "name": "Museum visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=47.5310%2C21.6279",
+              "description": "Cultural warmth indoors."
+            }
           ]
         }
       },
       "public_transport_tips": [
         {
-          "tip": "🚋 Trams provide the easiest access between the city center, park, and university district.",
+          "tip": "Trams and buses connect the city center with the Great Forest area.",
           "link": "https://www.dkv.hu/"
         },
         {
-          "tip": "🚌 Local buses connect all major neighborhoods and operate frequently.",
-          "link": "https://www.dkv.hu/menetrendek"
+          "tip": "Debrecen is compact and easy to explore on foot.",
+          "link": "https://www.debrecen.hu/"
         },
         {
-          "tip": "🚶 Debrecen’s center is compact and ideal for walking.",
-          "link": "https://www.google.com/maps/search/?api=1&query=Debrecen%20City%20Center"
+          "tip": "Debrecen Airport offers regional and seasonal international flights.",
+          "link": "https://www.debrecenairport.com/"
         }
       ],
       "city_events": [
-        "Flower Carnival",
-        "Debrecen Jazz Days",
-        "Autumn Art Week",
-        "Winter Light Nights"
+        {
+          "name": "Debrecen Flower Carnival",
+          "season": "summer",
+          "description": "Spectacular floral parade and cultural festival.",
+          "website": "https://www.debreceniviragkarneval.hu/",
+          "dates": "August"
+        }
+      ],
+      "places": [
+        {
+          "name": "Kossuth Square",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=47.5316%2C21.6273",
+          "description": "Main square of Debrecen and central meeting point."
+        },
+        {
+          "name": "MODEM Centre for Modern and Contemporary Arts",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=47.5313%2C21.6268",
+          "description": "Modern art center with rotating exhibitions."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "University of Debrecen main building",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=47.5530%2C21.6255",
+          "description": "Impressive neoclassical building set within parkland."
+        },
+        {
+          "name": "Early-morning Great Forest",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=47.5542%2C21.6278",
+          "description": "Quiet nature atmosphere before the city becomes busy."
+        }
       ]
     },
+
     {
       "name": "Eger",
       "interests": [
         {
-          "name": "Historic Fortresses 🏰",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=Eger%20Castle",
-          "description": "Eger Castle is one of Hungary’s most important historical sites, known for its heroic defense and dramatic hilltop setting. The fortress offers panoramic views, underground passageways, and interactive exhibitions. Exploring the walls and courtyards transports visitors into centuries of Hungarian history. It's a quintessential stop for history lovers."
-        },
-        {
-          "name": "Wine Region 🍷",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=Sz%C3%A9passzony%20Valley%20Eger",
-          "description": "Eger is world-famous for its red wines, especially the celebrated Egri Bikavér. Szépasszony Valley hosts dozens of wine cellars carved into the hills. Visitors can enjoy tastings, vineyard walks, and cozy cellar atmospheres. It’s the perfect blend of culture, tradition, and slow countryside charm."
-        },
-        {
-          "name": "Thermal Baths 💦",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=Eger%20Thermal%20Bath",
-          "description": "Eger’s thermal baths offer warm, mineral-rich pools ideal for relaxation. The complex includes outdoor pools, covered wellness areas, and calm green spaces. Locals and visitors come year-round for therapeutic soaking. It’s a refreshing addition to any Eger itinerary."
-        },
-        {
-          "name": "Old Town Walks 🌿",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=Eger%20Old%20Town",
-          "description": "Eger’s old town features narrow streets, pastel buildings, pretty squares, and charming cafés. Walking through the historic center reveals markets, artisan shops, and hidden courtyards. It's a beautiful area for leisurely exploration. The atmosphere feels warm, intimate, and authentically Hungarian."
-        }
-      ],
-      "local_food_tip": "Soups, potatoes, vegetable paprikash, poppy-seed pastries, and local wines.",
-      "full_day": "Morning: Visit <a href=\"https://www.google.com/maps/search/?api=1&query=Eger%2BCastle\" target=\"_blank\" rel=\"noopener\">Eger Castle</a> for views and history. → Head into the charming <a href=\"https://www.google.com/maps/search/?api=1&query=Eger%2BOld%2BTown\" target=\"_blank\" rel=\"noopener\">Old Town</a> for streets, shops, and cafés.\n\nAfternoon: Enjoy warm pools at <a href=\"https://www.google.com/maps/search/?api=1&query=Eger%2BThermal%2BBath\" target=\"_blank\" rel=\"noopener\">Eger Thermal Bath</a>. → Lunch with local dishes. → Wine tastings in <a href=\"https://www.google.com/maps/search/?api=1&query=Sz%C3%A9passzony%2BValley\" target=\"_blank\" rel=\"noopener\">Szépasszony Valley</a>.\n\nSunset: Vineyard colors at golden hour.\n\nNight: Peaceful old-town stroll with dessert and wine.",
-      "places": [
-        {
           "name": "Eger Castle",
-          "link": "https://www.google.com/maps/search/?api=1&query=Eger%2BCastle",
-          "description": "Eger Castle is a massive stone fortress overlooking the city, filled with medieval walls, tunnels, and museums. Its exhibitions bring the region’s dramatic history to life. From the top, sweeping views extend across Eger’s rooftops. A highlight for any visitor."
+          "map_link": "https://www.google.com/maps/search/?api=1&query=47.9026%2C20.3754",
+          "description": "Historic fortress famous for the 1552 defense against the Ottoman army and panoramic city views."
         },
         {
-          "name": "Eger Old Town",
-          "link": "https://www.google.com/maps/search/?api=1&query=Eger%2BOld%2BTown",
-          "description": "Eger's old town delights with pastel houses, historic squares, and artisan shops. The area is walkable and full of character. It’s ideal for discovering cafés, bakeries, and beautiful side streets. The relaxed atmosphere invites slow exploration."
+          "name": "Eger Basilica",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=47.9021%2C20.3731",
+          "description": "Impressive neoclassical cathedral, one of the largest churches in Hungary."
         },
-        {
-          "name": "Eger Thermal Bath",
-          "link": "https://www.google.com/maps/search/?api=1&query=Eger%2BThermal%2BBath",
-          "description": "This large thermal complex offers warm mineral pools perfect for unwinding. Visitors enjoy outdoor baths, wellness zones, and calm garden surroundings. It's refreshing in summer and wonderfully soothing in winter. Great for half-day relaxation."
-        },
-        {
-          "name": "Szépasszony Valley",
-          "link": "https://www.google.com/maps/search/?api=1&query=Sz%C3%A9passzony%2BValley",
-          "description": "The valley is the heart of Eger’s wine culture, with dozens of stone cellars built into the hills. Tastings range from elegant reds to traditional local blends. Even a simple walk through the area feels atmospheric and cozy. A must-see for wine lovers."
-        }
-      ],
-      "hidden_gems": [
         {
           "name": "Minaret of Eger",
-          "link": "https://www.google.com/maps/search/?api=1&query=Eger%2BMinaret",
-          "description": "This Ottoman-era minaret stands tall as a rare architectural remnant in Hungary. A narrow staircase leads to a tight but impressive viewpoint. It’s a lesser-known but unique historical feature of the town."
+          "map_link": "https://www.google.com/maps/search/?api=1&query=47.9031%2C20.3768",
+          "description": "One of the northernmost Ottoman minarets in Europe, offering a unique historic viewpoint."
         },
         {
-          "name": "Valley Vineyards Lookout",
-          "link": "https://www.google.com/maps/search/?api=1&query=Eger%20Vineyards%20Lookout",
-          "description": "A peaceful viewpoint overlooking rolling vineyards and sunset colors. Few tourists come here, making it ideal for quiet photography. A great place to enjoy Eger’s natural beauty."
+          "name": "Szépasszony Valley (Valley of the Beautiful Woman)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=47.8875%2C20.3826",
+          "description": "Famous wine valley with cellars producing Egri Bikavér (Bull’s Blood) wine."
+        },
+        {
+          "name": "Eger Thermal Baths",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=47.8989%2C20.3715",
+          "description": "Thermal and swimming baths set in a park environment."
         }
       ],
+      "local_food_tip": "Try Egri Bikavér wine, goulash, venison dishes, duck, and traditional Hungarian pastries in local restaurants and wine cellars.",
+      "full_day": {
+        "Morning": "Begin at <a href=\"https://www.google.com/maps/search/?api=1&query=47.9026%2C20.3754\" target=\"_blank\" rel=\"noopener\">Eger Castle</a> ☀️ to explore its history and views.",
+        "Afternoon": "Walk through the historic center to the <a href=\"https://www.google.com/maps/search/?api=1&query=47.9021%2C20.3731\" target=\"_blank\" rel=\"noopener\">Eger Basilica</a> 🏛️, then enjoy lunch nearby 🍽️.",
+        "Sunset": "Visit <a href=\"https://www.google.com/maps/search/?api=1&query=47.8875%2C20.3826\" target=\"_blank\" rel=\"noopener\">Szépasszony Valley</a> 🌅 for wine tasting.",
+        "Night": "Relax at the thermal baths ✨ or dine in a cozy wine cellar."
+      },
       "seasons": {
         "spring": {
-          "event": "Wine Spring",
+          "event": "Spring in Eger",
+          "description": "Blooming parks and vineyards with mild sightseeing weather.",
           "ideas": [
-            "Vineyard walks around Eger.",
-            "Blossoms in the old town.",
-            "Thermal baths in mild weather."
+            {
+              "name": "Castle walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=47.9026%2C20.3754",
+              "description": "Fresh spring air and views."
+            },
+            {
+              "name": "Old town exploration",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=47.9030%2C20.3740",
+              "description": "Comfortable walking conditions."
+            },
+            {
+              "name": "Thermal bath visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=47.8989%2C20.3715",
+              "description": "Relaxation in mild weather."
+            }
           ]
         },
         "summer": {
-          "event": "Wine & Castle Nights",
+          "event": "Eger Wine & Gastronomy Festivals",
+          "description": "Outdoor festivals celebrating wine, food, and music.",
           "ideas": [
-            "Sunset views from castle walls.",
-            "Wine tastings in the valley.",
-            "Open-air summer concerts."
+            {
+              "name": "Wine tastings",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=47.8875%2C20.3826",
+              "description": "Cellars open to visitors."
+            },
+            {
+              "name": "Evening concerts",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=47.9026%2C20.3754",
+              "description": "Events in historic settings."
+            },
+            {
+              "name": "Thermal pools",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=47.8989%2C20.3715",
+              "description": "Cooling off in summer."
+            }
           ]
         },
         "autumn": {
-          "event": "Harvest Season",
+          "event": "Grape Harvest Season",
+          "description": "Vineyards are active and the region celebrates wine traditions.",
           "ideas": [
-            "Golden vineyards during harvest.",
-            "Poppy and walnut pastries in bakeries.",
-            "Museum visits in cooler afternoons."
+            {
+              "name": "Harvest events",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=47.8875%2C20.3826",
+              "description": "Traditional wine celebrations."
+            },
+            {
+              "name": "Autumn city walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=47.9030%2C20.3740",
+              "description": "Golden foliage and calm streets."
+            },
+            {
+              "name": "Museum visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=47.9026%2C20.3754",
+              "description": "Cultural focus indoors."
+            }
           ]
         },
         "winter": {
-          "event": "Thermal Winter",
+          "event": "Eger Advent & Christmas Season",
+          "description": "Festive lights, markets, and cozy wine cellars.",
           "ideas": [
-            "Soaking in warm outdoor pools.",
-            "Hot drinks in cozy cafés.",
-            "Quiet snowy walks around the fortress."
+            {
+              "name": "Christmas market",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=47.9030%2C20.3740",
+              "description": "Seasonal food and crafts."
+            },
+            {
+              "name": "Thermal baths",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=47.8989%2C20.3715",
+              "description": "Warm relaxation in cold weather."
+            },
+            {
+              "name": "Wine cellar dinners",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=47.8875%2C20.3826",
+              "description": "Cozy evenings with local wine."
+            }
           ]
         }
       },
       "public_transport_tips": [
         {
-          "tip": "🚶 Most attractions in Eger are walkable due to its compact old town layout.",
-          "link": "https://www.google.com/maps/search/?api=1&query=Eger%20City%20Center"
+          "tip": "Eger’s historic center is compact and walkable.",
+          "link": "https://www.eger.hu/"
         },
         {
-          "tip": "🚌 Local buses reach Szépasszony Valley and outer districts.",
-          "link": "https://menetrendek.hu/"
+          "tip": "Regional trains connect Eger with Budapest.",
+          "link": "https://www.hellenictrain.hu/"
         },
         {
-          "tip": "🚕 Taxis are affordable for short rides to vineyards and baths.",
-          "link": "https://www.google.com/maps/search/?api=1&query=Eger%20Taxi"
+          "tip": "Local buses connect the city with Szépasszony Valley.",
+          "link": "https://www.volanbusz.hu/"
         }
       ],
       "city_events": [
-        "Eger Castle Festival",
-        "Wine Harvest Days",
-        "Summer Music Nights",
-        "Winter Bath Season"
-      ]
-    },
-    {
-      "name": "Győr",
-      "interests": [
         {
-          "name": "Baroque Architecture 🏛️",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=Gy%C5%91r%20Old%20Town",
-          "description": "Győr’s Old Town is one of Hungary’s most beautiful baroque districts. Its pastel buildings, ornate facades, and elegant squares give the city a refined, historic charm. Walking through the center reveals churches, palaces, and centuries-old streets. The area is lively, atmospheric, and perfect for slow exploration."
-        },
-        {
-          "name": "Riverside Walks 🌊",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=R%C3%A1ba%20Quay%20Gy%C5%91r",
-          "description": "Győr sits at the meeting point of three rivers, offering some of Hungary’s prettiest waterfront promenades. The Rába and Mosoni-Danube rivers create peaceful walking paths lined with trees and cafés. Visitors can enjoy scenic bridges, river reflections, and calm evening strolls. It's a relaxing escape within the urban core."
-        },
-        {
-          "name": "Local Culture 🎭",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=Gy%C5%91r%20Cultural%20Center",
-          "description": "Győr is a vibrant cultural hub with theaters, galleries, festivals, and lively public squares. Throughout the year, the city hosts dance events, concerts, and community celebrations. Its cultural institutions highlight both classical and modern Hungarian art. The atmosphere blends tradition with contemporary creativity."
-        },
-        {
-          "name": "Thermal Relaxing 💦",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=R%C3%A1ba%20Quelle%20Spa%20Gy%C5%91r",
-          "description": "Rába Quelle Spa is a popular wellness destination offering thermal pools, wellness zones, and riverfront relaxation. Its warm mineral waters provide a soothing break after exploring the city. Indoor and outdoor pools make it enjoyable year-round. Visitors appreciate the calm and restorative atmosphere."
+          "name": "Egri Bikavér Ünnep",
+          "season": "summer",
+          "description": "Festival celebrating Eger’s famous Bull’s Blood wine.",
+          "website": "https://www.bikaverunnep.hu/",
+          "dates": "July"
         }
       ],
-      "local_food_tip": "Warm soups, savory pastries, vegetable dishes, and traditional Hungarian baked specialties.",
-      "full_day": "Morning: Start in <a href=\"https://www.google.com/maps/search/?api=1&query=Gy%C5%91r%2BOld%2BTown\" target=\"_blank\" rel=\"noopener\">Győr Old Town</a> exploring baroque streets and squares → visit <a href=\"https://www.google.com/maps/search/?api=1&query=Bishop%27s%2BCastle%2C%2BGy%C5%91r\" target=\"_blank\" rel=\"noopener\">Bishop's Castle</a> → coffee in a central café.\n\nAfternoon: Walk along <a href=\"https://www.google.com/maps/search/?api=1&query=R%C3%A1ba%2BQuay\" target=\"_blank\" rel=\"noopener\">Rába Quay</a> → relax at <a href=\"https://www.google.com/maps/search/?api=1&query=R%C3%A1ba%2BQuelle%2BSpa%2B%26%2BBath\" target=\"_blank\" rel=\"noopener\">Rába Quelle Spa</a> → lunch at riverside restaurants.\n\nSunset: River views from the main bridges.\n\nNight: Enjoy bars and restaurants in the old town.",
       "places": [
         {
-          "name": "Győr Old Town",
-          "link": "https://www.google.com/maps/search/?api=1&query=Gy%C5%91r%2BOld%2BTown",
-          "description": "Győr’s Old Town features elegant baroque architecture, charming squares, and narrow historic streets. It’s the cultural heart of the city with cafés, boutiques, and landmarks at every corner. Visitors enjoy its warm atmosphere and vibrant pedestrian areas."
+          "name": "Dobó Square",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=47.9030%2C20.3740",
+          "description": "Central square named after István Dobó, hero of Eger."
         },
         {
-          "name": "Bishop's Castle",
-          "link": "https://www.google.com/maps/search/?api=1&query=Bishop%27s%2BCastle%2BGy%C5%91r",
-          "description": "Bishop’s Castle is one of the oldest buildings in Győr, located near the river. Its fortified structure and historical exhibitions offer insight into the city’s medieval past. The surrounding area provides scenic walking paths and viewpoints."
-        },
-        {
-          "name": "Rába Quay",
-          "link": "https://www.google.com/maps/search/?api=1&query=R%C3%A1ba%2BQuay%2BGy%C5%91r",
-          "description": "Rába Quay is a peaceful riverside promenade ideal for walking, cycling, and photography. Visitors enjoy bridges, riverside cafés, and calm evening reflections on the water. It’s a refreshing contrast to the urban streets."
-        },
-        {
-          "name": "Rába Quelle Spa",
-          "link": "https://www.google.com/maps/search/?api=1&query=R%C3%A1ba%2BQuelle%2BSpa%2BGy%C5%91r",
-          "description": "A well-known thermal spa complex offering warm pools, saunas, and wellness experiences. Located by the river, it provides relaxing views and a restorative atmosphere. It’s a popular choice for both locals and travelers."
+          "name": "Kopcsik Marzipan Museum",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=47.9034%2C20.3759",
+          "description": "Unique museum featuring detailed marzipan artworks."
         }
       ],
       "hidden_gems": [
         {
-          "name": "Nadro Street Viewpoint",
-          "link": "https://www.google.com/maps/search/?api=1&query=Nadro%20Street%20Gy%C5%91r",
-          "description": "A small, lesser-known viewpoint with colorful buildings and calm pedestrian corners. Perfect for photography and quiet moments. It captures the charm of Győr away from the main tourist paths."
+          "name": "Castle bastion viewpoints",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=47.9026%2C20.3754",
+          "description": "Less crowded panoramic views over the town."
         },
         {
-          "name": "Riverside Meadow Park",
-          "link": "https://www.google.com/maps/search/?api=1&query=Gy%C5%91r%20Meadow%20Park",
-          "description": "A peaceful green area near the rivers where locals relax and enjoy nature. Ideal for picnics, reading, or resting during long walks. Few tourists discover this quiet corner."
+          "name": "Evening walks in Szépasszony Valley",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=47.8875%2C20.3826",
+          "description": "Quiet atmosphere after daytime visitors leave."
         }
-      ],
-      "seasons": {
-        "spring": {
-          "event": "Baroque Spring",
-          "ideas": [
-            "Flowering squares in Old Town.",
-            "Riverside walks with fresh breezes.",
-            "Outdoor coffee terraces."
-          ]
-        },
-        "summer": {
-          "event": "Summer by the River",
-          "ideas": [
-            "Long sunset river walks.",
-            "Open-air spa relaxation.",
-            "Ice cream in the baroque center."
-          ]
-        },
-        "autumn": {
-          "event": "Golden Downtown",
-          "ideas": [
-            "Warm-toned streets and baroque façades.",
-            "Cozy bakeries in cooler weather.",
-            "Art galleries and museum visits."
-          ]
-        },
-        "winter": {
-          "event": "Warm Spa Winter",
-          "ideas": [
-            "Thermal pools during cold days.",
-            "Hot drinks in Old Town cafés.",
-            "Peaceful nighttime riverside walks."
-          ]
-        }
-      },
-      "public_transport_tips": [
-        {
-          "tip": "🚌 Local buses cover the entire city and operate frequently.",
-          "link": "https://www.kisalfoldvolan.hu/"
-        },
-        {
-          "tip": "🚶 The historic center is very walkable.",
-          "link": "https://www.google.com/maps/search/?api=1&query=Gy%C5%91r%20City%20Center"
-        },
-        {
-          "tip": "🚲 Bike rentals are available for riverside routes.",
-          "link": "https://www.google.com/maps/search/?api=1&query=Gy%C5%91r%20Bike%20Rental"
-        }
-      ],
-      "city_events": [
-        "Győr Summer Festival",
-        "City Baroque Days",
-        "Autumn Art Weeks",
-        "Winter Light Parade"
       ]
     },
+
     {
       "name": "Pécs",
       "interests": [
         {
-          "name": "Mediterranean Vibe 🌞",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=P%C3%A9cs%20Old%20Town",
-          "description": "Pécs has a warm, Mediterranean-like atmosphere with squares filled with cafés, palms, and colorful facades. The city feels relaxed and artistic, offering a blend of Roman ruins, Ottoman heritage, and modern culture. Its sunny streets and charming terraces attract visitors year-round. It’s one of the most unique cities in Hungary."
+          "name": "Pécs Cathedral (St. Peter and Paul)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=46.0791%2C18.2287",
+          "description": "Four-towered Romanesque cathedral and one of Hungary’s most important religious landmarks."
         },
         {
-          "name": "Roman Ruins 🏛️",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=P%C3%A9cs%20Early%20Christian%20Necropolis",
-          "description": "Pécs preserves some of the most impressive Roman archaeological remains in Hungary. The Early Christian Necropolis is a UNESCO site with underground tombs and vibrant frescoes. These ruins reveal deep layers of history beneath the modern city. A must-see for fans of ancient civilization."
+          "name": "Early Christian Necropolis of Pécs",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=46.0786%2C18.2280",
+          "description": "UNESCO World Heritage Site featuring underground tombs from the 4th century."
         },
         {
-          "name": "Art & Culture 🎨",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=Zsolnay%20Cultural%20Quarter%20P%C3%A9cs",
-          "description": "The Zsolnay Cultural Quarter is Pécs’ artistic centerpiece, filled with museums, galleries, ceramic workshops, and creative spaces. Its colorful buildings and artistic installations make it a cultural playground. Visitors can explore crafts, exhibitions, and unique architecture. It’s the beating heart of Pécs’ creative scene."
-        },
-        {
-          "name": "Cafés & Relaxed Streets ☕",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=P%C3%A9cs%20Cafes%20Center",
-          "description": "Pécs offers some of Hungary’s coziest and most atmospheric café streets. Outdoor seating, charming façades, and a youthful vibe define the historic center. It’s a perfect place for slow mornings, reading, and people-watching. The relaxed ambience is a large part of the city’s appeal."
-        }
-      ],
-      "local_food_tip": "Warm vegetable dishes, paprika-seasoned pastas, walnut-based desserts, and regional pastries.",
-      "full_day": "Morning: Visit the majestic **Pécs Cathedral** and nearby Roman ruins → explore the artistic **Zsolnay Cultural Quarter**.\n\nAfternoon: Walk through **Pécs Old Town** → enjoy lunch at a Mediterranean-style café → visit the **Mosque of Pasha Qasim**.\n\nSunset: Views from the hills above the city.\n\nNight: Relaxed evening in atmospheric cafés and quiet streets.",
-      "places": [
-        {
-          "name": "Pécs Cathedral",
-          "link": "https://www.google.com/maps/search/?api=1&query=P%C3%A9cs%2BCathedral",
-          "description": "The cathedral is one of Hungary’s most striking churches, blending Romanesque and Gothic architectural elements. Its tall towers and ornate interior make it a highlight of any visit. The surrounding area includes archaeological remains and peaceful plazas."
+          "name": "Széchenyi Square & Mosque of Pasha Qasim",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=46.0779%2C18.2297",
+          "description": "Central square dominated by a former Ottoman mosque, symbol of Pécs’ multicultural past."
         },
         {
           "name": "Zsolnay Cultural Quarter",
-          "link": "https://www.google.com/maps/search/?api=1&query=Zsolnay%2BCultural%2BQuarter",
-          "description": "A colorful artistic district dedicated to ceramics, craftwork, and creative culture. The area includes museums, artisan shops, exhibitions, and beautiful architecture. It’s a lively hub that showcases Pécs’ cultural identity."
+          "map_link": "https://www.google.com/maps/search/?api=1&query=46.0882%2C18.2460",
+          "description": "Creative district with museums, galleries, cafés, and Zsolnay ceramics heritage."
         },
         {
-          "name": "Pécs Old Town",
-          "link": "https://www.google.com/maps/search/?api=1&query=P%C3%A9cs%2BOld%2BTown",
-          "description": "The old town features warm tones, Mediterranean-style streets, and charming cafés. Visitors enjoy walking among historic buildings, open squares, and boutique shops. It's an inviting area perfect for relaxed exploration."
-        },
-        {
-          "name": "Mosque of Pasha Qasim",
-          "link": "https://www.google.com/maps/search/?api=1&query=Mosque%2Bof%2BPasha%2BQasim",
-          "description": "This iconic mosque-church hybrid reflects Pécs’ Ottoman past. Its dome, interior art, and central location make it one of the city’s most recognizable landmarks. It stands as a symbol of Pécs’ multicultural history."
+          "name": "TV Tower (Misina Hill)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=46.1042%2C18.2347",
+          "description": "Observation tower offering panoramic views over Pécs and the Mecsek Hills."
         }
       ],
-      "hidden_gems": [
-        {
-          "name": "Tettye Ruins and Viewpoint",
-          "link": "https://www.google.com/maps/search/?api=1&query=Tettye%2BRuins",
-          "description": "A hillside ruin offering panoramic views of Pécs. The peaceful surroundings and dramatic stone arches create a picturesque atmosphere. Perfect for sunset photography and quiet exploration."
-        },
-        {
-          "name": "Pécs National Theatre Courtyard",
-          "link": "https://www.google.com/maps/search/?api=1&query=P%C3%A9cs%20National%20Theatre%20Courtyard",
-          "description": "A charming hidden courtyard often missed by tourists. It features ornate architecture, benches, and a calm setting ideal for short breaks. A lovely escape in the city center."
-        }
-      ],
+      "local_food_tip": "Try Baranya-region dishes such as stews with paprika, stuffed peppers, local cheeses, pastries, and Villány wine from nearby vineyards.",
+      "full_day": {
+        "Morning": "Start at the <a href=\"https://www.google.com/maps/search/?api=1&query=46.0791%2C18.2287\" target=\"_blank\" rel=\"noopener\">Pécs Cathedral</a> ☀️ and explore the surrounding historic area.",
+        "Afternoon": "Visit the <a href=\"https://www.google.com/maps/search/?api=1&query=46.0786%2C18.2280\" target=\"_blank\" rel=\"noopener\">Early Christian Necropolis</a> 🏛️, then have lunch at <a href=\"https://www.google.com/maps/search/?api=1&query=46.0779%2C18.2297\" target=\"_blank\" rel=\"noopener\">Széchenyi Square</a> 🍽️.",
+        "Sunset": "Head to the <a href=\"https://www.google.com/maps/search/?api=1&query=46.1042%2C18.2347\" target=\"_blank\" rel=\"noopener\">TV Tower</a> 🌅 for views over the city.",
+        "Night": "Dinner and evening walk in the city center ✨ or cultural events in the Zsolnay Quarter."
+      },
       "seasons": {
         "spring": {
-          "event": "Mediterranean Spring",
+          "event": "Spring in Pécs",
+          "description": "Blooming hills and mild weather make the city ideal for walking.",
           "ideas": [
-            "Flower-filled squares and sunny terraces.",
-            "Old Town strolls in warm weather.",
-            "Café hopping on outdoor patios."
+            {
+              "name": "Historic center walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=46.0779%2C18.2297",
+              "description": "Comfortable sightseeing weather."
+            },
+            {
+              "name": "Mecsek Hills hikes",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=46.1020%2C18.2360",
+              "description": "Nature trails above the city."
+            },
+            {
+              "name": "Museum visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=46.0882%2C18.2460",
+              "description": "Cultural focus in pleasant temperatures."
+            }
           ]
         },
         "summer": {
-          "event": "Cultural Summer",
+          "event": "Pécs Summer Cultural Festival",
+          "description": "Open-air concerts, theater, and art events across the city.",
           "ideas": [
-            "Events in the Zsolnay Quarter.",
-            "Sunset views from nearby hills.",
-            "Evening ice-cream walks in Old Town."
+            {
+              "name": "Zsolnay Quarter events",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=46.0882%2C18.2460",
+              "description": "Creative performances and exhibitions."
+            },
+            {
+              "name": "Evening city strolls",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=46.0779%2C18.2297",
+              "description": "Lively summer atmosphere."
+            },
+            {
+              "name": "Wine region day trips",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=45.8680%2C18.4530",
+              "description": "Villány wine tastings nearby."
+            }
           ]
         },
         "autumn": {
-          "event": "Autumn Art",
+          "event": "Pécs Wine & Gastronomy Season",
+          "description": "Harvest time with food and wine events in the region.",
           "ideas": [
-            "Warm colors around Old Town.",
-            "Gallery visits on mild afternoons.",
-            "Local pastries and wine tastings."
+            {
+              "name": "Wine tastings",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=45.8680%2C18.4530",
+              "description": "Local red wines and cellar visits."
+            },
+            {
+              "name": "Autumn walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=46.1020%2C18.2360",
+              "description": "Colorful Mecsek Hills."
+            },
+            {
+              "name": "Gallery visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=46.0882%2C18.2460",
+              "description": "Strong cultural program."
+            }
           ]
         },
         "winter": {
-          "event": "Warm Culture Winter",
+          "event": "Advent in Pécs",
+          "description": "Festive lights and markets in the historic center.",
           "ideas": [
-            "Cozy cafés and cultural centers.",
-            "Quiet illuminated squares.",
-            "Workshops in the Zsolnay district."
+            {
+              "name": "Christmas market",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=46.0779%2C18.2297",
+              "description": "Seasonal food and crafts."
+            },
+            {
+              "name": "Museum hopping",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=46.0786%2C18.2280",
+              "description": "Warm indoor culture."
+            },
+            {
+              "name": "Café culture",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=46.0785%2C18.2310",
+              "description": "Cozy winter atmosphere."
+            }
           ]
         }
       },
       "public_transport_tips": [
         {
-          "tip": "🚌 Local buses connect all major areas and operate frequently.",
-          "link": "https://mobilitaskozpont.hu/menetrendek/pecs/"
+          "tip": "Local buses cover the city and nearby hills efficiently.",
+          "link": "https://www.tukebusz.hu/"
         },
         {
-          "tip": "🚶 The Old Town is compact and best explored on foot.",
-          "link": "https://www.google.com/maps/search/?api=1&query=P%C3%A9cs%20City%20Center"
+          "tip": "The historic center is compact and ideal for walking.",
+          "link": "https://www.pecs.hu/"
         },
         {
-          "tip": "🚕 Taxis are affordable and easily available.",
-          "link": "https://www.google.com/maps/search/?api=1&query=P%C3%A9cs%20Taxi"
+          "tip": "Regional trains connect Pécs with Budapest.",
+          "link": "https://www.mavcsoport.hu/"
         }
       ],
       "city_events": [
-        "Pécs Cultural Festival",
-        "Zsolnay Light Festival",
-        "Autumn Art Month",
-        "Winter Handcraft Market"
+        {
+          "name": "Pécs Days Festival",
+          "season": "autumn",
+          "description": "City-wide celebration with concerts, parades, and cultural programs.",
+          "website": "https://www.pecsinapok.hu/",
+          "dates": "September"
+        }
+      ],
+      "places": [
+        {
+          "name": "Jakovali Hassan Mosque",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=46.0754%2C18.2265",
+          "description": "Best-preserved Ottoman mosque in Hungary, still used for worship."
+        },
+        {
+          "name": "Csontváry Museum",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=46.0796%2C18.2312",
+          "description": "Museum dedicated to famous Hungarian painter Tivadar Csontváry Kosztka."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "Barbakán Garden",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=46.0798%2C18.2275",
+          "description": "Quiet green area near the cathedral and city walls."
+        },
+        {
+          "name": "Early-morning Mecsek viewpoints",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=46.1020%2C18.2360",
+          "description": "Peaceful views over the city before crowds arrive."
+        }
+      ]
+    },
+
+    {
+      "name": "Szentendre",
+      "interests": [
+        {
+          "name": "Old Town (Óváros)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=47.6693%2C19.0755",
+          "description": "Charming baroque old town with cobblestone streets, colorful houses, galleries, and cafés."
+        },
+        {
+          "name": "Main Square (Fő tér)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=47.6690%2C19.0750",
+          "description": "Central square surrounded by historic buildings, churches, and outdoor cafés."
+        },
+        {
+          "name": "Serbian Orthodox Church (Blagovestenska)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=47.6686%2C19.0758",
+          "description": "Elegant 18th-century church reflecting Szentendre’s Serbian heritage."
+        },
+        {
+          "name": "Ferenczy Museum Center",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=47.6689%2C19.0740",
+          "description": "Group of museums dedicated to Hungarian fine arts and local artists."
+        },
+        {
+          "name": "Danube Riverside Promenade",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=47.6702%2C19.0730",
+          "description": "Peaceful riverside walk with views across the Danube and relaxing cafés."
+        }
+      ],
+      "local_food_tip": "Try Hungarian pastries, lángos, fish soup, and local wines. Riverside restaurants and small bakeries are ideal for casual meals.",
+      "full_day": {
+        "Morning": "Begin with a stroll through the <a href=\"https://www.google.com/maps/search/?api=1&query=47.6693%2C19.0755\" target=\"_blank\" rel=\"noopener\">Old Town</a> ☀️ and coffee on Fő tér.",
+        "Afternoon": "Visit the <a href=\"https://www.google.com/maps/search/?api=1&query=47.6689%2C19.0740\" target=\"_blank\" rel=\"noopener\">Ferenczy Museum Center</a> 🏛️, then enjoy lunch by the Danube 🍽️.",
+        "Sunset": "Walk along the <a href=\"https://www.google.com/maps/search/?api=1&query=47.6702%2C19.0730\" target=\"_blank\" rel=\"noopener\">Danube Promenade</a> 🌅.",
+        "Night": "Dinner in the old town ✨ with a relaxed artistic atmosphere."
+      },
+      "seasons": {
+        "spring": {
+          "event": "Spring in Szentendre",
+          "description": "Blooming streets and mild weather perfect for walking and art browsing.",
+          "ideas": [
+            {
+              "name": "Old town walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=47.6693%2C19.0755",
+              "description": "Colorful streets and fresh air."
+            },
+            {
+              "name": "Riverside cafés",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=47.6702%2C19.0730",
+              "description": "Relaxing spring views."
+            },
+            {
+              "name": "Gallery hopping",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=47.6689%2C19.0740",
+              "description": "Local art and exhibitions."
+            }
+          ]
+        },
+        "summer": {
+          "event": "Szentendre Summer Festival",
+          "description": "Open-air concerts, exhibitions, and cultural events.",
+          "ideas": [
+            {
+              "name": "Evening concerts",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=47.6690%2C19.0750",
+              "description": "Live music in historic settings."
+            },
+            {
+              "name": "Boat trips on the Danube",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=47.6702%2C19.0730",
+              "description": "Scenic river experiences."
+            },
+            {
+              "name": "Outdoor dining",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=47.6690%2C19.0750",
+              "description": "Lively summer evenings."
+            }
+          ]
+        },
+        "autumn": {
+          "event": "Autumn Art Season",
+          "description": "Quieter atmosphere with strong cultural programs and exhibitions.",
+          "ideas": [
+            {
+              "name": "Museum visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=47.6689%2C19.0740",
+              "description": "Indoor culture and art."
+            },
+            {
+              "name": "Autumn riverside walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=47.6702%2C19.0730",
+              "description": "Golden colors along the Danube."
+            },
+            {
+              "name": "Café culture",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=47.6690%2C19.0750",
+              "description": "Relaxed local life."
+            }
+          ]
+        },
+        "winter": {
+          "event": "Advent in Szentendre",
+          "description": "Festive lights, small markets, and cozy streets.",
+          "ideas": [
+            {
+              "name": "Christmas market",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=47.6690%2C19.0750",
+              "description": "Seasonal food and crafts."
+            },
+            {
+              "name": "Museum hopping",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=47.6689%2C19.0740",
+              "description": "Warm indoor activities."
+            },
+            {
+              "name": "Quiet old town walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=47.6693%2C19.0755",
+              "description": "Peaceful winter atmosphere."
+            }
+          ]
+        }
+      },
+      "public_transport_tips": [
+        {
+          "tip": "Frequent suburban trains connect Szentendre with Budapest Batthyány Square.",
+          "link": "https://www.mavcsoport.hu/"
+        },
+        {
+          "tip": "Boat services operate between Budapest and Szentendre in warmer months.",
+          "link": "https://mahartpassnave.hu/"
+        },
+        {
+          "tip": "The town center is compact and best explored on foot.",
+          "link": "https://www.szentendre.hu/"
+        }
+      ],
+      "city_events": [
+        {
+          "name": "Szentendre Summer Festival",
+          "season": "summer",
+          "description": "Cultural festival with music, art, and performances.",
+          "website": "https://www.szentendre.hu/",
+          "dates": "June–August"
+        }
+      ],
+      "places": [
+        {
+          "name": "Margit Kovács Ceramic Museum",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=47.6697%2C19.0746",
+          "description": "Museum dedicated to one of Hungary’s most important ceramic artists."
+        },
+        {
+          "name": "Serbian Ecclesiastical Museum",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=47.6685%2C19.0762",
+          "description": "Museum presenting Serbian Orthodox religious art and history."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "Backstreets of the Old Town",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=47.6695%2C19.0765",
+          "description": "Quiet lanes away from crowds with authentic local charm."
+        },
+        {
+          "name": "Early-morning Danube promenade",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=47.6702%2C19.0730",
+          "description": "Calm river views before visitors arrive."
+        }
+      ]
+    },
+
+    {
+      "name": "Szeged",
+      "interests": [
+        {
+          "name": "Votive Church of Szeged (Szeged Cathedral)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=46.2486%2C20.1472",
+          "description": "Iconic twin-towered cathedral dominating Dóm Square, symbol of Szeged’s rebirth after the great flood of 1879."
+        },
+        {
+          "name": "Dóm Square (Dóm tér)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=46.2489%2C20.1478",
+          "description": "Monumental square surrounded by arcades, home to cultural events and the Open-Air Theatre."
+        },
+        {
+          "name": "Reök Palace",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=46.2544%2C20.1479",
+          "description": "Outstanding Art Nouveau palace hosting contemporary art exhibitions."
+        },
+        {
+          "name": "Szeged Zoo",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=46.2337%2C20.1145",
+          "description": "One of Hungary’s largest zoos, known for spacious habitats and conservation focus."
+        },
+        {
+          "name": "Tisza River Promenade",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=46.2525%2C20.1460",
+          "description": "Pleasant riverside area ideal for walking, cycling, and sunset views."
+        }
+      ],
+      "local_food_tip": "Try Szeged’s famous spicy fish soup (halászlé), paprika-based dishes, sausages, and local pastries. Szeged is the heart of Hungarian paprika culture.",
+      "full_day": {
+        "Morning": "Start at <a href=\"https://www.google.com/maps/search/?api=1&query=46.2486%2C20.1472\" target=\"_blank\" rel=\"noopener\">Szeged Cathedral</a> ☀️ and explore Dóm Square.",
+        "Afternoon": "Visit the <a href=\"https://www.google.com/maps/search/?api=1&query=46.2544%2C20.1479\" target=\"_blank\" rel=\"noopener\">Reök Palace</a> 🏛️, then enjoy lunch in the city center 🍽️.",
+        "Sunset": "Walk along the <a href=\"https://www.google.com/maps/search/?api=1&query=46.2525%2C20.1460\" target=\"_blank\" rel=\"noopener\">Tisza River Promenade</a> 🌅.",
+        "Night": "Dinner near Dóm Square ✨ or attend an evening performance in summer."
+      },
+      "seasons": {
+        "spring": {
+          "event": "Spring in Szeged",
+          "description": "Sunny weather and blooming streets give the city its nickname, the ‘City of Sunshine’.",
+          "ideas": [
+            {
+              "name": "City center walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=46.2495%2C20.1485",
+              "description": "Comfortable temperatures for sightseeing."
+            },
+            {
+              "name": "Tisza river walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=46.2525%2C20.1460",
+              "description": "Fresh spring air by the water."
+            },
+            {
+              "name": "Museum visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=46.2516%2C20.1492",
+              "description": "Cultural exploration indoors."
+            }
+          ]
+        },
+        "summer": {
+          "event": "Szeged Open-Air Festival",
+          "description": "Major open-air theater and music festival held in Dóm Square.",
+          "ideas": [
+            {
+              "name": "Open-air performances",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=46.2489%2C20.1478",
+              "description": "Theatre and opera under the stars."
+            },
+            {
+              "name": "River relaxation",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=46.2525%2C20.1460",
+              "description": "Evening walks by the Tisza."
+            },
+            {
+              "name": "Outdoor cafés",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=46.2535%2C20.1485",
+              "description": "Lively summer atmosphere."
+            }
+          ]
+        },
+        "autumn": {
+          "event": "Paprika Harvest Season",
+          "description": "Celebration of the region’s most famous product with food and cultural events.",
+          "ideas": [
+            {
+              "name": "Food festivals",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=46.2495%2C20.1485",
+              "description": "Local flavors and traditions."
+            },
+            {
+              "name": "Autumn city walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=46.2525%2C20.1460",
+              "description": "Mild weather and golden colors."
+            },
+            {
+              "name": "Gallery visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=46.2544%2C20.1479",
+              "description": "Strong cultural season."
+            }
+          ]
+        },
+        "winter": {
+          "event": "Advent in Szeged",
+          "description": "Festive lights, Christmas markets, and cozy cafés.",
+          "ideas": [
+            {
+              "name": "Christmas market",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=46.2495%2C20.1485",
+              "description": "Seasonal food and crafts."
+            },
+            {
+              "name": "Museum hopping",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=46.2516%2C20.1492",
+              "description": "Warm indoor culture."
+            },
+            {
+              "name": "Café culture",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=46.2530%2C20.1490",
+              "description": "Relaxed winter atmosphere."
+            }
+          ]
+        }
+      },
+      "public_transport_tips": [
+        {
+          "tip": "Trams and trolleybuses provide easy access across the city.",
+          "link": "https://www.szkt.hu/"
+        },
+        {
+          "tip": "The city center is flat and ideal for walking and cycling.",
+          "link": "https://www.szeged.hu/"
+        },
+        {
+          "tip": "Regional trains connect Szeged with Budapest.",
+          "link": "https://www.mavcsoport.hu/"
+        }
+      ],
+      "city_events": [
+        {
+          "name": "Szeged Open-Air Festival",
+          "season": "summer",
+          "description": "One of Central Europe’s most famous open-air theatre festivals.",
+          "website": "https://www.szegediszabadteri.hu/",
+          "dates": "July–August"
+        }
+      ],
+      "places": [
+        {
+          "name": "Móra Ferenc Museum",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=46.2516%2C20.1492",
+          "description": "Neoclassical museum showcasing archaeology, art, and local history."
+        },
+        {
+          "name": "Anna Thermal Bath",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=46.2538%2C20.1498",
+          "description": "Historic thermal bath and wellness complex."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "Evening Dóm Square",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=46.2489%2C20.1478",
+          "description": "Peaceful and atmospheric once daytime crowds leave."
+        },
+        {
+          "name": "Early-morning Tisza riverbank",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=46.2525%2C20.1460",
+          "description": "Quiet reflections and sunrise views over the river."
+        }
       ]
     }
+
   ]
 }

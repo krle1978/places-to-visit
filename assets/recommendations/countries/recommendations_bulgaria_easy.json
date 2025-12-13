@@ -1,523 +1,1031 @@
 {
   "name": "Bulgaria",
   "cities": [
-    {
-      "name": "Sofia",
+   {
+      "name": "Zenica",
       "interests": [
-        "History & Orthodox Churches 🏛️ — Golden domes, medieval frescoes and traces of ancient Serdica below modern streets.",
-        "Urban Culture & Street Art 🎨 — Creative zones, cafés, murals and vibrant day-to-night local life.",
-        "Mountain Views & City Parks 🌳 — Vitosha Mountain panoramas, quiet paths and green relaxation areas."
+        {
+          "name": "Vranduk Fortress",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=44.2197%2C17.9496",
+          "description": "Medieval fortress above the Bosna River, once a royal town of medieval Bosnia, offering strong historical atmosphere and views."
+        },
+        {
+          "name": "Zenica City Park (Kameni Most Area)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=44.2038%2C17.9079",
+          "description": "Central green space along the Bosna River, popular for walks, relaxation, and city events."
+        },
+        {
+          "name": "Sultan Ahmed Mosque (Čaršijska džamija)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=44.2034%2C17.9088",
+          "description": "Historic Ottoman-era mosque located in the old bazaar area of Zenica."
+        },
+        {
+          "name": "Bosna River Promenade",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=44.2045%2C17.9065",
+          "description": "Riverside walking paths connecting parks and the city center."
+        },
+        {
+          "name": "Museum of Zenica",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=44.2029%2C17.9081",
+          "description": "Local museum presenting archaeology, medieval Bosnia, and modern history of Zenica and central Bosnia."
+        }
       ],
-      "local_food_tip": "Try banitsa, shopska salad, tarator, grilled meats and traditional pastries — classic Balkan comfort flavors. Top places include <a href=\"https://www.google.com/maps/search/?api=1&query=Moma%20Bulgarian%20Food%20%26%20Wine%20Sofia\" target=\"_blank\" rel=\"noopener\">Moma</a>, <a href=\"https://www.google.com/maps/search/?api=1&query=Hadjidraganov%27s%20Houses%20Sofia\" target=\"_blank\" rel=\"noopener\">Hadjidraganov’s Houses</a> and the cozy <a href=\"https://www.google.com/maps/search/?api=1&query=Made%20in%20Home%20Sofia\" target=\"_blank\" rel=\"noopener\">Made in Home</a>.",
-      "full_day": "Morning: Begin at <a href=\"https://www.google.com/maps/search/?api=1&query=Alexander%20Nevsky%20Cathedral%20Sofia\" target=\"_blank\" rel=\"noopener\">Alexander Nevsky Cathedral</a>, admiring its gold-domed exterior and grand interior filled with icons and soft natural light. → Walk to the nearby <a href=\"https://www.google.com/maps/search/?api=1&query=Saint%20Sophia%20Church%20Sofia\" target=\"_blank\" rel=\"noopener\">St. Sophia Church</a>, one of the city's oldest standing landmarks, sitting above archaeological layers. → Continue toward the central area and stop for coffee around the Opera House or National Assembly.\n\nAfternoon: Visit the <a href=\"https://www.google.com/maps/search/?api=1&query=National%20Archaeological%20Museum%20Sofia\" target=\"_blank\" rel=\"noopener\">National Archaeological Museum</a>, housed in a former Ottoman mosque, where Thracian and Roman artifacts show Bulgaria’s early history. → Explore <a href=\"https://www.google.com/maps/search/?api=1&query=Vitosha%20Boulevard%20Sofia\" target=\"_blank\" rel=\"noopener\">Vitosha Boulevard</a> full of cafés, bakeries and mountain views at the far end. → Enjoy lunch at a traditional-style restaurant.\n\nLate Afternoon: Wander through the Serdica archaeological area near <a href=\"https://www.google.com/maps/search/?api=1&query=Serdika%20Metro%20Station%20Sofia\" target=\"_blank\" rel=\"noopener\">Serdika Station</a>, where Roman ruins lie beside modern buildings. → Relax in <a href=\"https://www.google.com/maps/search/?api=1&query=Borisova%20Gradina%20Sofia\" target=\"_blank\" rel=\"noopener\">Borisova Gradina</a>, the city’s most beloved park.\n\nSunset: Take a short taxi to a viewpoint below <a href=\"https://www.google.com/maps/search/?api=1&query=Vitosha%20Mountain%20Sofia\" target=\"_blank\" rel=\"noopener\">Vitosha Mountain</a> for a golden-hour panorama.\n\nNight: Return to the center for dinner and a calm walk through lit streets, cafés and squares.",
+      "local_food_tip": "Zenica cuisine reflects central Bosnia: ćevapi, burek and other pita, begova čorba, grilled meats, and homemade desserts. Cafés along the river are popular meeting spots.",
+      "full_day": {
+        "Morning": "Start with coffee in the city center ☀️ and visit the <a href=\"https://www.google.com/maps/search/?api=1&query=44.2029%2C17.9081\" target=\"_blank\" rel=\"noopener\">Museum of Zenica</a> 🏛️.",
+        "Afternoon": "Walk along the <a href=\"https://www.google.com/maps/search/?api=1&query=44.2045%2C17.9065\" target=\"_blank\" rel=\"noopener\">Bosna River promenade</a> 🌿 and have lunch with traditional dishes 🍽️.",
+        "Sunset": "Take a short trip to the <a href=\"https://www.google.com/maps/search/?api=1&query=44.2197%2C17.9496\" target=\"_blank\" rel=\"noopener\">Vranduk Fortress</a> 🌅 for panoramic river views.",
+        "Night": "Return to the city for dinner ✨ and an evening walk through the park area."
+      },
       "seasons": {
         "spring": {
-          "event": "Spring in Sofia",
+          "event": "Spring City Walks",
+          "description": "Mild weather and green riverbanks make Zenica pleasant for outdoor exploration.",
           "ideas": [
-            "🌸 Stroll under blooming trees in <a href=\"https://www.google.com/maps/search/?api=1&query=Borisova%20Gradina%20Sofia\" target=\"_blank\" rel=\"noopener\">Borisova Gradina</a> and surrounding parks.",
-            "📸 Great lighting conditions for photos of <a href=\"https://www.google.com/maps/search/?api=1&query=Alexander%20Nevsky%20Cathedral%20Sofia\" target=\"_blank\" rel=\"noopener\">Alexander Nevsky Cathedral</a> and Old Sofia streets.",
-            "☕ Outdoor cafés begin to fill along <a href=\"https://www.google.com/maps/search/?api=1&query=Vitosha%20Boulevard%20Sofia\" target=\"_blank\" rel=\"noopener\">Vitosha Boulevard</a>."
+            {
+              "name": "River walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=44.2045%2C17.9065",
+              "description": "Fresh air and greenery."
+            },
+            {
+              "name": "City park visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=44.2038%2C17.9079",
+              "description": "Relaxed spring atmosphere."
+            },
+            {
+              "name": "Museum visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=44.2029%2C17.9081",
+              "description": "Comfortable cultural afternoons."
+            }
           ]
         },
         "summer": {
-          "event": "Summer Life & Green Spaces",
+          "event": "Zenica Summer Events",
+          "description": "Warm days with lively cafés and outdoor cultural activities.",
           "ideas": [
-            "🌳 Picnics in <a href=\"https://www.google.com/maps/search/?api=1&query=Borisova%20Gradina%20Sofia\" target=\"_blank\" rel=\"noopener\">Borisova Gradina</a> or South Park.",
-            "🌅 Evenings along <a href=\"https://www.google.com/maps/search/?api=1&query=Vitosha%20Boulevard%20Sofia\" target=\"_blank\" rel=\"noopener\">Vitosha Boulevard</a> with street musicians and lively terraces.",
-            "⛰️ Cooler temperatures on <a href=\"https://www.google.com/maps/search/?api=1&query=Vitosha%20Mountain%20Sofia\" target=\"_blank\" rel=\"noopener\">Vitosha Mountain</a> — ideal for short hikes."
+            {
+              "name": "Evening river strolls",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=44.2045%2C17.9065",
+              "description": "Cooler evenings by the water."
+            },
+            {
+              "name": "Outdoor cafés",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=44.2038%2C17.9079",
+              "description": "Social city life."
+            },
+            {
+              "name": "Day trips to Vranduk",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=44.2197%2C17.9496",
+              "description": "History and nature combined."
+            }
           ]
         },
         "autumn": {
-          "event": "Autumn Culture & Colors",
+          "event": "Golden Central Bosnia",
+          "description": "Autumn colors surround the Bosna River valley.",
           "ideas": [
-            "🍁 Warm autumn tones along historical streets and parks.",
-            "🎭 Museum afternoons at places like the <a href=\"https://www.google.com/maps/search/?api=1&query=National%20Archaeological%20Museum%20Sofia\" target=\"_blank\" rel=\"noopener\">Archaeological Museum</a>.",
-            "📷 Soft golden light for photographing the cathedral and Old Town lanes."
+            {
+              "name": "Photography walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=44.2197%2C17.9496",
+              "description": "Warm autumn light."
+            },
+            {
+              "name": "Traditional food",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=44.2035%2C17.9085",
+              "description": "Hearty seasonal dishes."
+            },
+            {
+              "name": "Historic sites",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=44.2034%2C17.9088",
+              "description": "Quiet cultural visits."
+            }
           ]
         },
         "winter": {
-          "event": "Winter Lights & Comfort Food",
+          "event": "Quiet Winter City",
+          "description": "Calm rhythm with cafés and indoor culture during colder months.",
           "ideas": [
-            "❄️ Snow around <a href=\"https://www.google.com/maps/search/?api=1&query=Alexander%20Nevsky%20Cathedral%20Sofia\" target=\"_blank\" rel=\"noopener\">Nevsky Cathedral</a> gives the city a fairytale look.",
-            "🔥 Warm taverns serving hearty soups and grilled meats.",
-            "🎄 Christmas market stalls in the center during December."
+            {
+              "name": "Café culture",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=44.2038%2C17.9079",
+              "description": "Warm drinks and conversation."
+            },
+            {
+              "name": "Museum indoors",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=44.2029%2C17.9081",
+              "description": "Historical insight."
+            },
+            {
+              "name": "Short city walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=44.2040%2C17.9070",
+              "description": "Brisk winter strolls."
+            }
           ]
         }
       },
       "public_transport_tips": [
-        "🚇 Use the metro to reach main areas quickly; Serdika is the central hub.",
-        "🚍 Trams and buses cover neighborhoods not along the metro line.",
-        "🚶 The historic center is very walkable.",
-        "🎟️ Day passes are handy if you plan multiple rides."
+        {
+          "tip": "Zenica has good train connections to Sarajevo and Doboj.",
+          "link": "https://www.zfbh.ba/"
+        },
+        {
+          "tip": "Local buses connect the city center with suburbs and nearby villages.",
+          "link": "https://www.zenica.ba/"
+        },
+        {
+          "tip": "The city center and river area are compact and walkable.",
+          "link": "https://www.visitzenica.ba/"
+        }
       ],
       "city_events": [
         {
-          "name": "Sofia Summer Fest",
+          "name": "Zenica Summer Cultural Program",
           "season": "summer",
-          "description": "Open-air concerts, films and cultural evenings across central parks and boulevards."
+          "description": "Concerts, theater, and outdoor events held in parks and public squares.",
+          "website": "https://www.zenica.ba/",
+          "dates": "June–August"
+        }
+      ],
+      "places": [
+        {
+          "name": "Kameni Most (Stone Bridge)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=44.2041%2C17.9074",
+          "description": "Historic bridge and symbol of the city, connecting the park and old center."
         },
         {
-          "name": "Christmas Market Sofia",
-          "season": "winter",
-          "description": "Festive lights, traditional snacks, mulled wine and holiday atmosphere in the city center."
+          "name": "Bilino Polje Stadium",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=44.1998%2C17.9043",
+          "description": "National football stadium and major sports venue in Zenica."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "Early-morning riverbanks",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=44.2045%2C17.9065",
+          "description": "Quiet atmosphere before daily city activity."
+        },
+        {
+          "name": "Old streets near the mosque",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=44.2034%2C17.9088",
+          "description": "Local neighborhood feel with historic character."
         }
       ]
     },
+
     {
-      "name": "Plovdiv",
+      "name": "Burgas",
       "interests": [
-        "Ancient History & Roman Theatre 🏛️ — Layers of Thracian, Roman and medieval heritage.",
-        "Old Town Atmosphere & Art 🎨 — Revival-era houses, museums and cobblestone lanes.",
-        "Creative District Life ☕ — Indie cafés, street art and youthful, boho vibes."
+        {
+          "name": "Sea Garden (Morska Gradina)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=42.4976%2C27.4800",
+          "description": "Large seaside park stretching along the Black Sea coast, featuring gardens, sculptures, viewpoints, cafés, and beach access."
+        },
+        {
+          "name": "Burgas Central Beach",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=42.4971%2C27.4819",
+          "description": "Main city beach with fine sand, shallow water, and direct access from the Sea Garden."
+        },
+        {
+          "name": "Lake Atanasovsko",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=42.5403%2C27.4547",
+          "description": "Protected salt lake and bird reserve, famous for flamingos, salt pans, and therapeutic mud."
+        },
+        {
+          "name": "Archaeological Museum Burgas",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=42.4959%2C27.4727",
+          "description": "Museum showcasing ancient Thracian, Greek, and Roman artifacts from the Burgas region."
+        },
+        {
+          "name": "St. Anastasia Island",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=42.4506%2C27.5483",
+          "description": "Small island in Burgas Bay with a monastery, museum, and boat-accessible excursions."
+        }
       ],
-      "local_food_tip": "Try kebapche, mixed grill, banitsa and local sweets like baklava. Great places include <a href=\"https://www.google.com/maps/search/?api=1&query=Pavaj%20Plovdiv\" target=\"_blank\" rel=\"noopener\">Pavaj</a>, <a href=\"https://www.google.com/maps/search/?api=1&query=Smokini%20Plovdiv\" target=\"_blank\" rel=\"noopener\">Smokini</a> and <a href=\"https://www.google.com/maps/search/?api=1&query=Rahat%20Tepe%20Plovdiv\" target=\"_blank\" rel=\"noopener\">Rahat Tepe</a> on the hill with epic sunset views.",
-      "full_day": "Morning: Start at the <a href=\"https://www.google.com/maps/search/?api=1&query=Roman%20Theatre%20Plovdiv\" target=\"_blank\" rel=\"noopener\">Ancient Roman Theatre</a>, one of the best-preserved in the world, still used for concerts with views of the Rhodope Mountains. → Walk into <a href=\"https://www.google.com/maps/search/?api=1&query=Old%20Town%20Plovdiv\" target=\"_blank\" rel=\"noopener\">Plovdiv Old Town</a> to explore colorfully painted revival houses, small museums and artisan shops.\n\nAfternoon: Head down toward the lively <a href=\"https://www.google.com/maps/search/?api=1&query=Kapana%20District%20Plovdiv\" target=\"_blank\" rel=\"noopener\">Kapana Creative District</a>, full of murals, cafés, design boutiques and open-air seating. → Have lunch in Kapana and enjoy its youthful atmosphere. → Visit the <a href=\"https://www.google.com/maps/search/?api=1&query=Regional%20Ethnographic%20Museum%20Plovdiv\" target=\"_blank\" rel=\"noopener\">Ethnographic Museum</a>.\n\nLate Afternoon: Climb up <a href=\"https://www.google.com/maps/search/?api=1&query=Nebet%20Tepe%20Plovdiv\" target=\"_blank\" rel=\"noopener\">Nebet Tepe</a> for panoramic city views and golden-hour photography.\n\nNight: Return toward Kapana for drinks, live music or relaxed evening walks.",
+      "local_food_tip": "Try Black Sea seafood, grilled fish, shopska salad, kavarma, and Bulgarian yogurt desserts. Local wines and rakia are common with meals.",
+      "full_day": {
+        "Morning": "Start with a walk through the <a href=\"https://www.google.com/maps/search/?api=1&query=42.4976%2C27.4800\" target=\"_blank\" rel=\"noopener\">Sea Garden</a> ☀️ and enjoy coffee overlooking the sea.",
+        "Afternoon": "Relax at <a href=\"https://www.google.com/maps/search/?api=1&query=42.4971%2C27.4819\" target=\"_blank\" rel=\"noopener\">Burgas Central Beach</a> 🏖️, then visit the <a href=\"https://www.google.com/maps/search/?api=1&query=42.4959%2C27.4727\" target=\"_blank\" rel=\"noopener\">Archaeological Museum</a> 🏛️.",
+        "Sunset": "Head to <a href=\"https://www.google.com/maps/search/?api=1&query=42.5403%2C27.4547\" target=\"_blank\" rel=\"noopener\">Lake Atanasovsko</a> 🌅 to watch birds and sunset reflections.",
+        "Night": "Dinner along the seafront ✨ followed by an evening stroll through the illuminated Sea Garden."
+      },
       "seasons": {
         "spring": {
-          "event": "Spring Streets & Art",
+          "event": "Spring Sea Garden Season",
+          "description": "Mild temperatures, blooming flowers, and ideal walking conditions.",
           "ideas": [
-            "🌼 Perfect weather for exploring <a href=\"https://www.google.com/maps/search/?api=1&query=Old%20Town%20Plovdiv\" target=\"_blank\" rel=\"noopener\">Old Town</a> and its museums.",
-            "🎨 Street art walks and café hopping in the <a href=\"https://www.google.com/maps/search/?api=1&query=Kapana%20District%20Plovdiv\" target=\"_blank\" rel=\"noopener\">Kapana District</a>."
+            {
+              "name": "Sea Garden walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=42.4976%2C27.4800",
+              "description": "Fresh sea air and greenery."
+            },
+            {
+              "name": "Museum visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=42.4959%2C27.4727",
+              "description": "Comfortable cultural sightseeing."
+            },
+            {
+              "name": "Birdwatching",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=42.5403%2C27.4547",
+              "description": "Migratory birds return to the lakes."
+            }
           ]
         },
         "summer": {
-          "event": "Summer Nights & Roman Theatre",
+          "event": "Burgas Summer Festivals",
+          "description": "Hot weather, beach life, concerts, and open-air events.",
           "ideas": [
-            "🎶 Open-air shows at the <a href=\"https://www.google.com/maps/search/?api=1&query=Roman%20Theatre%20Plovdiv\" target=\"_blank\" rel=\"noopener\">Roman Theatre</a>.",
-            "🍺 Evening energy in Kapana’s cafés and bars."
+            {
+              "name": "Beach days",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=42.4971%2C27.4819",
+              "description": "Swimming and sunbathing."
+            },
+            {
+              "name": "Island excursions",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=42.4506%2C27.5483",
+              "description": "Boat trips to St. Anastasia Island."
+            },
+            {
+              "name": "Evening concerts",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=42.4976%2C27.4800",
+              "description": "Live music in the Sea Garden."
+            }
           ]
         },
         "autumn": {
-          "event": "Autumn Culture Walks",
+          "event": "Golden Black Sea Autumn",
+          "description": "Warm sea temperatures, fewer tourists, and golden light.",
           "ideas": [
-            "🍂 Golden tones around Old Town houses.",
-            "📸 Soft light from <a href=\"https://www.google.com/maps/search/?api=1&query=Nebet%20Tepe%20Plovdiv\" target=\"_blank\" rel=\"noopener\">Nebet Tepe</a> for sunset panoramas."
+            {
+              "name": "Seaside walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=42.4976%2C27.4800",
+              "description": "Quiet coastal atmosphere."
+            },
+            {
+              "name": "Local cuisine",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=42.4960%2C27.4750",
+              "description": "Seasonal seafood dishes."
+            },
+            {
+              "name": "Photography at lakes",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=42.5403%2C27.4547",
+              "description": "Autumn colors and birds."
+            }
           ]
         },
         "winter": {
-          "event": "Winter Charm & Warm Food",
+          "event": "Calm Coastal Winter",
+          "description": "Quiet seaside city with mild coastal winters.",
           "ideas": [
-            "🔥 Cozy taverns in Old Town serving hearty Bulgarian dishes.",
-            "🏛️ Museums and galleries ideal for cold days."
+            {
+              "name": "Sea Garden strolls",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=42.4976%2C27.4800",
+              "description": "Peaceful coastal walks."
+            },
+            {
+              "name": "Museum visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=42.4959%2C27.4727",
+              "description": "Indoor cultural exploration."
+            },
+            {
+              "name": "Café culture",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=42.4965%2C27.4745",
+              "description": "Warm drinks with sea views."
+            }
           ]
         }
       },
       "public_transport_tips": [
-        "🚍 Local buses efficiently connect neighborhoods.",
-        "🚶 Old Town and Kapana are best explored on foot.",
-        "🚕 Taxis are affordable for short distances."
+        {
+          "tip": "Burgas has an efficient bus network covering the city and nearby resorts.",
+          "link": "https://www.burgasbus.info/"
+        },
+        {
+          "tip": "Trains connect Burgas with Sofia, Varna, and other major Bulgarian cities.",
+          "link": "https://www.bdz.bg/"
+        },
+        {
+          "tip": "The city center and Sea Garden are flat and ideal for walking or cycling.",
+          "link": "https://www.gotoburgas.com/"
+        }
+      ],
+      "city_events": [
+        {
+          "name": "Spirit of Burgas (Music Festival)",
+          "season": "summer",
+          "description": "Major open-air music festival held near the Sea Garden.",
+          "website": "https://www.gotoburgas.com/",
+          "dates": "August (varies by year)"
+        }
+      ],
+      "places": [
+        {
+          "name": "Burgas Pier",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=42.4968%2C27.4838",
+          "description": "Modern pier offering panoramic views of the Black Sea and city skyline."
+        },
+        {
+          "name": "Ethnographic Museum Burgas",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=42.4949%2C27.4736",
+          "description": "Museum displaying traditional Bulgarian costumes and daily life."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "Early-morning Burgas Beach",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=42.4971%2C27.4819",
+          "description": "Quiet shoreline before the city wakes up."
+        },
+        {
+          "name": "Salt pans near Atanasovsko Lake",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=42.5420%2C27.4510",
+          "description": "Unique landscapes and birdlife away from crowds."
+        }
+      ]
+    },
+
+    {
+      "name": "Plovdiv",
+      "interests": [
+        {
+          "name": "Old Town Plovdiv",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=42.1506%2C24.7523",
+          "description": "Well-preserved historic district with colorful 19th-century houses, cobblestone streets, and panoramic hilltop views."
+        },
+        {
+          "name": "Roman Theatre of Plovdiv",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=42.1498%2C24.7520",
+          "description": "Ancient Roman amphitheater from the 1st century AD, still used today for concerts and performances."
+        },
+        {
+          "name": "Kapana Creative District",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=42.1509%2C24.7494",
+          "description": "Trendy neighborhood filled with street art, independent shops, cafés, and galleries."
+        },
+        {
+          "name": "Ancient Stadium of Philippopolis",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=42.1500%2C24.7478",
+          "description": "Partially exposed Roman stadium located beneath the modern pedestrian street."
+        },
+        {
+          "name": "Nebet Tepe",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=42.1519%2C24.7514",
+          "description": "One of Plovdiv’s ancient hills offering sunset views over the city."
+        }
+      ],
+      "local_food_tip": "Try Bulgarian specialties such as kavarma, shopska salad, banitsa, grilled meats, and local wines from the Thracian Valley.",
+      "full_day": {
+        "Morning": "Start in the <a href=\"https://www.google.com/maps/search/?api=1&query=42.1506%2C24.7523\" target=\"_blank\" rel=\"noopener\">Old Town</a> ☀️, visiting traditional houses and viewpoints, then explore the <a href=\"https://www.google.com/maps/search/?api=1&query=42.1498%2C24.7520\" target=\"_blank\" rel=\"noopener\">Roman Theatre</a> 🏛️.",
+        "Afternoon": "Walk through the <a href=\"https://www.google.com/maps/search/?api=1&query=42.1509%2C24.7494\" target=\"_blank\" rel=\"noopener\">Kapana District</a> 🎨 for lunch and local shops, then see the <a href=\"https://www.google.com/maps/search/?api=1&query=42.1500%2C24.7478\" target=\"_blank\" rel=\"noopener\">Ancient Stadium</a>.",
+        "Sunset": "Climb up to <a href=\"https://www.google.com/maps/search/?api=1&query=42.1519%2C24.7514\" target=\"_blank\" rel=\"noopener\">Nebet Tepe</a> 🌅 for panoramic city views.",
+        "Night": "Dinner in Kapana ✨ followed by an evening walk along the pedestrian main street."
+      },
+      "seasons": {
+        "spring": {
+          "event": "Spring Cultural Season",
+          "description": "Blooming gardens and mild weather highlight Plovdiv’s historic hills.",
+          "ideas": [
+            {
+              "name": "Old Town walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=42.1506%2C24.7523",
+              "description": "Comfortable sightseeing temperatures."
+            },
+            {
+              "name": "Outdoor cafés",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=42.1509%2C24.7494",
+              "description": "Relaxed spring atmosphere."
+            },
+            {
+              "name": "Museum visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=42.1490%2C24.7535",
+              "description": "Cultural afternoons."
+            }
+          ]
+        },
+        "summer": {
+          "event": "Plovdiv Summer Festivals",
+          "description": "Concerts and performances held in open-air Roman sites.",
+          "ideas": [
+            {
+              "name": "Roman Theatre concerts",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=42.1498%2C24.7520",
+              "description": "Live music in an ancient setting."
+            },
+            {
+              "name": "Evening Kapana life",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=42.1509%2C24.7494",
+              "description": "Lively nightlife."
+            },
+            {
+              "name": "Night walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=42.1500%2C24.7485",
+              "description": "Cooler summer evenings."
+            }
+          ]
+        },
+        "autumn": {
+          "event": "Golden Thracian Autumn",
+          "description": "Warm colors and wine harvest season in the region.",
+          "ideas": [
+            {
+              "name": "Hilltop viewpoints",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=42.1519%2C24.7514",
+              "description": "Soft autumn light."
+            },
+            {
+              "name": "Wine tastings",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=42.1550%2C24.7450",
+              "description": "Regional wine culture."
+            },
+            {
+              "name": "Historic walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=42.1506%2C24.7523",
+              "description": "Pleasant walking weather."
+            }
+          ]
+        },
+        "winter": {
+          "event": "Calm Historic Winter",
+          "description": "Quiet streets and cozy cafés with fewer visitors.",
+          "ideas": [
+            {
+              "name": "Museum visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=42.1490%2C24.7535",
+              "description": "Indoor cultural exploration."
+            },
+            {
+              "name": "Café culture",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=42.1509%2C24.7494",
+              "description": "Warm drinks in historic surroundings."
+            },
+            {
+              "name": "Short old town walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=42.1506%2C24.7523",
+              "description": "Atmospheric winter scenery."
+            }
+          ]
+        }
+      },
+      "public_transport_tips": [
+        {
+          "tip": "Plovdiv’s center is compact and best explored on foot.",
+          "link": "https://www.visitplovdiv.com/"
+        },
+        {
+          "tip": "Local buses connect the center with outer districts.",
+          "link": "https://www.plovdiv.bg/"
+        },
+        {
+          "tip": "Trains connect Plovdiv with Sofia and other major cities.",
+          "link": "https://www.bdz.bg/"
+        }
       ],
       "city_events": [
         {
           "name": "Kapana Fest",
           "season": "summer",
-          "description": "Street art, music and food stalls take over the creative district."
+          "description": "Creative festival celebrating art, design, music, and street culture.",
+          "website": "https://www.visitplovdiv.com/",
+          "dates": "June"
+        }
+      ],
+      "places": [
+        {
+          "name": "Ethnographic Museum Plovdiv",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=42.1511%2C24.7531",
+          "description": "Museum housed in a Revival-era mansion showcasing Bulgarian traditions."
         },
         {
-          "name": "Plovdiv Autumn Arts Week",
-          "season": "autumn",
-          "description": "Exhibitions and artistic events around Old Town and Kapana."
+          "name": "Tsar Simeon Garden",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=42.1491%2C24.7437",
+          "description": "Central landscaped park with fountains and walking paths."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "Early-morning Nebet Tepe",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=42.1519%2C24.7514",
+          "description": "Quiet panoramic views before crowds arrive."
+        },
+        {
+          "name": "Backstreets of Kapana",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=42.1515%2C24.7488",
+          "description": "Local creative energy away from main paths."
         }
       ]
     },
-    {
-      "name": "Varna",
-      "interests": [
-        "Beach & Black Sea Coast 🌊 — Sandy beaches, calm waters and relaxed seaside culture.",
-        "Maritime History & Museums ⚓ — Naval exhibits, archaeological treasures and seafront monuments.",
-        "Nightlife & Seaside Walks 🌃 — Bars, promenades and lively summer energy."
-      ],
-      "local_food_tip": "Enjoy fresh fish, seafood, tarator and coastal dishes by the sea. Try <a href=\"https://www.google.com/maps/search/?api=1&query=The%20Sea%20Terrace%20Varna\" target=\"_blank\" rel=\"noopener\">The Sea Terrace</a>, <a href=\"https://www.google.com/maps/search/?api=1&query=Staria%20Chinar%20Varna\" target=\"_blank\" rel=\"noopener\">Staria Chinar</a> and <a href=\"https://www.google.com/maps/search/?api=1&query=Happy%20Bar%20%26%20Grill%20Sea%20Garden%20Varna\" target=\"_blank\" rel=\"noopener\">Happy Sea Garden</a> for reliable meals.",
-      "full_day": "Morning: Walk the long paths of <a href=\"https://www.google.com/maps/search/?api=1&query=Sea%20Garden%20Varna\" target=\"_blank\" rel=\"noopener\">Sea Garden</a>, a huge park with monuments, playgrounds and sea viewpoints. → Stop for coffee near the promenade.\n\nAfternoon: Relax at <a href=\"https://www.google.com/maps/search/?api=1&query=Varna%20Beach\" target=\"_blank\" rel=\"noopener\">Varna Beach</a> or head north to <a href=\"https://www.google.com/maps/search/?api=1&query=Golden%20Sands%20Varna\" target=\"_blank\" rel=\"noopener\">Golden Sands</a> for more spacious sandy areas. → Visit the <a href=\"https://www.google.com/maps/search/?api=1&query=Varna%20Archaeological%20Museum\" target=\"_blank\" rel=\"noopener\">Archaeological Museum</a> to see the world’s oldest processed gold.\n\nLate Afternoon: Explore the <a href=\"https://www.google.com/maps/search/?api=1&query=Naval%20Museum%20Varna\" target=\"_blank\" rel=\"noopener\">Naval Museum</a> or walk along the lighthouse pier for breeze and views.\n\nNight: Enjoy seaside dinners or cocktails along the waterfront.",
-      "seasons": {
-        "spring": {
-          "event": "Spring Coast Walks",
-          "ideas": [
-            "🌿 Long walks through <a href=\"https://www.google.com/maps/search/?api=1&query=Sea%20Garden%20Varna\" target=\"_blank\" rel=\"noopener\">Sea Garden</a> with early flowers.",
-            "📷 Great lighting for Black Sea photos and relaxed promenades."
-          ]
-        },
-        "summer": {
-          "event": "Summer Beach Life",
-          "ideas": [
-            "🏖️ Swimming, sunbathing and evening walks along <a href=\"https://www.google.com/maps/search/?api=1&query=Varna%20Beach\" target=\"_blank\" rel=\"noopener\">Varna Beach</a>.",
-            "🎶 Outdoor bars and summer nightlife near the coast."
-          ]
-        },
-        "autumn": {
-          "event": "Autumn Calm Seas",
-          "ideas": [
-            "🍁 Softer sunlight over the Black Sea.",
-            "🍲 Warm seafood meals in coastal restaurants."
-          ]
-        },
-        "winter": {
-          "event": "Winter Sea Quiet",
-          "ideas": [
-            "🌊 Peaceful empty beaches and dramatic sea scenery.",
-            "🔥 Cozy cafés around the city center."
-          ]
-        }
-      },
-      "public_transport_tips": [
-        "🚍 Buses and trolleybuses connect the Sea Garden and beaches.",
-        "🚶 Promenades are best done on foot.",
-        "🚕 Taxis convenient for reaching distant resorts like Golden Sands."
-      ],
-      "city_events": [
-        {
-          "name": "Varna Summer Festival",
-          "season": "summer",
-          "description": "Classical concerts, dance performances and arts events across the city."
-        },
-        {
-          "name": "Seaside Nights Varna",
-          "season": "summer",
-          "description": "Beach parties, live music and summer nightlife."
-        }
-      ]
-    },
-    {
-      "name": "Veliko Tarnovo",
-      "interests": [
-        "Medieval History & Fortresses 🏰 — Former imperial capital with dramatic landscapes.",
-        "Old Town Charm & Photography 📸 — River cliffs, narrow streets and wooden houses.",
-        "Nature & Hilltop Walks 🌿 — Scenic hikes, river bends and sunset viewpoints."
-      ],
-      "local_food_tip": "Try grilled meats, banitsa, hearty soups and local cheeses — best enjoyed in traditional Old Town inns like <a href=\"https://www.google.com/maps/search/?api=1&query=Hadji%20Nikoli%20Inn%20Veliko%20Tarnovo\" target=\"_blank\" rel=\"noopener\">Hadji Nikoli Inn</a>, hilltop <a href=\"https://www.google.com/maps/search/?api=1&query=Rahat%20Tepe%20Veliko%20Tarnovo\" target=\"_blank\" rel=\"noopener\">Rahat Tepe</a> or riverside <a href=\"https://www.google.com/maps/search/?api=1&query=Restaurant%20Ego%20Veliko%20Tarnovo\" target=\"_blank\" rel=\"noopener\">Restaurant Ego</a>.",
-      "full_day": "Morning: Start at the majestic <a href=\"https://www.google.com/maps/search/?api=1&query=Tsarevets%20Fortress%20Veliko%20Tarnovo\" target=\"_blank\" rel=\"noopener\">Tsarevets Fortress</a>, walking through medieval gates, towers and viewpoints overlooking the Yantra River cliffs. → Continue to <a href=\"https://www.google.com/maps/search/?api=1&query=Trapezitsa%20Hill%20Veliko%20Tarnovo\" target=\"_blank\" rel=\"noopener\">Trapezitsa Hill</a>, another historical ridge with ruins and panoramas.\n\nAfternoon: Explore <a href=\"https://www.google.com/maps/search/?api=1&query=Samovodska%20Charshiya%20Veliko%20Tarnovo\" target=\"_blank\" rel=\"noopener\">Samovodska Charshiya</a>, a street of artisan workshops and craft boutiques. → Have lunch in a traditional inn.\n\nLate Afternoon: Walk along <a href=\"https://www.google.com/maps/search/?api=1&query=Gurko%20Street%20Veliko%20Tarnovo\" target=\"_blank\" rel=\"noopener\">Gurko Street</a>, one of the most photogenic areas with river-side houses. → Take sunset photos from <a href=\"https://www.google.com/maps/search/?api=1&query=Stambolov%20Bridge%20Veliko%20Tarnovo\" target=\"_blank\" rel=\"noopener\">Stambolov Bridge</a>.\n\nNight: Enjoy dinner with river views and a calm night walk in the illuminated old quarter.",
-      "seasons": {
-        "spring": {
-          "event": "Spring Hills & History",
-          "ideas": [
-            "🌿 Green valleys and fresh breezes around <a href=\"https://www.google.com/maps/search/?api=1&query=Tsarevets%20Fortress%20Veliko%20Tarnovo\" target=\"_blank\" rel=\"noopener\">Tsarevets</a>.",
-            "📷 Great contrast between cliffs and spring colors."
-          ]
-        },
-        "summer": {
-          "event": "Summer Fortress Nights",
-          "ideas": [
-            "🎆 Visiting evening shows at Tsarevets during festivals.",
-            "🌌 Warm nights ideal for riverside walks."
-          ]
-        },
-        "autumn": {
-          "event": "Autumn Golden Views",
-          "ideas": [
-            "🍁 Hills around the Yantra glowing with autumn colors.",
-            "🥘 Cozy meals in traditional inns after hilltop walks."
-          ]
-        },
-        "winter": {
-          "event": "Winter Fortresses & Quiet Streets",
-          "ideas": [
-            "❄️ Snowy rooftops and a calm medieval atmosphere.",
-            "🔥 Warming soups and local food in rustic restaurants."
-          ]
-        }
-      },
-      "public_transport_tips": [
-        "🚌 Intercity buses connect VT with Sofia, Varna and Plovdiv.",
-        "🚶 Old Town and Tsarevets are best explored on foot.",
-        "🚕 Taxis help with steep climbs."
-      ],
-      "city_events": [
-        {
-          "name": "Tsarevets Sound & Light Show",
-          "season": "summer",
-          "description": "Evening light and sound projections illuminate the fortress walls."
-        },
-        {
-          "name": "Autumn Wine & Culture Week",
-          "season": "autumn",
-          "description": "Wine tastings, performances and craft events through Old Town."
-        }
-      ]
-    },
-    {
-      "name": "Bansko",
-      "interests": [
-        "Mountain Nature & Hiking ⛰️ — Alpine lakes, forests and fresh air in the Pirin Mountains.",
-        "Ski & Winter Sports 🎿 — One of Bulgaria’s most popular winter resorts with modern facilities.",
-        "Traditional Village Life 🏡 — Stone houses, wooden balconies and charming old-town lanes."
-      ],
-      "local_food_tip": "Try kachamak, hearty stews, grilled meats, bean soups and homemade bread — warming mountain cuisine. Great local taverns include <a href=\"https://www.google.com/maps/search/?api=1&query=Mehana%20Dedo%20Pene%20Bansko\" target=\"_blank\" rel=\"noopener\">Mehana Dedo Pene</a>, <a href=\"https://www.google.com/maps/search/?api=1&query=Baryakova%20Mehana%20Bansko\" target=\"_blank\" rel=\"noopener\">Baryakova Mehana</a> and <a href=\"https://www.google.com/maps/search/?api=1&query=Momini%20Dvori%20Bansko\" target=\"_blank\" rel=\"noopener\">Momini Dvori</a>.",
-      "full_day": "Morning: Start your day in <a href=\"https://www.google.com/maps/search/?api=1&query=Old%20Town%20Bansko\" target=\"_blank\" rel=\"noopener\">Old Town</a>, walking through narrow stone-paved streets lined with traditional houses and small shops. → Visit the <a href=\"https://www.google.com/maps/search/?api=1&query=Holy%20Trinity%20Church%20Bansko\" target=\"_blank\" rel=\"noopener\">Holy Trinity Church</a>, known for its distinctive bell tower and peaceful courtyard. → Stop for a warm drink in a cozy café before heading up the mountain.\n\nAfternoon: Take the <a href=\"https://www.google.com/maps/search/?api=1&query=Bansko%20Gondola%20Station\" target=\"_blank\" rel=\"noopener\">Bansko Gondola</a> to reach the ski area or hiking zones. Enjoy panoramic views and choose between skiing, snowboarding or scenic walks depending on season. → Have lunch at a mountain hut or slope-side restaurant.\n\nLate Afternoon: Explore forest trails, lakes and lookout spots around the Pirin foothills. In summer, shorter hikes lead to crystal-clear lakes; in winter, visitors enjoy snowy landscapes and sunset views from upper slopes.\n\nNight: Return to town for a traditional dinner with live Balkan music, then wander through the calm evening streets lit by lantern-style lamps.",
-      "seasons": {
-        "spring": {
-          "event": "Spring Forest Hikes",
-          "ideas": [
-            "🌼 Easy-to-moderate hikes around Pirin foothills as snow melts.",
-            "📸 Fresh greenery around <a href=\"https://www.google.com/maps/search/?api=1&query=Old%20Town%20Bansko\" target=\"_blank\" rel=\"noopener\">Old Town Bansko</a> streets."
-          ]
-        },
-        "summer": {
-          "event": "Summer Mountain Retreat",
-          "ideas": [
-            "⛰️ Full-day hikes to lakes and viewpoints inside <a href=\"https://www.google.com/maps/search/?api=1&query=Pirin%20National%20Park\" target=\"_blank\" rel=\"noopener\">Pirin National Park</a>.",
-            "🌌 Starry nights in quiet mountain areas."
-          ]
-        },
-        "autumn": {
-          "event": "Autumn Colors in Pirin",
-          "ideas": [
-            "🍁 Golden forests around mid-altitude trails.",
-            "🥘 Cozy tavern meals after cool-weather walks."
-          ]
-        },
-        "winter": {
-          "event": "Winter Ski Season",
-          "ideas": [
-            "🎿 Skiing and snowboarding in the main area above town.",
-            "🔥 Warm dinners with traditional dishes after snowy days."
-          ]
-        }
-      },
-      "public_transport_tips": [
-        "🚍 Buses from Sofia go directly to Bansko.",
-        "🚶 The town is compact and walkable.",
-        "🚡 Gondola is the fastest way into the mountains."
-      ],
-      "city_events": [
-        {
-          "name": "Bansko Jazz Festival",
-          "season": "summer",
-          "description": "Outdoor concerts and musical performances drawing visitors from across Bulgaria."
-        },
-        {
-          "name": "Winter Ski Opening",
-          "season": "winter",
-          "description": "Kickoff of the ski season with events, music and winter celebrations."
-        }
-      ]
-    },
-    {
-      "name": "Burgas",
-      "interests": [
-        "Black Sea Coast & Beaches 🌊 — Long sandy beaches and peaceful sea views.",
-        "Lakes & Nature 🌿 — Wetlands, birdwatching and nature reserves around the city.",
-        "Promenades & Urban Parks 🌳 — Seaside paths, gardens and charming squares."
-      ],
-      "local_food_tip": "Fresh Black Sea fish, mussels, tarator, salads and light summer dishes dominate Burgas cuisine. Top places include <a href=\"https://www.google.com/maps/search/?api=1&query=Neptun%20Restaurant%20Burgas\" target=\"_blank\" rel=\"noopener\">Neptun</a>, <a href=\"https://www.google.com/maps/search/?api=1&query=Happy%20Bar%20%26%20Grill%20Burgas\" target=\"_blank\" rel=\"noopener\">Happy Bar & Grill</a> and seaside cafés near the pier.",
-      "full_day": "Morning: Start with a walk through the green lanes of <a href=\"https://www.google.com/maps/search/?api=1&query=Sea%20Garden%20Burgas\" target=\"_blank\" rel=\"noopener\">Sea Garden</a>, a spacious park stretching along the coastline. → Visit the open-air terraces and viewpoints overlooking the Black Sea.\n\nAfternoon: Relax at <a href=\"https://www.google.com/maps/search/?api=1&query=Burgas%20Beach\" target=\"_blank\" rel=\"noopener\">Burgas Beach</a> or take a short bus/taxi to <a href=\"https://www.google.com/maps/search/?api=1&query=Atanasovsko%20Lake%20Burgas\" target=\"_blank\" rel=\"noopener\">Atanasovsko Lake</a>, known for birdwatching and pink flamingos. → Have lunch at a beachside restaurant.\n\nLate Afternoon: Explore the central pedestrian zone around <a href=\"https://www.google.com/maps/search/?api=1&query=Alexandrovska%20Street%20Burgas\" target=\"_blank\" rel=\"noopener\">Alexandrovska Street</a>. → Enjoy coffee or ice cream in the shade.\n\nNight: Walk along the pier at sunset and dine at a waterfront restaurant.",
-      "seasons": {
-        "spring": {
-          "event": "Spring Coastal Breeze",
-          "ideas": [
-            "🌼 Relaxed walks in <a href=\"https://www.google.com/maps/search/?api=1&query=Sea%20Garden%20Burgas\" target=\"_blank\" rel=\"noopener\">Sea Garden</a> as flowers bloom.",
-            "🐦 Birdwatching around Atanasovsko Lake."
-          ]
-        },
-        "summer": {
-          "event": "Summer Beaches",
-          "ideas": [
-            "🏖️ Swimming, sunbathing and lively beach bars.",
-            "🌅 Golden sunsets from Burgas Pier."
-          ]
-        },
-        "autumn": {
-          "event": "Autumn Calm",
-          "ideas": [
-            "🍁 Cooler seaside walks ideal for photography.",
-            "🥘 Enjoy warm seafood meals with fewer crowds."
-          ]
-        },
-        "winter": {
-          "event": "Winter Sea Silence",
-          "ideas": [
-            "🌊 Stark and beautiful winter landscapes along the coast.",
-            "🔥 Warm cafés and quiet city evenings."
-          ]
-        }
-      },
-      "public_transport_tips": [
-        "🚍 Buses connect Burgas with nearby coastal areas.",
-        "🚶 The center and Sea Garden are walkable.",
-        "🚕 Taxis are convenient for lakes and distant beaches."
-      ],
-      "city_events": [
-        {
-          "name": "Burgas Sand Sculpture Festival",
-          "season": "summer",
-          "description": "Large artistic sand sculptures displayed near the Sea Garden."
-        },
-        {
-          "name": "Burgas Seafood Festival",
-          "season": "summer",
-          "description": "Food stalls and tasting events focused on fresh Black Sea cuisine."
-        }
-      ]
-    },
+
     {
       "name": "Ruse",
       "interests": [
-        "Danube River Views 🌊 — Riverside walks and wide open horizons.",
-        "Neo-Baroque Architecture 🏛️ — Elegant buildings earning Ruse the nickname 'Little Vienna'.",
-        "Museums & Culture 🎭 — History, art and preserved urban heritage."
+        {
+          "name": "Freedom Square (Ploshtad Svoboda)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=43.8486%2C25.9530",
+          "description": "Central square surrounded by elegant Neo-Baroque and Neo-Renaissance buildings, reflecting Ruse’s nickname as 'Little Vienna'."
+        },
+        {
+          "name": "Regional Historical Museum Ruse",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=43.8477%2C25.9520",
+          "description": "Main museum presenting Roman, medieval, and modern history of Ruse and the Danube region."
+        },
+        {
+          "name": "Danube River Promenade",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=43.8602%2C25.9566",
+          "description": "Riverside walking area offering views of the Danube and ships passing through."
+        },
+        {
+          "name": "Pantheon of National Revival Heroes",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=43.8437%2C25.9509",
+          "description": "Monument and memorial honoring Bulgarian national revival figures."
+        },
+        {
+          "name": "Ruse Opera House",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=43.8480%2C25.9528",
+          "description": "Historic cultural institution hosting opera, ballet, and concerts."
+        }
       ],
-      "local_food_tip": "Try grilled river fish, traditional soups, salads and pastries. Nice dining options include <a href=\"https://www.google.com/maps/search/?api=1&query=Happy%20Bar%20%26%20Grill%20Ruse\" target=\"_blank\" rel=\"noopener\">Happy Ruse</a>, <a href=\"https://www.google.com/maps/search/?api=1&query=Pontoon%20Restaurant%20Ruse\" target=\"_blank\" rel=\"noopener\">Pontoon Restaurant</a> on the river and small local taverns near the central square.",
-      "full_day": "Morning: Begin at <a href=\"https://www.google.com/maps/search/?api=1&query=Freedom%20Square%20Ruse\" target=\"_blank\" rel=\"noopener\">Freedom Square</a>, surrounded by elegant 19th-century buildings and leafy promenades. → Visit the <a href=\"https://www.google.com/maps/search/?api=1&query=Ruse%20Historical%20Museum\" target=\"_blank\" rel=\"noopener\">Regional Historical Museum</a>.\n\nAfternoon: Walk toward the riverbank and relax along the <a href=\"https://www.google.com/maps/search/?api=1&query=Danube%20River%20Ruse\" target=\"_blank\" rel=\"noopener\">Danube promenade</a>, enjoying open views and breezy walkways. → Have lunch at a riverside restaurant.\n\nLate Afternoon: Explore the architectural streets around the center, with beautifully decorated façades and cafés. → Stop in small galleries or shops.\n\nNight: Watch sunset along the Danube, then return to the center for dinner or evening drinks.",
+      "local_food_tip": "Try Danube fish dishes, shopska salad, kavarma, and Bulgarian pastries. Local cafés around Freedom Square are ideal for people-watching.",
+      "full_day": {
+        "Morning": "Begin with coffee at <a href=\"https://www.google.com/maps/search/?api=1&query=43.8486%2C25.9530\" target=\"_blank\" rel=\"noopener\">Freedom Square</a> ☀️ and explore the surrounding historic streets.",
+        "Afternoon": "Visit the <a href=\"https://www.google.com/maps/search/?api=1&query=43.8477%2C25.9520\" target=\"_blank\" rel=\"noopener\">Regional Historical Museum</a> 🏛️, then walk along the <a href=\"https://www.google.com/maps/search/?api=1&query=43.8602%2C25.9566\" target=\"_blank\" rel=\"noopener\">Danube promenade</a>.",
+        "Sunset": "Relax near the river 🌅 and enjoy views of the Danube at dusk.",
+        "Night": "Dinner in the city center ✨ or attend a performance at the <a href=\"https://www.google.com/maps/search/?api=1&query=43.8480%2C25.9528\" target=\"_blank\" rel=\"noopener\">Opera House</a>."
+      },
       "seasons": {
         "spring": {
-          "event": "Spring on the Danube",
+          "event": "Spring City Walks",
+          "description": "Mild temperatures highlight Ruse’s elegant architecture.",
           "ideas": [
-            "🌿 Riverside walks along the promenade.",
-            "📷 Soft colors over the Danube’s wide horizon."
+            {
+              "name": "Architectural walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=43.8486%2C25.9530",
+              "description": "Historic façades and wide boulevards."
+            },
+            {
+              "name": "Museum visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=43.8477%2C25.9520",
+              "description": "Comfortable cultural exploration."
+            },
+            {
+              "name": "River strolls",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=43.8602%2C25.9566",
+              "description": "Fresh spring air."
+            }
           ]
         },
         "summer": {
-          "event": "Summer Evenings",
+          "event": "Ruse Summer Cultural Events",
+          "description": "Outdoor concerts and festivals enliven the city.",
           "ideas": [
-            "🌅 Sunset views and outdoor dining by the river.",
-            "🎶 Occasional concerts and events in central squares."
+            {
+              "name": "Evening promenades",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=43.8602%2C25.9566",
+              "description": "Cooler air by the river."
+            },
+            {
+              "name": "Open-air concerts",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=43.8486%2C25.9530",
+              "description": "Music in public squares."
+            },
+            {
+              "name": "Danube boat views",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=43.8600%2C25.9580",
+              "description": "Lively river traffic."
+            }
           ]
         },
         "autumn": {
-          "event": "Autumn Architecture Walks",
+          "event": "Golden Danube Autumn",
+          "description": "Warm colors and calm atmosphere along the river.",
           "ideas": [
-            "🍁 Warm tones on elegant façades around Freedom Square.",
-            "🏛️ Museum visits in cooler weather."
+            {
+              "name": "Photography walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=43.8602%2C25.9566",
+              "description": "Soft autumn light."
+            },
+            {
+              "name": "Café culture",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=43.8486%2C25.9530",
+              "description": "Relaxed afternoons."
+            },
+            {
+              "name": "Historic center strolls",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=43.8475%2C25.9515",
+              "description": "Quiet city exploration."
+            }
           ]
         },
         "winter": {
-          "event": "Winter River Quiet",
+          "event": "Calm Danube Winter",
+          "description": "Quiet streets and cultural venues dominate winter in Ruse.",
           "ideas": [
-            "🌊 Peaceful river scenery.",
-            "🔥 Cozy cafés in the historic center."
+            {
+              "name": "Museum visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=43.8477%2C25.9520",
+              "description": "Indoor cultural time."
+            },
+            {
+              "name": "Opera and concerts",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=43.8480%2C25.9528",
+              "description": "Evening performances."
+            },
+            {
+              "name": "Café breaks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=43.8486%2C25.9530",
+              "description": "Warm drinks in historic cafés."
+            }
           ]
         }
       },
       "public_transport_tips": [
-        "🚍 Buses cover most areas including the riverbank.",
-        "🚶 The city center is walkable and compact.",
-        "🚗 Car is useful for visiting nature areas near the Danube."
+        {
+          "tip": "Ruse’s city center is compact and easy to explore on foot.",
+          "link": "https://www.gotobulgaria.com/"
+        },
+        {
+          "tip": "Local buses connect the center with outer districts.",
+          "link": "https://www.obshtinaruse.bg/"
+        },
+        {
+          "tip": "Ruse has international road and rail connections via the Danube Bridge to Romania.",
+          "link": "https://www.bdz.bg/"
+        }
       ],
       "city_events": [
         {
-          "name": "Ruse Carnival",
-          "season": "summer",
-          "description": "Parades, music and lively celebrations in the center."
+          "name": "March Music Days",
+          "season": "spring",
+          "description": "International classical music festival held annually in Ruse.",
+          "website": "https://www.marchmusicdays.com/",
+          "dates": "March–April"
+        }
+      ],
+      "places": [
+        {
+          "name": "Eco Museum with Aquarium",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=43.8472%2C25.9511",
+          "description": "Modern museum showcasing Danube ecosystems and wildlife."
         },
         {
-          "name": "Danube River Festival",
-          "season": "summer",
-          "description": "Cultural, music and food events celebrating the riverside atmosphere."
+          "name": "House-Museum of Zahari Stoyanov",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=43.8479%2C25.9499",
+          "description": "Birthplace and museum of a Bulgarian national revival figure."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "Early-morning Danube promenade",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=43.8602%2C25.9566",
+          "description": "Quiet river atmosphere before city activity begins."
+        },
+        {
+          "name": "Side streets near Freedom Square",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=43.8480%2C25.9518",
+          "description": "Less-crowded architectural gems."
         }
       ]
     },
+
     {
-      "name": "Nesebar",
+      "name": "Sofia",
       "interests": [
-        "UNESCO Old Town 🏛️ — Ancient churches and medieval architecture on a small peninsula.",
-        "Sea Views & Coastal Walks 🌊 — Charming seaside scenery and gentle promenades.",
-        "History & Archaeology 🏺 — Roman, Byzantine and Bulgarian treasures."
+        {
+          "name": "Alexander Nevsky Cathedral",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=42.6959%2C23.3320",
+          "description": "Iconic Orthodox cathedral and symbol of Sofia, known for its golden domes and impressive interior mosaics."
+        },
+        {
+          "name": "Serdica Archaeological Complex",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=42.6977%2C23.3219",
+          "description": "Open-air ruins of ancient Roman Serdica located beneath the modern city center."
+        },
+        {
+          "name": "Vitosha Boulevard",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=42.6897%2C23.3186",
+          "description": "Main pedestrian street lined with shops, cafés, and views toward Vitosha Mountain."
+        },
+        {
+          "name": "Boyana Church",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=42.6446%2C23.2662",
+          "description": "UNESCO World Heritage medieval church famous for its 13th-century frescoes."
+        },
+        {
+          "name": "Vitosha Mountain",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=42.5600%2C23.3000",
+          "description": "Mountain park next to the city offering hiking, nature escapes, and winter sports."
+        }
       ],
-      "local_food_tip": "Expect seafood, grilled fish, tarator, salads and homemade desserts. Great choices include <a href=\"https://www.google.com/maps/search/?api=1&query=Restaurant%20Kristian%20Nesebar\" target=\"_blank\" rel=\"noopener\">Kristian</a>, <a href=\"https://www.google.com/maps/search/?api=1&query=White%20Rose%20Restaurant%20Nesebar\" target=\"_blank\" rel=\"noopener\">White Rose</a> and eateries lining the Old Town coast.",
-      "full_day": "Morning: Enter <a href=\"https://www.google.com/maps/search/?api=1&query=Nesebar%20Old%20Town\" target=\"_blank\" rel=\"noopener\">Nesebar Old Town</a> via the causeway bridge, enjoying early morning light over the sea. → Explore the <a href=\"https://www.google.com/maps/search/?api=1&query=Church%20of%20St.%20Stephen%20Nesebar\" target=\"_blank\" rel=\"noopener\">Church of St. Stephen</a> and <a href=\"https://www.google.com/maps/search/?api=1&query=Church%20of%20Christ%20Pantocrator%20Nesebar\" target=\"_blank\" rel=\"noopener\">Christ Pantocrator Church</a>.\n\nAfternoon: Walk the narrow lanes filled with wooden houses, craft shops and cafés. → Have lunch at a sea-view restaurant.\n\nLate Afternoon: Visit small museums and archaeological remains scattered around the town. → Relax near the coastline with breezy sea views.\n\nNight: Watch sunset over the Black Sea and enjoy dinner surrounded by medieval walls and sea breeze.",
+      "local_food_tip": "Try Bulgarian classics such as shopska salad, banitsa, kavarma, grilled meats, and yogurt-based dishes. Traditional bakeries and cafés are found throughout the center.",
+      "full_day": {
+        "Morning": "Begin at the <a href=\"https://www.google.com/maps/search/?api=1&query=42.6959%2C23.3320\" target=\"_blank\" rel=\"noopener\">Alexander Nevsky Cathedral</a> ☀️, then walk through nearby historic streets.",
+        "Afternoon": "Explore the <a href=\"https://www.google.com/maps/search/?api=1&query=42.6977%2C23.3219\" target=\"_blank\" rel=\"noopener\">Serdica Archaeological Complex</a> 🏛️ and have lunch near <a href=\"https://www.google.com/maps/search/?api=1&query=42.6897%2C23.3186\" target=\"_blank\" rel=\"noopener\">Vitosha Boulevard</a> 🍽️.",
+        "Sunset": "Head toward <a href=\"https://www.google.com/maps/search/?api=1&query=42.5600%2C23.3000\" target=\"_blank\" rel=\"noopener\">Vitosha Mountain</a> 🌅 for city views and fresh air.",
+        "Night": "Dinner along Vitosha Boulevard ✨ followed by an evening walk in the lively center."
+      },
       "seasons": {
         "spring": {
-          "event": "Spring in Old Town",
+          "event": "Spring Cultural Season",
+          "description": "Parks bloom and the city becomes ideal for walking and outdoor cafés.",
           "ideas": [
-            "🌼 Peaceful streets before summer crowds.",
-            "📸 Crisp morning photos around ancient churches."
+            {
+              "name": "City park walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=42.6936%2C23.3350",
+              "description": "Green spaces and mild temperatures."
+            },
+            {
+              "name": "Museum visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=42.6964%2C23.3236",
+              "description": "Comfortable cultural sightseeing."
+            },
+            {
+              "name": "Historic center strolls",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=42.6970%2C23.3245",
+              "description": "Relaxed exploration."
+            }
           ]
         },
         "summer": {
-          "event": "Summer Seaside",
+          "event": "Sofia Summer Fest",
+          "description": "Open-air concerts, cinema nights, and cultural events across the city.",
           "ideas": [
-            "🏖️ Perfect for beach trips combined with Old Town sightseeing.",
-            "🌅 Long sunset walks by the sea."
+            {
+              "name": "Outdoor festivals",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=42.6900%2C23.3330",
+              "description": "Music and performances."
+            },
+            {
+              "name": "Evening boulevard life",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=42.6897%2C23.3186",
+              "description": "Lively cafés at night."
+            },
+            {
+              "name": "Mountain escapes",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=42.5600%2C23.3000",
+              "description": "Cooler air on Vitosha."
+            }
           ]
         },
         "autumn": {
-          "event": "Autumn Heritage Calm",
+          "event": "Golden Sofia Autumn",
+          "description": "Pleasant temperatures and colorful parks with fewer crowds.",
           "ideas": [
-            "🍁 Quieter alleys ideal for photography.",
-            "🍲 Warm seafood on breezy evenings."
+            {
+              "name": "City photography",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=42.6959%2C23.3320",
+              "description": "Warm autumn light."
+            },
+            {
+              "name": "Café culture",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=42.6897%2C23.3186",
+              "description": "Relaxed afternoons."
+            },
+            {
+              "name": "Cultural landmarks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=42.6446%2C23.2662",
+              "description": "Historic visits."
+            }
           ]
         },
         "winter": {
-          "event": "Winter Silence",
+          "event": "Winter & Vitosha Ski Season",
+          "description": "Snowy mountain scenery combined with urban winter life.",
           "ideas": [
-            "❄️ Very quiet atmosphere for historical exploration.",
-            "🔥 Cozy taverns open during the colder months."
+            {
+              "name": "Museum hopping",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=42.6964%2C23.3236",
+              "description": "Indoor cultural activities."
+            },
+            {
+              "name": "Skiing on Vitosha",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=42.5600%2C23.3000",
+              "description": "Winter sports close to the city."
+            },
+            {
+              "name": "Cozy cafés",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=42.6897%2C23.3186",
+              "description": "Warm drinks and atmosphere."
+            }
           ]
         }
       },
       "public_transport_tips": [
-        "🚍 Buses connect Nesebar with Sunny Beach and Burgas.",
-        "🚶 Old Town is fully walkable.",
-        "🚕 Taxis helpful for reaching distant beach areas."
+        {
+          "tip": "Sofia Metro is the fastest way to cross the city.",
+          "link": "https://www.metropolitan.bg/"
+        },
+        {
+          "tip": "Trams and buses cover all central and outer districts.",
+          "link": "https://www.sofiatraffic.bg/"
+        },
+        {
+          "tip": "The city center is compact and walkable.",
+          "link": "https://visitsofia.bg/"
+        }
       ],
       "city_events": [
         {
-          "name": "Nesebar International Folklore Festival",
-          "season": "summer",
-          "description": "Music, dance and cultural programs in the Old Town."
+          "name": "Sofia International Film Festival",
+          "season": "spring",
+          "description": "Major film festival attracting international and regional cinema.",
+          "website": "https://siff.bg/",
+          "dates": "March"
+        }
+      ],
+      "places": [
+        {
+          "name": "National Palace of Culture (NDK)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=42.6859%2C23.3195",
+          "description": "Largest cultural and congress center in Bulgaria."
         },
         {
-          "name": "Sea & Heritage Week",
-          "season": "summer",
-          "description": "Events celebrating Nesebar’s maritime and historical traditions."
+          "name": "National History Museum",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=42.6485%2C23.2731",
+          "description": "Museum presenting Bulgaria’s history from ancient to modern times."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "Early-morning Alexander Nevsky Square",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=42.6959%2C23.3320",
+          "description": "Quiet and atmospheric before daily crowds arrive."
+        },
+        {
+          "name": "Boyana neighborhood walks",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=42.6400%2C23.2600",
+          "description": "Green residential area near the mountain."
         }
       ]
     },
+
     {
-      "name": "Stara Zagora",
+      "name": "Varna",
       "interests": [
-        "History & Roman Ruins 🏛️ — Ancient streets, walls and archaeological sites.",
-        "Parks & Lakes 🌳 — Relaxed green areas and family-friendly paths.",
-        "City Culture & Cafés ☕ — A balanced mix of historic and modern Bulgarian life."
+        {
+          "name": "Sea Garden (Primorski Park)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=43.2060%2C27.9236",
+          "description": "Large coastal park overlooking the Black Sea, featuring walking paths, viewpoints, cafés, and cultural landmarks."
+        },
+        {
+          "name": "Varna Archaeological Museum",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=43.2047%2C27.9181",
+          "description": "Museum housing the famous Varna Gold Treasure, the oldest processed gold in the world."
+        },
+        {
+          "name": "Roman Baths of Varna",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=43.2007%2C27.9192",
+          "description": "Impressive ruins of one of the largest Roman bath complexes in the Balkans."
+        },
+        {
+          "name": "Varna Central Beach",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=43.2049%2C27.9257",
+          "description": "Popular sandy beach located directly below the Sea Garden cliffs."
+        },
+        {
+          "name": "Aladzha Monastery",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=43.2492%2C27.9516",
+          "description": "Medieval rock monastery carved into limestone cliffs north of the city."
+        }
       ],
-      "local_food_tip": "Try grilled meats, hearty soups, fresh salads and pastries. Recommended spots include <a href=\"https://www.google.com/maps/search/?api=1&query=Uniqato%20Restaurant%20Stara%20Zagora\" target=\"_blank\" rel=\"noopener\">Uniqato</a>, <a href=\"https://www.google.com/maps/search/?api=1&query=Restaurant%20Shtastlivetsa%20Stara%20Zagora\" target=\"_blank\" rel=\"noopener\">Shtastlivetsa</a> and various taverns around the pedestrian center.",
-      "full_day": "Morning: Visit the <a href=\"https://www.google.com/maps/search/?api=1&query=Regional%20History%20Museum%20Stara%20Zagora\" target=\"_blank\" rel=\"noopener\">Regional History Museum</a> and the Roman <a href=\"https://www.google.com/maps/search/?api=1&query=Augusta%20Traiana%20Forum%20Stara%20Zagora\" target=\"_blank\" rel=\"noopener\">Augusta Traiana</a> ruins nearby. → Walk through pedestrian streets and stop for coffee.\n\nAfternoon: Explore parks like <a href=\"https://www.google.com/maps/search/?api=1&query=Ayas%20Bunar%20Park%20Stara%20Zagora\" target=\"_blank\" rel=\"noopener\">Ayazmo Park</a>, offering viewpoints and long forest paths. → Have lunch in the center.\n\nLate Afternoon: Visit small galleries, shops and squares. → Relax by <a href=\"https://www.google.com/maps/search/?api=1&query=Zagorka%20Lake%20Stara%20Zagora\" target=\"_blank\" rel=\"noopener\">Lake Zagorka</a>.\n\nNight: Enjoy dinner in one of the modern restaurants, then stroll through the illuminated pedestrian zone.",
+      "local_food_tip": "Try Black Sea seafood, fried sprats, shopska salad, kavarma, and Bulgarian desserts. Fresh fish restaurants near the port are especially popular.",
+      "full_day": {
+        "Morning": "Start with a walk through the <a href=\"https://www.google.com/maps/search/?api=1&query=43.2060%2C27.9236\" target=\"_blank\" rel=\"noopener\">Sea Garden</a> ☀️ and enjoy coffee with sea views.",
+        "Afternoon": "Visit the <a href=\"https://www.google.com/maps/search/?api=1&query=43.2047%2C27.9181\" target=\"_blank\" rel=\"noopener\">Archaeological Museum</a> 🏛️, then relax at <a href=\"https://www.google.com/maps/search/?api=1&query=43.2049%2C27.9257\" target=\"_blank\" rel=\"noopener\">Central Beach</a> 🏖️.",
+        "Sunset": "Walk past the <a href=\"https://www.google.com/maps/search/?api=1&query=43.2007%2C27.9192\" target=\"_blank\" rel=\"noopener\">Roman Baths</a> 🌅 and head toward the port area.",
+        "Night": "Dinner near the marina ✨ followed by an evening stroll along the seaside."
+      },
       "seasons": {
         "spring": {
-          "event": "Spring Walks",
+          "event": "Spring Sea Garden Season",
+          "description": "Mild weather and blooming greenery make Varna ideal for walking.",
           "ideas": [
-            "🌸 Fresh greenery in Ayazmo Park.",
-            "🏛️ Comfortable weather for exploring Roman ruins."
+            {
+              "name": "Park walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=43.2060%2C27.9236",
+              "description": "Fresh sea air and flowers."
+            },
+            {
+              "name": "Museum visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=43.2047%2C27.9181",
+              "description": "Comfortable cultural sightseeing."
+            },
+            {
+              "name": "City center strolls",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=43.2040%2C27.9165",
+              "description": "Relaxed urban walks."
+            }
           ]
         },
         "summer": {
-          "event": "Summer City Life",
+          "event": "Varna Summer International Festival",
+          "description": "Major cultural festival with concerts, opera, and ballet performances.",
           "ideas": [
-            "🌳 Afternoon shade in parks.",
-            "🌃 Lively evenings in the city center."
+            {
+              "name": "Beach days",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=43.2049%2C27.9257",
+              "description": "Swimming and sunbathing."
+            },
+            {
+              "name": "Evening concerts",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=43.2060%2C27.9236",
+              "description": "Live performances in open-air venues."
+            },
+            {
+              "name": "Seaside nightlife",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=43.2045%2C27.9248",
+              "description": "Bars and cafés by the sea."
+            }
           ]
         },
         "autumn": {
-          "event": "Autumn Colors",
+          "event": "Golden Black Sea Autumn",
+          "description": "Warm sea temperatures and fewer tourists.",
           "ideas": [
-            "🍁 Beautiful fall foliage around Lake Zagorka.",
-            "🥘 Warm meals after chilly walks."
+            {
+              "name": "Coastal walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=43.2060%2C27.9236",
+              "description": "Quiet seaside atmosphere."
+            },
+            {
+              "name": "Historic sightseeing",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=43.2007%2C27.9192",
+              "description": "Exploring ancient sites."
+            },
+            {
+              "name": "Local cuisine",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=43.2035%2C27.9200",
+              "description": "Seasonal seafood dishes."
+            }
           ]
         },
         "winter": {
-          "event": "Winter Calm",
+          "event": "Calm Coastal Winter",
+          "description": "Quiet seaside city with mild winters and cultural life.",
           "ideas": [
-            "❄️ Quiet archaeological sites in winter scenery.",
-            "🔥 Cozy cafés around the pedestrian zones."
+            {
+              "name": "Museum visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=43.2047%2C27.9181",
+              "description": "Indoor cultural exploration."
+            },
+            {
+              "name": "Sea Garden walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=43.2060%2C27.9236",
+              "description": "Peaceful winter strolls."
+            },
+            {
+              "name": "Café culture",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=43.2042%2C27.9189",
+              "description": "Warm drinks with sea views."
+            }
           ]
         }
       },
       "public_transport_tips": [
-        "🚍 Buses serve all major districts.",
-        "🚶 The center is easy to explore on foot.",
-        "🚗 A car helps for reaching Ayazmo Park’s upper areas."
+        {
+          "tip": "Buses cover the entire city and connect Varna with nearby resorts.",
+          "link": "https://www.varnatraffic.com/"
+        },
+        {
+          "tip": "Varna Airport offers seasonal and year-round international flights.",
+          "link": "https://varna-airport.bg/"
+        },
+        {
+          "tip": "The city center and Sea Garden are flat and walkable.",
+          "link": "https://visit.varna.bg/"
+        }
       ],
       "city_events": [
         {
-          "name": "Stara Zagora Festival of Arts",
+          "name": "Varna Summer International Music Festival",
           "season": "summer",
-          "description": "Concerts, theater and cultural events across the city."
+          "description": "Long-running cultural festival featuring opera, ballet, and classical music.",
+          "website": "https://varnasummerfest.org/",
+          "dates": "June–August"
+        }
+      ],
+      "places": [
+        {
+          "name": "Varna Cathedral (Dormition of the Mother of God)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=43.2029%2C27.9148",
+          "description": "Main Orthodox cathedral and symbol of the city center."
         },
         {
-          "name": "Autumn Wine Days",
-          "season": "autumn",
-          "description": "Wine tastings and local cuisine festivities around the center."
+          "name": "Naval Museum",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=43.2031%2C27.9209",
+          "description": "Museum dedicated to Bulgaria’s maritime history."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "Early-morning Central Beach",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=43.2049%2C27.9257",
+          "description": "Quiet shoreline before crowds arrive."
+        },
+        {
+          "name": "Forest paths near Aladzha Monastery",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=43.2492%2C27.9516",
+          "description": "Peaceful nature trails away from the city."
         }
       ]
     }
+
   ]
 }

@@ -1,404 +1,845 @@
 {
   "name": "Portugal",
   "cities": [
+{
+  "name": "Wrocław",
+  "interests": [
     {
-      "name": "Lisbon",
-      "interests": [
-        "Historic Streets & Old Town 🎭",
-        "Scenic Viewpoints 🌅",
-        "Beaches & Sea Views 🌊"
-      ],
-      "local_food_tip": "Try a fresh pastel de nata, caldo verde, grilled vegetables and baked breads with olive oil — Lisbon’s comfort classics.",
-      "full_day": "Morning: Explore Sé Cathedral’s exterior and wander Alfama’s narrow, colorful alleys. Enjoy a pastel de nata in a small local café. → Afternoon: Head to Belém for riverside views of Belém Tower and Jerónimos Monastery’s stunning façade. Have a Portuguese lunch with veggie-friendly options and take a relaxing walk along the Tagus promenade. → Sunset: Watch the city glow from Miradouro da Senhora do Monte. → Night: Stroll Praça do Comércio and the riverfront for soft lights, calm air and dessert shops.",
-      "seasons": {
-        "spring": {
-          "event": "Spring in Lisbon",
-          "ideas": [
-            "Alfama blossoms & bright tiled streets.",
-            "Mild tram rides with scenic hill views.",
-            "Riverside terraces along the Tagus."
-          ]
-        },
-        "summer": {
-          "event": "Sunny Summer Days",
-          "ideas": [
-            "Early mornings at the Belém waterfront.",
-            "Fresh juices in Alfama cool streets.",
-            "Golden-hour views across Lisbon’s hills."
-          ]
-        },
-        "autumn": {
-          "event": "Cozy Autumn Light",
-          "ideas": [
-            "Warm colors in Graça and Alfama.",
-            "Craft shops with autumn-themed art.",
-            "Pastel de nata with hot drinks by the river."
-          ]
-        },
-        "winter": {
-          "event": "Winter Sun",
-          "locations": [
-            "Soft sunlight over Old Town rooftops.",
-            "Hot chocolate in Baixa cafés."
-          ]
-        }
-      },
-      "public_transport_tips": [
-        "Trams are perfect for hills but can be crowded — go earlier for easier rides.",
-        "Metro connects most neighborhoods quickly.",
-        "Walking in Alfama is best — streets are narrow and charming.",
-        "Use the Lisboa Viva or Viva Viagem card for cheaper rides."
-      ],
-      "city_events": [
+      "name": "Market Square (Rynek)",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=51.1097%2C17.0317",
+      "description": "One of the largest market squares in Europe, surrounded by colorful townhouses, cafés, and historic buildings."
+    },
+    {
+      "name": "Cathedral Island (Ostrów Tumski)",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=51.1145%2C17.0465",
+      "description": "The oldest part of Wrocław, known for Gothic cathedrals, cobbled streets, and evening gas-lamp lighting."
+    },
+    {
+      "name": "Centennial Hall",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=51.1068%2C17.0775",
+      "description": "A UNESCO World Heritage Site and a masterpiece of early modernist architecture."
+    }
+  ],
+  "local_food_tip": "Try pierogi, bigos, Silesian dumplings (kluski śląskie), and local cakes in traditional Polish restaurants.",
+  "full_day": {
+    "morning": "Start at <a href=\"https://www.google.com/maps/search/?api=1&query=51.1097%2C17.0317\" target=\"_blank\" rel=\"noopener\">Wrocław Market Square</a> ☕, exploring the Town Hall and nearby streets.",
+    "afternoon": "Walk to <a href=\"https://www.google.com/maps/search/?api=1&query=51.1145%2C17.0465\" target=\"_blank\" rel=\"noopener\">Cathedral Island</a> ⛪ and stroll along the Odra River.",
+    "sunset": "Visit <a href=\"https://www.google.com/maps/search/?api=1&query=51.1068%2C17.0775\" target=\"_blank\" rel=\"noopener\">Centennial Hall</a> 🌅 and the nearby fountains.",
+    "night": "Enjoy dinner around the Market Square 🍽️ or an evening walk across Wrocław’s bridges."
+  },
+  "seasons": {
+    "spring": {
+      "event": "Spring City Walk Season",
+      "description": "Blooming parks and mild weather make spring ideal for exploring on foot.",
+      "ideas": [
         {
-          "name": "Santo António Festival",
-          "season": "summer",
-          "description": "Colorful parades, decorations and lively neighborhood celebrations."
+          "name": "River Walks",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=51.1125%2C17.0365",
+          "description": "Relaxed strolls along the Odra River."
         },
         {
-          "name": "Lisbon Book Fair",
-          "season": "spring",
-          "description": "Park-based book event with local authors and cozy stands."
+          "name": "Botanical Garden",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=51.1155%2C17.0460",
+          "description": "Colorful flowers and peaceful paths."
         },
         {
-          "name": "Christmas Markets",
-          "season": "winter",
-          "description": "Holiday lights, stalls and sweet treats around the historic center."
+          "name": "Old Town Sightseeing",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=51.1097%2C17.0317",
+          "description": "Comfortable temperatures and lively cafés."
         }
       ]
     },
-    {
-      "name": "Porto",
-      "interests": [
-        "Riverside Views 🌊",
-        "Historic Streets 🎭",
-        "Scenic Viewpoints 🌅"
-      ],
-      "local_food_tip": "Taste veggie caldo verde, warm pastries and Mediterranean-style rice and veggie plates — Porto comfort food.",
-      "full_day": "Morning: Stroll Ribeira’s riverfront and walk up to the Sé Cathedral’s exterior for iconic views. Grab a pastry or juice by the Douro. → Afternoon: Cross the Dom Luís I Bridge (upper level) for huge panoramas, explore São Bento tiles, Livraria Lello’s exterior and Rua das Flores art street. Enjoy a veggie-friendly lunch. → Sunset: Relax at Jardim do Morro’s famous golden-hour viewpoint. → Night: Walk Gaia’s riverside promenade for dessert and calm reflections on the water.",
-      "seasons": {
-        "spring": {
-          "event": "Spring in Porto",
-          "ideas": [
-            "Flowering riverfront views.",
-            "Light walks through Miragaia.",
-            "Outdoor cafés with mild weather."
-          ]
-        },
-        "summer": {
-          "event": "Sunny Douro Days",
-          "ideas": [
-            "Ribeira early-morning breezes.",
-            "Fruit bowls along the waterfront.",
-            "Long sunsets from Jardim do Morro."
-          ]
-        },
-        "autumn": {
-          "event": "Autumn Charm",
-          "ideas": [
-            "Golden Douro river reflections.",
-            "Craft shops in Rua das Flores.",
-            "Warm pastries on cool afternoons."
-          ]
-        },
-        "winter": {
-          "event": "Winter Lights",
-          "locations": [
-            "Festive decorations in Aliados Avenue.",
-            "Hot chocolate by the Douro."
-          ]
-        }
-      },
-      "public_transport_tips": [
-        "The metro is great for long distances, especially across the river.",
-        "Ribeira is best explored on foot — narrow, scenic streets.",
-        "Trams along the river offer classic views.",
-        "Andante Card makes rides cheaper and simple."
-      ],
-      "city_events": [
+    "summer": {
+      "event": "Wrocław Summer Festivals",
+      "description": "Summer brings open-air events, long evenings, and vibrant street life.",
+      "ideas": [
         {
-          "name": "São João Festival",
-          "season": "summer",
-          "description": "Colorful decorations, music and fun coastal energy."
+          "name": "Multimedia Fountain Shows",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=51.1075%2C17.0785",
+          "description": "Music and light shows near Centennial Hall."
         },
         {
-          "name": "Porto Marathon",
-          "season": "autumn",
-          "description": "Scenic routes along the Douro with lots of cheer zones."
+          "name": "Boat Cruises on the Odra",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=51.1115%2C17.0335",
+          "description": "See the city from the water."
         },
         {
-          "name": "Christmas in Porto",
-          "season": "winter",
-          "description": "Citywide lights, markets and cozy riverfront evenings."
+          "name": "Evening Market Square Visits",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=51.1097%2C17.0317",
+          "description": "Lively nightlife and dining."
         }
       ]
     },
-    {
-      "name": "Braga",
-      "interests": [
-        "Historic Streets 🎭",
-        "Nature & Parks 🌿",
-        "Scenic Viewpoints 🌅"
-      ],
-      "local_food_tip": "Try northern Portuguese veggie caldo verde, roasted vegetables, sweet pastries and salads — simple but comforting.",
-      "full_day": "Morning: Walk Braga Cathedral’s exterior and explore the old town’s tiled façades. Visit colorful gardens like Santa Barbara. → Afternoon: Head to Bom Jesus do Monte for its iconic staircase, lakes and viewpoints. Enjoy a light Minho-style lunch. → Sunset: Watch golden colors from Sameiro Sanctuary overlooking hills and forests. → Night: Stroll Avenida da Liberdade with fountains, dessert cafés and peaceful city lights.",
-      "seasons": {
-        "spring": {
-          "event": "Spring Bloom",
-          "ideas": [
-            "Santa Barbara Garden in full flower.",
-            "Shady Bom Jesus forest paths.",
-            "Outdoor cafés in small plazas."
-          ]
-        },
-        "summer": {
-          "event": "Northern Sunshine",
-          "ideas": [
-            "Early hilltop visits to Bom Jesus.",
-            "Cold juices in Braga’s center.",
-            "Warm sunsets from Sameiro."
-          ]
-        },
-        "autumn": {
-          "event": "Autumn Calm",
-          "ideas": [
-            "Golden leaves on forest trails.",
-            "Artisanal shops with cozy vibes.",
-            "Warm pastries in late afternoon."
-          ]
-        },
-        "winter": {
-          "event": "Winter Quiet",
-          "locations": [
-            "Holiday lights along Avenida da Liberdade.",
-            "Hot chocolate near the Cathedral."
-          ]
-        }
-      },
-      "public_transport_tips": [
-        "Local buses connect Braga to Bom Jesus and Sameiro easily.",
-        "The old town is best explored on foot.",
-        "Taxis/ride apps are cheap for hilltop areas.",
-        "The train works great for regional connections."
-      ],
-      "city_events": [
+    "autumn": {
+      "event": "Autumn Cultural Season",
+      "description": "Cooler days and golden trees create a calm and cozy atmosphere.",
+      "ideas": [
         {
-          "name": "Holy Week Celebrations",
-          "season": "spring",
-          "description": "Braga’s most famous tradition with cultural performances."
+          "name": "Cathedral Island Walks",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=51.1145%2C17.0465",
+          "description": "Quiet streets and historic charm."
         },
         {
-          "name": "Braga Summer Nights",
-          "season": "summer",
-          "description": "Concerts, open-air shows and lively streets."
+          "name": "Museum Visits",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=51.1085%2C17.0325",
+          "description": "Ideal for indoor culture."
         },
         {
-          "name": "Christmas in Braga",
-          "season": "winter",
-          "description": "Lights, markets and cozy decorated squares."
+          "name": "Local Dining",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=51.1105%2C17.0305",
+          "description": "Seasonal Polish cuisine."
         }
       ]
     },
-    {
-      "name": "Funchal (Madeira)",
-      "interests": [
-        "Nature & Gardens 🌿",
-        "Scenic Viewpoints 🌅",
-        "Beaches & Sea Views 🌊"
-      ],
-      "local_food_tip": "Taste sweet potatoes, veggie skewers, tropical fruits and soups — delicious island comfort food.",
-      "full_day": "Morning: Explore the Botanical Garden with tropical plants and bay views. Take the cable car for panoramic scenery, then stroll Monte’s peaceful upper town with a fresh hilltop café break. → Afternoon: Wander Funchal Old Town’s painted-door streets and browse fruit and flower stalls. Have a veggie-friendly island lunch and relax on the ocean promenade. → Sunset: Watch warm colors from Pico dos Barcelos viewpoint. → Night: Enjoy a calm marina walk with gelato, juices and ocean reflections.",
-      "seasons": {
-        "spring": {
-          "event": "Spring Bloom",
-          "ideas": [
-            "Botanical Garden at peak color.",
-            "Fresh-air Monte hill walks.",
-            "Tropical fruit bowls everywhere."
-          ]
-        },
-        "summer": {
-          "event": "Island Sunshine",
-          "ideas": [
-            "Sea-view promenade strolls.",
-            "Cold smoothies in the Marina.",
-            "Sunsets glowing across the bay."
-          ]
-        },
-        "autumn": {
-          "event": "Autumn Calm",
-          "ideas": [
-            "Golden light in Old Town.",
-            "Artisan craft corners with island charm.",
-            "Warm pastries at hill viewpoints."
-          ]
-        },
-        "winter": {
-          "event": "Winter Sun",
-          "locations": [
-            "Mild oceanfront walks.",
-            "Christmas lights across the bay.",
-            "Hot drinks on the promenade."
-          ]
-        }
-      },
-      "public_transport_tips": [
-        "Cable cars are perfect for reaching Monte.",
-        "Local buses cover most areas cheaply.",
-        "Walking in Old Town is ideal — small and scenic.",
-        "Promenade paths are wide and accessible."
-      ],
-      "city_events": [
+    "winter": {
+      "event": "Wrocław Christmas Market",
+      "description": "Winter transforms the Market Square with festive lights and stalls.",
+      "ideas": [
         {
-          "name": "Madeira Flower Festival",
-          "season": "spring",
-          "description": "Massive floral displays and lively decorations."
+          "name": "Christmas Market",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=51.1097%2C17.0317",
+          "description": "Holiday food, crafts, and decorations."
         },
         {
-          "name": "Atlantic Festival",
-          "season": "summer",
-          "description": "Fireworks, performances and oceanfront energy."
+          "name": "Historic Café Visits",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=51.1100%2C17.0330",
+          "description": "Warm drinks during cold days."
         },
         {
-          "name": "Funchal Christmas Lights",
-          "season": "winter",
-          "description": "Famous illuminated streets and festive markets."
-        }
-      ]
-    },
-    {
-      "name": "Ponta Delgada (Azores)",
-      "interests": [
-        "Lakes & Crater Views 🌋",
-        "Nature & Hiking 🌿",
-        "Scenic Viewpoints 🌅"
-      ],
-      "local_food_tip": "Try sweet potatoes, veggie stews, tropical fruits and plant-based island dishes — fresh and comforting.",
-      "full_day": "Morning: Explore Sete Cidades crater viewpoints and easy rim walks with fresh volcanic air. Enjoy a hilltop café stop. → Afternoon: Wander Ponta Delgada’s basalt old town, photograph Portas da Cidade and have a veggie-friendly Azorean lunch. Relax along the marina promenade. → Sunset: Head to Escalvado’s dramatic cliffside viewpoint. → Night: Enjoy a chill marina walk with waffles, fruit bowls and ocean reflections.",
-      "seasons": {
-        "spring": {
-          "event": "Spring Explosion",
-          "ideas": [
-            "Wildflowers around crater lakes.",
-            "Forest trails in perfect weather.",
-            "Fresh fruit stands in the city."
-          ]
-        },
-        "summer": {
-          "event": "Ocean Summer",
-          "ideas": [
-            "Atlantic morning breezes.",
-            "Smoothies and fresh fruit bowls.",
-            "Cliffside sunset sessions."
-          ]
-        },
-        "autumn": {
-          "event": "Autumn Mist",
-          "ideas": [
-            "Foggy crater viewpoints.",
-            "Quiet art streets in Old Town.",
-            "Warm pastries by the marina."
-          ]
-        },
-        "winter": {
-          "event": "Mild Winter",
-          "locations": [
-            "Soft ocean air even in December.",
-            "Basalt-tiled cafés with hot drinks.",
-            "Holiday decorations around the harbor."
-          ]
-        }
-      },
-      "public_transport_tips": [
-        "Local buses connect major viewpoints and crater areas.",
-        "Old Town is walkable and compact.",
-        "Taxis help reach remote viewpoints more easily.",
-        "Marina area has wide accessible paths."
-      ],
-      "city_events": [
-        {
-          "name": "Azores Nature Festival",
-          "season": "spring",
-          "description": "Outdoor activities celebrating the islands’ landscapes."
-        },
-        {
-          "name": "Summer by the Marina",
-          "season": "summer",
-          "description": "Street arts, performers and seaside events."
-        },
-        {
-          "name": "Christmas in the Azores",
-          "season": "winter",
-          "description": "Lights, decorations and cozy small-town charm."
-        }
-      ]
-    },
-    {
-      "name": "Angra do Heroísmo (Terceira)",
-      "interests": [
-        "Nature & Coastal Walks 🌿",
-        "Volcanic Landscapes 🌋",
-        "Historic Streets 🎭"
-      ],
-      "local_food_tip": "Enjoy sweet potatoes, veggie soups, grilled vegetables and fresh island fruit — classic Terceira comfort food.",
-      "full_day": "Morning: Explore the UNESCO old town with pastel houses and basalt streets. Visit the Sé Cathedral exterior and relax in Duke of Terceira Garden. → Afternoon: Walk Monte Brasil’s forested volcanic trails and enjoy cliffside viewpoints like Miradouro da Quebrada with an island-style lunch nearby. → Sunset: Watch golden light spread across the bay from Miradouro do Facho. → Night: Take a peaceful Angra Bay walk with gelato, juices and gentle ocean breeze.",
-      "seasons": {
-        "spring": {
-          "event": "Spring Bloom",
-          "ideas": [
-            "Colorful Duke of Terceira Garden.",
-            "Fresh coastal trails in Monte Brasil.",
-            "Tropical fruit in local markets."
-          ]
-        },
-        "summer": {
-          "event": "Island Summer",
-          "ideas": [
-            "Cool oceanfront morning walks.",
-            "Smoothies & açai bowls downtown.",
-            "Warm sunsets over the bay."
-          ]
-        },
-        "autumn": {
-          "event": "Calm Autumn",
-          "ideas": [
-            "Soft golden tones on hillside streets.",
-            "Cozy art and craft corners.",
-            "Warm pastries with sea views."
-          ]
-        },
-        "winter": {
-          "event": "Atlantic Winter",
-          "locations": [
-            "Mild ocean breezes on promenade paths.",
-            "Holiday lights in Old Town squares.",
-            "Hot chocolate near the marina."
-          ]
-        }
-      },
-      "public_transport_tips": [
-        "Monte Brasil viewpoints are best reached by taxi or local buses.",
-        "Old Town is completely walkable.",
-        "Promenade paths are wide and accessible.",
-        "Rental e-bikes help with upper hills."
-      ],
-      "city_events": [
-        {
-          "name": "Sanjoaninas Festival",
-          "season": "summer",
-          "description": "Island-wide celebrations with parades and performances."
-        },
-        {
-          "name": "Carnival of Terceira",
-          "season": "winter",
-          "description": "Colorful dances and cultural events across the city."
-        },
-        {
-          "name": "Christmas in Angra",
-          "season": "winter",
-          "description": "Lights, decorations and festive streets."
+          "name": "Indoor Museums",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=51.1085%2C17.0325",
+          "description": "Comfortable winter sightseeing."
         }
       ]
     }
+  },
+  "public_transport_tips": [
+    {
+      "tip": "Trams are the fastest way to move around Wrocław.",
+      "link": "https://www.wroclaw.pl/komunikacja"
+    },
+    {
+      "tip": "Day tickets offer unlimited travel on public transport.",
+      "link": "https://www.wroclaw.pl/komunikacja"
+    },
+    {
+      "tip": "The Old Town and river islands are best explored on foot.",
+      "link": "https://visitwroclaw.eu"
+    }
+  ],
+  "city_events": [
+    {
+      "name": "Wratislavia Cantans",
+      "season": "Autumn",
+      "description": "An international classical and choral music festival.",
+      "website": "https://wratislaviacantans.pl",
+      "dates": "September (annual)"
+    },
+    {
+      "name": "Wrocław Christmas Market",
+      "season": "Winter",
+      "description": "A festive market held on the Market Square.",
+      "website": "https://visitwroclaw.eu",
+      "dates": "December (annual)"
+    }
+  ],
+  "places": [
+    {
+      "name": "Wrocław Town Hall",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=51.1098%2C17.0322",
+      "description": "A Gothic-Renaissance masterpiece located in the Market Square."
+    },
+    {
+      "name": "Japanese Garden",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=51.1072%2C17.0758",
+      "description": "A peaceful landscaped garden near Centennial Hall."
+    }
+  ],
+  "hidden_gems": [
+    {
+      "name": "Four Denominations District",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=51.1080%2C17.0245",
+      "description": "A unique area where four different religious buildings stand close together."
+    },
+    {
+      "name": "Wrocław Dwarfs Trail",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=51.1100%2C17.0320",
+      "description": "Small bronze dwarf statues scattered across the city, fun to spot while exploring."
+    }
+  ]
+},
+
+{
+  "name": "Coimbra",
+  "interests": [
+    {
+      "name": "University of Coimbra",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=40.2080%2C-8.4265",
+      "description": "One of the oldest universities in Europe and a UNESCO World Heritage Site, famous for its historic colleges and academic traditions."
+    },
+    {
+      "name": "Joanina Library",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=40.2077%2C-8.4268",
+      "description": "A stunning Baroque library known for gilded interiors, rare books, and resident bats that protect the collection."
+    },
+    {
+      "name": "Mondego River Promenade",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=40.2115%2C-8.4288",
+      "description": "A scenic riverside area ideal for walking, cycling, and enjoying views of the historic city."
+    }
+  ],
+  "local_food_tip": "Try leitão à Bairrada (roast suckling pig), chanfana (goat stew), Coimbra pastries, and local wines.",
+  "full_day": {
+    "morning": "Begin at the <a href=\"https://www.google.com/maps/search/?api=1&query=40.2080%2C-8.4265\" target=\"_blank\" rel=\"noopener\">University of Coimbra</a> 🎓, exploring courtyards and historic buildings.",
+    "afternoon": "Visit the magnificent <a href=\"https://www.google.com/maps/search/?api=1&query=40.2077%2C-8.4268\" target=\"_blank\" rel=\"noopener\">Joanina Library</a> 📚, then enjoy lunch in the old town.",
+    "sunset": "Walk along the <a href=\"https://www.google.com/maps/search/?api=1&query=40.2115%2C-8.4288\" target=\"_blank\" rel=\"noopener\">Mondego River promenade</a> 🌅 for relaxed views.",
+    "night": "Have dinner in the historic center 🍽️ and listen to traditional Fado de Coimbra."
+  },
+  "seasons": {
+    "spring": {
+      "event": "Queima das Fitas",
+      "description": "Spring is lively with student celebrations, music, and a festive academic atmosphere.",
+      "ideas": [
+        {
+          "name": "University Courtyards",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=40.2080%2C-8.4265",
+          "description": "Historic spaces filled with student life."
+        },
+        {
+          "name": "Botanical Garden of Coimbra",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=40.2130%2C-8.4245",
+          "description": "Blooming plants and peaceful paths."
+        },
+        {
+          "name": "Old Town Walks",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=40.2065%2C-8.4295",
+          "description": "Mild weather for exploring narrow streets."
+        }
+      ]
+    },
+    "summer": {
+      "event": "Summer Cultural Evenings",
+      "description": "Warm days and quiet academic life create a relaxed summer mood.",
+      "ideas": [
+        {
+          "name": "Riverfront Walks",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=40.2115%2C-8.4288",
+          "description": "Evening strolls by the water."
+        },
+        {
+          "name": "Historic Churches",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=40.2058%2C-8.4280",
+          "description": "Cool interiors during hot days."
+        },
+        {
+          "name": "Outdoor Cafés",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=40.2068%2C-8.4305",
+          "description": "Relaxed dining in the old town."
+        }
+      ]
+    },
+    "autumn": {
+      "event": "Academic Year Opening",
+      "description": "Autumn sees students return, bringing energy back to the city.",
+      "ideas": [
+        {
+          "name": "University Traditions",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=40.2080%2C-8.4265",
+          "description": "Academic ceremonies and student life."
+        },
+        {
+          "name": "Museum Visits",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=40.2070%2C-8.4275",
+          "description": "Comfortable indoor culture."
+        },
+        {
+          "name": "Local Dining",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=40.2068%2C-8.4305",
+          "description": "Hearty regional dishes."
+        }
+      ]
+    },
+    "winter": {
+      "event": "Quiet Winter in Coimbra",
+      "description": "Cooler days and fewer tourists create a calm, local atmosphere.",
+      "ideas": [
+        {
+          "name": "Historic Library Visits",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=40.2077%2C-8.4268",
+          "description": "Warm indoor exploration."
+        },
+        {
+          "name": "Fado Evenings",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=40.2060%2C-8.4290",
+          "description": "Traditional music performances."
+        },
+        {
+          "name": "Cafés in Baixa",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=40.2055%2C-8.4315",
+          "description": "Cozy cafés during colder days."
+        }
+      ]
+    }
+  },
+  "public_transport_tips": [
+    {
+      "tip": "Buses connect the university hill with the lower town.",
+      "link": "https://www.smtuc.pt"
+    },
+    {
+      "tip": "The historic center is hilly; comfortable shoes are recommended.",
+      "link": "https://visitcoimbra.pt"
+    },
+    {
+      "tip": "Trains connect Coimbra with Lisbon and Porto.",
+      "link": "https://www.cp.pt"
+    }
+  ],
+  "city_events": [
+    {
+      "name": "Queima das Fitas",
+      "season": "Spring",
+      "description": "Major student festival celebrating the end of the academic year.",
+      "website": "https://queimadasfitas.pt",
+      "dates": "May (annual)"
+    },
+    {
+      "name": "Fado ao Centro Concerts",
+      "season": "All year",
+      "description": "Regular performances of traditional Coimbra-style fado.",
+      "website": "https://fadoaocentro.pt",
+      "dates": "Year-round"
+    }
+  ],
+  "places": [
+    {
+      "name": "Santa Clara-a-Velha Monastery",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=40.2070%2C-8.4328",
+      "description": "A Gothic monastery on the south bank of the Mondego River."
+    },
+    {
+      "name": "Coimbra Old Cathedral (Sé Velha)",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=40.2075%2C-8.4280",
+      "description": "A Romanesque cathedral and one of Portugal’s best-preserved medieval buildings."
+    }
+  ],
+  "hidden_gems": [
+    {
+      "name": "Portugal dos Pequenitos",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=40.2055%2C-8.4320",
+      "description": "A miniature park showcasing Portuguese architecture and history."
+    },
+    {
+      "name": "Penedo da Saudade",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=40.2150%2C-8.4250",
+      "description": "A quiet viewpoint and garden overlooking the city, popular with students."
+    }
+  ]
+},
+
+{
+  "name": "Lisbon",
+  "interests": [
+    {
+      "name": "Alfama District",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=38.7139%2C-9.1335",
+      "description": "Lisbon’s oldest neighborhood, known for narrow streets, traditional houses, viewpoints, and Fado music."
+    },
+    {
+      "name": "Belém Tower",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=38.6916%2C-9.2160",
+      "description": "A UNESCO World Heritage Site symbolizing Portugal’s Age of Discoveries, located along the Tagus River."
+    },
+    {
+      "name": "Praça do Comércio",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=38.7078%2C-9.1366",
+      "description": "A grand riverside square marking Lisbon’s historic entrance from the sea."
+    }
+  ],
+  "local_food_tip": "Try pastel de nata, bacalhau dishes, grilled sardines, and bifana sandwiches at local tascas.",
+  "full_day": {
+    "morning": "Start in <a href=\"https://www.google.com/maps/search/?api=1&query=38.7139%2C-9.1335\" target=\"_blank\" rel=\"noopener\">Alfama</a> ☀️, exploring viewpoints and historic streets.",
+    "afternoon": "Head to Belém to visit <a href=\"https://www.google.com/maps/search/?api=1&query=38.6916%2C-9.2160\" target=\"_blank\" rel=\"noopener\">Belém Tower</a> 🗼 and nearby monuments.",
+    "sunset": "Relax at <a href=\"https://www.google.com/maps/search/?api=1&query=38.7078%2C-9.1366\" target=\"_blank\" rel=\"noopener\">Praça do Comércio</a> 🌅 by the river.",
+    "night": "Enjoy dinner in Bairro Alto 🍽️ and listen to live Fado music."
+  },
+  "seasons": {
+    "spring": {
+      "event": "Lisbon Fish and Flavours Festival",
+      "description": "Spring offers mild temperatures, blooming parks, and ideal sightseeing conditions.",
+      "ideas": [
+        {
+          "name": "Miradouro Visits",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=38.7149%2C-9.1315",
+          "description": "Clear views and pleasant weather."
+        },
+        {
+          "name": "Tram Rides",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=38.7125%2C-9.1350",
+          "description": "Classic tram 28 journeys."
+        },
+        {
+          "name": "Riverside Walks",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=38.7078%2C-9.1366",
+          "description": "Comfortable walking along the Tagus."
+        }
+      ]
+    },
+    "summer": {
+      "event": "Festas de Lisboa",
+      "description": "Summer is festive with street parties, music, and long sunny days.",
+      "ideas": [
+        {
+          "name": "Street Festivals in Alfama",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=38.7139%2C-9.1335",
+          "description": "Traditional music and grilled sardines."
+        },
+        {
+          "name": "Beach Trips to Cascais",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=38.6979%2C-9.4215",
+          "description": "Easy coastal escapes by train."
+        },
+        {
+          "name": "Evening Viewpoints",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=38.7120%2C-9.1310",
+          "description": "Warm nights and city lights."
+        }
+      ]
+    },
+    "autumn": {
+      "event": "Lisbon & Sintra Film Festival",
+      "description": "Autumn brings warm light, fewer crowds, and cultural events.",
+      "ideas": [
+        {
+          "name": "Historic Walks",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=38.7130%2C-9.1390",
+          "description": "Comfortable sightseeing temperatures."
+        },
+        {
+          "name": "Museum Visits",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=38.6955%2C-9.2060",
+          "description": "Ideal season for indoor culture."
+        },
+        {
+          "name": "Local Dining",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=38.7115%2C-9.1395",
+          "description": "Seasonal Portuguese cuisine."
+        }
+      ]
+    },
+    "winter": {
+      "event": "Lisbon Christmas Markets",
+      "description": "Winter is mild with festive lights and fewer tourists.",
+      "ideas": [
+        {
+          "name": "Christmas Markets",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=38.7078%2C-9.1366",
+          "description": "Seasonal food and crafts."
+        },
+        {
+          "name": "Fado Evenings",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=38.7130%2C-9.1330",
+          "description": "Warm, intimate music performances."
+        },
+        {
+          "name": "Café Culture",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=38.7105%2C-9.1410",
+          "description": "Historic cafés and pastries."
+        }
+      ]
+    }
+  },
+  "public_transport_tips": [
+    {
+      "tip": "Metro, trams, and buses cover the entire city.",
+      "link": "https://www.metrolisboa.pt"
+    },
+    {
+      "tip": "The Viva Viagem card works on all public transport.",
+      "link": "https://www.metrolisboa.pt"
+    },
+    {
+      "tip": "Trains connect Lisbon with Sintra and Cascais.",
+      "link": "https://www.cp.pt"
+    }
+  ],
+  "city_events": [
+    {
+      "name": "Festas de Lisboa",
+      "season": "Summer",
+      "description": "City-wide celebrations honoring Saint Anthony with music and street parties.",
+      "website": "https://www.visitlisboa.com",
+      "dates": "June (annual)"
+    },
+    {
+      "name": "Web Summit",
+      "season": "Autumn",
+      "description": "One of the world’s largest technology conferences.",
+      "website": "https://websummit.com",
+      "dates": "November (annual)"
+    }
+  ],
+  "places": [
+    {
+      "name": "Jerónimos Monastery",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=38.6977%2C-9.2064",
+      "description": "A UNESCO-listed masterpiece of Manueline architecture in Belém."
+    },
+    {
+      "name": "São Jorge Castle",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=38.7139%2C-9.1330",
+      "description": "A hilltop castle offering panoramic views over Lisbon."
+    }
+  ],
+  "hidden_gems": [
+    {
+      "name": "LX Factory",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=38.7035%2C-9.1785",
+      "description": "A creative hub with shops, cafés, and street art under a bridge."
+    },
+    {
+      "name": "Miradouro da Senhora do Monte",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=38.7200%2C-9.1325",
+      "description": "One of Lisbon’s best viewpoints, less crowded than others."
+    }
+  ]
+},
+
+{
+  "name": "Porto",
+  "interests": [
+    {
+      "name": "Ribeira District",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=41.1406%2C-8.6110",
+      "description": "A colorful riverside neighborhood along the Douro River, known for historic houses, cafés, and lively atmosphere."
+    },
+    {
+      "name": "Dom Luís I Bridge",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=41.1387%2C-8.6091",
+      "description": "An iconic double-deck iron bridge offering panoramic views of Porto and Vila Nova de Gaia."
+    },
+    {
+      "name": "Livraria Lello",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=41.1467%2C-8.6147",
+      "description": "One of the world’s most famous bookstores, known for its neo-Gothic design and ornate staircase."
+    }
+  ],
+  "local_food_tip": "Try francesinha (Porto’s famous sandwich), grilled sardines, bacalhau dishes, and local port wine.",
+  "full_day": {
+    "morning": "Start in the <a href=\"https://www.google.com/maps/search/?api=1&query=41.1406%2C-8.6110\" target=\"_blank\" rel=\"noopener\">Ribeira District</a> 🌊, walking along the Douro River.",
+    "afternoon": "Cross the <a href=\"https://www.google.com/maps/search/?api=1&query=41.1387%2C-8.6091\" target=\"_blank\" rel=\"noopener\">Dom Luís I Bridge</a> 🌉 to Vila Nova de Gaia for river views and lunch.",
+    "sunset": "Return to Porto and enjoy sunset from the upper deck of the bridge 🌅.",
+    "night": "Explore the city center and have dinner near Clérigos 🍽️ or along the river."
+  },
+  "seasons": {
+    "spring": {
+      "event": "Spring Wine & Culture Season",
+      "description": "Mild weather and blooming gardens make spring ideal for sightseeing.",
+      "ideas": [
+        {
+          "name": "Historic Center Walks",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=41.1425%2C-8.6135",
+          "description": "Comfortable temperatures and fewer crowds."
+        },
+        {
+          "name": "Crystal Palace Gardens",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=41.1458%2C-8.6295",
+          "description": "Flowering gardens with river views."
+        },
+        {
+          "name": "Bookstore Visits",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=41.1467%2C-8.6147",
+          "description": "Pleasant indoor breaks."
+        }
+      ]
+    },
+    "summer": {
+      "event": "São João Festival",
+      "description": "Summer is festive with street parties, music, and fireworks.",
+      "ideas": [
+        {
+          "name": "São João Street Celebrations",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=41.1406%2C-8.6110",
+          "description": "One of Porto’s biggest annual celebrations."
+        },
+        {
+          "name": "River Cruises",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=41.1410%2C-8.6100",
+          "description": "Boat trips along the Douro."
+        },
+        {
+          "name": "Evening Riverside Dining",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=41.1408%2C-8.6115",
+          "description": "Long summer evenings by the water."
+        }
+      ]
+    },
+    "autumn": {
+      "event": "Douro Wine Harvest Season",
+      "description": "Warm light, fewer tourists, and wine-related activities.",
+      "ideas": [
+        {
+          "name": "Wine Cellar Visits (Gaia)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=41.1325%2C-8.6125",
+          "description": "Learn about port wine production."
+        },
+        {
+          "name": "Photography Walks",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=41.1387%2C-8.6091",
+          "description": "Soft autumn light over the river."
+        },
+        {
+          "name": "Local Dining",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=41.1455%2C-8.6120",
+          "description": "Seasonal Portuguese cuisine."
+        }
+      ]
+    },
+    "winter": {
+      "event": "Porto Christmas Season",
+      "description": "Mild winters with festive lights and cozy cafés.",
+      "ideas": [
+        {
+          "name": "Christmas Lights Walks",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=41.1485%2C-8.6105",
+          "description": "Decorated streets and relaxed pace."
+        },
+        {
+          "name": "Historic Cafés",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=41.1478%2C-8.6100",
+          "description": "Warm drinks on cooler days."
+        },
+        {
+          "name": "Museum Visits",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=41.1418%2C-8.6165",
+          "description": "Comfortable indoor sightseeing."
+        }
+      ]
+    }
+  },
+  "public_transport_tips": [
+    {
+      "tip": "Metro lines connect the airport with the city center.",
+      "link": "https://www.metrodoporto.pt"
+    },
+    {
+      "tip": "Andante cards work on metro, buses, and trains within the city.",
+      "link": "https://www.metrodoporto.pt"
+    },
+    {
+      "tip": "The historic center is hilly; walking is scenic but demanding.",
+      "link": "https://visitporto.travel"
+    }
+  ],
+  "city_events": [
+    {
+      "name": "São João Festival",
+      "season": "Summer",
+      "description": "Porto’s biggest street festival with fireworks, music, and traditions.",
+      "website": "https://visitporto.travel",
+      "dates": "June 23–24 (annual)"
+    },
+    {
+      "name": "NOS Primavera Sound Porto",
+      "season": "Summer",
+      "description": "Major international music festival held in Porto’s city park.",
+      "website": "https://www.primaverasound.com",
+      "dates": "June (annual)"
+    }
+  ],
+  "places": [
+    {
+      "name": "Clérigos Tower",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=41.1455%2C-8.6145",
+      "description": "A Baroque bell tower offering one of the best views over Porto."
+    },
+    {
+      "name": "São Bento Railway Station",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=41.1458%2C-8.6105",
+      "description": "A historic station famous for its blue azulejo tile panels."
+    }
+  ],
+  "hidden_gems": [
+    {
+      "name": "Miradouro da Vitória",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=41.1420%2C-8.6130",
+      "description": "A small viewpoint with beautiful river and bridge views, less crowded than others."
+    },
+    {
+      "name": "Foz do Douro",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=41.1515%2C-8.6765",
+      "description": "Where the Douro meets the Atlantic Ocean, ideal for seaside walks."
+    }
+  ]
+},
+
+{
+      "name": "Sintra",
+      "interests": [
+        {
+          "name": "Pena Palace",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=38.7876%2C-9.3905",
+          "description": "A colorful 19th-century Romantic palace set high in the hills, offering sweeping views over Sintra and the Atlantic."
+        },
+        {
+          "name": "Quinta da Regaleira",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=38.7970%2C-9.3890",
+          "description": "A mystical estate with lush gardens, tunnels, and the famous Initiation Well linked to symbolism and legends."
+        },
+        {
+          "name": "Sintra National Palace",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=38.7975%2C-9.3908",
+          "description": "A medieval royal palace in the historic center, recognizable by its twin chimneys and decorative tile interiors."
+        }
+      ],
+      "local_food_tip": "Try travesseiros and queijadas de Sintra pastries, paired with coffee or a light lunch in the old town.",
+      "full_day": {
+        "morning": "Start early at <a href=\"https://www.google.com/maps/search/?api=1&query=38.7876%2C-9.3905\" target=\"_blank\" rel=\"noopener\">Pena Palace</a> 🏰 to enjoy views before crowds arrive.",
+        "afternoon": "Explore the magical gardens of <a href=\"https://www.google.com/maps/search/?api=1&query=38.7970%2C-9.3890\" target=\"_blank\" rel=\"noopener\">Quinta da Regaleira</a> 🌿, then have lunch in town.",
+        "sunset": "Visit the <a href=\"https://www.google.com/maps/search/?api=1&query=38.7975%2C-9.3908\" target=\"_blank\" rel=\"noopener\">Sintra National Palace</a> 🌅 and stroll the historic center.",
+        "night": "Enjoy a relaxed dinner in Sintra 🍽️ or return to Lisbon in the evening."
+      },
+      "seasons": {
+        "spring": {
+          "event": "Spring Garden Season",
+          "description": "Blooming gardens and mild weather make spring ideal for walking and sightseeing.",
+          "ideas": [
+            {
+              "name": "Palace Gardens",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=38.7890%2C-9.3900",
+              "description": "Flowers and fresh greenery across the hills."
+            },
+            {
+              "name": "Historic Center Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=38.7975%2C-9.3908",
+              "description": "Comfortable temperatures and lively cafés."
+            },
+            {
+              "name": "Photography Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=38.7876%2C-9.3905",
+              "description": "Clear views and soft spring light."
+            }
+          ]
+        },
+        "summer": {
+          "event": "Summer Palace Visits",
+          "description": "Cooler hilltop air offers relief from Lisbon’s heat.",
+          "ideas": [
+            {
+              "name": "Early Palace Visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=38.7876%2C-9.3905",
+              "description": "Beat the heat and crowds."
+            },
+            {
+              "name": "Forest Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=38.7905%2C-9.3940",
+              "description": "Shaded trails in Sintra-Cascais Natural Park."
+            },
+            {
+              "name": "Evening Town Dining",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=38.7980%2C-9.3915",
+              "description": "Cooler evenings in the center."
+            }
+          ]
+        },
+        "autumn": {
+          "event": "Autumn Misty Season",
+          "description": "Soft light, misty mornings, and fewer visitors create a magical atmosphere.",
+          "ideas": [
+            {
+              "name": "Quinta da Regaleira Exploration",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=38.7970%2C-9.3890",
+              "description": "Atmospheric gardens and tunnels."
+            },
+            {
+              "name": "Viewpoints in the Hills",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=38.7895%2C-9.3955",
+              "description": "Moody landscapes and photography."
+            },
+            {
+              "name": "Local Cafés",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=38.7985%2C-9.3920",
+              "description": "Warm drinks and pastries."
+            }
+          ]
+        },
+        "winter": {
+          "event": "Quiet Winter in Sintra",
+          "description": "Cool, calm days with fewer tourists and dramatic scenery.",
+          "ideas": [
+            {
+              "name": "National Palace Visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=38.7975%2C-9.3908",
+              "description": "Comfortable indoor exploration."
+            },
+            {
+              "name": "Misty Hill Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=38.7876%2C-9.3905",
+              "description": "Romantic winter atmosphere."
+            },
+            {
+              "name": "Traditional Pastry Stops",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=38.7982%2C-9.3925",
+              "description": "Warm treats on cool days."
+            }
+          ]
+        }
+      },
+      "public_transport_tips": [
+        {
+          "tip": "Direct trains run from Lisbon to Sintra frequently.",
+          "link": "https://www.cp.pt"
+        },
+        {
+          "tip": "Local buses connect the train station with major palaces.",
+          "link": "https://scotturb.pt"
+        },
+        {
+          "tip": "The historic center is walkable but hilly.",
+          "link": "https://www.visitsintra.travel"
+        }
+      ],
+      "city_events": [
+        {
+          "name": "Sintra Music Festival",
+          "season": "Summer",
+          "description": "Classical music concerts held in palaces and historic venues.",
+          "website": "https://www.festivaldesintra.pt",
+          "dates": "June–July (annual)"
+        },
+        {
+          "name": "European Heritage Days",
+          "season": "Autumn",
+          "description": "Special access and events at cultural landmarks.",
+          "website": "https://www.patrimoniocultural.gov.pt",
+          "dates": "September (annual)"
+        }
+      ],
+      "places": [
+        {
+          "name": "Castle of the Moors",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=38.7890%2C-9.3895",
+          "description": "A medieval hilltop fortress with walking paths along ancient walls."
+        },
+        {
+          "name": "Monserrate Palace",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=38.7960%2C-9.4140",
+          "description": "An exotic Romantic palace surrounded by botanical gardens."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "Peninha Sanctuary",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=38.7745%2C-9.4475",
+          "description": "A quiet hilltop viewpoint and sanctuary with sweeping Atlantic views."
+        },
+        {
+          "name": "São Pedro de Sintra Village",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=38.8005%2C-9.3810",
+          "description": "A local neighborhood with traditional life away from main tourist routes."
+        }
+      ]
+    }
+
   ]
 }

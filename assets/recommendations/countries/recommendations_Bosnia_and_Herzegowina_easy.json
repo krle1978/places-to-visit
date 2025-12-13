@@ -2,637 +2,1201 @@
   "name": "Bosnia and Herzegovina",
   "cities": [
     {
-      "name": "Sarajevo",
+      "name": "Banja Luka",
       "interests": [
-        "Historic & Multi-Cultural Old Town 🕌⛪ — Ottoman bazaars, Austro-Hungarian streets and sacred buildings in a compact area.",
-        "Urban Life & Café Culture ☕ — Lively pedestrian zones, traditional cafés and vibrant youth energy.",
-        "Hills & Nearby Mountains 🌄 — Scenic viewpoints, cable cars and nature escapes minutes from the center."
+        {
+          "name": "Kastel Fortress",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=44.7719%2C17.1926",
+          "description": "Historic fortress on the Vrbas River dating back to Roman and Ottoman periods, today a central cultural and social space."
+        },
+        {
+          "name": "Christ the Savior Orthodox Cathedral",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=44.7727%2C17.1911",
+          "description": "Large Serbian Orthodox cathedral in the city center, symbol of Banja Luka’s spiritual and cultural identity."
+        },
+        {
+          "name": "Ferhadija Mosque",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=44.7733%2C17.1929",
+          "description": "16th-century Ottoman mosque and UNESCO-listed monument, carefully reconstructed and historically significant."
+        },
+        {
+          "name": "Vrbas River Canyon",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=44.7290%2C17.1640",
+          "description": "Natural area south of the city known for rafting, hiking, and dramatic river scenery."
+        },
+        {
+          "name": "Gospodska Street (Veselin Masleša Street)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=44.7722%2C17.1901",
+          "description": "Main pedestrian street filled with cafés, shops, and daily city life."
+        }
       ],
-      "local_food_tip": "Try ćevapi, burek, Bosnian coffee, homemade stews and traditional Balkan dishes — rich flavors, warm hospitality and timeless local recipes.",
-      "full_day": "Morning: Start in the historic <a href=\"https://www.google.com/maps/search/?api=1&query=Ba%C5%A1%C4%8Dar%C5%A1ija%20Sarajevo\" target=\"_blank\" rel=\"noopener\">Baščaršija</a>, exploring copper workshops, Ottoman streets and the iconic <a href=\"https://www.google.com/maps/search/?api=1&query=Sebilj%20Fountain%20Sarajevo\" target=\"_blank\" rel=\"noopener\">Sebilj Fountain</a>. Visit the <a href=\"https://www.google.com/maps/search/?api=1&query=Gazi%20Husrev-bey%20Mosque%20Sarajevo\" target=\"_blank\" rel=\"noopener\">Gazi Husrev-bey Mosque</a> and enjoy Bosnian coffee in a traditional café.\n\nAfternoon: Walk to <a href=\"https://www.google.com/maps/search/?api=1&query=Sarajevo%20City%20Hall%20Vije%C4%87nica\" target=\"_blank\" rel=\"noopener\">Vijećnica</a>, then continue along the river to the historic <a href=\"https://www.google.com/maps/search/?api=1&query=Latin%20Bridge%20Sarajevo\" target=\"_blank\" rel=\"noopener\">Latin Bridge</a>. Explore Ferhadija Street, small museums, and enjoy lunch in a classic ćevabdžinica.\n\nSunset: Head to the <a href=\"https://www.google.com/maps/search/?api=1&query=Yellow%20Fortress%20Sarajevo\" target=\"_blank\" rel=\"noopener\">Yellow Fortress</a> for one of the best golden-hour city panoramas.\n\nNight: Return to the old town for stews, pita or grilled meat, followed by warm drinks in atmospheric cafés.",
+      "local_food_tip": "Try local specialties such as ćevapi, banjalučki ćevap (served in groups), grilled meats, burek, and local cheeses. Coffee culture is strong and social.",
+      "full_day": {
+        "Morning": "Start with a walk through <a href=\"https://www.google.com/maps/search/?api=1&query=44.7722%2C17.1901\" target=\"_blank\" rel=\"noopener\">Gospodska Street</a> ☀️ and enjoy Bosnian coffee, then visit the <a href=\"https://www.google.com/maps/search/?api=1&query=44.7727%2C17.1911\" target=\"_blank\" rel=\"noopener\">Christ the Savior Cathedral</a> ⛪.",
+        "Afternoon": "Explore the <a href=\"https://www.google.com/maps/search/?api=1&query=44.7719%2C17.1926\" target=\"_blank\" rel=\"noopener\">Kastel Fortress</a> 🏰 and walk along the Vrbas River, followed by lunch with traditional grilled dishes 🍽️.",
+        "Sunset": "Head toward the <a href=\"https://www.google.com/maps/search/?api=1&query=44.7290%2C17.1640\" target=\"_blank\" rel=\"noopener\">Vrbas Canyon</a> 🌄 for nature views and fresh air.",
+        "Night": "Return to the city for dinner and an evening café visit along Gospodska Street ✨."
+      },
       "seasons": {
         "spring": {
-          "event": "Spring Revival in the City",
+          "event": "Spring City Walks",
+          "description": "Blooming parks and mild weather make outdoor exploration ideal.",
           "ideas": [
-            "Blossoming trees in <a href=\"https://www.google.com/maps/search/?api=1&query=At%20Mejdan%20Park%20Sarajevo\" target=\"_blank\" rel=\"noopener\">At Mejdan Park</a> and riverside paths.",
-            "Street art walks across central districts.",
-            "Early-season old-town strolls with mild weather."
+            {
+              "name": "River walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=44.7715%2C17.1935",
+              "description": "Green Vrbas riverbanks."
+            },
+            {
+              "name": "City center sightseeing",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=44.7722%2C17.1901",
+              "description": "Comfortable walking temperatures."
+            },
+            {
+              "name": "Fortress visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=44.7719%2C17.1926",
+              "description": "Historic exploration."
+            }
           ]
         },
         "summer": {
-          "event": "Summer Nights & River Walks",
+          "event": "Summer on the Vrbas",
+          "description": "Warm weather with rafting events and lively outdoor cafés.",
           "ideas": [
-            "Evening promenades along the Miljacka with illuminated bridges.",
-            "Cold drinks and ice cream along Ferhadija Street.",
-            "Outdoor events near the National Theatre."
+            {
+              "name": "Rafting on Vrbas",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=44.7290%2C17.1640",
+              "description": "Popular local adventure activity."
+            },
+            {
+              "name": "Evening terraces",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=44.7722%2C17.1901",
+              "description": "Social nightlife."
+            },
+            {
+              "name": "Outdoor festivals",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=44.7719%2C17.1926",
+              "description": "Concerts at Kastel."
+            }
           ]
         },
         "autumn": {
-          "event": "Autumn Peace & History Walks",
+          "event": "Golden Autumn Season",
+          "description": "Pleasant temperatures and colorful nature in parks and canyon areas.",
           "ideas": [
-            "Golden leaves on hillsides and fortress viewpoints.",
-            "Warm traditional meals after cooler walks.",
-            "Museum visits like <a href=\"https://www.google.com/maps/search/?api=1&query=War%20Childhood%20Museum%20Sarajevo\" target=\"_blank\" rel=\"noopener\">War Childhood Museum</a> during rainy days."
+            {
+              "name": "Canyon photography",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=44.7290%2C17.1640",
+              "description": "Autumn colors."
+            },
+            {
+              "name": "Historic center walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=44.7722%2C17.1901",
+              "description": "Relaxed city exploration."
+            },
+            {
+              "name": "Local cuisine",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=44.7720%2C17.1910",
+              "description": "Hearty seasonal meals."
+            }
           ]
         },
         "winter": {
-          "event": "Winter Hills & Cozy Evenings",
+          "event": "Quiet Winter City",
+          "description": "Calm atmosphere with cozy cafés and fewer visitors.",
           "ideas": [
-            "Snowy ambiance on <a href=\"https://www.google.com/maps/search/?api=1&query=Trebevi%C4%87%20Mountain\" target=\"_blank\" rel=\"noopener\">Trebević Mountain</a> paths.",
-            "Hot drinks in old-town cafés.",
-            "Nighttime views from <a href=\"https://www.google.com/maps/search/?api=1&query=Avaz%20Twist%20Tower\" target=\"_blank\" rel=\"noopener\">Avaz Twist Tower</a>."
+            {
+              "name": "Café culture",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=44.7722%2C17.1901",
+              "description": "Traditional coffee rituals."
+            },
+            {
+              "name": "Museum visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=44.7741%2C17.1892",
+              "description": "Indoor cultural time."
+            },
+            {
+              "name": "Short river walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=44.7715%2C17.1935",
+              "description": "Brisk winter strolls."
+            }
           ]
         }
       },
       "public_transport_tips": [
-        "Trams run along the main boulevard — reliable for long distances.",
-        "Buses/trolleybuses connect hillside districts.",
-        "Old town is best explored on foot.",
-        "Taxis are affordable and useful for reaching hill viewpoints."
+        {
+          "tip": "City buses connect all major neighborhoods efficiently.",
+          "link": "https://blinfo.rs/"
+        },
+        {
+          "tip": "Taxis are affordable and widely available.",
+          "link": "https://blinfo.rs/"
+        },
+        {
+          "tip": "The city center is compact and walkable.",
+          "link": "https://www.turizamrs.org/"
+        }
+      ],
+      "city_events": [
+        {
+          "name": "Summer on the Vrbas Festival",
+          "season": "summer",
+          "description": "Traditional rafting and cultural festival celebrating the Vrbas River.",
+          "website": "https://www.banjaluka.rs/",
+          "dates": "July"
+        }
+      ],
+      "places": [
+        {
+          "name": "Banski Dvor Cultural Center",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=44.7736%2C17.1904",
+          "description": "Historic cultural institution hosting concerts and exhibitions."
+        },
+        {
+          "name": "Museum of the Republic of Srpska",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=44.7741%2C17.1892",
+          "description": "Museum presenting regional history and heritage."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "Quiet Vrbas riverbanks near Kastel",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=44.7710%2C17.1940",
+          "description": "Less-crowded riverside spots."
+        },
+        {
+          "name": "Early-morning Gospodska Street",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=44.7722%2C17.1901",
+          "description": "Peaceful city atmosphere before daily bustle."
+        }
+      ]
+    },
+
+    {
+      "name": "Bijeljina",
+      "interests": [
+        {
+          "name": "Monastery of St. Basil of Ostrog (Tavna Monastery)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=44.7769%2C19.0905",
+          "description": "Important Serbian Orthodox monastery near Bijeljina, known for its peaceful setting and spiritual significance."
+        },
+        {
+          "name": "City Park Bijeljina",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=44.7565%2C19.2148",
+          "description": "Central green space used for walks, gatherings, and seasonal events."
+        },
+        {
+          "name": "Bijeljina City Center (Korzo)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=44.7560%2C19.2140",
+          "description": "Pedestrian-friendly area with cafés, shops, and everyday local life."
+        },
+        {
+          "name": "Semberija Museum",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=44.7569%2C19.2143",
+          "description": "Regional museum presenting the history, culture, and ethnography of Semberija."
+        },
+        {
+          "name": "Drina River (near Bijeljina)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=44.8000%2C19.2000",
+          "description": "Major river forming the border with Serbia, popular for fishing, nature walks, and relaxation."
+        }
+      ],
+      "local_food_tip": "Semberija is known for grilled meats, homemade sausages, fresh dairy products, and pastries. Local cafés serve strong coffee and traditional desserts.",
+      "full_day": {
+        "Morning": "Start with coffee on the <a href=\"https://www.google.com/maps/search/?api=1&query=44.7560%2C19.2140\" target=\"_blank\" rel=\"noopener\">city Korzo</a> ☀️, then visit the <a href=\"https://www.google.com/maps/search/?api=1&query=44.7569%2C19.2143\" target=\"_blank\" rel=\"noopener\">Semberija Museum</a> 🏛️.",
+        "Afternoon": "Relax in the <a href=\"https://www.google.com/maps/search/?api=1&query=44.7565%2C19.2148\" target=\"_blank\" rel=\"noopener\">City Park</a> 🌿 and have lunch with local specialties 🍽️.",
+        "Sunset": "Take a short trip toward the <a href=\"https://www.google.com/maps/search/?api=1&query=44.8000%2C19.2000\" target=\"_blank\" rel=\"noopener\">Drina River</a> 🌅 for calm nature views.",
+        "Night": "Return to the center for dinner and an evening walk through the Korzo ✨."
+      },
+      "seasons": {
+        "spring": {
+          "event": "Spring City Life",
+          "description": "Green fields and mild weather define spring in Semberija.",
+          "ideas": [
+            {
+              "name": "Park walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=44.7565%2C19.2148",
+              "description": "Fresh greenery and flowers."
+            },
+            {
+              "name": "Museum visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=44.7569%2C19.2143",
+              "description": "Comfortable indoor culture."
+            },
+            {
+              "name": "City strolls",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=44.7560%2C19.2140",
+              "description": "Pleasant temperatures."
+            }
+          ]
+        },
+        "summer": {
+          "event": "Summer Evenings in the City",
+          "description": "Warm days and lively café culture in the evenings.",
+          "ideas": [
+            {
+              "name": "Evening cafés",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=44.7560%2C19.2140",
+              "description": "Social nightlife."
+            },
+            {
+              "name": "Drina river visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=44.8000%2C19.2000",
+              "description": "Cooling nature escape."
+            },
+            {
+              "name": "Local food tastings",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=44.7562%2C19.2145",
+              "description": "Grilled specialties."
+            }
+          ]
+        },
+        "autumn": {
+          "event": "Harvest Season in Semberija",
+          "description": "Golden fields and traditional harvest atmosphere.",
+          "ideas": [
+            {
+              "name": "Countryside drives",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=44.7700%2C19.2100",
+              "description": "Rural landscapes."
+            },
+            {
+              "name": "City center walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=44.7560%2C19.2140",
+              "description": "Mild autumn weather."
+            },
+            {
+              "name": "Traditional cuisine",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=44.7562%2C19.2145",
+              "description": "Seasonal meals."
+            }
+          ]
+        },
+        "winter": {
+          "event": "Quiet Winter City",
+          "description": "Calm city rhythm with cozy cafés and family gatherings.",
+          "ideas": [
+            {
+              "name": "Café culture",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=44.7560%2C19.2140",
+              "description": "Warm drinks and conversation."
+            },
+            {
+              "name": "Museum visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=44.7569%2C19.2143",
+              "description": "Indoor cultural time."
+            },
+            {
+              "name": "Short park walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=44.7565%2C19.2148",
+              "description": "Brisk winter strolls."
+            }
+          ]
+        }
+      },
+      "public_transport_tips": [
+        {
+          "tip": "Local buses connect the city center with surrounding neighborhoods.",
+          "link": "https://www.bijeljina.org/"
+        },
+        {
+          "tip": "Taxis are affordable and commonly used.",
+          "link": "https://www.bijeljina.org/"
+        },
+        {
+          "tip": "The city center is compact and walkable.",
+          "link": "https://www.turizamrs.org/"
+        }
+      ],
+      "city_events": [
+        {
+          "name": "Semberija Days",
+          "season": "summer",
+          "description": "Local cultural events celebrating regional traditions and food.",
+          "website": "https://www.bijeljina.org/",
+          "dates": "June–July"
+        }
+      ],
+      "places": [
+        {
+          "name": "King Peter I Karađorđević Monument",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=44.7568%2C19.2146",
+          "description": "Central monument and meeting point in the city."
+        },
+        {
+          "name": "Cultural Center Semberija",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=44.7575%2C19.2138",
+          "description": "Venue for exhibitions, concerts, and performances."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "Quiet streets near the old center",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=44.7555%2C19.2130",
+          "description": "Local neighborhoods showing everyday life."
+        },
+        {
+          "name": "Early-morning City Park",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=44.7565%2C19.2148",
+          "description": "Peaceful atmosphere before the city wakes up."
+        }
+      ]
+    },
+
+    {
+      "name": "Doboj",
+      "interests": [
+        {
+          "name": "Doboj Fortress (Gradina)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=44.7329%2C18.0876",
+          "description": "Medieval fortress overlooking the city, one of the best-preserved fortifications in Bosnia and Herzegovina, offering wide views over Doboj and the Bosna River valley."
+        },
+        {
+          "name": "Museum in Doboj",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=44.7322%2C18.0863",
+          "description": "Regional museum presenting archaeology, ethnography, and Doboj’s historical development."
+        },
+        {
+          "name": "Church of the Nativity of the Holy Mother of God",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=44.7315%2C18.0860",
+          "description": "Main Orthodox church in the city, an important spiritual and cultural landmark."
+        },
+        {
+          "name": "Bosna River Promenade",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=44.7308%2C18.0845",
+          "description": "Riverside area suitable for walks and relaxed local time."
+        },
+        {
+          "name": "Doboj City Center",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=44.7320%2C18.0855",
+          "description": "Compact central area with cafés, shops, and everyday city life."
+        }
+      ],
+      "local_food_tip": "Doboj cuisine reflects central Bosnia: grilled meats, ćevapi, burek, stews, and homemade pastries. Coffee culture is strong and social.",
+      "full_day": {
+        "Morning": "Start with a walk through the <a href=\"https://www.google.com/maps/search/?api=1&query=44.7320%2C18.0855\" target=\"_blank\" rel=\"noopener\">city center</a> ☀️ and coffee at a local café, then climb to the <a href=\"https://www.google.com/maps/search/?api=1&query=44.7329%2C18.0876\" target=\"_blank\" rel=\"noopener\">Doboj Fortress</a> 🏰.",
+        "Afternoon": "Visit the <a href=\"https://www.google.com/maps/search/?api=1&query=44.7322%2C18.0863\" target=\"_blank\" rel=\"noopener\">Museum in Doboj</a> 🏛️, followed by lunch with traditional dishes 🍽️.",
+        "Sunset": "Walk along the <a href=\"https://www.google.com/maps/search/?api=1&query=44.7308%2C18.0845\" target=\"_blank\" rel=\"noopener\">Bosna River Promenade</a> 🌅.",
+        "Night": "Dinner in the center ✨ and a relaxed evening stroll."
+      },
+      "seasons": {
+        "spring": {
+          "event": "Spring City Walks",
+          "description": "Mild temperatures and green surroundings make Doboj ideal for outdoor walks.",
+          "ideas": [
+            {
+              "name": "Fortress visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=44.7329%2C18.0876",
+              "description": "Clear views and pleasant weather."
+            },
+            {
+              "name": "River walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=44.7308%2C18.0845",
+              "description": "Fresh air by the Bosna River."
+            },
+            {
+              "name": "City center strolls",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=44.7320%2C18.0855",
+              "description": "Comfortable sightseeing."
+            }
+          ]
+        },
+        "summer": {
+          "event": "Summer Evenings in Doboj",
+          "description": "Warm days with active café life in the evenings.",
+          "ideas": [
+            {
+              "name": "Evening cafés",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=44.7320%2C18.0855",
+              "description": "Social city atmosphere."
+            },
+            {
+              "name": "River relaxation",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=44.7308%2C18.0845",
+              "description": "Cooling evening walks."
+            },
+            {
+              "name": "Historic sightseeing",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=44.7329%2C18.0876",
+              "description": "Late-afternoon fortress visits."
+            }
+          ]
+        },
+        "autumn": {
+          "event": "Golden Autumn Season",
+          "description": "Cooler weather and autumn colors around the hills and river.",
+          "ideas": [
+            {
+              "name": "Photography from the fortress",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=44.7329%2C18.0876",
+              "description": "Autumn views over the city."
+            },
+            {
+              "name": "Museum visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=44.7322%2C18.0863",
+              "description": "Quiet cultural time."
+            },
+            {
+              "name": "Traditional food",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=44.7320%2C18.0855",
+              "description": "Hearty seasonal meals."
+            }
+          ]
+        },
+        "winter": {
+          "event": "Quiet Winter City",
+          "description": "Calm atmosphere with indoor culture and cafés.",
+          "ideas": [
+            {
+              "name": "Café culture",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=44.7320%2C18.0855",
+              "description": "Warm drinks and conversation."
+            },
+            {
+              "name": "Museum indoors",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=44.7322%2C18.0863",
+              "description": "Cultural visits in cold weather."
+            },
+            {
+              "name": "Short city walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=44.7315%2C18.0860",
+              "description": "Brisk winter strolls."
+            }
+          ]
+        }
+      },
+      "public_transport_tips": [
+        {
+          "tip": "Doboj is a major railway junction connecting northern and central Bosnia.",
+          "link": "https://www.zfbh.ba/"
+        },
+        {
+          "tip": "Local buses cover the city and nearby suburbs.",
+          "link": "https://www.doboj.gov.ba/"
+        },
+        {
+          "tip": "The city center and fortress area are easily walkable.",
+          "link": "https://www.turizamrs.org/"
+        }
+      ],
+      "city_events": [
+        {
+          "name": "Doboj Summer Cultural Events",
+          "season": "summer",
+          "description": "Concerts, exhibitions, and local celebrations in the city center.",
+          "website": "https://www.doboj.gov.ba/",
+          "dates": "June–August"
+        }
+      ],
+      "places": [
+        {
+          "name": "Doboj Railway Station",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=44.7296%2C18.0819",
+          "description": "Historic station emphasizing Doboj’s role as a transport hub."
+        },
+        {
+          "name": "City Square Doboj",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=44.7324%2C18.0850",
+          "description": "Central meeting place surrounded by shops and cafés."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "Quiet paths below the fortress",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=44.7318%2C18.0885",
+          "description": "Less-visited walking paths with views of the old town."
+        },
+        {
+          "name": "Early-morning Bosna River banks",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=44.7308%2C18.0845",
+          "description": "Peaceful river scenery before daily activity begins."
+        }
+      ]
+    },
+
+    {
+      "name": "Mostar",
+      "interests": [
+        {
+          "name": "Stari Most (Old Bridge)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=43.3373%2C17.8150",
+          "description": "Iconic 16th-century Ottoman bridge and UNESCO World Heritage site, symbol of Mostar and Herzegovina."
+        },
+        {
+          "name": "Old Bazaar (Kujundžiluk)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=43.3379%2C17.8158",
+          "description": "Historic cobblestone street filled with traditional shops, cafés, and Ottoman-era architecture."
+        },
+        {
+          "name": "Koski Mehmed Pasha Mosque",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=43.3367%2C17.8146",
+          "description": "16th-century mosque with a minaret offering one of the best panoramic views of the Old Bridge and river."
+        },
+        {
+          "name": "Neretva River",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=43.3370%2C17.8140",
+          "description": "Emerald-green river running through Mostar, shaping the city’s scenery and identity."
+        },
+        {
+          "name": "Muslibegović House",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=43.3395%2C17.8186",
+          "description": "Well-preserved Ottoman house showcasing traditional Herzegovinian lifestyle and architecture."
+        }
+      ],
+      "local_food_tip": "Try Herzegovinian dishes such as ćevapi, japrak, stuffed peppers, grilled trout from the Neretva, and baklava. Enjoy Bosnian coffee in the Old Town.",
+      "full_day": {
+        "Morning": "Begin in the Old Town with a walk through <a href=\"https://www.google.com/maps/search/?api=1&query=43.3379%2C17.8158\" target=\"_blank\" rel=\"noopener\">Kujundžiluk</a> ☀️ and coffee by the river, then cross the <a href=\"https://www.google.com/maps/search/?api=1&query=43.3373%2C17.8150\" target=\"_blank\" rel=\"noopener\">Stari Most</a> 🌉.",
+        "Afternoon": "Visit the <a href=\"https://www.google.com/maps/search/?api=1&query=43.3367%2C17.8146\" target=\"_blank\" rel=\"noopener\">Koski Mehmed Pasha Mosque</a> ⛪ and enjoy lunch with river views 🍽️.",
+        "Sunset": "Walk along the <a href=\"https://www.google.com/maps/search/?api=1&query=43.3370%2C17.8140\" target=\"_blank\" rel=\"noopener\">Neretva River</a> 🌅 and watch local divers near the bridge.",
+        "Night": "Dinner in the Old Town ✨ followed by an evening stroll across the illuminated bridge."
+      },
+      "seasons": {
+        "spring": {
+          "event": "Spring Old Town Season",
+          "description": "Mild temperatures and blooming surroundings make walking the Old Town ideal.",
+          "ideas": [
+            {
+              "name": "Old Town walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=43.3379%2C17.8158",
+              "description": "Comfortable sightseeing weather."
+            },
+            {
+              "name": "Museum visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=43.3395%2C17.8186",
+              "description": "Cultural exploration indoors."
+            },
+            {
+              "name": "River photography",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=43.3370%2C17.8140",
+              "description": "Clear light and reflections."
+            }
+          ]
+        },
+        "summer": {
+          "event": "Mostar Bridge Diving Season",
+          "description": "Warm weather brings bridge diving traditions and lively Old Town atmosphere.",
+          "ideas": [
+            {
+              "name": "Bridge diving views",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=43.3373%2C17.8150",
+              "description": "Classic summer spectacle."
+            },
+            {
+              "name": "Evening terraces",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=43.3379%2C17.8158",
+              "description": "Social nightlife in the Old Town."
+            },
+            {
+              "name": "Day trips nearby",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=43.3370%2C17.8140",
+              "description": "Cooler spots along the river."
+            }
+          ]
+        },
+        "autumn": {
+          "event": "Golden Herzegovina",
+          "description": "Warm colors and fewer crowds create a relaxed atmosphere.",
+          "ideas": [
+            {
+              "name": "Old Bridge photography",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=43.3373%2C17.8150",
+              "description": "Soft autumn light."
+            },
+            {
+              "name": "Traditional cuisine",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=43.3378%2C17.8162",
+              "description": "Seasonal local dishes."
+            },
+            {
+              "name": "Historic houses",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=43.3395%2C17.8186",
+              "description": "Quiet cultural visits."
+            }
+          ]
+        },
+        "winter": {
+          "event": "Quiet Old Town Winter",
+          "description": "Cooler weather and peaceful streets offer a calm, authentic experience.",
+          "ideas": [
+            {
+              "name": "Museum visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=43.3395%2C17.8186",
+              "description": "Warm indoor culture."
+            },
+            {
+              "name": "Café culture",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=43.3379%2C17.8158",
+              "description": "Coffee and conversation."
+            },
+            {
+              "name": "Short river walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=43.3370%2C17.8140",
+              "description": "Peaceful winter scenery."
+            }
+          ]
+        }
+      },
+      "public_transport_tips": [
+        {
+          "tip": "Mostar is well connected by train to Sarajevo and the Adriatic coast.",
+          "link": "https://www.zfbh.ba/"
+        },
+        {
+          "tip": "Local buses and taxis are affordable and widely used.",
+          "link": "https://www.mostar.ba/"
+        },
+        {
+          "tip": "The Old Town is compact and best explored on foot.",
+          "link": "https://www.hercegovina.travel/"
+        }
+      ],
+      "city_events": [
+        {
+          "name": "Traditional Bridge Diving Competition",
+          "season": "summer",
+          "description": "Annual competition continuing centuries-old diving tradition from Stari Most.",
+          "website": "https://www.mostar.ba/",
+          "dates": "July"
+        }
+      ],
+      "places": [
+        {
+          "name": "Partisan Memorial Cemetery",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=43.3430%2C17.8045",
+          "description": "Architectural memorial complex designed by Bogdan Bogdanović."
+        },
+        {
+          "name": "Crooked Bridge (Kriva Ćuprija)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=43.3377%2C17.8168",
+          "description": "Smaller historic bridge near the Old Bridge, often seen as its predecessor."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "Early-morning Old Bridge",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=43.3373%2C17.8150",
+          "description": "Quiet atmosphere before tourist crowds arrive."
+        },
+        {
+          "name": "Backstreets of Kujundžiluk",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=43.3385%2C17.8165",
+          "description": "Less-visited alleys showing everyday Old Town life."
+        }
+      ]
+    },
+
+    {
+      "name": "Sarajevo",
+      "interests": [
+        {
+          "name": "Baščaršija",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=43.8591%2C18.4306",
+          "description": "Historic Ottoman-era bazaar and the heart of Sarajevo, filled with traditional shops, mosques, and cafés."
+        },
+        {
+          "name": "Latin Bridge",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=43.8586%2C18.4329",
+          "description": "Historic bridge near the site of the assassination of Archduke Franz Ferdinand in 1914, a key moment in world history."
+        },
+        {
+          "name": "Gazi Husrev-beg Mosque",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=43.8596%2C18.4312",
+          "description": "16th-century mosque and one of the most important Islamic monuments in the Balkans."
+        },
+        {
+          "name": "Yellow Fortress (Žuta Tabija)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=43.8629%2C18.4406",
+          "description": "Hilltop fortress offering the best panoramic views of Sarajevo, especially at sunset."
+        },
+        {
+          "name": "Sarajevo Tunnel Museum",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=43.8242%2C18.3376",
+          "description": "Museum preserving the wartime tunnel that connected the city during the 1990s siege."
+        }
+      ],
+      "local_food_tip": "Try Sarajevo classics such as ćevapi with somun, burek, begova čorba, dolma, tufahija, and enjoy Bosnian coffee in Baščaršija.",
+      "full_day": {
+        "Morning": "Start in <a href=\"https://www.google.com/maps/search/?api=1&query=43.8591%2C18.4306\" target=\"_blank\" rel=\"noopener\">Baščaršija</a> ☀️ with traditional coffee, then visit the <a href=\"https://www.google.com/maps/search/?api=1&query=43.8596%2C18.4312\" target=\"_blank\" rel=\"noopener\">Gazi Husrev-beg Mosque</a> ⛪.",
+        "Afternoon": "Walk to the <a href=\"https://www.google.com/maps/search/?api=1&query=43.8586%2C18.4329\" target=\"_blank\" rel=\"noopener\">Latin Bridge</a> 🏛️ and explore museums nearby, followed by lunch in the Old Town 🍽️.",
+        "Sunset": "Head up to the <a href=\"https://www.google.com/maps/search/?api=1&query=43.8629%2C18.4406\" target=\"_blank\" rel=\"noopener\">Yellow Fortress</a> 🌅 for panoramic city views.",
+        "Night": "Dinner in Baščaršija ✨ and an evening stroll through the historic streets."
+      },
+      "seasons": {
+        "spring": {
+          "event": "Spring in Baščaršija",
+          "description": "Mild weather and blooming hills make the city lively and walkable.",
+          "ideas": [
+            {
+              "name": "Old Town walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=43.8591%2C18.4306",
+              "description": "Comfortable sightseeing temperatures."
+            },
+            {
+              "name": "River Miljacka strolls",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=43.8580%2C18.4320",
+              "description": "Fresh spring atmosphere."
+            },
+            {
+              "name": "Museum visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=43.8575%2C18.4325",
+              "description": "Cultural exploration."
+            }
+          ]
+        },
+        "summer": {
+          "event": "Sarajevo Film Festival",
+          "description": "Internationally known film festival bringing energy and visitors from around the world.",
+          "ideas": [
+            {
+              "name": "Festival screenings",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=43.8578%2C18.4235",
+              "description": "Open-air and cinema events."
+            },
+            {
+              "name": "Evening café life",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=43.8591%2C18.4306",
+              "description": "Lively summer nights."
+            },
+            {
+              "name": "Mountain escapes",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7420%2C18.5650",
+              "description": "Cooler air on nearby mountains."
+            }
+          ]
+        },
+        "autumn": {
+          "event": "Golden Sarajevo",
+          "description": "Autumn colors cover surrounding hills with fewer tourists.",
+          "ideas": [
+            {
+              "name": "Fortress viewpoints",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=43.8629%2C18.4406",
+              "description": "Soft autumn light."
+            },
+            {
+              "name": "Traditional cuisine",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=43.8590%2C18.4310",
+              "description": "Hearty seasonal dishes."
+            },
+            {
+              "name": "Historic walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=43.8586%2C18.4329",
+              "description": "Relaxed city exploration."
+            }
+          ]
+        },
+        "winter": {
+          "event": "Winter & Olympic Legacy",
+          "description": "Snowy atmosphere with access to former Olympic mountains.",
+          "ideas": [
+            {
+              "name": "Museum visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=43.8242%2C18.3376",
+              "description": "Indoor historical insight."
+            },
+            {
+              "name": "Café culture",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=43.8591%2C18.4306",
+              "description": "Warm coffee traditions."
+            },
+            {
+              "name": "Olympic mountains",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7400%2C18.5800",
+              "description": "Winter sports nearby."
+            }
+          ]
+        }
+      },
+      "public_transport_tips": [
+        {
+          "tip": "Trams run east–west through the city and are the fastest way to move around.",
+          "link": "https://gras.ba/"
+        },
+        {
+          "tip": "Buses and trolleybuses serve hills and outer neighborhoods.",
+          "link": "https://gras.ba/"
+        },
+        {
+          "tip": "The Old Town is compact and best explored on foot.",
+          "link": "https://visitsarajevo.ba/"
+        }
       ],
       "city_events": [
         {
           "name": "Sarajevo Film Festival",
           "season": "summer",
-          "description": "International film festival with screenings, workshops, red carpets and vibrant nightlife."
-        },
-        {
-          "name": "Sarajevo Summer Street Festival",
-          "season": "summer",
-          "description": "Open-air music and cultural performances across central areas."
-        },
-        {
-          "name": "Winter Historic Walks & Lights",
-          "season": "winter",
-          "description": "Illuminated old-town evenings with warm drinks and cozy atmosphere."
+          "description": "Major international film festival and cultural highlight of the city.",
+          "website": "https://www.sff.ba/",
+          "dates": "August"
         }
       ],
-      "recommended_places": [
+      "places": [
         {
-          "name": "Baščaršija (Old Bazaar)",
-          "type": "Historic quarter & bazaar",
-          "google_maps_link": "<a href=\"https://www.google.com/maps/search/?api=1&query=Ba%C5%A1%C4%8Dar%C5%A1ija%20Sarajevo\" target=\"_blank\" rel=\"noopener\">View on Google Maps</a>",
-          "description": "Baščaršija is Sarajevo’s Ottoman-era cultural core, filled with artisan workshops, copper engravers, traditional bakeries and narrow market streets. Its urban layout reflects classical Ottoman city planning, combining religious, commercial and social spaces. The atmosphere shifts from quiet mornings to lively afternoons filled with aromas of grilled dishes and coffee."
+          "name": "Vrelo Bosne",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=43.8249%2C18.2634",
+          "description": "Natural park and spring of the Bosna River, ideal for walks and relaxation."
         },
         {
-          "name": "Sebilj Fountain",
-          "type": "Historic fountain",
-          "google_maps_link": "<a href=\"https://www.google.com/maps/search/?api=1&query=Sebilj%20Fountain%20Sarajevo\" target=\"_blank\" rel=\"noopener\">View on Google Maps</a>",
-          "description": "A wooden Ottoman-style fountain that stands as the symbol of Sarajevo. Historically used as a community water source, today it is a major meeting point surrounded by cafés and lively squares. Pigeons, wooden kiosks and traditional shops frame its picturesque setting."
+          "name": "National Museum of Bosnia and Herzegovina",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=43.8563%2C18.4033",
+          "description": "Country’s main museum, home to the Sarajevo Haggadah."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "Early-morning Baščaršija",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=43.8591%2C18.4306",
+          "description": "Peaceful atmosphere before shops open."
         },
         {
-          "name": "Gazi Husrev-bey Mosque",
-          "type": "Religious site",
-          "google_maps_link": "<a href=\"https://www.google.com/maps/search/?api=1&query=Gazi%20Husrev-bey%20Mosque%20Sarajevo\" target=\"_blank\" rel=\"noopener\">View on Google Maps</a>",
-          "description": "Completed in 1531, this mosque is one of the finest examples of Ottoman Islamic architecture in Southeast Europe. The surrounding complex includes a madrasa, clock tower and covered bazaar. Its calm courtyard, stone fountain and balanced proportions create a serene cultural setting."
-        },
-        {
-          "name": "Sacred Heart Cathedral",
-          "type": "Cathedral",
-          "google_maps_link": "<a href=\"https://www.google.com/maps/search/?api=1&query=Sacred%20Heart%20Cathedral%20Sarajevo\" target=\"_blank\" rel=\"noopener\">View on Google Maps</a>",
-          "description": "This Neo-Gothic cathedral from 1889 symbolizes Sarajevo’s multicultural character. Its twin towers, stained-glass windows and bright interior contrast beautifully with nearby Ottoman-era structures."
-        },
-        {
-          "name": "Sarajevo City Hall (Vijećnica)",
-          "type": "Historic building",
-          "google_maps_link": "<a href=\"https://www.google.com/maps/search/?api=1&query=Sarajevo%20City%20Hall%20Vije%C4%87nica\" target=\"_blank\" rel=\"noopener\">View on Google Maps</a>",
-          "description": "A striking pseudo-Moorish style structure built during the Austro-Hungarian period. The interior features colorful arches, mosaics and a grand central atrium. It serves today as a museum and cultural venue."
-        },
-        {
-          "name": "Latin Bridge",
-          "type": "Historic bridge",
-          "google_maps_link": "<a href=\"https://www.google.com/maps/search/?api=1&query=Latin%20Bridge%20Sarajevo\" target=\"_blank\" rel=\"noopener\">View on Google Maps</a>",
-          "description": "A stone Ottoman bridge dating to the 16th century, globally known as the site of the 1914 assassination that triggered World War I. The riverbank nearby contains markers and plaques documenting this key event."
-        },
-        {
-          "name": "War Childhood Museum",
-          "type": "Museum",
-          "google_maps_link": "<a href=\"https://www.google.com/maps/search/?api=1&query=War%20Childhood%20Museum%20Sarajevo\" target=\"_blank\" rel=\"noopener\">View on Google Maps</a>",
-          "description": "A highly acclaimed museum presenting personal stories, diaries and objects belonging to individuals who grew up during the war. Its minimalistic design enhances emotional impact and authenticity."
-        },
-        {
-          "name": "Yellow Fortress (Žuta Tabija)",
-          "type": "Viewpoint",
-          "google_maps_link": "<a href=\"https://www.google.com/maps/search/?api=1&query=Yellow%20Fortress%20Sarajevo\" target=\"_blank\" rel=\"noopener\">View on Google Maps</a>",
-          "description": "A historic fortification offering some of the best panoramic views of the Sarajevo valley. Popular at sunset for dramatic cityscapes."
-        },
-        {
-          "name": "Trebević Mountain & Cable Car",
-          "type": "Mountain & viewpoint",
-          "google_maps_link": "<a href=\"https://www.google.com/maps/search/?api=1&query=Trebevi%C4%87%20Cable%20Car%20Sarajevo\" target=\"_blank\" rel=\"noopener\">View on Google Maps</a>",
-          "description": "The modern cable car links the old town with Trebević Mountain. The summit area includes forest walks, Olympic bobsleigh ruins and excellent viewpoints."
-        },
-        {
-          "name": "Avaz Twist Tower",
-          "type": "Skyscraper & viewpoint",
-          "google_maps_link": "<a href=\"https://www.google.com/maps/search/?api=1&query=Avaz%20Twist%20Tower\" target=\"_blank\" rel=\"noopener\">View on Google Maps</a>",
-          "description": "One of the tallest buildings in the Balkans, famous for its twisting façade and 360° observation deck. Perfect for night-time city views."
+          "name": "Local cafés in Bistrik",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=43.8555%2C18.4385",
+          "description": "Authentic neighborhood life away from crowds."
         }
       ]
     },
-    {
-      "name": "Mostar",
-      "interests": [
-        "Historic Bridges & Ottoman Architecture 🌉 — Iconic structures, stone houses and bazaars shaped by centuries of cultural mixing.",
-        "Riverside Walks & Photography 📸 — Neretva viewpoints, cobblestone alleys and dramatic cliff-like riverbanks.",
-        "Museums & Cultural Heritage 🕌 — Layers of Bosnian, Ottoman and Mediterranean influences."
-      ],
-      "local_food_tip": "Try sogan-dolma, japrak, uštipci, pita, grilled meats, and Mostar-style trout. Herzegovinian cuisine is fresh, aromatic and deeply tied to local agriculture — olives, figs, pomegranates and grape-based desserts.",
-      "full_day": "Morning: Begin in the UNESCO-listed Old Bridge area, walking the stone slopes of the historic <a href=\"https://www.google.com/maps/search/?api=1&query=Stari%20Most%20Mostar\" target=\"_blank\" rel=\"noopener\">Stari Most</a>. Explore the bazaar streets Kujundžiluk filled with metalworkers, local crafts and traditional jewelry. Stop for Bosnian coffee along the riverbanks.\n\nAfternoon: Visit the <a href=\"https://www.google.com/maps/search/?api=1&query=Koski%20Mehmed%20Pasha%20Mosque%20Mostar\" target=\"_blank\" rel=\"noopener\">Koski Mehmed-paša Mosque</a> for panoramic minaret views, then walk to the <a href=\"https://www.google.com/maps/search/?api=1&query=Old%20Bridge%20Museum%20Mostar\" target=\"_blank\" rel=\"noopener\">Old Bridge Museum</a>. Enjoy lunch in a riverside restaurant overlooking the emerald Neretva.\n\nSunset: Photographers gather near the Crooked Bridge and riverside terraces as the stone reflects warm golden colors.\n\nNight: The Old Town glows with lanterns and soft lights — perfect for a slow walk, dessert or coffee right by the water.",
-      "seasons": {
-        "spring": {
-          "event": "Spring in Mostar",
-          "ideas": [
-            "Soft light and mild weather ideal for exploring the Old Bridge and riverside alleys.",
-            "Blooming courtyards around historical houses in the Ottoman quarter.",
-            "Perfect temperatures for climbing minarets and visiting open-air cafés."
-          ]
-        },
-        "summer": {
-          "event": "Summer Heat & River Breeze",
-          "ideas": [
-            "Refreshing riverside walks along the Neretva.",
-            "Bridge-diving demonstrations at <a href=\"https://www.google.com/maps/search/?api=1&query=Stari%20Most%20Mostar\" target=\"_blank\" rel=\"noopener\">Stari Most</a>.",
-            "Late-evening strolls when the stone alleys cool down."
-          ]
-        },
-        "autumn": {
-          "event": "Golden Heritage Season",
-          "ideas": [
-            "Warm colors reflecting from old stone houses.",
-            "Peaceful museum visits and cultural tours.",
-            "Mild climate perfect for photography from high viewpoints."
-          ]
-        },
-        "winter": {
-          "event": "Quiet Winter Atmosphere",
-          "ideas": [
-            "Calm Old Town with fewer visitors.",
-            "Warm indoor meals featuring Herzegovinian classics.",
-            "Serene views of the river framed by winter light."
-          ]
-        }
-      },
-      "public_transport_tips": [
-        "The Old Town is pedestrian-only — everything is accessible on foot.",
-        "Local buses connect other districts, but taxis are inexpensive and fast.",
-        "Trips to Blagaj, Počitelj or Kravica Falls are easiest by taxi or organized tour.",
-        "Wear comfortable shoes — stone alleys can be slippery."
-      ],
-      "city_events": [
-        {
-          "name": "Mostar Bridge Diving",
-          "season": "summer",
-          "description": "A long-standing tradition where professional divers leap from the historic Stari Most into the cold Neretva — a cultural symbol of bravery and heritage."
-        }
-      ],
-      "recommended_places": [
-        {
-          "name": "Stari Most (Old Bridge)",
-          "type": "Historic bridge & viewpoint",
-          "google_maps_link": "<a href=\"https://www.google.com/maps/search/?api=1&query=Stari%20Most%20Mostar\" target=\"_blank\" rel=\"noopener\">View on Google Maps</a>",
-          "description": "Completed in the 16th century under the Ottoman Empire, Stari Most is one of Bosnia’s most iconic architectural achievements. The single-arch limestone design demonstrates advanced engineering for its era and became a global symbol of unity and resilience after its reconstruction. Today, the bridge connects historic neighborhoods filled with stone houses, craft shops and riverside cafés. The combination of emerald water and steep cliffs creates dramatic scenery for photographers. The site is especially beautiful during sunrise and sunset when colors intensify across the stone. Traditional divers continue the centuries-old practice of jumping from the bridge into the Neretva River."
-        },
-        {
-          "name": "Koski Mehmed-paša Mosque",
-          "type": "Mosque & viewpoint",
-          "google_maps_link": "<a href=\"https://www.google.com/maps/search/?api=1&query=Koski%20Mehmed%20Pasha%20Mosque%20Mostar\" target=\"_blank\" rel=\"noopener\">View on Google Maps</a>",
-          "description": "Built in 1617, this mosque is known for its elegant proportions and beautifully decorated interior featuring classical Ottoman motifs. The highlight for visitors is the minaret ascent offering one of the most cinematic views of Stari Most and the Old Town. Its courtyard features a stone fountain and shaded resting areas that showcase traditional Islamic garden aesthetics. The mosque stands as a cultural and religious anchor in the eastern historic quarter. Its architecture blends stone craftsmanship with delicate ornamentation. The site remains an active place of worship and an important cultural monument."
-        },
-        {
-          "name": "Old Bridge Museum",
-          "type": "Museum",
-          "google_maps_link": "<a href=\"https://www.google.com/maps/search/?api=1&query=Old%20Bridge%20Museum%20Mostar\" target=\"_blank\" rel=\"noopener\">View on Google Maps</a>",
-          "description": "This museum documents the engineering, construction, destruction and reconstruction of Stari Most through archival photographs, models and multimedia exhibits. Visitors can explore underground archaeological remains showing earlier bridge foundations. The museum tower also provides a vertical climb into historical defensive spaces, revealing the urban structure of medieval Mostar. Its exhibitions provide detailed context about the symbolism of the bridge across different eras. The rooftop viewpoint offers sweeping panoramas of the river and surrounding stone neighborhoods. It's an essential stop for understanding Mostar’s deep cultural identity."
-        },
-        {
-          "name": "Kujundžiluk Bazaar",
-          "type": "Bazaar & artisan street",
-          "google_maps_link": "<a href=\"https://www.google.com/maps/search/?api=1&query=Kujund%C5%BEiluk%20Mostar\" target=\"_blank\" rel=\"noopener\">View on Google Maps</a>",
-          "description": "Kujundžiluk is Mostar’s oldest trading street, named after traditional coppersmiths who have worked here for centuries. Today, the bazaar hosts artisans producing jewelry, engraved copper plates, leather goods and woven textiles. The narrow cobblestone lanes preserve an authentic Ottoman urban layout. Fragrances from cafés and local bakeries drift through the air, adding to the atmosphere. Visitors can watch craftsmen engrave metal using techniques passed down through generations. The area is lively throughout the day and ideal for photography, shopping and cultural immersion."
-        },
-        {
-          "name": "Crooked Bridge (Kriva ćuprija)",
-          "type": "Historic small bridge",
-          "google_maps_link": "<a href=\"https://www.google.com/maps/search/?api=1&query=Crooked%20Bridge%20Mostar\" target=\"_blank\" rel=\"noopener\">View on Google Maps</a>",
-          "description": "Often described as a miniature version of Stari Most, the Crooked Bridge was originally built in the 16th century as a prototype for the larger span. It crosses the tranquil Radobolja River, flowing through a cozy stone quarter lined with restaurants and small houses. The setting feels intimate and peaceful compared to the main bridge. Its elegant arch and stone patterns showcase early Ottoman construction style. The surrounding area glows warmly in the evening light, making it a favorite sunset photography spot. Seasonal terraces create a calm riverside ambiance perfect for dinner or drinks."
-        }
-      ]
-    },
-    {
-      "name": "Blagaj",
-      "interests": [
-        "Natural Springs & Karst Landscapes 🌊 — Impressive cliffs, crystal river sources and unique hydrological features.",
-        "Ottoman-Era Heritage & Tekke Monastery 🕌 — A spiritual complex fused with dramatic natural scenery.",
-        "Outdoor Walks & River Dining 🚶‍♂️ — Crystal-clear waters, shaded terraces and scenic paths."
-      ],
-      "local_food_tip": "Try freshly grilled trout from the Buna River, homemade bread, uštipci, roasted vegetables and Herzegovinian dishes prepared with olive oil, figs and local herbs.",
-      "full_day": "Morning: Start at the magnificent <a href=\"https://www.google.com/maps/search/?api=1&query=Vrelo%20Bune%20Blagaj\" target=\"_blank\" rel=\"noopener\">Buna River Spring</a>, one of Europe’s strongest karst sources. Enjoy breakfast on terraces above the water.\n\nAfternoon: Visit the historic <a href=\"https://www.google.com/maps/search/?api=1&query=Blagaj%20Tekke\" target=\"_blank\" rel=\"noopener\">Blagaj Tekke</a>, explore its prayer rooms and wooden balconies, then walk riverside trails or hike to <a href=\"https://www.google.com/maps/search/?api=1&query=Blagaj%20Fortress%20Stjepan%20Grad\" target=\"_blank\" rel=\"noopener\">Stjepan Grad Fortress</a>.\n\nSunset: Soft golden light reflects dramatically on the water and white walls of the Tekke.\n\nNight: Dine in riverside restaurants with the sound of flowing water and a calm rural ambiance.",
-      "seasons": {
-        "spring": {
-          "event": "Spring River Renewal",
-          "ideas": [
-            "High water levels create powerful scenic flows.",
-            "Lush vegetation along riverside trails.",
-            "Ideal temperatures for exploring the Tekke and natural surroundings."
-          ]
-        },
-        "summer": {
-          "event": "Cool River Escape",
-          "ideas": [
-            "Cold river air provides natural refreshment.",
-            "Riverside dining in shaded terraces.",
-            "Occasional boat rides near the spring when conditions allow."
-          ]
-        },
-        "autumn": {
-          "event": "Autumn Colors & Calm",
-          "ideas": [
-            "Warm tones reflecting in the river are perfect for photography.",
-            "Quiet hiking routes and peaceful monastery surroundings.",
-            "Ideal season for traditional meals and slow walks."
-          ]
-        },
-        "winter": {
-          "event": "Winter Serenity",
-          "ideas": [
-            "Minimal crowds around the Tekke.",
-            "Cozy indoor riverside seating with warm dishes.",
-            "Crisp air and peaceful nature ambiance."
-          ]
-        }
-      },
-      "public_transport_tips": [
-        "Buses from Mostar operate but with limited frequency.",
-        "All attractions in Blagaj are within walking distance.",
-        "A car is ideal for combining Blagaj with Počitelj, Mostar or Kravica Falls.",
-        "Footwear with good grip is advised on riverside paths."
-      ],
-      "city_events": [
-        {
-          "name": "River & Nature Spring Festival",
-          "season": "spring",
-          "description": "A small local celebration with regional food, traditional music and guided tours of the Buna spring ecosystem."
-        }
-      ],
-      "recommended_places": [
-        {
-          "name": "Vrelo Bune (Buna River Spring)",
-          "type": "Natural spring",
-          "google_maps_link": "<a href=\"https://www.google.com/maps/search/?api=1&query=Vrelo%20Bune%20Blagaj\" target=\"_blank\" rel=\"noopener\">View on Google Maps</a>",
-          "description": "One of the most powerful karst springs in Europe, emerging directly beneath a 200-meter vertical cliff. Its exceptional turquoise color comes from interactions of limestone minerals and deep underground water channels. Hydrologists have documented complex subterranean systems feeding the spring, making it a key example of Dinaric karst formation. Wooden platforms and stone terraces allow visitors to observe the spring’s force up close. The sound of rushing water creates a dramatic atmosphere year-round. Photographers particularly value the contrasting textures of cliff, water and historical structures."
-        },
-        {
-          "name": "Blagaj Tekke (Dervish Monastery)",
-          "type": "Historic monastery",
-          "google_maps_link": "<a href=\"https://www.google.com/maps/search/?api=1&query=Blagaj%20Tekke\" target=\"_blank\" rel=\"noopener\">View on Google Maps</a>",
-          "description": "Dating back to the late 15th century, this Sufi monastery blends Ottoman architectural style with a unique natural setting directly beside the Buna spring. Its wooden balconies, carved interiors and serene prayer rooms reflect centuries of spiritual practice. Historical manuscripts preserved here offer insights into dervish traditions and regional cultural exchanges. The Tekke appears almost fused to the cliff, creating one of the most dramatic architectural compositions in the Balkans. Visitors can explore the interior, enjoy riverside views and learn about Sufi heritage. The area remains exceptionally peaceful despite its high cultural significance."
-        },
-        {
-          "name": "Blagaj Fortress (Stjepan Grad)",
-          "type": "Hilltop fortress",
-          "google_maps_link": "<a href=\"https://www.google.com/maps/search/?api=1&query=Blagaj%20Fortress%20Stjepan%20Grad\" target=\"_blank\" rel=\"noopener\">View on Google Maps</a>",
-          "description": "Located high above Blagaj, Stjepan Grad offers sweeping panoramas of the Buna valley and surrounding karst features. The fortress served as a medieval defensive stronghold protecting regional trade routes. Archaeological remains include fortified walls, gate structures and foundations of residential buildings. The hike to the top reveals the geographical strategy behind the site’s placement. Clear days allow views stretching toward Mostar and the wider Herzegovina landscape. Its isolated, elevated setting provides a strong sense of historical atmosphere and quiet reflection."
-        },
-        {
-          "name": "Riverside Restaurants of Blagaj",
-          "type": "Food & nature experience",
-          "google_maps_link": "<a href=\"https://www.google.com/maps/search/?api=1&query=Restaurant%20Blagaj%20Buna%20River\" target=\"_blank\" rel=\"noopener\">View on Google Maps</a>",
-          "description": "Restaurants in Blagaj are uniquely positioned directly over or beside the river, creating dining terraces with cooling breezes even in summer heat. Fresh trout, often caught from the Buna itself, is the signature dish of the region. Many restaurants feature traditional stone construction that blends harmoniously with the natural surroundings. Wooden decks allow diners to enjoy the sound of rushing water beneath their feet. Evenings offer particularly atmospheric scenery with soft reflections on the river. The culinary style combines Ottoman, Mediterranean and rural Herzegovinian elements."
-        },
-        {
-          "name": "Buna Riverside Walking Paths",
-          "type": "Nature walk",
-          "google_maps_link": "<a href=\"https://www.google.com/maps/search/?api=1&query=Buna%20River%20Blagaj%20Walking%20Path\" target=\"_blank\" rel=\"noopener\">View on Google Maps</a>",
-          "description": "These gentle walking paths follow orchards, old stone walls and small fields typical of Herzegovinian rural landscapes. The river’s clarity creates beautiful mirror-like reflections along the route. Birdlife is abundant, including herons and swallows adapted to karst water systems. The paths offer a peaceful contrast to more visited spots near the spring. Soft forest patches and shaded sections create pleasant walking conditions throughout the year. The route is ideal for families and visitors seeking quiet nature without steep climbs."
-        }
-      ]
-    },
-    {
-      "name": "Jahorina (Olympic Mountain)",
-      "interests": [
-        "Alpine Skiing & Winter Sports 🎿 — Modern slopes, long runs and Olympic heritage.",
-        "Mountain Hiking & Summer Landscapes 🌄 — High-altitude trails, pine forests and wide panoramas.",
-        "Nature Retreats & Wellness 🍃 — Fresh mountain air, spa hotels and quiet scenic escapes."
-      ],
-      "local_food_tip": "Try mountain-style meals such as homemade soups, grilled meats, kajmak, čorbe, uštipci, baked beans and slow-cooked stews — hearty and perfect for cold weather.",
-      "full_day": "Morning: Begin at the main ski center near the <a href=\"https://www.google.com/maps/search/?api=1&query=Jahorina%20Ski%20Resort\" target=\"_blank\" rel=\"noopener\">Jahorina Ski Resort</a>. Enjoy early runs on freshly groomed slopes or a morning forest walk in summer.\n\nAfternoon: Visit the scenic viewpoint around <a href=\"https://www.google.com/maps/search/?api=1&query=Ogorjelica%20Jahorina\" target=\"_blank\" rel=\"noopener\">Ogorjelica</a> for panoramic mountain views. Stop for lunch in a mountain lodge with warm local dishes.\n\nSunset: Walk to one of the ridge lookouts to enjoy the golden light over pine forests and surrounding peaks.\n\nNight: Relax in the spa areas of local hotels or enjoy traditional meals by the fireplace.",
-      "seasons": {
-        "spring": {
-          "event": "Alpine Spring Awakening",
-          "ideas": [
-            "Snow melting reveals lush green slopes and wildflowers.",
-            "Quiet hiking trails ideal for nature-lovers.",
-            "Mild temperatures for mixed snow–forest photography."
-          ]
-        },
-        "summer": {
-          "event": "High-Altitude Summer Escape",
-          "ideas": [
-            "Cool temperatures perfect for escaping summer heat.",
-            "Hiking, cycling and ridge walks across the mountain.",
-            "Evenings with fresh breezes and starry skies."
-          ]
-        },
-        "autumn": {
-          "event": "Golden Mountain Season",
-          "ideas": [
-            "Orange and red forest tones across the hillsides.",
-            "Calm hiking routes ideal for long panoramic walks.",
-            "Warm traditional food after cool outdoor days."
-          ]
-        },
-        "winter": {
-          "event": "Olympic-Style Winter",
-          "ideas": [
-            "Modern ski lifts, long runs and evening skiing.",
-            "Cozy lodges with fireplaces and warm drinks.",
-            "Snowshoeing trails for quieter winter exploration."
-          ]
-        }
-      },
-      "public_transport_tips": [
-        "Access is easiest by car or organized ski shuttles from Sarajevo.",
-        "Movement on the mountain is mostly by ski lifts or walking paths.",
-        "Parking zones are located near major hotels and ski centers.",
-        "Weather can change quickly — check conditions before traveling."
-      ],
-      "city_events": [
-        {
-          "name": "Winter Ski Opening Festival",
-          "season": "winter",
-          "description": "A multi-day celebration marking the start of the ski season with music, competitions and night-skiing events."
-        }
-      ],
-      "recommended_places": [
-        {
-          "name": "Ogorjelica Peak & Viewpoints",
-          "type": "Peak & panoramic zone",
-          "google_maps_link": "<a href=\"https://www.google.com/maps/search/?api=1&query=Ogorjelica%20Jahorina\" target=\"_blank\" rel=\"noopener\">View on Google Maps</a>",
-          "description": "Ogorjelica is one of Jahorina’s highest points and a central hub for ski routes. Its ridge provides sweeping views of the Dinaric Alps and surrounding forests. In winter, modern lifts take visitors directly to the top for long alpine descents. In summer, it becomes a peaceful lookout with long-distance visibility and ideal conditions for photography. The area also features open meadows and small forest paths. The contrast of rugged slopes and airy summits makes it one of Jahorina’s signature experiences."
-        },
-        {
-          "name": "Jahorina Ski Resort",
-          "type": "Ski & nature center",
-          "google_maps_link": "<a href=\"https://www.google.com/maps/search/?api=1&query=Jahorina%20Ski%20Resort\" target=\"_blank\" rel=\"noopener\">View on Google Maps</a>",
-          "description": "Known for its Olympic legacy from the 1984 Winter Games, this resort offers modern lifts, night skiing, training routes and well-prepared slopes suitable for all skill levels. Its infrastructure has been significantly upgraded with new gondolas and lighting systems. Surrounding lodges offer warm hospitality and traditional food. Families, professional athletes and beginners all find suitable routes. The area transforms into a hiking and mountain-cycling zone during summer. Its alpine climate provides fresh air and cool conditions perfect for outdoor activities."
-        },
-        {
-          "name": "Ridge Hiking Trails",
-          "type": "Hiking routes",
-          "google_maps_link": "<a href=\"https://www.google.com/maps/search/?api=1&query=Jahorina%20Hiking%20Trails\" target=\"_blank\" rel=\"noopener\">View on Google Maps</a>",
-          "description": "Jahorina’s ridge network includes trails passing forests, viewpoints, alpine meadows and quiet rest spots. The terrain varies from gentle paths suitable for families to more demanding ridgeline walks. The region is rich in mountain flora and small wildlife. Clear days offer visibility stretching across Bosnia’s highlands. Hiking is most enjoyable in late spring, summer and early autumn when temperatures are mild. Several marked trails connect the main peaks and ski areas."
-        },
-        {
-          "name": "Mountain Lodges & Traditional Restaurants",
-          "type": "Food & culture",
-          "google_maps_link": "<a href=\"https://www.google.com/maps/search/?api=1&query=Jahorina%20Restaurants\" target=\"_blank\" rel=\"noopener\">View on Google Maps</a>",
-          "description": "Jahorina’s lodges serve mountain meals such as homemade soups, baked beans, grilled meats, uštipci, cheese and hearty stews. Wooden interiors and fireplaces create a classic alpine ambiance. Visitors often enjoy warm drinks after cold winter excursions. In summer, terraces offer tranquil mountain views in fresh air. Food highlights reflect both Bosnian and broader Balkan traditions."
-        }
-      ]
-    },
+
     {
       "name": "Trebinje",
       "interests": [
-        "Mediterranean Old Town & Stone Architecture 🏛️ — Warm stone streets, palm trees and a coastal-like ambiance.",
-        "Riverside Walks & Historic Bridges 🌊 — Calm Trebišnjica riverfront with scenic medieval structures.",
-        "Wine Culture & Local Cuisine 🍷 — Vineyards, wineries and rich Herzegovinian flavors."
+        {
+          "name": "Old Town Trebinje (Kastel)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=42.7089%2C18.3436",
+          "description": "Well-preserved old town with stone streets, small squares, cafés, and a relaxed Mediterranean atmosphere."
+        },
+        {
+          "name": "Arslanagić Bridge (Perovića Bridge)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=42.7108%2C18.3496",
+          "description": "16th-century Ottoman stone bridge over the Trebišnjica River, one of Trebinje’s most iconic landmarks."
+        },
+        {
+          "name": "Herzegovina Gračanica Monastery",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=42.7163%2C18.3516",
+          "description": "Serbian Orthodox monastery on Crkvina Hill, offering panoramic views over Trebinje and surrounding vineyards."
+        },
+        {
+          "name": "Trebišnjica River",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=42.7098%2C18.3468",
+          "description": "Clear river flowing through the city, lined with plane trees and walking paths."
+        },
+        {
+          "name": "Dučić Park",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=42.7093%2C18.3452",
+          "description": "Central park named after poet Jovan Dučić, a popular meeting place for locals."
+        }
       ],
-      "local_food_tip": "Try Herzegovinian cheese, prosciutto, honey, olive-oil dishes, zeljanica, peke-style roasts and local wines such as Vranac and Žilavka.",
-      "full_day": "Morning: Start in the Old Town near the <a href=\"https://www.google.com/maps/search/?api=1&query=Hercegovacka%20Gracanica%20Trebinje\" target=\"_blank\" rel=\"noopener\">Hercegovačka Gračanica monastery</a> viewpoint. Explore stone streets, shaded squares and Mediterranean architecture.\n\nAfternoon: Walk the peaceful riverfront toward the historic <a href=\"https://www.google.com/maps/search/?api=1&query=Arslanagica%20Bridge%20Trebinje\" target=\"_blank\" rel=\"noopener\">Arslanagića Bridge</a>. Visit a winery on the outskirts of town and sample local wines.\n\nSunset: Enjoy the golden glow along palm-lined boulevards and the river.\n\nNight: Dine in traditional restaurants with fresh produce, grilled meats and fine local wines.",
+      "local_food_tip": "Trebinje is known for Herzegovinian cuisine: grilled meats, cheese in olive oil, smoked ham, fresh bread, river fish, and local wines like Vranac and Žilavka.",
+      "full_day": {
+        "Morning": "Start with coffee in <a href=\"https://www.google.com/maps/search/?api=1&query=42.7089%2C18.3436\" target=\"_blank\" rel=\"noopener\">Old Town Trebinje</a> ☀️ and explore its quiet stone streets.",
+        "Afternoon": "Walk along the <a href=\"https://www.google.com/maps/search/?api=1&query=42.7098%2C18.3468\" target=\"_blank\" rel=\"noopener\">Trebišnjica River</a> 🌿, cross the <a href=\"https://www.google.com/maps/search/?api=1&query=42.7108%2C18.3496\" target=\"_blank\" rel=\"noopener\">Arslanagić Bridge</a> 🏛️, and enjoy lunch with local specialties 🍽️.",
+        "Sunset": "Head up to <a href=\"https://www.google.com/maps/search/?api=1&query=42.7163%2C18.3516\" target=\"_blank\" rel=\"noopener\">Herzegovina Gračanica</a> 🌅 for the best city views.",
+        "Night": "Evening walk through <a href=\"https://www.google.com/maps/search/?api=1&query=42.7093%2C18.3452\" target=\"_blank\" rel=\"noopener\">Dučić Park</a> ✨ and dinner in the Old Town."
+      },
       "seasons": {
         "spring": {
-          "event": "Mediterranean Spring Bloom",
+          "event": "Spring Blossoms in Herzegovina",
+          "description": "Mild temperatures, blooming greenery, and ideal conditions for walking.",
           "ideas": [
-            "Trees and stone façades come alive with color.",
-            "Ideal walking temperatures along the river.",
-            "Outdoor cafés open for long daytime visits."
+            {
+              "name": "Old town strolls",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=42.7089%2C18.3436",
+              "description": "Comfortable sightseeing weather."
+            },
+            {
+              "name": "River walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=42.7098%2C18.3468",
+              "description": "Fresh air and shade from plane trees."
+            },
+            {
+              "name": "Monastery visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=42.7163%2C18.3516",
+              "description": "Clear views and calm atmosphere."
+            }
           ]
         },
         "summer": {
-          "event": "Warm Mediterranean Summer",
+          "event": "Trebinje Summer Evenings",
+          "description": "Warm Mediterranean climate with lively outdoor cafés and festivals.",
           "ideas": [
-            "Evening riverside walks with soft lighting.",
-            "Wine tastings in cool stone cellars.",
-            "Late-night dining in lively Old Town squares."
+            {
+              "name": "Evening cafés",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=42.7089%2C18.3436",
+              "description": "Relaxed social atmosphere."
+            },
+            {
+              "name": "River relaxation",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=42.7098%2C18.3468",
+              "description": "Cooling walks near water."
+            },
+            {
+              "name": "Local wine tastings",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=42.7125%2C18.3500",
+              "description": "Herzegovinian wine tradition."
+            }
           ]
         },
         "autumn": {
-          "event": "Harvest & Wine Season",
+          "event": "Grape Harvest Season",
+          "description": "Vineyards turn golden and local wine culture comes alive.",
           "ideas": [
-            "Vineyards turn gold and red, perfect for photography.",
-            "Local vineyards offer seasonal tastings.",
-            "Old Town becomes quieter and deeply atmospheric."
+            {
+              "name": "Wine routes",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=42.7200%2C18.3600",
+              "description": "Harvest atmosphere in nearby villages."
+            },
+            {
+              "name": "Photography walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=42.7108%2C18.3496",
+              "description": "Warm autumn light on stone bridges."
+            },
+            {
+              "name": "Traditional cuisine",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=42.7089%2C18.3436",
+              "description": "Seasonal local dishes."
+            }
           ]
         },
         "winter": {
-          "event": "Mild Winter Escape",
+          "event": "Quiet Mediterranean Winter",
+          "description": "Mild winters compared to inland Bosnia, with calm streets and cafés.",
           "ideas": [
-            "One of the warmest towns in the region during winter.",
-            "Quiet cafés and slow Old Town walks.",
-            "Cultural events in cozy stone interiors."
+            {
+              "name": "Old town cafés",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=42.7089%2C18.3436",
+              "description": "Relaxed winter coffee culture."
+            },
+            {
+              "name": "Short river walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=42.7098%2C18.3468",
+              "description": "Peaceful scenery."
+            },
+            {
+              "name": "Monastery visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=42.7163%2C18.3516",
+              "description": "Quiet spiritual atmosphere."
+            }
           ]
         }
       },
       "public_transport_tips": [
-        "Trebinje is best explored on foot — distances are short and scenic.",
-        "Regional buses connect Trebinje with Mostar, Herceg Novi and Dubrovnik.",
-        "Taxis are affordable and useful for reaching wineries.",
-        "Bring comfortable shoes for stone alleys and river paths."
+        {
+          "tip": "Trebinje is compact; most attractions are reachable on foot.",
+          "link": "https://www.trebinje.rs.ba/"
+        },
+        {
+          "tip": "Buses connect Trebinje with Dubrovnik, Mostar, and regional towns.",
+          "link": "https://www.autoprevoztrebinje.com/"
+        },
+        {
+          "tip": "Taxis are affordable for short trips to hills and monasteries.",
+          "link": "https://www.trebinje.rs.ba/"
+        }
       ],
       "city_events": [
         {
-          "name": "Trebinje Wine & Heritage Festival",
-          "season": "autumn",
-          "description": "A celebration of local vineyards, traditional food and Herzegovinian culture with tastings, exhibitions and live performances."
-        }
-      ],
-      "recommended_places": [
-        {
-          "name": "Arslanagića Bridge (Perovića Most)",
-          "type": "Historic Ottoman bridge",
-          "google_maps_link": "<a href=\"https://www.google.com/maps/search/?api=1&query=Arslanagica%20Bridge%20Trebinje\" target=\"_blank\" rel=\"noopener\">View on Google Maps</a>",
-          "description": "Constructed in the 16th century, this stone bridge is one of the most elegant Ottoman structures in the region. Its arches create perfect reflections in the calm river, forming a favorite photography spot. The bridge originally stood several kilometers away before being relocated due to dam construction. Its craftsmanship showcases classical Ottoman engineering adapted to Trebišnjica’s wide, slow-flowing character. The area around the bridge is peaceful and ideal for nature walks. Warm evening light enhances its stone patterns beautifully."
-        },
-        {
-          "name": "Hercegovačka Gračanica Monastery",
-          "type": "Monastery & viewpoint",
-          "google_maps_link": "<a href=\"https://www.google.com/maps/search/?api=1&query=Hercegovacka%20Gracanica%20Trebinje\" target=\"_blank\" rel=\"noopener\">View on Google Maps</a>",
-          "description": "This monastery is a modern architectural homage to the medieval Gračanica Monastery in Kosovo, built according to traditional Serbian-Byzantine style. Positioned on Crkvina Hill, it offers one of the most spectacular panoramas of Trebinje and the valley. The complex includes gardens, stone paths and quiet terraces for contemplation. Its frescoes and structural design reflect strong cultural symbolism. The viewpoint is especially attractive at sunset when the town glows with Mediterranean colors."
-        },
-        {
-          "name": "Old Town (Stari Grad)",
-          "type": "Historic quarter",
-          "google_maps_link": "<a href=\"https://www.google.com/maps/search/?api=1&query=Stari%20Grad%20Trebinje\" target=\"_blank\" rel=\"noopener\">View on Google Maps</a>",
-          "description": "Trebinje’s Old Town is characterized by stone walls, narrow passages, shaded courtyards and vibrant squares surrounded by palm trees. Its Mediterranean climate shapes a relaxed lifestyle with cafés spilling onto cobblestone plazas. The architecture reflects centuries of Venetian, Ottoman and Austro-Hungarian influence. Small artisan shops and local markets add charm. Evenings are particularly atmospheric with soft lighting and warm temperatures. The quarter is compact and easy to explore on foot."
-        },
-        {
-          "name": "Trebinje Wineries (Vranac & Žilavka Region)",
-          "type": "Wine culture",
-          "google_maps_link": "<a href=\"https://www.google.com/maps/search/?api=1&query=Trebinje%20Winery\" target=\"_blank\" rel=\"noopener\">View on Google Maps</a>",
-          "description": "The hills around Trebinje host some of Bosnia and Herzegovina’s most respected vineyards. The Mediterranean climate, limestone-rich soil and long sunny seasons make ideal conditions for grapes like Vranac and Žilavka. Local wineries offer tastings in stone cellars with guided tours explaining winemaking traditions. Visitors can learn about regional varietals, food pairings and historical ties to the wider Adriatic winemaking tradition. The surroundings include panoramic views of the valley and peaceful rural landscapes."
-        },
-        {
-          "name": "Trebišnjica Riverside Promenade",
-          "type": "Riverside walk",
-          "google_maps_link": "<a href=\"https://www.google.com/maps/search/?api=1&query=Trebisnjica%20River%20Trebinje\" target=\"_blank\" rel=\"noopener\">View on Google Maps</a>",
-          "description": "One of Trebinje’s defining features is its calm and beautifully maintained riverside promenade. Iconic stone bridges, quiet parks and tree-lined paths create a soothing Mediterranean atmosphere. Locals often gather here in the afternoon for walks, reading or drinks by the water. The combination of historical bridges, river reflections and surrounding vegetation makes it a favorite spot for photographers. It is equally charming during morning calm and golden evening light."
-        }
-      ]
-    },
-    {
-      "name": "Zenica",
-      "interests": [
-        "Industrial Heritage & Steel-Town History 🏭 — Unique urban identity shaped by factories and workers’ traditions.",
-        "Valley & Hill Viewpoints 🌄 — Surrounding slopes with calm nature walks and wide panoramas.",
-        "Authentic Everyday Urban Life 🏙️ — Real local vibe, cafés, bakeries, markets and pedestrian streets."
-      ],
-      "local_food_tip": "Try home-style Bosnian meals such as stews, čorbe, grilled meats, somun bread, pita, and simple pastries — comforting food reflecting everyday local life.",
-      "full_day": "Morning: Walk the central pedestrian area around <a href=\"https://www.google.com/maps/search/?api=1&query=Zenica%20City%20Center\" target=\"_blank\" rel=\"noopener\">Zenica City Center</a>. Explore small squares, shops and cafés.\n\nAfternoon: Head to the hills surrounding the city for views of the Zenica valley. Many visitors choose quieter local paths that are easy and scenic.\n\nEvening: Return to the center for dinner — local restaurants serve traditional Bosnian dishes prepared in a simple, homemade style.\n\nNight: Enjoy a relaxed city walk, with a calm, everyday atmosphere very different from tourist hotspots.",
-      "seasons": {
-        "spring": {
-          "event": "Spring Valley Awakening",
-          "ideas": [
-            "Fresh green hills around the city — ideal for short nature walks.",
-            "Mild temperatures perfect for exploring the pedestrian center.",
-            "Light café vibes as outdoor seating reopens."
-          ]
-        },
-        "summer": {
-          "event": "Warm Summer Days & Hill Escapes",
-          "ideas": [
-            "Hot valley days balanced by cooler air in nearby hills.",
-            "Grilled dishes and summer meals in local restaurants.",
-            "Slow, peaceful evenings in the center."
-          ]
-        },
-        "autumn": {
-          "event": "Golden Autumn Valley",
-          "ideas": [
-            "Colorful slopes around Zenica visible from many viewpoints.",
-            "Warm comfort food such as stews and baked dishes.",
-            "Photography opportunities over the valley in soft light."
-          ]
-        },
-        "winter": {
-          "event": "Quiet Winter Urban Mood",
-          "ideas": [
-            "Short peaceful city walks under chilly skies.",
-            "Hot soups, pastries and bakery snacks.",
-            "Calm evenings in cafés popular with locals."
-          ]
-        }
-      },
-      "public_transport_tips": [
-        "Local buses connect different districts and nearby villages with the center.",
-        "The pedestrian zone is compact and best explored on foot.",
-        "A car is useful if you want to reach high hill viewpoints.",
-        "Check daylight hours before planning hikes, especially in winter."
-      ],
-      "city_events": [
-        {
-          "name": "Zenica Valley Autumn Days",
-          "season": "autumn",
-          "description": "A local cultural festival featuring crafts, food, community gatherings and valley viewpoints during peak autumn colors."
-        }
-      ],
-      "recommended_places": [
-        {
-          "name": "Zenica City Center",
-          "type": "Pedestrian zone",
-          "google_maps_link": "<a href=\"https://www.google.com/maps/search/?api=1&query=Zenica%20City%20Center\" target=\"_blank\" rel=\"noopener\">View on Google Maps</a>",
-          "description": "The heart of urban life in Zenica — lined with cafés, bakeries and everyday shops. It reflects the character of a true working city. The atmosphere is relaxed, with locals gathering on terraces or walking the main street. It offers a realistic window into Bosnian daily rhythms far from tourist routes."
-        },
-        {
-          "name": "Bilino Polje Area",
-          "type": "Stadium & urban district",
-          "google_maps_link": "<a href=\"https://www.google.com/maps/search/?api=1&query=Bilino%20Polje%20Stadium%20Zenica\" target=\"_blank\" rel=\"noopener\">View on Google Maps</a>",
-          "description": "A well-known football stadium surrounded by a lively neighborhood of cafés, shops and residential blocks. Interesting for visitors who enjoy local sports culture or want to experience authentic community life in one of Bosnia’s industrial cities."
-        },
-        {
-          "name": "Hills Above Zenica",
-          "type": "Viewpoints & nature",
-          "google_maps_link": "<a href=\"https://www.google.com/maps/search/?api=1&query=Zenica%20Viewpoint%20Hill\" target=\"_blank\" rel=\"noopener\">View on Google Maps</a>",
-          "description": "Forested slopes and gentle trails surround the city on all sides. Many paths are easy to walk and reveal wide valley panoramas. These hills are especially beautiful in autumn when the colors create a natural golden crown around the city. Locals often hike here for peaceful weekend walks."
-        }
-      ]
-    },
-    {
-      "name": "Prijedor",
-      "interests": [
-        "Traditional Old-Town Streets 🏘️ — Quiet, small-town charm with local markets and classic architecture.",
-        "Nature Surroundings & Countryside 🌿 — Rivers, fields, forests and rolling rural landscapes.",
-        "Calm Local Lifestyle ☕ — Warm hospitality, home-style food and relaxed rhythms."
-      ],
-      "local_food_tip": "Expect hearty, simple meals — grilled meat, stews, homemade bread, pies, and fresh seasonal vegetables. The cuisine feels family-like and comforting.",
-      "full_day": "Morning: Explore <a href=\"https://www.google.com/maps/search/?api=1&query=Prijedor%20Old%20Town\" target=\"_blank\" rel=\"noopener\">Prijedor’s Old Town</a> and central squares. Stop for coffee in a local bakery.\n\nAfternoon: Walk along the river or visit nearby countryside for light hiking or photography. Many small rural roads lead to peaceful areas.\n\nSunset: Find a viewpoint or open field to watch the golden light settle over the town.\n\nNight: Enjoy a calm dinner in a traditional restaurant or guesthouse — evenings here feel intimate and slow-paced.",
-      "seasons": {
-        "spring": {
-          "event": "Countryside Spring Blossoms",
-          "ideas": [
-            "Fresh greenery along riverbanks and fields.",
-            "Pleasant temperatures for exploring Old Town streets.",
-            "Spring meals with seasonal produce."
-          ]
-        },
-        "summer": {
-          "event": "Warm Rural Summer",
-          "ideas": [
-            "Quiet river and forest walks during long daylight hours.",
-            "Light grilled dishes and summer drinks.",
-            "Peaceful warm nights with clear skies."
-          ]
-        },
-        "autumn": {
-          "event": "Harvest Colors & Rural Calm",
-          "ideas": [
-            "Vivid autumn colors in surrounding forests.",
-            "Comfort food and traditional warm dishes.",
-            "Great photography opportunities in golden light."
-          ]
-        },
-        "winter": {
-          "event": "Small-Town Winter Peace",
-          "ideas": [
-            "Short walks through quiet snowy streets.",
-            "Hot homemade soups and pastries.",
-            "Cozy evenings in rural guesthouses."
-          ]
-        }
-      },
-      "public_transport_tips": [
-        "Regional buses connect Prijedor with nearby towns.",
-        "The town center is compact and easy to explore on foot.",
-        "A car is useful for visiting rural surroundings and forest paths.",
-        "Bring comfortable footwear for older cobblestone streets."
-      ],
-      "city_events": [
-        {
-          "name": "Prijedor Rural Heritage Festival",
+          "name": "Dučić Evenings of Poetry",
           "season": "summer",
-          "description": "A small-town cultural celebration featuring traditional music, local food, countryside walks and family-friendly activities."
+          "description": "Cultural festival dedicated to poet Jovan Dučić with readings and performances.",
+          "website": "https://www.trebinje.rs.ba/",
+          "dates": "July–August"
         }
       ],
-      "recommended_places": [
+      "places": [
         {
-          "name": "Prijedor Town Center",
-          "type": "Central area",
-          "google_maps_link": "<a href=\"https://www.google.com/maps/search/?api=1&query=Prijedor%20Town%20Center\" target=\"_blank\" rel=\"noopener\">View on Google Maps</a>",
-          "description": "The heart of the town with shops, cafés and a relaxed small-city energy. Locals gather here for morning coffee or evening strolls. Its modest but warm atmosphere reflects Prijedor’s friendly, welcoming character."
+          "name": "Museum of Herzegovina",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=42.7096%2C18.3445",
+          "description": "Museum presenting the cultural and historical heritage of Eastern Herzegovina."
         },
         {
-          "name": "Riverbank Walks",
-          "type": "Riverside paths",
-          "google_maps_link": "<a href=\"https://www.google.com/maps/search/?api=1&query=Prijedor%20River%20Walk\" target=\"_blank\" rel=\"noopener\">View on Google Maps</a>",
-          "description": "Gentle walking paths along the river offer a calm place for relaxation, photography or quiet conversation. Trees provide shade during summer, and sunsets over the water can be surprisingly beautiful in this peaceful setting."
+          "name": "Osman-Pasha Resulbegović House",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=42.7083%2C18.3427",
+          "description": "Traditional Ottoman residential complex with courtyards and exhibits."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "Early-morning Arslanagić Bridge",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=42.7108%2C18.3496",
+          "description": "Peaceful atmosphere and reflections on the river."
         },
         {
-          "name": "Countryside Around Prijedor",
-          "type": "Nature & villages",
-          "google_maps_link": "<a href=\"https://www.google.com/maps/search/?api=1&query=Prijedor%20Countryside\" target=\"_blank\" rel=\"noopener\">View on Google Maps</a>",
-          "description": "The rural zone around Prijedor consists of fields, old stone houses, small forests and rolling hills. Visitors can experience traditional village life, slow rhythms and the agricultural side of Bosnia and Herzegovina. Ideal for scenic drives, picnics or quiet walks in nature."
+          "name": "Backstreets of the Old Town",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=42.7090%2C18.3425",
+          "description": "Quiet stone alleys showing everyday local life."
+        }
+      ]
+    },
+
+    {
+      "name": "Tuzla",
+      "interests": [
+        {
+          "name": "Pannonian Salt Lakes",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=44.5383%2C18.6756",
+          "description": "Unique artificial salt lakes in the city center, created on historic salt deposits, popular for swimming and relaxation."
+        },
+        {
+          "name": "Kapija Square",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=44.5377%2C18.6736",
+          "description": "Central pedestrian square and main meeting point surrounded by cafés and historic buildings."
+        },
+        {
+          "name": "Tuzla City Park (Slana Banja)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=44.5359%2C18.6766",
+          "description": "Large green park and memorial area ideal for walks, rest, and city views."
+        },
+        {
+          "name": "Atik Behram Bey Mosque (Šarena džamija)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=44.5389%2C18.6769",
+          "description": "One of the oldest mosques in Tuzla, recognizable by its colorful interior decorations."
+        },
+        {
+          "name": "Museum of Eastern Bosnia",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=44.5370%2C18.6749",
+          "description": "Museum presenting archaeology, ethnography, and modern history of the Tuzla region."
+        }
+      ],
+      "local_food_tip": "Try Tuzla-style ćevapi, pita (burek, sirnica), sogan-dolma, and traditional desserts. Cafés around Kapija Square are popular for social coffee breaks.",
+      "full_day": {
+        "Morning": "Start with coffee at <a href=\"https://www.google.com/maps/search/?api=1&query=44.5377%2C18.6736\" target=\"_blank\" rel=\"noopener\">Kapija Square</a> ☀️, then visit the <a href=\"https://www.google.com/maps/search/?api=1&query=44.5370%2C18.6749\" target=\"_blank\" rel=\"noopener\">Museum of Eastern Bosnia</a> 🏛️.",
+        "Afternoon": "Spend time at the <a href=\"https://www.google.com/maps/search/?api=1&query=44.5383%2C18.6756\" target=\"_blank\" rel=\"noopener\">Pannonian Salt Lakes</a> 🌊 and enjoy lunch nearby 🍽️.",
+        "Sunset": "Walk through <a href=\"https://www.google.com/maps/search/?api=1&query=44.5359%2C18.6766\" target=\"_blank\" rel=\"noopener\">Slana Banja Park</a> 🌅 for city views and fresh air.",
+        "Night": "Dinner in the city center ✨ followed by an evening stroll around Kapija."
+      },
+      "seasons": {
+        "spring": {
+          "event": "Spring City Life",
+          "description": "Parks turn green and temperatures are ideal for walking.",
+          "ideas": [
+            {
+              "name": "Park walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=44.5359%2C18.6766",
+              "description": "Fresh spring greenery."
+            },
+            {
+              "name": "Old town strolls",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=44.5377%2C18.6736",
+              "description": "Comfortable sightseeing."
+            },
+            {
+              "name": "Museum visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=44.5370%2C18.6749",
+              "description": "Cultural afternoons."
+            }
+          ]
+        },
+        "summer": {
+          "event": "Summer at the Pannonian Lakes",
+          "description": "Hot days turn Tuzla into an inland seaside destination.",
+          "ideas": [
+            {
+              "name": "Swimming at salt lakes",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=44.5383%2C18.6756",
+              "description": "Cooling saltwater experience."
+            },
+            {
+              "name": "Evening cafés",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=44.5377%2C18.6736",
+              "description": "Lively summer nights."
+            },
+            {
+              "name": "Outdoor events",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=44.5380%2C18.6740",
+              "description": "Concerts and gatherings."
+            }
+          ]
+        },
+        "autumn": {
+          "event": "Golden Autumn Tuzla",
+          "description": "Milder weather and warm colors across parks and streets.",
+          "ideas": [
+            {
+              "name": "Photography walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=44.5359%2C18.6766",
+              "description": "Autumn scenery."
+            },
+            {
+              "name": "Traditional cuisine",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=44.5377%2C18.6736",
+              "description": "Seasonal local dishes."
+            },
+            {
+              "name": "Historic sites",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=44.5389%2C18.6769",
+              "description": "Relaxed cultural visits."
+            }
+          ]
+        },
+        "winter": {
+          "event": "Quiet Winter City",
+          "description": "Calmer rhythm with cafés and indoor culture.",
+          "ideas": [
+            {
+              "name": "Café culture",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=44.5377%2C18.6736",
+              "description": "Warm drinks and conversation."
+            },
+            {
+              "name": "Museum visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=44.5370%2C18.6749",
+              "description": "Indoor cultural time."
+            },
+            {
+              "name": "Short park walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=44.5359%2C18.6766",
+              "description": "Brisk winter strolls."
+            }
+          ]
+        }
+      },
+      "public_transport_tips": [
+        {
+          "tip": "Local buses connect the city center with all neighborhoods.",
+          "link": "https://giptuzla.ba/"
+        },
+        {
+          "tip": "Taxis are affordable and commonly used in Tuzla.",
+          "link": "https://www.tuzla.ba/"
+        },
+        {
+          "tip": "The city center and main attractions are walkable.",
+          "link": "https://visittuzla.ba/"
+        }
+      ],
+      "city_events": [
+        {
+          "name": "Tuzla Summer Festival",
+          "season": "summer",
+          "description": "Open-air concerts and cultural events around the city center and salt lakes.",
+          "website": "https://visittuzla.ba/",
+          "dates": "July–August"
+        }
+      ],
+      "places": [
+        {
+          "name": "Kapija Memorial",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=44.5378%2C18.6738",
+          "description": "Memorial site dedicated to victims of the 1995 tragedy, an important place of remembrance."
+        },
+        {
+          "name": "Meydan Park",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=44.5386%2C18.6729",
+          "description": "Small park near the old center, often used for events and relaxation."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "Early-morning Salt Lakes",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=44.5383%2C18.6756",
+          "description": "Peaceful atmosphere before crowds arrive."
+        },
+        {
+          "name": "Quiet streets around Slana Banja",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=44.5355%2C18.6780",
+          "description": "Local neighborhoods with relaxed city life."
         }
       ]
     }
+
   ]
 }

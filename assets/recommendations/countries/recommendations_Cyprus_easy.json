@@ -2,923 +2,859 @@
   "name": "Cyprus",
   "cities": [
     {
-      "name": "Nicosia",
-      "interests": [
-        {
-          "name": "Historic Streets & Old Town 🎭",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=Nicosia+Old+Town",
-          "description": "Venetian walls, stone alleys and atmospheric heritage corners."
-        },
-        {
-          "name": "Museums & Culture 🎨",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=Cyprus+Museum+Nicosia",
-          "description": "Archaeology, folk art and modern creative districts around the historic core."
-        },
-        {
-          "name": "Local Food Exploration 😋",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=Ledra+Street+Nicosia",
-          "description": "Meze, halloumi, traditional pastries and Mediterranean flavors."
-        },
-        {
-          "name": "Urban Markets & Hidden Spots 🛍️",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=Laiki+Geitonia+Nicosia",
-          "description": "Artisan workshops, quiet courtyards and colorful boutique-filled streets."
-        }
-      ],
-      "local_food_tip": "Try veggie meze, halloumi dishes, lentil soups, olive dips, grilled vegetables and warm pita. Cypriot cuisine is full of fresh herbs, citrus notes and light Mediterranean flavors.",
-      "full_day": "Morning: 🏛️ <a href=\"https://www.google.com/maps/search/?api=1&query=35.171700%2C33.355500\" target=\"_blank\" rel=\"noopener\">Cyprus Museum</a>: Archaeological treasures & quiet garden surroundings. → 🏘️ <a href=\"https://www.google.com/maps/search/?api=1&query=35.171200%2C33.360600\" target=\"_blank\" rel=\"noopener\">Ledra Street Quarter</a>: Stone alleys, artisan shops & colorful doors. → 🕌 <a href=\"https://www.google.com/maps/search/?api=1&query=35.171900%2C33.361800\" target=\"_blank\" rel=\"noopener\">Laiki Geitonia</a>: Restored neighborhood with cafés.\n\nAfternoon: 🌿 Walk along the <a href=\"https://www.google.com/maps/search/?api=1&query=35.171000%2C33.362000\" target=\"_blank\" rel=\"noopener\">Venetian Walls</a>: Scenic viewpoints and shaded pathways. → 🏰 <a href=\"https://www.google.com/maps/search/?api=1&query=35.170050%2C33.372200\" target=\"_blank\" rel=\"noopener\">Famagusta Gate</a>: Beautiful restored arch & cultural venue exterior. → 🍽️ Lunch: Veggie meze, stuffed vegetables, halloumi plates.\n\nSunset: 🌅 <a href=\"https://www.google.com/maps/search/?api=1&query=35.173400%2C33.361900\" target=\"_blank\" rel=\"noopener\">Ledra Observatory Lookout</a>: Sunset over the rooftops.\n\nNight: 🌃 Old-Town Pedestrian Zone: Dessert cafés, music corners & calm evening walks.",
-      "seasons": {
-        "spring": {
-          "event": "Spring in Nicosia",
-          "ideas": [
-            "🌸 Blossom-lined corners around the Venetian Walls.",
-            "🚶 Mild strolls through Laiki Geitonia.",
-            "☕ Outdoor cafés in the historic center.",
-            "🎨 Local art pop-up exhibitions."
-          ]
-        },
-        "summer": {
-          "event": "Mediterranean Summer",
-          "ideas": [
-            "🌳 Shaded walks in municipal gardens.",
-            "🍉 Refreshing fruit cups and lemonades.",
-            "🌇 Warm evenings around Ledra Street.",
-            "🎭 Open-air theatre & concerts."
-          ]
-        },
-        "autumn": {
-          "event": "Autumn Calm",
-          "ideas": [
-            "🍁 Golden tones in narrow alleys.",
-            "🥧 Cozy pastry cafés in courtyards.",
-            "🎨 Small art galleries for soft-light afternoons.",
-            "🌿 Walks along the Venetian fortifications."
-          ]
-        },
-        "winter": {
-          "event": "Winter in Nicosia",
-          "ideas": [
-            "🎄 Festive old-town lights.",
-            "🍫 Hot chocolate & pastries in warm cafés.",
-            "🛍️ Winter craft markets.",
-            "🏛️ Museum visits on cool days."
-          ]
-        }
-      },
-      "public_transport_tips": [
-        {
-          "tip": "🚌 Buses connect all major districts including the old town and cultural areas.",
-          "link": "https://www.publictransport.com.cy/"
-        },
-        {
-          "tip": "🚶 The old city is very walkable, especially Ledra Street and Laiki Geitonia.",
-          "link": "https://www.google.com/maps/search/?api=1&query=Nicosia+Old+Town"
-        },
-        {
-          "tip": "🚕 Taxis are common and useful for longer routes.",
-          "link": "https://www.google.com/maps/search/?api=1&query=Nicosia+Taxi"
-        },
-        {
-          "tip": "📱 Use the 'Cyprus Public Transport' or 'Cyprus Bus' app for real-time schedules.",
-          "link": "https://play.google.com/store/apps/details?id=cypruspublictransport.app"
-        }
-      ],
-      "city_events": [
-        {
-          "name": "Nicosia Spring Art Days",
-          "season": "spring",
-          "description": "🎨 Exhibitions, creative workshops and art walks.",
-          "website": "https://www.visitcyprus.com/"
-        },
-        {
-          "name": "Nicosia Summer Festival",
-          "season": "summer",
-          "description": "🎭 Open-air theatre, music & cultural performances.",
-          "website": "https://www.nicosia.org.cy/"
-        },
-        {
-          "name": "Autumn Heritage Week",
-          "season": "autumn",
-          "description": "🏛️ Historical tours, folk-art showcases & cultural events.",
-          "website": "https://www.visitcyprus.com/"
-        },
-        {
-          "name": "Winter Lights Festival",
-          "season": "winter",
-          "description": "✨ Festive decorations, street music & cozy markets.",
-          "website": "https://www.nicosia.org.cy/"
-        }
-      ],
-      "places": [
-        {
-          "name": "Cyprus Museum",
-          "link": "https://www.google.com/maps/search/?api=1&query=35.171700%2C33.355500",
-          "description": "The largest archaeological museum in Cyprus with rich collections."
-        },
-        {
-          "name": "Ledra Street",
-          "link": "https://www.google.com/maps/search/?api=1&query=35.171200%2C33.360600",
-          "description": "Vibrant pedestrian zone full of cafés and local shops."
-        },
-        {
-          "name": "Laiki Geitonia",
-          "link": "https://www.google.com/maps/search/?api=1&query=35.171900%2C33.361800",
-          "description": "Restored quarter showcasing traditional Cypriot architecture."
-        },
-        {
-          "name": "Famagusta Gate",
-          "link": "https://www.google.com/maps/search/?api=1&query=35.170050%2C33.372200",
-          "description": "One of the Venetian gates, beautifully preserved and culturally active."
-        },
-        {
-          "name": "Ledra Observatory",
-          "link": "https://www.google.com/maps/search/?api=1&query=35.173400%2C33.361900",
-          "description": "Top-floor viewpoint offering panoramic city views."
-        }
-      ],
-      "hidden_gems": [
-        {
-          "name": "Chrysaliniotissa Quarter",
-          "link": "https://www.google.com/maps/search/?api=1&query=35.175300%2C33.366000",
-          "description": "Quiet neighborhood with charming courtyards and old houses."
-        },
-        {
-          "name": "Faneromeni Square Side Alleys",
-          "link": "https://www.google.com/maps/search/?api=1&query=35.172600%2C33.362900",
-          "description": "Artistic little streets full of murals, cafés and indie shops."
-        },
-        {
-          "name": "Archway Market Passages",
-          "link": "https://www.google.com/maps/search/?api=1&query=35.171900%2C33.360900",
-          "description": "Hidden local artisan stalls tucked behind central streets."
-        },
-        {
-          "name": "Linear Park Pedieos",
-          "link": "https://www.google.com/maps/search/?api=1&query=35.164400%2C33.371800",
-          "description": "Peaceful riverside-style walking and cycling path between trees."
-        }
-      ]
-    },
-    {
       "name": "Ayia Napa",
       "interests": [
         {
-          "name": "Beaches & Turquoise Waters 🌊",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=Nissi+Beach+Cyprus",
-          "description": "Crystal-clear bays, soft golden sand and some of the most iconic beaches in Cyprus."
-        },
-        {
-          "name": "Nature & Coastal Walks 🌿",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=Ayia+Napa+Sea+Caves",
-          "description": "Scenic cliff paths, sea caves and panoramic coastal viewpoints."
-        },
-        {
-          "name": "Old Town Culture 🎭",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=Ayia+Napa+Monastery",
-          "description": "Stone churches, murals, quiet alleys and artisan corners."
-        },
-        {
-          "name": "Relaxation & Seaside Cafés 🍹",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=Ayia+Napa+Marina",
-          "description": "Harbor cafés, breezy terraces and calming coastal scenery."
-        }
-      ],
-      "local_food_tip": "Enjoy veggie gyros, stuffed vegetables, halloumi dishes, tzatziki dips, fruit bowls and fresh Mediterranean salads — perfect for the sunny coastal atmosphere.",
-      "full_day": "Morning: 🏖️ <a href=\"https://www.google.com/maps/search/?api=1&query=34.989800%2C33.987300\" target=\"_blank\" rel=\"noopener\">Nissi Beach</a>: Crystal-clear water and soft sand. → 🌿 Coastal Boardwalk: Light seaside walk with turquoise views. → ☕ Beach Café: Smoothies or Cypriot coffee.\n\nAfternoon: 🏘️ <a href=\"https://www.google.com/maps/search/?api=1&query=34.986400%2C34.000000\" target=\"_blank\" rel=\"noopener\">Ayia Napa Old Town</a>: Murals, quiet alleys and artisan shops. → 🌊 <a href=\"https://www.google.com/maps/search/?api=1&query=34.986200%2C34.006100\" target=\"_blank\" rel=\"noopener\">Sculpture Park</a>: Clifftop modern art with sea views. → 🍽️ Lunch: Veg gyros, halloumi plates, grilled vegetables. → 🌊 Harbor Walk: Boats, soft waves & peaceful sea breeze.\n\nSunset: 🌅 <a href=\"https://www.google.com/maps/search/?api=1&query=34.980200%2C34.052500\" target=\"_blank\" rel=\"noopener\">Sea Caves Viewpoint</a>: Stunning coastal sunset colors.\n\nNight: 🌃 Marina Promenade: Gelato, crepes and relaxing seaside nightlight.",
-      "seasons": {
-        "spring": {
-          "event": "Spring by the Sea",
-          "ideas": [
-            "🌸 Flower-lined coastal paths with ocean breeze.",
-            "🚶 Light morning walks along the cliffs.",
-            "☕ Sunny beachside terraces.",
-            "🐦 Migratory bird sightings near wetlands."
-          ]
-        },
-        "summer": {
-          "event": "Hot Island Summer",
-          "ideas": [
-            "🏖️ Early swims at Nissi before the midday heat.",
-            "🍉 Cold fruit bowls and fresh juices.",
-            "🌇 Golden sunsets at the sea caves.",
-            "🌊 Nighttime harbor walks with cool breezes."
-          ]
-        },
-        "autumn": {
-          "event": "Autumn Calm",
-          "ideas": [
-            "🍁 Warm-toned cliffs and quieter beaches.",
-            "🥧 Cozy café afternoons in the old town.",
-            "🎨 Sculpture Park strolls with soft autumn light.",
-            "🌊 Pleasant sea temperatures for late swims."
-          ]
-        },
-        "winter": {
-          "event": "Winter Sun",
-          "ideas": [
-            "🌞 Soft seaside walks with mild temperatures.",
-            "🍫 Warm drinks by the marina.",
-            "🌿 Peaceful nature trails around the coast.",
-            "📸 Dramatic winter cloudscapes over the sea."
-          ]
-        }
-      },
-      "public_transport_tips": [
-        {
-          "tip": "🚌 Buses link beaches, old town and the marina area.",
-          "link": "https://www.cyprusbybus.com/"
-        },
-        {
-          "tip": "🚲 Ayia Napa is ideal for renting a bike for coastal trails.",
-          "link": "https://www.google.com/maps/search/?api=1&query=Ayia+Napa+Bike+Rental"
-        },
-        {
-          "tip": "🚶 Many attractions are walkable along connected promenades.",
-          "link": "https://www.google.com/maps/search/?api=1&query=Ayia+Napa+Promenade"
-        },
-        {
-          "tip": "📱 Use the 'Cyprus By Bus' app for easy route planning.",
-          "link": "https://play.google.com/store/apps/details?id=com.cyprusbybus"
-        }
-      ],
-      "city_events": [
-        {
-          "name": "Ayia Napa Spring Culture Days",
-          "season": "spring",
-          "description": "🎨 Outdoor exhibitions, local crafts and flower-themed events.",
-          "website": "https://www.visitcyprus.com/"
-        },
-        {
-          "name": "Ayia Napa Beach Festival",
-          "season": "summer",
-          "description": "🎶 Music stages, dance shows and sunset performances on the coast.",
-          "website": "https://www.agianapa.org.cy/"
-        },
-        {
-          "name": "Ayia Napa Medieval Festival",
-          "season": "autumn",
-          "description": "🏰 Costumes, reenactments and historic-style performances.",
-          "website": "https://www.agianapa.org.cy/"
-        },
-        {
-          "name": "Winter Coastal Season",
-          "season": "winter",
-          "description": "🌊 Calm seaside events, small concerts and holiday lights.",
-          "website": "https://www.visitcyprus.com/"
-        }
-      ],
-      "places": [
-        {
           "name": "Nissi Beach",
-          "link": "https://www.google.com/maps/search/?api=1&query=34.989800%2C33.987300",
-          "description": "One of Cyprus’ most famous beaches with turquoise waters and soft sand."
+          "map_link": "https://www.google.com/maps/search/?api=1&query=34.9896%2C33.9682",
+          "description": "Famous sandy beach with shallow turquoise water and a small islet reachable by foot in calm conditions."
         },
         {
           "name": "Ayia Napa Monastery",
-          "link": "https://www.google.com/maps/search/?api=1&query=34.986300%2C34.001000",
-          "description": "Historic stone monastery in the heart of the old town."
+          "map_link": "https://www.google.com/maps/search/?api=1&query=34.9899%2C33.9992",
+          "description": "Historic medieval monastery located in the town center, offering a quiet contrast to the beach scene."
         },
         {
-          "name": "Ayia Napa Sculpture Park",
-          "link": "https://www.google.com/maps/search/?api=1&query=34.986200%2C34.006100",
-          "description": "Clifftop modern-art park overlooking the sea."
+          "name": "Cape Greco National Forest Park",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=34.9640%2C34.0760",
+          "description": "Protected natural area with sea cliffs, hiking trails, caves, and panoramic viewpoints."
         },
         {
-          "name": "Ayia Napa Marina",
-          "link": "https://www.google.com/maps/search/?api=1&query=34.977800%2C33.998900",
-          "description": "Elegant waterfront area with cafés, boats and seaside views."
+          "name": "Fig Tree Bay",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=35.0129%2C34.0586",
+          "description": "Popular nearby beach in Protaras known for calm waters and soft sand."
         },
         {
-          "name": "Sea Caves Viewpoint",
-          "link": "https://www.google.com/maps/search/?api=1&query=34.980200%2C34.052500",
-          "description": "Iconic cliffs and caves with dramatic sunset panoramas."
+          "name": "Ayia Napa Harbour",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=34.9868%2C34.0034",
+          "description": "Small harbor area with walking paths, cafés, and boat excursions."
         }
       ],
-      "hidden_gems": [
-        {
-          "name": "Love Bridge Natural Arch",
-          "link": "https://www.google.com/maps/search/?api=1&query=34.977200%2C34.051000",
-          "description": "Beautiful natural rock arch above crystal-clear water."
-        },
-        {
-          "name": "Kermia Coastal Trail",
-          "link": "https://www.google.com/maps/search/?api=1&query=34.982900%2C34.041000",
-          "description": "Serene trail connecting beaches, cliffs and quiet viewpoints."
-        },
-        {
-          "name": "Makronissos Archaeological Tombs",
-          "link": "https://www.google.com/maps/search/?api=1&query=34.986800%2C33.969300",
-          "description": "Rock-cut ancient tombs hidden near beach areas."
-        },
-        {
-          "name": "Ayia Napa Aqueduct Footpaths",
-          "link": "https://www.google.com/maps/search/?api=1&query=34.990900%2C34.018400",
-          "description": "Peaceful walking paths around an old aqueduct structure."
-        }
-      ]
-    },
-    {
-      "name": "Larnaca",
-      "interests": [
-        "Beaches & Palm Promenades 🌊 — Relaxed coastline with warm Mediterranean vibes.",
-        "Historic Landmarks 🏛️ — Stone churches, cultural districts and archaeological corners.",
-        "Local Food Exploration 😋 — Meze, halloumi, hummus and grilled vegetables.",
-        "Salt Lake Nature 🐦 — Wildlife, flamingos and sunset reflections."
-      ],
-      "local_food_tip": "Larnaca is known for veggie meze, hummus plates, grilled vegetables, seafood alternatives, halloumi dishes and aromatic Mediterranean salads.",
-      "full_day": "Morning: 🌊 <a href=\"https://www.google.com/maps/search/?api=1&query=34.912150%2C33.636350\" target=\"_blank\" rel=\"noopener\">Finikoudes Beach</a>: Palm-lined early stroll. → 🏛️ <a href=\"https://www.google.com/maps/search/?api=1&query=34.914765%2C33.634030\" target=\"_blank\" rel=\"noopener\">St. Lazarus Church</a> (Exterior): Stone façade and peaceful surroundings. → ☕ Promenade Café.\n\nAfternoon: 🏘️ Old Turkish Quarter (Skala): Artisan shops, narrow alleys and atmospheric houses. → 🌿 <a href=\"https://www.google.com/maps/search/?api=1&query=34.872800%2C33.606400\" target=\"_blank\" rel=\"noopener\">Larnaca Salt Lake</a> Viewpoint: Flamingos in certain seasons. → 🍽️ Lunch: Veg meze, hummus, halloumi plates. → 🕌 <a href=\"https://www.google.com/maps/search/?api=1&query=34.872480%2C33.598920\" target=\"_blank\" rel=\"noopener\">Hala Sultan Tekke</a> (Exterior).\n\nSunset: 🌅 <a href=\"https://www.google.com/maps/search/?api=1&query=34.899470%2C33.635140\" target=\"_blank\" rel=\"noopener\">Mackenzie Beach</a>: One of the best sunset spots.\n\nNight: 🌃 Finikoudes Evening Walk: Ice cream, soft lighting and peaceful sea waves.",
+      "local_food_tip": "Try Cypriot dishes such as souvlaki, halloumi cheese, meze, fresh seafood, and loukoumades. Taverns near the harbor are good for traditional meals.",
+      "full_day": {
+        "Morning": "Start your day at <a href=\"https://www.google.com/maps/search/?api=1&query=34.9896%2C33.9682\" target=\"_blank\" rel=\"noopener\">Nissi Beach</a> ☀️ for swimming and relaxing by the sea.",
+        "Afternoon": "Have lunch near the harbor 🍽️ and visit the <a href=\"https://www.google.com/maps/search/?api=1&query=34.9899%2C33.9992\" target=\"_blank\" rel=\"noopener\">Ayia Napa Monastery</a> 🏛️ for a short cultural break.",
+        "Sunset": "Head to <a href=\"https://www.google.com/maps/search/?api=1&query=34.9640%2C34.0760\" target=\"_blank\" rel=\"noopener\">Cape Greco</a> 🌅 to enjoy cliffs, sea views, and sunset colors.",
+        "Night": "Evening walk around <a href=\"https://www.google.com/maps/search/?api=1&query=34.9868%2C34.0034\" target=\"_blank\" rel=\"noopener\">Ayia Napa Harbour</a> ✨ with dinner by the water."
+      },
       "seasons": {
         "spring": {
-          "event": "Spring in Larnaca",
+          "event": "Spring Coastal Season",
+          "description": "Warm but comfortable weather with blooming nature around Cape Greco.",
           "ideas": [
-            "🌸 Salt Lake flamingos and blooming paths.",
-            "🚶 Breezy morning promenade walks.",
-            "☕ Outdoor cafés with soft sunshine.",
-            "🛶 Early-season coastal boat rides."
+            {
+              "name": "Hiking Cape Greco trails",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=34.9640%2C34.0760",
+              "description": "Ideal temperatures for outdoor exploration."
+            },
+            {
+              "name": "Beach walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=34.9896%2C33.9682",
+              "description": "Quiet beaches before peak season."
+            },
+            {
+              "name": "Monastery visit",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=34.9899%2C33.9992",
+              "description": "Peaceful cultural stop."
+            }
           ]
         },
         "summer": {
-          "event": "Summer Coastline",
+          "event": "Ayia Napa Summer Season",
+          "description": "Hot weather, lively atmosphere, and full beach life.",
           "ideas": [
-            "🏖️ Early beach hours at Finikoudes and Mackenzie.",
-            "🍦 Seafront gelato stands.",
-            "🌇 Vibrant sunset views at Mackenzie.",
-            "🎶 Live music at seaside lounges."
+            {
+              "name": "Swimming and snorkeling",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=34.9896%2C33.9682",
+              "description": "Clear and warm sea conditions."
+            },
+            {
+              "name": "Boat trips",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=34.9868%2C34.0034",
+              "description": "Coastal sightseeing and sea caves."
+            },
+            {
+              "name": "Evening seaside walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=34.9868%2C34.0034",
+              "description": "Lively summer evenings."
+            }
           ]
         },
         "autumn": {
-          "event": "Autumn Warmth",
+          "event": "Golden Mediterranean Autumn",
+          "description": "Warm sea, fewer crowds, and relaxed pace.",
           "ideas": [
-            "🍁 Mild beach walks under golden light.",
-            "🥧 Cozy pastry shops in Skala.",
-            "🎨 Small galleries in the old town.",
-            "🌿 Salt Lake reflections as the season cools."
+            {
+              "name": "Beach relaxation",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=35.0129%2C34.0586",
+              "description": "Comfortable water temperatures."
+            },
+            {
+              "name": "Photography at Cape Greco",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=34.9640%2C34.0760",
+              "description": "Soft autumn light."
+            },
+            {
+              "name": "Local taverns",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=34.9875%2C34.0010",
+              "description": "Seasonal Cypriot cuisine."
+            }
           ]
         },
         "winter": {
-          "event": "Winter Soft Sun",
+          "event": "Quiet Coastal Winter",
+          "description": "Mild winters with calm streets and nature-focused visits.",
           "ideas": [
-            "🌞 Light seaside breeze even in winter.",
-            "🍫 Warm drinks with sea views.",
-            "🛍️ Small winter markets along the promenade.",
-            "🏛️ Cultural museums for cooler days."
+            {
+              "name": "Coastal walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=34.9640%2C34.0760",
+              "description": "Fresh air and sea views."
+            },
+            {
+              "name": "Cultural visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=34.9899%2C33.9992",
+              "description": "Uncrowded historical sites."
+            },
+            {
+              "name": "Harbor cafés",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=34.9868%2C34.0034",
+              "description": "Relaxed local atmosphere."
+            }
           ]
         }
       },
       "public_transport_tips": [
         {
-          "tip": "🚌 Efficient coastal buses connect Finikoudes, the airport and Mackenzie.",
-          "link": "https://www.cyprusbybus.com/"
+          "tip": "Local buses connect Ayia Napa with Protaras and Cape Greco.",
+          "link": "https://osea.com.cy/"
         },
         {
-          "tip": "🚕 Taxis are common for airport transfers and longer routes.",
-          "link": "https://www.google.com/maps/search/?api=1&query=Larnaca+Taxi"
+          "tip": "Walking is practical within the town center and beach areas.",
+          "link": "https://www.visitcyprus.com/"
         },
         {
-          "tip": "🚶 Promenades and central districts are ideal for walking.",
-          "link": "https://www.google.com/maps/search/?api=1&query=Finikoudes+Promenade"
-        },
-        {
-          "tip": "📱 Use 'Larnaca Bus' or 'Cyprus Public Transport' app.",
-          "link": "https://www.cypruspublictransport.com/"
+          "tip": "Larnaca Airport is the main international gateway, about 45 minutes away.",
+          "link": "https://larnakaairport.com/"
         }
       ],
       "city_events": [
         {
-          "name": "Larnaca Flower Festival",
-          "season": "spring",
-          "description": "🌼 Floral floats and spring celebrations along the coast."
-        },
-        {
-          "name": "Kataklysmos Festival",
+          "name": "Ayia Napa International Festival",
           "season": "summer",
-          "description": "🌊 Water-themed traditions, music and cultural events by the sea."
-        },
-        {
-          "name": "Autumn Craft Fair",
-          "season": "autumn",
-          "description": "🎨 Artisan stalls and handmade goods in the old town."
-        },
-        {
-          "name": "Larnaca Winter Lights",
-          "season": "winter",
-          "description": "✨ Festive decorations and holiday markets on Finikoudes."
+          "description": "Cultural festival featuring music, dance, and Cypriot traditions.",
+          "website": "https://www.agianapa.org.cy/",
+          "dates": "September"
         }
       ],
       "places": [
         {
-          "name": "Finikoudes Beach",
-          "link": "https://www.google.com/maps/search/?api=1&query=34.912150%2C33.636350",
-          "description": "Palm-lined central beach perfect for morning walks and seaside relaxation."
+          "name": "Thalassa Municipal Museum",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=34.9904%2C33.9998",
+          "description": "Museum dedicated to the maritime history of Cyprus."
         },
         {
-          "name": "St. Lazarus Church",
-          "link": "https://www.google.com/maps/search/?api=1&query=34.914765%2C33.634030",
-          "description": "Iconic stone church dating back to the 9th century."
-        },
-        {
-          "name": "Larnaca Salt Lake",
-          "link": "https://www.google.com/maps/search/?api=1&query=34.872800%2C33.606400",
-          "description": "Famous for migratory flamingos, sunset reflections and peaceful walking paths."
-        },
-        {
-          "name": "Hala Sultan Tekke",
-          "link": "https://www.google.com/maps/search/?api=1&query=34.872480%2C33.598920",
-          "description": "Historic lakeside mosque surrounded by palm trees and quiet nature."
-        },
-        {
-          "name": "Mackenzie Beach",
-          "link": "https://www.google.com/maps/search/?api=1&query=34.899470%2C33.635140",
-          "description": "Popular beach known for sunsets and beachfront cafés."
+          "name": "Makronissos Tombs",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=34.9827%2C33.9577",
+          "description": "Ancient Hellenistic and Roman tombs near the coast."
         }
       ],
       "hidden_gems": [
         {
-          "name": "Piale Pasha Coastal Walkway",
-          "link": "https://www.google.com/maps/search/?api=1&query=34.905900%2C33.631600",
-          "description": "Scenic pedestrian route connecting the marina to Mackenzie Beach."
+          "name": "Early-morning Nissi Beach",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=34.9896%2C33.9682",
+          "description": "Calm water and quiet atmosphere before crowds arrive."
         },
         {
-          "name": "Kamares Aqueduct",
-          "link": "https://www.google.com/maps/search/?api=1&query=34.926400%2C33.597900",
-          "description": "18th-century stone aqueduct—quiet, dramatic and perfect for evening walks."
-        },
-        {
-          "name": "Skala Street Murals",
-          "link": "https://www.google.com/maps/search/?api=1&query=34.907800%2C33.632900",
-          "description": "Colorful murals and hidden artistic corners inside the Skala neighborhood."
-        },
-        {
-          "name": "Tekke Gardens Lakeside Path",
-          "link": "https://www.google.com/maps/search/?api=1&query=34.872200%2C33.600600",
-          "description": "Peaceful nature path near Hala Sultan Tekke, ideal for sunrise or sunset."
+          "name": "Sea caves of Cape Greco",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=34.9658%2C34.0735",
+          "description": "Dramatic coastal formations away from main beaches."
         }
       ]
     },
+
+    {
+      "name": "Larnaca",
+      "interests": [
+        {
+          "name": "Finikoudes Promenade",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=34.9149%2C33.6363",
+          "description": "Palm-lined seaside promenade with cafés, restaurants, and direct access to the main city beach."
+        },
+        {
+          "name": "Church of Saint Lazarus",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=34.9126%2C33.6356",
+          "description": "9th-century Orthodox church built over the tomb of Saint Lazarus, one of Cyprus’ most important religious landmarks."
+        },
+        {
+          "name": "Larnaca Salt Lake",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=34.8896%2C33.6306",
+          "description": "Large salt lake famous for winter flamingos and scenic walking paths."
+        },
+        {
+          "name": "Hala Sultan Tekke",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=34.8890%2C33.6235",
+          "description": "Important Islamic shrine located beside the Salt Lake, surrounded by palm trees and calm scenery."
+        },
+        {
+          "name": "Mackenzie Beach",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=34.9008%2C33.6330",
+          "description": "Popular sandy beach close to the airport, known for beach bars and plane-spotting views."
+        }
+      ],
+      "local_food_tip": "Try Cypriot meze, grilled halloumi, souvlaki, fresh seafood, and traditional desserts like loukoumades. Finikoudes and Mackenzie areas have many reliable taverns.",
+      "full_day": {
+        "Morning": "Start with a seaside walk along <a href=\"https://www.google.com/maps/search/?api=1&query=34.9149%2C33.6363\" target=\"_blank\" rel=\"noopener\">Finikoudes Promenade</a> ☀️ and breakfast by the sea.",
+        "Afternoon": "Visit the <a href=\"https://www.google.com/maps/search/?api=1&query=34.9126%2C33.6356\" target=\"_blank\" rel=\"noopener\">Church of Saint Lazarus</a> ⛪, then head to <a href=\"https://www.google.com/maps/search/?api=1&query=34.9008%2C33.6330\" target=\"_blank\" rel=\"noopener\">Mackenzie Beach</a> 🏖️ for swimming and lunch.",
+        "Sunset": "Walk around <a href=\"https://www.google.com/maps/search/?api=1&query=34.8896%2C33.6306\" target=\"_blank\" rel=\"noopener\">Larnaca Salt Lake</a> 🌅 and stop by <a href=\"https://www.google.com/maps/search/?api=1&query=34.8890%2C33.6235\" target=\"_blank\" rel=\"noopener\">Hala Sultan Tekke</a>.",
+        "Night": "Dinner at Mackenzie or Finikoudes ✨ with relaxed seaside atmosphere."
+      },
+      "seasons": {
+        "spring": {
+          "event": "Spring Coastal Season",
+          "description": "Warm temperatures and blooming nature around the Salt Lake.",
+          "ideas": [
+            {
+              "name": "Salt Lake walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=34.8896%2C33.6306",
+              "description": "Mild weather and open landscapes."
+            },
+            {
+              "name": "Old town strolls",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=34.9126%2C33.6356",
+              "description": "Comfortable sightseeing."
+            },
+            {
+              "name": "Beach walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=34.9149%2C33.6363",
+              "description": "Quiet seaside mornings."
+            }
+          ]
+        },
+        "summer": {
+          "event": "Larnaca Summer Festival",
+          "description": "Beach life, open-air events, and lively evenings.",
+          "ideas": [
+            {
+              "name": "Swimming at Mackenzie",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=34.9008%2C33.6330",
+              "description": "Clear water and beach bars."
+            },
+            {
+              "name": "Evening promenade walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=34.9149%2C33.6363",
+              "description": "Lively summer nights."
+            },
+            {
+              "name": "Boat trips",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=34.9155%2C33.6370",
+              "description": "Short coastal excursions."
+            }
+          ]
+        },
+        "autumn": {
+          "event": "Golden Mediterranean Autumn",
+          "description": "Warm sea and fewer visitors.",
+          "ideas": [
+            {
+              "name": "Beach relaxation",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=34.9149%2C33.6363",
+              "description": "Comfortable sea temperatures."
+            },
+            {
+              "name": "Cultural visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=34.9126%2C33.6356",
+              "description": "Quiet historic sites."
+            },
+            {
+              "name": "Photography at Salt Lake",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=34.8896%2C33.6306",
+              "description": "Soft autumn light."
+            }
+          ]
+        },
+        "winter": {
+          "event": "Flamingo Season",
+          "description": "Migratory flamingos gather at the Salt Lake.",
+          "ideas": [
+            {
+              "name": "Birdwatching",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=34.8896%2C33.6306",
+              "description": "Seasonal wildlife experience."
+            },
+            {
+              "name": "Museum visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=34.9132%2C33.6360",
+              "description": "Indoor cultural time."
+            },
+            {
+              "name": "Café culture",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=34.9149%2C33.6363",
+              "description": "Relaxed winter atmosphere."
+            }
+          ]
+        }
+      },
+      "public_transport_tips": [
+        {
+          "tip": "Local buses connect beaches, the city center, and the airport.",
+          "link": "https://osea.com.cy/"
+        },
+        {
+          "tip": "Larnaca is compact and walkable along the seafront.",
+          "link": "https://www.visitcyprus.com/"
+        },
+        {
+          "tip": "Larnaca International Airport is located just south of the city.",
+          "link": "https://larnakaairport.com/"
+        }
+      ],
+      "city_events": [
+        {
+          "name": "Kataklysmos (Festival of the Flood)",
+          "season": "summer",
+          "description": "Traditional Cypriot festival with music, food, and cultural events by the sea.",
+          "website": "https://www.visitcyprus.com/",
+          "dates": "May–June (varies)"
+        }
+      ],
+      "places": [
+        {
+          "name": "Pierides Archaeological Museum",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=34.9153%2C33.6368",
+          "description": "Small museum showcasing Cypriot archaeology from prehistoric to medieval times."
+        },
+        {
+          "name": "Larnaca Marina",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=34.9164%2C33.6375",
+          "description": "Pleasant marina area near Finikoudes with boats and cafés."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "Early-morning Finikoudes",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=34.9149%2C33.6363",
+          "description": "Peaceful promenade before the city wakes up."
+        },
+        {
+          "name": "Quiet paths near Hala Sultan Tekke",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=34.8890%2C33.6235",
+          "description": "Calm nature and reflective scenery."
+        }
+      ]
+    },
+
     {
       "name": "Limassol",
       "interests": [
         {
-          "name": "Marina & Seaside Walks 🌊",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=34.676900%2C33.046900",
-          "description": "Palm-lined promenades, modern seaside architecture and peaceful blue horizons."
+          "name": "Limassol Marina",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=34.6709%2C33.0416",
+          "description": "Modern marina with yachts, seaside restaurants, cafés, and a lively promenade popular day and night."
         },
         {
-          "name": "Castles & History 🏰",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=34.674350%2C33.044520",
-          "description": "Historic stone towers, medieval streets and archaeological corners."
+          "name": "Limassol Old Town",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=34.6732%2C33.0438",
+          "description": "Historic center with narrow streets, traditional shops, local taverns, and cultural landmarks."
         },
         {
-          "name": "Art & Modern Culture 🎨",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=34.675700%2C33.043700",
-          "description": "Colorful murals, galleries, creative districts and contemporary design."
+          "name": "Limassol Castle",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=34.6737%2C33.0430",
+          "description": "Medieval castle housing the Cyprus Medieval Museum, located in the heart of the Old Town."
         },
         {
-          "name": "Urban Gardens & Relaxation 🌿",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=34.683200%2C33.055400",
-          "description": "Green spaces perfect for shade, slow walks and quiet breaks."
+          "name": "Molossia Promenade",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=34.6840%2C33.0555",
+          "description": "Long palm-lined coastal promenade ideal for walking, cycling, and sea views."
+        },
+        {
+          "name": "Kourion Archaeological Site",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=34.6646%2C32.8887",
+          "description": "Ancient Greco-Roman city with a spectacular cliffside theatre overlooking the Mediterranean."
         }
       ],
-      "local_food_tip": "Try veggie meze, stuffed grape leaves, halloumi dishes, olive dips, grilled vegetables and citrus-flavored salads — a fresh Mediterranean mix.",
-      "full_day": "Morning: 🌊 <a href=\"https://www.google.com/maps/search/?api=1&query=34.676900%2C33.046900\" target=\"_blank\" rel=\"noopener\">Limassol Promenade</a>: Long seaside path ideal for photos. → 🏰 <a href=\"https://www.google.com/maps/search/?api=1&query=34.674350%2C33.044520\" target=\"_blank\" rel=\"noopener\">Limassol Castle</a> (Exterior). → ☕ Marina Café overlooking boats.\n\nAfternoon: 🏘️ <a href=\"https://www.google.com/maps/search/?api=1&query=34.674900%2C33.042800\" target=\"_blank\" rel=\"noopener\">Old Town</a>: Colorful alleyways + murals. → 🌿 <a href=\"https://www.google.com/maps/search/?api=1&query=34.683200%2C33.055400\" target=\"_blank\" rel=\"noopener\">Municipal Gardens</a>. → 🍽️ Lunch: Veggie meze, Mediterranean salads, grilled vegetables. → 🎨 Marina art corners for quick photo stops.\n\nSunset: 🌅 Marina Boardwalk: Golden reflections on the water.\n\nNight: 🌃 Seaside dessert stands + calm night-light ambiance.",
+      "local_food_tip": "Try Cypriot meze, souvlaki, grilled halloumi, fresh seafood, and local wines from nearby Troodos foothills. Old Town taverns offer authentic flavors.",
+      "full_day": {
+        "Morning": "Start with coffee at <a href=\"https://www.google.com/maps/search/?api=1&query=34.6709%2C33.0416\" target=\"_blank\" rel=\"noopener\">Limassol Marina</a> ☀️, then walk into the <a href=\"https://www.google.com/maps/search/?api=1&query=34.6732%2C33.0438\" target=\"_blank\" rel=\"noopener\">Old Town</a>.",
+        "Afternoon": "Visit <a href=\"https://www.google.com/maps/search/?api=1&query=34.6737%2C33.0430\" target=\"_blank\" rel=\"noopener\">Limassol Castle</a> 🏛️ and enjoy lunch nearby 🍽️, followed by a stroll along the <a href=\"https://www.google.com/maps/search/?api=1&query=34.6840%2C33.0555\" target=\"_blank\" rel=\"noopener\">Molossia Promenade</a>.",
+        "Sunset": "Take a short trip to <a href=\"https://www.google.com/maps/search/?api=1&query=34.6646%2C32.8887\" target=\"_blank\" rel=\"noopener\">Kourion</a> 🌅 for dramatic sunset views over the sea.",
+        "Night": "Dinner at the marina ✨ or in the Old Town with relaxed nightlife and seaside ambiance."
+      },
       "seasons": {
         "spring": {
-          "event": "Spring by the Marina",
+          "event": "Spring Coastal Season",
+          "description": "Comfortable temperatures and blooming landscapes make sightseeing ideal.",
           "ideas": [
-            "🌸 Coastal blooms along promenades.",
-            "🚶 Light garden walks in fresh weather.",
-            "☕ Outdoor cafés with spring sunshine.",
-            "🎨 Art pop-ups around the old town."
+            {
+              "name": "Old Town walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=34.6732%2C33.0438",
+              "description": "Pleasant weather for exploration."
+            },
+            {
+              "name": "Promenade strolls",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=34.6840%2C33.0555",
+              "description": "Fresh sea air and views."
+            },
+            {
+              "name": "Kourion visit",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=34.6646%2C32.8887",
+              "description": "Clear spring skies over ancient ruins."
+            }
           ]
         },
         "summer": {
-          "event": "Hot Summer Coast",
+          "event": "Limassol Summer Festival Season",
+          "description": "Hot weather, beach life, and open-air events across the city.",
           "ideas": [
-            "🏖️ Early promenade mornings.",
-            "🍉 Fruit cups + cold juices.",
-            "🌇 Marina sunsets with vibrant evening colors.",
-            "🎶 Open-air concerts by the water."
+            {
+              "name": "Beach time",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=34.6890%2C33.0720",
+              "description": "Swimming and sunbathing."
+            },
+            {
+              "name": "Evening marina life",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=34.6709%2C33.0416",
+              "description": "Lively summer nights."
+            },
+            {
+              "name": "Coastal cycling",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=34.6840%2C33.0555",
+              "description": "Long flat seaside routes."
+            }
           ]
         },
         "autumn": {
-          "event": "Autumn in Limassol",
+          "event": "Wine & Harvest Season",
+          "description": "Warm sea temperatures and wine activities in nearby villages.",
           "ideas": [
-            "🍁 Warm-toned evening coastal walks.",
-            "🥧 Cozy cafés in the old town.",
-            "🎨 Gallery hopping and exhibitions.",
-            "🌊 Pleasant seaside breezes."
+            {
+              "name": "Wine village trips",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=34.8500%2C32.8000",
+              "description": "Local wineries and harvest atmosphere."
+            },
+            {
+              "name": "Photography walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=34.6646%2C32.8887",
+              "description": "Golden light at ancient sites."
+            },
+            {
+              "name": "Relaxed seaside dining",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=34.6709%2C33.0416",
+              "description": "Calm coastal evenings."
+            }
           ]
         },
         "winter": {
-          "event": "Winter by the Sea",
+          "event": "Mild Mediterranean Winter",
+          "description": "Quiet city life with mild temperatures and cultural focus.",
           "ideas": [
-            "🌞 Mild seaside strolls with soft sunshine.",
-            "🍫 Hot drinks at marina coffee spots.",
-            "✨ Winter lights along the promenade.",
-            "🏛️ Museum visits on cooler days."
+            {
+              "name": "Museum visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=34.6737%2C33.0430",
+              "description": "Indoor cultural exploration."
+            },
+            {
+              "name": "Seafront walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=34.6840%2C33.0555",
+              "description": "Peaceful winter scenery."
+            },
+            {
+              "name": "Café culture",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=34.6732%2C33.0438",
+              "description": "Relaxed local atmosphere."
+            }
           ]
         }
       },
       "public_transport_tips": [
         {
-          "tip": "🚌 Coastal buses connect the marina, beaches and downtown.",
-          "link": "https://www.cypruspublictransport.com/"
+          "tip": "Local buses connect Limassol Marina, Old Town, beaches, and suburbs.",
+          "link": "https://www.limassolbuses.com/"
         },
         {
-          "tip": "🚲 Perfect for cycling along the long promenade.",
-          "link": "https://www.bikecyprus.com/"
+          "tip": "Walking and cycling are ideal along the long seafront promenade.",
+          "link": "https://www.visitcyprus.com/"
         },
         {
-          "tip": "🚕 Taxis recommended for distant archaeological sites.",
-          "link": "https://www.taxicyprus.com/"
-        },
-        {
-          "tip": "📱 Use 'Cyprus Public Transport' app for real-time updates.",
-          "link": "https://play.google.com/store/apps/details?id=com.cpt.cyprus"
+          "tip": "Paphos and Larnaca airports are reachable by intercity buses.",
+          "link": "https://intercity-buses.com/"
         }
       ],
       "city_events": [
         {
           "name": "Limassol Carnival",
-          "season": "spring",
-          "description": "🎉 Colorful parades, costumes and lively music filling the streets.",
-          "website": "https://www.visitcyprus.com"
-        },
-        {
-          "name": "Limassol Summer Nights",
-          "season": "summer",
-          "description": "🎶 Seaside concerts, cultural shows and lively promenades.",
-          "website": "https://www.limassolmunicipal.com.cy"
-        },
-        {
-          "name": "Autumn Wine Festival",
-          "season": "autumn",
-          "description": "🍇 Wine-food tastings, performances and local traditions.",
-          "website": "https://www.limassolwinemuseum.com"
-        },
-        {
-          "name": "Limassol Winter Sea Lights",
           "season": "winter",
-          "description": "✨ Festive lights, markets and harbor celebrations.",
-          "website": "https://www.visitcyprus.com"
+          "description": "Major cultural event with parades, costumes, and celebrations.",
+          "website": "https://www.limassol.org.cy/",
+          "dates": "February–March (varies)"
         }
       ],
       "places": [
         {
-          "name": "Limassol Promenade (Molos)",
-          "link": "https://www.google.com/maps/search/?api=1&query=34.676900%2C33.046900",
-          "description": "Modern palm-lined promenade with bike paths, sculptures and gorgeous sea views."
+          "name": "Fasouri Watermania",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=34.6640%2C33.0128",
+          "description": "Large water park popular with families and visitors during summer."
         },
         {
-          "name": "Limassol Castle",
-          "link": "https://www.google.com/maps/search/?api=1&query=34.674350%2C33.044520",
-          "description": "Stone medieval castle in the heart of Old Town, surrounded by cafés and creative alleys."
-        },
-        {
-          "name": "Limassol Marina",
-          "link": "https://www.google.com/maps/search/?api=1&query=34.671600%2C33.040900",
-          "description": "Stylish waterfront zone with restaurants, boutiques, yachts and sunset reflections."
-        },
-        {
-          "name": "Old Town Limassol",
-          "link": "https://www.google.com/maps/search/?api=1&query=34.674900%2C33.042800",
-          "description": "Colorful streets full of murals, artisan shops, cafés and historic buildings."
-        },
-        {
-          "name": "Limassol Municipal Gardens",
-          "link": "https://www.google.com/maps/search/?api=1&query=34.683200%2C33.055400",
-          "description": "Shady green space perfect for relaxing midday walks."
+          "name": "Cyprus Motor Museum",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=34.7268%2C33.0045",
+          "description": "Museum featuring a wide collection of classic and vintage cars."
         }
       ],
       "hidden_gems": [
         {
-          "name": "Molos Sculpture Park",
-          "link": "https://www.google.com/maps/search/?api=1&query=34.677500%2C33.048100",
-          "description": "Open-air art installations spread along the seaside promenade."
+          "name": "Early-morning Molossia Promenade",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=34.6840%2C33.0555",
+          "description": "Quiet sea views before the city becomes active."
         },
         {
-          "name": "Saripolou Square Courtyards",
-          "link": "https://www.google.com/maps/search/?api=1&query=34.675700%2C33.043700",
-          "description": "Hidden courtyards filled with murals, cafés and evening street life."
-        },
-        {
-          "name": "Castle Quarter Back Alleys",
-          "link": "https://www.google.com/maps/search/?api=1&query=34.674100%2C33.044900",
-          "description": "Narrow atmospheric lanes behind the castle, full of small ateliers and traditional houses."
-        },
-        {
-          "name": "Old Port Wooden Pier",
-          "link": "https://www.google.com/maps/search/?api=1&query=34.671100%2C33.040200",
-          "description": "Quiet pier perfect for reflection, photography and calm seaside views."
+          "name": "Backstreets of the Old Town",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=34.6728%2C33.0445",
+          "description": "Authentic local life away from main streets."
         }
       ]
     },
+
+    {
+      "name": "Nicosia",
+      "interests": [
+        {
+          "name": "Ledra Street Crossing",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=35.1686%2C33.3600",
+          "description": "Pedestrian street and official crossing point between the southern and northern parts of the city, symbolizing Nicosia’s divided history."
+        },
+        {
+          "name": "Cyprus Museum",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=35.1721%2C33.3626",
+          "description": "The largest archaeological museum in Cyprus, showcasing artifacts from prehistoric to Roman times."
+        },
+        {
+          "name": "Leventis Municipal Museum",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=35.1679%2C33.3608",
+          "description": "Museum dedicated to the history of Nicosia, located near the old town walls."
+        },
+        {
+          "name": "Venetian Walls of Nicosia",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=35.1729%2C33.3609",
+          "description": "16th-century circular fortifications surrounding the old city, built by the Venetians."
+        },
+        {
+          "name": "Famagusta Gate",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=35.1700%2C33.3721",
+          "description": "One of the three original gates of the Venetian walls, now used as a cultural venue."
+        }
+      ],
+      "local_food_tip": "Try Cypriot meze, souvlaki, sheftalia, grilled halloumi, and traditional sweets. Old town taverns around Ledra and Onasagorou streets are popular with locals.",
+      "full_day": {
+        "Morning": "Start your day at the <a href=\"https://www.google.com/maps/search/?api=1&query=35.1721%2C33.3626\" target=\"_blank\" rel=\"noopener\">Cyprus Museum</a> ☀️ to understand the island’s ancient history.",
+        "Afternoon": "Walk through the old city to <a href=\"https://www.google.com/maps/search/?api=1&query=35.1679%2C33.3608\" target=\"_blank\" rel=\"noopener\">Leventis Municipal Museum</a> 🏛️ and have lunch along <a href=\"https://www.google.com/maps/search/?api=1&query=35.1686%2C33.3600\" target=\"_blank\" rel=\"noopener\">Ledra Street</a> 🍽️.",
+        "Sunset": "Stroll along sections of the <a href=\"https://www.google.com/maps/search/?api=1&query=35.1729%2C33.3609\" target=\"_blank\" rel=\"noopener\">Venetian Walls</a> 🌅 near <a href=\"https://www.google.com/maps/search/?api=1&query=35.1700%2C33.3721\" target=\"_blank\" rel=\"noopener\">Famagusta Gate</a>.",
+        "Night": "Dinner in the old town ✨ and an evening walk around Onasagorou Street."
+      },
+      "seasons": {
+        "spring": {
+          "event": "Spring Cultural Season",
+          "description": "Mild temperatures make walking the old city comfortable and pleasant.",
+          "ideas": [
+            {
+              "name": "Old town walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=35.1686%2C33.3600",
+              "description": "Ideal weather for exploring historic streets."
+            },
+            {
+              "name": "Museum visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=35.1721%2C33.3626",
+              "description": "Comfortable indoor sightseeing."
+            },
+            {
+              "name": "Café terraces",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=35.1680%2C33.3595",
+              "description": "Relaxed city atmosphere."
+            }
+          ]
+        },
+        "summer": {
+          "event": "Nicosia Summer Nights",
+          "description": "Hot days with lively evenings focused on cafés and cultural events.",
+          "ideas": [
+            {
+              "name": "Evening walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=35.1686%2C33.3600",
+              "description": "Cooler temperatures after sunset."
+            },
+            {
+              "name": "Indoor museums",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=35.1679%2C33.3608",
+              "description": "Air-conditioned cultural visits."
+            },
+            {
+              "name": "Night cafés",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=35.1688%2C33.3612",
+              "description": "Social local nightlife."
+            }
+          ]
+        },
+        "autumn": {
+          "event": "Golden City Autumn",
+          "description": "Warm days, fewer visitors, and relaxed urban life.",
+          "ideas": [
+            {
+              "name": "Historic exploration",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=35.1700%2C33.3721",
+              "description": "Pleasant temperatures for sightseeing."
+            },
+            {
+              "name": "Local cuisine",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=35.1686%2C33.3600",
+              "description": "Seasonal Cypriot dishes."
+            },
+            {
+              "name": "Photography walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=35.1729%2C33.3609",
+              "description": "Soft autumn light on stone walls."
+            }
+          ]
+        },
+        "winter": {
+          "event": "Mild Capital Winter",
+          "description": "Cool but comfortable weather with calm streets and cultural focus.",
+          "ideas": [
+            {
+              "name": "Museum hopping",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=35.1721%2C33.3626",
+              "description": "Indoor cultural time."
+            },
+            {
+              "name": "Old town cafés",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=35.1680%2C33.3595",
+              "description": "Cozy winter atmosphere."
+            },
+            {
+              "name": "City walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=35.1679%2C33.3608",
+              "description": "Quiet historic streets."
+            }
+          ]
+        }
+      },
+      "public_transport_tips": [
+        {
+          "tip": "Local buses connect the old city with modern districts.",
+          "link": "https://www.publictransport.com.cy/"
+        },
+        {
+          "tip": "The old town within the Venetian walls is best explored on foot.",
+          "link": "https://www.visitcyprus.com/"
+        },
+        {
+          "tip": "Intercity buses connect Nicosia with Limassol, Larnaca, and Paphos.",
+          "link": "https://intercity-buses.com/"
+        }
+      ],
+      "city_events": [
+        {
+          "name": "Nicosia International Festival",
+          "season": "autumn",
+          "description": "Cultural festival featuring music, theater, and exhibitions.",
+          "website": "https://www.nicosia.org.cy/",
+          "dates": "September–October"
+        }
+      ],
+      "places": [
+        {
+          "name": "Shacolas Tower Observatory",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=35.1683%2C33.3606",
+          "description": "Observation deck offering panoramic views over Nicosia."
+        },
+        {
+          "name": "Hadjigeorgakis Kornesios Mansion",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=35.1708%2C33.3650",
+          "description": "18th-century mansion and ethnological museum."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "Early-morning Ledra Street",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=35.1686%2C33.3600",
+          "description": "Quiet atmosphere before shops open."
+        },
+        {
+          "name": "Side streets near Famagusta Gate",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=35.1705%2C33.3715",
+          "description": "Local neighborhoods with authentic character."
+        }
+      ]
+    },
+
     {
       "name": "Paphos",
       "interests": [
         {
-          "name": "Archaeological Sites 🏛️",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=34.755600%2C32.406600",
-          "description": "Ancient mosaics, seaside ruins and UNESCO-listed heritage scattered across the coastal archaeological zone."
-        },
-        {
-          "name": "Seaside Views 🌊",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=34.750800%2C32.414700",
-          "description": "Harbor scenery, sunset horizons and dramatic Mediterranean blues."
-        },
-        {
-          "name": "Old Town Culture 🎭",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=34.772400%2C32.424600",
-          "description": "Charming markets, artistic corners, traditional streets and local crafts."
-        },
-        {
-          "name": "Nature & Coastal Cliffs 🌿",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=34.857600%2C32.377800",
-          "description": "Rugged cliffs, scenic sea trails and panoramic viewpoints."
-        }
-      ],
-      "local_food_tip": "Try veggie moussaka, halloumi plates, fresh salads, lemon-based dips, stuffed vegetables and warm pita — aromatic and satisfying.",
-      "full_day": "Morning: 🏛️ <a href=\"https://www.google.com/maps/search/?api=1&query=34.755600%2C32.406600\" target=\"_blank\" rel=\"noopener\">Paphos Archaeological Park</a> (Exterior areas): Ancient villas and sea-facing ruins. → 🏺 <a href=\"https://www.google.com/maps/search/?api=1&query=34.773200%2C32.407300\" target=\"_blank\" rel=\"noopener\">Tombs of the Kings</a> (Exterior). → ☕ Harbor café near the waterfront.\n\nAfternoon: 🌊 Harbor Promenade: Palm views, fishing boats and breezy seaside paths. → 🏘️ Old Town Market Streets: Crafts, foods and atmospheric alleys. → 🍽️ Lunch: Veg meze, moussaka, salads. → 🌿 Lighthouse viewpoints within the archaeological zone.\n\nSunset: 🌅 <a href=\"https://www.google.com/maps/search/?api=1&query=34.856600%2C32.377900\" target=\"_blank\" rel=\"noopener\">Coral Bay</a>: Stunning sunset over cliffs and turquoise water.\n\nNight: 🌃 Harbor evening walk: Gelato stands + calm ocean reflections.",
-      "seasons": {
-        "spring": {
-          "event": "Spring in Paphos",
-          "ideas": [
-            "🌼 Archaeological sites decorated with spring flowers.",
-            "🚶 Mild coastal walks around the lighthouse.",
-            "☕ Harbor terraces with soft sunshine.",
-            "📸 Clear viewpoints ideal for photography."
-          ]
-        },
-        "summer": {
-          "event": "Summer in Paphos",
-          "ideas": [
-            "🏖️ Early Coral Bay swims.",
-            "🍉 Cold fruit shakes by the beach.",
-            "🌇 Golden-hour harborside views.",
-            "🎶 Outdoor seaside events and music nights."
-          ]
-        },
-        "autumn": {
-          "event": "Autumn Calm",
-          "ideas": [
-            "🍁 Warm tones across old-town streets.",
-            "🥧 Cozy pastry cafés and bakeries.",
-            "🎨 Local craft and art markets.",
-            "🌊 Comfortable sea temperatures for swimming."
-          ]
-        },
-        "winter": {
-          "event": "Winter Breeze",
-          "ideas": [
-            "🌞 Sunny coastal paths even in cooler months.",
-            "🍫 Hot chocolate by the harbor.",
-            "📸 Dramatic winter waves and seaside clouds.",
-            "🏛️ Quiet archaeological visits without crowds."
-          ]
-        }
-      },
-      "public_transport_tips": [
-        {
-          "tip": "🚌 Reliable buses link beaches, the harbor, old town and archaeological areas.",
-          "link": "https://www.cyprusbybus.com/"
-        },
-        {
-          "tip": "🚶 The harbor promenade is perfect for walking."
-        },
-        {
-          "tip": "🚕 Taxis are common for Coral Bay and cliff viewpoints.",
-          "link": "https://www.taxicyprus.com/"
-        },
-        {
-          "tip": "📱 Use 'Paphos Bus' or 'Cyprus Public Transport' apps for schedules."
-        }
-      ],
-      "city_events": [
-        {
-          "name": "Paphos Spring Mosaic Festival",
-          "season": "spring",
-          "description": "🎨 Art events celebrating mosaics and ancient heritage.",
-          "website": "https://www.visitcyprus.com"
-        },
-        {
-          "name": "Aphrodite Summer Festival",
-          "season": "summer",
-          "description": "🎭 Open-air opera at the medieval castle by the sea.",
-          "website": "https://www.pafc.com.cy"
-        },
-        {
-          "name": "Autumn Cultural Days",
-          "season": "autumn",
-          "description": "🏛️ Exhibitions, crafts and heritage tours across the old town.",
-          "website": "https://www.paphos.org.cy"
-        },
-        {
-          "name": "Paphos Winter Lights",
-          "season": "winter",
-          "description": "✨ Holiday decorations and harbor concerts.",
-          "website": "https://www.visitcyprus.com"
-        }
-      ],
-      "places": [
-        {
           "name": "Paphos Archaeological Park",
-          "link": "https://www.google.com/maps/search/?api=1&query=34.755600%2C32.406600",
-          "description": "UNESCO site with ancient villas, detailed mosaics and sweeping sea views."
+          "map_link": "https://www.google.com/maps/search/?api=1&query=34.7566%2C32.4064",
+          "description": "UNESCO World Heritage site featuring Roman villas with well-preserved mosaics, ancient ruins, and an amphitheater."
+        },
+        {
+          "name": "Paphos Harbour & Medieval Castle",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=34.7559%2C32.4079",
+          "description": "Historic harbor area with a medieval fortress, promenade, cafés, and sea views."
         },
         {
           "name": "Tombs of the Kings",
-          "link": "https://www.google.com/maps/search/?api=1&query=34.773200%2C32.407300",
-          "description": "Rock-cut ancient necropolis surrounded by coastal cliffs."
+          "map_link": "https://www.google.com/maps/search/?api=1&query=34.7755%2C32.4087",
+          "description": "Impressive underground Hellenistic necropolis carved into rock, despite the name not actually royal tombs."
         },
         {
-          "name": "Paphos Harbor & Castle",
-          "link": "https://www.google.com/maps/search/?api=1&query=34.750800%2C32.414700",
-          "description": "Picturesque harbor with a medieval castle and lively seaside cafés."
+          "name": "Coral Bay",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=34.8567%2C32.3726",
+          "description": "Popular sandy beach north of Paphos with calm waters, ideal for swimming."
         },
         {
-          "name": "Old Town Market District",
-          "link": "https://www.google.com/maps/search/?api=1&query=34.772400%2C32.424600",
-          "description": "Charming narrow streets with artisan shops, cafés and local produce."
-        },
-        {
-          "name": "Coral Bay Beach",
-          "link": "https://www.google.com/maps/search/?api=1&query=34.856600%2C32.377900",
-          "description": "One of Paphos’ most scenic coves with turquoise waters and sunset views."
+          "name": "Aphrodite’s Rock (Petra tou Romiou)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=34.6653%2C32.6271",
+          "description": "Legendary sea stack believed to be the birthplace of Aphrodite, one of Cyprus’ most iconic natural landmarks."
         }
       ],
-      "hidden_gems": [
-        {
-          "name": "Paphos Lighthouse Viewpoint",
-          "link": "https://www.google.com/maps/search/?api=1&query=34.758400%2C32.404900",
-          "description": "Quiet hilltop spot inside the archaeological zone with sweeping sea panoramas."
-        },
-        {
-          "name": "Edro III Shipwreck",
-          "link": "https://www.google.com/maps/search/?api=1&query=35.014300%2C32.330200",
-          "description": "Spectacular rusted shipwreck framed by waves and cliffs — amazing at sunset."
-        },
-        {
-          "name": "St. George's Cliffside Area (Peyia)",
-          "link": "https://www.google.com/maps/search/?api=1&query=34.881400%2C32.352900",
-          "description": "Dramatic sea cliffs, small chapels and peaceful nature paths."
-        },
-        {
-          "name": "Old Town Art Laneways",
-          "link": "https://www.google.com/maps/search/?api=1&query=34.773000%2C32.423000",
-          "description": "Murals, micro-galleries and artistic corners hidden between narrow streets."
-        }
-      ]
-    },
-    {
-      "name": "Protaras",
-      "interests": [
-        {
-          "name": "Beaches & Turquoise Bays 🌊",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=35.010900%2C34.058000",
-          "description": "Crystal-clear waters, soft sand and some of the most famous Mediterranean beaches like Fig Tree Bay."
-        },
-        {
-          "name": "Nature & Coastal Walks 🌿",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=35.015500%2C34.075000",
-          "description": "Cliff trails, sea caves and scenic promenades with postcard viewpoints."
-        },
-        {
-          "name": "Relaxation & Scenic Spots 🌅",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=34.948600%2C34.085600",
-          "description": "Cape Greco sunsets, quiet bays and peaceful overlooks."
-        },
-        {
-          "name": "Small Streets & Local Vibes 🏘️",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=35.012400%2C34.051900",
-          "description": "Cozy streets with cafés, boutiques, gelato stands and beach-town ambience."
-        }
-      ],
-      "local_food_tip": "Try veggie gyros, halloumi plates, grilled vegetables, salads with local herbs and fresh fruit bowls — perfect for beach days.",
-      "full_day": "Morning: 🏖️ <a href=\"https://www.google.com/maps/search/?api=1&query=35.010900%2C34.058000\" target=\"_blank\" rel=\"noopener\">Fig Tree Bay</a>: Turquoise waters and soft sand. → 🌿 Coastal Nature Trail: Cliffside paths with postcard views. → ☕ Smoothies or Cypriot coffee at a seaside café.\n\nAfternoon: 🌊 Protaras Promenade: Palm-lined seaside walk. → 🏘️ Central Streets: Artisan shops, cafés and beach boutiques. → 🍽️ Lunch: Veggie gyros, halloumi plates and Mediterranean salads. → 🌿 Green Bay viewpoints for photography.\n\nSunset: 🌅 <a href=\"https://www.google.com/maps/search/?api=1&query=34.948600%2C34.085600\" target=\"_blank\" rel=\"noopener\">Cape Greco</a>: One of Cyprus’ most iconic sunset lookouts.\n\nNight: 🌃 Promenade night walk: Ice cream stands, soft lights and calm waves.",
+      "local_food_tip": "Try Cypriot meze, fresh seafood, souvlaki, grilled halloumi, and local desserts. Harbor-side taverns are great for sunset dining.",
+      "full_day": {
+        "Morning": "Start at the <a href=\"https://www.google.com/maps/search/?api=1&query=34.7566%2C32.4064\" target=\"_blank\" rel=\"noopener\">Paphos Archaeological Park</a> ☀️ to explore ancient mosaics and ruins.",
+        "Afternoon": "Head to <a href=\"https://www.google.com/maps/search/?api=1&query=34.7559%2C32.4079\" target=\"_blank\" rel=\"noopener\">Paphos Harbour</a> 🏛️ for lunch, then visit the <a href=\"https://www.google.com/maps/search/?api=1&query=34.7755%2C32.4087\" target=\"_blank\" rel=\"noopener\">Tombs of the Kings</a>.",
+        "Sunset": "Drive or bus to <a href=\"https://www.google.com/maps/search/?api=1&query=34.6653%2C32.6271\" target=\"_blank\" rel=\"noopener\">Aphrodite’s Rock</a> 🌅 for dramatic coastal sunset views.",
+        "Night": "Dinner at the harbor ✨ followed by a relaxed seaside walk."
+      },
       "seasons": {
         "spring": {
-          "event": "Spring in Protaras",
+          "event": "Spring Cultural Season",
+          "description": "Warm but comfortable weather ideal for archaeological exploration.",
           "ideas": [
-            "🌸 Flowers blooming along cliff paths.",
-            "🚶 Mild mornings ideal for scenic hikes.",
-            "☕ Beach cafés opening for the season.",
-            "🐦 Bird-watching near coastal viewpoints."
+            {
+              "name": "Ancient site visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=34.7566%2C32.4064",
+              "description": "Perfect temperatures for walking ruins."
+            },
+            {
+              "name": "Coastal walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=34.7559%2C32.4079",
+              "description": "Fresh sea air."
+            },
+            {
+              "name": "Village trips",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=34.8340%2C32.7060",
+              "description": "Spring greenery inland."
+            }
           ]
         },
         "summer": {
-          "event": "Island Summer",
+          "event": "Paphos Summer Festival",
+          "description": "Beach life, open-air events, and lively evenings.",
           "ideas": [
-            "🏖️ Early swims at Fig Tree Bay.",
-            "🍉 Cold fruit bowls and fresh smoothies.",
-            "🌇 Sunset views from Cape Greco.",
-            "🌊 Nighttime promenade walks with sea breeze."
+            {
+              "name": "Beach time at Coral Bay",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=34.8567%2C32.3726",
+              "description": "Clear water and sandy shore."
+            },
+            {
+              "name": "Evening harbor walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=34.7559%2C32.4079",
+              "description": "Warm Mediterranean nights."
+            },
+            {
+              "name": "Boat excursions",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=34.7562%2C32.4085",
+              "description": "Coastal sightseeing."
+            }
           ]
         },
         "autumn": {
-          "event": "Autumn Colors",
+          "event": "Golden Mediterranean Autumn",
+          "description": "Warm sea, fewer crowds, and soft light.",
           "ideas": [
-            "🍁 Golden coastal cliffs in soft evening light.",
-            "🥧 Town-center café afternoons.",
-            "🎨 Artisan stalls with seasonal crafts.",
-            "🌊 Warm sea temperatures for late-season swims."
+            {
+              "name": "Photography at Aphrodite’s Rock",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=34.6653%2C32.6271",
+              "description": "Golden-hour coastal scenes."
+            },
+            {
+              "name": "Historic exploration",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=34.7755%2C32.4087",
+              "description": "Pleasant sightseeing temperatures."
+            },
+            {
+              "name": "Seaside dining",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=34.7559%2C32.4079",
+              "description": "Relaxed evenings by the water."
+            }
           ]
         },
         "winter": {
-          "event": "Winter Sunshine",
+          "event": "Mild Coastal Winter",
+          "description": "Comfortable climate with calm streets and cultural focus.",
           "ideas": [
-            "🌞 Pleasant seaside walks with mild winter sun.",
-            "🍫 Hot drinks overlooking the sea.",
-            "🌿 Quiet cliff trails ideal for photography.",
-            "📸 Clear winter skies with dramatic coastline visibility."
+            {
+              "name": "Museum and site visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=34.7566%2C32.4064",
+              "description": "Crowd-free archaeology."
+            },
+            {
+              "name": "Coastal walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=34.7559%2C32.4079",
+              "description": "Quiet seaside scenery."
+            },
+            {
+              "name": "Café culture",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=34.7560%2C32.4068",
+              "description": "Relaxed local atmosphere."
+            }
           ]
         }
       },
       "public_transport_tips": [
         {
-          "tip": "🚌 Buses connect Protaras with Ayia Napa, Paralimni and major beaches.",
-          "link": "https://www.cyprusbybus.com/"
+          "tip": "Local buses connect the harbor, archaeological sites, and Coral Bay.",
+          "link": "https://www.pafosbuses.com/"
         },
         {
-          "tip": "🚲 Coastal bike paths are great for scenic, easy cycling."
+          "tip": "Walking is practical around the harbor and old town areas.",
+          "link": "https://www.visitcyprus.com/"
         },
         {
-          "tip": "🚶 Promenade and central beach areas are perfect for walking."
-        },
-        {
-          "tip": "📱 Use 'Cyprus By Bus' for updated routes and live times."
+          "tip": "Paphos International Airport is close to the city center.",
+          "link": "https://www.hermesairports.com/"
         }
       ],
       "city_events": [
         {
-          "name": "Protaras Spring Music Week",
-          "season": "spring",
-          "description": "🎶 Live seaside performances on open-air stages."
-        },
-        {
-          "name": "Protaras Summer Festival",
+          "name": "Paphos Aphrodite Festival",
           "season": "summer",
-          "description": "🎉 Music, dance and cultural shows by the coastline."
-        },
-        {
-          "name": "Autumn Artisan Market",
-          "season": "autumn",
-          "description": "🎨 Handmade goods, crafts and local treats in the town center."
-        },
-        {
-          "name": "Protaras Winter Lights",
-          "season": "winter",
-          "description": "✨ Festive decorations and seaside holiday events."
+          "description": "Open-air opera festival held near the medieval castle.",
+          "website": "https://www.paphosaphroditefestival.com/",
+          "dates": "September"
         }
       ],
       "places": [
         {
-          "name": "Fig Tree Bay",
-          "link": "https://www.google.com/maps/search/?api=1&query=35.010900%2C34.058000",
-          "description": "Ultra-clear waters, soft beach and iconic Mediterranean scenery."
+          "name": "Agia Solomoni Catacombs",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=34.7583%2C32.4048",
+          "description": "Early Christian catacombs and chapel near the archaeological park."
         },
         {
-          "name": "Green Bay",
-          "link": "https://www.google.com/maps/search/?api=1&query=35.004900%2C34.061800",
-          "description": "Peaceful snorkeling bay with emerald-water views."
-        },
-        {
-          "name": "Protaras Coastal Nature Trail",
-          "link": "https://www.google.com/maps/search/?api=1&query=35.015500%2C34.075000",
-          "description": "A scenic cliffside trail with panoramic sea outlooks."
-        },
-        {
-          "name": "Protaras Promenade",
-          "link": "https://www.google.com/maps/search/?api=1&query=35.012400%2C34.051900",
-          "description": "Palm-lined seafront ideal for walking, photos and sunset vibes."
-        },
-        {
-          "name": "Cape Greco",
-          "link": "https://www.google.com/maps/search/?api=1&query=34.948600%2C34.085600",
-          "description": "National park with cliffs, sea caves and legendary sunset views."
+          "name": "Paphos Lighthouse",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=34.7589%2C32.4017",
+          "description": "Coastal lighthouse offering open views over the sea."
         }
       ],
       "hidden_gems": [
         {
-          "name": "Cyclops Cave",
-          "link": "https://www.google.com/maps/search/?api=1&query=34.971700%2C34.085200",
-          "description": "A dramatic sea cave along the trail to Cape Greco with turquoise waters below."
+          "name": "Early-morning harbor",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=34.7559%2C32.4079",
+          "description": "Quiet reflections and fishing boats at dawn."
         },
         {
-          "name": "Konnos Bay Viewpoint",
-          "link": "https://www.google.com/maps/search/?api=1&query=34.983200%2C34.078500",
-          "description": "Overlook with incredible views of one of Cyprus’ prettiest coves."
-        },
-        {
-          "name": "Ayioi Anargyroi Sea Cliffs",
-          "link": "https://www.google.com/maps/search/?api=1&query=34.962900%2C34.090800",
-          "description": "Clifftop chapel with breathtaking sea panoramas and quiet walking paths."
-        },
-        {
-          "name": "Profitis Ilias Hill",
-          "link": "https://www.google.com/maps/search/?api=1&query=35.017200%2C34.045900",
-          "description": "Small hilltop church offering a stunning elevated viewpoint over Protaras."
+          "name": "Coastal paths near Lighthouse",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=34.7595%2C32.4008",
+          "description": "Peaceful seaside walks away from crowds."
         }
       ]
     }
+
   ]
 }

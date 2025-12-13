@@ -2,470 +2,858 @@
   "name": "Belgium",
   "cities": [
     {
-      "name": "Brussels",
+      "name": "Antwerp",
       "interests": [
-        "Historic Squares & Medieval Streets 🏛️ — Grand city boulevards, ornate guild houses and royal architecture.",
-        "Art, Comics & Culture 🎨 — Tintin murals, Art Nouveau gems and unforgettable museums.",
-        "Gastronomy & Chocolate 🍫 — Waffles, frites, pralines and cozy café culture."
+        {
+          "name": "Cathedral of Our Lady",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=51.2203%2C4.4009",
+          "description": "UNESCO-listed Gothic cathedral housing masterpieces by Peter Paul Rubens and dominating Antwerp’s historic skyline."
+        },
+        {
+          "name": "Grote Markt",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=51.2212%2C4.3997",
+          "description": "Central square surrounded by ornate guild houses and the Renaissance-style City Hall."
+        },
+        {
+          "name": "MAS – Museum aan de Stroom",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=51.2289%2C4.4047",
+          "description": "Modern museum exploring Antwerp’s global connections, with a free rooftop panoramic view."
+        },
+        {
+          "name": "Antwerp Central Station",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=51.2172%2C4.4216",
+          "description": "Often called one of the world’s most beautiful train stations, blending stone, glass, and steel."
+        },
+        {
+          "name": "Rubenshuis",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=51.2157%2C4.4126",
+          "description": "Historic home and workshop of painter Peter Paul Rubens, offering insight into Baroque art and life."
+        }
       ],
-      "local_food_tip": "Try Belgian waffles with different toppings, crispy frites with dozens of sauces, moules-frites, stoofvlees (Flemish beef stew), and pralines from iconic chocolatiers like Neuhaus or Godiva.",
-      "full_day": "Morning: 🏛️ <a href=\"https://www.google.com/maps/search/?api=1&query=cj7jX9st1yS7xhZ87\" target=\"_blank\" rel=\"noopener\">Grand Place</a>: One of Europe's most breathtaking squares, surrounded by ornate 17th-century guild houses covered in gold trim. In the early morning, the square is quiet, making it perfect for photos of the Gothic Town Hall and the King's House. As sunlight hits the façades, the gold details glow warmly, revealing fine carvings and statues. This is a place to slow down, walk in circles, notice the different guild symbols, and imagine the marketplace that stood here centuries ago. → 👣 Wander the <a href=\"https://www.google.com/maps/search/?api=1&query=KqrYpvaw3BKKR8eN9\" target=\"_blank\" rel=\"noopener\">Galeries Royales Saint-Hubert</a>: A magnificent 19th-century glass-roofed arcade filled with chocolatiers, cafés and boutique shops. Every detail — the glass ceiling, arches, sculptures — feels like stepping into the elegance of old Europe. Grab a morning coffee and praline here. → 🧇 Stop by <a href=\"https://www.google.com/maps/search/?api=1&query=JpSjw9frWSSqSvYc7\" target=\"_blank\" rel=\"noopener\">Maison Dandoy</a> for iconic waffles, freshly baked and incredibly fragrant.\n\nAfternoon: 🖼️ <a href=\"https://www.google.com/maps/search/?api=1&query=aqd3iX1z7bzxcFJEA\" target=\"_blank\" rel=\"noopener\">Mont des Arts</a>: This elevated cultural district gives panoramic views over Brussels' rooftops. Gardens, staircases, musicians and fountains create a lively atmosphere. The Museums of Fine Arts nearby are ideal for art lovers. → 🏛️ Head to the <a href=\"https://www.google.com/maps/search/?api=1&query=rKeoSmcD2so9Fd1s9\" target=\"_blank\" rel=\"noopener\">Royal Palace</a>: Walk around the grand façade and the surrounding Warandepark, a peaceful green escape in the city. → 🍽️ Lunch in the Sablon area at <a href=\"https://www.google.com/maps/search/?api=1&query=2Phzw5sPFcJ2HH3Z7\" target=\"_blank\" rel=\"noopener\">Le Pain Quotidien</a> or a nearby brasserie, enjoying local dishes with a cozy Belgian ambiance.\n\nLate Afternoon: 🏰 Visit the <a href=\"https://www.google.com/maps/search/?api=1&query=tYQ96H3gP5zvvJ6B9\" target=\"_blank\" rel=\"noopener\">Atomium</a>: A futuristic icon built for the 1958 World Expo. The mirrored spheres reflect the sky and the city, and inside you find exhibitions, long escalators and 360° views. → 🌉 Nearby, stroll around <a href=\"https://www.google.com/maps/search/?api=1&query=6mUvN9Etnu9fpvx16\" target=\"_blank\" rel=\"noopener\">Mini-Europe</a>, a fun miniature park featuring Europe’s landmarks.\n\nSunset: 🌇 Walk back toward the city center or stay near Atomium, where the metallic sphere begins to glow with evening lights. The reflections are perfect for photos.\n\nNight: 🌃 <a href=\"https://www.google.com/maps/search/?api=1&query=wUZPzF6tVvsVpQtY7\" target=\"_blank\" rel=\"noopener\">Place Sainte-Catherine</a>: Lively seafood restaurants, illuminated squares and a relaxed evening vibe. Try moules-frites paired with Belgian beer from a local bar.",
+      "local_food_tip": "Try Belgian fries with mayonnaise, mussels, waffles, and local specialties like Antwerpse handjes (hand-shaped biscuits). Belgian beer culture is an essential part of dining.",
+      "full_day": {
+        "Morning": "Start at <a href=\"https://www.google.com/maps/search/?api=1&query=51.2172%2C4.4216\" target=\"_blank\" rel=\"noopener\">Antwerp Central Station</a> 🚆, then walk toward the historic core and visit the <a href=\"https://www.google.com/maps/search/?api=1&query=51.2203%2C4.4009\" target=\"_blank\" rel=\"noopener\">Cathedral of Our Lady</a> ⛪.",
+        "Afternoon": "Explore <a href=\"https://www.google.com/maps/search/?api=1&query=51.2212%2C4.3997\" target=\"_blank\" rel=\"noopener\">Grote Markt</a> 🏛️ and have lunch nearby, then head to the <a href=\"https://www.google.com/maps/search/?api=1&query=51.2289%2C4.4047\" target=\"_blank\" rel=\"noopener\">MAS Museum</a> 🌍.",
+        "Sunset": "Enjoy sunset views from the MAS rooftop 🌅 or take a walk along the Scheldt River.",
+        "Night": "Dinner in the old town 🍽️ followed by a relaxed evening in a local beer café."
+      },
       "seasons": {
         "spring": {
-          "event": "Spring Blossoms",
+          "event": "Spring City Season",
+          "description": "Mild temperatures and blooming parks make Antwerp ideal for walking.",
           "ideas": [
-            "🌸 Stroll through <a href=\"https://www.google.com/maps/search/?api=1&query=rKeoSmcD2so9Fd1s9\" target=\"_blank\" rel=\"noopener\">Warandepark</a> as flowers bloom and locals enjoy the sun.",
-            "🎨 Street musicians and open-air art displays around Mont des Arts.",
-            "☕ Outdoor cafés in Sablon with pastries and warm sunlight."
+            {
+              "name": "Historic center walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=51.2212%2C4.3997",
+              "description": "Comfortable sightseeing weather."
+            },
+            {
+              "name": "Museum visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=51.2289%2C4.4047",
+              "description": "Cultural exploration indoors."
+            },
+            {
+              "name": "River strolls",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=51.2235%2C4.3980",
+              "description": "Fresh air along the Scheldt."
+            }
           ]
         },
         "summer": {
-          "event": "Summer in the Capital",
+          "event": "Summer Festivals & Outdoor Life",
+          "description": "Long days, open-air events, and lively terraces.",
           "ideas": [
-            "🌅 Golden sunsets at Grand Place with long evening light.",
-            "🎶 Open-air concerts around the Royal Palace gardens.",
-            "🍦 Ice cream and cold drinks along Sainte-Catherine on warm nights."
+            {
+              "name": "Evening terraces",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=51.2212%2C4.3997",
+              "description": "Social city atmosphere."
+            },
+            {
+              "name": "Open-air events",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=51.2280%2C4.4030",
+              "description": "Concerts and festivals."
+            },
+            {
+              "name": "River walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=51.2235%2C4.3980",
+              "description": "Cooling breezes."
+            }
           ]
         },
         "autumn": {
-          "event": "Autumn Gold",
+          "event": "Autumn Cultural Season",
+          "description": "Cooler air and fewer crowds, ideal for museums and food.",
           "ideas": [
-            "🍁 Fall colors in city parks like Parc de Bruxelles.",
-            "🥐 Cozy cafés perfect for pastries and hot chocolate.",
-            "🏛️ Museum visits during chilly or rainy afternoons."
+            {
+              "name": "Art museums",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=51.2157%2C4.4126",
+              "description": "Focus on Flemish art."
+            },
+            {
+              "name": "Food tastings",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=51.2200%2C4.4010",
+              "description": "Seasonal Belgian cuisine."
+            },
+            {
+              "name": "Old town walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=51.2212%2C4.3997",
+              "description": "Atmospheric streets."
+            }
           ]
         },
         "winter": {
-          "event": "Christmas Markets",
+          "event": "Winter Lights & Christmas Markets",
+          "description": "Festive decorations and cozy cafés define winter in Antwerp.",
           "ideas": [
-            "🎄 <a href=\"https://www.google.com/maps/search/?api=1&query=wUZPzF6tVvsVpQtY7\" target=\"_blank\">Winter Wonders Market</a> with lights and wooden stalls.",
-            "✨ Grand Place illuminated in magical festive colors.",
-            "☕ Hot chocolate tastings in iconic chocolatiers."
+            {
+              "name": "Christmas markets",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=51.2212%2C4.3997",
+              "description": "Seasonal lights and stalls."
+            },
+            {
+              "name": "Museum hopping",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=51.2289%2C4.4047",
+              "description": "Warm cultural stops."
+            },
+            {
+              "name": "Café culture",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=51.2200%2C4.4020",
+              "description": "Belgian beers and hot drinks."
+            }
           ]
         }
       },
       "public_transport_tips": [
-        "🚇 Brussels Metro is fast and convenient — ideal for major attractions.",
-        "🚶 The old center is fully walkable.",
-        "🚋 Trams are useful for reaching Atomium and farther districts.",
-        "📱 Plan routes via STIB: https://www.stib-mivb.be"
+        {
+          "tip": "Antwerp has excellent tram and bus coverage across the city.",
+          "link": "https://www.delijn.be/"
+        },
+        {
+          "tip": "Trains connect Antwerp quickly with Brussels, Bruges, and Amsterdam.",
+          "link": "https://www.belgiantrain.be/"
+        },
+        {
+          "tip": "The historic center is compact and ideal for walking.",
+          "link": "https://www.visitantwerpen.be/"
+        }
       ],
       "city_events": [
         {
-          "name": "Brussels Summer Festival",
-          "season": "summer",
-          "description": "🎶 A large music festival with multiple stages across the city center."
+          "name": "Antwerp Fashion Festival",
+          "season": "autumn",
+          "description": "Celebration of Antwerp’s global influence on fashion and design.",
+          "website": "https://www.visitantwerpen.be/",
+          "dates": "October"
+        }
+      ],
+      "places": [
+        {
+          "name": "Plantin-Moretus Museum",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=51.2206%2C4.3990",
+          "description": "UNESCO-listed museum dedicated to early printing and publishing."
         },
         {
-          "name": "Winter Wonders",
-          "season": "winter",
-          "description": "🎄 Brussels' iconic Christmas market with lights, food stalls and festive shows."
+          "name": "Meir Shopping Street",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=51.2166%2C4.4116",
+          "description": "Main shopping boulevard lined with historic buildings."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "Vrijdagmarkt Square",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=51.2209%2C4.3981",
+          "description": "Local square with antique shops and cafés away from main crowds."
+        },
+        {
+          "name": "Early-morning Scheldt riverwalk",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=51.2235%2C4.3980",
+          "description": "Quiet river views before the city gets busy."
         }
       ]
     },
+
     {
       "name": "Bruges",
       "interests": [
-        "Medieval Canals & Bridges 🌉",
-        "Fairy-Tale Old Town 🏰",
-        "Chocolate Shops & Cozy Cafés 🍫"
+        {
+          "name": "Markt Square",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=51.2089%2C3.2246",
+          "description": "The heart of Bruges with colorful guild houses, cafés, and constant city life."
+        },
+        {
+          "name": "Belfry of Bruges",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=51.2088%2C3.2247",
+          "description": "Medieval bell tower and UNESCO World Heritage site offering panoramic views over the city."
+        },
+        {
+          "name": "Canals of Bruges",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=51.2095%2C3.2260",
+          "description": "Famous canal network giving Bruges its nickname ‘Venice of the North’."
+        },
+        {
+          "name": "Basilica of the Holy Blood",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=51.2083%2C3.2265",
+          "description": "Historic basilica believed to house a relic of the Holy Blood, located on Burg Square."
+        },
+        {
+          "name": "Minnewater (Lake of Love)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=51.2016%2C3.2224",
+          "description": "Romantic lake and park area near the city entrance, ideal for peaceful walks."
+        }
       ],
-      "local_food_tip": "Try Bruges chocolate from artisan shops, Belgian waffles, frites, waterzooi (creamy stew), and speculoos cookies.",
-      "full_day": "Morning: 🌉 Start at the picture-perfect <a href=\"https://www.google.com/maps/search/?api=1&query=wYF1Hbg7wqzHufzT9\" target=\"_blank\">Rozenhoedkaai</a>: One of Europe’s most photographed waterfront spots. Early morning light reflects softly on the canals, giving the medieval towers a magical glow. You can capture mirror-like reflections of gabled houses and stone bridges before crowds appear. → 🚤 Take a canal boat tour departing from <a href=\"https://www.google.com/maps/search/?api=1&query=ft2Siogt6vCnpQQB8\" target=\"_blank\">Huidenvettersplein</a>: The guide explains history and architecture while you drift slowly along the waterways. The perspective from water level reveals hidden courtyards and ivy-covered brick walls. → ☕ Warm up with hot chocolate at <a href=\"https://www.google.com/maps/search/?api=1&query=gFng9Kp9xnJpAQbj8\" target=\"_blank\">The Old Chocolate House</a> — rich, creamy, unforgettable.\n\nAfternoon: 🏛️ Continue to <a href=\"https://www.google.com/maps/search/?api=1&query=nkQ8uTKcuvuZTvTT6\" target=\"_blank\">Belfry Tower (Belfort)</a>: Climb 366 steps for breathtaking views of red rooftops and market squares. Every level of the tower reveals medieval mechanics, old bells and wooden beams. At the top, the panoramic wind hits your face and the entire old town spreads beneath you like a postcard. → 🏰 Walk to <a href=\"https://www.google.com/maps/search/?api=1&query=ruBMqghzZQXRLpbA7\" target=\"_blank\">Burg Square</a>: Home to the Gothic Town Hall and the Basilica of the Holy Blood. Superb architecture, mosaics and carved façades make this square a delight for slow exploration. → 🍽️ Lunch at <a href=\"https://www.google.com/maps/search/?api=1&query=2Wr3j6gE3iDb1wCo7\" target=\"_blank\">Gran Kaffee De Passage</a> for Belgian classics.\n\nLate Afternoon: 🌳 Visit <a href=\"https://www.google.com/maps/search/?api=1&query=WxYJqLzTgJ1TUaUr8\" target=\"_blank\">Beguinage (Begijnhof)</a>: A peaceful white-washed courtyard dating back to the 13th century. Walking here feels like entering a monastery garden frozen in time; the silence and trees create a calming, protected space. → 🧀 Stop by a local chocolate boutique for pralines.\n\nSunset: 🌇 Head back to Rozenhoedkaai for evening photos when lights reflect on the still canal.\n\nNight: 🌃 Dinner near the Markt square and a final slow walk through lantern-lit cobblestone streets — Bruges at night feels like a living fairy tale.",
+      "local_food_tip": "Try Belgian waffles, fries with mayonnaise, local chocolates, and Flemish beef stew. Bruges is also famous for its artisanal chocolate shops and Belgian beer cafés.",
+      "full_day": {
+        "Morning": "Start at <a href=\"https://www.google.com/maps/search/?api=1&query=51.2089%2C3.2246\" target=\"_blank\" rel=\"noopener\">Markt Square</a> ☀️, climb the <a href=\"https://www.google.com/maps/search/?api=1&query=51.2088%2C3.2247\" target=\"_blank\" rel=\"noopener\">Belfry</a> 🏰 for city views.",
+        "Afternoon": "Take a canal boat ride 🚤 through the <a href=\"https://www.google.com/maps/search/?api=1&query=51.2095%2C3.2260\" target=\"_blank\" rel=\"noopener\">canals of Bruges</a>, then visit the <a href=\"https://www.google.com/maps/search/?api=1&query=51.2083%2C3.2265\" target=\"_blank\" rel=\"noopener\">Basilica of the Holy Blood</a> ⛪.",
+        "Sunset": "Walk to <a href=\"https://www.google.com/maps/search/?api=1&query=51.2016%2C3.2224\" target=\"_blank\" rel=\"noopener\">Minnewater</a> 🌅 for romantic scenery and reflections.",
+        "Night": "Dinner in the historic center 🍽️ followed by a relaxed evening in a traditional beer café."
+      },
       "seasons": {
         "spring": {
-          "event": "Spring Blossoms",
+          "event": "Spring Flower Season",
+          "description": "Blooming parks and mild weather make Bruges especially picturesque.",
           "ideas": [
-            "🌼 Flowers decorating canals and bridges.",
-            "☕ Outdoor cafés with warm breezes.",
-            "📸 Ideal lighting for canal photography."
+            {
+              "name": "Canal walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=51.2095%2C3.2260",
+              "description": "Fresh air and reflections."
+            },
+            {
+              "name": "Historic center strolls",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=51.2089%2C3.2246",
+              "description": "Comfortable sightseeing."
+            },
+            {
+              "name": "Museum visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=51.2080%2C3.2250",
+              "description": "Cultural afternoons."
+            }
           ]
         },
         "summer": {
-          "event": "Summer in Bruges",
+          "event": "Summer Canal Life",
+          "description": "Long days, lively terraces, and busy canals.",
           "ideas": [
-            "🚤 Longer canal tours under golden sunset.",
-            "🌅 Evening strolls around Markt and Burg.",
-            "🍨 Ice cream shops open late on warm nights."
+            {
+              "name": "Boat tours",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=51.2095%2C3.2260",
+              "description": "Best way to see the city."
+            },
+            {
+              "name": "Evening squares",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=51.2089%2C3.2246",
+              "description": "Lively social atmosphere."
+            },
+            {
+              "name": "Chocolate tastings",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=51.2090%2C3.2255",
+              "description": "Local sweet traditions."
+            }
           ]
         },
         "autumn": {
-          "event": "Autumn Colors",
+          "event": "Golden Autumn Season",
+          "description": "Fewer crowds and warm colors across canals and parks.",
           "ideas": [
-            "🍁 Orange ivy covering medieval buildings.",
-            "🥐 Cozy cafés for pastries and warm drinks.",
-            "🏰 Museums and quiet old town corners perfect for colder days."
+            {
+              "name": "Photography walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=51.2016%2C3.2224",
+              "description": "Soft autumn light."
+            },
+            {
+              "name": "Historic museums",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=51.2080%2C3.2250",
+              "description": "Quiet cultural experiences."
+            },
+            {
+              "name": "Flemish cuisine",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=51.2089%2C3.2246",
+              "description": "Hearty seasonal dishes."
+            }
           ]
         },
         "winter": {
-          "event": "Christmas Season",
+          "event": "Winter Lights & Christmas Market",
+          "description": "Festive lights, markets, and cozy medieval atmosphere.",
           "ideas": [
-            "🎄 Christmas market on Markt square.",
-            "✨ Fairy-tale holiday lights in narrow alleys.",
-            "🧇 Hot waffles and mulled wine stalls."
+            {
+              "name": "Christmas markets",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=51.2089%2C3.2246",
+              "description": "Seasonal food and gifts."
+            },
+            {
+              "name": "Canal winter walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=51.2095%2C3.2260",
+              "description": "Quiet, atmospheric scenes."
+            },
+            {
+              "name": "Café culture",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=51.2090%2C3.2255",
+              "description": "Warm drinks and Belgian beer."
+            }
           ]
         }
       },
       "public_transport_tips": [
-        "🚶 Bruges is fully walkable — no need for buses.",
-        "🚴 Rent a bike to explore parks and windmills.",
-        "🚂 The train station is a 15-minute walk from the old town.",
-        "📱 Use Belgian Rail (SNCB) app for connections: https://www.belgiantrain.be"
+        {
+          "tip": "Bruges is compact; most sights are easily reachable on foot.",
+          "link": "https://www.visitbruges.be/"
+        },
+        {
+          "tip": "Direct trains connect Bruges with Brussels, Ghent, and Antwerp.",
+          "link": "https://www.belgiantrain.be/"
+        },
+        {
+          "tip": "Buses are useful for reaching outer areas like Minnewater or train station.",
+          "link": "https://www.delijn.be/"
+        }
       ],
       "city_events": [
         {
-          "name": "Bruges Beer Festival",
+          "name": "Bruges Christmas Market",
           "season": "winter",
-          "description": "🍺 A massive annual celebration of Belgian craft beer."
+          "description": "Traditional market with lights, ice skating, and festive stalls.",
+          "website": "https://www.visitbruges.be/",
+          "dates": "December"
+        }
+      ],
+      "places": [
+        {
+          "name": "Groeningemuseum",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=51.2059%2C3.2262",
+          "description": "Art museum showcasing Flemish Primitive painters and Belgian masters."
         },
         {
-          "name": "Procession of the Holy Blood",
-          "season": "spring",
-          "description": "🎭 A historic religious parade through medieval streets."
+          "name": "Burg Square",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=51.2085%2C3.2263",
+          "description": "Historic square surrounded by the Town Hall and Basilica."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "Quiet canals near Sint-Anna Quarter",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=51.2070%2C3.2310",
+          "description": "Less-crowded canals with authentic local atmosphere."
+        },
+        {
+          "name": "Early-morning Minnewater Park",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=51.2016%2C3.2224",
+          "description": "Peaceful scenery before visitors arrive."
         }
       ]
     },
+
     {
-      "name": "Ghent",
+      "name": "Brussels",
       "interests": [
-        "Medieval Castles & Rivers 🏰",
-        "Street Art & Cool Vibes 🎨",
-        "Student City & Nightlife 🌃"
+        {
+          "name": "Grand Place",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=50.8467%2C4.3525",
+          "description": "UNESCO World Heritage central square surrounded by ornate guild houses and the Town Hall, considered one of Europe’s most beautiful squares."
+        },
+        {
+          "name": "Atomium",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=50.8949%2C4.3416",
+          "description": "Iconic landmark built for Expo 58, offering exhibitions and panoramic city views from its spheres."
+        },
+        {
+          "name": "Manneken Pis",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=50.8449%2C4.3499",
+          "description": "Small but famous statue symbolizing Brussels’ sense of humor and independence."
+        },
+        {
+          "name": "Mont des Arts",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=50.8456%2C4.3569",
+          "description": "Cultural complex with gardens and viewpoints connecting the upper and lower city."
+        },
+        {
+          "name": "Royal Palace of Brussels",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=50.8419%2C4.3601",
+          "description": "Official palace of the Belgian monarchy, open to the public during summer."
+        }
       ],
-      "local_food_tip": "Try Gentse Waterzooi, neuzeke (candy), Belgian chocolate, fries and local craft beers.",
-      "full_day": "Morning: 🏰 Begin at <a href=\"https://www.google.com/maps/search/?api=1&query=VEMmJ5NxPP1LxRhB7\" target=\"_blank\">Gravensteen Castle</a>: A dramatic 12th-century fortress rising above the rivers. Explore stone rooms, towers and medieval artifacts. The ramparts give amazing views of the old town — rooftops, bridges, and canals. Early morning is peaceful and the grey stone shines in soft light. → 🌉 Walk to <a href=\"https://www.google.com/maps/search/?api=1&query=Xf5BejbbE7L3Md4w8\" target=\"_blank\">Graslei & Korenlei</a>: Two gorgeous riverside streets with ornate guild houses. Sit by the water to watch boats glide past as students gather with coffee.\n\nAfternoon: ⛪ Head to the <a href=\"https://www.google.com/maps/search/?api=1&query=gJqPfXMkAfMV5T5v7\" target=\"_blank\">Saint Bavo’s Cathedral</a>: Home of the world-famous “Adoration of the Mystic Lamb” painting. The cathedral interior is breathtaking with high ceilings and detailed altars. → 🖼️ Explore <a href=\"https://www.google.com/maps/search/?api=1&query=dPdiDhgxK7mu2uNUA\" target=\"_blank\">Werregarenstraat</a>, the graffiti alley: Colorful, creative and constantly changing. → 🍽️ Lunch at <a href=\"https://www.google.com/maps/search/?api=1&query=j4tHHzy1RmfWxhkz9\" target=\"_blank\">Mosquito Coast</a>, known for global flavors.\n\nLate Afternoon: 🚤 Take a river cruise from <a href=\"https://www.google.com/maps/search/?api=1&query=Xf5BejbbE7L3Md4w8\" target=\"_blank\">Graslei</a>: A calm, scenic ride revealing more secret corners of Ghent. → 📚 Wander around the university district — youthful, vibrant, full of creative shops and cafés.\n\nSunset: 🌇 Head back to Graslei. As lights reflect on the water, the medieval façades glow warmly.\n\nNight: 🌃 Enjoy Ghent nightlife — bars around Oude Beestenmarkt and Veldstraat are full of energy.",
+      "local_food_tip": "Try Belgian waffles, fries with mayonnaise, mussels with fries, chocolate pralines, and sample Belgian beers in traditional cafés.",
+      "full_day": {
+        "Morning": "Begin at the <a href=\"https://www.google.com/maps/search/?api=1&query=50.8467%2C4.3525\" target=\"_blank\" rel=\"noopener\">Grand Place</a> ☀️, exploring the guild houses and Town Hall, then walk to <a href=\"https://www.google.com/maps/search/?api=1&query=50.8449%2C4.3499\" target=\"_blank\" rel=\"noopener\">Manneken Pis</a> for a quick photo.",
+        "Afternoon": "Head up to <a href=\"https://www.google.com/maps/search/?api=1&query=50.8456%2C4.3569\" target=\"_blank\" rel=\"noopener\">Mont des Arts</a> 🎨, visit nearby museums, and enjoy lunch in the Sablon or city center.",
+        "Sunset": "Visit the <a href=\"https://www.google.com/maps/search/?api=1&query=50.8419%2C4.3601\" target=\"_blank\" rel=\"noopener\">Royal Palace</a> 🌅 and walk through Brussels Park.",
+        "Night": "Dinner in the city center 🍽️ or head to the <a href=\"https://www.google.com/maps/search/?api=1&query=50.8949%2C4.3416\" target=\"_blank\" rel=\"noopener\">Atomium</a> ✨ for evening views."
+      },
       "seasons": {
         "spring": {
-          "event": "Spring in Ghent",
+          "event": "Spring Flower Season",
+          "description": "Parks and gardens bloom, making the city pleasant for walking.",
           "ideas": [
-            "🌸 Blossoms around castle gardens.",
-            "🚤 Calm boat rides with fresh breezes.",
-            "☕ Terraces filled with students enjoying the sun."
+            {
+              "name": "Brussels Park",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=50.8428%2C4.3609",
+              "description": "Central green space near the Royal Palace."
+            },
+            {
+              "name": "Old town walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=50.8467%2C4.3525",
+              "description": "Comfortable sightseeing weather."
+            },
+            {
+              "name": "Museum visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=50.8450%2C4.3578",
+              "description": "Cultural afternoons indoors."
+            }
           ]
         },
         "summer": {
-          "event": "Summer Light",
+          "event": "Brussels Summer Festivals",
+          "description": "Outdoor events, concerts, and lively terraces across the city.",
           "ideas": [
-            "🌅 Golden evenings by Graslei.",
-            "🎶 Street music around the medieval center.",
-            "🍺 Summer beer festivals across the city."
+            {
+              "name": "Open-air concerts",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=50.8460%2C4.3530",
+              "description": "Music events in central squares."
+            },
+            {
+              "name": "Terrace dining",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=50.8467%2C4.3525",
+              "description": "Lively café life."
+            },
+            {
+              "name": "Atomium visit",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=50.8949%2C4.3416",
+              "description": "Clear summer views."
+            }
           ]
         },
         "autumn": {
-          "event": "Autumn Vibes",
+          "event": "Autumn Cultural Season",
+          "description": "Milder temperatures and fewer tourists, ideal for museums and food.",
           "ideas": [
-            "🍁 Red ivy covering canal houses.",
-            "📸 Perfect soft light for photography.",
-            "🏛️ Museums for chilly afternoons."
+            {
+              "name": "Art museums",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=50.8450%2C4.3578",
+              "description": "Focus on Belgian art."
+            },
+            {
+              "name": "Food tastings",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=50.8455%2C4.3520",
+              "description": "Seasonal Belgian cuisine."
+            },
+            {
+              "name": "Historic walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=50.8467%2C4.3525",
+              "description": "Atmospheric streets."
+            }
+          ]
+        },
+        "winter": {
+          "event": "Winter Wonders",
+          "description": "Christmas markets, lights, and festive atmosphere in the city center.",
+          "ideas": [
+            {
+              "name": "Christmas market",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=50.8467%2C4.3525",
+              "description": "Seasonal stalls and ice skating."
+            },
+            {
+              "name": "Museum hopping",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=50.8450%2C4.3578",
+              "description": "Warm cultural stops."
+            },
+            {
+              "name": "Café culture",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=50.8455%2C4.3520",
+              "description": "Hot drinks and Belgian beers."
+            }
+          ]
+        }
+      },
+      "public_transport_tips": [
+        {
+          "tip": "Brussels Metro, trams, and buses cover the entire city efficiently.",
+          "link": "https://www.stib-mivb.be/"
+        },
+        {
+          "tip": "Trains connect Brussels quickly with Antwerp, Bruges, and Ghent.",
+          "link": "https://www.belgiantrain.be/"
+        },
+        {
+          "tip": "The historic center is compact and walkable.",
+          "link": "https://visit.brussels/"
+        }
+      ],
+      "city_events": [
+        {
+          "name": "Flower Carpet at Grand Place",
+          "season": "summer",
+          "description": "Large floral installation covering the Grand Place.",
+          "website": "https://visit.brussels/",
+          "dates": "August (every two years)"
+        }
+      ],
+      "places": [
+        {
+          "name": "Sablon District",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=50.8406%2C4.3564",
+          "description": "Elegant neighborhood known for antique shops, cafés, and chocolate boutiques."
+        },
+        {
+          "name": "European Quarter",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=50.8430%2C4.3810",
+          "description": "Area housing EU institutions and modern architecture."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "Galeries Royales Saint-Hubert",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=50.8480%2C4.3545",
+          "description": "Elegant 19th-century covered shopping arcade."
+        },
+        {
+          "name": "Early-morning Mont des Arts",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=50.8456%2C4.3569",
+          "description": "Peaceful city views before crowds arrive."
+        }
+      ]
+    },
+
+    {
+      "name": "Ghent",
+      "interests": [
+        {
+          "name": "Gravensteen Castle",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=51.0573%2C3.7203",
+          "description": "Medieval castle in the heart of the city, offering insight into Ghent’s feudal past and panoramic views from its towers."
+        },
+        {
+          "name": "St. Bavo’s Cathedral",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=51.0547%2C3.7226",
+          "description": "Gothic cathedral housing the famous Ghent Altarpiece by the Van Eyck brothers."
+        },
+        {
+          "name": "Graslei and Korenlei",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=51.0563%2C3.7218",
+          "description": "Iconic medieval quays along the River Lys, among the most photographed spots in Belgium."
+        },
+        {
+          "name": "Belfry of Ghent",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=51.0546%2C3.7221",
+          "description": "UNESCO-listed bell tower symbolizing Ghent’s independence, offering city views."
+        },
+        {
+          "name": "Patershol District",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=51.0570%2C3.7189",
+          "description": "Historic neighborhood with narrow streets, traditional restaurants, and local atmosphere."
+        }
+      ],
+      "local_food_tip": "Try Ghent specialties such as waterzooi (creamy stew), Gentse neuzekes (cone-shaped candies), and Belgian fries. Ghent is also known for its strong vegetarian food scene.",
+      "full_day": {
+        "Morning": "Start at the <a href=\"https://www.google.com/maps/search/?api=1&query=51.0573%2C3.7203\" target=\"_blank\" rel=\"noopener\">Gravensteen Castle</a> 🏰, then walk to <a href=\"https://www.google.com/maps/search/?api=1&query=51.0547%2C3.7226\" target=\"_blank\" rel=\"noopener\">St. Bavo’s Cathedral</a> ⛪ to see the Ghent Altarpiece.",
+        "Afternoon": "Stroll along <a href=\"https://www.google.com/maps/search/?api=1&query=51.0563%2C3.7218\" target=\"_blank\" rel=\"noopener\">Graslei and Korenlei</a> 🛶, enjoy lunch nearby, and explore the <a href=\"https://www.google.com/maps/search/?api=1&query=51.0570%2C3.7189\" target=\"_blank\" rel=\"noopener\">Patershol</a> district.",
+        "Sunset": "Watch sunset reflections along the river 🌅 or climb the <a href=\"https://www.google.com/maps/search/?api=1&query=51.0546%2C3.7221\" target=\"_blank\" rel=\"noopener\">Belfry</a> for city views.",
+        "Night": "Dinner in Patershol 🍽️ followed by an evening walk through the illuminated historic center."
+      },
+      "seasons": {
+        "spring": {
+          "event": "Spring City Walks",
+          "description": "Mild weather and blooming canals make Ghent perfect for walking.",
+          "ideas": [
+            {
+              "name": "Canal-side strolls",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=51.0563%2C3.7218",
+              "description": "Fresh air and reflections."
+            },
+            {
+              "name": "Historic center walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=51.0547%2C3.7226",
+              "description": "Comfortable sightseeing."
+            },
+            {
+              "name": "Museum visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=51.0550%2C3.7230",
+              "description": "Cultural afternoons."
+            }
+          ]
+        },
+        "summer": {
+          "event": "Ghent Festivities (Gentse Feesten)",
+          "description": "One of Europe’s largest cultural festivals with music, theater, and street performances.",
+          "ideas": [
+            {
+              "name": "Festival zones",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=51.0555%2C3.7220",
+              "description": "Concerts and street life."
+            },
+            {
+              "name": "Evening river life",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=51.0563%2C3.7218",
+              "description": "Lively nights by the water."
+            },
+            {
+              "name": "Outdoor dining",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=51.0560%2C3.7210",
+              "description": "Terraces and social atmosphere."
+            }
+          ]
+        },
+        "autumn": {
+          "event": "Autumn Cultural Season",
+          "description": "Fewer tourists and cozy atmosphere, ideal for museums and food.",
+          "ideas": [
+            {
+              "name": "Art and history museums",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=51.0550%2C3.7230",
+              "description": "Quiet cultural time."
+            },
+            {
+              "name": "Old town photography",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=51.0563%2C3.7218",
+              "description": "Soft autumn light."
+            },
+            {
+              "name": "Local cuisine",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=51.0570%2C3.7189",
+              "description": "Seasonal dishes."
+            }
           ]
         },
         "winter": {
           "event": "Winter in Ghent",
+          "description": "Festive lights and a calm medieval atmosphere.",
           "ideas": [
-            "🎄 Christmas market in the old center.",
-            "✨ Light trails reflecting in the river.",
-            "☕ Hot drinks in cozy cafés."
+            {
+              "name": "Winter walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=51.0563%2C3.7218",
+              "description": "Atmospheric illuminated streets."
+            },
+            {
+              "name": "Museum hopping",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=51.0550%2C3.7230",
+              "description": "Warm indoor visits."
+            },
+            {
+              "name": "Café culture",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=51.0560%2C3.7210",
+              "description": "Hot drinks and Belgian beer."
+            }
           ]
         }
       },
       "public_transport_tips": [
-        "🚶 The center is walkable.",
-        "🚋 Trams connect major spots — use De Lijn app.",
-        "🚲 Bikes are popular among students; easy to rent.",
-        "📱 Plan routes: https://www.delijn.be"
+        {
+          "tip": "Ghent’s trams are the easiest way to move around the city.",
+          "link": "https://www.delijn.be/"
+        },
+        {
+          "tip": "Direct trains connect Ghent with Brussels, Bruges, and Antwerp.",
+          "link": "https://www.belgiantrain.be/"
+        },
+        {
+          "tip": "The historic center is largely car-free and walkable.",
+          "link": "https://visit.gent.be/"
+        }
       ],
       "city_events": [
         {
-          "name": "Ghent Festivities (Gentse Feesten)",
+          "name": "Gentse Feesten",
           "season": "summer",
-          "description": "🎉 One of Europe’s biggest cultural city festivals with music, theater and street art."
+          "description": "Massive cultural festival with concerts, theater, and street performances.",
+          "website": "https://www.gentsefeesten.be/",
+          "dates": "July"
         }
-      ]
-    },
-    {
-      "name": "Antwerp",
-      "interests": [
-        "Fashion & Design 👗",
-        "Port City & Skyline Views ⚓",
-        "Diamonds & Art Museums 💎"
       ],
-      "local_food_tip": "Try Antwerpse Handjes cookies, Belgian chocolate, fries, shrimp croquettes, and local beers.",
-      "full_day": "Morning: 🕍 Start at <a href=\"https://www.google.com/maps/search/?api=1&query=mkAz8k7fQ9v5BeFf9\" target=\"_blank\">Cathedral of Our Lady</a>: A towering Gothic masterpiece with Rubens paintings inside. Morning light shines through tall stained-glass windows, creating magical colors inside the nave. The surrounding square has cafés and artists painting small scenes of old Antwerp. → 🏙️ Walk to <a href=\"https://www.google.com/maps/search/?api=1&query=zzj8je5X7EeL89w97\" target=\"_blank\">Grote Markt</a>: Guild houses with gold ornaments line the square, and the Brabo Fountain tells the legendary tale of Antwerp’s origins.\n\nAfternoon: 🖼️ Visit <a href=\"https://www.google.com/maps/search/?api=1&query=px56a3c89K2Sy3uq6\" target=\"_blank\">Museum aan de Stroom (MAS)</a>: A massive red-stone museum with amazing city and port views from its rooftop. The exhibitions cover maritime history, world cultures and Antwerp's global trade. → 🎨 Explore the trendy Eilandje district with cool cafés and modern architecture. → 🍽️ Lunch at <a href=\"https://www.google.com/maps/search/?api=1&query=q2g4qG9jkpLpfhCc6\" target=\"_blank\">Balls & Glory</a> or a harbor-side restaurant.\n\nLate Afternoon: 💎 Walk to the <a href=\"https://www.google.com/maps/search/?api=1&query=VRx1LeuCkd5b2fMXA\" target=\"_blank\">Diamond District</a>: Countless shops and workshops showcase Antwerp’s jewelry heritage. Even if you’re not buying, it’s fascinating to see the craftsmanship. → 🛍️ Stroll down <a href=\"https://www.google.com/maps/search/?api=1&query=ieHxa93gJxoF5LtY6\" target=\"_blank\">Meir Street</a> for shopping.\n\nSunset: 🌇 Go up to the MAS rooftop for orange-pink skies above the harbor.\n\nNight: 🌃 Enjoy fashion-district bars or dinner in the old town.",
-      "seasons": {
-        "spring": {
-          "event": "Spring in Antwerp",
-          "ideas": [
-            "🌸 Blossoms in old squares and cathedral courtyards.",
-            "☕ Coffee terraces in the fashion district.",
-            "🚶 Long walks along the Scheldt river."
-          ]
-        },
-        "summer": {
-          "event": "Summer Lights",
-          "ideas": [
-            "🌅 Sunset from MAS rooftop.",
-            "🎶 Open-air events by the harbor.",
-            "🍦 Ice cream along the river promenade."
-          ]
-        },
-        "autumn": {
-          "event": "Autumn Warmth",
-          "ideas": [
-            "🍁 Golden leaves around old streets.",
-            "🎨 Visit museums on cooler days.",
-            "🧇 Warm waffles and indoor cafés."
-          ]
-        },
-        "winter": {
-          "event": "Winter Glow",
-          "ideas": [
-            "🎄 Christmas lights at Grote Markt.",
-            "✨ Cozy bars in side alleys.",
-            "🧣 Winter walks along the waterfront."
-          ]
-        }
-      },
-      "public_transport_tips": [
-        "🚂 Antwerp Central Station is an attraction itself — stunning architecture.",
-        "🚋 Trams and buses run frequently.",
-        "🚶 Old town is walkable.",
-        "📱 Use De Lijn app for routes: https://www.delijn.be"
-      ],
-      "city_events": [
+      "places": [
         {
-          "name": "Antwerp Fashion Week",
-          "season": "autumn",
-          "description": "👗 A major event showcasing Belgian and international designers."
-        }
-      ]
-    },
-    {
-      "name": "Leuven",
-      "interests": [
-        "University City 🎓",
-        "Historic Libraries & Squares 📚",
-        "Beer Culture 🍺"
-      ],
-      "local_food_tip": "Try Belgian beers, waffles, speculoos, frites and local pastries.",
-      "full_day": "Morning: 🏛️ Begin at <a href=\"https://www.google.com/maps/search/?api=1&query=pbYvyuk72RVFZQ8p7\" target=\"_blank\">Leuven Town Hall</a>: A masterpiece of Gothic architecture with hundreds of statues and intricate details. The façade is incredibly ornate, and early morning light highlights each small carving. → 📚 Walk to the <a href=\"https://www.google.com/maps/search/?api=1&query=5qX2bBoQMCvF8y1e9\" target=\"_blank\">University Library & Tower</a>: A symbol of Leuven’s academic history. The reading rooms are atmospheric, filled with wooden shelves, and the tower offers beautiful views.\n\nAfternoon: 🌳 Stroll through <a href=\"https://www.google.com/maps/search/?api=1&query=2qoVXg6tGpx4yZfv8\" target=\"_blank\">Groot Begijnhof</a>: A peaceful UNESCO-listed quarter with cobblestone lanes, bridges and brick houses. Walking here feels like stepping into an old monastic village. → 🍽️ Lunch at a student-friendly café near Oude Markt.\n\nLate Afternoon: 🍺 Visit <a href=\"https://www.google.com/maps/search/?api=1&query=PA9DUNpJfTSvPNNw6\" target=\"_blank\">Stella Artois Brewery</a> for a tour. Learn about Leuven’s beer tradition and enjoy tasting. → 🛍️ Wander around the shopping district, full of bookstores and boutiques.\n\nSunset: 🌇 Sit at <a href=\"https://www.google.com/maps/search/?api=1&query=QZ8iH8iocdET5sDk7\" target=\"_blank\">Oude Markt</a>, often called the 'longest bar in Europe'.\n\nNight: 🌃 Enjoy student nightlife around the central squares.",
-      "seasons": {
-        "spring": {
-          "event": "Spring in Leuven",
-          "ideas": [
-            "🌸 Blossoms in university gardens.",
-            "☀️ Picnic spots around parks.",
-            "📖 Reading in outdoor cafés."
-          ]
+          "name": "Design Museum Gent",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=51.0576%2C3.7208",
+          "description": "Museum dedicated to Belgian and international design."
         },
-        "summer": {
-          "event": "Summer Energy",
-          "ideas": [
-            "🍺 Terraces full of students.",
-            "🌅 Evening drinks at Oude Markt.",
-            "🚶 Warm strolls through Begijnhof."
-          ]
-        },
-        "autumn": {
-          "event": "Autumn Academics",
-          "ideas": [
-            "🍁 Golden leaves in historic squares.",
-            "📚 University events and exhibitions.",
-            "☕ Cozy café afternoons."
-          ]
-        },
-        "winter": {
-          "event": "Winter Warmth",
-          "ideas": [
-            "🎄 Christmas lights around Town Hall.",
-            "✨ Indoor bars with Belgian beers.",
-            "🥐 Pastry cafés on cold days."
-          ]
-        }
-      },
-      "public_transport_tips": [
-        "🚶 Walkable old center.",
-        "🚲 Bikes are very popular.",
-        "🚍 Buses reach outer districts.",
-        "📱 Route planning via De Lijn."
-      ],
-      "city_events": [
         {
-          "name": "Leuven Beer Week",
-          "season": "summer",
-          "description": "🍺 A week dedicated to Belgian brewery culture."
+          "name": "Vrijdagmarkt Square",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=51.0567%2C3.7245",
+          "description": "Historic square with cafés and statues."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "St. Michael’s Bridge at night",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=51.0560%2C3.7206",
+          "description": "Best nighttime view of Ghent’s illuminated towers."
+        },
+        {
+          "name": "Quiet canals near Prinsenhof",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=51.0590%2C3.7170",
+          "description": "Less-crowded historic area with local charm."
         }
       ]
     },
     {
       "name": "Liège",
       "interests": [
-        "Riverfront Views 🌊",
-        "Historic Churches 🕍",
-        "Local Markets & Food 🍽️"
+        {
+          "name": "Montagne de Bueren",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=50.6506%2C5.5857",
+          "description": "Iconic staircase of 374 steps offering panoramic views over Liège and the Meuse valley."
+        },
+        {
+          "name": "Liège-Guillemins Railway Station",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=50.6249%2C5.5666",
+          "description": "Striking modern station designed by Santiago Calatrava, a landmark of contemporary architecture."
+        },
+        {
+          "name": "Prince-Bishops’ Palace",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=50.6465%2C5.5736",
+          "description": "Historic palace in the city center reflecting Liège’s former status as a powerful prince-bishopric."
+        },
+        {
+          "name": "Saint Paul’s Cathedral",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=50.6447%2C5.5739",
+          "description": "Gothic cathedral and current seat of the Diocese of Liège, located in the heart of the city."
+        },
+        {
+          "name": "Meuse River Quays",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=50.6455%2C5.5755",
+          "description": "Riverside paths ideal for walking, cycling, and enjoying views of the old town."
+        }
       ],
-      "local_food_tip": "Try Liège waffles (caramelized sugar crystals inside), meatballs in syrup sauce, and local beers.",
-      "full_day": "Morning: 🌊 Start at <a href=\"https://www.google.com/maps/search/?api=1&query=3RUzKsK8Gk9V8FRq6\" target=\"_blank\">La Boverie Park</a>: Beautiful riverside scenery, ideal for slow morning walks. → 🖼️ Visit the <a href=\"https://www.google.com/maps/search/?api=1&query=FkQRjzZf4z1mXZPx9\" target=\"_blank\">La Boverie Museum</a>, located inside the park — modern art and elegant interiors.\n\nAfternoon: ⛪ Head to <a href=\"https://www.google.com/maps/search/?api=1&query=2sG4Lk6x68VAgrL79\" target=\"_blank\">Saint Paul’s Cathedral</a>: Impressive Gothic columns and peaceful atmosphere. → 🏛️ Walk to <a href=\"https://www.google.com/maps/search/?api=1&query=rNzD9srxZkCyk9n28\" target=\"_blank\">Place Saint-Lambert</a> and the nearby shopping streets. → 🍽️ Lunch at a brasserie offering Liège specialties.\n\nLate Afternoon: 🏙️ Climb the <a href=\"https://www.google.com/maps/search/?api=1&query=8TZJDSiVcf6bUu7MA\" target=\"_blank\">Montagne de Bueren</a>: 374 steps leading to panoramic city views. The climb is steep but rewarding, and the rooftops and river bend make for stunning photos.\n\nSunset: 🌇 Golden-hour views from the top of Bueren.\n\nNight: 🌃 Dine near the river or explore lively bars around the university district.",
+      "local_food_tip": "Taste Liège specialties such as boulets à la Liégeoise (meatballs in sweet sauce), Liège waffles, and local beers served in traditional brasseries.",
+      "full_day": {
+        "Morning": "Start at the <a href=\"https://www.google.com/maps/search/?api=1&query=50.6249%2C5.5666\" target=\"_blank\" rel=\"noopener\">Liège-Guillemins Station</a> 🚆, then head to the city center and visit <a href=\"https://www.google.com/maps/search/?api=1&query=50.6447%2C5.5739\" target=\"_blank\" rel=\"noopener\">Saint Paul’s Cathedral</a> ⛪.",
+        "Afternoon": "Explore the <a href=\"https://www.google.com/maps/search/?api=1&query=50.6465%2C5.5736\" target=\"_blank\" rel=\"noopener\">Prince-Bishops’ Palace</a> 🏛️ and have lunch nearby, then walk along the <a href=\"https://www.google.com/maps/search/?api=1&query=50.6455%2C5.5755\" target=\"_blank\" rel=\"noopener\">Meuse quays</a>.",
+        "Sunset": "Climb the <a href=\"https://www.google.com/maps/search/?api=1&query=50.6506%2C5.5857\" target=\"_blank\" rel=\"noopener\">Montagne de Bueren</a> 🌅 for sweeping views over the city.",
+        "Night": "Dinner in the Carré district 🍽️ followed by a relaxed evening in a local bar."
+      },
       "seasons": {
         "spring": {
-          "event": "Spring in Liège",
+          "event": "Spring City Walks",
+          "description": "Mild weather and greenery make Liège ideal for outdoor exploration.",
           "ideas": [
-            "🌼 Blossoms in La Boverie Park.",
-            "🚶 Pleasant riverside walks.",
-            "☕ Outdoor café terraces."
+            {
+              "name": "Old town walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=50.6460%2C5.5740",
+              "description": "Comfortable sightseeing temperatures."
+            },
+            {
+              "name": "River strolls",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=50.6455%2C5.5755",
+              "description": "Fresh air along the Meuse."
+            },
+            {
+              "name": "Museum visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=50.6468%2C5.5719",
+              "description": "Cultural afternoons indoors."
+            }
           ]
         },
         "summer": {
-          "event": "Summer Nights",
+          "event": "Les Ardentes (Music Festival)",
+          "description": "Major summer music festival bringing international artists to Liège.",
           "ideas": [
-            "🌅 Sunset along the Meuse river.",
-            "🎶 Music events around public squares.",
-            "🍹 Lively nightlife in student streets."
+            {
+              "name": "Outdoor festivals",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=50.6410%2C5.5900",
+              "description": "Concerts and summer events."
+            },
+            {
+              "name": "Evening terraces",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=50.6435%2C5.5750",
+              "description": "Lively café culture."
+            },
+            {
+              "name": "River walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=50.6455%2C5.5755",
+              "description": "Cooler evenings by the water."
+            }
           ]
         },
         "autumn": {
-          "event": "Autumn Colors",
+          "event": "Autumn Cultural Season",
+          "description": "Cooler air and fewer crowds, perfect for food and museums.",
           "ideas": [
-            "🍁 Red leaves in old parks.",
-            "🥐 Cozy cafés with waffles.",
-            "🏛️ Indoor museums during cooler weather."
+            {
+              "name": "Historic center photography",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=50.6460%2C5.5740",
+              "description": "Warm autumn colors."
+            },
+            {
+              "name": "Local cuisine tasting",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=50.6440%2C5.5750",
+              "description": "Hearty Walloon dishes."
+            },
+            {
+              "name": "Cathedral visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=50.6447%2C5.5739",
+              "description": "Quiet cultural stops."
+            }
           ]
         },
         "winter": {
-          "event": "Winter in Liège",
+          "event": "Village de Noël",
+          "description": "Festive Christmas market transforming the city center into a winter village.",
           "ideas": [
-            "🎄 Christmas Village — one of Belgium’s oldest markets.",
-            "✨ Lights around the cathedral district.",
-            "☕ Hot drinks in riverside cafés."
+            {
+              "name": "Christmas market",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=50.6465%2C5.5736",
+              "description": "Seasonal food, lights, and stalls."
+            },
+            {
+              "name": "Museum hopping",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=50.6468%2C5.5719",
+              "description": "Warm indoor culture."
+            },
+            {
+              "name": "Café culture",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=50.6435%2C5.5750",
+              "description": "Hot drinks and cozy interiors."
+            }
           ]
         }
       },
       "public_transport_tips": [
-        "🚶 Most central spots are walkable.",
-        "🚍 Buses connect the wider city.",
-        "🚂 Liège-Guillemins Station is a modern architectural icon.",
-        "📱 TEC app for planning routes."
+        {
+          "tip": "Liège has excellent train connections within Belgium and to Germany.",
+          "link": "https://www.belgiantrain.be/"
+        },
+        {
+          "tip": "Buses cover the entire city and surrounding hills.",
+          "link": "https://www.letec.be/"
+        },
+        {
+          "tip": "The city center is compact but hilly; comfortable walking shoes are recommended.",
+          "link": "https://www.visitezliege.be/"
+        }
       ],
       "city_events": [
         {
-          "name": "Liège Christmas Village",
-          "season": "winter",
-          "description": "🎄 One of Belgium’s most atmospheric holiday markets."
-        }
-      ]
-    },
-    {
-      "name": "Mons",
-      "interests": [
-        "UNESCO Belfry 🏛️",
-        "Art & Culture 🎨",
-        "Charming Old Town Streets 🌆"
-      ],
-      "local_food_tip": "Try local cheeses, Belgian beers, waffles, and pastries.",
-      "full_day": "Morning: 🏛️ Start at <a href=\"https://www.google.com/maps/search/?api=1&query=gqL4pi23su95bLmR8\" target=\"_blank\">Mons Grand-Place</a>: Elegant square with cafés and 17th-century façades. Early morning makes the atmosphere serene and perfect for photography. → 🐒 Touch the lucky monkey statue at <a href=\"https://www.google.com/maps/search/?api=1&query=6Phfzz8N1jNCScH69\" target=\"_blank\">Hôtel de Ville</a> — a local tradition.\n\nAfternoon: 🏰 Visit the <a href=\"https://www.google.com/maps/search/?api=1&query=yuy93hXfPrHnF7QTA\" target=\"_blank\">Mons Belfry</a>: The only Baroque belfry in Belgium with panoramic city views from the top. The surrounding garden is peaceful and perfect for a break. → 🎨 Explore the <a href=\"https://www.google.com/maps/search/?api=1&query=qDkeFtYoxH7h7YmA8\" target=\"_blank\">BAM Museum</a> for modern art exhibitions. → 🍽️ Lunch in a brasserie near Grand-Place.\n\nLate Afternoon: 🌳 Walk through <a href=\"https://www.google.com/maps/search/?api=1&query=kYeS7E4nGQ1gniyp9\" target=\"_blank\">Parc du Château</a>: Lovely hilltop park with views. → ☕ Coffee at a small local café.\n\nSunset: 🌇 Enjoy warm light from the Belfry viewpoint.\n\nNight: 🌃 Dinner on Grand-Place with its illuminated façades.",
-      "seasons": {
-        "spring": {
-          "event": "Spring in Mons",
-          "ideas": [
-            "🌼 Blooming trees around Belfry gardens.",
-            "☀️ Terraces on Grand-Place.",
-            "📸 Perfect lighting for architecture photos."
-          ]
-        },
-        "summer": {
-          "event": "Summer Ambience",
-          "ideas": [
-            "🌅 Evening drinks at outdoor tables.",
-            "🎶 Events in the historic center.",
-            "🚶 Warm strolls around narrow streets."
-          ]
-        },
-        "autumn": {
-          "event": "Autumn Calm",
-          "ideas": [
-            "🍁 Orange leaves around Parc du Château.",
-            "🥐 Warm pastries indoors.",
-            "🖼️ Museum visits on cooler days."
-          ]
-        },
-        "winter": {
-          "event": "Winter Lights",
-          "ideas": [
-            "🎄 Christmas decorations on Grand-Place.",
-            "✨ Warm cafés with hot drinks.",
-            "🧇 Waffles and festive markets."
-          ]
-        }
-      },
-      "public_transport_tips": [
-        "🚶 Old town is compact and walkable.",
-        "🚍 Buses cover outer districts.",
-        "🚂 Easy train trips from Brussels.",
-        "📱 Use TEC for planning routes."
-      ],
-      "city_events": [
-        {
-          "name": "Doudou Festival",
-          "season": "spring",
-          "description": "🎭 UNESCO-listed folkloric celebration with parades and traditions."
-        }
-      ]
-    },
-    {
-      "name": "Namur",
-      "interests": [
-        "River Views & Citadel 🌊",
-        "Old Streets & Cafés 🏛️",
-        "Nature & Panoramas 🌄"
-      ],
-      "local_food_tip": "Try Namur’s pâté, waffles, frites, beer and river-view restaurants.",
-      "full_day": "Morning: 🏰 Start at the iconic <a href=\"https://www.google.com/maps/search/?api=1&query=PGbbeMknQSoqA2t98\" target=\"_blank\">Citadel of Namur</a>: A massive fortress on a hill overlooking the Meuse River. Wander the walls, tunnels and viewpoints — each terrace shows a different panorama of the city and the river bend. Early morning is especially peaceful, and the mist sometimes rises from the water, giving the citadel a mystical atmosphere. → 🌉 Walk down to <a href=\"https://www.google.com/maps/search/?api=1&query=6wKpbc7mcx5KesNj6\" target=\"_blank\">Pont de Jambes</a>: Classic bridge views perfect for photography.\n\nAfternoon: 🕍 Visit the <a href=\"https://www.google.com/maps/search/?api=1&query=vrjr2hiZ1eRCMKb28\" target=\"_blank\">Saint Aubin’s Cathedral</a>: Unique Baroque architecture and a bright, elegant interior. → 🍽️ Lunch in the old town — many places serve regional dishes paired with local beers.\n\nLate Afternoon: 🌳 Stroll through <a href=\"https://www.google.com/maps/search/?api=1&query=gF6DtLXzARo3FkPcA\" target=\"_blank\">Parc Louise-Marie</a>: Lakes, bridges and quiet paths perfect for relaxation. → ☕ Stop at a cozy café nearby.\n\nSunset: 🌇 Return to the citadel viewpoints for golden-hour river views.\n\nNight: 🌃 Enjoy dinner in old streets or near the waterfront.",
-      "seasons": {
-        "spring": {
-          "event": "Spring Freshness",
-          "ideas": [
-            "🌸 Blossoms around citadel paths.",
-            "☀️ Scenic river walks.",
-            "🕍 Charming old-street vibes."
-          ]
-        },
-        "summer": {
-          "event": "Summer Views",
-          "ideas": [
-            "🌅 Long golden sunsets over the Meuse River.",
-            "🎶 Outdoor events at the citadel.",
-            "🍺 Terraces full of locals."
-          ]
-        },
-        "autumn": {
-          "event": "Autumn Colors",
-          "ideas": [
-            "🍁 Red and gold forests around the citadel.",
-            "📸 Misty morning photos from the hill.",
-            "🥐 Warm pastries in the center."
-          ]
-        },
-        "winter": {
-          "event": "Winter Peace",
-          "ideas": [
-            "🎄 Christmas lights along old streets.",
-            "☕ Cozy cafés everywhere.",
-            "✨ Calm river views in cold air."
-          ]
-        }
-      },
-      "public_transport_tips": [
-        "🚶 Old center is walkable.",
-        "🚍 Buses help access hills and outskirts.",
-        "🚂 Good train links to Brussels & Liège.",
-        "📱 Use SNCB app for train planning."
-      ],
-      "city_events": [
-        {
-          "name": "Namur Festival",
+          "name": "Les Ardentes",
           "season": "summer",
-          "description": "🎭 Open-air performances, music and cultural shows across the city."
+          "description": "Large international music festival held annually in Liège.",
+          "website": "https://www.lesardentes.be/",
+          "dates": "July"
+        }
+      ],
+      "places": [
+        {
+          "name": "La Batte Market",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=50.6449%2C5.5768",
+          "description": "Belgium’s oldest and largest open-air market, held along the Meuse every Sunday."
+        },
+        {
+          "name": "Curtius Museum",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=50.6491%2C5.5843",
+          "description": "Museum of archaeology and decorative arts in a historic riverside mansion."
+        }
+      ],
+      "hidden_gems": [
+        {
+          "name": "Citadel paths",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=50.6520%2C5.5865",
+          "description": "Quiet walking trails with views over the city."
+        },
+        {
+          "name": "Early-morning Montagne de Bueren",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=50.6506%2C5.5857",
+          "description": "Peaceful climb before crowds arrive."
         }
       ]
     }
+
   ]
 }
