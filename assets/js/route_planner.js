@@ -22,7 +22,7 @@ document.addEventListener("includes:loaded", function () {
   const countryMap = {
     Austria: "recommendations_places_austria.json",
     Croatia: "recommendations_places_croatia.json",
-    Czechia: "recommendations_places_czech.json",
+    "Czech Republic": "recommendations_places_czech.json",
     Germany: "recommendations_places_germany.json",
     Hungary: "recommendations_places_hungary.json",
     Portugal: "recommendations_places_portugal.json",

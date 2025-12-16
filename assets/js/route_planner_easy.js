@@ -25,7 +25,7 @@ document.addEventListener("includes:loaded", function () {
     Bulgaria: "recommendations_bulgaria_easy.json",
     Croatia: "recommendations_croatia_easy.json",
     Cyprus: "recommendations_Cyprus_easy.json",
-    Czechia: "recommendations_czech_easy.json",
+    "Czech Republic": "recommendations_czech_easy.json",
     Denmark: "recommendations_Denmark_easy.json",
     Estonia: "recommendations_Estonia_easy.json",
     Finland: "recommendations_Finland_easy.json",
