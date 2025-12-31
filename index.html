@@ -77,6 +77,19 @@
           >
         </a>
 
+        <!-- Checkboxes Wrapper - must be outside of <a> -->
+        <div id="category-selector" style="display: none; margin-top: 10px;">
+          <fieldset>
+            <legend>Choose what you want to find nearby:</legend>
+            <label><input type="checkbox" class="category" value="Museums"> Museums</label><br>
+            <label><input type="checkbox" class="category" value="Restaurants"> Restaurants</label><br>
+            <label><input type="checkbox" class="category" value="Cafes"> Cafes</label><br>
+            <label><input type="checkbox" class="category" value="Hotels"> Hotels</label><br>
+          </fieldset>
+          <button id="show-map-btn" class="btn">Show Me!</button>
+        </div>
+
+
         <button class="btn ghost image-btn" id="toggle-planner-btn" type="button" aria-label="Make Your Own City Visit"></button>
         
         <a href="destinations/index.html" class="image-btn-link">

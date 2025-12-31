@@ -167,6 +167,48 @@ function bindLocationButtons() {
 
   // ensure default state on load
   setButtonState(null);
+
+  // 🔥 Poziva se za checkboxove i dugme Show Me!
+  setupCategorySelector();
+}
+
+function setupCategorySelector() {
+  const gpsBtn = document.getElementById(BUTTON_IDS.gps);
+  const categorySelector = document.getElementById("category-selector");
+  const showMapBtn = document.getElementById("show-map-btn");
+
+  if (!gpsBtn || !categorySelector || !showMapBtn) return;
+
+  // Prikazivanje checkboxova nakon klika
+  gpsBtn.addEventListener("click", function (e) {
+    e.preventDefault(); // Spreči otvaranje linka
+    categorySelector.style.display = categorySelector.style.display === "none" ? "block" : "none";
+  });
+
+  // Show Me! dugme logika
+  showMapBtn.addEventListener("click", function () {
+    const selectedCategories = Array.from(document.querySelectorAll(".category:checked"))
+      .map(cb => cb.value);
+
+    if (selectedCategories.length === 0) {
+      alert("Please select at least one category.");
+      return;
+    }
+
+    if (!navigator.geolocation) {
+      alert("Geolocation is not supported by your browser.");
+      return;
+    }
+
+    navigator.geolocation.getCurrentPosition(function (position) {
+      const { latitude, longitude } = position.coords;
+      const query = selectedCategories.join(" AND ");
+      const url = `https://www.google.com/maps/search/${encodeURIComponent(query)}/@${latitude},${longitude},15z`;
+      window.open(url, "_blank");
+    }, function () {
+      alert("Unable to retrieve your location.");
+    });
+  });
 }
 
 document.addEventListener("DOMContentLoaded", bindLocationButtons);
