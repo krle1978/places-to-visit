@@ -443,6 +443,15 @@ document.addEventListener("includes:loaded", function () {
     return items.length ? `<ul>${items.join("")}</ul>` : `<p>${emptyMessage}</p>`;
   }
 
+  function normalizeName(value) {
+    return value
+      ? value
+        .toLowerCase()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+      : "";
+  }
+
   function applyPendingCitySelection() {
     if (!pendingSelection) return;
     if (pendingSelection.country && countrySelect.value !== pendingSelection.country) return;
@@ -450,8 +459,9 @@ document.addEventListener("includes:loaded", function () {
     const targetCity = pendingSelection.city;
     if (!targetCity) return;
 
+    const targetNormalized = normalizeName(targetCity);
     const match = Array.from(citySelect.options).find(opt =>
-      opt.value.toLowerCase() === targetCity.toLowerCase()
+      normalizeName(opt.value) === targetNormalized
     );
 
     if (match) {
