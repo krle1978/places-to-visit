@@ -2,1348 +2,1775 @@
   "name": "Serbia",
   "cities": [
     {
-      "name": "Belgrade",
-      "interests": [
-        {
-          "name": "Belgrade Fortress (Kalemegdan)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=44.8231%2C20.4506",
-          "description": "A historic fortress at the confluence of the Sava and Danube rivers, offering panoramic views and layers of Roman, Byzantine, Ottoman, and Serbian history."
-        },
-        {
-          "name": "Knez Mihailova Street",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=44.8175%2C20.4585",
-          "description": "Belgrade’s main pedestrian street, lined with 19th-century buildings, shops, cafés, and cultural institutions."
-        },
-        {
-          "name": "Temple of Saint Sava",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=44.7981%2C20.4691",
-          "description": "One of the largest Orthodox churches in the world, a powerful symbol of Serbian spirituality and identity."
-        }
-      ],
-      "local_food_tip": "Try ćevapi, pljeskavica, sarma, kajmak, and burek from bakeries or traditional kafanas.",
+      "name": "Beograd",
+      "interests": {
+        "Art & Culture": [
+          {
+            "name": "National Museum of Serbia",
+            "map_link": "https://www.google.com/maps?q=National+Museum+of+Serbia+Belgrade",
+            "description": "The oldest and largest museum in Serbia, located on Republic Square. It houses a vast collection of art from prehistoric to modern times, including masterpieces by Paja Jovanović and Uroš Predić."
+          },
+          {
+            "name": "Museum of Contemporary Art",
+            "map_link": "https://www.google.com/maps?q=Museum+of+Contemporary+Art+Belgrade",
+            "description": "Located near Ušće Park, this striking modernist building showcases works from leading Yugoslav and Serbian artists of the 20th and 21st centuries."
+          },
+          {
+            "name": "Kalemegdan Fortress",
+            "map_link": "https://www.google.com/maps?q=Kalemegdan+Fortress+Belgrade",
+            "description": "A historic fortress overlooking the confluence of the Sava and Danube rivers. It offers stunning views, Roman ruins, military museums, and green parks where locals relax."
+          }
+        ],
+        "Photo Spots": [
+          {
+            "name": "Belgrade Waterfront",
+            "map_link": "https://www.google.com/maps?q=Belgrade+Waterfront",
+            "description": "A modern riverfront district with sleek architecture and reflections on the Sava River—perfect for evening photos."
+          },
+          {
+            "name": "St. Sava Temple",
+            "map_link": "https://www.google.com/maps?q=St+Sava+Temple+Belgrade",
+            "description": "One of the largest Orthodox churches in the world. The white marble façade and golden mosaics make it a must-see photo location."
+          },
+          {
+            "name": "Zemun Gardoš Tower",
+            "map_link": "https://www.google.com/maps?q=Gardos+Tower+Zemun",
+            "description": "This 19th-century tower sits atop a hill overlooking the Danube, offering panoramic views of the old town and river."
+          }
+        ],
+        "Food & Nightlife": [
+          {
+            "name": "Skadarlija Street",
+            "map_link": "https://www.google.com/maps?q=Skadarlija+Belgrade",
+            "description": "A cobblestone bohemian quarter lined with traditional restaurants called kafanas, serving Serbian dishes and live folk music."
+          },
+          {
+            "name": "Beton Hala",
+            "map_link": "https://www.google.com/maps?q=Beton+Hala+Belgrade",
+            "description": "Trendy nightlife hub along the Sava riverbank, with restaurants, cocktail bars, and DJs playing late into the night."
+          },
+          {
+            "name": "Kafeterija Magazin 1907",
+            "map_link": "https://www.google.com/maps?q=Kafeterija+Magazin+1907+Belgrade",
+            "description": "A stylish coffee spot in the Savamala area, perfect for people-watching and trying locally roasted beans."
+          }
+        ],
+        "Nature & Relaxation": [
+          {
+            "name": "Ada Ciganlija",
+            "map_link": "https://www.google.com/maps?q=Ada+Ciganlija+Belgrade",
+            "description": "A large river island turned peninsula with beaches, bike paths, and lakeside cafés. Locals call it 'Belgrade’s Sea'."
+          },
+          {
+            "name": "Topčider Park",
+            "map_link": "https://www.google.com/maps?q=Topcider+Park+Belgrade",
+            "description": "One of the oldest parks in the city, known for its ancient plane trees and peaceful atmosphere."
+          },
+          {
+            "name": "Botanical Garden Jevremovac",
+            "map_link": "https://www.google.com/maps?q=Botanical+Garden+Jevremovac+Belgrade",
+            "description": "An oasis of calm in central Belgrade featuring exotic plants, a Japanese garden, and shaded paths."
+          }
+        ]
+      },
+      "local_food_tip": "Try ćevapi or pljeskavica with kajmak and ajvar at a local kafana. For dessert, order palačinke or krempita.",
       "full_day": {
-        "morning": "Start at <a href=\"https://www.google.com/maps/search/?api=1&query=44.8231%2C20.4506\" target=\"_blank\" rel=\"noopener\">Belgrade Fortress</a> 🏰, walking the walls and enjoying river views.",
-        "afternoon": "Stroll down <a href=\"https://www.google.com/maps/search/?api=1&query=44.8175%2C20.4585\" target=\"_blank\" rel=\"noopener\">Knez Mihailova Street</a> ☕ for lunch, shopping, and museums.",
-        "sunset": "Visit the impressive <a href=\"https://www.google.com/maps/search/?api=1&query=44.7981%2C20.4691\" target=\"_blank\" rel=\"noopener\">Temple of Saint Sava</a> 🌅 as the city lights begin to glow.",
-        "night": "Enjoy dinner 🍽️ in Skadarlija or experience Belgrade’s famous nightlife along the rivers."
+        "Morning": "☀️ Start with a walk through <a href=\"https://www.google.com/maps?q=Kalemegdan+Fortress+Belgrade\">Kalemegdan Fortress</a>, then grab breakfast and coffee at <a href=\"https://www.google.com/maps?q=Kafeterija+Magazin+1907+Belgrade\">Kafeterija Magazin 1907</a>.",
+        "Afternoon": "🖼️ Explore <a href=\"https://www.google.com/maps?q=National+Museum+of+Serbia+Belgrade\">the National Museum</a> and have lunch in <a href=\"https://www.google.com/maps?q=Skadarlija+Belgrade\">Skadarlija</a> with live music.",
+        "Sunset": "🌇 Head to <a href=\"https://www.google.com/maps?q=Gardos+Tower+Zemun\">Gardoš Tower</a> for a sunset view over the Danube.",
+        "Night": "🌃 Dine and dance at <a href=\"https://www.google.com/maps?q=Beton+Hala+Belgrade\">Beton Hala</a> or take a night stroll along the <a href=\"https://www.google.com/maps?q=Belgrade+Waterfront\">Belgrade Waterfront</a>."
       },
       "seasons": {
         "spring": {
-          "event": "Belgrade Spring Festival",
-          "description": "Mild weather and blooming parks make the city lively and walkable.",
+          "event": "Belgrade Marathon",
+          "description": "Every April, thousands of runners fill the streets for Serbia’s biggest marathon event.",
           "ideas": [
             {
-              "name": "Kalemegdan Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=44.8231%2C20.4506",
-              "description": "Fresh greenery and river breezes."
+              "name": "Košutnjak Forest Park",
+              "map_link": "https://www.google.com/maps?q=Kosutnjak+Belgrade",
+              "description": "A hilly park perfect for hiking, picnics, and enjoying the fresh spring air."
             },
             {
               "name": "Ada Ciganlija",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=44.7855%2C20.4145",
-              "description": "Outdoor recreation and lakeside paths."
+              "map_link": "https://www.google.com/maps?q=Ada+Ciganlija+Belgrade",
+              "description": "Spring is ideal for cycling and kayaking before the summer crowds arrive."
             },
             {
-              "name": "Old Town Cafés",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=44.8175%2C20.4585",
-              "description": "Terraces reopen across the center."
+              "name": "Tašmajdan Park",
+              "map_link": "https://www.google.com/maps?q=Tasmajdan+Park+Belgrade",
+              "description": "Blooming trees and lively cafés make it a great central spot to relax."
             }
           ]
         },
         "summer": {
           "event": "Belgrade Beer Fest",
-          "description": "Hot days, festivals, and vibrant river life define summer.",
+          "description": "A massive outdoor music and beer festival held in August at Ušće Park.",
           "ideas": [
             {
-              "name": "River Splavs",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=44.8200%2C20.4400",
-              "description": "Floating bars and clubs on the rivers."
+              "name": "River Splavovi",
+              "map_link": "https://www.google.com/maps?q=Splavovi+Belgrade",
+              "description": "Floating clubs on the Sava and Danube rivers offer fun nights out under the stars."
             },
             {
-              "name": "Evening Walks by the Danube",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=44.8275%2C20.4525",
-              "description": "Sunset views and cool air."
+              "name": "Lido Beach, Zemun",
+              "map_link": "https://www.google.com/maps?q=Lido+Beach+Zemun",
+              "description": "A sandy riverside beach popular with locals for swimming and volleyball."
             },
             {
-              "name": "Open-Air Events",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=44.8231%2C20.4506",
-              "description": "Concerts and festivals near the fortress."
+              "name": "Kalemegdan Park Evenings",
+              "map_link": "https://www.google.com/maps?q=Kalemegdan+Park+Belgrade",
+              "description": "Cool evening walks with sunset views over the rivers."
             }
           ]
         },
         "autumn": {
-          "event": "Autumn Cultural Season",
-          "description": "Cooler weather and golden parks create a relaxed atmosphere.",
+          "event": "BITEF Theatre Festival",
+          "description": "An international theatre festival attracting artists and audiences from across Europe.",
           "ideas": [
             {
-              "name": "Zemun Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=44.8455%2C20.4085",
-              "description": "Historic riverside quarter with cafés."
+              "name": "St. Sava Temple",
+              "map_link": "https://www.google.com/maps?q=St+Sava+Temple+Belgrade",
+              "description": "Warm autumn light enhances the golden domes and marble details."
             },
             {
-              "name": "Museum Visits",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=44.8185%2C20.4595",
-              "description": "Ideal time for indoor culture."
+              "name": "Dorćol District",
+              "map_link": "https://www.google.com/maps?q=Dorcol+Belgrade",
+              "description": "Trendy cafés and vintage shops surrounded by colorful fall trees."
             },
             {
-              "name": "Local Dining",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=44.8178%2C20.4605",
-              "description": "Hearty Serbian dishes."
+              "name": "Zemun Riverside Walk",
+              "map_link": "https://www.google.com/maps?q=Zemun+Belgrade",
+              "description": "Peaceful walks beside the Danube as the leaves change color."
             }
           ]
         },
         "winter": {
-          "event": "Belgrade Winter Festival",
-          "description": "Festive lights, markets, and cozy kafanas warm the city.",
+          "event": "Belgrade New Year’s Celebration",
+          "description": "The city center lights up with concerts, fireworks, and festive markets.",
           "ideas": [
             {
-              "name": "Christmas & New Year Markets",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=44.8175%2C20.4585",
-              "description": "Seasonal food and decorations."
+              "name": "Knez Mihailova Street",
+              "map_link": "https://www.google.com/maps?q=Knez+Mihailova+Street+Belgrade",
+              "description": "Decorated with lights and full of street performers during December."
             },
             {
-              "name": "Museum Exploration",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=44.8185%2C20.4595",
-              "description": "Warm indoor sightseeing."
+              "name": "Republic Square Ice Rink",
+              "map_link": "https://www.google.com/maps?q=Republic+Square+Belgrade",
+              "description": "A seasonal ice rink surrounded by city lights and cafés."
             },
             {
-              "name": "Traditional Cafés",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=44.8205%2C20.4625",
-              "description": "Coffee culture and desserts."
+              "name": "Nikola Tesla Museum",
+              "map_link": "https://www.google.com/maps?q=Nikola+Tesla+Museum+Belgrade",
+              "description": "A warm indoor escape to learn about Serbia’s greatest inventor."
             }
           ]
         }
       },
       "public_transport_tips": [
         {
-          "tip": "Buses, trams, and trolleybuses cover most of the city.",
-          "link": "https://www.gsp.rs"
+          "tip": "Use the BusPlus card for all buses, trams, and trolleys.",
+          "link": "https://www.gsp.rs/"
         },
         {
-          "tip": "The city center is compact and easy to explore on foot.",
-          "link": "https://www.tob.rs"
+          "tip": "Trams 2 and 10 offer scenic loops around the city center.",
+          "link": "https://www.busevi.com/"
         },
         {
-          "tip": "Ride-hailing apps are widely used for late-night travel.",
-          "link": "https://www.tob.rs"
+          "tip": "For longer trips, use BeoVoz suburban trains to reach outer neighborhoods.",
+          "link": "https://srbijavoz.rs/"
         }
       ],
       "city_events": [
+        {
+          "name": "Belgrade Marathon",
+          "season": "spring",
+          "description": "Annual marathon attracting runners from around the world.",
+          "website": "https://www.bgdmarathon.org/",
+          "dates": "April"
+        },
         {
           "name": "Belgrade Beer Fest",
-          "season": "Summer",
-          "description": "One of Southeast Europe’s largest beer and music festivals.",
-          "website": "https://www.belgradebeerfest.com",
-          "dates": "August (annual)"
+          "season": "summer",
+          "description": "One of Europe’s largest beer and music festivals.",
+          "website": "https://www.belgradebeerfest.com/",
+          "dates": "August"
         },
         {
-          "name": "Belgrade International Film Festival (FEST)",
-          "season": "Winter",
-          "description": "A major regional film festival with international premieres.",
-          "website": "https://fest.rs",
-          "dates": "February (annual)"
+          "name": "BITEF Theatre Festival",
+          "season": "autumn",
+          "description": "Celebrated international theatre festival held each September.",
+          "website": "https://bitef.rs/",
+          "dates": "September"
+        },
+        {
+          "name": "New Year’s Celebration",
+          "season": "winter",
+          "description": "Concerts, fireworks, and open-air parties across the city.",
+          "website": "https://belgradian.com/",
+          "dates": "December 31 – January 1"
         }
       ],
       "places": [
         {
-          "name": "Skadarlija",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=44.8195%2C20.4615",
-          "description": "A bohemian street known for traditional restaurants and live music."
+          "name": "Kalemegdan Fortress",
+          "map_link": "https://www.google.com/maps?q=Kalemegdan+Fortress+Belgrade",
+          "description": "An iconic fortress complex with centuries of history, beautiful park areas, and panoramic river views."
         },
         {
-          "name": "Nikola Tesla Museum",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=44.8055%2C20.4705",
-          "description": "A museum dedicated to the life and inventions of Nikola Tesla."
-        }
-      ],
-      "hidden_gems": [
-        {
-          "name": "Zemun Gardoš Tower",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=44.8465%2C20.4075",
-          "description": "A hilltop tower with views over the Danube and Zemun rooftops."
-        },
-        {
-          "name": "Topčider Park",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=44.7835%2C20.4480",
-          "description": "A spacious historic park popular with locals."
-        }
-      ]
-    },
-
-    {
-      "name": "Kragujevac",
-      "interests": [
-        {
-          "name": "Šumarice Memorial Park",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=44.0285%2C20.9065",
-          "description": "A vast memorial park dedicated to the victims of World War II, combining monuments, lakes, and peaceful green spaces."
-        },
-        {
-          "name": "Prince Miloš’s Residence (Amidža’s Konak)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=44.0125%2C20.9115",
-          "description": "A historic residence from the early 19th century, reflecting the period when Kragujevac was Serbia’s capital."
-        },
-        {
-          "name": "Old Assembly Building",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=44.0135%2C20.9125",
-          "description": "The place where Serbia’s first constitution was adopted in 1835, symbol of Serbian statehood."
-        }
-      ],
-      "local_food_tip": "Try Šumadija-style dishes such as roast pork, karađorđeva schnitzel, kajmak, homemade bread, and traditional Serbian desserts.",
-      "full_day": {
-        "morning": "Start at the moving <a href=\"https://www.google.com/maps/search/?api=1&query=44.0285%2C20.9065\" target=\"_blank\" rel=\"noopener\">Šumarice Memorial Park</a> 🌳, walking among monuments and lakes.",
-        "afternoon": "Visit the historic <a href=\"https://www.google.com/maps/search/?api=1&query=44.0125%2C20.9115\" target=\"_blank\" rel=\"noopener\">Prince Miloš’s Residence</a> 🏛️ and nearby old government buildings.",
-        "sunset": "Stroll through the city center and Republic Square 🌅, enjoying cafés and local life.",
-        "night": "Have dinner 🍽️ in a traditional restaurant and enjoy a relaxed evening in the city."
-      },
-      "seasons": {
-        "spring": {
-          "event": "Spring in Šumadija",
-          "description": "Blooming nature and mild temperatures make parks and memorial areas especially pleasant.",
-          "ideas": [
-            {
-              "name": "Šumarice Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=44.0285%2C20.9065",
-              "description": "Fresh greenery and quiet paths."
-            },
-            {
-              "name": "City Center Cafés",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=44.0120%2C20.9130",
-              "description": "Outdoor terraces reopen."
-            },
-            {
-              "name": "Museum Visits",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=44.0135%2C20.9125",
-              "description": "Balanced indoor and outdoor sightseeing."
-            }
-          ]
-        },
-        "summer": {
-          "event": "Kragujevac Summer Cultural Program",
-          "description": "Warm days with open-air events and concerts.",
-          "ideas": [
-            {
-              "name": "Evening Park Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=44.0285%2C20.9065",
-              "description": "Cooler evenings in green spaces."
-            },
-            {
-              "name": "Outdoor Cafés",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=44.0120%2C20.9130",
-              "description": "Social summer atmosphere."
-            },
-            {
-              "name": "Cultural Events",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=44.0130%2C20.9120",
-              "description": "Concerts and performances."
-            }
-          ]
-        },
-        "autumn": {
-          "event": "Autumn in Šumadija",
-          "description": "Golden forests and harvest season define the region.",
-          "ideas": [
-            {
-              "name": "Memorial Park Photography",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=44.0285%2C20.9065",
-              "description": "Warm autumn colors."
-            },
-            {
-              "name": "Historic Center Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=44.0125%2C20.9125",
-              "description": "Pleasant temperatures for sightseeing."
-            },
-            {
-              "name": "Local Dining",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=44.0128%2C20.9135",
-              "description": "Hearty Šumadija cuisine."
-            }
-          ]
-        },
-        "winter": {
-          "event": "Šumadija Winter Season",
-          "description": "Quiet city life with cozy cafés and indoor culture.",
-          "ideas": [
-            {
-              "name": "Museum Visits",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=44.0135%2C20.9125",
-              "description": "Warm indoor history."
-            },
-            {
-              "name": "Historic Buildings",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=44.0125%2C20.9115",
-              "description": "Exploring Serbia’s early capital."
-            },
-            {
-              "name": "Traditional Cafés",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=44.0120%2C20.9130",
-              "description": "Coffee and local sweets."
-            }
-          ]
-        }
-      },
-      "public_transport_tips": [
-        {
-          "tip": "Local buses connect the city center with Šumarice and residential areas.",
-          "link": "https://www.jgspkg.rs"
-        },
-        {
-          "tip": "The city center is compact and easy to explore on foot.",
-          "link": "https://www.kragujevac.rs"
-        },
-        {
-          "tip": "Intercity buses link Kragujevac with Belgrade and central Serbia.",
-          "link": "https://www.lasta.rs"
-        }
-      ],
-      "city_events": [
-        {
-          "name": "Šumarice Memorial Ceremony",
-          "season": "Autumn",
-          "description": "Commemorative events honoring World War II victims.",
-          "website": "https://www.spomenpark.rs",
-          "dates": "October (annual)"
-        },
-        {
-          "name": "JoakimFest Theatre Festival",
-          "season": "Spring",
-          "description": "A national theatre festival held in Kragujevac.",
-          "website": "https://www.joakimfest.rs",
-          "dates": "May (annual)"
-        }
-      ],
-      "places": [
-        {
-          "name": "Kragujevac National Museum",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=44.0130%2C20.9120",
-          "description": "A museum complex covering the city’s history and role in Serbian statehood."
+          "name": "St. Sava Temple",
+          "map_link": "https://www.google.com/maps?q=St+Sava+Temple+Belgrade",
+          "description": "A monumental Orthodox church with a glittering dome and golden interior mosaics."
         },
         {
           "name": "Republic Square",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=44.0120%2C20.9135",
-          "description": "The central square and social hub of the city."
+          "map_link": "https://www.google.com/maps?q=Republic+Square+Belgrade",
+          "description": "The city’s central square featuring the National Theatre, National Museum, and the famous Prince Mihailo statue."
+        },
+        {
+          "name": "Knez Mihailova Street",
+          "map_link": "https://www.google.com/maps?q=Knez+Mihailova+Street+Belgrade",
+          "description": "A pedestrian shopping street filled with historical buildings, bookstores, and street musicians."
         }
       ],
       "hidden_gems": [
         {
-          "name": "Šumarice Lakes",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=44.0265%2C20.9080",
-          "description": "Quiet lakes within the memorial park, popular with locals for walks."
+          "name": "Ruzica Church",
+          "map_link": "https://www.google.com/maps?q=Ruzica+Church+Belgrade",
+          "description": "A small 19th-century church tucked inside Kalemegdan Fortress, decorated with chandeliers made from army bullets—symbolizing peace after war."
         },
         {
-          "name": "Old Crafts Quarter",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=44.0115%2C20.9145",
-          "description": "Less-visited streets showing everyday life and historic workshops."
+          "name": "Ciglana Club",
+          "map_link": "https://www.google.com/maps?q=Ciglana+Belgrade",
+          "description": "An alternative cultural space built from an old brick factory, filled with graffiti, art installations, and open-air concerts."
+        },
+        {
+          "name": "Avala Tower",
+          "map_link": "https://www.google.com/maps?q=Avala+Tower+Belgrade",
+          "description": "A futuristic telecommunications tower offering a 360° view of Belgrade and surrounding hills."
+        },
+        {
+          "name": "Savamala Street Art District",
+          "map_link": "https://www.google.com/maps?q=Savamala+Belgrade",
+          "description": "An urban neighborhood covered in colorful murals, home to creative studios and independent galleries."
         }
       ]
     },
 
-    {
-      "name": "Niš",
-      "interests": [
-        {
-          "name": "Niš Fortress",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.3209%2C21.8958",
-          "description": "A large Ottoman-era fortress on the Nišava River, featuring gates, archaeological remains, cafés, and green spaces."
-        },
-        {
-          "name": "Skull Tower (Ćele Kula)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.3204%2C21.9035",
-          "description": "A unique historical monument built from skulls of Serbian rebels after the Battle of Čegar, symbolizing resistance and history."
-        },
-        {
-          "name": "Mediana Archaeological Site",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.3305%2C21.9115",
-          "description": "Remains of a Roman imperial residence near Niš, associated with Emperor Constantine the Great."
-        }
-      ],
-      "local_food_tip": "Try Niš-style grilled meats, especially ćevapi and pljeskavica, along with burek, shopska salad, and local peppers.",
-      "full_day": {
-        "morning": "Start at the <a href=\"https://www.google.com/maps/search/?api=1&query=43.3209%2C21.8958\" target=\"_blank\" rel=\"noopener\">Niš Fortress</a> 🏰, walking along the walls and riverside paths.",
-        "afternoon": "Visit the historic <a href=\"https://www.google.com/maps/search/?api=1&query=43.3204%2C21.9035\" target=\"_blank\" rel=\"noopener\">Skull Tower</a> 🏛️, then enjoy lunch in the city center.",
-        "sunset": "Head to <a href=\"https://www.google.com/maps/search/?api=1&query=43.3305%2C21.9115\" target=\"_blank\" rel=\"noopener\">Mediana</a> 🌅 for Roman-era history and open views.",
-        "night": "Have dinner 🍽️ in the city center or relax in a traditional kafana with local music."
+{
+  "name": "Kragujevac",
+  "interests": {
+    "Art & Culture": [
+      {
+        "name": "National Museum Kragujevac",
+        "map_link": "https://www.google.com/maps/search/National+Museum+Kragujevac",
+        "description": "The main museum complex of the city, showcasing Serbian history from medieval times to the modern era, with special focus on Kragujevac as the first capital of modern Serbia."
       },
-      "seasons": {
-        "spring": {
-          "event": "Spring in Southern Serbia",
-          "description": "Mild temperatures and blooming parks make spring ideal for walking and sightseeing.",
-          "ideas": [
-            {
-              "name": "Fortress Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.3209%2C21.8958",
-              "description": "Green spaces and river views."
-            },
-            {
-              "name": "City Center Cafés",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.3200%2C21.8965",
-              "description": "Outdoor terraces reopen."
-            },
-            {
-              "name": "Museum Visits",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.3215%2C21.8975",
-              "description": "Balanced indoor and outdoor culture."
-            }
-          ]
-        },
-        "summer": {
-          "event": "Nišville Jazz Festival",
-          "description": "Hot days and lively nights, highlighted by one of Southeast Europe’s best jazz festivals.",
-          "ideas": [
-            {
-              "name": "Nišville Concerts",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.3209%2C21.8958",
-              "description": "Open-air music inside the fortress."
-            },
-            {
-              "name": "Evening Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.3195%2C21.8945",
-              "description": "Cooler air by the river."
-            },
-            {
-              "name": "Night Cafés",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.3200%2C21.8965",
-              "description": "Lively summer atmosphere."
-            }
-          ]
-        },
-        "autumn": {
-          "event": "Autumn Cultural Season",
-          "description": "Pleasant weather and warm colors make autumn excellent for history and food.",
-          "ideas": [
-            {
-              "name": "Historic Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.3209%2C21.8958",
-              "description": "Comfortable sightseeing temperatures."
-            },
-            {
-              "name": "Local Dining",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.3205%2C21.8970",
-              "description": "Hearty southern Serbian cuisine."
-            },
-            {
-              "name": "Photography Spots",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.3215%2C21.8995",
-              "description": "Golden autumn light."
-            }
-          ]
-        },
-        "winter": {
-          "event": "Niš Winter Season",
-          "description": "A quieter period with cozy cafés and indoor cultural visits.",
-          "ideas": [
-            {
-              "name": "Museum Exploration",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.3215%2C21.8975",
-              "description": "Warm indoor history."
-            },
-            {
-              "name": "Traditional Bakeries",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.3198%2C21.8960",
-              "description": "Fresh burek and pastries."
-            },
-            {
-              "name": "Historic Cafés",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.3202%2C21.8972",
-              "description": "Relaxed winter atmosphere."
-            }
-          ]
-        }
+      {
+        "name": "First Grammar School (Prva kragujevačka gimnazija)",
+        "map_link": "https://www.google.com/maps/search/Prva+kragujeva%C4%8Dka+gimnazija",
+        "description": "Founded in 1833, this historic school symbolizes the beginning of modern education in Serbia and stands as an important cultural landmark."
+      }
+    ],
+    "Photo Spots": [
+      {
+        "name": "Milosev Venac Complex",
+        "map_link": "https://www.google.com/maps/search/Milo%C5%A1ev+Venac+Kragujevac",
+        "description": "An elegant 19th-century complex with classical architecture, wide paths, and greenery, ideal for architectural and portrait photography."
       },
-      "public_transport_tips": [
+      {
+        "name": "Memorial Park Šumarice",
+        "map_link": "https://www.google.com/maps/search/%C5%A0umarice+Memorial+Park",
+        "description": "Open landscapes, symbolic monuments, and calm lakes create powerful and atmospheric photo opportunities, especially in soft morning or evening light."
+      }
+    ],
+    "Food & Nightlife": [
+      {
+        "name": "Downtown Cafés (Korzo Zone)",
+        "map_link": "https://www.google.com/maps/search/Korzo+Kragujevac",
+        "description": "A lively pedestrian area filled with cafés and casual restaurants, popular with students and locals throughout the day and evening."
+      },
+      {
+        "name": "Traditional Serbian Restaurant Etno Kuća",
+        "map_link": "https://www.google.com/maps/search/Etno+Ku%C4%87a+Kragujevac",
+        "description": "A cozy place serving classic Serbian dishes like grilled meats, homemade bread, and seasonal stews in a traditional setting."
+      }
+    ],
+    "Nature & Relaxation": [
+      {
+        "name": "Lake Bubanj",
+        "map_link": "https://www.google.com/maps/search/Bubanj+Lake+Kragujevac",
+        "description": "A quiet local lake surrounded by walking paths, popular for jogging, casual walks, and relaxing afternoons."
+      },
+      {
+        "name": "Šumarice Memorial Park Green Zones",
+        "map_link": "https://www.google.com/maps/search/%C5%A0umarice+Memorial+Park",
+        "description": "Large open green areas perfect for slow walks, reflection, and escaping the city without leaving town."
+      }
+    ]
+  },
+  "local_food_tip": "Try pljeskavica or ćevapi from small local grills rather than large restaurants — portions are generous, prices are lower, and flavors are more authentic.",
+  "full_day": {
+    "Morning": "☀️ Start your day with coffee on the <a href=\"https://www.google.com/maps/search/Korzo+Kragujevac\">Korzo</a>, then walk to the <a href=\"https://www.google.com/maps/search/Milo%C5%A1ev+Venac+Kragujevac\">Milošev Venac</a> complex to explore the historic heart of the city.",
+    "Afternoon": "🏛 Visit the <a href=\"https://www.google.com/maps/search/National+Museum+Kragujevac\">National Museum</a> and nearby historical buildings, followed by lunch at a traditional Serbian restaurant.",
+    "Sunset": "🌅 Head to <a href=\"https://www.google.com/maps/search/%C5%A0umarice+Memorial+Park\">Šumarice Memorial Park</a> for a peaceful walk and sunset views over the open landscape.",
+    "Night": "🌙 Return downtown for a relaxed evening in student-filled cafés around the Korzo area."
+  },
+  "seasons": {
+    "spring": {
+      "event": "City Day Celebrations",
+      "description": "Spring brings cultural programs and outdoor events celebrating the city’s history.",
+      "ideas": [
         {
-          "tip": "City buses connect the center with Mediana and residential areas.",
-          "link": "https://www.jgpnis.rs"
+          "name": "Šumarice Spring Walks",
+          "map_link": "https://www.google.com/maps/search/%C5%A0umarice+Memorial+Park",
+          "description": "Mild weather and blooming greenery make the park especially inviting."
         },
         {
-          "tip": "The city center and fortress area are easy to explore on foot.",
-          "link": "https://visitnis.com"
+          "name": "Museum Courtyard Visits",
+          "map_link": "https://www.google.com/maps/search/National+Museum+Kragujevac",
+          "description": "Enjoy quieter museum spaces and outdoor courtyards in spring."
         },
         {
-          "tip": "Niš is a major rail and bus hub for southern Serbia.",
-          "link": "https://www.srbvoz.rs"
-        }
-      ],
-      "city_events": [
-        {
-          "name": "Nišville Jazz Festival",
-          "season": "Summer",
-          "description": "An international jazz festival held inside the Niš Fortress.",
-          "website": "https://www.nisville.com",
-          "dates": "August (annual)"
-        },
-        {
-          "name": "Constantine the Great Celebrations",
-          "season": "Spring",
-          "description": "Cultural events celebrating Niš as the birthplace of Emperor Constantine.",
-          "website": "https://visitnis.com",
-          "dates": "May (annual)"
-        }
-      ],
-      "places": [
-        {
-          "name": "National Museum of Niš",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.3215%2C21.8975",
-          "description": "A museum presenting archaeology, history, and ethnography of the Niš region."
-        },
-        {
-          "name": "Kazandžijsko Sokače",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.3200%2C21.8985",
-          "description": "A charming historic street with cafés and traditional architecture."
-        }
-      ],
-      "hidden_gems": [
-        {
-          "name": "Nišava River Promenade",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.3195%2C21.8945",
-          "description": "A peaceful riverside path popular with locals."
-        },
-        {
-          "name": "Bubanj Memorial Park",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.3035%2C21.8875",
-          "description": "A large memorial complex with symbolic monuments and open views."
+          "name": "Korzo Café Hopping",
+          "map_link": "https://www.google.com/maps/search/Korzo+Kragujevac",
+          "description": "Outdoor seating returns, and the city feels lively again."
         }
       ]
     },
-
-    {
-      "name": "Novi Sad",
-      "interests": [
+    "summer": {
+      "event": "Cultural Summer Program",
+      "description": "Open-air concerts and film screenings are organized across the city.",
+      "ideas": [
         {
-          "name": "Petrovaradin Fortress",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=45.2525%2C19.8635",
-          "description": "A massive 18th-century fortress overlooking the Danube, famous for panoramic views and the iconic clock tower."
+          "name": "Evenings at Lake Bubanj",
+          "map_link": "https://www.google.com/maps/search/Bubanj+Lake+Kragujevac",
+          "description": "Cooler evenings by the lake are popular with locals."
         },
         {
-          "name": "Liberty Square (Trg slobode)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=45.2550%2C19.8455",
-          "description": "The main square of Novi Sad, surrounded by historic buildings, cafés, and the city hall."
+          "name": "Outdoor Concerts",
+          "map_link": "https://www.google.com/maps/search/Dom+Omladine+Kragujevac",
+          "description": "Youth and cultural centers host live music events."
         },
         {
-          "name": "Dunavski Park",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=45.2585%2C19.8520",
-          "description": "A central green park near the Danube, popular for walks, relaxation, and family time."
-        }
-      ],
-      "local_food_tip": "Try Vojvodina specialties such as goulash, fish paprikaš, homemade noodles, strudels, and local wines.",
-      "full_day": {
-        "morning": "Start at the impressive <a href=\"https://www.google.com/maps/search/?api=1&query=45.2525%2C19.8635\" target=\"_blank\" rel=\"noopener\">Petrovaradin Fortress</a> 🏰, enjoying views over the Danube.",
-        "afternoon": "Walk to <a href=\"https://www.google.com/maps/search/?api=1&query=45.2550%2C19.8455\" target=\"_blank\" rel=\"noopener\">Liberty Square</a> ☕ for lunch and sightseeing in the Old Town.",
-        "sunset": "Relax in <a href=\"https://www.google.com/maps/search/?api=1&query=45.2585%2C19.8520\" target=\"_blank\" rel=\"noopener\">Dunavski Park</a> 🌅 or stroll along the river.",
-        "night": "Enjoy dinner 🍽️ in the city center or explore Novi Sad’s relaxed nightlife."
-      },
-      "seasons": {
-        "spring": {
-          "event": "Spring in Vojvodina",
-          "description": "Blooming parks and mild weather create perfect walking conditions.",
-          "ideas": [
-            {
-              "name": "City Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=45.2550%2C19.8455",
-              "description": "Comfortable temperatures and lively streets."
-            },
-            {
-              "name": "Danube Promenade",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=45.2540%2C19.8605",
-              "description": "Fresh air and river views."
-            },
-            {
-              "name": "Park Visits",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=45.2585%2C19.8520",
-              "description": "Green spaces at their best."
-            }
-          ]
-        },
-        "summer": {
-          "event": "EXIT Festival",
-          "description": "Summer brings long days and one of Europe’s biggest music festivals.",
-          "ideas": [
-            {
-              "name": "EXIT Festival at Petrovaradin",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=45.2525%2C19.8635",
-              "description": "World-famous music festival inside the fortress."
-            },
-            {
-              "name": "Štrand Beach",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=45.2395%2C19.8385",
-              "description": "Popular river beach on the Danube."
-            },
-            {
-              "name": "Evening Promenade",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=45.2540%2C19.8605",
-              "description": "Cool evenings by the river."
-            }
-          ]
-        },
-        "autumn": {
-          "event": "Autumn Cultural Season",
-          "description": "Golden colors and fewer crowds make autumn ideal for sightseeing.",
-          "ideas": [
-            {
-              "name": "Fortress Views",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=45.2525%2C19.8635",
-              "description": "Clear skies and warm light."
-            },
-            {
-              "name": "Historic Center Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=45.2550%2C19.8455",
-              "description": "Comfortable temperatures."
-            },
-            {
-              "name": "Local Dining",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=45.2555%2C19.8465",
-              "description": "Seasonal Vojvodina cuisine."
-            }
-          ]
-        },
-        "winter": {
-          "event": "Novi Sad Winter Fest",
-          "description": "Festive lights, markets, and a cozy atmosphere in the city center.",
-          "ideas": [
-            {
-              "name": "Winter Markets",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=45.2550%2C19.8455",
-              "description": "Seasonal food and crafts."
-            },
-            {
-              "name": "Museum Visits",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=45.2565%2C19.8475",
-              "description": "Warm indoor culture."
-            },
-            {
-              "name": "Cafés & Bakeries",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=45.2558%2C19.8460",
-              "description": "Coffee, cakes, and strudels."
-            }
-          ]
-        }
-      },
-      "public_transport_tips": [
-        {
-          "tip": "City buses connect all districts including Petrovaradin.",
-          "link": "https://www.gspns.rs"
-        },
-        {
-          "tip": "The Old Town is compact and ideal for walking.",
-          "link": "https://novisad.travel"
-        },
-        {
-          "tip": "Bicycle paths along the Danube are popular and well-marked.",
-          "link": "https://novisad.travel"
-        }
-      ],
-      "city_events": [
-        {
-          "name": "EXIT Festival",
-          "season": "Summer",
-          "description": "One of Europe’s largest music festivals, held at Petrovaradin Fortress.",
-          "website": "https://www.exitfest.org",
-          "dates": "July (annual)"
-        },
-        {
-          "name": "Novi Sad Winter Fest",
-          "season": "Winter",
-          "description": "Holiday markets and cultural events in the city center.",
-          "website": "https://novisad.travel",
-          "dates": "December–January (annual)"
-        }
-      ],
-      "places": [
-        {
-          "name": "Name of Mary Church",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=45.2555%2C19.8465",
-          "description": "A neo-Gothic Catholic church dominating Liberty Square."
-        },
-        {
-          "name": "Štrand Beach",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=45.2395%2C19.8385",
-          "description": "A long sandy beach on the Danube, popular in summer."
-        }
-      ],
-      "hidden_gems": [
-        {
-          "name": "Almaški Kraj",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=45.2615%2C19.8475",
-          "description": "One of the oldest neighborhoods, with traditional houses and quiet streets."
-        },
-        {
-          "name": "Ledinačko Lake",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=45.1845%2C19.8345",
-          "description": "A scenic lake near Novi Sad, popular with locals."
+          "name": "Late-Night Cafés",
+          "map_link": "https://www.google.com/maps/search/Korzo+Kragujevac",
+          "description": "Long summer nights keep the city active until late."
         }
       ]
     },
-
-    {
-      "name": "Subotica",
-      "interests": [
+    "autumn": {
+      "event": "Student Cultural Season",
+      "description": "With the university year starting, the city regains its youthful energy.",
+      "ideas": [
         {
-          "name": "City Hall (Gradska kuća)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=46.0990%2C19.6670",
-          "description": "A masterpiece of Hungarian Secession architecture and the most recognizable landmark of Subotica."
+          "name": "Historic Walks",
+          "map_link": "https://www.google.com/maps/search/Milo%C5%A1ev+Venac+Kragujevac",
+          "description": "Cool weather is ideal for walking tours."
         },
         {
-          "name": "Raichle Palace",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=46.0985%2C19.6695",
-          "description": "A colorful Art Nouveau palace showcasing Subotica’s multicultural and artistic heritage."
+          "name": "Museum Re-visits",
+          "map_link": "https://www.google.com/maps/search/National+Museum+Kragujevac",
+          "description": "New exhibitions often open in autumn."
         },
         {
-          "name": "Subotica Synagogue",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=46.1025%2C19.6710",
-          "description": "One of the largest and most beautiful synagogues in Europe, restored and open to visitors."
-        }
-      ],
-      "local_food_tip": "Try Vojvodina and Hungarian-influenced dishes such as fish paprikaš, goulash, sausages, and local pastries.",
-      "full_day": {
-        "morning": "Start at the iconic <a href=\"https://www.google.com/maps/search/?api=1&query=46.0990%2C19.6670\" target=\"_blank\" rel=\"noopener\">City Hall</a> 🏛️, exploring the main square and architecture.",
-        "afternoon": "Visit the stunning <a href=\"https://www.google.com/maps/search/?api=1&query=46.1025%2C19.6710\" target=\"_blank\" rel=\"noopener\">Subotica Synagogue</a> ✡️, then have lunch nearby.",
-        "sunset": "Stroll past <a href=\"https://www.google.com/maps/search/?api=1&query=46.0985%2C19.6695\" target=\"_blank\" rel=\"noopener\">Raichle Palace</a> 🌅 and enjoy the city’s calm atmosphere.",
-        "night": "Enjoy dinner 🍽️ in the city center or relax at a local café."
-      },
-      "seasons": {
-        "spring": {
-          "event": "Spring Cultural Season",
-          "description": "Mild weather and blooming parks highlight the city’s architecture.",
-          "ideas": [
-            {
-              "name": "Architectural Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=46.0990%2C19.6670",
-              "description": "Exploring Art Nouveau buildings."
-            },
-            {
-              "name": "City Parks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=46.1005%2C19.6625",
-              "description": "Green spaces near the center."
-            },
-            {
-              "name": "Café Terraces",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=46.0995%2C19.6685",
-              "description": "Outdoor seating returns."
-            }
-          ]
-        },
-        "summer": {
-          "event": "Palic Summer Festival",
-          "description": "Warm days and cultural events by nearby Lake Palić.",
-          "ideas": [
-            {
-              "name": "Lake Palić",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=46.0935%2C19.7550",
-              "description": "Swimming, walking, and festivals."
-            },
-            {
-              "name": "Evening Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=46.0990%2C19.6670",
-              "description": "Cool summer evenings."
-            },
-            {
-              "name": "Open-Air Events",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=46.0985%2C19.6695",
-              "description": "Concerts and performances."
-            }
-          ]
-        },
-        "autumn": {
-          "event": "Autumn Cultural Season",
-          "description": "Golden colors and fewer crowds make autumn perfect for sightseeing.",
-          "ideas": [
-            {
-              "name": "Historic Center Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=46.0990%2C19.6670",
-              "description": "Comfortable temperatures."
-            },
-            {
-              "name": "Local Dining",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=46.0995%2C19.6685",
-              "description": "Seasonal Vojvodina cuisine."
-            },
-            {
-              "name": "Photography Spots",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=46.1025%2C19.6710",
-              "description": "Warm autumn light on architecture."
-            }
-          ]
-        },
-        "winter": {
-          "event": "Subotica Winter Fest",
-          "description": "Festive decorations and cozy cafés in the city center.",
-          "ideas": [
-            {
-              "name": "Winter Markets",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=46.0990%2C19.6670",
-              "description": "Seasonal food and crafts."
-            },
-            {
-              "name": "Museum Visits",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=46.1000%2C19.6700",
-              "description": "Warm indoor culture."
-            },
-            {
-              "name": "Traditional Cafés",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=46.0995%2C19.6685",
-              "description": "Coffee and pastries."
-            }
-          ]
-        }
-      },
-      "public_transport_tips": [
-        {
-          "tip": "Local buses cover the city and connect to Lake Palić.",
-          "link": "https://www.suboticatrans.rs"
-        },
-        {
-          "tip": "The city center is compact and ideal for walking.",
-          "link": "https://www.visitsubotica.rs"
-        },
-        {
-          "tip": "Bicycle paths are popular for reaching nearby attractions.",
-          "link": "https://www.visitsubotica.rs"
-        }
-      ],
-      "city_events": [
-        {
-          "name": "Palić Film Festival",
-          "season": "Summer",
-          "description": "An international film festival held near Lake Palić.",
-          "website": "https://www.palicfilmfestival.com",
-          "dates": "July (annual)"
-        },
-        {
-          "name": "Subotica City Day",
-          "season": "Summer",
-          "description": "City celebrations with cultural programs and concerts.",
-          "website": "https://www.subotica.rs",
-          "dates": "September (annual)"
-        }
-      ],
-      "places": [
-        {
-          "name": "People’s Theatre",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=46.0998%2C19.6688",
-          "description": "A historic theatre and cultural institution in the city center."
-        },
-        {
-          "name": "Lake Palić",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=46.0935%2C19.7550",
-          "description": "A nearby lake resort with promenades and leisure activities."
-        }
-      ],
-      "hidden_gems": [
-        {
-          "name": "Art Nouveau Residential Streets",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=46.1015%2C19.6680",
-          "description": "Quiet streets featuring lesser-known Secession-style houses."
-        },
-        {
-          "name": "Zorka Industrial Heritage Area",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=46.1120%2C19.6765",
-          "description": "Remnants of early industrial Subotica rarely visited by tourists."
+          "name": "Coffee Indoors",
+          "map_link": "https://www.google.com/maps/search/Korzo+Kragujevac",
+          "description": "Cafés shift indoors with a cozy atmosphere."
         }
       ]
     },
-
-    {
-      "name": "Užice",
-      "interests": [
+    "winter": {
+      "event": "New Year City Festivities",
+      "description": "Decorations, concerts, and holiday markets brighten the winter months.",
+      "ideas": [
         {
-          "name": "Stari Grad Fortress (Užice Fortress)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.8536%2C19.8460",
-          "description": "A medieval fortress dramatically set above the Đetinja River gorge, offering panoramic views of Užice and its surroundings."
+          "name": "Winter Walks in Šumarice",
+          "map_link": "https://www.google.com/maps/search/%C5%A0umarice+Memorial+Park",
+          "description": "Snow-covered monuments create a quiet, reflective mood."
         },
         {
-          "name": "Đetinja River Gorge",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.8550%2C19.8405",
-          "description": "A scenic canyon running through the city, popular for walking, cycling, and nature escapes."
+          "name": "Museum Days",
+          "map_link": "https://www.google.com/maps/search/National+Museum+Kragujevac",
+          "description": "Perfect indoor activity during colder days."
         },
         {
-          "name": "National Museum of Užice",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.8570%2C19.8450",
-          "description": "A museum covering regional history, including Užice’s role in World War II and traditional Zlatibor culture."
-        }
-      ],
-      "local_food_tip": "Try komplet lepinja, Zlatibor prosciutto, kajmak, hearty stews, and homemade rakija typical of western Serbia.",
-      "full_day": {
-        "morning": "Start with a walk up to <a href=\"https://www.google.com/maps/search/?api=1&query=43.8536%2C19.8460\" target=\"_blank\" rel=\"noopener\">Stari Grad Fortress</a> 🏰 for sweeping views over the city.",
-        "afternoon": "Explore the <a href=\"https://www.google.com/maps/search/?api=1&query=43.8570%2C19.8450\" target=\"_blank\" rel=\"noopener\">National Museum of Užice</a> 🏛️, then enjoy lunch in the city center.",
-        "sunset": "Stroll along the <a href=\"https://www.google.com/maps/search/?api=1&query=43.8550%2C19.8405\" target=\"_blank\" rel=\"noopener\">Đetinja River Gorge</a> 🌅, following riverside paths.",
-        "night": "Have dinner 🍽️ in a local restaurant and enjoy Užice’s relaxed evening atmosphere."
-      },
-      "seasons": {
-        "spring": {
-          "event": "Spring in Western Serbia",
-          "description": "Blooming hills and mild temperatures make outdoor walks especially enjoyable.",
-          "ideas": [
-            {
-              "name": "Fortress Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.8536%2C19.8460",
-              "description": "Clear views and fresh greenery."
-            },
-            {
-              "name": "Riverside Paths",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.8550%2C19.8405",
-              "description": "Comfortable temperatures for walking."
-            },
-            {
-              "name": "Museum Visits",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.8570%2C19.8450",
-              "description": "Balanced indoor and outdoor culture."
-            }
-          ]
-        },
-        "summer": {
-          "event": "Užice Summer Cultural Program",
-          "description": "Warm days with outdoor concerts and events across the city.",
-          "ideas": [
-            {
-              "name": "Evening River Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.8550%2C19.8405",
-              "description": "Cooler air by the river."
-            },
-            {
-              "name": "Outdoor Cafés",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.8565%2C19.8455",
-              "description": "Lively summer evenings."
-            },
-            {
-              "name": "Day Trip to Zlatibor",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7295%2C19.7005",
-              "description": "Mountain air and nature nearby."
-            }
-          ]
-        },
-        "autumn": {
-          "event": "Autumn in Zlatibor Region",
-          "description": "Golden forests and crisp air define the season.",
-          "ideas": [
-            {
-              "name": "Gorge Photography",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.8550%2C19.8405",
-              "description": "Autumn colors along the river."
-            },
-            {
-              "name": "Historic Center Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.8560%2C19.8460",
-              "description": "Pleasant sightseeing temperatures."
-            },
-            {
-              "name": "Local Dining",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.8565%2C19.8455",
-              "description": "Hearty western Serbian cuisine."
-            }
-          ]
-        },
-        "winter": {
-          "event": "Winter in Western Serbia",
-          "description": "Cold but cozy, with easy access to nearby mountain resorts.",
-          "ideas": [
-            {
-              "name": "Museum Exploration",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.8570%2C19.8450",
-              "description": "Warm indoor history."
-            },
-            {
-              "name": "Traditional Cafés",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.8565%2C19.8455",
-              "description": "Hot drinks and local sweets."
-            },
-            {
-              "name": "Zlatibor Winter Trips",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7295%2C19.7005",
-              "description": "Snowy landscapes and winter sports."
-            }
-          ]
-        }
-      },
-      "public_transport_tips": [
-        {
-          "tip": "Local buses connect the city center with surrounding neighborhoods.",
-          "link": "https://www.uzice.rs"
-        },
-        {
-          "tip": "The city center and river gorge are easy to explore on foot.",
-          "link": "https://www.turizamuzice.org.rs"
-        },
-        {
-          "tip": "Intercity buses link Užice with Belgrade and western Serbia.",
-          "link": "https://www.lasta.rs"
-        }
-      ],
-      "city_events": [
-        {
-          "name": "Užice Summer Festival",
-          "season": "Summer",
-          "description": "Open-air concerts and cultural events throughout the city.",
-          "website": "https://www.turizamuzice.org.rs",
-          "dates": "July–August (annual)"
-        },
-        {
-          "name": "Zlatibor Gastro Days",
-          "season": "Autumn",
-          "description": "Food-focused events celebrating western Serbian cuisine.",
-          "website": "https://www.zlatibor.org.rs",
-          "dates": "September (annual)"
-        }
-      ],
-      "places": [
-        {
-          "name": "Republic Square Užice",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.8565%2C19.8455",
-          "description": "The central square and social hub of the city."
-        },
-        {
-          "name": "Hydroelectric Power Plant Pod Gradom",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.8545%2C19.8435",
-          "description": "One of the oldest hydroelectric power plants in Europe, located below the fortress."
-        }
-      ],
-      "hidden_gems": [
-        {
-          "name": "Staparska Banja",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.8755%2C19.7765",
-          "description": "A small spa village near Užice, known for mineral springs and calm surroundings."
-        },
-        {
-          "name": "Quiet Gorge Trails",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.8585%2C19.8350",
-          "description": "Less-used walking paths offering peaceful river views."
-        }
-      ]
-    },
-
-    {
-      "name": "Valjevo",
-      "interests": [
-        {
-          "name": "Tešnjar Old Bazaar",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=44.2755%2C19.8895",
-          "description": "A well-preserved Ottoman-era quarter with cobbled streets, traditional houses, cafés, and a strong historical atmosphere."
-        },
-        {
-          "name": "Valjevo City Museum (Muselim’s Konak)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=44.2750%2C19.8905",
-          "description": "A historic building and museum presenting Valjevo’s role in Serbian uprisings and regional history."
-        },
-        {
-          "name": "Gradac River Canyon",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=44.2740%2C19.8735",
-          "description": "A protected natural area with clear river water, walking paths, and peaceful picnic spots."
-        }
-      ],
-      "local_food_tip": "Try Valjevo specialties such as homemade sausages, roast meats, kajmak, fresh cheese, and traditional Serbian pastries.",
-      "full_day": {
-        "morning": "Begin in <a href=\"https://www.google.com/maps/search/?api=1&query=44.2755%2C19.8895\" target=\"_blank\" rel=\"noopener\">Tešnjar Old Bazaar</a> ☀️, walking through cobbled streets and historic houses.",
-        "afternoon": "Visit the <a href=\"https://www.google.com/maps/search/?api=1&query=44.2750%2C19.8905\" target=\"_blank\" rel=\"noopener\">Valjevo City Museum</a> 🏛️, then enjoy lunch nearby.",
-        "sunset": "Head to the <a href=\"https://www.google.com/maps/search/?api=1&query=44.2740%2C19.8735\" target=\"_blank\" rel=\"noopener\">Gradac River Canyon</a> 🌅 for nature walks and calm scenery.",
-        "night": "Have dinner 🍽️ in the city center or relax in a riverside café."
-      },
-      "seasons": {
-        "spring": {
-          "event": "Spring in Western Serbia",
-          "description": "Blooming nature and mild temperatures make the city and river canyon especially attractive.",
-          "ideas": [
-            {
-              "name": "Gradac River Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=44.2740%2C19.8735",
-              "description": "Fresh greenery and flowing water."
-            },
-            {
-              "name": "Old Bazaar Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=44.2755%2C19.8895",
-              "description": "Comfortable temperatures for sightseeing."
-            },
-            {
-              "name": "Museum Visits",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=44.2750%2C19.8905",
-              "description": "Balanced indoor culture."
-            }
-          ]
-        },
-        "summer": {
-          "event": "Valjevo Summer Cultural Program",
-          "description": "Warm days with festivals and outdoor events.",
-          "ideas": [
-            {
-              "name": "River Picnics",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=44.2740%2C19.8735",
-              "description": "Cooling off by the water."
-            },
-            {
-              "name": "Evening Old Town Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=44.2755%2C19.8895",
-              "description": "Lively summer evenings."
-            },
-            {
-              "name": "Outdoor Cafés",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=44.2758%2C19.8900",
-              "description": "Social summer atmosphere."
-            }
-          ]
-        },
-        "autumn": {
-          "event": "Autumn in the Gradac Canyon",
-          "description": "Golden forests and crisp air define the season.",
-          "ideas": [
-            {
-              "name": "Nature Photography",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=44.2740%2C19.8735",
-              "description": "Autumn colors along the river."
-            },
-            {
-              "name": "Historic Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=44.2755%2C19.8895",
-              "description": "Pleasant temperatures."
-            },
-            {
-              "name": "Local Dining",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=44.2758%2C19.8900",
-              "description": "Hearty western Serbian cuisine."
-            }
-          ]
-        },
-        "winter": {
-          "event": "Quiet Winter Season",
-          "description": "A calm city atmosphere with cozy cafés and indoor culture.",
-          "ideas": [
-            {
-              "name": "Museum Exploration",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=44.2750%2C19.8905",
-              "description": "Warm indoor history."
-            },
-            {
-              "name": "Traditional Cafés",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=44.2758%2C19.8900",
-              "description": "Coffee and local sweets."
-            },
-            {
-              "name": "Day Trip to Divčibare",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=44.1085%2C19.9765",
-              "description": "Snowy mountain scenery nearby."
-            }
-          ]
-        }
-      },
-      "public_transport_tips": [
-        {
-          "tip": "Local buses connect the city center with Gradac Canyon access points.",
-          "link": "https://www.valjevo.rs"
-        },
-        {
-          "tip": "The historic center is compact and ideal for walking.",
-          "link": "https://www.turizamvaljevo.rs"
-        },
-        {
-          "tip": "Intercity buses link Valjevo with Belgrade and western Serbia.",
-          "link": "https://www.lasta.rs"
-        }
-      ],
-      "city_events": [
-        {
-          "name": "Tešnjar Summer Nights",
-          "season": "Summer",
-          "description": "Cultural events and concerts in the Old Bazaar.",
-          "website": "https://www.turizamvaljevo.rs",
-          "dates": "July–August (annual)"
-        },
-        {
-          "name": "Desanka Maksimović Poetry Days",
-          "season": "Spring",
-          "description": "Literary events honoring Serbia’s famous poet.",
-          "website": "https://www.turizamvaljevo.rs",
-          "dates": "May (annual)"
-        }
-      ],
-      "places": [
-        {
-          "name": "Valjevo City Center",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=44.2758%2C19.8900",
-          "description": "The social and commercial heart of the city."
-        },
-        {
-          "name": "Divčibare",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=44.1085%2C19.9765",
-          "description": "A nearby mountain plateau popular for hiking and winter trips."
-        }
-      ],
-      "hidden_gems": [
-        {
-          "name": "Gradac Monastery Ruins",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=44.2650%2C19.8605",
-          "description": "Quiet historic remains near the river canyon."
-        },
-        {
-          "name": "Less-Visited River Trails",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=44.2730%2C19.8690",
-          "description": "Peaceful walking paths along the Gradac River."
-        }
-      ]
-    },
-
-    {
-      "name": "Zlatibor",
-      "interests": [
-        {
-          "name": "Zlatibor Center (Kraljevi Konaci)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.7260%2C19.7025",
-          "description": "The lively heart of Zlatibor with pedestrian zones, cafés, shops, and mountain atmosphere."
-        },
-        {
-          "name": "Stopića Cave",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.7850%2C19.6965",
-          "description": "A spectacular limestone cave with stepped waterfalls and illuminated chambers."
-        },
-        {
-          "name": "Gold Gondola",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.7275%2C19.7045",
-          "description": "The longest panoramic gondola lift in the world, connecting Zlatibor center with Tornik Mountain."
-        }
-      ],
-      "local_food_tip": "Try komplet lepinja, smoked Zlatibor prosciutto, kajmak, lamb dishes, and homemade cheeses.",
-      "full_day": {
-        "morning": "Start in <a href=\"https://www.google.com/maps/search/?api=1&query=43.7260%2C19.7025\" target=\"_blank\" rel=\"noopener\">Zlatibor Center</a> ☀️ with a mountain breakfast and fresh air.",
-        "afternoon": "Ride the <a href=\"https://www.google.com/maps/search/?api=1&query=43.7275%2C19.7045\" target=\"_blank\" rel=\"noopener\">Gold Gondola</a> 🚡 to Tornik for views and walks.",
-        "sunset": "Visit <a href=\"https://www.google.com/maps/search/?api=1&query=43.7850%2C19.6965\" target=\"_blank\" rel=\"noopener\">Stopića Cave</a> 🌅 on the way back for a unique nature experience.",
-        "night": "Enjoy dinner 🍽️ in a traditional mountain restaurant and a relaxed evening stroll."
-      },
-      "seasons": {
-        "spring": {
-          "event": "Spring on Zlatibor",
-          "description": "Fresh greenery and mild temperatures make spring ideal for hiking.",
-          "ideas": [
-            {
-              "name": "Nature Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7305%2C19.7055",
-              "description": "Blooming meadows and forest paths."
-            },
-            {
-              "name": "Village Visits",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7805%2C19.7020",
-              "description": "Traditional mountain villages nearby."
-            },
-            {
-              "name": "Scenic Photography",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7350%2C19.7100",
-              "description": "Clear views and fresh colors."
-            }
-          ]
-        },
-        "summer": {
-          "event": "Zlatibor Summer Festival",
-          "description": "Cool mountain air, festivals, and outdoor activities attract visitors.",
-          "ideas": [
-            {
-              "name": "Hiking Trails",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7355%2C19.7200",
-              "description": "Marked trails across the plateau."
-            },
-            {
-              "name": "Lake Activities",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7265%2C19.7035",
-              "description": "Boating and relaxation by the lake."
-            },
-            {
-              "name": "Evening Events",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7260%2C19.7025",
-              "description": "Concerts and outdoor gatherings."
-            }
-          ]
-        },
-        "autumn": {
-          "event": "Autumn Colors of Zlatibor",
-          "description": "Golden forests and crisp air define the season.",
-          "ideas": [
-            {
-              "name": "Autumn Hiking",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7355%2C19.7200",
-              "description": "Comfortable temperatures and clear skies."
-            },
-            {
-              "name": "Food Tastings",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7260%2C19.7025",
-              "description": "Local smoked meats and cheeses."
-            },
-            {
-              "name": "Photography Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7400%2C19.7150",
-              "description": "Warm autumn light."
-            }
-          ]
-        },
-        "winter": {
-          "event": "Tornik Ski Season",
-          "description": "Snow transforms Zlatibor into a winter sports destination.",
-          "ideas": [
-            {
-              "name": "Tornik Ski Center",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7295%2C19.7125",
-              "description": "Skiing, snowboarding, and winter fun."
-            },
-            {
-              "name": "Winter Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7265%2C19.7035",
-              "description": "Snowy scenery and fresh air."
-            },
-            {
-              "name": "Cozy Mountain Restaurants",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7260%2C19.7025",
-              "description": "Warm meals and fireplaces."
-            }
-          ]
-        }
-      },
-      "public_transport_tips": [
-        {
-          "tip": "Local minibuses and taxis connect Zlatibor center with nearby attractions.",
-          "link": "https://www.zlatibor.org.rs"
-        },
-        {
-          "tip": "Intercity buses connect Zlatibor with Belgrade and western Serbia.",
-          "link": "https://www.lasta.rs"
-        },
-        {
-          "tip": "Most central attractions are within walking distance.",
-          "link": "https://www.zlatibor.org.rs"
-        }
-      ],
-      "city_events": [
-        {
-          "name": "Zlatibor Summer Festival",
-          "season": "Summer",
-          "description": "Concerts, fairs, and cultural events throughout the resort.",
-          "website": "https://www.zlatibor.org.rs",
-          "dates": "July–August (annual)"
-        },
-        {
-          "name": "Pršutijada (Smoked Ham Festival)",
-          "season": "Winter",
-          "description": "A traditional food festival celebrating local smoked ham.",
-          "website": "https://www.prsutijada.rs",
-          "dates": "February (annual)"
-        }
-      ],
-      "places": [
-        {
-          "name": "Tornik Mountain",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.7295%2C19.7125",
-          "description": "The highest peak of Zlatibor, popular year-round."
-        },
-        {
-          "name": "Sirogojno Open-Air Museum",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.7915%2C19.6940",
-          "description": "An ethnographic village showcasing traditional wooden houses."
-        }
-      ],
-      "hidden_gems": [
-        {
-          "name": "Gostilje Waterfall",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.7930%2C19.6905",
-          "description": "A scenic waterfall surrounded by forest, ideal for short hikes."
-        },
-        {
-          "name": "Semegnjevo Village",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.7445%2C19.6545",
-          "description": "A quiet village offering authentic rural atmosphere."
+          "name": "Traditional Winter Meals",
+          "map_link": "https://www.google.com/maps/search/Etno+Ku%C4%87a+Kragujevac",
+          "description": "Warm stews and grilled dishes are especially popular."
         }
       ]
     }
+  },
+  "public_transport_tips": [
+    {
+      "tip": "City buses cover most neighborhoods and are the main form of public transport.",
+      "link": "https://jkpsumadija.rs"
+    },
+    {
+      "tip": "Tickets are usually purchased directly from the driver; carry small cash.",
+      "link": "https://www.kragujevac.rs"
+    }
+  ],
+  "city_events": [
+    {
+      "name": "October Memorial Ceremony",
+      "season": "autumn",
+      "description": "A solemn commemoration honoring victims of World War II at Šumarice Memorial Park.",
+      "website": "https://www.spomenpark.rs",
+      "dates": "October 21"
+    }
+  ],
+  "places": [
+    {
+      "name": "Šumarice Memorial Park",
+      "map_link": "https://www.google.com/maps/search/%C5%A0umarice+Memorial+Park",
+      "description": "A vast memorial complex with symbolic monuments, open meadows, and quiet paths dedicated to remembrance and peace. It combines historical importance with natural beauty."
+    },
+    {
+      "name": "Milošev Venac",
+      "map_link": "https://www.google.com/maps/search/Milo%C5%A1ev+Venac+Kragujevac",
+      "description": "The historic core of Kragujevac, featuring 19th-century buildings, museums, and landscaped paths that reflect the city’s role in Serbian statehood."
+    }
+  ],
+  "hidden_gems": [
+    {
+      "name": "Old Foundry Museum",
+      "map_link": "https://www.google.com/maps/search/Old+Foundry+Museum+Kragujevac",
+      "description": "Located in a former industrial complex, this museum tells the story of Kragujevac as an industrial center. Locals appreciate its authentic atmosphere and lesser-known exhibits."
+    },
+    {
+      "name": "Student Cultural Center Courtyard",
+      "map_link": "44.014889,20.911556",
+      "description": "A relaxed outdoor space used for small concerts, gatherings, and informal events, popular with students and creatives for its open and friendly vibe."
+    }
+  ]
+},
+
+{
+  "name": "Niš",
+  "interests": {
+    "Art & Culture": [
+      {
+        "name": "Niš Fortress",
+        "map_link": "https://www.google.com/maps/search/Ni%C5%A1+Fortress",
+        "description": "A massive Ottoman-era fortress located along the Nišava River, featuring preserved gates, inner streets, exhibition spaces, and frequent cultural events."
+      },
+      {
+        "name": "National Museum Niš",
+        "map_link": "https://www.google.com/maps/search/National+Museum+Ni%C5%A1",
+        "description": "A central cultural institution presenting archaeological finds, Roman heritage, and Serbian history connected to the Niš region."
+      }
+    ],
+    "Photo Spots": [
+      {
+        "name": "Niš Fortress Walls & Riverbank",
+        "map_link": "https://www.google.com/maps/search/Ni%C5%A1+Fortress",
+        "description": "Stone walls, river reflections, and bridges make this one of the most photogenic areas in the city, especially during golden hour."
+      },
+      {
+        "name": "Skull Tower (Ćele Kula)",
+        "map_link": "https://www.google.com/maps/search/%C4%86ele+Kula+Ni%C5%A1",
+        "description": "A powerful and historic site offering striking, meaningful photographs tied to Serbian history and resistance."
+      }
+    ],
+    "Food & Nightlife": [
+      {
+        "name": "Kazandžijsko Sokače",
+        "map_link": "https://www.google.com/maps/search/Kazand%C5%BEijsko+Soka%C4%8De+Ni%C5%A1",
+        "description": "A charming cobblestone street filled with traditional restaurants and cafés, popular for relaxed evenings and local cuisine."
+      },
+      {
+        "name": "Niš City Center Cafés",
+        "map_link": "https://www.google.com/maps/search/Obrenovi%C4%87eva+Street+Ni%C5%A1",
+        "description": "The main pedestrian zone with modern cafés, bakeries, and casual nightlife spots frequented by students."
+      }
+    ],
+    "Nature & Relaxation": [
+      {
+        "name": "Čair Park",
+        "map_link": "https://www.google.com/maps/search/%C4%8Cair+Park+Ni%C5%A1",
+        "description": "A large urban park with walking paths, sports areas, and shaded benches, ideal for a break between sightseeing."
+      },
+      {
+        "name": "Nišava River Walk",
+        "map_link": "https://www.google.com/maps/search/Ni%C5%A1ava+River+Ni%C5%A1",
+        "description": "Peaceful riverside paths perfect for evening walks and casual cycling."
+      }
+    ]
+  },
+  "local_food_tip": "Niš is famous for grilled meat — try ćevapi or pljeskavica in traditional restaurants rather than fast-food chains for the best flavor.",
+  "full_day": {
+    "Morning": "☀️ Start with breakfast near <a href=\"https://www.google.com/maps/search/Obrenovi%C4%87eva+Street+Ni%C5%A1\">Obrenovićeva Street</a>, then explore the <a href=\"https://www.google.com/maps/search/Ni%C5%A1+Fortress\">Niš Fortress</a> and walk along the river.",
+    "Afternoon": "🏛 Visit the <a href=\"https://www.google.com/maps/search/National+Museum+Ni%C5%A1\">National Museum</a> and continue to the historic <a href=\"https://www.google.com/maps/search/%C4%86ele+Kula+Ni%C5%A1\">Skull Tower</a>.",
+    "Sunset": "🌅 Relax in <a href=\"https://www.google.com/maps/search/%C4%8Cair+Park+Ni%C5%A1\">Čair Park</a> or return to the fortress for sunset views.",
+    "Night": "🌙 Dinner and drinks in <a href=\"https://www.google.com/maps/search/Kazand%C5%BEijsko+Soka%C4%8De+Ni%C5%A1\">Kazandžijsko Sokače</a>, enjoying traditional food and live music."
+  },
+  "seasons": {
+    "spring": {
+      "event": "City Spring Cultural Program",
+      "description": "The city hosts outdoor exhibitions, performances, and cultural events as warmer weather begins.",
+      "ideas": [
+        {
+          "name": "Fortress Walks",
+          "map_link": "https://www.google.com/maps/search/Ni%C5%A1+Fortress",
+          "description": "Comfortable temperatures make exploring the fortress ideal."
+        },
+        {
+          "name": "Park Picnics",
+          "map_link": "https://www.google.com/maps/search/%C4%8Cair+Park+Ni%C5%A1",
+          "description": "Locals gather for relaxed afternoons in the park."
+        },
+        {
+          "name": "Museum Visits",
+          "map_link": "https://www.google.com/maps/search/National+Museum+Ni%C5%A1",
+          "description": "Spring exhibitions often attract fewer crowds."
+        }
+      ]
+    },
+    "summer": {
+      "event": "Nišville Jazz Festival",
+      "description": "An internationally known jazz festival held inside the Niš Fortress.",
+      "ideas": [
+        {
+          "name": "Nišville Concert Nights",
+          "map_link": "https://www.google.com/maps/search/Ni%C5%A1+Fortress",
+          "description": "Live music performances in a historic setting."
+        },
+        {
+          "name": "Evening River Walks",
+          "map_link": "https://www.google.com/maps/search/Ni%C5%A1ava+River+Ni%C5%A1",
+          "description": "Cooler evenings along the river are popular."
+        },
+        {
+          "name": "Late Cafés",
+          "map_link": "https://www.google.com/maps/search/Obrenovi%C4%87eva+Street+Ni%C5%A1",
+          "description": "City nightlife stays active until late."
+        }
+      ]
+    },
+    "autumn": {
+      "event": "Student Season Opening",
+      "description": "The return of university students brings renewed energy to the city.",
+      "ideas": [
+        {
+          "name": "Historic Street Walks",
+          "map_link": "https://www.google.com/maps/search/Kazand%C5%BEijsko+Soka%C4%8De+Ni%C5%A1",
+          "description": "Autumn colors add charm to old streets."
+        },
+        {
+          "name": "Indoor Cultural Events",
+          "map_link": "https://www.google.com/maps/search/National+Theatre+Ni%C5%A1",
+          "description": "Theatre and cultural programs resume."
+        },
+        {
+          "name": "Coffee Culture",
+          "map_link": "https://www.google.com/maps/search/Obrenovi%C4%87eva+Street+Ni%C5%A1",
+          "description": "Cafés become cozy meeting spots."
+        }
+      ]
+    },
+    "winter": {
+      "event": "New Year Celebrations",
+      "description": "Public squares host concerts and holiday decorations.",
+      "ideas": [
+        {
+          "name": "Winter Fortress Views",
+          "map_link": "https://www.google.com/maps/search/Ni%C5%A1+Fortress",
+          "description": "A quiet and atmospheric winter walk."
+        },
+        {
+          "name": "Museum Days",
+          "map_link": "https://www.google.com/maps/search/National+Museum+Ni%C5%A1",
+          "description": "Ideal indoor activity during cold weather."
+        },
+        {
+          "name": "Traditional Winter Food",
+          "map_link": "https://www.google.com/maps/search/Kazand%C5%BEijsko+Soka%C4%8De+Ni%C5%A1",
+          "description": "Hearty grilled dishes and stews are popular."
+        }
+      ]
+    }
+  },
+  "public_transport_tips": [
+    {
+      "tip": "City buses are the main form of public transport and connect most neighborhoods.",
+      "link": "https://www.ni.rs"
+    },
+    {
+      "tip": "Tickets are commonly bought from the driver; carry small cash.",
+      "link": "https://www.jgpnis.rs"
+    }
+  ],
+  "city_events": [
+    {
+      "name": "Nišville Jazz Festival",
+      "season": "summer",
+      "description": "One of Southeast Europe’s most famous jazz festivals, held annually in the Niš Fortress.",
+      "website": "https://www.nisville.com",
+      "dates": "August"
+    }
+  ],
+  "places": [
+    {
+      "name": "Niš Fortress",
+      "map_link": "https://www.google.com/maps/search/Ni%C5%A1+Fortress",
+      "description": "A large, well-preserved fortress with stone walls, gates, cafés, and cultural venues, forming the social and historical heart of the city."
+    },
+    {
+      "name": "Skull Tower (Ćele Kula)",
+      "map_link": "https://www.google.com/maps/search/%C4%86ele+Kula+Ni%C5%A1",
+      "description": "A unique and solemn monument built from human skulls after the Battle of Čegar, symbolizing sacrifice and resistance."
+    }
+  ],
+  "hidden_gems": [
+    {
+      "name": "Bali-Beg Mosque",
+      "map_link": "https://www.google.com/maps/search/Bali+Bey+Mosque+Ni%C5%A1",
+      "description": "A restored Ottoman mosque inside the fortress, quieter than surrounding areas and often used for exhibitions and cultural events."
+    },
+    {
+      "name": "Čegar Hill Viewpoint",
+      "map_link": "43.307215,21.927602",
+      "description": "A calm hilltop area near the historic battlefield, offering open views and a peaceful atmosphere away from city crowds."
+    }
+  ]
+},
+
+    {
+  "name": "Novi Sad",
+  "interests": {
+    "Art & Culture": [
+      {
+        "name": "Petrovaradin Fortress",
+        "map_link": "https://maps.google.com/?q=Petrovaradin+Fortress+Novi+Sad",
+        "description": "An impressive 17th-century fortress on the Danube’s right bank, known as the 'Gibraltar on the Danube'. It houses art studios, museums, and offers panoramic views of the city."
+      },
+      {
+        "name": "Museum of Vojvodina",
+        "map_link": "https://maps.google.com/?q=Museum+of+Vojvodina+Novi+Sad",
+        "description": "A major cultural institution with exhibitions about Vojvodina’s history, art, and ethnography from prehistoric to modern times."
+      },
+      {
+        "name": "Serbian National Theatre",
+        "map_link": "https://maps.google.com/?q=Serbian+National+Theatre+Novi+Sad",
+        "description": "One of Serbia’s oldest theatres offering drama, opera, and ballet performances in a modern, centrally located building."
+      }
+    ],
+    "Photo Spots": [
+      {
+        "name": "Varadin Bridge Viewpoint",
+        "map_link": "https://maps.google.com/?q=Varadin+Bridge+Novi+Sad",
+        "description": "The best view of Novi Sad’s riverside skyline, especially at sunset with the fortress in the background."
+      },
+      {
+        "name": "Liberty Square (Trg Slobode)",
+        "map_link": "https://maps.google.com/?q=Trg+Slobode+Novi+Sad",
+        "description": "The city’s main square surrounded by pastel-colored Austro-Hungarian buildings and the stunning Name of Mary Church."
+      },
+      {
+        "name": "Danube Park",
+        "map_link": "https://maps.google.com/?q=Danube+Park+Novi+Sad",
+        "description": "A peaceful urban park filled with sculptures, ponds, and flowers — perfect for photography in any season."
+      }
+    ],
+    "Food & Nightlife": [
+      {
+        "name": "Laze Telečkog Street",
+        "map_link": "https://maps.google.com/?q=Laze+Telečkog+Street+Novi+Sad",
+        "description": "The heart of Novi Sad’s nightlife, full of cozy pubs, live music bars, and local craft beer spots."
+      },
+      {
+        "name": "Fish Market (Riblja Pijaca)",
+        "map_link": "https://maps.google.com/?q=Riblja+Pijaca+Novi+Sad",
+        "description": "A lively morning market where locals buy fresh produce and fish — perfect for experiencing authentic local life."
+      },
+      {
+        "name": "Carica Urban Gastro Bar",
+        "map_link": "https://maps.google.com/?q=Carica+Novi+Sad",
+        "description": "Trendy restaurant mixing traditional Serbian flavors with a modern twist, ideal for brunch or dinner."
+      }
+    ],
+    "Nature & Relaxation": [
+      {
+        "name": "Štrand Beach",
+        "map_link": "https://maps.google.com/?q=Štrand+Novi+Sad",
+        "description": "A sandy city beach along the Danube with swimming, sports, and relaxed summer vibes."
+      },
+      {
+        "name": "Fruška Gora National Park",
+        "map_link": "https://maps.google.com/?q=Fruska+Gora+National+Park",
+        "description": "A nearby forested mountain known for hiking trails, monasteries, and scenic viewpoints — easily reachable from Novi Sad."
+      },
+      {
+        "name": "Kamenički Park",
+        "map_link": "https://maps.google.com/?q=Kamenicki+Park+Novi+Sad",
+        "description": "A large riverside park across the bridge, popular for picnics, old trees, and relaxing walks."
+      }
+    ]
+  },
+  "local_food_tip": "Try 'čorba od ribe' (fish soup) or 'perkelt' at a restaurant along the Danube — they’re local specialties.",
+  "full_day": {
+    "Morning": "Begin at <a href=\"https://maps.google.com/?q=Trg+Slobode+Novi+Sad\">Liberty Square</a> ☀️, visit the <a href=\"https://maps.google.com/?q=Museum+of+Vojvodina+Novi+Sad\">Museum of Vojvodina</a>, then enjoy a coffee near <a href=\"https://maps.google.com/?q=Danube+Park+Novi+Sad\">Danube Park</a>.",
+    "Afternoon": "Walk across the bridge to <a href=\"https://maps.google.com/?q=Petrovaradin+Fortress+Novi+Sad\">Petrovaradin Fortress</a> for views and galleries, then have lunch overlooking the river 🍽️.",
+    "Sunset": "Watch the colors over the Danube from <a href=\"https://maps.google.com/?q=Varadin+Bridge+Novi+Sad\">Varadin Bridge</a> 🌇.",
+    "Night": "Head back to <a href=\"https://maps.google.com/?q=Laze+Telečkog+Street+Novi+Sad\">Laze Telečkog Street</a> for live music and dinner 🍻."
+  },
+  "seasons": {
+    "Spring": {
+      "event": "Flower Festival in Danube Park",
+      "description": "Local florists and artists decorate Novi Sad’s central park with thousands of flowers.",
+      "ideas": [
+        {
+          "name": "Walk through Danube Park",
+          "map_link": "https://maps.google.com/?q=Danube+Park+Novi+Sad",
+          "description": "Enjoy the colorful blossoms and sculptures."
+        },
+        {
+          "name": "Cycling by the Danube",
+          "map_link": "https://maps.google.com/?q=Danube+Embankment+Novi+Sad",
+          "description": "Rent a bike and ride the riverside paths."
+        },
+        {
+          "name": "Visit Fruška Gora monasteries",
+          "map_link": "https://maps.google.com/?q=Fruska+Gora+Monasteries",
+          "description": "Peaceful countryside temples surrounded by spring greenery."
+        }
+      ]
+    },
+    "Summer": {
+      "event": "EXIT Festival",
+      "description": "World-famous music festival held at Petrovaradin Fortress, featuring top global artists.",
+      "ideas": [
+        {
+          "name": "Swim at Štrand Beach",
+          "map_link": "https://maps.google.com/?q=Štrand+Novi+Sad",
+          "description": "Cool off by the river and join the beach volleyball games."
+        },
+        {
+          "name": "Attend EXIT Festival",
+          "map_link": "https://maps.google.com/?q=Petrovaradin+Fortress+Novi+Sad",
+          "description": "Experience one of Europe’s best outdoor music events under the stars."
+        },
+        {
+          "name": "Evening boat cruise on the Danube",
+          "map_link": "https://maps.google.com/?q=Danube+Cruise+Novi+Sad",
+          "description": "See the city lights from the river during warm summer nights."
+        }
+      ]
+    },
+    "Autumn": {
+      "event": "Novi Sad Wine Fest",
+      "description": "Local wineries from Fruška Gora present their best vintages in Liberty Square.",
+      "ideas": [
+        {
+          "name": "Taste local wines",
+          "map_link": "https://maps.google.com/?q=Trg+Slobode+Novi+Sad",
+          "description": "Sample Fruška Gora wines and enjoy street performances."
+        },
+        {
+          "name": "Autumn walks in Kamenički Park",
+          "map_link": "https://maps.google.com/?q=Kamenicki+Park+Novi+Sad",
+          "description": "Golden leaves and calm river views create a perfect fall atmosphere."
+        },
+        {
+          "name": "Visit small galleries in the fortress",
+          "map_link": "https://maps.google.com/?q=Petrovaradin+Fortress+Art+Studios",
+          "description": "Meet local artists working in hidden studios."
+        }
+      ]
+    },
+    "Winter": {
+      "event": "Novi Sad Winter Fest",
+      "description": "A cozy Christmas market with lights, ice skating, and mulled wine in Liberty Square.",
+      "ideas": [
+        {
+          "name": "Hot chocolate in Dunavska Street",
+          "map_link": "https://maps.google.com/?q=Dunavska+Street+Novi+Sad",
+          "description": "Warm up in one of the many cute cafes along the city’s oldest street."
+        },
+        {
+          "name": "Ice skating at Winter Fest",
+          "map_link": "https://maps.google.com/?q=Trg+Slobode+Novi+Sad",
+          "description": "Join locals skating in the city center under festive lights."
+        },
+        {
+          "name": "Visit the City Museum",
+          "map_link": "https://maps.google.com/?q=City+Museum+of+Novi+Sad",
+          "description": "Learn about the fortress and city history indoors on a cold day."
+        }
+      ]
+    }
+  },
+  "public_transport_tips": [
+    {
+      "tip": "Buy tickets at newsstands or via SMS before boarding buses.",
+      "link": "https://www.gspns.co.rs/"
+    },
+    {
+      "tip": "Use the 'moovitapp' to check real-time routes and schedules.",
+      "link": "https://moovitapp.com/"
+    },
+    {
+      "tip": "Most attractions are walkable within the city center — rent a bike for longer distances.",
+      "link": "https://nsbike.rs/"
+    }
+  ],
+  "city_events": [
+    {
+      "name": "EXIT Festival",
+      "season": "Summer",
+      "description": "Europe’s award-winning open-air music festival held at Petrovaradin Fortress.",
+      "website": "https://www.exitfest.org/",
+      "dates": "July"
+    },
+    {
+      "name": "Novi Sad Wine Fest",
+      "season": "Autumn",
+      "description": "Annual celebration of local wineries and regional culture.",
+      "website": "https://www.facebook.com/novisadwinefest/",
+      "dates": "October"
+    },
+    {
+      "name": "Winter Fest Novi Sad",
+      "season": "Winter",
+      "description": "A cozy Christmas and New Year fair in the city center.",
+      "website": "https://www.winterfest2019.com/",
+      "dates": "December–January"
+    }
+  ],
+  "places": [
+    {
+      "name": "Petrovaradin Fortress",
+      "link": "https://maps.google.com/?q=Petrovaradin+Fortress+Novi+Sad",
+      "description": "A monumental fortress complex overlooking the Danube with tunnels, art studios, and cafés. Famous for hosting the EXIT Festival and offering one of the best panoramic views in Serbia."
+    },
+    {
+      "name": "Liberty Square (Trg Slobode)",
+      "link": "https://maps.google.com/?q=Trg+Slobode+Novi+Sad",
+      "description": "The main city square surrounded by elegant Austro-Hungarian buildings and dominated by the Gothic Revival Name of Mary Church."
+    },
+    {
+      "name": "Name of Mary Church",
+      "link": "https://maps.google.com/?q=Name+of+Mary+Church+Novi+Sad",
+      "description": "A neo-Gothic Roman Catholic church with a 72-meter spire, intricate stained glass, and beautiful details inside and out."
+    },
+    {
+      "name": "Dunavska Street",
+      "link": "https://maps.google.com/?q=Dunavska+Street+Novi+Sad",
+      "description": "One of the oldest pedestrian streets in the city, lined with colorful buildings, boutiques, and cafes leading directly to the Danube Park."
+    }
+  ],
+  "hidden_gems": [
+    {
+      "name": "Eđšeg Cultural Station",
+      "map_link": "https://maps.google.com/?q=Eđšeg+Cultural+Station+Novi+Sad",
+      "description": "A renovated 19th-century castle-like villa that hosts art exhibits, workshops, and small concerts — hidden in a quiet residential area."
+    },
+    {
+      "name": "Svilara Cultural Center",
+      "map_link": "https://maps.google.com/?q=Svilara+Novi+Sad",
+      "description": "Former silk factory turned creative space featuring modern art, performances, and community events off the main tourist routes."
+    },
+    {
+      "name": "Telep Riverbank Path",
+      "map_link": "https://maps.google.com/?q=Telep+Riverbank+Novi+Sad",
+      "description": "A calm riverside trail west of the city center, loved by locals for morning jogs and quiet sunsets by the Danube."
+    },
+    {
+      "name": "Podrum Malča Novi Sad",
+      "map_link": "https://maps.google.com/?q=Podrum+Malča+Novi+Sad",
+      "description": "A cozy underground wine cellar offering tastings of small-batch Serbian wines in a rustic, candle-lit atmosphere."
+    },
+    {
+      "name": "Liman Park",
+      "map_link": "https://maps.google.com/?q=Liman+Park+Novi+Sad",
+      "description": "A small, tree-filled park hidden between residential blocks, perfect for reading, chatting, or relaxing on warm days."
+    }
+  ]
+},
+
+{
+  "name": "Subotica",
+  "interests": {
+    "Art & Culture": [
+      {
+        "name": "Subotica City Hall",
+        "map_link": "https://www.google.com/maps/place/Subotica+City+Hall",
+        "description": "An Art Nouveau masterpiece built in 1912, the City Hall is Subotica’s most iconic landmark. Its colorful façade, ornate details, and panoramic tower views make it a must-visit for lovers of architecture and history."
+      },
+      {
+        "name": "Raichle Palace",
+        "map_link": "https://www.google.com/maps/place/Raichle+Palace",
+        "description": "Designed by architect Ferenc Raichle, this early 20th-century palace showcases Subotica’s famous Secessionist style. The building’s flowing lines, pastel colors, and intricate decorations make it a true gem."
+      },
+      {
+        "name": "Synagogue of Subotica",
+        "map_link": "https://www.google.com/maps/place/Subotica+Synagogue",
+        "description": "Built in 1902, this synagogue is one of the most beautiful in Europe, featuring stained glass, vibrant frescoes, and rich Moorish design influences."
+      }
+    ],
+    "Photo Spots": [
+      {
+        "name": "Freedom Square",
+        "map_link": "https://www.google.com/maps/place/Trg+slobode+Subotica",
+        "description": "The central square of Subotica is perfect for photography with its grand architecture, fountains, and lively local atmosphere."
+      },
+      {
+        "name": "Lake Palić Promenade",
+        "map_link": "https://www.google.com/maps/place/Palić+Lake",
+        "description": "A scenic lakeside spot just outside Subotica, ideal for sunset photos, swan watching, and peaceful walks."
+      }
+    ],
+    "Food & Nightlife": [
+      {
+        "name": "Boss Caffe",
+        "map_link": "https://www.google.com/maps/place/Boss+Caffe",
+        "description": "A trendy café-restaurant serving international and local cuisine in a stylish setting. Great for pizza, pasta, and Serbian dishes."
+      },
+      {
+        "name": "Stara Pizzeria",
+        "map_link": "https://www.google.com/maps/place/Stara+Pizzeria",
+        "description": "A cozy, family-run restaurant in the center, popular for its warm atmosphere and traditional food."
+      }
+    ],
+    "Nature & Relaxation": [
+      {
+        "name": "Palić Zoo",
+        "map_link": "https://www.google.com/maps/place/Palić+Zoo",
+        "description": "Located near Lake Palić, this zoo is home to over 270 species and is surrounded by beautiful gardens—great for a peaceful day outdoors."
+      },
+      {
+        "name": "Park Ferenc Raichle",
+        "map_link": "https://www.google.com/maps/place/Park+Ferenc+Raichle",
+        "description": "A small, quiet park near Raichle Palace with benches, flowers, and shade, perfect for reading or sketching."
+      }
+    ]
+  },
+  "local_food_tip": "Try 'ćevapi' or 'perkelt' at local taverns, and don’t miss 'somloi galuska' for dessert at a café near the main square.",
+  "full_day": {
+    "Morning": "☕ Start with breakfast at <a href=\"https://www.google.com/maps/place/Boss+Caffe\">Boss Caffe</a>, then explore <a href=\"https://www.google.com/maps/place/Subotica+City+Hall\">City Hall</a> and its tower for panoramic views.",
+    "Afternoon": "🎨 Visit <a href=\"https://www.google.com/maps/place/Raichle+Palace\">Raichle Palace</a> and the <a href=\"https://www.google.com/maps/place/Subotica+Synagogue\">Synagogue</a>. Have lunch at <a href=\"https://www.google.com/maps/place/Stara+Pizzeria\">Stara Pizzeria</a>.",
+    "Sunset": "🌅 Take a short trip to <a href=\"https://www.google.com/maps/place/Palić+Lake\">Lake Palić</a> for sunset views and a walk along the promenade.",
+    "Night": "🍽️ Return to Subotica’s center for dinner or ice cream at <a href=\"https://www.google.com/maps/place/Boss+Caffe\">Boss Caffe</a>, and enjoy the evening lights of Freedom Square."
+  },
+  "seasons": {
+    "spring": {
+      "event": "Flower Festival",
+      "description": "Held in May, featuring floral displays and local art in Freedom Square.",
+      "ideas": [
+        {
+          "name": "Subotica City Museum",
+          "map_link": "https://www.google.com/maps/place/Subotica+City+Museum",
+          "description": "Explore local history exhibits in the Neo-Baroque building."
+        },
+        {
+          "name": "Botanical Garden at Palić",
+          "map_link": "https://www.google.com/maps/place/Palić+Botanical+Garden",
+          "description": "Beautiful spring blossoms and native plant species near the lake."
+        },
+        {
+          "name": "Freedom Square Walk",
+          "map_link": "https://www.google.com/maps/place/Trg+slobode+Subotica",
+          "description": "Watch performers and musicians in the fresh spring air."
+        }
+      ]
+    },
+    "summer": {
+      "event": "European Film Festival Palić",
+      "description": "An annual international film event at Lake Palić and Subotica’s National Theatre.",
+      "ideas": [
+        {
+          "name": "Palić Water Tower",
+          "map_link": "https://www.google.com/maps/place/Palić+Water+Tower",
+          "description": "Iconic Art Nouveau structure near the lakeside entrance."
+        },
+        {
+          "name": "Summer Stage Palić",
+          "map_link": "https://www.google.com/maps/place/Summer+Stage+Palić",
+          "description": "Open-air cinema and concerts under the stars."
+        },
+        {
+          "name": "Beach Zone Palić",
+          "map_link": "https://www.google.com/maps/place/Palić+Beach",
+          "description": "Swim, rent pedal boats, or enjoy lakeside cafés."
+        }
+      ]
+    },
+    "autumn": {
+      "event": "Wine Days",
+      "description": "Local winemakers and food stalls celebrate harvest season in September.",
+      "ideas": [
+        {
+          "name": "Vinski Dvor Winery",
+         "map_link": "https://www.google.com/maps/place/Vinski+Dvor",
+          "description": "Taste regional wines paired with cheese platters."
+        },
+        {
+          "name": "Autumn Market in the Center",
+          "map_link": "https://www.google.com/maps/place/Subotica+Market",
+          "description": "Buy honey, paprika, and handmade crafts from local vendors."
+        },
+        {
+          "name": "Forest Walk at Dudova Šuma",
+          "map_link": "https://www.google.com/maps/place/Dudova+Šuma+Park",
+          "description": "A calm park filled with golden leaves and fresh air."
+        }
+      ]
+    },
+    "winter": {
+      "event": "Christmas Market",
+      "description": "Festive booths, lights, and music in Freedom Square during December.",
+      "ideas": [
+        {
+          "name": "Ice Skating Rink",
+          "map_link": "https://www.google.com/maps/place/Trg+slobode+Subotica",
+          "description": "Outdoor skating in the city center surrounded by Christmas lights."
+        },
+        {
+          "name": "Hot Chocolate at Boss Caffe",
+          "map_link": "https://www.google.com/maps/place/Boss+Caffe",
+          "description": "Warm up with seasonal drinks and pastries."
+        },
+        {
+          "name": "National Theatre Subotica",
+          "map_link": "https://www.google.com/maps/place/National+Theatre+Subotica",
+          "description": "Attend a winter concert or play in this elegant theater."
+        }
+      ]
+    }
+  },
+  "public_transport_tips": [
+    {
+      "tip": "Local buses connect Subotica with Palić and nearby villages; check schedules at the Subotica Bus Station.",
+      "link": "https://www.subotica.rs/page/public-transport"
+    },
+    {
+      "tip": "Trains to Novi Sad and Belgrade run several times daily from the main railway station.",
+      "link": "https://www.srbvoz.rs/en/"
+    }
+  ],
+  "city_events": [
+    {
+      "name": "European Film Festival Palić",
+      "season": "Summer",
+      "description": "Celebrates European cinema with open-air screenings and workshops.",
+      "website": "https://www.palicfilmfestival.com",
+      "dates": "July"
+    },
+    {
+      "name": "Interetno Festival",
+      "season": "August",
+      "description": "Folk dance, music, and crafts celebrating international cultures.",
+      "website": "https://www.interetno.net",
+      "dates": "August"
+    }
+  ],
+  "places": [
+    {
+      "name": "Subotica City Hall",
+      "map_link": "https://www.google.com/maps/place/Subotica+City+Hall",
+      "description": "Dominating the main square, this colorful Art Nouveau building is Subotica’s centerpiece, with a viewing tower, grand halls, and intricate tile work."
+    },
+    {
+      "name": "Subotica Synagogue",
+      "map_link": "https://www.google.com/maps/place/Subotica+Synagogue",
+      "description": "One of Europe’s most stunning synagogues, restored to its original brilliance and open for visits and cultural events."
+    },
+    {
+      "name": "National Theatre Subotica",
+      "map_link": "https://www.google.com/maps/place/National+Theatre+Subotica",
+      "description": "A historic performance space blending modern architecture with traditional charm."
+    }
+  ],
+  "hidden_gems": [
+    {
+      "name": "Dudova Šuma Park",
+      "map_link": "https://www.google.com/maps/place/Dudova+Šuma+Park",
+      "description": "A peaceful green space loved by locals for its walking trails, open lawns, and birdlife. Perfect for picnics and quiet moments away from the city center."
+    },
+    {
+      "name": "Mali Bajmok Vineyards",
+      "map_link": "https://www.google.com/maps/place/Mali+Bajmok",
+      "description": "A small village outside Subotica known for family-run vineyards where you can taste homemade wine in a rural setting."
+    },
+    {
+      "name": "Art Café Subotica",
+      "map_link": "https://www.google.com/maps/place/Art+Caffe+Subotica",
+      "description": "Hidden behind the City Hall, this cozy café doubles as an art gallery and live music venue — perfect for creative inspiration."
+    }
+  ]
+},
+
+{
+  "name": "Užice",
+  "interests": {
+    "Art & Culture": [
+      {
+        "name": "National Museum Užice",
+        "map_link": "https://www.google.com/maps/place/National+Museum+Užice",
+        "description": "Housed in a former bank building, the museum covers regional history from prehistoric times to World War II, including the unique story of the Užice Republic."
+      },
+      {
+        "name": "Old Town Fortress (Stari Grad)",
+        "map_link": "https://www.google.com/maps/place/Stari+Grad+Užice",
+        "description": "A medieval fortress overlooking the Đetinja River canyon. Offers panoramic views of the city and valley below, especially at sunset."
+      },
+      {
+        "name": "Art Gallery of Užice",
+        "map_link": "https://www.google.com/maps/place/Gradska+Galerija+Užice",
+        "description": "A small but lively gallery featuring exhibitions by local and Serbian artists, with workshops and art events throughout the year."
+      }
+    ],
+    "Photo Spots": [
+      {
+        "name": "Đetinja River Canyon",
+        "map_link": "https://www.google.com/maps/place/Đetinja+River",
+        "description": "A stunning river gorge flowing through the city, perfect for photography, walking, and cycling along the Greenway trail."
+      },
+      {
+        "name": "Ponikve Plateau",
+        "map_link": "https://www.google.com/maps/place/Ponikve+Airport",
+        "description": "A highland area above Užice known for its open landscapes, wildflowers, and views of Tara and Zlatibor mountains."
+      }
+    ],
+    "Food & Nightlife": [
+      {
+        "name": "Restoran Bajka",
+        "map_link": "https://www.google.com/maps/place/Restoran+Bajka+Užice",
+        "description": "Traditional Serbian restaurant with river views, serving local specialties like lamb roast, kajmak, and homemade bread."
+      },
+      {
+        "name": "Restoran Aleksandar",
+        "map_link": "https://www.google.com/maps/place/Restoran+Aleksandar+Užice",
+        "description": "A cozy and modern dining spot offering a mix of Balkan and international dishes with excellent service."
+      },
+      {
+        "name": "Caffe Tabacco",
+        "map_link": "https://www.google.com/maps/place/Caffe+Tabacco+Užice",
+        "description": "Popular café-bar for young locals, known for good coffee, music, and outdoor seating in the city center."
+      }
+    ],
+    "Nature & Relaxation": [
+      {
+        "name": "Potpeće Cave (Potpećka Pećina)",
+        "map_link": "https://www.google.com/maps/place/Potpećka+Pećina",
+        "description": "One of Serbia’s most beautiful caves, famous for its huge arched entrance and fascinating stalactites and stalagmites. Guided tours available."
+      },
+      {
+        "name": "Zlatibor Mountain",
+        "map_link": "https://www.google.com/maps/place/Zlatibor",
+        "description": "A short drive from Užice, this mountain resort offers hiking, fresh air, ski slopes, and traditional wooden cottages."
+      },
+      {
+        "name": "Beach on Đetinja River",
+        "map_link": "https://www.google.com/maps/place/Gradska+Plaža+Užice",
+        "description": "A local favorite for swimming and picnicking during summer, surrounded by cliffs and forest paths."
+      }
+    ]
+  },
+  "local_food_tip": "Try local Užice prosciutto (užička pršuta) and homemade rakija. Visit a mountain household near Zlatibor for an authentic meal of lamb and kajmak.",
+  "full_day": {
+    "Morning": "☕ Start with coffee at <a href=\"https://www.google.com/maps/place/Caffe+Tabacco+Užice\">Caffe Tabacco</a> before visiting the <a href=\"https://www.google.com/maps/place/National+Museum+Užice\">National Museum Užice</a> and <a href=\"https://www.google.com/maps/place/Stari+Grad+Užice\">Old Town Fortress</a>.",
+    "Afternoon": "🥘 Have lunch at <a href=\"https://www.google.com/maps/place/Restoran+Bajka+Užice\">Restoran Bajka</a> overlooking the river. Then walk or bike along the <a href=\"https://www.google.com/maps/place/Đetinja+River\">Đetinja Greenway</a>.",
+    "Sunset": "🌅 Head up to <a href=\"https://www.google.com/maps/place/Ponikve+Airport\">Ponikve Plateau</a> for wide-open views of the surrounding mountains.",
+    "Night": "🍷 End your day with dinner at <a href=\"https://www.google.com/maps/place/Restoran+Aleksandar+Užice\">Restoran Aleksandar</a> or a relaxed drink back in town."
+  },
+  "seasons": {
+    "spring": {
+      "event": "Užice Spring Marathon",
+      "description": "Local runners and visitors gather to race along the Đetinja River trail each April.",
+      "ideas": [
+        {
+          "name": "Đetinja River Walk",
+          "map_link": "https://www.google.com/maps/place/Đetinja+River",
+          "description": "The canyon trail is full of blossoms and great for photography in spring."
+        },
+        {
+          "name": "Potpeće Cave Visit",
+          "map_link": "https://www.google.com/maps/place/Potpećka+Pećina",
+          "description": "Spring is ideal for exploring the cave and nearby meadows."
+        },
+        {
+          "name": "Stari Grad Fortress Hike",
+          "map_link": "https://www.google.com/maps/place/Stari+Grad+Užice",
+          "description": "A short uphill walk with flowers and birdsong around the ruins."
+        }
+      ]
+    },
+    "summer": {
+      "event": "Festival of Nature and Culture",
+      "description": "Outdoor concerts, folklore dances, and food fairs take place across Užice and nearby villages.",
+      "ideas": [
+        {
+          "name": "Gradska Plaža",
+          "map_link": "https://www.google.com/maps/place/Gradska+Plaža+Užice",
+          "description": "Swim or relax by the Đetinja River beach."
+        },
+        {
+          "name": "Trip to Zlatibor",
+          "map_link": "https://www.google.com/maps/place/Zlatibor",
+          "description": "Spend the day in cool mountain air, visit Stopića Cave or Sirogojno village."
+        },
+        {
+          "name": "Evening Walk in the Center",
+          "map_link": "https://www.google.com/maps/place/Gradski+Trg+Užice",
+          "description": "Enjoy local ice cream and live music in the main square."
+        }
+      ]
+    },
+    "autumn": {
+      "event": "Rakija Fest Užice",
+      "description": "Celebration of local brandy-making traditions with tastings and folk music in October.",
+      "ideas": [
+        {
+          "name": "Wine and Rakija Route",
+          "map_link": "https://www.google.com/maps/place/Užice",
+          "description": "Visit small producers offering homemade rakija and jams."
+        },
+        {
+          "name": "Autumn Colors in Đetinja Canyon",
+          "map_link": "https://www.google.com/maps/place/Đetinja+River",
+          "description": "The canyon turns golden with fall leaves—great for photos."
+        },
+        {
+          "name": "Museum Evening Events",
+          "map_link": "https://www.google.com/maps/place/National+Museum+Užice",
+          "description": "Enjoy special evening exhibitions and talks in the city museum."
+        }
+      ]
+    },
+    "winter": {
+      "event": "New Year in Užice Square",
+      "description": "Music, fireworks, and food stalls fill the main square during December 31st celebrations.",
+      "ideas": [
+        {
+          "name": "Skiing on Zlatibor",
+          "map_link": "https://www.google.com/maps/place/Zlatibor",
+          "description": "Hit the small ski slopes near Tornik or try snow hiking."
+        },
+        {
+          "name": "Hot Chocolate at Caffe Tabacco",
+          "map_link": "https://www.google.com/maps/place/Caffe+Tabacco+Užice",
+          "description": "Warm up in the cozy café with friends."
+        },
+        {
+          "name": "National Theatre Performances",
+          "map_link": "https://www.google.com/maps/place/Narodno+Pozorište+Užice",
+          "description": "Catch a local play or concert in this elegant theater."
+        }
+      ]
+    }
+  },
+  "public_transport_tips": [
+    {
+      "tip": "Local buses connect Užice with Zlatibor, Sevojno, and surrounding villages.",
+      "link": "https://www.busticket4.me/EN/ops/UZICE"
+    },
+    {
+      "tip": "The train station offers connections to Belgrade, Čačak, and Montenegro via the famous Belgrade–Bar railway.",
+      "link": "https://www.srbvoz.rs/en/"
+    }
+  ],
+  "city_events": [
+    {
+      "name": "Rakija Fest Užice",
+      "season": "Autumn",
+      "description": "A celebration of homemade brandy and local food with traditional music.",
+      "website": "https://www.turizamuzice.rs",
+      "dates": "October"
+    },
+    {
+      "name": "Užice Jazz Festival",
+      "season": "Winter",
+      "description": "Annual jazz event featuring Serbian and international artists.",
+      "website": "https://www.turizamuzice.rs",
+      "dates": "December"
+    }
+  ],
+  "places": [
+    {
+      "name": "Old Town Fortress (Stari Grad)",
+      "map_link": "https://www.google.com/maps/place/Stari+Grad+Užice",
+      "description": "Medieval fortress ruins perched on a cliff above the Đetinja River. Offers dramatic views and photo opportunities."
+    },
+    {
+      "name": "National Museum Užice",
+      "map_link": "https://www.google.com/maps/place/National+Museum+Užice",
+      "description": "Learn about Užice’s turbulent history and regional heritage through detailed exhibits and artifacts."
+    },
+    {
+      "name": "Đetinja Greenway",
+      "map_link": "https://www.google.com/maps/place/Đetinja+Greenway",
+      "description": "A scenic eco-path following the river through tunnels and bridges, ideal for cycling or hiking."
+    }
+  ],
+  "hidden_gems": [
+    {
+      "name": "Sevojno Hill Viewpoint",
+      "map_link": "https://www.google.com/maps/place/Sevojno",
+      "description": "A quiet spot overlooking Užice and the surrounding valleys, loved by locals for its peaceful atmosphere."
+    },
+    {
+      "name": "Stopića Cave",
+      "map_link": "https://www.google.com/maps/place/Stopića+Pećina",
+      "description": "Located between Užice and Zlatibor, this lesser-known cave has cascading pools and a magical interior."
+    },
+    {
+      "name": "Gradac Monastery",
+      "map_link": "https://www.google.com/maps/place/Gradac+Monastery",
+      "description": "A serene medieval monastery surrounded by forest, offering tranquility and a glimpse into Serbian monastic life."
+    }
+  ]
+},
+
+{
+  "name": "Valjevo",
+  "interests": {
+    "Art & Culture": [
+      {
+        "name": "National Museum Valjevo",
+        "map_link": "https://www.google.com/maps/place/National+Museum+Valjevo",
+        "description": "This museum showcases Valjevo’s history from prehistoric times to World War II. The exhibits include ethnographic collections, ancient artifacts, and local art."
+      },
+      {
+        "name": "Tešnjar Quarter",
+        "map_link": "https://www.google.com/maps/place/Tešnjar+Valjevo",
+        "description": "A beautifully preserved 19th-century bazaar district filled with cobblestone streets, artisan shops, and cafés. It's the cultural heart of Valjevo."
+      },
+      {
+        "name": "Modern Gallery Valjevo",
+        "map_link": "https://www.google.com/maps/place/Modern+Gallery+Valjevo",
+        "description": "Hosts exhibitions of contemporary Serbian art, as well as works by local painters and sculptors."
+      }
+    ],
+    "Photo Spots": [
+      {
+        "name": "Gradac River Canyon",
+        "map_link": "https://www.google.com/maps/place/Gradac+River",
+        "description": "Crystal-clear water, wooden bridges, and steep cliffs make this one of Serbia’s most photogenic river valleys."
+      },
+      {
+        "name": "Tešnjar Streets",
+        "map_link": "https://www.google.com/maps/place/Tešnjar+Valjevo",
+        "description": "Perfect for photography lovers—colorful façades, antique lamps, and a timeless atmosphere."
+      }
+    ],
+    "Food & Nightlife": [
+      {
+        "name": "Restoran Kalem",
+        "map_link": "https://www.google.com/maps/place/Restoran+Kalem+Valjevo",
+        "description": "Modern Serbian cuisine with local ingredients and scenic river views."
+      },
+      {
+        "name": "Restoran Vidrak",
+        "map_link": "https://www.google.com/maps/place/Restoran+Vidrak+Valjevo",
+        "description": "Set in the forested hills above the city, this restaurant offers traditional grilled dishes and homemade desserts."
+      },
+      {
+        "name": "Tešnjar Café Bar",
+        "map_link": "https://www.google.com/maps/place/Tešnjar+Bar+Valjevo",
+        "description": "Popular among young locals for its relaxed atmosphere, live music, and great coffee."
+      }
+    ],
+    "Nature & Relaxation": [
+      {
+        "name": "Gradac River",
+        "map_link": "https://www.google.com/maps/place/Gradac+River",
+        "description": "A pristine river surrounded by forested hills, great for swimming, hiking, or picnicking."
+      },
+      {
+        "name": "Divčibare Mountain",
+        "map_link": "https://www.google.com/maps/place/Divčibare",
+        "description": "A small mountain resort located 30 km from Valjevo, ideal for hiking, skiing, or just enjoying nature."
+      },
+      {
+        "name": "Petnica Cave",
+        "map_link": "https://www.google.com/maps/place/Petnica+Cave",
+        "description": "A natural cave near the Petnica Science Center, offering guided tours and a look at underground formations."
+      }
+    ]
+  },
+  "local_food_tip": "Taste Valjevo-style 'komplet lepinja' (flatbread filled with egg and kajmak) and local honey or rakija made in nearby villages.",
+  "full_day": {
+    "Morning": "☕ Start your day at <a href=\"https://www.google.com/maps/place/Tešnjar+Bar+Valjevo\">Tešnjar Café Bar</a>, then explore <a href=\"https://www.google.com/maps/place/National+Museum+Valjevo\">the National Museum</a> and the charming <a href=\"https://www.google.com/maps/place/Tešnjar+Valjevo\">Tešnjar Quarter</a>.",
+    "Afternoon": "🌿 Have lunch at <a href=\"https://www.google.com/maps/place/Restoran+Kalem+Valjevo\">Restoran Kalem</a> by the river, then take a walk along the <a href=\"https://www.google.com/maps/place/Gradac+River\">Gradac River trail</a>.",
+    "Sunset": "🌅 Visit <a href=\"https://www.google.com/maps/place/Restoran+Vidrak+Valjevo\">Vidrak Viewpoint</a> for sunset views over the city.",
+    "Night": "🎶 Enjoy dinner at Vidrak or return to Tešnjar for music and dessert under the old street lamps."
+  },
+  "seasons": {
+    "spring": {
+      "event": "Tešnjar Spring Fair",
+      "description": "Local craftspeople and musicians fill the old bazaar in April with handmade goods and performances.",
+      "ideas": [
+        {
+          "name": "Petnica Cave Tour",
+          "map_link": "https://www.google.com/maps/place/Petnica+Cave",
+          "description": "See the cave’s entrance surrounded by blooming trees."
+        },
+        {
+          "name": "Walk along Gradac River",
+          "map_link": "https://www.google.com/maps/place/Gradac+River",
+          "description": "Enjoy the spring greenery and calm river sounds."
+        },
+        {
+          "name": "Tešnjar Coffee Stop",
+          "map_link": "https://www.google.com/maps/place/Tešnjar+Bar+Valjevo",
+          "description": "Perfect break during sightseeing in the old town."
+        }
+      ]
+    },
+    "summer": {
+      "event": "Tešnjar Nights Festival",
+      "description": "A lively festival held every August with concerts, theater, and street performances.",
+      "ideas": [
+        {
+          "name": "Gradac River Swimming Spot",
+          "map_link": "https://www.google.com/maps/place/Gradac+River",
+          "description": "Swim or relax by the river during hot days."
+        },
+        {
+          "name": "Divčibare Day Trip",
+          "map_link": "https://www.google.com/maps/place/Divčibare",
+          "description": "Cool mountain escape just 30 minutes away."
+        },
+        {
+          "name": "Open-Air Concerts",
+          "map_link": "https://www.google.com/maps/place/Tešnjar+Valjevo",
+          "description": "Free summer music events in Tešnjar Quarter."
+        }
+      ]
+    },
+    "autumn": {
+      "event": "Honey and Wine Fair",
+      "description": "Local beekeepers and winemakers present their products in Valjevo’s center in October.",
+      "ideas": [
+        {
+          "name": "Forest Walk in Vidrak Park",
+          "map_link": "https://www.google.com/maps/place/Vidrak+Park+Valjevo",
+          "description": "Golden leaves and forest paths make for a peaceful walk."
+        },
+        {
+          "name": "Wine Tasting in Divčibare Area",
+          "map_link": "https://www.google.com/maps/place/Divčibare",
+          "description": "Visit local producers for mountain-grown wines."
+        },
+        {
+          "name": "Tešnjar Market Visit",
+          "map_link": "https://www.google.com/maps/place/Tešnjar+Valjevo",
+          "description": "Buy souvenirs and homemade jam from local vendors."
+        }
+      ]
+    },
+    "winter": {
+      "event": "New Year Celebration in Valjevo",
+      "description": "Fireworks, live music, and festive food stands in the city square during New Year’s Eve.",
+      "ideas": [
+        {
+          "name": "Skiing in Divčibare",
+          "map_link": "https://www.google.com/maps/place/Divčibare",
+          "description": "Small slopes ideal for beginners, surrounded by pine forests."
+        },
+        {
+          "name": "Hot Drinks in Tešnjar",
+          "map_link": "https://www.google.com/maps/place/Tešnjar+Bar+Valjevo",
+          "description": "Warm up with tea or mulled wine in cozy bars."
+        },
+        {
+          "name": "Visit the Museum",
+          "map_link": "https://www.google.com/maps/place/National+Museum+Valjevo",
+          "description": "Perfect indoor activity on cold days."
+        }
+      ]
+    }
+  },
+  "public_transport_tips": [
+    {
+      "tip": "Valjevo Bus Station connects the city with Belgrade, Užice, and nearby towns like Lajkovac and Mionica.",
+      "link": "https://www.busticket4.me/EN/ops/VALJEVO"
+    },
+    {
+      "tip": "Trains to Belgrade and Užice operate from Valjevo Railway Station on the Belgrade–Bar line.",
+      "link": "https://www.srbvoz.rs/en/"
+    }
+  ],
+  "city_events": [
+    {
+      "name": "Tešnjar Nights Festival",
+      "season": "Summer",
+      "description": "Music, art, and traditional culture come alive in the old quarter.",
+      "website": "https://www.turizamvaljevo.org.rs",
+      "dates": "August"
+    },
+    {
+      "name": "Honey and Wine Fair",
+      "season": "Autumn",
+      "description": "Celebration of local honey and wine production.",
+      "website": "https://www.turizamvaljevo.org.rs",
+      "dates": "October"
+    }
+  ],
+  "places": [
+    {
+      "name": "Tešnjar Quarter",
+      "map_link": "https://www.google.com/maps/place/Tešnjar+Valjevo",
+      "description": "Valjevo’s old merchant quarter, full of charm, cafés, and traditional architecture."
+    },
+    {
+      "name": "National Museum Valjevo",
+      "map_link": "https://www.google.com/maps/place/National+Museum+Valjevo",
+      "description": "Main museum featuring cultural and historical exhibits of the Valjevo region."
+    },
+    {
+      "name": "Vidrak Hill",
+      "map_link": "https://www.google.com/maps/place/Vidrak+Park+Valjevo",
+      "description": "A scenic hill park above Valjevo offering hiking trails and panoramic views."
+    }
+  ],
+  "hidden_gems": [
+    {
+      "name": "Brankovina Village",
+      "map_link": "https://www.google.com/maps/place/Brankovina",
+      "description": "Historic village with wooden churches, museums, and the tomb of poet Desanka Maksimović."
+    },
+    {
+      "name": "Gradac Monastery",
+      "map_link": "https://www.google.com/maps/place/Gradac+Monastery",
+      "description": "Small riverside monastery surrounded by nature—quiet and spiritually calm."
+    },
+    {
+      "name": "Petnica Science Center Trails",
+      "map_link": "https://www.google.com/maps/place/Petnica+Science+Center",
+      "description": "Peaceful walking trails near the famous research center, ideal for quiet reflection and nature walks."
+    }
+  ]
+},
+
+{
+  "name": "Zlatibor",
+  "interests": {
+    "Art & Culture": [
+      {
+        "name": "Open-Air Museum 'Old Village' (Sirogojno)",
+        "map_link": "https://www.google.com/maps/place/Old+Village+Museum+Sirogojno",
+        "description": "An open-air ethnographic museum showcasing traditional wooden houses, crafts, and rural life from the 19th century. It’s one of Serbia’s most visited cultural sites."
+      },
+      {
+        "name": "Stopića Cave",
+        "map_link": "https://www.google.com/maps/place/Stopića+Pećina",
+        "description": "A natural wonder located between Zlatibor and Sirogojno, famous for its cascading pools and underground waterfalls."
+      },
+      {
+        "name": "Mokra Gora and Šargan Eight Railway",
+        "map_link": "https://www.google.com/maps/place/Šargan+Eight+Railway",
+        "description": "Historic narrow-gauge railway offering scenic rides through mountain tunnels and bridges, connecting to the wooden film village Drvengrad."
+      }
+    ],
+    "Photo Spots": [
+      {
+        "name": "Zlatibor Lake (Kraljevo Jezero)",
+        "map_link": "https://www.google.com/maps/place/Zlatibor+Lake",
+        "description": "The heart of Zlatibor town, surrounded by pine trees and cafés—perfect for sunrise and sunset photos."
+      },
+      {
+        "name": "Tornik Peak",
+        "map_link": "https://www.google.com/maps/place/Tornik+Zlatibor",
+        "description": "The highest point on Zlatibor mountain (1,496 m), offering panoramic views, cable car rides, and photo opportunities year-round."
+      },
+      {
+        "name": "Drvengrad (Mećavnik)",
+        "map_link": "https://www.google.com/maps/place/Drvengrad",
+        "description": "A wooden village built by filmmaker Emir Kusturica for his movie ‘Life Is a Miracle,’ now a photogenic cultural resort."
+      }
+    ],
+    "Food & Nightlife": [
+      {
+        "name": "Restoran Miris Dunja",
+        "map_link": "https://www.google.com/maps/place/Miris+Dunja+Zlatibor",
+        "description": "A cozy restaurant known for its traditional Zlatibor-style dishes, especially slow-cooked veal and homemade bread."
+      },
+      {
+        "name": "Grand Restaurant Zlatibor",
+        "map_link": "https://www.google.com/maps/place/Grand+Restaurant+Zlatibor",
+        "description": "Elegant restaurant offering both modern and classic Serbian cuisine with great mountain views."
+      },
+      {
+        "name": "Feniks Lounge Bar",
+        "map_link": "https://www.google.com/maps/place/Feniks+Bar+Zlatibor",
+        "description": "A trendy spot for coffee, cocktails, and live music in the center of Zlatibor."
+      }
+    ],
+    "Nature & Relaxation": [
+      {
+        "name": "Gostilje Waterfall",
+        "map_link": "https://www.google.com/maps/place/Gostilje+Waterfall",
+        "description": "A beautiful 20-meter waterfall surrounded by lush forest, perfect for relaxing walks and photography."
+      },
+      {
+        "name": "Ribničko Lake",
+        "map_link": "https://www.google.com/maps/place/Ribničko+Jezero",
+        "description": "A peaceful artificial lake just outside Zlatibor, ideal for picnics, fishing, or paddle boating."
+      },
+      {
+        "name": "Tornik Ski Center",
+        "map_link": "https://www.google.com/maps/place/Tornik+Ski+Center",
+        "description": "The main ski and snowboard area on Zlatibor, with slopes suitable for all levels and summer activities like biking and zip-lining."
+      }
+    ]
+  },
+  "local_food_tip": "Don’t miss the famous Zlatibor cheese, kajmak, and smoked meat (pršuta). Try homemade plum rakija and local pastries like ‘komplet lepinja.’",
+  "full_day": {
+    "Morning": "☀️ Start with breakfast at <a href=\"https://www.google.com/maps/place/Miris+Dunja+Zlatibor\">Miris Dunja</a>, then visit <a href=\"https://www.google.com/maps/place/Old+Village+Museum+Sirogojno\">Old Village Museum in Sirogojno</a> and <a href=\"https://www.google.com/maps/place/Stopića+Pećina\">Stopića Cave</a>.",
+    "Afternoon": "🚂 Head to <a href=\"https://www.google.com/maps/place/Šargan+Eight+Railway\">Mokra Gora</a> for the Šargan Eight scenic train ride and lunch in <a href=\"https://www.google.com/maps/place/Drvengrad\">Drvengrad</a>.",
+    "Sunset": "🌅 Return to Zlatibor and ride the cable car up to <a href=\"https://www.google.com/maps/place/Tornik+Zlatibor\">Tornik Peak</a> for stunning mountain views.",
+    "Night": "🍷 Dine at <a href=\"https://www.google.com/maps/place/Grand+Restaurant+Zlatibor\">Grand Restaurant</a>, then enjoy a drink at <a href=\"https://www.google.com/maps/place/Feniks+Bar+Zlatibor\">Feniks Bar</a>."
+  },
+  "seasons": {
+    "spring": {
+      "event": "Zlatibor Hiking Festival",
+      "description": "A gathering of hikers exploring scenic trails and meadows in May.",
+      "ideas": [
+        {
+          "name": "Walk Around Zlatibor Lake",
+          "map_link": "https://www.google.com/maps/place/Zlatibor+Lake",
+          "description": "Enjoy colorful spring blossoms and the reflection of pines in the water."
+        },
+        {
+          "name": "Visit Gostilje Waterfall",
+          "map_link": "https://www.google.com/maps/place/Gostilje+Waterfall",
+          "description": "Perfect time for waterfall photography and outdoor picnics."
+        },
+        {
+          "name": "Sirogojno Craft Workshops",
+          "map_link": "https://www.google.com/maps/place/Old+Village+Museum+Sirogojno",
+          "description": "Join traditional weaving or pottery workshops at the open-air museum."
+        }
+      ]
+    },
+    "summer": {
+      "event": "Zlatibor Summer Festival",
+      "description": "A mix of outdoor concerts, folklore, and food markets throughout July and August.",
+      "ideas": [
+        {
+          "name": "Tornik Adventure Park",
+          "map_link": "https://www.google.com/maps/place/Tornik+Ski+Center",
+          "description": "Try zip-line, mini golf, or mountain biking during warm days."
+        },
+        {
+          "name": "Ribničko Lake Picnic",
+          "map_link": "https://www.google.com/maps/place/Ribničko+Jezero",
+          "description": "Relax by the lake with local snacks and friends."
+        },
+        {
+          "name": "Evening Walks in the Center",
+          "map_link": "https://www.google.com/maps/place/Zlatibor+Lake",
+          "description": "Enjoy music, street vendors, and cool evening air around the lake."
+        }
+      ]
+    },
+    "autumn": {
+      "event": "Cheese and Pršuta Fair",
+      "description": "Local producers from Zlatibor region showcase cheese, smoked meat, and rakija in October.",
+      "ideas": [
+        {
+          "name": "Drive to Sirogojno",
+          "map_link": "https://www.google.com/maps/place/Old+Village+Museum+Sirogojno",
+          "description": "Autumn colors make the hills around the village truly magical."
+        },
+        {
+          "name": "Walk to Ribničko Lake",
+          "map_link": "https://www.google.com/maps/place/Ribničko+Jezero",
+          "description": "Peaceful spot surrounded by golden forests."
+        },
+        {
+          "name": "Visit Local Market",
+          "map_link": "https://www.google.com/maps/place/Zlatibor+Market",
+          "description": "Buy honey, cheese, and handmade wool products."
+        }
+      ]
+    },
+    "winter": {
+      "event": "New Year on Zlatibor",
+      "description": "Snow-covered mountain turns into a winter wonderland with fireworks, concerts, and ski fun.",
+      "ideas": [
+        {
+          "name": "Skiing on Tornik",
+          "map_link": "https://www.google.com/maps/place/Tornik+Ski+Center",
+          "description": "Hit the slopes or enjoy snow tubing."
+        },
+        {
+          "name": "Hot Chocolate in the Center",
+          "map_link": "https://www.google.com/maps/place/Feniks+Bar+Zlatibor",
+          "description": "Warm up after skiing with a cozy drink."
+        },
+        {
+          "name": "Walk by the Frozen Lake",
+          "map_link": "https://www.google.com/maps/place/Zlatibor+Lake",
+          "description": "Peaceful and picturesque winter views."
+        }
+      ]
+    }
+  },
+  "public_transport_tips": [
+    {
+      "tip": "Regular buses run from Belgrade, Užice, and Čačak to Zlatibor Bus Station.",
+      "link": "https://www.busticket4.me/EN/ops/ZLATIBOR"
+    },
+    {
+      "tip": "The nearest train station is in Užice (about 25 km away), connected by local buses and taxis.",
+      "link": "https://www.srbvoz.rs/en/"
+    }
+  ],
+  "city_events": [
+    {
+      "name": "Zlatibor Summer Festival",
+      "season": "Summer",
+      "description": "Concerts, folklore performances, and outdoor markets celebrating mountain culture.",
+      "website": "https://www.turizamzlatibor.org",
+      "dates": "July–August"
+    },
+    {
+      "name": "Cheese and Pršuta Fair",
+      "season": "Autumn",
+      "description": "Tasting event with local dairy and meat products, held each October.",
+      "website": "https://www.turizamzlatibor.org",
+      "dates": "October"
+    }
+  ],
+  "places": [
+    {
+      "name": "Zlatibor Lake",
+      "map_link": "https://www.google.com/maps/place/Zlatibor+Lake",
+      "description": "Central landmark surrounded by pine forests, walking paths, and cafés."
+    },
+    {
+      "name": "Tornik Peak",
+      "map_link": "https://www.google.com/maps/place/Tornik+Zlatibor",
+      "description": "Main viewpoint and ski center with panoramic views of western Serbia."
+    },
+    {
+      "name": "Old Village Museum Sirogojno",
+      "map_link": "https://www.google.com/maps/place/Old+Village+Museum+Sirogojno",
+      "description": "Open-air museum showing traditional mountain village life with original log houses and folk artifacts."
+    }
+  ],
+  "hidden_gems": [
+    {
+      "name": "Uvac Special Nature Reserve",
+      "map_link": "https://www.google.com/maps/place/Uvac+Special+Nature+Reserve",
+      "description": "A breathtaking canyon system about an hour from Zlatibor, home to the griffon vulture and emerald-green meanders."
+    },
+    {
+      "name": "Gostilje Village",
+      "map_link": "https://www.google.com/maps/place/Gostilje",
+      "description": "Peaceful rural area with a waterfall, mills, and wooden bridges—ideal for slow-paced exploring."
+    },
+    {
+      "name": "Obudojevica Hill",
+      "map_link": "https://www.google.com/maps/place/Obudojevica+Zlatibor",
+      "description": "A favorite spot for sledding in winter and short hikes in summer, right next to Zlatibor town center."
+    }
+  ]
+}
 
   ]
 }

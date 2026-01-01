@@ -3,854 +3,1179 @@
   "cities": [
     {
       "name": "Aarhus",
-      "interests": [
-        {
-          "name": "ARoS Aarhus Art Museum",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=56.1538%2C10.1962",
-          "description": "One of Scandinavia’s leading art museums, famous for the rainbow-colored panoramic walkway on its roof."
-        },
-        {
-          "name": "Den Gamle By (The Old Town)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=56.1569%2C10.1864",
-          "description": "Open-air museum recreating Danish urban life from different historical periods with authentic buildings."
-        },
-        {
-          "name": "Aarhus Cathedral",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=56.1565%2C10.2100",
-          "description": "The longest church in Denmark, featuring Gothic architecture and medieval frescoes."
-        },
-        {
-          "name": "Dokk1 & Aarhus Harbour",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=56.1553%2C10.2147",
-          "description": "Modern cultural center and waterfront area showcasing Aarhus’ contemporary architecture."
-        },
-        {
-          "name": "Marselisborg Deer Park",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=56.1218%2C10.2246",
-          "description": "Natural park south of the city where deer roam freely, near the royal summer residence."
-        }
-      ],
-      "local_food_tip": "Try Danish smørrebrød (open-faced sandwiches), fresh seafood, pastries, and New Nordic cuisine. Aarhus is known for its strong food scene and local bakeries.",
+      "interests": {
+        "Art & Culture": [
+          {
+            "name": "ARoS Aarhus Art Museum",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=ARoS+Aarhus+Art+Museum",
+            "description": "One of Scandinavia’s largest art museums, famous for its rainbow-colored rooftop walkway offering 360° city views."
+          },
+          {
+            "name": "Den Gamle By (The Old Town Museum)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Den+Gamle+By+Aarhus",
+            "description": "An open-air museum recreating Danish urban life from the 1700s to the 1970s — complete with vintage shops and costumed guides."
+          },
+          {
+            "name": "Aarhus Cathedral",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Aarhus+Cathedral",
+            "description": "The longest and tallest church in Denmark, dating back to the 12th century, featuring stunning frescoes and a peaceful atmosphere."
+          },
+          {
+            "name": "Moesgaard Museum",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Moesgaard+Museum+Aarhus",
+            "description": "A striking modern museum showcasing Viking and Iron Age history — its grass-covered roof doubles as a scenic hill walk."
+          },
+          {
+            "name": "Aarhus Theatre",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Aarhus+Theatre",
+            "description": "Denmark’s oldest provincial theatre, known for its Art Nouveau architecture and world-class performances."
+          }
+        ],
+        "Photo Spots": [
+          {
+            "name": "Your Rainbow Panorama (ARoS)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Your+Rainbow+Panorama+Aarhus",
+            "description": "Walk through a rainbow glass circle high above the city — every color frames a new view of Aarhus."
+          },
+          {
+            "name": "Aarhus Ø Harbor Bath",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Aarhus+Ø+Harbor+Bath",
+            "description": "Modern waterfront area with pools, futuristic architecture, and perfect sunset photo spots."
+          },
+          {
+            "name": "Mindeparken",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Mindeparken+Aarhus",
+            "description": "Beautiful park with sea views, cherry blossoms in spring, and a calm vibe for nature shots."
+          },
+          {
+            "name": "Latinerkvarteret (Latin Quarter)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Latinerkvarteret+Aarhus",
+            "description": "Colorful streets filled with cafés, boutiques, and street art — great for urban photography."
+          }
+        ],
+        "Food & Nightlife": [
+          {
+            "name": "Restaurant Domestic",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Restaurant+Domestic+Aarhus",
+            "description": "Michelin-starred restaurant offering a sustainable Nordic menu made from local ingredients."
+          },
+          {
+            "name": "Mefisto",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Mefisto+Aarhus",
+            "description": "Cozy seafood restaurant in the Latin Quarter — perfect for mussels, oysters, and Danish white wine."
+          },
+          {
+            "name": "La Cabra Coffee",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=La+Cabra+Coffee+Aarhus",
+            "description": "Internationally known specialty coffee shop with minimalist Scandinavian design and perfect espresso."
+          },
+          {
+            "name": "Gedulgt",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Gedulgt+Aarhus",
+            "description": "Hidden speakeasy cocktail bar behind an unmarked door — creative drinks and stylish atmosphere."
+          }
+        ],
+        "Nature & Relaxation": [
+          {
+            "name": "Marselisborg Forests",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Marselisborg+Forest+Aarhus",
+            "description": "Forest trails by the sea with deer parks, biking routes, and royal palace gardens nearby."
+          },
+          {
+            "name": "Moesgaard Beach",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Moesgaard+Beach+Aarhus",
+            "description": "Clean sandy beach close to the city — great for swimming or picnics during warm months."
+          },
+          {
+            "name": "Aarhus Ø Boardwalk",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Aarhus+Ø+Boardwalk",
+            "description": "Trendy harbor promenade perfect for cycling, sunsets, and ice cream by the water."
+          },
+          {
+            "name": "Mindeparken",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Mindeparken+Aarhus",
+            "description": "Peaceful park near the royal palace — great for picnics and seaside views."
+          }
+        ]
+      },
+      "local_food_tip": "Try traditional Danish smørrebrød (open-faced sandwiches), fresh seafood from the harbor, and Aarhus-made craft beers at local microbreweries.",
       "full_day": {
-        "Morning": "Start at <a href=\"https://www.google.com/maps/search/?api=1&query=56.1565%2C10.2100\" target=\"_blank\" rel=\"noopener\">Aarhus Cathedral</a> ☀️, then walk through the historic streets toward the harbor.",
-        "Afternoon": "Visit <a href=\"https://www.google.com/maps/search/?api=1&query=56.1538%2C10.1962\" target=\"_blank\" rel=\"noopener\">ARoS Art Museum</a> 🖼️ and enjoy lunch nearby.",
-        "Sunset": "Head to <a href=\"https://www.google.com/maps/search/?api=1&query=56.1553%2C10.2147\" target=\"_blank\" rel=\"noopener\">Aarhus Harbour</a> 🌅 for waterfront views.",
-        "Night": "Dinner in the Latin Quarter ✨ and an evening stroll through the lively city center."
+        "morning": "☀️ Start your day at <a href='https://www.google.com/maps/search/?api=1&query=La+Cabra+Coffee+Aarhus'>La Cabra Coffee</a>, then explore <a href='https://www.google.com/maps/search/?api=1&query=Den+Gamle+By+Aarhus'>Den Gamle By</a> to travel back through Danish history.",
+        "afternoon": "🎨 Visit the <a href='https://www.google.com/maps/search/?api=1&query=ARoS+Aarhus+Art+Museum'>ARoS Art Museum</a> and its <a href='https://www.google.com/maps/search/?api=1&query=Your+Rainbow+Panorama+Aarhus'>Rainbow Panorama</a>, then have lunch at <a href='https://www.google.com/maps/search/?api=1&query=Mefisto+Aarhus'>Mefisto</a> in the Latin Quarter.",
+        "evening": "🌇 Walk along the <a href='https://www.google.com/maps/search/?api=1&query=Aarhus+Ø+Boardwalk'>Aarhus Ø Boardwalk</a> for sunset views of the sea and architecture.",
+        "night": "🌙 Enjoy cocktails at <a href='https://www.google.com/maps/search/?api=1&query=Gedulgt+Aarhus'>Gedulgt</a> or relax with a seaside walk at <a href='https://www.google.com/maps/search/?api=1&query=Mindeparken+Aarhus'>Mindeparken</a>."
       },
       "seasons": {
         "spring": {
-          "event": "Spring Cultural Season",
-          "description": "Longer days and blooming parks bring outdoor life back to the city.",
+          "highlight": "Parks bloom with flowers and locals return to outdoor cafés.",
           "ideas": [
             {
-              "name": "Botanical Garden walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=56.1587%2C10.1849",
-              "description": "Fresh greenery and peaceful paths."
+              "name": "Mindeparken Cherry Blossoms",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Mindeparken+Aarhus",
+              "description": "Pink trees bloom beautifully near the sea, perfect for photos."
             },
             {
-              "name": "Old Town visit",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=56.1569%2C10.1864",
-              "description": "Comfortable sightseeing weather."
-            },
-            {
-              "name": "Café terraces",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=56.1562%2C10.2035",
-              "description": "Outdoor dining season begins."
+              "name": "Aarhus Street Food",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Aarhus+Street+Food",
+              "description": "Try fresh seasonal dishes in a lively indoor food market."
             }
           ]
         },
         "summer": {
-          "event": "Aarhus Festuge",
-          "description": "Major cultural festival with concerts, art, and events across the city.",
+          "highlight": "Beach life, music festivals, and sunny evenings by the harbor.",
           "ideas": [
             {
-              "name": "Festival events",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=56.1565%2C10.2100",
-              "description": "City-wide cultural celebrations."
+              "name": "NorthSide Festival",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=NorthSide+Festival+Aarhus",
+              "description": "A major Danish music festival featuring international and local artists."
             },
             {
-              "name": "Beach visits",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=56.1680%2C10.2310",
-              "description": "Urban beaches near the city."
-            },
-            {
-              "name": "Evening harbor walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=56.1553%2C10.2147",
-              "description": "Long Nordic summer evenings."
+              "name": "Moesgaard Beach",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Moesgaard+Beach+Aarhus",
+              "description": "Swim, sunbathe, or kayak with locals on a bright summer day."
             }
           ]
         },
         "autumn": {
-          "event": "Autumn Culture & Food Season",
-          "description": "Cozy atmosphere with food events and cultural programs.",
+          "highlight": "Golden forests and cozy indoor café culture.",
           "ideas": [
             {
-              "name": "Museum visits",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=56.1538%2C10.1962",
-              "description": "Indoor cultural exploration."
+              "name": "Marselisborg Forest Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Marselisborg+Forest+Aarhus",
+              "description": "Enjoy colorful autumn leaves and fresh sea air."
             },
             {
-              "name": "Forest walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=56.1218%2C10.2246",
-              "description": "Autumn colors near the city."
-            },
-            {
-              "name": "Food markets",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=56.1570%2C10.2040",
-              "description": "Seasonal Danish cuisine."
+              "name": "Moesgaard Museum Visit",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Moesgaard+Museum+Aarhus",
+              "description": "Spend a cool afternoon learning about Vikings and ancient Denmark."
             }
           ]
         },
         "winter": {
-          "event": "Christmas in Aarhus",
-          "description": "Festive lights, Christmas markets, and cozy cafés.",
+          "highlight": "Warm lights, Christmas markets, and hygge everywhere.",
           "ideas": [
             {
-              "name": "Christmas markets",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=56.1569%2C10.1864",
-              "description": "Traditional winter atmosphere."
+              "name": "Aarhus Christmas Market",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Christmas+Market+Aarhus",
+              "description": "Old Town turns into a festive wonderland with lights and mulled wine."
             },
             {
-              "name": "Museum hopping",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=56.1538%2C10.1962",
-              "description": "Warm indoor activities."
-            },
-            {
-              "name": "Café culture",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=56.1562%2C10.2035",
-              "description": "Hygge experiences."
+              "name": "Café Hopping in the Latin Quarter",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Latinerkvarteret+Aarhus",
+              "description": "Stay warm and cozy with coffee, pastries, and Danish hygge."
             }
           ]
         }
       },
       "public_transport_tips": [
         {
-          "tip": "Buses and light rail (Letbanen) connect the city and suburbs.",
+          "tip": "Aarhus’ city buses and light rail (Letbanen) are run by Midttrafik — tickets can be bought in the Midttrafik app or at machines.",
           "link": "https://www.midttrafik.dk/"
         },
         {
-          "tip": "Cycling is one of the best ways to get around Aarhus.",
-          "link": "https://www.visitaarhus.com/"
+          "tip": "Most city attractions are within walking or biking distance; consider renting a city bike.",
+          "link": "https://www.aarhus.dk/"
         },
         {
-          "tip": "Aarhus Airport is connected to the city by bus.",
-          "link": "https://www.aar.dk/"
+          "tip": "If arriving by train, the main station (Aarhus H) is centrally located next to shopping and cafés.",
+          "link": "https://www.dsb.dk/"
         }
       ],
       "city_events": [
         {
-          "name": "Aarhus Festuge",
           "season": "summer",
-          "description": "Denmark’s largest cultural festival with concerts, art, and performances.",
-          "website": "https://www.aarhusfestuge.dk/",
-          "dates": "Late August–early September"
+          "dates": "June",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=NorthSide+Festival+Aarhus",
+          "description": "NorthSide Festival — one of Denmark’s biggest music events featuring pop, rock, and indie acts."
+        },
+        {
+          "season": "autumn",
+          "dates": "September",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Food+Festival+Aarhus",
+          "description": "Aarhus Food Festival — Scandinavia’s largest food event with tastings and workshops by local chefs."
+        },
+        {
+          "season": "winter",
+          "dates": "December",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Christmas+Market+Aarhus",
+          "description": "Aarhus Christmas Market — festive stalls, decorations, and traditional Danish treats."
         }
       ],
       "places": [
         {
-          "name": "Moesgaard Museum",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=56.0916%2C10.2384",
-          "description": "Modern museum focusing on archaeology and ethnography, set in a scenic landscape."
+          "name": "ARoS Art Museum",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=ARoS+Aarhus+Art+Museum",
+          "description": "Famous for its rainbow glass walkway and impressive modern art collections."
         },
         {
-          "name": "Latin Quarter",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=56.1562%2C10.2035",
-          "description": "Charming area with small shops, cafés, and historic streets."
+          "name": "Den Gamle By",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Den+Gamle+By+Aarhus",
+          "description": "Step back in time through centuries of Danish life — open-air museum with old shops and bakeries."
+        },
+        {
+          "name": "Moesgaard Museum",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Moesgaard+Museum+Aarhus",
+          "description": "Modern architecture meets ancient history — with fascinating exhibitions on Vikings and early humans."
         }
       ],
       "hidden_gems": [
         {
-          "name": "Infinite Bridge (Den Uendelige Bro)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=56.1295%2C10.2118",
-          "description": "Circular wooden bridge extending into the sea, popular for walks and photos."
+          "name": "Godsbanen Creative Hub",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Godsbanen+Aarhus",
+          "description": "A former train depot turned cultural center with street food, exhibitions, and rooftop views."
         },
         {
-          "name": "Quiet corners of the University Park",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=56.1695%2C10.1935",
-          "description": "Green parkland with lakes and relaxed student atmosphere."
+          "name": "Ø-Haven Urban Garden",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Ø-Haven+Aarhus",
+          "description": "Community garden at Aarhus Ø where locals grow herbs and flowers by the water."
+        },
+        {
+          "name": "Salling Rooftop",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Salling+Rooftop+Aarhus",
+          "description": "Free rooftop terrace above the Salling department store — great for city panoramas and coffee breaks."
         }
       ]
     },
 
     {
       "name": "Copenhagen",
-      "interests": [
-        {
-          "name": "Nyhavn",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=55.6792%2C12.5916",
-          "description": "Iconic harbor lined with colorful 17th-century houses, cafés, and historic ships."
-        },
-        {
-          "name": "Tivoli Gardens",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=55.6737%2C12.5681",
-          "description": "Historic amusement park and pleasure garden in the city center, opened in 1843."
-        },
-        {
-          "name": "The Little Mermaid",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=55.6929%2C12.5993",
-          "description": "Famous bronze statue inspired by Hans Christian Andersen’s fairy tale."
-        },
-        {
-          "name": "Christiansborg Palace",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=55.6764%2C12.5796",
-          "description": "Seat of the Danish Parliament with royal reception rooms and tower views."
-        },
-        {
-          "name": "Strøget",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=55.6786%2C12.5754",
-          "description": "One of Europe’s longest pedestrian shopping streets, running through the historic core."
-        }
-      ],
-      "local_food_tip": "Try Danish smørrebrød, fresh seafood, hot dogs from street stands, cinnamon buns, and New Nordic cuisine. Food halls like Torvehallerne are great for variety.",
+      "interests": {
+        "Art & Culture": [
+          {
+            "name": "Nyhavn",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Nyhavn+Copenhagen",
+            "description": "Colorful 17th-century harbor lined with restaurants, cafés, and historic sailing ships — one of Denmark’s most iconic spots."
+          },
+          {
+            "name": "The National Gallery of Denmark (SMK)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=SMK+Copenhagen",
+            "description": "Home to an extensive collection of Danish and European masterpieces, from Renaissance to contemporary art."
+          },
+          {
+            "name": "Amalienborg Palace",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Amalienborg+Palace+Copenhagen",
+            "description": "The official residence of the Danish royal family — watch the daily changing of the guards at noon."
+          },
+          {
+            "name": "Rosenborg Castle",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Rosenborg+Castle+Copenhagen",
+            "description": "A fairy-tale Renaissance castle surrounded by gardens, housing the Danish crown jewels and royal treasures."
+          },
+          {
+            "name": "Ny Carlsberg Glyptotek",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Ny+Carlsberg+Glyptotek+Copenhagen",
+            "description": "An elegant museum founded by the Carlsberg brewery family — featuring classical sculptures and Impressionist paintings."
+          }
+        ],
+        "Photo Spots": [
+          {
+            "name": "Nyhavn Canal",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Nyhavn+Copenhagen",
+            "description": "Brightly painted townhouses reflected in the water — best at golden hour or after rain for shimmering reflections."
+          },
+          {
+            "name": "The Round Tower (Rundetaarn)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Round+Tower+Copenhagen",
+            "description": "Climb the spiral ramp for panoramic views over the rooftops of old Copenhagen."
+          },
+          {
+            "name": "Superkilen Park",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Superkilen+Park+Copenhagen",
+            "description": "A colorful public space filled with global design objects — a celebration of cultural diversity and modern urban art."
+          },
+          {
+            "name": "Christiansborg Tower",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Christiansborg+Palace+Copenhagen",
+            "description": "Free observation tower in the heart of the city with sweeping skyline views and canals below."
+          }
+        ],
+        "Food & Nightlife": [
+          {
+            "name": "Noma",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Noma+Copenhagen",
+            "description": "World-famous Michelin-starred restaurant redefining Nordic cuisine — innovative, natural, and artistic."
+          },
+          {
+            "name": "Reffen Street Food Market",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Reffen+Copenhagen",
+            "description": "Vibrant street food market by the water with international flavors, live music, and creative local stalls."
+          },
+          {
+            "name": "Torvehallerne Market",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Torvehallerne+Copenhagen",
+            "description": "Indoor food market offering everything from Danish smørrebrød to organic pastries and coffee."
+          },
+          {
+            "name": "The Jane Bar",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=The+Jane+Bar+Copenhagen",
+            "description": "Stylish speakeasy-style bar with classic cocktails and a retro library setting."
+          }
+        ],
+        "Nature & Relaxation": [
+          {
+            "name": "The King’s Garden (Kongens Have)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Kongens+Have+Copenhagen",
+            "description": "A royal park surrounding Rosenborg Castle — perfect for picnics, outdoor art, and sunny afternoons."
+          },
+          {
+            "name": "Frederiksberg Gardens",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Frederiksberg+Gardens",
+            "description": "Peaceful landscaped park with lakes, bridges, and paths connecting to Copenhagen Zoo."
+          },
+          {
+            "name": "Amager Strandpark",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Amager+Strandpark",
+            "description": "A sandy beach close to the city center — ideal for swimming, biking, and sunset walks."
+          },
+          {
+            "name": "The Lakes (Søerne)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=The+Lakes+Copenhagen",
+            "description": "A chain of peaceful lakes with walking paths, swans, and cozy cafés nearby."
+          }
+        ]
+      },
+      "local_food_tip": "Try Danish smørrebrød (open-faced sandwiches), fresh herring, and kanelsnegl (cinnamon rolls). Don’t miss a cup of locally roasted coffee and a taste of Carlsberg beer.",
       "full_day": {
-        "Morning": "Start with breakfast near <a href=\"https://www.google.com/maps/search/?api=1&query=55.6792%2C12.5916\" target=\"_blank\" rel=\"noopener\">Nyhavn</a> ☀️ and enjoy the harbor atmosphere.",
-        "Afternoon": "Walk through <a href=\"https://www.google.com/maps/search/?api=1&query=55.6786%2C12.5754\" target=\"_blank\" rel=\"noopener\">Strøget</a>, visit <a href=\"https://www.google.com/maps/search/?api=1&query=55.6764%2C12.5796\" target=\"_blank\" rel=\"noopener\">Christiansborg Palace</a> 🏛️, and have lunch nearby.",
-        "Sunset": "Head to the waterfront near <a href=\"https://www.google.com/maps/search/?api=1&query=55.6929%2C12.5993\" target=\"_blank\" rel=\"noopener\">The Little Mermaid</a> 🌅 or stroll along the harbor.",
-        "Night": "Evening visit to <a href=\"https://www.google.com/maps/search/?api=1&query=55.6737%2C12.5681\" target=\"_blank\" rel=\"noopener\">Tivoli Gardens</a> ✨ with lights, rides, and dinner."
+        "morning": "☀️ Start with breakfast at <a href='https://www.google.com/maps/search/?api=1&query=Torvehallerne+Copenhagen'>Torvehallerne Market</a>, then explore <a href='https://www.google.com/maps/search/?api=1&query=Rosenborg+Castle+Copenhagen'>Rosenborg Castle</a> and <a href='https://www.google.com/maps/search/?api=1&query=Kongens+Have+Copenhagen'>The King’s Garden</a>.",
+        "afternoon": "🚴 Rent a bike to visit <a href='https://www.google.com/maps/search/?api=1&query=Nyhavn+Copenhagen'>Nyhavn</a>, <a href='https://www.google.com/maps/search/?api=1&query=Amalienborg+Palace+Copenhagen'>Amalienborg Palace</a>, and <a href='https://www.google.com/maps/search/?api=1&query=Christiansborg+Palace+Copenhagen'>Christiansborg Palace</a>.",
+        "evening": "🌇 Enjoy dinner at <a href='https://www.google.com/maps/search/?api=1&query=Reffen+Copenhagen'>Reffen Street Food</a> while watching the sunset over the harbor.",
+        "night": "🌙 End your evening with cocktails at <a href='https://www.google.com/maps/search/?api=1&query=The+Jane+Bar+Copenhagen'>The Jane</a> or a calm walk along <a href='https://www.google.com/maps/search/?api=1&query=The+Lakes+Copenhagen'>The Lakes</a>."
       },
       "seasons": {
         "spring": {
-          "event": "Spring in Copenhagen",
-          "description": "Longer days, blooming parks, and lively outdoor cafés.",
+          "highlight": "Parks bloom and café terraces fill with life.",
           "ideas": [
             {
-              "name": "King’s Garden",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=55.6851%2C12.5767",
-              "description": "Popular park with flowers and relaxed atmosphere."
+              "name": "The King’s Garden Picnic",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Kongens+Have+Copenhagen",
+              "description": "Relax on the grass with flowers and views of Rosenborg Castle."
             },
             {
-              "name": "Canal walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=55.6792%2C12.5916",
-              "description": "Pleasant strolls by the water."
-            },
-            {
-              "name": "Bicycle sightseeing",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=55.6761%2C12.5683",
-              "description": "Comfortable cycling weather."
+              "name": "Bike Ride to Amager Strandpark",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Amager+Strandpark",
+              "description": "Enjoy the spring breeze and views of the Øresund Bridge."
             }
           ]
         },
         "summer": {
-          "event": "Copenhagen Jazz Festival",
-          "description": "City-wide jazz performances in streets, parks, and venues.",
+          "highlight": "Long sunny days, festivals, and outdoor swimming.",
           "ideas": [
             {
-              "name": "Harbor swimming",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=55.6666%2C12.5799",
-              "description": "Clean harbor baths open for public swimming."
+              "name": "Copenhell Festival",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Copenhell+Copenhagen",
+              "description": "Denmark’s largest rock and metal festival with fans from across Europe."
             },
             {
-              "name": "Outdoor concerts",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=55.6790%2C12.5700",
-              "description": "Music across the city."
-            },
-            {
-              "name": "Evening bike rides",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=55.6761%2C12.5683",
-              "description": "Long Nordic summer evenings."
+              "name": "Harbor Bath Swimming",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Islands+Brygge+Harbor+Bath",
+              "description": "Cool off with locals at the clean and modern harbor pools."
             }
           ]
         },
         "autumn": {
-          "event": "Golden Copenhagen Autumn",
-          "description": "Cozy city vibe with cultural events and fall colors.",
+          "highlight": "Golden leaves, cozy cafés, and cultural events fill the city.",
           "ideas": [
             {
-              "name": "Museum visits",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=55.6740%2C12.5760",
-              "description": "Ideal indoor sightseeing season."
+              "name": "Museum Visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Ny+Carlsberg+Glyptotek+Copenhagen",
+              "description": "Warm up with art and palm trees inside the Glyptotek’s glass garden."
             },
             {
-              "name": "Café hopping",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=55.6780%2C12.5750",
-              "description": "Warm drinks and hygge."
-            },
-            {
-              "name": "Park walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=55.6851%2C12.5767",
-              "description": "Autumn foliage."
+              "name": "Frederiksberg Garden Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Frederiksberg+Gardens",
+              "description": "Enjoy a peaceful stroll among colorful autumn trees and lakes."
             }
           ]
         },
         "winter": {
-          "event": "Christmas in Tivoli",
-          "description": "Festive lights, markets, and seasonal decorations.",
+          "highlight": "Christmas markets and hygge glow everywhere.",
           "ideas": [
             {
-              "name": "Christmas markets",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=55.6737%2C12.5681",
-              "description": "Traditional winter atmosphere."
+              "name": "Tivoli Gardens Christmas Market",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Tivoli+Gardens+Copenhagen",
+              "description": "Sparkling lights, rides, and mulled wine in Copenhagen’s famous amusement park."
             },
             {
-              "name": "Museum hopping",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=55.6764%2C12.5796",
-              "description": "Warm indoor culture."
-            },
-            {
-              "name": "Cozy cafés",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=55.6780%2C12.5750",
-              "description": "Hygge experiences."
+              "name": "Nyhavn in Winter",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Nyhavn+Copenhagen",
+              "description": "Colorful houses dusted with snow make for fairy-tale photos."
             }
           ]
         }
       },
       "public_transport_tips": [
         {
-          "tip": "Metro and S-trains connect most parts of the city efficiently.",
-          "link": "https://www.dsb.dk/"
+          "tip": "Copenhagen’s metro, S-trains, and buses use the same ticket system — buy tickets via the DOT app or at stations.",
+          "link": "https://dinoffentligetransport.dk/"
         },
         {
-          "tip": "Copenhagen is extremely bike-friendly with dedicated lanes.",
-          "link": "https://www.visitcopenhagen.com/"
+          "tip": "Renting a bike is one of the best ways to explore — the city is flat and very bike-friendly.",
+          "link": "https://bycyklen.dk/en/"
         },
         {
-          "tip": "The Copenhagen Card includes public transport and attractions.",
+          "tip": "The Copenhagen Card offers free transport and entry to many attractions.",
           "link": "https://copenhagencard.com/"
         }
       ],
       "city_events": [
         {
-          "name": "Copenhagen Jazz Festival",
           "season": "summer",
-          "description": "Major international jazz festival held across the city.",
-          "website": "https://jazz.dk/",
-          "dates": "July"
+          "dates": "June–August",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Roskilde+Festival",
+          "description": "Roskilde Festival — one of Europe’s largest music festivals just outside Copenhagen."
+        },
+        {
+          "season": "autumn",
+          "dates": "October",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Copenhagen+Light+Festival",
+          "description": "Copenhagen Light Festival — spectacular light installations across the city."
+        },
+        {
+          "season": "winter",
+          "dates": "December",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Tivoli+Gardens+Copenhagen",
+          "description": "Tivoli Christmas Market — sparkling decorations, ice skating, and classic Danish treats."
         }
       ],
       "places": [
         {
-          "name": "Rosenborg Castle",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=55.6850%2C12.5774",
-          "description": "Renaissance castle housing the Danish crown jewels."
+          "name": "Nyhavn",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Nyhavn+Copenhagen",
+          "description": "Copenhagen’s postcard-perfect harbor filled with colorful buildings and historic boats."
         },
         {
-          "name": "Torvehallerne",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=55.6836%2C12.5716",
-          "description": "Popular food market showcasing Danish and international cuisine."
+          "name": "Rosenborg Castle",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Rosenborg+Castle+Copenhagen",
+          "description": "A 17th-century royal castle with gardens, treasures, and the Danish crown jewels."
+        },
+        {
+          "name": "Tivoli Gardens",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Tivoli+Gardens+Copenhagen",
+          "description": "Historic amusement park blending vintage rides, gardens, and concerts — magical by night."
         }
       ],
       "hidden_gems": [
         {
-          "name": "Superkilen Park",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=55.7002%2C12.5384",
-          "description": "Colorful urban park celebrating multicultural design."
+          "name": "Assistens Cemetery",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Assistens+Cemetery+Copenhagen",
+          "description": "Peaceful park-like cemetery where Hans Christian Andersen is buried — a tranquil local spot."
         },
         {
-          "name": "Early-morning Nyhavn",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=55.6792%2C12.5916",
-          "description": "Quiet and atmospheric before crowds arrive."
+          "name": "Cisterns (Cisternerne)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Cisternerne+Copenhagen",
+          "description": "An underground art space in former water reservoirs — mysterious and atmospheric."
+        },
+        {
+          "name": "Papirøen (Paper Island)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Papirøen+Copenhagen",
+          "description": "Trendy new harbor district with design studios, cafés, and art installations by the water."
         }
       ]
     },
 
     {
       "name": "Odense",
-      "interests": [
-        {
-          "name": "Hans Christian Andersen Museum",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=55.3963%2C10.3883",
-          "description": "Modern museum dedicated to the life and fairy tales of Denmark’s most famous writer, born in Odense."
-        },
-        {
-          "name": "Hans Christian Andersen Childhood Home",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=55.3969%2C10.3887",
-          "description": "Small yellow house where Andersen spent his early years."
-        },
-        {
-          "name": "Odense Cathedral (St. Canute’s Cathedral)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=55.3957%2C10.3889",
-          "description": "Gothic cathedral containing the shrine of King Canute IV, Denmark’s last Viking king."
-        },
-        {
-          "name": "Den Fynske Landsby (The Funen Village)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=55.3705%2C10.3367",
-          "description": "Open-air museum showcasing traditional rural life on the island of Funen."
-        },
-        {
-          "name": "Munke Mose Park",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=55.3928%2C10.3880",
-          "description": "Green riverside park near the city center, popular for walks and picnics."
-        }
-      ],
-      "local_food_tip": "Try Danish smørrebrød, Funen specialties, fresh pastries, and seasonal dishes. Odense has many cozy cafés and modern Nordic restaurants.",
+      "interests": {
+        "Art & Culture": [
+          {
+            "name": "Hans Christian Andersen Museum",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Hans+Christian+Andersen+Museum+Odense",
+            "description": "A modern, immersive museum dedicated to Denmark’s most famous storyteller — blending interactive exhibits, art, and soundscapes inspired by Andersen’s fairy tales."
+          },
+          {
+            "name": "Brandts Art Museum",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Brandts+Art+Museum+Odense",
+            "description": "A vibrant art center in a former textile factory featuring photography, design, and contemporary art exhibitions."
+          },
+          {
+            "name": "Odense Cathedral (St. Canute’s)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Odense+Cathedral",
+            "description": "A beautiful Gothic brick cathedral from the 11th century, home to King Canute IV’s tomb and stunning vaulted interiors."
+          },
+          {
+            "name": "Funen Village (Den Fynske Landsby)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Funen+Village+Odense",
+            "description": "An open-air museum recreating 19th-century rural Denmark, with thatched houses, gardens, and farm animals."
+          },
+          {
+            "name": "Odense Theatre",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Odense+Teater",
+            "description": "Denmark’s oldest theatre, hosting plays, musicals, and performances in a stunning historic setting."
+          }
+        ],
+        "Photo Spots": [
+          {
+            "name": "H.C. Andersen’s Childhood Home",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Hans+Christian+Andersen+Childhood+Home+Odense",
+            "description": "A charming yellow house on cobbled streets — perfect for fairy-tale inspired photos."
+          },
+          {
+            "name": "Monterey Bridge",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Monterey+Bridge+Odense",
+            "description": "A modern landmark bridge offering scenic river views and reflections of Odense’s skyline."
+          },
+          {
+            "name": "Eventyrhaven (Fairy Tale Garden)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Eventyrhaven+Odense",
+            "description": "Peaceful garden by the cathedral with fountains and sculptures inspired by Andersen’s stories."
+          },
+          {
+            "name": "Brandts Passage",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Brandts+Passage+Odense",
+            "description": "Trendy street full of cafés, boutiques, and art galleries — lively day and night."
+          }
+        ],
+        "Food & Nightlife": [
+          {
+            "name": "Restaurant Under Lindetræet",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Restaurant+Under+Lindetræet+Odense",
+            "description": "Elegant fine dining next to Andersen’s house — serving modern Danish cuisine in a cozy 18th-century building."
+          },
+          {
+            "name": "Café Skt. Gertrud",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Café+Skt.+Gertrud+Odense",
+            "description": "Charming café with a Parisian atmosphere, known for brunch, coffee, and live jazz evenings."
+          },
+          {
+            "name": "Storms Pakhus Street Food",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Storms+Pakhus+Odense",
+            "description": "Huge street food market inside an old warehouse — offering global flavors, craft beer, and live events."
+          },
+          {
+            "name": "Albani Brewery Bar",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Albani+Brewery+Odense",
+            "description": "Historic local brewery serving craft beers and hosting events — a favorite hangout spot for locals."
+          }
+        ],
+        "Nature & Relaxation": [
+          {
+            "name": "Munke Mose Park",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Munke+Mose+Park+Odense",
+            "description": "Beautiful riverside park in the city center — ideal for boating, picnics, and sunny walks."
+          },
+          {
+            "name": "Odense River Trail",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Odense+River+Trail",
+            "description": "Picturesque walking and cycling path that winds through green landscapes around the city."
+          },
+          {
+            "name": "The Funen Alps (Svanninge Bakker)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Svanninge+Bakker",
+            "description": "Rolling hills just outside Odense, offering hiking trails and scenic views of Funen Island."
+          },
+          {
+            "name": "Eventyrhaven",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Eventyrhaven+Odense",
+            "description": "Tranquil garden filled with flowers, sculptures, and benches — great for a quiet afternoon break."
+          }
+        ]
+      },
+      "local_food_tip": "Try Odense pastries like 'brunsviger' (a sweet sticky cake), local cheeses from Funen, and beer from Albani Brewery — all local favorites.",
       "full_day": {
-        "Morning": "Start at the <a href=\"https://www.google.com/maps/search/?api=1&query=55.3963%2C10.3883\" target=\"_blank\" rel=\"noopener\">Hans Christian Andersen Museum</a> ☀️ to learn about Odense’s most famous resident.",
-        "Afternoon": "Visit <a href=\"https://www.google.com/maps/search/?api=1&query=55.3957%2C10.3889\" target=\"_blank\" rel=\"noopener\">Odense Cathedral</a> ⛪ and walk through the old town streets for lunch 🍽️.",
-        "Sunset": "Relax in <a href=\"https://www.google.com/maps/search/?api=1&query=55.3928%2C10.3880\" target=\"_blank\" rel=\"noopener\">Munke Mose Park</a> 🌅 along the river.",
-        "Night": "Dinner in the city center ✨ and a quiet evening walk through historic neighborhoods."
+        "morning": "☀️ Start your day at <a href='https://www.google.com/maps/search/?api=1&query=Hans+Christian+Andersen+Museum+Odense'>the Andersen Museum</a> and stroll through <a href='https://www.google.com/maps/search/?api=1&query=Hans+Christian+Andersen+Childhood+Home+Odense'>his childhood neighborhood</a>.",
+        "afternoon": "🎨 Visit <a href='https://www.google.com/maps/search/?api=1&query=Brandts+Art+Museum+Odense'>Brandts Art Museum</a>, have lunch at <a href='https://www.google.com/maps/search/?api=1&query=Café+Skt.+Gertrud+Odense'>Café Skt. Gertrud</a>, then relax in <a href='https://www.google.com/maps/search/?api=1&query=Eventyrhaven+Odense'>Eventyrhaven</a>.",
+        "evening": "🌇 Explore <a href='https://www.google.com/maps/search/?api=1&query=Storms+Pakhus+Odense'>Storms Pakhus</a> for dinner and local street food with a live DJ.",
+        "night": "🌙 End your evening at <a href='https://www.google.com/maps/search/?api=1&query=Albani+Brewery+Odense'>Albani Brewery Bar</a> or a night walk through <a href='https://www.google.com/maps/search/?api=1&query=Brandts+Passage+Odense'>Brandts Passage</a>."
       },
       "seasons": {
         "spring": {
-          "event": "Spring in Odense",
-          "description": "Blooming parks and mild weather make outdoor walks enjoyable.",
+          "highlight": "Flowers bloom across the parks and locals fill outdoor cafés.",
           "ideas": [
             {
-              "name": "Park walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=55.3928%2C10.3880",
-              "description": "Fresh greenery by the river."
+              "name": "Eventyrhaven Blossoms",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Eventyrhaven+Odense",
+              "description": "Cherry blossoms and tulips brighten up the garden near the cathedral."
             },
             {
-              "name": "Old town strolls",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=55.3965%2C10.3885",
-              "description": "Comfortable sightseeing."
-            },
-            {
-              "name": "Museum visits",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=55.3963%2C10.3883",
-              "description": "Cultural afternoons."
+              "name": "Funen Village Visit",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Funen+Village+Odense",
+              "description": "See spring life at the open-air museum with animals and blooming fields."
             }
           ]
         },
         "summer": {
-          "event": "Hans Christian Andersen Festivals",
-          "description": "Celebrations featuring performances inspired by Andersen’s fairy tales.",
+          "highlight": "Festivals, street music, and long bright evenings by the river.",
           "ideas": [
             {
-              "name": "Outdoor performances",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=55.3965%2C10.3885",
-              "description": "Theater and music in public spaces."
+              "name": "Odense Flower Festival",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Odense+Flower+Festival",
+              "description": "Downtown Odense turns into a floral wonderland with creative displays."
             },
             {
-              "name": "Cycling around Odense",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=55.3940%2C10.3850",
-              "description": "Flat and bike-friendly routes."
-            },
-            {
-              "name": "Picnics in parks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=55.3928%2C10.3880",
-              "description": "Long summer evenings."
+              "name": "Kayaking in Munke Mose Park",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Munke+Mose+Park+Odense",
+              "description": "Paddle through the calm Odense River surrounded by greenery."
             }
           ]
         },
         "autumn": {
-          "event": "Cultural Autumn",
-          "description": "Cozy city atmosphere with cultural programs and exhibitions.",
+          "highlight": "Golden leaves and cultural festivals bring warmth to cool days.",
           "ideas": [
             {
-              "name": "Museum hopping",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=55.3963%2C10.3883",
-              "description": "Indoor exploration."
+              "name": "Odense International Film Festival",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Odense+International+Film+Festival",
+              "description": "A world-famous short film festival attracting creative minds from all over Europe."
             },
             {
-              "name": "Photography walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=55.3957%2C10.3889",
-              "description": "Autumn light on historic buildings."
-            },
-            {
-              "name": "Café culture",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=55.3965%2C10.3885",
-              "description": "Warm drinks and pastries."
+              "name": "Forest Walks near Fruens Bøge",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Fruens+Bøge+Odense",
+              "description": "Enjoy the colorful foliage just a few minutes from the city center."
             }
           ]
         },
         "winter": {
-          "event": "Odense Christmas Markets",
-          "description": "Festive decorations and Christmas-themed activities inspired by fairy tales.",
+          "highlight": "Cozy cafés, Christmas lights, and Andersen-inspired magic.",
           "ideas": [
             {
-              "name": "Christmas markets",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=55.3965%2C10.3885",
-              "description": "Fairy-tale winter setting."
+              "name": "Odense Christmas Market",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Odense+Christmas+Market",
+              "description": "Historic streets transform into a fairy-tale market celebrating Andersen’s world."
             },
             {
-              "name": "Museum visits",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=55.3963%2C10.3883",
-              "description": "Warm indoor culture."
-            },
-            {
-              "name": "Cozy cafés",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=55.3965%2C10.3885",
-              "description": "Hygge experiences."
+              "name": "Warm Drinks at Café Skt. Gertrud",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Café+Skt.+Gertrud+Odense",
+              "description": "Relax with hot chocolate and candles — Danish hygge at its best."
             }
           ]
         }
       },
       "public_transport_tips": [
         {
-          "tip": "Odense is compact and easy to explore on foot or by bike.",
-          "link": "https://www.visitodense.com/"
-        },
-        {
-          "tip": "Local buses connect the center with museums and suburbs.",
+          "tip": "Odense’s city buses and light rail are operated by FynBus — tickets can be purchased via the FynBus app or at ticket machines.",
           "link": "https://www.fynbus.dk/"
         },
         {
-          "tip": "Direct trains connect Odense with Copenhagen and Aarhus.",
+          "tip": "The city is compact and bike-friendly — renting a bicycle is an easy and fun way to get around.",
+          "link": "https://www.visitodense.com/"
+        },
+        {
+          "tip": "Odense Central Station offers frequent trains to Copenhagen, Aarhus, and Funen towns.",
           "link": "https://www.dsb.dk/"
         }
       ],
       "city_events": [
         {
-          "name": "Hans Christian Andersen Festivals",
           "season": "summer",
-          "description": "Cultural festival celebrating literature, music, and theater.",
-          "website": "https://hcafestivals.dk/",
-          "dates": "August"
+          "dates": "August",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Odense+Flower+Festival",
+          "description": "Odense Flower Festival — one of Denmark’s most colorful annual celebrations."
+        },
+        {
+          "season": "autumn",
+          "dates": "August–September",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Odense+International+Film+Festival",
+          "description": "Odense International Film Festival — Denmark’s oldest and most prestigious short film event."
+        },
+        {
+          "season": "winter",
+          "dates": "December",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Odense+Christmas+Market",
+          "description": "Charming Christmas market recreating the atmosphere of Andersen’s 19th-century Odense."
         }
       ],
       "places": [
         {
-          "name": "Brandts Klædefabrik",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=55.3976%2C10.3855",
-          "description": "Cultural complex with museums, galleries, and cafés."
+          "name": "Hans Christian Andersen Museum",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Hans+Christian+Andersen+Museum+Odense",
+          "description": "Immersive museum experience celebrating the life and imagination of Denmark’s beloved writer."
         },
         {
-          "name": "Odense Zoo",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=55.3780%2C10.3924",
-          "description": "One of Denmark’s most popular zoos, set along the Odense River."
+          "name": "Funen Village",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Funen+Village+Odense",
+          "description": "Step back in time through traditional Danish village life complete with windmills and farmhouses."
+        },
+        {
+          "name": "Brandts Art Museum",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Brandts+Art+Museum+Odense",
+          "description": "Dynamic cultural center combining art, design, and photography in a creative setting."
         }
       ],
       "hidden_gems": [
         {
-          "name": "Quiet alleys of the old town",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=55.3965%2C10.3885",
-          "description": "Peaceful historic streets away from main attractions."
+          "name": "Lotus House Café",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Lotus+House+Cafe+Odense",
+          "description": "Peaceful café surrounded by gardens — perfect for tea lovers and a calm escape."
         },
         {
-          "name": "River paths near Munke Mose",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=55.3920%2C10.3875",
-          "description": "Relaxing riverside walks with local atmosphere."
+          "name": "Odense Harbor Promenade",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Odense+Harbor",
+          "description": "Recently revitalized area with modern art installations, cafés, and quiet waterfront views."
+        },
+        {
+          "name": "Dalum Paper Mill",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Dalum+Paper+Mill+Odense",
+          "description": "Historic paper factory turned cultural venue — a fascinating mix of history and creativity."
         }
       ]
     },
     {
       "name": "Roskilde",
-      "interests": [
-        {
-          "name": "Roskilde Cathedral",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=55.6427%2C12.0806",
-          "description": "UNESCO World Heritage cathedral and burial place of Danish monarchs, a masterpiece of Brick Gothic architecture."
-        },
-        {
-          "name": "Viking Ship Museum",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=55.6466%2C12.0801",
-          "description": "Renowned museum displaying original Viking ships recovered from Roskilde Fjord."
-        },
-        {
-          "name": "Roskilde Fjord",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=55.6460%2C12.0835",
-          "description": "Scenic fjord area offering walking paths, sailing activities, and wide open views."
-        },
-        {
-          "name": "Roskilde Museum",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=55.6423%2C12.0800",
-          "description": "Local history museum explaining Roskilde’s importance from Viking age to modern times."
-        },
-        {
-          "name": "Byparken (City Park)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=55.6409%2C12.0846",
-          "description": "Green park near the center, popular for relaxing walks and picnics."
-        }
-      ],
-      "local_food_tip": "Try Danish smørrebrød, fresh fish dishes, pastries, and local beer. Cafés near the cathedral and harbor are reliable choices.",
+      "interests": {
+        "Art & Culture": [
+          {
+            "name": "Roskilde Cathedral",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Roskilde+Cathedral",
+            "description": "UNESCO World Heritage Site and burial place of Danish kings and queens — a masterpiece of Gothic architecture with centuries of royal history."
+          },
+          {
+            "name": "Viking Ship Museum",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Viking+Ship+Museum+Roskilde",
+            "description": "Explore five original Viking ships, interactive exhibits, and even sail replicas on the fjord during summer."
+          },
+          {
+            "name": "RAGNAROCK Museum",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=RAGNAROCK+Museum+Roskilde",
+            "description": "Futuristic museum of pop, rock, and youth culture — filled with sound, style, and rebellion from the 1950s to today."
+          },
+          {
+            "name": "Roskilde Museum",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Roskilde+Museum",
+            "description": "A local history museum tracing the city’s evolution from Viking hub to royal and cultural center."
+          },
+          {
+            "name": "Byparken Sculpture Walk",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Byparken+Roskilde",
+            "description": "A creative trail through the city’s green heart — dotted with sculptures and art installations."
+          }
+        ],
+        "Photo Spots": [
+          {
+            "name": "Roskilde Fjord",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Roskilde+Fjord",
+            "description": "Calm waters reflecting boats and sunset skies — ideal for golden-hour photography."
+          },
+          {
+            "name": "Roskilde Cathedral Towers",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Roskilde+Cathedral",
+            "description": "Climb up or photograph from the city square for iconic skyline views."
+          },
+          {
+            "name": "Viking Ship Harbor",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Viking+Ship+Museum+Roskilde",
+            "description": "Wooden ships and fjord reflections make this one of Denmark’s most scenic historical spots."
+          },
+          {
+            "name": "Musicon District",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Musicon+Roskilde",
+            "description": "Urban art, murals, and creative studios in a transformed industrial area — perfect for street photography."
+          }
+        ],
+        "Food & Nightlife": [
+          {
+            "name": "Snekken Trattoria",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Snekken+Trattoria+Roskilde",
+            "description": "Italian-inspired restaurant right by the harbor — excellent seafood and fjord views."
+          },
+          {
+            "name": "Pipers Hus",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Pipers+Hus+Roskilde",
+            "description": "Historic timbered house serving Danish comfort food in Byparken — especially cozy in winter."
+          },
+          {
+            "name": "Café Vivaldi",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Café+Vivaldi+Roskilde",
+            "description": "Local favorite café for brunch, pastries, and people-watching on the main street."
+          },
+          {
+            "name": "Gimle",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Gimle+Roskilde",
+            "description": "Popular concert venue and bar where locals enjoy live music, craft beer, and a youthful vibe."
+          }
+        ],
+        "Nature & Relaxation": [
+          {
+            "name": "Byparken",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Byparken+Roskilde",
+            "description": "Central park overlooking the fjord — perfect for picnics, outdoor concerts, and sunsets."
+          },
+          {
+            "name": "Roskilde Fjord Trail",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Roskilde+Fjord+Trail",
+            "description": "Walking and cycling route along the coast with birdwatching spots and Viking views."
+          },
+          {
+            "name": "Bosore Forest",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Bosore+Forest+Roskilde",
+            "description": "A calm forest trail just outside the city — peaceful and ideal for a morning jog or nature break."
+          },
+          {
+            "name": "Harbor Promenade",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Roskilde+Harbor",
+            "description": "Scenic harbor area lined with cafés, yachts, and views of the Viking Ship Museum."
+          }
+        ]
+      },
+      "local_food_tip": "Try smørrebrød (open-faced sandwiches) or freshly caught fish by the fjord. Don’t miss local craft beer at Gimle or the famous Danish pastries from a downtown bakery.",
       "full_day": {
-        "Morning": "Start at <a href=\"https://www.google.com/maps/search/?api=1&query=55.6427%2C12.0806\" target=\"_blank\" rel=\"noopener\">Roskilde Cathedral</a> ☀️ and explore its interior and royal tombs.",
-        "Afternoon": "Walk to the <a href=\"https://www.google.com/maps/search/?api=1&query=55.6466%2C12.0801\" target=\"_blank\" rel=\"noopener\">Viking Ship Museum</a> 🛶 and enjoy lunch by the fjord 🍽️.",
-        "Sunset": "Stroll along <a href=\"https://www.google.com/maps/search/?api=1&query=55.6460%2C12.0835\" target=\"_blank\" rel=\"noopener\">Roskilde Fjord</a> 🌅 and enjoy the open landscape.",
-        "Night": "Dinner in the town center ✨ followed by a calm evening walk."
+        "morning": "☀️ Begin your day at <a href='https://www.google.com/maps/search/?api=1&query=Roskilde+Cathedral'>Roskilde Cathedral</a>, then enjoy a stroll through <a href='https://www.google.com/maps/search/?api=1&query=Byparken+Roskilde'>Byparken</a> with views over the fjord.",
+        "afternoon": "⚓ Visit the <a href='https://www.google.com/maps/search/?api=1&query=Viking+Ship+Museum+Roskilde'>Viking Ship Museum</a> and have lunch at <a href='https://www.google.com/maps/search/?api=1&query=Snekken+Trattoria+Roskilde'>Snekken Trattoria</a> by the water.",
+        "evening": "🎸 Explore the <a href='https://www.google.com/maps/search/?api=1&query=RAGNAROCK+Museum+Roskilde'>RAGNAROCK Museum</a> and colorful <a href='https://www.google.com/maps/search/?api=1&query=Musicon+Roskilde'>Musicon District</a>.",
+        "night": "🌙 Finish the day with live music and local beer at <a href='https://www.google.com/maps/search/?api=1&query=Gimle+Roskilde'>Gimle</a> or a peaceful fjordside walk."
       },
       "seasons": {
         "spring": {
-          "event": "Spring in Roskilde",
-          "description": "Mild weather and green spaces coming back to life.",
+          "highlight": "Parks and gardens awaken with color — perfect for outdoor walks and picnics.",
           "ideas": [
             {
-              "name": "Cathedral surroundings",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=55.6427%2C12.0806",
-              "description": "Pleasant sightseeing temperatures."
+              "name": "Byparken Blossoms",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Byparken+Roskilde",
+              "description": "Enjoy blooming flowers and peaceful fjord views in the heart of the city."
             },
             {
-              "name": "Park walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=55.6409%2C12.0846",
-              "description": "Fresh greenery and flowers."
-            },
-            {
-              "name": "Museum visits",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=55.6423%2C12.0800",
-              "description": "Cultural exploration."
+              "name": "Roskilde Fjord Trail Bike Ride",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Roskilde+Fjord+Trail",
+              "description": "Ride along the water and see nature wake up after winter."
             }
           ]
         },
         "summer": {
-          "event": "Roskilde Festival",
-          "description": "One of Europe’s largest music festivals, attracting international artists and visitors.",
+          "highlight": "Festival season and endless daylight make Roskilde come alive.",
           "ideas": [
             {
-              "name": "Festival atmosphere",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=55.6225%2C12.0610",
-              "description": "World-famous music event."
+              "name": "Roskilde Festival",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Roskilde+Festival",
+              "description": "One of Europe’s biggest music festivals — a celebration of music, art, and community."
             },
             {
-              "name": "Fjord walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=55.6460%2C12.0835",
-              "description": "Long Nordic summer evenings."
-            },
-            {
-              "name": "Outdoor cafés",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=55.6420%2C12.0815",
-              "description": "Lively summer town life."
+              "name": "Harbor Walk and Ice Cream",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Roskilde+Harbor",
+              "description": "Relax by the water and enjoy sunset views with a treat in hand."
             }
           ]
         },
         "autumn": {
-          "event": "Golden Danish Autumn",
-          "description": "Colorful trees and quieter streets.",
+          "highlight": "Golden forests and cozy cultural experiences fill the city.",
           "ideas": [
             {
-              "name": "Photography walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=55.6427%2C12.0806",
-              "description": "Autumn light on historic buildings."
+              "name": "Viking Ship Museum Workshop",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Viking+Ship+Museum+Roskilde",
+              "description": "Watch traditional boatbuilding and Viking crafts indoors as the weather cools."
             },
             {
-              "name": "Museum hopping",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=55.6466%2C12.0801",
-              "description": "Indoor cultural visits."
-            },
-            {
-              "name": "Café culture",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=55.6420%2C12.0815",
-              "description": "Cozy atmosphere."
+              "name": "RAGNAROCK Concert Nights",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=RAGNAROCK+Museum+Roskilde",
+              "description": "Catch live music and exhibitions celebrating Danish rock culture."
             }
           ]
         },
         "winter": {
-          "event": "Roskilde Christmas Season",
-          "description": "Festive lights and a calm historic atmosphere.",
+          "highlight": "Quiet, cozy charm with twinkling lights and warm Danish hygge.",
           "ideas": [
             {
-              "name": "Christmas market visits",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=55.6427%2C12.0806",
-              "description": "Seasonal decorations near the cathedral."
+              "name": "Roskilde Christmas Market",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Roskilde+Christmas+Market",
+              "description": "Charming market near the cathedral with crafts, hot cocoa, and festive atmosphere."
             },
             {
-              "name": "Museum visits",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=55.6466%2C12.0801",
-              "description": "Warm indoor culture."
-            },
-            {
-              "name": "Historic walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=55.6423%2C12.0800",
-              "description": "Quiet winter streets."
+              "name": "Cozy Café Visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Café+Vivaldi+Roskilde",
+              "description": "Warm up in a café with coffee and Danish pastries."
             }
           ]
         }
       },
       "public_transport_tips": [
         {
-          "tip": "Trains connect Roskilde with Copenhagen in about 25 minutes.",
+          "tip": "Roskilde is easily reached from Copenhagen by frequent DSB trains — only about 25 minutes away.",
           "link": "https://www.dsb.dk/"
         },
         {
-          "tip": "The town center is compact and walkable.",
-          "link": "https://www.visitroskilde.com/"
+          "tip": "Local buses and regional routes are operated by Movia — tickets can be bought via the DOT app or at stations.",
+          "link": "https://dinoffentligetransport.dk/"
         },
         {
-          "tip": "Local buses connect the station with the fjord and suburbs.",
-          "link": "https://www.moviatrafik.dk/"
+          "tip": "The city center is walkable, and renting a bike is a great way to explore the fjord and parks.",
+          "link": "https://www.visitroskilde.dk/"
         }
       ],
       "city_events": [
         {
-          "name": "Roskilde Festival",
           "season": "summer",
-          "description": "Legendary music festival with international artists and large crowds.",
-          "website": "https://www.roskilde-festival.dk/",
-          "dates": "Late June–early July"
+          "dates": "Late June – Early July",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Roskilde+Festival",
+          "description": "Roskilde Festival — one of Europe’s largest and most legendary music festivals since 1971."
+        },
+        {
+          "season": "autumn",
+          "dates": "September",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Roskilde+Culture+Night",
+          "description": "Roskilde Culture Night — local museums, galleries, and shops stay open late with art, light shows, and live music."
+        },
+        {
+          "season": "winter",
+          "dates": "December",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Roskilde+Christmas+Market",
+          "description": "Roskilde Christmas Market — festive lights and stalls fill the streets near the cathedral."
         }
       ],
       "places": [
         {
-          "name": "Harbor Bath Area",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=55.6468%2C12.0848",
-          "description": "Waterfront area popular for summer swimming and relaxation."
+          "name": "Roskilde Cathedral",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Roskilde+Cathedral",
+          "description": "UNESCO-listed Gothic church with royal tombs and centuries of Danish history."
         },
         {
-          "name": "Sankt Jørgensbjerg",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=55.6489%2C12.0758",
-          "description": "Oldest neighborhood in Roskilde with views over the fjord."
+          "name": "Viking Ship Museum",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Viking+Ship+Museum+Roskilde",
+          "description": "Discover real Viking ships and sail replicas on the fjord in summer."
+        },
+        {
+          "name": "RAGNAROCK Museum",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=RAGNAROCK+Museum+Roskilde",
+          "description": "Music and youth culture museum with interactive exhibits and futuristic design."
         }
       ],
       "hidden_gems": [
         {
-          "name": "Early-morning Cathedral Square",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=55.6427%2C12.0806",
-          "description": "Peaceful atmosphere before visitors arrive."
+          "name": "Musicon District",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Musicon+Roskilde",
+          "description": "Creative neighborhood filled with murals, design shops, and the city’s trendiest cafés."
         },
         {
-          "name": "Quiet paths along the fjord",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=55.6475%2C12.0860",
-          "description": "Less-visited walking routes with open views."
+          "name": "Roskilde Harbor Sauna",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Roskilde+Harbor+Sauna",
+          "description": "Small fjordside sauna offering relaxing winter bathing experiences."
+        },
+        {
+          "name": "Byparken Sculpture Path",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Byparken+Roskilde",
+          "description": "A calm route through the park where art meets nature — often missed by tourists."
         }
       ]
     },
 
     {
       "name": "Skagen",
-      "interests": [
-        {
-          "name": "Grenen (The Tip of Denmark)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=57.7444%2C10.6570",
-          "description": "Unique sandy spit where the North Sea and Baltic Sea meet, allowing visitors to stand with one foot in each sea."
-        },
-        {
-          "name": "Skagen Museum",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=57.7214%2C10.5837",
-          "description": "Art museum dedicated to the Skagen Painters, famous for their light-filled coastal artworks."
-        },
-        {
-          "name": "Råbjerg Mile",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=57.6369%2C10.4236",
-          "description": "Largest migrating sand dune in Northern Europe, slowly moving eastward each year."
-        },
-        {
-          "name": "Skagen Lighthouse (Det Grå Fyr)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=57.7415%2C10.6518",
-          "description": "Tall gray lighthouse offering panoramic views of Skagen, dunes, and surrounding seas."
-        },
-        {
-          "name": "Skagen Old Town (Østerby)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=57.7235%2C10.5855",
-          "description": "Charming historic district with yellow houses, red roofs, and maritime atmosphere."
-        }
-      ],
-      "local_food_tip": "Try fresh seafood such as shrimp, plaice, and fish soup. Skagen is famous for its seafood platters and classic Danish smørrebrød.",
+      "interests": {
+        "Art & Culture": [
+          {
+            "name": "Skagens Museum",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Skagens+Museum",
+            "description": "Dedicated to the famous Skagen Painters — a group of 19th-century artists who captured the town’s light, landscapes, and fishing life in stunning Impressionist works."
+          },
+          {
+            "name": "Anchers Hus",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Anchers+Hus+Skagen",
+            "description": "Former home of artists Anna and Michael Ancher — preserved exactly as it was in their time, offering insight into the golden age of Danish art."
+          },
+          {
+            "name": "Drachmanns Hus",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Drachmanns+Hus+Skagen",
+            "description": "Historic home of poet and painter Holger Drachmann, filled with personal artifacts and cozy seaside atmosphere."
+          },
+          {
+            "name": "Skagen Church",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Skagen+Church",
+            "description": "A beautiful whitewashed church in the town center with maritime symbols and peaceful surroundings."
+          },
+          {
+            "name": "Buried Church (Den Tilsandede Kirke)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Den+Tilsandede+Kirke+Skagen",
+            "description": "Only the tower remains of this 14th-century church buried by sand dunes — a haunting reminder of nature’s power."
+          }
+        ],
+        "Photo Spots": [
+          {
+            "name": "Grenen",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Grenen+Skagen",
+            "description": "The northernmost tip of Denmark, where two seas — the Skagerrak and Kattegat — meet in a dramatic swirl of waves."
+          },
+          {
+            "name": "Råbjerg Mile",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Råbjerg+Mile",
+            "description": "A vast migrating sand dune — Denmark’s own desert — offering spectacular views and surreal photo opportunities."
+          },
+          {
+            "name": "Old Skagen (Gammel Skagen)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Gammel+Skagen",
+            "description": "Romantic seaside village with yellow houses, dune landscapes, and unforgettable sunsets."
+          },
+          {
+            "name": "Skagen Lighthouse (Det Grå Fyr)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Det+Grå+Fyr+Skagen",
+            "description": "Climb Denmark’s second-tallest lighthouse for panoramic views of the coast and sea birds flying by."
+          }
+        ],
+        "Food & Nightlife": [
+          {
+            "name": "Restaurant Hyttefadet",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Restaurant+Hyttefadet+Skagen",
+            "description": "Traditional Danish seafood restaurant at the harbor — famous for fish platters and open sandwiches."
+          },
+          {
+            "name": "Skagen Fiskerestaurant",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Skagen+Fiskerestaurant",
+            "description": "Iconic spot serving freshly caught fish and shrimp on the waterfront, with a sunny terrace in summer."
+          },
+          {
+            "name": "Jakobs Café & Bar",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Jakobs+Café+Skagen",
+            "description": "Relaxed café offering local dishes, live music, and outdoor seating on warm evenings."
+          },
+          {
+            "name": "Skagen Bryghus",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Skagen+Bryghus",
+            "description": "Cozy local brewery serving craft beer, pub meals, and live concerts — a lively gathering spot year-round."
+          }
+        ],
+        "Nature & Relaxation": [
+          {
+            "name": "Grenen",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Grenen+Skagen",
+            "description": "Walk to the very tip of Denmark and stand with a foot in each sea — a breathtaking experience."
+          },
+          {
+            "name": "Råbjerg Mile",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Råbjerg+Mile",
+            "description": "Climb shifting dunes and feel the vast silence of Denmark’s largest moving desert."
+          },
+          {
+            "name": "Kandestederne Beach",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Kandestederne+Beach",
+            "description": "Wide sandy beach perfect for walks, kite flying, or simply watching the waves roll in."
+          },
+          {
+            "name": "Skagen Ørnereservat (Eagle Sanctuary)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Skagen+Ørnereservat",
+            "description": "Get close to majestic eagles and falcons during live demonstrations in a natural dune landscape."
+          }
+        ]
+      },
+      "local_food_tip": "Try freshly caught herring, shrimp sandwiches, and local Skagen beer. In summer, enjoy smoked fish at the harbor while watching the fishing boats return.",
       "full_day": {
-        "Morning": "Start with a walk through <a href=\"https://www.google.com/maps/search/?api=1&query=57.7235%2C10.5855\" target=\"_blank\" rel=\"noopener\">Skagen Old Town</a> ☀️ and enjoy breakfast at a local café.",
-        "Afternoon": "Visit the <a href=\"https://www.google.com/maps/search/?api=1&query=57.7214%2C10.5837\" target=\"_blank\" rel=\"noopener\">Skagen Museum</a> 🖼️ and have seafood lunch near the harbor 🍽️.",
-        "Sunset": "Head to <a href=\"https://www.google.com/maps/search/?api=1&query=57.7444%2C10.6570\" target=\"_blank\" rel=\"noopener\">Grenen</a> 🌅 to watch the two seas meet.",
-        "Night": "Evening stroll by the harbor ✨ and relaxed dinner in town."
+        "morning": "☀️ Begin your day with breakfast at <a href='https://www.google.com/maps/search/?api=1&query=Jakobs+Café+Skagen'>Jakobs Café</a>, then visit the <a href='https://www.google.com/maps/search/?api=1&query=Skagens+Museum'>Skagens Museum</a> to explore local art.",
+        "afternoon": "🏖️ Head to <a href='https://www.google.com/maps/search/?api=1&query=Grenen+Skagen'>Grenen</a> to stand between two seas, and grab lunch at <a href='https://www.google.com/maps/search/?api=1&query=Skagen+Fiskerestaurant'>Skagen Fiskerestaurant</a> by the harbor.",
+        "evening": "🌇 Visit <a href='https://www.google.com/maps/search/?api=1&query=Gammel+Skagen'>Old Skagen</a> for sunset — one of the most beautiful in Denmark.",
+        "night": "🍻 End the night at <a href='https://www.google.com/maps/search/?api=1&query=Skagen+Bryghus'>Skagen Bryghus</a> for live music and local craft beer."
       },
       "seasons": {
         "spring": {
-          "event": "Spring Light Season",
-          "description": "Increasing daylight and fresh coastal air attract artists and photographers.",
+          "highlight": "Mild weather and blooming heather bring color to the dunes and coasts.",
           "ideas": [
             {
-              "name": "Coastal walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=57.7444%2C10.6570",
-              "description": "Clear views and crisp air."
+              "name": "Birdwatching at Grenen",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Grenen+Skagen",
+              "description": "Migrating birds fill the skies — a paradise for nature photographers."
             },
             {
-              "name": "Museum visits",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=57.7214%2C10.5837",
-              "description": "Art and cultural exploration."
-            },
-            {
-              "name": "Town photography",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=57.7235%2C10.5855",
-              "description": "Soft spring light on historic houses."
+              "name": "Cycling the Coast Route",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Skagen+Coastal+Route",
+              "description": "Bike along scenic dunes and fishing villages as flowers begin to bloom."
             }
           ]
         },
         "summer": {
-          "event": "Skagen Summer Season",
-          "description": "Peak season with long daylight hours, beaches, and cultural life.",
+          "highlight": "Long daylight hours, art festivals, and buzzing harbor life.",
           "ideas": [
             {
-              "name": "Beach visits",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=57.7420%2C10.6500",
-              "description": "Swimming and sunbathing."
+              "name": "Skagen Festival",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Skagen+Festival",
+              "description": "Denmark’s oldest music festival, celebrating folk and blues with concerts all over town."
             },
             {
-              "name": "Grenen trips",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=57.7444%2C10.6570",
-              "description": "Iconic natural attraction."
-            },
-            {
-              "name": "Evening harbor dining",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=57.7208%2C10.5830",
-              "description": "Lively summer evenings."
+              "name": "Beach Days at Kandestederne",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Kandestederne+Beach",
+              "description": "Swim, sunbathe, or picnic by the dunes under the endless Nordic sun."
             }
           ]
         },
         "autumn": {
-          "event": "Autumn Coastal Calm",
-          "description": "Fewer visitors and dramatic skies over the sea.",
+          "highlight": "Quiet charm returns — perfect for reflection, nature, and warm cafés.",
           "ideas": [
             {
-              "name": "Nature walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=57.6369%2C10.4236",
-              "description": "Wind-sculpted dunes."
+              "name": "Råbjerg Mile Hike",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Råbjerg+Mile",
+              "description": "Walk among the dunes as autumn light creates magical shadows."
             },
             {
-              "name": "Photography at lighthouse",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=57.7415%2C10.6518",
-              "description": "Moody autumn light."
-            },
-            {
-              "name": "Café stops",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=57.7235%2C10.5855",
-              "description": "Cozy local atmosphere."
+              "name": "Anchers Hus Visit",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Anchers+Hus+Skagen",
+              "description": "Discover art and cozy interiors reflecting Skagen’s golden past."
             }
           ]
         },
         "winter": {
-          "event": "Winter by the North Sea",
-          "description": "Quiet town life, strong winds, and dramatic coastal scenery.",
+          "highlight": "Peaceful landscapes, storms at sea, and hygge by the fireplace.",
           "ideas": [
             {
-              "name": "Storm watching",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=57.7444%2C10.6570",
-              "description": "Powerful winter seas."
+              "name": "Storm Watching at Grenen",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Grenen+Skagen",
+              "description": "Watch waves crash as the two seas meet dramatically under gray skies."
             },
             {
-              "name": "Museum visits",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=57.7214%2C10.5837",
-              "description": "Warm indoor culture."
-            },
-            {
-              "name": "Historic town walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=57.7235%2C10.5855",
-              "description": "Peaceful winter streets."
+              "name": "Hot Drinks at the Harbor",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Skagen+Harbor",
+              "description": "Enjoy hot cocoa and pastries while the fishing boats rest for winter."
             }
           ]
         }
       },
       "public_transport_tips": [
         {
-          "tip": "Trains connect Skagen with Frederikshavn and the rest of Denmark.",
-          "link": "https://www.dsb.dk/"
-        },
-        {
-          "tip": "Local buses and bikes are useful for reaching Grenen and dunes.",
+          "tip": "Skagen is connected to Aalborg and Frederikshavn by Nordjyske Railways — scenic coastal train rides.",
           "link": "https://www.nordjyllandstrafikselskab.dk/"
         },
         {
-          "tip": "Many attractions are reachable on foot within the town.",
-          "link": "https://www.visitskagen.com/"
+          "tip": "Most attractions are walkable or reachable by local bus routes around the peninsula.",
+          "link": "https://www.rejseplanen.dk/"
+        },
+        {
+          "tip": "Bike rentals are available near the station — ideal for exploring Grenen and Old Skagen.",
+          "link": "https://www.visitskagen.dk/"
         }
       ],
       "city_events": [
         {
-          "name": "Skagen Festival",
           "season": "summer",
-          "description": "Traditional folk music festival with concerts across town.",
-          "website": "https://skagenfestival.dk/",
-          "dates": "July"
+          "dates": "Late June – Early July",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Skagen+Festival",
+          "description": "Skagen Festival — Denmark’s oldest music festival celebrating folk and blues traditions since 1971."
+        },
+        {
+          "season": "autumn",
+          "dates": "September",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Skagen+Food+Festival",
+          "description": "Skagen Food Festival — culinary celebration featuring local seafood, chefs, and open-air tastings."
+        },
+        {
+          "season": "winter",
+          "dates": "December",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Skagen+Christmas+Market",
+          "description": "Cozy market by the harbor with crafts, lights, and the scent of roasted almonds."
         }
       ],
       "places": [
         {
-          "name": "Anchored Church (Den Tilsandede Kirke)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=57.7004%2C10.5354",
-          "description": "Historic church largely buried by sand dunes, only the tower remains visible."
+          "name": "Grenen",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Grenen+Skagen",
+          "description": "The dramatic meeting point of two seas — a must-see natural wonder at Denmark’s northernmost tip."
         },
         {
-          "name": "Skagen Harbour",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=57.7208%2C10.5830",
-          "description": "Active fishing harbor with restaurants and maritime life."
+          "name": "Skagens Museum",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Skagens+Museum",
+          "description": "Celebrates the life and art of the Skagen Painters who shaped Denmark’s cultural heritage."
+        },
+        {
+          "name": "Råbjerg Mile",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Råbjerg+Mile",
+          "description": "Massive moving dune landscape offering adventure, views, and peace in equal measure."
         }
       ],
       "hidden_gems": [
         {
-          "name": "Quiet beaches south of Skagen",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=57.7050%2C10.5600",
-          "description": "Less crowded coastline with raw natural beauty."
+          "name": "Kystmuseet Skagen",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Kystmuseet+Skagen",
+          "description": "Local maritime museum filled with stories of shipwrecks and life on the rough northern seas."
         },
         {
-          "name": "Early-morning Grenen",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=57.7444%2C10.6570",
-          "description": "Peaceful experience before most visitors arrive."
+          "name": "Butterfly House & Tropical Garden",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Skagen+Butterfly+House",
+          "description": "Unexpected tropical oasis full of butterflies and exotic plants — fun for families and nature lovers."
+        },
+        {
+          "name": "Vippefyret (Old Beacon)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Vippefyret+Skagen",
+          "description": "A replica of Denmark’s first wooden lighthouse — a fascinating link to maritime history and stunning photo spot at sunset."
         }
       ]
     }

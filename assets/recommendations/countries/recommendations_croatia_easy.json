@@ -1,860 +1,1172 @@
 {
   "name": "Croatia",
   "cities": [
-    {
+{
   "name": "Dubrovnik",
-  "interests": [
-    {
-      "name": "Old City of Dubrovnik",
-      "map_link": "https://www.google.com/maps/search/?api=1&query=42.6409%2C18.1083",
-      "description": "UNESCO World Heritage–listed old town surrounded by massive stone walls, known for its medieval streets, squares, and historic buildings."
-    },
-    {
-      "name": "City Walls of Dubrovnik",
-      "map_link": "https://www.google.com/maps/search/?api=1&query=42.6413%2C18.1086",
-      "description": "Well-preserved defensive walls offering panoramic views over the Old City and the Adriatic Sea."
-    },
-    {
-      "name": "Stradun (Placa)",
-      "map_link": "https://www.google.com/maps/search/?api=1&query=42.6416%2C18.1089",
-      "description": "Main limestone-paved street of the Old City, lined with shops, cafés, and historic landmarks."
-    },
-    {
-      "name": "Fort Lovrijenac",
-      "map_link": "https://www.google.com/maps/search/?api=1&query=42.6426%2C18.1045",
-      "description": "Cliff-top fortress overlooking the city walls and sea, often called the ‘Gibraltar of Dubrovnik’."
-    },
-    {
-      "name": "Mount Srđ Viewpoint",
-      "map_link": "https://www.google.com/maps/search/?api=1&query=42.6507%2C18.1123",
-      "description": "Hill above Dubrovnik offering the most famous panoramic views of the Old City and surrounding islands."
-    }
-  ],
-  "local_food_tip": "Try Dalmatian seafood, black risotto, grilled fish, octopus salad, and local desserts. Dubrovnik also offers excellent regional wines from southern Dalmatia.",
+  "interests": {
+    "Art & Culture": [
+      {
+        "name": "Old Town Dubrovnik (Stari Grad)",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Old+Town+Dubrovnik",
+        "description": "A UNESCO World Heritage site surrounded by medieval stone walls, filled with baroque buildings, marble streets, and historic landmarks. It’s the heart of Dubrovnik’s charm."
+      },
+      {
+        "name": "Rector’s Palace",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Rector's+Palace+Dubrovnik",
+        "description": "A Gothic-Renaissance palace that once housed Dubrovnik’s government — now a museum with beautifully preserved chambers and artifacts."
+      },
+      {
+        "name": "Franciscan Monastery & Museum",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Franciscan+Monastery+Dubrovnik",
+        "description": "Home to one of Europe’s oldest pharmacies (1317) and a stunning cloister — a peaceful retreat in the bustling Old Town."
+      },
+      {
+        "name": "Dubrovnik Cathedral (Assumption of the Virgin Mary)",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Dubrovnik+Cathedral",
+        "description": "A masterpiece of baroque architecture housing precious paintings and relics, including works by Titian."
+      },
+      {
+        "name": "Maritime Museum",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Maritime+Museum+Dubrovnik",
+        "description": "Located in St. John’s Fortress, this museum tells the story of Dubrovnik’s proud seafaring history."
+      }
+    ],
+    "Photo Spots": [
+      {
+        "name": "City Walls Walk",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Dubrovnik+City+Walls",
+        "description": "Walk along the medieval walls for breathtaking views of the Adriatic Sea, terracotta rooftops, and the islands beyond."
+      },
+      {
+        "name": "Mount Srđ",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Mount+Srd+Dubrovnik",
+        "description": "Take the cable car or hike up for the best panoramic view of Dubrovnik and the surrounding coastline."
+      },
+      {
+        "name": "Pile Gate",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Pile+Gate+Dubrovnik",
+        "description": "The main entrance to the Old Town, perfect for photos of the city walls and the lively atmosphere outside."
+      },
+      {
+        "name": "Porporela Pier",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Porporela+Pier+Dubrovnik",
+        "description": "A romantic spot by the sea with views of the fortresses and waves crashing against the rocks."
+      }
+    ],
+    "Food & Nightlife": [
+      {
+        "name": "Taj Mahal",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Taj+Mahal+Dubrovnik",
+        "description": "A cozy restaurant serving Bosnian specialties like cevapi and pita, beloved by both tourists and locals."
+      },
+      {
+        "name": "360 Dubrovnik",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=360+Dubrovnik+Restaurant",
+        "description": "A Michelin-starred restaurant offering fine dining with a view of the city walls and harbor."
+      },
+      {
+        "name": "Buza Bar",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Buza+Bar+Dubrovnik",
+        "description": "Hidden between the cliffs, this legendary bar offers stunning sunset views right above the Adriatic Sea."
+      },
+      {
+        "name": "Proto Fish Restaurant",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Proto+Restaurant+Dubrovnik",
+        "description": "One of the oldest restaurants in Dubrovnik, known for its excellent seafood and traditional recipes."
+      }
+    ],
+    "Nature & Relaxation": [
+      {
+        "name": "Lokrum Island",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Lokrum+Island+Dubrovnik",
+        "description": "A short boat ride from the Old Port takes you to a lush island with gardens, peacocks, and swimming spots."
+      },
+      {
+        "name": "Banje Beach",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Banje+Beach+Dubrovnik",
+        "description": "The most famous city beach — crystal-clear waters and a stunning view of the Old Town walls."
+      },
+      {
+        "name": "Lapad Bay",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Lapad+Bay+Dubrovnik",
+        "description": "A calm, family-friendly beach area surrounded by cafés and pine trees, ideal for a peaceful afternoon swim."
+      },
+      {
+        "name": "Cavtat",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Cavtat+Croatia",
+        "description": "A picturesque seaside town 20 km from Dubrovnik, perfect for a half-day trip with coastal walks and seafood dining."
+      }
+    ]
+  },
+  "local_food_tip": "Try ‘black risotto’ made with squid ink, ‘pasticada’ (Dalmatian beef stew), and a glass of local Plavac Mali red wine. For dessert, order ‘rozata’, a creamy caramel pudding from Dubrovnik!",
   "full_day": {
-    "Morning": "Enter the Old City and walk along <a href=\"https://www.google.com/maps/search/?api=1&query=42.6413%2C18.1086\" target=\"_blank\" rel=\"noopener\">the City Walls</a> 🏰 early to avoid crowds, enjoying views over the rooftops and sea.",
-    "Afternoon": "Stroll down <a href=\"https://www.google.com/maps/search/?api=1&query=42.6416%2C18.1089\" target=\"_blank\" rel=\"noopener\">Stradun</a> ☀️, explore side streets, and visit <a href=\"https://www.google.com/maps/search/?api=1&query=42.6426%2C18.1045\" target=\"_blank\" rel=\"noopener\">Fort Lovrijenac</a> 🏛️.",
-    "Sunset": "Head up to <a href=\"https://www.google.com/maps/search/?api=1&query=42.6507%2C18.1123\" target=\"_blank\" rel=\"noopener\">Mount Srđ</a> 🌅 for unforgettable sunset views.",
-    "Night": "Dinner inside the Old City ✨ followed by an evening walk through illuminated stone streets."
+    "morning": "☀️ Start your day exploring <a href='https://www.google.com/maps/search/?api=1&query=Old+Town+Dubrovnik'>the Old Town</a> — visit the cathedral and stroll down the Stradun main street.",
+    "afternoon": "🏰 Walk the <a href='https://www.google.com/maps/search/?api=1&query=Dubrovnik+City+Walls'>city walls</a> and have lunch at <a href='https://www.google.com/maps/search/?api=1&query=Proto+Restaurant+Dubrovnik'>Proto</a> for authentic Dalmatian seafood.",
+    "evening": "🌇 Take the <a href='https://www.google.com/maps/search/?api=1&query=Dubrovnik+Cable+Car'>cable car</a> to <a href='https://www.google.com/maps/search/?api=1&query=Mount+Srd+Dubrovnik'>Mount Srđ</a> for sunset views over the Adriatic.",
+    "night": "🌙 Enjoy cocktails at <a href='https://www.google.com/maps/search/?api=1&query=Buza+Bar+Dubrovnik'>Buza Bar</a> or fine dining at <a href='https://www.google.com/maps/search/?api=1&query=360+Dubrovnik+Restaurant'>360 Dubrovnik</a> under the stars."
   },
   "seasons": {
     "spring": {
-      "event": "Spring Old City Season",
-      "description": "Pleasant temperatures and fewer crowds make spring ideal for sightseeing.",
+      "highlight": "Mild weather, fewer tourists, and blooming gardens make spring perfect for sightseeing.",
       "ideas": [
         {
-          "name": "City wall walks",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=42.6413%2C18.1086",
-          "description": "Comfortable weather and clear views."
+          "name": "City Walls Walk",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Dubrovnik+City+Walls",
+          "description": "Enjoy pleasant temperatures and peaceful views of the sea and rooftops."
         },
         {
-          "name": "Old town exploration",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=42.6409%2C18.1083",
-          "description": "Relaxed pace before peak season."
-        },
-        {
-          "name": "Harbor walks",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=42.6419%2C18.1099",
-          "description": "Calm Adriatic atmosphere."
+          "name": "Lokrum Island",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Lokrum+Island+Dubrovnik",
+          "description": "Take a boat trip to explore the island’s botanical gardens and peacocks."
         }
       ]
     },
     "summer": {
-      "event": "Dubrovnik Summer Festival",
-      "description": "Major cultural festival with theater, music, and performances across historic locations.",
+      "highlight": "The city buzzes with festivals, beach life, and warm Adriatic waters.",
       "ideas": [
         {
-          "name": "Evening performances",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=42.6410%2C18.1088",
-          "description": "Open-air culture in historic settings."
+          "name": "Dubrovnik Summer Festival",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Dubrovnik+Old+Town",
+          "description": "Open-air theatre, music, and dance fill the city’s courtyards and squares."
         },
         {
-          "name": "Swimming spots",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=42.6422%2C18.1040",
-          "description": "Cooling dips near the city."
-        },
-        {
-          "name": "Night walks",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=42.6416%2C18.1089",
-          "description": "Lively summer evenings."
+          "name": "Banje Beach",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Banje+Beach+Dubrovnik",
+          "description": "Swim or relax with incredible views of the city walls and Lokrum Island."
         }
       ]
     },
     "autumn": {
-      "event": "Golden Dalmatian Autumn",
-      "description": "Warm sea, softer light, and fewer visitors.",
+      "highlight": "Golden light and fewer crowds make it ideal for exploring and dining outdoors.",
       "ideas": [
         {
-          "name": "Photography walks",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=42.6413%2C18.1086",
-          "description": "Golden sunset tones."
+          "name": "Wine Tasting in Konavle",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Konavle+Wine+Tasting",
+          "description": "Visit local vineyards south of Dubrovnik for traditional food and wine."
         },
         {
-          "name": "Wine and food tastings",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=42.6414%2C18.1075",
-          "description": "Seasonal Dalmatian cuisine."
-        },
-        {
-          "name": "Island views",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=42.6507%2C18.1123",
-          "description": "Clear autumn panoramas."
+          "name": "Photography Walks",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Pile+Gate+Dubrovnik",
+          "description": "Capture the soft golden light over the Old Town in the evening."
         }
       ]
     },
     "winter": {
-      "event": "Quiet Old City Winter",
-      "description": "Peaceful streets and authentic local life without crowds.",
+      "highlight": "A peaceful time to explore Dubrovnik’s cultural side without the crowds.",
       "ideas": [
         {
-          "name": "Old town walks",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=42.6409%2C18.1083",
-          "description": "Calm historic atmosphere."
+          "name": "Dubrovnik Winter Festival",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Dubrovnik+Old+Town",
+          "description": "Christmas lights, concerts, and food stalls bring warmth to the Old Town."
         },
         {
-          "name": "Museum visits",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=42.6420%2C18.1093",
-          "description": "Indoor cultural exploration."
-        },
-        {
-          "name": "Seaside cafés",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=42.6425%2C18.1050",
-          "description": "Relaxed winter views."
+          "name": "Museums & Cafés",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Dubrovnik+Cathedral",
+          "description": "Spend cozy afternoons visiting museums and enjoying coffee by the sea."
         }
       ]
     }
   },
   "public_transport_tips": [
     {
-      "tip": "Local buses connect the Old City with Lapad, Gruž, and viewpoints.",
+      "tip": "Dubrovnik’s Old Town is pedestrian-only — walk or take local buses to reach nearby beaches and neighborhoods.",
       "link": "https://www.libertasdubrovnik.hr/"
     },
     {
-      "tip": "Dubrovnik Airport is connected to the city by shuttle buses.",
-      "link": "https://www.airport-dubrovnik.hr/"
+      "tip": "Buy bus tickets at kiosks for a small discount, or directly from the driver.",
+      "link": "https://www.libertasdubrovnik.hr/"
     },
     {
-      "tip": "The Old City is pedestrian-only and best explored on foot.",
-      "link": "https://www.tzdubrovnik.hr/"
+      "tip": "Ferries and boats run daily to Lokrum Island and nearby coastal towns.",
+      "link": "https://www.jadrolinija.hr/"
     }
   ],
   "city_events": [
     {
-      "name": "Dubrovnik Summer Festival",
       "season": "summer",
-      "description": "Prestigious cultural festival with performances in historic venues.",
-      "website": "https://www.dubrovnik-festival.hr/",
-      "dates": "July–August"
+      "dates": "July–August",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=Dubrovnik+Old+Town",
+      "description": "Dubrovnik Summer Festival — Croatia’s most famous cultural event featuring opera, plays, and live concerts."
+    },
+    {
+      "season": "winter",
+      "dates": "December–January",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=Dubrovnik+Old+Town",
+      "description": "Dubrovnik Winter Festival — Christmas markets, lights, and traditional food fill the streets."
     }
   ],
   "places": [
     {
-      "name": "Rector’s Palace",
-      "map_link": "https://www.google.com/maps/search/?api=1&query=42.6412%2C18.1096",
-      "description": "Former seat of the Dubrovnik Republic, now a museum."
+      "name": "Lovrijenac Fortress",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=Lovrijenac+Fortress+Dubrovnik",
+      "description": "Known as the ‘Gibraltar of Dubrovnik’, this fortress sits on a 37-meter-high cliff offering amazing sea views."
     },
     {
-      "name": "Banje Beach",
-      "map_link": "https://www.google.com/maps/search/?api=1&query=42.6395%2C18.1116",
-      "description": "Popular beach with views of the Old City walls."
+      "name": "Fort Bokar",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=Fort+Bokar+Dubrovnik",
+      "description": "A picturesque round tower guarding the city walls — one of the oldest preserved of its kind in Europe."
+    },
+    {
+      "name": "Dominican Monastery",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=Dominican+Monastery+Dubrovnik",
+      "description": "Beautiful cloisters and a rich art collection make this one of the quietest and most peaceful spots in the Old Town."
     }
   ],
   "hidden_gems": [
     {
-      "name": "Early-morning Stradun",
-      "map_link": "https://www.google.com/maps/search/?api=1&query=42.6416%2C18.1089",
-      "description": "Quiet stone street before crowds arrive."
+      "name": "Gradac Park",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=Gradac+Park+Dubrovnik",
+      "description": "A peaceful park just outside the walls, with shady pine trees and gorgeous sea views — a local favorite escape."
     },
     {
-      "name": "Backstreets of the Old City",
-      "map_link": "https://www.google.com/maps/search/?api=1&query=42.6405%2C18.1079",
-      "description": "Authentic local life away from main routes."
+      "name": "War Photo Limited",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=War+Photo+Limited+Dubrovnik",
+      "description": "A small but powerful gallery featuring world-class photojournalism about global conflicts and human stories."
+    },
+    {
+      "name": "Pasjaca Beach",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=Pasjaca+Beach",
+      "description": "Hidden between cliffs south of Dubrovnik — turquoise water and absolute peace for the adventurous traveler."
     }
   ]
 },
 
 {
   "name": "Pula",
-  "interests": [
-    {
-      "name": "Pula Arena",
-      "map_link": "https://www.google.com/maps/search/?api=1&query=44.8730%2C13.8481",
-      "description": "One of the best-preserved Roman amphitheaters in the world and the main symbol of Pula."
-    },
-    {
-      "name": "Temple of Augustus",
-      "map_link": "https://www.google.com/maps/search/?api=1&query=44.8736%2C13.8476",
-      "description": "Ancient Roman temple located in the central Forum, dedicated to Emperor Augustus."
-    },
-    {
-      "name": "Forum Square",
-      "map_link": "https://www.google.com/maps/search/?api=1&query=44.8738%2C13.8478",
-      "description": "Main public square since Roman times, surrounded by historic buildings and cafés."
-    },
-    {
-      "name": "Verudela Peninsula",
-      "map_link": "https://www.google.com/maps/search/?api=1&query=44.8476%2C13.8473",
-      "description": "Coastal area with beaches, walking paths, and clear Adriatic waters."
-    },
-    {
-      "name": "Kaštel (Pula Citadel)",
-      "map_link": "https://www.google.com/maps/search/?api=1&query=44.8715%2C13.8470",
-      "description": "Hilltop Venetian fortress offering panoramic views over the city and harbor."
-    }
-  ],
-  "local_food_tip": "Try Istrian specialties such as fuži pasta, truffles (seasonal), seafood, prosciutto, and olive oil. Local Malvasia wine pairs well with most dishes.",
+  "interests": {
+    "Art & Culture": [
+      {
+        "name": "Pula Arena (Roman Amphitheatre)",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Pula+Arena",
+        "description": "One of the world’s best-preserved Roman amphitheatres, built in the 1st century AD. It once hosted gladiator fights and now stages concerts and film festivals."
+      },
+      {
+        "name": "Temple of Augustus",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Temple+of+Augustus+Pula",
+        "description": "A beautiful Roman temple dedicated to Emperor Augustus, located on the ancient Forum. It’s a symbol of Pula’s Roman heritage."
+      },
+      {
+        "name": "Arch of the Sergii (Golden Gate)",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Arch+of+the+Sergii+Pula",
+        "description": "A triumphal arch built over 2,000 years ago, celebrating the powerful Sergii family. It marks the entrance to Pula’s Old Town."
+      },
+      {
+        "name": "Historical and Maritime Museum of Istria",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Historical+and+Maritime+Museum+of+Istria",
+        "description": "Housed in the Venetian fortress above the city, this museum showcases Pula’s rich history from Roman to modern times."
+      },
+      {
+        "name": "Fort Punta Christo",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Fort+Punta+Christo+Pula",
+        "description": "A 19th-century fortress overlooking the sea — now a famous venue for music festivals and cultural events."
+      }
+    ],
+    "Photo Spots": [
+      {
+        "name": "Pula Arena",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Pula+Arena",
+        "description": "Capture stunning photos of the amphitheatre, especially at sunset when it glows in golden light."
+      },
+      {
+        "name": "Pula Fortress Viewpoint",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Pula+Fortress",
+        "description": "Get a panoramic view of the Old Town, the harbor, and the distant islands."
+      },
+      {
+        "name": "Lighting Giants (Uljanik Cranes)",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Lighting+Giants+Pula",
+        "description": "A unique night-time spectacle — illuminated shipyard cranes that light up the skyline in vibrant colors."
+      },
+      {
+        "name": "Verudela Peninsula",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Verudela+Peninsula+Pula",
+        "description": "A scenic coastal area with cliffs, beaches, and crystal-clear water — great for drone or sunset shots."
+      }
+    ],
+    "Food & Nightlife": [
+      {
+        "name": "Jupiter Pizzeria & Steakhouse",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Jupiter+Pizzeria+Pula",
+        "description": "A local favorite near the amphitheatre, serving delicious pizzas and grilled specialties in a cozy courtyard."
+      },
+      {
+        "name": "Kod Kadre",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Kod+Kadre+Pula",
+        "description": "Authentic Istrian restaurant famous for seafood, pasta, and warm hospitality — perfect for dinner with friends."
+      },
+      {
+        "name": "Caffe Bar Uliks",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Caffe+Bar+Uliks+Pula",
+        "description": "A bar dedicated to James Joyce, who once lived in Pula — enjoy a drink surrounded by literary history."
+      },
+      {
+        "name": "Fort Punta Christo Nightlife",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Fort+Punta+Christo+Pula",
+        "description": "In summer, the fortress transforms into an open-air club and festival hotspot with electronic music and lights."
+      }
+    ],
+    "Nature & Relaxation": [
+      {
+        "name": "Verudela Beach",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Verudela+Beach+Pula",
+        "description": "A clear-water beach surrounded by pine trees and rocky cliffs, great for swimming and snorkeling."
+      },
+      {
+        "name": "Kamenjak Nature Park",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Kamenjak+Nature+Park",
+        "description": "A protected peninsula south of Pula with wild beaches, cycling trails, and the famous Safari Bar hidden among cliffs."
+      },
+      {
+        "name": "Ambrela Beach",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Ambrela+Beach+Pula",
+        "description": "A Blue Flag beach ideal for families and calm swimming in turquoise waters."
+      },
+      {
+        "name": "Brijuni National Park",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Brijuni+National+Park",
+        "description": "A group of islands once reserved for royalty, now open to visitors. Explore by bike or mini-train and spot deer wandering freely."
+      }
+    ]
+  },
+  "local_food_tip": "Try Istrian specialties like truffle pasta, ‘fuži’, and grilled Adriatic fish. Don’t miss local olive oil and Malvazija white wine!",
   "full_day": {
-    "Morning": "Start at the <a href=\"https://www.google.com/maps/search/?api=1&query=44.8730%2C13.8481\" target=\"_blank\" rel=\"noopener\">Pula Arena</a> ☀️, then walk to the <a href=\"https://www.google.com/maps/search/?api=1&query=44.8738%2C13.8478\" target=\"_blank\" rel=\"noopener\">Forum Square</a> and <a href=\"https://www.google.com/maps/search/?api=1&query=44.8736%2C13.8476\" target=\"_blank\" rel=\"noopener\">Temple of Augustus</a> 🏛️.",
-    "Afternoon": "Climb up to the <a href=\"https://www.google.com/maps/search/?api=1&query=44.8715%2C13.8470\" target=\"_blank\" rel=\"noopener\">Kaštel</a> for city views, then head to the <a href=\"https://www.google.com/maps/search/?api=1&query=44.8476%2C13.8473\" target=\"_blank\" rel=\"noopener\">Verudela Peninsula</a> 🏖️ for swimming and relaxation.",
-    "Sunset": "Enjoy sunset by the sea 🌅 along Verudela’s coastal paths.",
-    "Night": "Dinner in the old town ✨ or attend a summer event at the Arena."
+    "morning": "☀️ Start your day at the <a href='https://www.google.com/maps/search/?api=1&query=Pula+Arena'>Pula Arena</a> and the nearby <a href='https://www.google.com/maps/search/?api=1&query=Temple+of+Augustus+Pula'>Temple of Augustus</a>.",
+    "afternoon": "🍝 Have lunch at <a href='https://www.google.com/maps/search/?api=1&query=Kod+Kadre+Pula'>Kod Kadre</a>, then head to <a href='https://www.google.com/maps/search/?api=1&query=Verudela+Beach+Pula'>Verudela Beach</a> for swimming and sunbathing.",
+    "evening": "🌇 Visit <a href='https://www.google.com/maps/search/?api=1&query=Lighting+Giants+Pula'>the Lighting Giants</a> and enjoy the colorful show by the harbor.",
+    "night": "🌙 Grab a drink at <a href='https://www.google.com/maps/search/?api=1&query=Caffe+Bar+Uliks+Pula'>Caffe Bar Uliks</a> or check out summer events at <a href='https://www.google.com/maps/search/?api=1&query=Fort+Punta+Christo+Pula'>Fort Punta Christo</a>."
   },
   "seasons": {
     "spring": {
-      "event": "Spring in Istria",
-      "description": "Mild weather and blooming landscapes make sightseeing comfortable.",
+      "highlight": "Perfect weather for sightseeing and exploring ancient ruins without the crowds.",
       "ideas": [
         {
-          "name": "Old town walks",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=44.8738%2C13.8478",
-          "description": "Pleasant temperatures."
+          "name": "Old Town Walking Tour",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Pula+Old+Town",
+          "description": "Explore Roman monuments and colorful Mediterranean streets."
         },
         {
-          "name": "Museum visits",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=44.8722%2C13.8485",
-          "description": "Cultural exploration."
-        },
-        {
-          "name": "Coastal strolls",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=44.8476%2C13.8473",
-          "description": "Fresh sea air."
+          "name": "Brijuni Island Excursion",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Brijuni+National+Park",
+          "description": "Take a boat trip and enjoy the peaceful nature of the islands."
         }
       ]
     },
     "summer": {
-      "event": "Pula Film Festival",
-      "description": "Renowned film festival held in the Roman Arena.",
+      "highlight": "Sun, festivals, and sea adventures make summer in Pula unforgettable.",
       "ideas": [
         {
-          "name": "Festival screenings",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=44.8730%2C13.8481",
-          "description": "Films under the stars."
+          "name": "Pula Film Festival",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Pula+Arena",
+          "description": "One of Europe’s oldest film festivals — movies screened under the stars inside the Roman amphitheatre."
         },
         {
-          "name": "Beach days",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=44.8476%2C13.8473",
-          "description": "Swimming and sun."
-        },
-        {
-          "name": "Evening walks",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=44.8738%2C13.8478",
-          "description": "Lively summer nights."
+          "name": "Beach Days at Kamenjak",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Kamenjak+Nature+Park",
+          "description": "Swim in hidden coves, cliff-dive, and chill at the Safari Bar."
         }
       ]
     },
     "autumn": {
-      "event": "Istrian Truffle Season",
-      "description": "Autumn brings truffle hunting and food festivals in the region.",
+      "highlight": "Harvest season brings truffles, wine, and golden seaside sunsets.",
       "ideas": [
         {
-          "name": "Food tastings",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=44.8736%2C13.8476",
-          "description": "Seasonal Istrian cuisine."
+          "name": "Istrian Wine Roads Tour",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Istrian+Wine+Roads",
+          "description": "Taste local wines and olive oils in nearby vineyards."
         },
         {
-          "name": "Photography walks",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=44.8715%2C13.8470",
-          "description": "Golden autumn light."
-        },
-        {
-          "name": "Quiet beaches",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=44.8476%2C13.8473",
-          "description": "Peaceful coastline."
+          "name": "Historic Museum Visit",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Historical+and+Maritime+Museum+of+Istria",
+          "description": "Learn about Pula’s fascinating past from Roman times to today."
         }
       ]
     },
     "winter": {
-      "event": "Calm Istrian Winter",
-      "description": "Quiet city atmosphere with local life and culture.",
+      "highlight": "Quiet streets and cozy cafés make winter in Pula calm and authentic.",
       "ideas": [
         {
-          "name": "Historic sightseeing",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=44.8730%2C13.8481",
-          "description": "Crowd-free monuments."
+          "name": "Winter Walk at the Forum",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Pula+Forum",
+          "description": "Admire the Roman temple and enjoy local pastries at nearby cafés."
         },
         {
-          "name": "Café culture",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=44.8738%2C13.8478",
-          "description": "Relaxed old town cafés."
-        },
-        {
-          "name": "Museum visits",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=44.8722%2C13.8485",
-          "description": "Indoor cultural time."
+          "name": "Museum Day",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Archaeological+Museum+of+Istria",
+          "description": "Spend a peaceful afternoon exploring Pula’s indoor attractions."
         }
       ]
     }
   },
   "public_transport_tips": [
     {
-      "tip": "Local buses connect the city center with beaches and suburbs.",
+      "tip": "Pula’s city buses are operated by Pulapromet — tickets can be bought at kiosks or directly from the driver.",
       "link": "https://www.pulapromet.hr/"
     },
     {
-      "tip": "Pula Airport offers seasonal international flights.",
-      "link": "https://airport-pula.hr/"
+      "tip": "Walking is the best way to explore the Old Town, as most attractions are close together.",
+      "link": "https://www.pulainfo.hr/en/"
     },
     {
-      "tip": "The old town is compact and easy to explore on foot.",
-      "link": "https://www.istra.hr/"
+      "tip": "For beaches or Kamenjak, rent a bike or use local taxis for flexibility.",
+      "link": "https://moovitapp.com/"
     }
   ],
   "city_events": [
     {
-      "name": "Pula Film Festival",
       "season": "summer",
-      "description": "Historic Croatian film festival held in the Roman Arena.",
-      "website": "https://pulafilmfestival.hr/",
-      "dates": "July"
+      "dates": "July",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=Pula+Arena",
+      "description": "Pula Film Festival — Croatia’s biggest film event held in the ancient amphitheatre."
+    },
+    {
+      "season": "summer",
+      "dates": "August",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=Fort+Punta+Christo+Pula",
+      "description": "Outlook & Dimensions Festivals — world-famous electronic and bass music events set in a fortress by the sea."
+    },
+    {
+      "season": "winter",
+      "dates": "December",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=Pula+City+Centre",
+      "description": "Pula Advent — Christmas markets, lights, and concerts bring warmth to the cold season."
     }
   ],
   "places": [
     {
-      "name": "Arch of the Sergii",
-      "map_link": "https://www.google.com/maps/search/?api=1&query=44.8719%2C13.8479",
-      "description": "Triumphal Roman arch marking the entrance to the old town."
+      "name": "Aquarium Pula",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=Aquarium+Pula",
+      "description": "Located inside an old Austro-Hungarian fort, this unique aquarium presents Adriatic marine life and historical exhibits."
     },
     {
-      "name": "Pula Aquarium (Fort Verudela)",
-      "map_link": "https://www.google.com/maps/search/?api=1&query=44.8448%2C13.8446",
-      "description": "Aquarium housed in a historic Austro-Hungarian fort."
+      "name": "Twin Gates (Dvojna Vrata)",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=Twin+Gates+Pula",
+      "description": "A pair of Roman gates once used as the main entrance to the ancient city."
+    },
+    {
+      "name": "Cathedral of the Assumption of the Blessed Virgin Mary",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=Pula+Cathedral",
+      "description": "A peaceful church blending Romanesque and Renaissance styles — located near the harbor."
     }
   ],
   "hidden_gems": [
     {
-      "name": "Early-morning Arena views",
-      "map_link": "https://www.google.com/maps/search/?api=1&query=44.8730%2C13.8481",
-      "description": "Quiet atmosphere and soft light."
+      "name": "Safari Bar (Kamenjak)",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=Safari+Bar+Kamenjak",
+      "description": "A fun bar made from bamboo and driftwood, hidden among cliffs at Kamenjak Nature Park."
     },
     {
-      "name": "Hidden coves near Verudela",
-      "map_link": "https://www.google.com/maps/search/?api=1&query=44.8455%2C13.8460",
-      "description": "Clear water and fewer people."
+      "name": "Valsaline Beach",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=Valsaline+Beach+Pula",
+      "description": "A quieter local beach near the center, great for swimming and relaxing away from the crowds."
+    },
+    {
+      "name": "Tunnel Zerostrasse",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=Zerostrasse+Pula",
+      "description": "An underground tunnel system built during World War I — now used for exhibitions and as a cool escape on hot days."
     }
   ]
 },
 
 {
   "name": "Split",
-  "interests": [
-    {
-      "name": "Diocletian’s Palace",
-      "map_link": "https://www.google.com/maps/search/?api=1&query=43.5081%2C16.4402",
-      "description": "UNESCO World Heritage site and the heart of Split, built as a Roman emperor’s palace and still forming the city’s old town."
-    },
-    {
-      "name": "Peristyle Square",
-      "map_link": "https://www.google.com/maps/search/?api=1&query=43.5084%2C16.4406",
-      "description": "Central square inside the palace, surrounded by Roman columns and historic buildings."
-    },
-    {
-      "name": "Cathedral of Saint Domnius",
-      "map_link": "https://www.google.com/maps/search/?api=1&query=43.5086%2C16.4407",
-      "description": "One of the oldest Catholic cathedrals still in use, originally built as Diocletian’s mausoleum."
-    },
-    {
-      "name": "Riva Promenade",
-      "map_link": "https://www.google.com/maps/search/?api=1&query=43.5079%2C16.4393",
-      "description": "Palm-lined waterfront promenade popular for walks, cafés, and city life."
-    },
-    {
-      "name": "Marjan Hill",
-      "map_link": "https://www.google.com/maps/search/?api=1&query=43.5123%2C16.4296",
-      "description": "Green hill and nature park offering viewpoints, walking trails, and beaches."
-    }
-  ],
-  "local_food_tip": "Try Dalmatian cuisine such as grilled fish, black risotto, pašticada, fresh seafood, and local wines from central Dalmatia.",
+  "interests": {
+    "Art & Culture": [
+      {
+        "name": "Diocletian’s Palace",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Diocletian's+Palace+Split",
+        "description": "A UNESCO World Heritage site and one of the best-preserved Roman palaces in the world — the heart of Split, filled with narrow alleys, shops, and ancient ruins still alive with modern life."
+      },
+      {
+        "name": "Cathedral of Saint Domnius",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Cathedral+of+Saint+Domnius+Split",
+        "description": "Originally Emperor Diocletian’s mausoleum, now one of Europe’s oldest cathedrals — climb the bell tower for the best view of the city."
+      },
+      {
+        "name": "Peristyle Square",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Peristyle+Square+Split",
+        "description": "An open-air Roman courtyard surrounded by marble columns and palaces — the perfect place to feel the history of Split."
+      },
+      {
+        "name": "Galerija Meštrović",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Galerija+Mestrovic+Split",
+        "description": "An art museum dedicated to Croatia’s most famous sculptor, Ivan Meštrović. The seaside villa and sculptures are breathtaking."
+      },
+      {
+        "name": "Ethnographic Museum Split",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Ethnographic+Museum+Split",
+        "description": "A hidden gem inside Diocletian’s Palace showcasing traditional Dalmatian culture, crafts, and clothing."
+      }
+    ],
+    "Photo Spots": [
+      {
+        "name": "Marjan Hill Viewpoint",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Marjan+Hill+Split",
+        "description": "The best panoramic view of Split, the harbor, and surrounding islands — especially stunning at sunset."
+      },
+      {
+        "name": "Riva Promenade",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Riva+Split",
+        "description": "Split’s lively seaside promenade lined with palm trees, cafés, and yachts — perfect for golden hour photos."
+      },
+      {
+        "name": "Bell Tower of Saint Domnius",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Bell+Tower+Saint+Domnius+Split",
+        "description": "Climb the narrow staircase for a 360° view over the Old Town rooftops and Adriatic Sea."
+      },
+      {
+        "name": "Bacvice Beach",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Bacvice+Beach+Split",
+        "description": "Capture Split’s fun side — locals playing the traditional water game ‘picigin’ in the shallow sea."
+      }
+    ],
+    "Food & Nightlife": [
+      {
+        "name": "Konoba Fetivi",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Konoba+Fetivi+Split",
+        "description": "Authentic Dalmatian tavern serving fresh seafood, local wines, and home-style cooking in a cozy setting."
+      },
+      {
+        "name": "Zinfandel Food & Wine Bar",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Zinfandel+Wine+Bar+Split",
+        "description": "A stylish spot for sampling local wines and tapas — ideal for a relaxed evening."
+      },
+      {
+        "name": "Bokeria Kitchen & Wine Bar",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Bokeria+Split",
+        "description": "Trendy restaurant inspired by Barcelona’s Boqueria Market, serving Mediterranean fusion dishes."
+      },
+      {
+        "name": "Fabrique Pub",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Fabrique+Pub+Split",
+        "description": "A popular nightlife spot offering craft beers, cocktails, and live DJ sets near the Riva."
+      }
+    ],
+    "Nature & Relaxation": [
+      {
+        "name": "Marjan Forest Park",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Marjan+Forest+Park+Split",
+        "description": "A green oasis within the city — hiking and cycling trails through pine forests with amazing sea views."
+      },
+      {
+        "name": "Kasjuni Beach",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Kasjuni+Beach+Split",
+        "description": "A calm beach beneath Marjan Hill with turquoise water, ideal for swimming and relaxing."
+      },
+      {
+        "name": "Bacvice Beach",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Bacvice+Beach+Split",
+        "description": "Split’s most famous sandy beach, full of energy, volleyball, and local music."
+      },
+      {
+        "name": "Blue Lagoon Tour",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Blue+Lagoon+Split",
+        "description": "A half-day boat trip to turquoise waters between islands — perfect for snorkeling and swimming."
+      }
+    ]
+  },
+  "local_food_tip": "Order ‘pašticada’ (slow-cooked beef with gnocchi) and grilled Adriatic fish with olive oil. End with a scoop of ‘lavender gelato’ from a local ice cream shop!",
   "full_day": {
-    "Morning": "Start inside <a href=\"https://www.google.com/maps/search/?api=1&query=43.5081%2C16.4402\" target=\"_blank\" rel=\"noopener\">Diocletian’s Palace</a> ☀️, exploring its narrow streets and visiting the <a href=\"https://www.google.com/maps/search/?api=1&query=43.5086%2C16.4407\" target=\"_blank\" rel=\"noopener\">Cathedral of Saint Domnius</a> ⛪.",
-    "Afternoon": "Walk to the <a href=\"https://www.google.com/maps/search/?api=1&query=43.5079%2C16.4393\" target=\"_blank\" rel=\"noopener\">Riva Promenade</a> 🌊 for lunch, then head toward <a href=\"https://www.google.com/maps/search/?api=1&query=43.5123%2C16.4296\" target=\"_blank\" rel=\"noopener\">Marjan Hill</a> for nature and views.",
-    "Sunset": "Enjoy sunset from Marjan viewpoints 🌅 overlooking the Adriatic and islands.",
-    "Night": "Dinner in the Old Town ✨ followed by an evening walk along Riva."
+    "morning": "☀️ Start your morning exploring <a href='https://www.google.com/maps/search/?api=1&query=Diocletian's+Palace+Split'>Diocletian’s Palace</a> and climb the <a href='https://www.google.com/maps/search/?api=1&query=Bell+Tower+Saint+Domnius+Split'>bell tower</a> for the view.",
+    "afternoon": "🍽️ Have lunch at <a href='https://www.google.com/maps/search/?api=1&query=Konoba+Fetivi+Split'>Konoba Fetivi</a>, then relax on <a href='https://www.google.com/maps/search/?api=1&query=Bacvice+Beach+Split'>Bacvice Beach</a> or take a walk through <a href='https://www.google.com/maps/search/?api=1&query=Marjan+Forest+Park+Split'>Marjan Park</a>.",
+    "evening": "🌇 Enjoy dinner and wine at <a href='https://www.google.com/maps/search/?api=1&query=Bokeria+Split'>Bokeria</a> or <a href='https://www.google.com/maps/search/?api=1&query=Zinfandel+Wine+Bar+Split'>Zinfandel Bar</a>.",
+    "night": "🌙 End your day strolling along <a href='https://www.google.com/maps/search/?api=1&query=Riva+Split'>the Riva</a> or listening to live music at <a href='https://www.google.com/maps/search/?api=1&query=Fabrique+Pub+Split'>Fabrique Pub</a>."
   },
   "seasons": {
     "spring": {
-      "event": "Spring in Split",
-      "description": "Warm but not hot, perfect for walking and sightseeing.",
+      "highlight": "Perfect time for exploring historic sites and hiking without summer crowds.",
       "ideas": [
         {
-          "name": "Old town exploration",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.5081%2C16.4402",
-          "description": "Comfortable sightseeing."
+          "name": "Marjan Park Hike",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Marjan+Hill+Split",
+          "description": "Enjoy blooming wildflowers and mild temperatures with views of Split Bay."
         },
         {
-          "name": "Marjan walks",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.5123%2C16.4296",
-          "description": "Green scenery and fresh air."
-        },
-        {
-          "name": "Waterfront cafés",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.5079%2C16.4393",
-          "description": "Relaxed atmosphere."
+          "name": "Easter in Split",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Split+Old+Town",
+          "description": "Colorful celebrations with music, processions, and traditional sweets."
         }
       ]
     },
     "summer": {
-      "event": "Split Summer Festival",
-      "description": "Open-air concerts, theater, and cultural events in historic venues.",
+      "highlight": "Split is alive with festivals, warm nights, and endless beach days.",
       "ideas": [
         {
-          "name": "Evening performances",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.5084%2C16.4406",
-          "description": "Culture inside the palace."
+          "name": "Ultra Europe Festival",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Poljud+Stadium+Split",
+          "description": "One of Europe’s biggest electronic music festivals — dance all night in an open-air stadium."
         },
         {
-          "name": "Beach time",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.5054%2C16.4335",
-          "description": "Swimming near the city."
-        },
-        {
-          "name": "Night walks",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.5079%2C16.4393",
-          "description": "Lively summer evenings."
+          "name": "Island Hopping Day Trips",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Split+Boat+Trips",
+          "description": "Visit Hvar, Brač, or Vis islands for beaches and crystal waters."
         }
       ]
     },
     "autumn": {
-      "event": "Golden Dalmatian Autumn",
-      "description": "Warm sea, fewer crowds, and softer light.",
+      "highlight": "Warm sea and golden sunsets — ideal for quieter city exploration.",
       "ideas": [
         {
-          "name": "Historic walks",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.5081%2C16.4402",
-          "description": "Relaxed exploration."
+          "name": "Wine and Olive Oil Tasting",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Split+Old+Town",
+          "description": "Local tours offering authentic Dalmatian flavors and stories."
         },
         {
-          "name": "Food tastings",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.5075%2C16.4390",
-          "description": "Seasonal Dalmatian cuisine."
-        },
-        {
-          "name": "Marjan viewpoints",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.5123%2C16.4296",
-          "description": "Clear autumn views."
+          "name": "Photography Walks",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Riva+Split",
+          "description": "Capture the warm autumn light reflecting off Split’s marble streets."
         }
       ]
     },
     "winter": {
-      "event": "Quiet Mediterranean Winter",
-      "description": "Mild winters with calm streets and local life.",
+      "highlight": "Mild winters make Split perfect for culture lovers and quiet seaside walks.",
       "ideas": [
         {
-          "name": "Old town cafés",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.5081%2C16.4402",
-          "description": "Authentic atmosphere."
+          "name": "Split Advent Festival",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Split+Riva",
+          "description": "Christmas lights, markets, and concerts by the sea."
         },
         {
-          "name": "Museum visits",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.5089%2C16.4413",
-          "description": "Indoor culture."
-        },
-        {
-          "name": "Seaside walks",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.5079%2C16.4393",
-          "description": "Peaceful winter scenery."
+          "name": "Museum Visits",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Ethnographic+Museum+Split",
+          "description": "Discover Split’s history without the crowds."
         }
       ]
     }
   },
   "public_transport_tips": [
     {
-      "tip": "The old town and waterfront are best explored on foot.",
-      "link": "https://www.visitsplit.com/"
+      "tip": "Split’s main bus operator Promet connects the city center with beaches and suburbs. Tickets are available onboard or at kiosks.",
+      "link": "https://www.promet-split.hr/en/"
     },
     {
-      "tip": "Local buses connect Split with beaches and suburbs.",
-      "link": "https://www.promet-split.hr/"
-    },
-    {
-      "tip": "Ferries connect Split with nearby islands like Brač and Hvar.",
+      "tip": "Ferries and catamarans depart daily from Split Port to nearby islands like Hvar, Brač, and Vis.",
       "link": "https://www.jadrolinija.hr/"
+    },
+    {
+      "tip": "Walking and cycling are the easiest ways to explore the Old Town and Riva.",
+      "link": "https://moovitapp.com/"
     }
   ],
   "city_events": [
     {
-      "name": "Split Summer Festival",
       "season": "summer",
-      "description": "Annual festival featuring music, theater, and dance in historic locations.",
-      "website": "https://www.splitskoljeto.hr/",
-      "dates": "July–August"
+      "dates": "July",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=Poljud+Stadium+Split",
+      "description": "Ultra Europe — a world-famous electronic music festival attracting thousands of visitors."
+    },
+    {
+      "season": "summer",
+      "dates": "June–August",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=Split+Old+Town",
+      "description": "Split Summer Festival — theatre, opera, and music performances in open-air venues."
+    },
+    {
+      "season": "winter",
+      "dates": "December",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=Split+Riva",
+      "description": "Advent in Split — festive market, food stalls, and concerts along the promenade."
     }
   ],
   "places": [
     {
-      "name": "Bacvice Beach",
-      "map_link": "https://www.google.com/maps/search/?api=1&query=43.5054%2C16.4335",
-      "description": "Sandy city beach famous for the traditional game of picigin."
+      "name": "Peristyle Square",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=Peristyle+Square+Split",
+      "description": "The heart of Diocletian’s Palace, where Roman emperors once greeted citizens — still the most atmospheric spot in Split."
     },
     {
-      "name": "Split Archaeological Museum",
-      "map_link": "https://www.google.com/maps/search/?api=1&query=43.5129%2C16.4318",
-      "description": "One of the oldest museums in Croatia, focusing on Roman Dalmatia."
+      "name": "People’s Square (Pjaca)",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=People's+Square+Split",
+      "description": "A lively plaza with Renaissance architecture, cafés, and street musicians — perfect for people-watching."
+    },
+    {
+      "name": "Fruit Square (Voćni Trg)",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=Fruit+Square+Split",
+      "description": "A charming corner of the Old Town with baroque palaces, boutique shops, and art galleries."
     }
   ],
   "hidden_gems": [
     {
-      "name": "Early-morning Peristyle",
-      "map_link": "https://www.google.com/maps/search/?api=1&query=43.5084%2C16.4406",
-      "description": "Quiet Roman square before crowds arrive."
+      "name": "Sustipan Park",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=Sustipan+Park+Split",
+      "description": "A peaceful park on the cliffs above the sea, perfect for quiet walks and sunset views."
     },
     {
-      "name": "Hidden beaches under Marjan",
-      "map_link": "https://www.google.com/maps/search/?api=1&query=43.5095%2C16.4245",
-      "description": "Clear water and fewer people."
+      "name": "Teraca Vidilica Café",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=Teraca+Vidilica+Split",
+      "description": "A scenic café on Marjan Hill offering panoramic views — great for photos and morning coffee."
+    },
+    {
+      "name": "Green Market (Pazar)",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=Green+Market+Split",
+      "description": "A vibrant local market full of fresh fruit, olives, cheeses, and friendly vendors."
     }
   ]
 },
 
 {
   "name": "Zadar",
-  "interests": [
-    {
-      "name": "Sea Organ",
-      "map_link": "https://www.google.com/maps/search/?api=1&query=44.1194%2C15.2247",
-      "description": "Unique architectural installation that creates music using sea waves and wind."
-    },
-    {
-      "name": "Greeting to the Sun",
-      "map_link": "https://www.google.com/maps/search/?api=1&query=44.1192%2C15.2244",
-      "description": "Large solar-powered light installation that produces colorful light displays after sunset."
-    },
-    {
-      "name": "Old Town Zadar",
-      "map_link": "https://www.google.com/maps/search/?api=1&query=44.1156%2C15.2235",
-      "description": "Historic peninsula filled with Roman ruins, medieval churches, and lively squares."
-    },
-    {
-      "name": "St. Donatus Church",
-      "map_link": "https://www.google.com/maps/search/?api=1&query=44.1162%2C15.2241",
-      "description": "Iconic 9th-century pre-Romanesque church and symbol of Zadar."
-    },
-    {
-      "name": "Roman Forum",
-      "map_link": "https://www.google.com/maps/search/?api=1&query=44.1164%2C15.2243",
-      "description": "Ancient Roman forum located next to St. Donatus Church."
-    }
-  ],
-  "local_food_tip": "Try Dalmatian seafood, black risotto, grilled fish, Pag cheese, maraschino liqueur, and local olive oil.",
+  "interests": {
+    "Art & Culture": [
+      {
+        "name": "Roman Forum",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Roman+Forum+Zadar",
+        "description": "An open-air archaeological site dating back to the 1st century BC — the heart of ancient Zadar, surrounded by cafés and churches."
+      },
+      {
+        "name": "Church of St. Donatus",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Church+of+St+Donatus+Zadar",
+        "description": "Zadar’s most iconic landmark, a round pre-Romanesque church from the 9th century, built on Roman foundations — amazing acoustics and history."
+      },
+      {
+        "name": "Zadar Cathedral (St. Anastasia)",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Zadar+Cathedral",
+        "description": "The largest cathedral in Dalmatia, blending Romanesque and Gothic styles — climb the bell tower for city and sea views."
+      },
+      {
+        "name": "Archaeological Museum Zadar",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Archaeological+Museum+Zadar",
+        "description": "Second-oldest museum in Croatia, showcasing 3,000 years of history — from ancient Illyrians to medieval times."
+      },
+      {
+        "name": "Five Wells Square (Trg Pet Bunara)",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Five+Wells+Square+Zadar",
+        "description": "A historic square with five ancient wells once used to supply the city with water — a peaceful and scenic stop."
+      }
+    ],
+    "Photo Spots": [
+      {
+        "name": "Sea Organ (Morske orgulje)",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Sea+Organ+Zadar",
+        "description": "A world-famous art installation where the waves create music — best experienced at sunset."
+      },
+      {
+        "name": "Greeting to the Sun",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Greeting+to+the+Sun+Zadar",
+        "description": "A huge solar-powered glass circle that lights up at night — a magical place to watch the sunset with music from the Sea Organ."
+      },
+      {
+        "name": "Zadar City Walls and Gates",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Land+Gate+Zadar",
+        "description": "Walk along the old Venetian walls and enter through the impressive Land Gate for stunning photos."
+      },
+      {
+        "name": "Kolovare Beach",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Kolovare+Beach+Zadar",
+        "description": "Zadar’s main beach — clear blue water and views of the Old Town skyline."
+      }
+    ],
+    "Food & Nightlife": [
+      {
+        "name": "Restaurant Bruschetta",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Restaurant+Bruschetta+Zadar",
+        "description": "Elegant Mediterranean restaurant near the seafront — perfect for seafood, pasta, and sunset dinners."
+      },
+      {
+        "name": "Kornat Restaurant",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Kornat+Restaurant+Zadar",
+        "description": "Fine dining with a romantic harbor view, specializing in Dalmatian fish dishes and local wines."
+      },
+      {
+        "name": "The Garden Lounge",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=The+Garden+Lounge+Zadar",
+        "description": "A chill outdoor bar overlooking the sea, with smooth DJ sets and healthy snacks — ideal for sunset drinks."
+      },
+      {
+        "name": "Ledana Lounge Bar",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Ledana+Lounge+Bar+Zadar",
+        "description": "Trendy club in a city park, known for great cocktails, light shows, and a lively summer vibe."
+      }
+    ],
+    "Nature & Relaxation": [
+      {
+        "name": "Kolovare Beach",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Kolovare+Beach+Zadar",
+        "description": "Clean, calm, and within walking distance of the Old Town — perfect for a morning swim or lazy afternoon."
+      },
+      {
+        "name": "Queen Jelena Madijevka Park",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Queen+Jelena+Madijevka+Park+Zadar",
+        "description": "A peaceful green area near the Five Wells Square, ideal for a break from sightseeing."
+      },
+      {
+        "name": "Kornati National Park",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Kornati+National+Park",
+        "description": "A breathtaking archipelago of 89 islands and reefs — reachable by daily boat tours from Zadar."
+      },
+      {
+        "name": "Paklenica National Park",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Paklenica+National+Park",
+        "description": "A paradise for hiking and climbing enthusiasts, only 45 minutes from the city."
+      }
+    ]
+  },
+  "local_food_tip": "Taste ‘black risotto’, ‘pašticada’, and local cheeses with olive oil. For dessert, try ‘Maraschino’ — Zadar’s famous cherry liqueur!",
   "full_day": {
-    "Morning": "Start exploring the <a href=\"https://www.google.com/maps/search/?api=1&query=44.1156%2C15.2235\" target=\"_blank\" rel=\"noopener\">Old Town</a> ☀️, visiting the <a href=\"https://www.google.com/maps/search/?api=1&query=44.1162%2C15.2241\" target=\"_blank\" rel=\"noopener\">Church of St. Donatus</a> 🏛️ and the <a href=\"https://www.google.com/maps/search/?api=1&query=44.1164%2C15.2243\" target=\"_blank\" rel=\"noopener\">Roman Forum</a>.",
-    "Afternoon": "Lunch in the old town 🍽️ followed by a walk along the waterfront toward the <a href=\"https://www.google.com/maps/search/?api=1&query=44.1194%2C15.2247\" target=\"_blank\" rel=\"noopener\">Sea Organ</a> 🌊.",
-    "Sunset": "Experience sunset at the <a href=\"https://www.google.com/maps/search/?api=1&query=44.1192%2C15.2244\" target=\"_blank\" rel=\"noopener\">Greeting to the Sun</a> 🌅 while listening to the Sea Organ.",
-    "Night": "Evening stroll through illuminated streets of the Old Town ✨ and dinner by the sea."
+    "morning": "☀️ Start at <a href='https://www.google.com/maps/search/?api=1&query=Roman+Forum+Zadar'>the Roman Forum</a> and <a href='https://www.google.com/maps/search/?api=1&query=Church+of+St+Donatus+Zadar'>St. Donatus Church</a>, then climb the cathedral tower for a city view.",
+    "afternoon": "🍽️ Have lunch at <a href='https://www.google.com/maps/search/?api=1&query=Restaurant+Bruschetta+Zadar'>Restaurant Bruschetta</a>, followed by a walk along <a href='https://www.google.com/maps/search/?api=1&query=Kolovare+Beach+Zadar'>Kolovare Beach</a> or a boat tour to nearby islands.",
+    "evening": "🌇 Watch the famous sunset from <a href='https://www.google.com/maps/search/?api=1&query=Sea+Organ+Zadar'>the Sea Organ</a> and enjoy the light show at <a href='https://www.google.com/maps/search/?api=1&query=Greeting+to+the+Sun+Zadar'>Greeting to the Sun</a>.",
+    "night": "🌙 Grab cocktails at <a href='https://www.google.com/maps/search/?api=1&query=Ledana+Lounge+Bar+Zadar'>Ledana Lounge Bar</a> or relax at <a href='https://www.google.com/maps/search/?api=1&query=The+Garden+Lounge+Zadar'>The Garden Lounge</a>."
   },
   "seasons": {
     "spring": {
-      "event": "Spring Coastal Season",
-      "description": "Mild temperatures and blooming greenery around the peninsula.",
+      "highlight": "Mild weather and blooming parks make Zadar ideal for exploring on foot.",
       "ideas": [
         {
-          "name": "Historic walks",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=44.1156%2C15.2235",
-          "description": "Comfortable sightseeing weather."
+          "name": "City Walls Walk",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Zadar+City+Walls",
+          "description": "Stroll through the historic walls and enjoy views of the harbor and islands."
         },
         {
-          "name": "Waterfront strolls",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=44.1194%2C15.2247",
-          "description": "Fresh Adriatic air."
-        },
-        {
-          "name": "Museum visits",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=44.1168%2C15.2248",
-          "description": "Cultural afternoons."
+          "name": "Boat Trip to Ugljan Island",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Ugljan+Island",
+          "description": "Just a 25-minute ferry ride from Zadar — great for a day of biking and local food."
         }
       ]
     },
     "summer": {
-      "event": "Zadar Summer Events",
-      "description": "Open-air concerts and lively seaside atmosphere.",
+      "highlight": "Hot days, warm nights, and endless sea adventures.",
       "ideas": [
         {
-          "name": "Evening concerts",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=44.1162%2C15.2241",
-          "description": "Music in historic settings."
+          "name": "Zadar Summer Theatre Festival",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Zadar+Old+Town",
+          "description": "Open-air performances of drama, music, and dance throughout the city."
         },
         {
-          "name": "Swimming spots",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=44.1185%2C15.2255",
-          "description": "Cooling dips near the city."
-        },
-        {
-          "name": "Night walks",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=44.1192%2C15.2244",
-          "description": "Warm summer nights."
+          "name": "Island Hopping to Kornati",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Kornati+National+Park",
+          "description": "Enjoy crystal-clear bays and snorkeling in Croatia’s most beautiful archipelago."
         }
       ]
     },
     "autumn": {
-      "event": "Golden Dalmatian Autumn",
-      "description": "Warm sea, fewer crowds, and beautiful sunsets.",
+      "highlight": "Peaceful atmosphere and pleasant temperatures for sightseeing.",
       "ideas": [
         {
-          "name": "Photography walks",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=44.1194%2C15.2247",
-          "description": "Soft sunset light."
+          "name": "Wine Tasting Tour",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Zadar+Wine+Tour",
+          "description": "Visit nearby vineyards to taste local wines and olive oils."
         },
         {
-          "name": "Food tastings",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=44.1158%2C15.2238",
-          "description": "Seasonal Dalmatian cuisine."
-        },
-        {
-          "name": "Historic sightseeing",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=44.1162%2C15.2241",
-          "description": "Relaxed exploration."
+          "name": "Photography Walks",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Sea+Organ+Zadar",
+          "description": "Capture moody sunsets and historic streets with fewer crowds."
         }
       ]
     },
     "winter": {
-      "event": "Quiet Adriatic Winter",
-      "description": "Calm atmosphere with local life and mild weather.",
+      "highlight": "Quiet city life, local culture, and festive lights by the sea.",
       "ideas": [
         {
-          "name": "Old town walks",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=44.1156%2C15.2235",
-          "description": "Peaceful historic streets."
+          "name": "Zadar Advent",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Zadar+Advent",
+          "description": "Christmas markets, mulled wine, and music in the city center."
         },
         {
-          "name": "Museum visits",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=44.1168%2C15.2248",
-          "description": "Indoor culture."
-        },
-        {
-          "name": "Café culture",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=44.1160%2C15.2239",
-          "description": "Relaxed winter cafés."
+          "name": "Museum Visits",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Archaeological+Museum+Zadar",
+          "description": "A cozy way to explore Zadar’s past on cooler days."
         }
       ]
     }
   },
   "public_transport_tips": [
     {
-      "tip": "The Old Town peninsula is best explored on foot.",
-      "link": "https://www.zadar.travel/"
+      "tip": "Zadar’s city buses are run by Liburnija — buy tickets at kiosks or from the driver.",
+      "link": "https://www.liburnija-zadar.hr/"
     },
     {
-      "tip": "Local buses connect Zadar with beaches and nearby towns.",
-      "link": "https://liburnija-zadar.hr/"
-    },
-    {
-      "tip": "Ferries connect Zadar with islands like Ugljan and Dugi Otok.",
+      "tip": "Ferries to nearby islands like Ugljan and Dugi Otok depart daily from Zadar Port.",
       "link": "https://www.jadrolinija.hr/"
+    },
+    {
+      "tip": "Walking is the best way to explore the Old Town — it’s compact and full of hidden corners.",
+      "link": "https://www.zadar.hr/en/"
     }
   ],
   "city_events": [
     {
-      "name": "Zadar Summer Theatre",
       "season": "summer",
-      "description": "Open-air cultural performances in historic locations.",
-      "website": "https://www.zadar.travel/",
-      "dates": "July–August"
+      "dates": "July–August",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=Zadar+Old+Town",
+      "description": "Zadar Summer Theatre Festival — cultural performances, concerts, and street shows under the stars."
+    },
+    {
+      "season": "winter",
+      "dates": "December",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=Zadar+Advent",
+      "description": "Zadar Advent — festive markets, local food, and a cheerful atmosphere along the promenade."
     }
   ],
   "places": [
     {
-      "name": "Zadar Cathedral (St. Anastasia)",
-      "map_link": "https://www.google.com/maps/search/?api=1&query=44.1166%2C15.2242",
-      "description": "Largest cathedral in Dalmatia with a notable bell tower."
+      "name": "Land Gate (Porta Terraferma)",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=Land+Gate+Zadar",
+      "description": "An impressive Venetian-style city gate from the 16th century, decorated with lions and coats of arms."
     },
     {
-      "name": "Museum of Ancient Glass",
-      "map_link": "https://www.google.com/maps/search/?api=1&query=44.1149%2C15.2259",
-      "description": "Museum showcasing Roman glass artifacts and live demonstrations."
+      "name": "People’s Square (Narodni Trg)",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=People's+Square+Zadar",
+      "description": "A lively square with charming architecture, cafés, and cultural events throughout the year."
+    },
+    {
+      "name": "Captain’s Tower",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=Captain's+Tower+Zadar",
+      "description": "A medieval tower offering a great viewpoint over the city and harbor."
     }
   ],
   "hidden_gems": [
     {
-      "name": "Early-morning waterfront",
-      "map_link": "https://www.google.com/maps/search/?api=1&query=44.1194%2C15.2247",
-      "description": "Peaceful sounds of the Sea Organ with no crowds."
+      "name": "Museum of Ancient Glass",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=Museum+of+Ancient+Glass+Zadar",
+      "description": "A fascinating museum featuring ancient glass art and live glassblowing demonstrations."
     },
     {
-      "name": "Quiet alleys of Old Town",
-      "map_link": "https://www.google.com/maps/search/?api=1&query=44.1152%2C15.2232",
-      "description": "Authentic local atmosphere away from main paths."
+      "name": "Petar Zoranić Square",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=Petar+Zoranic+Square+Zadar",
+      "description": "A peaceful spot blending Roman ruins and medieval walls — perfect for a quiet break."
+    },
+    {
+      "name": "Riva Sunset Benches",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=Zadar+Riva",
+      "description": "Locals’ favorite place to sit and enjoy what Alfred Hitchcock called ‘the most beautiful sunset in the world’."
     }
   ]
 },
 
 {
   "name": "Zagreb",
-  "interests": [
-    {
-      "name": "Ban Jelačić Square",
-      "map_link": "https://www.google.com/maps/search/?api=1&query=45.8131%2C15.9775",
-      "description": "Main city square and central meeting point connecting Zagreb’s historic Upper Town and modern Lower Town."
-    },
-    {
-      "name": "Upper Town (Gornji Grad)",
-      "map_link": "https://www.google.com/maps/search/?api=1&query=45.8166%2C15.9736",
-      "description": "Historic core of Zagreb with medieval streets, government buildings, and panoramic viewpoints."
-    },
-    {
-      "name": "St. Mark’s Church",
-      "map_link": "https://www.google.com/maps/search/?api=1&query=45.8169%2C15.9734",
-      "description": "Iconic church with a colorful tiled roof displaying the coats of arms of Croatia and Zagreb."
-    },
-    {
-      "name": "Zagreb Cathedral",
-      "map_link": "https://www.google.com/maps/search/?api=1&query=45.8140%2C15.9794",
-      "description": "Monumental Gothic cathedral and the tallest building in Croatia."
-    },
-    {
-      "name": "Maksimir Park",
-      "map_link": "https://www.google.com/maps/search/?api=1&query=45.8269%2C16.0184",
-      "description": "Large English-style park with lakes, walking paths, and the Zagreb Zoo."
-    }
-  ],
-  "local_food_tip": "Try Zagreb and continental Croatian dishes such as štrukli, purica s mlincima, zagorski štrukli, and enjoy café culture on Tkalčićeva Street.",
+  "interests": {
+    "Art & Culture": [
+      {
+        "name": "Ban Jelačić Square",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Ban+Jelačić+Square+Zagreb",
+        "description": "The main square and meeting point of Zagreb — surrounded by 19th-century architecture, shops, and cafés. The heart of the city’s energy."
+      },
+      {
+        "name": "Zagreb Cathedral",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Zagreb+Cathedral",
+        "description": "The tallest building in Croatia and a masterpiece of neo-Gothic design, known for its twin spires and peaceful atmosphere."
+      },
+      {
+        "name": "Museum of Broken Relationships",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Museum+of+Broken+Relationships+Zagreb",
+        "description": "One of the most unique museums in the world, displaying personal objects and stories from failed relationships — creative, emotional, and thought-provoking."
+      },
+      {
+        "name": "Croatian National Theatre",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Croatian+National+Theatre+Zagreb",
+        "description": "An elegant 19th-century theater hosting opera, ballet, and drama performances — a cultural icon in Zagreb’s Lower Town."
+      },
+      {
+        "name": "Mimara Museum",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Mimara+Museum+Zagreb",
+        "description": "Art museum with a vast collection of European masters, including works by Rembrandt, Renoir, and Caravaggio."
+      }
+    ],
+    "Photo Spots": [
+      {
+        "name": "St. Mark’s Church",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=St+Mark's+Church+Zagreb",
+        "description": "Known for its colorful tiled roof featuring the coats of arms of Croatia and Zagreb — one of the city’s most photographed landmarks."
+      },
+      {
+        "name": "Lotrščak Tower & Grič Cannon",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Lotrščak+Tower+Zagreb",
+        "description": "Climb to the top for a panoramic view of the city. Every day at noon, a cannon is fired from the tower — a Zagreb tradition!"
+      },
+      {
+        "name": "Tkalčićeva Street",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Tkalčićeva+Street+Zagreb",
+        "description": "A colorful pedestrian street filled with cafés, restaurants, and murals — great for lively photos and people-watching."
+      },
+      {
+        "name": "Zagreb 360° Observation Deck",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Zagreb+360+Observation+Deck",
+        "description": "Offers the best view of Ban Jelačić Square and the entire city skyline, especially beautiful at sunset."
+      }
+    ],
+    "Food & Nightlife": [
+      {
+        "name": "La Štruk",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=La+Štruk+Zagreb",
+        "description": "A charming restaurant specializing in ‘štrukli’, a baked pastry filled with cheese — a true Zagreb classic!"
+      },
+      {
+        "name": "Agava",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Agava+Zagreb",
+        "description": "Fine Mediterranean cuisine in the heart of Tkalčićeva Street, with romantic views from its terrace."
+      },
+      {
+        "name": "Swanky Monkey Garden",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Swanky+Monkey+Garden+Zagreb",
+        "description": "Trendy garden bar and hostel terrace with creative cocktails, live music, and a fun international crowd."
+      },
+      {
+        "name": "Time Restaurant & Bar",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Time+Restaurant+Zagreb",
+        "description": "A modern fusion restaurant and sushi bar that turns into a stylish night bar after dark."
+      }
+    ],
+    "Nature & Relaxation": [
+      {
+        "name": "Maksimir Park",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Maksimir+Park+Zagreb",
+        "description": "Zagreb’s largest park — full of lakes, forest trails, and the city zoo. A peaceful retreat within nature."
+      },
+      {
+        "name": "Jarun Lake",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Jarun+Lake+Zagreb",
+        "description": "Known as ‘Zagreb’s Sea’, this lake offers swimming, biking, and beach cafés — great for summer fun and evening walks."
+      },
+      {
+        "name": "Botanical Garden",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Botanical+Garden+Zagreb",
+        "description": "A calm green oasis in the city center, home to thousands of plant species — perfect for quiet walks and photography."
+      },
+      {
+        "name": "Medvednica Nature Park (Sljeme)",
+        "map_link": "https://www.google.com/maps/search/?api=1&query=Medvednica+Nature+Park",
+        "description": "A mountain north of the city — great for hiking, skiing, or visiting the medieval Medvedgrad fortress."
+      }
+    ]
+  },
+  "local_food_tip": "Try ‘štrukli’ (cheese pastry), ‘purica s mlincima’ (roast turkey with pasta), and a slice of Zagreb cream cake, known as ‘kremšnita’.",
   "full_day": {
-    "Morning": "Start at <a href=\"https://www.google.com/maps/search/?api=1&query=45.8131%2C15.9775\" target=\"_blank\" rel=\"noopener\">Ban Jelačić Square</a> ☀️, then walk to the <a href=\"https://www.google.com/maps/search/?api=1&query=45.8140%2C15.9794\" target=\"_blank\" rel=\"noopener\">Zagreb Cathedral</a> ⛪.",
-    "Afternoon": "Explore <a href=\"https://www.google.com/maps/search/?api=1&query=45.8166%2C15.9736\" target=\"_blank\" rel=\"noopener\">Upper Town</a>, visit <a href=\"https://www.google.com/maps/search/?api=1&query=45.8169%2C15.9734\" target=\"_blank\" rel=\"noopener\">St. Mark’s Church</a> 🏛️, and have lunch nearby 🍽️.",
-    "Sunset": "Walk or take the funicular to viewpoints in Upper Town 🌅 overlooking the city.",
-    "Night": "Dinner and evening stroll along <a href=\"https://www.google.com/maps/search/?api=1&query=45.8160%2C15.9770\" target=\"_blank\" rel=\"noopener\">Tkalčićeva Street</a> ✨."
+    "morning": "☀️ Start at <a href='https://www.google.com/maps/search/?api=1&query=Ban+Jelačić+Square+Zagreb'>Ban Jelačić Square</a> and stroll up to <a href='https://www.google.com/maps/search/?api=1&query=St+Mark's+Church+Zagreb'>St. Mark’s Church</a> in the Upper Town.",
+    "afternoon": "🍽️ Have lunch at <a href='https://www.google.com/maps/search/?api=1&query=La+Štruk+Zagreb'>La Štruk</a>, then visit the <a href='https://www.google.com/maps/search/?api=1&query=Museum+of+Broken+Relationships+Zagreb'>Museum of Broken Relationships</a> and take the funicular down to Tkalčićeva Street.",
+    "evening": "🌇 Walk through <a href='https://www.google.com/maps/search/?api=1&query=Zrinjevac+Park+Zagreb'>Zrinjevac Park</a> and enjoy the sunset from <a href='https://www.google.com/maps/search/?api=1&query=Zagreb+360+Observation+Deck'>Zagreb 360°</a>.",
+    "night": "🌙 Relax with drinks at <a href='https://www.google.com/maps/search/?api=1&query=Swanky+Monkey+Garden+Zagreb'>Swanky Monkey Garden</a> or enjoy live jazz at <a href='https://www.google.com/maps/search/?api=1&query=Time+Restaurant+Zagreb'>Time Bar</a>."
   },
   "seasons": {
     "spring": {
-      "event": "Spring in Zagreb",
-      "description": "Blooming parks and lively terraces throughout the city.",
+      "highlight": "Zagreb blossoms with colorful flowers and outdoor cafés come alive.",
       "ideas": [
         {
-          "name": "Park walks",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=45.8269%2C16.0184",
-          "description": "Green spaces in full bloom."
+          "name": "Maksimir Park Walks",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Maksimir+Park+Zagreb",
+          "description": "Perfect time for a picnic under blooming trees."
         },
         {
-          "name": "Upper Town strolls",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=45.8166%2C15.9736",
-          "description": "Comfortable sightseeing."
-        },
-        {
-          "name": "Museum visits",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=45.8154%2C15.9730",
-          "description": "Cultural afternoons."
+          "name": "Zagreb Flower Festival",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Zrinjevac+Park+Zagreb",
+          "description": "An explosion of color and fragrance in the city center."
         }
       ]
     },
     "summer": {
-      "event": "Zagreb Summer Evenings",
-      "description": "Open-air cinema, concerts, and festivals across the city.",
+      "highlight": "Sunny days, open-air concerts, and lakeside fun.",
       "ideas": [
         {
-          "name": "Outdoor events",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=45.8131%2C15.9775",
-          "description": "Cultural programs in public spaces."
+          "name": "INmusic Festival",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Jarun+Lake+Zagreb",
+          "description": "Croatia’s biggest music festival by the lake, featuring world-famous artists."
         },
         {
-          "name": "Café terraces",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=45.8160%2C15.9770",
-          "description": "Relaxed summer evenings."
-        },
-        {
-          "name": "Evening park visits",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=45.8269%2C16.0184",
-          "description": "Cooler air and greenery."
+          "name": "Art Park Zagreb",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Art+Park+Zagreb",
+          "description": "An outdoor art space with murals, workshops, and chill evening vibes."
         }
       ]
     },
     "autumn": {
-      "event": "Golden Zagreb Autumn",
-      "description": "Warm colors and pleasant temperatures.",
+      "highlight": "Golden parks, coffee culture, and harvest flavors fill the city.",
       "ideas": [
         {
-          "name": "Photography walks",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=45.8166%2C15.9736",
-          "description": "Autumn light in historic streets."
+          "name": "Food Film Festival",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Zrinjevac+Park+Zagreb",
+          "description": "Combines food stalls and outdoor movie screenings in a cozy fall setting."
         },
         {
-          "name": "Seasonal cuisine",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=45.8160%2C15.9770",
-          "description": "Hearty local dishes."
-        },
-        {
-          "name": "Museum hopping",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=45.8154%2C15.9730",
-          "description": "Indoor cultural exploration."
+          "name": "Medvednica Hikes",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Medvednica+Nature+Park",
+          "description": "Enjoy mountain air and autumn colors with views over Zagreb."
         }
       ]
     },
     "winter": {
-      "event": "Advent in Zagreb",
-      "description": "Award-winning Christmas markets and festive city atmosphere.",
+      "highlight": "Zagreb turns into a Christmas wonderland — voted one of Europe’s best Advent markets.",
       "ideas": [
         {
-          "name": "Christmas markets",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=45.8131%2C15.9775",
-          "description": "Festive stalls and lights."
+          "name": "Zagreb Advent",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Zrinjevac+Park+Zagreb",
+          "description": "Christmas lights, music, and mulled wine across several festive squares."
         },
         {
-          "name": "Museum visits",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=45.8154%2C15.9730",
-          "description": "Warm indoor culture."
-        },
-        {
-          "name": "Café culture",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=45.8160%2C15.9770",
-          "description": "Hot drinks and cozy atmosphere."
+          "name": "Ice Skating on King Tomislav Square",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=King+Tomislav+Square+Zagreb",
+          "description": "Skate surrounded by lights and holiday joy in front of the art pavilion."
         }
       ]
     }
   },
   "public_transport_tips": [
     {
-      "tip": "Trams are the fastest way to move around the city.",
+      "tip": "ZET operates trams and buses across Zagreb — tickets are available at kiosks or via the MojZET app.",
       "link": "https://www.zet.hr/"
     },
     {
-      "tip": "The city center is compact and walkable.",
-      "link": "https://www.infozagreb.hr/"
+      "tip": "Most sights are within walking distance in the city center; trams are best for longer routes.",
+      "link": "https://www.zagreb.hr/"
     },
     {
-      "tip": "Zagreb has excellent rail and bus connections to other Croatian cities.",
-      "link": "https://www.hzpp.hr/"
+      "tip": "Take the historic funicular connecting the Lower and Upper Town — it’s one of the shortest in the world!",
+      "link": "https://www.infozagreb.hr/"
     }
   ],
   "city_events": [
     {
-      "name": "Advent in Zagreb",
+      "season": "summer",
+      "dates": "June",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=Jarun+Lake+Zagreb",
+      "description": "INmusic Festival — Croatia’s largest open-air music event, held by the lake."
+    },
+    {
       "season": "winter",
-      "description": "Christmas markets, concerts, and festive decorations throughout the city.",
-      "website": "https://www.infozagreb.hr/",
-      "dates": "Late November–December"
+      "dates": "December",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=Zrinjevac+Park+Zagreb",
+      "description": "Advent in Zagreb — markets, lights, and concerts across the city, voted Europe’s best Christmas market multiple times."
+    },
+    {
+      "season": "autumn",
+      "dates": "September",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=Zrinjevac+Park+Zagreb",
+      "description": "Food Film Festival — outdoor movie nights paired with gourmet street food."
     }
   ],
   "places": [
     {
-      "name": "Museum of Broken Relationships",
-      "map_link": "https://www.google.com/maps/search/?api=1&query=45.8172%2C15.9739",
-      "description": "Unique museum showcasing personal stories and objects from ended relationships."
+      "name": "Dolac Market",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=Dolac+Market+Zagreb",
+      "description": "Zagreb’s open-air farmers’ market — colorful stalls filled with fresh produce, flowers, and local cheese."
     },
     {
-      "name": "Croatian National Theatre",
-      "map_link": "https://www.google.com/maps/search/?api=1&query=45.8098%2C15.9706",
-      "description": "Grand Neo-Baroque building hosting opera, ballet, and drama."
+      "name": "Zrinjevac Park",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=Zrinjevac+Park+Zagreb",
+      "description": "Part of the ‘Green Horseshoe’ of parks — known for fountains, music pavilions, and seasonal festivals."
+    },
+    {
+      "name": "Gric Tunnel",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=Gric+Tunnel+Zagreb",
+      "description": "A pedestrian tunnel under the Old Town, used for exhibitions and as a shortcut between neighborhoods."
     }
   ],
   "hidden_gems": [
     {
-      "name": "Strossmayer Promenade",
-      "map_link": "https://www.google.com/maps/search/?api=1&query=45.8163%2C15.9719",
-      "description": "Scenic walkway with city views, popular with locals."
+      "name": "Rokov Perivoj Park",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=Rokov+Perivoj+Zagreb",
+      "description": "A quiet park filled with old villas and creative street art, hidden between Upper and Lower Town."
     },
     {
-      "name": "Quiet streets of Upper Town",
-      "map_link": "https://www.google.com/maps/search/?api=1&query=45.8170%2C15.9725",
-      "description": "Peaceful historic alleys away from crowds."
+      "name": "Art Park Zagreb",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=Art+Park+Zagreb",
+      "description": "A colorful summer hangout spot filled with murals, hammocks, and open-air performances."
+    },
+    {
+      "name": "Museum of Illusions",
+      "map_link": "https://www.google.com/maps/search/?api=1&query=Museum+of+Illusions+Zagreb",
+      "description": "Fun, interactive exhibits that play with perception — great for creative photos and laughs."
     }
   ]
 }
-
   ]
 }

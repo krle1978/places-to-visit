@@ -403,20 +403,47 @@ document.addEventListener("includes:loaded", function () {
   }
 
   function renderInterests(list) {
-    if (!Array.isArray(list)) return "<p>No interests listed.</p>";
+    const normalized = Array.isArray(list)
+      ? list
+      : (list && typeof list === "object")
+        ? Object.entries(list).map(([category, items]) => ({
+            name: category,
+            activities: Array.isArray(items) ? items : []
+          }))
+        : null;
 
-    const items = list.map(item => {
+    if (!normalized) return "<p>No interests listed.</p>";
+
+    const items = normalized.map(item => {
       if (typeof item === "string") return `<li>${item}</li>`;
-      if (item && typeof item === "object") {
-        const text = item.name || "";
-        if (!text) return "";
-        const desc = item.description ? `<div>${item.description}</div>` : "";
-        if (item.map_link) {
-          return `<li><a href="${item.map_link}" target="_blank" rel="noopener noreferrer">${text}</a>${desc}</li>`;
-        }
-        return `<li>${text}${desc}</li>`;
+      if (!item || typeof item !== "object") return "";
+
+      // Nested activities (category + list of places)
+      if (Array.isArray(item.activities)) {
+        const activityItems = item.activities.map(act => {
+          if (!act || typeof act !== "object") return "";
+          const name = act.name || "";
+          if (!name) return "";
+          const desc = act.description ? `<div>${act.description}</div>` : "";
+          const title = act.map_link
+            ? `<a href="${act.map_link}" target="_blank" rel="noopener noreferrer">${name}</a>`
+            : name;
+          return `<li>${title}${desc}</li>`;
+        }).filter(Boolean);
+
+        if (!activityItems.length) return "";
+        const header = item.name ? `<div><strong>${item.name}</strong></div>` : "";
+        return `<li>${header}<ul>${activityItems.join("")}</ul></li>`;
       }
-      return "";
+
+      // Flat interest item
+      const text = item.name || "";
+      if (!text) return "";
+      const desc = item.description ? `<div>${item.description}</div>` : "";
+      if (item.map_link) {
+        return `<li><a href="${item.map_link}" target="_blank" rel="noopener noreferrer">${text}</a>${desc}</li>`;
+      }
+      return `<li>${text}${desc}</li>`;
     }).filter(Boolean);
 
     return items.length ? `<ul>${items.join("")}</ul>` : "<p>No interests listed.</p>";
