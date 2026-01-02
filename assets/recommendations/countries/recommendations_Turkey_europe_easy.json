@@ -2,963 +2,1160 @@
   "name": "Turkey (European Part)",
   "cities": [
     {
-      "name": "Edirne, Turkey",
-      "interests": [
+      "name": "Edirne",
+      "interests": {
+        "Art & Culture": [
+          {
+            "name": "Selimiye Mosque",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Selimiye+Mosque+Edirne",
+            "description": "Ottoman masterpiece designed by Mimar Sinan — grand domes, elegant minarets and intricate interior calligraphy 🕌."
+          },
+          {
+            "name": "Edirne Archaeology and Ethnography Museum",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Edirne+Archaeology+and+Ethnography+Museum",
+            "description": "Rich collection of artifacts from Thrace, Roman and Ottoman periods — a deep dive into local history 🏺."
+          },
+          {
+            "name": "Old Mosque (Eski Camii)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Old+Mosque+Edirne",
+            "description": "Historic mosque with stunning calligraphic panels covering its walls — calm and beautiful ⛪."
+          },
+          {
+            "name": "Üç Şerefeli Mosque",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Uç+Şerefeli+Mosque+Edirne",
+            "description": "Distinctive four-minaret design and early Ottoman architecture — impressive and photogenic 🕌."
+          },
+          {
+            "name": "Rüstem Pasha Caravanserai",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Rüstem+Pasha+Caravanserai+Edirne",
+            "description": "Historic 16th-century inn once used by traders — explore arches, courtyards and Ottomans’ trade legacy 🛤️."
+          }
+        ],
+        "Photo Spots": [
+          {
+            "name": "Meric Bridge (Meriç Köprüsü)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Meric+Bridge+Edirne",
+            "description": "Scenic stone bridge over the Meriç River — perfect at sunrise or sunset with flowing water reflections 🌉."
+          },
+          {
+            "name": "Kırkpınar Oil Wrestling Arena",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Kırkpınar+Oil+Wrestling+Arena+Edirne",
+            "description": "Historic annual sport site — capture traditional culture and epic athletic moments 🤼‍♂️."
+          },
+          {
+            "name": "Historical Bedesten Market",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Bedesten+Edirne",
+            "description": "Old bazaar streets with arches and shops — great for colorful market photos 📸."
+          },
+          {
+            "name": "Sultan Bayezid II Complex Courtyard",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Sultan+Bayezid+II+Complex+Edirne",
+            "description": "Peaceful courtyard and traditional architecture — ideal for cultural snapshots 🌿."
+          },
+          {
+            "name": "City Walls (Edirne Surları)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Edirne+City+Walls",
+            "description": "Ancient defensive walls with textured stone and history — perfect for dramatic photos 🧱."
+          }
+        ],
+        "Food & Nightlife": [
+          {
+            "name": "Ciğerci Niyazi Usta",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Ciğerci+Niyazi+Usta+Edirne",
+            "description": "Local favorite for grilled liver (ciğer) — crispy outside, tender inside — Edirne’s signature dish 🍽️."
+          },
+          {
+            "name": "Kebapçılar Street",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Kebapçılar+Street+Edirne",
+            "description": "Lively row of kebab restaurants offering slow-grilled meats and traditional sides 🍖."
+          },
+          {
+            "name": "Edirne Bazaar Tea Gardens",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Edirne+Tea+Gardens",
+            "description": "Relax with Turkish tea, simit and conversation in shaded outdoor gardens ☕."
+          },
+          {
+            "name": "Edirne Night Walk at Meriç",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Meriç+River+Night+Edirne",
+            "description": "Leisurely evening stroll by the river — cafés and lights add charm 🌙."
+          },
+          {
+            "name": "Local Dessert Spots (Tatlɪcılar)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Tatl%C4%B1c%C4%B1lar+Edirne",
+            "description": "Sweet shops offering baklava, künefe and Turkish delights — perfect late-night treats 🍮."
+          }
+        ],
+        "Nature & Relaxation": [
+          {
+            "name": "Meriç Riverfront Park",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Meriç+River+Park+Edirne",
+            "description": "Green riverside paths with benches and breeze — great for relaxed walks 🌳."
+          },
+          {
+            "name": "Sarɪgöl Park",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Sar%C4%B1g%C3%B6l+Park+Edirne",
+            "description": "Family-friendly park with ponds, paths and picnic spots 🌼."
+          },
+          {
+            "name": "Enez Beach (nearby)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Enez+Beach+Edirne",
+            "description": "Coastal getaway at the Aegean Sea — sandy stretches and fresh sea air 🏖️."
+          },
+          {
+            "name": "Longoz Forests (nearby)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Longoz+Forest+Edirne",
+            "description": "Unique wetland forests with wildlife and shaded walking trails 🌲."
+          },
+          {
+            "name": "Edirne Botanical Garden",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Edirne+Botanical+Garden",
+            "description": "Colorful flowers and structured gardens ideal for slow afternoons 🌻."
+          }
+        ]
+      },
+      "local_food_tip": "Edirne’s culinary pride is grilled liver (ciğer) — taste it at a local ciğerci. Also try stuffed mussels (midye), kebabs, ayran and sweet treats like baklava or künefe with Turkish tea ☕🍖🍬.",
+      "full_day": {
+        "morning": "☀️ Start your day with Turkish tea and simit at a local tea garden, then explore the majestic <a href=\"https://www.google.com/maps/search/?api=1&query=Selimiye+Mosque+Edirne\">Selimiye Mosque</a> and wander through <a href=\"https://www.google.com/maps/search/?api=1&query=Old+Town+Edirne\">Edirne’s old streets</a>.",
+        "afternoon": "🍽️ Enjoy ciğer at <a href=\"https://www.google.com/maps/search/?api=1&query=Ciğerci+Niyazi+Usta+Edirne\">Ciğerci Niyazi Usta</a>, visit the <a href=\"https://www.google.com/maps/search/?api=1&query=Edirne+Archaeology+and+Ethnography+Museum\">Archaeology & Ethnography Museum</a>, and stroll the <a href=\"https://www.google.com/maps/search/?api=1&query=Meriç+River+Park+Edirne\">Meriç Riverfront Park</a>.",
+        "evening": "🌇 Capture photos at the <a href=\"https://www.google.com/maps/search/?api=1&query=Meric+Bridge+Edirne\">Meriç Bridge</a> at sunset and visit the historic <a href=\"https://www.google.com/maps/search/?api=1&query=Uç+Şerefeli+Mosque+Edirne\">Üç Şerefeli Mosque</a>.",
+        "night": "🌃 End with dessert at a tatlıcı near the <a href=\"https://www.google.com/maps/search/?api=1&query=Bedesten+Edirne\">Bedesten Market</a> or a relaxed tea by the river 🌙."
+      },
+      "seasons": {
+        "spring": {
+          "highlight": "Mild weather and blooming parks make walking through historic Edirne delightful 🌸.",
+          "ideas": [
+            {
+              "name": "Spring Walk in Sarıgöl Park",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Sar%C4%B1g%C3%B6l+Park+Edirne",
+              "description": "Enjoy flowers, ponds and shaded paths as nature wakes up 🌼."
+            }
+          ]
+        },
+        "summer": {
+          "highlight": "Warm days perfect for riverfront strolls and nearby beach trips ☀️.",
+          "ideas": [
+            {
+              "name": "Enez Beach Getaway",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Enez+Beach+Edirne",
+              "description": "Cool off with sand, sea and seaside views 🏖️."
+            }
+          ]
+        },
+        "autumn": {
+          "highlight": "Golden leaves, harvest flavors and cultural festivals 🍁.",
+          "ideas": [
+            {
+              "name": "Autumn Visit to Longoz Forests",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Longoz+Forest+Edirne",
+              "description": "Walk shaded trails and gaze at tranquil wetlands 🌲."
+            }
+          ]
+        },
+        "winter": {
+          "highlight": "Crisp air, cozy indoor culture and hearty meals ❄️.",
+          "ideas": [
+            {
+              "name": "Winter Tea & Bazaar Walk",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Edirne+Tea+Gardens",
+              "description": "Warm up with tea, baklava and explore market arcades ☕."
+            }
+          ]
+        }
+      },
+      "public_transport_tips": [
+        {
+          "tip": "Edirne’s local buses and minibuses connect major sights and neighborhoods 🚍.",
+          "link": ""
+        },
+        {
+          "tip": "Taxis are widely available for convenient short trips around the city 🚖.",
+          "link": ""
+        },
+        {
+          "tip": "Walking is the best way to explore the old town and historical centers 🚶‍♂️.",
+          "link": ""
+        }
+      ],
+      "city_events": [
+        {
+          "season": "Summer",
+          "dates": "June–July (annual)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Kırkpınar+Oil+Wrestling+Festival+Edirne",
+          "description": "Kırkpınar Oil Wrestling Festival — world’s oldest oil wrestling event with parades, matches and traditional celebrations 🤼‍♂️."
+        },
+        {
+          "season": "Spring",
+          "dates": "May (annual)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Mehter+Concert+Edirne",
+          "description": "Outdoor concerts and cultural performances bring Ottoman music and drummers to squares 🎶."
+        }
+      ],
+      "places": [
         {
           "name": "Selimiye Mosque",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=41.6773%2C26.5547",
-          "description": "Masterpiece of Ottoman architect Mimar Sinan and a UNESCO World Heritage Site, famed for its soaring dome and elegant minarets — Edirne’s most iconic landmark. :contentReference[oaicite:0]{index=0}"
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Selimiye+Mosque+Edirne",
+          "description": "Ottoman architectural jewel by Sinan — breathtaking interior and grand exterior 🕌."
         },
         {
-          "name": "Complex of Sultan Bayezid II Health Museum",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=41.6769%2C26.5598",
-          "description": "Historic Ottoman health complex and unique medical museum showing centuries of medical history; one of Edirne’s most visited sites after Selimiye Mosque. :contentReference[oaicite:1]{index=1}"
-        },
-        {
-          "name": "Üç Şerefeli Mosque",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=41.6765%2C26.5586",
-          "description": "15th‑century mosque known for its striking minaret design and historical architecture — a key example of early classical Ottoman design. :contentReference[oaicite:2]{index=2}"
-        },
-        {
-          "name": "Old Mosque (Eski Cami)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=41.6779%2C26.5539",
-          "description": "Edirne’s oldest surviving Ottoman mosque from the early 1400s with impressive interior calligraphy and historic atmosphere. :contentReference[oaicite:3]{index=3}"
+          "name": "Old Mosque",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Old+Mosque+Edirne",
+          "description": "Historic 15th-century mosque with exquisite calligraphy ⛪."
         },
         {
           "name": "Meriç Bridge",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=41.6768%2C26.5375",
-          "description": "Historic stone bridge over the Meriç River built in the 19th century, perfect for scenic riverside walks. :contentReference[oaicite:4]{index=4}"
-        },
-        {
-          "name": "Edirne Museum",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=41.6776%2C26.5555",
-          "description": "Archaeology and ethnography museum showing artifacts from prehistory to the Ottoman era — great for history lovers. :contentReference[oaicite:5]{index=5}"
-        },
-        {
-          "name": "Karaağaç & Treaty of Lausanne Monument",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=41.6610%2C26.5325",
-          "description": "Quiet historic district with elegant old houses, the Treaty of Lausanne Monument and museum commemorating the 1923 peace treaty redefining Turkey’s borders. :contentReference[oaicite:6]{index=6}"
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Meric+Bridge+Edirne",
+          "description": "Scenic stone bridge spanning the Meriç River — beautiful and timeless 🌉."
         }
       ],
-      "local_food_tip": "Sample local Thracian specialties like *ciğer tava* (fried liver), *Tandır* (slow‑roasted lamb), regional wines from Thracian vineyards, and sweet Turkish pastries in traditional teahouses. :contentReference[oaicite:7]{index=7}",
+      "hidden_gems": [
+        {
+          "name": "Sultan II. Bayezid Complex",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Sultan+Bayezid+II+Complex+Edirne",
+          "description": "Lesser-visited area with a historic health complex, library and courtyard serenity 🌿."
+        },
+        {
+          "name": "Saraçhane Clock Tower Café",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Sara%C3%A7hane+Clock+Tower+Edirne",
+          "description": "A cozy café near the old clock tower — great for coffee and people-watching ☕."
+        },
+        {
+          "name": "Edirne Frescoes Alley",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Edirne+Frescoes+Alley",
+          "description": "Hidden alley with vibrant murals celebrating local culture and history 🎨."
+        }
+      ]
+    },
+
+    {
+      "name": "Istanbul",
+      "interests": {
+        "Art & Culture": [
+          {
+            "name": "Hagia Sophia",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Hagia+Sophia+Istanbul",
+            "description": "A breathtaking architectural masterpiece that has served as basilica, mosque, and now a museum — blending Byzantine grandeur with Ottoman elegance 🕌."
+          },
+          {
+            "name": "Topkapı Palace",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Topkapı+Palace+Istanbul",
+            "description": "Epic residence of Ottoman sultans overlooking the Bosphorus — filled with imperial treasures, courtyards and history 👑."
+          },
+          {
+            "name": "Blue Mosque (Sultan Ahmed Mosque)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Blue+Mosque+Istanbul",
+            "description": "One of Istanbul’s most iconic mosques with cascading domes and thousands of Iznik tiles glowing in blue hues 🌀."
+          },
+          {
+            "name": "Istanbul Archaeology Museums",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Istanbul+Archaeology+Museums",
+            "description": "Three fascinating museum buildings showcasing artifacts from ancient civilizations — from Troy to Byzantium 🏺."
+          },
+          {
+            "name": "Chora Church",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Chora+Church+Istanbul",
+            "description": "Hidden gem with stunning Byzantine mosaics and frescoes that shine with storytelling and artistry 🎨."
+          }
+        ],
+        "Photo Spots": [
+          {
+            "name": "Galata Tower",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Galata+Tower+Istanbul",
+            "description": "Historic tower with panoramic views over Istanbul’s skyline, Bosphorus bridges and Golden Horn 📸."
+          },
+          {
+            "name": "Bosphorus Bridge Viewpoints",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Bosphorus+Bridge+Istanbul",
+            "description": "Perfect spots along the water for dramatic photos of Europe meeting Asia 🌉."
+          },
+          {
+            "name": "Sultanahmet Square",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Sultanahmet+Square+Istanbul",
+            "description": "The heart of Old Istanbul with historic silhouettes at sunrise or sunset 🌅."
+          },
+          {
+            "name": "Pierre Loti Hill",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Pierre+Loti+Hill+Istanbul",
+            "description": "Coffee with views — a quiet spot overlooking the Golden Horn and city rooftops ☕."
+          },
+          {
+            "name": "Ortaköy Mosque by the Bosphorus",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Ortaköy+Mosque+Istanbul",
+            "description": "Elegant mosque beside water — iconic at sunset with the bridge glowing behind 🌇."
+          }
+        ],
+        "Food & Nightlife": [
+          {
+            "name": "Taksim & Istiklal Street Eats",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Istiklal+Street+Istanbul",
+            "description": "Bustling avenue with street food, classic Turkish kebabs, midye and lively crowds 🍢."
+          },
+          {
+            "name": "Karaköy Güllüoğlu Baklava",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Karaköy+G%C3%BCll%C3%BCo%C4%9Flu+Baklava+Istanbul",
+            "description": "World-famous baklava maker — flaky, sweet and perfect after a Bosphorus stroll 🍯."
+          },
+          {
+            "name": "Kadıköy Fish Market & Bars",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Kad%C4%B1k%C3%B6y+Fish+Market+Istanbul",
+            "description": "On the Asian side: seafood, mezze, raki and a lively local nightlife scene 🍷."
+          },
+          {
+            "name": "Çiya Sofrası",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=%C3%87iya+Sofras%C4%B1+Istanbul",
+            "description": "Anker in Turkish regional cuisine — try rare kebabs, dolmas and Anatolian specialties 🍽️."
+          },
+          {
+            "name": "360 Istanbul",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=360+Istanbul",
+            "description": "Rooftop bar & restaurant with spectacular skyline and Bosphorus views at night 🍸."
+          }
+        ],
+        "Nature & Relaxation": [
+          {
+            "name": "Bosphorus Cruise",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Bosphorus+Cruise+Istanbul",
+            "description": "Relaxing boat ride between continents — palaces, fortresses and seaside mansions glide by 🚤."
+          },
+          {
+            "name": "Gülhane Park",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=G%C3%BClhane+Park+Istanbul",
+            "description": "Historic park near Topkapı — shaded paths, fountains and refreshing greenery 🌳."
+          },
+          {
+            "name": "Emirgan Park",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Emirgan+Park+Istanbul",
+            "description": "Huge waterfront park with gardens, picnic spots and iconic tulip blooms 🌷."
+          },
+          {
+            "name": "Princes’ Islands (Büyükada)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Buyukada+Princes+Islands+Istanbul",
+            "description": "Car-free island escape with bike rides, seaside cafés and historic mansions 🚲."
+          },
+          {
+            "name": "Belgrad Forest (nearby)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Belgrad+Forest+Istanbul",
+            "description": "Vast woodland ideal for hiking, cycling and nature breaks from urban buzz 🌲."
+          }
+        ]
+      },
+      "local_food_tip": "Istanbul is a paradise for foodies: try classic döner, kebabs, meze, balik ekmek (fish sandwich) by the water, street roasted chestnuts, and finish with baklava or künefe paired with Turkish tea or coffee 🍖🍯☕.",
       "full_day": {
-        "Morning": "☀️ Start at the stunning <a href=\"https://www.google.com/maps/search/?api=1&query=41.6773%2C26.5547\" target=\"_blank\" rel=\"noopener\">Selimiye Mosque</a>, exploring its courtyard and interior details. Then walk to the nearby <a href=\"https://www.google.com/maps/search/?api=1&query=41.6769%2C26.5598\" target=\"_blank\" rel=\"noopener\">Sultan Bayezid II Health Museum</a> for a fascinating look at Ottoman medical history. :contentReference[oaicite:8]{index=8}",
-        "Afternoon": "🍽️ Enjoy lunch of local Turkish fare, then visit the historic <a href=\"https://www.google.com/maps/search/?api=1&query=41.6779%2C26.5539\" target=\"_blank\" rel=\"noopener\">Old Mosque</a> and architectural highlight <a href=\"https://www.google.com/maps/search/?api=1&query=41.6765%2C26.5586\" target=\"_blank\" rel=\"noopener\">Üç Şerefeli Mosque</a>. Finish with a stroll over the scenic <a href=\"https://www.google.com/maps/search/?api=1&query=41.6768%2C26.5375\" target=\"_blank\" rel=\"noopener\">Meriç Bridge</a>. :contentReference[oaicite:9]{index=9}",
-        "Sunset": "🌇 Head to the peaceful <a href=\"https://www.google.com/maps/search/?api=1&query=41.6610%2C26.5325\" target=\"_blank\" rel=\"noopener\">Karaağaç district and Treaty of Lausanne Monument</a> for golden hour views and riverside calm. :contentReference[oaicite:10]{index=10}",
-        "Night": "🍷 Dine in the historic center with local wine and Turkish mezze, then enjoy a relaxed evening in a traditional café."
+        "morning": "☀️ Start with Turkish breakfast and simit by the Bosphorus, then explore <a href=\"https://www.google.com/maps/search/?api=1&query=Hagia+Sophia+Istanbul\">Hagia Sophia</a> and <a href=\"https://www.google.com/maps/search/?api=1&query=Blue+Mosque+Istanbul\">Blue Mosque</a> in Sultanahmet.",
+        "afternoon": "🍽️ Wander through the <a href=\"https://www.google.com/maps/search/?api=1&query=Topkapı+Palace+Istanbul\">Topkapı Palace</a>, stroll <a href=\"https://www.google.com/maps/search/?api=1&query=G%C3%BClhane+Park+Istanbul\">Gülhane Park</a>, then lunch at <a href=\"https://www.google.com/maps/search/?api=1&query=%C3%87iya+Sofras%C4%B1+Istanbul\">Çiya Sofrası</a> in Kadıköy.",
+        "evening": "🌇 Take a <a href=\"https://www.google.com/maps/search/?api=1&query=Bosphorus+Cruise+Istanbul\">Bosphorus cruise</a> at sunset and catch views of waterfront palaces, then visit <a href=\"https://www.google.com/maps/search/?api=1&query=Ortaköy+Mosque+Istanbul\">Ortaköy</a> for photos and tea.",
+        "night": "🌃 Cap your night with drinks at <a href=\"https://www.google.com/maps/search/?api=1&query=360+Istanbul\">360 Istanbul</a> or a bar in Kadıköy — the city lights glitter along the Bosphorus."
       },
       "seasons": {
         "spring": {
-          "event": "Kırkpınar Oil Wrestling Festival",
-          "description": "Historic UNESCO‑recognized annual oil wrestling tournament in late June — one of the world’s oldest sporting traditions dating back centuries. :contentReference[oaicite:11]{index=11}",
+          "highlight": "Tulips bloom across parks and waterfronts — Istanbul comes alive with color 🌸.",
           "ideas": [
             {
-              "name": "Selimiye Mosque Visit",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=41.6773%2C26.5547",
-              "description": "Admire the mosque’s architecture in pleasant spring weather. :contentReference[oaicite:12]{index=12}"
-            },
-            {
-              "name": "Riverbanks Walk",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=41.6768%2C26.5375",
-              "description": "Stroll the scenic Meriç and Tunca riverbanks in mild temperatures. :contentReference[oaicite:13]{index=13}"
-            },
-            {
-              "name": "Historic Bazaar Browsing",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=41.6779%2C26.5539",
-              "description": "Explore local markets and bazaars on foot. :contentReference[oaicite:14]{index=14}"
+              "name": "Tulip Festival in Emirgan Park",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Emirgan+Park+Tulip+Festival+Istanbul",
+              "description": "Vibrant carpets of tulips in countless colors make for a spectacular stroll 🌷."
             }
           ]
         },
         "summer": {
-          "event": "Kırkpınar Oil Wrestling Festival",
-          "description": "Held each June, this vibrant cultural event draws visitors from across Turkey and beyond. :contentReference[oaicite:15]{index=15}",
+          "highlight": "Warm days perfect for seaside picnics, island trips and outdoor dining ☀️.",
           "ideas": [
             {
-              "name": "Outdoor Cafés & Gardens",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=41.6769%2C26.5598",
-              "description": "Relax with local food and drinks in shaded garden cafés near historic sites. :contentReference[oaicite:16]{index=16}"
-            },
-            {
-              "name": "Edirne Museum",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=41.6776%2C26.5555",
-              "description": "Cool down inside with archaeology and Ottoman exhibits. :contentReference[oaicite:17]{index=17}"
-            },
-            {
-              "name": "River Sunset Views",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=41.6768%2C26.5375",
-              "description": "Enjoy golden hour at Meriç Bridge and riverfront paths. :contentReference[oaicite:18]{index=18}"
+              "name": "Princes’ Islands Day Trip",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Buyukada+Princes+Islands+Istanbul",
+              "description": "Beach swims, bicycle rides and seaside cafés — a refreshing escape 🚲."
             }
           ]
         },
         "autumn": {
-          "event": "Harvest Fairs & Local Wine",
-          "description": "Autumn brings harvest celebrations and wine tastings in Edirne’s surrounding vineyards and markets. :contentReference[oaicite:19]{index=19}",
+          "highlight": "Golden light, harvest flavors and cultural walks 🍁.",
           "ideas": [
             {
-              "name": "Wine Tasting in Thrace",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=41.6800%2C26.5500",
-              "description": "Sample regional wines from nearby vineyards. :contentReference[oaicite:20]{index=20}"
-            },
-            {
-              "name": "Historic Walks in Old Town",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=41.6779%2C26.5539",
-              "description": "Crisp autumn air makes walking the city a joy. :contentReference[oaicite:21]{index=21}"
-            },
-            {
-              "name": "Visit Bayezid II Health Museum",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=41.6769%2C26.5598",
-              "description": "Learn about history as temperatures cool. :contentReference[oaicite:22]{index=22}"
+              "name": "Autumn Walk in Gülhane Park",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=G%C3%BClhane+Park+Istanbul",
+              "description": "Enjoy cooler weather, colorful foliage and quiet garden paths 🌳."
             }
           ]
         },
         "winter": {
-          "event": "Winter Calm & Cultural Visits",
-          "description": "Winter is quieter with cooler weather that’s perfect for museum and indoor cultural exploration. :contentReference[oaicite:23]{index=23}",
+          "highlight": "Crisp air, cozy cafés, festive lights and hearty meals ❄️.",
           "ideas": [
             {
-              "name": "Indoor Museums Day",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=41.6769%2C26.5598",
-              "description": "Explore Edirne Museum and health museum out of the cold. :contentReference[oaicite:24]{index=24}"
-            },
-            {
-              "name": "Historic Mosques Tour",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=41.6773%2C26.5547",
-              "description": "Visit Selimiye and other mosques in peaceful winter light. :contentReference[oaicite:25]{index=25}"
-            },
-            {
-              "name": "Local Cuisine Indoors",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=41.6770%2C26.5540",
-              "description": "Warm up with traditional Turkish dishes in cozy restaurants. :contentReference[oaicite:26]{index=26}"
+              "name": "Winter Bazaar & Tea Spree",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Grand+Bazaar+Istanbul",
+              "description": "Browse the historic bazaar for spices, textiles and sweets, then warm up with Turkish tea ☕."
             }
           ]
         }
       },
       "public_transport_tips": [
         {
-          "tip": "Edirne is very walkable — most historic sites are clustered around the city center so you can explore on foot. :contentReference[oaicite:27]{index=27}",
-          "link": "https://www.edirne.bel.tr/"
+          "tip": "Use the Istanbulkart for seamless travel on trams, buses and ferries — it’s the easiest way to get around 🚊.",
+          "link": "https://www.istanbulkart.istanbul/"
         },
         {
-          "tip": "Local buses connect central Edirne with the Karaağaç district and outlying neighborhoods. :contentReference[oaicite:28]{index=28}",
-          "link": "https://www.edirne.bel.tr/"
+          "tip": "Ferries across the Bosphorus are scenic and practical — great for reaching Asian-side neighborhoods ⛴️.",
+          "link": ""
         },
         {
-          "tip": "From Istanbul or neighboring countries, frequent buses and minibuses make Edirne an easy day trip or overnight visit. :contentReference[oaicite:29]{index=29}",
-          "link": "https://www.edirne.bel.tr/"
+          "tip": "Taxis and ride-shares are plentiful, but traffic can be heavy — plan extra time during rush hours 🚖.",
+          "link": ""
         }
       ],
       "city_events": [
         {
-          "name": "Kırkpınar Oil Wrestling Festival",
+          "season": "Spring",
+          "dates": "April (annual)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Tulip+Festival+Istanbul",
+          "description": "Istanbul Tulip Festival spreads colorful blooms and festivities across city parks 🌷."
+        },
+        {
           "season": "Summer",
-          "description": "Annual historic oil wrestling event held in Edirne each June, part of UNESCO’s intangible cultural heritage and one of the world’s oldest sporting traditions. :contentReference[oaicite:30]{index=30}",
-          "website": "",
-          "dates": "June"
+          "dates": "June (annual)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Istanbul+Shopping+Fest",
+          "description": "Istanbul Shopping Fest brings deals, lights and cultural shows to streets and malls 🛍️."
         }
       ],
       "places": [
         {
-          "name": "Beyazid II Kulliyesi (Bayezid II Complex)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=41.6767%2C26.5599",
-          "description": "Historic Ottoman administrative, religious, and charitable complex with beautiful courtyards. :contentReference[oaicite:31]{index=31}"
-        },
-        {
-          "name": "Bedesten Bazaar",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=41.6772%2C26.5552",
-          "description": "Ancient market hall in Edirne’s historic center — great for window shopping and experiencing local commerce. :contentReference[oaicite:32]{index=32}"
-        },
-        {
-          "name": "Grand Synagogue of Edirne",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=41.6758%2C26.5553",
-          "description": "Historic synagogue reflecting Edirne’s multicultural past. :contentReference[oaicite:33]{index=33}"
-        }
-      ],
-      "hidden_gems": [
-        {
-          "name": "Mezit Bey Mosque",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=41.6749%2C26.5580",
-          "description": "15th‑century Ottoman mosque with a quiet garden setting — often overlooked by tourists. :contentReference[oaicite:34]{index=34}"
-        },
-        {
-          "name": "Sarayiçi Park & Picnic Area",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=41.6830%2C26.5460",
-          "description": "Green riverside park near historic Sarayiçi, known as the site of oil wrestling grounds and perfect for a relaxed afternoon. :contentReference[oaicite:35]{index=35}"
-        },
-        {
-          "name": "Historic Trakya University Campus",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=41.6615%2C26.5327",
-          "description": "Campus housed in the former Karaağaç railway station — a photogenic place with architectural charm. :contentReference[oaicite:36]{index=36}"
-        }
-      ]
-    },
-
-    {
-      "name": "Istanbul, Turkey",
-      "interests": [
-        {
-          "name": "Hagia Sophia (Ayasofya)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=41.0086%2C28.9802",
-          "description": "Iconic UNESCO‑listed architectural masterpiece that has served as basilica, mosque, and museum — a must‑see symbol of Istanbul’s layered history. :contentReference[oaicite:0]{index=0}"
+          "name": "Hagia Sophia",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Hagia+Sophia+Istanbul",
+          "description": "A timeless symbol of Istanbul’s layered history — awe-inspiring and monumental 🕌."
         },
         {
           "name": "Topkapı Palace",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=41.0115%2C28.9840",
-          "description": "Historic Ottoman imperial residence with extensive treasures, pavilions, and gardens overlooking the Bosphorus. :contentReference[oaicite:1]{index=1}"
-        },
-        {
-          "name": "Blue Mosque (Sultanahmet Camii)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=41.0054%2C28.9768",
-          "description": "Famed historic mosque with classic Ottoman architecture and iconic blue İznik tiles. :contentReference[oaicite:2]{index=2}"
-        },
-        {
-          "name": "Grand Bazaar (Kapalıçarşı)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=41.0101%2C28.9655",
-          "description": "One of the world’s oldest and largest covered markets with thousands of shops selling everything from spices to textiles. :contentReference[oaicite:3]{index=3}"
-        },
-        {
-          "name": "Spice Bazaar (Mısır Çarşısı)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=41.0163%2C28.9714",
-          "description": "Historic marketplace famed for spices, Turkish delights, teas, and local delicacies. :contentReference[oaicite:4]{index=4}"
-        },
-        {
-          "name": "Basilica Cistern",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=41.0083%2C28.9770",
-          "description": "Atmospheric underground water reservoir from Byzantine times with evocative lighting and columns. :contentReference[oaicite:5]{index=5}"
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Topkapı+Palace+Istanbul",
+          "description": "Ottoman sultans’ home with treasures, courtyards and Bosphorus views 👑."
         },
         {
           "name": "Galata Tower",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=41.0244%2C28.9740",
-          "description": "Medieval tower offering panoramic vistas over the old city and Bosphorus. :contentReference[oaicite:6]{index=6}"
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Galata+Tower+Istanbul",
+          "description": "Medieval genoese tower — one of the best spots for city panoramas 📸."
         }
       ],
-      "local_food_tip": "Istanbul’s food scene blends Ottoman heritage and street cuisine — try *kebap*, *balık ekmek* (fish sandwich by the Bosphorus), fresh simit from a street vendor, and lavish Turkish breakfasts. Coffee culture is strong with many cafés serving traditional Turkish coffee to start your day. :contentReference[oaicite:7]{index=7}",
+      "hidden_gems": [
+        {
+          "name": "Fener & Balat Street Murals",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Fener+Balat+Istanbul",
+          "description": "Historic neighborhoods with colorful houses, murals and hidden cafés 📷."
+        },
+        {
+          "name": "Çukurcuma Antique Shops",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Çukurcuma+Istanbul",
+          "description": "Winding streets filled with vintage treasures and quirky finds 🛋️."
+        },
+        {
+          "name": "Ahrida Synagogue",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Ahrida+Synagogue+Istanbul",
+          "description": "Hidden historic synagogue with deep community roots — peaceful and architecturally rich 🕍."
+        }
+      ]
+    },
+
+    {
+      "name": "Kırklareli",
+      "interests": {
+        "Art & Culture": [
+          {
+            "name": "Kırklareli Museum",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=K%C4%B1rklareli+Museum",
+            "description": "Local museum showcasing archaeology, ethnography and regional history — a great introduction to the area’s past 🏺."
+          },
+          {
+            "name": "Great Mosque (Ulu Cami)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Great+Mosque+K%C4%B1rklareli",
+            "description": "Historic mosque in the city center with classic Ottoman architectural details 🕌."
+          },
+          {
+            "name": "Eski Cami (Old Mosque)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Eski+Cami+K%C4%B1rklareli",
+            "description": "One of the oldest mosques in the region — simple yet full of character and history ⛪."
+          },
+          {
+            "name": "Atatürk House Museum",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Atat%C3%BCrk+House+Museum+K%C4%B1rklareli",
+            "description": "Preserved house where Atatürk once stayed — exhibits on his life and Turkey’s early republic 🏡."
+          },
+          {
+            "name": "Kırklareli City Theater",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=K%C4%B1rklareli+City+Theater",
+            "description": "Cultural venue for local performances and community events 🎭."
+          }
+        ],
+        "Photo Spots": [
+          {
+            "name": "Longoz Forests",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Longoz+Forests+K%C4%B1rklareli",
+            "description": "Rare floodplain forests and wooden walkways — dreamy nature photos amidst lush greenery 🌲."
+          },
+          {
+            "name": "Dupnisa Cave",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Dupnisa+Cave+K%C4%B1rklareli",
+            "description": "Atmospheric cave with dramatic formations — great for adventurous photography 🕳️."
+          },
+          {
+            "name": "Kıyıköy Town & Fortress",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=K%C4%B1y%C4%B1k%C3%B6y+Fortress",
+            "description": "Picturesque Black Sea town with castle ruins overlooking the sea — stunning coastal shots 🌊."
+          },
+          {
+            "name": "İnceğiz Valley",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=%C4%B0nce%C4%9Fiz+Valley+K%C4%B1rklareli",
+            "description": "Rock formations, plateaus and trails — rugged landscapes perfect for scenic pics 🏞️."
+          },
+          {
+            "name": "Pehlivanköy Waterways",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Pehlivank%C3%B6y+K%C4%B1rklareli",
+            "description": "Riverside spots with bridges and reflections — calm and photogenic 🌉."
+          }
+        ],
+        "Food & Nightlife": [
+          {
+            "name": "Local Kırklareli Kebap Houses",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=kebap+K%C4%B1rklareli",
+            "description": "Try regional kebabs and grilled meats — hearty and flavourful 🍖."
+          },
+          {
+            "name": "Kırklareli Pide & Lahmacun Spots",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=pide+lahmacun+K%C4%B1rklareli",
+            "description": "Casual bakeries offering fresh pide (Turkish flatbread) and lahmacun 🍕."
+          },
+          {
+            "name": "Dondurma & Sweet Shops",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=dondurma+K%C4%B1rklareli",
+            "description": "Local ice cream and desserts — perfect for an afternoon treat 🍦."
+          },
+          {
+            "name": "City Center Cafés",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=cafes+in+K%C4%B1rklareli",
+            "description": "Relax with Turkish tea, coffee and light bites in the heart of town ☕."
+          },
+          {
+            "name": "Meriç Riverside Evening Walks",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Meri%C3%A7+River+K%C4%B1rklareli",
+            "description": "Evening strolls along the Meriç River with cafés and soft lights 🌙."
+          }
+        ],
+        "Nature & Relaxation": [
+          {
+            "name": "Longoz Forest National Park",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Longoz+Forest+National+Park+K%C4%B1rklareli",
+            "description": "Unique wetland forest with boardwalks and wildlife — great for peaceful nature walks 🌿."
+          },
+          {
+            "name": "Dupnisa Cave & Waterfalls",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Dupnisa+Cave+K%C4%B1rklareli",
+            "description": "Cool cave interiors and nearby waterfalls — refreshing escape in summer 🌊."
+          },
+          {
+            "name": "İnceğiz Nature Trails",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=%C4%B0nce%C4%9Fiz+Nature+Trails+K%C4%B1rklareli",
+            "description": "Hiking paths with panoramic rock views, valleys and meadows 🌄."
+          },
+          {
+            "name": "Kıyıköy Beaches",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=K%C4%B1y%C4%B1k%C3%B6y+Beaches+K%C4%B1rklareli",
+            "description": "Rocky Black Sea beaches — refreshing sea breezes and waves 🏖️."
+          },
+          {
+            "name": "Pehlivanköy Nature Spots",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Pehlivank%C3%B6y+Nature+K%C4%B1rklareli",
+            "description": "Riversides, shaded spots and picnic areas for relaxed afternoons 🌳."
+          }
+        ]
+      },
+      "local_food_tip": "In Kırklareli, try local kebabs, fresh pide and lahmacun, regional cheeses and hearty dishes made with local produce. Pair your meal with ayran or Turkish tea for a complete experience 🍖🍕☕.",
       "full_day": {
-        "Morning": "☀️ Begin at the historic heart of the city with the <a href=\"https://www.google.com/maps/search/?api=1&query=41.0086%2C28.9802\" target=\"_blank\" rel=\"noopener\">Hagia Sophia</a> and then walk to the <a href=\"https://www.google.com/maps/search/?api=1&query=41.0054%2C28.9768\" target=\"_blank\" rel=\"noopener\">Blue Mosque</a> to admire its iconic blue tiles. Explore the nearby Hippodrome and Ottoman era public spaces. :contentReference[oaicite:8]{index=8}",
-        "Afternoon": "🍽️ Enjoy lunch near Sultanahmet and then wander through the labyrinth of shops at the <a href=\"https://www.google.com/maps/search/?api=1&query=41.0101%2C28.9655\" target=\"_blank\" rel=\"noopener\">Grand Bazaar</a> and spice stalls at the <a href=\"https://www.google.com/maps/search/?api=1&query=41.0163%2C28.9714\" target=\"_blank\" rel=\"noopener\">Spice Bazaar</a>. Stop at a traditional tea house. :contentReference[oaicite:9]{index=9}",
-        "Sunset": "🌅 Head toward Karaköy and climb up to the <a href=\"https://www.google.com/maps/search/?api=1&query=41.0244%2C28.9740\" target=\"_blank\" rel=\"noopener\">Galata Tower</a> or wander along the waterfront for sunset views over the Golden Horn. :contentReference[oaicite:10]{index=10}",
-        "Night": "🍷 Dine in Beyoğlu or Karaköy with modern Turkish cuisine, then enjoy nightlife at rooftop bars or Bosphorus‑side lounges."
+        "morning": "☀️ Start with breakfast and Turkish tea in the city center, then visit the historic <a href=\"https://www.google.com/maps/search/?api=1&query=Great+Mosque+K%C4%B1rklareli\">Great Mosque</a> and explore the local collections at the <a href=\"https://www.google.com/maps/search/?api=1&query=K%C4%B1rklareli+Museum\">Kırklareli Museum</a>.",
+        "afternoon": "🌿 Head to the <a href=\"https://www.google.com/maps/search/?api=1&query=Longoz+Forest+National+Park+K%C4%B1rklareli\">Longoz Forest</a> for shaded boardwalk walks, then enjoy lunch in Kıyıköy with sea views.",
+        "evening": "🌇 Visit the <a href=\"https://www.google.com/maps/search/?api=1&query=Dupnisa+Cave+K%C4%B1rklareli\">Dupnisa Cave</a> area and take scenic photos at <a href=\"https://www.google.com/maps/search/?api=1&query=Meric+Bridge+K%C4%B1rklareli\">Meriç Bridge</a> at sunset.",
+        "night": "🌃 Finish with a riverside walk along the <a href=\"https://www.google.com/maps/search/?api=1&query=Meri%C3%A7+River+K%C4%B1rklareli\">Meriç River</a>, enjoy Turkish tea or dondurma at a city café and unwind under the stars."
       },
       "seasons": {
         "spring": {
-          "event": "Istanbul Tulip Festival",
-          "description": "Each spring, millions of tulips bloom across parks and streets, especially in Sultanahmet and Emirgan Grove — a stunning seasonal highlight. (Annual local festival)",
+          "highlight": "Blooming forests, mild weather and fresh sea breezes make spring ideal for hikes 🌸.",
           "ideas": [
             {
-              "name": "Emirgan Grove Tulip Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=41.0786%2C29.0294",
-              "description": "Colorful tulip displays and lake views."
-            },
-            {
-              "name": "Sultanahmet Park Picnics",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=41.0050%2C28.9790",
-              "description": "Relax with tulips framing historic monuments."
-            },
-            {
-              "name": "Bosphorus Cruise",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=41.0451%2C29.0000",
-              "description": "Take a scenic cruise to enjoy spring breezes and skyline panoramas."
+              "name": "Spring Walk in Longoz Forest",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Longoz+Forest+K%C4%B1rklareli",
+              "description": "See wildflowers, listen to birds and enjoy shaded paths 🌼."
             }
           ]
         },
         "summer": {
-          "event": "Istanbul Jazz Festival",
-          "description": "A lively summer music festival featuring international and local artists across beautiful city venues. (Annual summer event)",
+          "highlight": "Warm days great for Black Sea beach visits and forest coolness ☀️.",
           "ideas": [
             {
-              "name": "Bosphorus Sunset Cruise",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=41.0451%2C29.0000",
-              "description": "Enjoy cool evenings on the water."
-            },
-            {
-              "name": "Princes’ Islands Day Trip",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=40.9860%2C29.0453",
-              "description": "Relax on car‑free islands with beaches and cycling paths."
-            },
-            {
-              "name": "Open‑air Concerts",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=41.0285%2C28.9731",
-              "description": "Enjoy music and culture at outdoor venues."
+              "name": "Beach Time at Kıyıköy",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=K%C4%B1y%C4%B1k%C3%B6y+Beaches+K%C4%B1rklareli",
+              "description": "Swim, sunbathe and enjoy the Black Sea’s waves 🏖️."
             }
           ]
         },
         "autumn": {
-          "event": "Istanbul Biennial",
-          "description": "Major contemporary art festival held every two years (in autumn) across galleries and public spaces. (Specific dates vary)",
+          "highlight": "Golden foliage, gentle hikes and fewer crowds 🍁.",
           "ideas": [
             {
-              "name": "Kadıköy Street Art Walk",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=40.9919%2C29.0267",
-              "description": "Explore vibrant neighbourhood murals and cafés."
-            },
-            {
-              "name": "Asian‑side Ferry Ride",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=41.0200%2C29.0100",
-              "description": "Scenic ferry ride with autumn hues."
-            },
-            {
-              "name": "Museum Visits",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=41.0089%2C28.9754",
-              "description": "Visit museums like the Turkish and Islamic Arts Museum. :contentReference[oaicite:11]{index=11}"
+              "name": "Autumn Hike at İnceğiz Valley",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=%C4%B0nce%C4%9Fiz+Valley+K%C4%B1rklareli",
+              "description": "Stroll through autumn colors and panoramic landscapes 🍂."
             }
           ]
         },
         "winter": {
-          "event": "Istanbul Christmas & New Year Lights",
-          "description": "Festive lights, seasonal markets, and cultural events across Istiklal Avenue and squares in winter. (Annual seasonal)",
+          "highlight": "Crisp air, cozy tea gardens and quiet town vibes ❄️.",
           "ideas": [
             {
-              "name": "Warm Turkish Baths (Hamam)",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=41.0097%2C28.9737",
-              "description": "Relax in historic hammams and spas."
-            },
-            {
-              "name": "Museum Days",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=41.0089%2C28.9754",
-              "description": "Perfect for cold days — visit museums and galleries."
-            },
-            {
-              "name": "Istiklal Street Evenings",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=41.0369%2C28.9856",
-              "description": "Enjoy cafés, bookstores, and live music along Istiklal Avenue."
+              "name": "Winter Tea & Bazaar Walk",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=cafes+in+K%C4%B1rklareli",
+              "description": "Warm up with tea and pastries in local cafés ☕."
             }
           ]
         }
       },
       "public_transport_tips": [
         {
-          "tip": "Use Istanbul’s metro, trams, and ferries to easily cross between European and Asian sides — ferries offer scenic transport along the Bosphorus.",
-          "link": "https://www.istanbulkart.istanbul/"
+          "tip": "Local buses connect Kırklareli with nearby towns, forests and coastal areas 🚍.",
+          "link": ""
         },
         {
-          "tip": "Get an Istanbulkart (rechargeable city travel card) for seamless use on public transit including metros, buses, trams, and ferries.",
-          "link": "https://www.istanbulkart.istanbul/"
+          "tip": "Taxis and dolmuş (shared minibuses) are available for flexible local travel 🚖.",
+          "link": ""
         },
         {
-          "tip": "Historic areas like Sultanahmet are best explored on foot; trams help connect major sites. Consider hop‑on/hop‑off buses for easy sightseeing.",
-          "link": "https://www.istanbul.gov.tr/tarihi-ve-turistik-mekanlar"
+          "tip": "Walking and biking are excellent ways to explore the city center and parks 🚶‍♂️.",
+          "link": ""
         }
       ],
       "city_events": [
         {
-          "name": "Istanbul Tulip Festival",
-          "season": "Spring",
-          "description": "Annual celebration of tulips blooming across gardens and parks throughout the city — a quintessential Istanbul experience.",
-          "website": "https://www.istanbulfestival.org",
-          "dates": "April–May"
-        },
-        {
-          "name": "Istanbul Jazz Festival",
           "season": "Summer",
-          "description": "International jazz performances across iconic venues and open‑air settings. (Annual summer festival)",
-          "website": "https://www.iksv.org/en",
-          "dates": "June–July"
+          "dates": "July–August (annual)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=K%C4%B1rklareli+Summer+Events",
+          "description": "Summer local festivals, music and food events bring life to parks and squares 🎶."
+        },
+        {
+          "season": "Autumn",
+          "dates": "September (annual)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=K%C4%B1rklareli+Grape+Harvest+Festival",
+          "description": "Harvest tastings, local products and community celebrations 🍇."
         }
       ],
       "places": [
         {
-          "name": "Sultanahmet Square & Hippodrome",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=41.0055%2C28.9761",
-          "description": "Historic heart of old Istanbul with monuments, fountains, and ancient obelisks next to major landmarks. :contentReference[oaicite:12]{index=12}"
+          "name": "Longoz Forest National Park",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Longoz+Forest+National+Park+K%C4%B1rklareli",
+          "description": "Unique floodplain forest with boardwalks, wildlife and shade 🌲."
         },
         {
-          "name": "Istiklal Avenue & Taksim Square",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=41.0369%2C28.9856",
-          "description": "Bustling pedestrian street with shops, cafés, historic tram, and nightlife around Taksim Square. :contentReference[oaicite:13]{index=13}"
+          "name": "Dupnisa Cave",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Dupnisa+Cave+K%C4%B1rklareli",
+          "description": "Mysterious cave system with intriguing formations and nearby nature 🌊."
         },
         {
-          "name": "Bosphorus Bridge Views",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=41.0520%2C29.0300",
-          "description": "Scenic viewpoints over the strait separating Europe and Asia — beautiful at sunset. :contentReference[oaicite:14]{index=14}"
+          "name": "Kıyıköy Fortress",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=K%C4%B1y%C4%B1k%C3%B6y+Fortress",
+          "description": "Historic castle ruins overlooking the sea — dramatic and scenic 🌉."
         }
       ],
       "hidden_gems": [
         {
-          "name": "Balat & Fener Neighbourhoods",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=41.0339%2C28.9045",
-          "description": "Colorful historic districts with Ottoman houses, street art, cafés, and cultural vibes often overlooked by first‑time visitors."
+          "name": "Pehlivanköy Riverside",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Pehlivank%C3%B6y+K%C4%B1rklareli",
+          "description": "Quiet riverside area with shaded spots, bridges and local life 🌳."
         },
         {
-          "name": "Princes’ Islands (Büyükada)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=40.9860%2C29.0453",
-          "description": "Car‑free islands with beaches, horse‑carriage rides, and relaxed coastal charm away from the city bustle."
+          "name": "Sultan Murat Plateau",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Sultan+Murat+Plateau+K%C4%B1rklareli",
+          "description": "Scenic highland meadows and cool air — great for late summer picnics 🏞️."
         },
         {
-          "name": "Kadıköy Food & Arts District",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=40.9919%2C29.0267",
-          "description": "Lively Asian‑side neighbourhood with markets, bars, street art, and local eateries."
+          "name": "Historic Fresco Alley",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Historic+Fresco+Alley+K%C4%B1rklareli",
+          "description": "Hidden alley with murals celebrating local culture and tradition 🎨."
         }
       ]
     },
 
     {
-      "name": "Kırklareli, Turkey",
-      "interests": [
-        {
-          "name": "Dupnisa Cave (Dupnisa Mağarası)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=41.7138%2C27.6070",
-          "description": "One of the longest and most fascinating cave systems in Turkey with interconnected chambers and limestone formations — perfect for nature explorers. :contentReference[oaicite:0]{index=0}"
-        },
-        {
-          "name": "İğneada Longoz Forests National Park",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=41.9073%2C27.7238",
-          "description": "A unique floodplain forest and wetland ecosystem with lakes, hiking trails, and rich birdlife — one of Europe’s rare longoz (flooded) forests. :contentReference[oaicite:1]{index=1}"
-        },
-        {
-          "name": "Kırklareli Museum",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=41.7361%2C27.2258",
-          "description": "Local archaeological, ethnographic and natural history displays housed in a historic 19th‑century building. :contentReference[oaicite:2]{index=2}"
-        },
-        {
-          "name": "Hızırbey Mosque & Fountain",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=41.7360%2C27.2260",
-          "description": "An early Ottoman mosque (Hızırbey Camii) with classic architecture and a historic fountain nearby — a highlight of the city center. :contentReference[oaicite:3]{index=3}"
-        },
-        {
-          "name": "Vize – Küçük Ayasofya (Gazi Süleyman Paşa Camii)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=41.6526%2C27.4856",
-          "description": "Ancient basilica turned mosque located in nearby Vize, showing Byzantine and Ottoman history and architecture. :contentReference[oaicite:4]{index=4}"
-        },
-        {
-          "name": "Kıyıköy & Aya Nikola Monastery",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=41.6420%2C27.8642",
-          "description": "Seaside village with historic Byzantine monastery ruins, coastal views, and tranquil beaches. :contentReference[oaicite:5]{index=5}"
-        },
-        {
-          "name": "Mahya Peak (Mahya Dağı)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=41.8216%2C27.4414",
-          "description": "Highest point in the Strandzha (Yıldız) Mountains — great for hiking, panoramic views, and nature photography. :contentReference[oaicite:6]{index=6}"
-        }
-      ],
-      "local_food_tip": "Kırklareli is known for rich Thracian cuisine — don’t miss *Kırklareli köftesi* (local meatballs), *papaz yahnisi* (soğan aşı), *manca* (smoked vegetable mix), and local seasonal dishes reflecting rural flavors. :contentReference[oaicite:7]{index=7}",
+      "name": "Tekirdağ",
+      "interests": {
+        "Art & Culture": [
+          {
+            "name": "Rüstem Paşa Camii",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=R%C3%BCstem+Pa%C5%9Fa+Camii+Tekirda%C4%9F",
+            "description": "Historic Ottoman mosque in the heart of Tekirdağ — elegant domes and peaceful courtyard 🕌."
+          },
+          {
+            "name": "Tekirdağ Museum of Archaeology and Ethnography",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Tekirda%C4%9F+Museum+of+Archaeology+and+Ethnography",
+            "description": "Fascinating collection of artifacts from Thracian, Roman and Ottoman periods — great for history lovers 🏺."
+          },
+          {
+            "name": "Namık Kemal House Museum",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Nam%C4%B1k+Kemal+House+Museum+Tekirda%C4%9F",
+            "description": "Converted house-museum of the famous Turkish writer — insight into literature and local culture 📚."
+          },
+          {
+            "name": "Süleymanpaşa Clock Tower",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=S%C3%BCleymanpa%C5%9Fa+Clock+Tower+Tekirda%C4%9F",
+            "description": "Iconic Ottoman-era clock tower in the city center — local landmark and meeting spot 🕰️."
+          },
+          {
+            "name": "Şarköy Old Greek Houses",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Åžark%C3%B6y+Old+Greek+Houses",
+            "description": "Colorful historic architecture in nearby Şarköy — charming to explore and photograph 🏘️."
+          }
+        ],
+        "Photo Spots": [
+          {
+            "name": "Tekirdağ Coastline Promenade",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Tekirda%C4%9F+Coastline+Promenade",
+            "description": "Picturesque waterfront with sea views and pastel skies at sunset 🌅."
+          },
+          {
+            "name": "Rakoczi Museum & Garden",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Rakoczi+Museum+Tekirda%C4%9F",
+            "description": "Historic mansion and gardens with quiet corners perfect for photos 🌿."
+          },
+          {
+            "name": "Şarköy Beaches",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Åžark%C3%B6y+Beaches",
+            "description": "Long sandy beaches with the blue Aegean — great for golden hour photos 📸."
+          },
+          {
+            "name": "Marmara Sea Lookouts",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Marmara+Sea+Lookouts+Tekirda%C4%9F",
+            "description": "Scenic viewpoints along the coast with boats, lighthouses and horizons 🚤."
+          },
+          {
+            "name": "Barbaros Park Views",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Barbaros+Park+Tekirda%C4%9F",
+            "description": "Park overlooking the sea — green lawns and refreshing sea breeze 🌳."
+          }
+        ],
+        "Food & Nightlife": [
+          {
+            "name": "Tekirdağ Köfte Restaurants",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Tekirda%C4%9F+K%C3%B6fte+Tekirda%C4%9F",
+            "description": "Try the region’s famous meatballs (köfte) — juicy, flavorful and a must-eat 🍽️."
+          },
+          {
+            "name": "Şarköy Wine Cellars",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Åžark%C3%B6y+Wine+Cellars",
+            "description": "Local vineyards making Tekirdağ’s well-known wines — taste and tour with scenic views 🍷."
+          },
+          {
+            "name": "Meriç Balıkçısı",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Meri%C3%A7+Bal%C4%B1kc%C4%B1s%C4%B1+Tekirda%C4%9F",
+            "description": "Seafood restaurant by the water — fresh fish, mezes and sea breeze 🍤."
+          },
+          {
+            "name": "City Center Cafés & Tea Gardens",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=cafes+in+Tekirda%C4%9F",
+            "description": "Relax with Turkish tea, coffee and desserts — people-watching and chill vibes ☕🍰."
+          },
+          {
+            "name": "Nightlife Along the Promenade",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Tekirda%C4%9F+nightlife+promenade",
+            "description": "Evening strolls with live music, lights and social spots by the sea 🌙🎶."
+          }
+        ],
+        "Nature & Relaxation": [
+          {
+            "name": "Marmara Sea Beaches",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Marmara+Sea+Beaches+Tekirda%C4%9F",
+            "description": "Sun, sand and gentle waves — ideal for beach days and picnics 🏖️."
+          },
+          {
+            "name": "Barbaros Park",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Barbaros+Park+Tekirda%C4%9F",
+            "description": "Green park with benches, paths and view of the sea — relaxing and scenic 🌳."
+          },
+          {
+            "name": "Şarköy Coastal Walks",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Åžark%C3%B6y+Coastal+Walks",
+            "description": "Strolls along the shore with views of vineyards and sea breeze 🌾."
+          },
+          {
+            "name": "Kaynarca Picnic Areas",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Kaynarca+Tekirda%C4%9F",
+            "description": "Local picnic spots near nature — shade, grass and fresh air 🧺."
+          },
+          {
+            "name": "Tekirdağ Botanical Garden",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Tekirda%C4%9F+Botanical+Garden",
+            "description": "Lush flower gardens and quiet trails — perfect for a slow afternoon 🌷."
+          }
+        ]
+      },
+      "local_food_tip": "Tekirdağ is famous for its köfte (meatballs) and local wines. Try fresh seafood by the Marmara, classic Turkish tea with pastries, and sample Şarköy wines for a true local taste 🍷🍖☕.",
       "full_day": {
-        "Morning": "☀️ Start with a visit to the atmospheric <a href=\"https://www.google.com/maps/search/?api=1&query=41.7138%2C27.6070\" target=\"_blank\" rel=\"noopener\">Dupnisa Cave</a> in the Demirköy area to explore its winding limestone passages and underground spaces. :contentReference[oaicite:8]{index=8}",
-        "Afternoon": "🌿 Head toward the lush <a href=\"https://www.google.com/maps/search/?api=1&query=41.9073%2C27.7238\" target=\"_blank\" rel=\"noopener\">İğneada Longoz Forests National Park</a> for a nature walk, bird watching or lakeside picnic. :contentReference[oaicite:9]{index=9}",
-        "Sunset": "🌅 Visit the historic center of Kırklareli city, including <a href=\"https://www.google.com/maps/search/?api=1&query=41.7361%2C27.2258\" target=\"_blank\" rel=\"noopener\">Kırklareli Museum</a> and <a href=\"https://www.google.com/maps/search/?api=1&query=41.7360%2C27.2260\" target=\"_blank\" rel=\"noopener\">Hızırbey Mosque</a> as the sun sets over the town. :contentReference[oaicite:10]{index=10}",
-        "Night": "🍷 Dine at a local restaurant in the city center with traditional Thracian meat dishes and local wine, then take a relaxed evening stroll through the streets."
+        "morning": "☀️ Start with Turkish tea and pastries at a city center café, then stroll to the historic <a href=\"https://www.google.com/maps/search/?api=1&query=S%C3%BCleymanpa%C5%9Fa+Clock+Tower+Tekirda%C4%9F\">Süleymanpaşa Clock Tower</a> and visit the <a href=\"https://www.google.com/maps/search/?api=1&query=Tekirda%C4%9F+Museum+of+Archaeology+and+Ethnography\">Archaeology & Ethnography Museum</a>.",
+        "afternoon": "🌿 Head to the <a href=\"https://www.google.com/maps/search/?api=1&query=Barbaros+Park+Tekirda%C4%9F\">Barbaros Park</a> for a relaxed walk and then enjoy seafood lunch at <a href=\"https://www.google.com/maps/search/?api=1&query=Meri%C3%A7+Bal%C4%B1kc%C4%B1s%C4%B1+Tekirda%C4%9F\">Meriç Balıkçısı</a> by the sea.",
+        "evening": "🌇 Visit the beaches around <a href=\"https://www.google.com/maps/search/?api=1&query=Åžark%C3%B6y+Beaches\">Şarköy</a>, capture golden hour photos, and taste local wines at Şarköy vineyards.",
+        "night": "🌃 End with an evening stroll along the <a href=\"https://www.google.com/maps/search/?api=1&query=Tekirda%C4%9F+Coastline+Promenade\">Tekirdağ Promenade</a>, Turkish tea and desserts at a cozy café."
       },
       "seasons": {
         "spring": {
-          "event": "Local Spring Nature Walks",
-          "description": "Spring brings wildflowers and comfortable weather, ideal for hiking in longoz forests and the Yıldız Mountains.",
+          "highlight": "Mild weather, blooming gardens and seaside walks make spring delightful 🌸.",
           "ideas": [
             {
-              "name": "İğneada Longoz Forests Walk",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=41.9073%2C27.7238",
-              "description": "Blooming floodplain forest walks with birdlife."
-            },
-            {
-              "name": "Mahya Peak Hike",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=41.8216%2C27.4414",
-              "description": "Mountain blossoms and cool breezes."
-            },
-            {
-              "name": "City Center Strolls",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=41.7361%2C27.2258",
-              "description": "Pleasant city walk visiting historic sites."
+              "name": "Spring Stroll by the Marmara",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Marmara+Sea+Beaches+Tekirda%C4%9F",
+              "description": "Gentle breeze and fresh blooms along the shoreline 🐚."
             }
           ]
         },
         "summer": {
-          "event": "Coastal Excursions & Village Life",
-          "description": "Long days perfect for exploring Black Sea beaches around Kıyıköy and lakes around İğneada.",
+          "highlight": "Sunny beach days, seaside picnics and cool evening breezes ☀️.",
           "ideas": [
             {
-              "name": "Kıyıköy Beach Time",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=41.6420%2C27.8642",
-              "description": "Relax by the sea and enjoy seafood."
-            },
-            {
-              "name": "Longoz Lakes Kayaking",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=41.9073%2C27.7238",
-              "description": "Paddle among lakes in the floodplain park."
-            },
-            {
-              "name": "Outdoor Picnics",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=41.9073%2C27.7238",
-              "description": "Picnic amid shade and water."
+              "name": "Beach Day in Şarköy",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Åžark%C3%B6y+Beaches",
+              "description": "Swim, relax and enjoy the Marmara’s waves 🏖️."
             }
           ]
         },
         "autumn": {
-          "event": "Harvest & Nature Colors",
-          "description": "Autumn brings harvest festivals and scenic color changes in forests and hills.",
+          "highlight": "Cooler weather and harvest flavors — perfect for wine tastings 🍁.",
           "ideas": [
             {
-              "name": "Vize Historic Walk",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=41.6526%2C27.4856",
-              "description": "Explore historic sites and local culture."
-            },
-            {
-              "name": "Nature Drive through Yıldız Mountains",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=41.8216%2C27.4414",
-              "description": "Fall foliage and panorama."
-            },
-            {
-              "name": "City Museum Visit",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=41.7361%2C27.2258",
-              "description": "Learn local history at the museum."
+              "name": "Autumn Vineyards Visit",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Åžark%C3%B6y+Wine+Cellars",
+              "description": "Taste local wines and enjoy vineyard views in fall hues 🍇."
             }
           ]
         },
         "winter": {
-          "event": "Winter Heritage Visits",
-          "description": "Cooler winter weather great for exploring cultural sites and museums without crowds.",
+          "highlight": "Crisp air, cozy cafés and quiet coastal views ❄️.",
           "ideas": [
             {
-              "name": "Kırklareli Museum",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=41.7361%2C27.2258",
-              "description": "Indoor exploration of local history."
-            },
-            {
-              "name": "Historic Mosque Tour",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=41.7360%2C27.2260",
-              "description": "Visit Hızırbey Mosque and other Ottoman architecture."
-            },
-            {
-              "name": "Local Cuisine Indoors",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=41.7361%2C27.2258",
-              "description": "Warm up with traditional baked dishes and soups."
+              "name": "Winter Tea by the Sea",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=cafes+in+Tekirda%C4%9F",
+              "description": "Warm up with Turkish tea and pastries with views of the calm sea ☕."
             }
           ]
         }
       },
       "public_transport_tips": [
         {
-          "tip": "Kırklareli city center is very walkable — many historic sites, mosques, and the museum are close by. :contentReference[oaicite:11]{index=11}",
-          "link": "https://www.kirklareli.ktb.gov.tr/"
+          "tip": "Local buses and minibuses connect the city center with beaches and nearby villages 🚍.",
+          "link": ""
         },
         {
-          "tip": "Intercity buses connect to Istanbul, Tekirdağ, and Edirne; use bus services to reach the region, then explore locally by taxi or rental car. :contentReference[oaicite:12]{index=12}",
-          "link": "https://www.kirklareli.ktb.gov.tr/"
+          "tip": "Taxis and ride-shares are available for quick trips around the province 🚖.",
+          "link": ""
         },
         {
-          "tip": "To reach natural areas like İğneada and Dupnisa Cave, consider renting a car or using local tour shuttles, as rural public transport is limited. :contentReference[oaicite:13]{index=13}",
-          "link": "https://www.kirklareli.ktb.gov.tr/"
+          "tip": "Walking or biking along the promenade and parks is enjoyable and practical 🚶‍♂️.",
+          "link": ""
         }
       ],
       "city_events": [
         {
-          "name": "Local Spring Blooms & Nature Celebrations",
-          "season": "Spring",
-          "description": "Seasonal nature walks and wildflower viewing in forests and parks as the region awakens after winter.",
-          "website": "",
-          "dates": "April–May"
+          "season": "Summer",
+          "dates": "July–August (annual)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Tekirda%C4%9F+Summer+Festivals",
+          "description": "Local summer festivals with music, food events and seaside activities 🎶."
+        },
+        {
+          "season": "Autumn",
+          "dates": "September (annual)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Tekirda%C4%9F+Harvest+Fest",
+          "description": "Harvest celebrations with wine tastings and traditional culture 🍇."
         }
       ],
       "places": [
         {
-          "name": "Hızırbey Bath (Hamam)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=41.7359%2C27.2262",
-          "description": "Historic Ottoman‑era Turkish bath in the city center — a cultural and relaxing stop. :contentReference[oaicite:14]{index=14}"
+          "name": "Süleymanpaşa Clock Tower",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=S%C3%BCleymanpa%C5%9Fa+Clock+Tower+Tekirda%C4%9F",
+          "description": "Historic landmark in Tekirdağ’s center — great for photos and local history 🕰️."
         },
         {
-          "name": "Atatürk House & Local Historic Sites",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=41.7350%2C27.2240",
-          "description": "Historic house museum and nearby city landmarks reflecting modern Turkish history. :contentReference[oaicite:15]{index=15}"
-        },
-        {
-          "name": "Limanköy & Black Sea Coast",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=41.6440%2C27.8720",
-          "description": "Scenic seaside area near Kıyıköy perfect for a beach walk and sunset views. :contentReference[oaicite:16]{index=16}"
-        }
-      ],
-      "hidden_gems": [
-        {
-          "name": "Lake Saka Nature Reserve",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=41.9560%2C27.7440",
-          "description": "Rare floodplain habitat near İğneada with rich birdlife and peaceful nature trails — ideal for photography and quiet hikes. :contentReference[oaicite:17]{index=17}"
-        },
-        {
-          "name": "Kırklareli Aşıklar Tepesi",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=41.6930%2C27.6510",
-          "description": "Overlook spot with scenic views, especially at sunrise and sunset. :contentReference[oaicite:18]{index=18}"
-        },
-        {
-          "name": "Aya Nikola Monastery Ruins",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=41.6420%2C27.8642",
-          "description": "Historic Byzantine monastery ruins near Kıyıköy with coastal views and a serene atmosphere. :contentReference[oaicite:19]{index=19}"
-        }
-      ]
-    },
-
-    {
-      "name": "Tekirdağ, Turkey",
-      "interests": [
-        {
-          "name": "Rüstem Paşa Mosque",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=40.9800%2C27.5142",
-          "description": "Historic Ottoman mosque designed by the great architect Mimar Sinan in 1553, with classic Ottoman architectural features. :contentReference[oaicite:0]{index=0}"
+          "name": "Tekirdağ Coastline Promenade",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Tekirda%C4%9F+Coastline+Promenade",
+          "description": "Long waterfront path with sea views and cafes 🌅."
         },
         {
           "name": "Tekirdağ Museum of Archaeology and Ethnography",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=40.9812%2C27.5155",
-          "description": "Museum showing archaeological artifacts and ethnographic items from the region’s long history, from ancient times through the Ottoman era. :contentReference[oaicite:1]{index=1}"
-        },
-        {
-          "name": "Namık Kemal House Museum",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=40.9789%2C27.5149",
-          "description": "Historic house museum dedicated to the life and works of the influential Turkish nationalist poet Namık Kemal. :contentReference[oaicite:2]{index=2}"
-        },
-        {
-          "name": "Rákóczi Museum",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=40.9811%2C27.5138",
-          "description": "18th‑century house museum where Hungarian national hero Francis II Rákóczi lived in exile—an unusual cultural landmark. :contentReference[oaicite:3]{index=3}"
-        },
-        {
-          "name": "Tekirdağ Marina & Coast",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=40.9775%2C27.5190",
-          "description": "Pleasant seaside promenade and marina on the Sea of Marmara — great for walks, cafes, and evening views. :contentReference[oaicite:4]{index=4}"
-        },
-        {
-          "name": "Barbare Vineyards",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=40.9700%2C27.4500",
-          "description": "Thracian vineyard offering wine tastings, tours, and local cuisine experiences in rolling vineyard landscapes. :contentReference[oaicite:5]{index=5}"
-        },
-        {
-          "name": "Şarköy & Kumbağ Beaches",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=40.9430%2C27.3300",
-          "description": "Popular seaside resorts and sandy beach areas on the Marmara coast close to Tekirdağ — ideal for swimming and relaxation. :contentReference[oaicite:6]{index=6}"
-        }
-      ],
-      "local_food_tip": "Tekirdağ is famous for its *Tekirdağ köftesi* — small spicy grilled meatballs that are a regional specialty — traditionally served with local salads and sweets. :contentReference[oaicite:7]{index=7}",
-      "full_day": {
-        "Morning": "☀️ Begin at the historic heart of Tekirdağ with a visit to the <a href=\"https://www.google.com/maps/search/?api=1&query=40.9800%2C27.5142\" target=\"_blank\" rel=\"noopener\">Rüstem Paşa Mosque</a>, then explore local heritage at the <a href=\"https://www.google.com/maps/search/?api=1&query=40.9812%2C27.5155\" target=\"_blank\" rel=\"noopener\">Tekirdağ Museum of Archaeology and Ethnography</a>. :contentReference[oaicite:8]{index=8}",
-        "Afternoon": "🍽️ Enjoy lunch with *Tekirdağ köftesi*, then stroll the historic streets to visit the <a href=\"https://www.google.com/maps/search/?api=1&query=40.9789%2C27.5149\" target=\"_blank\" rel=\"noopener\">Namık Kemal House Museum</a> and the unique <a href=\"https://www.google.com/maps/search/?api=1&query=40.9811%2C27.5138\" target=\"_blank\" rel=\"noopener\">Rákóczi Museum</a>. :contentReference[oaicite:9]{index=9}",
-        "Sunset": "🌅 Walk along the waterfront at <a href=\"https://www.google.com/maps/search/?api=1&query=40.9775%2C27.5190\" target=\"_blank\" rel=\"noopener\">Tekirdağ Marina</a> for Marmara Sea views as the sun sets. :contentReference[oaicite:10]{index=10}",
-        "Night": "🍷 Dine at a seaside restaurant along the coast with fresh fish and local wines, then enjoy a leisurely evening walk by the water."
-      },
-      "seasons": {
-        "spring": {
-          "event": "International Cherry Festival (Kiraz Festivali)",
-          "description": "A beloved regional festival celebrating cherry harvests with performances and local fairs (annual event). :contentReference[oaicite:11]{index=11}",
-          "ideas": [
-            {
-              "name": "Cherry Festival Events",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=40.9780%2C27.5140",
-              "description": "Experience local culture, competitions, and tasting events during the cherry season."
-            },
-            {
-              "name": "Coastal Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=40.9775%2C27.5190",
-              "description": "Blossoming walks along the seaside promenade."
-            },
-            {
-              "name": "Museum Hopping",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=40.9812%2C27.5155",
-              "description": "Cool museum visits in mild spring weather."
-            }
-          ]
-        },
-        "summer": {
-          "event": "Summer Beach Time & Wine Tours",
-          "description": "Warm season perfect for swimming on Marmara beaches and exploring vineyards with tastings. :contentReference[oaicite:12]{index=12}",
-          "ideas": [
-            {
-              "name": "Kumbağ Beach",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=40.9430%2C27.3300",
-              "description": "Relax on sandy beach with Mediterranean feel."
-            },
-            {
-              "name": "Barbare Vineyards Tour",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=40.9700%2C27.4500",
-              "description": "Enjoy wine tasting and countryside views."
-            },
-            {
-              "name": "Seaside Cycling",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=40.9775%2C27.5190",
-              "description": "Cycle along the coastal paths in warm sunshine."
-            }
-          ]
-        },
-        "autumn": {
-          "event": "Harvest & Vineyard Season",
-          "description": "Autumn brings harvest celebrations and cooler weather — ideal for wine tours and vineyard walks. :contentReference[oaicite:13]{index=13}",
-          "ideas": [
-            {
-              "name": "Vineyard Harvest Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=40.9700%2C27.4500",
-              "description": "See the harvest in action and taste fresh wines."
-            },
-            {
-              "name": "Historic Downtown Stroll",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=40.9810%2C27.5140",
-              "description": "Enjoy the autumn ambiance downtown."
-            },
-            {
-              "name": "Museum Day",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=40.9812%2C27.5155",
-              "description": "Cooler weather perfect for extended museum visits."
-            }
-          ]
-        },
-        "winter": {
-          "event": "Cozy Seasonal Visits & Local Culture",
-          "description": "Winter is quieter and ideal for cultural exploration and enjoying local cuisine indoors. :contentReference[oaicite:14]{index=14}",
-          "ideas": [
-            {
-              "name": "Museum Hopping",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=40.9812%2C27.5155",
-              "description": "Spend a day inside Tekirdağ’s museums."
-            },
-            {
-              "name": "Local Cafés & Warm Cuisine",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=40.9780%2C27.5140",
-              "description": "Try hearty local dishes and Turkish tea in cozy cafés."
-            },
-            {
-              "name": "Indoor Ice Skating",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=40.9800%2C27.5150",
-              "description": "Visit the ice skating hall for fun winter activities. :contentReference[oaicite:15]{index=15}"
-            }
-          ]
-        }
-      },
-      "public_transport_tips": [
-        {
-          "tip": "Tekirdağ’s key attractions are walkable within the city’s central Süleymanpaşa district. :contentReference[oaicite:16]{index=16}",
-          "link": "https://www.tekirdag.bel.tr/"
-        },
-        {
-          "tip": "Intercity buses connect Tekirdağ with Istanbul, Edirne, Çanakkale, and other cities — buses arrive at the main terminal near Cumhuriyet Square. :contentReference[oaicite:17]{index=17}",
-          "link": "https://www.tekirdag.bel.tr/"
-        },
-        {
-          "tip": "Taxi and local minibuses (dolmuş) are common for short hops around town and the waterfront. :contentReference[oaicite:18]{index=18}",
-          "link": "https://www.tekirdag.bel.tr/"
-        }
-      ],
-      "city_events": [
-        {
-          "name": "International Cherry Festival",
-          "season": "Spring/Summer",
-          "description": "Annual festival celebrating cherries and local culture with events and performances in Tekirdağ. :contentReference[oaicite:19]{index=19}",
-          "website": "",
-          "dates": "June"
-        }
-      ],
-      "places": [
-        {
-          "name": "Atatürk Square & Cumhuriyet Parkı",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=40.9785%2C27.5145",
-          "description": "Central park and main square area of Tekirdağ with monuments and gathering places. :contentReference[oaicite:20]{index=20}"
-        },
-        {
-          "name": "Peace and Freedom Park (Barış ve Hürriyet Parkı)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=40.9790%2C27.5150",
-          "description": "Green urban park near the waterfront, great for relaxation and people‑watching. :contentReference[oaicite:21]{index=21}"
-        },
-        {
-          "name": "Orta Camii",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=40.9795%2C27.5138",
-          "description": "Historic mosque in the old town area adding to the city’s cultural heritage. :contentReference[oaicite:22]{index=22}"
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Tekirda%C4%9F+Museum+of+Archaeology+and+Ethnography",
+          "description": "Highlights the region’s rich cultural history 🏛️."
         }
       ],
       "hidden_gems": [
         {
-          "name": "Uçmakdere & Kastro National Park",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=41.0170%2C27.3400",
-          "description": "Scenic natural area near Tekirdağ with protected landscapes and river walks. :contentReference[oaicite:23]{index=23}"
+          "name": "Rakoczi Mansion Garden",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Rakoczi+Museum+Tekirda%C4%9F",
+          "description": "Quiet historic garden tucked away from the main promenade 🌿."
         },
         {
-          "name": "Malkara Nature Spots",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=41.3250%2C27.7500",
-          "description": "Less‑visited green areas in the hinterland for hiking and picnics. :contentReference[oaicite:24]{index=24}"
+          "name": "Altınkemer Ancient Ruins",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Alt%C4%B1nkemer+Tekirda%C4%9F",
+          "description": "Lesser-known archaeological site with stone ruins and atmosphere 🧱."
         },
         {
-          "name": "Barbare & Barel Vineyards",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=40.9700%2C27.4500",
-          "description": "Boutique vineyards ideal for wine tasting and countryside exploration outside town. :contentReference[oaicite:25]{index=25}"
+          "name": "Hidden Coastal Coves",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Tekirda%C4%9F+Hidden+Coastal+Coves",
+          "description": "Secluded sea spots perfect for peaceful sunset views 🌅."
         }
       ]
     },
 
     {
-      "name": "Çatalca, Istanbul, Turkey",
-      "interests": [
-        {
-          "name": "İnceğiz Cave Monastery (İnceğiz Mağaraları)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=41.3020%2C28.3570",
-          "description": "Ancient cave monastery carved into limestone cliffs with Byzantine‑era history and scenic trails — a unique historical and nature attraction in Çatalca. :contentReference[oaicite:0]{index=0}"
-        },
-        {
-          "name": "Çilingoz Nature Park (Çilingoz Tabiat Parkı)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=41.5010%2C28.2160",
-          "description": "Forest, lake, and Black Sea beach nature park with walking trails, picnic areas, and outdoor activities. :contentReference[oaicite:1]{index=1}"
-        },
-        {
-          "name": "Yalıköy Beach",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=41.2570%2C28.3470",
-          "description": "Serene seaside village and beach on the Black Sea coast — perfect for swimming, sunbathing, and coastal walks in summer. :contentReference[oaicite:2]{index=2}"
-        },
-        {
-          "name": "Subaşı Village & Ancient Aqueducts",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=41.3070%2C28.3150",
-          "description": "Historic village with ancient water aqueducts and old stone structures — ideal for walking and sightseeing. :contentReference[oaicite:3]{index=3}"
-        },
-        {
-          "name": "Kaleiçi Mahallesi",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=41.3075%2C28.3195",
-          "description": "Historic old quarter of Çatalca with traditional Ottoman‑era houses, narrow streets, and local atmosphere. :contentReference[oaicite:4]{index=4}"
-        },
-        {
-          "name": "Mübadele Museum (Lozan Mübadilleri Müzesi)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=41.3070%2C28.3190",
-          "description": "Museum dedicated to the population exchange between Greece and Turkey, showcasing artifacts and personal history from the migration era. :contentReference[oaicite:5]{index=5}"
-        },
-        {
-          "name": "Anastasian Wall (Uzun Duvar)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=41.2730%2C28.2100",
-          "description": "Remains of the long Roman defensive wall built to protect the Byzantine capital — a remarkable ancient structure in the region. :contentReference[oaicite:6]{index=6}"
-        }
-      ],
-      "local_food_tip": "Çatalca’s location near both the Black Sea and fertile Thrace makes its local food special — try fresh seafood, grilled fish, local mezes, and seasonal produce at village cafés and coastal eateries. :contentReference[oaicite:7]{index=7}",
+      "name": "Çatalca, Istanbul",
+      "interests": {
+        "Art & Culture": [
+          {
+            "name": "İnceğiz Cave Monastery (İnceğiz Mağaraları)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=İnceğiz+Mağaraları+Çatalca",
+            "description": "Byzantine-era monastery carved into limestone cliffs — explore its ancient chambers and scenic surroundings, blending history and nature 🏛️."
+          },
+          {
+            "name": "Mübadele Museum (Lozan Mübadilleri Müzesi)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Lozan+Mübadilleri+Müzesi+Çatalca",
+            "description": "Museum dedicated to the population exchange between Greece and Turkey — filled with personal stories, photos and migration artifacts 📜."
+          },
+          {
+            "name": "Subaşı Village & Ancient Aqueducts",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Subaşı+Village+Aqueducts+Çatalca",
+            "description": "Historic village with Roman-era aqueduct remains — ideal for quiet countryside walks and heritage exploration 🏗️."
+          },
+          {
+            "name": "Kaleiçi Mahallesi",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Kaleiçi+Mahallesi+Çatalca",
+            "description": "Charming old quarter filled with Ottoman-era houses, cobbled lanes and cozy cafés — perfect for an atmospheric stroll 🏘️."
+          },
+          {
+            "name": "Anastasian Wall (Uzun Duvar)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Anastasian+Wall+Çatalca",
+            "description": "Ancient Roman defensive wall once protecting Constantinople — one of Europe’s longest ancient fortifications 🧱."
+          }
+        ],
+        "Photo Spots": [
+          {
+            "name": "Yalıköy Beach",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Yalıköy+Beach+Çatalca",
+            "description": "Serene Black Sea beach — soft sand, blue waves and perfect light for seaside photos 🌊."
+          },
+          {
+            "name": "Çilingoz Nature Park",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Çilingoz+Nature+Park+Çatalca",
+            "description": "Lush park with forest trails, lakes and beaches — excellent for nature and sunset photography 🌅."
+          },
+          {
+            "name": "İnceğiz Valley Lookout",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=İnceğiz+Valley+Çatalca",
+            "description": "Panoramic view of cliffs and forests — a quiet scenic gem 📸."
+          },
+          {
+            "name": "Subaşı Village Paths",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Subaşı+Village+Çatalca",
+            "description": "Stone bridges, aqueducts and countryside views — beautiful in early morning light 🌿."
+          },
+          {
+            "name": "Kaleiçi Street Corners",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Kaleiçi+Çatalca",
+            "description": "Traditional houses, old fountains and narrow alleys — great for moody heritage shots 🕍."
+          }
+        ],
+        "Food & Nightlife": [
+          {
+            "name": "Local Village Restaurants",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=restaurants+Çatalca",
+            "description": "Enjoy homemade dishes like grilled meats, mezes and vegetable stews — fresh and hearty 🍲."
+          },
+          {
+            "name": "Seafood Taverns in Yalıköy",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Yalıköy+restaurants+Çatalca",
+            "description": "Black Sea fish and local wine with sunset views over the coast 🍷🐟."
+          },
+          {
+            "name": "Countryside Tea Gardens",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=tea+gardens+Çatalca",
+            "description": "Turkish tea under trees — peaceful village atmosphere ☕."
+          },
+          {
+            "name": "Kaleiçi Evening Cafés",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Kaleiçi+cafes+Çatalca",
+            "description": "Historic setting, warm lights and pastries — cozy night stop 🍰."
+          },
+          {
+            "name": "Farm-to-Table Eateries",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=farm+restaurants+Çatalca",
+            "description": "Rural restaurants using local produce and homemade yogurt — authentic countryside taste 🧀."
+          }
+        ],
+        "Nature & Relaxation": [
+          {
+            "name": "Çilingoz Nature Park",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Çilingoz+Nature+Park+Çatalca",
+            "description": "Forest, lake and seaside — ideal for camping, picnics and relaxation 🌲."
+          },
+          {
+            "name": "Gümüşpınar Pond",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Gümüşpınar+Pond+Çatalca",
+            "description": "Quiet pond surrounded by reeds and trees — great for peaceful walks 🌾."
+          },
+          {
+            "name": "Kestanelik Forests",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Kestanelik+Forest+Çatalca",
+            "description": "Dense woodlands ideal for autumn hikes and nature photography 🍂."
+          },
+          {
+            "name": "Ormanlı Village Coast",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Ormanlı+Coast+Çatalca",
+            "description": "Remote Black Sea coast with untouched views and calm vibes 🌊."
+          },
+          {
+            "name": "İnceğiz Valley Trail",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=İnceğiz+Trail+Çatalca",
+            "description": "Nature path through hills and valleys — serene and scenic 🏞️."
+          }
+        ]
+      },
+      "local_food_tip": "Çatalca’s local cuisine combines coastal and rural flavors — try grilled fish, mezes, stuffed grape leaves, and local yogurt. Enjoy Turkish tea or ayran while relaxing at village cafés and seaside taverns 🍲🐟☕.",
       "full_day": {
-        "Morning": "☀️ Start at the ancient <a href=\"https://www.google.com/maps/search/?api=1&query=41.3020%2C28.3570\" target=\"_blank\" rel=\"noopener\">İnceğiz Cave Monastery</a> to explore its carved chambers and scenic trails. The site blends history with nature. :contentReference[oaicite:8]{index=8}",
-        "Afternoon": "🍽️ Head toward the coast for lunch by the Black Sea, then relax at <a href=\"https://www.google.com/maps/search/?api=1&query=41.2570%2C28.3470\" target=\"_blank\" rel=\"noopener\">Yalıköy Beach</a> or nature walk at <a href=\"https://www.google.com/maps/search/?api=1&query=41.5010%2C28.2160\" target=\"_blank\" rel=\"noopener\">Çilingoz Nature Park</a>. :contentReference[oaicite:9]{index=9}",
-        "Sunset": "🌅 Visit the historic <a href=\"https://www.google.com/maps/search/?api=1&query=41.3075%2C28.3195\" target=\"_blank\" rel=\"noopener\">Kaleiçi Mahallesi</a> for a sunset stroll through old streets and see traditional houses. :contentReference[oaicite:10]{index=10}",
-        "Night": "🍷 Dine at a local restaurant in the town center or coastal village with fresh seafood and local dishes, then enjoy a peaceful evening walk along village lanes."
+        "morning": "☀️ Begin your day at the <a href=\"https://www.google.com/maps/search/?api=1&query=İnceğiz+Mağaraları+Çatalca\">İnceğiz Cave Monastery</a>, exploring the historic carved rooms and forest trails nearby.",
+        "afternoon": "🌿 Head north to <a href=\"https://www.google.com/maps/search/?api=1&query=Çilingoz+Nature+Park+Çatalca\">Çilingoz Nature Park</a> for a picnic or beach time, then enjoy seafood lunch at <a href=\"https://www.google.com/maps/search/?api=1&query=Yalıköy+Beach+Çatalca\">Yalıköy Beach</a>.",
+        "evening": "🌇 Return to <a href=\"https://www.google.com/maps/search/?api=1&query=Kaleiçi+Mahallesi+Çatalca\">Kaleiçi</a> for a sunset walk through old Ottoman streets and visit the <a href=\"https://www.google.com/maps/search/?api=1&query=Lozan+Mübadilleri+Müzesi+Çatalca\">Mübadele Museum</a>.",
+        "night": "🌃 Dine at a local restaurant with grilled fish or mezes, then enjoy Turkish tea at a cozy café under the stars ☕."
       },
       "seasons": {
         "spring": {
-          "event": "Çatalca Spring Nature Escapes",
-          "description": "Spring in Çatalca brings blooming wildflowers, walking trails, and mild weather perfect for outdoor exploration and picnics. :contentReference[oaicite:11]{index=11}",
+          "highlight": "Blooming flowers and mild air make it perfect for nature walks and heritage sightseeing 🌸.",
           "ideas": [
             {
               "name": "Çilingoz Park Trails",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=41.5010%2C28.2160",
-              "description": "Scenic spring walks in forest and beach landscapes. :contentReference[oaicite:12]{index=12}"
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Çilingoz+Nature+Park+Çatalca",
+              "description": "Enjoy forest and beach walks surrounded by spring colors 🌼."
             },
             {
-              "name": "Historic Village Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=41.3075%2C28.3195",
-              "description": "Explore traditional streets of Kaleiçi Mahallesi in pleasant weather. :contentReference[oaicite:13]{index=13}"
+              "name": "Kaleiçi Old Streets",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Kaleiçi+Mahallesi+Çatalca",
+              "description": "Stroll through blooming courtyards and heritage houses 🌿."
             },
             {
               "name": "Anastasian Wall Hike",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=41.2730%2C28.2100",
-              "description": "Walk along remnants of the ancient defensive wall. :contentReference[oaicite:14]{index=14}"
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Anastasian+Wall+Çatalca",
+              "description": "Explore ancient ruins among green countryside paths 🧭."
             }
           ]
         },
         "summer": {
-          "event": "Çatalca Coastal & Picnic Season",
-          "description": "Warm weather brings beach time, picnics, and outdoor activities at coastal parks and forested recreation areas. :contentReference[oaicite:15]{index=15}",
+          "highlight": "Warm and sunny — ideal for beaches, forest parks and village festivals ☀️.",
           "ideas": [
             {
               "name": "Yalıköy Beach Days",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=41.2570%2C28.3470",
-              "description": "Swim and relax by the Black Sea. :contentReference[oaicite:16]{index=16}"
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Yalıköy+Beach+Çatalca",
+              "description": "Swim and sunbathe on peaceful Black Sea shores 🏖️."
             },
             {
-              "name": "Çilingoz Beach & Picnic",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=41.5010%2C28.2160",
-              "description": "Beach, forest and picnic fun. :contentReference[oaicite:17]{index=17}"
+              "name": "Gümüşpınar Pond Picnics",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Gümüşpınar+Pond+Çatalca",
+              "description": "Cool off under shady trees and enjoy picnic snacks 🧺."
             },
             {
-              "name": "Gümüşpınar Pond",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=41.4750%2C28.3300",
-              "description": "Calm natural spot for picnics and walks. :contentReference[oaicite:18]{index=18}"
+              "name": "Çilingoz Camping Nights",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Çilingoz+Nature+Park+Camping",
+              "description": "Spend a night by the sea under the stars 🌌."
             }
           ]
         },
         "autumn": {
-          "event": "Harvest & Village Life",
-          "description": "Cooler days and autumn colors make village walks, historic sightseeing, and nature photography especially rewarding. :contentReference[oaicite:19]{index=19}",
+          "highlight": "Golden leaves and cool air make hikes and cultural walks peaceful 🍁.",
           "ideas": [
             {
-              "name": "Subaşı Aqueduct Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=41.3070%2C28.3150",
-              "description": "Explore ancient aqueducts and countryside paths. :contentReference[oaicite:20]{index=20}"
+              "name": "Subaşı Aqueduct Trail",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Subaşı+Village+Aqueducts+Çatalca",
+              "description": "Stroll among historic arches framed by fall colors 🧱."
             },
             {
-              "name": "Forest Trail Hike",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=41.4800%2C28.2500",
-              "description": "Enjoy forest hues and wildlife. :contentReference[oaicite:21]{index=21}"
+              "name": "Kestanelik Forest Hike",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Kestanelik+Forest+Çatalca",
+              "description": "Admire shades of orange and red along forest paths 🍂."
             },
             {
-              "name": "Kaleiçi Strolls",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=41.3075%2C28.3195",
-              "description": "Historic town walks in mild weather. :contentReference[oaicite:22]{index=22}"
+              "name": "Kaleiçi Photo Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Kaleiçi+Çatalca",
+              "description": "Capture autumn light on traditional facades 📸."
             }
           ]
         },
         "winter": {
-          "event": "Local Winter Calm & Culture",
-          "description": "Winter brings peace and cooler weather for indoor museum visits and cozy village café experiences. :contentReference[oaicite:23]{index=23}",
+          "highlight": "Quiet landscapes, cozy cafés and cultural spots shine in the calm season ❄️.",
           "ideas": [
             {
-              "name": "Local Cafés & Cuisine",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=41.3075%2C28.3195",
-              "description": "Warm up with Turkish tea and local dishes in town. :contentReference[oaicite:24]{index=24}"
+              "name": "Mübadele Museum Visit",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Lozan+Mübadilleri+Müzesi+Çatalca",
+              "description": "Learn local history while escaping the chill 🏛️."
             },
             {
-              "name": "Mübadele Museum",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=41.3070%2C28.3190",
-              "description": "Visit the migration museum. :contentReference[oaicite:25]{index=25}"
+              "name": "Village Tea Houses",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=cafes+in+Çatalca",
+              "description": "Warm tea and pastries in cozy indoor settings ☕."
             },
             {
-              "name": "Historic Mosque Visits",
-              "map_link": "https://www.google.com.maps/search/?api=1&query=41.3075%2C28.3195",
-              "description": "Explore Çatalca’s historic mosques and fountains. :contentReference[oaicite:26]{index=26}"
+              "name": "Historic Mosque Tour",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=historic+mosques+Çatalca",
+              "description": "Admire Ottoman architecture and peaceful courtyards 🕌."
             }
           ]
         }
       },
       "public_transport_tips": [
         {
-          "tip": "Çatalca is best explored by car or tour because public transport to rural nature sites and beaches is limited; for local bus info check Istanbul transport schedules. :contentReference[oaicite:27]{index=27}",
+          "tip": "Çatalca is best reached by car or tour — public transport is limited outside the town center 🚗.",
           "link": "https://www.iett.istanbul/"
         },
         {
-          "tip": "Explore coastal and park areas via organized day trips or minibuses from central Istanbul districts on weekends. :contentReference[oaicite:28]{index=28}",
+          "tip": "Weekend minibuses and day tours run from Istanbul to beaches and parks ⛱️.",
           "link": "https://www.istanbulkart.istanbul/"
         },
         {
-          "tip": "Local taxis and ride‑share apps help you reach key sites like Yalıköy Beach and İneğiz more easily from Çatalca center. :contentReference[oaicite:29]{index=29}",
+          "tip": "Local taxis and rideshares connect main sites like Yalıköy and İnceğiz easily 🚖.",
           "link": "https://www.google.com/maps"
         }
       ],
       "city_events": [
         {
-          "name": "Çatalca Spring Nature Escapes",
           "season": "Spring",
-          "description": "Seasonal appreciation of blooming wildflowers, outdoor activities, and village festivities in spring — ideal for nature lovers. :contentReference[oaicite:30]{index=30}",
-          "website": "",
-          "dates": "April–May"
+          "dates": "April–May (annual)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Çatalca+Spring+Festival",
+          "description": "Çatalca Spring Nature Festival — local markets, outdoor concerts and guided forest walks 🌸."
         }
       ],
       "places": [
         {
-          "name": "Topuklu Çeşmesi",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=41.3078%2C28.3192",
-          "description": "Historic fountain in Çatalca’s Kaleiçi area — a peaceful stop on a walking tour. :contentReference[oaicite:31]{index=31}"
+          "name": "Topuklu Fountain (Topuklu Çeşmesi)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Topuklu+Çeşmesi+Çatalca",
+          "description": "Historic fountain in Kaleiçi — charming stop for photos and cool water 💧."
         },
         {
           "name": "Gümüşpınar Pond",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=41.4750%2C28.3300",
-          "description": "Quiet natural pond ideal for walks and picnics. :contentReference[oaicite:32]{index=32}"
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Gümüşpınar+Pond+Çatalca",
+          "description": "Peaceful nature spot with reflections and birdlife 🌿."
         },
         {
           "name": "Kabakça Village Museum",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=41.3400%2C28.2900",
-          "description": "Small local museum with historical artifacts and village culture. :contentReference[oaicite:33]{index=33}"
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Kabakça+Village+Museum+Çatalca",
+          "description": "Small heritage museum preserving village culture and crafts 🧵."
         }
       ],
       "hidden_gems": [
         {
           "name": "Kestanelik Forests",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=41.4700%2C28.3550",
-          "description": "Quiet forest area perfect for autumn hikes and nature photography. :contentReference[oaicite:34]{index=34}"
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Kestanelik+Forest+Çatalca",
+          "description": "Tranquil forest trails perfect for nature photos and quiet walks 🌲."
         },
         {
           "name": "Dağyenice Alaiye Şehitliği",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=41.3070%2C28.2500",
-          "description": "Historic memorial site honoring soldiers from the Balkan Wars — a meaningful cultural stop. :contentReference[oaicite:35]{index=35}"
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Dağyenice+Alaiye+Şehitliği+Çatalca",
+          "description": "Memorial site for Balkan War soldiers — serene and historically meaningful ⚔️."
         },
         {
           "name": "Ormanlı Village Coast",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=41.2590%2C28.2700",
-          "description": "Less‑visited coastal stretch near Ormanlı Village with serene sea views. :contentReference[oaicite:36]{index=36}"
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Ormanlı+Coast+Çatalca",
+          "description": "Hidden seaside area with calm waves and untouched beauty 🌊."
         }
       ]
     }

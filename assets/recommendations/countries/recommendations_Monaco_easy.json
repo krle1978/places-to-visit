@@ -3,840 +3,1000 @@
   "cities": [
     {
       "name": "Fontvieille, Monaco",
-      "interests": [
-        {
-          "name": "Fontvieille Harbour",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.7266%2C7.4177",
-          "description": "A modern marina built on reclaimed land, lined with yachts, cafés, and calm waterfront walkways."
-        },
-        {
-          "name": "Princess Grace Rose Garden",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.7262%2C7.4189",
-          "description": "A peaceful garden dedicated to Princess Grace, featuring thousands of rose varieties and sea views."
-        },
-        {
-          "name": "Stade Louis II",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.7277%2C7.4155",
-          "description": "Monaco’s main stadium, home to AS Monaco FC and a symbol of the district’s modern identity."
-        }
-      ],
-      "local_food_tip": "Try Mediterranean dishes and Monegasque specialties like barbagiuan at restaurants around the Fontvieille harbour.",
+      "interests": {
+        "Art & Culture": [
+          {
+            "name": "Princess Grace Rose Garden",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Princess+Grace+Rose+Garden+Monaco",
+            "description": "Beautiful terrace of roses and Mediterranean blooms dedicated to Princess Grace — a serene cultural tribute and lovely garden stroll 🌹."
+          },
+          {
+            "name": "Fontvieille Park and Princess Grace Stadium",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Fontvieille+Park+and+Princess+Grace+Stadium+Monaco",
+            "description": "Modern neighbourhood park with cultural spaces and local events — a mix of city life and green spaces 🎭."
+          },
+          {
+            "name": "Louis Notari Library",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Louis+Notari+Library+Monaco",
+            "description": "Local library and cultural hub — exhibitions, reading areas and community events 📚."
+          },
+          {
+            "name": "Monaco Top Cars Collection",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Monaco+Top+Cars+Collection+Fontvieille",
+            "description": "Unique museum exhibiting rare cars from Prince Rainier III’s collection — a treat for history, design and auto fans 🚗."
+          },
+          {
+            "name": "Naval Museum (Musée Naval)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Naval+Museum+Monaco",
+            "description": "Showcases maritime history and model ships — insightful for those curious about the seafaring heritage of the principality ⚓."
+          }
+        ],
+        "Photo Spots": [
+          {
+            "name": "Fontvieille Harbour",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Fontvieille+Harbour+Monaco",
+            "description": "Marina views with yachts, clear blue water and Monaco’s skyline — perfect for seaside photography 📸."
+          },
+          {
+            "name": "Princess Grace Rose Garden Views",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Princess+Grace+Rose+Garden+Monaco",
+            "description": "Rows of fragrant roses with sea glimpses in the background — ideal for colourful close-ups and landscape shots 🌸."
+          },
+          {
+            "name": "Fontvieille Promenade",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Fontvieille+promenade+Monaco",
+            "description": "Seaside walkway with striking reflections, boating scenes and scenic benches — great for relaxed coastal frames 🌅."
+          },
+          {
+            "name": "Top Cars Collection Exhibits",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Monaco+Top+Cars+Collection+Fontvieille",
+            "description": "Classic car displays with shiny lines and vintage charm — great for detailed photographic subjects 🚘."
+          },
+          {
+            "name": "Harbour Sunset Vantage",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Fontvieille+harbour+sunset+Monaco",
+            "description": "Golden hour by the marina with yachts silhouetted against glowing skies 🌇."
+          }
+        ],
+        "Food & Nightlife": [
+          {
+            "name": "Harbourfront Restaurants",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Fontvieille+restaurants+harbourfront+Monaco",
+            "description": "Elegant eateries with Mediterranean and seafood menus — dine with views of the marina and sunset 🍽️."
+          },
+          {
+            "name": "Local Cafés & Terraces",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Fontvieille+caf%C3%A9s+Monaco",
+            "description": "Chilled cafés with terrace seating — perfect for coffee, aperitifs and people-watching ☕🍷."
+          },
+          {
+            "name": "Monaco Top Cars Café",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Top+Cars+Collection+cafe+Monaco",
+            "description": "Unique café surrounded by automotive history — quirky spot for a latte or lunch 🥐."
+          },
+          {
+            "name": "Nearby Monte-Carlo Nightlife",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Monaco+nightlife+Monte+Carlo",
+            "description": "Just a short ride away — explore bars, cocktail lounges and lively evening spots 🍸✨."
+          },
+          {
+            "name": "Evening Gelato by the Marina",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=gelato+Fontvieille+Monaco",
+            "description": "End the night with gelato as you stroll the illuminated harbour promenade 🍨."
+          }
+        ],
+        "Nature & Relaxation": [
+          {
+            "name": "Princess Grace Rose Garden",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Princess+Grace+Rose+Garden+Monaco",
+            "description": "Peaceful garden oasis with roses, Mediterranean plants and shaded paths — ideal for relaxation 🌿."
+          },
+          {
+            "name": "Fontvieille Harbour Walks",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Fontvieille+harbour+walks+Monaco",
+            "description": "Gentle marina strolls with sea breezes and calm views — perfect for a relaxed afternoon 🚶‍♂️."
+          },
+          {
+            "name": "Fontvieille Park",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Fontvieille+Park+Monaco",
+            "description": "Green parkland with benches, shaded areas and occasional local events — great for picnics and quiet time 🌳."
+          },
+          {
+            "name": "Mediterranean Sea Lookouts",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Mediterranean+Sea+lookout+Fontvieille+Monaco",
+            "description": "Cliffside vantage points with panoramic sea views — calm, scenic and beautiful 🌊."
+          }
+        ]
+      },
+      "local_food_tip": "In Fontvieille, savour Mediterranean seafood, fresh salads and regional wines at harbourfront restaurants. For a more casual vibe, try terrace cafés or grab gelato by the marina as the sun dips 🍷🍨.",
       "full_day": {
-        "morning": "Start with a relaxed walk around <a href=\"https://www.google.com/maps/search/?api=1&query=43.7266%2C7.4177\" target=\"_blank\" rel=\"noopener\">Fontvieille Harbour</a> ⚓, watching boats and enjoying the quiet marina atmosphere.",
-        "afternoon": "Visit the <a href=\"https://www.google.com/maps/search/?api=1&query=43.7262%2C7.4189\" target=\"_blank\" rel=\"noopener\">Princess Grace Rose Garden</a> 🌹, then have lunch at a nearby waterfront café.",
-        "sunset": "Walk toward coastal viewpoints near Fontvieille 🌅, where the sun reflects off the harbor and cliffs.",
-        "night": "Enjoy a calm dinner in Fontvieille 🍽️ or take a short walk to nearby Monaco districts."
+        "morning": "☀️ Start with a calm walk through the <a href=\"https://www.google.com/maps/search/?api=1&query=Princess+Grace+Rose+Garden+Monaco\">Princess Grace Rose Garden</a>, enjoy fragrant blooms and seaside views, then visit the unique <a href=\"https://www.google.com/maps/search/?api=1&query=Monaco+Top+Cars+Collection+Fontvieille\">Monaco Top Cars Collection</a> for classic car exhibits.",
+        "afternoon": "🍽️ Have lunch at a harbourfront restaurant, stroll the <a href=\"https://www.google.com/maps/search/?api=1&query=Fontvieille+Harbour+Monaco\">Fontvieille Harbour</a>, and relax in <a href=\"https://www.google.com/maps/search/?api=1&query=Fontvieille+Park+Monaco\">Fontvieille Park</a> with shade and quiet paths.",
+        "evening": "🌅 Head to a café terrace for aperitifs, watch the boats glide at sunset and capture scenic views from the <a href=\"https://www.google.com/maps/search/?api=1&query=Fontvieille+harbour+sunset+Monaco\">Harbour Sunset Vantage</a>.",
+        "night": "🌃 Cap the night with gelato by the marina and a gentle stroll along the lit promenade before calling it a day."
       },
       "seasons": {
         "spring": {
-          "event": "Spring Bloom in the Rose Garden",
-          "description": "Spring brings flowers in full bloom and ideal weather for walking outdoors.",
+          "highlight": "Mild Mediterranean breezes, blooming roses and perfect stroll weather 🌸.",
           "ideas": [
             {
-              "name": "Rose Garden Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7262%2C7.4189",
-              "description": "Peak flowering season with fresh scents."
-            },
-            {
-              "name": "Harbour Strolls",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7266%2C7.4177",
-              "description": "Comfortable temperatures by the sea."
-            },
-            {
-              "name": "Museum Visits",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7272%2C7.4182",
-              "description": "Explore nearby cultural spaces."
+              "name": "Spring Garden Picnic",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Princess+Grace+Rose+Garden+Monaco",
+              "description": "Pack snacks and enjoy a peaceful picnic amid colourful blooms."
             }
           ]
         },
         "summer": {
-          "event": "Monaco Summer Events",
-          "description": "Summer is warm and lively, with outdoor dining and events across Monaco.",
+          "highlight": "Sunny seaside days, clear blue waters and vibrant harbour energy ☀️.",
           "ideas": [
             {
-              "name": "Evening Marina Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7266%2C7.4177",
-              "description": "Pleasant evenings near the water."
-            },
-            {
-              "name": "Outdoor Cafés",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7268%2C7.4185",
-              "description": "Dinner with sea breezes."
-            },
-            {
-              "name": "Coastal Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7245%2C7.4195",
-              "description": "Paths connecting Fontvieille to nearby districts."
+              "name": "Harbour Sunset Cruise",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Fontvieille+Harbour+Monaco",
+              "description": "Take a short boat ride or stroll to watch the golden hour over the Mediterranean."
             }
           ]
         },
         "autumn": {
-          "event": "Autumn Cultural Season",
-          "description": "Autumn offers mild weather, fewer visitors, and relaxed sightseeing.",
+          "highlight": "Warm light, softer sea breezes and scenic photo opportunities 🍁.",
           "ideas": [
             {
-              "name": "Quiet Garden Visits",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7262%2C7.4189",
-              "description": "Peaceful walks among greenery."
-            },
-            {
-              "name": "Harbour Photography",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7266%2C7.4177",
-              "description": "Clear light and reflections on the water."
-            },
-            {
-              "name": "Local Dining",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7268%2C7.4185",
-              "description": "Seasonal Mediterranean menus."
+              "name": "Autumn Marina Walk",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Fontvieille+harbour+walks+Monaco",
+              "description": "Enjoy quieter seaside strolls as the season cools."
             }
           ]
         },
         "winter": {
-          "event": "Winter Calm in Monaco",
-          "description": "Winter is mild and quiet, ideal for relaxed exploration.",
+          "highlight": "Mild Mediterranean winter days with relaxed cafés and cosy meals ❄️.",
           "ideas": [
             {
-              "name": "Seaside Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7266%2C7.4177",
-              "description": "Fresh air and open views."
-            },
-            {
-              "name": "Museum Indoors",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7272%2C7.4182",
-              "description": "Comfortable sightseeing in cooler weather."
-            },
-            {
-              "name": "Cafés in Fontvieille",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7268%2C7.4185",
-              "description": "Warm drinks and quiet atmosphere."
+              "name": "Winter Café Stop",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Fontvieille+caf%C3%A9s+Monaco",
+              "description": "Warm up with coffee or hot chocolate in a cosy terrace café."
             }
           ]
         }
       },
       "public_transport_tips": [
         {
-          "tip": "Monaco buses connect Fontvieille with Monte Carlo and Monaco-Ville.",
-          "link": "https://cam.mc"
+          "tip": "Fontvieille is walkable and compact — most attractions, cafés and the harbour are easy to explore on foot 🚶‍♂️.",
+          "link": "https://www.visitmonaco.com/"
         },
         {
-          "tip": "Public elevators and escalators make moving between levels easy.",
-          "link": "https://www.visitmonaco.com"
-        },
-        {
-          "tip": "Fontvieille is compact and walkable.",
-          "link": "https://www.visitmonaco.com"
+          "tip": "Local buses connect Fontvieille with Monaco city centre and Monte-Carlo — frequent services make exploring the principality simple 🚍.",
+          "link": "https://www.cam.mc/"
         }
       ],
       "city_events": [
         {
-          "name": "Monaco Yacht Show (Nearby)",
-          "season": "Autumn",
-          "description": "A world-famous yacht exhibition held in Monaco’s ports.",
-          "website": "https://www.visitmonaco.com",
-          "dates": "September (annual)"
-        },
-        {
-          "name": "Monaco National Day",
-          "season": "Autumn",
-          "description": "Parades and celebrations across the principality.",
-          "website": "https://www.visitmonaco.com",
-          "dates": "November 19 (annual)"
+          "season": "Summer",
+          "dates": "June–September (annual)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Fontvieille+summer+events+Monaco",
+          "description": "Harbour festivals, open-air concerts and cultural gatherings enliven Fontvieille’s marinas and parks 🎶."
         }
       ],
       "places": [
         {
-          "name": "Naval Museum of Monaco",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.7273%2C7.4180",
-          "description": "A small museum displaying maritime history and model ships."
+          "name": "Monaco Top Cars Collection",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Monaco+Top+Cars+Collection+Fontvieille",
+          "description": "Unique museum of classic cars from Prince Rainier III’s collection 🚗."
         },
         {
-          "name": "Fontvieille Park",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.7258%2C7.4170",
-          "description": "A green space near the harbour, ideal for short breaks and walks."
+          "name": "Princess Grace Rose Garden",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Princess+Grace+Rose+Garden+Monaco",
+          "description": "Terraced rose garden with fragrant blooms and sea views 🌹."
         }
       ],
       "hidden_gems": [
         {
-          "name": "Coastal Path to Cap d’Ail",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.7242%2C7.4210",
-          "description": "A scenic path offering views toward the French Riviera."
+          "name": "Secluded Harbour Bench Spot",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=quiet+bench+Fontvieille+harbour+Monaco",
+          "description": "Hidden bench along the marina offering peaceful views over the water 🌊."
         },
         {
-          "name": "Quiet Harbour Corners",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.7260%2C7.4168",
-          "description": "Less-visited spots around the marina for peaceful moments."
+          "name": "Botanical Nook by the Park",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Fontvieille+Park+Monaco",
+          "description": "Small garden nook with greenery and shade — perfect for a quiet moment 🍃."
         }
       ]
     },
 
     {
       "name": "La Condamine, Monaco",
-      "interests": [
-        {
-          "name": "Port Hercule",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.7362%2C7.4216",
-          "description": "Monaco’s main harbor, famous for luxury yachts, cruise ships, and major events like the Monaco Grand Prix."
-        },
-        {
-          "name": "La Condamine Market (Marché de la Condamine)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.7337%2C7.4206",
-          "description": "A lively covered market offering local food, casual eateries, and a glimpse into everyday Monegasque life."
-        },
-        {
-          "name": "Sainte-Dévote Church",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.7380%2C7.4190",
-          "description": "A small historic church dedicated to Monaco’s patron saint, located near the entrance to the harbor."
-        }
-      ],
-      "local_food_tip": "Try barbagiuan (fried pastries filled with chard and cheese) or grab fresh lunch dishes at the Condamine Market.",
+      "interests": {
+        "Art & Culture": [
+          {
+            "name": "Condamine Market",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Condamine+Market+Monaco",
+            "description": "Historic local market full of fresh produce, cheeses, and Mediterranean flavours — great for experiencing authentic Monegasque daily life 🧀🍅."
+          },
+          {
+            "name": "St. Charles Church (Église Sainte-Dévote)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=St.+Charles+Church+La+Condamine+Monaco",
+            "description": "A peaceful church with local religious significance and beautiful architecture — a calm cultural stop ⛪."
+          },
+          {
+            "name": "Monaco Top Cars Collection (nearby)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Monaco+Top+Cars+Collection",
+            "description": "Museum of classic cars from Prince Rainier III’s collection — a treat for design, mechanics and history fans 🚗."
+          },
+          {
+            "name": "Local Street Art & Murals",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=La+Condamine+street+art+Monaco",
+            "description": "Hidden murals and colourful urban art around the neighbourhood — perfect for exploring creative city culture 🎨."
+          },
+          {
+            "name": "Condamine Cultural Events",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Condamine+Monaco+events",
+            "description": "Seasonal pop-up exhibitions, local concerts and community art shows — lively, local and authentic 📯."
+          }
+        ],
+        "Photo Spots": [
+          {
+            "name": "Fontvieille Harbourpath Views (nearby)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Fontvieille+Harbour+Monaco",
+            "description": "Across the way from La Condamine, capture yachts, sea reflections and skyline compositions 📸."
+          },
+          {
+            "name": "Condamine Market Street Scenes",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Condamine+Market+Monaco",
+            "description": "The colourful outdoor stalls, local produce and busy lanes are ideal for lively street photography 🌈."
+          },
+          {
+            "name": "Port Hercules Promenade",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Port+Hercules+Monaco",
+            "description": "Walkable from La Condamine — dramatic views of the harbour with luxury boats and water reflections 🛥️."
+          },
+          {
+            "name": "Porte des Campanistes",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Porte+des+Campanistes+Monaco",
+            "description": "Historic city gate and rampart wall — evocative shots of Monaco’s ancient edges 🏰."
+          },
+          {
+            "name": "Local Café Terraces",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=La+Condamine+caf%C3%A9+terraces+Monaco",
+            "description": "Capture candid moments of locals and travellers relaxing over coffee ☕."
+          }
+        ],
+        "Food & Nightlife": [
+          {
+            "name": "Condamine Market Food Stalls",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Condamine+Market+food+Monaco",
+            "description": "Tasty and fresh bites from market vendors — perfect for lunch or a casual snack 🍉."
+          },
+          {
+            "name": "Harbourfront Restaurants",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=restaurants+Port+Hercules+Monaco",
+            "description": "Elegant dining with Mediterranean and seafood flavours overlooking the port 🍽️."
+          },
+          {
+            "name": "Local Café Terraces",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=La+Condamine+caf%C3%A9s+Monaco",
+            "description": "Trendy cafés with terrace seating — ideal for espresso, aperitifs and people-watching ☕🍷."
+          },
+          {
+            "name": "La Condamine Bars",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=bars+La+Condamine+Monaco",
+            "description": "Local bars and pubs where you can mingle with residents and enjoy a relaxed night out 🍸."
+          },
+          {
+            "name": "Evening Gelato Walks",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=gelato+La+Condamine+Monaco",
+            "description": "Cap your strolls through town with gelato under the city lights 🍨."
+          }
+        ],
+        "Nature & Relaxation": [
+          {
+            "name": "Port Hercules Promenade",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Port+Hercules+Monaco",
+            "description": "Seaside path with marina views, sea breezes and benches — perfect for a relaxing stroll 🌊."
+          },
+          {
+            "name": "Jardin Exotique de Monaco (nearby)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Jardin+Exotique+de+Monaco",
+            "description": "Terraced botanical garden with exotic plants and panoramic sea views — a peaceful escape 🌿."
+          },
+          {
+            "name": "Fontvieille Park (nearby)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Fontvieille+Park+Monaco",
+            "description": "Relax under shaded trees — short walk from La Condamine 🌳."
+          },
+          {
+            "name": "Larvotto Beach (nearby)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Larvotto+Beach+Monaco",
+            "description": "Pebble beach and calm waters — sunbathing and sea views just a short stroll away 🏖️."
+          }
+        ]
+      },
+      "local_food_tip": "In La Condamine, dive into local favourites at Condamine Market — fresh cheeses, olives, pastries and seafood. Follow up with harbourfront dining and end the day with gelato by Port Hercules 🍷🍨.",
       "full_day": {
-        "morning": "Start with a walk around <a href=\"https://www.google.com/maps/search/?api=1&query=43.7362%2C7.4216\" target=\"_blank\" rel=\"noopener\">Port Hercule</a> ⚓, watching yachts and early harbor activity.",
-        "afternoon": "Head to the <a href=\"https://www.google.com/maps/search/?api=1&query=43.7337%2C7.4206\" target=\"_blank\" rel=\"noopener\">Condamine Market</a> 🍽️ for lunch and a taste of local life.",
-        "sunset": "Walk toward <a href=\"https://www.google.com/maps/search/?api=1&query=43.7380%2C7.4190\" target=\"_blank\" rel=\"noopener\">Sainte-Dévote Church</a> 🌅 for views over the harbor as the light softens.",
-        "night": "Enjoy an evening stroll along the harbor 🌙 or dine in one of La Condamine’s relaxed restaurants."
+        "morning": "☀️ Start with the buzz of the <a href=\"https://www.google.com/maps/search/?api=1&query=Condamine+Market+Monaco\">Condamine Market</a>, enjoy fresh pastries and coffee at a local terrace, then explore nearby cultural spots like <a href=\"https://www.google.com/maps/search/?api=1&query=St.+Charles+Church+La+Condamine+Monaco\">St. Charles Church</a>.",
+        "afternoon": "🍽️ Have lunch at a harbourfront restaurant by <a href=\"https://www.google.com/maps/search/?api=1&query=Port+Hercules+Monaco\">Port Hercules</a>, stroll the marina and visit local galleries and street art areas.",
+        "evening": "🌅 Enjoy aperitifs on a café terrace, capture sunset light over the marina, and wander historic spots like <a href=\"https://www.google.com/maps/search/?api=1&query=Porte+des+Campanistes+Monaco\">Porte des Campanistes</a>.",
+        "night": "🌃 Cap your night with gelato as you stroll the lively streets and local bars of La Condamine."
       },
       "seasons": {
         "spring": {
-          "event": "Monaco Grand Prix Preparations",
-          "description": "Spring is energetic as the city prepares for the Formula 1 race, with structures appearing around the harbor.",
+          "highlight": "Blooming city paths, mild breezes and perfect market walks 🌸.",
           "ideas": [
             {
-              "name": "Harbor Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7362%2C7.4216",
-              "description": "Watch the circuit come together."
-            },
-            {
-              "name": "Market Visits",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7337%2C7.4206",
-              "description": "Fresh seasonal produce."
-            },
-            {
-              "name": "City Photography",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7350%2C7.4210",
-              "description": "Unique mix of everyday life and race infrastructure."
+              "name": "Spring Market Tour",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Condamine+Market+Monaco",
+              "description": "Enjoy flavours, colours and fresh produce as the season warms."
             }
           ]
         },
         "summer": {
-          "event": "Monaco Summer Harbour Life",
-          "description": "Summer is vibrant with yachts, events, and warm Mediterranean evenings.",
+          "highlight": "Sunny seaside days and marina vibes ☀️.",
           "ideas": [
             {
-              "name": "Evening Port Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7362%2C7.4216",
-              "description": "Cool breezes and illuminated yachts."
-            },
-            {
-              "name": "Outdoor Dining",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7345%2C7.4208",
-              "description": "Casual meals near the market."
-            },
-            {
-              "name": "Harbor Boat Views",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7370%2C7.4230",
-              "description": "Peak yachting season."
+              "name": "Harbour Promenade Sunset",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Port+Hercules+Monaco",
+              "description": "Catch the glowing skies over yachts and blue waters."
             }
           ]
         },
         "autumn": {
-          "event": "Monaco Yacht Show (Nearby)",
-          "description": "Autumn is elegant and busy as international visitors arrive for major events.",
+          "highlight": "Crisp air, golden light and café culture 🍁.",
           "ideas": [
             {
-              "name": "Yacht Show Viewing Areas",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7362%2C7.4216",
-              "description": "World-class yachts in the harbor."
-            },
-            {
-              "name": "Market Dining",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7337%2C7.4206",
-              "description": "Relaxed local atmosphere despite big events."
-            },
-            {
-              "name": "Photography Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7355%2C7.4215",
-              "description": "Clear light and reflections on the water."
+              "name": "Autumn Waterfront Walk",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Port+Hercules+Monaco",
+              "description": "Enjoy relaxed strolls with amber hues and reflections."
             }
           ]
         },
         "winter": {
-          "event": "Winter Calm in La Condamine",
-          "description": "Winter is mild and quieter, ideal for slow exploration.",
+          "highlight": "Cozy cafés, market strolls and festive lights ❄️.",
           "ideas": [
             {
-              "name": "Quiet Harbor Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7362%2C7.4216",
-              "description": "Peaceful views with fewer visitors."
-            },
-            {
-              "name": "Indoor Market Lunches",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7337%2C7.4206",
-              "description": "Comfort food during cooler days."
-            },
-            {
-              "name": "Historic Church Visits",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7380%2C7.4190",
-              "description": "Quiet and atmospheric."
+              "name": "Winter Café Stop",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=La+Condamine+caf%C3%A9s+Monaco",
+              "description": "Warm up with tea or hot chocolate at a terrace café."
             }
           ]
         }
       },
       "public_transport_tips": [
         {
-          "tip": "Monaco buses connect La Condamine with Monte Carlo, Fontvieille, and Monaco-Ville.",
-          "link": "https://cam.mc"
+          "tip": "Monaco’s efficient local buses connect La Condamine with Monte-Carlo, Fontvieille and other districts 🚍.",
+          "link": "https://www.cam.mc/"
         },
         {
-          "tip": "Public elevators help navigate Monaco’s steep levels.",
-          "link": "https://www.visitmonaco.com"
-        },
-        {
-          "tip": "La Condamine is central and easy to explore on foot.",
-          "link": "https://www.visitmonaco.com"
+          "tip": "La Condamine is very walkable — explore markets, harbour and local spots on foot 🚶‍♂️.",
+          "link": "https://www.visitmonaco.com/"
         }
       ],
       "city_events": [
         {
-          "name": "Monaco Grand Prix",
-          "season": "Spring",
-          "description": "Formula 1 race where streets around Port Hercule become the famous circuit.",
-          "website": "https://www.visitmonaco.com",
-          "dates": "May (annual)"
-        },
-        {
-          "name": "Monaco Yacht Show",
-          "season": "Autumn",
-          "description": "Prestigious yacht exhibition centered around Port Hercule.",
-          "website": "https://www.visitmonaco.com",
-          "dates": "September (annual)"
+          "season": "Summer",
+          "dates": "June–August (annual)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=La+Condamine+summer+events+Monaco",
+          "description": "Outdoor concerts, art pop-ups and market festivals bring community energy to local streets 🎶."
         }
       ],
       "places": [
         {
-          "name": "Rainier III Nautical Stadium",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.7349%2C7.4235",
-          "description": "An outdoor swimming complex set directly in Port Hercule."
+          "name": "Condamine Market",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Condamine+Market+Monaco",
+          "description": "Bustling local market with produce, cheeses and Mediterranean flavours 🧀."
         },
         {
-          "name": "Princess Antoinette Park",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.7329%2C7.4200",
-          "description": "A family-friendly park located above La Condamine."
+          "name": "Port Hercules",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Port+Hercules+Monaco",
+          "description": "Iconic harbour with yachts, seaside cafés and scenic waterfront views 🛥️."
         }
       ],
       "hidden_gems": [
         {
-          "name": "Side Streets of La Condamine",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.7340%2C7.4210",
-          "description": "Authentic residential streets showing everyday Monaco life."
+          "name": "Quiet Market Corner Café",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=quiet+corner+cafe+Condamine+Monaco",
+          "description": "Small tucked-away café near the market — perfect for a peaceful coffee break ☕."
         },
         {
-          "name": "Harbor View Corners",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.7375%2C7.4220",
-          "description": "Less-crowded spots for watching yachts and sunsets."
+          "name": "Harbour Lookout Bench",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=harbour+lookout+bench+Port+Hercules+Monaco",
+          "description": "Hidden bench with unbeatable views over the marina at golden hour 🌇."
         }
       ]
     },
 
     {
       "name": "Monaco-Ville",
-      "interests": [
-        {
-          "name": "Prince’s Palace of Monaco",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.7311%2C7.4207",
-          "description": "The official residence of the Prince of Monaco, perched on the Rock with views over Port Hercule and the Mediterranean."
-        },
-        {
-          "name": "Saint Nicholas Cathedral",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.7307%2C7.4217",
-          "description": "A Roman-Byzantine cathedral where members of the Grimaldi family, including Princess Grace, are buried."
-        },
-        {
-          "name": "Oceanographic Museum",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.7304%2C7.4256",
-          "description": "A world-renowned museum dramatically set on a cliff above the sea, dedicated to marine science and conservation."
-        }
-      ],
-      "local_food_tip": "Try traditional Monegasque dishes like barbagiuan or fougasse at small restaurants tucked into the old town streets.",
+      "interests": {
+        "Art & Culture": [
+          {
+            "name": "Prince’s Palace of Monaco",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Prince%E2%80%99s+Palace+of+Monaco",
+            "description": "Historic palace and official residence of the Prince of Monaco — rich in history, architecture and ceremonial moments 🏰."
+          },
+          {
+            "name": "Saint Martin Gardens",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Saint+Martin+Gardens+Monaco",
+            "description": "Terraced gardens surrounding the Palace with statues, fountains and sea vistas — perfect for calm cultural walks 🌿."
+          },
+          {
+            "name": "Cathedral of Our Lady Immaculate",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Cathedral+of+Our+Lady+Immaculate+Monaco",
+            "description": "Grand cathedral where past princes are entombed — peaceful interior and elegant architecture ⛪."
+          },
+          {
+            "name": "Oceanographic Museum & Aquarium",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Oceanographic+Museum+Monaco",
+            "description": "World-famous maritime museum perched on cliffs — marine exhibits, shark tanks and ocean science explorations 🐠."
+          },
+          {
+            "name": "Palace State Apartments",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=State+Apartments+Prince%E2%80%99s+Palace+Monaco",
+            "description": "Lavish palace rooms filled with art, furniture and royal history — guided tours bring Monaco’s past to life 🎨."
+          }
+        ],
+        "Photo Spots": [
+          {
+            "name": "Palace Square & Changing of the Guard",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Palace+Square+Monaco",
+            "description": "Capture the palace façade and ceremonial guard at scheduled times — dramatic and iconic 📸."
+          },
+          {
+            "name": "Views from Saint Martin Gardens",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Saint+Martin+Gardens+Monaco",
+            "description": "Terraced gardens offer sweeping views over the rock and Mediterranean — golden hour heaven 🌅."
+          },
+          {
+            "name": "Oceanographic Museum Facade",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Oceanographic+Museum+Monaco",
+            "description": "Historic cliffside building with dramatic lines — perfect for architecture shots 📷."
+          },
+          {
+            "name": "Rue Princess Caroline",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Rue+Princess+Caroline+Monaco",
+            "description": "Quaint historic street tucked within Monaco-Ville — charming façades and textured stone walls 🏘️."
+          },
+          {
+            "name": "Prince’s Palace Lookout Points",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Prince%E2%80%99s+Palace+lookout+Monaco",
+            "description": "Hidden lookout spots near the palace walls with dramatic sea and city views 🌄."
+          }
+        ],
+        "Food & Nightlife": [
+          {
+            "name": "Le Café de Paris Monte-Carlo (nearby)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Le+Caf%C3%A9+de+Paris+Monte+Carlo",
+            "description": "Classic café and brasserie with Mediterranean plates and elegant ambience ☕🍷."
+          },
+          {
+            "name": "Local Bistros & Terraces",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=bistros+Monaco-Ville",
+            "description": "Charming restaurants tucked into historic lanes — perfect for lunch or dinner with European flair 🍽️."
+          },
+          {
+            "name": "Harbourfront Dining",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Port+Hercules+restaurants+Monaco",
+            "description": "Fresh seafood and Mediterranean menus overlooking the marina 🐟."
+          },
+          {
+            "name": "Night Wine & Cocktail Bars",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=wine+bars+Monaco",
+            "description": "Elegant bars in Monaco-Ville and nearby districts — perfect for evening drinks 🍸."
+          },
+          {
+            "name": "Evening Gelato Stroll",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=gelato+Monaco-Ville",
+            "description": "Cap your night with gelato through the lit streets of Monaco-Ville 🍨."
+          }
+        ],
+        "Nature & Relaxation": [
+          {
+            "name": "Saint Martin Gardens",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Saint+Martin+Gardens+Monaco",
+            "description": "Quiet gardens with shaded benches, statues and sea views — ideal for peaceful reflection 🌳."
+          },
+          {
+            "name": "Oceanographic Museum Terraces",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Oceanographic+Museum+terraces+Monaco",
+            "description": "Terraced paths and sea vistas right by the museum — serene spots to relax 🚶‍♂️."
+          },
+          {
+            "name": "Palace Hill Lookouts",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Palace+Hill+lookout+Monaco",
+            "description": "Green scenic outlook points near the Palace with city and sea panoramas 🌄."
+          },
+          {
+            "name": "Harbour Walks by Port Hercules",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Port+Hercules+walks+Monaco",
+            "description": "Seaside strolls with calming waves, benches and classic marina views 🌊."
+          }
+        ]
+      },
+      "local_food_tip": "In Monaco-Ville, enjoy Mediterranean and French Riviera cuisine — savour fresh seafood, local bistro favourites and elegant desserts. Finish with gelato while strolling palace lanes or harbour paths 🍷🍨.",
       "full_day": {
-        "morning": "Enter Monaco-Ville and explore the <a href=\"https://www.google.com/maps/search/?api=1&query=43.7311%2C7.4207\" target=\"_blank\" rel=\"noopener\">Prince’s Palace</a> 👑, watching the guards and enjoying panoramic views.",
-        "afternoon": "Visit the <a href=\"https://www.google.com/maps/search/?api=1&query=43.7304%2C7.4256\" target=\"_blank\" rel=\"noopener\">Oceanographic Museum</a> 🐠, then have lunch in the old town’s pedestrian streets.",
-        "sunset": "Stop by <a href=\"https://www.google.com/maps/search/?api=1&query=43.7307%2C7.4217\" target=\"_blank\" rel=\"noopener\">Saint Nicholas Cathedral</a> 🌅 as the light softens over the Rock.",
-        "night": "Enjoy a peaceful evening walk through Monaco-Ville 🌙, when day-trippers have left and the streets feel timeless."
+        "morning": "☀️ Begin at the <a href=\"https://www.google.com/maps/search/?api=1&query=Prince%E2%80%99s+Palace+of+Monaco\">Prince’s Palace of Monaco</a>, explore the royal rooms and catch views from <a href=\"https://www.google.com/maps/search/?api=1&query=Saint+Martin+Gardens+Monaco\">Saint Martin Gardens</a>.",
+        "afternoon": "🍽️ Have lunch at a charming local bistro, then visit the <a href=\"https://www.google.com/maps/search/?api=1&query=Oceanographic+Museum+Monaco\">Oceanographic Museum</a> and enjoy cliffside sea views.",
+        "evening": "🌅 Dine with Mediterranean flavours near the harbour at <a href=\"https://www.google.com/maps/search/?api=1&query=Port+Hercules+restaurants+Monaco\">Port Hercules</a>.",
+        "night": "🌃 Cap your night with gelato as you wander the historic streets of Monaco-Ville under soft lights."
       },
       "seasons": {
         "spring": {
-          "event": "Spring Palace Visiting Season",
-          "description": "Spring brings mild weather and ideal conditions for exploring the Rock on foot.",
+          "highlight": "Blossoms in the gardens, mild breezes and perfect café terrace weather 🌸.",
           "ideas": [
             {
-              "name": "Old Town Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7315%2C7.4220",
-              "description": "Comfortable temperatures and blooming plants."
-            },
-            {
-              "name": "Palace Courtyard Visits",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7311%2C7.4207",
-              "description": "Open areas with historic atmosphere."
-            },
-            {
-              "name": "Viewpoints Over the Sea",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7309%2C7.4240",
-              "description": "Clear spring views across the Mediterranean."
+              "name": "Spring Palace Garden Walk",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Saint+Martin+Gardens+Monaco",
+              "description": "Enjoy floral scents and calm paths in the historic gardens."
             }
           ]
         },
         "summer": {
-          "event": "Monaco Summer Cultural Season",
-          "description": "Summer is lively with visitors, warm evenings, and cultural activity across the principality.",
+          "highlight": "Sunny sea views, open-air vibes and harbour strolls ☀️.",
           "ideas": [
             {
-              "name": "Evening Old Town Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7315%2C7.4220",
-              "description": "Cooler temperatures after sunset."
-            },
-            {
-              "name": "Oceanographic Museum Terraces",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7304%2C7.4256",
-              "description": "Sea breezes and open views."
-            },
-            {
-              "name": "Ice Cream Stops",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7318%2C7.4225",
-              "description": "Popular summer treats in the old town."
+              "name": "Sunset Harbour Stroll",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Port+Hercules+walks+Monaco",
+              "description": "Golden hour along the marina with yachts and sea breezes."
             }
           ]
         },
         "autumn": {
-          "event": "Monaco National Day Preparations",
-          "description": "Autumn offers fewer crowds, warm light, and a calmer pace.",
+          "highlight": "Warm light, cooler breezes and scenic promenades 🍁.",
           "ideas": [
             {
-              "name": "Photography Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7309%2C7.4240",
-              "description": "Golden light on historic buildings."
-            },
-            {
-              "name": "Museum Visits",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7304%2C7.4256",
-              "description": "Comfortable indoor exploration."
-            },
-            {
-              "name": "Quiet Dining",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7316%2C7.4228",
-              "description": "Relaxed meals in the old town."
+              "name": "Autumn Palace Views",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Prince%E2%80%99s+Palace+lookout+Monaco",
+              "description": "Capture amber skies over palace and sea views."
             }
           ]
         },
         "winter": {
-          "event": "Winter Calm on the Rock",
-          "description": "Winter is mild and peaceful, with a local feel and festive touches.",
+          "highlight": "Cozy cafés, cultural visits and crisp Mediterranean days ❄️.",
           "ideas": [
             {
-              "name": "Empty Old Town Streets",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7315%2C7.4220",
-              "description": "Quiet and atmospheric walks."
-            },
-            {
-              "name": "Cathedral Visits",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7307%2C7.4217",
-              "description": "Peaceful winter interiors."
-            },
-            {
-              "name": "Sea View Lookouts",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7302%2C7.4265",
-              "description": "Fresh air and dramatic winter seas."
+              "name": "Winter Café Stop",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=bistros+Monaco-Ville",
+              "description": "Warm up in a cosy local bistro with a hot drink."
             }
           ]
         }
       },
       "public_transport_tips": [
         {
-          "tip": "Monaco buses connect Monaco-Ville with Monte Carlo and La Condamine.",
-          "link": "https://cam.mc"
+          "tip": "Monaco’s compact size makes it easy to explore Monaco-Ville on foot — save public transport for longer hops 🚶‍♂️.",
+          "link": "https://www.visitmonaco.com/"
         },
         {
-          "tip": "Public elevators link the Rock with lower districts.",
-          "link": "https://www.visitmonaco.com"
-        },
-        {
-          "tip": "The old town is pedestrian-only and best explored on foot.",
-          "link": "https://www.visitmonaco.com"
+          "tip": "Local buses connect Monaco-Ville with Monte-Carlo, Fontvieille and other districts efficiently 🚍.",
+          "link": "https://www.cam.mc/"
         }
       ],
       "city_events": [
         {
-          "name": "Changing of the Guard",
-          "season": "All year",
-          "description": "A daily ceremony outside the Prince’s Palace.",
-          "website": "https://www.visitmonaco.com",
-          "dates": "Daily at 11:55"
-        },
-        {
-          "name": "Monaco National Day",
-          "season": "Autumn",
-          "description": "Ceremonies and celebrations honoring Monaco’s sovereignty.",
-          "website": "https://www.visitmonaco.com",
-          "dates": "November 19 (annual)"
+          "season": "Summer",
+          "dates": "June–September (annual)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Monaco-Ville+summer+events+Monaco",
+          "description": "Historic street concerts, cultural performances and local festivities bring Monaco-Ville’s squares alive 🎶."
         }
       ],
       "places": [
         {
-          "name": "Palace Square",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.7312%2C7.4209",
-          "description": "The main square in front of the Prince’s Palace with expansive views."
+          "name": "Prince’s Palace of Monaco",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Prince%E2%80%99s+Palace+of+Monaco",
+          "description": "Historic royal residence with tours and panoramic views 🏰."
         },
         {
-          "name": "Jardins Saint-Martin",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.7299%2C7.4248",
-          "description": "Cliffside gardens offering peaceful paths and sea views."
+          "name": "Oceanographic Museum & Aquarium",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Oceanographic+Museum+Monaco",
+          "description": "Renowned maritime museum perched on cliffs — marine exhibits and sea panoramas 🐠."
         }
       ],
       "hidden_gems": [
         {
-          "name": "Quiet Side Streets of Le Rocher",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.7319%2C7.4232",
-          "description": "Less-visited lanes showing everyday life in Monaco-Ville."
+          "name": "Quiet Garden Nook",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Saint+Martin+Gardens+quiet+nook+Monaco",
+          "description": "Secluded corner of the terrace gardens perfect for calm moments 🌿."
         },
         {
-          "name": "Cliffside Lookouts Near the Museum",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.7298%2C7.4262",
-          "description": "Scenic viewpoints away from the main crowds."
+          "name": "Secret Alley Photo Spot",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Rue+Princess+Caroline+Monaco+hidden+spot",
+          "description": "Tucked-away alley in Monaco-Ville with unique architectural frames 📷."
         }
       ]
     },
 
     {
       "name": "Monte Carlo",
-      "interests": [
-        {
-          "name": "Casino de Monte-Carlo",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.7392%2C7.4273",
-          "description": "An iconic Belle Époque casino and symbol of Monaco, surrounded by luxury hotels and gardens."
-        },
-        {
-          "name": "Casino Square (Place du Casino)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.7390%2C7.4276",
-          "description": "The glamorous heart of Monte Carlo, famous for luxury cars, cafés, and people-watching."
-        },
-        {
-          "name": "Japanese Garden",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.7382%2C7.4299",
-          "description": "A peaceful seaside garden blending Japanese design with Mediterranean views."
-        }
-      ],
-      "local_food_tip": "Enjoy Mediterranean cuisine or light lunches at cafés around Casino Square; try barbagiuan for a traditional Monegasque snack.",
+      "interests": {
+        "Art & Culture": [
+          {
+            "name": "Monte Carlo Casino",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Monte+Carlo+Casino",
+            "description": "Legendary luxury casino and architectural marvel — iconic for gaming halls, Belle Époque decor and glamorous history 🎰."
+          },
+          {
+            "name": "Opéra de Monte-Carlo",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Op%C3%A9ra+de+Monte-Carlo",
+            "description": "Elegant historic opera house hosting world-class performances and events — a cultural jewel of the French Riviera 🎼."
+          },
+          {
+            "name": "Grimaldi Forum Monaco",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Grimaldi+Forum+Monaco",
+            "description": "Major cultural center with exhibitions, conferences and art shows — great for contemporary and international culture 🖼️."
+          },
+          {
+            "name": "Casino Gardens and Terraces",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Casino+Gardens+Monaco",
+            "description": "Historic gardens surrounding the casino with sculptures, fountains and peaceful paths 🌺."
+          },
+          {
+            "name": "Japanese Garden",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Japanese+Garden+Monte+Carlo",
+            "description": "Tranquil oasis with traditional landscaping, koi ponds and meditation paths — a calm cultural escape 🍃."
+          }
+        ],
+        "Photo Spots": [
+          {
+            "name": "Monte Carlo Casino Facade",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Monte+Carlo+Casino",
+            "description": "Capture the grand exterior, ornate details and stylish squares 📸."
+          },
+          {
+            "name": "Larvotto Promenade & Mediterranean Views",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Larvotto+Promenade+Monaco",
+            "description": "Coastal walkway with sweeping sea vistas, yachts and sunrise/sunset opportunities 🌅."
+          },
+          {
+            "name": "Port Hercules Views",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Port+Hercules+Monaco",
+            "description": "Marina scenes with luxury yachts and vibrant reflections — perfect for scenic city-by-sea shots 🛥️."
+          },
+          {
+            "name": "Hotel de Paris Corner",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Hotel+de+Paris+Monte+Carlo",
+            "description": "Iconic hotel facade and terrace scenes — timeless glamour and architecture 📷."
+          },
+          {
+            "name": "Monaco Grand Prix Circuit Sections",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Monaco+Grand+Prix+Circuit+Monte+Carlo",
+            "description": "Famous corners and street circuit spots — thrilling for motorsport photography 🏁."
+          }
+        ],
+        "Food & Nightlife": [
+          {
+            "name": "Casino Square Restaurants",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Casino+Square+restaurants+Monte+Carlo",
+            "description": "Upscale restaurants with Mediterranean cuisine, wine lists and terrace views 🍷."
+          },
+          {
+            "name": "Larvotto Beachfront Dining",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Larvotto+Beach+restaurants+Monaco",
+            "description": "Sea-facing eateries with fresh seafood and relaxed yet elegant ambience 🍽️."
+          },
+          {
+            "name": "Jimmy’z Monte-Carlo",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Jimmy%27z+Monte+Carlo",
+            "description": "Iconic nightclub for high-energy nightlife, cocktails and dancing ✨."
+          },
+          {
+            "name": "Bar American at Hôtel de Paris",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Bar+American+H%C3%B4tel+de+Paris+Monte+Carlo",
+            "description": "Historic cocktail bar with elegant ambience — perfect for evening drinks 🍸."
+          },
+          {
+            "name": "Evening Gelato & Stroll",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=gelato+Monte+Carlo",
+            "description": "Cap the night with gelato while strolling the polished streets of Monte Carlo 🍨."
+          }
+        ],
+        "Nature & Relaxation": [
+          {
+            "name": "Larvotto Beach",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Larvotto+Beach+Monaco",
+            "description": "Sunny pebble beach with gentle waves — ideal for swimming, sunbathing and seaside relaxation 🏖️."
+          },
+          {
+            "name": "Casino Gardens and Terraces",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Casino+Gardens+Monaco",
+            "description": "Shaded garden paths infused with tranquillity and floral colour 🌿."
+          },
+          {
+            "name": "Japanese Garden",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Japanese+Garden+Monte+Carlo",
+            "description": "Peaceful green haven tucked into the city — perfect for relaxation 🚶‍♂️."
+          },
+          {
+            "name": "Port Hercules Promenade",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Port+Hercules+walks+Monaco",
+            "description": "Leisurely strolls with sea breezes and calm harbour views 🌊."
+          }
+        ]
+      },
+      "local_food_tip": "In Monte Carlo, enjoy refined Mediterranean cuisine, fresh seafood, local wines and elegant desserts. Try terrace dining near Casino Square or Larvotto Beach and finish with a gelato under the stars 🍷🍨.",
       "full_day": {
-        "morning": "Start at <a href=\"https://www.google.com/maps/search/?api=1&query=43.7392%2C7.4273\" target=\"_blank\" rel=\"noopener\">Casino de Monte-Carlo</a> 🎰, admiring its architecture and surrounding gardens.",
-        "afternoon": "Have lunch near <a href=\"https://www.google.com/maps/search/?api=1&query=43.7390%2C7.4276\" target=\"_blank\" rel=\"noopener\">Casino Square</a> ☕, then stroll through luxury boutiques.",
-        "sunset": "Relax in the <a href=\"https://www.google.com/maps/search/?api=1&query=43.7382%2C7.4299\" target=\"_blank\" rel=\"noopener\">Japanese Garden</a> 🌅 overlooking the sea.",
-        "night": "Enjoy an elegant dinner in Monte Carlo 🍽️ or a quiet evening walk along the waterfront."
+        "morning": "☀️ Begin at the iconic <a href=\"https://www.google.com/maps/search/?api=1&query=Monte+Carlo+Casino\">Monte Carlo Casino</a>, admire its grand architecture, then stroll through the nearby Casino Gardens and Terraces.",
+        "afternoon": "🍽️ Have a leisurely lunch at a seaside restaurant along <a href=\"https://www.google.com/maps/search/?api=1&query=Larvotto+Beach+restaurants+Monaco\">Larvotto Beachfront Dining</a>, relax on the beach, and capture photos by <a href=\"https://www.google.com/maps/search/?api=1&query=Port+Hercules+Monaco\">Port Hercules</a>.",
+        "evening": "🌇 Indulge in drinks at the historic <a href=\"https://www.google.com/maps/search/?api=1&query=Bar+American+H%C3%B4tel+de+Paris+Monte+Carlo\">Bar American</a>, then enjoy a sunset stroll along the Promenade.",
+        "night": "🌃 Cap your night with a gelato walk and hit a nightlife spot like <a href=\"https://www.google.com/maps/search/?api=1&query=Jimmy%27z+Monte+Carlo\">Jimmy’z</a> for dancing."
       },
       "seasons": {
         "spring": {
-          "event": "Monaco Grand Prix Preparations",
-          "description": "Spring is vibrant as the city prepares for Formula 1, with mild weather and blooming gardens.",
+          "highlight": "Blooming gardens, pleasant temperatures and perfect café terrace weather 🌸.",
           "ideas": [
             {
-              "name": "Garden Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7382%2C7.4299",
-              "description": "Comfortable weather and fresh greenery."
-            },
-            {
-              "name": "Casino Square Strolls",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7390%2C7.4276",
-              "description": "Watch the city transform for the race."
-            },
-            {
-              "name": "Coastal Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7370%2C7.4310",
-              "description": "Clear views and sea breezes."
+              "name": "Spring Promenade Walk",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Port+Hercules+walks+Monaco",
+              "description": "Enjoy sea breezes and gentle bloom scents along the marina paths."
             }
           ]
         },
         "summer": {
-          "event": "Monte-Carlo Summer Events",
-          "description": "Summer is lively with concerts, yachts, and warm Mediterranean evenings.",
+          "highlight": "Sunny beach days, vibrant marinas and outdoor vibes ☀️.",
           "ideas": [
             {
-              "name": "Evening Square Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7390%2C7.4276",
-              "description": "Cooler air and illuminated landmarks."
-            },
-            {
-              "name": "Beach Clubs Nearby",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7365%2C7.4305",
-              "description": "Relax by the sea after sightseeing."
-            },
-            {
-              "name": "Open-Air Dining",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7388%2C7.4285",
-              "description": "Terraces with evening views."
+              "name": "Sunset Beach Relax",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Larvotto+Beach+Monaco",
+              "description": "Watch the sun dip over the Mediterranean while relaxing by the water."
             }
           ]
         },
         "autumn": {
-          "event": "Monaco Yacht Show (Nearby)",
-          "description": "Autumn offers pleasant weather and a more relaxed pace after peak summer.",
+          "highlight": "Milder temperatures, softer light and scenic walks 🍁.",
           "ideas": [
             {
-              "name": "Luxury Car Spotting",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7390%2C7.4276",
-              "description": "Classic Monte Carlo experience."
-            },
-            {
-              "name": "Photography Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7380%2C7.4290",
-              "description": "Soft light on elegant architecture."
-            },
-            {
-              "name": "Quiet Garden Visits",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7382%2C7.4299",
-              "description": "Fewer crowds and calm atmosphere."
+              "name": "Autumn Harbour Stroll",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Port+Hercules+Monaco",
+              "description": "Enjoy amber reflections over marina waters at dusk."
             }
           ]
         },
         "winter": {
-          "event": "Winter Festivities in Monaco",
-          "description": "Winter is mild and elegant, with seasonal decorations and fewer visitors.",
+          "highlight": "Cozy cafés, cultural visits and mild Riviera days ❄️.",
           "ideas": [
             {
-              "name": "Decorated Casino Square",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7390%2C7.4276",
-              "description": "Festive lights and displays."
-            },
-            {
-              "name": "Indoor Cafés",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7388%2C7.4285",
-              "description": "Warm drinks on cooler days."
-            },
-            {
-              "name": "Seafront Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7370%2C7.4310",
-              "description": "Fresh air and open views."
+              "name": "Winter Café Stop",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Casino+Square+restaurants+Monte+Carlo",
+              "description": "Warm up with coffee or hot chocolate in elegant cafés near Casino Square."
             }
           ]
         }
       },
       "public_transport_tips": [
         {
-          "tip": "Monaco buses connect Monte Carlo with all districts of the principality.",
-          "link": "https://cam.mc"
+          "tip": "Monte Carlo is compact and easily walkable — explore most key sights on foot 🚶‍♂️.",
+          "link": "https://www.visitmonaco.com/"
         },
         {
-          "tip": "Public elevators help navigate steep streets easily.",
-          "link": "https://www.visitmonaco.com"
-        },
-        {
-          "tip": "The district is compact and ideal for walking.",
-          "link": "https://www.visitmonaco.com"
+          "tip": "Local buses connect Monte Carlo with Monaco-Ville, La Condamine and Fontvieille quickly and affordably 🚍.",
+          "link": "https://www.cam.mc/"
         }
       ],
       "city_events": [
         {
-          "name": "Monaco Grand Prix",
-          "season": "Spring",
-          "description": "Formula 1 race held on Monte Carlo’s streets, world-famous for its setting.",
-          "website": "https://www.visitmonaco.com",
-          "dates": "May (annual)"
-        },
-        {
-          "name": "Monte-Carlo International Circus Festival",
-          "season": "Winter",
-          "description": "One of the world’s most prestigious circus festivals.",
-          "website": "https://www.visitmonaco.com",
-          "dates": "January (annual)"
+          "season": "Summer",
+          "dates": "May–September (annual)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Monte+Carlo+summer+events",
+          "description": "Open-air concerts, art festivals and waterfront celebrations bring lively Riviera energy 🎶."
         }
       ],
       "places": [
         {
-          "name": "Monte-Carlo Opera (Salle Garnier)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.7394%2C7.4271",
-          "description": "An elegant opera house designed by Charles Garnier, hosting performances year-round."
+          "name": "Monte Carlo Casino",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Monte+Carlo+Casino",
+          "description": "Iconic gambling palace and architectural landmark."
         },
         {
-          "name": "Métropole Shopping Monte-Carlo",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.7397%2C7.4263",
-          "description": "A luxury shopping center near Casino Square."
+          "name": "Larvotto Beach",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Larvotto+Beach+Monaco",
+          "description": "Popular beach along the Mediterranean — ideal for sunbathing and swimming 🏖️."
         }
       ],
       "hidden_gems": [
         {
-          "name": "Quiet Side Streets Behind Casino Square",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.7405%2C7.4288",
-          "description": "Less-crowded streets offering glimpses of daily life beyond the glamour."
+          "name": "Secret Garden Terrace",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=hidden+garden+Monte+Carlo",
+          "description": "A peaceful terrace garden away from main streets 🌿."
         },
         {
-          "name": "Sea View Benches Near the Japanese Garden",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.7378%2C7.4308",
-          "description": "Peaceful spots to sit and enjoy Mediterranean views."
+          "name": "Quiet Promenade Bench",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=quiet+bench+Larvotto+Promenade+Monaco",
+          "description": "Tucked-away bench with lovely sea views at sunrise 🌄."
         }
       ]
     },
 
     {
       "name": "Moneghetti, Monaco",
-      "interests": [
-        {
-          "name": "Jardin Exotique",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.7329%2C7.4155",
-          "description": "A spectacular cliffside garden with exotic plants and panoramic views over Monaco and the Mediterranean."
-        },
-        {
-          "name": "Princess Antoinette Park",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.7328%2C7.4200",
-          "description": "A local park popular with families, featuring playgrounds, olive trees, and city views."
-        },
-        {
-          "name": "Boulevard de Belgique Viewpoints",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.7338%2C7.4180",
-          "description": "Elevated streets offering scenic overlooks toward Port Hercule and Monte Carlo."
-        }
-      ],
-      "local_food_tip": "Look for neighborhood bakeries and casual eateries offering sandwiches, pastries, and simple Mediterranean meals away from tourist crowds.",
+      "interests": {
+        "Art & Culture": [
+          {
+            "name": "Historic Apartment Architecture",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Moneghetti+Monaco",
+            "description": "Charming early-20th-century apartment buildings and Art Deco façades line the streets of this peaceful residential district 🏘️."
+          },
+          {
+            "name": "Local Street Sculptures",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=street+sculptures+Moneghetti+Monaco",
+            "description": "Small artistic details and sculptures tucked between buildings — perfect for a low-key cultural stroll 🎨."
+          },
+          {
+            "name": "Nearby Monaco Art Galleries",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=art+gallery+Monaco",
+            "description": "Boutique galleries just outside Moneghetti with rotating exhibitions of contemporary and regional art 🖼️."
+          },
+          {
+            "name": "Residential Church Chapels",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=chapel+Moneghetti+Monaco",
+            "description": "Quaint chapels tucked in between homes offering quiet reflection and local spiritual heritage ⛪."
+          },
+          {
+            "name": "Neighbourhood Cultural Walks",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Moneghetti+walks+Monaco",
+            "description": "Self-guided paths that highlight local history, plaques and charming hidden corners 🚶‍♂️."
+          }
+        ],
+        "Photo Spots": [
+          {
+            "name": "Moneghetti Terraces",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Moneghetti+terraces+Monaco",
+            "description": "Secluded terrace viewpoints offering framed shots of rooftops and the Mediterranean beyond 📸."
+          },
+          {
+            "name": "Urban Stairways & Alleys",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=stairways+Moneghetti+Monaco",
+            "description": "Photogenic steps and narrow alleys that wind through the neighbourhood — great for artistic street photography 📷."
+          },
+          {
+            "name": "Moneghetti Hill Overlook",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Moneghetti+hill+view+Monaco",
+            "description": "Views from the higher points of the district offer sweeping glimpses of city and sea 🌄."
+          },
+          {
+            "name": "Quiet Courtyard Corners",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=quiet+courtyard+Moneghetti+Monaco",
+            "description": "Hidden courtyard spots with charming benches, archways and gentle light — perfect for close-up shots 🌿."
+          },
+          {
+            "name": "Moneghetti Sunsets",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=sunset+Moneghetti+Monaco",
+            "description": "Capture the sun dipping over the rooftops with soft orange skies and calm ambience 🌇."
+          }
+        ],
+        "Food & Nightlife": [
+          {
+            "name": "Local Cafés & Bakeries",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=cafes+Moneghetti+Monaco",
+            "description": "Charming cafés and patisseries perfect for morning coffee, croissants and people-watching ☕🥐."
+          },
+          {
+            "name": "Neighbourhood Bistros",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=bistros+Moneghetti+Monaco",
+            "description": "Cozy bistros with Mediterranean and French-inspired dishes — relaxed lunches and early dinners 🍷🍽️."
+          },
+          {
+            "name": "Wine Bars & Lounges Nearby",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=wine+bars+Monaco",
+            "description": "Sample local wines and small plates at nearby bars and lounges for a mellow evening 🍷."
+          },
+          {
+            "name": "Evening Gelato Strolls",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=gelato+Moneghetti+Monaco",
+            "description": "Evening gelato while wandering through the quiet streets — simple and delightful 🍨."
+          },
+          {
+            "name": "Sunset Terrace Aperitifs",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=terrace+bar+Moneghetti+Monaco",
+            "description": "Grab a spritz or aperitif at a terrace spot with sunset views over the district 🍹."
+          }
+        ],
+        "Nature & Relaxation": [
+          {
+            "name": "Rooftop Garden Views",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=roof+garden+Moneghetti+Monaco",
+            "description": "Quiet rooftop green spots between buildings — perfect for sunset meditation 🚶‍♀️."
+          },
+          {
+            "name": "Walks to Jardin Exotique",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Jardin+Exotique+Monaco",
+            "description": "Follow scenic paths linking Moneghetti with the famous Exotic Garden — nature and views 🌿."
+          },
+          {
+            "name": "Residential Park Corners",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=park+Moneghetti+Monaco",
+            "description": "Small green spots amongst homes where locals sit, chat and relax under shade 🌳."
+          },
+          {
+            "name": "Mediterranean Outlook Paths",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=sea+views+Moneghetti+Monaco",
+            "description": "Gentle paths leading down to sea vistas and breezes — calm and scenic 🌊."
+          }
+        ]
+      },
+      "local_food_tip": "In Moneghetti, enjoy laid-back Mediterranean cafés and bakeries with fresh pastries, espresso and light lunches. Pair your meal with a walk to local terraces or finish with an evening gelato through quiet streets 🍷🍨.",
       "full_day": {
-        "morning": "Start at the <a href=\"https://www.google.com/maps/search/?api=1&query=43.7329%2C7.4155\" target=\"_blank\" rel=\"noopener\">Jardin Exotique</a> 🌵, exploring its paths and enjoying sweeping views.",
-        "afternoon": "Relax at <a href=\"https://www.google.com/maps/search/?api=1&query=43.7328%2C7.4200\" target=\"_blank\" rel=\"noopener\">Princess Antoinette Park</a> 🌳, then have lunch in a nearby local café.",
-        "sunset": "Walk along <a href=\"https://www.google.com/maps/search/?api=1&query=43.7338%2C7.4180\" target=\"_blank\" rel=\"noopener\">Boulevard de Belgique</a> 🌅 to watch the sun set over the harbor.",
-        "night": "Enjoy a quiet evening stroll in Moneghetti 🌙 or head downhill toward La Condamine for dinner."
+        "morning": "☀️ Start with coffee and pastries at a neighbourhood café in Moneghetti, explore the charming residential streets with their Art Deco façades and small public art details.",
+        "afternoon": "🍽️ Have a relaxed lunch at a local bistro, then take a photo walk through urban stairways and alleys to viewpoints with city and sea vistas.",
+        "evening": "🌅 Sip an aperitif on a sunset terrace, then enjoy a leisurely stroll with gelato toward nearby scenic spots.",
+        "night": "🌃 Cap your night with wine or dessert in a cozy lounge before returning through the peaceful residential lanes."
       },
       "seasons": {
         "spring": {
-          "event": "Spring Bloom at Jardin Exotique",
-          "description": "Spring brings flowering plants, mild temperatures, and ideal walking weather.",
+          "highlight": "Blossoming balconies, mild breezes and perfect strolling weather 🌸.",
           "ideas": [
             {
-              "name": "Garden Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7329%2C7.4155",
-              "description": "Peak season for plant diversity and views."
-            },
-            {
-              "name": "Neighborhood Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7340%2C7.4190",
-              "description": "Quiet streets and local life."
-            },
-            {
-              "name": "Viewpoint Photography",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7338%2C7.4180",
-              "description": "Clear spring light over Monaco."
+              "name": "Spring Terrace Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Moneghetti+terraces+Monaco",
+              "description": "Enjoy fresh spring air and blooms from terrace viewpoints."
             }
           ]
         },
         "summer": {
-          "event": "Monaco Summer Season",
-          "description": "Summer is warm and bright, with lively activity below and calm evenings uphill.",
+          "highlight": "Warm evenings, quiet residential charm and gentle sea breezes ☀️.",
           "ideas": [
             {
-              "name": "Early Morning Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7329%2C7.4155",
-              "description": "Best time to avoid heat."
-            },
-            {
-              "name": "Shaded Parks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7328%2C7.4200",
-              "description": "Cooling greenery during hot days."
-            },
-            {
-              "name": "Evening Viewpoints",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7338%2C7.4180",
-              "description": "Cooler air and city lights."
+              "name": "Sunset Hillview Picnic",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Moneghetti+hill+view+Monaco",
+              "description": "Pack a small picnic and enjoy golden hour views over the rooftops and sea."
             }
           ]
         },
         "autumn": {
-          "event": "Autumn Calm in Upper Monaco",
-          "description": "Autumn offers fewer visitors, soft light, and comfortable temperatures.",
+          "highlight": "Soft light, mellow hues and calm walks 🍁.",
           "ideas": [
             {
-              "name": "Autumn Garden Visits",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7329%2C7.4155",
-              "description": "Quiet paths and golden tones."
-            },
-            {
-              "name": "Photography Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7338%2C7.4180",
-              "description": "Clear skies and harbor views."
-            },
-            {
-              "name": "Local Dining",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7345%2C7.4195",
-              "description": "Relaxed neighborhood restaurants."
+              "name": "Autumn Urban Stroll",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=stairways+Moneghetti+Monaco",
+              "description": "Capture warm autumn colours along stairways and alleys."
             }
           ]
         },
         "winter": {
-          "event": "Winter Quiet Season",
-          "description": "Winter is mild and peaceful, with clear views and a local atmosphere.",
+          "highlight": "Quiet cafés, cosy strolls and mild Riviera days ❄️.",
           "ideas": [
             {
-              "name": "Scenic Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7338%2C7.4180",
-              "description": "Fresh air and open vistas."
-            },
-            {
-              "name": "Park Visits",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7328%2C7.4200",
-              "description": "Quiet green spaces."
-            },
-            {
-              "name": "Cafés Nearby",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=43.7345%2C7.4195",
-              "description": "Warm drinks on cooler days."
+              "name": "Winter Café Break",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=cafes+Moneghetti+Monaco",
+              "description": "Warm up with hot drinks and pastries in a cosy corner café."
             }
           ]
         }
       },
       "public_transport_tips": [
         {
-          "tip": "Monaco buses link Moneghetti with Monte Carlo and La Condamine.",
-          "link": "https://cam.mc"
+          "tip": "Moneghetti is walkable with easy access to Monaco bus routes connecting to Monaco-Ville, Monte Carlo and Fontvieille 🚍.",
+          "link": "https://www.cam.mc/"
         },
         {
-          "tip": "Public elevators and escalators reduce steep walking.",
-          "link": "https://www.visitmonaco.com"
-        },
-        {
-          "tip": "Walking downhill is easy; buses are useful uphill.",
-          "link": "https://www.visitmonaco.com"
+          "tip": "Many streets in Moneghetti are pedestrian-friendly — comfortable shoes make exploration a breeze 🚶‍♂️.",
+          "link": "https://www.visitmonaco.com/"
         }
       ],
       "city_events": [
         {
-          "name": "Monaco Grand Prix (Nearby)",
-          "season": "Spring",
-          "description": "Major Formula 1 event affecting nearby districts.",
-          "website": "https://www.visitmonaco.com",
-          "dates": "May (annual)"
-        },
-        {
-          "name": "Monaco National Day",
-          "season": "Autumn",
-          "description": "Celebrations across the principality, visible from upper viewpoints.",
-          "website": "https://www.visitmonaco.com",
-          "dates": "November 19 (annual)"
+          "season": "Summer",
+          "dates": "June–September (annual)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Moneghetti+summer+events+Monaco",
+          "description": "Neighbourhood gatherings, small pop-up markets and community live music bring local charm to Moneghetti streets 🎶."
         }
       ],
       "places": [
         {
-          "name": "Exotic Garden Observatory Cave",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.7332%2C7.4158",
-          "description": "An underground cave system accessed via the Jardin Exotique, showcasing stalactites and chambers."
+          "name": "Moneghetti Hill Overlook",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Moneghetti+hill+view+Monaco",
+          "description": "Scenic vantage point with views over city rooftops and the Mediterranean 🌄."
         },
         {
-          "name": "Upper Street Viewpoints",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.7342%2C7.4178",
-          "description": "Streets with wide views over Monaco’s harbor and skyline."
+          "name": "Quiet Courtyard Corner",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=quiet+courtyard+Moneghetti+Monaco",
+          "description": "Hidden courtyard spot ideal for peaceful moments 🌿."
         }
       ],
       "hidden_gems": [
         {
-          "name": "Residential View Terraces",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.7348%2C7.4185",
-          "description": "Small terraces offering quiet viewpoints away from tourist routes."
+          "name": "Secret Stairway Spot",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=secret+stairway+Moneghetti+Monaco",
+          "description": "A tucked-away stairway with beautiful angles and quiet ambience 📸."
         },
         {
-          "name": "Local Bakeries of Moneghetti",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=43.7345%2C7.4195",
-          "description": "Everyday spots frequented by residents rather than visitors."
+          "name": "Residential Vista Bench",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=residential+vista+bench+Moneghetti+Monaco",
+          "description": "Small bench overlooking Moneghetti’s rooftops and sea — perfect for calm reflection 🌅."
         }
       ]
     }

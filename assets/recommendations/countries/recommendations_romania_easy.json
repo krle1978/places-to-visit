@@ -3,1346 +3,1679 @@
   "cities": [
     {
       "name": "Brașov 🏰 (Bran Castle – “Dracula”)",
-      "interests": [
-        {
-          "name": "Council Square (Piața Sfatului)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=45.6427%2C25.5887",
-          "description": "The heart of Brașov’s medieval old town, surrounded by colorful baroque buildings, cafés, and the historic Council House."
-        },
-        {
-          "name": "Black Church (Biserica Neagră)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=45.6419%2C25.5882",
-          "description": "The largest Gothic church in Romania, famous for its impressive size, oriental carpet collection, and organ concerts."
-        },
-        {
-          "name": "Bran Castle",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=45.5153%2C25.3670",
-          "description": "A dramatic hilltop castle often linked to the Dracula legend, combining medieval history with myths and mountain views."
-        }
-      ],
-      "local_food_tip": "Try sarmale (stuffed cabbage rolls), ciorbă de burtă (sour soup), papanasi (cheese doughnuts), and Transylvanian stews.",
+      "interests": {
+        "Art & Culture": [
+          {
+            "name": "Bran Castle (Dracula’s Castle)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Bran+Castle",
+            "description": "Legendary fortress perched on a rocky hill — explore the eerie chambers, medieval exhibits and the lore of Count Dracula 🏰🦇."
+          },
+          {
+            "name": "Brașov Historic Centre",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Brașov+Historic+Centre",
+            "description": "Cobbled squares, baroque buildings and Saxon heritage — beautiful streets full of history and charm 🏙️."
+          },
+          {
+            "name": "Black Church (Biserica Neagră)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Black+Church+Brașov",
+            "description": "Grand Gothic church with a striking interior and rich heritage — iconic cultural landmark ⛪."
+          },
+          {
+            "name": "Rope Street (Strada Sforii)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Strada+Sforii+Brașov",
+            "description": "One of the narrowest streets in Europe — a quirky and photogenic stroll 🚶‍♂️."
+          },
+          {
+            "name": "Council Square (Piața Sfatului)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Piața+Sfatului+Brașov",
+            "description": "Vibrant central square with pastel façades, cafés and historic sights — heart of Brașov life ☕."
+          }
+        ],
+        "Photo Spots": [
+          {
+            "name": "Bran Castle Views",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Bran+Castle+views",
+            "description": "Dramatic vantage points for shots of Bran Castle against mountains and sky 📸."
+          },
+          {
+            "name": "Tâmpa Mountain Lookout",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Tâmpa+Mountain+Brașov",
+            "description": "Panoramic viewpoint over Brașov’s rooftops and surrounding forests 🌄."
+          },
+          {
+            "name": "Council Square Scenes",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Piața+Sfatului+Brașov",
+            "description": "Beautiful historic square with lively colours and daily life — classic urban photo spot 📷."
+          },
+          {
+            "name": "Black Church Facade",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Black+Church+Brașov",
+            "description": "Gothic architecture with ornate details — great for architectural photography 🏛️."
+          },
+          {
+            "name": "Strada Sforii Unique Angles",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Strada+Sforii+Brașov",
+            "description": "Narrow lane shots with moody light — ideal for artistic captures 🌇."
+          }
+        ],
+        "Food & Nightlife": [
+          {
+            "name": "Council Square Restaurants",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=restaurants+Piața+Sfatului+Brașov",
+            "description": "Local cuisine and international dishes in lively terraces — try sarmale, mici and papanași 🍽️."
+          },
+          {
+            "name": "Brașov Craft Beer Pubs",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=craft+beer+Brașov",
+            "description": "Enjoy local craft beers and friendly vibes in central pubs 🍺."
+          },
+          {
+            "name": "Old Town Cafés",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=cafes+Brașov+Old+Town",
+            "description": "Charming cafés perfect for coffee, cake and people-watching ☕🍰."
+          },
+          {
+            "name": "Live Music Venues",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=live+music+Brașov",
+            "description": "Bars and venues featuring local bands and vibrant nightlife 🎶."
+          },
+          {
+            "name": "Evening Gelato & Walks",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=gelato+Brașov",
+            "description": "Cap your night with gelato as you explore lit historic streets 🍨."
+          }
+        ],
+        "Nature & Relaxation": [
+          {
+            "name": "Tâmpa Forest Trails",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Tâmpa+Forest+Brașov",
+            "description": "Shaded paths and lookout points above the city — peaceful forest hikes 🚶‍♂️."
+          },
+          {
+            "name": "Poiana Brașov Ski Resort",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Poiana+Brașov",
+            "description": "Mountain resort for hiking in summer and skiing in winter — nature and adventure await ⛷️."
+          },
+          {
+            "name": "Carpathian Mountain Views",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Carpathian+mountains+Brașov",
+            "description": "Spectacular ridge and valley scenes — breathe fresh mountain air 🌄."
+          },
+          {
+            "name": "Schei District Riverside Walks",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Schei+District+Brașov+riverside",
+            "description": "Leisurely strolls along gentle waterways with scenic views 🚶‍♀️."
+          }
+        ]
+      },
+      "local_food_tip": "In Brașov, try Romanian specialties like sarmale (cabbage rolls), mici (grilled sausages), tochitură and papanași. Pair meals with local craft beer or plum țuică while soaking up historic vibes 🍷🍖.",
       "full_day": {
-        "morning": "Start in <a href=\"https://www.google.com/maps/search/?api=1&query=45.6427%2C25.5887\" target=\"_blank\" rel=\"noopener\">Council Square</a> ☀️ and explore the Old Town streets.",
-        "afternoon": "Visit the impressive <a href=\"https://www.google.com/maps/search/?api=1&query=45.6419%2C25.5882\" target=\"_blank\" rel=\"noopener\">Black Church</a> ⛪, then enjoy lunch nearby.",
-        "sunset": "Take a trip to <a href=\"https://www.google.com/maps/search/?api=1&query=45.5153%2C25.3670\" target=\"_blank\" rel=\"noopener\">Bran Castle</a> 🏰 and admire the mountain scenery.",
-        "night": "Return to Brașov for dinner 🍽️ in the old town or a relaxed evening walk."
+        "morning": "☀️ Start with coffee in a cozy café around <a href=\"https://www.google.com/maps/search/?api=1&query=Piața+Sfatului+Brașov\">Council Square</a>, explore the Black Church, then take the scenic hike up <a href=\"https://www.google.com/maps/search/?api=1&query=Tâmpa+Mountain+Brașov\">Tâmpa Mountain</a> for panoramic views.",
+        "afternoon": "🍽️ Enjoy a local Romanian lunch, then head to <a href=\"https://www.google.com/maps/search/?api=1&query=Bran+Castle\">Bran Castle</a> — tour the castle of Count Dracula, explore the eerie rooms and learn the legends behind its spooky walls.",
+        "evening": "🌇 Return to Brașov Old Town for dinner at a riverside or square restaurant, sip wine, and wander the historic lanes.",
+        "night": "🌃 Cap your night with gelato and live music in the town centre before a peaceful night stroll."
       },
       "seasons": {
         "spring": {
-          "event": "Spring in Transylvania",
-          "description": "Blooming nature and mild weather make spring ideal for sightseeing and walks.",
+          "highlight": "Blossoming parks, mild mountain air and perfect walks 🌸.",
           "ideas": [
             {
-              "name": "Old Town Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=45.6427%2C25.5887",
-              "description": "Comfortable weather and lively squares."
-            },
-            {
-              "name": "Tâmpa Mountain Trails",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=45.6460%2C25.5850",
-              "description": "Fresh greenery and city views."
-            },
-            {
-              "name": "Day Trip to Bran",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=45.5153%2C25.3670",
-              "description": "Pleasant temperatures and fewer crowds."
+              "name": "Spring Tâmpa Hike",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Tâmpa+Forest+Brașov",
+              "description": "Enjoy fragrant forest paths and lookout points above town."
             }
           ]
         },
         "summer": {
-          "event": "Brașov Summer Festival Season",
-          "description": "Warm days, festivals, and outdoor dining fill the city with energy.",
+          "highlight": "Warm days, scenic trails and lively outdoor terraces ☀️.",
           "ideas": [
             {
-              "name": "Cable Car to Tâmpa",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=45.6410%2C25.5865",
-              "description": "Panoramic views over Brașov."
-            },
-            {
-              "name": "Outdoor Cafés",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=45.6425%2C25.5890",
-              "description": "Long evenings in the old town."
-            },
-            {
-              "name": "Castle Visits",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=45.5153%2C25.3670",
-              "description": "Explore Bran and nearby fortresses."
+              "name": "Summer Poiana Brașov Adventure",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Poiana+Brașov",
+              "description": "Hike or mountain bike amid cool pine forests."
             }
           ]
         },
         "autumn": {
-          "event": "Autumn Colors in the Carpathians",
-          "description": "Golden forests and cooler air create a cozy, scenic atmosphere.",
+          "highlight": "Golden leaves, crisp air and cosy cafés 🍁.",
           "ideas": [
             {
-              "name": "Forest Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=45.6460%2C25.5850",
-              "description": "Colorful mountain landscapes."
-            },
-            {
-              "name": "Historic Center Exploration",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=45.6427%2C25.5887",
-              "description": "Calmer streets and soft light."
-            },
-            {
-              "name": "Local Dining",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=45.6435%2C25.5895",
-              "description": "Hearty Transylvanian cuisine."
+              "name": "Autumn Riverside Stroll",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Schei+District+Brașov+riverside",
+              "description": "Capture warm autumn tones along gentle rivers."
             }
           ]
         },
         "winter": {
-          "event": "Christmas Market & Winter Sports",
-          "description": "Snowy scenery, festive lights, and nearby ski resorts define winter.",
+          "highlight": "Snowy slopes, festive markets and hearty meals ❄️.",
           "ideas": [
             {
-              "name": "Brașov Christmas Market",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=45.6427%2C25.5887",
-              "description": "Festive stalls and winter treats."
-            },
-            {
-              "name": "Poiana Brașov Ski Resort",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=45.5975%2C25.5545",
-              "description": "Romania’s most famous ski area."
-            },
-            {
-              "name": "Snowy Castle Visits",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=45.5153%2C25.3670",
-              "description": "A magical winter setting at Bran Castle."
+              "name": "Winter Ski Day",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Poiana+Brașov",
+              "description": "Hit the slopes or enjoy snowy forest walks."
             }
           ]
         }
       },
       "public_transport_tips": [
         {
-          "tip": "Brașov’s old town is compact and best explored on foot.",
-          "link": "https://www.brasovcity.ro"
+          "tip": "Brașov’s buses connect the city centre with Poiana Brașov, Schei District and major neighbourhoods — convenient and affordable 🚍.",
+          "link": "https://www.ratbv.ro/"
         },
         {
-          "tip": "Buses connect Brașov with Bran and Poiana Brașov.",
-          "link": "https://ratbv.ro"
+          "tip": "Regional trains link Brașov with Bucharest, Sibiu and other Transylvanian towns — great for day trips 🚆.",
+          "link": "https://www.cfrcalatori.ro/en"
         },
         {
-          "tip": "Trains link Brașov with Bucharest and other major cities.",
-          "link": "https://www.cfrcalatori.ro"
+          "tip": "Taxis and ride-shares make hopping between historic sites, Bran Castle and viewpoints quick and easy 🚖.",
+          "link": "https://www.brasovcity.ro/"
         }
       ],
       "city_events": [
         {
-          "name": "Cerbul de Aur (Golden Stag Festival)",
           "season": "Summer",
-          "description": "An international music festival held in Council Square.",
-          "website": "https://www.cerbuldeaur.ro",
-          "dates": "August (annual)"
-        },
-        {
-          "name": "Brașov Christmas Market",
-          "season": "Winter",
-          "description": "Festive market with lights, crafts, and traditional food.",
-          "website": "https://www.brasovcity.ro",
-          "dates": "December (annual)"
+          "dates": "June–August (annual)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Brașov+summer+events",
+          "description": "Festivals, concerts and open-air cultural events enliven squares and parks 🎶."
         }
       ],
       "places": [
         {
-          "name": "Rope Street (Strada Sforii)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=45.6420%2C25.5895",
-          "description": "One of the narrowest streets in Europe, a fun and iconic photo spot."
+          "name": "Bran Castle",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Bran+Castle",
+          "description": "Explore the castle of Count Dracula — winding staircases, historic exhibits and spooky legends 🏰🦇."
         },
         {
-          "name": "Tâmpa Mountain",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=45.6460%2C25.5850",
-          "description": "A forested mountain rising above the city with hiking trails and viewpoints."
+          "name": "Council Square (Piața Sfatului)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Piața+Sfatului+Brașov",
+          "description": "Vibrant heart of Brașov with cafés, colours and historic ambience ☕."
         }
       ],
       "hidden_gems": [
         {
-          "name": "Șchei District",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=45.6355%2C25.5855",
-          "description": "A historic Romanian neighborhood with traditional houses and local atmosphere."
+          "name": "Quiet Riverside Bench",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=quiet+riverside+bench+Brașov",
+          "description": "Secluded bench along a gentle stream — perfect for reflection 🌊."
         },
         {
-          "name": "Râșnov Fortress",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=45.5935%2C25.4610",
-          "description": "A well-preserved hilltop fortress near Brașov with wide countryside views."
+          "name": "Hidden Alley Café",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=hidden+alley+cafe+Brașov",
+          "description": "Cozy tucked-away café ideal for peaceful coffee breaks ☕."
         }
       ]
     },
 
     {
       "name": "Bucharest",
-      "interests": [
+      "interests": {
+        "Art & Culture": [
+          {
+            "name": "Palace of the Parliament",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Palace+of+the+Parliament+Bucharest",
+            "description": "One of the largest administrative buildings in the world — grand halls, huge staircases and a testament to Romania’s modern history 🏛️."
+          },
+          {
+            "name": "Romanian Athenaeum",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Romanian+Athenaeum+Bucharest",
+            "description": "Elegant concert hall with stunning frescoes — home to the George Enescu Philharmonic 🎶."
+          },
+          {
+            "name": "National Museum of Art of Romania",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=National+Museum+of+Art+of+Romania+Bucharest",
+            "description": "Rich collection of Romanian and European art in the former royal palace 🖼️."
+          },
+          {
+            "name": "Village Museum (Muzeul Satului)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Village+Museum+Muzeul+Satului+Bucharest",
+            "description": "Open-air ethnographic museum with traditional houses and windmills — a cultural journey through Romanian village life 🛖."
+          },
+          {
+            "name": "Stavropoleos Monastery",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Stavropoleos+Monastery+Bucharest",
+            "description": "Charming old monastery with intricate stonework, serene courtyard and spiritual ambience ⛪."
+          }
+        ],
+        "Photo Spots": [
+          {
+            "name": "Calea Victoriei",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Calea+Victoriei+Bucharest",
+            "description": "Historic boulevard lined with architecture, cafés and city life — perfect for urban photography 📸."
+          },
+          {
+            "name": "Revolution Square",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Revolution+Square+Bucharest",
+            "description": "Capture historic monuments and grand buildings where Romania’s modern history unfolded 📷."
+          },
+          {
+            "name": "Unirii Square Fountains",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Unirii+Square+Bucharest",
+            "description": "Dynamic fountains and wide plazas — great for sunset and night shots 🌇."
+          },
+          {
+            "name": "Arch of Triumph (Arcul de Triumf)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Arcul+de+Triumf+Bucharest",
+            "description": "Striking arch in a leafy roundabout — classic landmark for photos 📸."
+          },
+          {
+            "name": "Carturesti Carusel Bookstore",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Carturesti+Carusel+Bucharest",
+            "description": "Beautiful multi-level bookstore with elegant staircases — a dreamy setting for creative photos 📚."
+          }
+        ],
+        "Food & Nightlife": [
+          {
+            "name": "Old Town (Lipscani) Restaurants",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=restaurants+Lipscani+Bucharest",
+            "description": "Historic district with lively terraces serving Romanian classics like mici, sarmale and ciorbă 🍽️."
+          },
+          {
+            "name": "Caru’ cu Bere",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Caru%27+cu+Bere+Bucharest",
+            "description": "Legendary beer house with Gothic-Revival interiors and hearty local food 🍺."
+          },
+          {
+            "name": "Cocktail Bars in Old Town",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=cocktail+bars+Old+Town+Bucharest",
+            "description": "Stylish lounges and bars with creative drinks and lively vibes 🍸🎶."
+          },
+          {
+            "name": "Piata Amzei Cafés",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Piata+Amzei+Bucharest+cafes",
+            "description": "Charming square with cafés, sweet treats and relaxed ambience ☕🍰."
+          },
+          {
+            "name": "Evening Gelato Walks",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=gelato+Bucharest",
+            "description": "Cap your night with gelato while wandering the illuminated streets 🍨."
+          }
+        ],
+        "Nature & Relaxation": [
+          {
+            "name": "Herastrau Park & Village Lake",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Herastrau+Park+Bucharest",
+            "description": "Largest park in the city with lake paths, boat rides and shaded areas — ideal for leisure 🚣‍♂️."
+          },
+          {
+            "name": "Cismigiu Gardens",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Cismigiu+Gardens+Bucharest",
+            "description": "Historic public garden with winding paths, bridges and seasonal blooms 🌳."
+          },
+          {
+            "name": "Carol Park",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Carol+Park+Bucharest",
+            "description": "Grand park with monuments, lawns and views — perfect for strolling and picnics 🌿."
+          },
+          {
+            "name": "Dambovita River Walks",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Dambovita+River+walks+Bucharest",
+            "description": "Leisurely riverside promenade between bridges and green spaces — refreshing walk 🚶‍♂️."
+          }
+        ]
+      },
+      "local_food_tip": "In Bucharest, try Romanian classics like mici (grilled sausages), sarmale (cabbage rolls), ciorbă (sour soup), cozonac and papanasi. Pair meals with local wine or craft beer while exploring lively streets 🍷🍖.",
+      "full_day": {
+        "morning": "☀️ Start your day with coffee and pastries at <a href=\"https://www.google.com/maps/search/?api=1&query=Piata+Amzei+Bucharest+cafes\">Piata Amzei</a>, then explore <a href=\"https://www.google.com/maps/search/?api=1&query=Romanian+Athenaeum+Bucharest\">Romanian Athenaeum</a> and stroll down <a href=\"https://www.google.com/maps/search/?api=1&query=Calea+Victoriei+Bucharest\">Calea Victoriei</a>.",
+        "afternoon": "🍽️ Enjoy lunch in Old Town, visit the grand <a href=\"https://www.google.com/maps/search/?api=1&query=Palace+of+the+Parliament+Bucharest\">Palace of the Parliament</a>, then relax in <a href=\"https://www.google.com/maps/search/?api=1&query=Cismigiu+Gardens+Bucharest\">Cismigiu Gardens</a>.",
+        "evening": "🌇 Capture sunset photos at <a href=\"https://www.google.com/maps/search/?api=1&query=Unirii+Square+Bucharest\">Unirii Square Fountains</a>, dine at a lively terrace and sip drinks in the Old Town.",
+        "night": "🌃 Cap your night with gelato and a leisurely stroll along illuminated boulevards and historic squares."
+      },
+      "seasons": {
+        "spring": {
+          "highlight": "Blooming gardens, mild sunshine and outdoor terraces 🌸.",
+          "ideas": [
+            {
+              "name": "Spring Cismigiu Walk",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Cismigiu+Gardens+Bucharest",
+              "description": "Enjoy flowers in bloom and shady paths in this historic park."
+            }
+          ]
+        },
+        "summer": {
+          "highlight": "Long days, open-air cafés and lively festivals ☀️.",
+          "ideas": [
+            {
+              "name": "Summer Herastrau Boating",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Herastrau+Park+Bucharest",
+              "description": "Relax with boat rides and cool breezes on the lake."
+            }
+          ]
+        },
+        "autumn": {
+          "highlight": "Golden colours, crisp air and cosy cafés 🍁.",
+          "ideas": [
+            {
+              "name": "Autumn Carol Park Stroll",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Carol+Park+Bucharest",
+              "description": "Capture orange hues and peaceful paths."
+            }
+          ]
+        },
+        "winter": {
+          "highlight": "Festive lights, indoor museums and warm drinks ❄️.",
+          "ideas": [
+            {
+              "name": "Winter Museum Day",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=National+Museum+of+Art+of+Romania+Bucharest",
+              "description": "Warm up exploring art and cultural exhibits indoors."
+            }
+          ]
+        }
+      },
+        "public_transport_tips": [
+          {
+            "tip": "Bucharest’s metro, buses and trams connect major sights — efficient and easy for tourists 🚇.",
+            "link": "https://stbsa.ro/"
+          },
+          {
+            "tip": "Rideshare and taxis are plentiful for quick hops between squares, museums and parks 🚖.",
+            "link": "https://www.ratb.ro/"
+          }
+        ]
+    ,
+      "city_events": [
+        {
+          "season": "Summer",
+          "dates": "June–August (annual)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Bucharest+summer+events",
+          "description": "Open-air concerts, food fairs and cultural festivals fill squares and parks with energy 🎶."
+        }
+      ],
+      "places": [
         {
           "name": "Palace of the Parliament",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=44.4275%2C26.0875",
-          "description": "One of the largest administrative buildings in the world, symbol of Romania’s communist era and a major Bucharest landmark."
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Palace+of+the+Parliament+Bucharest",
+          "description": "Massive government building with ornate halls and grand architecture 🏛️."
         },
         {
           "name": "Old Town (Lipscani)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=44.4325%2C26.1035",
-          "description": "The historic center of Bucharest, filled with cafés, restaurants, churches, and lively streets."
-        },
-        {
-          "name": "Romanian Athenaeum",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=44.4412%2C26.0969",
-          "description": "An iconic neoclassical concert hall and symbol of Romanian culture and classical music."
-        }
-      ],
-      "local_food_tip": "Try sarmale (stuffed cabbage rolls), mici (grilled sausages), ciorbă soups, and papanasi desserts at traditional restaurants.",
-      "full_day": {
-        "morning": "Start at the impressive <a href=\"https://www.google.com/maps/search/?api=1&query=44.4275%2C26.0875\" target=\"_blank\" rel=\"noopener\">Palace of the Parliament</a> 🏛️, exploring its exterior or guided tours.",
-        "afternoon": "Head to <a href=\"https://www.google.com/maps/search/?api=1&query=44.4325%2C26.1035\" target=\"_blank\" rel=\"noopener\">Old Town (Lipscani)</a> ☕ for lunch and historic street walks.",
-        "sunset": "Walk past Revolution Square to the <a href=\"https://www.google.com/maps/search/?api=1&query=44.4412%2C26.0969\" target=\"_blank\" rel=\"noopener\">Romanian Athenaeum</a> 🌅.",
-        "night": "Enjoy dinner and evening life in the Old Town 🍽️ or attend a concert at the Athenaeum."
-      },
-      "seasons": {
-        "spring": {
-          "event": "Spring Cultural Season",
-          "description": "Parks bloom and temperatures are ideal for walking and sightseeing.",
-          "ideas": [
-            {
-              "name": "Cișmigiu Gardens",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=44.4355%2C26.0885",
-              "description": "A historic park perfect for spring walks."
-            },
-            {
-              "name": "Old Town Exploration",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=44.4325%2C26.1035",
-              "description": "Comfortable weather and lively terraces."
-            },
-            {
-              "name": "Museum Visits",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=44.4385%2C26.0960",
-              "description": "Balanced indoor and outdoor sightseeing."
-            }
-          ]
-        },
-        "summer": {
-          "event": "Bucharest Summer Festivals",
-          "description": "Long days, open-air events, and vibrant nightlife.",
-          "ideas": [
-            {
-              "name": "Herăstrău Park (King Michael I Park)",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=44.4765%2C26.0810",
-              "description": "Lakeside walks and boat rides."
-            },
-            {
-              "name": "Evening Old Town Dining",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=44.4325%2C26.1035",
-              "description": "Busy streets and outdoor terraces."
-            },
-            {
-              "name": "Open-Air Concerts",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=44.4412%2C26.0969",
-              "description": "Music events across the city."
-            }
-          ]
-        },
-        "autumn": {
-          "event": "Autumn Cultural Season",
-          "description": "Golden parks and cooler air create a relaxed city atmosphere.",
-          "ideas": [
-            {
-              "name": "Park Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=44.4765%2C26.0810",
-              "description": "Colorful autumn scenery."
-            },
-            {
-              "name": "Historic Boulevards",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=44.4410%2C26.0975",
-              "description": "Pleasant walks along central avenues."
-            },
-            {
-              "name": "Local Dining",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=44.4335%2C26.1025",
-              "description": "Hearty Romanian dishes."
-            }
-          ]
-        },
-        "winter": {
-          "event": "Bucharest Christmas Market",
-          "description": "Festive lights, markets, and a cozy winter atmosphere.",
-          "ideas": [
-            {
-              "name": "Christmas Market",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=44.4340%2C26.1020",
-              "description": "Seasonal food, crafts, and decorations."
-            },
-            {
-              "name": "Museum Visits",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=44.4385%2C26.0960",
-              "description": "Warm indoor culture during cold days."
-            },
-            {
-              "name": "Historic Cafés",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=44.4410%2C26.0970",
-              "description": "Classic cafés and warm drinks."
-            }
-          ]
-        }
-      },
-      "public_transport_tips": [
-        {
-          "tip": "The metro is the fastest way to travel across Bucharest.",
-          "link": "https://www.metrorex.ro"
-        },
-        {
-          "tip": "Trams and buses cover areas not reached by metro lines.",
-          "link": "https://www.stbsa.ro"
-        },
-        {
-          "tip": "The Old Town area is best explored on foot.",
-          "link": "https://www.visitbucharest.today"
-        }
-      ],
-      "city_events": [
-        {
-          "name": "George Enescu Festival",
-          "season": "Autumn",
-          "description": "Romania’s most prestigious classical music festival.",
-          "website": "https://www.festivalenescu.ro",
-          "dates": "September (biennial)"
-        },
-        {
-          "name": "Bucharest Christmas Market",
-          "season": "Winter",
-          "description": "Traditional market with festive decorations and food.",
-          "website": "https://www.visitbucharest.today",
-          "dates": "December (annual)"
-        }
-      ],
-      "places": [
-        {
-          "name": "Village Museum (Muzeul Satului)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=44.4775%2C26.0825",
-          "description": "An open-air museum showcasing traditional Romanian village life."
-        },
-        {
-          "name": "Revolution Square",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=44.4410%2C26.0975",
-          "description": "A historically important square linked to the 1989 Romanian Revolution."
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Lipscani+Old+Town+Bucharest",
+          "description": "Historic and lively quarter with cafés, bars and historic charm 🍷."
         }
       ],
       "hidden_gems": [
         {
-          "name": "Carturești Carusel",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=44.4328%2C26.1038",
-          "description": "A beautifully restored bookstore often called the ‘Carousel of Light’."
+          "name": "Quiet Riverside Bench",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=quiet+riverside+bench+Bucharest",
+          "description": "Secluded bench by the Dâmbovița River — perfect for calm reflection 🌊."
         },
         {
-          "name": "Cotroceni Neighborhood",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=44.4320%2C26.0725",
-          "description": "A quiet area with historic houses and local cafés."
+          "name": "Hidden Alley Café",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=hidden+alley+cafe+Bucharest",
+          "description": "Cozy tucked-away café ideal for peaceful coffee breaks ☕."
         }
       ]
-    },
+    }
+    ,
 
     {
       "name": "Cluj-Napoca",
-      "interests": [
-        {
-          "name": "Unirii Square (Piața Unirii)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=46.7706%2C23.5899",
-          "description": "The main square of Cluj-Napoca, surrounded by historic buildings, cafés, and dominated by St. Michael’s Church."
-        },
-        {
-          "name": "St. Michael’s Church",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=46.7705%2C23.5895",
-          "description": "A Gothic Roman Catholic church and one of the most important landmarks of Transylvania."
-        },
-        {
-          "name": "Cetățuia Hill",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=46.7770%2C23.5805",
-          "description": "A scenic hilltop offering panoramic views over Cluj-Napoca, popular at sunset."
-        }
-      ],
-      "local_food_tip": "Try varză à la Cluj (layered cabbage dish), gulyás, papanași desserts, and local Transylvanian cuisine in traditional restaurants.",
+      "interests": {
+        "Art & Culture": [
+          {
+            "name": "St. Michael’s Church",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=St.+Michael%27s+Church+Cluj-Napoca",
+            "description": "Gothic masterpiece dominating Unirii Square — rich history and stunning architecture ⛪."
+          },
+          {
+            "name": "Banffy Palace & Cluj Museum",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Banffy+Palace+Cluj-Napoca",
+            "description": "Elegant baroque palace housing art and history collections — cultural highlight 🖼️."
+          },
+          {
+            "name": "National Theatre",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=National+Theatre+Cluj-Napoca",
+            "description": "Historic theatre with rich performances — arts and drama in the heart of the city 🎭."
+          },
+          {
+            "name": "Ethnographic Museum of Transylvania",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Ethnographic+Museum+of+Transylvania+Cluj-Napoca",
+            "description": "Explore regional costumes, crafts and Transylvanian cultural heritage 🛖."
+          },
+          {
+            "name": "Museum of Art",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Museum+of+Art+Cluj-Napoca",
+            "description": "Art collections from classic to contemporary — perfect for art lovers 🎨."
+          }
+        ],
+        "Photo Spots": [
+          {
+            "name": "Unirii Square",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Unirii+Square+Cluj-Napoca",
+            "description": "Historic square framed by colourful buildings and St. Michael’s Church — quintessential city photos 📸."
+          },
+          {
+            "name": "Botanical Garden",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Botanical+Garden+Cluj-Napoca",
+            "description": "Expansive gardens with lakes, flowers and shaded paths — great for serene nature shots 🌿."
+          },
+          {
+            "name": "Cetățuia Hill Lookout",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Cet%C4%83%C8%9Buia+Hill+Cluj-Napoca",
+            "description": "Panoramic city and skyline views — ideal at sunset or blue hour 🌇."
+          },
+          {
+            "name": "Central Park & Lake",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Central+Park+Cluj-Napoca",
+            "description": "Lakeside paths and green spaces — perfect for relaxed outdoor shots 📷."
+          },
+          {
+            "name": "Cluj Napoca Train Station Arch",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Cluj-Napoca+Train+Station",
+            "description": "Historic station architecture offering unique urban photo angles 🚉."
+          }
+        ],
+        "Food & Nightlife": [
+          {
+            "name": "Old Town Restaurants",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=restaurants+Old+Town+Cluj-Napoca",
+            "description": "Local Romanian cuisine and international flavours around historic lanes 🍽️."
+          },
+          {
+            "name": "Piata Muzeului Cafés",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Piata+Muzeului+Cluj-Napoca+cafes",
+            "description": "Charming cafés in the museum square — perfect for coffee and pastries ☕🍰."
+          },
+          {
+            "name": "Craft Beer Pubs",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=craft+beer+pubs+Cluj-Napoca",
+            "description": "Sample local brews and enjoy relaxed evening vibes 🍺."
+          },
+          {
+            "name": "Cocktail Bars in Central Cluj",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=cocktail+bars+Cluj-Napoca",
+            "description": "Trendy lounges with creative drinks and lively atmosphere 🍸🎶."
+          },
+          {
+            "name": "Evening Gelato Walks",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=gelato+Cluj-Napoca",
+            "description": "Cap your night with gelato on the lit streets of the Old Town 🍨."
+          }
+        ],
+        "Nature & Relaxation": [
+          {
+            "name": "Botanical Garden",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Botanical+Garden+Cluj-Napoca",
+            "description": "Serene garden paths, themed sections and shaded benches — great for a peaceful afternoon 🌷."
+          },
+          {
+            "name": "Central Park & Lake",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Central+Park+Cluj-Napoca",
+            "description": "Green space with lakeside walks, picnic spots and fresh air 🚶‍♂️."
+          },
+          {
+            "name": "Făget Forest Trails",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=F%C4%83get+Forest+Cluj-Napoca",
+            "description": "Woodland trails for hiking, running or cycling — a nature escape near the city 🌲."
+          },
+          {
+            "name": "Hoia Forest",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Hoia+Forest+Cluj-Napoca",
+            "description": "Legendary forest with mystical vibes, greenery and winding paths — ideal for adventurous walks 🌳."
+          }
+        ]
+      },
+      "local_food_tip": "In Cluj-Napoca, try Romanian classics like mici (grilled sausages), ciorbă (sour soup), papanași and sarmale. Pair meals with local craft beer or plum țuică while soaking up vibrant Old Town vibes 🍷🍖.",
       "full_day": {
-        "morning": "Begin your day in <a href=\"https://www.google.com/maps/search/?api=1&query=46.7706%2C23.5899\" target=\"_blank\" rel=\"noopener\">Unirii Square</a> ☀️, visiting St. Michael’s Church and nearby streets.",
-        "afternoon": "Walk through the historic center to lunch, then relax in Central Park 🌳 near the river.",
-        "sunset": "Climb or drive up to <a href=\"https://www.google.com/maps/search/?api=1&query=46.7770%2C23.5805\" target=\"_blank\" rel=\"noopener\">Cetățuia Hill</a> 🌅 for the best city views.",
-        "night": "Enjoy dinner and cafés in the city center 🍽️ or explore Cluj’s lively evening atmosphere."
+        "morning": "☀️ Start with coffee at <a href=\"https://www.google.com/maps/search/?api=1&query=Piata+Muzeului+Cluj-Napoca+cafes\">Piata Muzeului cafés</a>, explore historic <a href=\"https://www.google.com/maps/search/?api=1&query=Unirii+Square+Cluj-Napoca\">Unirii Square</a> and visit <a href=\"https://www.google.com/maps/search/?api=1&query=St.+Michael%27s+Church+Cluj-Napoca\">St. Michael’s Church</a>.",
+        "afternoon": "🍽️ Lunch at a local restaurant, wander serene paths of the <a href=\"https://www.google.com/maps/search/?api=1&query=Botanical+Garden+Cluj-Napoca\">Botanical Garden</a>, then head up to <a href=\"https://www.google.com/maps/search/?api=1&query=Cet%C4%83%C8%9Buia+Hill+Cluj-Napoca\">Cetățuia Hill Lookout</a> for panoramic views.",
+        "evening": "🌇 Sip a craft beer in the Old Town, stroll the lakeside paths of <a href=\"https://www.google.com/maps/search/?api=1&query=Central+Park+Cluj-Napoca\">Central Park</a> and enjoy dinner in vibrant terraces.",
+        "night": "🌃 Cap your night with gelato and explore lively bars and lounges in central Cluj."
       },
       "seasons": {
         "spring": {
-          "event": "Spring Cultural Season",
-          "description": "Parks bloom and students bring energy back to the city.",
+          "highlight": "Blossoming parks, mild breezes and perfect terrace weather 🌸.",
           "ideas": [
             {
-              "name": "Central Park Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=46.7690%2C23.5765",
-              "description": "Fresh greenery and relaxed paths."
-            },
-            {
-              "name": "Old Town Exploration",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=46.7706%2C23.5899",
-              "description": "Comfortable weather for sightseeing."
-            },
-            {
-              "name": "Museum Visits",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=46.7715%2C23.5885",
-              "description": "Balanced indoor and outdoor culture."
+              "name": "Spring Botanical Garden Visit",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Botanical+Garden+Cluj-Napoca",
+              "description": "Enjoy blooming flowers and shaded garden paths."
             }
           ]
         },
         "summer": {
-          "event": "UNTOLD Festival",
-          "description": "Summer is vibrant with festivals, outdoor cafés, and long evenings.",
+          "highlight": "Warm days, outdoor cafés and lively festivals ☀️.",
           "ideas": [
             {
-              "name": "Festival Atmosphere",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=46.7685%2C23.5745",
-              "description": "Music and events across the city."
-            },
-            {
-              "name": "Evening Cetățuia Views",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=46.7770%2C23.5805",
-              "description": "Warm nights and city lights."
-            },
-            {
-              "name": "Outdoor Dining",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=46.7710%2C23.5905",
-              "description": "Terraces and social life."
+              "name": "Summer Lake Picnic",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Central+Park+Cluj-Napoca",
+              "description": "Relax by the lake with sunshine and scenic views."
             }
           ]
         },
         "autumn": {
-          "event": "Academic Year Opening",
-          "description": "Students return and the city feels lively but relaxed.",
+          "highlight": "Golden foliage, crisp air and cosy café vibes 🍁.",
           "ideas": [
             {
-              "name": "Botanical Garden",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=46.7625%2C23.5965",
-              "description": "Autumn colors and calm walks."
-            },
-            {
-              "name": "Historic Center Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=46.7706%2C23.5899",
-              "description": "Cooler days for exploring."
-            },
-            {
-              "name": "Local Dining",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=46.7715%2C23.5910",
-              "description": "Seasonal Transylvanian dishes."
+              "name": "Autumn Forest Walk",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=F%C4%83get+Forest+Cluj-Napoca",
+              "description": "Capture warm hues in woodland trails."
             }
           ]
         },
         "winter": {
-          "event": "Cluj Christmas Market",
-          "description": "Festive lights and a cozy winter atmosphere in the city center.",
+          "highlight": "Festive lights, cultural indoor spots and warm drinks ❄️.",
           "ideas": [
             {
-              "name": "Christmas Market",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=46.7706%2C23.5899",
-              "description": "Holiday food, crafts, and decorations."
-            },
-            {
-              "name": "Historic Cafés",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=46.7710%2C23.5905",
-              "description": "Warm drinks during cold days."
-            },
-            {
-              "name": "Indoor Museums",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=46.7715%2C23.5885",
-              "description": "Comfortable winter sightseeing."
+              "name": "Winter Museum Day",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Ethnographic+Museum+of+Transylvania+Cluj-Napoca",
+              "description": "Warm up exploring exhibits and local history indoors."
             }
           ]
         }
       },
       "public_transport_tips": [
         {
-          "tip": "Buses and trams cover most areas of Cluj-Napoca.",
-          "link": "https://ctpcj.ro"
+          "tip": "Local buses connect main squares, Botanical Garden, Cetățuia and Făget Forest trails — easy and affordable 🚍.",
+          "link": "https://www.ztp.ro/"
         },
         {
-          "tip": "The city center is compact and easy to explore on foot.",
-          "link": "https://www.visitcluj.ro"
-        },
-        {
-          "tip": "Ride-hailing apps are widely used for short trips.",
-          "link": "https://www.visitcluj.ro"
+          "tip": "Taxis and ride-shares make navigating between historic sites and nightlife spots quick 🚖.",
+          "link": "https://www.primariaclujnapoca.ro/"
         }
       ],
       "city_events": [
         {
-          "name": "UNTOLD Festival",
           "season": "Summer",
-          "description": "One of Europe’s largest music festivals, attracting international artists.",
-          "website": "https://untold.com",
-          "dates": "August (annual)"
-        },
-        {
-          "name": "TIFF – Transilvania International Film Festival",
-          "season": "Summer",
-          "description": "Romania’s most important film festival with screenings across the city.",
-          "website": "https://tiff.ro",
-          "dates": "June (annual)"
+          "dates": "June–August (annual)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Cluj-Napoca+summer+events",
+          "description": "Music festivals, cultural fairs and lively outdoor events animate squares and parks 🎶."
         }
       ],
       "places": [
         {
-          "name": "Central Park (Parcul Central)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=46.7690%2C23.5765",
-          "description": "A green park near the river, popular with locals and students."
+          "name": "Unirii Square",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Unirii+Square+Cluj-Napoca",
+          "description": "Historic urban square framed by churches and classic façades 📸."
         },
         {
-          "name": "Alexandru Borza Botanical Garden",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=46.7625%2C23.5965",
-          "description": "A large botanical garden with diverse plant collections and viewpoints."
+          "name": "Botanical Garden",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Botanical+Garden+Cluj-Napoca",
+          "description": "Expansive garden with themed sections and quiet paths 🌿."
         }
       ],
       "hidden_gems": [
         {
-          "name": "Ethnographic Park Romulus Vuia",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=46.7855%2C23.5615",
-          "description": "An open-air museum showcasing traditional Transylvanian village life."
+          "name": "Quiet Riverside Bench",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=quiet+riverside+bench+Cluj-Napoca",
+          "description": "Peaceful bench by a hidden waterway — perfect for calm reflection 🌊."
         },
         {
-          "name": "Someș River Promenade",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=46.7695%2C23.5855",
-          "description": "A peaceful walking path along the river, popular with locals."
+          "name": "Hidden Alley Café",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=hidden+alley+cafe+Cluj-Napoca",
+          "description": "Cozy tucked-away café ideal for a peaceful coffee break ☕."
         }
       ]
     },
 
     {
       "name": "Constanța",
-      "interests": [
-        {
-          "name": "Constanța Casino",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=44.1730%2C28.6595",
-          "description": "An iconic Art Nouveau building overlooking the Black Sea, symbol of the city and one of Romania’s most photographed landmarks."
-        },
-        {
-          "name": "Ovid Square (Piața Ovidiu)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=44.1755%2C28.6585",
-          "description": "The historic heart of Constanța, named after the Roman poet Ovid, surrounded by museums, cafés, and old buildings."
-        },
-        {
-          "name": "Modern Beach (Plaja Modern)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=44.1705%2C28.6605",
-          "description": "A popular city beach close to the Old Town, ideal for swimming, sunbathing, and seaside walks."
-        }
-      ],
-      "local_food_tip": "Try fresh Black Sea fish, midii (mussels), fish soup, and Dobrogean pies influenced by Greek and Turkish cuisine.",
+      "interests": {
+        "Art & Culture": [
+          {
+            "name": "The Great Mahmudiye Mosque",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=The+Great+Mahmudiye+Mosque+Constanța",
+            "description": "A historic Ottoman-era mosque with striking domes and rich cultural heritage — symbol of the city’s diverse past 🕌."
+          },
+          {
+            "name": "Museum of National History and Archaeology",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Museum+of+National+History+and+Archaeology+Constanța",
+            "description": "Explore fascinating exhibits from ancient Greek, Roman and local history — perfect for culture lovers 🏛️."
+          },
+          {
+            "name": "Roman Edifice with Mosaic",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Roman+Edifice+with+Mosaic+Constanța",
+            "description": "Ancient Roman ruins with colourful mosaics and remains of historic baths — a window into the past 🧭."
+          },
+          {
+            "name": "Ovidius Square",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Ovidius+Square+Constanța",
+            "description": "Historic central square named after the poet Ovid — surrounded by beautiful buildings and cafés ☕."
+          },
+          {
+            "name": "Constanța Casino (exterior)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Constanța+Casino",
+            "description": "Art-nouveau masterpiece perched on the seafront — elegant architecture and dramatic views 🌊."
+          }
+        ],
+        "Photo Spots": [
+          {
+            "name": "Constanța Casino Promenade",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Constanța+Casino+promenade",
+            "description": "Capture the iconic casino silhouette with the Black Sea horizon — especially dramatic at sunset 📸."
+          },
+          {
+            "name": "Mamaia Beach Views",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Mamaia+Beach+Constanța",
+            "description": "Golden sands, turquoise waters and lively summer scenes — perfect for coastal photography 🌅."
+          },
+          {
+            "name": "Ovidius Square Fountain",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Ovidius+Square+Fountain+Constanța",
+            "description": "Historic square ambience with fountains and architectural backdrops — classic urban shots 📷."
+          },
+          {
+            "name": "Roman Edifice Mosaic Details",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Roman+Edifice+with+Mosaic+Constanța",
+            "description": "Colourful ancient mosaic fragments and ruins — unique texture and history for photos 📸."
+          },
+          {
+            "name": "Tomis Harbor Boats",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Tomis+Harbor+Constanța",
+            "description": "Picturesque harbor with fishing boats, reflections and seaside vibes 🚤."
+          }
+        ],
+        "Food & Nightlife": [
+          {
+            "name": "Mamaia Seafront Restaurants",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Mamaia+seafront+restaurants+Constanța",
+            "description": "Sea-facing terraces serving fresh seafood, grilled fish and local dishes 🍽️."
+          },
+          {
+            "name": "Ovidius Square Cafés",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Ovidius+Square+cafes+Constanța",
+            "description": "Charming cafés around the historic square — ideal for coffee, desserts and people-watching ☕🍰."
+          },
+          {
+            "name": "Tomis Marina Bars",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Tomis+Marina+bars+Constanța",
+            "description": "Lively bars along the marina with cocktails and sunset views 🍸🎶."
+          },
+          {
+            "name": "Nightclubs in Mamaia",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=nightclubs+Mamaia+Constanța",
+            "description": "Beachside nightlife with DJ sets, dancing and late-night energy ✨."
+          },
+          {
+            "name": "Evening Gelato Walks",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=gelato+Constanța",
+            "description": "Cap your night with gelato as you stroll along the lit promenades 🍨."
+          }
+        ],
+        "Nature & Relaxation": [
+          {
+            "name": "Mamaia Beach",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Mamaia+Beach+Constanța",
+            "description": "Long sandy beach on the Black Sea — perfect for sunbathing, swimming and seaside relaxation 🏖️."
+          },
+          {
+            "name": "Tăbăcăriei Park",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=T%C4%83b%C4%83c%C4%83riei+Park+Constanța",
+            "description": "Green urban park with shaded paths and ponds — ideal for a peaceful stroll 🌳."
+          },
+          {
+            "name": "Black Sea Boardwalk",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Black+Sea+boardwalk+Constanța",
+            "description": "Seaside promenade stretching along the coast — great for cycling, walking and breezy views 🚶‍♂️."
+          },
+          {
+            "name": "Vama Veche (nearby)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Vama+Veche+Romania",
+            "description": "Laid-back coastal village with boho vibes, beach bars and relaxed seaside energy 🌞."
+          }
+        ]
+      },
+      "local_food_tip": "In Constanța, enjoy fresh Black Sea seafood like grilled fish, shrimps and calamari, local fish soups, and sweet desserts. Pair meals with a chilled glass of local white wine or craft beer while gazing at sea views 🍷🐟.",
       "full_day": {
-        "morning": "Start your day at <a href=\"https://www.google.com/maps/search/?api=1&query=44.1755%2C28.6585\" target=\"_blank\" rel=\"noopener\">Ovid Square</a> ☀️, exploring the Old Town streets and museums.",
-        "afternoon": "Walk along the seafront to admire the <a href=\"https://www.google.com/maps/search/?api=1&query=44.1730%2C28.6595\" target=\"_blank\" rel=\"noopener\">Constanța Casino</a> 🏛️, then have lunch nearby.",
-        "sunset": "Relax at <a href=\"https://www.google.com/maps/search/?api=1&query=44.1705%2C28.6605\" target=\"_blank\" rel=\"noopener\">Modern Beach</a> 🌅 and enjoy Black Sea views.",
-        "night": "Enjoy dinner by the sea 🍽️ or take an evening promenade along the waterfront."
+        "morning": "☀️ Begin with coffee and a sea breeze at <a href=\"https://www.google.com/maps/search/?api=1&query=Ovidius+Square+Constsnta+cafes\">Ovidius Square cafés</a>, explore the Roman Edifice with Mosaic, then wander the streets of the historic centre.",
+        "afternoon": "🍽️ Have a seafood lunch along <a href=\"https://www.google.com/maps/search/?api=1&query=Mamaia+seafront+restaurants+Constanța\">Mamaia seafront</a>, relax on the sandy <a href=\"https://www.google.com/maps/search/?api=1&query=Mamaia+Beach+Constanța\">Mamaia Beach</a>, and enjoy the Black Sea boardwalk.",
+        "evening": "🌇 Sip a cocktail at <a href=\"https://www.google.com/maps/search/?api=1&query=Tomis+Marina+bars+Constanța\">Tomis Marina bars</a>, capture sunset by the seaside, and stroll through <a href=\"https://www.google.com/maps/search/?api=1&query=Constanța+Casino+promenade\">Constanța Casino promenade</a>.",
+        "night": "🌃 Cap your night with gelato and experience lively nightlife in <a href=\"https://www.google.com/maps/search/?api=1&query=nightclubs+Mamaia+Constanța\">Mamaia nightclubs</a> or a relaxed riverside bar."
       },
       "seasons": {
         "spring": {
-          "event": "Spring Seaside Season",
-          "description": "Mild weather and fewer tourists make spring perfect for walking and sightseeing.",
+          "highlight": "Mild breezes, blooming parks and calm seaside walks 🌸.",
           "ideas": [
             {
-              "name": "Old Town Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=44.1755%2C28.6585",
-              "description": "Comfortable temperatures and relaxed atmosphere."
-            },
-            {
-              "name": "Seafront Promenade",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=44.1730%2C28.6595",
-              "description": "Fresh sea air and calm views."
-            },
-            {
-              "name": "Museum Visits",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=44.1765%2C28.6575",
-              "description": "Cultural exploration without summer crowds."
+              "name": "Spring Black Sea Boardwalk",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Black+Sea+boardwalk+Constanța",
+              "description": "Enjoy breezy walks and sunshine along the coast."
             }
           ]
         },
         "summer": {
-          "event": "Black Sea Summer Season",
-          "description": "Hot days, beach life, and lively nightlife dominate the city.",
+          "highlight": "Sunny beach days, music festivals and vibrant seaside life ☀️.",
           "ideas": [
             {
-              "name": "Beach Time",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=44.1705%2C28.6605",
-              "description": "Swimming, sunbathing, and beach cafés."
-            },
-            {
-              "name": "Boat Trips",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=44.1738%2C28.6625",
-              "description": "Short cruises along the coast."
-            },
-            {
-              "name": "Evening Seaside Dining",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=44.1725%2C28.6615",
-              "description": "Seafood restaurants and terraces."
+              "name": "Summer Beach Chill",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Mamaia+Beach+Constanța",
+              "description": "Relax on sandy shores with waves and cool drinks."
             }
           ]
         },
         "autumn": {
-          "event": "Autumn by the Sea",
-          "description": "Warm sea air and quieter beaches create a relaxed mood.",
+          "highlight": "Golden light, quieter waves and scenic strolls 🍁.",
           "ideas": [
             {
-              "name": "Seaside Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=44.1730%2C28.6595",
-              "description": "Golden light and fewer visitors."
-            },
-            {
-              "name": "Historic Exploration",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=44.1755%2C28.6585",
-              "description": "Pleasant weather for Old Town sightseeing."
-            },
-            {
-              "name": "Local Dining",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=44.1745%2C28.6600",
-              "description": "Fresh seafood and seasonal dishes."
+              "name": "Autumn Harbor Views",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Tomis+Harbor+Constanța",
+              "description": "Capture warm hues around the boats and sea."
             }
           ]
         },
         "winter": {
-          "event": "Quiet Black Sea Winter",
-          "description": "Calm atmosphere with dramatic sea views and local life.",
+          "highlight": "Cozy cafés, historic sights and brisk seaside air ❄️.",
           "ideas": [
             {
-              "name": "Winter Seafront Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=44.1730%2C28.6595",
-              "description": "Waves and peaceful scenery."
-            },
-            {
-              "name": "Museum Visits",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=44.1765%2C28.6575",
-              "description": "Indoor cultural activities."
-            },
-            {
-              "name": "Cozy Cafés",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=44.1750%2C28.6588",
-              "description": "Warm drinks near the Old Town."
+              "name": "Winter Museum Visit",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Museum+of+National+History+and+Archaeology+Constanța",
+              "description": "Explore cultural exhibits and stay warm indoors."
             }
           ]
         }
       },
       "public_transport_tips": [
         {
-          "tip": "Buses connect the Old Town, beaches, and residential areas.",
-          "link": "https://ctbus.ro"
+          "tip": "Local buses connect the historic centre, seafront and Mamaia — easy and affordable 🚍.",
+          "link": "https://www.ratc.ro/"
         },
         {
-          "tip": "The historic center and seafront are easy to explore on foot.",
-          "link": "https://www.visitconstanta.ro"
+          "tip": "Regional trains from Constanța station reach Bucharest and coastal towns — perfect for day trips 🚆.",
+          "link": "https://www.cfrcalatori.ro/en"
         },
         {
-          "tip": "Trains link Constanța with Bucharest and other major cities.",
-          "link": "https://www.cfrcalatori.ro"
+          "tip": "Taxis and ride-shares are convenient for quick hops between beaches, museums and nightlife areas 🚖.",
+          "link": "https://www.constanta.ro/"
         }
       ],
       "city_events": [
         {
-          "name": "Neversea Festival",
           "season": "Summer",
-          "description": "A major beachside music festival attracting international artists.",
-          "website": "https://neversea.com",
-          "dates": "July (annual)"
-        },
-        {
-          "name": "Constanța Days",
-          "season": "Summer",
-          "description": "City celebrations with concerts, events, and fireworks.",
-          "website": "https://www.primaria-constanta.ro",
-          "dates": "May–June (annual)"
+          "dates": "June–August (annual)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Constanța+summer+events",
+          "description": "Music concerts, beach festivals and cultural events light up the seafront promenades 🎶."
         }
       ],
       "places": [
         {
-          "name": "Museum of National History and Archaeology",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=44.1758%2C28.6580",
-          "description": "A museum presenting ancient Greek, Roman, and Dobrogean history."
+          "name": "Ovidius Square",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Ovidius+Square+Constanța",
+          "description": "Historic central square with cafés, fountains and vibrant local life ☕."
         },
         {
-          "name": "Great Mahmudiye Mosque",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=44.1752%2C28.6575",
-          "description": "A historic mosque reflecting Constanța’s multicultural heritage."
+          "name": "Mamaia Beach",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Mamaia+Beach+Constanța",
+          "description": "Long sandy beach and lively seaside atmosphere 🏖️."
         }
       ],
       "hidden_gems": [
         {
-          "name": "Tomis Marina",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=44.1720%2C28.6635",
-          "description": "A modern marina with cafés and relaxing sea views."
+          "name": "Quiet Seaside Bench",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=quiet+seaside+bench+Constanța",
+          "description": "Peaceful bench spot by the Black Sea — ideal for reflection 🌊."
         },
         {
-          "name": "Farul Genovez Lighthouse",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=44.1740%2C28.6618",
-          "description": "One of the oldest lighthouses in Romania, tucked near the seafront."
+          "name": "Hidden Alley Café",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=hidden+alley+cafe+Constanța",
+          "description": "Cozy tucked-away café perfect for peaceful coffee breaks ☕."
         }
       ]
     },
     {
       "name": "Sibiu 🏰 (medieval flair)",
-      "interests": [
-        {
-          "name": "Grand Square (Piața Mare)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=45.7968%2C24.1512",
-          "description": "The main medieval square of Sibiu, surrounded by pastel-colored buildings, cafés, and historic landmarks."
-        },
-        {
-          "name": "Brukenthal National Museum",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=45.7970%2C24.1515",
-          "description": "One of the oldest museums in Romania, housed in a Baroque palace and featuring European art collections."
-        },
-        {
-          "name": "Council Tower (Turnul Sfatului)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=45.7965%2C24.1518",
-          "description": "A medieval tower offering panoramic views over Sibiu’s rooftops and surrounding mountains."
-        }
-      ],
-      "local_food_tip": "Try ciorbă ardelenească, sarmale, Transylvanian sausages, and papanasi desserts in traditional Saxon-style restaurants.",
+      "interests": {
+        "Art & Culture": [
+          {
+            "name": "Council Tower (Turnul Sfatului)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Council+Tower+Sibiu",
+            "description": "Iconic medieval tower rising above the square — climb for panoramic views of Sibiu’s tiled rooftops and fortified old town 🏰."
+          },
+          {
+            "name": "Brukenthal National Museum",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Brukenthal+National+Museum+Sibiu",
+            "description": "One of Romania’s oldest museums — housed in a grand baroque palace with art and historic treasures spanning centuries 🖼️."
+          },
+          {
+            "name": "Sibiu Lutheran Cathedral",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Sibiu+Lutheran+Cathedral",
+            "description": "Gothic cathedral with tall spire and rich heritage — feel the echoes of medieval worship in its vaulted halls ⛪."
+          },
+          {
+            "name": "Great Square (Piața Mare)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Piata+Mare+Sibiu",
+            "description": "Historic heart of Sibiu — surrounded by medieval buildings, arcades and façades telling tales of centuries past 🏙️."
+          },
+          {
+            "name": "History Museum of Sibiu",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=History+Museum+of+Sibiu",
+            "description": "Deep dive into Transylvanian history with exhibits from medieval to modern times — perfect for history fans 🛡️."
+          }
+        ],
+        "Photo Spots": [
+          {
+            "name": "Bridge of Lies",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Bridge+of+Lies+Sibiu",
+            "description": "Legendary iron bridge with spooky tales — atmospheric shots day or night 📸."
+          },
+          {
+            "name": "Piața Mică Views",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Piata+Mica+Sibiu",
+            "description": "Quaint medieval square with charming façades — perfect for classic old-town photography 📷."
+          },
+          {
+            "name": "Council Tower Panorama",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Council+Tower+Sibiu+view",
+            "description": "Epic aerial views of Sibiu’s red roofs, towers and spired silhouettes — best at sunrise or sunset 🌅."
+          },
+          {
+            "name": "Medieval Gateways & Walls",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Medieval+gates+Sibiu",
+            "description": "Capture cobblestone paths, stone archways and ancient fortifications — feel transported to the Middle Ages 🛡️."
+          },
+          {
+            "name": "Roman Catholic Cathedral Facade",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Roman+Catholic+Cathedral+Sibiu",
+            "description": "Elegant stonework and spires — great for architectural frames and historic ambience 📸."
+          }
+        ],
+        "Food & Nightlife": [
+          {
+            "name": "Piața Mare Restaurants",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=restaurants+Piata+Mare+Sibiu",
+            "description": "Terrace dining with traditional Transylvanian fare — try ciorbă, tochitură and local pastries 🍽️."
+          },
+          {
+            "name": "Old Town Cafés",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=old+town+cafes+Sibiu",
+            "description": "Cosy cafés in historic lanes — perfect for espresso, desserts and people-watching ☕🍰."
+          },
+          {
+            "name": "Craft Beer Pubs",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=craft+beer+pubs+Sibiu",
+            "description": "Local brews and chill vibes in central pubs — great for laid-back evenings 🍺."
+          },
+          {
+            "name": "Live Music Venues",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=live+music+Sibiu",
+            "description": "Bars and lounges featuring local bands — vibrant nightlife with medieval town charm 🎶."
+          },
+          {
+            "name": "Evening Gelato & Walks",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=gelato+Sibiu",
+            "description": "Cap your night with gelato as you wander the lit cobblestones of the old city 🍨."
+          }
+        ],
+        "Nature & Relaxation": [
+          {
+            "name": "Sub Arini Park",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Sub+Arini+Park+Sibiu",
+            "description": "Large leafy park with shaded paths and a peaceful lake — ideal for unwinding 🌳."
+          },
+          {
+            "name": "Astra National Museum Complex",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Astra+National+Museum+Complex+Sibiu",
+            "description": "Open-air ethnographic museum with traditional houses and nature trails — calm and captivating 🌲."
+          },
+          {
+            "name": "Câmpului Park",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Campului+Park+Sibiu",
+            "description": "Shady green oasis near the old town — perfect for picnics and leafy walks 🚶‍♂️."
+          },
+          {
+            "name": "Făgăraș Mountains Views (nearby)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Fagaras+Mountains+near+Sibiu",
+            "description": "Dramatic peaks and alpine scenery just a short drive away — great for nature lovers 🏞️."
+          }
+        ]
+      },
+      "local_food_tip": "In Sibiu, sample hearty Transylvanian dishes like ciorbă de burtă, tochitură, papanași and grilled meats. Pair your meal with Romanian wine or craft beer while soaking up medieval square vibes 🍷🍖.",
       "full_day": {
-        "morning": "Start in <a href=\"https://www.google.com/maps/search/?api=1&query=45.7968%2C24.1512\" target=\"_blank\" rel=\"noopener\">Piața Mare</a> ☀️, enjoying the medieval atmosphere and cafés.",
-        "afternoon": "Visit the <a href=\"https://www.google.com/maps/search/?api=1&query=45.7970%2C24.1515\" target=\"_blank\" rel=\"noopener\">Brukenthal National Museum</a> 🖼️, then stroll to the Small Square.",
-        "sunset": "Climb the <a href=\"https://www.google.com/maps/search/?api=1&query=45.7965%2C24.1518\" target=\"_blank\" rel=\"noopener\">Council Tower</a> 🌅 for views over the Old Town.",
-        "night": "Enjoy dinner in the historic center 🍽️ or take an evening walk along the old city walls."
+        "morning": "☀️ Begin with coffee in <a href=\"https://www.google.com/maps/search/?api=1&query=Piata+Mare+Sibiu\">Piața Mare</a>, explore the Gothic beauty of <a href=\"https://www.google.com/maps/search/?api=1&query=St.+Michael%27s+Church+Cluj-Napoca\">St. Michael’s Church</a> and wander ancient lanes.",
+        "afternoon": "🍽️ Lunch in a terrace restaurant around Piața Mare, then head up the <a href=\"https://www.google.com/maps/search/?api=1&query=Council+Tower+Sibiu\">Council Tower</a> for city views and stroll under medieval gateways.",
+        "evening": "🌇 Sip local wine at an Old Town pub, capture sunset from viewpoints around <a href=\"https://www.google.com/maps/search/?api=1&query=Piața+Mare+Sibiu\">Great Square</a>, and enjoy dinner with historic ambience.",
+        "night": "🌃 Cap your night with gelato as you explore lit cobblestone streets and lively bars."
       },
       "seasons": {
         "spring": {
-          "event": "Spring Cultural Season",
-          "description": "Mild weather and blooming courtyards bring the Old Town to life.",
+          "highlight": "Blossoming parks, mild breezes and perfect strolls through the old town 🌸.",
           "ideas": [
             {
-              "name": "Old Town Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=45.7968%2C24.1512",
-              "description": "Comfortable temperatures and quiet streets."
-            },
-            {
-              "name": "Sub Arini Park",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=45.7845%2C24.1460",
-              "description": "Green spaces just outside the Old Town."
-            },
-            {
-              "name": "Museum Visits",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=45.7970%2C24.1515",
-              "description": "Balanced indoor and outdoor activities."
+              "name": "Spring Astra Museum Visit",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Astra+National+Museum+Complex+Sibiu",
+              "description": "Explore traditional houses and blooming gardens in this open-air museum."
             }
           ]
         },
         "summer": {
-          "event": "Sibiu International Theatre Festival",
-          "description": "One of Europe’s largest theatre festivals fills the city with performances and street art.",
+          "highlight": "Warm days, lively terraces and outdoor festivals ☀️.",
           "ideas": [
             {
-              "name": "Outdoor Performances",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=45.7968%2C24.1512",
-              "description": "Street theatre and live shows."
-            },
-            {
-              "name": "Evening Squares",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=45.7972%2C24.1520",
-              "description": "Lively atmosphere after sunset."
-            },
-            {
-              "name": "Historic Cafés",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=45.7965%2C24.1510",
-              "description": "Long summer evenings."
+              "name": "Summer Park Picnic",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Sub+Arini+Park+Sibiu",
+              "description": "Relax with a picnic under shady trees in the city’s green heart."
             }
           ]
         },
         "autumn": {
-          "event": "Autumn in Transylvania",
-          "description": "Golden light and fewer tourists create a cozy medieval mood.",
+          "highlight": "Golden hues, crisp air and cosy cafés 🍁.",
           "ideas": [
             {
-              "name": "Photography Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=45.7968%2C24.1512",
-              "description": "Warm colors on historic buildings."
-            },
-            {
-              "name": "City Wall Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=45.7935%2C24.1495",
-              "description": "Quiet historic paths."
-            },
-            {
-              "name": "Local Dining",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=45.7962%2C24.1518",
-              "description": "Hearty Transylvanian cuisine."
+              "name": "Autumn Medieval Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Piata+Mare+Sibiu",
+              "description": "Capture warm light and historic façades around the main square."
             }
           ]
         },
         "winter": {
-          "event": "Sibiu Christmas Market",
-          "description": "One of Romania’s most beautiful Christmas markets fills Piața Mare.",
+          "highlight": "Festive lights, warm drinks and brisk strolls ❄️.",
           "ideas": [
             {
-              "name": "Christmas Market",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=45.7968%2C24.1512",
-              "description": "Festive lights, food, and crafts."
-            },
-            {
-              "name": "Historic Cafés",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=45.7965%2C24.1510",
-              "description": "Warm drinks on cold days."
-            },
-            {
-              "name": "Indoor Museums",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=45.7970%2C24.1515",
-              "description": "Comfortable winter sightseeing."
+              "name": "Winter Museum Tour",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Brukenthal+National+Museum+Sibiu",
+              "description": "Warm up exploring art and history indoors."
             }
           ]
         }
       },
       "public_transport_tips": [
         {
-          "tip": "Sibiu’s Old Town is compact and best explored on foot.",
-          "link": "https://www.sibiu.ro"
+          "tip": "Local buses connect the old city with parks and Astra Museum — efficient and affordable 🚍.",
+          "link": "https://www.sibiu.ro/"
         },
         {
-          "tip": "Local buses connect the Old Town with residential areas.",
-          "link": "https://tursib.ro"
+          "tip": "Regional trains link Sibiu with Brașov, Bucharest and Transylvanian towns — perfect for scenic day trips 🚆.",
+          "link": "https://www.cfrcalatori.ro/en"
         },
         {
-          "tip": "Trains link Sibiu with Brașov, Cluj-Napoca, and Bucharest.",
-          "link": "https://www.cfrcalatori.ro"
+          "tip": "Taxis and ride-shares are plentiful for quick hops between historic sites and viewpoints 🚖.",
+          "link": "https://www.sibiu.ro/"
         }
       ],
       "city_events": [
         {
-          "name": "Sibiu International Theatre Festival",
           "season": "Summer",
-          "description": "A major international theatre and performing arts festival.",
-          "website": "https://www.sibfest.ro",
-          "dates": "June (annual)"
-        },
-        {
-          "name": "Sibiu Christmas Market",
-          "season": "Winter",
-          "description": "A festive market set in the medieval Grand Square.",
-          "website": "https://www.sibiuchristmasmarket.ro",
-          "dates": "December (annual)"
+          "dates": "June–August (annual)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Sibiu+summer+events",
+          "description": "Outdoor concerts, medieval fairs and cultural festivals fill squares and parks with lively energy 🎶."
         }
       ],
       "places": [
         {
-          "name": "Small Square (Piața Mică)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=45.7972%2C24.1525",
-          "description": "A picturesque square linking the Upper and Lower Towns."
+          "name": "Piața Mare",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Piata+Mare+Sibiu",
+          "description": "Grand medieval square surrounded by historic façades and vibrant life 🏙️."
         },
         {
-          "name": "Bridge of Lies (Podul Minciunilor)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=45.7975%2C24.1530",
-          "description": "A famous iron bridge surrounded by local legends."
+          "name": "Council Tower",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Council+Tower+Sibiu",
+          "description": "Historic lookout tower with spectacular views of the old town 🏰."
         }
       ],
       "hidden_gems": [
         {
-          "name": "Lower Town (Orașul de Jos)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=45.7925%2C24.1520",
-          "description": "A quieter area with medieval streets and traditional houses."
+          "name": "Quiet Garden Nook",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=quiet+garden+Sibiu",
+          "description": "Secluded green spot tucked away from the main crowds — perfect for calm moments 🌿."
         },
         {
-          "name": "ASTRA Open-Air Museum",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=45.7675%2C24.1275",
-          "description": "A large open-air museum showcasing traditional Romanian village life."
+          "name": "Hidden Alley Café",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=hidden+alley+cafe+Sibiu",
+          "description": "Cozy tucked-away café ideal for peaceful coffee and people-watching ☕."
         }
       ]
     },
 
-    {
+        {
       "name": "Sighisoara 🏰 (UNESCO, birthplace of Vlad Tepeš)",
-      "interests": [
-        {
-          "name": "Sighișoara Citadel",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=46.2197%2C24.7928",
-          "description": "A UNESCO World Heritage–listed medieval citadel, one of the best-preserved inhabited fortresses in Europe."
-        },
-        {
-          "name": "Clock Tower",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=46.2195%2C24.7920",
-          "description": "The iconic tower of Sighișoara, offering panoramic views and housing a history museum."
-        },
-        {
-          "name": "Vlad Dracul House",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=46.2193%2C24.7933",
-          "description": "The birthplace of Vlad Țepeș (Dracula), now a restaurant and small museum inside the citadel."
-        }
-      ],
-      "local_food_tip": "Try Transylvanian soups, sarmale, goulash, and papanasi desserts in cozy medieval-style restaurants.",
+      "interests": {
+        "Art & Culture": [
+          {
+            "name": "Sighișoara Citadel",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Sighișoara+Citadel",
+            "description": "A UNESCO-listed medieval fortress, one of the best-preserved inhabited citadels in Europe — cobbled streets, colorful houses and Gothic towers 🏰."
+          },
+          {
+            "name": "Clock Tower",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Clock+Tower+Sighișoara",
+            "description": "The 14th-century clock tower symbolizing Sighișoara’s power — climb up for panoramic views and explore the local history museum 🕰️."
+          },
+          {
+            "name": "Vlad Dracul House",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Vlad+Dracul+House+Sighișoara",
+            "description": "Birthplace of Vlad Țepeș (Dracula), now a restaurant and small museum inside the citadel — a must-see for history and legend fans 🦇."
+          },
+          {
+            "name": "Church on the Hill (Biserica din Deal)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Church+on+the+Hill+Sighișoara",
+            "description": "Gothic church overlooking the town — features old frescoes and peaceful views of Transylvania ⛪."
+          },
+          {
+            "name": "Covered Scholars’ Stairs",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Scholars’+Stairs+Sighișoara",
+            "description": "Wooden covered staircase connecting the citadel to the upper church and school — a unique medieval experience 🪵."
+          }
+        ],
+        "Photo Spots": [
+          {
+            "name": "Citadel Square",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Citadel+Square+Sighișoara",
+            "description": "Colorful façades and cobblestones framed by medieval towers — perfect for atmospheric photography 📸."
+          },
+          {
+            "name": "Clock Tower Balcony",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Clock+Tower+Sighișoara+view",
+            "description": "The best panoramic view of Sighișoara’s rooftops and Transylvanian hills 🌄."
+          },
+          {
+            "name": "Scholars’ Stairs Pathway",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Scholars’+Stairs+Sighișoara",
+            "description": "Dim wooden corridor leading upward — a timeless medieval photo spot 🌒."
+          },
+          {
+            "name": "Citadel Walls",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Sighișoara+citadel+walls",
+            "description": "Ancient fortifications offering perfect photo angles with towers and landscapes 🏯."
+          },
+          {
+            "name": "Hill Church Terrace",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Hill+Church+Sighișoara",
+            "description": "Quiet viewpoint with panoramic shots of the old town and valley 🌅."
+          }
+        ],
+        "Food & Nightlife": [
+          {
+            "name": "Vlad Dracul Restaurant",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Vlad+Dracul+House+Restaurant+Sighișoara",
+            "description": "Dine where Dracula was born — authentic Transylvanian cuisine in a candlelit medieval interior 🍽️."
+          },
+          {
+            "name": "Citadel Tavern",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Citadel+Tavern+Sighișoara",
+            "description": "Rustic restaurant inside the fortress serving traditional dishes and local wines 🍷."
+          },
+          {
+            "name": "Piața Cetății Cafés",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Piata+Cetatii+Sighișoara",
+            "description": "Outdoor cafés and terraces with old-town views — perfect for morning coffee ☕."
+          },
+          {
+            "name": "Medieval Pub",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Medieval+Pub+Sighișoara",
+            "description": "Candlelit stone-walled tavern with live folk music and historic vibes 🍻🎶."
+          },
+          {
+            "name": "Evening Gelato & Walks",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=gelato+Sighișoara",
+            "description": "End the evening with gelato while walking through softly lit cobbled lanes 🍨."
+          }
+        ],
+        "Nature & Relaxation": [
+          {
+            "name": "Hill Church Gardens",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Hill+Church+Sighișoara",
+            "description": "Quiet green space with benches and ancient trees — great for peaceful moments 🌳."
+          },
+          {
+            "name": "Târnava Riverbank",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Tarnava+River+Sighișoara",
+            "description": "Gentle riverside walk at the base of the citadel — scenic and refreshing 🚶‍♂️."
+          },
+          {
+            "name": "Breite Oak Plateau",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Breite+Oak+Plateau+Sighișoara",
+            "description": "Nature reserve above the town — home to ancient oaks and peaceful trails 🌲."
+          },
+          {
+            "name": "Citadel Gardens",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Sighișoara+Citadel+Gardens",
+            "description": "Small green pockets around the fortress — ideal for rest between sightseeing 🌼."
+          }
+        ]
+      },
+      "local_food_tip": "Try Transylvanian soups, sarmale, goulash and papanasi desserts in cozy medieval-style restaurants. Pair them with local plum brandy or Romanian wine 🍷.",
       "full_day": {
-        "morning": "Enter the <a href=\"https://www.google.com/maps/search/?api=1&query=46.2197%2C24.7928\" target=\"_blank\" rel=\"noopener\">Sighișoara Citadel</a> ☀️ and wander its cobbled streets and colorful houses.",
-        "afternoon": "Climb the <a href=\"https://www.google.com/maps/search/?api=1&query=46.2195%2C24.7920\" target=\"_blank\" rel=\"noopener\">Clock Tower</a> 🕰️, then enjoy lunch inside the citadel.",
-        "sunset": "Visit the <a href=\"https://www.google.com/maps/search/?api=1&query=46.2193%2C24.7933\" target=\"_blank\" rel=\"noopener\">Vlad Dracul House</a> 🏰 and explore the citadel walls.",
-        "night": "Dine in a medieval-themed restaurant 🍽️ and enjoy a quiet evening stroll."
+        "morning": "☀️ Enter the <a href=\"https://www.google.com/maps/search/?api=1&query=Sighișoara+Citadel\">Sighișoara Citadel</a> and wander its cobbled streets and colorful houses, then climb the <a href=\"https://www.google.com/maps/search/?api=1&query=Clock+Tower+Sighișoara\">Clock Tower</a> for views.",
+        "afternoon": "🍽️ Enjoy lunch at <a href=\"https://www.google.com/maps/search/?api=1&query=Vlad+Dracul+House+Sighișoara\">Vlad Dracul House</a>, visit the <a href=\"https://www.google.com/maps/search/?api=1&query=Church+on+the+Hill+Sighișoara\">Hill Church</a>, and explore medieval workshops.",
+        "evening": "🌇 Walk along the <a href=\"https://www.google.com/maps/search/?api=1&query=Sighișoara+citadel+walls\">citadel walls</a> for sunset views, then have dinner in a medieval-themed tavern.",
+        "night": "🌃 Cap your night with a stroll through illuminated squares, listening to the echoes of the citadel."
       },
       "seasons": {
         "spring": {
-          "event": "Spring in the Citadel",
-          "description": "Mild weather and blooming courtyards bring the medieval town to life.",
+          "highlight": "Blooming courtyards and calm streets make Sighișoara magical 🌸.",
           "ideas": [
             {
               "name": "Citadel Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=46.2197%2C24.7928",
-              "description": "Comfortable temperatures and fewer visitors."
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Sighișoara+Citadel",
+              "description": "Mild weather and fewer tourists — perfect for exploring."
             },
             {
               "name": "Hill Church Visit",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=46.2180%2C24.7950",
-              "description": "Historic church above the citadel."
-            },
-            {
-              "name": "Photography Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=46.2195%2C24.7930",
-              "description": "Soft spring light on medieval buildings."
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Hill+Church+Sighișoara",
+              "description": "Quiet churchyard with flowers and birdsong."
             }
           ]
         },
         "summer": {
-          "event": "Sighișoara Medieval Festival",
-          "description": "The citadel fills with knights, music, and medieval reenactments.",
+          "highlight": "Festivals, sunshine and medieval celebrations ☀️.",
           "ideas": [
             {
-              "name": "Medieval Festival Events",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=46.2197%2C24.7928",
-              "description": "Costumes, performances, and markets."
+              "name": "Sighișoara Medieval Festival",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Sighișoara+Medieval+Festival",
+              "description": "The citadel fills with knights, music and reenactments."
             },
             {
               "name": "Evening Citadel Views",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=46.2195%2C24.7920",
-              "description": "Warm nights and illuminated towers."
-            },
-            {
-              "name": "Outdoor Dining",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=46.2190%2C24.7935",
-              "description": "Terraces inside the fortress."
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Clock+Tower+Sighișoara",
+              "description": "Golden light over rooftops and towers."
             }
           ]
         },
         "autumn": {
-          "event": "Autumn in Transylvania",
-          "description": "Golden hills and fewer tourists create a magical atmosphere.",
+          "highlight": "Golden tones and misty mornings enhance the medieval vibe 🍁.",
           "ideas": [
             {
               "name": "Citadel Photography",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=46.2197%2C24.7928",
-              "description": "Warm colors on medieval walls."
-            },
-            {
-              "name": "Tower Visits",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=46.2195%2C24.7920",
-              "description": "Clear views over the town."
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Sighișoara+Citadel",
+              "description": "Warm light and colourful leaves on the walls."
             },
             {
               "name": "Local Dining",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=46.2192%2C24.7935",
-              "description": "Hearty Transylvanian cuisine."
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Vlad+Dracul+House+Sighișoara",
+              "description": "Try hearty Transylvanian food in cosy interiors."
             }
           ]
         },
         "winter": {
-          "event": "Quiet Winter Citadel",
-          "description": "Snowy rooftops and calm streets offer a fairytale winter setting.",
+          "highlight": "Snowy rooftops, quiet streets and festive lights ❄️.",
           "ideas": [
             {
               "name": "Snowy Citadel Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=46.2197%2C24.7928",
-              "description": "Peaceful medieval atmosphere."
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Sighișoara+Citadel",
+              "description": "Medieval charm under a blanket of snow."
             },
             {
               "name": "Museum Visits",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=46.2195%2C24.7920",
-              "description": "Indoor culture during cold days."
-            },
-            {
-              "name": "Cozy Restaurants",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=46.2193%2C24.7933",
-              "description": "Warm meals inside historic buildings."
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Clock+Tower+Sighișoara",
+              "description": "Warm indoor exploration of history."
             }
           ]
         }
       },
       "public_transport_tips": [
         {
-          "tip": "The citadel is compact and best explored on foot.",
+          "tip": "The citadel is compact and best explored on foot — every alley hides medieval detail 🚶‍♂️.",
           "link": "https://www.sighisoara.org"
         },
         {
-          "tip": "Trains connect Sighișoara with Brașov, Sibiu, and Cluj-Napoca.",
+          "tip": "Trains connect Sighișoara with Brașov, Sibiu and Cluj-Napoca — scenic and convenient 🚆.",
           "link": "https://www.cfrcalatori.ro"
         },
         {
-          "tip": "Buses and taxis connect the lower town with the citadel.",
+          "tip": "Buses and taxis link the lower town with the upper citadel and nearby villages 🚖.",
           "link": "https://www.sighisoara.org"
         }
       ],
       "city_events": [
         {
-          "name": "Sighișoara Medieval Festival",
           "season": "Summer",
-          "description": "Annual medieval festival with parades, concerts, and reenactments.",
-          "website": "https://festivalulmedieval.ro",
-          "dates": "July (annual)"
+          "dates": "July (annual)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Sighișoara+Medieval+Festival",
+          "description": "Sighișoara Medieval Festival — knights, parades, concerts and historical reenactments 🎭."
         },
         {
-          "name": "Sighișoara Blues Festival",
           "season": "Autumn",
-          "description": "Music festival held within the medieval citadel.",
-          "website": "https://www.sighisoarablues.ro",
-          "dates": "October (annual)"
+          "dates": "October (annual)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Sighișoara+Blues+Festival",
+          "description": "Sighișoara Blues Festival — smooth tunes in medieval surroundings 🎶."
         }
       ],
       "places": [
         {
           "name": "Scholars’ Stairs (Scara Școlarilor)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=46.2185%2C24.7955",
-          "description": "A covered wooden staircase leading to the Hill Church and old school."
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Scholars’+Stairs+Sighișoara",
+          "description": "Wooden covered staircase connecting the citadel to the Hill Church — steeped in medieval mystery."
         },
         {
           "name": "Hill Church",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=46.2180%2C24.7950",
-          "description": "A Gothic church with historic frescoes overlooking the citadel."
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Hill+Church+Sighișoara",
+          "description": "Gothic church with ancient frescoes overlooking the citadel."
         }
       ],
       "hidden_gems": [
         {
           "name": "Tailors’ Tower",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=46.2205%2C24.7905",
-          "description": "One of the preserved defensive towers of the citadel."
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Tailors’+Tower+Sighișoara",
+          "description": "One of the fortress’s best-preserved defensive towers — less crowded but full of charm 🛡️."
         },
         {
           "name": "Lower Town Walks",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=46.2175%2C24.7895",
-          "description": "Quiet streets below the citadel offering different perspectives."
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Lower+Town+Sighișoara",
+          "description": "Quiet cobbled streets below the citadel offering unique angles and calm vibes 🌙."
         }
       ]
     },
 
-    {
-      "name": "Sinaia 🏰 (Peles Castle – royal wow!)",
-      "interests": [
         {
-          "name": "Peleș Castle",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=45.3595%2C25.5425",
-          "description": "A spectacular Neo-Renaissance royal castle and former summer residence of Romania’s kings, famous for its lavish interiors."
-        },
-        {
-          "name": "Pelișor Castle",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=45.3585%2C25.5435",
-          "description": "A smaller but elegant royal residence near Peleș Castle, blending Art Nouveau and traditional styles."
-        },
-        {
-          "name": "Sinaia Monastery",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=45.3505%2C25.5485",
-          "description": "A historic monastery from the 17th century that gave the town its name."
-        }
-      ],
-      "local_food_tip": "Try mountain-style dishes like ciorbă de fasole, grilled meats, polenta with cheese, and local desserts after castle visits.",
+      "name": "Sinaia 🏰 (Peleș Castle – royal wow!)",
+      "interests": {
+        "Art & Culture": [
+          {
+            "name": "Peleș Castle",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Peleș+Castle+Sinaia",
+            "description": "A Neo-Renaissance royal masterpiece and former summer residence of Romania’s kings — marble halls, stained glass, and royal treasures 👑."
+          },
+          {
+            "name": "Pelișor Castle",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Pelișor+Castle+Sinaia",
+            "description": "A smaller yet exquisite royal home blending Art Nouveau charm and Romanian heritage — once the residence of Queen Marie 🏰."
+          },
+          {
+            "name": "Sinaia Monastery",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Sinaia+Monastery",
+            "description": "17th-century monastery that gave the town its name — peaceful courtyards, old frescoes, and mountain serenity ⛪."
+          },
+          {
+            "name": "Royal Train Station",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Sinaia+Train+Station",
+            "description": "Built for the Romanian royal family — a historic stop for kings and dignitaries, decorated with royal crests 🚉."
+          },
+          {
+            "name": "George Enescu Memorial House",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=George+Enescu+Memorial+House+Sinaia",
+            "description": "Charming villa once owned by Romania’s greatest composer — a blend of culture, music, and history 🎵."
+          }
+        ],
+        "Photo Spots": [
+          {
+            "name": "Peleș Castle Gardens",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Peleș+Castle+Gardens",
+            "description": "Elegant terraces with fountains and mountain backdrops — royal scenery at its finest 📸."
+          },
+          {
+            "name": "Pelișor Castle Balcony",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Pelișor+Castle",
+            "description": "Capture picturesque views over the forests and royal domain 🌲."
+          },
+          {
+            "name": "Sinaia Monastery Courtyard",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Sinaia+Monastery",
+            "description": "Historic walls and serene gardens — perfect for peaceful photography 🌼."
+          },
+          {
+            "name": "Bușteni–Babele Cable Car View",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Bușteni+Babele+Cable+Car",
+            "description": "Epic panoramas of the Bucegi Mountains and alpine peaks 🏔️."
+          },
+          {
+            "name": "St. Anne’s Cliff",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=St.+Anne’s+Cliff+Sinaia",
+            "description": "Quiet lookout over the valley — golden sunsets and sweeping views 🌇."
+          }
+        ],
+        "Food & Nightlife": [
+          {
+            "name": "Old Sinaia Restaurants",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=restaurants+Sinaia",
+            "description": "Traditional mountain restaurants serving ciorbă, sarmale, and grilled trout 🍽️."
+          },
+          {
+            "name": "Cabana Schiori",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Cabana+Schiori+Sinaia",
+            "description": "Rustic wooden chalet with hearty meals and warm ambiance 🔥."
+          },
+          {
+            "name": "Sinaia Town Cafés",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=cafes+Sinaia+center",
+            "description": "Mountain cafés serving espresso and cakes with alpine charm ☕🍰."
+          },
+          {
+            "name": "Mountain Wine Bars",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=wine+bars+Sinaia",
+            "description": "Cozy bars with local wines — perfect after exploring the castles 🍷."
+          },
+          {
+            "name": "Evening Walk & Dessert",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=gelato+Sinaia",
+            "description": "Enjoy gelato or hot chocolate while strolling through the mountain town 🍨."
+          }
+        ],
+        "Nature & Relaxation": [
+          {
+            "name": "Bucegi Mountains Trails",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Bucegi+Mountains+Sinaia",
+            "description": "Spectacular alpine hikes and viewpoints accessible by cable car 🏞️."
+          },
+          {
+            "name": "Peleș Castle Park",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Peleș+Castle+Park",
+            "description": "Manicured gardens with royal statues and shaded benches 🌳."
+          },
+          {
+            "name": "Royal Sheepfold (Stâna Regală)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Stâna+Regală+Sinaia",
+            "description": "Forest walk to a scenic viewpoint used by the royal family 🌲."
+          },
+          {
+            "name": "Târnava Riverbank",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Sinaia+River+walk",
+            "description": "Peaceful riverside trail near the center — ideal for a calm break 🚶‍♀️."
+          }
+        ]
+      },
+      "local_food_tip": "Try mountain-style dishes like ciorbă de fasole, grilled meats, polenta with cheese, and sweet papanasi desserts after castle visits. Pair them with mulled wine or plum brandy 🍷.",
       "full_day": {
-        "morning": "Begin at the magnificent <a href=\"https://www.google.com/maps/search/?api=1&query=45.3595%2C25.5425\" target=\"_blank\" rel=\"noopener\">Peleș Castle</a> 🏰, exploring its richly decorated rooms.",
-        "afternoon": "Visit nearby <a href=\"https://www.google.com/maps/search/?api=1&query=45.3585%2C25.5435\" target=\"_blank\" rel=\"noopener\">Pelișor Castle</a> 👑, then enjoy lunch in town.",
-        "sunset": "Stop by the peaceful <a href=\"https://www.google.com/maps/search/?api=1&query=45.3505%2C25.5485\" target=\"_blank\" rel=\"noopener\">Sinaia Monastery</a> 🌅.",
-        "night": "Relax with dinner 🍽️ in Sinaia or enjoy a quiet evening mountain walk."
+        "morning": "☀️ Begin at the grand <a href=\"https://www.google.com/maps/search/?api=1&query=Peleș+Castle+Sinaia\">Peleș Castle</a>, exploring its royal chambers and gardens.",
+        "afternoon": "🍽️ Walk to <a href=\"https://www.google.com/maps/search/?api=1&query=Pelișor+Castle+Sinaia\">Pelișor Castle</a>, enjoy lunch in town and visit <a href=\"https://www.google.com/maps/search/?api=1&query=Sinaia+Monastery\">Sinaia Monastery</a>.",
+        "evening": "🌇 Take a scenic stroll to <a href=\"https://www.google.com/maps/search/?api=1&query=St.+Anne’s+Cliff+Sinaia\">St. Anne’s Cliff</a> for sunset views, then relax in a cozy restaurant.",
+        "night": "🌃 Cap your day with dessert or wine by a fireplace in a mountain lodge 🍷."
       },
       "seasons": {
         "spring": {
-          "event": "Spring in the Royal Gardens",
-          "description": "Blooming gardens and fresh mountain air make spring ideal for castle visits.",
+          "highlight": "Blooming royal gardens and fresh mountain air 🌸.",
           "ideas": [
             {
               "name": "Castle Garden Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=45.3590%2C25.5420",
-              "description": "Flowers and greenery around the royal grounds."
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Peleș+Castle+Gardens",
+              "description": "Enjoy flowers and fountains in full bloom."
             },
             {
               "name": "Town Center Strolls",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=45.3485%2C25.5500",
-              "description": "Mild weather and relaxed atmosphere."
-            },
-            {
-              "name": "Monastery Visit",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=45.3505%2C25.5485",
-              "description": "Peaceful spring setting."
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Sinaia+center",
+              "description": "Relaxed walks through charming streets."
             }
           ]
         },
         "summer": {
-          "event": "Mountain Summer Season",
-          "description": "Cooler temperatures attract visitors escaping the heat.",
+          "highlight": "Cool mountain air, castle tours, and alpine hikes ☀️.",
           "ideas": [
             {
-              "name": "Early Castle Tours",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=45.3595%2C25.5425",
-              "description": "Beat crowds and enjoy cooler mornings."
+              "name": "Morning Castle Visits",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Peleș+Castle+Sinaia",
+              "description": "Beat the crowds and enjoy quiet mornings."
             },
             {
-              "name": "Hiking Trails",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=45.3740%2C25.5455",
-              "description": "Trails in the Bucegi Mountains."
-            },
-            {
-              "name": "Evening Dining",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=45.3490%2C25.5505",
-              "description": "Cool mountain evenings."
+              "name": "Bucegi Mountain Hikes",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Bucegi+Trails+Sinaia",
+              "description": "Explore scenic trails above the town."
             }
           ]
         },
         "autumn": {
-          "event": "Autumn Colors in Bucegi",
-          "description": "Colorful forests and fewer tourists create a magical atmosphere.",
+          "highlight": "Golden forests and peaceful castle views 🍁.",
           "ideas": [
             {
-              "name": "Forest Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=45.3605%2C25.5405",
-              "description": "Golden leaves around the castles."
+              "name": "Forest Photography",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Peleș+Castle+Sinaia",
+              "description": "Capture autumn leaves around the royal estate."
             },
             {
-              "name": "Castle Photography",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=45.3595%2C25.5425",
-              "description": "Warm autumn light on royal architecture."
-            },
-            {
-              "name": "Local Dining",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=45.3490%2C25.5505",
-              "description": "Hearty mountain cuisine."
+              "name": "Local Dining Nights",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=restaurants+Sinaia",
+              "description": "Enjoy hearty meals and warm interiors."
             }
           ]
         },
         "winter": {
-          "event": "Winter in Sinaia",
-          "description": "Snowy landscapes, skiing, and fairytale castle views.",
+          "highlight": "Snow-covered castles, skiing, and cozy chalets ❄️.",
           "ideas": [
             {
-              "name": "Snowy Castle Grounds",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=45.3595%2C25.5425",
-              "description": "Fairytale winter scenery."
+              "name": "Snowy Castle Views",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Peleș+Castle+Sinaia",
+              "description": "The castle looks like a fairytale under snow."
             },
             {
               "name": "Sinaia Ski Area",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=45.3800%2C25.5450",
-              "description": "Popular slopes in the Bucegi Mountains."
-            },
-            {
-              "name": "Cozy Restaurants",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=45.3490%2C25.5505",
-              "description": "Warm meals after cold days."
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Sinaia+Ski+Area",
+              "description": "Hit the slopes or enjoy the après-ski vibe."
             }
           ]
         }
       },
       "public_transport_tips": [
         {
-          "tip": "Trains connect Sinaia with Bucharest and Brașov frequently.",
+          "tip": "Frequent trains connect Sinaia with Bucharest and Brașov — scenic and fast 🚆.",
           "link": "https://www.cfrcalatori.ro"
         },
         {
-          "tip": "The castles are reachable on foot or by local taxi from the station.",
-          "link": "https://www.visitprahova.ro"
+          "tip": "Castles are a short walk or taxi ride from the train station 🚖.",
+          "link": "https://www.sinaia.ro"
         },
         {
-          "tip": "Cable cars access hiking and ski areas in the Bucegi Mountains.",
-          "link": "https://www.sinaia.ro"
+          "tip": "Cable cars connect the town with mountain hiking and ski routes 🚡.",
+          "link": "https://www.visitprahova.ro"
         }
       ],
       "city_events": [
         {
-          "name": "Sinaia Forever Festival",
           "season": "Autumn",
-          "description": "A historical-themed city festival celebrating Sinaia’s royal heritage.",
-          "website": "https://www.sinaiaforever.ro",
-          "dates": "September (annual)"
+          "dates": "September (annual)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Sinaia+Forever+Festival",
+          "description": "Sinaia Forever Festival — a celebration of royal heritage, crafts and music 🎶."
         },
         {
-          "name": "Winter Sports Season Opening",
           "season": "Winter",
-          "description": "Opening of ski slopes and winter festivities.",
-          "website": "https://www.sinaia.ro",
-          "dates": "December (annual)"
+          "dates": "December (annual)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Sinaia+Winter+Sports+Opening",
+          "description": "Opening of ski slopes with parades, lights and winter festivities ⛷️."
         }
       ],
       "places": [
         {
           "name": "Bușteni–Babele Cable Car (nearby)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=45.4075%2C25.5155",
-          "description": "Access to the Bucegi Plateau and natural rock formations."
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Bușteni+Babele+Cable+Car",
+          "description": "Cable car to the Bucegi Plateau with views of rock formations and mountain peaks 🏔️."
         },
         {
           "name": "Sinaia Town Center",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=45.3485%2C25.5500",
-          "description": "A charming mountain resort center with shops and cafés."
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Sinaia+center",
+          "description": "Elegant mountain resort core with shops, cafés, and royal charm 🏙️."
         }
       ],
       "hidden_gems": [
         {
           "name": "St. Anne’s Cliff Viewpoint",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=45.3650%2C25.5380",
-          "description": "A quieter viewpoint offering panoramic views over the valley."
+          "map_link": "https://www.google.com/maps/search/?api=1&query=St.+Anne’s+Cliff+Sinaia",
+          "description": "Quiet viewpoint offering sweeping panoramas of the valley 🌄."
         },
         {
           "name": "Royal Sheepfold (Stâna Regală)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=45.3630%2C25.5365",
-          "description": "A scenic forest walk to a historic royal rest area."
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Stâna+Regală+Sinaia",
+          "description": "Historic royal picnic spot reached through scenic forest trails 🌲."
         }
       ]
     },
 
     {
       "name": "Timișoara",
-      "interests": [
-        {
-          "name": "Victory Square (Piața Victoriei)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=45.7560%2C21.2287",
-          "description": "The symbolic heart of Timișoara, framed by Secession-style buildings and the place where the 1989 Revolution began."
-        },
-        {
-          "name": "Union Square (Piața Unirii)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=45.7585%2C21.2262",
-          "description": "A beautifully restored Baroque square with colorful buildings, cafés, and historic churches."
-        },
-        {
-          "name": "Metropolitan Cathedral",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=45.7557%2C21.2280",
-          "description": "A striking Romanian Orthodox cathedral and one of the city’s most recognizable landmarks."
-        }
-      ],
-      "local_food_tip": "Try Banat specialties such as goulash, papricaș, local sausages, and desserts influenced by Serbian, Hungarian, and German cuisine.",
+      "interests": {
+        "Art & Culture": [
+          {
+            "name": "Union Square (Piața Unirii)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Union+Square+Timișoara",
+            "description": "Baroque and Gothic architecture define this vibrant central square — historic churches, arcaded buildings, and lively terraces 🏛️."
+          },
+          {
+            "name": "Timișoara Orthodox Cathedral",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Timișoara+Orthodox+Cathedral",
+            "description": "Striking cathedral with colorful domes and intricate interior — a spiritual and cultural landmark ⛪."
+          },
+          {
+            "name": "Museum of the Revolution",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Museum+of+the+Revolution+Timișoara",
+            "description": "Explore Timișoara’s key role in the 1989 Romanian Revolution — immersive exhibits and powerful stories 🧠."
+          },
+          {
+            "name": "Art Museum (Palace Baroque)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Art+Museum+Timișoara",
+            "description": "Home to Romanian and European collections in a beautiful baroque palace 🎨."
+          },
+          {
+            "name": "Huniade Castle",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Huniade+Castle+Timișoara",
+            "description": "Medieval fortress with a rich past — one of the oldest stone structures in the city 🏰."
+          }
+        ],
+        "Photo Spots": [
+          {
+            "name": "Union Square Facades",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Union+Square+Timișoara",
+            "description": "Colorful baroque buildings and cobblestone streets — perfect for classic city photos 📸."
+          },
+          {
+            "name": "Orthodox Cathedral Domes",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Timișoara+Orthodox+Cathedral",
+            "description": "Striking cathedral skyline views with pastel domes and blue skies 🏙️."
+          },
+          {
+            "name": "Victory Square (Piața Victoriei)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Victory+Square+Timișoara",
+            "description": "Elegant avenues, fountains and landmark façades — great for sunset shots 🌅."
+          },
+          {
+            "name": "Bega River Promenade",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Bega+River+Timișoara",
+            "description": "Riverfront paths with reflections, bridges and greenery — ideal for photos 📷."
+          },
+          {
+            "name": "Huniade Castle Courtyard",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Huniade+Castle+Timișoara",
+            "description": "Historic stone walls and shaded corners — medieval vibes for your pics 🛡️."
+          }
+        ],
+        "Food & Nightlife": [
+          {
+            "name": "Old Town Restaurants",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=restaurants+Old+Town+Timișoara",
+            "description": "Local Romanian and international flavors in lively squares 🍽️."
+          },
+          {
+            "name": "Bega River Cafés",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Bega+River+cafes+Timișoara",
+            "description": "Relaxed riverside spots for coffee and pastries ☕🍰."
+          },
+          {
+            "name": "Craft Beer Bars",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=craft+beer+bars+Timișoara",
+            "description": "Local breweries and taprooms with lively nighttime vibes 🍺."
+          },
+          {
+            "name": "Victory Square Nightlife",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Victory+Square+nightlife+Timișoara",
+            "description": "Bars and lounges around the elegant square — great for drinks and music 🍸🎶."
+          },
+          {
+            "name": "Evening Gelato Strolls",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=gelato+Timișoara",
+            "description": "Cap your night with gelato while exploring historic lit streets 🍨."
+          }
+        ],
+        "Nature & Relaxation": [
+          {
+            "name": "Bega River Promenade",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Bega+River+Timișoara",
+            "description": "Green riverside path for walking, cycling or just relaxing by the water 🚶‍♂️."
+          },
+          {
+            "name": "Botanic Park Timișoara",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Botanic+Park+Timișoara",
+            "description": "Tranquil botanical garden with shaded paths and floral displays 🌸."
+          },
+          {
+            "name": "Rose Park (Parcul Rozelor)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Parcul+Rozelor+Timișoara",
+            "description": "The city’s rose garden — fragrant blooms and peaceful benches 🌹."
+          },
+          {
+            "name": "Iuliu Square Gardens",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Iuliu+Square+Timișoara",
+            "description": "Hidden green pocket near the Opera — ideal for picnics or reading 📚."
+          }
+        ]
+      },
+      "local_food_tip": "In Timișoara, try local sarmale, ciorbă de burtă, mititei and papanasi. Pair your meal with Romanian wine or craft beer while soaking up the city’s elegant squares 🍷🍖.",
       "full_day": {
-        "morning": "Start your day in <a href=\"https://www.google.com/maps/search/?api=1&query=45.7560%2C21.2287\" target=\"_blank\" rel=\"noopener\">Victory Square</a> ☀️, walking between the Opera House and the Cathedral.",
-        "afternoon": "Explore <a href=\"https://www.google.com/maps/search/?api=1&query=45.7585%2C21.2262\" target=\"_blank\" rel=\"noopener\">Union Square</a> ☕ and enjoy lunch surrounded by Baroque architecture.",
-        "sunset": "Relax along the <a href=\"https://www.google.com/maps/search/?api=1&query=45.7485%2C21.2390\" target=\"_blank\" rel=\"noopener\">Bega River promenade</a> 🌅.",
-        "night": "Have dinner in the historic center 🍽️ or enjoy Timișoara’s relaxed nightlife."
+        "morning": "☀️ Start with coffee by the <a href=\"https://www.google.com/maps/search/?api=1&query=Bega+River+Timișoara\">Bega River Promenade</a>, stroll to <a href=\"https://www.google.com/maps/search/?api=1&query=Union+Square+Timișoara\">Union Square</a>, and visit <a href=\"https://www.google.com/maps/search/?api=1&query=Timișoara+Orthodox+Cathedral\">Timișoara Orthodox Cathedral</a>.",
+        "afternoon": "🍽️ Enjoy lunch in the Old Town, explore the exhibits at <a href=\"https://www.google.com/maps/search/?api=1&query=Museum+of+the+Revolution+Timișoara\">Museum of the Revolution</a>, and relax in <a href=\"https://www.google.com/maps/search/?api=1&query=Botanic+Park+Timișoara\">Botanic Park</a>.",
+        "evening": "🌇 Sip local beer at a craft bar near <a href=\"https://www.google.com/maps/search/?api=1&query=craft+beer+bars+Timișoara\">Victory Square</a>, capture sunset by the river, and dine in historic surroundings.",
+        "night": "🌃 Cap your night with gelato and a relaxed walk through lit streets and squares."
       },
       "seasons": {
         "spring": {
-          "event": "Timișoara City Days",
-          "description": "Pleasant weather and blooming parks make spring ideal for city walks.",
+          "highlight": "Blooming parks and lively café culture 🌸.",
           "ideas": [
             {
-              "name": "Historic Center Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=45.7560%2C21.2287",
-              "description": "Comfortable temperatures and lively terraces."
-            },
-            {
-              "name": "Roses Park (Parcul Rozelor)",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=45.7475%2C21.2425",
-              "description": "A colorful park near the river."
-            },
-            {
-              "name": "Museum Visits",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=45.7585%2C21.2262",
-              "description": "Balanced indoor and outdoor culture."
+              "name": "Spring Botanic Garden Visit",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Botanic+Park+Timișoara",
+              "description": "Enjoy floral blooms and shaded paths."
             }
           ]
         },
         "summer": {
-          "event": "Timișoara Jazz Festival",
-          "description": "Warm evenings, festivals, and outdoor concerts animate the city.",
+          "highlight": "Warm river walks and outdoor concerts ☀️.",
           "ideas": [
             {
-              "name": "Bega River Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=45.7485%2C21.2390",
-              "description": "Shaded paths and cool breezes."
-            },
-            {
-              "name": "Outdoor Cafés",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=45.7580%2C21.2265",
-              "description": "Social life in historic squares."
-            },
-            {
-              "name": "Evening Concerts",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=45.7565%2C21.2285",
-              "description": "Open-air cultural events."
+              "name": "Bega Promenade Chill",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Bega+River+Timișoara",
+              "description": "Relax by the Bega River with sunshine and scenic views."
             }
           ]
         },
         "autumn": {
-          "event": "Autumn Cultural Season",
-          "description": "Golden light and fewer crowds create a calm, elegant atmosphere.",
+          "highlight": "Golden leaves and alfresco dinners 🍁.",
           "ideas": [
             {
-              "name": "Baroque Square Photography",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=45.7585%2C21.2262",
-              "description": "Warm tones on historic façades."
-            },
-            {
-              "name": "Park Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=45.7475%2C21.2425",
-              "description": "Autumn colors along the river."
-            },
-            {
-              "name": "Local Dining",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=45.7575%2C21.2275",
-              "description": "Seasonal Banat cuisine."
+              "name": "Autumn Rose Park Walk",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Parcul+Rozelor+Timișoara",
+              "description": "Capture autumn hues in fragrant rose gardens."
             }
           ]
         },
         "winter": {
-          "event": "Timișoara Christmas Market",
-          "description": "Festive lights and markets transform the central squares.",
+          "highlight": "Festive lights, indoor culture and warm drinks ❄️.",
           "ideas": [
             {
-              "name": "Christmas Market in Victory Square",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=45.7560%2C21.2287",
-              "description": "Seasonal food, crafts, and decorations."
-            },
-            {
-              "name": "Historic Cafés",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=45.7580%2C21.2265",
-              "description": "Warm drinks on cold days."
-            },
-            {
-              "name": "Indoor Museums",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=45.7588%2C21.2258",
-              "description": "Comfortable winter sightseeing."
+              "name": "Winter Museum Day",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Art+Museum+Timișoara",
+              "description": "Warm up by exploring art and cultural exhibits indoors."
             }
           ]
         }
       },
       "public_transport_tips": [
         {
-          "tip": "Trams are the fastest way to move around the city.",
-          "link": "https://www.stpt.ro"
+          "tip": "Timișoara’s trams and buses connect major squares, parks and museums — convenient and easy to use 🚋.",
+          "link": "https://www.ratt.ro/"
         },
         {
-          "tip": "Day passes allow unlimited travel on buses, trams, and trolleybuses.",
-          "link": "https://www.stpt.ro"
+          "tip": "Regional trains connect Timișoara with Arad, Sibiu and Bucharest — ideal for longer trips 🚆.",
+          "link": "https://www.cfrcalatori.ro/en"
         },
         {
-          "tip": "The historic center is compact and ideal for walking.",
-          "link": "https://visit-timisoara.com"
+          "tip": "Biking along the Bega River is scenic and popular — rent bikes near the promenade 🚴‍♂️.",
+          "link": "https://www.timisoara.ro/"
         }
       ],
       "city_events": [
         {
-          "name": "Timișoara Jazz Festival",
           "season": "Summer",
-          "description": "An international jazz festival with concerts across the city.",
-          "website": "https://timisoarajazzfestival.ro",
-          "dates": "July (annual)"
-        },
-        {
-          "name": "Timișoara City Days",
-          "season": "Spring",
-          "description": "Celebrations marking the city’s history with concerts and events.",
-          "website": "https://www.primariatm.ro",
-          "dates": "April (annual)"
+          "dates": "June–August (annual)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Timișoara+summer+events",
+          "description": "Outdoor concerts, cultural festivals and riverside celebrations fill parks and squares 🎶."
         }
       ],
       "places": [
         {
-          "name": "Banat Museum",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=45.7588%2C21.2258",
-          "description": "A museum presenting the history and culture of the Banat region."
+          "name": "Union Square (Piața Unirii)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Union+Square+Timișoara",
+          "description": "Elegant historic square framed by baroque buildings and lively life 🏙️."
         },
         {
-          "name": "Opera House",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=45.7568%2C21.2290",
-          "description": "A cultural landmark located in Victory Square."
+          "name": "Huniade Castle",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Huniade+Castle+Timișoara",
+          "description": "Medieval fortress with deep history and sturdy walls 🏰."
         }
       ],
       "hidden_gems": [
         {
-          "name": "Fabric District",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=45.7570%2C21.2460",
-          "description": "A historic neighborhood reflecting the city’s multicultural past."
+          "name": "Quiet Iuliu Square Bench",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Iuliu+Square+Timișoara",
+          "description": "Secluded bench near leafy gardens — perfect for calm reflection 🌿."
         },
         {
-          "name": "Bastion Theresia",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=45.7582%2C21.2315",
-          "description": "A preserved section of the old fortress walls with cafés and galleries."
+          "name": "Hidden Alley Café",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=hidden+alley+cafe+Timișoara",
+          "description": "Cozy tucked-away café ideal for peaceful coffee breaks ☕."
         }
       ]
     }
-
   ]
 }

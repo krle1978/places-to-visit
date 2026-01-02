@@ -3,672 +3,800 @@
   "cities": [
     {
       "name": "Gdańsk",
-      "interests": [
-        {
-          "name": "Gdańsk Old Town (Główne Miasto)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=54.3481%2C18.6586",
-          "description": "A beautifully reconstructed historic center with colorful facades, narrow streets, and rich Hanseatic heritage."
-        },
-        {
-          "name": "Neptune’s Fountain",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=54.3485%2C18.6596",
-          "description": "One of Gdańsk’s most famous symbols, located on the Long Market in front of Artus Court."
-        },
-        {
-          "name": "European Solidarity Centre",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=54.3619%2C18.6497",
-          "description": "A modern museum and cultural center dedicated to the Solidarity movement and recent European history."
-        }
-      ],
-      "local_food_tip": "Try pierogi, żurek (sour rye soup), fresh Baltic fish, and local pastries in traditional Polish restaurants.",
+      "interests": {
+        "Art & Culture": [
+          {
+            "name": "Long Market (Długi Targ)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Long+Market+Gdańsk",
+            "description": "Historic heart of Gdańsk with colourful merchant houses, fountains and lively city life 🏙️."
+          },
+          {
+            "name": "St. Mary’s Church (Bazylika Mariacka)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=St.+Mary%E2%80%99s+Church+Gdańsk",
+            "description": "Iconic brick Gothic church and one of the largest brick churches in Europe — climb the tower for great city views ⛪."
+          },
+          {
+            "name": "European Solidarity Centre",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=European+Solidarity+Centre+Gdańsk",
+            "description": "Interactive museum exploring the history of Solidarity and Poland’s journey to freedom 🕊️."
+          },
+          {
+            "name": "Artus Court (Dwór Artusa)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Artus+Court+Gdańsk",
+            "description": "Historic building with rich interiors and exhibitions illustrating Gdańsk’s mercantile heritage 🎨."
+          },
+          {
+            "name": "National Maritime Museum",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=National+Maritime+Museum+Gdańsk",
+            "description": "Delve into the city’s sea-faring history and maritime treasures ⚓."
+          }
+        ],
+        "Photo Spots": [
+          {
+            "name": "Motława River Waterfront",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Mot%C5%82awa+River+Gda%C5%84sk",
+            "description": "Picturesque riverfront with historic granaries, boats and reflections — perfect for golden hour shots 📸."
+          },
+          {
+            "name": "Neptune’s Fountain",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Neptune%27s+Fountain+Gda%C5%84sk",
+            "description": "Iconic fountain in Long Market — classic photo spot with historic architecture 🐚."
+          },
+          {
+            "name": "Żuraw Crane",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Żuraw+Crane+Gda%C5%84sk",
+            "description": "Medieval port crane and symbol of Gdańsk’s maritime legacy — dramatic and photogenic 📷."
+          },
+          {
+            "name": "Mariacka Street",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Mariacka+Street+Gda%C5%84sk",
+            "description": "Charming cobblestone street with amber shops and historic façades — great for urban photography 🌇."
+          },
+          {
+            "name": "Ołowianka Island Views",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=O%C5%82owianka+Island+Gda%C5%84sk",
+            "description": "Scenic island setting with river views and cultural buildings — ideal for relaxed scenic shots 🌅."
+          }
+        ],
+        "Food & Nightlife": [
+          {
+            "name": "Traditional Polish Restaurants",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=polish+restaurants+Gda%C5%84sk",
+            "description": "Enjoy pierogi, żurek, smoked fish and local specialties in classic city centre eateries 🍽️."
+          },
+          {
+            "name": "Motława River Cafés & Terraces",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=river+cafes+Gda%C5%84sk",
+            "description": "Cafés along the river with coffee, desserts and views of boats and historic buildings ☕🍰."
+          },
+          {
+            "name": "Gruba Kaśka Brewery Taproom",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Gruba+Ka%C5%9Bka+brewery+Gda%C5%84sk",
+            "description": "Local brewery with craft beers and lively social vibe 🍺."
+          },
+          {
+            "name": "Pub & Cocktail Bars in Śródmieście",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=bars+Gda%C5%84sk+centrum",
+            "description": "City centre nightlife with drinks, music and fun atmospheres 🍸🎶."
+          },
+          {
+            "name": "Evening Gelato Strolls",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=gelato+Gda%C5%84sk",
+            "description": "Cap your evening with gelato as you wander the illuminated old town 🍨."
+          }
+        ],
+        "Nature & Relaxation": [
+          {
+            "name": "Beaches of Gdańsk (Stogi & Brzeźno)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Stogi+Beach+Gda%C5%84sk",
+            "description": "Long Baltic sandy beaches perfect for sunbathing, swimming and seaside relaxation 🏖️."
+          },
+          {
+            "name": "Park Oliwski",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Park+Oliwski+Gda%C5%84sk",
+            "description": "Historic park with ponds, flower gardens and shaded paths — great for picnics 🌿."
+          },
+          {
+            "name": "Tricity Landscape Park",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Tricity+Landscape+Park",
+            "description": "Expansive nature reserve with forests, lakes and trails — ideal for hiking and fresh air 🚶‍♂️."
+          },
+          {
+            "name": "Motława River Walks",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Mot%C5%82awa+River+walks+Gda%C5%84sk",
+            "description": "Leisurely strolls along the river with benches, sunshine and city views 🌞."
+          }
+        ]
+      },
+      "local_food_tip": "In Gdańsk, try Baltic fish like herring and cod, pierogi, żurek soup, stroopwafels and amber-infused desserts. Pair meals with local Polish beer or a glass of mead 🍷🐟.",
       "full_day": {
-        "morning": "Begin your day exploring <a href=\"https://www.google.com/maps/search/?api=1&query=54.3481%2C18.6586\" target=\"_blank\" rel=\"noopener\">Gdańsk Old Town</a> 🏘️, walking along the Long Market and side streets.",
-        "afternoon": "Visit <a href=\"https://www.google.com/maps/search/?api=1&query=54.3619%2C18.6497\" target=\"_blank\" rel=\"noopener\">the European Solidarity Centre</a> 🏛️, then enjoy lunch near the shipyard area.",
-        "sunset": "Stop by <a href=\"https://www.google.com/maps/search/?api=1&query=54.3485%2C18.6596\" target=\"_blank\" rel=\"noopener\">Neptune’s Fountain</a> 🌅 as the Old Town lights come on.",
-        "night": "Have dinner by the Motława River 🍽️ or enjoy an evening walk along the waterfront."
+        "morning": "☀️ Start with coffee on a terrace by the <a href=\"https://www.google.com/maps/search/?api=1&query=Mot%C5%82awa+River+Gda%C5%84sk\">Motława River Waterfront</a>, savour local pastries, then explore the historic <a href=\"https://www.google.com/maps/search/?api=1&query=Long+Market+Gda%C5%84sk\">Long Market</a> and its iconic façades.",
+        "afternoon": "🍽️ Enjoy a Polish lunch in the old town, walk to the <a href=\"https://www.google.com/maps/search/?api=1&query=National+Maritime+Museum+Gda%C5%84sk\">National Maritime Museum</a>, and relax with a stroll through <a href=\"https://www.google.com/maps/search/?api=1&query=Park+Oliwski+Gda%C5%84sk\">Park Oliwski</a>.",
+        "evening": "🌇 Sip a craft beer at <a href=\"https://www.google.com/maps/search/?api=1&query=Gruba+Ka%C5%9Bka+brewery+Gda%C5%84sk\">Gruba Kaśka Brewery Taproom</a>, capture sunset photos by the river, and dine at a lively restaurant.",
+        "night": "🌃 Cap your night with gelato and a relaxed walk along the illuminated old town lanes."
       },
       "seasons": {
         "spring": {
-          "event": "Spring City Walk Season",
-          "description": "Mild temperatures and blooming parks make spring ideal for sightseeing.",
+          "highlight": "Mild weather, floral parks and perfect city strolls 🌸.",
           "ideas": [
             {
-              "name": "Old Town Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=54.3481%2C18.6586",
-              "description": "Comfortable weather and fewer crowds."
-            },
-            {
-              "name": "Motława River Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=54.3475%2C18.6590",
-              "description": "Relaxed riverside strolls."
-            },
-            {
-              "name": "Museum Visits",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=54.3495%2C18.6545",
-              "description": "Balanced indoor and outdoor activities."
+              "name": "Spring Park Oliwski Walk",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Park+Oliwski+Gda%C5%84sk",
+              "description": "Enjoy fresh blooms and shaded paths as flowers awaken."
             }
           ]
         },
         "summer": {
-          "event": "St. Dominic’s Fair",
-          "description": "Summer is lively with festivals, outdoor dining, and seaside excursions.",
+          "highlight": "Sunny beach days, river life and outdoor dining ☀️.",
           "ideas": [
             {
-              "name": "St. Dominic’s Fair",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=54.3481%2C18.6586",
-              "description": "Historic open-air market with crafts and food."
-            },
-            {
-              "name": "Beach Trips to Brzeźno",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=54.4085%2C18.6455",
-              "description": "Easy access to Baltic beaches."
-            },
-            {
-              "name": "Evening Waterfront Dining",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=54.3470%2C18.6585",
-              "description": "Long summer evenings by the river."
+              "name": "Summer Baltic Beach Chill",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Stogi+Beach+Gda%C5%84sk",
+              "description": "Relax on the sandy shores of the Baltic Sea."
             }
           ]
         },
         "autumn": {
-          "event": "Autumn Cultural Season",
-          "description": "Cooler air and golden light create a calm and cozy city atmosphere.",
+          "highlight": "Golden light, cosy cafés and scenic walks 🍁.",
           "ideas": [
             {
-              "name": "Historic Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=54.3481%2C18.6586",
-              "description": "Less crowded streets and soft light."
-            },
-            {
-              "name": "Museum Exploration",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=54.3619%2C18.6497",
-              "description": "Ideal season for cultural visits."
-            },
-            {
-              "name": "Local Dining",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=54.3465%2C18.6570",
-              "description": "Warm Polish comfort food."
+              "name": "Autumn Motława Walk",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Mot%C5%82awa+River+walks+Gda%C5%84sk",
+              "description": "Capture warm hues along riverside paths."
             }
           ]
         },
         "winter": {
-          "event": "Christmas Market in Gdańsk",
-          "description": "Winter brings festive lights, markets, and a charming holiday atmosphere.",
+          "highlight": "Cozy indoor culture, festive lights and crisp air ❄️.",
           "ideas": [
             {
-              "name": "Christmas Market",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=54.3485%2C18.6596",
-              "description": "Seasonal stalls and decorations."
-            },
-            {
-              "name": "Indoor Museums",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=54.3495%2C18.6545",
-              "description": "Warm indoor sightseeing."
-            },
-            {
-              "name": "Cafés in the Old Town",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=54.3478%2C18.6580",
-              "description": "Hot drinks on cold days."
+              "name": "Winter Museum Day",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=European+Solidarity+Centre+Gda%C5%84sk",
+              "description": "Warm up exploring exhibits at the European Solidarity Centre."
             }
           ]
         }
       },
       "public_transport_tips": [
         {
-          "tip": "Trams and buses connect the Old Town with beaches and suburbs.",
-          "link": "https://ztm.gda.pl"
+          "tip": "Gdańsk’s buses and trams connect major attractions like Long Market, the Maritime Museum and beaches — convenient and easy to use 🚍.",
+          "link": "https://www.ztm.gda.pl/"
         },
         {
-          "tip": "SKM trains link Gdańsk with Sopot and Gdynia.",
-          "link": "https://www.skm.pkp.pl"
-        },
-        {
-          "tip": "The historic center is compact and walkable.",
-          "link": "https://visitgdansk.com"
+          "tip": "Ferries and water taxis on the Motława River offer scenic transport along the waterfront 🚤.",
+          "link": "https://www.visitgdansk.com/"
         }
       ],
       "city_events": [
         {
-          "name": "St. Dominic’s Fair",
           "season": "Summer",
-          "description": "One of Europe’s largest and oldest open-air fairs with crafts, food, and events.",
-          "website": "https://jarmarkswdominika.pl",
-          "dates": "July–August (annual)"
-        },
-        {
-          "name": "Gdańsk Christmas Market",
-          "season": "Winter",
-          "description": "Festive market with lights, food stalls, and holiday events.",
-          "website": "https://bozonarodzeniowy.pl",
-          "dates": "December (annual)"
+          "dates": "June–August (annual)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Gda%C5%84sk+summer+events",
+          "description": "Festivals, open-air concerts and cultural celebrations bring energy to squares and riverfront spaces 🎶."
         }
       ],
       "places": [
         {
-          "name": "St. Mary’s Church",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=54.3489%2C18.6599",
-          "description": "One of the largest brick churches in the world, offering views from its tower."
+          "name": "Long Market (Długi Targ)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Long+Market+Gda%C5%84sk",
+          "description": "Historic main square with colourful façades and lively atmosphere 🏙️."
         },
         {
-          "name": "Crane (Żuraw)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=54.3472%2C18.6580",
-          "description": "A medieval port crane and symbol of Gdańsk’s maritime past."
+          "name": "St. Mary’s Church (Bazylika Mariacka)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=St.+Mary%E2%80%99s+Church+Gda%C5%84sk",
+          "description": "Iconic Gothic church with panoramic views ⛪."
         }
       ],
       "hidden_gems": [
         {
-          "name": "Oliwa Park",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=54.4105%2C18.5615",
-          "description": "A peaceful landscaped park near Oliwa Cathedral, popular with locals."
+          "name": "Quiet Riverside Bench",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=quiet+riverside+bench+Gda%C5%84sk",
+          "description": "Secluded bench along the Motława River — perfect for calm reflection 🌊."
         },
         {
-          "name": "Shipyard Murals",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=54.3605%2C18.6480",
-          "description": "Street art and murals reflecting Gdańsk’s shipyard and Solidarity history."
+          "name": "Hidden Alley Café",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=hidden+alley+cafe+Gda%C5%84sk",
+          "description": "Cozy tucked-away café ideal for peaceful coffee moments ☕."
         }
       ]
     },
 
     {
       "name": "Kraków",
-      "interests": [
-        {
-          "name": "Main Market Square (Rynek Główny)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=50.0616%2C19.9373",
-          "description": "One of Europe’s largest medieval squares, surrounded by historic townhouses, cafés, and major landmarks."
-        },
-        {
-          "name": "Wawel Royal Castle",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=50.0540%2C19.9353",
-          "description": "A former royal residence overlooking the Vistula River, symbolizing Polish history and identity."
-        },
-        {
-          "name": "Kazimierz (Jewish Quarter)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=50.0515%2C19.9448",
-          "description": "A historic district known for synagogues, cultural heritage, street art, and vibrant cafés."
-        }
-      ],
-      "local_food_tip": "Try pierogi, żurek, obwarzanek (Kraków pretzel), and traditional Polish cakes in local milk bars or restaurants.",
+      "interests": {
+        "Art & Culture": [
+          {
+            "name": "Wawel Castle",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Wawel+Castle+Kraków",
+            "description": "Historic royal residence and symbol of Polish heritage — explore chambers, crown jewels, and stunning views of the Vistula 🏰."
+          },
+          {
+            "name": "Main Market Square (Rynek Główny)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Main+Market+Square+Kraków",
+            "description": "Europe’s largest medieval square — buzzing with history, street performers and iconic landmarks 🏙️."
+          },
+          {
+            "name": "St. Mary’s Basilica",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=St.+Mary’s+Basilica+Kraków",
+            "description": "Gothic church known for its blue stained glass and trumpet signal (Hejnał) — majestic inside and out ⛪."
+          },
+          {
+            "name": "Schindler’s Factory",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Schindler’s+Factory+Museum+Kraków",
+            "description": "Powerful museum chronicling life in Kraków under Nazi occupation — immersive and moving 🧠."
+          },
+          {
+            "name": "Museum of Contemporary Art in Kraków (MOCAK)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=MOCAK+Kraków",
+            "description": "Contemporary art space showcasing Polish and international modern works 🎨."
+          }
+        ],
+        "Photo Spots": [
+          {
+            "name": "St. Mary’s Basilica Towers",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=St.+Mary’s+Basilica+Towers+Kraków",
+            "description": "Climb for sweeping views of the old town and historic rooftops 📸."
+          },
+          {
+            "name": "Wawel Dragon’s Den & Riverside",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Wawel+Dragon’s+Den+Kraków",
+            "description": "Scenic riverbank views with medieval castle and folklore all around 🌅."
+          },
+          {
+            "name": "Planty Park Paths",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Planty+Park+Kraków",
+            "description": "Green belt encircling the Old Town — perfect for seasonal photos in nature 🌿."
+          },
+          {
+            "name": "Nowa Huta Urban Scenes",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Nowa+Huta+Kraków",
+            "description": "Unique Socialist-era architecture and streetscape — a contrast to Kraków’s medieval core 📷."
+          },
+          {
+            "name": "Kazimierz Street Murals",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Kazimierz+street+art+Kraków",
+            "description": "Colourful alleyway art and historic façades — great for creative shots 🎨."
+          }
+        ],
+        "Food & Nightlife": [
+          {
+            "name": "Rynek Główny Restaurants",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=restaurants+Main+Market+Square+Kraków",
+            "description": "Terrace eateries with Polish classics like pierogi, żurek and roasted meats 🍽️."
+          },
+          {
+            "name": "Kazimierz Jewish Quarter Cafés",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Kazimierz+cafes+Kraków",
+            "description": "Historic district cafés with vibes, desserts and espresso — perfect for slow afternoons ☕🍰."
+          },
+          {
+            "name": "Podgórze Bistro Bars",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Podgórze+bars+Kraków",
+            "description": "Trendy district with craft beers, wine bars and creative cuisine 🍷."
+          },
+          {
+            "name": "Clubs & Lounges in Kraków Old Town",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=nightclubs+Kraków+Old+Town",
+            "description": "Vibrant nightlife scene with dance floors, DJs and late nights ✨."
+          },
+          {
+            "name": "Evening Gelato Strolls",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=gelato+Kraków",
+            "description": "Cap your night with creamy gelato while exploring illuminated squares 🍨."
+          }
+        ],
+        "Nature & Relaxation": [
+          {
+            "name": "Vistula Boulevards",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Vistula+boulevards+Kraków",
+            "description": "Leisurely riverside paths, benches and sunset views — great for walks and chill moments 🚶‍♂️."
+          },
+          {
+            "name": "Zakrzówek Lagoon",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Zakrzówek+Kraków",
+            "description": "Lakeside beauty with cliff edges and turquoise water — ideal for picnics or photos 🌊."
+          },
+          {
+            "name": "Błonia Park Meadows",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Błonia+Park+Kraków",
+            "description": "Wide green fields near the city centre — perfect for sunsets and relaxation 🌳."
+          },
+          {
+            "name": "Tyniec Abbey Trails",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Tyniec+Abbey+Kraków",
+            "description": "Historic abbey with trails overlooking the river and surrounding nature — peaceful and scenic 🥾."
+          }
+        ]
+      },
+      "local_food_tip": "In Kraków, try traditional pierogi, oscypek cheese, żurek soup, bigos and local craft beer. Pair meals with Polish mead or a glass of regional wine while watching the city’s old-town charm 🍷🍖.",
       "full_day": {
-        "morning": "Start your day at <a href=\"https://www.google.com/maps/search/?api=1&query=50.0616%2C19.9373\" target=\"_blank\" rel=\"noopener\">Main Market Square</a> 🏰, visiting the Cloth Hall and St. Mary’s Basilica.",
-        "afternoon": "Walk up to <a href=\"https://www.google.com/maps/search/?api=1&query=50.0540%2C19.9353\" target=\"_blank\" rel=\"noopener\">Wawel Royal Castle</a> 👑 and stroll along the Vistula River.",
-        "sunset": "Explore <a href=\"https://www.google.com/maps/search/?api=1&query=50.0515%2C19.9448\" target=\"_blank\" rel=\"noopener\">Kazimierz</a> 🌅, enjoying its historic streets and atmosphere.",
-        "night": "Have dinner in Kazimierz 🍽️ or enjoy a calm evening walk through the Old Town."
+        "morning": "☀️ Start with coffee and a breakfast pastry near <a href=\"https://www.google.com/maps/search/?api=1&query=Main+Market+Square+Kraków\">Main Market Square</a>, explore <a href=\"https://www.google.com/maps/search/?api=1&query=St.+Mary’s+Basilica+Kraków\">St. Mary’s Basilica</a> and wander to <a href=\"https://www.google.com/maps/search/?api=1&query=Wawel+Castle+Kraków\">Wawel Castle</a>.",
+        "afternoon": "🍽️ Enjoy pierogi or Polish classics for lunch, stroll through Planty Park, then explore the artsy streets of Kazimierz and Podgórze.",
+        "evening": "🌇 Sip wine at a café in Kazimierz, capture sunset on the Vistula Boulevards, and savour dinner in the Old Town.",
+        "night": "🌃 Cap your night with gelato and lively nightlife in Kraków’s clubs and lounges."
       },
       "seasons": {
         "spring": {
-          "event": "Spring City Walk Season",
-          "description": "Mild weather and blooming parks make spring ideal for exploring Kraków on foot.",
+          "highlight": "Blossoming parks, gentle breezes and perfect café terraces 🌸.",
           "ideas": [
             {
-              "name": "Planty Park Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=50.0608%2C19.9350",
-              "description": "Green park encircling the Old Town."
-            },
-            {
-              "name": "Old Town Sightseeing",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=50.0616%2C19.9373",
-              "description": "Comfortable temperatures and fewer crowds."
-            },
-            {
-              "name": "River Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=50.0500%2C19.9330",
-              "description": "Relaxed strolls along the Vistula."
+              "name": "Spring Park Błonia Walk",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Błonia+Park+Kraków",
+              "description": "Enjoy fresh blooms and green expanses in the heart of the city."
             }
           ]
         },
         "summer": {
-          "event": "Kraków Summer Festivals",
-          "description": "Summer is lively with cultural events, outdoor dining, and long evenings.",
+          "highlight": "Long days, riverside strolls and outdoor events ☀️.",
           "ideas": [
             {
-              "name": "Open-Air Concerts",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=50.0616%2C19.9373",
-              "description": "Music and events in historic settings."
-            },
-            {
-              "name": "Evening Market Square Visits",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=50.0616%2C19.9373",
-              "description": "Atmospheric nights in the Old Town."
-            },
-            {
-              "name": "Boat Cruises on the Vistula",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=50.0530%2C19.9335",
-              "description": "Relaxing city views from the river."
+              "name": "Summer Vistula Boat Cruise",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Vistula+boat+cruise+Kraków",
+              "description": "Relax on the water with scenic views and sunshine 🚤."
             }
           ]
         },
         "autumn": {
-          "event": "Autumn Cultural Season",
-          "description": "Cooler air and golden colors create a cozy and cultural atmosphere.",
+          "highlight": "Golden light, cosy cafés and scenic foliage 🍁.",
           "ideas": [
             {
-              "name": "Kazimierz Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=50.0515%2C19.9448",
-              "description": "Historic streets with fewer tourists."
-            },
-            {
-              "name": "Museum Visits",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=50.0600%2C19.9340",
-              "description": "Ideal season for indoor culture."
-            },
-            {
-              "name": "Local Dining",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=50.0525%2C19.9465",
-              "description": "Hearty Polish cuisine."
+              "name": "Autumn Wawel Views",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Wawel+Castle+Kraków",
+              "description": "Capture warm autumn hues against the historic castle."
             }
           ]
         },
         "winter": {
-          "event": "Kraków Christmas Market",
-          "description": "Winter brings festive lights, snow-dusted streets, and a magical Old Town atmosphere.",
+          "highlight": "Festive markets, snowy scenes and warm cafés ❄️.",
           "ideas": [
             {
-              "name": "Christmas Market",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=50.0616%2C19.9373",
-              "description": "Seasonal food, crafts, and decorations."
-            },
-            {
-              "name": "Historic Café Visits",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=50.0605%2C19.9385",
-              "description": "Warm drinks in classic cafés."
-            },
-            {
-              "name": "Indoor Museums",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=50.0540%2C19.9353",
-              "description": "Comfortable sightseeing during cold days."
+              "name": "Winter Market Magic",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Kraków+Christmas+Market",
+              "description": "Enjoy mulled wine, lights and crafts in the winter square."
             }
           ]
         }
       },
       "public_transport_tips": [
         {
-          "tip": "Trams are the fastest way to move around the city.",
-          "link": "https://ztp.krakow.pl"
+          "tip": "Kraków’s trams and buses connect major spots including Main Market Square, Kazimierz and the castle — efficient and easy to use 🚍.",
+          "link": "https://www.mpk.krakow.pl/"
         },
         {
-          "tip": "Day tickets offer unlimited travel on public transport.",
-          "link": "https://ztp.krakow.pl"
-        },
-        {
-          "tip": "The Old Town is compact and best explored on foot.",
-          "link": "https://visitkrakow.com"
+          "tip": "Bike rentals and walking paths make exploring the city centre comfortable and scenic 🚲.",
+          "link": "https://www.krakow.pl/"
         }
       ],
       "city_events": [
         {
-          "name": "Jewish Culture Festival",
           "season": "Summer",
-          "description": "One of the world’s largest festivals celebrating Jewish culture, music, and traditions.",
-          "website": "https://jewishfestival.pl",
-          "dates": "June–July (annual)"
-        },
-        {
-          "name": "Kraków Christmas Market",
-          "season": "Winter",
-          "description": "A festive market held on the Main Market Square.",
-          "website": "https://krakow.pl",
-          "dates": "December (annual)"
+          "dates": "June–August (annual)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Kraków+summer+events",
+          "description": "Music festivals, street performances and outdoor cultural celebrations animate squares and parks 🎶."
         }
       ],
       "places": [
         {
-          "name": "St. Mary’s Basilica",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=50.0618%2C19.9377",
-          "description": "A Gothic church famous for its wooden altarpiece and hourly trumpet call."
+          "name": "Wawel Castle",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Wawel+Castle+Kraków",
+          "description": "Historic royal residence with panoramic views and rich heritage 🏰."
         },
         {
-          "name": "Cloth Hall (Sukiennice)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=50.0615%2C19.9370",
-          "description": "A Renaissance торгов hall housing souvenir stalls and galleries."
+          "name": "Main Market Square (Rynek Główny)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Main+Market+Square+Kraków",
+          "description": "Vibrant medieval square full of life, history and iconic landmarks 🏙️."
         }
       ],
       "hidden_gems": [
         {
-          "name": "Nowa Huta Central Square",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=50.0695%2C20.0375",
-          "description": "A unique socialist-realist district showing a different side of Kraków."
+          "name": "Quiet Vistula Bench",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=quiet+Vistula+bench+Kraków",
+          "description": "Secluded benches by the river — perfect for calm reflection 🌊."
         },
         {
-          "name": "Tyniec Abbey (Nearby)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=50.0175%2C19.7970",
-          "description": "A Benedictine abbey overlooking the Vistula, perfect for a peaceful half-day trip."
+          "name": "Hidden Alley Café",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=hidden+alley+cafe+Kraków",
+          "description": "Cozy tucked-away café ideal for peaceful coffee breaks ☕."
         }
       ]
     },
 
     {
       "name": "Poznań",
-      "interests": [
-        {
-          "name": "Old Market Square (Stary Rynek)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=52.4081%2C16.9345",
-          "description": "The historic heart of Poznań, known for its colorful merchant houses, lively cafés, and vibrant atmosphere."
-        },
-        {
-          "name": "Poznań Town Hall",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=52.4082%2C16.9341",
-          "description": "A Renaissance town hall famous for the mechanical goats that appear daily at noon."
-        },
-        {
-          "name": "Cathedral Island (Ostrów Tumski)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=52.4145%2C16.9460",
-          "description": "The oldest part of Poznań and the birthplace of the Polish state, home to historic churches and quiet streets."
-        }
-      ],
-      "local_food_tip": "Try the famous St. Martin’s croissant (Rogal świętomarciński), pyry z gzikiem (potatoes with cottage cheese), and classic Polish soups.",
+      "interests": {
+        "Art & Culture": [
+          {
+            "name": "Old Market Square (Stary Rynek)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Old+Market+Square+Pozna%C5%84",
+            "description": "Vibrant historic square with colourful merchant houses, the Renaissance Town Hall and lively cafés 🏛️."
+          },
+          {
+            "name": "Poznań Town Hall & Bilateral Goats",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Pozna%C5%84+Town+Hall",
+            "description": "Renaissance masterpiece with the famous mechanical goats that butt heads every noon — quirky and iconic 🐐."
+          },
+          {
+            "name": "Imperial Castle (Zamek)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Imperial+Castle+Pozna%C5%84",
+            "description": "Historic castle with cultural events, art exhibits and beautiful interiors reflecting Poznań’s royal past 🏰."
+          },
+          {
+            "name": "National Museum in Poznań",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=National+Museum+Pozna%C5%84",
+            "description": "Major art collection spanning Polish and international works — perfect for lovers of art and history 🎨."
+          },
+          {
+            "name": "Archdiocesan Museum",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Archdiocesan+Museum+Pozna%C5%84",
+            "description": "Ecclesiastical art and treasures from medieval times — fascinating for history buffs 🕍."
+          }
+        ],
+        "Photo Spots": [
+          {
+            "name": "Old Market Square Views",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Old+Market+Square+Pozna%C5%84",
+            "description": "Picturesque façades, lively scenes and colourful buildings — great for classic Polish city photos 📸."
+          },
+          {
+            "name": "Poznań Town Hall Balcony",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Pozna%C5%84+Town+Hall+balcony",
+            "description": "Historic balcony with views over the square and annual events — perfect for dynamic shots 🌇."
+          },
+          {
+            "name": "Cathedral Island (Ostrów Tumski)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Ostr%C3%B3w+Tumski+Pozna%C5%84",
+            "description": "Historic island with cathedral and river views — ideal for scenic and architectural photography 📷."
+          },
+          {
+            "name": "Warta Riverbanks",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Warta+River+Pozna%C5%84",
+            "description": "Riverside paths with reflections, bridges and greenery — peaceful golden hour spot 🌅."
+          },
+          {
+            "name": "Cytadela Park Walks",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Cytadela+Park+Pozna%C5%84",
+            "description": "Historic park with monuments, ponds and shaded lanes — great for nature and portrait photos 🌿."
+          }
+        ],
+        "Food & Nightlife": [
+          {
+            "name": "Old Town Restaurants",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=restaurants+Old+Town+Pozna%C5%84",
+            "description": "Polish classics like pierogi, rogale świętomarcińskie and local beers in lively settings 🍽️."
+          },
+          {
+            "name": "Wielka Street Cafés",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Wielka+Street+cafes+Pozna%C5%84",
+            "description": "Trendy cafés and terrace spots ideal for coffee, desserts and people-watching ☕🍰."
+          },
+          {
+            "name": "Food Halls & Beer Pubs",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=beer+pubs+Pozna%C5%84",
+            "description": "Craft beer bars, cellar pubs and lively food halls serving local brews and bites 🍺."
+          },
+          {
+            "name": "Nightclubs in City Centre",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=nightclubs+Pozna%C5%84+centre",
+            "description": "Dynamic nightlife with music, DJs and dancing till late ✨."
+          },
+          {
+            "name": "Evening Gelato Walks",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=gelato+Pozna%C5%84",
+            "description": "Cap your night with gelato as you explore illuminated historic streets 🍨."
+          }
+        ],
+        "Nature & Relaxation": [
+          {
+            "name": "Cytadela Park",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Cytadela+Park+Pozna%C5%84",
+            "description": "Green oasis with historical monuments, fountains and shaded lawns — perfect for slow walks 🌳."
+          },
+          {
+            "name": "Warta River Promenade",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Warta+River+promenade+Pozna%C5%84",
+            "description": "Leisurely riverside paths with benches and views — great for relaxation and golden hours 🚶‍♂️."
+          },
+          {
+            "name": "Lake Malta",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Lake+Malta+Pozna%C5%84",
+            "description": "Recreational lake with walking trails, cafés and water scenery — ideal for a day outdoors 🌞."
+          },
+          {
+            "name": "Botanical Garden UAM",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Botanical+Garden+UAM+Pozna%C5%84",
+            "description": "Peaceful garden with floral collections and shaded walkways — great for nature lovers 🌸."
+          }
+        ]
+      },
+      "local_food_tip": "In Poznań, try the famous rogale świętomarcińskie pastry, hearty Polish pierogi, żurek soup, local sausages and craft beers. Pair meals with Polish beer or mead while enjoying historic square views 🍷🍖.",
       "full_day": {
-        "morning": "Start your day at <a href=\"https://www.google.com/maps/search/?api=1&query=52.4081%2C16.9345\" target=\"_blank\" rel=\"noopener\">Old Market Square</a> 🏛️, exploring its colorful buildings and cafés.",
-        "afternoon": "Visit the <a href=\"https://www.google.com/maps/search/?api=1&query=52.4145%2C16.9460\" target=\"_blank\" rel=\"noopener\">Cathedral Island</a> ⛪, then enjoy lunch nearby.",
-        "sunset": "Return to <a href=\"https://www.google.com/maps/search/?api=1&query=52.4082%2C16.9341\" target=\"_blank\" rel=\"noopener\">Poznań Town Hall</a> 🌅 to see the square in evening light.",
-        "night": "Dine around the Old Market Square 🍽️ or enjoy a relaxed walk through the illuminated center."
+        "morning": "☀️ Start with coffee and a sweet treat on <a href=\"https://www.google.com/maps/search/?api=1&query=Wielka+Street+cafes+Pozna%C5%84\">Wielka Street</a>, explore the vibrant <a href=\"https://www.google.com/maps/search/?api=1&query=Old+Market+Square+Pozna%C5%84\">Old Market Square</a>, and catch the mechanical goats at the <a href=\"https://www.google.com/maps/search/?api=1&query=Pozna%C5%84+Town+Hall\">Town Hall</a>.",
+        "afternoon": "🍽️ Enjoy lunch at a local restaurant, relax with a walk around <a href=\"https://www.google.com/maps/search/?api=1&query=Cytadela+Park+Pozna%C5%84\">Cytadela Park</a>, then stroll the <a href=\"https://www.google.com/maps/search/?api=1&query=Warta+River+promenade+Pozna%C5%84\">Warta River Promenade</a>.",
+        "evening": "🌇 Sip craft beer at a pub, capture sunset views by the river or at <a href=\"https://www.google.com/maps/search/?api=1&query=Lake+Malta+Pozna%C5%84\">Lake Malta</a>, and dine in the city centre.",
+        "night": "🌃 Cap your night with gelato and explore Poznań’s lively nightlife spots."
       },
       "seasons": {
         "spring": {
-          "event": "Spring City Season",
-          "description": "Spring brings blooming parks and ideal weather for walking.",
+          "highlight": "Blossoming parks, mild breezes and perfect terrace weather 🌸.",
           "ideas": [
             {
-              "name": "Old Town Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=52.4081%2C16.9345",
-              "description": "Comfortable temperatures and lively streets."
-            },
-            {
-              "name": "Park Cytadela",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=52.4185%2C16.9255",
-              "description": "Green spaces and monuments above the city."
-            },
-            {
-              "name": "Riverside Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=52.4120%2C16.9450",
-              "description": "Relaxed strolls along the Warta River."
+              "name": "Spring Cytadela Picnic",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Cytadela+Park+Pozna%C5%84",
+              "description": "Enjoy fresh blooms and relaxed picnics in the park."
             }
           ]
         },
         "summer": {
-          "event": "Malta Festival",
-          "description": "Summer is lively with festivals, outdoor dining, and cultural events.",
+          "highlight": "Warm days, lake vibes and festival energy ☀️.",
           "ideas": [
             {
-              "name": "Malta Lake Recreation",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=52.4010%2C16.9695",
-              "description": "Cycling, walking, and water activities."
-            },
-            {
-              "name": "Evening Old Town Visits",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=52.4081%2C16.9345",
-              "description": "Lively atmosphere after sunset."
-            },
-            {
-              "name": "Outdoor Performances",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=52.4025%2C16.9685",
-              "description": "Theatre and music events."
+              "name": "Summer Lake Malta Chill",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Lake+Malta+Pozna%C5%84",
+              "description": "Relax by the water with sunshine and scenic views."
             }
           ]
         },
         "autumn": {
-          "event": "Autumn Cultural Season",
-          "description": "Cooler air and colorful trees create a cozy city feel.",
+          "highlight": "Golden leaves, crisp air and scenic walks 🍁.",
           "ideas": [
             {
-              "name": "Museum Visits",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=52.4090%2C16.9320",
-              "description": "Comfortable indoor culture."
-            },
-            {
-              "name": "Cytadela Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=52.4185%2C16.9255",
-              "description": "Autumn colors and city views."
-            },
-            {
-              "name": "Local Dining",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=52.4075%2C16.9360",
-              "description": "Hearty Polish dishes."
+              "name": "Autumn Warta Walk",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Warta+River+promenade+Pozna%C5%84",
+              "description": "Capture warm autumn hues on riverside paths."
             }
           ]
         },
         "winter": {
-          "event": "Poznań Christmas Fair",
-          "description": "Winter brings festive lights and seasonal markets.",
+          "highlight": "Cozy cafés, cultural spots and festive lights ❄️.",
           "ideas": [
             {
-              "name": "Christmas Market",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=52.4100%2C16.9245",
-              "description": "Holiday food, crafts, and decorations."
-            },
-            {
-              "name": "Historic Café Visits",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=52.4080%2C16.9355",
-              "description": "Warm drinks on cold days."
-            },
-            {
-              "name": "Indoor Museums",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=52.4090%2C16.9320",
-              "description": "Comfortable sightseeing in winter."
+              "name": "Winter Café Break",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Wielka+Street+cafes+Pozna%C5%84",
+              "description": "Warm up with coffee and pastries in a cozy café."
             }
           ]
         }
       },
       "public_transport_tips": [
         {
-          "tip": "Trams are the fastest way to move around Poznań.",
-          "link": "https://www.ztm.poznan.pl"
+          "tip": "Poznań’s trams and buses connect main attractions like the Old Market Square, Cytadela Park and Lake Malta — easy to use 🚍.",
+          "link": "https://www.ztm.poznan.pl/"
         },
         {
-          "tip": "Day and short-term tickets are convenient for visitors.",
-          "link": "https://www.ztm.poznan.pl"
-        },
-        {
-          "tip": "The Old Town area is compact and walkable.",
-          "link": "https://visitpoznan.pl"
+          "tip": "Bike rentals and walking paths make city exploration scenic and convenient 🚲.",
+          "link": "https://www.poznan.pl/"
         }
       ],
       "city_events": [
         {
-          "name": "Malta Festival",
           "season": "Summer",
-          "description": "An international theatre, music, and arts festival held around Malta Lake.",
-          "website": "https://malta-festival.pl",
-          "dates": "June (annual)"
-        },
-        {
-          "name": "St. Martin’s Day",
-          "season": "Autumn",
-          "description": "Celebrations featuring parades and the famous St. Martin’s croissants.",
-          "website": "https://visitpoznan.pl",
-          "dates": "November 11 (annual)"
+          "dates": "June–August (annual)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Pozna%C5%84+summer+events",
+          "description": "Open-air concerts, festivals and cultural celebrations bring energy to squares and parks 🎶."
         }
       ],
       "places": [
         {
-          "name": "Imperial Castle",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=52.4088%2C16.9205",
-          "description": "A neo-Romanesque castle built for the German emperor, now a cultural center."
+          "name": "Old Market Square (Stary Rynek)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Old+Market+Square+Pozna%C5%84",
+          "description": "Historic square full of lively cafés, colours and architecture 🏙️."
         },
         {
-          "name": "Malta Lake",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=52.4010%2C16.9695",
-          "description": "A large recreational area popular for sports and walks."
+          "name": "Imperial Castle (Zamek)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Imperial+Castle+Pozna%C5%84",
+          "description": "Cultural venue with history and exhibitions 🏰."
         }
       ],
       "hidden_gems": [
         {
-          "name": "Śródka District",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=52.4135%2C16.9485",
-          "description": "A colorful neighborhood near Cathedral Island with murals and local cafés."
+          "name": "Quiet Riverside Bench",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=quiet+riverside+bench+Pozna%C5%84",
+          "description": "Secluded bench by the Warta River — perfect place for calm reflection 🌊."
         },
         {
-          "name": "Brama Poznania (Poznań Gate)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=52.4140%2C16.9450",
-          "description": "An interactive heritage center explaining the origins of Poland."
+          "name": "Hidden Alley Café",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=hidden+alley+cafe+Pozna%C5%84",
+          "description": "Cozy tucked-away café ideal for peaceful moments ☕."
         }
       ]
     },
 
     {
       "name": "Warsaw",
-      "interests": [
-        {
-          "name": "Old Town (Stare Miasto)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=52.2494%2C21.0122",
-          "description": "A UNESCO-listed historic center carefully reconstructed after World War II, filled with colorful townhouses and narrow streets."
-        },
-        {
-          "name": "Royal Castle",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=52.2476%2C21.0146",
-          "description": "A former royal residence overlooking Castle Square, symbolizing Polish statehood and history."
-        },
-        {
-          "name": "Łazienki Park",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=52.2153%2C21.0355",
-          "description": "Warsaw’s most beautiful park, known for the Palace on the Isle, peacocks, and open-air Chopin concerts."
-        }
-      ],
-      "local_food_tip": "Try pierogi, kotlet schabowy, żurek soup, and Polish desserts like sernik (cheesecake) in traditional restaurants.",
+      "interests": {
+        "Art & Culture": [
+          {
+            "name": "Old Town (Stare Miasto)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Old+Town+Warsaw",
+            "description": "UNESCO-restored medieval core with royal castles, cobbled lanes and vibrant history 🏛️."
+          },
+          {
+            "name": "Royal Castle",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Royal+Castle+Warsaw",
+            "description": "Majestic former residence of Polish monarchs — rich interiors and royal chambers 👑."
+          },
+          {
+            "name": "POLIN Museum of the History of Polish Jews",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=POLIN+Museum+Warsaw",
+            "description": "Award-winning museum telling 1000 years of Jewish life in Poland — immersive and moving 🕯️."
+          },
+          {
+            "name": "Warsaw Uprising Museum",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Warsaw+Uprising+Museum",
+            "description": "Interactive exhibits on the heroic 1944 uprising — powerful history and inspiring stories 🛡️."
+          },
+          {
+            "name": "National Museum in Warsaw",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=National+Museum+Warsaw",
+            "description": "Extensive art collection from antiquity to modern Poland — cultural highlight 🎨."
+          }
+        ],
+        "Photo Spots": [
+          {
+            "name": "Łazienki Park & Palace on the Isle",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Łazienki+Park+Warsaw",
+            "description": "Scenic gardens, classical palace and peacocks — perfect for elegant nature and architecture shots 📸."
+          },
+          {
+            "name": "Palace of Culture and Science",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Palace+of+Culture+and+Science+Warsaw",
+            "description": "Iconic skyline landmark with panoramic viewing deck — dramatic city vistas 🌆."
+          },
+          {
+            "name": "Old Town Market Square",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Old+Town+Market+Square+Warsaw",
+            "description": "Colourful façades, lively squares and seasonal life — classic Warsaw photos 🏘️."
+          },
+          {
+            "name": "Vistula Boulevards",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Vistula+boulevards+Warsaw",
+            "description": "Riverside views with bridges, lights and placid reflections — great at sunset 🌇."
+          },
+          {
+            "name": "Neon Museum",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Neon+Museum+Warsaw",
+            "description": "Vibrant neon signs and retro vibes — bold, colourful night photography 📷."
+          }
+        ],
+        "Food & Nightlife": [
+          {
+            "name": "Old Town Restaurants",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=restaurants+Old+Town+Warsaw",
+            "description": "Polish classics like pierogi, żurek and bigos in atmospheric historic settings 🍽️."
+          },
+          {
+            "name": "Hala Koszyki Food Hall",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Hala+Koszyki+Warsaw",
+            "description": "Trendy food hall with local vendors and global bites — perfect for lunch or late snacks ☕🍷."
+          },
+          {
+            "name": "Praga District Bars",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Praga+district+bars+Warsaw",
+            "description": "Eclectic bars and artistic nightlife scene east of the Vistula 🍸🎶."
+          },
+          {
+            "name": "Cocktail Bars in Śródmieście",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=cocktail+bars+Śródmieście+Warsaw",
+            "description": "Stylish cocktail lounges and lounges in the heart of the city 🍹."
+          },
+          {
+            "name": "Evening Gelato Walks",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=gelato+Warsaw",
+            "description": "Cap the night with gelato through the lit historic streets 🍨."
+          }
+        ],
+        "Nature & Relaxation": [
+          {
+            "name": "Łazienki Park",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Łazienki+Park+Warsaw",
+            "description": "Vast royal parkland with ponds, shaded paths and peacocks — ideal for picnics and relaxation 🌳."
+          },
+          {
+            "name": "Vistula River Cruises",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Vistula+River+cruises+Warsaw",
+            "description": "Gentle boat tours on the Vistula with scenic city and skyline views 🚤."
+          },
+          {
+            "name": "Saxon Garden (Ogród Saski)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Saxon+Garden+Warsaw",
+            "description": "Historic landscaped park near the city centre — peaceful and pretty 🌿."
+          },
+          {
+            "name": "Park Skaryszewski",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Park+Skaryszewski+Warsaw",
+            "description": "Beautiful park with water features, tree groves and wide lawns — great for unwinding 🌅."
+          }
+        ]
+      },
+      "local_food_tip": "In Warsaw, try pierogi (Polish dumplings), żurek (sour rye soup), bigos (hunter’s stew), local sausages and oscypek cheese. Pair meals with Polish beer or mead while watching city life unfold 🍷🍖.",
       "full_day": {
-        "morning": "Begin in <a href=\"https://www.google.com/maps/search/?api=1&query=52.2494%2C21.0122\" target=\"_blank\" rel=\"noopener\">Warsaw Old Town</a> 🏘️, exploring Castle Square and cobbled streets.",
-        "afternoon": "Visit the <a href=\"https://www.google.com/maps/search/?api=1&query=52.2476%2C21.0146\" target=\"_blank\" rel=\"noopener\">Royal Castle</a> 👑, then enjoy lunch nearby.",
-        "sunset": "Relax in <a href=\"https://www.google.com/maps/search/?api=1&query=52.2153%2C21.0355\" target=\"_blank\" rel=\"noopener\">Łazienki Park</a> 🌅 among gardens and lakes.",
-        "night": "Have dinner in the city center 🍽️ or stroll along the Vistula River boulevards."
+        "morning": "☀️ Begin with coffee and pastries at <a href=\"https://www.google.com/maps/search/?api=1&query=Hala+Koszyki+Warsaw\">Hala Koszyki Food Hall</a>, stroll the royal gardens of <a href=\"https://www.google.com/maps/search/?api=1&query=Łazienki+Park+Warsaw\">Łazienki Park</a>, and explore the historic <a href=\"https://www.google.com/maps/search/?api=1&query=Old+Town+Warsaw\">Old Town</a>.",
+        "afternoon": "🍽️ Enjoy lunch in the Old Town, visit the <a href=\"https://www.google.com/maps/search/?api=1&query=POLIN+Museum+Warsaw\">POLIN Museum</a>, and relax with views along the <a href=\"https://www.google.com/maps/search/?api=1&query=Vistula+boulevards+Warsaw\">Vistula Boulevards</a>.",
+        "evening": "🌇 Sip cocktails in the Praga district, capture sunset photos at the <a href=\"https://www.google.com/maps/search/?api=1&query=Palace+of+Culture+and+Science+Warsaw\">Palace of Culture and Science</a> viewing deck, and dine in stylish venues.",
+        "night": "🌃 Cap your night with gelato and a leisurely stroll through illuminated streets and squares."
       },
       "seasons": {
         "spring": {
-          "event": "Chopin Concert Season Begins",
-          "description": "Spring brings blooming parks and mild temperatures, perfect for walking.",
+          "highlight": "Blossoming parks, cool breezes and lively terrace culture 🌸.",
           "ideas": [
             {
-              "name": "Park Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=52.2153%2C21.0355",
-              "description": "Green spaces come alive across the city."
-            },
-            {
-              "name": "Old Town Sightseeing",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=52.2494%2C21.0122",
-              "description": "Comfortable weather and fewer crowds."
-            },
-            {
-              "name": "Riverside Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=52.2390%2C21.0350",
-              "description": "Pleasant strolls along the Vistula."
+              "name": "Spring Saxon Garden Walk",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Saxon+Garden+Warsaw",
+              "description": "Enjoy blooming trees and shaded paths in this historic park."
             }
           ]
         },
         "summer": {
-          "event": "Open-Air Chopin Concerts",
-          "description": "Long days, festivals, and lively outdoor life define summer in Warsaw.",
+          "highlight": "Long days, waterfront vibes and outdoor concerts ☀️.",
           "ideas": [
             {
-              "name": "Chopin Concerts in Łazienki",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=52.2158%2C21.0335",
-              "description": "Free Sunday piano concerts."
-            },
-            {
-              "name": "Vistula Boulevards",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=52.2400%2C21.0300",
-              "description": "Beach bars and evening walks."
-            },
-            {
-              "name": "Museum Visits",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=52.2325%2C21.0215",
-              "description": "World-class cultural institutions."
+              "name": "Summer Vistula Cruise",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Vistula+River+cruises+Warsaw",
+              "description": "Relax on the water with scenic views of the city skyline."
             }
           ]
         },
         "autumn": {
-          "event": "Autumn Cultural Season",
-          "description": "Cooler air and golden trees create a relaxed city atmosphere.",
+          "highlight": "Golden foliage, crisp air and cosy cafés 🍁.",
           "ideas": [
             {
-              "name": "Łazienki Autumn Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=52.2153%2C21.0355",
-              "description": "Colorful foliage and calm paths."
-            },
-            {
-              "name": "Museum Exploration",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=52.2325%2C21.0215",
-              "description": "Ideal season for indoor culture."
-            },
-            {
-              "name": "Local Dining",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=52.2295%2C21.0120",
-              "description": "Hearty Polish cuisine."
+              "name": "Autumn Łazienki Stroll",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Łazienki+Park+Warsaw",
+              "description": "Capture rich autumn colours amid regal gardens."
             }
           ]
         },
         "winter": {
-          "event": "Warsaw Christmas Market",
-          "description": "Winter brings festive lights, markets, and cozy cafés.",
+          "highlight": "Festive markets, snowy walks and warming cafés ❄️.",
           "ideas": [
             {
-              "name": "Christmas Market in Old Town",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=52.2494%2C21.0122",
-              "description": "Seasonal food, crafts, and decorations."
-            },
-            {
-              "name": "Historic Café Visits",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=52.2305%2C21.0125",
-              "description": "Warm drinks during cold days."
-            },
-            {
-              "name": "Indoor Museums",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=52.2325%2C21.0215",
-              "description": "Comfortable sightseeing in winter."
+              "name": "Winter Holiday Market",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Warsaw+Christmas+Market",
+              "description": "Enjoy festive treats, lights and crafts in the winter squares."
             }
           ]
         }
       },
       "public_transport_tips": [
         {
-          "tip": "Warsaw has an extensive metro, tram, and bus network.",
-          "link": "https://www.wtp.waw.pl"
+          "tip": "Warsaw’s metro, buses and trams connect major attractions like Old Town, museums and parks — efficient and tourist-friendly 🚍.",
+          "link": "https://www.ztm.waw.pl/"
         },
         {
-          "tip": "Day tickets offer unlimited public transport travel.",
-          "link": "https://www.wtp.waw.pl"
-        },
-        {
-          "tip": "The city center and Old Town are very walkable.",
-          "link": "https://go2warsaw.pl"
+          "tip": "Vistula river ferries and bike-share options offer scenic and active ways to explore the city 🚤🚲.",
+          "link": "https://www.warsawtour.pl/"
         }
       ],
       "city_events": [
         {
-          "name": "Warsaw Uprising Commemorations",
           "season": "Summer",
-          "description": "Ceremonies and cultural events marking the 1944 uprising.",
-          "website": "https://1944.pl",
-          "dates": "August 1 (annual)"
-        },
-        {
-          "name": "Chopin and His Europe Festival",
-          "season": "Summer",
-          "description": "An international classical music festival dedicated to Chopin.",
-          "website": "https://chopin.nifc.pl",
-          "dates": "August (annual)"
+          "dates": "June–August (annual)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Warsaw+summer+events",
+          "description": "Music festivals, outdoor cinema and cultural celebrations fill parks, squares and riverside stages 🎶."
         }
       ],
       "places": [
         {
-          "name": "Palace of Culture and Science",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=52.2318%2C21.0065",
-          "description": "A landmark skyscraper offering city views from its observation deck."
+          "name": "Old Town (Stare Miasto)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Old+Town+Warsaw",
+          "description": "Historic fortified heart of Warsaw with colourful architecture 🏘️."
         },
         {
-          "name": "POLIN Museum of the History of Polish Jews",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=52.2497%2C20.9935",
-          "description": "An award-winning museum presenting 1,000 years of Jewish history in Poland."
+          "name": "Royal Castle",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Royal+Castle+Warsaw",
+          "description": "Grand royal residence with rich Polish history 👑."
         }
       ],
       "hidden_gems": [
         {
-          "name": "Praga District",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=52.2520%2C21.0430",
-          "description": "A creative neighborhood with street art, galleries, and authentic local life."
+          "name": "Quiet Vistula Bench",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=quiet+Vistula+bench+Warsaw",
+          "description": "Secluded riverside bench for peaceful reflection 🌊."
         },
         {
-          "name": "Saxon Garden (Ogród Saski)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=52.2395%2C21.0095",
-          "description": "One of Warsaw’s oldest public parks, ideal for a quiet break near the center."
+          "name": "Hidden Alley Café",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=hidden+alley+cafe+Warsaw",
+          "description": "Cozy tucked-away café ideal for quiet coffee moments ☕."
         }
       ]
     }

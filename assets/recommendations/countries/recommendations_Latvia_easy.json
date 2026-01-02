@@ -3,674 +3,851 @@
   "cities": [
     {
       "name": "Cēsis",
-      "interests": [
-        {
-          "name": "Cēsis Medieval Castle",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=57.3110%2C25.2746",
-          "description": "A dramatic 13th-century castle complex that played a major role in Baltic medieval history, featuring atmospheric ruins and a well-preserved New Castle."
-        },
-        {
-          "name": "Old Town of Cēsis",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=57.3118%2C25.2730",
-          "description": "A compact historic center with cobblestone streets, wooden houses, cafés, and a relaxed small-town feel."
-        },
-        {
-          "name": "Gauja National Park",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=57.2500%2C25.4000",
-          "description": "Latvia’s largest national park, known for forests, sandstone cliffs, river valleys, and hiking trails around Cēsis."
-        }
-      ],
-      "local_food_tip": "Try traditional Latvian rye bread with local cheese or soup, often served in small family-run cafés around the old town.",
+      "interests": {
+        "Art & Culture": [
+          {
+            "name": "Cēsis Medieval Castle",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Cēsis%20Medieval%20Castle",
+            "description": "One of Latvia’s most iconic and best-preserved medieval castles — explore ancient walls, towers and historic exhibitions that bring Livonian history to life 🛡️. :contentReference[oaicite:0]{index=0}"
+          },
+          {
+            "name": "New Castle & Cēsis History Museum",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Cēsis%20New%20Castle",
+            "description": "Elegant manor house beside the old fortress hosting art and history collections — learn about the town’s past and see the first Latvian flag exhibited here 🇱🇻. :contentReference[oaicite:1]{index=1}"
+          },
+          {
+            "name": "St. John’s Church",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=St.%20John’s%20Church%20Cēsis",
+            "description": "Historic church with panoramic views of the town from the tower — a peaceful cultural stop in the heart of the old town. :contentReference[oaicite:2]{index=2}"
+          },
+          {
+            "name": "Rauna Gate",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Rauna%20Gate%20Cēsis",
+            "description": "The medieval entrance gateway to the old town, helping visitors imagine the fortified walls that once protected Cēsis. :contentReference[oaicite:3]{index=3}"
+          },
+          {
+            "name": "Vidzeme Concert Hall “Cēsis”",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Vidzeme%20Concert%20Hall%20Cēsis",
+            "description": "Modern cultural centre hosting classical concerts, theatre, film and festivals — a vibrant blend of tradition and contemporary arts 🎶. :contentReference[oaicite:4]{index=4}"
+          }
+        ],
+        "Photo Spots": [
+          {
+            "name": "Old Town Cobblestones",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Cēsis%20Old%20Town",
+            "description": "Charming cobbled streets, historic wooden and stone houses make perfect backdrops for timeless photos 🏘️. :contentReference[oaicite:5]{index=5}"
+          },
+          {
+            "name": "Ponte Pietra Lookouts on the Adige (local riverside)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Adige%20River%20Cēsis",
+            "description": "Peaceful riverbanks and surrounding natural scenery are ideal for sunset and landscape shots 🌇. :contentReference[oaicite:6]{index=6}"
+          },
+          {
+            "name": "Cīrulīši Nature Trails",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Cīrulīši%20Nature%20Trails%20Cēsis",
+            "description": "Scenic forest paths, sandstone cliffs and panoramic views — perfect for nature photos and adventure shots 🌳. :contentReference[oaicite:7]{index=7}"
+          },
+          {
+            "name": "Ungurmuiža Manor Grounds",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Ungurmuiža%20Manor",
+            "description": "Historic manor with romantic grounds and open-air summer concert views — great for dreamy photo moments. :contentReference[oaicite:8]{index=8}"
+          },
+          {
+            "name": "Castle Park Walks",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Cēsis%20Castle%20Park",
+            "description": "Green parkland around the castle with serene ponds and paths — ideal for calm, scenic photography 📷. :contentReference[oaicite:9]{index=9}"
+          }
+        ],
+        "Food & Nightlife": [
+          {
+            "name": "Local Latvian Cafés & Bakeries",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Cēsis%20cafés%20and%20bakeries",
+            "description": "Sip fresh coffee and sample Latvian breads and sweets in cozy cafés throughout the old town ☕🥐. :contentReference[oaicite:10]{index=10}"
+          },
+          {
+            "name": "Ungurmuiža Estate Restaurant",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Ungurmuiža%20restaurant",
+            "description": "Dine with a view of historic manor and lush surroundings — enjoy a taste of local gastronomy in a peaceful setting 🌿. :contentReference[oaicite:11]{index=11}"
+          },
+          {
+            "name": "Pubs near Līvu Square",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Līvu%20Square%20Cēsis%20bars",
+            "description": "Relax with a drink in lively spots around the main squares where locals gather after sunset 🍷. :contentReference[oaicite:12]{index=12}"
+          },
+          {
+            "name": "Traditional Latvian Dishes",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Traditional%20Latvian%20food%20Cēsis",
+            "description": "Try hearty Latvian classics like rye breads, smoked meats and seasonal specialties in local eateries 🍽️. :contentReference[oaicite:13]{index=13}"
+          },
+          {
+            "name": "Outdoor Summer Concert Dining",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Vidzeme%20Concert%20Hall%20Cēsis",
+            "description": "Enjoy live music and food stalls during summer festivals around the concert hall and park 🎶. :contentReference[oaicite:14]{index=14}"
+          }
+        ],
+        "Nature & Relaxation": [
+          {
+            "name": "Cīrulīši Nature Trails",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Cīrulīši%20Nature%20Trails%20Cēsis",
+            "description": "Winding forest trails with sandstone cliffs, caves and lush scenery — a nature lovers’ paradise 🌲. :contentReference[oaicite:15]{index=15}"
+          },
+          {
+            "name": "Gauja National Park Surroundings",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Gauja%20National%20Park%20near%20Cēsis",
+            "description": "Scenic river valley and forests offer hiking, cycling, and peaceful picnics in Latvia’s oldest national park 🏞️. :contentReference[oaicite:16]{index=16}"
+          },
+          {
+            "name": "Sacred Spring & Svētavots Nature Park",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Svētavots%20Nature%20Park",
+            "description": "Refresh at a legendary spring in a peaceful park setting — perfect for rejuvenating walks. :contentReference[oaicite:17]{index=17}"
+          },
+          {
+            "name": "Castle Park Green Spaces",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Cēsis%20Castle%20Park",
+            "description": "Relax in shaded parkland around the castle and watch swans glide on ponds — an oasis of calm 🌿. :contentReference[oaicite:18]{index=18}"
+          }
+        ]
+      },
+      "local_food_tip": "Cēsis has a cozy culinary scene — don’t miss fresh Latvian rye breads, smoked fish, hearty meats and local sweets paired with coffee or regional beer while wandering the old town 🥖🍺. :contentReference[oaicite:19]{index=19}",
       "full_day": {
-        "morning": "Start at <a href=\"https://www.google.com/maps/search/?api=1&query=57.3110%2C25.2746\" target=\"_blank\" rel=\"noopener\">Cēsis Medieval Castle</a> 🏰, exploring the ruins and climbing the tower for views over the town.",
-        "afternoon": "Have lunch in the Old Town, then stroll through <a href=\"https://www.google.com/maps/search/?api=1&query=57.3118%2C25.2730\" target=\"_blank\" rel=\"noopener\">Cēsis Historic Center</a> ☕, visiting local shops and small museums.",
-        "sunset": "Walk or bike toward <a href=\"https://www.google.com/maps/search/?api=1&query=57.3080%2C25.2900\" target=\"_blank\" rel=\"noopener\">Castle Park</a> 🌅 as the light softens around the castle walls.",
-        "night": "Enjoy a quiet evening meal at a local restaurant near the main square 🍽️, where the atmosphere is calm and welcoming."
+        "morning": "☀️ Begin in the historic heart at <a href=\"https://www.google.com/maps/search/?api=1&query=Cēsis%20Medieval%20Castle\">Cēsis Medieval Castle</a>, explore ancient courtyards and exhibitions, then stroll through the charming <a href=\"https://www.google.com/maps/search/?api=1&query=Cēsis%20Old%20Town\">Old Town</a> lanes lined with colorful facades and cafés. :contentReference[oaicite:20]{index=20}",
+        "afternoon": "🍽️ Enjoy lunch at a local café or the <a href=\"https://www.google.com/maps/search/?api=1&query=Ungurmuiža%20restaurant\">Ungurmuiža Manor restaurant</a>, then head to the scenic <a href=\"https://www.google.com/maps/search/?api=1&query=Cīrulīši%20Nature%20Trails%20Cēsis\">Cīrulīši Nature Trails</a> for peaceful hikes and views of sandstone cliffs. :contentReference[oaicite:21]{index=21}",
+        "evening": "🍷 Relax with a spritz or local beer around <a href=\"https://www.google.com/maps/search/?api=1&query=Līvu%20Square%20Cēsis\">Līvu Square</a>, soaking in live music or café chatter, then wander the <a href=\"https://www.google.com/maps/search/?api=1&query=Rauna%20Gate%20Cēsis\">Rauna Gate</a> area at dusk. :contentReference[oaicite:22]{index=22}",
+        "night": "🌃 Cap off your night with a concert at <a href=\"https://www.google.com/maps/search/?api=1&query=Vidzeme%20Concert%20Hall%20Cēsis\">Vidzeme Concert Hall</a> or a quiet stroll through lantern-lit old streets before calling it a day. :contentReference[oaicite:23]{index=23}"
       },
       "seasons": {
         "spring": {
-          "event": "Spring Cultural Openings",
-          "description": "Spring brings fresh greenery, reopening outdoor attractions and a calm, refreshing atmosphere.",
+          "highlight": "Mild days for exploring history and gardens 🌸.",
           "ideas": [
             {
-              "name": "Castle Park Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=57.3080%2C25.2900",
-              "description": "Blooming trees and paths around the castle."
+              "name": "Spring Castle Park Walk",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Cēsis%20Castle%20Park",
+              "description": "Enjoy blooming flowers, gentle sunshine and scenic castle views during spring strolls. :contentReference[oaicite:24]{index=24}"
             },
             {
-              "name": "Old Town Cafés",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=57.3118%2C25.2730",
-              "description": "Terraces reopen as temperatures rise."
-            },
-            {
-              "name": "Light Hiking Trails",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=57.2600%2C25.3300",
-              "description": "Easy spring hikes in Gauja National Park."
+              "name": "Outdoor Music Events",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Vidzeme%20Concert%20Hall%20Cēsis",
+              "description": "Catch spring concerts and cultural performances at the concert hall 🎶. :contentReference[oaicite:25]{index=25}"
             }
           ]
         },
         "summer": {
-          "event": "Cēsis Art Festival",
-          "description": "Summer is lively with outdoor concerts, art events, and long daylight hours.",
+          "highlight": "Warm evenings, scenic hikes, and outdoor concerts ☀️.",
           "ideas": [
             {
-              "name": "Outdoor Concerts",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=57.3110%2C25.2746",
-              "description": "Performances often take place near the castle."
+              "name": "Gauja National Park Adventures",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Gauja%20National%20Park%20near%20Cēsis",
+              "description": "Explore hiking trails, river valleys and shaded forests around Cēsis for a perfect summer outdoor escape. :contentReference[oaicite:26]{index=26}"
             },
             {
-              "name": "Gauja River Activities",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=57.2400%2C25.3900",
-              "description": "Canoeing and nature exploration in warm weather."
-            },
-            {
-              "name": "Town Festivals",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=57.3120%2C25.2715",
-              "description": "Seasonal markets and cultural gatherings."
+              "name": "Ungurmuiža Summer Concert",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Ungurmuiža%20Manor",
+              "description": "Enjoy summer concerts on the manor grounds — music, picnics and relaxed vibe 🌿. :contentReference[oaicite:27]{index=27}"
             }
           ]
         },
         "autumn": {
-          "event": "Autumn Harvest Events",
-          "description": "Forests turn colorful, creating one of the most scenic times to visit.",
+          "highlight": "Crisp air and golden foliage 🍂.",
           "ideas": [
             {
-              "name": "Forest Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=57.2700%2C25.3500",
-              "description": "Golden leaves and quiet trails."
-            },
-            {
-              "name": "Photography Spots",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=57.3110%2C25.2746",
-              "description": "Autumn colors around the castle."
-            },
-            {
-              "name": "Local Food Cafés",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=57.3118%2C25.2730",
-              "description": "Seasonal dishes featuring local produce."
+              "name": "Autumn Castle Park Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Cēsis%20Castle%20Park",
+              "description": "Experience dramatic fall colors in the castle park and nature trails 🍁. :contentReference[oaicite:28]{index=28}"
             }
           ]
         },
         "winter": {
-          "event": "Christmas Market at Cēsis Castle",
-          "description": "Winter is quiet and atmospheric, often snowy and festive.",
+          "highlight": "Cozy cafés and local winter treats ☕❄️.",
           "ideas": [
             {
-              "name": "Christmas Market",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=57.3110%2C25.2746",
-              "description": "Seasonal stalls near the castle."
-            },
-            {
-              "name": "Snowy Park Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=57.3080%2C25.2900",
-              "description": "Peaceful winter scenery."
-            },
-            {
-              "name": "Indoor Museums",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=57.3115%2C25.2740",
-              "description": "Learn about local history in warmer spaces."
+              "name": "Historic Centre Winter Stroll",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Cēsis%20Old%20Town",
+              "description": "Explore the quiet old town in winter and pause for rich hot chocolate in a local café. :contentReference[oaicite:29]{index=29}"
             }
           ]
         }
       },
       "public_transport_tips": [
         {
-          "tip": "Trains connect Cēsis directly with Riga several times a day.",
-          "link": "https://www.pv.lv"
+          "tip": "From Riga, take a direct bus or train to Cēsis — both take roughly 2 hours and offer scenic countryside views 🚆🚌.",
+          "link": "https://www.railbaltica.org/"
         },
         {
-          "tip": "Local buses serve nearby villages and Gauja National Park areas.",
-          "link": "https://www.autoosta.lv"
-        },
-        {
-          "tip": "The town center is compact and easy to explore on foot.",
-          "link": "https://www.cesis.lv"
+          "tip": "Once in town, explore on foot — Cēsis is compact and walkable, with most attractions clustered in the old centre.",
+          "link": "https://www.cesis.lv/"
         }
       ],
       "city_events": [
         {
-          "name": "Cēsis Art Festival",
           "season": "Summer",
-          "description": "An annual festival featuring music, visual arts, and performances.",
-          "website": "https://www.cesisartfestival.lv",
-          "dates": "July–August (annual)"
-        },
-        {
-          "name": "Cēsis Castle Christmas Market",
-          "season": "Winter",
-          "description": "A festive market with crafts, food, and seasonal traditions.",
-          "website": "https://www.cesis.lv",
-          "dates": "December (annual)"
+          "dates": "June–August (annual)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Vidzeme%20Concert%20Hall%20Cēsis",
+          "description": "Summer concerts and cultural festivals at Vidzeme Concert Hall and around the castle park 🎶. :contentReference[oaicite:30]{index=30}"
         }
       ],
       "places": [
         {
-          "name": "St. John’s Church",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=57.3116%2C25.2722",
-          "description": "A historic Lutheran church dating back to the 13th century."
+          "name": "Līvu Square",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Līvu%20Square%20Cēsis",
+          "description": "Historical market square with a fountain and cobblestone paths — core of Cēsis social life. :contentReference[oaicite:31]{index=31}"
         },
         {
-          "name": "Castle Park",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=57.3080%2C25.2900",
-          "description": "A green park area surrounding the castle, ideal for walks."
+          "name": "Āraiši Lake Castle Archaeological Park",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Āraiši%20Lake%20Castle%20Archaeological%20Park",
+          "description": "Reconstructed wooden fortress on a lake and archaeological site revealing ancient Latgalian life 🏞️. :contentReference[oaicite:32]{index=32}"
         }
       ],
       "hidden_gems": [
         {
-          "name": "Ērgļu Cliffs",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=57.2405%2C25.3655",
-          "description": "Impressive sandstone cliffs within Gauja National Park."
+          "name": "Sacred Spring & Svētavots",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Svētavots%20Nature%20Park",
+          "description": "Legendary spring in a peaceful nature park believed to recharge your energy — a serene hidden find 🌿. :contentReference[oaicite:33]{index=33}"
         },
         {
-          "name": "Rucka Manor Area",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=57.3005%2C25.2835",
-          "description": "A quieter part of town with creative spaces and nature nearby."
+          "name": "Castle Park Black Swans",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Cēsis%20Castle%20Park%20swans",
+          "description": "Quiet corner of the castle park where graceful black swans glide on ponds — charming and unexpected. :contentReference[oaicite:34]{index=34}"
+        },
+        {
+          "name": "Old Town Lantern Walk",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Cēsis%20Old%20Town%20lantern%20walk",
+          "description": "Book a magical lantern-lit stroll through old cobbled streets for a unique historic experience 🌟. :contentReference[oaicite:35]{index=35}"
         }
       ]
     },
 
     {
       "name": "Jūrmala",
-      "interests": [
-        {
-          "name": "Jūrmala Beach",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=56.9720%2C23.8000",
-          "description": "A long stretch of fine white sand along the Baltic Sea, famous for its pine forests, dunes, and fresh sea air."
-        },
-        {
-          "name": "Dzintari Forest Park",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=56.9728%2C23.8089",
-          "description": "A family-friendly park with walking paths, observation tower, and outdoor recreation areas."
-        },
-        {
-          "name": "Jomas Street",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=56.9724%2C23.8080",
-          "description": "The main pedestrian street of Jūrmala, lined with cafés, shops, and historic wooden architecture."
-        }
-      ],
-      "local_food_tip": "Try fresh Baltic fish dishes or simple café lunches along Jomas Street, often featuring seasonal Latvian ingredients.",
+      "interests": {
+        "Art & Culture": [
+          {
+            "name": "Jomas Street (Jomas iela)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Jomas%20Street%20Jūrmala",
+            "description": "The lively central pedestrian street of Jūrmala lined with cafés, boutiques, restaurants and street art — a perfect place to stroll, shop and people-watch 🛍️. ([turn0search35](#turn0search35))"
+          },
+          {
+            "name": "Jūrmala City Museum",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Jūrmala%20City%20Museum",
+            "description": "Discover the history of Jūrmala as a seaside resort town, its wooden architecture and local traditions in this charming museum 📜. ([turn0search10](#turn0search10))"
+          },
+          {
+            "name": "Dzintari Concert Hall",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Dzintari%20Concert%20Hall%20Jūrmala",
+            "description": "Historic performance venue hosting concerts, cultural events and live music amid the beach town’s relaxed atmosphere 🎶. ([turn0search1](#turn0search1))"
+          },
+          {
+            "name": "Jūrmala Open Air Museum",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Jūrmala%20Open%20Air%20Museum",
+            "description": "Step back in time to see how local fishermen lived in the 19th century and explore traditional Latvian coastal life exhibits 🐟. ([turn0search18](#turn0search18))"
+          },
+          {
+            "name": "Dubulti Art Station",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Dubulti%20Art%20Station%20Jūrmala",
+            "description": "Unique railway station doubling as an art space with rotating exhibitions — a cool blend of transport history and creativity 🎨. ([turn0search17](#turn0search17))"
+          }
+        ],
+        "Photo Spots": [
+          {
+            "name": "Jūrmala Beach",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Jūrmala%20Beach",
+            "description": "Golden, silky sandy beaches stretching for over 24 km along the Baltic Sea — ideal for dreamy sunrise, sunset and seaside shots 📸. ([turn0search1](#turn0search1))"
+          },
+          {
+            "name": "Dzintari Forest Park Tower",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Dzintari%20Forest%20Park%20Jūrmala",
+            "description": "Climb the watchtower in the pine-fringed Dzintari Forest for panoramic views over forest and sea — a great vantage point 🌲. ([turn0search18](#turn0search18))"
+          },
+          {
+            "name": "Majori Wooden Villas",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Majori%20wooden%20villas%20Jūrmala",
+            "description": "Colorful and historic wooden summer houses in the Majori area — charming architecture that pops in photos 🏡. ([turn0search33](#turn0search33))"
+          },
+          {
+            "name": "Ragakāpa Nature Park Dunes",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Ragakāpa%20Nature%20Park",
+            "description": "Sandy dunes, pines and trails that offer beautiful natural landscapes and wildlife moments 🌾. ([turn0search18](#turn0search18))"
+          },
+          {
+            "name": "Lielupe River Views",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Lielupe%20River%20Jūrmala",
+            "description": "Scenic river shoreline in Jūrmala where locals kayak, fish or just relax with water reflections and boats passing by 🌊. ([turn0search18](#turn0search18))"
+          }
+        ],
+        "Food & Nightlife": [
+          {
+            "name": "Beachfront Cafés & Bars",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Jūrmala%20beachfront%20caf%C3%A9s%20and%20bars",
+            "description": "Sip cocktails or local beer with your toes near the sand — seaside sipping and laid-back vibes 🌅. ([turn0search1](#turn0search1))"
+          },
+          {
+            "name": "Local Latvian Cuisine",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Traditional%20Latvian%20food%20Jūrmala",
+            "description": "Try Latvian classics like grey peas with speck, smoked fish or hearty breads at cozy local restaurants 🍽️. ([turn0search5](#turn0search5))"
+          },
+          {
+            "name": "Līvu Akvaparks Restaurant",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=L%C4%ABvu%20Akvaparks%20J%C5%ABrmala",
+            "description": "Grab family-friendly bites or refreshments after slides and pools at the famous Līvu Aquapark 🍔. ([turn0search31](#turn0search31))"
+          },
+          {
+            "name": "Summer Terrace Dining on Jomas Street",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Jomas%20Street%20Jūrmala%20restaurants",
+            "description": "Outdoor dining spots along the bustling Jomas Street — perfect for long meals and people-watching 🌞. ([turn0search35](#turn0search35))"
+          },
+          {
+            "name": "Night Stroll & Gelato",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Gelato%20J%C5%ABrmala",
+            "description": "Cap off your evening with creamy gelato as the sea breeze cools the night — simple and delightful 🍨. ([turn0search1](#turn0search1))"
+          }
+        ],
+        "Nature & Relaxation": [
+          {
+            "name": "Jūrmala’s White Sand Beaches",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Jūrmala%20beaches",
+            "description": "Miles of white, shallow sandy beaches make this Baltic resort ideal for sunbathing, swimming and long peaceful walks 🏖️. ([turn0search2](#turn0search2))"
+          },
+          {
+            "name": "Ķemeri National Park",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Ķemeri%20National%20Park",
+            "description": "A short trip from Jūrmala takes you to vast wetlands, boardwalk trails and natural springs — perfect for birdwatchers and nature lovers 🍃. ([turn0search34](#turn0search34))"
+          },
+          {
+            "name": "Dzintari Forest Park",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Dzintari%20Forest%20Park%20Jūrmala",
+            "description": "Walk or bike through pine forests with playgrounds and scenic paths for a tranquil outdoor escape 🌲. ([turn0search1](#turn0search1))"
+          },
+          {
+            "name": "Ragakāpa Nature Trails",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Ragak%C4%81pa%20Nature%20Park",
+            "description": "Quiet nature trail in dune landscapes — serenity and soft breezes just beyond the beach. ([turn0search18](#turn0search18))"
+          }
+        ]
+      },
+      "local_food_tip": "Jūrmala’s seaside charm isn’t just about beaches — sample fresh Baltic seafood, traditional Latvian breads and smoked fish in local eateries. Pair your meal with a chilled beer or cider as you listen to the gentle waves 🌊🍺. ([turn0search1](#turn0search1))",
       "full_day": {
-        "morning": "Start with a walk along <a href=\"https://www.google.com/maps/search/?api=1&query=56.9720%2C23.8000\" target=\"_blank\" rel=\"noopener\">Jūrmala Beach</a> 🌊, enjoying the calm sea and pine-scented air.",
-        "afternoon": "Have lunch on <a href=\"https://www.google.com/maps/search/?api=1&query=56.9724%2C23.8080\" target=\"_blank\" rel=\"noopener\">Jomas Street</a> 🍽️, then explore shops and nearby spas.",
-        "sunset": "Visit <a href=\"https://www.google.com/maps/search/?api=1&query=56.9728%2C23.8089\" target=\"_blank\" rel=\"noopener\">Dzintari Forest Park</a> 🌅 and climb the observation tower for views over the treetops.",
-        "night": "Enjoy a relaxed evening walk near the beach or attend a concert at <a href=\"https://www.google.com/maps/search/?api=1&query=56.9717%2C23.8058\" target=\"_blank\" rel=\"noopener\">Dzintari Concert Hall</a> 🎶 if events are scheduled."
+        "morning": "☀️ Start your day with a walk along the stunning <a href=\"https://www.google.com/maps/search/?api=1&query=Jūrmala%20Beach\">Jūrmala Beach</a>, feel the soft white sand beneath your feet, then explore the boutiques and cafés on <a href=\"https://www.google.com/maps/search/?api=1&query=Jomas%20Street%20Jūrmala\">Jomas Street</a> for fresh pastries and coffee.",
+        "afternoon": "🍴 Grab a seafood lunch near the waterfront, then head to <a href=\"https://www.google.com/maps/search/?api=1&query=Dzintari%20Forest%20Park%20Jūrmala\">Dzintari Forest Park</a> for forest walks and panoramic views from the lookout tower.",
+        "evening": "🍷 Enjoy evening drinks or a casual dinner on the terrace along <a href=\"https://www.google.com/maps/search/?api=1&query=Jomas%20Street%20Jūrmala%20restaurants\">Jomas Street restaurants</a> while watching locals and travelers alike soak up seaside vibes.",
+        "night": "🌜 End your night with creamy gelato as you stroll the moonlit <a href=\"https://www.google.com/maps/search/?api=1&query=Jūrmala%20beaches\">beach shore</a> — Jūrmala feels magical under the stars."
       },
       "seasons": {
         "spring": {
-          "event": "Spring Resort Season Opening",
-          "description": "Spring brings fresh air, fewer visitors, and a peaceful atmosphere as cafés and parks reopen.",
+          "highlight": "Gentle breezes and quieter beaches — perfect for seaside walks and blooming parks 🌼.",
           "ideas": [
             {
-              "name": "Quiet Beach Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=56.9720%2C23.8000",
-              "description": "Enjoy the sea before peak summer crowds."
+              "name": "Spring Beach Picnic",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Jūrmala%20Beach",
+              "description": "Pack local treats and enjoy a peaceful picnic by the Baltic Sea as the season warms up."
             },
             {
-              "name": "Forest Trails",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=56.9735%2C23.8150",
-              "description": "Pine forests begin to turn green."
-            },
-            {
-              "name": "Café Terraces",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=56.9724%2C23.8080",
-              "description": "Outdoor seating returns with warmer days."
+              "name": "Forest Trails Bloom",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Dzintari%20Forest%20Park%20Jūrmala",
+              "description": "Spring blossoms along forest paths make for refreshing nature walks and scenic photos 🌷."
             }
           ]
         },
         "summer": {
-          "event": "Jūrmala Festival",
-          "description": "Summer is lively with concerts, beach life, and warm sea breezes.",
+          "highlight": "Sunbathe, swim and enjoy beach festivals — Jūrmala comes alive ☀️.",
           "ideas": [
             {
-              "name": "Beach Swimming",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=56.9720%2C23.8000",
-              "description": "Best time for sunbathing and swimming."
+              "name": "Beach Volleyball & Watersports",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Jūrmala%20Beach%20activities",
+              "description": "Join games of beach volleyball or try watersports on the shallow Baltic waves for adventure and fun 🏐."
             },
             {
               "name": "Open-Air Concerts",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=56.9717%2C23.8058",
-              "description": "Music events at Dzintari Concert Hall."
-            },
-            {
-              "name": "Evening Promenades",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=56.9724%2C23.8080",
-              "description": "Lively summer nights along Jomas Street."
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Dzintari%20Concert%20Hall%20Jūrmala",
+              "description": "Live music events and cultural festivals are common in summer — feel the rhythm by the sea 🎵."
             }
           ]
         },
         "autumn": {
-          "event": "Golden Autumn Walks",
-          "description": "Autumn is calm and scenic, with colorful forests and fewer tourists.",
+          "highlight": "Cooler air, amber sunsets and long beach walks 🍁.",
           "ideas": [
             {
-              "name": "Forest Photography",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=56.9735%2C23.8150",
-              "description": "Pine and deciduous trees show autumn colors."
-            },
-            {
-              "name": "Seaside Cafés",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=56.9724%2C23.8080",
-              "description": "Cozy cafés with sea views."
-            },
-            {
-              "name": "Wellness Spas",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=56.9700%2C23.8100",
-              "description": "Autumn is ideal for relaxation and spa visits."
+              "name": "Great Kemeri Bog Boardwalk",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Great%20Kemeri%20Bog%20Boardwalk",
+              "description": "Explore winding boardwalks through wetlands and enjoy autumn birdwatching at nearby Ķemeri National Park."
             }
           ]
         },
         "winter": {
-          "event": "Winter Sea Walks",
-          "description": "Winter is quiet and refreshing, with icy beaches and crisp air.",
+          "highlight": "Cozy cafés, spa retreats and crisp seaside strolls ❄️.",
           "ideas": [
             {
-              "name": "Snowy Beach Views",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=56.9720%2C23.8000",
-              "description": "A unique and peaceful coastal experience."
-            },
-            {
-              "name": "Indoor Spas",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=56.9700%2C23.8100",
-              "description": "Warm mineral and wellness treatments."
-            },
-            {
-              "name": "Quiet Town Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=56.9724%2C23.8080",
-              "description": "Relaxed strolls without crowds."
+              "name": "Winter Beach Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Jūrmala%20Beach",
+              "description": "Wrap up warm and enjoy brisk walks along the nearly empty shoreline with roaring waves and fresh air 🌊."
             }
           ]
         }
       },
       "public_transport_tips": [
         {
-          "tip": "Frequent trains connect Jūrmala with Riga in about 30 minutes.",
-          "link": "https://www.pv.lv"
+          "tip": "Take the train from Riga — it’s about 30 minutes to Jūrmala’s heart and offers scenic countryside and seaside views 🚆.",
+          "link": "https://www.pv.lv/en/"
         },
         {
-          "tip": "Multiple train stops serve different parts of Jūrmala.",
-          "link": "https://www.jurmala.lv"
-        },
-        {
-          "tip": "Walking and cycling are ideal within the resort town.",
-          "link": "https://www.jurmala.lv"
+          "tip": "Local buses and bike rentals make it easy to explore Jūrmala’s beachfront promenades and pine woods at your own pace.",
+          "link": "https://www.visitjurmala.lv/en/plan-your-trip/transport/"
         }
       ],
       "city_events": [
         {
-          "name": "Jūrmala Festival",
           "season": "Summer",
-          "description": "A classical music festival featuring international performers.",
-          "website": "https://www.jurmala.lv",
-          "dates": "July–August (annual)"
-        },
-        {
-          "name": "Concerts at Dzintari Concert Hall",
-          "season": "Summer",
-          "description": "Open-air and indoor concerts by Latvian and international artists.",
-          "website": "https://www.dzintarukoncertzale.lv",
-          "dates": "June–August (annual)"
+          "dates": "June–August (annual)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Jūrmala%20Beach%20festival",
+          "description": "Summer seaside festivals, open-air concerts and cultural events along the beach and forest parks — feel the coastal party vibe 🌞. ([turn0search1](#turn0search1))"
         }
       ],
       "places": [
         {
-          "name": "Dzintari Concert Hall",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=56.9717%2C23.8058",
-          "description": "A renowned concert venue set among pine trees near the sea."
+          "name": "Līvu Akvaparks",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=L%C4%ABvu%20Akvaparks%20J%C5%ABrmala",
+          "description": "Northern Europe’s largest indoor water park with slides, pools, saunas and relaxing spa zones — fun for families and adults alike. ([turn0search31](#turn0search31))"
         },
         {
-          "name": "Dubulti Lutheran Church",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=56.9688%2C23.8014",
-          "description": "A modernist church known for its unique architecture."
+          "name": "Ragakāpa Nature Park",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Ragak%C4%81pa%20Nature%20Park",
+          "description": "A fascinating dune park with trails and viewpoints tracing centuries-old glacial formations and Baltic ecosystems 🌿. ([turn0search18](#turn0search18))"
         }
       ],
       "hidden_gems": [
         {
           "name": "Kemeri National Park",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=56.9430%2C23.4900",
-          "description": "A nearby nature reserve with bog boardwalks and birdwatching."
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Ķemeri%20National%20Park",
+          "description": "Visit this nearby national park with bog boardwalks, sulfur springs and birdwatching — a natural wonder just outside Jūrmala 🌾. ([turn0search34](#turn0search34))"
         },
         {
-          "name": "Bulduri Beach Area",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=56.9760%2C23.7900",
-          "description": "A quieter beach section away from the busiest areas."
+          "name": "Majori Ice Skating Hall",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Majori%20Ice%20Skating%20Hall",
+          "description": "A fun indoor activity spot for skating in winter or off-season days — a local favourite ⛸️. ([turn0search10](#turn0search10))"
+        },
+        {
+          "name": "Wooden Villa Trails",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Jūrmala%20wooden%20villa%20trail",
+          "description": "Wander and photograph historic seaside cottages and art nouveau villas that give Jūrmala its unique charm 🏘️. ([turn0search21](#turn0search21))"
         }
       ]
     },
 
     {
       "name": "Kuldīga",
-      "interests": [
-        {
-          "name": "Venta Rapid (Ventas Rumba)",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=56.9697%2C21.9734",
-          "description": "The widest waterfall in Europe, a natural symbol of Kuldīga and a unique sight throughout the year."
-        },
-        {
-          "name": "Kuldīga Old Town",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=56.9699%2C21.9739",
-          "description": "A beautifully preserved historic center with wooden houses, cobblestone streets, and a relaxed small-town atmosphere."
-        },
-        {
-          "name": "Venta River Promenade",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=56.9705%2C21.9720",
-          "description": "Scenic walking paths along the river offering views of the waterfall and old brick bridge."
-        }
-      ],
-      "local_food_tip": "Try local bakery pastries or traditional Latvian soups at small cafés in the old town, often made with seasonal ingredients.",
+      "interests": {
+        "Art & Culture": [
+          {
+            "name": "Old Town of Kuldīga",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Kuldīga%20Old%20Town",
+            "description": "A charming historic centre with cobblestone streets and wooden buildings — often called the ‘Venice of Latvia’ for its scenic waterways and medieval atmosphere. :contentReference[oaicite:0]{index=0}"
+          },
+          {
+            "name": "Ventas Rumba Waterfall",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Venta%20Rapid%20Kuldīga",
+            "description": "Europe’s widest waterfall spanning the Venta River — a must-see natural wonder and signature sight of Kuldīga. :contentReference[oaicite:1]{index=1}"
+          },
+          {
+            "name": "Historic Brick Bridge",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Kuldīga%20Brick%20Bridge",
+            "description": "Built in 1874, this seven-arched brick bridge is one of Europe’s longest of its kind and offers unbeatable views of the waterfall and old town rooftops. :contentReference[oaicite:2]{index=2}"
+          },
+          {
+            "name": "Live Museum – Ancient Kuldīga Story",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Live%20Museum%20Ancient%20Kuldīga%20Story",
+            "description": "Interactive museum showcasing Kuldīga’s past with engaging exhibits and local lore. :contentReference[oaicite:3]{index=3}"
+          },
+          {
+            "name": "Kuldīga Town Garden & Sculpture Park",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Kuldīga%20Town%20Garden%20&%20Sculpture%20Park",
+            "description": "Peaceful green space dotted with sculptures near the town centre — perfect for a cultural stroll. :contentReference[oaicite:4]{index=4}"
+          }
+        ],
+        "Photo Spots": [
+          {
+            "name": "Venta River Banks",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Venta%20River%20Kuldīga",
+            "description": "Photogenic riverfront with reflections of historic buildings, bridges, and water movement — ideal for sunrise and sunset shots. :contentReference[oaicite:5]{index=5}"
+          },
+          {
+            "name": "Alekšupīte River & Waterfall",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Alekšupīte%20River%20Kuldīga",
+            "description": "Tiny river flowing through the old town with a small waterfall — charming and great for close-up photography. :contentReference[oaicite:6]{index=6}"
+          },
+          {
+            "name": "Historic Brick Bridge Views",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Kuldīga%20Brick%20Bridge%20viewpoint",
+            "description": "Capture the full span of the historic bridge with the river and rooftops beyond — iconic Kuldīga imagery. :contentReference[oaicite:7]{index=7}"
+          },
+          {
+            "name": "Riežupes Sand Caves",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Riežupes%20Sand%20Caves",
+            "description": "Unique natural caverns on the outskirts of town — a hidden and photogenic geological site. :contentReference[oaicite:8]{index=8}"
+          },
+          {
+            "name": "Pelči Palace and Park",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Pelči%20Palace%20Kuldīga",
+            "description": "Elegant historic palace with landscaped parkland — beautiful both close-up and panoramic. :contentReference[oaicite:9]{index=9}"
+          }
+        ],
+        "Food & Nightlife": [
+          {
+            "name": "Cafés in Town Hall Square",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Town%20Hall%20Square%20Kuldīga%20cafés",
+            "description": "Relax in central cafés with local pastries and coffee while watching daily life in the historic square. :contentReference[oaicite:10]{index=10}"
+          },
+          {
+            "name": "Latvian Local Cuisine Restaurants",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Traditional%20Latvian%20food%20Kuldīga",
+            "description": "Try hearty Latvian classics like rye bread, smoked fish and seasonal dishes in local eateries. :contentReference[oaicite:11]{index=11}"
+          },
+          {
+            "name": "Riverfront Dining",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Kuldīga%20riverfront%20restaurant",
+            "description": "Enjoy dinner with river views — especially magical in summer as lights reflect on the Venta waters. :contentReference[oaicite:12]{index=12}"
+          },
+          {
+            "name": "Outdoor Summer Music Spots",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Dzintari%20Concert%20Hall%20Kuldīga",
+            "description": "Catch live music and cultural events in warm months — perfect for a relaxed evening atmosphere. :contentReference[oaicite:13]{index=13}"
+          },
+          {
+            "name": "Local Pubs Around Baznīcas iela",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Baznīcas%20iela%20Kuldīga%20bars",
+            "description": "Friendly pubs with craft beers and local drinks where locals and visitors mingle after sunset. :contentReference[oaicite:14]{index=14}"
+          }
+        ],
+        "Nature & Relaxation": [
+          {
+            "name": "Venta Rapid Riverside Walks",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Venta%20Rapid%20walk%20Kuldīga",
+            "description": "Peaceful riverside paths beside Europe’s widest rapid — perfect for laid-back strolls and nature watching. :contentReference[oaicite:15]{index=15}"
+          },
+          {
+            "name": "Riežupes Sand Cave Trails",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Riežupes%20Sand%20Cave%20trails",
+            "description": "Hike the paths near the sand caves for a blend of nature, history and quiet exploration. :contentReference[oaicite:16]{index=16}"
+          },
+          {
+            "name": "Pelči Palace Park",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Pelči%20Palace%20Park",
+            "description": "Stroll through scenic landscaped gardens and shaded paths around Pelči Palace — great for peaceful afternoons. :contentReference[oaicite:17]{index=17}"
+          },
+          {
+            "name": "Kayaking on the Venta River",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Kayaking%20Venta%20River%20Kuldīga",
+            "description": "Rent a kayak or paddleboard to catch a different view of Kuldīga from the water 🌊. :contentReference[oaicite:18]{index=18}"
+          }
+        ]
+      },
+      "local_food_tip": "Kuldīga’s culinary charm lies in traditional Latvian fare — sample rye breads, smoked fish, hearty stews and seasonal farm produce at local cafés and restaurants, paired with a light beer or cider while absorbing river views 🥖🍺. :contentReference[oaicite:19]{index=19}",
       "full_day": {
-        "morning": "Begin at <a href=\"https://www.google.com/maps/search/?api=1&query=56.9697%2C21.9734\" target=\"_blank\" rel=\"noopener\">Venta Rapid (Ventas Rumba)</a> 🌊, enjoying the sound and view of the rushing water.",
-        "afternoon": "Explore <a href=\"https://www.google.com/maps/search/?api=1&query=56.9699%2C21.9739\" target=\"_blank\" rel=\"noopener\">Kuldīga Old Town</a> 🏘️, stopping for lunch and browsing local craft shops.",
-        "sunset": "Walk across the <a href=\"https://www.google.com/maps/search/?api=1&query=56.9708%2C21.9728\" target=\"_blank\" rel=\"noopener\">Old Brick Bridge</a> 🌅 for classic views over the Venta River.",
-        "night": "Enjoy a calm evening meal in the old town 🍽️, where the streets are peaceful after day visitors leave."
+        "morning": "☀️ Begin in the heart of the Old Town at <a href=\"https://www.google.com/maps/search/?api=1&query=Kuldīga%20Old%20Town\">Kuldīga Old Town</a>, explore cobbled lanes and historic buildings, then walk to the <a href=\"https://www.google.com/maps/search/?api=1&query=Venta%20Rapid%20Kuldīga\">Ventas Rumba Waterfall</a> and enjoy riverside views. :contentReference[oaicite:20]{index=20}",
+        "afternoon": "🍽️ Have lunch near Town Hall Square before crossing the <a href=\"https://www.google.com/maps/search/?api=1&query=Kuldīga%20Brick%20Bridge\">historic brick bridge</a>, then hike the nearby <a href=\"https://www.google.com/maps/search/?api=1&query=Riežupes%20Sand%20Caves\">Riežupes Sand Caves</a> trails for natural exploration. :contentReference[oaicite:21]{index=21}",
+        "evening": "🍷 Relax with drinks at a riverfront spot, then wander to <a href=\"https://www.google.com/maps/search/?api=1&query=Pelči%20Palace%20Kuldīga\">Pelči Palace Park</a> for sunset strolls and scenic photos. :contentReference[oaicite:22]{index=22}",
+        "night": "🌃 Cap your night with a local pint at a cozy pub near <a href=\"https://www.google.com/maps/search/?api=1&query=Baznīcas%20iela%20Kuldīga%20bars\">Baznīcas iela</a> or a gentle moonlit riverside walk. :contentReference[oaicite:23]{index=23}"
       },
       "seasons": {
         "spring": {
-          "event": "Bird Migration at Venta Rapid",
-          "description": "Spring brings rising water levels and migrating fish and birds around the waterfall.",
+          "highlight": "Mild days and blooming riverside paths — perfect for scenic walks 🌷.",
           "ideas": [
             {
-              "name": "Riverbank Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=56.9705%2C21.9720",
-              "description": "Fresh greenery and flowing water."
+              "name": "Spring Riverside Picnic",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Venta%20Rapid%20Kuldīga",
+              "description": "Pack local treats and enjoy a picnic near the Venta River as spring warms up along the shores. :contentReference[oaicite:24]{index=24}"
             },
             {
-              "name": "Old Town Strolls",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=56.9699%2C21.9739",
-              "description": "Mild weather and quiet streets."
-            },
-            {
-              "name": "Photography Spots",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=56.9697%2C21.9734",
-              "description": "Spring light around the waterfall."
+              "name": "Old Town Strolls in Bloom",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Kuldīga%20Old%20Town",
+              "description": "Spring flowers and historic buildings make for delightful photo ops and relaxed walks. :contentReference[oaicite:25]{index=25}"
             }
           ]
         },
         "summer": {
-          "event": "Kuldīga Town Festival",
-          "description": "Summer is lively with cultural events, outdoor cafés, and warm evenings.",
+          "highlight": "Warm river dips, kayaking and open-air events ☀️.",
           "ideas": [
             {
-              "name": "Swimming Near the River",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=56.9712%2C21.9710",
-              "description": "Popular local spots downstream from the rapid."
-            },
-            {
-              "name": "Outdoor Cafés",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=56.9699%2C21.9739",
-              "description": "Relaxed dining in the historic center."
-            },
-            {
-              "name": "Evening Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=56.9708%2C21.9728",
-              "description": "Long daylight hours and soft evening light."
+              "name": "Kayak the Venta River",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Kayaking%20Venta%20River%20Kuldīga",
+              "description": "Cool off with a paddle along the river, cruising past historic bridges and riverside homes. :contentReference[oaicite:26]{index=26}"
             }
           ]
         },
         "autumn": {
-          "event": "Autumn Colors by the Venta River",
-          "description": "Trees along the river turn golden, creating one of the most scenic times to visit.",
+          "highlight": "Golden leaves and crisp air 🍁.",
           "ideas": [
             {
-              "name": "Forest and River Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=56.9720%2C21.9700",
-              "description": "Colorful leaves and calm paths."
-            },
-            {
-              "name": "Local Cafés",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=56.9699%2C21.9739",
-              "description": "Cozy spots as temperatures cool."
-            },
-            {
-              "name": "Cultural Sites",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=56.9702%2C21.9745",
-              "description": "Enjoy museums without crowds."
+              "name": "Autumn Walks by the Brick Bridge",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Kuldīga%20Brick%20Bridge",
+              "description": "See the centuries-old bridge framed by fall hues and enjoy quieter light for photos. :contentReference[oaicite:27]{index=27}"
             }
           ]
         },
         "winter": {
-          "event": "Winter Silence at Venta Rapid",
-          "description": "Winter is quiet and atmospheric, with icy river scenes and peaceful streets.",
+          "highlight": "Cozy cafés and historic charm in crisp weather ❄️.",
           "ideas": [
             {
-              "name": "Snowy River Views",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=56.9697%2C21.9734",
-              "description": "A striking frozen landscape."
-            },
-            {
-              "name": "Historic Center Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=56.9699%2C21.9739",
-              "description": "Calm and crowd-free."
-            },
-            {
-              "name": "Warm Cafés",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=56.9699%2C21.9739",
-              "description": "Perfect for winter relaxation."
+              "name": "Winter Old Town Coffee Break",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Town%20Hall%20Square%20Kuldīga",
+              "description": "Warm up with a rich coffee in the historic square as you take in softer winter light. :contentReference[oaicite:28]{index=28}"
             }
           ]
         }
       },
       "public_transport_tips": [
         {
-          "tip": "Regional buses connect Kuldīga with Riga and Liepāja.",
-          "link": "https://www.autoosta.lv"
+          "tip": "Regional buses from Riga and other Latvian cities connect to Kuldīga, though schedules vary — check current routes for convenience. :contentReference[oaicite:29]{index=29}",
+          "link": "https://www.autoosta.lv/"
         },
         {
-          "tip": "The town center is compact and walkable.",
-          "link": "https://www.kuldiga.lv"
-        },
-        {
-          "tip": "Renting a bike is a good way to explore nearby nature areas.",
-          "link": "https://www.kuldiga.lv"
+          "tip": "Once in town, most of Kuldīga’s centre is easily explored on foot, with bike rentals available for more distant natural sites. :contentReference[oaicite:30]{index=30}",
+          "link": "https://www.visitkuldiga.com/?lang=en"
         }
       ],
       "city_events": [
         {
-          "name": "Kuldīga Town Festival",
           "season": "Summer",
-          "description": "A celebration with concerts, markets, and local traditions.",
-          "website": "https://www.kuldiga.lv",
-          "dates": "July (annual)"
-        },
-        {
-          "name": "Art and Craft Days",
-          "season": "Summer",
-          "description": "Local artisans showcase traditional crafts in the old town.",
-          "website": "https://www.kuldiga.lv",
-          "dates": "June (annual)"
+          "dates": "June–August (annual)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Kuldīga%20summer%20festival",
+          "description": "Summer brings open-air concerts, markets and cultural gatherings around the riverfront and old town squares. :contentReference[oaicite:31]{index=31}"
         }
       ],
       "places": [
         {
-          "name": "Old Brick Bridge",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=56.9708%2C21.9728",
-          "description": "A historic brick bridge from the 19th century crossing the Venta River."
+          "name": "Pelči Palace",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Pelči%20Palace%20Kuldīga",
+          "description": "Art Nouveau and Neo-Renaissance palace with landscaped gardens — a stately landmark in the region. :contentReference[oaicite:32]{index=32}"
         },
         {
-          "name": "St. Catherine’s Church",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=56.9698%2C21.9746",
-          "description": "One of the oldest churches in the region, located in the heart of Kuldīga."
+          "name": "Ēdole Castle",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Ēdole%20Castle",
+          "description": "Gothic Revival castle on a scenic lake near Kuldīga — perfect for historical exploration. :contentReference[oaicite:33]{index=33}"
         }
       ],
       "hidden_gems": [
         {
-          "name": "Riežupe Sand Caves",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=56.9910%2C21.9350",
-          "description": "Man-made sand caves once used for sand extraction, now a unique underground attraction."
+          "name": "Riežupes Sand Caves",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Riežupes%20Sand%20Caves",
+          "description": "Labyrinthine sand tunnels just outside town — fascinating for a unique subterranean walk and nature exploration. :contentReference[oaicite:34]{index=34}"
         },
         {
-          "name": "Aleksupīte Stream",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=56.9692%2C21.9760",
-          "description": "A charming small stream flowing directly through the old town alongside houses."
+          "name": "Snēpele Palace",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Snēpele%20Palace",
+          "description": "Historical manor with classic architecture quietly nestled in the countryside — a peaceful deviation from busy spots. :contentReference[oaicite:35]{index=35}"
+        },
+        {
+          "name": "Rudbārži Palace",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Rudbārži%20Palace",
+          "description": "Palace with rich history and a serene setting — hidden treasure of Kuldīga Municipality. :contentReference[oaicite:36]{index=36}"
         }
       ]
     },
     {
       "name": "Liepāja",
-      "interests": [
-        {
-          "name": "Liepāja Beach",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=56.5300%2C21.0000",
-          "description": "A wide sandy Baltic Sea beach known for strong winds, dunes, and beautiful sunsets."
-        },
-        {
-          "name": "Karosta Prison",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=56.5786%2C21.0186",
-          "description": "A former military prison offering insight into Liepāja’s complex naval and Soviet-era history."
-        },
-        {
-          "name": "Holy Trinity Cathedral",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=56.5076%2C21.0116",
-          "description": "A historic church housing one of the world’s largest mechanical organs."
-        }
-      ],
-      "local_food_tip": "Try smoked Baltic fish or simple seaside café meals, often served with local bread and seasonal vegetables.",
+      "interests": {
+        "Art & Culture": [
+          {
+            "name": "Holy Trinity Cathedral",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Holy%20Trinity%20Cathedral%20Liepāja",
+            "description": "Striking baroque cathedral with a historic organ — once the largest mechanical organ in the world with thousands of pipes and rich musical heritage 🎶. :contentReference[oaicite:0]{index=0}"
+          },
+          {
+            "name": "Great Amber Concert Hall",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Great%20Amber%20Concert%20Hall%20Liepāja",
+            "description": "Modern architectural and cultural landmark hosting concerts, performances and music events — a symbol of Liepāja’s vibrant arts scene. :contentReference[oaicite:1]{index=1}"
+          },
+          {
+            "name": "Liepāja Museum",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Liepāja%20Museum",
+            "description": "The largest museum in the region with exhibits on local history, ethnography, and changing art displays — a perfect introduction to the city’s heritage. :contentReference[oaicite:2]{index=2}"
+          },
+          {
+            "name": "Northern Forts & Karosta",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Karosta%20Liepāja",
+            "description": "Explore historic military fortifications and the former Soviet naval base with abandoned structures, scenic sea views, and ghostly heritage. :contentReference[oaicite:3]{index=3}"
+          },
+          {
+            "name": "St. Nicholas Naval Cathedral",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=St.%20Nicholas%20Naval%20Cathedral%20Liepāja",
+            "description": "Russian Orthodox cathedral in Karosta with striking domes and architecture — a peaceful and beautiful spiritual site. :contentReference[oaicite:4]{index=4}"
+          }
+        ],
+        "Photo Spots": [
+          {
+            "name": "Liepāja Beach",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Liepāja%20Beach",
+            "description": "Wide sandy Baltic beach with blue-flag status — perfect for sunrise, golden hour shots, kite surfers, and coastal portraits 📸. :contentReference[oaicite:5]{index=5}"
+          },
+          {
+            "name": "Old Town Vecliepāja & Harbour",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Old%20Town%20Vecliepāja",
+            "description": "Historic harbour area with an authentic coastal atmosphere and intriguing old town views — excellent for street and seaside photography. :contentReference[oaicite:6]{index=6}"
+          },
+          {
+            "name": "Peter’s Market (Pētertirgus)",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Peter’s%20Market%20Liepāja",
+            "description": "Art Nouveau-style historic market building surrounded by colourful stalls and lively scenes — great for vibrant urban shots. :contentReference[oaicite:7]{index=7}"
+          },
+          {
+            "name": "Lībiešu iela & Art Nouveau",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Art%20Nouveau%20Liepāja",
+            "description": "Elegant Art Nouveau façades and historic houses along Liepāja’s streets — perfect for architectural photography. :contentReference[oaicite:8]{index=8}"
+          },
+          {
+            "name": "Baltic Sea Northern Forts Ruins",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Northern%20Forts%20Liepāja",
+            "description": "Hauntingly beautiful fort ruins on the sea edge — dramatic landscape photos at sunset or in misty weather 🌅. :contentReference[oaicite:9]{index=9}"
+          }
+        ],
+        "Food & Nightlife": [
+          {
+            "name": "Seaside Cafés & Bars",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Liepāja%20seaside%20cafés%20and%20bars",
+            "description": "Relax with local craft beer, coffee or cocktails at seaside terraces and enjoy the chilled beach atmosphere 🍹. :contentReference[oaicite:10]{index=10}"
+          },
+          {
+            "name": "Traditional Latvian Restaurants",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Traditional%20Latvian%20food%20Liepāja",
+            "description": "Sample hearty local Latvian dishes, smoked fish, rye bread and seasonal specialties in cosy restaurants. :contentReference[oaicite:11]{index=11}"
+          },
+          {
+            "name": "Music & Festival Spots",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Liepāja%20festival%20venues",
+            "description": "Liepāja is known for its music culture — catch live concerts, summer festivals like Summer Sound and local gigs. :contentReference[oaicite:12]{index=12}"
+          },
+          {
+            "name": "Riverfront Dining",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Liepāja%20riverfront%20restaurants",
+            "description": "Dine with a view of the tranquil canal and city reflections — especially lovely in warmer months 🌇. :contentReference[oaicite:13]{index=13}"
+          },
+          {
+            "name": "Night Stroll & Gelato",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Gelato%20Liepāja",
+            "description": "End your evening with gelato or dessert as you wander Liepāja’s lit streets and seaside promenades 🍨. :contentReference[oaicite:14]{index=14}"
+          }
+        ],
+        "Nature & Relaxation": [
+          {
+            "name": "Liepāja Seaside Park",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Liepāja%20Seaside%20Park",
+            "description": "Green coastal park extending along the Baltic — ideal for walking, cycling and relaxing with sea breezes 🌳. :contentReference[oaicite:15]{index=15}"
+          },
+          {
+            "name": "Baltic Sea & Northern Breakwater",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Baltic%20Sea%20Northern%20Breakwater%20Liepāja",
+            "description": "Walk out onto the breakwater for expansive views of the sea and horizon — serenity with endless water views 🌊. :contentReference[oaicite:16]{index=16}"
+          },
+          {
+            "name": "Tarzāns Adventure Park",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Tarzāns%20Adventure%20Park%20Liepāja",
+            "description": "Active outdoor fun with obstacle courses and nature trails — perfect for families and nature lovers alike. :contentReference[oaicite:17]{index=17}"
+          },
+          {
+            "name": "Lake Liepāja Waterfront",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Lake%20Liepāja",
+            "description": "Tranquil lake edge ideal for relaxing strolls, picnics and scenic views across water and sky. :contentReference[oaicite:18]{index=18}"
+          }
+        ]
+      },
+      "local_food_tip": "Liepāja’s cuisine blends Latvian coastal flavors — enjoy fresh Baltic seafood, smoked fish, rye bread and seasonal produce in local bistros and cafés. Pair your meal with a craft beer or a refreshing cider as you listen to the sea breeze 🌊🍺. :contentReference[oaicite:19]{index=19}",
       "full_day": {
-        "morning": "Start your day with a walk along <a href=\"https://www.google.com/maps/search/?api=1&query=56.5300%2C21.0000\" target=\"_blank\" rel=\"noopener\">Liepāja Beach</a> 🌊, enjoying fresh sea air and wide-open views.",
-        "afternoon": "Visit <a href=\"https://www.google.com/maps/search/?api=1&query=56.5786%2C21.0186\" target=\"_blank\" rel=\"noopener\">Karosta Prison</a> 🏛️ to learn about the city’s military past, then explore the nearby Karosta district.",
-        "sunset": "Head to <a href=\"https://www.google.com/maps/search/?api=1&query=56.5079%2C21.0111\" target=\"_blank\" rel=\"noopener\">Liepāja Promenade</a> 🌅 for views over the harbor as the sun sets.",
-        "night": "Enjoy dinner in the city center 🍽️ and, if available, attend a concert or cultural event in the evening."
+        "morning": "☀️ Begin your day at <a href=\"https://www.google.com/maps/search/?api=1&query=Liepāja%20Beach\">Liepāja Beach</a>, stroll along the sandy Baltic coast, then wander through <a href=\"https://www.google.com/maps/search/?api=1&query=Old%20Town%20Vecliepāja\">Old Town Vecliepāja</a> to capture historic streets and harbour views. :contentReference[oaicite:20]{index=20}",
+        "afternoon": "🍽️ Have lunch at a traditional restaurant downtown, then visit <a href=\"https://www.google.com/maps/search/?api=1&query=Holy%20Trinity%20Cathedral%20Liepāja\">Holy Trinity Cathedral</a> with its impressive organ and climb the tower for panoramic city views. :contentReference[oaicite:21]{index=21}",
+        "evening": "🎶 Catch a performance at <a href=\"https://www.google.com/maps/search/?api=1&query=Great%20Amber%20Concert%20Hall%20Liepāja\">Great Amber Concert Hall</a> or enjoy live music along the beachfront promenade with dinner and drinks. :contentReference[oaicite:22]{index=22}",
+        "night": "🌃 End your night with a relaxing riverside walk or a gelato on the pier as lights reflect off the water — Liepāja feels magical after dusk. :contentReference[oaicite:23]{index=23}"
       },
       "seasons": {
         "spring": {
-          "event": "Spring Seaside Season Opening",
-          "description": "Spring brings stronger light, fewer visitors, and peaceful beach walks.",
+          "highlight": "Fresh breezes, blooming parks and quieter beaches — perfect for cycling and walks 🌸.",
           "ideas": [
             {
-              "name": "Seaside Park Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=56.5225%2C21.0060",
-              "description": "Greenery returns to Latvia’s largest seaside park."
+              "name": "Spring Lakeside Picnic",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Lake%20Liepāja",
+              "description": "Enjoy a peaceful picnic by the lake as nature awakens after winter. :contentReference[oaicite:24]{index=24}"
             },
             {
-              "name": "City Center Cafés",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=56.5076%2C21.0116",
-              "description": "Outdoor seating reopens in warmer weather."
-            },
-            {
-              "name": "Beach Photography",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=56.5300%2C21.0000",
-              "description": "Clear spring skies and quiet shores."
+              "name": "Art Nouveau Walking Tour",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Art%20Nouveau%20Liepāja",
+              "description": "Explore Liepāja’s elegant Art Nouveau façades in milder weather for perfect photography and sightseeing. :contentReference[oaicite:25]{index=25}"
             }
           ]
         },
         "summer": {
-          "event": "Liepāja Summer Festival",
-          "description": "Summer is vibrant with concerts, beach life, and music events.",
+          "highlight": "Beach days, music festivals and warm Baltic nights ☀️.",
           "ideas": [
             {
-              "name": "Swimming and Sunbathing",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=56.5300%2C21.0000",
-              "description": "The best season for beach activities."
+              "name": "Summer Sound Festival",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Summer%20Sound%20Liepāja",
+              "description": "Multi-day beach festival with international DJs, live acts and Baltic vibes on sandy shores 🎧. :contentReference[oaicite:26]{index=26}"
             },
             {
-              "name": "Outdoor Concerts",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=56.5085%2C21.0125",
-              "description": "Music events across the city."
-            },
-            {
-              "name": "Evening Promenade Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=56.5079%2C21.0111",
-              "description": "Lively atmosphere by the harbor."
+              "name": "Northern Forts Sunset",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Northern%20Forts%20Liepāja",
+              "description": "Head to the sea forts at dusk for dramatic coastal sunsets and seaside photos. :contentReference[oaicite:27]{index=27}"
             }
           ]
         },
         "autumn": {
-          "event": "Autumn Cultural Season",
-          "description": "Cooler air and fewer tourists create a calm, artistic mood.",
+          "highlight": "Crisp sea air, amber walks and cultural events 🍁.",
           "ideas": [
             {
-              "name": "Museum Visits",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=56.5088%2C21.0105",
-              "description": "Ideal time for cultural exploration."
-            },
-            {
-              "name": "Windy Beach Walks",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=56.5300%2C21.0000",
-              "description": "Dramatic sea views and fresh air."
-            },
-            {
-              "name": "Cozy Cafés",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=56.5076%2C21.0116",
-              "description": "Warm drinks as temperatures drop."
+              "name": "Amber Beach Walks",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Liepāja%20Beach",
+              "description": "Search for amber on the shore and enjoy long beach walks with Baltic breeze. :contentReference[oaicite:28]{index=28}"
             }
           ]
         },
         "winter": {
-          "event": "Winter Seaside Calm",
-          "description": "Winter is quiet and atmospheric, with icy beaches and strong sea winds.",
+          "highlight": "Cozy cafés, historic architecture and brisk seaside strolls ❄️.",
           "ideas": [
             {
-              "name": "Frozen Beach Views",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=56.5300%2C21.0000",
-              "description": "A dramatic winter landscape."
-            },
-            {
-              "name": "Indoor Concerts",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=56.5085%2C21.0125",
-              "description": "Music remains central to city life."
-            },
-            {
-              "name": "Historic Churches",
-              "map_link": "https://www.google.com/maps/search/?api=1&query=56.5076%2C21.0116",
-              "description": "Quiet visits during the off-season."
+              "name": "Winter Cathedral Visit",
+              "map_link": "https://www.google.com/maps/search/?api=1&query=Holy%20Trinity%20Cathedral%20Liepāja",
+              "description": "Explore the cathedral and enjoy local coffee shops nearby to warm up after exploring Liepāja’s cultural heart. :contentReference[oaicite:29]{index=29}"
             }
           ]
         }
       },
       "public_transport_tips": [
         {
-          "tip": "Local buses connect the city center, Karosta, and residential areas.",
-          "link": "https://www.liepajastransports.lv"
+          "tip": "Take a direct train or bus from Riga to Liepāja — the journey takes a few hours along scenic western Latvia landscapes 🚆🚌.",
+          "link": "https://www.railbaltica.org/"
         },
         {
-          "tip": "Regional trains and buses connect Liepāja with Riga.",
-          "link": "https://www.trenitalia.com"
-        },
-        {
-          "tip": "Walking and cycling are easy along the flat coastline.",
-          "link": "https://www.liepaja.lv"
+          "tip": "Within the city, buses and walking are easy for exploring the flat city centre, and cycling paths connect parks and seaside areas.",
+          "link": "https://liepaja.travel/en/"
         }
-      ],
+      ],  
       "city_events": [
         {
-          "name": "Liepāja Summer Festival",
           "season": "Summer",
-          "description": "A large open-air music and culture festival.",
-          "website": "https://www.liepaja.lv",
-          "dates": "July (annual)"
-        },
-        {
-          "name": "Liepāja Organ Music Festival",
-          "season": "Autumn",
-          "description": "Concerts showcasing the famous organ at Holy Trinity Cathedral.",
-          "website": "https://www.liepaja.lv",
-          "dates": "September (annual)"
+          "dates": "June–August (annual)",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Summer%20Sound%20Liepāja",
+          "description": "Summer Sound and other beach festivals animate Liepāja’s sandy shores with music, DJs and Baltic vibe celebrations. :contentReference[oaicite:30]{index=30}"
         }
       ],
       "places": [
         {
-          "name": "Seaside Park",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=56.5225%2C21.0060",
-          "description": "Latvia’s largest seaside park, ideal for walks and relaxation."
+          "name": "Karosta Naval Port",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Karosta%20Naval%20Port%20Liepāja",
+          "description": "Historic former naval base with scenic coastline, fort remnants and striking Soviet heritage architecture. :contentReference[oaicite:31]{index=31}"
         },
         {
-          "name": "Liepāja Promenade",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=56.5079%2C21.0111",
-          "description": "A revitalized harbor area with cafés, art, and maritime views."
+          "name": "Liepāja Holy Trinity Cathedral",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Holy%20Trinity%20Cathedral%20Liepāja",
+          "description": "Iconic cathedral standing tall in the city centre — a testament to Liepāja’s rich religious and musical history. :contentReference[oaicite:32]{index=32}"
         }
       ],
       "hidden_gems": [
         {
-          "name": "Northern Forts",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=56.5940%2C21.0200",
-          "description": "Dramatic sea-eroded military ruins north of the city."
+          "name": "Jewish Cemetery & Memorial Wall",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Liepāja%20Jewish%20Cemetery",
+          "description": "Moving memorial site honoring the city’s Jewish community and tragic history during World War II — a poignant and reflective visit. :contentReference[oaicite:33]{index=33}"
         },
         {
-          "name": "Karosta Cathedral",
-          "map_link": "https://www.google.com/maps/search/?api=1&query=56.5789%2C21.0206",
-          "description": "An impressive Orthodox cathedral in the former naval district."
+          "name": "Small Baltic Amber Finds",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Liepāja%20Beach%20amber",
+          "description": "search for amber washed ashore after strong winds — a simple but unique beach treasure hunt 🧡. :contentReference[oaicite:34]{index=34}"
         }
       ]
     }
-
   ]
 }
