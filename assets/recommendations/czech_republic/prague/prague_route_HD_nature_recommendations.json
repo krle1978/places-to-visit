@@ -1,0 +1,40 @@
+{
+  "half_day": {
+    "nature": {
+      "local_specialties": {
+        "low": {
+          "title": "Low-Budget Half-Day Nature Walk",
+          "summary": "Simple green escapes inside the city.",
+          "schedule": [
+            { "time": "10:00", "title": "Letná Park", "description": "Views and greenery." },
+            { "time": "12:00", "title": "Riverside Walk", "description": "Calm Vltava paths." }
+          ]
+        },
+        "medium": {
+          "title": "Balanced Half-Day Nature Experience",
+          "summary": "Gardens and scenic viewpoints.",
+          "schedule": [
+            { "time": "10:00", "title": "Petřín Hill", "description": "Gardens and lookout points." },
+            { "time": "12:30", "title": "Café Break", "description": "Relaxed nature café." }
+          ]
+        },
+        "high": {
+          "title": "High-End Nature Highlights",
+          "summary": "Elegant nature-focused route.",
+          "schedule": [
+            { "time": "10:30", "title": "Curated Garden Walk", "description": "Historic gardens." },
+            { "time": "12:30", "title": "Refined Lunch", "description": "Quality dining." }
+          ]
+        },
+        "comfortable": {
+          "title": "Luxury Half-Day Nature Escape",
+          "summary": "Private and serene.",
+          "schedule": [
+            { "time": "10:30", "title": "Private Nature Walk", "description": "Tailored green experience." },
+            { "time": "13:00", "title": "Fine Dining Lunch", "description": "Luxury close." }
+          ]
+        }
+      }
+    }
+  }
+}

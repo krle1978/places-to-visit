@@ -1,0 +1,42 @@
+{
+  "half_day": {
+    "mixed": {
+      "local_specialties": {
+        "low": {
+          "title": "Low-Budget Half-Day Bratislava Mix",
+          "summary": "A compact mix of history, city walks, and affordable local food.",
+          "schedule": [
+            { "time": "10:00", "title": "Old Town Walk", "description": "Historic streets, squares, and city atmosphere." },
+            { "time": "12:00", "title": "Budget Lunch", "description": "Simple Slovak meal." },
+            { "time": "13:00", "title": "Danube Riverside Walk", "description": "Relaxed stroll along the river." }
+          ]
+        },
+        "medium": {
+          "title": "Balanced Half-Day Bratislava Experience",
+          "summary": "Culture, food, and scenic views with comfortable pacing.",
+          "schedule": [
+            { "time": "10:00", "title": "Bratislava Castle", "description": "Historic landmark and panoramic views." },
+            { "time": "12:30", "title": "Lunch", "description": "Traditional Slovak restaurant." },
+            { "time": "13:30", "title": "Old Town Café Walk", "description": "Coffee and relaxed exploration." }
+          ]
+        },
+        "high": {
+          "title": "High-End Half-Day Highlights",
+          "summary": "Curated sightseeing with refined dining.",
+          "schedule": [
+            { "time": "10:30", "title": "Guided Castle Visit", "description": "Focused historical and cultural insight." },
+            { "time": "12:30", "title": "Refined Lunch", "description": "High-quality Slovak cuisine." }
+          ]
+        },
+        "comfortable": {
+          "title": "Luxury Half-Day Bratislava",
+          "summary": "Private, calm, and elegant experience.",
+          "schedule": [
+            { "time": "10:30", "title": "Private City Tour", "description": "Tailored highlights." },
+            { "time": "13:00", "title": "Fine Dining Lunch", "description": "Luxury finish." }
+          ]
+        }
+      }
+    }
+  }
+}

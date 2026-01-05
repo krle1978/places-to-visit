@@ -1,0 +1,40 @@
+{
+  "half_day": {
+    "nightlife": {
+      "local_specialties": {
+        "low": {
+          "title": "Budget Bratislava Nightlife (Adults Only)",
+          "summary": "Simple pubs and relaxed evening drinks.",
+          "schedule": [
+            { "time": "19:00", "title": "Casual Dinner", "description": "Affordable local meal." },
+            { "time": "21:00", "title": "Local Pub", "description": "Slovak beer and casual atmosphere." }
+          ]
+        },
+        "medium": {
+          "title": "Balanced Half-Night Out",
+          "summary": "Cocktail bars and lively streets.",
+          "schedule": [
+            { "time": "19:30", "title": "Dinner", "description": "Comfortable restaurant." },
+            { "time": "21:30", "title": "Cocktail Bar", "description": "Creative drinks." }
+          ]
+        },
+        "high": {
+          "title": "High-End Half-Night Experience",
+          "summary": "Premium venues and refined ambiance.",
+          "schedule": [
+            { "time": "20:00", "title": "Upscale Dinner", "description": "Refined cuisine." },
+            { "time": "22:00", "title": "Luxury Lounge", "description": "Signature cocktails." }
+          ]
+        },
+        "comfortable": {
+          "title": "Luxury Night Out",
+          "summary": "VIP comfort and exclusivity.",
+          "schedule": [
+            { "time": "20:00", "title": "Fine Dining", "description": "Elegant start." },
+            { "time": "22:30", "title": "Private Lounge", "description": "Quiet luxury." }
+          ]
+        }
+      }
+    }
+  }
+}

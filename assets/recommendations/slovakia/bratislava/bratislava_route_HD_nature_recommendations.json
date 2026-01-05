@@ -1,0 +1,40 @@
+{
+  "half_day": {
+    "nature": {
+      "local_specialties": {
+        "low": {
+          "title": "Low-Budget Half-Day Nature Walk",
+          "summary": "Green spaces and river views within the city.",
+          "schedule": [
+            { "time": "10:00", "title": "Danube Riverside Path", "description": "Flat, calm walking route." },
+            { "time": "12:00", "title": "Sad Janka Kráľa Park", "description": "One of the oldest public parks in Central Europe." }
+          ]
+        },
+        "medium": {
+          "title": "Balanced Half-Day Nature Experience",
+          "summary": "Parks, viewpoints, and relaxed breaks.",
+          "schedule": [
+            { "time": "10:00", "title": "Bratislava Forest Park", "description": "Wooded paths and fresh air." },
+            { "time": "12:30", "title": "Café Break", "description": "Relaxed stop near greenery." }
+          ]
+        },
+        "high": {
+          "title": "High-End Nature Highlights",
+          "summary": "Elegant nature-focused route.",
+          "schedule": [
+            { "time": "10:30", "title": "Curated Nature Walk", "description": "Selected green areas with views." },
+            { "time": "12:30", "title": "Refined Lunch", "description": "Quality dining." }
+          ]
+        },
+        "comfortable": {
+          "title": "Luxury Half-Day Nature Escape",
+          "summary": "Private and serene nature experience.",
+          "schedule": [
+            { "time": "10:30", "title": "Private Nature Guide", "description": "Tailored green escape." },
+            { "time": "13:00", "title": "Fine Dining Lunch", "description": "Luxury close." }
+          ]
+        }
+      }
+    }
+  }
+}
