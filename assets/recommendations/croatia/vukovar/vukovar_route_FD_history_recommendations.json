@@ -1,511 +1,169 @@
 {
   "full_day": {
     "history": {
-      "local_specialties": {
-        "low": {
-          "title": "Full-Day Vukovar History Route on a Low Budget",
-          "summary": "A meaningful full-day journey through Vukovar’s historic landmarks with low-cost meals and free outdoor heritage areas.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "Danube Riverside Historical Start",
-              "description": "Begin with a calm morning walk along the Danube, reading historical signs and memorial plaques."
-            },
-            {
-              "time": "10:00",
-              "title": "Vukovar Water Tower (Exterior Visit)",
-              "description": "See the iconic symbol of the city from the outside and explore the small, free-access memorial area nearby."
-            },
-            {
-              "time": "11:00",
-              "title": "Old Town Historical Corners",
-              "description": "Walk through restored streets and discover plaques explaining Vukovar’s architectural and cultural history."
-            },
-            {
-              "time": "12:30",
-              "title": "Budget Local Lunch",
-              "description": "Enjoy simple, traditional local dishes such as stews, soups, or daily menu classics."
-            },
-            {
-              "time": "14:00",
-              "title": "Public Memorial Visit",
-              "description": "Visit a free memorial site to respectfully learn about Vukovar’s more recent history."
-            },
-            {
-              "time": "15:30",
-              "title": "Free Historical Exhibits or Outdoor Installations",
-              "description": "Explore open-air installations or any available free museum sections."
-            },
-            {
-              "time": "17:00",
-              "title": "Quiet Riverside Reflection",
-              "description": "End your day by the Danube for a peaceful moment of reflection."
-            }
-          ]
-        },
-        "medium": {
-          "title": "Balanced Full-Day Vukovar History Experience",
-          "summary": "A comfortable full-day route combining the town’s major historical locations, cultural buildings, and a moderately priced local lunch.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "Morning Coffee by the Danube",
-              "description": "Start your day at a cozy riverside café with a warm drink."
-            },
-            {
-              "time": "10:00",
-              "title": "Water Tower & Memorial Area",
-              "description": "Explore the surroundings of the Water Tower and learn about its symbolic significance."
-            },
-            {
-              "time": "11:00",
-              "title": "Historic Center Walk",
-              "description": "Walk through the heritage part of town, discovering restored architecture and historic plaques."
-            },
-            {
-              "time": "12:30",
-              "title": "Medium-Budget Local Lunch",
-              "description": "Try a well-prepared traditional meal — classic, hearty, and great value."
-            },
-            {
-              "time": "14:00",
-              "title": "Memorial Park Visit",
-              "description": "Spend time in a memorial area designed for quiet reflection and learning."
-            },
-            {
-              "time": "15:30",
-              "title": "Eltz Manor Museum (Selected Sections)",
-              "description": "Explore cultural and historical exhibitions that highlight Vukovar’s heritage."
-            },
-            {
-              "time": "17:00",
-              "title": "Evening Walk Through Old Town",
-              "description": "Finish your route with a gentle walk through the center and down to the riverside."
-            }
-          ]
-        },
-        "high": {
-          "title": "High-End Vukovar Heritage Tour",
-          "summary": "A refined historical route featuring premium museum time, curated memorial stops, and high-quality local dining.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "Quality Breakfast by the River",
-              "description": "Start with a well-made breakfast in a beautifully located riverside café."
-            },
-            {
-              "time": "10:00",
-              "title": "Water Tower — Interpretive Tour",
-              "description": "Learn about the Water Tower’s history through curated signage and well-presented outdoor exhibits."
-            },
-            {
-              "time": "11:00",
-              "title": "Architectural Heritage Walk",
-              "description": "See the town’s most important restored buildings and heritage sites with time for photography."
-            },
-            {
-              "time": "12:30",
-              "title": "High-Quality Local Lunch",
-              "description": "Enjoy a refined version of traditional Slavonian dishes with elevated presentation."
-            },
-            {
-              "time": "14:00",
-              "title": "Major Memorial Site Visit",
-              "description": "A carefully maintained memorial area offering a deeper look into the city’s history."
-            },
-            {
-              "time": "15:30",
-              "title": "Eltz Manor — Full Museum Tour",
-              "description": "Explore detailed exhibitions inside one of Croatia’s most elegant manors."
-            },
-            {
-              "time": "17:00",
-              "title": "Riverfront Golden-Hour Walk",
-              "description": "End with beautiful late-afternoon colors along the Danube promenade."
-            }
-          ]
-        },
-        "comfortable": {
-          "title": "Luxury Full-Day Vukovar Historical Journey",
-          "summary": "A high-end, polished heritage experience with fine dining, curated cultural stops, elegant cafés, and the city’s most scenic viewpoints.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "Elegant Breakfast with Danube View",
-              "description": "Start with a premium breakfast in a luxurious riverside café."
-            },
-            {
-              "time": "10:00",
-              "title": "Exclusive Historical Architecture Route",
-              "description": "Visit Vukovar’s most important heritage buildings and carefully restored façades."
-            },
-            {
-              "time": "11:00",
-              "title": "Water Tower — Curated Exterior Tour",
-              "description": "Enjoy a detailed outdoor interpretive walk around the city’s most iconic landmark."
-            },
-            {
-              "time": "12:30",
-              "title": "Fine Dining Local Lunch",
-              "description": "Savor an elegant, premium-quality meal inspired by Slavonian culinary tradition."
-            },
-            {
-              "time": "14:30",
-              "title": "Premium Memorial Visit",
-              "description": "Spend time in a well-designed memorial park featuring curated historical displays."
-            },
-            {
-              "time": "16:00",
-              "title": "Eltz Manor — Curated Heritage Tour",
-              "description": "Explore the most refined sections of the museum focusing on heritage, art, and interior design."
-            },
-            {
-              "time": "18:00",
-              "title": "Sunset Promenade Experience",
-              "description": "End with a gentle golden-hour walk along the river — a peaceful and elegant finale."
-            }
-          ]
-        }
+      "low": {
+        "title": "Full-Day Vukovar History Route on a Low Budget",
+        "summary": "A meaningful full-day journey through Vukovar’s historic landmarks with low-cost meals and free outdoor heritage areas.",
+        "schedule": [
+          {
+            "time": "09:00",
+            "title": "Danube Riverside Historical Start",
+            "description": "Begin with a calm morning walk along the Danube, reading historical signs and memorial plaques."
+          },
+          {
+            "time": "10:00",
+            "title": "Vukovar Water Tower (Exterior Visit)",
+            "description": "See the iconic symbol of the city from the outside and explore the small, free-access memorial area nearby."
+          },
+          {
+            "time": "11:00",
+            "title": "Old Town Historical Corners",
+            "description": "Walk through restored streets and discover plaques explaining Vukovar’s architectural and cultural history."
+          },
+          {
+            "time": "12:30",
+            "title": "Budget Local Lunch",
+            "description": "Enjoy simple, traditional local dishes such as stews, soups, or daily menu classics."
+          },
+          {
+            "time": "14:00",
+            "title": "Public Memorial Visit",
+            "description": "Visit a free memorial site to respectfully learn about Vukovar’s more recent history."
+          },
+          {
+            "time": "15:30",
+            "title": "Free Historical Exhibits or Outdoor Installations",
+            "description": "Explore open-air installations or any available free museum sections."
+          },
+          {
+            "time": "17:00",
+            "title": "Quiet Riverside Reflection",
+            "description": "End your day by the Danube for a peaceful moment of reflection."
+          }
+        ]
       },
-
-      "light_veggie": {
-        "low": {
-          "title": "Low-Budget Veggie-Friendly History Day",
-          "summary": "A simple vegetarian-friendly historical route with affordable meals and important cultural stops.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "Light Breakfast & River Walk",
-              "description": "Start with fruit or a cheap pastry and enjoy the Danube promenade."
-            },
-            {
-              "time": "10:00",
-              "title": "Water Tower Exterior",
-              "description": "Visit the surroundings of the iconic tower and read about its significance."
-            },
-            {
-              "time": "11:00",
-              "title": "Historical Center Walk",
-              "description": "Explore the restored old-town streets and spot historical plaques."
-            },
-            {
-              "time": "12:30",
-              "title": "Veggie Budget Lunch",
-              "description": "Choose a simple pasta, salad, or plant-based option in an inexpensive eatery."
-            },
-            {
-              "time": "14:00",
-              "title": "Memorial Visit",
-              "description": "Make a short, respectful stop at a public memorial site."
-            },
-            {
-              "time": "15:30",
-              "title": "Museum — Cultural Sections",
-              "description": "Visit the accessible sections of Eltz Manor’s exhibitions."
-            },
-            {
-              "time": "17:00",
-              "title": "Relax by the Danube",
-              "description": "End your day sitting by the river in a quiet spot."
-            }
-          ]
-        },
-
-        "medium": {
-          "title": "Balanced Vegetarian-Friendly History Route",
-          "summary": "A healthy, comfortable full-day historical experience with vegetarian food and cultural highlights.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "Healthy Café Breakfast",
-              "description": "Start with yogurt, a smoothie, or a vegetarian pastry."
-            },
-            {
-              "time": "10:00",
-              "title": "Water Tower & Surroundings",
-              "description": "Walk around the tower’s historically symbolic area."
-            },
-            {
-              "time": "11:00",
-              "title": "Historical Old Town",
-              "description": "Walk through historically rich streets and observe architectural details."
-            },
-            {
-              "time": "12:30",
-              "title": "Vegetarian Lunch",
-              "description": "Enjoy a hearty vegetarian dish such as risotto, veggie pasta, or a fresh salad."
-            },
-            {
-              "time": "14:00",
-              "title": "Memorial Park Visit",
-              "description": "Spend time in a peaceful memorial location."
-            },
-            {
-              "time": "15:30",
-              "title": "Museum Visit",
-              "description": "Explore cultural and historical exhibitions inside Eltz Manor."
-            },
-            {
-              "time": "17:00",
-              "title": "Riverfront Evening Walk",
-              "description": "End with a calm, healthy walk along the river."
-            }
-          ]
-        },
-
-        "high": {
-          "title": "High-End Vegetarian History Day",
-          "summary": "A premium full-day history tour with refined vegetarian meals and curated cultural experiences.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "Premium Veggie Breakfast",
-              "description": "Start with a high-quality plant-based breakfast in a stylish café."
-            },
-            {
-              "time": "10:00",
-              "title": "Water Tower — Interpretive Walk",
-              "description": "Learn about the town’s modern history through curated outdoor displays."
-            },
-            {
-              "time": "11:00",
-              "title": "Architectural Heritage Route",
-              "description": "Walk through the most elegant heritage parts of Vukovar."
-            },
-            {
-              "time": "12:30",
-              "title": "High-Quality Veggie Lunch",
-              "description": "Enjoy a refined vegetarian dish presented beautifully."
-            },
-            {
-              "time": "14:00",
-              "title": "Major Memorial Site",
-              "description": "A premium, respectful visit to an important memorial park."
-            },
-            {
-              "time": "15:30",
-              "title": "Eltz Manor — Full Museum Visit",
-              "description": "Explore the detailed exhibitions covering cultural and historic themes."
-            },
-            {
-              "time": "17:00",
-              "title": "Premium Dessert Stop",
-              "description": "Wrap up with a high-quality dessert or specialty drink (non-alcoholic)."
-            }
-          ]
-        },
-
-        "comfortable": {
-          "title": "Luxury Vegetarian Heritage Tour",
-          "summary": "A luxurious, curated vegetarian-friendly history experience through Vukovar’s key cultural sites and refined dining spots.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "Luxury Veggie Breakfast",
-              "description": "Start with a premium, beautifully plated breakfast in an upscale café."
-            },
-            {
-              "time": "10:00",
-              "title": "Exclusive Historical Walk",
-              "description": "Visit the town’s most significant heritage sites in comfort."
-            },
-            {
-              "time": "11:00",
-              "title": "Water Tower — Curated Exterior Tour",
-              "description": "A guided-style exploration of the tower’s surroundings."
-            },
-            {
-              "time": "12:30",
-              "title": "Fine Vegetarian Lunch",
-              "description": "Enjoy a luxury plant-based meal with elegant presentation."
-            },
-            {
-              "time": "14:30",
-              "title": "Premium Memorial Park Visit",
-              "description": "Walk through a serene memorial area designed for reflection."
-            },
-            {
-              "time": "16:00",
-              "title": "Eltz Manor — Curated Heritage Experience",
-              "description": "Explore art, history, and interior design in a premium cultural tour."
-            },
-            {
-              "time": "18:00",
-              "title": "Sunset Promenade Finale",
-              "description": "Finish with a slow riverside walk at the most scenic time of day."
-            }
-          ]
-        }
+      "medium": {
+        "title": "Balanced Full-Day Vukovar History Experience",
+        "summary": "A comfortable full-day route combining the town’s major historical locations, cultural buildings, and a moderately priced local lunch.",
+        "schedule": [
+          {
+            "time": "09:00",
+            "title": "Morning Coffee by the Danube",
+            "description": "Start your day at a cozy riverside café with a warm drink."
+          },
+          {
+            "time": "10:00",
+            "title": "Water Tower & Memorial Area",
+            "description": "Explore the surroundings of the Water Tower and learn about its symbolic significance."
+          },
+          {
+            "time": "11:00",
+            "title": "Historic Center Walk",
+            "description": "Walk through the heritage part of town, discovering restored architecture and historic plaques."
+          },
+          {
+            "time": "12:30",
+            "title": "Medium-Budget Local Lunch",
+            "description": "Try a well-prepared traditional meal — classic, hearty, and great value."
+          },
+          {
+            "time": "14:00",
+            "title": "Memorial Park Visit",
+            "description": "Spend time in a memorial area designed for quiet reflection and learning."
+          },
+          {
+            "time": "15:30",
+            "title": "Eltz Manor Museum (Selected Sections)",
+            "description": "Explore cultural and historical exhibitions that highlight Vukovar’s heritage."
+          },
+          {
+            "time": "17:00",
+            "title": "Evening Walk Through Old Town",
+            "description": "Finish your route with a gentle walk through the center and down to the riverside."
+          }
+        ]
       },
-
-      "try_everything": {
-        "low": {
-          "title": "Low-Budget History + Tasting Day",
-          "summary": "A fun and affordable mix of historical landmarks and small tasting-style snacks.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "Bakery Start + River Walk",
-              "description": "Grab a couple of pastries and enjoy them along the Danube."
-            },
-            {
-              "time": "10:00",
-              "title": "Water Tower Overview",
-              "description": "See Vukovar’s iconic landmark and learn about its significance."
-            },
-            {
-              "time": "11:00",
-              "title": "Historic Center Walk",
-              "description": "Explore old streets, plaques, and restored architecture."
-            },
-            {
-              "time": "12:30",
-              "title": "Budget Tasting Lunch",
-              "description": "Try a few small dishes to experience the flavors of the region."
-            },
-            {
-              "time": "14:00",
-              "title": "Memorial Visit",
-              "description": "Visit a meaningful historical location."
-            },
-            {
-              "time": "15:30",
-              "title": "Museum Highlights",
-              "description": "Visit selected parts of Eltz Manor’s exhibitions."
-            },
-            {
-              "time": "17:00",
-              "title": "Riverside Afternoon",
-              "description": "Relax by the Danube to end your day."
-            }
-          ]
-        },
-
-        "medium": {
-          "title": "Balanced Tasting + History Day",
-          "summary": "A full-day mix of cultural sites and tasting-style meals at a comfortable price point.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "Café Tasting Breakfast",
-              "description": "Try a couple of small sweet or savory bites."
-            },
-            {
-              "time": "10:00",
-              "title": "Water Tower & Surroundings",
-              "description": "Explore outdoor informational signs and the riverside area."
-            },
-            {
-              "time": "11:00",
-              "title": "Old Town Historical Trail",
-              "description": "Walk through key restored streets."
-            },
-            {
-              "time": "12:30",
-              "title": "Medium Tasting Lunch",
-              "description": "Share several dishes to try a variety of local flavors."
-            },
-            {
-              "time": "14:00",
-              "title": "Memorial Park Stop",
-              "description": "Spend time reflecting in a peaceful memorial area."
-            },
-            {
-              "time": "15:30",
-              "title": "Eltz Manor Museum",
-              "description": "Visit cultural and historical collections."
-            },
-            {
-              "time": "17:00",
-              "title": "Riverside Walk",
-              "description": "Close your day with calm river views."
-            }
-          ]
-        },
-
-        "high": {
-          "title": "High-End History Tasting Journey",
-          "summary": "A refined day filled with curated historical stops and premium tasting-style meals.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "High-End Breakfast Tasting",
-              "description": "Sample several well-prepared small breakfast bites."
-            },
-            {
-              "time": "10:00",
-              "title": "Water Tower — Interpretive Visit",
-              "description": "Learn about the city’s recent history through curated outdoor content."
-            },
-            {
-              "time": "11:00",
-              "title": "Signature Heritage Walk",
-              "description": "Walk through the most stunning historical streets and buildings."
-            },
-            {
-              "time": "12:30",
-              "title": "High-End Tasting Lunch",
-              "description": "Enjoy beautifully presented small plates inspired by regional cuisine."
-            },
-            {
-              "time": "14:00",
-              "title": "Meaningful Memorial Visit",
-              "description": "Visit an important memorial area for respectful reflection."
-            },
-            {
-              "time": "15:30",
-              "title": "Eltz Manor — Detailed Museum Tour",
-              "description": "Explore premium cultural and historical exhibitions."
-            },
-            {
-              "time": "17:00",
-              "title": "Premium Dessert Break",
-              "description": "Finish with a top-class dessert in a quality café."
-            }
-          ]
-        },
-
-        "comfortable": {
-          "title": "Luxury History & Tasting Experience",
-          "summary": "A full-day refined historical and tasting-style journey with curated visits and luxurious meals.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "Luxury Tasting Breakfast",
-              "description": "Start your day with multiple premium breakfast bites in an upscale café."
-            },
-            {
-              "time": "10:00",
-              "title": "Private Historical Architecture Walk",
-              "description": "See the town’s most important heritage buildings in comfort."
-            },
-            {
-              "time": "11:00",
-              "title": "Water Tower — Curated Visit",
-              "description": "Learn the story of one of Croatia’s strongest symbols."
-            },
-            {
-              "time": "12:30",
-              "title": "Fine Dining Tasting Lunch",
-              "description": "A series of refined small plates — artistic and delicious."
-            },
-            {
-              "time": "14:30",
-              "title": "Premium Memorial Park Visit",
-              "description": "A peaceful walk through a beautifully maintained memorial area."
-            },
-            {
-              "time": "16:00",
-              "title": "Eltz Manor — Curated Museum Experience",
-              "description": "Explore the most elegant sections of the manor in detail."
-            },
-            {
-              "time": "18:00",
-              "title": "Golden-Hour Danube Finale",
-              "description": "End your luxury day with the best sunset on the river."
-            }
-          ]
-        }
+      "high": {
+        "title": "High-End Vukovar Heritage Tour",
+        "summary": "A refined historical route featuring premium museum time, curated memorial stops, and high-quality local dining.",
+        "schedule": [
+          {
+            "time": "09:00",
+            "title": "Quality Breakfast by the River",
+            "description": "Start with a well-made breakfast in a beautifully located riverside café."
+          },
+          {
+            "time": "10:00",
+            "title": "Water Tower — Interpretive Tour",
+            "description": "Learn about the Water Tower’s history through curated signage and well-presented outdoor exhibits."
+          },
+          {
+            "time": "11:00",
+            "title": "Architectural Heritage Walk",
+            "description": "See the town’s most important restored buildings and heritage sites with time for photography."
+          },
+          {
+            "time": "12:30",
+            "title": "High-Quality Local Lunch",
+            "description": "Enjoy a refined version of traditional Slavonian dishes with elevated presentation."
+          },
+          {
+            "time": "14:00",
+            "title": "Major Memorial Site Visit",
+            "description": "A carefully maintained memorial area offering a deeper look into the city’s history."
+          },
+          {
+            "time": "15:30",
+            "title": "Eltz Manor — Full Museum Tour",
+            "description": "Explore detailed exhibitions inside one of Croatia’s most elegant manors."
+          },
+          {
+            "time": "17:00",
+            "title": "Riverfront Golden-Hour Walk",
+            "description": "End with beautiful late-afternoon colors along the Danube promenade."
+          }
+        ]
+      },
+      "comfortable": {
+        "title": "Luxury Full-Day Vukovar Historical Journey",
+        "summary": "A high-end, polished heritage experience with fine dining, curated cultural stops, elegant cafés, and the city’s most scenic viewpoints.",
+        "schedule": [
+          {
+            "time": "09:00",
+            "title": "Elegant Breakfast with Danube View",
+            "description": "Start with a premium breakfast in a luxurious riverside café."
+          },
+          {
+            "time": "10:00",
+            "title": "Exclusive Historical Architecture Route",
+            "description": "Visit Vukovar’s most important heritage buildings and carefully restored façades."
+          },
+          {
+            "time": "11:00",
+            "title": "Water Tower — Curated Exterior Tour",
+            "description": "Enjoy a detailed outdoor interpretive walk around the city’s most iconic landmark."
+          },
+          {
+            "time": "12:30",
+            "title": "Fine Dining Local Lunch",
+            "description": "Savor an elegant, premium-quality meal inspired by Slavonian culinary tradition."
+          },
+          {
+            "time": "14:30",
+            "title": "Premium Memorial Visit",
+            "description": "Spend time in a well-designed memorial park featuring curated historical displays."
+          },
+          {
+            "time": "16:00",
+            "title": "Eltz Manor — Curated Heritage Tour",
+            "description": "Explore the most refined sections of the museum focusing on heritage, art, and interior design."
+          },
+          {
+            "time": "18:00",
+            "title": "Sunset Promenade Experience",
+            "description": "End with a gentle golden-hour walk along the river — a peaceful and elegant finale."
+          }
+        ]
       }
     }
   }

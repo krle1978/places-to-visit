@@ -1,50 +1,143 @@
 {
   "full_day": {
     "art": {
-      "local_specialties": {
-        "low": {
-          "title": "Full-Day Prague Art Walk on a Budget",
-          "summary": "An affordable art-focused day exploring architecture, public art, and creative neighborhoods.",
-          "schedule": [
-            { "time": "09:00", "title": "Old Town Architectural Walk", "description": "Gothic, Baroque, and Art Nouveau facades across Old Town Square." },
-            { "time": "10:30", "title": "Municipal House Exterior", "description": "Admire Art Nouveau details and decorative elements." },
-            { "time": "12:00", "title": "Budget Lunch", "description": "Simple Czech meal in a local bistro." },
-            { "time": "13:30", "title": "Lennon Wall", "description": "Street art, murals, and political expression." },
-            { "time": "15:30", "title": "Kampa Island Sculptures", "description": "Modern art installations along the river." },
-            { "time": "18:00", "title": "Golden Hour Charles Bridge", "description": "Statues and views in evening light." }
-          ]
-        },
-        "medium": {
-          "title": "Balanced Full-Day Art Experience",
-          "summary": "Museums, architecture, galleries, and relaxed café stops.",
-          "schedule": [
-            { "time": "09:00", "title": "National Gallery – Trade Fair Palace", "description": "Czech and international modern art." },
-            { "time": "12:00", "title": "Lunch Break", "description": "Comfortable Czech restaurant." },
-            { "time": "14:00", "title": "Museum Kampa", "description": "Modern Central European art." },
-            { "time": "16:30", "title": "Café & Art Books", "description": "Relax with a coffee and art literature." },
-            { "time": "18:00", "title": "Riverside Art Walk", "description": "Creative spots along the Vltava." }
-          ]
-        },
-        "high": {
-          "title": "High-End Prague Art Day",
-          "summary": "Curated museums, elegant cafés, and refined art spaces.",
-          "schedule": [
-            { "time": "09:30", "title": "National Gallery Guided Visit", "description": "Focused art exploration." },
-            { "time": "12:30", "title": "Refined Lunch", "description": "High-quality Czech cuisine." },
-            { "time": "14:30", "title": "DOX Centre for Contemporary Art", "description": "Bold modern exhibitions." },
-            { "time": "17:00", "title": "Premium Café Stop", "description": "Elegant art café experience." }
-          ]
-        },
-        "comfortable": {
-          "title": "Luxury Art Journey Through Prague",
-          "summary": "Exclusive art tours, fine dining, and architectural masterpieces.",
-          "schedule": [
-            { "time": "09:30", "title": "Private Museum Tour", "description": "Tailored art experience." },
-            { "time": "12:30", "title": "Fine Dining Lunch", "description": "Artfully plated cuisine." },
-            { "time": "15:00", "title": "Private Gallery Visit", "description": "Contemporary Czech artists." },
-            { "time": "18:00", "title": "Sunset Bridge Walk", "description": "Art and architecture in golden light." }
-          ]
-        }
+      "low": {
+        "title": "Full-Day Prague Art Walk on a Budget",
+        "summary": "An affordable art-focused day exploring Prague’s rich architecture, street art, and creative neighborhoods.",
+        "schedule": [
+          {
+            "time": "09:00",
+            "title": "Old Town Architectural Walk",
+            "description": "Admire Gothic, Baroque, and Art Nouveau facades across Old Town Square.",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Old+Town+Square,+Prague,+Czech+Republic"
+          },
+          {
+            "time": "10:30",
+            "title": "Municipal House (Obecní dům)",
+            "description": "See one of Prague’s best Art Nouveau buildings — exterior and public spaces.",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Obecní+dům,+Prague,+Czech+Republic"
+          },
+          {
+            "time": "12:00",
+            "title": "Budget Lunch – Havelská Koruna",
+            "description": "Affordable self-service Czech dishes near Wenceslas Square.",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Havelská+Koruna,+Havelská+21,+Prague,+Czech+Republic"
+          },
+          {
+            "time": "13:30",
+            "title": "Lennon Wall",
+            "description": "Colorful graffiti and peace messages — a constantly changing public art landmark.",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Lennon+Wall,+Velkopřevorské+náměstí,+Prague,+Czech+Republic"
+          },
+          {
+            "time": "15:30",
+            "title": "Kampa Island Sculptures",
+            "description": "Explore open-air art by David Černý and others in the riverside park.",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Kampa+Island,+Prague,+Czech+Republic"
+          },
+          {
+            "time": "18:00",
+            "title": "Golden Hour at Charles Bridge",
+            "description": "End your art walk among the statues of Prague’s most iconic bridge.",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Charles+Bridge,+Prague,+Czech+Republic"
+          }
+        ]
+      },
+      "medium": {
+        "title": "Balanced Full-Day Art Experience",
+        "summary": "A relaxed but complete day for art lovers — mixing architecture, galleries, and cozy cafés.",
+        "schedule": [
+          {
+            "time": "09:00",
+            "title": "National Gallery – Trade Fair Palace",
+            "description": "Large modern art collection featuring Czech and European artists.",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=National+Gallery+Prague+Trade+Fair+Palace"
+          },
+          {
+            "time": "12:00",
+            "title": "Lunch at Café Jedna",
+            "description": "Minimalist art café inside the National Gallery — light meals and good coffee.",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Café+Jedna,+Prague,+Czech+Republic"
+          },
+          {
+            "time": "14:00",
+            "title": "Museum Kampa",
+            "description": "Modern Central European art with river views and outdoor sculptures.",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Museum+Kampa,+Prague,+Czech+Republic"
+          },
+          {
+            "time": "16:30",
+            "title": "Café Louvre",
+            "description": "Historic café once visited by Kafka and Einstein — perfect art ambiance.",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Café+Louvre,+Národní+22,+Prague,+Czech+Republic"
+          },
+          {
+            "time": "18:00",
+            "title": "Vltava Riverside Art Walk",
+            "description": "Finish your day with a sunset stroll by riverside sculptures and galleries.",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Vltava+river+walk,+Prague,+Czech+Republic"
+          }
+        ]
+      },
+      "high": {
+        "title": "High-End Prague Art Day",
+        "summary": "A refined day through Prague’s best museums, modern art spaces, and elegant cafés.",
+        "schedule": [
+          {
+            "time": "09:30",
+            "title": "National Gallery – Convent of St. Agnes",
+            "description": "Czech medieval and early Renaissance art in a tranquil monastic setting.",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Convent+of+St.+Agnes+National+Gallery,+Prague,+Czech+Republic"
+          },
+          {
+            "time": "12:30",
+            "title": "Lunch at Mlynec",
+            "description": "Elegant restaurant overlooking Charles Bridge, offering artful Czech dishes.",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Mlynec+Restaurant,+Prague,+Czech+Republic"
+          },
+          {
+            "time": "14:30",
+            "title": "DOX Centre for Contemporary Art",
+            "description": "Innovative exhibitions and large installations in an industrial-style space.",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=DOX+Centre+for+Contemporary+Art,+Prague,+Czech+Republic"
+          },
+          {
+            "time": "17:00",
+            "title": "Premium Café Stop – EMA Espresso Bar",
+            "description": "Minimalist café loved by artists and locals for its design and coffee.",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=EMA+Espresso+Bar,+Prague,+Czech+Republic"
+          }
+        ]
+      },
+      "comfortable": {
+        "title": "Luxury Art Journey Through Prague",
+        "summary": "Private tours, gallery visits, fine dining, and the city’s most beautiful architecture in one immersive day.",
+        "schedule": [
+          {
+            "time": "09:30",
+            "title": "Private Art Tour – National Gallery Highlights",
+            "description": "Exclusive guided visit through Czech masterpieces with a professional art historian.",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=National+Gallery+Prague,+Trade+Fair+Palace"
+          },
+          {
+            "time": "12:30",
+            "title": "Lunch at Bellevue Restaurant",
+            "description": "Elegant fine-dining restaurant with artistic presentation and river views.",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Bellevue+Restaurant,+Smetanovo+nábřeží,+Prague,+Czech+Republic"
+          },
+          {
+            "time": "15:00",
+            "title": "Private Visit – Strahov Monastery Library",
+            "description": "Guided access to historic halls filled with art, books, and frescoes.",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Strahov+Monastery+Library,+Prague,+Czech+Republic"
+          },
+          {
+            "time": "18:00",
+            "title": "Sunset at Letná Park Sculpture Garden",
+            "description": "End your day among sculptures and panoramic views of the city.",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Letná+Park,+Prague,+Czech+Republic"
+          }
+        ]
       }
     }
   }

@@ -1,348 +1,114 @@
 {
   "half_day": {
     "history": {
-
-      "local_specialties": {
-
-        "low": {
-          "title": "Half-Day Timișoara History Route (Low Budget)",
-          "summary": "A short and meaningful history walk through Timișoara’s landmarks with affordable local food.",
-          "schedule": [
-            {
-              "time": "13:00",
-              "title": "Victory Square Overview",
-              "description": "Explore historical architecture and learn about the city’s 1989 revolution significance."
-            },
-            {
-              "time": "13:45",
-              "title": "Orthodox Metropolitan Cathedral (Exterior)",
-              "description": "Admire the unique architecture and walk the surrounding plaza."
-            },
-            {
-              "time": "14:30",
-              "title": "Union Square History Corners",
-              "description": "Baroque palaces and old façades full of past stories."
-            },
-            {
-              "time": "15:15",
-              "title": "Budget Local Snack",
-              "description": "Cheap Romanian pastries or a small warm dish."
-            },
-            {
-              "time": "16:00",
-              "title": "Bega Riverside Walk",
-              "description": "Simple, peaceful riverside path to close your tour."
-            }
-          ]
-        },
-
-        "medium": {
-          "title": "Balanced Half-Day History Tour",
-          "summary": "A comfortable historical walk through the city’s most iconic areas with a proper Romanian lunch.",
-          "schedule": [
-            {
-              "time": "13:00",
-              "title": "Victory Square",
-              "description": "Walk through the emblematic plaza where major historical events took place."
-            },
-            {
-              "time": "13:45",
-              "title": "Metropolitan Cathedral",
-              "description": "Impressive architecture and peaceful surroundings."
-            },
-            {
-              "time": "14:30",
-              "title": "Union Square",
-              "description": "Learn about Timișoara’s multi-ethnic history through its colorful buildings."
-            },
-            {
-              "time": "15:45",
-              "title": "Local Romanian Lunch",
-              "description": "Traditional dishes served in a cozy environment."
-            }
-          ]
-        },
-
-        "high": {
-          "title": "Premium History Mini-Tour",
-          "summary": "Refined sightseeing through Timișoara’s historic core paired with a premium local lunch.",
-          "schedule": [
-            {
-              "time": "13:00",
-              "title": "Victory Square (Premium Exploration)",
-              "description": "Detailed look at monuments and historical markers."
-            },
-            {
-              "time": "13:45",
-              "title": "Metropolitan Cathedral",
-              "description": "Admire Byzantine-inspired architecture."
-            },
-            {
-              "time": "14:30",
-              "title": "Union Square Heritage Area",
-              "description": "Baroque beauty and deeply layered history."
-            },
-            {
-              "time": "16:00",
-              "title": "Premium Local Lunch",
-              "description": "High-quality Romanian dishes prepared traditionally."
-            }
-          ]
-        },
-
-        "comfortable": {
-          "title": "Luxury Historical Experience",
-          "summary": "A calm, elegant tour of the city’s iconic historical zones, ending with fine traditional dining.",
-          "schedule": [
-            {
-              "time": "13:00",
-              "title": "VIP Victory Square Walk",
-              "description": "Historic statues, theatre façades and grand architecture."
-            },
-            {
-              "time": "13:45",
-              "title": "Cathedral & Surroundings",
-              "description": "Slow walk around one of the most iconic Romanian churches."
-            },
-            {
-              "time": "14:30",
-              "title": "Union Square (Elegant Route)",
-              "description": "Admire the aristocratic palaces and famous landmarks."
-            },
-            {
-              "time": "16:00",
-              "title": "Luxury Traditional Lunch",
-              "description": "Beautifully plated regional dishes in a refined setting."
-            }
-          ]
-        }
+      "low": {
+        "title": "Half-Day Timișoara History Route (Low Budget)",
+        "summary": "A short and meaningful history walk through Timișoara’s landmarks with affordable local food.",
+        "schedule": [
+          {
+            "time": "13:00",
+            "title": "Victory Square Overview",
+            "description": "Explore historical architecture and learn about the city’s 1989 revolution significance."
+          },
+          {
+            "time": "13:45",
+            "title": "Orthodox Metropolitan Cathedral (Exterior)",
+            "description": "Admire the unique architecture and walk the surrounding plaza."
+          },
+          {
+            "time": "14:30",
+            "title": "Union Square History Corners",
+            "description": "Baroque palaces and old façades full of past stories."
+          },
+          {
+            "time": "15:15",
+            "title": "Budget Local Snack",
+            "description": "Cheap Romanian pastries or a small warm dish."
+          },
+          {
+            "time": "16:00",
+            "title": "Bega Riverside Walk",
+            "description": "Simple, peaceful riverside path to close your tour."
+          }
+        ]
       },
-
-      "light_veggie": {
-
-        "low": {
-          "title": "Veggie-Friendly Half-Day History Walk (Low Budget)",
-          "summary": "A simple, healthy and history-rich route through the city.",
-          "schedule": [
-            {
-              "time": "13:00",
-              "title": "Victory Square Start",
-              "description": "Learn about historical events from plaques and monuments."
-            },
-            {
-              "time": "13:45",
-              "title": "Cathedral Exterior",
-              "description": "Admire one of the city’s most iconic religious buildings."
-            },
-            {
-              "time": "14:30",
-              "title": "Union Square",
-              "description": "Baroque panoramas and heritage façades."
-            },
-            {
-              "time": "15:15",
-              "title": "Budget Veggie Snack",
-              "description": "Simple salads, pastries or wrap options."
-            },
-            {
-              "time": "16:00",
-              "title": "Riverside Walk",
-              "description": "Relax by the water and reflect on the city’s past."
-            }
-          ]
-        },
-
-        "medium": {
-          "title": "Balanced Veggie Half-Day History Tour",
-          "summary": "A comfortable vegetarian-friendly route through Timișoara’s historical landmarks.",
-          "schedule": [
-            {
-              "time": "13:00",
-              "title": "Victory Square",
-              "description": "A symbolic location tied to Romania’s revolution."
-            },
-            {
-              "time": "13:45",
-              "title": "Metropolitan Cathedral",
-              "description": "Beautiful architecture and peaceful plaza."
-            },
-            {
-              "time": "14:30",
-              "title": "Union Square",
-              "description": "Historic buildings and vibrant urban space."
-            },
-            {
-              "time": "15:45",
-              "title": "Vegetarian Lunch",
-              "description": "Healthy, tasty plant-based dishes."
-            }
-          ]
-        },
-
-        "high": {
-          "title": "High-End Veggie History Route",
-          "summary": "Premium plant-based dining paired with elegant historic sightseeing.",
-          "schedule": [
-            {
-              "time": "13:00",
-              "title": "Victory Square Premium Path",
-              "description": "Well-preserved historic façades and monuments."
-            },
-            {
-              "time": "13:45",
-              "title": "Cathedral Exterior Highlights",
-              "description": "Admire the height, style and details."
-            },
-            {
-              "time": "14:30",
-              "title": "Union Square (Deep Dive)",
-              "description": "Baroque heritage and historical stories."
-            },
-            {
-              "time": "16:00",
-              "title": "Premium Vegetarian Lunch",
-              "description": "Polished dishes with high-quality ingredients."
-            }
-          ]
-        },
-
-        "comfortable": {
-          "title": "Luxury Veggie Heritage Walk",
-          "summary": "Elegant historical exploration with fine vegetarian dining.",
-          "schedule": [
-            {
-              "time": "13:00",
-              "title": "Victory Square VIP Experience",
-              "description": "Observe monuments and grand buildings calmly and comfortably."
-            },
-            {
-              "time": "13:45",
-              "title": "Cathedral VIP Path",
-              "description": "Soak in the architectural harmony."
-            },
-            {
-              "time": "14:30",
-              "title": "Union Square Luxury Walk",
-              "description": "Admire aristocratic buildings and historical symmetry."
-            },
-            {
-              "time": "16:00",
-              "title": "Luxury Veggie Lunch",
-              "description": "Fine plant-based cuisine in an elegant environment."
-            }
-          ]
-        }
+      "medium": {
+        "title": "Balanced Half-Day History Tour",
+        "summary": "A comfortable historical walk through the city’s most iconic areas with a proper Romanian lunch.",
+        "schedule": [
+          {
+            "time": "13:00",
+            "title": "Victory Square",
+            "description": "Walk through the emblematic plaza where major historical events took place."
+          },
+          {
+            "time": "13:45",
+            "title": "Metropolitan Cathedral",
+            "description": "Impressive architecture and peaceful surroundings."
+          },
+          {
+            "time": "14:30",
+            "title": "Union Square",
+            "description": "Learn about Timișoara’s multi-ethnic history through its colorful buildings."
+          },
+          {
+            "time": "15:45",
+            "title": "Local Romanian Lunch",
+            "description": "Traditional dishes served in a cozy environment."
+          }
+        ]
       },
-
-      "try_everything": {
-
-        "low": {
-          "title": "Half-Day History + Tasting Bites (Low Budget)",
-          "summary": "A simple history walk with two small tasting stops.",
-          "schedule": [
-            {
-              "time": "13:00",
-              "title": "Victory Square",
-              "description": "Monuments and revolutionary history markers."
-            },
-            {
-              "time": "13:45",
-              "title": "Cathedral",
-              "description": "Admire architecture from the exterior."
-            },
-            {
-              "time": "14:30",
-              "title": "Union Square",
-              "description": "Discover the oldest and most historic square in the city."
-            },
-            {
-              "time": "15:15",
-              "title": "Tasting Snack",
-              "description": "Small pastries or Romanian snacks."
-            }
-          ]
-        },
-
-        "medium": {
-          "title": "Balanced History + Tasting Mini-Tour",
-          "summary": "A cultural afternoon with tasting-style Romanian dishes.",
-          "schedule": [
-            {
-              "time": "13:00",
-              "title": "Victory Square",
-              "description": "Learn the key historic events that shaped Timișoara."
-            },
-            {
-              "time": "13:45",
-              "title": "Cathedral",
-              "description": "Large, impressive and rich in symbolism."
-            },
-            {
-              "time": "14:30",
-              "title": "Union Square",
-              "description": "Classic architecture and colorful buildings."
-            },
-            {
-              "time": "15:45",
-              "title": "Tasting-Style Lunch",
-              "description": "Try multiple smaller dishes for variety."
-            }
-          ]
-        },
-
-        "high": {
-          "title": "Premium Tasting + History Walk",
-          "summary": "Enjoy smaller gourmet plates while discovering Timișoara’s historic highlights.",
-          "schedule": [
-            {
-              "time": "13:00",
-              "title": "Victory Square Premium Exploration",
-              "description": "Elegant plazas and grand architecture."
-            },
-            {
-              "time": "13:45",
-              "title": "Cathedral",
-              "description": "Admire unique architectural details."
-            },
-            {
-              "time": "14:30",
-              "title": "Union Square",
-              "description": "The historical heart of the city filled with noble palaces."
-            },
-            {
-              "time": "16:00",
-              "title": "Premium Tasting Lunch",
-              "description": "Refined, beautifully prepared small plates."
-            }
-          ]
-        },
-
-        "comfortable": {
-          "title": "Luxury History + Tasting Experience",
-          "summary": "Elegant sightseeing matched with a fine dining tasting experience.",
-          "schedule": [
-            {
-              "time": "13:00",
-              "title": "VIP Victory Square",
-              "description": "Walk through the city’s grandest historic plaza."
-            },
-            {
-              "time": "13:45",
-              "title": "Cathedral VIP Look",
-              "description": "Aesthetic lines, classic architecture and peaceful atmosphere."
-            },
-            {
-              "time": "14:30",
-              "title": "Union Square Elegant Walk",
-              "description": "Admire aristocratic buildings and historical depth."
-            },
-            {
-              "time": "16:00",
-              "title": "Luxury Tasting Lunch",
-              "description": "Fine-dining small plates inspired by Romanian cuisine."
-            }
-          ]
-        }
+      "high": {
+        "title": "Premium History Mini-Tour",
+        "summary": "Refined sightseeing through Timișoara’s historic core paired with a premium local lunch.",
+        "schedule": [
+          {
+            "time": "13:00",
+            "title": "Victory Square (Premium Exploration)",
+            "description": "Detailed look at monuments and historical markers."
+          },
+          {
+            "time": "13:45",
+            "title": "Metropolitan Cathedral",
+            "description": "Admire Byzantine-inspired architecture."
+          },
+          {
+            "time": "14:30",
+            "title": "Union Square Heritage Area",
+            "description": "Baroque beauty and deeply layered history."
+          },
+          {
+            "time": "16:00",
+            "title": "Premium Local Lunch",
+            "description": "High-quality Romanian dishes prepared traditionally."
+          }
+        ]
+      },
+      "comfortable": {
+        "title": "Luxury Historical Experience",
+        "summary": "A calm, elegant tour of the city’s iconic historical zones, ending with fine traditional dining.",
+        "schedule": [
+          {
+            "time": "13:00",
+            "title": "VIP Victory Square Walk",
+            "description": "Historic statues, theatre façades and grand architecture."
+          },
+          {
+            "time": "13:45",
+            "title": "Cathedral & Surroundings",
+            "description": "Slow walk around one of the most iconic Romanian churches."
+          },
+          {
+            "time": "14:30",
+            "title": "Union Square (Elegant Route)",
+            "description": "Admire the aristocratic palaces and famous landmarks."
+          },
+          {
+            "time": "16:00",
+            "title": "Luxury Traditional Lunch",
+            "description": "Beautifully plated regional dishes in a refined setting."
+          }
+        ]
       }
     }
   }

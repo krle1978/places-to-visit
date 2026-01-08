@@ -1,89 +1,297 @@
 {
-  "local_specialties": {
+  
+  "coffee_and_brunch": {
     "low": {
-      "title": "Classic Prague Eats on a Low Budget",
-      "summary": "Affordable Czech comfort food and street bites — filling, local, and perfect between sightseeing stops.",
+      "title": "Affordable Prague Coffee & Brunch Spots",
+      "summary": "Casual cafés and brunch places where you can enjoy a great coffee and meal without spending much.",
       "recommendations": [
         {
-          "time": "12:00",
-          "place": "Havelská Koruna",
-          "description": "Self-service Czech classics like goulash, dumplings, and soups at very friendly prices."
+          "time": "09:00",
+          "place": "Café Jedna",
+          "description": "Relaxed café inside the National Gallery, serving pastries, sandwiches, and excellent coffee.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9+Jedna,+Dukelsk%C3%BDch+hrdin%C5%AF+47,+Prague,+Czech+Republic"
         },
         {
-          "time": "14:00",
-          "place": "Lokál Dlouhááá – Lunch Menu",
-          "description": "Freshly prepared Czech dishes with high quality and fair lunch pricing."
+          "time": "11:00",
+          "place": "Můj šálek kávy",
+          "description": "Third-wave coffee at friendly prices, perfect for a simple breakfast or meeting friends.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=M%C5%AFj+%C5%A1%C3%A1lek+k%C3%A1vy,+K%C5%99%C3%AD%C5%BE%C3%ADkova+105,+Prague,+Czech+Republic"
         },
         {
-          "time": "16:00",
-          "place": "Trdelník Street Stands",
-          "description": "Sweet rolled pastry with sugar and cinnamon — simple, iconic, and cheap."
+          "time": "13:00",
+          "place": "Coffee Room",
+          "description": "Minimalist café with affordable brunch plates and cozy vibes.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Coffee+Room,+Korunn%C3%AD+120,+Prague,+Czech+Republic"
         }
       ]
     },
     "medium": {
-      "title": "Balanced Czech Dining Experience",
-      "summary": "Traditional Czech meals paired with cozy interiors and well-balanced prices.",
+      "title": "Balanced Coffee & Brunch Experience",
+      "summary": "Stylish cafés and brunch spots blending creativity, atmosphere, and great coffee.",
       "recommendations": [
         {
-          "time": "12:30",
-          "place": "Lokál Dlouhááá",
-          "description": "Classic Czech cuisine with excellent beer and a lively local atmosphere."
+          "time": "09:30",
+          "place": "Cafefin",
+          "description": "Trendy Vietnamese-inspired café known for colorful brunches and creative drinks.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Cafefin,+N%C3%A1m%C4%9Bst%C3%AD+Ji%C5%99%C3%ADho+z+Pod%C4%9Bbrad+12,+Prague,+Czech+Republic"
         },
         {
-          "time": "15:00",
-          "place": "U Pinkasů",
-          "description": "Historic pub serving hearty Czech dishes and perfectly poured Pilsner."
+          "time": "11:30",
+          "place": "EMA Espresso Bar",
+          "description": "Bright, modern espresso bar loved by locals for its consistent quality.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=EMA+Espresso+Bar,+Na+Florenci+3,+Prague,+Czech+Republic"
         },
         {
-          "time": "18:00",
-          "place": "Café Savoy",
-          "description": "Elegant café for traditional Czech desserts and light evening meals."
+          "time": "14:00",
+          "place": "Venue Café",
+          "description": "Modern brunch restaurant with amazing pancakes and avocado toasts.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Venue+Caf%C3%A9,+Havelsk%C3%A1+4,+Prague,+Czech+Republic"
         }
       ]
     },
     "high": {
-      "title": "Premium Czech Cuisine",
-      "summary": "Refined Czech flavors, elegant interiors, and carefully crafted dishes.",
+      "title": "Premium Coffee & Brunch in Prague",
+      "summary": "Elegant cafés and brunch places with refined menus, artisan coffee, and beautiful interiors.",
       "recommendations": [
         {
-          "time": "12:30",
-          "place": "Mlýnec",
-          "description": "Modern Czech cuisine with river views near Charles Bridge."
+          "time": "09:30",
+          "place": "Café Savoy",
+          "description": "Historic café with chandeliers, gourmet breakfasts, and pastries made in-house.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9+Savoy,+Vitezna+5,+Prague,+Czech+Republic"
         },
         {
-          "time": "15:00",
-          "place": "Café Louvre",
-          "description": "Historic café with polished Czech classics and refined desserts."
+          "time": "11:30",
+          "place": "Bistro Monk",
+          "description": "Trendy downtown brunch spot serving poached eggs, croissants, and fine coffee.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Bistro+Monk,+Benediktsk%C3%A1+3,+Prague,+Czech+Republic"
         },
         {
-          "time": "18:00",
-          "place": "La Degustation Bohême Bourgeoise",
-          "description": "Fine dining interpretation of Czech culinary heritage."
+          "time": "14:00",
+          "place": "Café Letka",
+          "description": "Instagram-favorite café in Letná with boho-chic decor and specialty coffee.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9+Letka,+Letohradsk%C3%A1+44,+Prague,+Czech+Republic"
         }
       ]
     },
     "comfortable": {
-      "title": "Luxury Prague Dining",
-      "summary": "Top-tier culinary experiences blending Czech tradition with contemporary fine dining.",
+      "title": "Luxury Coffee & Brunch Experience",
+      "summary": "Elegant cafés and fine breakfast experiences ideal for relaxed mornings with style.",
+      "recommendations": [
+        {
+          "time": "09:30",
+          "place": "Eska",
+          "description": "Michelin Bib Gourmand restaurant combining artisan bread, brunch, and specialty coffee.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Eska,+Pernerova+49,+Prague,+Czech+Republic"
+        },
+        {
+          "time": "12:00",
+          "place": "Café Imperial",
+          "description": "Luxurious Art Deco café offering full brunch and desserts in a historical interior.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9+Imperial,+Na+Po%C5%99%C3%AD%C4%8D%C3%AD+15,+Prague,+Czech+Republic"
+        },
+        {
+          "time": "14:30",
+          "place": "Marthy’s Kitchen",
+          "description": "Charming spot serving upscale brunches and mimosas in cozy elegance.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Marthy%27s+Kitchen,+Francouzsk%C3%A1+13,+Prague,+Czech+Republic"
+        }
+      ]
+    }
+  },
+  "street_food_and_markets": {
+    "low": {
+      "title": "Prague Street Eats on a Budget",
+      "summary": "Best affordable street food and local market bites loved by both locals and visitors.",
+      "recommendations": [
+        {
+          "time": "12:00",
+          "place": "Manifesto Market Florenc",
+          "description": "Trendy open-air food court with affordable international street food stalls.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Manifesto+Market+Florenc,+Prague,+Czech+Republic"
+        },
+        {
+          "time": "14:00",
+          "place": "Náplavka Farmers’ Market",
+          "description": "Weekend riverside market with local produce, snacks, and lively vibe.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=N%C3%A1plavka+Farmers+Market,+Prague,+Czech+Republic"
+        },
+        {
+          "time": "16:00",
+          "place": "Sisters Chlebíčky",
+          "description": "Gourmet open-faced sandwiches for a quick Czech-style lunch.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Sisters+Chleb%C3%AD%C4%8Dky,+Dlouh%C3%A1+39,+Prague,+Czech+Republic"
+        }
+      ]
+    },
+    "medium": {
+      "title": "Balanced Street Food Experience",
+      "summary": "Modern food halls and weekend markets with varied international options.",
+      "recommendations": [
+        {
+          "time": "12:00",
+          "place": "Holešovice Market Hall",
+          "description": "Industrial space featuring diverse food vendors and cultural events.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Hole%C5%A1ovice+Market+Hall,+Bubensk%C3%A9+n%C3%A1b%C5%99e%C5%BE%C3%AD+306,+Prague,+Czech+Republic"
+        },
+        {
+          "time": "15:00",
+          "place": "Tylovo náměstí Street Food",
+          "description": "Pop-up food trucks and local favorites near I.P. Pavlova area.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Tylovo+n%C3%A1m%C4%9Bst%C3%AD,+Prague,+Czech+Republic"
+        },
+        {
+          "time": "18:00",
+          "place": "Karlin Market",
+          "description": "Urban neighborhood market with rotating street food stands and live music.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Karlin+Market,+Prague,+Czech+Republic"
+        }
+      ]
+    },
+    "high": {
+      "title": "Premium Street Food Spots",
+      "summary": "High-quality market stalls and urban dining concepts for food enthusiasts.",
       "recommendations": [
         {
           "time": "12:30",
-          "place": "Field Restaurant",
-          "description": "Michelin-starred modern Czech cuisine with seasonal focus."
+          "place": "Manifesto Market Anděl",
+          "description": "Design-led street food park featuring world-class pop-ups.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Manifesto+Market+And%C4%9Bl,+Prague,+Czech+Republic"
         },
         {
-          "time": "15:30",
-          "place": "Café Savoy Deluxe",
-          "description": "Luxury pastries and refined Czech classics in a grand interior."
+          "time": "15:00",
+          "place": "BeerGeek Bar & Street Kitchen",
+          "description": "Craft beer hub with inventive small bites and sliders.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=BeerGeek+Bar,+Vinohradsk%C3%A1+62,+Prague,+Czech+Republic"
+        },
+        {
+          "time": "18:00",
+          "place": "Manifesto Smíchov",
+          "description": "Refined outdoor food space with cocktails, lights, and chill music.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Manifesto+Sm%C3%ADchov,+Prague,+Czech+Republic"
+        }
+      ]
+    },
+    "comfortable": {
+      "title": "Luxury Market Dining",
+      "summary": "Exclusive outdoor food spaces and curated market events with atmosphere.",
+      "recommendations": [
+        {
+          "time": "13:00",
+          "place": "Manifesto Market Premium Lounge",
+          "description": "Upscale open-air dining with designer seating and fine drinks.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Manifesto+Market+Florenc,+Prague,+Czech+Republic"
+        },
+        {
+          "time": "16:00",
+          "place": "Kuchyň na Hradě",
+          "description": "Chef-led outdoor restaurant near Prague Castle with market-style kitchen.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Kuchy%C5%88+na+Hrad%C4%9B,+Hrad%C4%8Dany,+Prague,+Czech+Republic"
         },
         {
           "time": "19:00",
-          "place": "Kampa Park",
-          "description": "Elegant riverside dining with premium ingredients and atmosphere."
+          "place": "Savage Garden Rooftop Market",
+          "description": "Rooftop street food and drinks with a panoramic city view.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Savage+Garden,+Prague,+Czech+Republic"
+        }
+      ]
+    }
+  },
+  "vegetarian_and_vegan": {
+    "low": {
+      "title": "Budget-Friendly Vegetarian & Vegan Eats",
+      "summary": "Healthy and tasty plant-based spots perfect for travelers on a budget.",
+      "recommendations": [
+        {
+          "time": "12:00",
+          "place": "Loving Hut",
+          "description": "Global vegan chain with fast, filling meals at affordable prices.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Loving+Hut,+Plze%C5%88sk%C3%A1+8,+Prague,+Czech+Republic"
+        },
+        {
+          "time": "14:00",
+          "place": "Dhaba Beas",
+          "description": "Self-service Indian vegan buffet popular among students and locals.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Dhaba+Beas,+Jungmannova+8,+Prague,+Czech+Republic"
+        },
+        {
+          "time": "16:00",
+          "place": "Moment Café",
+          "description": "Casual vegan café with sandwiches, cakes, and smoothies.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Moment+Caf%C3%A9,+Slezsk%C3%A1+62,+Prague,+Czech+Republic"
+        }
+      ]
+    },
+    "medium": {
+      "title": "Balanced Vegetarian Dining",
+      "summary": "Trendy vegan and vegetarian restaurants with creative menus and cozy settings.",
+      "recommendations": [
+        {
+          "time": "12:00",
+          "place": "Maitrea",
+          "description": "Zen-inspired vegetarian restaurant serving flavorful plant-based dishes.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Maitrea,+Tynska+9,+Prague,+Czech+Republic"
+        },
+        {
+          "time": "14:00",
+          "place": "Forky’s",
+          "description": "Modern vegan eatery known for bowls, burgers, and protein wraps.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Forky%27s,+V%C3%A1clavsk%C3%A9+n%C3%A1m%C4%9Bst%C3%AD+28,+Prague,+Czech+Republic"
+        },
+        {
+          "time": "17:00",
+          "place": "Satsang",
+          "description": "Vegetarian bistro offering creative seasonal plates in a bohemian vibe.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Satsang,+Krymsk%C3%A1+24,+Prague,+Czech+Republic"
+        }
+      ]
+    },
+    "high": {
+      "title": "Premium Vegan & Vegetarian Dining",
+      "summary": "Refined plant-based dining options with chef-curated tasting menus.",
+      "recommendations": [
+        {
+          "time": "12:30",
+          "place": "Lehká Hlava (Clear Head)",
+          "description": "Famous artistic vegetarian restaurant with imaginative plates.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Lehk%C3%A1+Hlava,+Bor%C5%A1ov+2,+Prague,+Czech+Republic"
+        },
+        {
+          "time": "15:00",
+          "place": "Plevel",
+          "description": "Modern vegan restaurant with fine presentation and creative use of Czech ingredients.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Plevel,+Vrsovicke+namesti+8,+Prague,+Czech+Republic"
+        },
+        {
+          "time": "18:00",
+          "place": "Blue Vegan Pig Shop",
+          "description": "Elegant vegan bakery and restaurant offering gourmet desserts.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Blue+Vegan+Pig+Shop,+Havelsk%C3%A1+15,+Prague,+Czech+Republic"
+        }
+      ]
+    },
+    "comfortable": {
+      "title": "Luxury Vegetarian & Vegan Dining",
+      "summary": "High-end vegetarian experiences mixing design, flavor, and sustainability.",
+      "recommendations": [
+        {
+          "time": "12:30",
+          "place": "Etnosvět",
+          "description": "Stylish restaurant offering globally inspired vegetarian tasting menus.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Etnosv%C4%9Bt,+Legerova+40,+Prague,+Czech+Republic"
+        },
+        {
+          "time": "15:30",
+          "place": "Spojka Karlín",
+          "description": "Eco-conscious eatery blending vegetarian innovation and modern design.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Spojka+Karlin,+Pernerova+50,+Prague,+Czech+Republic"
+        },
+        {
+          "time": "19:00",
+          "place": "Lehká Hlava Private Dining",
+          "description": "Exclusive vegetarian dinner experience in a private artistic setting.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Lehk%C3%A1+Hlava,+Bor%C5%A1ov+2,+Prague,+Czech+Republic"
         }
       ]
     }
   }
 }
-

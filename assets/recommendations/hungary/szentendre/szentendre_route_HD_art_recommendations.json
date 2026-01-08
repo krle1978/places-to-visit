@@ -1,349 +1,114 @@
 {
   "half_day": {
     "art": {
-      "local_specialties": {
-        "low": {
-          "title": "Half-Day Szentendre Art Route (Low Budget)",
-          "summary": "A simple and affordable art-filled walk through Szentendre’s creative streets, small galleries, and Hungarian snacks.",
-          "schedule": [
-            {
-              "time": "14:00",
-              "title": "Old Town Art Corners",
-              "description": "Start with a walk through narrow streets filled with colorful façades and small public art pieces."
-            },
-            {
-              "time": "14:45",
-              "title": "Free/Low-Cost Gallery Visit",
-              "description": "Visit one of the smaller galleries with symbolic or low entry fees."
-            },
-            {
-              "time": "15:30",
-              "title": "Budget Local Snack",
-              "description": "Try lángos or a simple warm Hungarian dish from an affordable spot."
-            },
-            {
-              "time": "16:15",
-              "title": "Artisan Street + Craft Shops",
-              "description": "Browse handmade ceramics and artworks without needing to buy anything."
-            },
-            {
-              "time": "17:00",
-              "title": "Riverside Finish",
-              "description": "End by the Danube, sketching, taking photos, or simply relaxing."
-            }
-          ]
-        },
-
-        "medium": {
-          "title": "Balanced Half-Day Art Experience",
-          "summary": "A comfortable and relaxed art-focused half-day including galleries, local food, and Szentendre’s iconic creative streets.",
-          "schedule": [
-            {
-              "time": "14:00",
-              "title": "Historic Art Walk",
-              "description": "Walk through Szentendre’s charming old center filled with art shops and creative corners."
-            },
-            {
-              "time": "14:45",
-              "title": "Art Mill Museum Visit",
-              "description": "Explore a mid-range art museum showcasing exhibitions of local and regional artists."
-            },
-            {
-              "time": "16:00",
-              "title": "Mid-Range Local Lunch or Snack",
-              "description": "Enjoy a warm Hungarian meal in a cozy restaurant."
-            },
-            {
-              "time": "17:00",
-              "title": "Riverside Photography Spot",
-              "description": "Finish with a calm river walk and photo-friendly views."
-            }
-          ]
-        },
-
-        "high": {
-          "title": "High-End Half-Day Art Route",
-          "summary": "A refined half-day art experience featuring premium galleries and a high-quality meal.",
-          "schedule": [
-            {
-              "time": "14:00",
-              "title": "Premium Art Street Walk",
-              "description": "Visit elegant art boutiques and craft studios."
-            },
-            {
-              "time": "15:00",
-              "title": "Curated Gallery Visit",
-              "description": "Explore high-level exhibition spaces with curated works."
-            },
-            {
-              "time": "16:15",
-              "title": "High-End Local Lunch",
-              "description": "Enjoy premium Hungarian dishes with beautiful presentation."
-            },
-            {
-              "time": "17:15",
-              "title": "Scenic River Lookout",
-              "description": "End your half day with the best riverside views."
-            }
-          ]
-        },
-
-        "comfortable": {
-          "title": "Luxury Half-Day Art Experience",
-          "summary": "The most elegant art-focused half-day route with fine dining, curated galleries, and scenic viewpoints.",
-          "schedule": [
-            {
-              "time": "14:00",
-              "title": "Exclusive Old Town Art Walk",
-              "description": "Start with a curated walk through Szentendre’s most beautiful art-filled areas."
-            },
-            {
-              "time": "15:00",
-              "title": "VIP Gallery Visit",
-              "description": "High-end exhibition rooms featuring premium Hungarian and international artworks."
-            },
-            {
-              "time": "16:15",
-              "title": "Fine Dining Local Lunch",
-              "description": "A luxury meal inspired by Hungarian culinary tradition."
-            },
-            {
-              "time": "17:15",
-              "title": "Riverside Panorama Finish",
-              "description": "Relax at a premium scenic spot by the Danube."
-            }
-          ]
-        }
+      "low": {
+        "title": "Half-Day Szentendre Art Route (Low Budget)",
+        "summary": "A simple and affordable art-filled walk through Szentendre’s creative streets, small galleries, and Hungarian snacks.",
+        "schedule": [
+          {
+            "time": "14:00",
+            "title": "Old Town Art Corners",
+            "description": "Start with a walk through narrow streets filled with colorful façades and small public art pieces."
+          },
+          {
+            "time": "14:45",
+            "title": "Free/Low-Cost Gallery Visit",
+            "description": "Visit one of the smaller galleries with symbolic or low entry fees."
+          },
+          {
+            "time": "15:30",
+            "title": "Budget Local Snack",
+            "description": "Try lángos or a simple warm Hungarian dish from an affordable spot."
+          },
+          {
+            "time": "16:15",
+            "title": "Artisan Street + Craft Shops",
+            "description": "Browse handmade ceramics and artworks without needing to buy anything."
+          },
+          {
+            "time": "17:00",
+            "title": "Riverside Finish",
+            "description": "End by the Danube, sketching, taking photos, or simply relaxing."
+          }
+        ]
       },
-
-      "light_veggie": {
-        "low": {
-          "title": "Budget Veggie Art Route",
-          "summary": "An affordable half-day art route with vegetarian-friendly meals and creative corners.",
-          "schedule": [
-            {
-              "time": "14:00",
-              "title": "Old Town Artistic Streets",
-              "description": "Walk through colorful historic streets and pop into small art shops."
-            },
-            {
-              "time": "14:45",
-              "title": "Small Gallery Stop",
-              "description": "Visit an affordable gallery with local works."
-            },
-            {
-              "time": "15:30",
-              "title": "Budget Veggie Snack",
-              "description": "Simple salads, light pasta, or veggie pastries."
-            },
-            {
-              "time": "16:15",
-              "title": "Craft Street Exploration",
-              "description": "Browse handmade ceramics and workshops."
-            },
-            {
-              "time": "17:00",
-              "title": "Riverside Chill",
-              "description": "Finish beside the river in a peaceful setting."
-            }
-          ]
-        },
-
-        "medium": {
-          "title": "Balanced Veggie Art Experience",
-          "summary": "A vegetarian-friendly half-day with art museums and healthy meals.",
-          "schedule": [
-            {
-              "time": "14:00",
-              "title": "Artistic Old Town Walk",
-              "description": "Explore Szentendre’s art-focused historic streets."
-            },
-            {
-              "time": "14:45",
-              "title": "Art Mill or Local Gallery",
-              "description": "Enjoy exhibitions with a mix of modern and traditional works."
-            },
-            {
-              "time": "16:00",
-              "title": "Vegetarian Lunch",
-              "description": "Healthy veggie dishes in a comfortable restaurant."
-            },
-            {
-              "time": "17:00",
-              "title": "Riverside Slow Walk",
-              "description": "A calm nature-art fusion ending."
-            }
-          ]
-        },
-
-        "high": {
-          "title": "High-End Veggie Art Route",
-          "summary": "A premium art experience with refined vegetarian dining.",
-          "schedule": [
-            {
-              "time": "14:00",
-              "title": "Elite Art Street Walk",
-              "description": "Visit high-end galleries and creative studios."
-            },
-            {
-              "time": "15:00",
-              "title": "Premium Curated Gallery",
-              "description": "Explore an exclusive exhibition with refined pieces."
-            },
-            {
-              "time": "16:15",
-              "title": "High-End Veggie Lunch",
-              "description": "Gourmet vegetarian plates with beautiful presentation."
-            },
-            {
-              "time": "17:15",
-              "title": "Viewpoint Near the River",
-              "description": "Calm ending in a scenic spot."
-            }
-          ]
-        },
-
-        "comfortable": {
-          "title": "Luxury Veggie Art Experience",
-          "summary": "A deluxe vegetarian half-day route with exclusive art stops and premium dining.",
-          "schedule": [
-            {
-              "time": "14:00",
-              "title": "Curated Art Walk",
-              "description": "Walk through the most beautiful artistic corners of Szentendre."
-            },
-            {
-              "time": "15:00",
-              "title": "VIP Gallery Collection",
-              "description": "Enjoy top-level exhibitions in elegant spaces."
-            },
-            {
-              "time": "16:15",
-              "title": "Fine Dining Veggie Lunch",
-              "description": "Premium plant-based dishes in a high-end restaurant."
-            },
-            {
-              "time": "17:15",
-              "title": "Riverside Panorama",
-              "description": "End at a luxurious scenic viewpoint."
-            }
-          ]
-        }
+      "medium": {
+        "title": "Balanced Half-Day Art Experience",
+        "summary": "A comfortable and relaxed art-focused half-day including galleries, local food, and Szentendre’s iconic creative streets.",
+        "schedule": [
+          {
+            "time": "14:00",
+            "title": "Historic Art Walk",
+            "description": "Walk through Szentendre’s charming old center filled with art shops and creative corners."
+          },
+          {
+            "time": "14:45",
+            "title": "Art Mill Museum Visit",
+            "description": "Explore a mid-range art museum showcasing exhibitions of local and regional artists."
+          },
+          {
+            "time": "16:00",
+            "title": "Mid-Range Local Lunch or Snack",
+            "description": "Enjoy a warm Hungarian meal in a cozy restaurant."
+          },
+          {
+            "time": "17:00",
+            "title": "Riverside Photography Spot",
+            "description": "Finish with a calm river walk and photo-friendly views."
+          }
+        ]
       },
-
-      "try_everything": {
-        "low": {
-          "title": "Budget Tasting Art Route",
-          "summary": "A playful half-day art route with cheap small bites and creative local spots.",
-          "schedule": [
-            {
-              "time": "14:00",
-              "title": "Pastry Tasting + Art Walk",
-              "description": "Try a pastry while walking through the artistic old town."
-            },
-            {
-              "time": "14:45",
-              "title": "Small Gallery Entrance",
-              "description": "Check out a cozy gallery with local works."
-            },
-            {
-              "time": "15:30",
-              "title": "Budget Tasting Snack",
-              "description": "Try a couple of small inexpensive dishes."
-            },
-            {
-              "time": "16:15",
-              "title": "Craft Street Exploration",
-              "description": "Browse ceramics, illustrations, and handmade goods."
-            },
-            {
-              "time": "17:00",
-              "title": "Riverside Evening End",
-              "description": "Relax along the river to finish the half day."
-            }
-          ]
-        },
-
-        "medium": {
-          "title": "Balanced Art + Tasting Experience",
-          "summary": "A comfortable combination of tasting-style meals and art exploration.",
-          "schedule": [
-            {
-              "time": "14:00",
-              "title": "Mini Tasting Start",
-              "description": "Sample 1–2 small snacks while walking."
-            },
-            {
-              "time": "14:45",
-              "title": "Mid-Range Gallery Visit",
-              "description": "Visit a museum or exhibition space."
-            },
-            {
-              "time": "16:00",
-              "title": "Medium Tasting Lunch",
-              "description": "Shared plates with Hungarian-inspired flavor."
-            },
-            {
-              "time": "17:00",
-              "title": "Riverside Finish",
-              "description": "A calm end beside the Danube."
-            }
-          ]
-        },
-
-        "high": {
-          "title": "High-End Tasting Art Route",
-          "summary": "Premium tasting-style dishes and curated art spaces in a half-day format.",
-          "schedule": [
-            {
-              "time": "14:00",
-              "title": "Premium Mini Tasting",
-              "description": "A couple of refined small bites to start."
-            },
-            {
-              "time": "15:00",
-              "title": "Exclusive Gallery Experience",
-              "description": "Explore curated art exhibitions in premium spaces."
-            },
-            {
-              "time": "16:15",
-              "title": "High-End Tasting Lunch",
-              "description": "Try several gourmet small plates."
-            },
-            {
-              "time": "17:15",
-              "title": "Scenic Riverside Viewpoint",
-              "description": "Elegant ending with calm river panoramas."
-            }
-          ]
-        },
-
-        "comfortable": {
-          "title": "Luxury Tasting Art Experience",
-          "summary": "A deluxe combination of gourmet tasting plates and exclusive art galleries.",
-          "schedule": [
-            {
-              "time": "14:00",
-              "title": "Luxury Tasting Starter",
-              "description": "Begin with artistic high-end mini dishes."
-            },
-            {
-              "time": "15:00",
-              "title": "VIP Gallery Visit",
-              "description": "Visit high-level curated exhibitions."
-            },
-            {
-              "time": "16:15",
-              "title": "Fine Dining Tasting Lunch",
-              "description": "A refined multi-plate tasting menu."
-            },
-            {
-              "time": "17:15",
-              "title": "Premium Riverside Finish",
-              "description": "End your half-day in the most scenic riverside zone."
-            }
-          ]
-        }
+      "high": {
+        "title": "High-End Half-Day Art Route",
+        "summary": "A refined half-day art experience featuring premium galleries and a high-quality meal.",
+        "schedule": [
+          {
+            "time": "14:00",
+            "title": "Premium Art Street Walk",
+            "description": "Visit elegant art boutiques and craft studios."
+          },
+          {
+            "time": "15:00",
+            "title": "Curated Gallery Visit",
+            "description": "Explore high-level exhibition spaces with curated works."
+          },
+          {
+            "time": "16:15",
+            "title": "High-End Local Lunch",
+            "description": "Enjoy premium Hungarian dishes with beautiful presentation."
+          },
+          {
+            "time": "17:15",
+            "title": "Scenic River Lookout",
+            "description": "End your half day with the best riverside views."
+          }
+        ]
+      },
+      "comfortable": {
+        "title": "Luxury Half-Day Art Experience",
+        "summary": "The most elegant art-focused half-day route with fine dining, curated galleries, and scenic viewpoints.",
+        "schedule": [
+          {
+            "time": "14:00",
+            "title": "Exclusive Old Town Art Walk",
+            "description": "Start with a curated walk through Szentendre’s most beautiful art-filled areas."
+          },
+          {
+            "time": "15:00",
+            "title": "VIP Gallery Visit",
+            "description": "High-end exhibition rooms featuring premium Hungarian and international artworks."
+          },
+          {
+            "time": "16:15",
+            "title": "Fine Dining Local Lunch",
+            "description": "A luxury meal inspired by Hungarian culinary tradition."
+          },
+          {
+            "time": "17:15",
+            "title": "Riverside Panorama Finish",
+            "description": "Relax at a premium scenic spot by the Danube."
+          }
+        ]
       }
     }
   }

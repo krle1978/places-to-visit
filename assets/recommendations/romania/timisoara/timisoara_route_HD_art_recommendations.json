@@ -1,353 +1,119 @@
 {
   "half_day": {
     "art": {
-
-      "local_specialties": {
-
-        "low": {
-          "title": "Half-Day Timișoara Art Route (Low Budget)",
-          "summary": "A short but rich art-focused route filled with murals, galleries and affordable local food.",
-          "schedule": [
-            {
-              "time": "13:00",
-              "title": "Union Square Art Corners",
-              "description": "Start among pastel buildings and public sculptures."
-            },
-            {
-              "time": "13:45",
-              "title": "Old Town Murals",
-              "description": "Explore colorful street-art hidden in small alleys."
-            },
-            {
-              "time": "14:30",
-              "title": "Art Museum Exterior & Courtyard",
-              "description": "Enjoy the façade of the Baroque Palace and the open courtyard."
-            },
-            {
-              "time": "15:30",
-              "title": "Budget Local Snack",
-              "description": "Affordable Romanian mini-meals or pastries."
-            },
-            {
-              "time": "16:00",
-              "title": "Riverside Sketch Spot",
-              "description": "Sit by the Bega river and sketch, read or just relax."
-            }
-          ]
-        },
-
-        "medium": {
-          "title": "Balanced Half-Day Art Walk",
-          "summary": "A comfortable short art route with murals, galleries and classic Romanian lunch.",
-          "schedule": [
-            {
-              "time": "13:00",
-              "title": "Victory Square Architecture",
-              "description": "Grand buildings and statues — great warm-up for the art day."
-            },
-            {
-              "time": "13:45",
-              "title": "Union Square",
-              "description": "Colorful Baroque architecture and small art corners."
-            },
-            {
-              "time": "14:30",
-              "title": "Art Museum Highlights",
-              "description": "Quick visit to see the top paintings and exhibitions."
-            },
-            {
-              "time": "15:45",
-              "title": "Local Romanian Lunch",
-              "description": "Comfortable spot with traditional dishes."
-            },
-            {
-              "time": "16:30",
-              "title": "Roses Park (Artistic Corners)",
-              "description": "Sculptures and nature create a calm ending."
-            }
-          ]
-        },
-
-        "high": {
-          "title": "Premium Half-Day Art Experience",
-          "summary": "A curated short art route with refined local dining and polished cultural stops.",
-          "schedule": [
-            {
-              "time": "13:00",
-              "title": "Union Square Premium Exploration",
-              "description": "Elegant façades, statues and historic architecture."
-            },
-            {
-              "time": "13:45",
-              "title": "Art Museum Deep Highlights",
-              "description": "Spend extra time with curated sections of the gallery."
-            },
-            {
-              "time": "15:00",
-              "title": "Fabric District",
-              "description": "Indie galleries and artistic industrial buildings."
-            },
-            {
-              "time": "16:00",
-              "title": "Premium Local Lunch",
-              "description": "High-quality Romanian dishes."
-            }
-          ]
-        },
-
-        "comfortable": {
-          "title": "Luxury Art Mini-Tour",
-          "summary": "A stylish, comfortable half-day of art, architecture and elegant slow dining.",
-          "schedule": [
-            {
-              "time": "13:00",
-              "title": "VIP Union Square",
-              "description": "Elegant architecture and calm artistic surroundings."
-            },
-            {
-              "time": "13:45",
-              "title": "Art Museum VIP Walk",
-              "description": "Peaceful, polished gallery experience."
-            },
-            {
-              "time": "15:00",
-              "title": "Fabric District Boutique Galleries",
-              "description": "Small creative spaces and modern art corners."
-            },
-            {
-              "time": "16:00",
-              "title": "Comfort Luxury Lunch",
-              "description": "Beautifully presented Romanian dishes."
-            }
-          ]
-        }
+      "low": {
+        "title": "Half-Day Timișoara Art Route (Low Budget)",
+        "summary": "A short but rich art-focused route filled with murals, galleries and affordable local food.",
+        "schedule": [
+          {
+            "time": "13:00",
+            "title": "Union Square Art Corners",
+            "description": "Start among pastel buildings and public sculptures."
+          },
+          {
+            "time": "13:45",
+            "title": "Old Town Murals",
+            "description": "Explore colorful street-art hidden in small alleys."
+          },
+          {
+            "time": "14:30",
+            "title": "Art Museum Exterior & Courtyard",
+            "description": "Enjoy the façade of the Baroque Palace and the open courtyard."
+          },
+          {
+            "time": "15:30",
+            "title": "Budget Local Snack",
+            "description": "Affordable Romanian mini-meals or pastries."
+          },
+          {
+            "time": "16:00",
+            "title": "Riverside Sketch Spot",
+            "description": "Sit by the Bega river and sketch, read or just relax."
+          }
+        ]
       },
-
-      "light_veggie": {
-
-        "low": {
-          "title": "Half-Day Veggie Art Route (Low Budget)",
-          "summary": "Street art, galleries and cheap, tasty vegetarian meals.",
-          "schedule": [
-            {
-              "time": "13:00",
-              "title": "Union Square",
-              "description": "Colorful historical zone with artistic details."
-            },
-            {
-              "time": "13:45",
-              "title": "Street-Art Alleys",
-              "description": "Hunt for murals around the Old Town."
-            },
-            {
-              "time": "14:30",
-              "title": "Quick Art Museum Exterior Visit",
-              "description": "Admire the Baroque Palace architecture."
-            },
-            {
-              "time": "15:15",
-              "title": "Budget Veggie Snack",
-              "description": "Cheap salads, wraps or veggie pastries."
-            },
-            {
-              "time": "16:00",
-              "title": "Riverside Calm Spot",
-              "description": "Finish with a relaxed moment near the water."
-            }
-          ]
-        },
-
-        "medium": {
-          "title": "Balanced Veggie Art Afternoon",
-          "summary": "A comfortable half-day route with art and healthy vegetarian dining.",
-          "schedule": [
-            {
-              "time": "13:00",
-              "title": "Victory Square",
-              "description": "Architecture and statues fill this artistic plaza."
-            },
-            {
-              "time": "13:40",
-              "title": "Union Square",
-              "description": "Bright, joyful colors and artistic corners."
-            },
-            {
-              "time": "14:30",
-              "title": "Art Museum",
-              "description": "Spend time exploring selected exhibitions."
-            },
-            {
-              "time": "15:45",
-              "title": "Vegetarian Lunch",
-              "description": "Healthy and filling plant-based dishes."
-            }
-          ]
-        },
-
-        "high": {
-          "title": "High-End Veggie Art Mini-Tour",
-          "summary": "Curated gallery moments and elegant vegetarian meals.",
-          "schedule": [
-            {
-              "time": "13:00",
-              "title": "Union Square Premium",
-              "description": "Picturesque buildings and artistic vibes."
-            },
-            {
-              "time": "13:45",
-              "title": "Art Museum Highlights",
-              "description": "See the finest works at a relaxed pace."
-            },
-            {
-              "time": "15:00",
-              "title": "Fabric District Art Walk",
-              "description": "Small creative spots and modern murals."
-            },
-            {
-              "time": "16:00",
-              "title": "Premium Veggie Lunch",
-              "description": "Refined dishes with fresh ingredients."
-            }
-          ]
-        },
-
-        "comfortable": {
-          "title": "Luxury Veggie Art Experience",
-          "summary": "A slow, polished half-day featuring elegant galleries and fine vegetarian meals.",
-          "schedule": [
-            {
-              "time": "13:00",
-              "title": "VIP Union Square",
-              "description": "Chic architecture and color harmony."
-            },
-            {
-              "time": "13:45",
-              "title": "Art Museum VIP Gallery Pass",
-              "description": "Slow exploration of curated masterpieces."
-            },
-            {
-              "time": "15:00",
-              "title": "Fabric District (Calm Exploration)",
-              "description": "Artistic cafés, small studios and murals."
-            },
-            {
-              "time": "16:00",
-              "title": "Luxury Veggie Lunch",
-              "description": "Fine dining plant-based cuisine."
-            }
-          ]
-        }
+      "medium": {
+        "title": "Balanced Half-Day Art Walk",
+        "summary": "A comfortable short art route with murals, galleries and classic Romanian lunch.",
+        "schedule": [
+          {
+            "time": "13:00",
+            "title": "Victory Square Architecture",
+            "description": "Grand buildings and statues — great warm-up for the art day."
+          },
+          {
+            "time": "13:45",
+            "title": "Union Square",
+            "description": "Colorful Baroque architecture and small art corners."
+          },
+          {
+            "time": "14:30",
+            "title": "Art Museum Highlights",
+            "description": "Quick visit to see the top paintings and exhibitions."
+          },
+          {
+            "time": "15:45",
+            "title": "Local Romanian Lunch",
+            "description": "Comfortable spot with traditional dishes."
+          },
+          {
+            "time": "16:30",
+            "title": "Roses Park (Artistic Corners)",
+            "description": "Sculptures and nature create a calm ending."
+          }
+        ]
       },
-
-      "try_everything": {
-
-        "low": {
-          "title": "Half-Day Tasting Art Route (Low Budget)",
-          "summary": "Art + small cheap bites + murals — simple, fun and affordable.",
-          "schedule": [
-            {
-              "time": "13:00",
-              "title": "Union Square",
-              "description": "Aesthetic façades and public sculptures."
-            },
-            {
-              "time": "13:45",
-              "title": "Street Art Spots",
-              "description": "Find murals and fun illustrations."
-            },
-            {
-              "time": "14:30",
-              "title": "Snack Tasting",
-              "description": "2–3 pastries, pretzels or small Romanian bites."
-            },
-            {
-              "time": "15:00",
-              "title": "Art Museum Courtyard",
-              "description": "Quick artistic atmosphere without a long visit."
-            }
-          ]
-        },
-
-        "medium": {
-          "title": "Balanced Art + Tasting Mini-Tour",
-          "summary": "A mixture of sightseeing and tasting-style medium-budget dishes.",
-          "schedule": [
-            {
-              "time": "13:00",
-              "title": "Victory Square",
-              "description": "A strong cultural start for your art afternoon."
-            },
-            {
-              "time": "13:45",
-              "title": "Union Square",
-              "description": "Elegant buildings and photo-perfect colors."
-            },
-            {
-              "time": "14:30",
-              "title": "Art Museum Highlights",
-              "description": "Visit the main exhibitions."
-            },
-            {
-              "time": "15:45",
-              "title": "Tasting Lunch",
-              "description": "Try several mid-range small plates."
-            }
-          ]
-        },
-
-        "high": {
-          "title": "High-End Art + Tasting Route",
-          "summary": "Premium small plates paired with stylish art stops.",
-          "schedule": [
-            {
-              "time": "13:00",
-              "title": "Union Square Premium",
-              "description": "Bright architecture and polished surroundings."
-            },
-            {
-              "time": "13:45",
-              "title": "Art Museum",
-              "description": "Well-curated galleries worth exploring slowly."
-            },
-            {
-              "time": "15:00",
-              "title": "Fabric District",
-              "description": "Boutique galleries and creative walls."
-            },
-            {
-              "time": "16:00",
-              "title": "Premium Tasting Lunch",
-              "description": "Beautiful small dishes inspired by Romanian flavors."
-            }
-          ]
-        },
-
-        "comfortable": {
-          "title": "Luxury Tasting Art Afternoon",
-          "summary": "An elegant blend of curated art, boutique corners and fine tasting plates.",
-          "schedule": [
-            {
-              "time": "13:00",
-              "title": "VIP Union Square",
-              "description": "Prestigious, colorful, artistic atmosphere."
-            },
-            {
-              "time": "13:45",
-              "title": "Art Museum VIP Tour",
-              "description": "Slow and stylish walk through selected exhibits."
-            },
-            {
-              "time": "15:00",
-              "title": "Fabric District Boutique Art",
-              "description": "Small studios, murals and aesthetic corners."
-            },
-            {
-              "time": "16:00",
-              "title": "Luxury Tasting Lunch",
-              "description": "Creative, beautifully presented small plates."
-            }
-          ]
-        }
+      "high": {
+        "title": "Premium Half-Day Art Experience",
+        "summary": "A curated short art route with refined local dining and polished cultural stops.",
+        "schedule": [
+          {
+            "time": "13:00",
+            "title": "Union Square Premium Exploration",
+            "description": "Elegant façades, statues and historic architecture."
+          },
+          {
+            "time": "13:45",
+            "title": "Art Museum Deep Highlights",
+            "description": "Spend extra time with curated sections of the gallery."
+          },
+          {
+            "time": "15:00",
+            "title": "Fabric District",
+            "description": "Indie galleries and artistic industrial buildings."
+          },
+          {
+            "time": "16:00",
+            "title": "Premium Local Lunch",
+            "description": "High-quality Romanian dishes."
+          }
+        ]
+      },
+      "comfortable": {
+        "title": "Luxury Art Mini-Tour",
+        "summary": "A stylish, comfortable half-day of art, architecture and elegant slow dining.",
+        "schedule": [
+          {
+            "time": "13:00",
+            "title": "VIP Union Square",
+            "description": "Elegant architecture and calm artistic surroundings."
+          },
+          {
+            "time": "13:45",
+            "title": "Art Museum VIP Walk",
+            "description": "Peaceful, polished gallery experience."
+          },
+          {
+            "time": "15:00",
+            "title": "Fabric District Boutique Galleries",
+            "description": "Small creative spaces and modern art corners."
+          },
+          {
+            "time": "16:00",
+            "title": "Comfort Luxury Lunch",
+            "description": "Beautifully presented Romanian dishes."
+          }
+        ]
       }
     }
   }

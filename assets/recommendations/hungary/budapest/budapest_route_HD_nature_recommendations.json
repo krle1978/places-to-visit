@@ -1,338 +1,109 @@
 {
   "half_day": {
     "nature": {
-
-      "local_specialties": {
-
-        "low": {
-          "title": "Half-Day Budapest Nature Route (Low Budget)",
-          "summary": "A calm, budget-friendly journey through Budapest’s greenest spots with cheap traditional food.",
-          "schedule": [
-            {
-              "time": "10:00",
-              "title": "City Park Morning Walk",
-              "description": "Relax by the lake, explore tree-lined paths and enjoy the peaceful start."
-            },
-            {
-              "time": "11:00",
-              "title": "Vajdahunyad Castle Exterior",
-              "description": "Castle-like building surrounded by nature — perfect for photos."
-            },
-            {
-              "time": "12:00",
-              "title": "Budget Local Lunch",
-              "description": "Affordable Hungarian dishes like goulash soup or daily menu options."
-            },
-            {
-              "time": "13:00",
-              "title": "Andrássy Avenue Trees",
-              "description": "Walk down the shaded avenue with beautiful architecture and greenery."
-            }
-          ]
-        },
-
-        "medium": {
-          "title": "Balanced Nature Walk + Local Food",
-          "summary": "A comfortable half-day filled with greenery, scenic views and mid-range Hungarian dishes.",
-          "schedule": [
-            {
-              "time": "10:00",
-              "title": "Danube Promenade",
-              "description": "Fresh air, wide riverside paths and great views of Buda’s hills."
-            },
-            {
-              "time": "11:00",
-              "title": "Margaret Island",
-              "description": "Nature, fountains, gardens and quiet walking paths."
-            },
-            {
-              "time": "12:30",
-              "title": "Local Lunch",
-              "description": "Traditional Hungarian food in a comfortable setting."
-            },
-            {
-              "time": "13:45",
-              "title": "City Park Exit Walk",
-              "description": "Finish with a peaceful stroll through the park’s shaded lanes."
-            }
-          ]
-        },
-
-        "high": {
-          "title": "High-End Nature Experience",
-          "summary": "Premium nature spots, curated viewpoints and refined traditional dining.",
-          "schedule": [
-            {
-              "time": "10:00",
-              "title": "Gellért Hill Lower Path",
-              "description": "Shaded forest-like walkways with amazing views."
-            },
-            {
-              "time": "11:15",
-              "title": "Danube Riverside Scenic Zone",
-              "description": "Stunning river and Parliament views."
-            },
-            {
-              "time": "12:30",
-              "title": "Premium Local Lunch",
-              "description": "Refined versions of classic Hungarian dishes."
-            },
-            {
-              "time": "13:45",
-              "title": "Opera District Green Corners",
-              "description": "Calm, stylish streets filled with little trees and charm."
-            }
-          ]
-        },
-
-        "comfortable": {
-          "title": "Luxury Budapest Nature Half-Day",
-          "summary": "Exclusive-feeling natural spots, curated walks and elegant dining.",
-          "schedule": [
-            {
-              "time": "10:00",
-              "title": "Gellért Hill Panorama Walk",
-              "description": "One of the most beautiful viewpoints in Budapest."
-            },
-            {
-              "time": "11:20",
-              "title": "Margaret Island Japanese Garden",
-              "description": "Peaceful ponds, bridges and flowers."
-            },
-            {
-              "time": "12:45",
-              "title": "Fine Dining Hungarian Lunch",
-              "description": "Natural, fresh ingredients with beautiful presentation."
-            },
-            {
-              "time": "14:00",
-              "title": "VIP Danube Stroll",
-              "description": "Prestigious riverside architecture and calm scenery."
-            }
-          ]
-        }
+      "low": {
+        "title": "Half-Day Budapest Nature Route (Low Budget)",
+        "summary": "A calm, budget-friendly journey through Budapest’s greenest spots with cheap traditional food.",
+        "schedule": [
+          {
+            "time": "10:00",
+            "title": "City Park Morning Walk",
+            "description": "Relax by the lake, explore tree-lined paths and enjoy the peaceful start."
+          },
+          {
+            "time": "11:00",
+            "title": "Vajdahunyad Castle Exterior",
+            "description": "Castle-like building surrounded by nature — perfect for photos."
+          },
+          {
+            "time": "12:00",
+            "title": "Budget Local Lunch",
+            "description": "Affordable Hungarian dishes like goulash soup or daily menu options."
+          },
+          {
+            "time": "13:00",
+            "title": "Andrássy Avenue Trees",
+            "description": "Walk down the shaded avenue with beautiful architecture and greenery."
+          }
+        ]
       },
-
-      "light_veggie": {
-
-        "low": {
-          "title": "Half-Day Nature + Veggie (Low Budget)",
-          "summary": "A simple, peaceful nature walk with cheap vegetarian-friendly food.",
-          "schedule": [
-            {
-              "time": "10:00",
-              "title": "City Park Nature Start",
-              "description": "Lakes, trees and quiet corners for a calm morning."
-            },
-            {
-              "time": "11:00",
-              "title": "Vajdahunyad Castle Exterior",
-              "description": "Great scenery mixing architecture and nature."
-            },
-            {
-              "time": "12:00",
-              "title": "Budget Veggie Meal",
-              "description": "Soups, salads and pasta dishes that fit any wallet."
-            },
-            {
-              "time": "13:00",
-              "title": "Danube Promenade",
-              "description": "Fresh air and relaxing river views."
-            }
-          ]
-        },
-
-        "medium": {
-          "title": "Balanced Veggie Nature Route",
-          "summary": "Healthy vegetarian dishes paired with Budapest’s relaxing outdoor scenery.",
-          "schedule": [
-            {
-              "time": "10:00",
-              "title": "Margaret Island Walk",
-              "description": "Peaceful gardens, fountains and green spaces."
-            },
-            {
-              "time": "11:00",
-              "title": "Danube River Path",
-              "description": "Views of bridges and Buda’s hills."
-            },
-            {
-              "time": "12:00",
-              "title": "Vegetarian Lunch",
-              "description": "Balanced plant-based meals in a mid-range restaurant."
-            },
-            {
-              "time": "13:15",
-              "title": "City Park Finish",
-              "description": "A relaxing exit walk through shady tree areas."
-            }
-          ]
-        },
-
-        "high": {
-          "title": "High-End Veggie Nature Experience",
-          "summary": "Premium nature paths and refined vegetarian dining.",
-          "schedule": [
-            {
-              "time": "10:00",
-              "title": "Gellért Hill Panorama",
-              "description": "Strong views and semi-forest paths."
-            },
-            {
-              "time": "11:30",
-              "title": "Danube Parliament View",
-              "description": "One of the city’s most iconic vistas."
-            },
-            {
-              "time": "12:45",
-              "title": "Premium Veggie Lunch",
-              "description": "Creative plant-based dishes with high-quality ingredients."
-            },
-            {
-              "time": "14:00",
-              "title": "Opera District Green Streets",
-              "description": "Calm, elegant neighborhood walk."
-            }
-          ]
-        },
-
-        "comfortable": {
-          "title": "Luxury Veggie Nature Walk",
-          "summary": "Fine vegetarian cuisine combined with curated nature stops.",
-          "schedule": [
-            {
-              "time": "10:00",
-              "title": "Exclusive Gellért Hill Walk",
-              "description": "Elite viewpoints and peaceful forest paths."
-            },
-            {
-              "time": "11:20",
-              "title": "Margaret Island Japanese Garden",
-              "description": "Fish ponds, flowering plants and bridges."
-            },
-            {
-              "time": "12:45",
-              "title": "Fine Dining Veggie Meal",
-              "description": "Artistically prepared vegetarian dishes."
-            },
-            {
-              "time": "14:00",
-              "title": "VIP Danube Riverside",
-              "description": "Luxury-level calm and scenic views."
-            }
-          ]
-        }
+      "medium": {
+        "title": "Balanced Nature Walk + Local Food",
+        "summary": "A comfortable half-day filled with greenery, scenic views and mid-range Hungarian dishes.",
+        "schedule": [
+          {
+            "time": "10:00",
+            "title": "Danube Promenade",
+            "description": "Fresh air, wide riverside paths and great views of Buda’s hills."
+          },
+          {
+            "time": "11:00",
+            "title": "Margaret Island",
+            "description": "Nature, fountains, gardens and quiet walking paths."
+          },
+          {
+            "time": "12:30",
+            "title": "Local Lunch",
+            "description": "Traditional Hungarian food in a comfortable setting."
+          },
+          {
+            "time": "13:45",
+            "title": "City Park Exit Walk",
+            "description": "Finish with a peaceful stroll through the park’s shaded lanes."
+          }
+        ]
       },
-
-      "try_everything": {
-
-        "low": {
-          "title": "Half-Day Nature + Tasting (Low Budget)",
-          "summary": "A short nature walk with small, affordable Hungarian snack bites.",
-          "schedule": [
-            {
-              "time": "10:00",
-              "title": "City Park Morning",
-              "description": "Walk around lakes and under tall shady trees."
-            },
-            {
-              "time": "10:45",
-              "title": "Vajdahunyad Castle Area",
-              "description": "Blend of architecture and greenery."
-            },
-            {
-              "time": "12:00",
-              "title": "Budget Snack Tasting",
-              "description": "Small pastries or cheap local bites."
-            },
-            {
-              "time": "13:00",
-              "title": "Danube Promenade",
-              "description": "River breeze and scenic bridges."
-            }
-          ]
-        },
-
-        "medium": {
-          "title": "Balanced Tasting Nature Walk",
-          "summary": "Small tasting dishes paired with relaxing green areas.",
-          "schedule": [
-            {
-              "time": "10:00",
-              "title": "Margaret Island",
-              "description": "Enjoy gardens, fountains and quiet nature areas."
-            },
-            {
-              "time": "11:00",
-              "title": "Danube Viewpoint",
-              "description": "Calm riverside path with open views."
-            },
-            {
-              "time": "12:00",
-              "title": "Medium Tasting Lunch",
-              "description": "Try 2–3 small Hungarian dishes."
-            },
-            {
-              "time": "13:30",
-              "title": "City Park Finish",
-              "description": "A peaceful closing walk."
-            }
-          ]
-        },
-
-        "high": {
-          "title": "High-End Tasting + Nature",
-          "summary": "Premium small plates and elegant green landscapes.",
-          "schedule": [
-            {
-              "time": "10:00",
-              "title": "Gellért Hill Forest Path",
-              "description": "Shaded walking paths with amazing panoramas."
-            },
-            {
-              "time": "11:20",
-              "title": "Danube Parliament Panorama",
-              "description": "Iconic postcard view."
-            },
-            {
-              "time": "12:45",
-              "title": "High-End Tasting Meal",
-              "description": "Creative Hungarian small plates with refined flavors."
-            },
-            {
-              "time": "14:00",
-              "title": "Opera District Garden Squares",
-              "description": "Small green spaces in a stylish neighborhood."
-            }
-          ]
-        },
-
-        "comfortable": {
-          "title": "Luxury Tasting Nature Half-Day",
-          "summary": "Elite natural scenery combined with fine tasting-style cuisine.",
-          "schedule": [
-            {
-              "time": "10:00",
-              "title": "Exclusive Gellért Hill",
-              "description": "Prestigious viewpoints and calm forest walking routes."
-            },
-            {
-              "time": "11:30",
-              "title": "Margaret Island Rose Garden",
-              "description": "Beautiful, colorful floral scenery."
-            },
-            {
-              "time": "12:45",
-              "title": "Fine Dining Tasting Menu",
-              "description": "Beautifully plated small dishes inspired by local flavors."
-            },
-            {
-              "time": "14:00",
-              "title": "VIP Danube Walk",
-              "description": "Luxurious riverside finish."
-            }
-          ]
-        }
+      "high": {
+        "title": "High-End Nature Experience",
+        "summary": "Premium nature spots, curated viewpoints and refined traditional dining.",
+        "schedule": [
+          {
+            "time": "10:00",
+            "title": "Gellért Hill Lower Path",
+            "description": "Shaded forest-like walkways with amazing views."
+          },
+          {
+            "time": "11:15",
+            "title": "Danube Riverside Scenic Zone",
+            "description": "Stunning river and Parliament views."
+          },
+          {
+            "time": "12:30",
+            "title": "Premium Local Lunch",
+            "description": "Refined versions of classic Hungarian dishes."
+          },
+          {
+            "time": "13:45",
+            "title": "Opera District Green Corners",
+            "description": "Calm, stylish streets filled with little trees and charm."
+          }
+        ]
+      },
+      "comfortable": {
+        "title": "Luxury Budapest Nature Half-Day",
+        "summary": "Exclusive-feeling natural spots, curated walks and elegant dining.",
+        "schedule": [
+          {
+            "time": "10:00",
+            "title": "Gellért Hill Panorama Walk",
+            "description": "One of the most beautiful viewpoints in Budapest."
+          },
+          {
+            "time": "11:20",
+            "title": "Margaret Island Japanese Garden",
+            "description": "Peaceful ponds, bridges and flowers."
+          },
+          {
+            "time": "12:45",
+            "title": "Fine Dining Hungarian Lunch",
+            "description": "Natural, fresh ingredients with beautiful presentation."
+          },
+          {
+            "time": "14:00",
+            "title": "VIP Danube Stroll",
+            "description": "Prestigious riverside architecture and calm scenery."
+          }
+        ]
       }
     }
   }

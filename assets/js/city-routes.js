@@ -50,17 +50,37 @@ function flattenRecommendations(data) {
 
   Object.keys(data).forEach(duration => {
     Object.keys(data[duration]).forEach(interest => {
-      Object.keys(data[duration][interest]).forEach(food => {
-        Object.keys(data[duration][interest][food]).forEach(budget => {
+      const level = data[duration][interest];
+      const levelKeys = Object.keys(level);
+      const firstValue = level[levelKeys[0]];
+      const hasDirectBudget =
+        firstValue &&
+        typeof firstValue === "object" &&
+        ("title" in firstValue || "summary" in firstValue || "schedule" in firstValue);
+
+      if (hasDirectBudget) {
+        levelKeys.forEach(budget => {
           result.push({
             tripType: duration,
             interest,
-            food,
+            food: null,
             budget,
-            recommendation: data[duration][interest][food][budget]
+            recommendation: level[budget]
           });
         });
-      });
+      } else {
+        levelKeys.forEach(food => {
+          Object.keys(level[food]).forEach(budget => {
+            result.push({
+              tripType: duration,
+              interest,
+              food,
+              budget,
+              recommendation: level[food][budget]
+            });
+          });
+        });
+      }
     });
   });
 
@@ -118,27 +138,29 @@ function loadFoodRecommendations() {
 // =======================
 
 function buildRouteCard(data) {
-  const { tripType, interest, food, budget, recommendation } = data;
+  const { interest, food, budget, recommendation } = data;
 
   const card = document.createElement("div");
   card.className = "card route-card";
 
   const headerIcons = [
-    icons.tripType[tripType],
     icons.interest[interest],
-    icons.food[food],
+    food ? icons.food[food] : null,
     icons.budget[budget]
-  ].join(" ");
+  ].filter(Boolean).join(" ");
 
   let body = `<strong>${recommendation.title}</strong><br><em>${recommendation.summary}</em><br><br>`;
   recommendation.schedule.forEach(item => {
-    body += `<strong>${item.time} — ${item.title}</strong><br>${item.description}<br><br>`;
+    const title = item.map_link
+      ? `<a href="${item.map_link}" target="_blank" rel="noopener noreferrer">${item.title}</a>`
+      : item.title;
+    body += `<strong>${item.time} — ${title}</strong><br>${item.description}<br><br>`;
   });
 
   card.innerHTML = `
     <div class="route-card-icon">${headerIcons}</div>
     <div class="card-text">
-      <h3>${formatOptionLabel(interest)} • ${formatOptionLabel(food)} • ${formatOptionLabel(budget)}</h3>
+      <h3>${formatOptionLabel(interest)}${food ? " • " + formatOptionLabel(food) : ""} • ${formatOptionLabel(budget)}</h3>
       <p>${body}</p>
     </div>
   `;
@@ -152,7 +174,10 @@ function buildFoodCard(foodData, foodKey, budgetKey) {
 
   let body = `<strong>${foodData.title}</strong><br><em>${foodData.summary}</em><br><br>`;
   foodData.recommendations.forEach(item => {
-    body += `<strong>${item.time} — ${item.place}</strong><br>${item.description}<br><br>`;
+    const place = item.map_link
+      ? `<a href="${item.map_link}" target="_blank" rel="noopener noreferrer">${item.place}</a>`
+      : item.place;
+    body += `<strong>${item.time} — ${place}</strong><br>${item.description}<br><br>`;
   });
 
   card.innerHTML = `
@@ -170,29 +195,56 @@ function buildFoodCard(foodData, foodKey, budgetKey) {
 // DROPDOWNS
 // =======================
 
-function populateDropdowns() {
+function getFoodKeys() {
+  return foodRecommendations ? Object.keys(foodRecommendations) : [];
+}
+
+function getBudgetKeys(foodKey) {
+  if (!foodRecommendations || !foodKey || !foodRecommendations[foodKey]) return [];
+  return Object.keys(foodRecommendations[foodKey]);
+}
+
+function setSelectOptions(select, placeholder, values) {
+  select.innerHTML = `<option value="">${placeholder}</option>` +
+    values.map(v => `<option value="${v}">${formatOptionLabel(v)}</option>`).join("");
+}
+
+function setSelectEnabled(select, enabled) {
+  select.disabled = !enabled;
+  if (!enabled) {
+    select.value = "";
+  }
+}
+
+function populateTripOptions() {
   const trip = document.getElementById("route-trip-type");
-  const interest = document.getElementById("route-interest");
-  const food = document.getElementById("route-food");
-  const budget = document.getElementById("route-budget");
-
   const uniq = arr => [...new Set(arr)].sort();
+  setSelectOptions(
+    trip,
+    "-- Select trip type --",
+    uniq(routeRecommendations.map(r => r.tripType))
+  );
+}
 
-  trip.innerHTML = `<option value="">-- Select trip type --</option>` +
-    uniq(routeRecommendations.map(r => r.tripType)).map(v =>
-      `<option value="${v}">${formatOptionLabel(v)}</option>`).join("");
+function updateInterestOptions(tripType) {
+  const interest = document.getElementById("route-interest");
+  const uniq = arr => [...new Set(arr)].sort();
+  const values = routeRecommendations
+    .filter(r => r.tripType === tripType)
+    .map(r => r.interest);
+  setSelectOptions(interest, "-- Select interest --", uniq(values));
+}
 
-  interest.innerHTML = `<option value="">-- Select interest --</option>` +
-    uniq(routeRecommendations.map(r => r.interest)).map(v =>
-      `<option value="${v}">${formatOptionLabel(v)}</option>`).join("");
+function updateFoodOptions() {
+  const food = document.getElementById("route-food");
+  const uniq = arr => [...new Set(arr)].sort();
+  setSelectOptions(food, "-- Select food type --", uniq(getFoodKeys()));
+}
 
-  food.innerHTML = `<option value="">-- Select food type --</option>` +
-    uniq(routeRecommendations.map(r => r.food)).map(v =>
-      `<option value="${v}">${formatOptionLabel(v)}</option>`).join("");
-
-  budget.innerHTML = `<option value="">-- Select budget --</option>` +
-    uniq(routeRecommendations.map(r => r.budget)).map(v =>
-      `<option value="${v}">${formatOptionLabel(v)}</option>`).join("");
+function updateBudgetOptions(foodKey) {
+  const budget = document.getElementById("route-budget");
+  const uniq = arr => [...new Set(arr)].sort();
+  setSelectOptions(budget, "-- Select budget --", uniq(getBudgetKeys(foodKey)));
 }
 
 // =======================
@@ -229,14 +281,55 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // Reaguj na promene
-  [trip, interest, food, budget].forEach(select => {
-    select.addEventListener("change", updateSubmitState);
+  setSelectEnabled(interest, false);
+  setSelectEnabled(food, false);
+  setSelectEnabled(budget, false);
+
+  trip.addEventListener("change", () => {
+    if (trip.value) {
+      updateInterestOptions(trip.value);
+      setSelectEnabled(interest, true);
+    } else {
+      setSelectEnabled(interest, false);
+      setSelectEnabled(food, false);
+      setSelectEnabled(budget, false);
+    }
+    setSelectOptions(food, "-- Select food type --", []);
+    setSelectOptions(budget, "-- Select budget --", []);
+    updateSubmitState();
   });
+
+  interest.addEventListener("change", () => {
+    if (interest.value) {
+      updateFoodOptions();
+      setSelectEnabled(food, true);
+    } else {
+      setSelectEnabled(food, false);
+      setSelectEnabled(budget, false);
+    }
+    setSelectOptions(budget, "-- Select budget --", []);
+    updateSubmitState();
+  });
+
+  food.addEventListener("change", () => {
+    if (food.value) {
+      updateBudgetOptions(food.value);
+      setSelectEnabled(budget, true);
+    } else {
+      setSelectEnabled(budget, false);
+    }
+    updateSubmitState();
+  });
+
+  budget.addEventListener("change", updateSubmitState);
 
   Promise.all([loadRouteRecommendations(), loadFoodRecommendations()])
     .then(() => {
       if (!routesLoadError && routesLoaded) {
-        populateDropdowns();
+        populateTripOptions();
+        setSelectOptions(interest, "-- Select interest --", []);
+        setSelectOptions(food, "-- Select food type --", []);
+        setSelectOptions(budget, "-- Select budget --", []);
         updateSubmitState(); // Revalidiraj nakon punjenja
       }
     });
@@ -251,13 +344,11 @@ document.addEventListener("DOMContentLoaded", () => {
     const f = food.value;
     const b = budget.value;
 
-    const normalizedBudget = (b === "comfortable") ? "medium" : b;
-
     const match = routeRecommendations.find(r =>
       r.tripType === t &&
       r.interest === i &&
-      r.food === f &&
-      r.budget === b
+      r.budget === b &&
+      (!r.food || r.food === f)
     );
 
     if (match) {
@@ -266,9 +357,9 @@ document.addEventListener("DOMContentLoaded", () => {
       error.textContent = "No perfect match, but here’s a food tip 👇";
     }
 
-    const foodData = foodRecommendations?.[f]?.[normalizedBudget];
+    const foodData = foodRecommendations?.[f]?.[b];
     if (foodData) {
-      result.appendChild(buildFoodCard(foodData, f, normalizedBudget));
+      result.appendChild(buildFoodCard(foodData, f, b));
     }
 
     pdfBtn.style.display = "inline-block";
@@ -344,4 +435,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   updateSlider();
 });
+
+
+
+
 

@@ -1,394 +1,129 @@
 {
   "half_day": {
     "history": {
-      "local_specialties": {
-        "low": {
-          "title": "Low-Budget Half-Day Hallstatt History Walk",
-          "summary": "A simple, affordable historical route covering Hallstatt’s iconic spots, ancient heritage, and peaceful lakeside views.",
-          "schedule": [
-            {
-              "time": "10:00",
-              "title": "Lakefront Historical Warm-Up",
-              "description": "Start by the water where the village’s origins began — trade routes, boats, and early settlement vibes."
-            },
-            {
-              "time": "10:45",
-              "title": "Old Town Wooden Architecture",
-              "description": "Wander through traditional wooden houses and steep alleys that reflect centuries of alpine living."
-            },
-            {
-              "time": "11:30",
-              "title": "Budget Snack Break",
-              "description": "Grab a simple pastry or roll before continuing your mini historical journey."
-            },
-            {
-              "time": "12:00",
-              "title": "Church & Cemetery Viewpoint",
-              "description": "A classic historical spot with one of the best viewpoints over the lake — iconic and peaceful."
-            },
-            {
-              "time": "13:00",
-              "title": "Lakeside Path Finish",
-              "description": "End with a calm walk along the water where trade and early culture once thrived."
-            }
-          ]
-        },
-
-        "medium": {
-          "title": "Balanced Half-Day Hallstatt History Experience",
-          "summary": "A comfortable journey through Hallstatt's heritage — museum highlights, historic streets, and mid-range food.",
-          "schedule": [
-            {
-              "time": "10:00",
-              "title": "Café Start + Historical Overview",
-              "description": "Begin with a light drink while absorbing the views of a village settled thousands of years ago."
-            },
-            {
-              "time": "10:45",
-              "title": "Hallstatt Museum – Cultural Origins",
-              "description": "Explore archaeological findings, early tools, and artifacts from the Hallstatt culture."
-            },
-            {
-              "time": "12:00",
-              "title": "Medium Local Lunch",
-              "description": "A well-priced Austrian meal before walking the historical streets."
-            },
-            {
-              "time": "13:00",
-              "title": "Heritage Architecture Walk",
-              "description": "See centuries-old wooden homes and classic alpine building techniques."
-            },
-            {
-              "time": "13:45",
-              "title": "Lakefront Historical Reflection",
-              "description": "Finish with views that shaped Hallstatt’s trading history."
-            }
-          ]
-        },
-
-        "high": {
-          "title": "High-End Hallstatt Historical Highlights",
-          "summary": "A premium-feel half-day history route with curated exhibits, elegant architecture, and refined dining.",
-          "schedule": [
-            {
-              "time": "10:00",
-              "title": "Scenic Historical Breakfast",
-              "description": "Enjoy a beautiful breakfast while learning about Hallstatt’s ancient settlement."
-            },
-            {
-              "time": "10:45",
-              "title": "Curated Museum Visit",
-              "description": "Examine well-preserved artifacts, early Celtic cultural influences, and detailed displays."
-            },
-            {
-              "time": "12:30",
-              "title": "High-Quality Austrian Lunch",
-              "description": "A refined dish with local alpine ingredients and historical culinary roots."
-            },
-            {
-              "time": "13:30",
-              "title": "Historic Upper Village Walk",
-              "description": "Explore elevated paths showing old mining entrances and traditional alpine layouts."
-            },
-            {
-              "time": "14:15",
-              "title": "Premium Lakeside Ending",
-              "description": "Finish at a photogenic point where history and nature blend beautifully."
-            }
-          ]
-        },
-
-        "comfortable": {
-          "title": "Luxury Half-Day Hallstatt Heritage Journey",
-          "summary": "A curated, elegant history-focused route with fine dining, refined museum exploration, and iconic heritage viewpoints.",
-          "schedule": [
-            {
-              "time": "10:00",
-              "title": "Luxury Breakfast + Historical Overview",
-              "description": "Begin with top-tier morning dishes overlooking the ancient trading lake."
-            },
-            {
-              "time": "10:45",
-              "title": "Guided or Curated Museum Heritage Tour",
-              "description": "Explore artifacts and cultural stories with time to appreciate craftsmanship and early life."
-            },
-            {
-              "time": "12:30",
-              "title": "Fine Dining Alpine Lunch",
-              "description": "Enjoy premium dishes inspired by centuries-old alpine culinary traditions."
-            },
-            {
-              "time": "13:30",
-              "title": "Exclusive Architectural Heritage Walk",
-              "description": "Visit the most iconic historic streets, steep pathways, and wooden structures."
-            },
-            {
-              "time": "14:15",
-              "title": "Signature Lakefront Finale",
-              "description": "End your heritage journey with a quiet viewpoint that perfectly frames Hallstatt’s history."
-            }
-          ]
-        }
+      "low": {
+        "title": "Low-Budget Half-Day Hallstatt History Walk",
+        "summary": "A simple, affordable historical route covering Hallstatt’s iconic spots, ancient heritage, and peaceful lakeside views.",
+        "schedule": [
+          {
+            "time": "10:00",
+            "title": "Lakefront Historical Warm-Up",
+            "description": "Start by the water where the village’s origins began — trade routes, boats, and early settlement vibes."
+          },
+          {
+            "time": "10:45",
+            "title": "Old Town Wooden Architecture",
+            "description": "Wander through traditional wooden houses and steep alleys that reflect centuries of alpine living."
+          },
+          {
+            "time": "11:30",
+            "title": "Budget Snack Break",
+            "description": "Grab a simple pastry or roll before continuing your mini historical journey."
+          },
+          {
+            "time": "12:00",
+            "title": "Church & Cemetery Viewpoint",
+            "description": "A classic historical spot with one of the best viewpoints over the lake — iconic and peaceful."
+          },
+          {
+            "time": "13:00",
+            "title": "Lakeside Path Finish",
+            "description": "End with a calm walk along the water where trade and early culture once thrived."
+          }
+        ]
       },
-
-      "light_veggie": {
-        "low": {
-          "title": "Low-Budget Veggie History Walk",
-          "summary": "A simple, plant-friendly route exploring Hallstatt’s historical origins and scenic viewpoints.",
-          "schedule": [
-            {
-              "time": "10:00",
-              "title": "Veggie Pastry Start + Lakefront History",
-              "description": "Begin with a light snack by the lake where the earliest settlers lived."
-            },
-            {
-              "time": "10:45",
-              "title": "Old Town Historical Corners",
-              "description": "Walk wooden alleys and classic Hallstatt stairways reflecting centuries of tradition."
-            },
-            {
-              "time": "11:30",
-              "title": "Veggie Snack Break",
-              "description": "A simple salad, fruit, or bread before continuing."
-            },
-            {
-              "time": "12:00",
-              "title": "Church & Burial Site Terrace",
-              "description": "An elevated historical viewpoint revealing how the village grew over time."
-            },
-            {
-              "time": "13:00",
-              "title": "Lakefront Closing Walk",
-              "description": "A calm finish at the water’s edge."
-            }
-          ]
-        },
-
-        "medium": {
-          "title": "Balanced Veggie Heritage Route",
-          "summary": "A comfortable vegetarian-friendly half-day filled with heritage, architecture, and scenic corners.",
-          "schedule": [
-            {
-              "time": "10:00",
-              "title": "Veggie Breakfast Warm-Up",
-              "description": "Smoothies or light bowls to start the historical journey."
-            },
-            {
-              "time": "10:45",
-              "title": "Hallstatt Museum Visit",
-              "description": "Learn about artifacts, early craftsmanship, and the famous Hallstatt culture."
-            },
-            {
-              "time": "12:00",
-              "title": "Vegetarian Lunch",
-              "description": "Enjoy warm veggie dishes with a lakeside view."
-            },
-            {
-              "time": "13:00",
-              "title": "Architecture & Heritage Walk",
-              "description": "See centuries-old wooden designs and traditional alpine layouts."
-            },
-            {
-              "time": "13:45",
-              "title": "Peaceful Lake Moment",
-              "description": "End your route with a reflective lakefront view."
-            }
-          ]
-        },
-
-        "high": {
-          "title": "High-End Veggie Historical Experience",
-          "summary": "A refined half-day history-focused route with elegant vegetarian dining and curated cultural exploration.",
-          "schedule": [
-            {
-              "time": "10:00",
-              "title": "Premium Veggie Breakfast",
-              "description": "Healthy, beautifully prepared dishes to start your historical adventure."
-            },
-            {
-              "time": "10:45",
-              "title": "Curated Museum Heritage Tour",
-              "description": "Dive deeper into early tools, ornaments, and cultural displays."
-            },
-            {
-              "time": "12:30",
-              "title": "High-End Vegetarian Lunch",
-              "description": "A refined plant-based meal inspired by alpine traditions."
-            },
-            {
-              "time": "13:30",
-              "title": "Exclusive Heritage Architecture Walk",
-              "description": "Explore polished wooden facades and charming historical passages."
-            },
-            {
-              "time": "14:15",
-              "title": "Premium Lakefront Finish",
-              "description": "Close your heritage journey with a quiet scenic moment."
-            }
-          ]
-        },
-
-        "comfortable": {
-          "title": "Luxury Vegetarian Heritage Walk",
-          "summary": "A polished, elegant half-day focusing on Hallstatt’s cultural origins and stunning historic architecture.",
-          "schedule": [
-            {
-              "time": "10:00",
-              "title": "Luxury Veggie Breakfast",
-              "description": "Start with a gourmet plant-based breakfast beside the lake."
-            },
-            {
-              "time": "10:45",
-              "title": "Private or Curated Museum Tour",
-              "description": "Explore artifacts and early cultural heritage with a premium presentation."
-            },
-            {
-              "time": "12:30",
-              "title": "Fine Vegetarian Lunch",
-              "description": "Elegant dishes inspired by local alpine ingredients."
-            },
-            {
-              "time": "13:30",
-              "title": "Exclusive Architecture Heritage Route",
-              "description": "Walk traditional alpine structures and iconic village views."
-            },
-            {
-              "time": "14:15",
-              "title": "Signature Scenic Ending",
-              "description": "Finish at the lake’s most serene historical viewpoint."
-            }
-          ]
-        }
+      "medium": {
+        "title": "Balanced Half-Day Hallstatt History Experience",
+        "summary": "A comfortable journey through Hallstatt's heritage — museum highlights, historic streets, and mid-range food.",
+        "schedule": [
+          {
+            "time": "10:00",
+            "title": "Café Start + Historical Overview",
+            "description": "Begin with a light drink while absorbing the views of a village settled thousands of years ago."
+          },
+          {
+            "time": "10:45",
+            "title": "Hallstatt Museum – Cultural Origins",
+            "description": "Explore archaeological findings, early tools, and artifacts from the Hallstatt culture."
+          },
+          {
+            "time": "12:00",
+            "title": "Medium Local Lunch",
+            "description": "A well-priced Austrian meal before walking the historical streets."
+          },
+          {
+            "time": "13:00",
+            "title": "Heritage Architecture Walk",
+            "description": "See centuries-old wooden homes and classic alpine building techniques."
+          },
+          {
+            "time": "13:45",
+            "title": "Lakefront Historical Reflection",
+            "description": "Finish with views that shaped Hallstatt’s trading history."
+          }
+        ]
       },
-
-      "try_everything": {
-        "low": {
-          "title": "Low-Budget History + Tasting Walk",
-          "summary": "A fun and affordable blend of historical corners and small bites.",
-          "schedule": [
-            {
-              "time": "10:00",
-              "title": "Pastry Start + Lake History",
-              "description": "Enjoy a cheap breakfast treat while learning about Hallstatt’s roots."
-            },
-            {
-              "time": "10:45",
-              "title": "Historical Streets & Wooden Houses",
-              "description": "See classic alpine architecture shaped by centuries of village life."
-            },
-            {
-              "time": "11:30",
-              "title": "Mini Bite Stop",
-              "description": "Grab a light snack before continuing."
-            },
-            {
-              "time": "12:00",
-              "title": "Church Terrace View",
-              "description": "An iconic historical angle over the village."
-            },
-            {
-              "time": "13:00",
-              "title": "Lakeside Wrap-Up",
-              "description": "Finish by the water just like the earliest inhabitants did."
-            }
-          ]
-        },
-
-        "medium": {
-          "title": "Balanced Historical Tasting Route",
-          "summary": "A mix of heritage highlights and mid-range tasting-style bites.",
-          "schedule": [
-            {
-              "time": "10:00",
-              "title": "Café Tasting Start",
-              "description": "Try small breakfast bites while enjoying early lake views."
-            },
-            {
-              "time": "10:45",
-              "title": "Museum Highlights Tour",
-              "description": "Focus on archaeological discoveries and early cultural artifacts."
-            },
-            {
-              "time": "12:00",
-              "title": "Medium Tasting Lunch",
-              "description": "Share small Austrian-inspired plates."
-            },
-            {
-              "time": "13:00",
-              "title": "Heritage Architecture Loop",
-              "description": "See carved wooden balconies and charming alpine details."
-            },
-            {
-              "time": "13:45",
-              "title": "Lakefront Dessert End",
-              "description": "A small sweet dessert to close the journey."
-            }
-          ]
-        },
-
-        "high": {
-          "title": "High-End Heritage + Tasting Experience",
-          "summary": "A refined historical route enriched with curated exhibits and beautifully crafted tasting dishes.",
-          "schedule": [
-            {
-              "time": "10:00",
-              "title": "Premium Breakfast Tasting",
-              "description": "Sample several refined bites with a scenic backdrop."
-            },
-            {
-              "time": "10:45",
-              "title": "Curated Cultural Tour",
-              "description": "Spend time with the detailed museum displays of early alpine life."
-            },
-            {
-              "time": "12:30",
-              "title": "High-End Tasting Lunch",
-              "description": "Elegant small plates inspired by historical alpine flavors."
-            },
-            {
-              "time": "13:30",
-              "title": "Exclusive Heritage Architecture Walk",
-              "description": "Stroll through the village’s most iconic historic corridors."
-            },
-            {
-              "time": "14:15",
-              "title": "Premium Lakeview Finish",
-              "description": "End with a stunning panorama linking nature and history."
-            }
-          ]
-        },
-
-        "comfortable": {
-          "title": "Luxury Historical Tasting Journey",
-          "summary": "A curated, high-end half-day featuring refined cultural insights, gourmet tasting plates, and beautiful historical views.",
-          "schedule": [
-            {
-              "time": "10:00",
-              "title": "Luxury Breakfast Tasting",
-              "description": "Beautifully plated breakfast bites to start the day."
-            },
-            {
-              "time": "10:45",
-              "title": "Private Heritage Tour",
-              "description": "Explore the finest cultural artifacts with extra time for appreciation."
-            },
-            {
-              "time": "12:30",
-              "title": "Fine Tasting Lunch",
-              "description": "A sequence of gourmet dishes inspired by traditional alpine flavors."
-            },
-            {
-              "time": "13:30",
-              "title": "Exclusive Architectural Heritage Route",
-              "description": "Walk the most elegant historical spots through the old village."
-            },
-            {
-              "time": "14:15",
-              "title": "Signature Lake Heritage Finale",
-              "description": "A serene and picturesque ending at Hallstatt’s historical heart."
-            }
-          ]
-        }
+      "high": {
+        "title": "High-End Hallstatt Historical Highlights",
+        "summary": "A premium-feel half-day history route with curated exhibits, elegant architecture, and refined dining.",
+        "schedule": [
+          {
+            "time": "10:00",
+            "title": "Scenic Historical Breakfast",
+            "description": "Enjoy a beautiful breakfast while learning about Hallstatt’s ancient settlement."
+          },
+          {
+            "time": "10:45",
+            "title": "Curated Museum Visit",
+            "description": "Examine well-preserved artifacts, early Celtic cultural influences, and detailed displays."
+          },
+          {
+            "time": "12:30",
+            "title": "High-Quality Austrian Lunch",
+            "description": "A refined dish with local alpine ingredients and historical culinary roots."
+          },
+          {
+            "time": "13:30",
+            "title": "Historic Upper Village Walk",
+            "description": "Explore elevated paths showing old mining entrances and traditional alpine layouts."
+          },
+          {
+            "time": "14:15",
+            "title": "Premium Lakeside Ending",
+            "description": "Finish at a photogenic point where history and nature blend beautifully."
+          }
+        ]
+      },
+      "comfortable": {
+        "title": "Luxury Half-Day Hallstatt Heritage Journey",
+        "summary": "A curated, elegant history-focused route with fine dining, refined museum exploration, and iconic heritage viewpoints.",
+        "schedule": [
+          {
+            "time": "10:00",
+            "title": "Luxury Breakfast + Historical Overview",
+            "description": "Begin with top-tier morning dishes overlooking the ancient trading lake."
+          },
+          {
+            "time": "10:45",
+            "title": "Guided or Curated Museum Heritage Tour",
+            "description": "Explore artifacts and cultural stories with time to appreciate craftsmanship and early life."
+          },
+          {
+            "time": "12:30",
+            "title": "Fine Dining Alpine Lunch",
+            "description": "Enjoy premium dishes inspired by centuries-old alpine culinary traditions."
+          },
+          {
+            "time": "13:30",
+            "title": "Exclusive Architectural Heritage Walk",
+            "description": "Visit the most iconic historic streets, steep pathways, and wooden structures."
+          },
+          {
+            "time": "14:15",
+            "title": "Signature Lakefront Finale",
+            "description": "End your heritage journey with a quiet viewpoint that perfectly frames Hallstatt’s history."
+          }
+        ]
       }
     }
   }

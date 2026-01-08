@@ -1,400 +1,130 @@
 {
   "half_day": {
     "nature": {
-
-      "local_specialties": {
-
-        "low": {
-          "title": "Half-Day Nature Route in Cluj-Napoca (Low Budget)",
-          "summary": "A light and affordable nature escape mixing viewpoints, parks and a cheap Romanian snack.",
-          "schedule": [
-            {
-              "time": "13:00",
-              "title": "Central Park Start",
-              "description": "Easy walk along leafy paths, riverside corners and open lawns."
-            },
-            {
-              "time": "13:45",
-              "title": "Cetățuia Hill Ascent (Budget Route)",
-              "description": "Follow simple paths up to the hilltop terrace overlooking the city."
-            },
-            {
-              "time": "14:30",
-              "title": "Low-Cost Snack",
-              "description": "Simple pastry, pretzel or small warm dish from a takeaway spot."
-            },
-            {
-              "time": "15:00",
-              "title": "Iulius Park Lakeside Path",
-              "description": "Walk by the water, spot ducks, chill on the grass and enjoy urban nature."
-            },
-            {
-              "time": "16:00",
-              "title": "Cluj Arena Riverside Strip",
-              "description": "Finish with a relaxed riverside stroll near the stadium."
-            }
-          ]
-        },
-
-        "medium": {
-          "title": "Balanced Nature Afternoon in Cluj-Napoca",
-          "summary": "A comfortable mix of parks, lakes, hills and a mid-range Romanian meal.",
-          "schedule": [
-            {
-              "time": "13:00",
-              "title": "Central Park Exploration",
-              "description": "Scenic bridges, small sculptures and elegant greenery."
-            },
-            {
-              "time": "13:45",
-              "title": "Cetățuia Hill Viewpoint",
-              "description": "Classic skyline viewpoint with great photo opportunities."
-            },
-            {
-              "time": "14:30",
-              "title": "Romanian Lunch (Medium Budget)",
-              "description": "Hearty dishes with a cozy atmosphere."
-            },
-            {
-              "time": "15:15",
-              "title": "Iulius Park",
-              "description": "Lakeside loop with clean landscaping and modern vibes."
-            },
-            {
-              "time": "16:00",
-              "title": "Someș River Walk",
-              "description": "Follow the riverside path for a calm nature finale."
-            }
-          ]
-        },
-
-        "high": {
-          "title": "Premium Half-Day Nature Experience",
-          "summary": "A curated blend of scenic hills, refined greenery and premium local dining.",
-          "schedule": [
-            {
-              "time": "13:00",
-              "title": "Central Park Premium Walk",
-              "description": "Elegant trees, minimalist sculptures and calm paths."
-            },
-            {
-              "time": "13:45",
-              "title": "Cetățuia Hill Upper View",
-              "description": "A more scenic route to the top with premium views."
-            },
-            {
-              "time": "14:30",
-              "title": "Premium Romanian Lunch",
-              "description": "High-quality dishes inspired by Transylvanian nature."
-            },
-            {
-              "time": "15:15",
-              "title": "Iulius Park Modern Garden Section",
-              "description": "Curated lakeside greenery and design-focused paths."
-            },
-            {
-              "time": "16:00",
-              "title": "Someș River Elite Promenade",
-              "description": "Relaxed ending beside the water."
-            }
-          ]
-        },
-
-        "comfortable": {
-          "title": "Luxury Nature Mini-Tour of Cluj",
-          "summary": "A refined afternoon mixing city nature, premium dining and peaceful scenic spots.",
-          "schedule": [
-            {
-              "time": "13:00",
-              "title": "VIP Central Park Route",
-              "description": "Calm landscape design and artistic benches."
-            },
-            {
-              "time": "13:45",
-              "title": "Cetățuia Panorama Terrace",
-              "description": "Luxury viewpoint overlooking the city rooftops."
-            },
-            {
-              "time": "14:30",
-              "title": "Fine Dining Lunch",
-              "description": "Luxury interpretations of traditional Romanian dishes."
-            },
-            {
-              "time": "15:15",
-              "title": "Iulius Park Premium Loop",
-              "description": "Lakes, sculptures and curated landscaping."
-            },
-            {
-              "time": "16:00",
-              "title": "Someș Riverside Premium Walk",
-              "description": "Soft-light nature stroll to finish the day."
-            }
-          ]
-        }
+      "low": {
+        "title": "Half-Day Nature Route in Cluj-Napoca (Low Budget)",
+        "summary": "A light and affordable nature escape mixing viewpoints, parks and a cheap Romanian snack.",
+        "schedule": [
+          {
+            "time": "13:00",
+            "title": "Central Park Start",
+            "description": "Easy walk along leafy paths, riverside corners and open lawns."
+          },
+          {
+            "time": "13:45",
+            "title": "Cetățuia Hill Ascent (Budget Route)",
+            "description": "Follow simple paths up to the hilltop terrace overlooking the city."
+          },
+          {
+            "time": "14:30",
+            "title": "Low-Cost Snack",
+            "description": "Simple pastry, pretzel or small warm dish from a takeaway spot."
+          },
+          {
+            "time": "15:00",
+            "title": "Iulius Park Lakeside Path",
+            "description": "Walk by the water, spot ducks, chill on the grass and enjoy urban nature."
+          },
+          {
+            "time": "16:00",
+            "title": "Cluj Arena Riverside Strip",
+            "description": "Finish with a relaxed riverside stroll near the stadium."
+          }
+        ]
       },
-
-      "light_veggie": {
-
-        "low": {
-          "title": "Half-Day Veggie Nature Route (Low Budget)",
-          "summary": "Green spaces, relaxed viewpoints and simple vegetarian-friendly snacks.",
-          "schedule": [
-            {
-              "time": "13:00",
-              "title": "Central Park",
-              "description": "Shady paths and peaceful lawns."
-            },
-            {
-              "time": "13:45",
-              "title": "Cetățuia Hill Budget Path",
-              "description": "Affordable, easy walk to the lookout terrace."
-            },
-            {
-              "time": "14:30",
-              "title": "Veggie Snack",
-              "description": "Cheap wraps, salads or simple veggie pastries."
-            },
-            {
-              "time": "15:00",
-              "title": "Iulius Park",
-              "description": "Urban nature with water and clean lawns."
-            },
-            {
-              "time": "16:00",
-              "title": "Someș Riverside",
-              "description": "Easy afternoon finish beside the river."
-            }
-          ]
-        },
-
-        "medium": {
-          "title": "Balanced Veggie Nature Afternoon",
-          "summary": "Healthy vegetarian lunch paired with scenic parks and hilltop views.",
-          "schedule": [
-            {
-              "time": "13:00",
-              "title": "Central Park Walk",
-              "description": "Historic greenery and cute bridges."
-            },
-            {
-              "time": "13:45",
-              "title": "Cetățuia Hill",
-              "description": "Classic viewpoint over Cluj."
-            },
-            {
-              "time": "14:30",
-              "title": "Vegetarian Lunch",
-              "description": "Plant-based dishes in a comfortable restaurant."
-            },
-            {
-              "time": "15:15",
-              "title": "Iulius Park",
-              "description": "Lakeside stroll among sculptures."
-            },
-            {
-              "time": "16:00",
-              "title": "Someș River Path",
-              "description": "Nature-forward ending."
-            }
-          ]
-        },
-
-        "high": {
-          "title": "High-End Veggie Nature Mini-Tour",
-          "summary": "Premium plant-based dining mixed with curated scenic stops.",
-          "schedule": [
-            {
-              "time": "13:00",
-              "title": "VIP Central Park",
-              "description": "Curated greenery and quiet elegance."
-            },
-            {
-              "time": "13:45",
-              "title": "Cetățuia Upper View",
-              "description": "Premium panoramic experience."
-            },
-            {
-              "time": "14:30",
-              "title": "Premium Vegetarian Lunch",
-              "description": "Plant-forward courses with artistic plating."
-            },
-            {
-              "time": "15:15",
-              "title": "Iulius Park Elite Zone",
-              "description": "Lakeside art pieces and landscaped walkways."
-            },
-            {
-              "time": "16:00",
-              "title": "Someș Riverside",
-              "description": "Soft-light nature look."
-            }
-          ]
-        },
-
-        "comfortable": {
-          "title": "Luxury Vegetarian Nature Experience",
-          "summary": "A slow, premium-feel afternoon surrounded by curated greenery and high-end veggie dishes.",
-          "schedule": [
-            {
-              "time": "13:00",
-              "title": "VIP Central Park Route",
-              "description": "Premium nature and elegant surroundings."
-            },
-            {
-              "time": "13:45",
-              "title": "Cetățuia Hill Premium",
-              "description": "Wide city views and quiet atmosphere."
-            },
-            {
-              "time": "14:30",
-              "title": "Fine Dining Veggie Lunch",
-              "description": "Luxury vegetarian cuisine."
-            },
-            {
-              "time": "15:15",
-              "title": "Iulius Park",
-              "description": "Curated modern greenery."
-            },
-            {
-              "time": "16:00",
-              "title": "Someș River",
-              "description": "Relaxed riverside finale."
-            }
-          ]
-        }
+      "medium": {
+        "title": "Balanced Nature Afternoon in Cluj-Napoca",
+        "summary": "A comfortable mix of parks, lakes, hills and a mid-range Romanian meal.",
+        "schedule": [
+          {
+            "time": "13:00",
+            "title": "Central Park Exploration",
+            "description": "Scenic bridges, small sculptures and elegant greenery."
+          },
+          {
+            "time": "13:45",
+            "title": "Cetățuia Hill Viewpoint",
+            "description": "Classic skyline viewpoint with great photo opportunities."
+          },
+          {
+            "time": "14:30",
+            "title": "Romanian Lunch (Medium Budget)",
+            "description": "Hearty dishes with a cozy atmosphere."
+          },
+          {
+            "time": "15:15",
+            "title": "Iulius Park",
+            "description": "Lakeside loop with clean landscaping and modern vibes."
+          },
+          {
+            "time": "16:00",
+            "title": "Someș River Walk",
+            "description": "Follow the riverside path for a calm nature finale."
+          }
+        ]
       },
-
-      "try_everything": {
-
-        "low": {
-          "title": "Half-Day Nature + Tasting Route (Low Budget)",
-          "summary": "Light nature walk mixed with cheap tasting bites and relaxing viewpoints.",
-          "schedule": [
-            {
-              "time": "13:00",
-              "title": "Central Park",
-              "description": "Historic green oasis."
-            },
-            {
-              "time": "13:45",
-              "title": "Cetățuia Hill",
-              "description": "Budget climb to the panoramic terrace."
-            },
-            {
-              "time": "14:30",
-              "title": "Cheap Tasting Snack",
-              "description": "Small bites—pastries, pretzels or street snacks."
-            },
-            {
-              "time": "15:00",
-              "title": "Iulius Park",
-              "description": "Walk along the lake edge."
-            },
-            {
-              "time": "16:00",
-              "title": "Someș Riverside",
-              "description": "Simple calm ending."
-            }
-          ]
-        },
-
-        "medium": {
-          "title": "Balanced Tasting + Nature Afternoon",
-          "summary": "A comfortable mix of green zones, lake paths and tasting-style small plates.",
-          "schedule": [
-            {
-              "time": "13:00",
-              "title": "Central Park",
-              "description": "Classic relaxing start."
-            },
-            {
-              "time": "13:45",
-              "title": "Cetățuia Viewpoint",
-              "description": "Enjoy Cluj from above."
-            },
-            {
-              "time": "14:30",
-              "title": "Tasting Lunch",
-              "description": "Try 2–3 small Romanian dishes."
-            },
-            {
-              "time": "15:15",
-              "title": "Iulius Park",
-              "description": "Nature meets modern urban design."
-            },
-            {
-              "time": "16:00",
-              "title": "Someș Riverside",
-              "description": "Green, scenic finish."
-            }
-          ]
-        },
-
-        "high": {
-          "title": "High-End Nature + Tasting Mini-Tour",
-          "summary": "Premium nature walk paired with refined tasting-style Romanian plates.",
-          "schedule": [
-            {
-              "time": "13:00",
-              "title": "VIP Central Park",
-              "description": "Elegant greenery & slow walk."
-            },
-            {
-              "time": "13:45",
-              "title": "Cetățuia Hill Premium Look",
-              "description": "Premium viewpoint of Cluj."
-            },
-            {
-              "time": "14:30",
-              "title": "Premium Tasting Lunch",
-              "description": "Fine-dining style small plates."
-            },
-            {
-              "time": "15:15",
-              "title": "Iulius Park Elite Walk",
-              "description": "Curated lake scenery & sculptures."
-            },
-            {
-              "time": "16:00",
-              "title": "Someș River",
-              "description": "Soft, scenic finish."
-            }
-          ]
-        },
-
-        "comfortable": {
-          "title": "Luxury Tasting Nature Afternoon",
-          "summary": "Fine dining tasting plates blended with nature-forward city spots.",
-          "schedule": [
-            {
-              "time": "13:00",
-              "title": "VIP Central Park",
-              "description": "Refined landscape design."
-            },
-            {
-              "time": "13:45",
-              "title": "Cetățuia Panorama",
-              "description": "Perfect skyline moment."
-            },
-            {
-              "time": "14:30",
-              "title": "Luxury Tasting Lunch",
-              "description": "High-end multi-plate meal."
-            },
-            {
-              "time": "15:15",
-              "title": "Iulius Park Luxe Walk",
-              "description": "Fresh landscaping and water reflections."
-            },
-            {
-              "time": "16:00",
-              "title": "Someș Riverside Premium",
-              "description": "Peaceful, elegant finale."
-            }
-          ]
-        }
+      "high": {
+        "title": "Premium Half-Day Nature Experience",
+        "summary": "A curated blend of scenic hills, refined greenery and premium local dining.",
+        "schedule": [
+          {
+            "time": "13:00",
+            "title": "Central Park Premium Walk",
+            "description": "Elegant trees, minimalist sculptures and calm paths."
+          },
+          {
+            "time": "13:45",
+            "title": "Cetățuia Hill Upper View",
+            "description": "A more scenic route to the top with premium views."
+          },
+          {
+            "time": "14:30",
+            "title": "Premium Romanian Lunch",
+            "description": "High-quality dishes inspired by Transylvanian nature."
+          },
+          {
+            "time": "15:15",
+            "title": "Iulius Park Modern Garden Section",
+            "description": "Curated lakeside greenery and design-focused paths."
+          },
+          {
+            "time": "16:00",
+            "title": "Someș River Elite Promenade",
+            "description": "Relaxed ending beside the water."
+          }
+        ]
+      },
+      "comfortable": {
+        "title": "Luxury Nature Mini-Tour of Cluj",
+        "summary": "A refined afternoon mixing city nature, premium dining and peaceful scenic spots.",
+        "schedule": [
+          {
+            "time": "13:00",
+            "title": "VIP Central Park Route",
+            "description": "Calm landscape design and artistic benches."
+          },
+          {
+            "time": "13:45",
+            "title": "Cetățuia Panorama Terrace",
+            "description": "Luxury viewpoint overlooking the city rooftops."
+          },
+          {
+            "time": "14:30",
+            "title": "Fine Dining Lunch",
+            "description": "Luxury interpretations of traditional Romanian dishes."
+          },
+          {
+            "time": "15:15",
+            "title": "Iulius Park Premium Loop",
+            "description": "Lakes, sculptures and curated landscaping."
+          },
+          {
+            "time": "16:00",
+            "title": "Someș Riverside Premium Walk",
+            "description": "Soft-light nature stroll to finish the day."
+          }
+        ]
       }
-
     }
   }
 }

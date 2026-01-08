@@ -1,563 +1,189 @@
 {
   "full_day": {
     "nature": {
-
-      "local_specialties": {
-
-        "low": {
-          "title": "Full-Day Alba Iulia Nature Route (Low Budget)",
-          "summary": "A calm, simple and affordable full-day nature-focused walk inside and around Alba Iulia’s citadel — parks, gardens, walls and green spaces.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "Citadel Green Promenade Start",
-              "description": "Begin the day along the leafy central promenade inside the fortress."
-            },
-            {
-              "time": "10:00",
-              "title": "Alba Carolina Park Zone",
-              "description": "Walk shaded paths near the fortress ramparts; tree-lined areas perfect for photos."
-            },
-            {
-              "time": "11:00",
-              "title": "Roman Garden",
-              "description": "Check out statues, trimmed hedges and benches perfect for quiet relaxation."
-            },
-            {
-              "time": "12:00",
-              "title": "Budget Local Lunch",
-              "description": "Simple Romanian dishes like soups and stews, ideal for travelers on a budget."
-            },
-            {
-              "time": "13:30",
-              "title": "Japanese Garden",
-              "description": "Minimalist bridges, trees and landscaped areas — great for slow walking."
-            },
-            {
-              "time": "15:00",
-              "title": "Bastion Perimeter Green Path",
-              "description": "Follow the grass-lined route around the fortress walls, with calm corners to rest."
-            },
-            {
-              "time": "17:00",
-              "title": "Outer Citadel Park Loop",
-              "description": "A farther loop just outside the walls with natural shade and open grass fields."
-            },
-            {
-              "time": "18:00",
-              "title": "Sunset on the Grass Slopes",
-              "description": "Sit on the fortress slopes and enjoy evening colors."
-            }
-          ]
-        },
-
-        "medium": {
-          "title": "Balanced Full-Day Nature Walk in Alba Iulia",
-          "summary": "A comfortable day of gardens, green spaces, panoramic walls and refreshing nature spots in and around the citadel.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "Citadel Promenade Morning",
-              "description": "A relaxed walk under shade trees along the central axis."
-            },
-            {
-              "time": "10:00",
-              "title": "Roman Garden Wander",
-              "description": "Take your time around statues, trimmed hedges and quiet benches."
-            },
-            {
-              "time": "11:30",
-              "title": "Green Perimeter Trail",
-              "description": "Walk a section of the outer bastion path with grass slopes and small viewpoints."
-            },
-            {
-              "time": "13:00",
-              "title": "Comfortable Romanian Lunch",
-              "description": "Hearty dishes served inside a cool, shaded restaurant area."
-            },
-            {
-              "time": "14:30",
-              "title": "Japanese Garden Exploration",
-              "description": "Minimalistic landscaping and calm pathways."
-            },
-            {
-              "time": "16:00",
-              "title": "Outer City Park",
-              "description": "A slightly larger green area with wide lawns and shaded paths."
-            },
-            {
-              "time": "17:30",
-              "title": "Bastion Viewpoint Walk",
-              "description": "Climb to a lookout for scenic nature + architecture contrasts."
-            },
-            {
-              "time": "18:00",
-              "title": "Evening Garden Glow",
-              "description": "Slow your pace and enjoy the soft dusk light."
-            }
-          ]
-        },
-
-        "high": {
-          "title": "Premium Nature Experience in Alba Iulia",
-          "summary": "A curated full-day route that blends manicured gardens, scenic bastions, natural paths and premium dining.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "VIP Promenade Walk",
-              "description": "Morning light through the trees along the citadel’s axis."
-            },
-            {
-              "time": "10:00",
-              "title": "Roman Garden (Premium Corners)",
-              "description": "Pay attention to sculptural details, hedges and viewpoints."
-            },
-            {
-              "time": "11:00",
-              "title": "Japanese Garden Slow Stroll",
-              "description": "Curated pathways, water elements and elegant natural composition."
-            },
-            {
-              "time": "12:30",
-              "title": "Premium Local Lunch",
-              "description": "High-quality Romanian dishes with fresh seasonal ingredients."
-            },
-            {
-              "time": "14:00",
-              "title": "Outer Park & Shaded Alley",
-              "description": "Quiet area with mature trees and wide walking space."
-            },
-            {
-              "time": "15:30",
-              "title": "Bastion Ramparts Walk",
-              "description": "Panoramic elevated walkway with views of trees and rooftops."
-            },
-            {
-              "time": "17:00",
-              "title": "Green Perimeter Path Elite",
-              "description": "Smooth winding route around the fortress with grassy slopes."
-            },
-            {
-              "time": "18:00",
-              "title": "Sunset Panorama",
-              "description": "Golden-hour glow over gardens and the citadel’s walls."
-            }
-          ]
-        },
-
-        "comfortable": {
-          "title": "Luxury Nature Journey Through Alba Iulia",
-          "summary": "A gentle full-day of curated green spaces, gardens, bastion views and luxury-level dining experiences.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "Premium Promenade Start",
-              "description": "Slow morning stroll under the citadel’s tree canopy."
-            },
-            {
-              "time": "10:00",
-              "title": "Roman Garden (Luxury Moment)",
-              "description": "Elegantly maintained hedges, statues and symmetrical paths."
-            },
-            {
-              "time": "11:00",
-              "title": "Japanese Garden Harmony Walk",
-              "description": "Minimalist compositions perfect for photography and meditation."
-            },
-            {
-              "time": "12:30",
-              "title": "Fine-Dining Nature Lunch",
-              "description": "A refined meal with fresh vegetables and local seasonal touches."
-            },
-            {
-              "time": "14:00",
-              "title": "Outer Park Retreat",
-              "description": "Wide lawns, shady trees and soft walking paths."
-            },
-            {
-              "time": "15:30",
-              "title": "Quiet Citadel Slopes",
-              "description": "Lean back on the grassy fortress slopes and enjoy the breeze."
-            },
-            {
-              "time": "17:00",
-              "title": "Elite Bastion View Walk",
-              "description": "A polished path across parts of the ramparts with amazing views."
-            },
-            {
-              "time": "18:00",
-              "title": "Golden Garden Finale",
-              "description": "Peaceful and warm closing moment among trees and flowers."
-            }
-          ]
-        }
+      "low": {
+        "title": "Full-Day Alba Iulia Nature Route (Low Budget)",
+        "summary": "A calm, simple and affordable full-day nature-focused walk inside and around Alba Iulia’s citadel — parks, gardens, walls and green spaces.",
+        "schedule": [
+          {
+            "time": "09:00",
+            "title": "Citadel Green Promenade Start",
+            "description": "Begin the day along the leafy central promenade inside the fortress."
+          },
+          {
+            "time": "10:00",
+            "title": "Alba Carolina Park Zone",
+            "description": "Walk shaded paths near the fortress ramparts; tree-lined areas perfect for photos."
+          },
+          {
+            "time": "11:00",
+            "title": "Roman Garden",
+            "description": "Check out statues, trimmed hedges and benches perfect for quiet relaxation."
+          },
+          {
+            "time": "12:00",
+            "title": "Budget Local Lunch",
+            "description": "Simple Romanian dishes like soups and stews, ideal for travelers on a budget."
+          },
+          {
+            "time": "13:30",
+            "title": "Japanese Garden",
+            "description": "Minimalist bridges, trees and landscaped areas — great for slow walking."
+          },
+          {
+            "time": "15:00",
+            "title": "Bastion Perimeter Green Path",
+            "description": "Follow the grass-lined route around the fortress walls, with calm corners to rest."
+          },
+          {
+            "time": "17:00",
+            "title": "Outer Citadel Park Loop",
+            "description": "A farther loop just outside the walls with natural shade and open grass fields."
+          },
+          {
+            "time": "18:00",
+            "title": "Sunset on the Grass Slopes",
+            "description": "Sit on the fortress slopes and enjoy evening colors."
+          }
+        ]
       },
-
-      "light_veggie": {
-
-        "low": {
-          "title": "Full-Day Veggie Nature Route (Low Budget)",
-          "summary": "A simple, refreshing nature walk through Alba Iulia with vegetarian-friendly meals and calm green corners.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "Promenade Green Start",
-              "description": "A leafy start to the day right in the citadel center."
-            },
-            {
-              "time": "10:00",
-              "title": "Roman Garden Relax",
-              "description": "Find shade, benches and gentle scenery."
-            },
-            {
-              "time": "11:00",
-              "title": "Small Nature Path Along Bastions",
-              "description": "Short green detour with quiet fortress views."
-            },
-            {
-              "time": "12:00",
-              "title": "Budget Veggie Lunch",
-              "description": "Simple vegetarian dishes like veggie pasta or soups."
-            },
-            {
-              "time": "13:30",
-              "title": "Japanese Garden Discovery",
-              "description": "Compact but calm, with minimalistic landscape design."
-            },
-            {
-              "time": "15:00",
-              "title": "Outer Citadel Green Lane",
-              "description": "Walk under trees and enjoy soft natural sounds."
-            },
-            {
-              "time": "17:00",
-              "title": "Citadel Slopes Sit-Down",
-              "description": "Relax on the grassy exterior walls."
-            },
-            {
-              "time": "18:00",
-              "title": "Evening Garden Moment",
-              "description": "Soft light in the Japanese garden."
-            }
-          ]
-        },
-
-        "medium": {
-          "title": "Balanced Vegetarian Nature Journey",
-          "summary": "A full-day nature route mixing gardens, slopes, tree-lined paths and vegetarian dining.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "Morning Promenade Walk",
-              "description": "Start in a shaded central walkway."
-            },
-            {
-              "time": "10:00",
-              "title": "Roman Garden Highlights",
-              "description": "Symmetry, sculptures and clean landscaping."
-            },
-            {
-              "time": "11:30",
-              "title": "Green Perimeter Trail",
-              "description": "A comfortable loop around the fortress."
-            },
-            {
-              "time": "13:00",
-              "title": "Vegetarian Lunch",
-              "description": "Healthy veggie-friendly Romanian dishes."
-            },
-            {
-              "time": "14:30",
-              "title": "Japanese Garden",
-              "description": "Take time to enjoy minimalistic lines and small bridges."
-            },
-            {
-              "time": "16:00",
-              "title": "Outer Park Shade",
-              "description": "A larger green area to cool off and rest."
-            },
-            {
-              "time": "17:30",
-              "title": "Fortress Slopes",
-              "description": "Sit, watch the city and enjoy nature-meets-history vibes."
-            },
-            {
-              "time": "18:00",
-              "title": "Evening Nature Walk",
-              "description": "Gentle finish with soft, warm light."
-            }
-          ]
-        },
-
-        "high": {
-          "title": "High-End Veggie Nature Day",
-          "summary": "Premium vegetarian dining paired with beautifully curated natural spaces and scenic fortress paths.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "VIP Promenade Stroll",
-              "description": "Wide, tree-lined walkway at peak morning calm."
-            },
-            {
-              "time": "10:00",
-              "title": "Roman Garden (Artful Nature)",
-              "description": "Garden textures, statues and geometry."
-            },
-            {
-              "time": "11:30",
-              "title": "Japanese Garden Slow Walk",
-              "description": "Minimalist and soothing natural compositions."
-            },
-            {
-              "time": "12:30",
-              "title": "Premium Veggie Lunch",
-              "description": "Beautifully plated vegetarian meals with fresh ingredients."
-            },
-            {
-              "time": "14:00",
-              "title": "Shaded Outer Park",
-              "description": "Relax under mature old trees."
-            },
-            {
-              "time": "15:30",
-              "title": "Elite Bastion Walk",
-              "description": "A scenic path along elevated fortress routes."
-            },
-            {
-              "time": "17:00",
-              "title": "Nature Perimeter Trail",
-              "description": "Quiet greenery surrounding the fort."
-            },
-            {
-              "time": "18:00",
-              "title": "Sunset Garden Session",
-              "description": "Evening glow among the trees."
-            }
-          ]
-        },
-
-        "comfortable": {
-          "title": "Luxury Vegetarian Nature Experience",
-          "summary": "A calm, elegant full-day journey through Alba Iulia’s finest nature sections and premium vegetarian dining.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "Citadel Premium Green Start",
-              "description": "A smooth morning walk under trees and historic walls."
-            },
-            {
-              "time": "10:00",
-              "title": "Roman Garden Prestige Walk",
-              "description": "Symmetry, landscaping and sculptures in perfect balance."
-            },
-            {
-              "time": "11:00",
-              "title": "Japanese Garden Elite Corners",
-              "description": "Minimalist surroundings ideal for creative photos."
-            },
-            {
-              "time": "12:30",
-              "title": "Fine Dining Vegetarian Lunch",
-              "description": "Refined plant-based dishes with local roots."
-            },
-            {
-              "time": "14:00",
-              "title": "Outer Park Elegance",
-              "description": "Natural shade, soft walks and calm air."
-            },
-            {
-              "time": "15:30",
-              "title": "Quiet Slopes & Fortress Greens",
-              "description": "Lean back on smooth grassy slopes and enjoy the view."
-            },
-            {
-              "time": "17:00",
-              "title": "VIP Bastion View Walk",
-              "description": "Elevated walkway with sweeping views."
-            },
-            {
-              "time": "18:00",
-              "title": "Golden Nature Finale",
-              "description": "Glowing trees and soft light end the day perfectly."
-            }
-          ]
-        }
+      "medium": {
+        "title": "Balanced Full-Day Nature Walk in Alba Iulia",
+        "summary": "A comfortable day of gardens, green spaces, panoramic walls and refreshing nature spots in and around the citadel.",
+        "schedule": [
+          {
+            "time": "09:00",
+            "title": "Citadel Promenade Morning",
+            "description": "A relaxed walk under shade trees along the central axis."
+          },
+          {
+            "time": "10:00",
+            "title": "Roman Garden Wander",
+            "description": "Take your time around statues, trimmed hedges and quiet benches."
+          },
+          {
+            "time": "11:30",
+            "title": "Green Perimeter Trail",
+            "description": "Walk a section of the outer bastion path with grass slopes and small viewpoints."
+          },
+          {
+            "time": "13:00",
+            "title": "Comfortable Romanian Lunch",
+            "description": "Hearty dishes served inside a cool, shaded restaurant area."
+          },
+          {
+            "time": "14:30",
+            "title": "Japanese Garden Exploration",
+            "description": "Minimalistic landscaping and calm pathways."
+          },
+          {
+            "time": "16:00",
+            "title": "Outer City Park",
+            "description": "A slightly larger green area with wide lawns and shaded paths."
+          },
+          {
+            "time": "17:30",
+            "title": "Bastion Viewpoint Walk",
+            "description": "Climb to a lookout for scenic nature + architecture contrasts."
+          },
+          {
+            "time": "18:00",
+            "title": "Evening Garden Glow",
+            "description": "Slow your pace and enjoy the soft dusk light."
+          }
+        ]
       },
-
-      "try_everything": {
-
-        "low": {
-          "title": "Full-Day Nature + Tasting on a Budget",
-          "summary": "Light tasting moments and refreshing nature stops blend into an affordable citadel day.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "Promenade Walk",
-              "description": "Shaded morning stroll inside the citadel."
-            },
-            {
-              "time": "10:00",
-              "title": "Roman Garden",
-              "description": "Statues, hedges and greenery all around."
-            },
-            {
-              "time": "11:00",
-              "title": "Snack Tasting",
-              "description": "Cheap pretzels or pastries from a local stall."
-            },
-            {
-              "time": "12:00",
-              "title": "Japanese Garden",
-              "description": "Relaxing minimalist corner."
-            },
-            {
-              "time": "14:00",
-              "title": "Budget Lunch",
-              "description": "Affordable Romanian food in the citadel."
-            },
-            {
-              "time": "15:30",
-              "title": "Outer Park",
-              "description": "Comfortable area to rest in nature."
-            },
-            {
-              "time": "17:00",
-              "title": "Bastion Greens",
-              "description": "Walk the grassy paths along the walls."
-            },
-            {
-              "time": "18:00",
-              "title": "Nature Sunset",
-              "description": "Warm colors fall over the gardens."
-            }
-          ]
-        },
-
-        "medium": {
-          "title": "Balanced Nature + Tasting Route",
-          "summary": "A harmonious mix of small-plate tastings and scenic nature areas.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "Morning Green Promenade",
-              "description": "Start with a peaceful walk under the trees."
-            },
-            {
-              "time": "10:00",
-              "title": "Roman Garden Exploration",
-              "description": "Stroll the pathways and enjoy the calm atmosphere."
-            },
-            {
-              "time": "12:00",
-              "title": "Tasting Lunch",
-              "description": "Try 2–3 Romanian small plates in a relaxed setting."
-            },
-            {
-              "time": "14:00",
-              "title": "Japanese Garden",
-              "description": "Enjoy elegant greenery and calming views."
-            },
-            {
-              "time": "15:30",
-              "title": "Outer Park Stroll",
-              "description": "Spacious natural zone for unwinding."
-            },
-            {
-              "time": "17:00",
-              "title": "Citadel Nature Path",
-              "description": "Walk along grassy fortress slopes."
-            },
-            {
-              "time": "18:00",
-              "title": "Evening Garden Glow",
-              "description": "End your day in soft light and fresh air."
-            }
-          ]
-        },
-
-        "high": {
-          "title": "High-End Nature + Tasting Experience",
-          "summary": "Premium tasting plates and curated natural corners throughout the day.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "VIP Promenade Start",
-              "description": "Wide, elegant tree-lined avenue."
-            },
-            {
-              "time": "10:00",
-              "title": "Roman Garden (Curated Corners)",
-              "description": "Follow sculptural lines and hedges crafted with precision."
-            },
-            {
-              "time": "12:00",
-              "title": "Premium Tasting Lunch",
-              "description": "Small, refined plates inspired by local flavors."
-            },
-            {
-              "time": "14:00",
-              "title": "Japanese Garden",
-              "description": "Minimalist perfection for a calm afternoon."
-            },
-            {
-              "time": "15:30",
-              "title": "Outer Park & Shade",
-              "description": "Quiet natural escape just outside the fortress."
-            },
-            {
-              "time": "17:00",
-              "title": "Bastion Elite Path",
-              "description": "Beautiful green line along fortress walls."
-            },
-            {
-              "time": "18:00",
-              "title": "Nature Sunset Experience",
-              "description": "Day ends with warm scenic colors."
-            }
-          ]
-        },
-
-        "comfortable": {
-          "title": "Luxury Nature Tasting Day",
-          "summary": "Fine dining tasting menus and elite nature scenery in Alba Iulia’s calmest green corners.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "Premium Green Promenade",
-              "description": "Start with slow steps under the shady trees."
-            },
-            {
-              "time": "10:00",
-              "title": "Roman Garden Prestige",
-              "description": "Admire statues, perfect hedges and peaceful corners."
-            },
-            {
-              "time": "12:00",
-              "title": "Fine-Dining Tasting Lunch",
-              "description": "Multi-course tasting of elevated Romanian dishes."
-            },
-            {
-              "time": "14:00",
-              "title": "Japanese Garden Harmony",
-              "description": "Minimalist shapes and gentle nature tones."
-            },
-            {
-              "time": "15:30",
-              "title": "Outer Park Retreat",
-              "description": "Large, calm shaded zone for relaxation."
-            },
-            {
-              "time": "17:00",
-              "title": "Elite Bastion Nature Walk",
-              "description": "The best viewpoints blending nature and architecture."
-            },
-            {
-              "time": "18:00",
-              "title": "Golden Nature Finale",
-              "description": "Warm light closes the perfect nature day."
-            }
-          ]
-        }
+      "high": {
+        "title": "Premium Nature Experience in Alba Iulia",
+        "summary": "A curated full-day route that blends manicured gardens, scenic bastions, natural paths and premium dining.",
+        "schedule": [
+          {
+            "time": "09:00",
+            "title": "VIP Promenade Walk",
+            "description": "Morning light through the trees along the citadel’s axis."
+          },
+          {
+            "time": "10:00",
+            "title": "Roman Garden (Premium Corners)",
+            "description": "Pay attention to sculptural details, hedges and viewpoints."
+          },
+          {
+            "time": "11:00",
+            "title": "Japanese Garden Slow Stroll",
+            "description": "Curated pathways, water elements and elegant natural composition."
+          },
+          {
+            "time": "12:30",
+            "title": "Premium Local Lunch",
+            "description": "High-quality Romanian dishes with fresh seasonal ingredients."
+          },
+          {
+            "time": "14:00",
+            "title": "Outer Park & Shaded Alley",
+            "description": "Quiet area with mature trees and wide walking space."
+          },
+          {
+            "time": "15:30",
+            "title": "Bastion Ramparts Walk",
+            "description": "Panoramic elevated walkway with views of trees and rooftops."
+          },
+          {
+            "time": "17:00",
+            "title": "Green Perimeter Path Elite",
+            "description": "Smooth winding route around the fortress with grassy slopes."
+          },
+          {
+            "time": "18:00",
+            "title": "Sunset Panorama",
+            "description": "Golden-hour glow over gardens and the citadel’s walls."
+          }
+        ]
+      },
+      "comfortable": {
+        "title": "Luxury Nature Journey Through Alba Iulia",
+        "summary": "A gentle full-day of curated green spaces, gardens, bastion views and luxury-level dining experiences.",
+        "schedule": [
+          {
+            "time": "09:00",
+            "title": "Premium Promenade Start",
+            "description": "Slow morning stroll under the citadel’s tree canopy."
+          },
+          {
+            "time": "10:00",
+            "title": "Roman Garden (Luxury Moment)",
+            "description": "Elegantly maintained hedges, statues and symmetrical paths."
+          },
+          {
+            "time": "11:00",
+            "title": "Japanese Garden Harmony Walk",
+            "description": "Minimalist compositions perfect for photography and meditation."
+          },
+          {
+            "time": "12:30",
+            "title": "Fine-Dining Nature Lunch",
+            "description": "A refined meal with fresh vegetables and local seasonal touches."
+          },
+          {
+            "time": "14:00",
+            "title": "Outer Park Retreat",
+            "description": "Wide lawns, shady trees and soft walking paths."
+          },
+          {
+            "time": "15:30",
+            "title": "Quiet Citadel Slopes",
+            "description": "Lean back on the grassy fortress slopes and enjoy the breeze."
+          },
+          {
+            "time": "17:00",
+            "title": "Elite Bastion View Walk",
+            "description": "A polished path across parts of the ramparts with amazing views."
+          },
+          {
+            "time": "18:00",
+            "title": "Golden Garden Finale",
+            "description": "Peaceful and warm closing moment among trees and flowers."
+          }
+        ]
       }
     }
   }

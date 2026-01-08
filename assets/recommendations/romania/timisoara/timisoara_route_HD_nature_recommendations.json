@@ -1,343 +1,114 @@
 {
   "half_day": {
     "nature": {
-
-      "local_specialties": {
-
-        "low": {
-          "title": "Half-Day Nature Route in Timișoara (Low Budget)",
-          "summary": "A peaceful, green-focused mini-tour around parks, riverside paths and cheap local bites.",
-          "schedule": [
-            {
-              "time": "13:00",
-              "title": "Roses Park Walk",
-              "description": "Stroll among flower beds, shaded paths and quiet corners."
-            },
-            {
-              "time": "13:45",
-              "title": "Bega Riverside Trail",
-              "description": "Walk along the riverbanks and enjoy calm water views."
-            },
-            {
-              "time": "14:30",
-              "title": "Botanic Park (Quick Explore)",
-              "description": "Trees, lawns and natural silence in the middle of the city."
-            },
-            {
-              "time": "15:15",
-              "title": "Budget Local Snack",
-              "description": "Cheap Romanian pastries or a simple warm dish."
-            },
-            {
-              "time": "16:00",
-              "title": "Central Park Relax",
-              "description": "Wide green spaces and benches — perfect for resting."
-            }
-          ]
-        },
-
-        "medium": {
-          "title": "Balanced Half-Day Nature Tour",
-          "summary": "A comfortable blend of green areas, riverside walks and a cozy Romanian meal.",
-          "schedule": [
-            {
-              "time": "13:00",
-              "title": "Botanic Park",
-              "description": "Begin with a refreshing walk through Timișoara’s quietest park."
-            },
-            {
-              "time": "13:45",
-              "title": "Roses Park",
-              "description": "Famous for its endless flower beds and walking paths."
-            },
-            {
-              "time": "14:30",
-              "title": "Bega Riverside Walk",
-              "description": "Enjoy the gentle breeze and natural scenery."
-            },
-            {
-              "time": "15:45",
-              "title": "Local Romanian Lunch",
-              "description": "Comfortable traditional dishes."
-            }
-          ]
-        },
-
-        "high": {
-          "title": "Premium Nature Mini-Route",
-          "summary": "Elegant greenery, scenic river views and a premium quality Romanian lunch.",
-          "schedule": [
-            {
-              "time": "13:00",
-              "title": "Botanic Park Premium Entry",
-              "description": "Deep greenery and peaceful alleys."
-            },
-            {
-              "time": "13:45",
-              "title": "Roses Park",
-              "description": "One of the city’s signature green areas."
-            },
-            {
-              "time": "14:30",
-              "title": "Riverside Walk (Quiet Zone)",
-              "description": "Less-crowded paths with scenic water views."
-            },
-            {
-              "time": "16:00",
-              "title": "Premium Local Lunch",
-              "description": "High-quality Romanian dishes prepared traditionally."
-            }
-          ]
-        },
-
-        "comfortable": {
-          "title": "Luxury Nature Experience",
-          "summary": "A refined, calm half-day spent among greenery, riverside paths and elegant dining.",
-          "schedule": [
-            {
-              "time": "13:00",
-              "title": "Botanic Park VIP Walk",
-              "description": "Quiet forest-like sections and wide lawns."
-            },
-            {
-              "time": "13:45",
-              "title": "Roses Park Prestige Route",
-              "description": "Beautiful flower arrangements and photogenic corners."
-            },
-            {
-              "time": "14:30",
-              "title": "Exclusive Riverside Path",
-              "description": "Smooth, peaceful walkway with lovely views."
-            },
-            {
-              "time": "16:00",
-              "title": "Luxury Romanian Lunch",
-              "description": "Fine dining with traditional influence."
-            }
-          ]
-        }
+      "low": {
+        "title": "Half-Day Nature Route in Timișoara (Low Budget)",
+        "summary": "A peaceful, green-focused mini-tour around parks, riverside paths and cheap local bites.",
+        "schedule": [
+          {
+            "time": "13:00",
+            "title": "Roses Park Walk",
+            "description": "Stroll among flower beds, shaded paths and quiet corners."
+          },
+          {
+            "time": "13:45",
+            "title": "Bega Riverside Trail",
+            "description": "Walk along the riverbanks and enjoy calm water views."
+          },
+          {
+            "time": "14:30",
+            "title": "Botanic Park (Quick Explore)",
+            "description": "Trees, lawns and natural silence in the middle of the city."
+          },
+          {
+            "time": "15:15",
+            "title": "Budget Local Snack",
+            "description": "Cheap Romanian pastries or a simple warm dish."
+          },
+          {
+            "time": "16:00",
+            "title": "Central Park Relax",
+            "description": "Wide green spaces and benches — perfect for resting."
+          }
+        ]
       },
-
-      "light_veggie": {
-
-        "low": {
-          "title": "Veggie-Friendly Nature Half-Day (Low Budget)",
-          "summary": "Relaxing green spots and cheap vegetarian snacks.",
-          "schedule": [
-            {
-              "time": "13:00",
-              "title": "Central Park Start",
-              "description": "Tall trees and spacious open areas."
-            },
-            {
-              "time": "13:45",
-              "title": "Roses Park",
-              "description": "A pleasant garden area."
-            },
-            {
-              "time": "14:30",
-              "title": "Riverside Light Walk",
-              "description": "Bega riverbank’s relaxing scenery."
-            },
-            {
-              "time": "15:15",
-              "title": "Budget Veggie Snack",
-              "description": "Sandwiches, salads or simple pastries."
-            }
-          ]
-        },
-
-        "medium": {
-          "title": "Balanced Veggie Nature Afternoon",
-          "summary": "Green areas and a healthy vegetarian lunch — ideal for a short nature escape.",
-          "schedule": [
-            {
-              "time": "13:00",
-              "title": "Roses Park",
-              "description": "Flower gardens, sculptures and relaxing paths."
-            },
-            {
-              "time": "13:45",
-              "title": "Botanic Park",
-              "description": "A soft, quiet forest-like environment."
-            },
-            {
-              "time": "14:30",
-              "title": "Riverside Walk",
-              "description": "Calming water views and light breezes."
-            },
-            {
-              "time": "15:45",
-              "title": "Vegetarian Lunch",
-              "description": "Healthy plant-based dishes."
-            }
-          ]
-        },
-
-        "high": {
-          "title": "High-End Veggie Green Route",
-          "summary": "Premium vegetarian dining and the city’s most beautiful parks.",
-          "schedule": [
-            {
-              "time": "13:00",
-              "title": "Botanic Park Premium Path",
-              "description": "Deep greenery and serene atmosphere."
-            },
-            {
-              "time": "13:45",
-              "title": "Roses Park",
-              "description": "Iconic flowers and photogenic scenery."
-            },
-            {
-              "time": "14:30",
-              "title": "Quiet Riverside Section",
-              "description": "A scenic, peaceful moment along the water."
-            },
-            {
-              "time": "16:00",
-              "title": "Premium Veggie Lunch",
-              "description": "Refined, colorful plant-based meals."
-            }
-          ]
-        },
-
-        "comfortable": {
-          "title": "Luxury Veggie Nature Experience",
-          "summary": "Elegantly slow nature walk paired with fine vegetarian dining.",
-          "schedule": [
-            {
-              "time": "13:00",
-              "title": "VIP Botanic Park",
-              "description": "Calm, upscale green atmosphere."
-            },
-            {
-              "time": "13:45",
-              "title": "Roses Park Luxury Walk",
-              "description": "Picture-perfect flower scenes."
-            },
-            {
-              "time": "14:30",
-              "title": "Prestige Riverside Stretch",
-              "description": "Quiet, relaxing river path."
-            },
-            {
-              "time": "16:00",
-              "title": "Luxury Vegetarian Lunch",
-              "description": "Top-tier plant-based cuisine."
-            }
-          ]
-        }
+      "medium": {
+        "title": "Balanced Half-Day Nature Tour",
+        "summary": "A comfortable blend of green areas, riverside walks and a cozy Romanian meal.",
+        "schedule": [
+          {
+            "time": "13:00",
+            "title": "Botanic Park",
+            "description": "Begin with a refreshing walk through Timișoara’s quietest park."
+          },
+          {
+            "time": "13:45",
+            "title": "Roses Park",
+            "description": "Famous for its endless flower beds and walking paths."
+          },
+          {
+            "time": "14:30",
+            "title": "Bega Riverside Walk",
+            "description": "Enjoy the gentle breeze and natural scenery."
+          },
+          {
+            "time": "15:45",
+            "title": "Local Romanian Lunch",
+            "description": "Comfortable traditional dishes."
+          }
+        ]
       },
-
-      "try_everything": {
-
-        "low": {
-          "title": "Half-Day Mixed Nature + Snack Tasting (Low Budget)",
-          "summary": "Easy natural exploration plus a couple of small tasting bites.",
-          "schedule": [
-            {
-              "time": "13:00",
-              "title": "Roses Park",
-              "description": "Walk among trees and flower beds."
-            },
-            {
-              "time": "13:45",
-              "title": "Riverside Walk",
-              "description": "Simple and calm nature stretch."
-            },
-            {
-              "time": "14:30",
-              "title": "Botanic Park",
-              "description": "Quiet, peaceful moments in greenery."
-            },
-            {
-              "time": "15:15",
-              "title": "Snack Tasting",
-              "description": "Try 2–3 small cheap bites."
-            }
-          ]
-        },
-
-        "medium": {
-          "title": "Balanced Tasting + Nature Route",
-          "summary": "A variety of small bites combined with the most relaxing natural areas of Timișoara.",
-          "schedule": [
-            {
-              "time": "13:00",
-              "title": "Botanic Park",
-              "description": "A refreshing green start."
-            },
-            {
-              "time": "13:45",
-              "title": "Roses Park",
-              "description": "Bright, spacious and full of colors."
-            },
-            {
-              "time": "14:30",
-              "title": "Riverside Walk",
-              "description": "Enjoy nature flowing around you."
-            },
-            {
-              "time": "15:45",
-              "title": "Tasting Lunch",
-              "description": "A few small mid-range dishes to try."
-            }
-          ]
-        },
-
-        "high": {
-          "title": "High-End Nature + Tasting Mini-Experience",
-          "summary": "Premium tasting dishes paired with the city’s most polished green areas.",
-          "schedule": [
-            {
-              "time": "13:00",
-              "title": "VIP Botanic Park",
-              "description": "Quiet, elegant tree-lined paths."
-            },
-            {
-              "time": "13:45",
-              "title": "Roses Park",
-              "description": "Beautifully maintained flower gardens."
-            },
-            {
-              "time": "14:30",
-              "title": "Exclusive Riverside Walk",
-              "description": "Scenic water views with minimal crowds."
-            },
-            {
-              "time": "16:00",
-              "title": "Premium Tasting Lunch",
-              "description": "Refined small plates inspired by local flavors."
-            }
-          ]
-        },
-
-        "comfortable": {
-          "title": "Luxury Nature + Fine Tasting Route",
-          "summary": "Fine dining tasting plates matched with the most elegant natural areas in the city.",
-          "schedule": [
-            {
-              "time": "13:00",
-              "title": "Prestige Botanic Park Route",
-              "description": "A calm luxury stroll through deep greenery."
-            },
-            {
-              "time": "13:45",
-              "title": "Roses Park (VIP Zone)",
-              "description": "Stunning gardens and premium quiet spots."
-            },
-            {
-              "time": "14:30",
-              "title": "Riverside Luxury Walk",
-              "description": "Gentle water views and peaceful atmosphere."
-            },
-            {
-              "time": "16:00",
-              "title": "Luxury Tasting Lunch",
-              "description": "Artistic, beautifully plated tasting dishes."
-            }
-          ]
-        }
+      "high": {
+        "title": "Premium Nature Mini-Route",
+        "summary": "Elegant greenery, scenic river views and a premium quality Romanian lunch.",
+        "schedule": [
+          {
+            "time": "13:00",
+            "title": "Botanic Park Premium Entry",
+            "description": "Deep greenery and peaceful alleys."
+          },
+          {
+            "time": "13:45",
+            "title": "Roses Park",
+            "description": "One of the city’s signature green areas."
+          },
+          {
+            "time": "14:30",
+            "title": "Riverside Walk (Quiet Zone)",
+            "description": "Less-crowded paths with scenic water views."
+          },
+          {
+            "time": "16:00",
+            "title": "Premium Local Lunch",
+            "description": "High-quality Romanian dishes prepared traditionally."
+          }
+        ]
+      },
+      "comfortable": {
+        "title": "Luxury Nature Experience",
+        "summary": "A refined, calm half-day spent among greenery, riverside paths and elegant dining.",
+        "schedule": [
+          {
+            "time": "13:00",
+            "title": "Botanic Park VIP Walk",
+            "description": "Quiet forest-like sections and wide lawns."
+          },
+          {
+            "time": "13:45",
+            "title": "Roses Park Prestige Route",
+            "description": "Beautiful flower arrangements and photogenic corners."
+          },
+          {
+            "time": "14:30",
+            "title": "Exclusive Riverside Path",
+            "description": "Smooth, peaceful walkway with lovely views."
+          },
+          {
+            "time": "16:00",
+            "title": "Luxury Romanian Lunch",
+            "description": "Fine dining with traditional influence."
+          }
+        ]
       }
     }
   }

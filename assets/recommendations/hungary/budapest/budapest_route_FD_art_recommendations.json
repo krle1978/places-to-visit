@@ -1,444 +1,154 @@
 {
   "full_day": {
     "art": {
-      "local_specialties": {
-        "low": {
-          "title": "Full-Day Budapest Art on a Budget",
-          "summary": "A colorful day exploring Budapest’s artistic spots and classic Hungarian snacks without spending much.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "Heroes' Square Start",
-              "description": "Begin your day surrounded by massive statues, museums and iconic city architecture."
-            },
-            {
-              "time": "10:00",
-              "title": "Museum of Fine Arts (Exterior)",
-              "description": "Explore the outside and grab photos. Entry optional depending on your budget."
-            },
-            {
-              "time": "11:00",
-              "title": "Jewish Quarter Street Art Walk",
-              "description": "Search for murals, tiny art corners and hidden graffiti alleys."
-            },
-            {
-              "time": "12:30",
-              "title": "Budget Local Lunch",
-              "description": "Try lángos, goulash soup or a cheap Hungarian meal."
-            },
-            {
-              "time": "14:00",
-              "title": "Andrássy Avenue Architecture",
-              "description": "Walk down one of the prettiest boulevards while admiring historic buildings."
-            },
-            {
-              "time": "16:00",
-              "title": "Small Gallery Visit",
-              "description": "Check out a smaller affordable gallery with local artists."
-            },
-            {
-              "time": "18:00",
-              "title": "City Park Chill",
-              "description": "End the day in a peaceful green area near Vajdahunyad Castle."
-            }
-          ]
-        },
-
-        "medium": {
-          "title": "Balanced Full-Day Budapest Art Route",
-          "summary": "A comfortable art adventure across museums, design streets and local Hungarian meals.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "Heroes' Square & Museum Row",
-              "description": "Start your day with iconic architecture and museum surroundings."
-            },
-            {
-              "time": "10:00",
-              "title": "Museum of Fine Arts",
-              "description": "Explore classics, sculptures and historic masterpieces."
-            },
-            {
-              "time": "12:00",
-              "title": "Local Hungarian Lunch",
-              "description": "Try pörkölt, paprikash or other classic dishes in a relaxed spot."
-            },
-            {
-              "time": "13:45",
-              "title": "Design Street & Concept Stores",
-              "description": "Walk through Király Street visiting design shops, galleries and bookshops."
-            },
-            {
-              "time": "16:00",
-              "title": "Jewish Quarter Art Hunt",
-              "description": "Check out murals, sculptures and unique creative corners."
-            },
-            {
-              "time": "18:00",
-              "title": "City Park or Danube Walk",
-              "description": "Finish with a slow walk beside the river or near City Park."
-            }
-          ]
-        },
-
-        "high": {
-          "title": "High-End Budapest Art Experience",
-          "summary": "A refined day full of prestigious art galleries, famous museums and premium Hungarian food.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "Andrássy Avenue Start",
-              "description": "Begin your day on one of Europe’s most beautiful boulevards."
-            },
-            {
-              "time": "10:00",
-              "title": "Museum of Fine Arts Premium Visit",
-              "description": "Take your time exploring world-famous exhibits."
-            },
-            {
-              "time": "12:15",
-              "title": "High-Quality Local Lunch",
-              "description": "Classic Hungarian dishes prepared with premium ingredients."
-            },
-            {
-              "time": "14:00",
-              "title": "Castle District Art Corners",
-              "description": "Visit the Fisherman's Bastion area, photo spots and artisan shops."
-            },
-            {
-              "time": "16:00",
-              "title": "Curated Gallery Stop",
-              "description": "Explore a premium exhibition of modern or classical works."
-            },
-            {
-              "time": "18:00",
-              "title": "Danube Panorama Walk",
-              "description": "End your day with stunning river views and glowing city lights."
-            }
-          ]
-        },
-
-        "comfortable": {
-          "title": "Luxury Full-Day Budapest Art Journey",
-          "summary": "An elegant art-filled day with elite galleries, curated museum experiences and fine dining.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "Exclusive Andrássy Walk",
-              "description": "Walk Budapest’s most elegant avenue with historic palaces."
-            },
-            {
-              "time": "10:00",
-              "title": "VIP Museum of Fine Arts Visit",
-              "description": "Enjoy world-class masterpieces in a refined environment."
-            },
-            {
-              "time": "12:30",
-              "title": "Fine Dining Hungarian Lunch",
-              "description": "Premium reinterpretations of classic Hungarian dishes."
-            },
-            {
-              "time": "14:00",
-              "title": "Castle District Elite Art Route",
-              "description": "Visit curated craft stores, elegant galleries and premium scenic spots."
-            },
-            {
-              "time": "16:00",
-              "title": "Premium Private Gallery",
-              "description": "Explore an upscale exhibition or boutique art studio."
-            },
-            {
-              "time": "18:00",
-              "title": "Danube Luxury Sunset Walk",
-              "description": "End your day at one of the most beautiful viewpoints in the city."
-            }
-          ]
-        }
+      "low": {
+        "title": "Full-Day Budapest Art on a Budget",
+        "summary": "A colorful day exploring Budapest’s artistic spots and classic Hungarian snacks without spending much.",
+        "schedule": [
+          {
+            "time": "09:00",
+            "title": "Heroes' Square Start",
+            "description": "Begin your day surrounded by massive statues, museums and iconic city architecture."
+          },
+          {
+            "time": "10:00",
+            "title": "Museum of Fine Arts (Exterior)",
+            "description": "Explore the outside and grab photos. Entry optional depending on your budget."
+          },
+          {
+            "time": "11:00",
+            "title": "Jewish Quarter Street Art Walk",
+            "description": "Search for murals, tiny art corners and hidden graffiti alleys."
+          },
+          {
+            "time": "12:30",
+            "title": "Budget Local Lunch",
+            "description": "Try lángos, goulash soup or a cheap Hungarian meal."
+          },
+          {
+            "time": "14:00",
+            "title": "Andrássy Avenue Architecture",
+            "description": "Walk down one of the prettiest boulevards while admiring historic buildings."
+          },
+          {
+            "time": "16:00",
+            "title": "Small Gallery Visit",
+            "description": "Check out a smaller affordable gallery with local artists."
+          },
+          {
+            "time": "18:00",
+            "title": "City Park Chill",
+            "description": "End the day in a peaceful green area near Vajdahunyad Castle."
+          }
+        ]
       },
-
-      "light_veggie": {
-        "low": {
-          "title": "Budget Veggie Art Day",
-          "summary": "A full day of museums, street art and vegetarian-friendly budget meals.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "Heroes' Square Morning",
-              "description": "Start with photos and sightseeing in Budapest’s grand plaza."
-            },
-            {
-              "time": "10:00",
-              "title": "Street Art Hunt",
-              "description": "Explore murals and creative alleys around the Jewish Quarter."
-            },
-            {
-              "time": "12:00",
-              "title": "Veggie Budget Lunch",
-              "description": "Simple salads, soups or pasta at a cheap vegetarian-friendly spot."
-            },
-            {
-              "time": "13:30",
-              "title": "Design Shops",
-              "description": "Browse colorful shops and cool concept stores."
-            },
-            {
-              "time": "16:00",
-              "title": "Art Museum Visit",
-              "description": "Pick a smaller gallery or museum to explore."
-            },
-            {
-              "time": "18:00",
-              "title": "Danube Riverside",
-              "description": "End with a relaxing walk beside the river."
-            }
-          ]
-        },
-
-        "medium": {
-          "title": "Balanced Veggie + Art Day",
-          "summary": "A full day combining cultural highlights with tasty vegetarian meals.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "Andrássy Morning Walk",
-              "description": "Enjoy architecture, statues, and open spaces."
-            },
-            {
-              "time": "10:00",
-              "title": "Fine Arts Museum",
-              "description": "Explore masterpieces and iconic art collections."
-            },
-            {
-              "time": "12:00",
-              "title": "Vegetarian Mid-Range Lunch",
-              "description": "Healthy plant-based bowls, soups or warm dishes."
-            },
-            {
-              "time": "13:30",
-              "title": "Gallery Hopping",
-              "description": "Visit a collection of small galleries in the city center."
-            },
-            {
-              "time": "16:00",
-              "title": "Creative District Walk",
-              "description": "Murals, sculptures and design corners."
-            },
-            {
-              "time": "18:00",
-              "title": "City Park Walk",
-              "description": "End with a relaxing green stroll."
-            }
-          ]
-        },
-
-        "high": {
-          "title": "High-End Veggie + Art Experience",
-          "summary": "A refined day with excellent vegetarian dining and premium art spaces.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "Premium Architectural Walk",
-              "description": "Explore Budapest’s best streets for design and art."
-            },
-            {
-              "time": "10:00",
-              "title": "Museum Premium Visit",
-              "description": "Take your time at a top-tier art museum."
-            },
-            {
-              "time": "12:15",
-              "title": "High-End Veggie Lunch",
-              "description": "Beautifully presented vegetarian dishes."
-            },
-            {
-              "time": "14:00",
-              "title": "Castle District Art Walk",
-              "description": "Explore galleries, viewpoints and historic buildings."
-            },
-            {
-              "time": "16:00",
-              "title": "Curated Modern Gallery",
-              "description": "Visit a premium exhibition space."
-            },
-            {
-              "time": "18:00",
-              "title": "Danube Scenic Walk",
-              "description": "End the day at an iconic riverside viewpoint."
-            }
-          ]
-        },
-
-        "comfortable": {
-          "title": "Luxury Veggie Art Day",
-          "summary": "An elite vegetarian-friendly day filled with premium exhibitions and curated cultural routes.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "Exclusive Morning Walk",
-              "description": "Start with the best architecture and elegant boulevards."
-            },
-            {
-              "time": "10:00",
-              "title": "VIP Museum Visit",
-              "description": "Enjoy a premium-level art collection in a refined environment."
-            },
-            {
-              "time": "12:30",
-              "title": "Fine Dining Veggie Lunch",
-              "description": "High-end vegetarian cuisine with beautiful presentation."
-            },
-            {
-              "time": "14:00",
-              "title": "Castle District Art Route",
-              "description": "Begin an elegant journey through curated galleries."
-            },
-            {
-              "time": "16:00",
-              "title": "Private or Premium Gallery",
-              "description": "Exclusive modern or traditional art exhibitions."
-            },
-            {
-              "time": "18:00",
-              "title": "Danube Sunset Path",
-              "description": "Finish the day at the most scenic river spot."
-            }
-          ]
-        }
+      "medium": {
+        "title": "Balanced Full-Day Budapest Art Route",
+        "summary": "A comfortable art adventure across museums, design streets and local Hungarian meals.",
+        "schedule": [
+          {
+            "time": "09:00",
+            "title": "Heroes' Square & Museum Row",
+            "description": "Start your day with iconic architecture and museum surroundings."
+          },
+          {
+            "time": "10:00",
+            "title": "Museum of Fine Arts",
+            "description": "Explore classics, sculptures and historic masterpieces."
+          },
+          {
+            "time": "12:00",
+            "title": "Local Hungarian Lunch",
+            "description": "Try pörkölt, paprikash or other classic dishes in a relaxed spot."
+          },
+          {
+            "time": "13:45",
+            "title": "Design Street & Concept Stores",
+            "description": "Walk through Király Street visiting design shops, galleries and bookshops."
+          },
+          {
+            "time": "16:00",
+            "title": "Jewish Quarter Art Hunt",
+            "description": "Check out murals, sculptures and unique creative corners."
+          },
+          {
+            "time": "18:00",
+            "title": "City Park or Danube Walk",
+            "description": "Finish with a slow walk beside the river or near City Park."
+          }
+        ]
       },
-
-      "try_everything": {
-        "low": {
-          "title": "Budget Tasting + Art Day",
-          "summary": "Art plus small tasty snacks — great for curious travelers on a budget.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "Street Art Walk",
-              "description": "Begin with murals, stickers and graffiti corners."
-            },
-            {
-              "time": "10:30",
-              "title": "Small Gallery Stop",
-              "description": "Visit a budget-friendly gallery."
-            },
-            {
-              "time": "12:00",
-              "title": "Tasting Snacks",
-              "description": "Try chimney cake or small Hungarian bites."
-            },
-            {
-              "time": "14:00",
-              "title": "Design Street",
-              "description": "Browse cool concept stores and artist shops."
-            },
-            {
-              "time": "16:00",
-              "title": "Free Art Installations",
-              "description": "Explore parks and public spaces with artistic elements."
-            },
-            {
-              "time": "18:00",
-              "title": "Danube Walk",
-              "description": "Finish the day with riverside scenery."
-            }
-          ]
-        },
-
-        "medium": {
-          "title": "Balanced Tasting + Art Experience",
-          "summary": "A full day of art, small bites and creative Budapest spots.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "Museum of Fine Arts",
-              "description": "Start with a calm visit to classic art halls."
-            },
-            {
-              "time": "11:30",
-              "title": "Tasting Mid-Range Snack",
-              "description": "Try 2–3 small dishes inspired by Hungarian cuisine."
-            },
-            {
-              "time": "13:00",
-              "title": "Design & Art District",
-              "description": "Explore galleries, bookshops and studios."
-            },
-            {
-              "time": "16:00",
-              "title": "Creative Photo Spots",
-              "description": "Find Instagram-friendly corners along the Danube."
-            },
-            {
-              "time": "18:00",
-              "title": "City Park Evening",
-              "description": "End with calm greenery and sculptures."
-            }
-          ]
-        },
-
-        "high": {
-          "title": "High-End Art + Tasting Full-Day",
-          "summary": "Premium art galleries and refined tasting-style Hungarian dishes.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "Curated Museum Experience",
-              "description": "Start with high-quality art exhibitions."
-            },
-            {
-              "time": "11:30",
-              "title": "Premium Tasting Lunch",
-              "description": "Several small refined plates inspired by Hungarian cuisine."
-            },
-            {
-              "time": "13:30",
-              "title": "Castle Hill Art Walk",
-              "description": "Explore elegant viewpoints and craft shops."
-            },
-            {
-              "time": "16:00",
-              "title": "Premium Gallery Visit",
-              "description": "Visit modern or classical curated exhibitions."
-            },
-            {
-              "time": "18:00",
-              "title": "Danube Sunset View",
-              "description": "End with one of the best views in the city."
-            }
-          ]
-        },
-
-        "comfortable": {
-          "title": "Luxury Tasting + Art Day",
-          "summary": "A deluxe full-day route of fine art, gourmet tasting plates and exclusive viewpoints.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "Exclusive Museum Tour",
-              "description": "Start your day with a premium-level art collection."
-            },
-            {
-              "time": "11:30",
-              "title": "Fine Dining Tasting Menu",
-              "description": "Several small high-end plates inspired by Hungarian cuisine."
-            },
-            {
-              "time": "13:30",
-              "title": "Elite Castle District Art Route",
-              "description": "Galleries, artisan boutiques and scenic paths."
-            },
-            {
-              "time": "16:00",
-              "title": "Private or VIP Gallery Stop",
-              "description": "Curated exhibitions with an exclusive atmosphere."
-            },
-            {
-              "time": "18:00",
-              "title": "Luxury Danube Sunset",
-              "description": "Finish the day at the city's most beautiful riverside view."
-            }
-          ]
-        }
+      "high": {
+        "title": "High-End Budapest Art Experience",
+        "summary": "A refined day full of prestigious art galleries, famous museums and premium Hungarian food.",
+        "schedule": [
+          {
+            "time": "09:00",
+            "title": "Andrássy Avenue Start",
+            "description": "Begin your day on one of Europe’s most beautiful boulevards."
+          },
+          {
+            "time": "10:00",
+            "title": "Museum of Fine Arts Premium Visit",
+            "description": "Take your time exploring world-famous exhibits."
+          },
+          {
+            "time": "12:15",
+            "title": "High-Quality Local Lunch",
+            "description": "Classic Hungarian dishes prepared with premium ingredients."
+          },
+          {
+            "time": "14:00",
+            "title": "Castle District Art Corners",
+            "description": "Visit the Fisherman's Bastion area, photo spots and artisan shops."
+          },
+          {
+            "time": "16:00",
+            "title": "Curated Gallery Stop",
+            "description": "Explore a premium exhibition of modern or classical works."
+          },
+          {
+            "time": "18:00",
+            "title": "Danube Panorama Walk",
+            "description": "End your day with stunning river views and glowing city lights."
+          }
+        ]
+      },
+      "comfortable": {
+        "title": "Luxury Full-Day Budapest Art Journey",
+        "summary": "An elegant art-filled day with elite galleries, curated museum experiences and fine dining.",
+        "schedule": [
+          {
+            "time": "09:00",
+            "title": "Exclusive Andrássy Walk",
+            "description": "Walk Budapest’s most elegant avenue with historic palaces."
+          },
+          {
+            "time": "10:00",
+            "title": "VIP Museum of Fine Arts Visit",
+            "description": "Enjoy world-class masterpieces in a refined environment."
+          },
+          {
+            "time": "12:30",
+            "title": "Fine Dining Hungarian Lunch",
+            "description": "Premium reinterpretations of classic Hungarian dishes."
+          },
+          {
+            "time": "14:00",
+            "title": "Castle District Elite Art Route",
+            "description": "Visit curated craft stores, elegant galleries and premium scenic spots."
+          },
+          {
+            "time": "16:00",
+            "title": "Premium Private Gallery",
+            "description": "Explore an upscale exhibition or boutique art studio."
+          },
+          {
+            "time": "18:00",
+            "title": "Danube Luxury Sunset Walk",
+            "description": "End your day at one of the most beautiful viewpoints in the city."
+          }
+        ]
       }
     }
   }

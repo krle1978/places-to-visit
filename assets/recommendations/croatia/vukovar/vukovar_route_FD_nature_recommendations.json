@@ -1,514 +1,169 @@
 {
   "full_day": {
     "nature": {
-      "local_specialties": {
-        "low": {
-          "title": "Full-Day Vukovar Nature Escape on a Low Budget",
-          "summary": "A peaceful and affordable full-day route through Vukovar’s riverside, parks, and natural viewpoints with low-cost local food.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "Danube Riverside Morning Walk",
-              "description": "Start your day following the long riverside promenade surrounded by greenery and fresh air."
-            },
-            {
-              "time": "10:30",
-              "title": "Park Forest Stroll",
-              "description": "Explore one of Vukovar’s small park-forest zones ideal for easy walking and birdwatching."
-            },
-            {
-              "time": "11:30",
-              "title": "Nature Photography Time",
-              "description": "Spend time taking pictures of trees, river reflections, and open natural spaces."
-            },
-            {
-              "time": "12:30",
-              "title": "Low-Cost Local Lunch",
-              "description": "Enjoy budget-friendly Slavonian food — simple, tasty, and filling."
-            },
-            {
-              "time": "14:00",
-              "title": "Danube Park Relax",
-              "description": "Sit under the trees, read, sketch, or simply rest with the sound of the river nearby."
-            },
-            {
-              "time": "16:00",
-              "title": "Riverside Path Exploration",
-              "description": "Walk further downriver to quieter natural segments with fewer people."
-            },
-            {
-              "time": "18:00",
-              "title": "Sunset by the River",
-              "description": "End your day watching soft golden colors reflecting on the Danube."
-            }
-          ]
-        },
-
-        "medium": {
-          "title": "Balanced Full-Day Nature Route",
-          "summary": "A comfortable nature-focused day with riverside walks, parks, and a moderately priced traditional meal.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "Coffee with a River View",
-              "description": "Start with a warm drink in a café overlooking the Danube."
-            },
-            {
-              "time": "10:00",
-              "title": "Danube Promenade Walk",
-              "description": "A long walk along the river, exploring its peaceful natural stretches."
-            },
-            {
-              "time": "11:30",
-              "title": "Shady Park Area",
-              "description": "Relax in a green park — perfect for stretching, sitting, or reading."
-            },
-            {
-              "time": "12:30",
-              "title": "Medium Local Lunch",
-              "description": "Have a classic Ćobanac-style stew or grilled dish at reasonable prices."
-            },
-            {
-              "time": "14:00",
-              "title": "Nature + Heritage Blend",
-              "description": "Explore areas where greenery meets historical architecture."
-            },
-            {
-              "time": "16:00",
-              "title": "Peaceful Riverside Path",
-              "description": "Walk further along lesser-known natural river stretches."
-            },
-            {
-              "time": "18:00",
-              "title": "Evening Green Spot",
-              "description": "End in a leafy riverside park as the day cools down."
-            }
-          ]
-        },
-
-        "high": {
-          "title": "Premium Nature Day Along the Danube",
-          "summary": "A polished nature-focused day with longer scenic walks, curated natural viewpoints, and high-quality local dining.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "Quality Breakfast by the River",
-              "description": "Start strong with a well-made breakfast in a scenic location."
-            },
-            {
-              "time": "10:00",
-              "title": "Danube Scenic Walk",
-              "description": "Walk the most beautiful sections of the riverside, combining nature and silence."
-            },
-            {
-              "time": "11:30",
-              "title": "Park + Viewpoint Route",
-              "description": "Explore elevated grassy areas with great views of the river."
-            },
-            {
-              "time": "12:30",
-              "title": "High-Quality Local Lunch",
-              "description": "Enjoy refined Slavonian dishes with beautiful presentation."
-            },
-            {
-              "time": "14:00",
-              "title": "Extended Nature Walk",
-              "description": "Explore more remote riverbank sections, perfect for photos and quiet time."
-            },
-            {
-              "time": "16:00",
-              "title": "Calm Riverside Rest",
-              "description": "Sit in a quiet natural corner surrounded by greenery."
-            },
-            {
-              "time": "18:00",
-              "title": "Golden-Hour Nature Walk",
-              "description": "Experience the dramatic shift of colors as the sun sets over the river."
-            }
-          ]
-        },
-
-        "comfortable": {
-          "title": "Luxury Danube Nature Experience",
-          "summary": "A serene, top-tier nature experience blending scenic riverside routes, premium dining, and calm green spaces.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "Luxury Breakfast Overlooking Nature",
-              "description": "Start with a premium breakfast and beautiful morning views."
-            },
-            {
-              "time": "10:00",
-              "title": "Exclusive Scenic Walk",
-              "description": "Walk the most elegant and well-maintained natural parts of the Danube promenade."
-            },
-            {
-              "time": "11:30",
-              "title": "Private Green Corners",
-              "description": "Find photogenic, quiet nature areas ideal for relaxing and reflection."
-            },
-            {
-              "time": "12:30",
-              "title": "Fine Dining Local-Inspired Lunch",
-              "description": "Enjoy upscale dishes inspired by Slavonian tradition, in an elegant setting."
-            },
-            {
-              "time": "14:30",
-              "title": "Premium Park Zone",
-              "description": "Stroll through beautifully maintained parks with curated pathways."
-            },
-            {
-              "time": "16:00",
-              "title": "Nature + Architecture Blend Spot",
-              "description": "Visit scenic zones where heritage buildings meet natural surroundings."
-            },
-            {
-              "time": "18:00",
-              "title": "Sunset Nature Finale",
-              "description": "End the day with a luxury-style golden-hour Danube view."
-            }
-          ]
-        }
+      "low": {
+        "title": "Full-Day Vukovar Nature Escape on a Low Budget",
+        "summary": "A peaceful and affordable full-day route through Vukovar’s riverside, parks, and natural viewpoints with low-cost local food.",
+        "schedule": [
+          {
+            "time": "09:00",
+            "title": "Danube Riverside Morning Walk",
+            "description": "Start your day following the long riverside promenade surrounded by greenery and fresh air."
+          },
+          {
+            "time": "10:30",
+            "title": "Park Forest Stroll",
+            "description": "Explore one of Vukovar’s small park-forest zones ideal for easy walking and birdwatching."
+          },
+          {
+            "time": "11:30",
+            "title": "Nature Photography Time",
+            "description": "Spend time taking pictures of trees, river reflections, and open natural spaces."
+          },
+          {
+            "time": "12:30",
+            "title": "Low-Cost Local Lunch",
+            "description": "Enjoy budget-friendly Slavonian food — simple, tasty, and filling."
+          },
+          {
+            "time": "14:00",
+            "title": "Danube Park Relax",
+            "description": "Sit under the trees, read, sketch, or simply rest with the sound of the river nearby."
+          },
+          {
+            "time": "16:00",
+            "title": "Riverside Path Exploration",
+            "description": "Walk further downriver to quieter natural segments with fewer people."
+          },
+          {
+            "time": "18:00",
+            "title": "Sunset by the River",
+            "description": "End your day watching soft golden colors reflecting on the Danube."
+          }
+        ]
       },
-
-      "light_veggie": {
-        "low": {
-          "title": "Low-Budget Veggie Nature Day",
-          "summary": "A simple vegetarian-friendly day surrounded by greenery, peaceful walking routes, and affordable meals.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "Veggie Pastry + River Start",
-              "description": "Begin with a light vegetarian pastry and walk beside the river."
-            },
-            {
-              "time": "10:00",
-              "title": "Park Zone Walk",
-              "description": "Enjoy shaded areas and grassy zones perfect for relaxing."
-            },
-            {
-              "time": "11:30",
-              "title": "Nature Observation Time",
-              "description": "Watch birds, take photos, or just enjoy the fresh air."
-            },
-            {
-              "time": "12:30",
-              "title": "Budget Veggie Lunch",
-              "description": "Plant-based meals like salads, pasta, soups at low cost."
-            },
-            {
-              "time": "14:00",
-              "title": "Riverside Green Corners",
-              "description": "Stop in small hidden spots with great natural ambience."
-            },
-            {
-              "time": "16:00",
-              "title": "Low-Cost Juice/Tea Stop",
-              "description": "Take a refreshing break in a simple café."
-            },
-            {
-              "time": "18:00",
-              "title": "Evening Nature Walk",
-              "description": "Finish with soft evening light over the river."
-            }
-          ]
-        },
-
-        "medium": {
-          "title": "Balanced Veggie-Friendly Nature Route",
-          "summary": "A full-day walk blending healthy vegetarian meals, river scenery, and green spaces.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "Healthy Veggie Breakfast",
-              "description": "Smoothie, yogurt, or a light vegetarian pastry."
-            },
-            {
-              "time": "10:00",
-              "title": "Riverside Walk",
-              "description": "Enjoy long stretches filled with natural scenery."
-            },
-            {
-              "time": "11:30",
-              "title": "Nature + Calm Spot",
-              "description": "Sit under trees or near the water for a quiet moment."
-            },
-            {
-              "time": "12:30",
-              "title": "Vegetarian Lunch",
-              "description": "Plant-focused dishes: risotto, pasta, grilled veggies."
-            },
-            {
-              "time": "14:00",
-              "title": "Green Park Visit",
-              "description": "Spend time exploring well-maintained park areas."
-            },
-            {
-              "time": "16:00",
-              "title": "Café Refresh",
-              "description": "Tea, juice, or dessert in a pleasant café environment."
-            },
-            {
-              "time": "18:00",
-              "title": "Riverside Evening",
-              "description": "Finish with a calm walk along the water."
-            }
-          ]
-        },
-
-        "high": {
-          "title": "High-End Vegetarian Nature Journey",
-          "summary": "A refined vegetarian-friendly day with curated nature spots, premium meals, and scenic areas.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "High-Quality Veggie Breakfast",
-              "description": "Healthy, beautifully prepared vegetarian dishes in a stylish space."
-            },
-            {
-              "time": "10:00",
-              "title": "Scenic Riverside Route",
-              "description": "Walk the most beautiful, clean, and peaceful natural sections."
-            },
-            {
-              "time": "11:30",
-              "title": "Premium Green Spot",
-              "description": "Discover well-maintained natural areas ideal for photography."
-            },
-            {
-              "time": "12:30",
-              "title": "High-End Veggie Lunch",
-              "description": "Premium plant-based dishes with great presentation."
-            },
-            {
-              "time": "14:00",
-              "title": "Nature + Architecture Blend",
-              "description": "Visit spots where greenery blends with elegant heritage buildings."
-            },
-            {
-              "time": "16:00",
-              "title": "Calm Riverside Lounge Spot",
-              "description": "Relax in a beautiful open-air natural spot."
-            },
-            {
-              "time": "18:00",
-              "title": "Golden-Hour Danube Walk",
-              "description": "Experience nature glowing in evening colors."
-            }
-          ]
-        },
-
-        "comfortable": {
-          "title": "Luxury Vegetarian Nature Escape",
-          "summary": "A sophisticated plant-based nature day with elegant walking routes, premium meals, and serene natural views.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "Luxury Veggie Breakfast",
-              "description": "Enjoy beautifully plated breakfast in an upscale café."
-            },
-            {
-              "time": "10:00",
-              "title": "Exclusive Scenic Walk",
-              "description": "Walk the most picturesque river paths and shaded park zones."
-            },
-            {
-              "time": "11:30",
-              "title": "Premium Natural Hideaways",
-              "description": "Find peaceful, refined nature spots perfect for reflection."
-            },
-            {
-              "time": "12:30",
-              "title": "Fine Veggie Lunch",
-              "description": "Premium vegetarian ingredients served with artistic presentation."
-            },
-            {
-              "time": "14:30",
-              "title": "Premium Park Route",
-              "description": "Stroll beautifully arranged and curated park areas."
-            },
-            {
-              "time": "16:00",
-              "title": "Luxury Riverside Lounge",
-              "description": "Spend quiet time in elegant, scenic river areas."
-            },
-            {
-              "time": "18:00",
-              "title": "Perfect Sunset Finale",
-              "description": "End with the highest-quality sunset view in Vukovar."
-            }
-          ]
-        }
+      "medium": {
+        "title": "Balanced Full-Day Nature Route",
+        "summary": "A comfortable nature-focused day with riverside walks, parks, and a moderately priced traditional meal.",
+        "schedule": [
+          {
+            "time": "09:00",
+            "title": "Coffee with a River View",
+            "description": "Start with a warm drink in a café overlooking the Danube."
+          },
+          {
+            "time": "10:00",
+            "title": "Danube Promenade Walk",
+            "description": "A long walk along the river, exploring its peaceful natural stretches."
+          },
+          {
+            "time": "11:30",
+            "title": "Shady Park Area",
+            "description": "Relax in a green park — perfect for stretching, sitting, or reading."
+          },
+          {
+            "time": "12:30",
+            "title": "Medium Local Lunch",
+            "description": "Have a classic Ćobanac-style stew or grilled dish at reasonable prices."
+          },
+          {
+            "time": "14:00",
+            "title": "Nature + Heritage Blend",
+            "description": "Explore areas where greenery meets historical architecture."
+          },
+          {
+            "time": "16:00",
+            "title": "Peaceful Riverside Path",
+            "description": "Walk further along lesser-known natural river stretches."
+          },
+          {
+            "time": "18:00",
+            "title": "Evening Green Spot",
+            "description": "End in a leafy riverside park as the day cools down."
+          }
+        ]
       },
-
-      "try_everything": {
-        "low": {
-          "title": "Low-Budget Nature + Tasting Day",
-          "summary": "A nature-filled day with small, cheap tasting bites and peaceful green stops.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "Pastry + River Start",
-              "description": "Grab a pastry and begin by the water."
-            },
-            {
-              "time": "10:00",
-              "title": "Nature Walk",
-              "description": "Follow long riverside pathways full of shade and green areas."
-            },
-            {
-              "time": "11:30",
-              "title": "Quiet Park Zone",
-              "description": "Sit down, take a break, enjoy the surroundings."
-            },
-            {
-              "time": "12:30",
-              "title": "Budget Tasting Lunch",
-              "description": "Try small, inexpensive dishes to sample local flavors."
-            },
-            {
-              "time": "14:00",
-              "title": "Extended Nature Corner",
-              "description": "Explore quieter areas of the riverside."
-            },
-            {
-              "time": "16:00",
-              "title": "Cheap Sweet Bite",
-              "description": "Ice cream or a simple dessert."
-            },
-            {
-              "time": "18:00",
-              "title": "Soft Evening Walk",
-              "description": "Finish the day with gentle lighting over the river."
-            }
-          ]
-        },
-
-        "medium": {
-          "title": "Balanced Nature + Tasting Experience",
-          "summary": "A mix of natural views, tasting-style meals, and fresh air.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "Tasting Breakfast",
-              "description": "A few small sweet and savory bites to start."
-            },
-            {
-              "time": "10:00",
-              "title": "Scenic Riverside Walk",
-              "description": "A smooth walk through beautiful natural areas."
-            },
-            {
-              "time": "11:30",
-              "title": "Shaded Green Corner",
-              "description": "Sit under the trees — calm and refreshing."
-            },
-            {
-              "time": "12:30",
-              "title": "Medium Tasting Lunch",
-              "description": "Share several dishes inspired by local flavors."
-            },
-            {
-              "time": "14:00",
-              "title": "Park Relax Time",
-              "description": "A peaceful moment in nature."
-            },
-            {
-              "time": "16:00",
-              "title": "Dessert Stop",
-              "description": "Treat yourself to a mid-range dessert."
-            },
-            {
-              "time": "18:00",
-              "title": "Evening River Path",
-              "description": "A moderate, calm finish to the day."
-            }
-          ]
-        },
-
-        "high": {
-          "title": "High-End Nature Tasting Journey",
-          "summary": "A premium full-day walk in scenic natural spots paired with elegant tasting-style meals.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "Premium Breakfast Tasting",
-              "description": "Several beautifully made small breakfast options."
-            },
-            {
-              "time": "10:00",
-              "title": "Exclusive Riverside Route",
-              "description": "Walk the most scenic and well-maintained natural segments."
-            },
-            {
-              "time": "11:30",
-              "title": "High-End Nature Stop",
-              "description": "A beautiful viewpoint or special green corner perfect for reflection."
-            },
-            {
-              "time": "12:30",
-              "title": "High-End Tasting Lunch",
-              "description": "Premium small plates inspired by nature and local cuisine."
-            },
-            {
-              "time": "14:00",
-              "title": "Quiet Premium Park Area",
-              "description": "A serene natural space with great landscapes."
-            },
-            {
-              "time": "16:00",
-              "title": "Premium Dessert + Fresh Drink",
-              "description": "A beautifully presented dessert in a nice café."
-            },
-            {
-              "time": "18:00",
-              "title": "Golden-Hour Nature Walk",
-              "description": "End the day with warm evening light over natural surroundings."
-            }
-          ]
-        },
-
-        "comfortable": {
-          "title": "Luxury Nature + Tasting Day",
-          "summary": "A refined nature-focused journey combining premium scenic walks, elegant tasting meals, and serene outdoor relaxation.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "Luxury Breakfast Tasting",
-              "description": "Start with multiple high-end breakfast bites in an elegant café."
-            },
-            {
-              "time": "10:00",
-              "title": "Exclusive Scenic Walk",
-              "description": "Walk the most luxurious river paths surrounded by peaceful greenery."
-            },
-            {
-              "time": "11:30",
-              "title": "Premium Quiet Nature Spots",
-              "description": "Find beautifully maintained hidden corners ideal for calm reflection."
-            },
-            {
-              "time": "12:30",
-              "title": "Fine Dining Tasting Lunch",
-              "description": "A series of refined, artfully plated tasting dishes."
-            },
-            {
-              "time": "14:30",
-              "title": "Premium Park Route",
-              "description": "Walk through the most elegant park areas."
-            },
-            {
-              "time": "16:00",
-              "title": "Luxury Dessert Lounge",
-              "description": "Relax with a premium dessert in a comfortable space."
-            },
-            {
-              "time": "18:00",
-              "title": "Sunset Nature Finale",
-              "description": "Experience a peaceful, refined end to the day as golden colors reflect across the river."
-            }
-          ]
-        }
+      "high": {
+        "title": "Premium Nature Day Along the Danube",
+        "summary": "A polished nature-focused day with longer scenic walks, curated natural viewpoints, and high-quality local dining.",
+        "schedule": [
+          {
+            "time": "09:00",
+            "title": "Quality Breakfast by the River",
+            "description": "Start strong with a well-made breakfast in a scenic location."
+          },
+          {
+            "time": "10:00",
+            "title": "Danube Scenic Walk",
+            "description": "Walk the most beautiful sections of the riverside, combining nature and silence."
+          },
+          {
+            "time": "11:30",
+            "title": "Park + Viewpoint Route",
+            "description": "Explore elevated grassy areas with great views of the river."
+          },
+          {
+            "time": "12:30",
+            "title": "High-Quality Local Lunch",
+            "description": "Enjoy refined Slavonian dishes with beautiful presentation."
+          },
+          {
+            "time": "14:00",
+            "title": "Extended Nature Walk",
+            "description": "Explore more remote riverbank sections, perfect for photos and quiet time."
+          },
+          {
+            "time": "16:00",
+            "title": "Calm Riverside Rest",
+            "description": "Sit in a quiet natural corner surrounded by greenery."
+          },
+          {
+            "time": "18:00",
+            "title": "Golden-Hour Nature Walk",
+            "description": "Experience the dramatic shift of colors as the sun sets over the river."
+          }
+        ]
+      },
+      "comfortable": {
+        "title": "Luxury Danube Nature Experience",
+        "summary": "A serene, top-tier nature experience blending scenic riverside routes, premium dining, and calm green spaces.",
+        "schedule": [
+          {
+            "time": "09:00",
+            "title": "Luxury Breakfast Overlooking Nature",
+            "description": "Start with a premium breakfast and beautiful morning views."
+          },
+          {
+            "time": "10:00",
+            "title": "Exclusive Scenic Walk",
+            "description": "Walk the most elegant and well-maintained natural parts of the Danube promenade."
+          },
+          {
+            "time": "11:30",
+            "title": "Private Green Corners",
+            "description": "Find photogenic, quiet nature areas ideal for relaxing and reflection."
+          },
+          {
+            "time": "12:30",
+            "title": "Fine Dining Local-Inspired Lunch",
+            "description": "Enjoy upscale dishes inspired by Slavonian tradition, in an elegant setting."
+          },
+          {
+            "time": "14:30",
+            "title": "Premium Park Zone",
+            "description": "Stroll through beautifully maintained parks with curated pathways."
+          },
+          {
+            "time": "16:00",
+            "title": "Nature + Architecture Blend Spot",
+            "description": "Visit scenic zones where heritage buildings meet natural surroundings."
+          },
+          {
+            "time": "18:00",
+            "title": "Sunset Nature Finale",
+            "description": "End the day with a luxury-style golden-hour Danube view."
+          }
+        ]
       }
     }
   }

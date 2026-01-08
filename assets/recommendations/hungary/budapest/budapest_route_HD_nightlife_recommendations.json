@@ -1,338 +1,109 @@
 {
   "half_day": {
     "nightlife": {
-
-      "local_specialties": {
-
-        "low": {
-          "title": "Half-Day Budapest Night Route (Low Budget)",
-          "summary": "A budget-friendly evening with city lights, riverside atmosphere and cheap local snacks — perfect for teens.",
-          "schedule": [
-            {
-              "time": "18:00",
-              "title": "Danube Promenade Start",
-              "description": "Golden-hour views of Buda Castle and the bridges."
-            },
-            {
-              "time": "19:00",
-              "title": "Shoes on the Danube & Parliament",
-              "description": "Powerful memorial + one of the most beautiful night views in Europe."
-            },
-            {
-              "time": "20:00",
-              "title": "Budget Local Snack",
-              "description": "Lángos or cheap Hungarian street bites from an evening food kiosk."
-            },
-            {
-              "time": "21:00",
-              "title": "Váci Street Night Walk",
-              "description": "Shops, lights, buskers, street performers — lively but safe atmosphere."
-            }
-          ]
-        },
-
-        "medium": {
-          "title": "Balanced Budapest Evening Walk",
-          "summary": "A comfortable evening route with classic Budapest views and a mid-range local dinner.",
-          "schedule": [
-            {
-              "time": "18:00",
-              "title": "Castle District Twilight",
-              "description": "Walk around Fisherman's Bastion and see the city lighting up."
-            },
-            {
-              "time": "19:15",
-              "title": "Matthias Church Exterior",
-              "description": "Colorful roof tiles glowing under night lights."
-            },
-            {
-              "time": "20:00",
-              "title": "Local Hungarian Dinner",
-              "description": "Classic dishes in a comfortable, teen-friendly restaurant."
-            },
-            {
-              "time": "21:15",
-              "title": "Chain Bridge Viewpoint",
-              "description": "Iconic night photo spot."
-            }
-          ]
-        },
-
-        "high": {
-          "title": "High-End Budapest Night Experience",
-          "summary": "Elegant viewpoints, premium local dining and a stylish nighttime city walk.",
-          "schedule": [
-            {
-              "time": "18:00",
-              "title": "Buda Castle Panoramas",
-              "description": "A curated walk through beautifully lit historic buildings."
-            },
-            {
-              "time": "19:30",
-              "title": "Danube Riverside",
-              "description": "Refined, peaceful nighttime scenery."
-            },
-            {
-              "time": "20:00",
-              "title": "Premium Local Dinner",
-              "description": "Refined versions of Hungarian dishes in a classy setting."
-            },
-            {
-              "time": "21:30",
-              "title": "Parliament Night View",
-              "description": "One of the most impressive lit-up buildings in the world."
-            }
-          ]
-        },
-
-        "comfortable": {
-          "title": "Luxury Budapest Night Walk",
-          "summary": "Exclusive-feeling night views, fine dining and refined architecture under city lights.",
-          "schedule": [
-            {
-              "time": "18:00",
-              "title": "Citadel Viewpoint (Lower Areas)",
-              "description": "Stunning panoramic view without the heavy climb."
-            },
-            {
-              "time": "19:00",
-              "title": "VIP Fisherman’s Bastion Sunset",
-              "description": "Magical lighting and elegant surroundings."
-            },
-            {
-              "time": "20:00",
-              "title": "Fine Dining Local Dinner",
-              "description": "Traditional Hungarian flavors elevated into luxurious plates."
-            },
-            {
-              "time": "21:30",
-              "title": "Danube Luxury Stroll",
-              "description": "Prestigious night scenery along the river."
-            }
-          ]
-        }
+      "low": {
+        "title": "Half-Day Budapest Night Route (Low Budget)",
+        "summary": "A budget-friendly evening with city lights, riverside atmosphere and cheap local snacks — perfect for teens.",
+        "schedule": [
+          {
+            "time": "18:00",
+            "title": "Danube Promenade Start",
+            "description": "Golden-hour views of Buda Castle and the bridges."
+          },
+          {
+            "time": "19:00",
+            "title": "Shoes on the Danube & Parliament",
+            "description": "Powerful memorial + one of the most beautiful night views in Europe."
+          },
+          {
+            "time": "20:00",
+            "title": "Budget Local Snack",
+            "description": "Lángos or cheap Hungarian street bites from an evening food kiosk."
+          },
+          {
+            "time": "21:00",
+            "title": "Váci Street Night Walk",
+            "description": "Shops, lights, buskers, street performers — lively but safe atmosphere."
+          }
+        ]
       },
-
-      "light_veggie": {
-
-        "low": {
-          "title": "Half-Day Veggie-Friendly Night Route (Low Budget)",
-          "summary": "A simple vegetarian-friendly night walk full of lights, views and cheap veggie snacks.",
-          "schedule": [
-            {
-              "time": "18:00",
-              "title": "Danube Golden Hour Walk",
-              "description": "Warm city lights and calm evening air."
-            },
-            {
-              "time": "19:00",
-              "title": "Chain Bridge Lights",
-              "description": "Sparkling and super photogenic at night."
-            },
-            {
-              "time": "20:00",
-              "title": "Veggie Budget Snack",
-              "description": "Falafel, hummus bowls or veggie sandwiches from affordable spots."
-            },
-            {
-              "time": "21:00",
-              "title": "Vörösmarty Square",
-              "description": "Lively square full of music, lights and energy."
-            }
-          ]
-        },
-
-        "medium": {
-          "title": "Balanced Veggie Evening Walk",
-          "summary": "Healthy vegetarian meals and Budapest’s most iconic night views.",
-          "schedule": [
-            {
-              "time": "18:00",
-              "title": "Buda Castle Twilight",
-              "description": "Soft lighting and dreamy castle architecture."
-            },
-            {
-              "time": "19:00",
-              "title": "Fisherman's Bastion",
-              "description": "A fairytale viewpoint — especially after dark."
-            },
-            {
-              "time": "20:00",
-              "title": "Vegetarian Dinner",
-              "description": "Healthy plant-based dishes in a cozy restaurant."
-            },
-            {
-              "time": "21:15",
-              "title": "Danube Promenade Finish",
-              "description": "Calm and atmospheric night stroll."
-            }
-          ]
-        },
-
-        "high": {
-          "title": "High-End Veggie Night Experience",
-          "summary": "Premium vegetarian cuisine paired with the most elegant evening viewpoints.",
-          "schedule": [
-            {
-              "time": "18:00",
-              "title": "Gellért Hill Lower Path at Sunset",
-              "description": "A beautiful warm glow before night falls."
-            },
-            {
-              "time": "19:00",
-              "title": "Citadel Panorama (Accessible Areas)",
-              "description": "World-class city view at night."
-            },
-            {
-              "time": "20:00",
-              "title": "Premium Veggie Dinner",
-              "description": "Artistically crafted plant-based dishes."
-            },
-            {
-              "time": "21:30",
-              "title": "Parliament Riverside",
-              "description": "One of Europe's most iconic nighttime scenes."
-            }
-          ]
-        },
-
-        "comfortable": {
-          "title": "Luxury Veggie Evening Route",
-          "summary": "Elegant plant-based dining and VIP-level scenery under city lights.",
-          "schedule": [
-            {
-              "time": "18:00",
-              "title": "Exclusive Castle District Dusk Walk",
-              "description": "Quiet, refined and beautifully lit."
-            },
-            {
-              "time": "19:00",
-              "title": "Fisherman's Bastion – VIP Corners",
-              "description": "Fairytale balconies glowing at night."
-            },
-            {
-              "time": "20:00",
-              "title": "Fine Dining Veggie Dinner",
-              "description": "A beautifully plated plant-based experience."
-            },
-            {
-              "time": "21:30",
-              "title": "Luxurious Danube Walk",
-              "description": "Peaceful, spacious riverside illuminated by golden lights."
-            }
-          ]
-        }
+      "medium": {
+        "title": "Balanced Budapest Evening Walk",
+        "summary": "A comfortable evening route with classic Budapest views and a mid-range local dinner.",
+        "schedule": [
+          {
+            "time": "18:00",
+            "title": "Castle District Twilight",
+            "description": "Walk around Fisherman's Bastion and see the city lighting up."
+          },
+          {
+            "time": "19:15",
+            "title": "Matthias Church Exterior",
+            "description": "Colorful roof tiles glowing under night lights."
+          },
+          {
+            "time": "20:00",
+            "title": "Local Hungarian Dinner",
+            "description": "Classic dishes in a comfortable, teen-friendly restaurant."
+          },
+          {
+            "time": "21:15",
+            "title": "Chain Bridge Viewpoint",
+            "description": "Iconic night photo spot."
+          }
+        ]
       },
-
-      "try_everything": {
-
-        "low": {
-          "title": "Half-Day Tasting + Night Walk (Low Budget)",
-          "summary": "Mix of city lights, small cheap snacks and relaxed nightlife atmosphere.",
-          "schedule": [
-            {
-              "time": "18:00",
-              "title": "Danube Evening Walk",
-              "description": "Classic nighttime views."
-            },
-            {
-              "time": "19:00",
-              "title": "Jewish Quarter Evening Streets",
-              "description": "Murals, art corners and young energy."
-            },
-            {
-              "time": "20:00",
-              "title": "Budget Snack Tasting",
-              "description": "Pastries, street bites or small sweet treats."
-            },
-            {
-              "time": "21:00",
-              "title": "Váci Street",
-              "description": "Lively pedestrian street with lights and performers."
-            }
-          ]
-        },
-
-        "medium": {
-          "title": "Balanced Tasting Night Route",
-          "summary": "A comfortable mix of night views and small tasting dishes.",
-          "schedule": [
-            {
-              "time": "18:00",
-              "title": "Castle District Sunset",
-              "description": "The whole city glows under you."
-            },
-            {
-              "time": "19:00",
-              "title": "Matthias Church",
-              "description": "Colorful roof reflecting warm night lights."
-            },
-            {
-              "time": "20:00",
-              "title": "Tasting Plates",
-              "description": "Try 2–3 smaller dishes with Hungarian flavors."
-            },
-            {
-              "time": "21:15",
-              "title": "Danube Banks",
-              "description": "A calm night walk along the water."
-            }
-          ]
-        },
-
-        "high": {
-          "title": "High-End Tasting + Night Views",
-          "summary": "Premium small plates and Budapest’s most beautiful night panoramas.",
-          "schedule": [
-            {
-              "time": "18:00",
-              "title": "Gellért Hill Gold-Hour View",
-              "description": "One of the most magical lighting moments in the city."
-            },
-            {
-              "time": "19:15",
-              "title": "Citadel Lookout",
-              "description": "Iconic nighttime view over both sides of Budapest."
-            },
-            {
-              "time": "20:00",
-              "title": "High-End Tasting Meal",
-              "description": "Refined Hungarian-inspired small plates."
-            },
-            {
-              "time": "21:30",
-              "title": "Parliament Night Walk",
-              "description": "The grand finale — perfectly lit historic landmark."
-            }
-          ]
-        },
-
-        "comfortable": {
-          "title": "Luxury Tasting Night Journey",
-          "summary": "Fine dining tasting experience + the most exclusive evening viewpoints in Budapest.",
-          "schedule": [
-            {
-              "time": "18:00",
-              "title": "Exclusive Castle Walk",
-              "description": "Stunning light reflections on historic buildings."
-            },
-            {
-              "time": "19:00",
-              "title": "VIP Fisherman’s Bastion",
-              "description": "A fairytale setting under soft golden lights."
-            },
-            {
-              "time": "20:00",
-              "title": "Fine Dining Tasting Menu",
-              "description": "Beautifully plated multi-course experience."
-            },
-            {
-              "time": "21:30",
-              "title": "Prestigious Danube Finish",
-              "description": "Quiet, elegant and unforgettable night views."
-            }
-          ]
-        }
+      "high": {
+        "title": "High-End Budapest Night Experience",
+        "summary": "Elegant viewpoints, premium local dining and a stylish nighttime city walk.",
+        "schedule": [
+          {
+            "time": "18:00",
+            "title": "Buda Castle Panoramas",
+            "description": "A curated walk through beautifully lit historic buildings."
+          },
+          {
+            "time": "19:30",
+            "title": "Danube Riverside",
+            "description": "Refined, peaceful nighttime scenery."
+          },
+          {
+            "time": "20:00",
+            "title": "Premium Local Dinner",
+            "description": "Refined versions of Hungarian dishes in a classy setting."
+          },
+          {
+            "time": "21:30",
+            "title": "Parliament Night View",
+            "description": "One of the most impressive lit-up buildings in the world."
+          }
+        ]
+      },
+      "comfortable": {
+        "title": "Luxury Budapest Night Walk",
+        "summary": "Exclusive-feeling night views, fine dining and refined architecture under city lights.",
+        "schedule": [
+          {
+            "time": "18:00",
+            "title": "Citadel Viewpoint (Lower Areas)",
+            "description": "Stunning panoramic view without the heavy climb."
+          },
+          {
+            "time": "19:00",
+            "title": "VIP Fisherman’s Bastion Sunset",
+            "description": "Magical lighting and elegant surroundings."
+          },
+          {
+            "time": "20:00",
+            "title": "Fine Dining Local Dinner",
+            "description": "Traditional Hungarian flavors elevated into luxurious plates."
+          },
+          {
+            "time": "21:30",
+            "title": "Danube Luxury Stroll",
+            "description": "Prestigious night scenery along the river."
+          }
+        ]
       }
     }
   }

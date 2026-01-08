@@ -1,48 +1,137 @@
 {
   "full_day": {
     "history": {
-      "local_specialties": {
-        "low": {
-          "title": "Full-Day Prague History Walk on a Budget",
-          "summary": "Historic landmarks, medieval streets, and iconic squares at minimal cost.",
-          "schedule": [
-            { "time": "09:00", "title": "Old Town Square", "description": "Astronomical Clock and medieval atmosphere." },
-            { "time": "10:30", "title": "Charles Bridge", "description": "Statues and centuries-old crossings." },
-            { "time": "12:00", "title": "Budget Lunch", "description": "Classic Czech meal." },
-            { "time": "13:30", "title": "Lesser Town Walk", "description": "Baroque streets and palaces." },
-            { "time": "16:00", "title": "Prague Castle Exterior", "description": "Historic courtyards and views." }
-          ]
-        },
-        "medium": {
-          "title": "Balanced Historical Prague Day",
-          "summary": "Museums, castles, and cultural context with comfort.",
-          "schedule": [
-            { "time": "09:00", "title": "Prague Castle Complex", "description": "Cathedrals, palaces, and history." },
-            { "time": "12:30", "title": "Lunch", "description": "Traditional Czech restaurant." },
-            { "time": "14:30", "title": "Jewish Quarter", "description": "Synagogues and historical sites." },
-            { "time": "17:30", "title": "Old Town Evening Walk", "description": "Historic streets at dusk." }
-          ]
-        },
-        "high": {
-          "title": "High-End Historical Exploration",
-          "summary": "In-depth museums and refined historical routes.",
-          "schedule": [
-            { "time": "09:30", "title": "Guided Castle Tour", "description": "Deep historical insight." },
-            { "time": "13:00", "title": "Refined Lunch", "description": "High-quality Czech cuisine." },
-            { "time": "15:00", "title": "National Museum", "description": "Czech history and culture." },
-            { "time": "18:00", "title": "Historic Café Stop", "description": "Classic Prague café." }
-          ]
-        },
-        "comfortable": {
-          "title": "Luxury Historical Prague Journey",
-          "summary": "Private guides, exclusive access, and fine dining.",
-          "schedule": [
-            { "time": "09:30", "title": "Private History Tour", "description": "Tailored narrative of Prague." },
-            { "time": "13:00", "title": "Fine Dining Lunch", "description": "Elegant Czech cuisine." },
-            { "time": "15:30", "title": "Exclusive Museum Visit", "description": "Quiet and curated experience." },
-            { "time": "18:30", "title": "Evening Castle Views", "description": "Historic skyline at sunset." }
-          ]
-        }
+      "low": {
+        "title": "Full-Day Prague History Walk on a Budget",
+        "summary": "Explore Prague’s historic core, bridges, and royal landmarks with minimal cost while soaking in centuries of culture.",
+        "schedule": [
+          {
+            "time": "09:00",
+            "title": "Old Town Square",
+            "description": "Start your morning surrounded by Gothic and Baroque architecture — see the Astronomical Clock and Church of Our Lady before Týn.",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Old+Town+Square,+Prague,+Czech+Republic"
+          },
+          {
+            "time": "10:30",
+            "title": "Charles Bridge Walk",
+            "description": "Cross the 14th-century bridge lined with 30 statues — one of Prague’s most iconic sights.",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Charles+Bridge,+Prague,+Czech+Republic"
+          },
+          {
+            "time": "12:00",
+            "title": "Budget Lunch Stop",
+            "description": "Enjoy a simple Czech meal — goulash or soup at a local bistro near Malá Strana.",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Havelská+Koruna,+Prague,+Czech+Republic"
+          },
+          {
+            "time": "13:30",
+            "title": "Lesser Town Walk",
+            "description": "Explore Baroque palaces, cobbled streets, and hidden courtyards of Malá Strana.",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Malá+Strana,+Prague,+Czech+Republic"
+          },
+          {
+            "time": "15:30",
+            "title": "Prague Castle Exterior",
+            "description": "Climb up to the castle complex for panoramic views — free access to courtyards and gardens.",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Prague+Castle,+Hradčany,+Czech+Republic"
+          },
+          {
+            "time": "18:00",
+            "title": "Golden Hour Castle Views",
+            "description": "Watch the sunset over the Vltava and old town rooftops.",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Prague+Castle+Viewpoint,+Prague,+Czech+Republic"
+          }
+        ]
+      },
+      "medium": {
+        "title": "Balanced Historical Prague Day",
+        "summary": "Combine Prague’s iconic historical sites with comfortable museum visits and classic Czech meals.",
+        "schedule": [
+          {
+            "time": "09:00",
+            "title": "Prague Castle Complex",
+            "description": "Visit St. Vitus Cathedral, Old Royal Palace, and Golden Lane for a deeper look at Czech royalty.",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Prague+Castle,+Hradčany,+Czech+Republic"
+          },
+          {
+            "time": "12:30",
+            "title": "Lunch at U Zlaté Studně",
+            "description": "Traditional Czech cuisine in a restaurant with castle views.",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=U+Zlaté+Studně,+Prague,+Czech+Republic"
+          },
+          {
+            "time": "14:30",
+            "title": "Jewish Quarter (Josefov)",
+            "description": "Walk through historic synagogues and the Old Jewish Cemetery.",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Jewish+Quarter,+Prague,+Czech+Republic"
+          },
+          {
+            "time": "17:30",
+            "title": "Old Town Evening Walk",
+            "description": "Enjoy Prague’s history under the evening lights — ideal for photos.",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Old+Town+Square,+Prague,+Czech+Republic"
+          }
+        ]
+      },
+      "high": {
+        "title": "High-End Historical Exploration",
+        "summary": "A deeper dive into Czech history through curated tours, top museums, and elegant restaurants.",
+        "schedule": [
+          {
+            "time": "09:30",
+            "title": "Guided Tour of Prague Castle",
+            "description": "Professional guide through the cathedral, royal chambers, and courtyards.",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Prague+Castle,+Hradčany,+Czech+Republic"
+          },
+          {
+            "time": "13:00",
+            "title": "Lunch at Mlynec",
+            "description": "Fine dining with views of Charles Bridge — modern Czech cuisine.",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Mlynec+Restaurant,+Prague,+Czech+Republic"
+          },
+          {
+            "time": "15:00",
+            "title": "National Museum",
+            "description": "Explore the main national collection of Czech history and culture.",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=National+Museum,+Prague,+Czech+Republic"
+          },
+          {
+            "time": "18:00",
+            "title": "Historic Café Stop – Café Louvre",
+            "description": "End your day with dessert or coffee in a café that hosted Einstein and Kafka.",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Café+Louvre,+Národní+22,+Prague,+Czech+Republic"
+          }
+        ]
+      },
+      "comfortable": {
+        "title": "Luxury Historical Prague Journey",
+        "summary": "An exclusive, private experience through Prague’s royal and cultural heritage with fine dining and personal guides.",
+        "schedule": [
+          {
+            "time": "09:30",
+            "title": "Private Historical Tour",
+            "description": "A personalized walk through the castle, cathedral, and hidden heritage spots.",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Prague+Private+Tours,+Czech+Republic"
+          },
+          {
+            "time": "13:00",
+            "title": "Fine Dining Lunch at Bellevue",
+            "description": "Elegant riverside restaurant with refined Czech cuisine.",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Bellevue+Restaurant,+Smetanovo+nábřeží,+Prague,+Czech+Republic"
+          },
+          {
+            "time": "15:30",
+            "title": "Exclusive Museum Visit – Strahov Library",
+            "description": "Private access to one of Europe’s most beautiful historic libraries.",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Strahov+Monastery+Library,+Prague,+Czech+Republic"
+          },
+          {
+            "time": "18:30",
+            "title": "Evening Castle Views & Champagne",
+            "description": "Watch the illuminated skyline of Prague Castle from Letná Park viewpoint.",
+            "map_link": "https://www.google.com/maps/search/?api=1&query=Letná+Park+Viewpoint,+Prague,+Czech+Republic"
+          }
+        ]
       }
     }
   }

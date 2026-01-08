@@ -327,6 +327,15 @@ html, body {
     gap: 1.4rem;
 }
 
+
+.route-result a {
+    color: #11854d;
+    text-decoration: none;
+}
+
+.route-result a:hover {
+    text-decoration: underline;
+}
 .route-result .route-card {
     padding-top:80px;
     width: 100%;
@@ -782,3 +791,6 @@ html, body {
 .gallery::-webkit-scrollbar-thumb:hover {
     background: #888;
 }
+
+
+

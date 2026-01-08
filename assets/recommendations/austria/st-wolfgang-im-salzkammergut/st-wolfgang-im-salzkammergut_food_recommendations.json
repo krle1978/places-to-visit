@@ -1,270 +1,296 @@
 {
-  "local_specialties": {
+  "coffee_and_brunch": {
     "low": {
-      "title": "Local Lake & Alpine Food on a Low Budget",
-      "summary": "Affordable Austrian classics, lakeside snacks, and simple homemade-style dishes to keep you full without overspending.",
+      "title": "Budget Coffee & Brunch in St. Wolfgang",
+      "summary": "Casual cafés and bakeries where you can enjoy coffee, pastries and light brunch bites without spending much.",
       "recommendations": [
         {
+          "time": "09:00",
+          "place": "",
+          "description": "Popular local coffee workshop with great brews and relaxed vibe — perfect to start the day. :contentReference[oaicite:2]{index=2}",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Kaffeewerkstatt,+St+Wolfgang+im+Salzkammergut,+Austria"
+        },
+        {
+          "time": "10:30",
+          "place": "",
+          "description": "Bakery and café with fresh pastries, sweet treats and coffee at reasonable prices.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Gandl+Bakery+pastry+Cafe,+St+Wolfgang+im+Salzkammergut,+Austria"
+        },
+        {
           "time": "12:00",
-          "place": "Bäckerei Necker",
-          "description": "Fresh rolls, cheese sandwiches, and sweet pastries — perfect for a quick and budget-friendly bite."
+          "place": "",
+          "description": "Lakeside café with great views — relaxing spot for a simple brunch and drinks. :contentReference[oaicite:5]{index=5}",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9+%26+Restaurant+EQ,+St+Wolfgang+im+Salzkammergut,+Austria"
+        }
+      ]
+    },
+    "medium": {
+      "title": "Balanced Coffee & Brunch Experience",
+      "summary": "Charming cafés and cafe-restaurants offering quality coffee paired with light meals and brunch-style plates.",
+      "recommendations": [
+        {
+          "time": "09:30",
+          "place": "",
+          "description": "Stylish bistro with great coffee, brunch plates and scenic terrace seating by the lake.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=SEEplatzl,+St+Wolfgang+im+Salzkammergut,+Austria"
+        },
+        {
+          "time": "11:00",
+          "place": "",
+          "description": "Friendly restaurant with solid coffee, breakfast options and hearty brunch-like meals.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=PAUL+der+Wirt,+St+Wolfgang+im+Salzkammergut,+Austria"
+        },
+        {
+          "time": "13:00",
+          "place": "",
+          "description": "Bakery café that also offers light savory items alongside pastries — ideal for midday brunch.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Gandl+Bakery+pastry+Cafe,+St+Wolfgang+im+Salzkammergut,+Austria"
+        }
+      ]
+    },
+    "high": {
+      "title": "Premium Coffee & Brunch in St. Wolfgang",
+      "summary": "Elegant cafés and terrace spots with refined brunch plates, specialty coffee and beautiful lake views.",
+      "recommendations": [
+        {
+          "time": "10:00",
+          "place": "",
+          "description": "Iconic lakeside restaurant with premium coffee and brunch-style options overlooking Wolfgangsee. :contentReference[oaicite:10]{index=10}",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Seerestaurant+Im+Weissen+R%C3%B6ssl,+St+Wolfgang+im+Salzkammergut,+Austria"
+        },
+        {
+          "time": "11:30",
+          "place": "",
+          "description": "Highly rated restaurant with excellent coffee and refined brunch options on the main square. :contentReference[oaicite:12]{index=12}",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=See-Eck,+St+Wolfgang+im+Salzkammergut,+Austria"
+        },
+        {
+          "time": "13:30",
+          "place": "",
+          "description": "Elegant lakeside venue with premium drinks and brunch dishes featuring local ingredients. :contentReference[oaicite:14]{index=14}",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Ledererhaus+-+Genuss+in+der+Seevilla,+St+Wolfgang+im+Salzkammergut,+Austria"
+        }
+      ]
+    },
+    "comfortable": {
+      "title": "Luxury Coffee & Brunch Experience",
+      "summary": "Top-tier brunch restaurants with fine coffee, artistic presentation and scenic lakefront dining.",
+      "recommendations": [
+        {
+          "time": "10:30",
+          "place": "",
+          "description": "Exclusive fine-dining venue with spectacular lake views and refined brunch offerings. :contentReference[oaicite:16]{index=16}",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Landhaus+zu+Appesbach,+St+Wolfgang+im+Salzkammergut,+Austria"
+        },
+        {
+          "time": "12:00",
+          "place": "",
+          "description": "Gourmet fine-dining terrace at the famed Romantik Hotel Im Weissen Rössl — perfect for a luxurious midday meal or brunch. :contentReference[oaicite:18]{index=18}",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Poll%27s+Kaiserterrasse+-+Gourmet+Restaurant+Im+Weissen+R%C3%B6ssl,+St+Wolfgang+im+Salzkammergut,+Austria"
         },
         {
           "time": "14:00",
-          "place": "Lakeside Snack Stands",
-          "description": "Simple fried fish snacks, potato wedges, and local street-food classics by the water."
-        },
-        {
-          "time": "16:00",
-          "place": "Café Wallner (Budget Pastry Stop)",
-          "description": "Affordable slices of strudel, basic cakes, and warm drinks."
-        }
-      ]
-    },
-
-    "medium": {
-      "title": "Authentic Austrian Meals with Balanced Prices",
-      "summary": "Comforting dishes, solid portions, and a great mix of alpine flavors and lakeside influences.",
-      "recommendations": [
-        {
-          "time": "12:30",
-          "place": "Gasthof Franz Josef",
-          "description": "Classic schnitzel, goulash, käsespätzle, and hearty Austrian staples."
-        },
-        {
-          "time": "15:00",
-          "place": "Dorf Alm St. Wolfgang",
-          "description": "Warm alpine dishes, dumplings, and traditional meat plates in a cozy wooden interior."
-        },
-        {
-          "time": "18:00",
-          "place": "Wirt am Gries",
-          "description": "Local fish dishes, Austrian soups, and a friendly mid-range dinner spot."
-        }
-      ]
-    },
-
-    "high": {
-      "title": "Austrian Classics with a Premium Touch",
-      "summary": "Refined takes on regional cuisine, beautiful lakeside plating, and higher-quality ingredients.",
-      "recommendations": [
-        {
-          "time": "12:30",
-          "place": "Hotel Weißes Rössl – Lakeside Restaurant",
-          "description": "Premium lake-fish dishes, elevated schnitzel, and traditional Austrian flavors with elegant presentation."
-        },
-        {
-          "time": "15:00",
-          "place": "Hubertuskeller",
-          "description": "Austrian specialties developed with richer sauces, fine sides, and thoughtful preparation."
-        },
-        {
-          "time": "18:00",
-          "place": "Dorf Alm Premium Selection",
-          "description": "High-quality alpine meals with upgraded ingredients and rustic-elegant ambience."
-        }
-      ]
-    },
-
-    "comfortable": {
-      "title": "Luxury Lakeside & Alpine Dining",
-      "summary": "Fine-dining interpretations of Austrian tradition — premium lake fish, artisan pastries, and beautifully plated gourmet meals.",
-      "recommendations": [
-        {
-          "time": "12:30",
-          "title": "Weißes Rössl Fine Dining Terrace",
-          "place": "Weißes Rössl Fine Dining Terrace",
-          "description": "A gourmet lakeside experience with artistic fish dishes and refined regional cuisine."
-        },
-        {
-          "time": "15:00",
-          "place": "Hubertuskeller Signature Menu",
-          "description": "Creative multi-course Austrian plates featuring premium ingredients."
-        },
-        {
-          "time": "18:00",
-          "place": "Hotel Cortisen am See – Gourmet Restaurant",
-          "description": "Luxury reinterpretations of alpine classics with elegant lakeside ambience."
+          "place": "",
+          "description": "Upscale lakeside choice with refined brunch-inspired lunch dishes and exceptional service. :contentReference[oaicite:20]{index=20}",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=See-Eck,+St+Wolfgang+im+Salzkammergut,+Austria"
         }
       ]
     }
   },
 
-  "light_veggie": {
+  "street_food_and_markets": {
     "low": {
-      "title": "Light Veggie Meals on a Low Budget",
-      "summary": "Simple vegetarian-friendly bites around town — bakery options, small meals, and lakeside snacks.",
+      "title": "Street Food & Market Bites — Budget",
+      "summary": "Quick bites, casual taverns and snack spots ideal for a low-budget taste of St. Wolfgang local flavors.",
       "recommendations": [
         {
-          "time": "12:00",
-          "place": "Bäckerei Necker",
-          "description": "Vegetarian pastries, cheese rolls, small sandwiches."
+          "time": "11:30",
+          "place": "",
+          "description": "Casual tavern with traditional Austrian quick bites and friendly prices. :contentReference[oaicite:22]{index=22}",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Der+Wolf+924+-+Pilgerwirt,+St+Wolfgang+im+Salzkammergut,+Austria"
         },
         {
-          "time": "14:00",
-          "place": "Lakeside Snack Corners",
-          "description": "Basic veggie snacks like fries, pretzels, or simple salads."
+          "time": "13:30",
+          "place": "",
+          "description": "Beloved local inn with hearty meals, perfect for a relaxed lunch break. :contentReference[oaicite:24]{index=24}",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Dorf-Alm+zu+St.+Wolfgang,+St+Wolfgang+im+Salzkammergut,+Austria"
         },
         {
           "time": "16:00",
-          "place": "Café Wallner",
-          "description": "Low-cost sweet pastries or light cakes."
+          "place": "",
+          "description": "Cozy Austrian restaurant serving traditional fare in a casual setting. :contentReference[oaicite:26]{index=26}",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Restaurant+Zum+Weissen+Hirschen,+St+Wolfgang+im+Salzkammergut,+Austria"
         }
       ]
     },
-
     "medium": {
-      "title": "Balanced Veggie Dining",
-      "summary": "Healthy vegetarian-friendly dishes with nice atmosphere and wholesome ingredients.",
+      "title": "Balanced Street Food & Dining",
+      "summary": "Classic local restaurants and inns offering regional dishes, appetizers and casual meals at fair prices.",
       "recommendations": [
         {
           "time": "12:30",
-          "place": "Dorf Alm Veg Options",
-          "description": "Veggie käsespätzle, salads, grilled vegetables, and warm alpine bowls."
+          "place": "",
+          "description": "Popular Austrian restaurant with hearty traditional dishes. :contentReference[oaicite:28]{index=28}",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Restaurant+Hubertuskeller,+St+Wolfgang+im+Salzkammergut,+Austria"
         },
         {
-          "time": "15:00",
-          "place": "Wirt am Gries",
-          "description": "Vegetarian soup, pasta, or salads in a calm setting."
+          "time": "14:30",
+          "place": "",
+          "description": "Italian-inspired eatery with pizzas, pastas and casual meals.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Das+%C3%89den,+St+Wolfgang+im+Salzkammergut,+Austria"
         },
         {
-          "time": "18:00",
-          "place": "Café-Pension Mozart",
-          "description": "Vegetarian-friendly plates and light dinner options."
+          "time": "17:00",
+          "place": "",
+          "description": "Traditional Austrian cuisine and friendly service in the centre of town. :contentReference[oaicite:31]{index=31}",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Weisser+B%C3%A4r+Hotel+%26+Wirtshaus,+St+Wolfgang+im+Salzkammergut,+Austria"
         }
       ]
     },
-
     "high": {
-      "title": "High-End Vegetarian Meals",
-      "summary": "Creative, beautifully prepared vegetarian dishes with premium local ingredients.",
+      "title": "Premium Street Food & Dining",
+      "summary": "Well-liked restaurants and scenic dining spots for refined local and international cuisine with quality ingredients and atmosphere. :contentReference[oaicite:32]{index=32}",
       "recommendations": [
         {
           "time": "12:30",
-          "place": "Weißes Rössl Veg Selection",
-          "description": "Premium vegetarian dishes inspired by alpine flavors and seasonal produce."
+          "place": "",
+          "description": "Elegant restaurant focused on regional and international flavours. :contentReference[oaicite:34]{index=34}",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Ledererhaus+-+Genuss+in+der+Seevilla,+St+Wolfgang+im+Salzkammergut,+Austria"
         },
         {
-          "time": "15:00",
-          "place": "Hubertuskeller Green Menu",
-          "description": "Refined veggie pastas, risottos, and vegetable-forward creations."
+          "time": "15:30",
+          "place": "",
+          "description": "Highly rated lakeside spot with refined dishes and great setting. :contentReference[oaicite:36]{index=36}",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=See-Eck,+St+Wolfgang+im+Salzkammergut,+Austria"
         },
         {
           "time": "18:00",
-          "place": "Cortisen am See Veg Gourmet",
-          "description": "Luxury plant-based plates with artistic presentation."
+          "place": "",
+          "description": "Top-rated classic Austrian restaurant known for rich local flavours. :contentReference[oaicite:38]{index=38}",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Schmankerlstubn,+St+Wolfgang+im+Salzkammergut,+Austria"
         }
       ]
     },
-
     "comfortable": {
-      "title": "Luxury Vegetarian Experience",
-      "summary": "Fine-dining vegetarian cuisine with delicate flavors, premium ingredients, and lakeside ambience.",
+      "title": "Luxury Hallstatt Gastronomy Experiences",
+      "summary": "Exclusive and refined culinary options in St. Wolfgang with elevated local cuisine and outstanding service. :contentReference[oaicite:39]{index=39}",
       "recommendations": [
         {
-          "time": "12:30",
-          "place": "Weißes Rössl Fine Veg Dining",
-          "description": "Elegant plant-based courses influenced by Austrian tradition."
+          "time": "13:00",
+          "place": "",
+          "description": "High-end restaurant with superb service, perfect for a special afternoon or dinner. :contentReference[oaicite:41]{index=41}",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Landhaus+zu+Appesbach,+St+Wolfgang+im+Salzkammergut,+Austria"
         },
         {
-          "time": "15:00",
-          "place": "Hubertuskeller Veg Deluxe",
-          "description": "High-class vegetarian dishes crafted with modern techniques."
+          "time": "16:00",
+          "place": "",
+          "description": "Gourmet fine-dining experience with panoramic lake views at the iconic Weisses Rössl. :contentReference[oaicite:43]{index=43}",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Poll%27s+Kaiserterrasse+-+Gourmet+Restaurant+Im+Weissen+R%C3%B6ssl,+St+Wolfgang+im+Salzkammergut,+Austria"
         },
         {
-          "time": "18:00",
-          "place": "Cortisen am See Elite Veg Menu",
-          "description": "A refined dinner with beautiful plating and peaceful lake views."
+          "time": "19:00",
+          "place": "",
+          "description": "Elegant dinner option with creative Austrian cuisine and excellent wine pairings. :contentReference[oaicite:45]{index=45}",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Ledererhaus+-+Genuss+in+der+Seevilla,+St+Wolfgang+im+Salzkammergut,+Austria"
         }
       ]
     }
   },
 
-  "try_everything": {
+  "vegetarian_and_vegan": {
     "low": {
-      "title": "Low-Budget Tasting Adventure",
-      "summary": "Try several small, inexpensive bites around St. Wolfgang — great for curious eaters.",
+      "title": "Budget Veggie & Vegan Options in St. Wolfgang",
+      "summary": "Casual cafés and spots with simple plant-based snacks or vegetarian-friendly baked goods.",
       "recommendations": [
         {
           "time": "12:00",
-          "place": "Bakery Hop",
-          "description": "Taste sweet and savory pastries, pretzels, and small treats."
+          "place": "",
+          "description": "Coffee workshop with vegetarian-friendly breakfast and pastries.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Kaffeewerkstatt,+St+Wolfgang+im+Salzkammergut,+Austria"
         },
         {
           "time": "14:00",
-          "place": "Lakeside Mini Plates",
-          "description": "Sample 2–3 small fried or baked bites near the water."
+          "place": "",
+          "description": "Bakery with vegetarian and sweet options — great for light bites.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Gandl+Bakery+pastry+Cafe,+St+Wolfgang+im+Salzkammergut,+Austria"
         },
         {
           "time": "16:00",
-          "place": "Ice Cream Stop",
-          "description": "End with affordable local ice cream."
+          "place": "",
+          "description": "Bistro with salads and vegetarian-friendly plates at fair prices.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=SEEplatzl,+St+Wolfgang+im+Salzkammergut,+Austria"
         }
       ]
     },
-
     "medium": {
-      "title": "Balanced Tasting Experience",
-      "summary": "A mix of local flavors, Austrian classics, and small plates in mid-range restaurants.",
+      "title": "Balanced Vegetarian & Vegan Dining",
+      "summary": "Good vegetarian-friendly dishes within classic restaurants and casual dining spots.",
       "recommendations": [
         {
           "time": "12:30",
-          "place": "Dorf Alm Tasting Menu",
-          "description": "Multiple small alpine dishes — cheeses, dumplings, or classic starters."
+          "place": "",
+          "description": "Traditional inn with vegetarian options and hearty Austrian classics.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Dorf-Alm+zu+St.+Wolfgang,+St+Wolfgang+im+Salzkammergut,+Austria"
         },
         {
           "time": "14:00",
-          "place": "Wirt am Gries Combo Plates",
-          "description": "A variety of Austrian and regional flavors in smaller portions."
+          "place": "",
+          "description": "Well-reviewed restaurant with some vegetarian mains and sides. :contentReference[oaicite:51]{index=51}",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Restaurant+Hubertuskeller,+St+Wolfgang+im+Salzkammergut,+Austria"
         },
         {
           "time": "18:00",
-          "place": "Weißes Rössl Sweet & Savory",
-          "description": "A combination of dessert bites and small savory tasters."
+          "place": "",
+          "description": "Traditional Austrian place with vegetarian-friendly options and good atmosphere. :contentReference[oaicite:53]{index=53}",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Weisser+B%C3%A4r+Hotel+%26+Wirtshaus,+St+Wolfgang+im+Salzkammergut,+Austria"
         }
       ]
     },
-
     "high": {
-      "title": "Premium Tasting Tour",
-      "summary": "High-quality mini dishes inspired by Austrian alpine tradition, refined sauces, and seasonal produce.",
+      "title": "Premium Vegetarian & Vegan Dining",
+      "summary": "Top vegetarian-friendly restaurants offering creative plant-based options alongside Austrian cuisine.",
       "recommendations": [
         {
           "time": "12:30",
-          "place": "Weißes Rössl Mini Courses",
-          "description": "Premium tasting plates — fish, small alpine specialties, and elegant sides."
+          "place": "",
+          "description": "Refined restaurant with vegetarian choices and excellent lake views. :contentReference[oaicite:55]{index=55}",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=See-Eck,+St+Wolfgang+im+Salzkammergut,+Austria"
         },
         {
           "time": "15:00",
-          "place": "Hubertuskeller Signature Sampler",
-          "description": "A refined selection of small dishes prepared with gourmet techniques."
+          "place": "",
+          "description": "Upscale venue with thoughtfully composed veggie plates and high-quality ingredients. :contentReference[oaicite:57]{index=57}",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Ledererhaus+-+Genuss+in+der+Seevilla,+St+Wolfgang+im+Salzkammergut,+Austria"
         },
         {
           "time": "18:00",
-          "place": "Cortisen am See Tasting Set",
-          "description": "Artistic small plates with regional inspiration."
+          "place": "",
+          "description": "Fine-dining tavern with vegetarian mains and regional specialties. :contentReference[oaicite:59]{index=59}",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Schmankerlstubn,+St+Wolfgang+im+Salzkammergut,+Austria"
         }
       ]
     },
-
     "comfortable": {
-      "title": "Luxury Tasting Journey",
-      "summary": "Fine-dining tasting menus with multiple courses — beautifully plated, creative, and premium.",
+      "title": "Luxury Vegetarian & Vegan Dining",
+      "summary": "Exclusive vegetarian and vegan experiences combining premium plating, local produce and elegant settings. :contentReference[oaicite:60]{index=60}",
       "recommendations": [
         {
           "time": "12:30",
-          "place": "Weißes Rössl Fine Tasting Menu",
-          "description": "A multi-course lakeside tasting experience with artistic presentation."
+          "place": "",
+          "description": "High-end dining with excellent vegetarian selections and scenic ambiance. :contentReference[oaicite:62]{index=62}",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Landhaus+zu+Appesbach,+St+Wolfgang+im+Salzkammergut,+Austria"
         },
         {
           "time": "15:00",
-          "place": "Hubertuskeller Deluxe Tasting",
-          "description": "A curated sequence of high-end small plates inspired by Austrian tradition."
+          "place": "",
+          "description": "Gourmet restaurant offering creative vegetarian meals with lake views. :contentReference[oaicite:64]{index=64}",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Poll%27s+Kaiserterrasse+-+Gourmet+Restaurant+Im+Weissen+R%C3%B6ssl,+St+Wolfgang+im+Salzkammergut,+Austria"
         },
         {
           "time": "18:00",
-          "place": "Cortisen am See Elite Courses",
-          "description": "A luxurious tasting journey featuring the region’s finest ingredients."
+          "place": "",
+          "description": "Elegant vegetarian-friendly options with refined plating and lakeside atmosphere. :contentReference[oaicite:66]{index=66}",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=See-Eck,+St+Wolfgang+im+Salzkammergut,+Austria"
         }
       ]
     }

@@ -1,349 +1,114 @@
 {
   "half_day": {
     "mixed": {
-      "local_specialties": {
-        "low": {
-          "title": "Half-Day Mixed Szentendre Route (Low Budget)",
-          "summary": "A budget-friendly blend of nature, history, and art with cheap traditional snacks.",
-          "schedule": [
-            {
-              "time": "14:00",
-              "title": "Old Town Warm-Up Walk",
-              "description": "Start by exploring the colorful historical streets and small public art spots."
-            },
-            {
-              "time": "14:45",
-              "title": "Riverside Chill Point",
-              "description": "Relax by the Danube and enjoy the breeze."
-            },
-            {
-              "time": "15:30",
-              "title": "Budget Local Snack",
-              "description": "Try lángos, goulash soup, or an inexpensive Hungarian bite."
-            },
-            {
-              "time": "16:15",
-              "title": "Craft Street + Art Corners",
-              "description": "Visit handmade craft shops and street art corners."
-            },
-            {
-              "time": "17:00",
-              "title": "Scenic Old Town Finish",
-              "description": "End in the upper part of Old Town with beautiful views."
-            }
-          ]
-        },
-
-        "medium": {
-          "title": "Balanced Half-Day Mixed Experience",
-          "summary": "A comfortable mix of art, nature, history, and mid-range local food.",
-          "schedule": [
-            {
-              "time": "14:00",
-              "title": "Heritage Street Walk",
-              "description": "Walk through classic Szentendre streets filled with charm."
-            },
-            {
-              "time": "14:45",
-              "title": "Art Mill or Small Museum",
-              "description": "Visit a mid-range exhibition combining culture and creativity."
-            },
-            {
-              "time": "16:00",
-              "title": "Local Hungarian Meal",
-              "description": "Enjoy a warm traditional dish in a cozy restaurant."
-            },
-            {
-              "time": "17:00",
-              "title": "Riverside Relax",
-              "description": "End with a calm walk by the Danube."
-            }
-          ]
-        },
-
-        "high": {
-          "title": "High-End Half-Day Mixed Route",
-          "summary": "A refined half-day combining culture, nature, and premium Hungarian cuisine.",
-          "schedule": [
-            {
-              "time": "14:00",
-              "title": "Premium Old Town Walk",
-              "description": "Stroll through elegant historical streets and artistic corners."
-            },
-            {
-              "time": "15:00",
-              "title": "Curated Museum Stop",
-              "description": "Visit a high-level exhibition or curated art venue."
-            },
-            {
-              "time": "16:15",
-              "title": "High-End Local Lunch",
-              "description": "Taste refined Hungarian dishes using quality ingredients."
-            },
-            {
-              "time": "17:15",
-              "title": "Premium Riverside Viewpoint",
-              "description": "Finish at the best riverside panoramic area."
-            }
-          ]
-        },
-
-        "comfortable": {
-          "title": "Luxury Half-Day Mixed Experience",
-          "summary": "The most elegant mix of history, nature, art, and fine dining.",
-          "schedule": [
-            {
-              "time": "14:00",
-              "title": "Exclusive Old Town Route",
-              "description": "Walk through Szentendre’s most scenic historical and artistic zones."
-            },
-            {
-              "time": "15:00",
-              "title": "VIP Cultural Stop",
-              "description": "Visit elite cultural or exhibition spaces."
-            },
-            {
-              "time": "16:15",
-              "title": "Fine Dining Local Lunch",
-              "description": "A premium reinterpretation of Hungarian cuisine."
-            },
-            {
-              "time": "17:15",
-              "title": "Luxury Riverside Panorama",
-              "description": "End the half-day at a top-tier scenic viewpoint."
-            }
-          ]
-        }
+      "low": {
+        "title": "Half-Day Mixed Szentendre Route (Low Budget)",
+        "summary": "A budget-friendly blend of nature, history, and art with cheap traditional snacks.",
+        "schedule": [
+          {
+            "time": "14:00",
+            "title": "Old Town Warm-Up Walk",
+            "description": "Start by exploring the colorful historical streets and small public art spots."
+          },
+          {
+            "time": "14:45",
+            "title": "Riverside Chill Point",
+            "description": "Relax by the Danube and enjoy the breeze."
+          },
+          {
+            "time": "15:30",
+            "title": "Budget Local Snack",
+            "description": "Try lángos, goulash soup, or an inexpensive Hungarian bite."
+          },
+          {
+            "time": "16:15",
+            "title": "Craft Street + Art Corners",
+            "description": "Visit handmade craft shops and street art corners."
+          },
+          {
+            "time": "17:00",
+            "title": "Scenic Old Town Finish",
+            "description": "End in the upper part of Old Town with beautiful views."
+          }
+        ]
       },
-
-      "light_veggie": {
-        "low": {
-          "title": "Budget Veggie Mixed Route",
-          "summary": "A light, vegetarian-friendly half-day combining art, history, and nature on a budget.",
-          "schedule": [
-            {
-              "time": "14:00",
-              "title": "Artistic Street Walk",
-              "description": "Explore colorful streets and small creative corners."
-            },
-            {
-              "time": "14:45",
-              "title": "Riverfront Pause",
-              "description": "Enjoy a calm moment near the Danube."
-            },
-            {
-              "time": "15:30",
-              "title": "Budget Veggie Snack",
-              "description": "Simple salads, veggie pasta, or bakery items."
-            },
-            {
-              "time": "16:15",
-              "title": "Historic Squares",
-              "description": "Walk around small squares with historical charm."
-            },
-            {
-              "time": "17:00",
-              "title": "Riverside Finish",
-              "description": "A peaceful final walk by the river."
-            }
-          ]
-        },
-
-        "medium": {
-          "title": "Balanced Veggie-Friendly Mixed Experience",
-          "summary": "A vegetarian half-day route across cultural, historic, and scenic areas.",
-          "schedule": [
-            {
-              "time": "14:00",
-              "title": "Old Town Veggie Walk",
-              "description": "Walk through artistic and historic streets."
-            },
-            {
-              "time": "14:45",
-              "title": "Gallery or Museum Stop",
-              "description": "See a mid-range exhibition."
-            },
-            {
-              "time": "16:00",
-              "title": "Vegetarian Lunch",
-              "description": "Healthy veggie dishes served in a relaxed environment."
-            },
-            {
-              "time": "17:00",
-              "title": "River Path End",
-              "description": "Relax beside the Danube."
-            }
-          ]
-        },
-
-        "high": {
-          "title": "High-End Veggie Mixed Route",
-          "summary": "A refined vegetarian journey across artistic, historic, and natural spots.",
-          "schedule": [
-            {
-              "time": "14:00",
-              "title": "Premium Urban-Nature Walk",
-              "description": "Walk through beautiful historical and natural corners."
-            },
-            {
-              "time": "15:00",
-              "title": "Curated Gallery Visit",
-              "description": "Visit a premium art exhibition."
-            },
-            {
-              "time": "16:15",
-              "title": "High-End Veggie Lunch",
-              "description": "Gourmet vegetarian dishes with a refined touch."
-            },
-            {
-              "time": "17:15",
-              "title": "Scenic Riverside View",
-              "description": "Finish at a premium lookout point."
-            }
-          ]
-        },
-
-        "comfortable": {
-          "title": "Luxury Veggie Mixed Experience",
-          "summary": "A premium half-day route combining top vegetarian dining with exclusive cultural and natural stops.",
-          "schedule": [
-            {
-              "time": "14:00",
-              "title": "Exclusive Scenic Walk",
-              "description": "Explore the most elegant artistic and natural corners."
-            },
-            {
-              "time": "15:00",
-              "title": "VIP Art or History Venue",
-              "description": "Visit a high-end curated cultural space."
-            },
-            {
-              "time": "16:15",
-              "title": "Fine Dining Veggie Lunch",
-              "description": "Premium plant-based plates in a refined setting."
-            },
-            {
-              "time": "17:15",
-              "title": "Luxury Riverside Panorama",
-              "description": "End at a peaceful elite viewpoint."
-            }
-          ]
-        }
+      "medium": {
+        "title": "Balanced Half-Day Mixed Experience",
+        "summary": "A comfortable mix of art, nature, history, and mid-range local food.",
+        "schedule": [
+          {
+            "time": "14:00",
+            "title": "Heritage Street Walk",
+            "description": "Walk through classic Szentendre streets filled with charm."
+          },
+          {
+            "time": "14:45",
+            "title": "Art Mill or Small Museum",
+            "description": "Visit a mid-range exhibition combining culture and creativity."
+          },
+          {
+            "time": "16:00",
+            "title": "Local Hungarian Meal",
+            "description": "Enjoy a warm traditional dish in a cozy restaurant."
+          },
+          {
+            "time": "17:00",
+            "title": "Riverside Relax",
+            "description": "End with a calm walk by the Danube."
+          }
+        ]
       },
-
-      "try_everything": {
-        "low": {
-          "title": "Budget Tasting Mixed Route",
-          "summary": "A playful half-day with cheap tasting snacks and a mix of history, art, and nature.",
-          "schedule": [
-            {
-              "time": "14:00",
-              "title": "Pastry Tasting Start",
-              "description": "Try 1–2 small pastries while exploring Old Town."
-            },
-            {
-              "time": "14:45",
-              "title": "Heritage Street Walk",
-              "description": "See iconic architecture and small art corners."
-            },
-            {
-              "time": "15:30",
-              "title": "Budget Tasting Snack",
-              "description": "Sample a couple of inexpensive bites."
-            },
-            {
-              "time": "16:15",
-              "title": "Riverside Path",
-              "description": "Walk along calm nature areas near the river."
-            },
-            {
-              "time": "17:00",
-              "title": "Evening Glow Finish",
-              "description": "End in softly lit streets or riverside spots."
-            }
-          ]
-        },
-
-        "medium": {
-          "title": "Balanced Tasting Mixed Experience",
-          "summary": "A comfortable half-day with shared tasting plates and scenic cultural spots.",
-          "schedule": [
-            {
-              "time": "14:00",
-              "title": "Mini Tasting Starter",
-              "description": "Try two or three small bites."
-            },
-            {
-              "time": "14:45",
-              "title": "Mixed Heritage Walk",
-              "description": "Explore artistic and historical streets."
-            },
-            {
-              "time": "16:00",
-              "title": "Medium Tasting Lunch",
-              "description": "Shared plates inspired by Hungarian dishes."
-            },
-            {
-              "time": "17:00",
-              "title": "Riverside Finish",
-              "description": "End the day with calm Danube views."
-            }
-          ]
-        },
-
-        "high": {
-          "title": "High-End Tasting Mixed Route",
-          "summary": "Premium tasting bites with curated cultural and natural stops.",
-          "schedule": [
-            {
-              "time": "14:00",
-              "title": "Premium Mini Tasting",
-              "description": "Several high-quality small bites."
-            },
-            {
-              "time": "15:00",
-              "title": "Exclusive Cultural Stop",
-              "description": "Visit a premium gallery or heritage highlight."
-            },
-            {
-              "time": "16:15",
-              "title": "High-End Tasting Meal",
-              "description": "Multiple gourmet small plates."
-            },
-            {
-              "time": "17:15",
-              "title": "Premium Riverside Viewing",
-              "description": "End with an elevated scenic viewpoint."
-            }
-          ]
-        },
-
-        "comfortable": {
-          "title": "Luxury Tasting Mixed Experience",
-          "summary": "The highest-level half-day route combining gourmet tasting, curated culture, and exclusive nature.",
-          "schedule": [
-            {
-              "time": "14:00",
-              "title": "Luxury Tasting Starter",
-              "description": "Artfully prepared gourmet mini dishes."
-            },
-            {
-              "time": "15:00",
-              "title": "VIP Mixed Cultural Stop",
-              "description": "Visit an elite art or heritage venue."
-            },
-            {
-              "time": "16:15",
-              "title": "Fine Dining Tasting Menu",
-              "description": "A multi-plate premium tasting experience."
-            },
-            {
-              "time": "17:15",
-              "title": "Exclusive Riverside Panorama",
-              "description": "End at Szentendre’s most beautiful viewpoint."
-            }
-          ]
-        }
+      "high": {
+        "title": "High-End Half-Day Mixed Route",
+        "summary": "A refined half-day combining culture, nature, and premium Hungarian cuisine.",
+        "schedule": [
+          {
+            "time": "14:00",
+            "title": "Premium Old Town Walk",
+            "description": "Stroll through elegant historical streets and artistic corners."
+          },
+          {
+            "time": "15:00",
+            "title": "Curated Museum Stop",
+            "description": "Visit a high-level exhibition or curated art venue."
+          },
+          {
+            "time": "16:15",
+            "title": "High-End Local Lunch",
+            "description": "Taste refined Hungarian dishes using quality ingredients."
+          },
+          {
+            "time": "17:15",
+            "title": "Premium Riverside Viewpoint",
+            "description": "Finish at the best riverside panoramic area."
+          }
+        ]
+      },
+      "comfortable": {
+        "title": "Luxury Half-Day Mixed Experience",
+        "summary": "The most elegant mix of history, nature, art, and fine dining.",
+        "schedule": [
+          {
+            "time": "14:00",
+            "title": "Exclusive Old Town Route",
+            "description": "Walk through Szentendre’s most scenic historical and artistic zones."
+          },
+          {
+            "time": "15:00",
+            "title": "VIP Cultural Stop",
+            "description": "Visit elite cultural or exhibition spaces."
+          },
+          {
+            "time": "16:15",
+            "title": "Fine Dining Local Lunch",
+            "description": "A premium reinterpretation of Hungarian cuisine."
+          },
+          {
+            "time": "17:15",
+            "title": "Luxury Riverside Panorama",
+            "description": "End the half-day at a top-tier scenic viewpoint."
+          }
+        ]
       }
     }
   }

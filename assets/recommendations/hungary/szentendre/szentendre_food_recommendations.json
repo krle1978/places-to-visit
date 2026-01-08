@@ -1,260 +1,296 @@
 {
-  "local_specialties": {
+  "coffee_and_brunch": {
     "low": {
-      "title": "Local Szentendre Food on a Low Budget",
-      "summary": "Affordable homemade-style meals, market snacks, and local flavors ideal for a simple and tasty day.",
+      "title": "Budget Coffee & Brunch Spots in Szentendre",
+      "summary": "Casual cafés and small brunch spots where you can enjoy coffee and light breakfast without spending much.",
       "recommendations": [
         {
-          "time": "11:30",
-          "place": "Lángos Stand (Main Square)",
-          "description": "Classic Hungarian lángos — cheap, filling, and beloved locally."
+          "time": "09:00",
+          "place": "Café Lex",
+          "description": "Cozy café offering vegan and vegetarian cakes, salads and great coffee.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9+Lex+Szentendre"
         },
         {
-          "time": "13:30",
-          "place": "Szentendre Market Snack Corner",
-          "description": "Try sausage, goulash soup, or homemade pastries at market stalls."
+          "time": "10:00",
+          "place": "Spirit Cafe Szentendre",
+          "description": "Local espresso bar with quality brews — perfect for a relaxed morning coffee.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Spirit+Cafe+Szentendre"
         },
         {
-          "time": "16:00",
-          "place": "Marzipan Café (Budget Menu)",
-          "description": "Affordable local cakes, small bites, and the famous marzipan treats."
+          "time": "11:00",
+          "place": "Napórás Ház",
+          "description": "Small cafe with good coffee and pastries — ideal for a light brunch stop.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Nap%C3%B3r%C3%A1s+H%C3%A1z+Szentendre"
         }
       ]
     },
     "medium": {
-      "title": "Balanced Local Dining",
-      "summary": "Comfortable restaurants serving classic Hungarian dishes at fair, mid-range prices.",
+      "title": "Balanced Coffee & Brunch Experience",
+      "summary": "Great middle-range cafés and bistros offering full brunch menus and quality coffee.",
       "recommendations": [
+        {
+          "time": "10:30",
+          "place": "Cafe Brunch Szentendre",
+          "description": "All-day brunch restaurant with specialty coffee, pancakes, eggs and fresh juices. :contentReference[oaicite:0]{index=0}",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Cafe+Brunch+Szentendre"
+        },
         {
           "time": "12:00",
-          "place": "Új Műhely Bistro",
-          "description": "Traditional dishes like pörkölt, paprikash, and soups in a cozy interior."
-        },
-        {
-          "time": "15:00",
-          "place": "Corner Étterem",
-          "description": "Local family-style classics — stews, roasts, and grilled options."
-        },
-        {
-          "time": "18:00",
-          "place": "Régi Fő tér Restaurant",
-          "description": "Paprikash, stuffed peppers, and other staples with a town-square view."
-        }
-      ]
-    },
-    "high": {
-      "title": "Premium Local Cuisine",
-      "summary": "Refined versions of traditional meals — beautifully plated, rich flavors, great ingredients.",
-      "recommendations": [
-        {
-          "time": "12:00",
-          "place": "Matrjoska Bisztró (Premium Menu)",
-          "description": "High-quality Hungarian classics with modern presentation."
-        },
-        {
-          "time": "15:00",
-          "place": "Új Műhely Bistro (Chef’s Specials)",
-          "description": "Elevated local sauces, slow-cooked meats, and seasonal sides."
-        },
-        {
-          "time": "18:00",
-          "place": "Aranysárkány Restaurant",
-          "description": "Traditional meets gourmet — perfect for a refined dinner."
-        }
-      ]
-    },
-    "comfortable": {
-      "title": "Luxury Traditional Dining",
-      "summary": "Fine-dining interpretations of Hungarian heritage cuisine with artistic plating and top ingredients.",
-      "recommendations": [
-        {
-          "time": "12:00",
-          "place": "Aranysárkány Gourmet",
-          "description": "Multiple-course traditional-inspired fine dining."
-        },
-        {
-          "time": "15:00",
-          "place": "Művész Restaurant Deluxe",
-          "description": "Elegant Hungarian dishes elevated with refined techniques."
-        },
-        {
-          "time": "18:00",
-          "place": "Waterfront Fine Dining (Dunakorzó Area)",
-          "description": "Premium riverside dinner with beautiful plating and seasonal ingredients."
-        }
-      ]
-    }
-  },
-
-  "light_veggie": {
-    "low": {
-      "title": "Light Veggie Options on a Low Budget",
-      "summary": "Simple, healthy vegetarian snacks and meals for travelers who want light and cheap options.",
-      "recommendations": [
-        {
-          "time": "11:30",
-          "place": "Mlinar Bakery",
-          "description": "Vegetarian pastries, light sandwiches, and affordable snacks."
+          "place": "Dorothea Bistro & Café",
+          "description": "Stylish bistro with hearty brunch plates and great coffee.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Dorothea+Bistro+%26+Caf%C3%A9+Szentendre"
         },
         {
           "time": "13:30",
-          "place": "Health Bar (Budget Menu)",
-          "description": "Smoothies, salads, and small veggie bowls."
-        },
-        {
-          "time": "16:00",
-          "place": "Marzipan Café",
-          "description": "Light sweets and coffee for a simple afternoon break."
-        }
-      ]
-    },
-    "medium": {
-      "title": "Balanced Vegetarian Dining",
-      "summary": "Vegetarian-friendly restaurants offering healthy dishes at mid-range prices.",
-      "recommendations": [
-        {
-          "time": "12:00",
-          "place": "Új Műhely Bistro Veggie Menu",
-          "description": "Light pastas, grilled vegetables, and veggie soups."
-        },
-        {
-          "time": "15:00",
-          "place": "DownTown Café",
-          "description": "Smoothies, veggie bowls, and sandwiches."
-        },
-        {
-          "time": "18:00",
-          "place": "Dunakorzó Café",
-          "description": "Fresh salads and light evening meals by the river."
+          "place": "Rózsa Büfé",
+          "description": "Simple and beloved local café — perfect for coffee and budget bites.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=R%C3%B3zsa+B%C3%BCf%C3%A9+Szentendre"
         }
       ]
     },
     "high": {
-      "title": "Premium Vegetarian Experience",
-      "summary": "High-quality vegetarian meals with elegant plating and refined flavors.",
-      "recommendations": [
-        {
-          "time": "12:00",
-          "place": "Matrjoska Bisztró Veg Menu",
-          "description": "Premium vegetarian dishes using seasonal ingredients."
-        },
-        {
-          "time": "15:00",
-          "place": "Aranysárkány Veg Selection",
-          "description": "Refined plant-based plates with creative combinations."
-        },
-        {
-          "time": "18:00",
-          "place": "Korzó Loft Café",
-          "description": "Evening veggie plates in a modern riverside interior."
-        }
-      ]
-    },
-    "comfortable": {
-      "title": "Luxury Vegetarian Dining",
-      "summary": "Fine vegetarian courses with artistic presentation in Szentendre’s most elegant spaces.",
-      "recommendations": [
-        {
-          "time": "12:00",
-          "place": "Aranysárkány Plant-Based Fine Dining",
-          "description": "Multi-course vegetarian fine dining experience."
-        },
-        {
-          "time": "15:00",
-          "place": "Művész Art Café Deluxe",
-          "description": "Premium veggie dishes served in a gallery-inspired environment."
-        },
-        {
-          "time": "18:00",
-          "place": "Waterfront Veg Gourmet",
-          "description": "Elegant plant-based dinner with Danube views."
-        }
-      ]
-    }
-  },
-
-  "try_everything": {
-    "low": {
-      "title": "Low-Budget Tasting Adventure",
-      "summary": "Try multiple small bites — pastries, snacks, and cheap local flavors.",
+      "title": "Premium Coffee & Brunch in Szentendre",
+      "summary": "Refined brunch spots and cafés with elegant atmosphere and delicious curated menus.",
       "recommendations": [
         {
           "time": "11:00",
-          "place": "Lángos Stand",
-          "description": "Start with a classic lángos — the ultimate cheap treat."
+          "place": "BLKN Bistro",
+          "description": "Upscale bistro with brunch-friendly dishes and quality coffee in a stylish interior.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=BLKN+Bistro+Szentendre"
         },
         {
-          "time": "13:00",
-          "place": "Street Snack Stands",
-          "description": "Try chimney cake, pretzels, or small salty pastries."
+          "time": "12:30",
+          "place": "Passata",
+          "description": "Highly-rated restaurant with refined, coffee-and-brunch-friendly lunch options.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Passata+Szentendre"
         },
         {
-          "time": "15:00",
-          "place": "Ice Cream at the Promenade",
-          "description": "Finish with a couple of fun flavors from local ice-cream spots."
-        }
-      ]
-    },
-    "medium": {
-      "title": "Balanced Tasting Experience",
-      "summary": "A combination of small dishes — both savory and sweet — with mid-range pricing.",
-      "recommendations": [
-        {
-          "time": "12:00",
-          "place": "Új Műhely Bistro Mini Plates",
-          "description": "Try 2–3 smaller Hungarian plates."
-        },
-        {
-          "time": "14:30",
-          "place": "Retro Kávézó",
-          "description": "Dessert tasting — cakes, pies, and pastries."
-        },
-        {
-          "time": "17:00",
-          "place": "Dunakorzó Treats",
-          "description": "Light bites with a view — snacks, crepes, or fruit cups."
-        }
-      ]
-    },
-    "high": {
-      "title": "High-End Tasting Tour",
-      "summary": "Premium mini dishes and curated tasting selections inspired by Hungarian classics.",
-      "recommendations": [
-        {
-          "time": "12:00",
-          "place": "Aranysárkány Tasting Set",
-          "description": "Multiple refined small plates inspired by traditional food."
-        },
-        {
-          "time": "15:00",
-          "place": "Matrjoska Bisztró Mini Courses",
-          "description": "High-end tasting combinations with seasonal ingredients."
-        },
-        {
-          "time": "18:00",
-          "place": "Korzó Loft Café",
-          "description": "Premium sweets + small savory plates for a perfect finish."
+          "time": "10:30",
+          "place": "Gwendolin Bisztró",
+          "description": "Charming riverside bistro with creative brunch plates and scenic views.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Gwendolin+Bisztr%C3%B3+Szentendre"
         }
       ]
     },
     "comfortable": {
-      "title": "Luxury Tasting Journey",
-      "summary": "Fine dining sampling menus — elegant, artistic, and full of flavor variety.",
+      "title": "Luxury Coffee & Brunch Experience",
+      "summary": "Elegant cafés and brunch restaurants ideal for relaxed mornings with great service and presentation.",
+      "recommendations": [
+        {
+          "time": "11:00",
+          "place": "Karnevál Kávéház és Gasztrobár",
+          "description": "Refined café and gastro-bar with premium brunch options and stylish interior.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Karnev%C3%A1l+K%C3%A1v%C3%A9h%C3%A1z+%C3%A9s+Gasztrob%C3%A1r+Szentendre"
+        },
+        {
+          "time": "12:00",
+          "place": "Café Christine",
+          "description": "Popular local restaurant and café ideal for an upscale brunch or coffee with dessert.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9+Christine+Szentendre"
+        },
+        {
+          "time": "10:30",
+          "place": "בית חב״ד סנטאנדרה",
+          "description": "Art café with interesting brunch-style options and relaxed atmosphere.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=%D7%91%D7%99%D7%AA+%D7%97%D7%91%E2%80%8F%22%D7%93+%D7%A1%D7%A0%D7%98%D7%90%D7%A0%D7%93%D7%A8%D7%94"
+        }
+      ]
+    }
+  },
+
+  "street_food_and_markets": {
+    "low": {
+      "title": "Street Food & Quick Bites in Szentendre",
+      "summary": "Affordable and local street food stands and snacks — perfect for a casual town stroll.",
       "recommendations": [
         {
           "time": "12:00",
-          "place": "Aranysárkány Fine Tasting Menu",
-          "description": "A multi-course gourmet tasting experience."
+          "place": "Álomlángos Szentendre",
+          "description": "Classic Hungarian street food lángos with savory or sweet toppings. :contentReference[oaicite:1]{index=1}",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=%C3%81loml%C3%A1ngos+Szentendre"
+        },
+        {
+          "time": "14:00",
+          "place": "Páncélos Street Food",
+          "description": "Street food truck with highly-rated quick eats in the centre of town. :contentReference[oaicite:2]{index=2}",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=P%C3%A1nc%C3%A9los+Street+Food+Szentendre"
+        },
+        {
+          "time": "16:00",
+          "place": "Freeride Street Food Bistro",
+          "description": "Top-rated bistro with great street-food style options and friendly reviews. :contentReference[oaicite:3]{index=3}",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Freeride+Street+Food+Bistro+Szentendre"
+        }
+      ]
+    },
+    "medium": {
+      "title": "Balanced Street Eats & Casual Dining",
+      "summary": "Casual eateries and light cafés where you can sample a mix of small plates and snacks.",
+      "recommendations": [
+        {
+          "time": "12:30",
+          "place": "Rózsa Büfé",
+          "description": "Local favourite for quick bites and small sandwiches at great value.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=R%C3%B3zsa+B%C3%BCf%C3%A9+Szentendre"
         },
         {
           "time": "15:00",
-          "place": "Művész Art Café Tasting",
-          "description": "Artfully plated sweet and savory small dishes."
+          "place": "Platni Bistro",
+          "description": "Casual bistro with a varied menu — great for light lunch or snacks.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Platni+Bistro+Szentendre"
+        },
+        {
+          "time": "17:00",
+          "place": "Camping büfé Papsziget",
+          "description": "Relaxed snack stop near the Danube — perfect for a refreshing break.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Camping+b%C3%BCf%C3%A9+Papsziget+Szentendre"
+        }
+      ]
+    },
+    "high": {
+      "title": "Quality Street Food & Stalls",
+      "summary": "Well-loved spots and street vendors with creative quick eats and casual meals.",
+      "recommendations": [
+        {
+          "time": "13:00",
+          "place": "Páncélos Street Food",
+          "description": "Popular town centre street food truck with diverse menu and flavours. :contentReference[oaicite:4]{index=4}",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=P%C3%A1nc%C3%A9los+Street+Food+Szentendre"
+        },
+        {
+          "time": "15:00",
+          "place": "Álomlángos Szentendre",
+          "description": "Delicious lángos with a variety of traditional toppings. :contentReference[oaicite:5]{index=5}",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=%C3%81loml%C3%A1ngos+Szentendre"
+        },
+        {
+          "time": "17:00",
+          "place": "Freeride Street Food Bistro",
+          "description": "Highly-rated street food bistro ideal for casual small plates. :contentReference[oaicite:6]{index=6}",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Freeride+Street+Food+Bistro+Szentendre"
+        }
+      ]
+    },
+    "comfortable": {
+      "title": "Relaxed Casual Dining Spots",
+      "summary": "Places with atmosphere — great for relaxed, laid-back meals during a town visit.",
+      "recommendations": [
+        {
+          "time": "13:00",
+          "place": "Dorothea Bistro & Café",
+          "description": "Stylish bistro serving casual lunch plates and light meals near the town square.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Dorothea+Bistro+%26+Caf%C3%A9+Szentendre"
+        },
+        {
+          "time": "15:30",
+          "place": "Gwendolin Bisztró",
+          "description": "Riverside bistro with a varied menu perfect for a relaxed afternoon bite.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Gwendolin+Bisztr%C3%B3+Szentendre"
         },
         {
           "time": "18:00",
-          "place": "Waterfront Signature Tasting",
-          "description": "Premium riverside tasting set with modern Hungarian flavors."
+          "place": "Karnevál Kávéház és Gasztrobár",
+          "description": "Gastropub-style casual dining with elevated street-food style dishes.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Karnev%C3%A1l+K%C3%A1v%C3%A9h%C3%A1z+%C3%A9s+Gasztrob%C3%A1r+Szentendre"
+        }
+      ]
+    }
+  },
+
+  "vegetarian_and_vegan": {
+    "low": {
+      "title": "Budget Veggie & Vegan Spots in Szentendre",
+      "summary": "Affordable vegetarian and vegan-friendly cafés and snacks around town.",
+      "recommendations": [
+        {
+          "time": "12:00",
+          "place": "Café Lex",
+          "description": "Vegan-friendly café with bagels, salad bowls and vegan cakes. :contentReference[oaicite:7]{index=7}",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9+Lex+Szentendre"
+        },
+        {
+          "time": "14:00",
+          "place": "Spirit Cafe Szentendre",
+          "description": "Espresso bar with vegetarian options and plant milk choices.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Spirit+Cafe+Szentendre"
+        },
+        {
+          "time": "16:00",
+          "place": "Platni Bistro",
+          "description": "Casual bistro with vegetarian plates and salads.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Platni+Bistro+Szentendre"
+        }
+      ]
+    },
+    "medium": {
+      "title": "Balanced Vegetarian & Vegan Dining",
+      "summary": "Comfortable plant-based friendly restaurants with creative menus.",
+      "recommendations": [
+        {
+          "time": "12:30",
+          "place": "Adria Cafe",
+          "description": "Popular café with vegetarian-friendly meals and outdoor seating. :contentReference[oaicite:8]{index=8}",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Adria+Cafe+Szentendre"
+        },
+        {
+          "time": "15:00",
+          "place": "Dorothea Bistro & Café",
+          "description": "Bistro serving vegetarian and vegan options in a cozy setting.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Dorothea+Bistro+%26+Caf%C3%A9+Szentendre"
+        },
+        {
+          "time": "18:00",
+          "place": "Passata",
+          "description": "Refined restaurant with vegetarian-friendly main courses.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Passata+Szentendre"
+        }
+      ]
+    },
+    "high": {
+      "title": "Premium Veggie & Vegan Dining",
+      "summary": "Higher quality vegetarian and vegan meals with elevated presentation.",
+      "recommendations": [
+        {
+          "time": "12:00",
+          "place": "Teyföl RESTAURANT",
+          "description": "Well-loved restaurant with vegetarian-friendly Hungarian dishes. :contentReference[oaicite:9]{index=9}",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Teyf%C3%B6l+RESTAURANT+Szentendre"
+        },
+        {
+          "time": "15:00",
+          "place": "BLKN Bistro",
+          "description": "Upscale bistro offering sophisticated vegetarian plates.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=BLKN+Bistro+Szentendre"
+        },
+        {
+          "time": "18:00",
+          "place": "Karnevál Kávéház és Gasztrobár",
+          "description": "Higher-end casual restaurant with vegetarian dishes and creative local cuisine.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Karnev%C3%A1l+K%C3%A1v%C3%A9h%C3%A1z+%C3%A9s+Gasztrob%C3%A1r+Szentendre"
+        }
+      ]
+    },
+    "comfortable": {
+      "title": "Luxury Vegetarian & Vegan Dining",
+      "summary": "Refined vegetarian and vegan experiences with premium dishes and atmosphere.",
+      "recommendations": [
+        {
+          "time": "12:30",
+          "place": "Passata",
+          "description": "Elegant restaurant with creative vegetarian and vegan-friendly dishes.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Passata+Szentendre"
+        },
+        {  
+          "time": "15:00",
+          "place": "Adria Cafe",
+          "description": "Vegetarian-friendly café with outdoor seating and refined menu.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Adria+Cafe+Szentendre"
+        },
+        {
+          "time": "18:00",
+          "place": "Dorothea Bistro & Café",
+          "description": "Sophisticated vegetarian and vegan plates with artistic presentation.",
+          "map_link": "https://www.google.com/maps/search/?api=1&query=Dorothea+Bistro+%26+Caf%C3%A9+Szentendre"
         }
       ]
     }

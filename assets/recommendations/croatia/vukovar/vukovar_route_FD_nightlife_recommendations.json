@@ -1,514 +1,169 @@
 {
   "full_day": {
     "nightlife": {
-      "local_specialties": {
-        "low": {
-          "title": "Full-Day Vukovar Nightlife on a Low Budget",
-          "summary": "A full day ending with a fun, budget-friendly evening — river lights, music, promenades, and affordable local food.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "Danube River Warm-Up Walk",
-              "description": "Start with fresh air, morning reflections on the river, and chill vibes."
-            },
-            {
-              "time": "11:00",
-              "title": "Old Town Exploration",
-              "description": "Walk through historical streets and get familiar with the city layout for later tonight."
-            },
-            {
-              "time": "12:30",
-              "title": "Budget Local Lunch",
-              "description": "Enjoy affordable traditional dishes — stews, soups, grilled options."
-            },
-            {
-              "time": "14:00",
-              "title": "Afternoon Break at the Promenade",
-              "description": "Sit in the shade, relax, and save energy for the evening."
-            },
-            {
-              "time": "16:00",
-              "title": "Riverside Chill Time",
-              "description": "A calm pre-evening walk with plenty of great photo spots."
-            },
-            {
-              "time": "18:00",
-              "title": "Sunset Over the Danube",
-              "description": "Golden hour reflections set the tone for your nightlife portion."
-            },
-            {
-              "time": "20:00",
-              "title": "Nightlife on a Budget",
-              "description": "Walk the lit-up promenade, enjoy music from open public spaces, grab cheap ice cream or snacks, and soak in the evening atmosphere."
-            }
-          ]
-        },
-
-        "medium": {
-          "title": "Balanced Full-Day + Evening Vukovar Nightlife",
-          "summary": "A comfortable day ending with a lively, enjoyable night around Vukovar’s riverside and town center.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "Café Morning Start",
-              "description": "A relaxed coffee or tea to begin your balanced day."
-            },
-            {
-              "time": "10:30",
-              "title": "City Walk & Landmarks",
-              "description": "Explore Vukovar’s known spots — perfect for orientation at night."
-            },
-            {
-              "time": "12:30",
-              "title": "Medium Local Lunch",
-              "description": "A hearty traditional meal at a reasonable price."
-            },
-            {
-              "time": "14:00",
-              "title": "Promenade Chill Zone",
-              "description": "Relax near the river, listen to the water, enjoy nature."
-            },
-            {
-              "time": "16:30",
-              "title": "Light Afternoon Activity",
-              "description": "Stroll small parks or check out souvenir shops."
-            },
-            {
-              "time": "18:00",
-              "title": "Sunset + Photo Time",
-              "description": "Capture the beautiful colors over the Danube."
-            },
-            {
-              "time": "20:00",
-              "title": "Balanced Nightlife",
-              "description": "Walk the illuminated promenade, enjoy live public music if available, stop for dessert, and experience Vukovar’s calm night energy."
-            }
-          ]
-        },
-
-        "high": {
-          "title": "High-End Full-Day Experience Ending with Evening Lights",
-          "summary": "A polished day route that ends with a premium, scenic evening walking experience full of lights, scenery, and atmosphere.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "Premium Breakfast by the River",
-              "description": "Start with a higher-quality breakfast with a view."
-            },
-            {
-              "time": "10:30",
-              "title": "Town Discovery Walk",
-              "description": "A calm walk through elegant streets, preparing for the nighttime atmosphere."
-            },
-            {
-              "time": "12:30",
-              "title": "High-Quality Local Lunch",
-              "description": "Enjoy refined versions of traditional meals."
-            },
-            {
-              "time": "14:00",
-              "title": "Scenic Afternoon Walk",
-              "description": "Visit clean, curated riverside segments with great ambience."
-            },
-            {
-              "time": "16:00",
-              "title": "Manor/Park Blend",
-              "description": "Visit elegant outdoor areas that look stunning at dusk."
-            },
-            {
-              "time": "18:00",
-              "title": "Golden-Hour Danube View",
-              "description": "Perfect light sets the mood for a classy evening."
-            },
-            {
-              "time": "20:00",
-              "title": "Premium Night Atmosphere Walk",
-              "description": "Walk carefully illuminated riverside segments with calm music, reflections on the water, and premium nighttime views."
-            }
-          ]
-        },
-
-        "comfortable": {
-          "title": "Luxury Full-Day + Premium Evening Lights",
-          "summary": "A luxurious full-day experience leading into Vukovar’s most beautiful nighttime spots, perfect for photos and calm evening enjoyment.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "Lux Breakfast with Danube View",
-              "description": "Start your day in an elegant café with a beautifully prepared meal."
-            },
-            {
-              "time": "10:30",
-              "title": "Curated Heritage Walk",
-              "description": "Visit the most elegant parts of Vukovar’s center."
-            },
-            {
-              "time": "12:30",
-              "title": "Fine Local Lunch",
-              "description": "High-end dishes inspired by regional flavors."
-            },
-            {
-              "time": "14:00",
-              "title": "Premium Promenade Rest",
-              "description": "Find calm, polished riverside segments perfect for relaxing."
-            },
-            {
-              "time": "16:00",
-              "title": "Elegant Afternoon Walk",
-              "description": "Stroll through green zones and scenic paths."
-            },
-            {
-              "time": "18:00",
-              "title": "Sunset Glow",
-              "description": "Capture the most photogenic sunset of the day."
-            },
-            {
-              "time": "20:00",
-              "title": "Luxury Night Walk",
-              "description": "Explore beautifully lit areas, enjoy fountains, river reflections, artistic lighting, and relaxing evening ambiance — teen-friendly and classy."
-            }
-          ]
-        }
+      "low": {
+        "title": "Full-Day Vukovar Nightlife on a Low Budget",
+        "summary": "A full day ending with a fun, budget-friendly evening — river lights, music, promenades, and affordable local food.",
+        "schedule": [
+          {
+            "time": "09:00",
+            "title": "Danube River Warm-Up Walk",
+            "description": "Start with fresh air, morning reflections on the river, and chill vibes."
+          },
+          {
+            "time": "11:00",
+            "title": "Old Town Exploration",
+            "description": "Walk through historical streets and get familiar with the city layout for later tonight."
+          },
+          {
+            "time": "12:30",
+            "title": "Budget Local Lunch",
+            "description": "Enjoy affordable traditional dishes — stews, soups, grilled options."
+          },
+          {
+            "time": "14:00",
+            "title": "Afternoon Break at the Promenade",
+            "description": "Sit in the shade, relax, and save energy for the evening."
+          },
+          {
+            "time": "16:00",
+            "title": "Riverside Chill Time",
+            "description": "A calm pre-evening walk with plenty of great photo spots."
+          },
+          {
+            "time": "18:00",
+            "title": "Sunset Over the Danube",
+            "description": "Golden hour reflections set the tone for your nightlife portion."
+          },
+          {
+            "time": "20:00",
+            "title": "Nightlife on a Budget",
+            "description": "Walk the lit-up promenade, enjoy music from open public spaces, grab cheap ice cream or snacks, and soak in the evening atmosphere."
+          }
+        ]
       },
-
-      "light_veggie": {
-        "low": {
-          "title": "Low-Budget Veggie-Friendly Nightlife Day",
-          "summary": "A simple vegetarian-friendly day ending with lively nighttime river views and affordable meals.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "Veggie Pastry Start",
-              "description": "Start with a pastry or fruit and a light riverside walk."
-            },
-            {
-              "time": "11:00",
-              "title": "Town Walk",
-              "description": "Explore small parks and artistic details around town."
-            },
-            {
-              "time": "12:30",
-              "title": "Budget Veggie Lunch",
-              "description": "Try simple salads, pasta, or other plant-based meals."
-            },
-            {
-              "time": "14:00",
-              "title": "Relax by the River",
-              "description": "Find a shady spot and relax."
-            },
-            {
-              "time": "16:30",
-              "title": "Small Snack Stop",
-              "description": "Grab a juice or light snack."
-            },
-            {
-              "time": "18:00",
-              "title": "Sunset Warm-Up",
-              "description": "A calm pre-nightwalk moment with warm colors."
-            },
-            {
-              "time": "20:00",
-              "title": "Budget Nightlife",
-              "description": "Walk the illuminated promenade, enjoy public music, grab ice cream, and take photos in the evening glow."
-            }
-          ]
-        },
-
-        "medium": {
-          "title": "Balanced Veggie Mixed Day + Night",
-          "summary": "Vegetarian-friendly meals combined with a relaxed but lively evening atmosphere along the Danube.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "Healthy Veggie Breakfast",
-              "description": "Start with yogurt, smoothie, or something fresh."
-            },
-            {
-              "time": "10:30",
-              "title": "Heritage + Nature Walk",
-              "description": "Explore green and historical areas."
-            },
-            {
-              "time": "12:30",
-              "title": "Veggie Lunch",
-              "description": "Medium-priced vegetarian plate — risotto, pasta, salads."
-            },
-            {
-              "time": "14:00",
-              "title": "River Rest",
-              "description": "Sit by the water and relax."
-            },
-            {
-              "time": "16:30",
-              "title": "Café Break",
-              "description": "Have a tea, juice, or dessert."
-            },
-            {
-              "time": "18:00",
-              "title": "Evening Warm-Up Walk",
-              "description": "Get ready for nighttime mood with a sunset stroll."
-            },
-            {
-              "time": "20:00",
-              "title": "Veggie-Friendly Nightlife",
-              "description": "Walk the river at night, enjoy live public events if available, and grab dessert or a fresh juice."
-            }
-          ]
-        },
-
-        "high": {
-          "title": "High-End Veggie Nature & Night Experience",
-          "summary": "A refined vegetarian-friendly day leading into a premium nighttime city atmosphere.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "High-End Veggie Breakfast",
-              "description": "Smoothie bowl, high-quality pastry, or fresh fruit plate."
-            },
-            {
-              "time": "10:30",
-              "title": "Curated Day Walk",
-              "description": "Walk through scenic green areas and heritage streets."
-            },
-            {
-              "time": "12:30",
-              "title": "Premium Veggie Lunch",
-              "description": "A refined vegetarian meal with excellent preparation."
-            },
-            {
-              "time": "14:00",
-              "title": "Calm Afternoon by the River",
-              "description": "Enjoy peaceful natural surroundings."
-            },
-            {
-              "time": "16:30",
-              "title": "Premium Dessert Stop",
-              "description": "Have a beautifully prepared dessert or fresh juice."
-            },
-            {
-              "time": "18:00",
-              "title": "Golden-Hour Walk",
-              "description": "Watch the river slowly shift colors before night begins."
-            },
-            {
-              "time": "20:00",
-              "title": "High-End Night Walk",
-              "description": "Walk through the most elegant and well-lit river sections with reflections, soft music, and artistic nighttime vibes."
-            }
-          ]
-        },
-
-        "comfortable": {
-          "title": "Luxury Veggie Nightlife Experience",
-          "summary": "A gourmet plant-based day ending with a luxurious, scenic evening atmosphere.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "Luxury Veggie Breakfast",
-              "description": "Beautifully styled vegetarian meal in a premium café."
-            },
-            {
-              "time": "10:30",
-              "title": "Elegant Day Walk",
-              "description": "Visit refined natural and historic areas."
-            },
-            {
-              "time": "12:30",
-              "title": "Fine Vegetarian Lunch",
-              "description": "High-end, carefully made plant-based dishes."
-            },
-            {
-              "time": "14:00",
-              "title": "Premium Nature Spot",
-              "description": "Relax in a scenic green location."
-            },
-            {
-              "time": "16:30",
-              "title": "Dessert Lounge",
-              "description": "Enjoy a premium dessert in a stylish environment."
-            },
-            {
-              "time": "18:00",
-              "title": "Sunset Ambience",
-              "description": "Experience the most beautiful golden-hour glow."
-            },
-            {
-              "time": "20:00",
-              "title": "Luxury Night Stroll",
-              "description": "Explore the shimmering night reflections, decorative lighting, fountains, and premium river views — all teen-friendly, classy, and calm."
-            }
-          ]
-        }
+      "medium": {
+        "title": "Balanced Full-Day + Evening Vukovar Nightlife",
+        "summary": "A comfortable day ending with a lively, enjoyable night around Vukovar’s riverside and town center.",
+        "schedule": [
+          {
+            "time": "09:00",
+            "title": "Café Morning Start",
+            "description": "A relaxed coffee or tea to begin your balanced day."
+          },
+          {
+            "time": "10:30",
+            "title": "City Walk & Landmarks",
+            "description": "Explore Vukovar’s known spots — perfect for orientation at night."
+          },
+          {
+            "time": "12:30",
+            "title": "Medium Local Lunch",
+            "description": "A hearty traditional meal at a reasonable price."
+          },
+          {
+            "time": "14:00",
+            "title": "Promenade Chill Zone",
+            "description": "Relax near the river, listen to the water, enjoy nature."
+          },
+          {
+            "time": "16:30",
+            "title": "Light Afternoon Activity",
+            "description": "Stroll small parks or check out souvenir shops."
+          },
+          {
+            "time": "18:00",
+            "title": "Sunset + Photo Time",
+            "description": "Capture the beautiful colors over the Danube."
+          },
+          {
+            "time": "20:00",
+            "title": "Balanced Nightlife",
+            "description": "Walk the illuminated promenade, enjoy live public music if available, stop for dessert, and experience Vukovar’s calm night energy."
+          }
+        ]
       },
-
-      "try_everything": {
-        "low": {
-          "title": "Low-Budget Tasting + Night Walk",
-          "summary": "A playful full-day sampling small bites and ending with lively nighttime city views.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "Pastry Tasting Start",
-              "description": "Try a couple of cheap pastries before beginning the day."
-            },
-            {
-              "time": "10:30",
-              "title": "Town + Park Walk",
-              "description": "Get a feel for the city before the evening excitement."
-            },
-            {
-              "time": "12:30",
-              "title": "Budget Tasting Lunch",
-              "description": "Sample several small, affordable dishes."
-            },
-            {
-              "time": "14:00",
-              "title": "Relax by the River",
-              "description": "A simple break in a calm green area."
-            },
-            {
-              "time": "16:30",
-              "title": "Dessert or Ice Cream",
-              "description": "Grab something sweet and cheap."
-            },
-            {
-              "time": "18:00",
-              "title": "Sunset Warm-Up",
-              "description": "A chill walk with changing light before night kicks in."
-            },
-            {
-              "time": "20:00",
-              "title": "Budget Nightlife",
-              "description": "Walk the promenade, enjoy music, grab cheap snacks, and vibe with nighttime energy."
-            }
-          ]
-        },
-
-        "medium": {
-          "title": "Balanced Tasting + Nightlife",
-          "summary": "A well-rounded food-tasting day with a comfortable night walk full of lights and atmosphere.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "Small Café Tasting",
-              "description": "Try a few small breakfast items."
-            },
-            {
-              "time": "10:30",
-              "title": "Heritage + Nature Walk",
-              "description": "A mix of green spaces and town corners."
-            },
-            {
-              "time": "12:30",
-              "title": "Medium Tasting Lunch",
-              "description": "Share a few traditional-inspired dishes."
-            },
-            {
-              "time": "14:00",
-              "title": "Afternoon Chill",
-              "description": "Relax with views of the river."
-            },
-            {
-              "time": "16:30",
-              "title": "Dessert Time",
-              "description": "Treat yourself to something sweet and mid-range priced."
-            },
-            {
-              "time": "18:00",
-              "title": "Pre-Night Walk",
-              "description": "Enjoy the glowing colors before night falls."
-            },
-            {
-              "time": "20:00",
-              "title": "Balanced Night Walk",
-              "description": "Experience lively streets, river reflections, and night lights."
-            }
-          ]
-        },
-
-        "high": {
-          "title": "High-End Tasting Day + Premium Evening Lights",
-          "summary": "Sample refined dishes during the day and enjoy a premium-feeling evening full of scenic river views.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "Premium Breakfast Tasting",
-              "description": "Try several beautifully made small items."
-            },
-            {
-              "time": "10:30",
-              "title": "Curated Walk Through Scenic Areas",
-              "description": "A mix of natural paths and heritage buildings."
-            },
-            {
-              "time": "12:30",
-              "title": "High-End Tasting Lunch",
-              "description": "Several refined small plates showcasing local flavors."
-            },
-            {
-              "time": "14:00",
-              "title": "Danube Scenic Rest",
-              "description": "Relax in elegant riverside zones."
-            },
-            {
-              "time": "16:30",
-              "title": "Premium Dessert Break",
-              "description": "A stylish dessert in a polished setting."
-            },
-            {
-              "time": "18:00",
-              "title": "Golden-Hour Build-Up",
-              "description": "Watch the river transform before night sets in."
-            },
-            {
-              "time": "20:00",
-              "title": "High-End Night Atmosphere",
-              "description": "Walk through beautifully lit areas and enjoy peaceful, scenic nighttime ambience."
-            }
-          ]
-        },
-
-        "comfortable": {
-          "title": "Luxury Tasting Day + Night Walk Experience",
-          "summary": "A high-class tasting journey combined with the best evening lights, views, and calm nighttime atmosphere.",
-          "schedule": [
-            {
-              "time": "09:00",
-              "title": "Luxury Breakfast Tasting",
-              "description": "Start with high-end tasting bites in an elegant spot."
-            },
-            {
-              "time": "10:30",
-              "title": "Exclusive City Walk",
-              "description": "Visit the most polished and scenic town areas."
-            },
-            {
-              "time": "12:30",
-              "title": "Luxury Tasting Lunch",
-              "description": "Artfully presented, premium small plates inspired by local flavors."
-            },
-            {
-              "time": "14:00",
-              "title": "Premium Riverside Relax",
-              "description": "Sit and relax in the most scenic riverside areas."
-            },
-            {
-              "time": "16:30",
-              "title": "Luxury Dessert Lounge",
-              "description": "Enjoy a beautifully presented dessert in a refined atmosphere."
-            },
-            {
-              "time": "18:00",
-              "title": "Sunset Glow Walk",
-              "description": "Experience the perfect golden-hour lighting across the river."
-            },
-            {
-              "time": "20:00",
-              "title": "Luxury Night Walk",
-              "description": "Explore the calm, elegant nighttime side of Vukovar — river reflections, artistic lighting, and peaceful streets."
-            }
-          ]
-        }
+      "high": {
+        "title": "High-End Full-Day Experience Ending with Evening Lights",
+        "summary": "A polished day route that ends with a premium, scenic evening walking experience full of lights, scenery, and atmosphere.",
+        "schedule": [
+          {
+            "time": "09:00",
+            "title": "Premium Breakfast by the River",
+            "description": "Start with a higher-quality breakfast with a view."
+          },
+          {
+            "time": "10:30",
+            "title": "Town Discovery Walk",
+            "description": "A calm walk through elegant streets, preparing for the nighttime atmosphere."
+          },
+          {
+            "time": "12:30",
+            "title": "High-Quality Local Lunch",
+            "description": "Enjoy refined versions of traditional meals."
+          },
+          {
+            "time": "14:00",
+            "title": "Scenic Afternoon Walk",
+            "description": "Visit clean, curated riverside segments with great ambience."
+          },
+          {
+            "time": "16:00",
+            "title": "Manor/Park Blend",
+            "description": "Visit elegant outdoor areas that look stunning at dusk."
+          },
+          {
+            "time": "18:00",
+            "title": "Golden-Hour Danube View",
+            "description": "Perfect light sets the mood for a classy evening."
+          },
+          {
+            "time": "20:00",
+            "title": "Premium Night Atmosphere Walk",
+            "description": "Walk carefully illuminated riverside segments with calm music, reflections on the water, and premium nighttime views."
+          }
+        ]
+      },
+      "comfortable": {
+        "title": "Luxury Full-Day + Premium Evening Lights",
+        "summary": "A luxurious full-day experience leading into Vukovar’s most beautiful nighttime spots, perfect for photos and calm evening enjoyment.",
+        "schedule": [
+          {
+            "time": "09:00",
+            "title": "Lux Breakfast with Danube View",
+            "description": "Start your day in an elegant café with a beautifully prepared meal."
+          },
+          {
+            "time": "10:30",
+            "title": "Curated Heritage Walk",
+            "description": "Visit the most elegant parts of Vukovar’s center."
+          },
+          {
+            "time": "12:30",
+            "title": "Fine Local Lunch",
+            "description": "High-end dishes inspired by regional flavors."
+          },
+          {
+            "time": "14:00",
+            "title": "Premium Promenade Rest",
+            "description": "Find calm, polished riverside segments perfect for relaxing."
+          },
+          {
+            "time": "16:00",
+            "title": "Elegant Afternoon Walk",
+            "description": "Stroll through green zones and scenic paths."
+          },
+          {
+            "time": "18:00",
+            "title": "Sunset Glow",
+            "description": "Capture the most photogenic sunset of the day."
+          },
+          {
+            "time": "20:00",
+            "title": "Luxury Night Walk",
+            "description": "Explore beautifully lit areas, enjoy fountains, river reflections, artistic lighting, and relaxing evening ambiance — teen-friendly and classy."
+          }
+        ]
       }
     }
   }
