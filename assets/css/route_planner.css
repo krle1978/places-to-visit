@@ -151,6 +151,61 @@
   outline-offset: 4px;
 }
 
+.planner-search-input {
+  display: block;
+  margin: 0 auto 10px;
+  width: clamp(220px, 40vw, 360px);
+  padding: 0.6rem 0.85rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 12px;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+.planner-search-input:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(212, 160, 23, 0.25);
+}
+
+.planner-search-group {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 12px;
+  border: 2px solid #d4a017;
+  border-radius: 22px;
+  margin: 0 auto;
+}
+
+.planner-search-feedback {
+  min-height: 1.2em;
+  font-size: 0.95rem;
+  color: #c0392b;
+  text-align: center;
+}
+
+.planner-search-contact {
+  display: inline-block;
+  padding: 0.4rem 0.9rem;
+  border: 1px solid #d4a017;
+  border-radius: 14px;
+  color: #1a1a1a;
+  text-decoration: none;
+  background-color: #fff7d6;
+  transition: transform 0.15s ease, filter 0.15s ease;
+}
+
+.planner-search-contact[hidden] {
+  display: none;
+}
+
+.planner-search-contact:hover {
+  transform: translateY(-1px);
+  filter: brightness(0.98);
+}
+
 #save-pdf-btn {
   margin-top: 1.5rem;
 }

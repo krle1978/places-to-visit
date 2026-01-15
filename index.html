@@ -90,7 +90,18 @@
         </div>
 
 
-        <button class="btn ghost image-btn" id="toggle-planner-btn" type="button" aria-label="Make Your Own City Visit"></button>
+        <div class="planner-search-group" role="group" aria-label="City search and route planner">
+          <input
+            type="text"
+            id="city-search-input"
+            class="planner-search-input"
+            placeholder="Search city"
+            aria-label="Search city"
+          >
+          <div id="city-search-feedback" class="planner-search-feedback" aria-live="polite"></div>
+          <a href="contact.html" id="city-search-contact" class="planner-search-contact" aria-label="Write Us" hidden>Write Us!</a>
+          <button class="btn ghost image-btn" id="toggle-planner-btn" type="button" aria-label="Make Your Own City Visit"></button>
+        </div>
         
         <a href="destinations/index.html" class="image-btn-link">
           <img

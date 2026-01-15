@@ -41,7 +41,6 @@ function setButtonState(activeKey) {
     gpsLink.setAttribute("aria-disabled", gpsActive ? "true" : "false");
   }
   if (plannerBtn) {
-    plannerBtn.disabled = plannerActive;
     plannerBtn.classList.toggle("is-active", plannerActive);
   }
 }
@@ -115,10 +114,12 @@ function sendToRoutePlanner(city) {
   const cityName = city.routeCity || city.name;
 
   if (planner?.selectLocation && countryName && cityName) {
-    planner.selectLocation(countryName, cityName);
+    planner.selectLocation(countryName, cityName, { autoSubmit: true });
     pendingPlannerSelection = null;
   } else {
-    pendingPlannerSelection = countryName && cityName ? { countryName, cityName } : null;
+    pendingPlannerSelection = countryName && cityName
+      ? { countryName, cityName, autoSubmit: true }
+      : null;
     console.warn("Route planner API not ready or city lacks country mapping.", city);
   }
 }
@@ -214,8 +215,8 @@ function setupCategorySelector() {
 document.addEventListener("DOMContentLoaded", bindLocationButtons);
 document.addEventListener("routePlanner:ready", () => {
   if (pendingPlannerSelection && window.routePlannerEasy?.selectLocation) {
-    const { countryName, cityName } = pendingPlannerSelection;
-    window.routePlannerEasy.selectLocation(countryName, cityName);
+    const { countryName, cityName, autoSubmit } = pendingPlannerSelection;
+    window.routePlannerEasy.selectLocation(countryName, cityName, { autoSubmit });
     pendingPlannerSelection = null;
   }
 });

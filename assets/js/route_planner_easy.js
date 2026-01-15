@@ -8,10 +8,14 @@ document.addEventListener("includes:loaded", function () {
   const resultWrapper = document.querySelector(".route-result-wrapper");
   const resultDiv = document.getElementById("route-result");
   const savePdfBtn = document.getElementById("save-pdf-btn");
+  const searchFeedback = document.getElementById("city-search-feedback");
+  const searchContact = document.getElementById("city-search-contact");
 
   let selectedCountry = null;
   let selectedCityObj = null;
   let pendingSelection = null;
+  let pendingAutoSubmit = false;
+  const countryDataCache = new Map();
 
   const countryMap = {
     Albania: "recommendations_Albania_easy.json",
@@ -198,6 +202,7 @@ document.addEventListener("includes:loaded", function () {
     });
   }
   populateCountries();
+  if (searchContact) searchContact.hidden = true;
 
   // -----------------------------
   // SELECT DRŽAVA
@@ -248,6 +253,10 @@ document.addEventListener("includes:loaded", function () {
   citySelect.addEventListener("change", function () {
     selectedCityObj = selectedCountry?.cities?.find(c => c.name === this.value);
     submitBtn.disabled = !selectedCityObj;
+    if (pendingAutoSubmit && selectedCityObj) {
+      pendingAutoSubmit = false;
+      submitBtn.click();
+    }
   });
 
   // -----------------------------
@@ -479,6 +488,37 @@ document.addEventListener("includes:loaded", function () {
       : "";
   }
 
+  async function loadCountryData(countryName) {
+    if (!countryName) return null;
+    const cached = countryDataCache.get(countryName);
+    if (cached) return cached;
+
+    const fileName = countryMap[countryName];
+    if (!fileName) return null;
+
+    const path = `/assets/recommendations/countries/${fileName}`;
+    const res = await fetch(path);
+    if (!res.ok) throw new Error("Failed to load country data.");
+    const json = await res.json();
+    countryDataCache.set(countryName, json);
+    return json;
+  }
+
+  async function searchCityAcrossCountries(query) {
+    const normalizedQuery = normalizeName(query);
+    if (!normalizedQuery) return null;
+
+    for (const countryName of Object.keys(countryMap)) {
+      const data = await loadCountryData(countryName);
+      const match = data?.cities?.find(city => normalizeName(city?.name) === normalizedQuery);
+      if (match) {
+        return { country: countryName, city: match.name };
+      }
+    }
+
+    return null;
+  }
+
   function applyPendingCitySelection() {
     if (!pendingSelection) return;
     if (pendingSelection.country && countrySelect.value !== pendingSelection.country) return;
@@ -513,9 +553,10 @@ document.addEventListener("includes:loaded", function () {
   }
 
   window.routePlannerEasy = window.routePlannerEasy || {};
-  window.routePlannerEasy.selectLocation = function (countryName, cityName) {
+  window.routePlannerEasy.selectLocation = function (countryName, cityName, options = {}) {
     if (!countryName) return;
     pendingSelection = { country: countryName, city: cityName };
+    pendingAutoSubmit = Boolean(options.autoSubmit);
 
     openPlannerPanel();
 
@@ -527,6 +568,33 @@ document.addEventListener("includes:loaded", function () {
     }
   };
   window.routePlannerEasy.openPanel = openPlannerPanel;
+  window.routePlannerEasy.searchAndSelectCity = async function (query) {
+    const trimmed = query?.trim();
+    if (!trimmed) return false;
+
+    errorMsg.textContent = "";
+    if (searchFeedback) searchFeedback.textContent = "";
+    if (searchContact) searchContact.hidden = true;
+    try {
+      const match = await searchCityAcrossCountries(trimmed);
+      if (!match) {
+        if (searchFeedback) {
+          searchFeedback.textContent = "City not found. Make sugestion";
+        }
+        if (searchContact) searchContact.hidden = false;
+        return false;
+      }
+      window.routePlannerEasy.selectLocation(match.country, match.city, { autoSubmit: true });
+      return true;
+    } catch (err) {
+      console.error(err);
+      if (searchFeedback) {
+        searchFeedback.textContent = "Failed to search city.";
+      }
+      if (searchContact) searchContact.hidden = false;
+      return false;
+    }
+  };
 
   document.dispatchEvent(new Event("routePlanner:ready"));
 });
@@ -539,6 +607,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const panel = document.getElementById("route-planner-panel");
   const arrow = document.getElementById("route-arrow");
   const openBtn = document.getElementById("toggle-planner-btn");
+  const searchInput = document.getElementById("city-search-input");
 
   if (panel && header) {
     const toggle = () => {
@@ -552,6 +621,12 @@ document.addEventListener("DOMContentLoaded", () => {
     if (openBtn) {
       openBtn.addEventListener("click", e => {
         e.stopPropagation();
+        const query = searchInput?.value?.trim();
+        if (query && window.routePlannerEasy?.searchAndSelectCity) {
+          window.routePlannerEasy.searchAndSelectCity(query);
+          return;
+        }
+
         panel.classList.add("open");
         panel.classList.remove("collapsed");
         arrow.classList.add("open");
