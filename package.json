@@ -4,7 +4,8 @@
   "private": true,
   "description": "Static HTML/CSS/JS site for travel ideas",
   "scripts": {
-    "start": "live-server --open=./index.html",
+    "start": "node server.js",
+    "dev": "live-server --open=./index.html",
     "preview": "http-server . -o",
     "dev:vercel": "vercel dev",
     "build": "echo 'No build step needed for static site'",
@@ -17,6 +18,7 @@
   },
   "dependencies": {
     "@vercel/kv": "^1.0.1",
+    "express": "^4.21.2",
     "html2pdf.js": "^0.14.0",
     "nodemailer": "^7.0.12"
   }
