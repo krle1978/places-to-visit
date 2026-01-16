@@ -1,5 +1,3 @@
-console.log("Includes JS loaded!");
-
 // Helper: pretvara apsolutnu putanju u VALIDNU putanju za fetch
 function resolveIncludePath(path) {
     // Ako počinje sa "/" – tretiramo kao apsolutno od ROOT-a

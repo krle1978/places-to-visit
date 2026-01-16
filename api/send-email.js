@@ -1,17 +1,19 @@
-import nodemailer from "nodemailer";
+const nodemailer = require("nodemailer");
 
-export default async function handler(req, res) {
+module.exports = async function handler(req, res) {
+  if (req.method === "GET") {
+    return res.status(200).send("OK: use POST /api/send-email with { name, email, message }.");
+  }
   if (req.method !== "POST") {
     return res.status(405).json({ error: "Method not allowed" });
   }
 
-  const { name, email, message } = req.body;
+  const { name, email, message } = req.body || {};
 
   if (!name || !email || !message) {
     return res.status(400).json({ error: "Missing fields" });
   }
 
-  // Gmail SMTP (koristi App Password!)
   const transporter = nodemailer.createTransport({
     host: "smtp.gmail.com",
     port: 465,
@@ -19,10 +21,8 @@ export default async function handler(req, res) {
     auth: {
       user: process.env.MAIL_USER,
       pass: process.env.MAIL_PASS
-    },
-    tls: {
-      rejectUnauthorized: false
     }
+    // tls: { rejectUnauthorized: false }  // ovo izbaci, nije ti potrebno za Gmail i ružno je security-wise
   });
 
   try {
@@ -30,11 +30,7 @@ export default async function handler(req, res) {
       from: `"Places To Visit Contact" <${process.env.MAIL_USER}>`,
       to: "krstic.rade@gmail.com",
       subject: "New Contact Form Message",
-      text: `
-Name: ${name}
-Email: ${email}
-Message: ${message}
-      `,
+      text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}\n`
     });
 
     return res.status(200).json({ success: true });
@@ -42,4 +38,4 @@ Message: ${message}
     console.error("Email error:", err);
     return res.status(500).json({ error: "Failed to send email" });
   }
-}
+};

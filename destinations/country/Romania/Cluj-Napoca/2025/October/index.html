@@ -20,6 +20,7 @@
     <!-- JS -->
     <script src="/assets/js/includes.js" defer></script>
     <script src="/assets/js/header.js" defer></script>
+    <script src="/assets/js/comments.js" defer></script>
 
     <!-- ROUTE CONFIG MORA IĆI PRE city-routes.js -->
     <script>
@@ -430,6 +431,28 @@
 
 
 <!-- FOOTER -->
+<section class="city-section comments-section" data-comment-key="romania-cluj-napoca-2025-october">
+    <details class="comments-accordion">
+        <summary class="comments-summary">Leave a comment</summary>
+        <div class="comments-body">
+            <form class="comments-form" aria-label="Comment form">
+                <label for="comment-name">Name</label>
+                <input id="comment-name" name="name" type="text" placeholder="Your name">
+                <input name="website" type="text" tabindex="-1" autocomplete="off" aria-hidden="true" style="display:none">
+
+                <label for="comment-text">Comment</label>
+                <textarea id="comment-text" name="comment" rows="4" placeholder="Your advice for visiting Cluj-Napoca"></textarea>
+
+                <button type="button">Post comment</button>
+                <p class="comments-error" role="alert"></p>
+            </form>
+
+            <div class="comments-list" aria-live="polite">
+                <p class="comments-empty">Be the first to give good advice for visiting this great city.</p>
+            </div>
+        </div>
+    </details>
+</section>
 <div data-include="/components/footer.html"></div>
 
 <!-- GALLERY MODAL -->

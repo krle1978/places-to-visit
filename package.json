@@ -6,15 +6,18 @@
   "scripts": {
     "start": "live-server --open=./index.html",
     "preview": "http-server . -o",
+    "dev:vercel": "vercel dev",
     "build": "echo 'No build step needed for static site'",
     "clean": "rimraf dist"
   },
   "devDependencies": {
     "http-server": "^14.1.1",
-    "live-server": "^1.2.2",
+    "live-server": "^1.2.0",
     "rimraf": "^5.0.10"
   },
   "dependencies": {
-    "html2pdf.js": "^0.12.1"
+    "@vercel/kv": "^1.0.1",
+    "html2pdf.js": "^0.14.0",
+    "nodemailer": "^7.0.12"
   }
 }

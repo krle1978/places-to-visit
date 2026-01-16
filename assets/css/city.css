@@ -353,6 +353,141 @@ html, body {
   background: #4f46e5;
 }
 
+/* ============================================================
+   COMMENTS (COLLAPSIBLE)
+============================================================ */
+.comments-section {
+    margin-top: 2.5rem;
+}
+
+.comments-accordion {
+    background: #f8fafc;
+    border: 1px solid #e5e7eb;
+    border-radius: 16px;
+    padding: 0.4rem 0;
+}
+
+.comments-summary {
+    list-style: none;
+    cursor: pointer;
+    padding: 1rem 1.5rem;
+    font-size: 1.05rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.comments-summary::-webkit-details-marker {
+    display: none;
+}
+
+.comments-summary::after {
+    content: "+";
+    font-size: 1.2rem;
+    color: #4b5563;
+    transition: transform 0.2s ease;
+}
+
+.comments-accordion[open] .comments-summary::after {
+    content: "-";
+}
+
+.comments-body {
+    padding: 1.2rem 1.5rem 1.5rem;
+    border-top: 1px solid #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.comments-form {
+    display: grid;
+    gap: 0.8rem;
+}
+
+.comments-form label {
+    font-weight: 500;
+    font-size: 0.95rem;
+    color: #374151;
+}
+
+.comments-form input,
+.comments-form textarea {
+    padding: 10px 12px;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: 1px solid #d1d5db;
+    background: #ffffff;
+}
+
+.comments-form textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.comments-form button {
+    justify-self: start;
+    padding: 10px 16px;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: none;
+    background: #4a63e7;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.comments-form button:hover {
+    background: #394fd1;
+}
+
+.comments-error {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #dc2626;
+    min-height: 1.2rem;
+}
+
+.comments-list {
+    background: #ffffff;
+    border: 1px dashed #d1d5db;
+    border-radius: 12px;
+    padding: 1rem 1.1rem;
+}
+
+.comments-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    padding: 0.8rem 0;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.comments-item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.comments-meta {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #374151;
+}
+
+.comments-text {
+    margin: 0;
+    font-size: 0.98rem;
+    color: #4b5563;
+}
+
+.comments-empty {
+    margin: 0;
+    font-size: 0.98rem;
+    color: #6b7280;
+}
+
 @media (max-width: 700px) {
     .route-result {
         grid-template-columns: 1fr;
