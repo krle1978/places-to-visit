@@ -231,6 +231,29 @@ const stripSession = (comments) => {
     : [];
 };
 
+const getJsonBody = async (req) => {
+  // Ako platforma već parsira body u objekat
+  if (req.body && typeof req.body === "object") return req.body;
+
+  // Ako je body string
+  if (typeof req.body === "string") {
+    try { return JSON.parse(req.body); } catch { return null; }
+  }
+
+  // Inače pročitaj raw stream
+  try {
+    const chunks = [];
+    for await (const chunk of req) {
+      chunks.push(Buffer.isBuffer(chunk) ? chunk : Buffer.from(chunk));
+    }
+    const raw = Buffer.concat(chunks).toString("utf8").trim();
+    if (!raw) return null;
+    return JSON.parse(raw);
+  } catch (e) {
+    return null;
+  }
+};
+
 module.exports = async (req, res) => {
   const kv = getKvClient();
   const isProd = process.env.NODE_ENV === "production";
