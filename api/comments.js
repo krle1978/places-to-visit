@@ -1,6 +1,8 @@
 const crypto = require("crypto");
 const fs = require("fs/promises");
 const path = require("path");
+const VERSION = "comments-api-2026-01-16-2048";
+
 
 const memoryStore = new Map();
 const localDirPath = path.join(process.cwd(), "data", "comments");
@@ -261,11 +263,15 @@ module.exports = async (req, res) => {
   const shouldUseKv = Boolean(kv && isProd);
 
   if (req.method === "GET") {
-    const key = req.query.key;
-    if (!key) {
-      return jsonResponse(res, 400, { error: "Missing key." });
-    }
-
+  if (req.query && req.query.debug === "1") {
+    return jsonResponse(res, 200, {
+      ok: true,
+      version: VERSION,
+      nodeEnv: process.env.NODE_ENV || "unknown",
+      hasReqBody: typeof req.body,
+      hasKvEnv: Boolean(process.env.KV_REST_API_URL && process.env.KV_REST_API_TOKEN),
+    });
+  }
     let data;
     if (shouldUseKv) {
       data = await readFromKv(kv, storeKey(key));
