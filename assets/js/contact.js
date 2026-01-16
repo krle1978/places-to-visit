@@ -1,3 +1,5 @@
+const API_BASE = "https://places-to-visit-server.onrender.com";
+
 window.addEventListener("load", () => {
     const form = document.getElementById("contactForm");
     if (!form) return;
@@ -62,7 +64,7 @@ window.addEventListener("load", () => {
         };
 
         try {
-            const response = await fetch("/api/send-email", {
+            const response = await fetch(`${API_BASE}/api/send-email`, {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify(data),

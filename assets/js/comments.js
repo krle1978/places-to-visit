@@ -1,4 +1,5 @@
 (() => {
+  const API_BASE = "https://places-to-visit-server.onrender.com";
   const section = document.querySelector(".comments-section");
   if (!section) {
     return;
@@ -101,7 +102,11 @@
   const fetchComments = async () => {
     try {
       const response = await fetch(
-        `/api/comments?key=${encodeURIComponent(commentKey)}`
+        `${API_BASE}/api/comments?key=${encodeURIComponent(commentKey)}`,
+        {
+          method: "GET",
+          credentials: "include",
+        }
       );
       if (!response.ok) {
         throw new Error("Failed to load comments.");
@@ -141,11 +146,12 @@
     }
 
     try {
-      const response = await fetch("/api/comments", {
+      const response = await fetch(`${API_BASE}/api/comments`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
+        credentials: "include",
         body: JSON.stringify({
           key: commentKey,
           name,
@@ -195,11 +201,12 @@
     }
 
     try {
-      const response = await fetch("/api/comments", {
+      const response = await fetch(`${API_BASE}/api/comments`, {
         method: "DELETE",
         headers: {
           "Content-Type": "application/json",
         },
+        credentials: "include",
         body: JSON.stringify({
           key: commentKey,
           id,
