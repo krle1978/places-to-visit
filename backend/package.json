@@ -1,0 +1,14 @@
+{
+  "name": "places-to-visit-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Backend for Places To Visit (Render)",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@vercel/kv": "^1.0.1",
+    "express": "^4.21.2",
+    "nodemailer": "^7.0.12"
+  }
+}

@@ -2,28 +2,24 @@ const path = require("path");
 const express = require("express");
 
 const commentsHandler = require("./api/comments");
+const sendEmailHandler = require("./api/send-email");
+
+process.chdir(__dirname);
 
 const app = express();
 const PORT = process.env.PORT || 3001;
 
 app.set("trust proxy", 1);
-
 app.use(express.json({ limit: "1mb" }));
 app.use(express.urlencoded({ extended: true }));
 
-// API
+// API routes
 app.use("/api/comments", (req, res) => commentsHandler(req, res));
+app.use("/api/send-email", (req, res) => sendEmailHandler(req, res));
 
-// Static files
-// Root (so it can serve index.html, contact.html, etc.)
-app.use(express.static(__dirname));
-
-// Assets folder explicitly (optional but helpful)
-app.use("/assets", express.static(path.join(__dirname, "assets")));
-
-// Optional: homepage fallback
+// Health check
 app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "index.html"));
+  res.json({ ok: true, service: "places-to-visit-backend" });
 });
 
 app.listen(PORT, () => {

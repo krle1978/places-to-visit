@@ -72,8 +72,13 @@ const sanitizeKey = (key) => {
 
 const toKvKey = (key) => `comments:${sanitizeKey(key)}`;
 const toLocalKey = (key) => sanitizeKey(key);
+const toSingleFileKey = (key) => `comments:${sanitizeKey(key)}`;
 
 const getLocalFilePath = (localKey) => path.join(localDirPath, `${localKey}.json`);
+const useSingleFile = () => {
+  const value = String(process.env.COMMENTS_SINGLE_FILE || "").trim().toLowerCase();
+  return value === "1" || value === "true" || value === "yes";
+};
 
 // ----- Local storage (dev) -----
 const readFromFile = async (filePath) => {
@@ -92,15 +97,28 @@ const writeToFile = async (filePath, data) => {
   await fs.writeFile(filePath, JSON.stringify(data, null, 2), "utf8");
 };
 
-const readFromLocal = async (localKey) => {
+const readFromLocal = async (key) => {
+  if (useSingleFile()) {
+    const all = await readFromFile(legacyFilePath);
+    const singleKey = toSingleFileKey(key);
+    return Array.isArray(all[singleKey]) ? all[singleKey] : [];
+  }
+
+  const localKey = toLocalKey(key);
   const filePath = getLocalFilePath(localKey);
   const data = await readFromFile(filePath);
   if (Array.isArray(data)) return data;
 
   // Legacy migration: legacy JSON could be { "<localKey>": [ ... ] }
   const legacy = await readFromFile(legacyFilePath);
+  const legacyKey = toSingleFileKey(key);
   if (legacy && Array.isArray(legacy[localKey])) {
     const migrated = legacy[localKey];
+    await writeToFile(filePath, migrated);
+    return migrated;
+  }
+  if (legacy && Array.isArray(legacy[legacyKey])) {
+    const migrated = legacy[legacyKey];
     await writeToFile(filePath, migrated);
     return migrated;
   }
@@ -108,7 +126,19 @@ const readFromLocal = async (localKey) => {
   return [];
 };
 
-const writeToLocal = async (localKey, value) => {
+const writeToLocal = async (key, value) => {
+  if (useSingleFile()) {
+    const all = await readFromFile(legacyFilePath);
+    const singleKey = toSingleFileKey(key);
+    const existing = Array.isArray(all[singleKey]) ? all[singleKey] : [];
+    existing.push(value);
+    const trimmed = existing.slice(-MAX_STORE_ITEMS);
+    all[singleKey] = trimmed;
+    await writeToFile(legacyFilePath, all);
+    return trimmed;
+  }
+
+  const localKey = toLocalKey(key);
   const filePath = getLocalFilePath(localKey);
   const data = await readFromFile(filePath);
   const existing = Array.isArray(data) ? data : [];
@@ -242,6 +272,72 @@ const getPayload = async (req) => {
   }
 };
 
+const normalizePathToKey = (rawPath) => {
+  if (!rawPath) return "";
+  let pathname = rawPath;
+
+  if (/^https?:\/\//i.test(rawPath)) {
+    try {
+      pathname = new URL(rawPath).pathname;
+    } catch {
+      pathname = rawPath;
+    }
+  } else {
+    pathname = rawPath.split("?")[0].split("#")[0];
+  }
+
+  pathname = decodeURIComponent(pathname).replace(/\\/g, "/").trim();
+  if (!pathname) return "";
+
+  const cleaned = pathname.replace(/\/index\.html?$/i, "");
+  const parts = cleaned.split("/").filter(Boolean);
+  if (!parts.length) return "";
+
+  let startIndex = 0;
+  const destinationsIndex = parts.findIndex((part) => part.toLowerCase() === "destinations");
+  if (destinationsIndex !== -1) startIndex = destinationsIndex + 1;
+  if (parts[startIndex] && parts[startIndex].toLowerCase() === "country") {
+    startIndex += 1;
+  }
+
+  const keyParts = parts.slice(startIndex);
+  if (!keyParts.length) return "";
+
+  return keyParts
+    .join("-")
+    .toLowerCase()
+    .replace(/_/g, "-")
+    .replace(/[^a-z0-9-]/g, "-")
+    .replace(/-+/g, "-")
+    .replace(/^-+|-+$/g, "");
+};
+
+const getKeyFromRequest = (req, payload) => {
+  const direct =
+    (payload && payload.key) || (req.query && req.query.key) || "";
+  const directValue = String(direct).trim();
+  if (directValue) {
+    if (
+      /[\\/]/.test(directValue) ||
+      /\.html?$/i.test(directValue) ||
+      /^https?:\/\//i.test(directValue)
+    ) {
+      const normalized = normalizePathToKey(directValue);
+      if (normalized) return normalized;
+    }
+    return directValue;
+  }
+
+  const pathHint =
+    (payload && (payload.path || payload.page || payload.url)) ||
+    (req.query && (req.query.path || req.query.page || req.query.url)) ||
+    req.headers.referer ||
+    req.headers.referrer ||
+    "";
+
+  return normalizePathToKey(String(pathHint || ""));
+};
+
 // ----- Main handler -----
 module.exports = async (req, res) => {
   const kv = getKvClient();
@@ -261,20 +357,19 @@ module.exports = async (req, res) => {
   }
 
   if (req.method === "GET") {
-    const key = req.query && req.query.key ? String(req.query.key) : "";
+    const key = getKeyFromRequest(req);
     if (!key) return jsonResponse(res, 400, { error: "Missing key." });
 
     const kvKey = toKvKey(key);
-    const localKey = toLocalKey(key);
 
     let data;
     if (shouldUseKv) {
       data = await readFromKv(kv, kvKey);
     } else {
       try {
-        data = await readFromLocal(localKey);
+        data = await readFromLocal(key);
       } catch {
-        data = readFromMemory(localKey);
+        data = readFromMemory(toLocalKey(key));
       }
     }
 
@@ -287,7 +382,7 @@ module.exports = async (req, res) => {
       if (!payload) return jsonResponse(res, 400, { error: "Invalid JSON payload." });
 
       // Allow key from body or query
-      const key = String(payload.key || (req.query && req.query.key) || "").trim();
+      const key = getKeyFromRequest(req, payload);
       const name = String(payload.name || "Anonymous").trim();
       const comment = String(payload.comment || "").trim();
 
@@ -315,16 +410,15 @@ module.exports = async (req, res) => {
       };
 
       const kvKey = toKvKey(key);
-      const localKey = toLocalKey(key);
 
       let data;
       if (shouldUseKv) {
         data = await writeToKv(kv, kvKey, entry);
       } else {
         try {
-          data = await writeToLocal(localKey, entry);
+          data = await writeToLocal(key, entry);
         } catch {
-          data = writeToMemory(localKey, entry);
+          data = writeToMemory(toLocalKey(key), entry);
         }
       }
 
@@ -344,7 +438,7 @@ module.exports = async (req, res) => {
       const payload = await getPayload(req);
       if (!payload) return jsonResponse(res, 400, { error: "Invalid JSON payload." });
 
-      const key = String(payload.key || "").trim();
+      const key = getKeyFromRequest(req, payload);
       const id = String(payload.id || "").trim();
 
       if (!key || !id) {
@@ -355,11 +449,10 @@ module.exports = async (req, res) => {
       if (!sessionId) return jsonResponse(res, 401, { error: "Missing session." });
 
       const kvKey = toKvKey(key);
-      const localKey = toLocalKey(key);
 
       const loadAll = async () => {
         if (shouldUseKv) return readFromKv(kv, kvKey);
-        return readFromLocal(localKey);
+        return readFromLocal(key);
       };
 
       const saveAll = async (items) => {
@@ -374,7 +467,14 @@ module.exports = async (req, res) => {
           return trimmed;
         }
 
-        await writeToFile(getLocalFilePath(localKey), trimmed);
+        if (useSingleFile()) {
+          const all = await readFromFile(legacyFilePath);
+          const singleKey = toSingleFileKey(key);
+          all[singleKey] = trimmed;
+          await writeToFile(legacyFilePath, all);
+        } else {
+          await writeToFile(getLocalFilePath(toLocalKey(key)), trimmed);
+        }
         return trimmed;
       };
 

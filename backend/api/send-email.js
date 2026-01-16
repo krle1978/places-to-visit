@@ -22,7 +22,7 @@ module.exports = async function handler(req, res) {
       user: process.env.MAIL_USER,
       pass: process.env.MAIL_PASS
     }
-    // tls: { rejectUnauthorized: false }  // ovo izbaci, nije ti potrebno za Gmail i ružno je security-wise
+    // tls: { rejectUnauthorized: false }  // ovo izbaci, nije ti potrebno za Gmail i ruóno je security-wise
   });
 
   try {

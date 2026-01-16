@@ -4,7 +4,7 @@
   "private": true,
   "description": "Static HTML/CSS/JS site for travel ideas",
   "scripts": {
-    "start": "node server.js",
+    "start": "node backend/server.js",
     "dev": "live-server --open=./index.html",
     "preview": "http-server . -o",
     "dev:vercel": "vercel dev",
