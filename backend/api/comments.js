@@ -203,7 +203,7 @@ const ensureSessionId = (req, res, isProd) => {
   const cookieParts = [
     `comments_sid=${encodeURIComponent(sessionId)}`,
     "Path=/",
-    "SameSite=Lax",
+    isProd ? "SameSite=None" : "SameSite=Lax",
     "HttpOnly",
   ];
   if (isProd) cookieParts.push("Secure");

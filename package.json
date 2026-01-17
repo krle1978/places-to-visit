@@ -7,6 +7,7 @@
     "start": "node backend/server.js",
     "dev": "live-server --host=localhost --port=3000 --open=./index.html --ignore=backend/**",
     "dev:all": "node scripts/dev-all.js",
+    "start:all": "npm run dev:all",
     "preview": "http-server . -o",
     "dev:vercel": "vercel dev",
     "build": "node scripts/write-runtime-config.js",
