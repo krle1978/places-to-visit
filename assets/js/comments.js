@@ -1,19 +1,5 @@
 (() => {
-  const getDefaultApiBase = () =>
-    window.location.hostname === "localhost" ||
-    window.location.hostname === "127.0.0.1"
-      ? "http://localhost:3001"
-      : "https://places-to-visit-server.onrender.com";
-
-  const runtimeConfigPromise = fetch("/runtime-config.json", {
-    cache: "no-store",
-  })
-    .then((response) => (response.ok ? response.json() : null))
-    .then((config) => {
-      const configured = config && String(config.apiBaseUrl || "").trim();
-      return configured || getDefaultApiBase();
-    })
-    .catch(() => getDefaultApiBase());
+  const API_BASE = "https://places-to-visit-server.onrender.com";
   const section = document.querySelector(".comments-section");
   if (!section) {
     return;
@@ -138,9 +124,8 @@
 
   const fetchComments = async () => {
     try {
-      const apiBase = await runtimeConfigPromise;
       const response = await fetch(
-        `${apiBase}/api/comments?key=${encodeURIComponent(commentKey)}`,
+        `${API_BASE}/api/comments?key=${encodeURIComponent(commentKey)}`,
         {
           method: "GET",
           credentials: "include",
@@ -188,8 +173,7 @@
         accordion.open = true;
         saveAccordionState(true);
       }
-      const apiBase = await runtimeConfigPromise;
-      const response = await fetch(`${apiBase}/api/comments`, {
+      const response = await fetch(`${API_BASE}/api/comments`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -199,7 +183,6 @@
           key: commentKey,
           name,
           comment: text,
-          website: honeypotInput ? honeypotInput.value : "",
         }),
       });
 
@@ -248,8 +231,7 @@
         accordion.open = true;
         saveAccordionState(true);
       }
-      const apiBase = await runtimeConfigPromise;
-      const response = await fetch(`${apiBase}/api/comments`, {
+      const response = await fetch(`${API_BASE}/api/comments`, {
         method: "DELETE",
         headers: {
           "Content-Type": "application/json",
