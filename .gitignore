@@ -43,3 +43,13 @@ build/
 .vercel
 .env*.local
 .env
+
+# --- COMMENTS / RUNTIME DATA (do not commit) ---
+backend/data/
+backend/data/comments.json
+backend/data/comments/
+backend/data/comments/*.json
+data/
+data/comments.json
+data/comments/
+data/comments/*.json
