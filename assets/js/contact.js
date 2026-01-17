@@ -10,12 +10,12 @@ const runtimeConfigPromise = fetch("/runtime-config.json", {
 })
     .then((response) => (response.ok ? response.json() : null))
     .then((config) => {
+        if (!isLocalHost) return getDefaultApiBase();
         const configured = config && String(config.apiBaseUrl || "").trim();
         if (!configured) return getDefaultApiBase();
         const configuredIsLocal =
             configured.includes("localhost") || configured.includes("127.0.0.1");
-        if (!isLocalHost && configuredIsLocal) return getDefaultApiBase();
-        return configured;
+        return configuredIsLocal ? configured : getDefaultApiBase();
     })
     .catch(() => getDefaultApiBase());
 
