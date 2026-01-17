@@ -1,4 +1,18 @@
-const API_BASE = "https://places-to-visit-server.onrender.com";
+const getDefaultApiBase = () =>
+    window.location.hostname === "localhost" ||
+    window.location.hostname === "127.0.0.1"
+        ? "http://localhost:3001"
+        : "https://places-to-visit-server.onrender.com";
+
+const runtimeConfigPromise = fetch("/runtime-config.json", {
+    cache: "no-store",
+})
+    .then((response) => (response.ok ? response.json() : null))
+    .then((config) => {
+        const configured = config && String(config.apiBaseUrl || "").trim();
+        return configured || getDefaultApiBase();
+    })
+    .catch(() => getDefaultApiBase());
 
 window.addEventListener("load", () => {
     const form = document.getElementById("contactForm");
@@ -64,7 +78,8 @@ window.addEventListener("load", () => {
         };
 
         try {
-            const response = await fetch(`${API_BASE}/api/send-email`, {
+            const apiBase = await runtimeConfigPromise;
+            const response = await fetch(`${apiBase}/api/send-email`, {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify(data),

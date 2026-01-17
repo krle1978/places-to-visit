@@ -5,10 +5,11 @@
   "description": "Static HTML/CSS/JS site for travel ideas",
   "scripts": {
     "start": "node backend/server.js",
-    "dev": "live-server --open=./index.html",
+    "dev": "live-server --host=localhost --port=3000 --open=./index.html --ignore=backend/**",
+    "dev:all": "node scripts/dev-all.js",
     "preview": "http-server . -o",
     "dev:vercel": "vercel dev",
-    "build": "echo 'No build step needed for static site'",
+    "build": "node scripts/write-runtime-config.js",
     "clean": "rimraf dist"
   },
   "devDependencies": {

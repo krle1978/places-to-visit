@@ -17,6 +17,7 @@ const ALLOWED_ORIGINS = new Set([
   "https://places-to-visit-byrk.vercel.app",
   "http://localhost:3000",
   "http://localhost:5173",
+  "http://127.0.0.1:3000",
 ]);
 
 app.use((req, res, next) => {

@@ -1,10 +1,25 @@
 (() => {
-  const API_BASE = "https://places-to-visit-server.onrender.com";
+  const getDefaultApiBase = () =>
+    window.location.hostname === "localhost" ||
+    window.location.hostname === "127.0.0.1"
+      ? "http://localhost:3001"
+      : "https://places-to-visit-server.onrender.com";
+
+  const runtimeConfigPromise = fetch("/runtime-config.json", {
+    cache: "no-store",
+  })
+    .then((response) => (response.ok ? response.json() : null))
+    .then((config) => {
+      const configured = config && String(config.apiBaseUrl || "").trim();
+      return configured || getDefaultApiBase();
+    })
+    .catch(() => getDefaultApiBase());
   const section = document.querySelector(".comments-section");
   if (!section) {
     return;
   }
 
+  const accordion = section.querySelector(".comments-accordion");
   const form = section.querySelector(".comments-form");
   const nameInput = section.querySelector("#comment-name");
   const commentInput = section.querySelector("#comment-text");
@@ -19,6 +34,21 @@
   const commentKey =
     section.getAttribute("data-comment-key") || window.location.pathname;
   const sessionIdsKey = `comments:own:${commentKey}`;
+  const accordionStateKey = `comments:accordion:${commentKey}`;
+  const loadAccordionState = () => {
+    try {
+      return sessionStorage.getItem(accordionStateKey) === "open";
+    } catch (error) {
+      return false;
+    }
+  };
+  const saveAccordionState = (isOpen) => {
+    try {
+      sessionStorage.setItem(accordionStateKey, isOpen ? "open" : "closed");
+    } catch (error) {
+      // ignore storage issues
+    }
+  };
   const loadOwnIds = () => {
     try {
       const raw = sessionStorage.getItem(sessionIdsKey);
@@ -99,10 +129,18 @@
     });
   };
 
+  if (accordion) {
+    accordion.open = loadAccordionState();
+    accordion.addEventListener("toggle", () => {
+      saveAccordionState(accordion.open);
+    });
+  }
+
   const fetchComments = async () => {
     try {
+      const apiBase = await runtimeConfigPromise;
       const response = await fetch(
-        `${API_BASE}/api/comments?key=${encodeURIComponent(commentKey)}`,
+        `${apiBase}/api/comments?key=${encodeURIComponent(commentKey)}`,
         {
           method: "GET",
           credentials: "include",
@@ -146,7 +184,12 @@
     }
 
     try {
-      const response = await fetch(`${API_BASE}/api/comments`, {
+      if (accordion) {
+        accordion.open = true;
+        saveAccordionState(true);
+      }
+      const apiBase = await runtimeConfigPromise;
+      const response = await fetch(`${apiBase}/api/comments`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -201,7 +244,12 @@
     }
 
     try {
-      const response = await fetch(`${API_BASE}/api/comments`, {
+      if (accordion) {
+        accordion.open = true;
+        saveAccordionState(true);
+      }
+      const apiBase = await runtimeConfigPromise;
+      const response = await fetch(`${apiBase}/api/comments`, {
         method: "DELETE",
         headers: {
           "Content-Type": "application/json",
