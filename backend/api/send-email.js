@@ -27,10 +27,11 @@ module.exports = async function handler(req, res) {
 
   try {
     await transporter.sendMail({
-      from: `"Places To Visit Contact" <${process.env.MAIL_USER}>`,
-      to: "krstic.rade@gmail.com",
-      subject: "New Contact Form Message",
-      text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}\n`
+      from: `"${name}" <${process.env.MAIL_USER}>`,
+      replyTo: `"${name}" <${email}>`,
+      to: process.env.MAIL_USER,
+      subject: "Comment from Places To Vidit",
+      text: message
     });
 
     return res.status(200).json({ success: true });
