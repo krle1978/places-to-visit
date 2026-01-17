@@ -1,8 +1,9 @@
-const getDefaultApiBase = () =>
+const isLocalHost =
     window.location.hostname === "localhost" ||
-    window.location.hostname === "127.0.0.1"
-        ? "http://localhost:3001"
-        : "https://places-to-visit-server.onrender.com";
+    window.location.hostname === "127.0.0.1";
+
+const getDefaultApiBase = () =>
+    isLocalHost ? "http://localhost:3001" : window.location.origin;
 
 const runtimeConfigPromise = fetch("/runtime-config.json", {
     cache: "no-store",
@@ -10,7 +11,11 @@ const runtimeConfigPromise = fetch("/runtime-config.json", {
     .then((response) => (response.ok ? response.json() : null))
     .then((config) => {
         const configured = config && String(config.apiBaseUrl || "").trim();
-        return configured || getDefaultApiBase();
+        if (!configured) return getDefaultApiBase();
+        const configuredIsLocal =
+            configured.includes("localhost") || configured.includes("127.0.0.1");
+        if (!isLocalHost && configuredIsLocal) return getDefaultApiBase();
+        return configured;
     })
     .catch(() => getDefaultApiBase());
 
