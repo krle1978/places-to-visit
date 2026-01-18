@@ -1,5 +1,23 @@
 (() => {
-  const COMMENTS_API = "/api/comments";
+  console.log("COMMENTS JS VERSION 2026-01-18");
+  const isLocalHost =
+    window.location.hostname === "localhost" ||
+    window.location.hostname === "127.0.0.1";
+  const getDefaultApiBase = () =>
+    isLocalHost ? "http://localhost:3001" : window.location.origin;
+  const runtimeConfigPromise = fetch("/runtime-config.json", {
+    cache: "no-store",
+  })
+    .then((response) => (response.ok ? response.json() : null))
+    .then((config) => {
+      if (!isLocalHost) return getDefaultApiBase();
+      const configured = config && String(config.apiBaseUrl || "").trim();
+      if (!configured) return getDefaultApiBase();
+      const configuredIsLocal =
+        configured.includes("localhost") || configured.includes("127.0.0.1");
+      return configuredIsLocal ? configured : getDefaultApiBase();
+    })
+    .catch(() => getDefaultApiBase());
   const section = document.querySelector(".comments-section");
   if (!section) {
     return;
@@ -48,8 +66,6 @@
   const saveOwnIds = (ids) => {
     sessionStorage.setItem(sessionIdsKey, JSON.stringify(ids));
   };
-  let localCommentsLoaded = false;
-
   const setError = (message) => {
     if (!errorMessage) {
       return;
@@ -132,45 +148,20 @@
     });
   }
 
-  const loadLocalComments = async () => {
-    try {
-      const response = await fetch("/backend/data/comments.json", {
-        method: "GET",
-        cache: "no-store",
-      });
-      if (!response.ok) {
-        throw new Error("Local comments missing.");
-      }
-      const payload = await response.json();
-      const localKey = `comments:${commentKey}`;
-      const localComments = payload[localKey] || payload[commentKey] || [];
-      if (Array.isArray(localComments) && localComments.length) {
-        localCommentsLoaded = true;
-        renderComments(localComments);
-      }
-    } catch (error) {
-      // ignore local comment load failures
-    }
-  };
-
   const fetchComments = async () => {
     try {
+      const apiBase = await runtimeConfigPromise;
       const response = await fetch(
-        `${COMMENTS_API}?key=${encodeURIComponent(commentKey)}`,
+        `${apiBase}/api/comments?key=${encodeURIComponent(commentKey)}`,
         {
           method: "GET",
-          credentials: "include",
         }
       );
       if (!response.ok) {
         throw new Error("Failed to load comments.");
       }
       const payload = await response.json();
-      const apiComments = payload.comments || [];
-      if (!apiComments.length && localCommentsLoaded) {
-        return;
-      }
-      renderComments(apiComments);
+      renderComments(payload.comments || []);
     } catch (error) {
       setError("Unable to load comments right now.");
     }
@@ -208,12 +199,12 @@
         accordion.open = true;
         saveAccordionState(true);
       }
-      const response = await fetch(COMMENTS_API, {
+      const apiBase = await runtimeConfigPromise;
+      const response = await fetch(`${apiBase}/api/comments`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
-        credentials: "include",
         body: JSON.stringify({
           key: commentKey,
           name,
@@ -249,7 +240,7 @@
     submitBtn.addEventListener("click", postComment);
   }
 
-  loadLocalComments().finally(fetchComments);
+  fetchComments();
 
   const deleteComment = async (id, buttonEl) => {
     if (!id) {
@@ -266,12 +257,12 @@
         accordion.open = true;
         saveAccordionState(true);
       }
-      const response = await fetch(COMMENTS_API, {
+      const apiBase = await runtimeConfigPromise;
+      const response = await fetch(`${apiBase}/api/comments`, {
         method: "DELETE",
         headers: {
           "Content-Type": "application/json",
         },
-        credentials: "include",
         body: JSON.stringify({
           key: commentKey,
           id,
