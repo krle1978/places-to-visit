@@ -1,5 +1,5 @@
 (() => {
-  const API_BASE = "https://places-to-visit-server.onrender.com";
+  const COMMENTS_API = "/api/comments";
   const section = document.querySelector(".comments-section");
   if (!section) {
     return;
@@ -13,6 +13,7 @@
   const emptyMessage = section.querySelector(".comments-empty");
   const errorMessage = section.querySelector(".comments-error");
   const submitBtn = form ? form.querySelector("button") : null;
+  const openCommentsBtn = document.querySelector(".comments-open-btn");
   const honeypotInput = form
     ? form.querySelector('input[name="website"]')
     : null;
@@ -47,6 +48,7 @@
   const saveOwnIds = (ids) => {
     sessionStorage.setItem(sessionIdsKey, JSON.stringify(ids));
   };
+  let localCommentsLoaded = false;
 
   const setError = (message) => {
     if (!errorMessage) {
@@ -122,10 +124,39 @@
     });
   }
 
+  if (openCommentsBtn && accordion) {
+    openCommentsBtn.addEventListener("click", () => {
+      accordion.open = true;
+      saveAccordionState(true);
+      section.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  }
+
+  const loadLocalComments = async () => {
+    try {
+      const response = await fetch("/backend/data/comments.json", {
+        method: "GET",
+        cache: "no-store",
+      });
+      if (!response.ok) {
+        throw new Error("Local comments missing.");
+      }
+      const payload = await response.json();
+      const localKey = `comments:${commentKey}`;
+      const localComments = payload[localKey] || payload[commentKey] || [];
+      if (Array.isArray(localComments) && localComments.length) {
+        localCommentsLoaded = true;
+        renderComments(localComments);
+      }
+    } catch (error) {
+      // ignore local comment load failures
+    }
+  };
+
   const fetchComments = async () => {
     try {
       const response = await fetch(
-        `${API_BASE}/api/comments?key=${encodeURIComponent(commentKey)}`,
+        `${COMMENTS_API}?key=${encodeURIComponent(commentKey)}`,
         {
           method: "GET",
           credentials: "include",
@@ -135,7 +166,11 @@
         throw new Error("Failed to load comments.");
       }
       const payload = await response.json();
-      renderComments(payload.comments || []);
+      const apiComments = payload.comments || [];
+      if (!apiComments.length && localCommentsLoaded) {
+        return;
+      }
+      renderComments(apiComments);
     } catch (error) {
       setError("Unable to load comments right now.");
     }
@@ -173,7 +208,7 @@
         accordion.open = true;
         saveAccordionState(true);
       }
-      const response = await fetch(`${API_BASE}/api/comments`, {
+      const response = await fetch(COMMENTS_API, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -214,7 +249,7 @@
     submitBtn.addEventListener("click", postComment);
   }
 
-  fetchComments();
+  loadLocalComments().finally(fetchComments);
 
   const deleteComment = async (id, buttonEl) => {
     if (!id) {
@@ -231,7 +266,7 @@
         accordion.open = true;
         saveAccordionState(true);
       }
-      const response = await fetch(`${API_BASE}/api/comments`, {
+      const response = await fetch(COMMENTS_API, {
         method: "DELETE",
         headers: {
           "Content-Type": "application/json",

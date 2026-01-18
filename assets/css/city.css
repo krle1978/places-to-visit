@@ -360,6 +360,30 @@ html, body {
     margin-top: 2.5rem;
 }
 
+.comments-cta {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 1rem 1.5rem;
+    border: 2px solid #b8860b;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    text-align: left;
+}
+
+.comments-cta p {
+    margin: 0;
+}
+
+.comments-open-btn {
+    align-self: center;
+    border: 2px solid #b8860b;
+    background: #f6e5a8;
+    color: #5b4300;
+}
+
 .comments-accordion {
     background: #f8fafc;
     border: 1px solid #e5e7eb;
