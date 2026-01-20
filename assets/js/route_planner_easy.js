@@ -10,6 +10,26 @@ document.addEventListener("includes:loaded", function () {
   const savePdfBtn = document.getElementById("save-pdf-btn");
   const searchFeedback = document.getElementById("city-search-feedback");
   const searchContact = document.getElementById("city-search-contact");
+  const searchInput = document.getElementById("city-search-input");
+
+  const isLocalHost =
+    window.location.hostname === "localhost" ||
+    window.location.hostname === "127.0.0.1";
+  const getDefaultApiBase = () =>
+    isLocalHost ? "http://localhost:3001" : window.location.origin;
+  const runtimeConfigPromise = fetch("/runtime-config.json", {
+    cache: "no-store",
+  })
+    .then((response) => (response.ok ? response.json() : null))
+    .then((config) => {
+      if (!isLocalHost) return getDefaultApiBase();
+      const configured = config && String(config.apiBaseUrl || "").trim();
+      if (!configured) return getDefaultApiBase();
+      const configuredIsLocal =
+        configured.includes("localhost") || configured.includes("127.0.0.1");
+      return configuredIsLocal ? configured : getDefaultApiBase();
+    })
+    .catch(() => getDefaultApiBase());
 
   let selectedCountry = null;
   let selectedCityObj = null;
@@ -203,6 +223,52 @@ document.addEventListener("includes:loaded", function () {
   }
   populateCountries();
   if (searchContact) searchContact.hidden = true;
+  if (searchContact) {
+    searchContact.addEventListener("click", async (event) => {
+      event.preventDefault();
+
+      const cityName = searchInput?.value?.trim();
+      if (!cityName) return;
+
+      searchContact.setAttribute("aria-busy", "true");
+      searchContact.style.pointerEvents = "none";
+
+      const data = {
+        name: "City Suggestion",
+        email: "noreply@placestovisit.com",
+        subject: "Sugestion from Places To Visit",
+        message: `User sugested:\n${cityName}.`,
+      };
+
+      try {
+        const apiBase = await runtimeConfigPromise;
+        const response = await fetch(`${apiBase}/api/send-email`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(data),
+        });
+
+        if (response.ok) {
+          if (searchFeedback) {
+            searchFeedback.textContent = "Thank You for Your sugestuin.";
+            searchFeedback.style.color = "#16a34a";
+          }
+          searchContact.hidden = true;
+        } else if (searchFeedback) {
+          searchFeedback.textContent = "Unable to send suggestion.";
+          searchFeedback.style.color = "#dc2626";
+        }
+      } catch (err) {
+        if (searchFeedback) {
+          searchFeedback.textContent = "Unable to send suggestion.";
+          searchFeedback.style.color = "#dc2626";
+        }
+      } finally {
+        searchContact.removeAttribute("aria-busy");
+        searchContact.style.pointerEvents = "";
+      }
+    });
+  }
 
   // -----------------------------
   // SELECT DRŽAVA
@@ -573,13 +639,17 @@ document.addEventListener("includes:loaded", function () {
     if (!trimmed) return false;
 
     errorMsg.textContent = "";
-    if (searchFeedback) searchFeedback.textContent = "";
+    if (searchFeedback) {
+      searchFeedback.textContent = "";
+      searchFeedback.style.color = "";
+    }
     if (searchContact) searchContact.hidden = true;
     try {
       const match = await searchCityAcrossCountries(trimmed);
       if (!match) {
         if (searchFeedback) {
-          searchFeedback.textContent = "City not found. Make sugestion";
+          searchFeedback.textContent = "City not found. Make a sugestion !";
+          searchFeedback.style.color = "";
         }
         if (searchContact) searchContact.hidden = false;
         return false;

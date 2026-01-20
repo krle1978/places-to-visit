@@ -1,5 +1,6 @@
 const path = require("path");
 const express = require("express");
+require("dotenv").config({ path: path.resolve(__dirname, "../.env") });
 
 const commentsHandler = require("./api/comments");
 const sendEmailHandler = require("./api/send-email");

@@ -8,7 +8,9 @@ module.exports = async function handler(req, res) {
     return res.status(405).json({ error: "Method not allowed" });
   }
 
-  const { name, email, message } = req.body || {};
+  const { name, email, message, subject } = req.body || {};
+  const resolvedSubject =
+    String(subject || "").trim() || "Comment from Places To Visit";
 
   if (!name || !email || !message) {
     return res.status(400).json({ error: "Missing fields" });
@@ -30,7 +32,7 @@ module.exports = async function handler(req, res) {
       from: `"${name}" <${process.env.MAIL_USER}>`,
       replyTo: `"${name}" <${email}>`,
       to: process.env.MAIL_USER,
-      subject: "Comment from Places To Vidit",
+      subject: resolvedSubject,
       text: message
     });
 

@@ -8,7 +8,9 @@
   },
   "dependencies": {
     "@vercel/kv": "^1.0.1",
+    "dotenv": "^16.4.7",
     "express": "^4.21.2",
-    "nodemailer": "^7.0.12"
+    "nodemailer": "^7.0.12",
+    "places-to-visit": "file:.."
   }
 }

@@ -39,6 +39,7 @@ module.exports = async function handler(req, res) {
   const name = String(payload.name || "").trim();
   const email = String(payload.email || "").trim();
   const message = String(payload.message || "").trim();
+  const subject = String(payload.subject || "").trim() || "Comment from Places To Visit";
 
   if (!name || !email || !message) {
     res.statusCode = 400;
@@ -68,7 +69,7 @@ module.exports = async function handler(req, res) {
       from: `"${name}" <${process.env.MAIL_USER}>`,
       replyTo: `"${name}" <${email}>`,
       to: process.env.MAIL_USER,
-      subject: "Comment from Places To Vidit",
+      subject,
       text: message,
     });
 
