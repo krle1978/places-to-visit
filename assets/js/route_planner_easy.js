@@ -11,6 +11,7 @@ document.addEventListener("includes:loaded", function () {
   const searchFeedback = document.getElementById("city-search-feedback");
   const searchContact = document.getElementById("city-search-contact");
   const searchInput = document.getElementById("city-search-input");
+  const GEO_CITY_DATA_URL = "/destinations/cities_geolocation.json";
 
   const isLocalHost =
     window.location.hostname === "localhost" ||
@@ -36,6 +37,8 @@ document.addEventListener("includes:loaded", function () {
   let pendingSelection = null;
   let pendingAutoSubmit = false;
   const countryDataCache = new Map();
+  let geoCityCache = null;
+  let geoCityLoadPromise = null;
 
   const countryMap = {
     Albania: "recommendations_Albania_easy.json",
@@ -412,9 +415,10 @@ document.addEventListener("includes:loaded", function () {
 
     resultDiv.innerHTML = html;
     resultWrapper.style.display = "block";
+    openPlannerPanel();
     setTimeout(() => {
       resultWrapper.scrollIntoView({ behavior: "smooth", block: "start" });
-    }, 50);
+    }, 150);
 
     // PDF
     savePdfBtn.onclick = function () {
@@ -554,6 +558,76 @@ document.addEventListener("includes:loaded", function () {
       : "";
   }
 
+  function renderSuggestionsList(container, suggestions) {
+    if (!container) return;
+    container.innerHTML = "";
+    if (!suggestions.length) return;
+
+    const list = document.createElement("ul");
+    list.className = "planner-search-suggestions";
+    suggestions.forEach(item => {
+      const li = document.createElement("li");
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = "planner-search-suggestion";
+      button.textContent = item.label;
+      button.addEventListener("click", () => {
+        if (searchInput) searchInput.value = item.city;
+        if (searchFeedback) searchFeedback.innerHTML = "";
+        if (window.routePlannerEasy?.selectLocation) {
+          window.routePlannerEasy.selectLocation(item.country, item.city, { autoSubmit: true });
+        }
+      });
+      li.appendChild(button);
+      list.appendChild(li);
+    });
+    container.appendChild(list);
+  }
+
+  function loadGeoCities() {
+    if (geoCityCache) return Promise.resolve(geoCityCache);
+    if (geoCityLoadPromise) return geoCityLoadPromise;
+
+    geoCityLoadPromise = fetch(GEO_CITY_DATA_URL)
+      .then((res) => (res.ok ? res.json() : []))
+      .then((data) => {
+        geoCityCache = Array.isArray(data) ? data : [];
+        return geoCityCache;
+      })
+      .catch(() => []);
+
+    return geoCityLoadPromise;
+  }
+
+  async function findGeoCityMatch(query) {
+    const normalizedQuery = normalizeName(query);
+    if (!normalizedQuery) return null;
+
+    const cities = await loadGeoCities();
+    return cities.find((city) => {
+      const name = normalizeName(city?.name);
+      const routeName = normalizeName(city?.routeCity);
+      return normalizedQuery === name || normalizedQuery === routeName;
+    }) || null;
+  }
+
+  async function resolveCityName(countryName, cityName) {
+    if (!countryName || !cityName) return cityName;
+    const normalizedCity = normalizeName(cityName);
+    if (!normalizedCity) return cityName;
+
+    const cities = await loadGeoCities();
+    const match = cities.find((city) => {
+      const sameCountry = normalizeName(city?.country) === normalizeName(countryName);
+      if (!sameCountry) return false;
+      const name = normalizeName(city?.name);
+      const routeName = normalizeName(city?.routeCity);
+      return normalizedCity === name || normalizedCity === routeName;
+    });
+
+    return match?.name || cityName;
+  }
+
   async function loadCountryData(countryName) {
     if (!countryName) return null;
     const cached = countryDataCache.get(countryName);
@@ -574,15 +648,72 @@ document.addEventListener("includes:loaded", function () {
     const normalizedQuery = normalizeName(query);
     if (!normalizedQuery) return null;
 
+    const geoMatch = await findGeoCityMatch(query);
+    if (geoMatch?.country && geoMatch?.name) {
+      return { country: geoMatch.country, city: geoMatch.name };
+    }
+
     for (const countryName of Object.keys(countryMap)) {
       const data = await loadCountryData(countryName);
-      const match = data?.cities?.find(city => normalizeName(city?.name) === normalizedQuery);
+      const match = data?.cities?.find(city => {
+        const name = normalizeName(city?.name);
+        const routeName = normalizeName(city?.routeCity);
+        return name === normalizedQuery || routeName === normalizedQuery;
+      });
       if (match) {
         return { country: countryName, city: match.name };
       }
     }
 
     return null;
+  }
+
+  async function getCitySuggestions(query, limit = 5) {
+    const normalizedQuery = normalizeName(query);
+    if (!normalizedQuery) return [];
+
+    const suggestions = [];
+    const seen = new Set();
+    const addSuggestion = (country, cityName, routeCity) => {
+      if (!cityName || !country) return;
+      const key = `${normalizeName(country)}|${normalizeName(cityName)}`;
+      if (seen.has(key)) return;
+      const routeLabel = routeCity && normalizeName(routeCity) !== normalizeName(cityName)
+        ? ` (${routeCity})`
+        : "";
+      suggestions.push({
+        country,
+        city: cityName,
+        label: `${cityName}${routeLabel} - ${country}`
+      });
+      seen.add(key);
+    };
+
+    const geoCities = await loadGeoCities();
+    if (geoCities.length) {
+      for (const city of geoCities) {
+        const name = normalizeName(city?.name);
+        const routeName = normalizeName(city?.routeCity);
+        if (name.includes(normalizedQuery) || routeName.includes(normalizedQuery)) {
+          addSuggestion(city?.country, city?.name, city?.routeCity);
+        }
+        if (suggestions.length >= limit) return suggestions;
+      }
+    }
+
+    for (const countryName of Object.keys(countryMap)) {
+      const data = await loadCountryData(countryName);
+      const cities = data?.cities || [];
+      for (const city of cities) {
+        const name = normalizeName(city?.name);
+        if (name.includes(normalizedQuery)) {
+          addSuggestion(countryName, city?.name);
+        }
+        if (suggestions.length >= limit) return suggestions;
+      }
+    }
+
+    return suggestions;
   }
 
   function applyPendingCitySelection() {
@@ -619,9 +750,10 @@ document.addEventListener("includes:loaded", function () {
   }
 
   window.routePlannerEasy = window.routePlannerEasy || {};
-  window.routePlannerEasy.selectLocation = function (countryName, cityName, options = {}) {
+  window.routePlannerEasy.selectLocation = async function (countryName, cityName, options = {}) {
     if (!countryName) return;
-    pendingSelection = { country: countryName, city: cityName };
+    const resolvedCity = await resolveCityName(countryName, cityName);
+    pendingSelection = { country: countryName, city: resolvedCity || cityName };
     pendingAutoSubmit = Boolean(options.autoSubmit);
 
     openPlannerPanel();
@@ -667,6 +799,32 @@ document.addEventListener("includes:loaded", function () {
   };
 
   document.dispatchEvent(new Event("routePlanner:ready"));
+
+  let suggestionTimer = null;
+  if (searchInput) {
+    searchInput.addEventListener("input", () => {
+      if (suggestionTimer) clearTimeout(suggestionTimer);
+      const query = searchInput.value.trim();
+
+      if (!query) {
+        if (searchFeedback) {
+          searchFeedback.textContent = "";
+          searchFeedback.style.color = "";
+        }
+        if (searchContact) searchContact.hidden = true;
+        return;
+      }
+
+      suggestionTimer = setTimeout(async () => {
+        const suggestions = await getCitySuggestions(query, 5);
+        if (searchFeedback) {
+          renderSuggestionsList(searchFeedback, suggestions);
+          searchFeedback.style.color = "";
+        }
+        if (searchContact) searchContact.hidden = true;
+      }, 200);
+    });
+  }
 });
 
 // ----------------------------------------------
