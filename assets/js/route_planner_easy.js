@@ -239,8 +239,8 @@ document.addEventListener("includes:loaded", function () {
       const data = {
         name: "City Suggestion",
         email: "noreply@placestovisit.com",
-        subject: "Sugestion from Places To Visit",
-        message: `User sugested:\n${cityName}.`,
+        subject: "Suggestion from Places To Visit",
+        message: `User suggested:\n${cityName}.`,
       };
 
       try {
@@ -253,7 +253,7 @@ document.addEventListener("includes:loaded", function () {
 
         if (response.ok) {
           if (searchFeedback) {
-            searchFeedback.textContent = "Thank You for Your sugestuin.";
+            searchFeedback.textContent = "Thank You for Your suggestuin.";
             searchFeedback.style.color = "#16a34a";
           }
           searchContact.hidden = true;
@@ -780,7 +780,7 @@ document.addEventListener("includes:loaded", function () {
       const match = await searchCityAcrossCountries(trimmed);
       if (!match) {
         if (searchFeedback) {
-          searchFeedback.textContent = "City not found. Make a sugestion !";
+          searchFeedback.textContent = "City not found. Make a suggestion !";
           searchFeedback.style.color = "";
         }
         if (searchContact) searchContact.hidden = false;
