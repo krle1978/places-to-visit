@@ -13,6 +13,7 @@ document.addEventListener("includes:loaded", function () {
   const errorMsg = document.getElementById("route-error");
   const resultWrapper = document.querySelector(".route-result-wrapper");
   const resultDiv = document.getElementById("route-result");
+  const resultTitle = document.querySelector(".route-result-title");
   const savePdfBtn = document.getElementById("save-pdf-btn");
 
   let selectedCountry = null;
@@ -290,6 +291,14 @@ document.addEventListener("includes:loaded", function () {
       return;
     }
 
+    if (resultTitle) {
+      const cityLabel = selectedCityObj?.name || citySelect.value;
+      const countryLabel = countrySelect?.value;
+      resultTitle.textContent = cityLabel && countryLabel
+        ? `Your Route for ${cityLabel}, ${countryLabel}`
+        : "Your Route";
+    }
+
     const tripType = tripTypeSelect.value;
     const interest = interestSelect.value;
     const food = foodSelect.value;
@@ -428,6 +437,7 @@ document.addEventListener("includes:loaded", function () {
 
     selectedCityObj = null;
     resultWrapper.style.display = "none";
+    if (resultTitle) resultTitle.textContent = "Your Route";
   }
 
   function resetCitySelections() {

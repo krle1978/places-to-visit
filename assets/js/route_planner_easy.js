@@ -7,6 +7,7 @@ document.addEventListener("includes:loaded", function () {
   const errorMsg = document.getElementById("route-error");
   const resultWrapper = document.querySelector(".route-result-wrapper");
   const resultDiv = document.getElementById("route-result");
+  const resultTitle = document.querySelector(".route-result-title");
   const savePdfBtn = document.getElementById("save-pdf-btn");
   const searchFeedback = document.getElementById("city-search-feedback");
   const searchContact = document.getElementById("city-search-contact");
@@ -341,6 +342,14 @@ document.addEventListener("includes:loaded", function () {
       return;
     }
 
+    if (resultTitle) {
+      const cityLabel = selectedCityObj?.name || citySelect.value;
+      const countryLabel = countrySelect?.value;
+      resultTitle.textContent = cityLabel && countryLabel
+        ? `Your Route for ${cityLabel}, ${countryLabel}`
+        : "Your Route";
+    }
+
     let html = "";
 
     // FULL DAY
@@ -456,6 +465,7 @@ document.addEventListener("includes:loaded", function () {
     submitBtn.disabled = true;
     selectedCityObj = null;
     resultWrapper.style.display = "none";
+    if (resultTitle) resultTitle.textContent = "Your Route";
   }
 
   function capitalize(text) {

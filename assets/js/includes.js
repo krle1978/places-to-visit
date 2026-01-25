@@ -89,5 +89,28 @@ window.addEventListener("DOMContentLoaded", async () => {
         }
     }
 
+    /* ============================================================
+       5. STATEFUL BUTTON IMAGES (hover/active/locked)
+    ============================================================ */
+    {
+        const statefulImages = document.querySelectorAll("img.stateful-btn-image");
+
+        statefulImages.forEach((img) => {
+            const defaultSrc = img.dataset.default;
+            const hoverSrc = img.dataset.hover;
+            const activeSrc = img.dataset.active;
+            const isLocked = () => img.dataset.locked === "true";
+            const setSrc = (src) => { if (src) img.src = src; };
+
+            img.addEventListener("mouseenter", () => { if (!isLocked()) setSrc(hoverSrc); });
+            img.addEventListener("mouseleave", () => { if (!isLocked()) setSrc(defaultSrc); });
+            img.addEventListener("mousedown", () => { if (!isLocked()) setSrc(activeSrc); });
+            img.addEventListener("mouseup", () => { if (!isLocked()) setSrc(hoverSrc); });
+            img.addEventListener("touchstart", () => { if (!isLocked()) setSrc(activeSrc); });
+            img.addEventListener("touchend", () => { if (!isLocked()) setSrc(defaultSrc); });
+            img.addEventListener("touchcancel", () => { if (!isLocked()) setSrc(defaultSrc); });
+        });
+    }
+
 });
 

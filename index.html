@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Places To Visit</title>
 
-    <meta name="description" content="Authentic travel stories across Romania — from gothic castles and vibrant cities to quiet autumn streets. Explore destinations through photos, history, culture, and personal adventures.">
+    <meta name="description" content="Authentic travel stories across Romania � from gothic castles and vibrant cities to quiet autumn streets. Explore destinations through photos, history, culture, and personal adventures.">
 
     <!-- ================================
          CSS
@@ -59,7 +59,7 @@
       <img src="/assets/images/backgrounds/main-hero.webp" alt="Young travelers exploring Europe">
     </div>
     <p>
-      Explore the coolest European cities through what you vibe with — art, history, architecture, street food, nightlife and more. Whether you're into chill museums or urban adventures, our smart planner builds an itinerary that’s totally your style.
+      Explore the coolest European cities through what you vibe with � art, history, architecture, street food, nightlife and more. Whether you're into chill museums or urban adventures, our smart planner builds an itinerary that�s totally your style.
     </p>
 
     </div>
@@ -99,7 +99,7 @@
             aria-label="Search city"
           >
           <div id="city-search-feedback" class="planner-search-feedback" aria-live="polite"></div>
-          <a href="contact.html" id="city-search-contact" class="planner-search-contact" aria-label="Write Us" hidden>Suggest Us 🙂</a>
+          <a href="contact.html" id="city-search-contact" class="planner-search-contact" aria-label="Write Us" hidden>Suggest Us ??</a>
           <button class="btn ghost image-btn" id="toggle-planner-btn" type="button" aria-label="Make Your Own City Visit"></button>
         </div>
         
@@ -107,7 +107,7 @@
           <img
             class="stateful-btn-image"
             src="/assets/images/buttons/PVB_RK/btn_pvbrk_original.png"
-            alt="Places Visited by Rade Krstić"
+            alt="Places Visited by Rade Krstic"
             data-default="/assets/images/buttons/PVB_RK/btn_pvbrk_original.png"
             data-hover="/assets/images/buttons/PVB_RK/btn_pvbrk_hower.png"
             data-active="/assets/images/buttons/PVB_RK/btn_pvbrk_click.png"
@@ -123,12 +123,12 @@
   <!-- Header koji otvara/zatvara panel -->
   <div class="route-planner-header" id="route-planner-toggle">
     <h2>Choose Your Place To Visit</h2>
-    <span class="route-arrow" id="route-arrow">▼</span>
+    <span class="route-arrow" id="route-arrow">↓</span>
   </div>
 
   <!-- Collapsible Panel -->
   <div id="route-planner-panel" class="route-planner-panel collapsed">
-    <!-- Učitavanje komponenti -->
+    <!-- Ucitavanje komponenti -->
     <div data-include="/components/route_planner_easy.html"></div>
   </div>
 
@@ -136,28 +136,8 @@
 
 <!-- FOOTER -->
 <div data-include="/components/footer.html"></div>
-<button id="scrollToTopBtn" class="scroll-top-btn">↑</button>
-
-<script>
-  document.addEventListener('DOMContentLoaded', () => {
-    const statefulImages = document.querySelectorAll('img.stateful-btn-image');
-    statefulImages.forEach((img) => {
-      const defaultSrc = img.dataset.default;
-      const hoverSrc = img.dataset.hover;
-      const activeSrc = img.dataset.active;
-      const isLocked = () => img.dataset.locked === "true";
-      const setSrc = (src) => { if (src) img.src = src; };
-
-      img.addEventListener('mouseenter', () => { if (!isLocked()) setSrc(hoverSrc); });
-      img.addEventListener('mouseleave', () => { if (!isLocked()) setSrc(defaultSrc); });
-      img.addEventListener('mousedown', () => { if (!isLocked()) setSrc(activeSrc); });
-      img.addEventListener('mouseup', () => { if (!isLocked()) setSrc(hoverSrc); });
-      img.addEventListener('touchstart', () => { if (!isLocked()) setSrc(activeSrc); });
-      img.addEventListener('touchend', () => { if (!isLocked()) setSrc(defaultSrc); });
-      img.addEventListener('touchcancel', () => { if (!isLocked()) setSrc(defaultSrc); });
-    });
-  });
-</script>
 
 </body>
 </html>
+
+
