@@ -62,11 +62,16 @@ window.addEventListener("DOMContentLoaded", async () => {
 
         if (scrollBtn) {
             window.addEventListener("scroll", () => {
-                scrollBtn.classList.toggle("show", window.scrollY > 400);
+                scrollBtn.classList.toggle("show", window.scrollY > 40);
             });
             scrollBtn.addEventListener("click", () => {
-                window.scrollTo({ top: 0, behavior: "smooth" });
+                const prefersReducedMotion =
+                    window.matchMedia &&
+                    window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+                window.scrollTo({ top: 0, behavior: prefersReducedMotion ? "auto" : "smooth" });
             });
+            scrollBtn.classList.toggle("show", window.scrollY > 40);
         }
     }
 

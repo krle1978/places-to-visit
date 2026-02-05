@@ -29,29 +29,47 @@ a {
 ============================================================ */
 .scroll-top-btn {
     position: fixed;
-    bottom: 32px;
-    right: 32px;
+    bottom: 20px;
+    right: 20px;
     width: 52px;
     height: 52px;
     border-radius: 50%;
-    background: #d4af37;
-    color: #ffffff;
-    border: 2px solid #b8860b;
+    background: #FFD700; /* Light golden-yellow */
+    color: #B8860B; /* Dark golden-yellow arrow */
+    border: 2px solid #B8860B; /* Dark golden-yellow border */
     cursor: pointer;
     font-size: 26px;
     display: flex;
     align-items: center;
     justify-content: center;
     opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
     pointer-events: none;
     box-shadow: 0 6px 16px rgba(0,0,0,0.18);
-    transition: opacity 0.3s ease;
-    z-index: 2000;
+    transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s ease, filter 0.2s ease;
+    z-index: 2400;
 }
 
 .scroll-top-btn.show {
     opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
     pointer-events: auto;
+}
+
+.scroll-top-btn:hover {
+    filter: brightness(1.05);
+}
+
+.scroll-top-btn:active {
+    filter: brightness(0.98);
+    transform: translateY(1px);
+}
+
+.scroll-top-btn:focus-visible {
+    outline: 3px solid rgba(184, 134, 11, 0.35);
+    outline-offset: 3px;
 }
 
 /* ============================================================
