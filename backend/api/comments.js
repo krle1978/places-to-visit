@@ -1,11 +1,14 @@
 const crypto = require("crypto");
 const fs = require("fs/promises");
 const path = require("path");
+const nodemailer = require("nodemailer");
 
 const VERSION = "comments-api-2026-01-16-2048";
 
 const memoryStore = new Map();
+const pendingMemoryStore = new Map();
 const localDirPath = path.join(process.cwd(), "data", "comments");
+const localPendingDirPath = path.join(process.cwd(), "data", "comments_pending");
 const legacyFilePath = path.join(process.cwd(), "data", "comments.json");
 
 // ----- Limits -----
@@ -36,6 +39,23 @@ const writeToMemory = (key, value) => {
   existing.push(value);
   const trimmed = existing.slice(-MAX_STORE_ITEMS);
   memoryStore.set(key, trimmed);
+  return trimmed;
+};
+
+// ----- Pending memory fallback -----
+const readPendingFromMemory = (key) => pendingMemoryStore.get(key) || [];
+
+const writePendingToMemory = (key, value) => {
+  const existing = pendingMemoryStore.get(key) || [];
+  existing.push(value);
+  const trimmed = existing.slice(-MAX_STORE_ITEMS);
+  pendingMemoryStore.set(key, trimmed);
+  return trimmed;
+};
+
+const overwritePendingMemory = (key, items) => {
+  const trimmed = Array.isArray(items) ? items.slice(-MAX_STORE_ITEMS) : [];
+  pendingMemoryStore.set(key, trimmed);
   return trimmed;
 };
 
@@ -71,10 +91,14 @@ const sanitizeKey = (key) => {
 };
 
 const toKvKey = (key) => `comments:${sanitizeKey(key)}`;
+const toKvPendingKey = (key) => `comments:pending:${sanitizeKey(key)}`;
 const toLocalKey = (key) => sanitizeKey(key);
 const toSingleFileKey = (key) => `comments:${sanitizeKey(key)}`;
+const toPendingSingleFileKey = (key) => `comments_pending:${sanitizeKey(key)}`;
 
 const getLocalFilePath = (localKey) => path.join(localDirPath, `${localKey}.json`);
+const getPendingLocalFilePath = (localKey) =>
+  path.join(localPendingDirPath, `${localKey}.json`);
 const useSingleFile = () => {
   const value = String(process.env.COMMENTS_SINGLE_FILE || "").trim().toLowerCase();
   return value === "1" || value === "true" || value === "yes";
@@ -148,9 +172,61 @@ const writeToLocal = async (key, value) => {
   return trimmed;
 };
 
+// ----- Pending local storage (dev) -----
+const readPendingFromLocal = async (key) => {
+  if (useSingleFile()) {
+    const all = await readFromFile(legacyFilePath);
+    const singleKey = toPendingSingleFileKey(key);
+    return Array.isArray(all[singleKey]) ? all[singleKey] : [];
+  }
+
+  const localKey = toLocalKey(key);
+  const filePath = getPendingLocalFilePath(localKey);
+  const data = await readFromFile(filePath);
+  return Array.isArray(data) ? data : [];
+};
+
+const writePendingToLocal = async (key, value) => {
+  if (useSingleFile()) {
+    const all = await readFromFile(legacyFilePath);
+    const singleKey = toPendingSingleFileKey(key);
+    const existing = Array.isArray(all[singleKey]) ? all[singleKey] : [];
+    existing.push(value);
+    const trimmed = existing.slice(-MAX_STORE_ITEMS);
+    all[singleKey] = trimmed;
+    await writeToFile(legacyFilePath, all);
+    return trimmed;
+  }
+
+  const localKey = toLocalKey(key);
+  const filePath = getPendingLocalFilePath(localKey);
+  const data = await readFromFile(filePath);
+  const existing = Array.isArray(data) ? data : [];
+  existing.push(value);
+  const trimmed = existing.slice(-MAX_STORE_ITEMS);
+  await writeToFile(filePath, trimmed);
+  return trimmed;
+};
+
+const overwritePendingLocal = async (key, items) => {
+  const trimmed = Array.isArray(items) ? items.slice(-MAX_STORE_ITEMS) : [];
+
+  if (useSingleFile()) {
+    const all = await readFromFile(legacyFilePath);
+    const singleKey = toPendingSingleFileKey(key);
+    all[singleKey] = trimmed;
+    await writeToFile(legacyFilePath, all);
+    return trimmed;
+  }
+
+  await writeToFile(getPendingLocalFilePath(toLocalKey(key)), trimmed);
+  return trimmed;
+};
+
 // ----- KV storage -----
-const readFromKv = async (kv, kvKey) => {
-  const items = await kv.lrange(kvKey, -MAX_RETURN_ITEMS, -1);
+const readFromKvRange = async (kv, kvKey, maxItems) => {
+  const safeMax = Number.isFinite(maxItems) ? Math.max(1, maxItems) : MAX_RETURN_ITEMS;
+  const items = await kv.lrange(kvKey, -safeMax, -1);
   return Array.isArray(items)
     ? items
         .map((item) => {
@@ -166,10 +242,24 @@ const readFromKv = async (kv, kvKey) => {
     : [];
 };
 
+const readFromKv = async (kv, kvKey) => {
+  return readFromKvRange(kv, kvKey, MAX_RETURN_ITEMS);
+};
+
 const writeToKv = async (kv, kvKey, value) => {
   await kv.rpush(kvKey, JSON.stringify(value));
   await kv.ltrim(kvKey, -MAX_STORE_ITEMS, -1);
   return readFromKv(kv, kvKey);
+};
+
+const overwriteKvList = async (kv, kvKey, items) => {
+  const trimmed = Array.isArray(items) ? items.slice(-MAX_STORE_ITEMS) : [];
+  await kv.del(kvKey);
+  if (trimmed.length) {
+    await kv.rpush(kvKey, ...trimmed.map((item) => JSON.stringify(item)));
+    await kv.ltrim(kvKey, -MAX_STORE_ITEMS, -1);
+  }
+  return trimmed;
 };
 
 // ----- Response -----
@@ -177,6 +267,100 @@ const jsonResponse = (res, status, payload) => {
   res.statusCode = status;
   res.setHeader("Content-Type", "application/json");
   res.end(JSON.stringify(payload));
+};
+
+const htmlResponse = (res, status, html) => {
+  res.statusCode = status;
+  res.setHeader("Content-Type", "text/html; charset=utf-8");
+  res.end(html);
+};
+
+// ----- Moderation -----
+const requireApproval = (() => {
+  const raw = String(process.env.COMMENTS_REQUIRE_APPROVAL || "true")
+    .trim()
+    .toLowerCase();
+  return !["0", "false", "no", "off"].includes(raw);
+})();
+
+const getModerationEmailTo = () =>
+  String(process.env.COMMENTS_MODERATION_EMAIL_TO || process.env.MAIL_USER || "krstic.rade@gmail.com")
+    .trim();
+
+const trimTrailingSlash = (url) => String(url || "").replace(/\/+$/g, "");
+
+const escapeHtml = (value) =>
+  String(value || "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/\"/g, "&quot;")
+    .replace(/'/g, "&#39;");
+
+const parseUrlSafe = (raw) => {
+  if (!raw) return null;
+  try {
+    return new URL(String(raw));
+  } catch {
+    return null;
+  }
+};
+
+const isLocalHostName = (hostname) =>
+  hostname === "localhost" || hostname === "127.0.0.1";
+
+const getModerationLinkBaseUrl = (req) => {
+  const configured = trimTrailingSlash(process.env.PUBLIC_SITE_URL);
+  if (configured) return configured;
+
+  const origin = trimTrailingSlash(req.headers.origin);
+  const originUrl = parseUrlSafe(origin);
+
+  const forwardedProtoHeader = String(req.headers["x-forwarded-proto"] || "").trim();
+  const forwardedProto = (forwardedProtoHeader.split(",")[0] || "").trim();
+  const fallbackProto = originUrl ? originUrl.protocol.replace(":", "") : "";
+  const proto = forwardedProto || fallbackProto || "https";
+
+  const host = String(req.headers["x-forwarded-host"] || req.headers.host || "").trim();
+
+  // Local dev: frontend runs on :3000 (live-server) but API runs on :3001 (express).
+  // Email links must point to the API host, otherwise you'll get "Cannot GET /api/comments" from live-server.
+  if (originUrl && isLocalHostName(originUrl.hostname) && host) {
+    const hostPort = host.includes(":") ? host.split(":").pop() : "";
+    if (originUrl.port && hostPort && originUrl.port !== hostPort) {
+      return `${proto}://${trimTrailingSlash(host)}`;
+    }
+  }
+
+  if (origin) return origin;
+  if (host) return `${proto}://${trimTrailingSlash(host)}`;
+
+  return "https://places-to-visit-byrk.vercel.app";
+};
+
+const sendModerationEmail = async ({ to, subject, text, html }) => {
+  const user = String(process.env.MAIL_USER || "").trim();
+  const pass = String(process.env.MAIL_PASS || "").trim();
+  if (!user || !pass || !to) {
+    return { ok: false, skipped: true };
+  }
+
+  const transporter = nodemailer.createTransport({
+    host: "smtp.gmail.com",
+    port: 465,
+    secure: true,
+    auth: { user, pass },
+  });
+
+  await transporter.sendMail({
+    from: `"Places To Visit" <${user}>`,
+    to,
+    subject,
+    text,
+    html,
+  });
+
+  return { ok: true };
 };
 
 // ----- Cookies / session -----
@@ -356,6 +540,93 @@ module.exports = async (req, res) => {
     });
   }
 
+  // Moderation actions (approve/reject via emailed links)
+  {
+    const action =
+      req.method === "GET" && req.query && req.query.action
+        ? String(req.query.action).trim().toLowerCase()
+        : "";
+
+    if (action === "approve" || action === "reject") {
+      const key = getKeyFromRequest(req);
+      const token = String((req.query && req.query.token) || "").trim();
+
+      if (!key || !token) {
+        return htmlResponse(
+          res,
+          400,
+          "<!doctype html><meta charset=\"utf-8\"><title>Invalid request</title><p>Missing key or token.</p>"
+        );
+      }
+
+      const kvPendingKey = toKvPendingKey(key);
+
+      let pending;
+      if (shouldUseKv) {
+        pending = await readFromKvRange(kv, kvPendingKey, MAX_STORE_ITEMS);
+      } else {
+        try {
+          pending = await readPendingFromLocal(key);
+        } catch {
+          pending = readPendingFromMemory(toLocalKey(key));
+        }
+      }
+
+      const index = Array.isArray(pending)
+        ? pending.findIndex((item) => item && item.token === token)
+        : -1;
+
+      if (index === -1) {
+        return htmlResponse(
+          res,
+          404,
+          "<!doctype html><meta charset=\"utf-8\"><title>Not found</title><p>This moderation link is invalid or expired.</p>"
+        );
+      }
+
+      const pendingEntry = pending[index];
+      pending.splice(index, 1);
+
+      if (shouldUseKv) {
+        await overwriteKvList(kv, kvPendingKey, pending);
+      } else {
+        try {
+          await overwritePendingLocal(key, pending);
+        } catch {
+          overwritePendingMemory(toLocalKey(key), pending);
+        }
+      }
+
+      if (action === "approve") {
+        const { token: _token, pageUrl: _pageUrl, ...approvedEntry } = pendingEntry || {};
+        approvedEntry.approvedAt = new Date().toISOString();
+
+        const kvKey = toKvKey(key);
+        if (shouldUseKv) {
+          await writeToKv(kv, kvKey, approvedEntry);
+        } else {
+          try {
+            await writeToLocal(key, approvedEntry);
+          } catch {
+            writeToMemory(toLocalKey(key), approvedEntry);
+          }
+        }
+
+        return htmlResponse(
+          res,
+          200,
+          "<!doctype html><meta charset=\"utf-8\"><title>Approved</title><p>Comment approved. It will now appear on the website.</p>"
+        );
+      }
+
+      return htmlResponse(
+        res,
+        200,
+        "<!doctype html><meta charset=\"utf-8\"><title>Rejected</title><p>Comment rejected and removed.</p>"
+      );
+    }
+  }
+
   if (req.method === "GET") {
     const key = getKeyFromRequest(req);
     if (!key) return jsonResponse(res, 400, { error: "Missing key." });
@@ -410,6 +681,99 @@ module.exports = async (req, res) => {
       };
 
       const kvKey = toKvKey(key);
+
+      if (requireApproval) {
+        const token = crypto.randomBytes(24).toString("base64url");
+        const pageUrl = String(payload.pageUrl || payload.page || payload.url || "").trim();
+        const pendingEntry = {
+          ...entry,
+          token,
+          pageUrl,
+        };
+
+        const kvPendingKey = toKvPendingKey(key);
+        if (shouldUseKv) {
+          await writeToKv(kv, kvPendingKey, pendingEntry);
+        } else {
+          try {
+            await writePendingToLocal(key, pendingEntry);
+          } catch {
+            writePendingToMemory(toLocalKey(key), pendingEntry);
+          }
+        }
+
+        const linkBase = getModerationLinkBaseUrl(req);
+        const approveUrl = `${linkBase}/api/comments?action=approve&key=${encodeURIComponent(
+          key
+        )}&token=${encodeURIComponent(token)}`;
+        const rejectUrl = `${linkBase}/api/comments?action=reject&key=${encodeURIComponent(
+          key
+        )}&token=${encodeURIComponent(token)}`;
+
+        const ip = getClientIp(req);
+        const emailText = [
+          "A new comment is pending approval.",
+          "",
+          `Key: ${key}`,
+          pageUrl ? `Page: ${pageUrl}` : null,
+          `Name: ${entry.name || "Anonymous"}`,
+          `IP: ${ip}`,
+          `Created: ${entry.createdAt}`,
+          "",
+          "Comment:",
+          entry.text || "",
+          "",
+          `Approve: ${approveUrl}`,
+          `Reject: ${rejectUrl}`,
+          "",
+          "— Places To Visit",
+        ]
+          .filter(Boolean)
+          .join("\n");
+
+        const emailHtml = `<!doctype html>
+<html>
+  <body style="font-family: Arial, sans-serif; line-height: 1.4;">
+    <p><strong>A new comment is pending approval.</strong></p>
+    <p>
+      <strong>Key:</strong> ${escapeHtml(key)}<br>
+      ${pageUrl ? `<strong>Page:</strong> <a href="${escapeHtml(pageUrl)}">${escapeHtml(pageUrl)}</a><br>` : ""}
+      <strong>Name:</strong> ${escapeHtml(entry.name || "Anonymous")}<br>
+      <strong>IP:</strong> ${escapeHtml(ip)}<br>
+      <strong>Created:</strong> ${escapeHtml(entry.createdAt)}
+    </p>
+    <p><strong>Comment:</strong></p>
+    <pre style="white-space: pre-wrap; background: #f6f8fa; padding: 12px; border-radius: 8px; border: 1px solid #e5e7eb;">${escapeHtml(
+      entry.text || ""
+    )}</pre>
+    <p>
+      <a href="${escapeHtml(approveUrl)}">Approve</a>
+      &nbsp;|&nbsp;
+      <a href="${escapeHtml(rejectUrl)}">Reject</a>
+    </p>
+    <p style="color: #6b7280; font-size: 12px;">— Places To Visit</p>
+  </body>
+</html>`;
+
+        try {
+          await sendModerationEmail({
+            to: getModerationEmailTo(),
+            subject: `Comment pending approval (${key})`,
+            text: emailText,
+            html: emailHtml,
+          });
+        } catch (error) {
+          console.error("Moderation email send failed:", error);
+          console.log("Approve link:", approveUrl);
+          console.log("Reject link:", rejectUrl);
+        }
+
+        return jsonResponse(res, 202, {
+          pending: true,
+          message: "Thanks! Your comment has been submitted and is pending approval.",
+          createdId: entry.id,
+        });
+      }
 
       let data;
       if (shouldUseKv) {

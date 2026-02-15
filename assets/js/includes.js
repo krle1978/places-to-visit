@@ -44,6 +44,28 @@ window.addEventListener("DOMContentLoaded", async () => {
                 }
             }
 
+            /* ------------------------------
+               Comments section (comments-section.html)
+            ------------------------------ */
+            if (file.includes("comments-section.html")) {
+                const section = el.querySelector(".comments-section");
+                if (section) {
+                    const commentKey = (el.dataset.commentKey || "").trim();
+                    if (commentKey) {
+                        section.setAttribute("data-comment-key", commentKey);
+                    }
+
+                    const placeName = (el.dataset.placeName || "").trim();
+                    const textarea = section.querySelector("#comment-text");
+                    if (textarea && placeName) {
+                        textarea.setAttribute(
+                            "placeholder",
+                            `Your advice for visiting ${placeName}`
+                        );
+                    }
+                }
+            }
+
         } catch (err) {
             console.error("Include failed:", err);
         }
@@ -52,6 +74,7 @@ window.addEventListener("DOMContentLoaded", async () => {
     await Promise.all(Array.from(includes).map(loadInclude));
 
     // Signal za druge skripte da su svi includes gotovi
+    window.__INCLUDES_LOADED = true;
     document.dispatchEvent(new CustomEvent("includes:loaded"));
     
     /* ============================================================

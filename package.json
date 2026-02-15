@@ -5,7 +5,7 @@
   "description": "Static HTML/CSS/JS site for travel ideas",
   "scripts": {
     "start": "node backend/server.js",
-    "dev": "live-server --host=localhost --port=3000 --open=./index.html --ignore=backend/**",
+    "dev": "live-server --host=localhost --port=3000 --open=./index.html --ignore=**/node_modules/**,backend/**,.git/**,.vercel/**",
     "dev:all": "node scripts/dev-all.js",
     "start:all": "npm run dev:all",
     "preview": "http-server . -o",

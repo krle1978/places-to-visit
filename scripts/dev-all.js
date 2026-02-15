@@ -22,7 +22,7 @@ const frontend = spawn(
     "--host=localhost",
     "--port=3000",
     "--open=./index.html",
-    "--ignore=backend/**",
+    "--ignore=**/node_modules/**,backend/**,.git/**,.vercel/**",
   ],
   spawnOpts
 );
